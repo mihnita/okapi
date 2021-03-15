@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefproperclasspath.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.database.classpath</source>
+<seg-source><mrk mid="0" mtype="seg">derby.database.classpath</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.database.classpath</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">derby.database.classpath</source>
+<seg-source><mrk mid="0" mtype="seg">derby.database.classpath</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.database.classpath</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">database-wide properties</source>
+<seg-source><mrk mid="0" mtype="seg">database-wide properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">database-wide properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">setting classpath for jar files</source>
+<seg-source><mrk mid="0" mtype="seg">setting classpath for jar files</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setting classpath for jar files</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Specifies the classpath that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> should use when searching for jar files in a database. This property must be set to enable <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> to load classes from jar files installed with the <bpt id="3" ctype="x-xref">&lt;xref
+href="rrefstorejarinstall.dita#rrefstorejarinstall"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the classpath that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> should use when searching for jar files in a database.</mrk><mrk mid="1" mtype="seg"> This property must be set to enable <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> to load classes from jar files installed with the <bpt id="3" ctype="x-xref">&lt;xref
+href="rrefstorejarinstall.dita#rrefstorejarinstall"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the classpath that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> should use when searching for jar files in a database.</mrk><mrk mid="1" mtype="seg"> This property must be set to enable <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> to load classes from jar files installed with the <bpt id="3" ctype="x-xref">&lt;xref
+href="rrefstorejarinstall.dita#rrefstorejarinstall"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Make sure to do the following:</source>
+<seg-source><mrk mid="0" mtype="seg">Make sure to do the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Make sure to do the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Separate jar files with a colon (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>:<ept id="1">&lt;/codeph&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">Separate jar files with a colon (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>:<ept id="1">&lt;/codeph&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Separate jar files with a colon (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>:<ept id="1">&lt;/codeph&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Use fully qualified identifiers for the jar files (schema name and jar name).</source>
+<seg-source><mrk mid="0" mtype="seg">Use fully qualified identifiers for the jar files (schema name and jar name).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use fully qualified identifiers for the jar files (schema name and jar name).</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Set the property as a database-level property for the database.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the property as a database-level property for the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the property as a database-level property for the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> searches the user's classpath before it searches the jar files specified by the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.database.classpath<ept id="2">&lt;/i&gt;</ept> property setting. To force <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> to search the database only, remove the classes from the user classpath.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> searches the user's classpath before it searches the jar files specified by the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.database.classpath<ept id="2">&lt;/i&gt;</ept> property setting.</mrk><mrk mid="1" mtype="seg"> To force <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> to search the database only, remove the classes from the user classpath.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> searches the user's classpath before it searches the jar files specified by the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.database.classpath<ept id="2">&lt;/i&gt;</ept> property setting.</mrk><mrk mid="1" mtype="seg"> To force <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> to search the database only, remove the classes from the user classpath.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> searches for classes and resources in the order specified by the property setting.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> searches for classes and resources in the order specified by the property setting.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> searches for classes and resources in the order specified by the property setting.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">For more information, see the section "Loading classes from a database" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>. For reference information on system procedures for storing jar files in a database, see "<bpt id="2" ctype="x-xref">&lt;xref href="crefstorejardb.dita#crefstorejardb"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>."</source>
+<seg-source><mrk mid="0" mtype="seg">For more information, see the section "Loading classes from a database" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> For reference information on system procedures for storing jar files in a database, see "<bpt id="2" ctype="x-xref">&lt;xref href="crefstorejardb.dita#crefstorejardb"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>."</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information, see the section "Loading classes from a database" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> For reference information on system procedures for storing jar files in a database, see "<bpt id="2" ctype="x-xref">&lt;xref href="crefstorejardb.dita#crefstorejardb"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>."</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- database-level property CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.classpath', '<bpt id="2" ctype="x-b">&lt;b&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>colonSeparatedJarFiles<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/b&gt;</ept>')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- database-level property CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.classpath', '<bpt id="2" ctype="x-b">&lt;b&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>colonSeparatedJarFiles<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/b&gt;</ept>')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- database-level property CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.classpath', '<bpt id="2" ctype="x-b">&lt;b&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>colonSeparatedJarFiles<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/b&gt;</ept>')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- database-level property CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.classpath', 'APP.ToursLogic:APP.ACCOUNTINGLOGIC')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- database-level property CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.classpath', 'APP.ToursLogic:APP.ACCOUNTINGLOGIC')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- database-level property CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.classpath', 'APP.ToursLogic:APP.ACCOUNTINGLOGIC')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Dynamic or static</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic or static</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic or static</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Dynamic; the change takes effect immediately. For information about dynamic changes to properties, see <ph id="1" ctype="x-xref">&lt;xref href="crefproperdynstat.dita#crefproperdynstat"/&gt;</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic; the change takes effect immediately.</mrk><mrk mid="1" mtype="seg"> For information about dynamic changes to properties, see <ph id="1" ctype="x-xref">&lt;xref href="crefproperdynstat.dita#crefproperdynstat"/&gt;</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic; the change takes effect immediately.</mrk><mrk mid="1" mtype="seg"> For information about dynamic changes to properties, see <ph id="1" ctype="x-xref">&lt;xref href="crefproperdynstat.dita#crefproperdynstat"/&gt;</ph>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

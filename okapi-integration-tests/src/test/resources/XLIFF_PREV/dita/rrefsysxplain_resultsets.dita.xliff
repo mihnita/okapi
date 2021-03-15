@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsysxplain_resultsets.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSXPLAIN_RESULTSETS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSETS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSETS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The SYSXPLAIN_RESULTSETS table captures information about each result set which is part of a statement that has been executed using RUNTIMESTATISTICS with XPLAIN style.</source>
+<seg-source><mrk mid="0" mtype="seg">The SYSXPLAIN_RESULTSETS table captures information about each result set which is part of a statement that has been executed using RUNTIMESTATISTICS with XPLAIN style.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SYSXPLAIN_RESULTSETS table captures information about each result set which is part of a statement that has been executed using RUNTIMESTATISTICS with XPLAIN style.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">system tables</source>
+<seg-source><mrk mid="0" mtype="seg">system tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SYSXPLAIN_RESULTSETS</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSETS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSETS</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">XPLAIN style statistics</source>
+<seg-source><mrk mid="0" mtype="seg">XPLAIN style statistics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XPLAIN style statistics</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SYSXPLAIN_RESULTSETS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSETS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSETS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SYSXPLAIN_RESULTSETS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSETS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSETS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on how to configure this.</source>
+<seg-source><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on how to configure this.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on how to configure this.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Most statements have at least one result set associated with them, and some complex statements may have many result sets associated with them. Some statements, for example DDL statements such as CREATE TABLE, have no result sets associated with them.</source>
+<seg-source><mrk mid="0" mtype="seg">Most statements have at least one result set associated with them, and some complex statements may have many result sets associated with them.</mrk><mrk mid="1" mtype="seg"> Some statements, for example DDL statements such as CREATE TABLE, have no result sets associated with them.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Most statements have at least one result set associated with them, and some complex statements may have many result sets associated with them.</mrk><mrk mid="1" mtype="seg"> Some statements, for example DDL statements such as CREATE TABLE, have no result sets associated with them.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Each row in this table describes a particular result set used by a particular statement. Rows in this table are typically joined with rows in SYSXPLAIN_STATEMENTS during analysis:</source>
+<seg-source><mrk mid="0" mtype="seg">Each row in this table describes a particular result set used by a particular statement.</mrk><mrk mid="1" mtype="seg"> Rows in this table are typically joined with rows in SYSXPLAIN_STATEMENTS during analysis:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Each row in this table describes a particular result set used by a particular statement.</mrk><mrk mid="1" mtype="seg"> Rows in this table are typically joined with rows in SYSXPLAIN_STATEMENTS during analysis:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">select st.stmt_text, rs.op_identifier from my_stats.sysxplain_statements st join my_stats.sysxplain_resultsets rs on st.stmt_id = rs.stmt_id</source>
+<seg-source><mrk mid="0" mtype="seg">select st.stmt_text, rs.op_identifier from my_stats.sysxplain_statements st join my_stats.sysxplain_resultsets rs on st.stmt_id = rs.stmt_id</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">select st.stmt_text, rs.op_identifier from my_stats.sysxplain_statements st join my_stats.sysxplain_resultsets rs on st.stmt_id = rs.stmt_id</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Rows in this table are added automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has been configured appropriately. The rows remain in the table until you delete them or drop the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Rows in this table are added automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has been configured appropriately.</mrk><mrk mid="1" mtype="seg"> The rows remain in the table until you delete them or drop the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Rows in this table are added automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has been configured appropriately.</mrk><mrk mid="1" mtype="seg"> The rows remain in the table until you delete them or drop the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The following table shows the contents of the SYSXPLAIN_RESULTSETS system table.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table shows the contents of the SYSXPLAIN_RESULTSETS system table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table shows the contents of the SYSXPLAIN_RESULTSETS system table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">SYSXPLAIN_RESULTSETS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSETS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSETS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">For each column in the SYSXPLAIN_RESULTSETS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</source>
+<seg-source><mrk mid="0" mtype="seg">For each column in the SYSXPLAIN_RESULTSETS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For each column in the SYSXPLAIN_RESULTSETS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Column Name</source>
+<seg-source><mrk mid="0" mtype="seg">Column Name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column Name</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Length</source>
+<seg-source><mrk mid="0" mtype="seg">Length</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Length</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Nullable</source>
+<seg-source><mrk mid="0" mtype="seg">Nullable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nullable</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Contents</source>
+<seg-source><mrk mid="0" mtype="seg">Contents</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contents</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">RS_ID</source>
+<seg-source><mrk mid="0" mtype="seg">RS_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RS_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">36</source>
+<seg-source><mrk mid="0" mtype="seg">36</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">36</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">A unique identifier for this particular row.</source>
+<seg-source><mrk mid="0" mtype="seg">A unique identifier for this particular row.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A unique identifier for this particular row.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">OP_IDENTIFIER</source>
+<seg-source><mrk mid="0" mtype="seg">OP_IDENTIFIER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OP_IDENTIFIER</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">32,672</source>
+<seg-source><mrk mid="0" mtype="seg">32,672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,672</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">A code indicating what type of result set these statistics are for. Common result set types include TABLESCAN, INDEXSCAN, and PROJECTION.</source>
+<seg-source><mrk mid="0" mtype="seg">A code indicating what type of result set these statistics are for.</mrk><mrk mid="1" mtype="seg"> Common result set types include TABLESCAN, INDEXSCAN, and PROJECTION.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A code indicating what type of result set these statistics are for.</mrk><mrk mid="1" mtype="seg"> Common result set types include TABLESCAN, INDEXSCAN, and PROJECTION.</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">OP_DETAILS</source>
+<seg-source><mrk mid="0" mtype="seg">OP_DETAILS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OP_DETAILS</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">32,672</source>
+<seg-source><mrk mid="0" mtype="seg">32,672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,672</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">Additional string information which varies for each different type of result set. Interpreting this information currently requires reading the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> source code to know what values are being displayed here.</source>
+<seg-source><mrk mid="0" mtype="seg">Additional string information which varies for each different type of result set.</mrk><mrk mid="1" mtype="seg"> Interpreting this information currently requires reading the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> source code to know what values are being displayed here.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Additional string information which varies for each different type of result set.</mrk><mrk mid="1" mtype="seg"> Interpreting this information currently requires reading the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> source code to know what values are being displayed here.</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">NO_OPENS</source>
+<seg-source><mrk mid="0" mtype="seg">NO_OPENS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NO_OPENS</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">Number of times this result set was opened during execution of the containing statement.</source>
+<seg-source><mrk mid="0" mtype="seg">Number of times this result set was opened during execution of the containing statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of times this result set was opened during execution of the containing statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">NO_INDEX_UPDATES</source>
+<seg-source><mrk mid="0" mtype="seg">NO_INDEX_UPDATES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NO_INDEX_UPDATES</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">The number of index updates performed by this result set. This value is NULL for result sets used by queries, but may have a non-zero value for modification statements such as INSERT, UPDATE, or DELETE.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of index updates performed by this result set.</mrk><mrk mid="1" mtype="seg"> This value is NULL for result sets used by queries, but may have a non-zero value for modification statements such as INSERT, UPDATE, or DELETE.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of index updates performed by this result set.</mrk><mrk mid="1" mtype="seg"> This value is NULL for result sets used by queries, but may have a non-zero value for modification statements such as INSERT, UPDATE, or DELETE.</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">LOCK_MODE</source>
+<seg-source><mrk mid="0" mtype="seg">LOCK_MODE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOCK_MODE</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">2</source>
+<seg-source><mrk mid="0" mtype="seg">2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">A code indicating the locking level that was used for this result set: <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'EX'<ept id="1">&lt;/i&gt;</ept> for exclusive table-level locking, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'SH'<ept id="2">&lt;/i&gt;</ept> for share table-level locking, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'IX<ept id="3">&lt;/i&gt;</ept>' for exclusive row-level locking, or <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>'IS'<ept id="4">&lt;/i&gt;</ept> for share row-level locking.</source>
+<seg-source><mrk mid="0" mtype="seg">A code indicating the locking level that was used for this result set: <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'EX'<ept id="1">&lt;/i&gt;</ept> for exclusive table-level locking, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'SH'<ept id="2">&lt;/i&gt;</ept> for share table-level locking, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'IX<ept id="3">&lt;/i&gt;</ept>' for exclusive row-level locking, or <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>'IS'<ept id="4">&lt;/i&gt;</ept> for share row-level locking.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A code indicating the locking level that was used for this result set: <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'EX'<ept id="1">&lt;/i&gt;</ept> for exclusive table-level locking, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'SH'<ept id="2">&lt;/i&gt;</ept> for share table-level locking, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'IX<ept id="3">&lt;/i&gt;</ept>' for exclusive row-level locking, or <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>'IS'<ept id="4">&lt;/i&gt;</ept> for share row-level locking.</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">LOCK_GRANULARITY</source>
+<seg-source><mrk mid="0" mtype="seg">LOCK_GRANULARITY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOCK_GRANULARITY</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">A code indicating the locking granularity that was used for this result set: <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'T'<ept id="1">&lt;/i&gt;</ept> for table-level locking, or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'R'<ept id="2">&lt;/i&gt;</ept> for row-level locking.</source>
+<seg-source><mrk mid="0" mtype="seg">A code indicating the locking granularity that was used for this result set: <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'T'<ept id="1">&lt;/i&gt;</ept> for table-level locking, or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'R'<ept id="2">&lt;/i&gt;</ept> for row-level locking.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A code indicating the locking granularity that was used for this result set: <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'T'<ept id="1">&lt;/i&gt;</ept> for table-level locking, or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'R'<ept id="2">&lt;/i&gt;</ept> for row-level locking.</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">PARENT_RS_ID</source>
+<seg-source><mrk mid="0" mtype="seg">PARENT_RS_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PARENT_RS_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">36</source>
+<seg-source><mrk mid="0" mtype="seg">36</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">36</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">The result sets for a particular statement are arranged in a parent-child tree structure. The output rows from one result set are delivered as the input rows to its parent. This column stores the identifier of the parent result set. For the outermost result set in a particular statement, this column is NULL. Note that sometimes there are multiple result sets with the same parent result set (that is, some nodes have multiple children): for example, a UNION result set will have two child result sets, representing the two sets of rows which are UNIONed together.</source>
+<seg-source><mrk mid="0" mtype="seg">The result sets for a particular statement are arranged in a parent-child tree structure.</mrk><mrk mid="1" mtype="seg"> The output rows from one result set are delivered as the input rows to its parent.</mrk><mrk mid="2" mtype="seg"> This column stores the identifier of the parent result set.</mrk><mrk mid="3" mtype="seg"> For the outermost result set in a particular statement, this column is NULL.</mrk><mrk mid="4" mtype="seg"> Note that sometimes there are multiple result sets with the same parent result set (that is, some nodes have multiple children): for example, a UNION result set will have two child result sets, representing the two sets of rows which are UNIONed together.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The result sets for a particular statement are arranged in a parent-child tree structure.</mrk><mrk mid="1" mtype="seg"> The output rows from one result set are delivered as the input rows to its parent.</mrk><mrk mid="2" mtype="seg"> This column stores the identifier of the parent result set.</mrk><mrk mid="3" mtype="seg"> For the outermost result set in a particular statement, this column is NULL.</mrk><mrk mid="4" mtype="seg"> Note that sometimes there are multiple result sets with the same parent result set (that is, some nodes have multiple children): for example, a UNION result set will have two child result sets, representing the two sets of rows which are UNIONed together.</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">EST_ROW_COUNT</source>
+<seg-source><mrk mid="0" mtype="seg">EST_ROW_COUNT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EST_ROW_COUNT</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">DOUBLE</source>
+<seg-source><mrk mid="0" mtype="seg">DOUBLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DOUBLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">52</source>
+<seg-source><mrk mid="0" mtype="seg">52</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">52</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en">The optimizer's estimate of the total number of rows for this result set.</source>
+<seg-source><mrk mid="0" mtype="seg">The optimizer's estimate of the total number of rows for this result set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The optimizer's estimate of the total number of rows for this result set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">EST_COST</source>
+<seg-source><mrk mid="0" mtype="seg">EST_COST</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EST_COST</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">DOUBLE</source>
+<seg-source><mrk mid="0" mtype="seg">DOUBLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DOUBLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">52</source>
+<seg-source><mrk mid="0" mtype="seg">52</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">52</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en">The optimizer's estimated cost for this result set. The value indicates the number of milliseconds that the optimizer estimates it will take to process this result set.</source>
+<seg-source><mrk mid="0" mtype="seg">The optimizer's estimated cost for this result set.</mrk><mrk mid="1" mtype="seg"> The value indicates the number of milliseconds that the optimizer estimates it will take to process this result set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The optimizer's estimated cost for this result set.</mrk><mrk mid="1" mtype="seg"> The value indicates the number of milliseconds that the optimizer estimates it will take to process this result set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en">AFFECTED_ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">AFFECTED_ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AFFECTED_ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu74">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu75">
+<source xml:lang="en">This column is non-null only for INSERT, UPDATE, and DELETE result sets. For those result sets, this column holds the number of rows which were inserted, updated, or deleted, respectively.</source>
+<seg-source><mrk mid="0" mtype="seg">This column is non-null only for INSERT, UPDATE, and DELETE result sets.</mrk><mrk mid="1" mtype="seg"> For those result sets, this column holds the number of rows which were inserted, updated, or deleted, respectively.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This column is non-null only for INSERT, UPDATE, and DELETE result sets.</mrk><mrk mid="1" mtype="seg"> For those result sets, this column holds the number of rows which were inserted, updated, or deleted, respectively.</mrk></target>
+</trans-unit>
+<trans-unit id="tu76">
+<source xml:lang="en">DEFERRED_ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">DEFERRED_ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DEFERRED_ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu77">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu78">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu79">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu80">
+<source xml:lang="en">This column is only non-null for INSERT, UPDATE, and DELETE result sets. For those result sets, this column holds <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="1">&lt;/i&gt;</ept> if the INSERT/UPDATE/DELETE is being performed using deferred change semantics, and holds <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="2">&lt;/i&gt;</ept> otherwise. Deferred change semantics are used when self-referencing is taking place.</source>
+<seg-source><mrk mid="0" mtype="seg">This column is only non-null for INSERT, UPDATE, and DELETE result sets.</mrk><mrk mid="1" mtype="seg"> For those result sets, this column holds <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="1">&lt;/i&gt;</ept> if the INSERT/UPDATE/DELETE is being performed using deferred change semantics, and holds <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="2">&lt;/i&gt;</ept> otherwise.</mrk><mrk mid="2" mtype="seg"> Deferred change semantics are used when self-referencing is taking place.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This column is only non-null for INSERT, UPDATE, and DELETE result sets.</mrk><mrk mid="1" mtype="seg"> For those result sets, this column holds <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="1">&lt;/i&gt;</ept> if the INSERT/UPDATE/DELETE is being performed using deferred change semantics, and holds <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="2">&lt;/i&gt;</ept> otherwise.</mrk><mrk mid="2" mtype="seg"> Deferred change semantics are used when self-referencing is taking place.</mrk></target>
+</trans-unit>
+<trans-unit id="tu81">
+<source xml:lang="en">INPUT_ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">INPUT_ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INPUT_ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu82">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu83">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu84">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu85">
+<source xml:lang="en">This column is used for SORT, AGGREGATE, and GROUPBY result sets, and indicates the number of rows that were input to the result set, and thus were sorted by the sorter.</source>
+<seg-source><mrk mid="0" mtype="seg">This column is used for SORT, AGGREGATE, and GROUPBY result sets, and indicates the number of rows that were input to the result set, and thus were sorted by the sorter.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This column is used for SORT, AGGREGATE, and GROUPBY result sets, and indicates the number of rows that were input to the result set, and thus were sorted by the sorter.</mrk></target>
+</trans-unit>
+<trans-unit id="tu86">
+<source xml:lang="en">SEEN_ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">SEEN_ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SEEN_ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu87">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu88">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu89">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu90">
+<source xml:lang="en">For join and set nodes, this is the number of rows seen by the "left" side of the processing. For aggregate, group, sort, normalize, materialize, and certain other nodes, this is the number of rows seen.</source>
+<seg-source><mrk mid="0" mtype="seg">For join and set nodes, this is the number of rows seen by the "left" side of the processing.</mrk><mrk mid="1" mtype="seg"> For aggregate, group, sort, normalize, materialize, and certain other nodes, this is the number of rows seen.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For join and set nodes, this is the number of rows seen by the "left" side of the processing.</mrk><mrk mid="1" mtype="seg"> For aggregate, group, sort, normalize, materialize, and certain other nodes, this is the number of rows seen.</mrk></target>
+</trans-unit>
+<trans-unit id="tu91">
+<source xml:lang="en">SEEN_ROWS_RIGHT</source>
+<seg-source><mrk mid="0" mtype="seg">SEEN_ROWS_RIGHT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SEEN_ROWS_RIGHT</mrk></target>
+</trans-unit>
+<trans-unit id="tu92">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu93">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu94">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu95">
+<source xml:lang="en">For join and set nodes, this is the number of rows seen by the "right" side of the processing. For example, in the statement</source>
+<seg-source><mrk mid="0" mtype="seg">For join and set nodes, this is the number of rows seen by the "right" side of the processing.</mrk><mrk mid="1" mtype="seg"> For example, in the statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For join and set nodes, this is the number of rows seen by the "right" side of the processing.</mrk><mrk mid="1" mtype="seg"> For example, in the statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu96">
+<source xml:lang="en">select country from countries union select country from countries where region = 'Africa'</source>
+<seg-source><mrk mid="0" mtype="seg">select country from countries union select country from countries where region = 'Africa'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">select country from countries union select country from countries where region = 'Africa'</mrk></target>
+</trans-unit>
+<trans-unit id="tu97">
+<source xml:lang="en">the UNION result set has SEEN_ROWS = 6 and SEEN_ROWS_RIGHT = 19.</source>
+<seg-source><mrk mid="0" mtype="seg">the UNION result set has SEEN_ROWS = 6 and SEEN_ROWS_RIGHT = 19.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the UNION result set has SEEN_ROWS = 6 and SEEN_ROWS_RIGHT = 19.</mrk></target>
+</trans-unit>
+<trans-unit id="tu98">
+<source xml:lang="en">FILTERED_ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">FILTERED_ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FILTERED_ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu99">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu100">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu101">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu102">
+<source xml:lang="en">This column holds the number of rows which were eliminated from the result set during processing.</source>
+<seg-source><mrk mid="0" mtype="seg">This column holds the number of rows which were eliminated from the result set during processing.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This column holds the number of rows which were eliminated from the result set during processing.</mrk></target>
+</trans-unit>
+<trans-unit id="tu103">
+<source xml:lang="en">RETURNED_ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">RETURNED_ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RETURNED_ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu104">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu105">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu106">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu107">
+<source xml:lang="en">This column holds the number of rows which were returned by the result set to its caller. Generally speaking, the number of returned rows is the number of rows INPUT or SEEN, minus the number of rows FILTERED.</source>
+<seg-source><mrk mid="0" mtype="seg">This column holds the number of rows which were returned by the result set to its caller.</mrk><mrk mid="1" mtype="seg"> Generally speaking, the number of returned rows is the number of rows INPUT or SEEN, minus the number of rows FILTERED.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This column holds the number of rows which were returned by the result set to its caller.</mrk><mrk mid="1" mtype="seg"> Generally speaking, the number of returned rows is the number of rows INPUT or SEEN, minus the number of rows FILTERED.</mrk></target>
+</trans-unit>
+<trans-unit id="tu108">
+<source xml:lang="en">EMPTY_RIGHT_ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">EMPTY_RIGHT_ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EMPTY_RIGHT_ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu109">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu110">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu111">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu112">
+<source xml:lang="en">This column is used for left outer joins, and, if not null, holds the number of empty rows which had to be constructed because no existing rows met the join criteria.</source>
+<seg-source><mrk mid="0" mtype="seg">This column is used for left outer joins, and, if not null, holds the number of empty rows which had to be constructed because no existing rows met the join criteria.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This column is used for left outer joins, and, if not null, holds the number of empty rows which had to be constructed because no existing rows met the join criteria.</mrk></target>
+</trans-unit>
+<trans-unit id="tu113">
+<source xml:lang="en">INDEX_KEY_OPT</source>
+<seg-source><mrk mid="0" mtype="seg">INDEX_KEY_OPT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INDEX_KEY_OPT</mrk></target>
+</trans-unit>
+<trans-unit id="tu114">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu115">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu116">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu117">
+<source xml:lang="en">This column records when the Index Key Optimization is used. The Index Key Optimization is a special optimization which occurs when a query references the MAX or MIN value of a column which happens to have an index, and so the MIN or MAX computation can be performed by fetching the first or last, respectively, entry in the index, as in:</source>
+<seg-source><mrk mid="0" mtype="seg">This column records when the Index Key Optimization is used.</mrk><mrk mid="1" mtype="seg"> The Index Key Optimization is a special optimization which occurs when a query references the MAX or MIN value of a column which happens to have an index, and so the MIN or MAX computation can be performed by fetching the first or last, respectively, entry in the index, as in:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This column records when the Index Key Optimization is used.</mrk><mrk mid="1" mtype="seg"> The Index Key Optimization is a special optimization which occurs when a query references the MAX or MIN value of a column which happens to have an index, and so the MIN or MAX computation can be performed by fetching the first or last, respectively, entry in the index, as in:</mrk></target>
+</trans-unit>
+<trans-unit id="tu118">
+<source xml:lang="en">select max(country_iso_code) from countries</source>
+<seg-source><mrk mid="0" mtype="seg">select max(country_iso_code) from countries</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">select max(country_iso_code) from countries</mrk></target>
+</trans-unit>
+<trans-unit id="tu119">
+<source xml:lang="en">SCAN_RS_ID</source>
+<seg-source><mrk mid="0" mtype="seg">SCAN_RS_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SCAN_RS_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu120">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu121">
+<source xml:lang="en">36</source>
+<seg-source><mrk mid="0" mtype="seg">36</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">36</mrk></target>
+</trans-unit>
+<trans-unit id="tu122">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu123">
+<source xml:lang="en">If this resultset is one of the resultset types which performs a scan of a table or index, this column contains the id value which identifies the particular row in SYSXPLAIN_SCAN_PROPS that describes the statistics related to the scan behavior.</source>
+<seg-source><mrk mid="0" mtype="seg">If this resultset is one of the resultset types which performs a scan of a table or index, this column contains the id value which identifies the particular row in SYSXPLAIN_SCAN_PROPS that describes the statistics related to the scan behavior.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If this resultset is one of the resultset types which performs a scan of a table or index, this column contains the id value which identifies the particular row in SYSXPLAIN_SCAN_PROPS that describes the statistics related to the scan behavior.</mrk></target>
+</trans-unit>
+<trans-unit id="tu124">
+<source xml:lang="en">SORT_RS_ID</source>
+<seg-source><mrk mid="0" mtype="seg">SORT_RS_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SORT_RS_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu125">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu126">
+<source xml:lang="en">36</source>
+<seg-source><mrk mid="0" mtype="seg">36</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">36</mrk></target>
+</trans-unit>
+<trans-unit id="tu127">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu128">
+<source xml:lang="en">If this resultset is one of the resultset types which performs a sort of a table or index, this column contains the id value which identifies the particular row in SYSXPLAIN_SORT_PROPS that describes the statistics related to the sort behavior. The most common situations which involve sorting of the data are when processing the ORDER BY and GROUP BY clauses.</source>
+<seg-source><mrk mid="0" mtype="seg">If this resultset is one of the resultset types which performs a sort of a table or index, this column contains the id value which identifies the particular row in SYSXPLAIN_SORT_PROPS that describes the statistics related to the sort behavior.</mrk><mrk mid="1" mtype="seg"> The most common situations which involve sorting of the data are when processing the ORDER BY and GROUP BY clauses.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If this resultset is one of the resultset types which performs a sort of a table or index, this column contains the id value which identifies the particular row in SYSXPLAIN_SORT_PROPS that describes the statistics related to the sort behavior.</mrk><mrk mid="1" mtype="seg"> The most common situations which involve sorting of the data are when processing the ORDER BY and GROUP BY clauses.</mrk></target>
+</trans-unit>
+<trans-unit id="tu129">
+<source xml:lang="en">STMT_ID</source>
+<seg-source><mrk mid="0" mtype="seg">STMT_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">STMT_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu130">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu131">
+<source xml:lang="en">36</source>
+<seg-source><mrk mid="0" mtype="seg">36</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">36</mrk></target>
+</trans-unit>
+<trans-unit id="tu132">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu133">
+<source xml:lang="en">This column will contain the ID value which identifies the particular statement for which this result set was executed. Note that there may be multiple result sets executed for a single statement, so a join between the SYSXPLAIN_STATEMENTS table and the SYSXPLAIN_RESULTSETS table may retrieve multiple rows.</source>
+<seg-source><mrk mid="0" mtype="seg">This column will contain the ID value which identifies the particular statement for which this result set was executed.</mrk><mrk mid="1" mtype="seg"> Note that there may be multiple result sets executed for a single statement, so a join between the SYSXPLAIN_STATEMENTS table and the SYSXPLAIN_RESULTSETS table may retrieve multiple rows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This column will contain the ID value which identifies the particular statement for which this result set was executed.</mrk><mrk mid="1" mtype="seg"> Note that there may be multiple result sets executed for a single statement, so a join between the SYSXPLAIN_STATEMENTS table and the SYSXPLAIN_RESULTSETS table may retrieve multiple rows.</mrk></target>
+</trans-unit>
+<trans-unit id="tu134">
+<source xml:lang="en">TIMING_ID</source>
+<seg-source><mrk mid="0" mtype="seg">TIMING_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMING_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu135">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu136">
+<source xml:lang="en">36</source>
+<seg-source><mrk mid="0" mtype="seg">36</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">36</mrk></target>
+</trans-unit>
+<trans-unit id="tu137">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu138">
+<source xml:lang="en">If statistics timings were not being captured, this column will have a NULL value. If statistics timings were being captured, this column will contain the id value which can be used as a foreign key to join with the SYSXPLAIN_RESULTSET_TIMINGS row which has the timing information for this resultset.</source>
+<seg-source><mrk mid="0" mtype="seg">If statistics timings were not being captured, this column will have a NULL value.</mrk><mrk mid="1" mtype="seg"> If statistics timings were being captured, this column will contain the id value which can be used as a foreign key to join with the SYSXPLAIN_RESULTSET_TIMINGS row which has the timing information for this resultset.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If statistics timings were not being captured, this column will have a NULL value.</mrk><mrk mid="1" mtype="seg"> If statistics timings were being captured, this column will contain the id value which can be used as a foreign key to join with the SYSXPLAIN_RESULTSET_TIMINGS row which has the timing information for this resultset.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

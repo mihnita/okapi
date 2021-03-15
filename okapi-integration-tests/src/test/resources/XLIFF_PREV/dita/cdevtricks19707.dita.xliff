@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevtricks19707.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Retrieving the database connection URL</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieving the database connection URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieving the database connection URL</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not have a built-in function that returns the name of the database. However, you can use <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DatabaseMetaData<ept id="2">&lt;/codeph&gt;</ept> to return the connection URL of any local <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>Connection<ept id="3">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not have a built-in function that returns the name of the database.</mrk><mrk mid="1" mtype="seg"> However, you can use <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DatabaseMetaData<ept id="2">&lt;/codeph&gt;</ept> to return the connection URL of any local <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>Connection<ept id="3">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not have a built-in function that returns the name of the database.</mrk><mrk mid="1" mtype="seg"> However, you can use <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DatabaseMetaData<ept id="2">&lt;/codeph&gt;</ept> to return the connection URL of any local <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>Connection<ept id="3">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Database connection URL</source>
+<seg-source><mrk mid="0" mtype="seg">Database connection URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database connection URL</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">retrieving from database</source>
+<seg-source><mrk mid="0" mtype="seg">retrieving from database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">retrieving from database</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>/* in java */<ept id="1">&lt;/b&gt;</ept> String myURL = conn.getMetaData().getURL();</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>/* in java */<ept id="1">&lt;/b&gt;</ept> String myURL = conn.getMetaData().getURL();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>/* in java */<ept id="1">&lt;/b&gt;</ept> String myURL = conn.getMetaData().getURL();</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

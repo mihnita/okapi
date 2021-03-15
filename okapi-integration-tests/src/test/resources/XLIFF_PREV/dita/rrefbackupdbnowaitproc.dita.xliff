@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefbackupdbnowaitproc.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT<ept id="1">&lt;/codeph&gt;</ept> system procedure backs up the database to a specified backup directory.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT<ept id="1">&lt;/codeph&gt;</ept> system procedure backs up the database to a specified backup directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT<ept id="1">&lt;/codeph&gt;</ept> system procedure backs up the database to a specified backup directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">syntax</source>
+<seg-source><mrk mid="0" mtype="seg">syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">system procedures</source>
+<seg-source><mrk mid="0" mtype="seg">system procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">If there are any transactions in progress with unlogged operations at the start of the backup, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT<ept id="1">&lt;/codeph&gt;</ept> system procedure returns an error immediately, instead of waiting for those transactions to complete.</source>
+<seg-source><mrk mid="0" mtype="seg">If there are any transactions in progress with unlogged operations at the start of the backup, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT<ept id="1">&lt;/codeph&gt;</ept> system procedure returns an error immediately, instead of waiting for those transactions to complete.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If there are any transactions in progress with unlogged operations at the start of the backup, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT<ept id="1">&lt;/codeph&gt;</ept> system procedure returns an error immediately, instead of waiting for those transactions to complete.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT(IN BACKUPDIR VARCHAR())</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT(IN BACKUPDIR VARCHAR())</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT(IN BACKUPDIR VARCHAR())</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">No result is returned from the procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">No result is returned from the procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No result is returned from the procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">BACKUPDIR</source>
+<seg-source><mrk mid="0" mtype="seg">BACKUPDIR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BACKUPDIR</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">An input argument of type VARCHAR(32672) that specifies the path to a directory, where the backup should be stored. Relative paths are resolved based on the current user directory, <bpt id="1" ctype="x-filepath">&lt;filepath&gt;</bpt>user.dir<ept id="1">&lt;/filepath&gt;</ept>, of the JVM where the database backup is occurring. Relative paths are not resolved based on the derby home directory. To avoid confusion, use the absolute path.</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type VARCHAR(32672) that specifies the path to a directory, where the backup should be stored.</mrk><mrk mid="1" mtype="seg"> Relative paths are resolved based on the current user directory, <bpt id="1" ctype="x-filepath">&lt;filepath&gt;</bpt>user.dir<ept id="1">&lt;/filepath&gt;</ept>, of the JVM where the database backup is occurring.</mrk><mrk mid="2" mtype="seg"> Relative paths are not resolved based on the derby home directory.</mrk><mrk mid="3" mtype="seg"> To avoid confusion, use the absolute path.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type VARCHAR(32672) that specifies the path to a directory, where the backup should be stored.</mrk><mrk mid="1" mtype="seg"> Relative paths are resolved based on the current user directory, <bpt id="1" ctype="x-filepath">&lt;filepath&gt;</bpt>user.dir<ept id="1">&lt;/filepath&gt;</ept>, of the JVM where the database backup is occurring.</mrk><mrk mid="2" mtype="seg"> Relative paths are not resolved based on the derby home directory.</mrk><mrk mid="3" mtype="seg"> To avoid confusion, use the absolute path.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default. See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information. The database owner can grant access to other users.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">JDBC example</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC example</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">The following example backs up the database to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>c:/backupdir<ept id="1">&lt;/codeph&gt;</ept> directory:</source>
+<seg-source><mrk mid="0" mtype="seg">The following example backs up the database to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>c:/backupdir<ept id="1">&lt;/codeph&gt;</ept> directory:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example backs up the database to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>c:/backupdir<ept id="1">&lt;/codeph&gt;</ept> directory:</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT(?)"); cs.setString(1, "c:/backupdir"); cs.execute(); cs.close();</source>
+<seg-source><mrk mid="0" mtype="seg">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT(?)"); cs.setString(1, "c:/backupdir"); cs.execute(); cs.close();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT(?)"); cs.setString(1, "c:/backupdir"); cs.execute(); cs.close();</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">SQL example</source>
+<seg-source><mrk mid="0" mtype="seg">SQL example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL example</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">The following example backs up the database to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>c:/backupdir<ept id="1">&lt;/codeph&gt;</ept> directory:</source>
+<seg-source><mrk mid="0" mtype="seg">The following example backs up the database to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>c:/backupdir<ept id="1">&lt;/codeph&gt;</ept> directory:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example backs up the database to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>c:/backupdir<ept id="1">&lt;/codeph&gt;</ept> directory:</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT('c:/backupdir');</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT('c:/backupdir');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_BACKUP_DATABASE_NOWAIT('c:/backupdir');</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

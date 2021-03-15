@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<project name="shared" default="..." basedir="." xmlns:unless="ant:unless">
+
+	<property file="libVersions.properties" />
+
+	<property name="done" value="done"/>
+	<property name="mavenStore" value="${user.home}/.m2/repository"/>
+
+	<tstamp>
+		<format property="TODAY" pattern="MMM-dd-yyyy"/>
+	</tstamp>
+
+	<!-- Set flags for what dstribution is being built -->
+	<condition property="building-windows">
+		<or>
+			<equals arg1="${platform}" arg2="win32-x86"/>
+			<equals arg1="${platform}" arg2="win32-x86_64"/>
+		</or>
+	</condition>
+	<condition property="building-linuxmac">
+		<or>
+			<equals arg1="${platform}" arg2="gtk2-linux-x86"/>
+			<equals arg1="${platform}" arg2="gtk2-linux-x86_64"/>
+			<equals arg1="${platform}" arg2="cocoa-macosx-x86_64"/>
+		</or>
+	</condition>
+	<condition property="building-mac">
+		<or>
+			<equals arg1="${platform}" arg2="cocoa-macosx-x86_64"/>
+		</or>
+	</condition>
+
+	<target name="init">
+		<delete dir="${dist}" includeEmptyDirs="true" failonerror="false" />
+		<mkdir dir="${dist}/lib"/>
+		<mkdir dir="${dist}/lib/licenses"/>
+		<mkdir dir="${done}"/>
+	</target>
+
+	<macrodef name="copyDepend">
+		<attribute name="cdMvnGroupId"/>
+		<attribute name="cdMvnArtifactId"/>
+		<attribute name="cdMvnVersion"/>
+		<attribute name="cdMvnClassifier" default=""/> <!-- For example "-source" or "-javadoc" -->
+		<attribute name="cdTrgDir" default="${dist}/lib"/>
+		<attribute name="cdFailOnError" default="true"/>
+		<sequential>
+			<copy failonerror="@{cdFailOnError}"
+				todir="@{cdTrgDir}"
+				file="${mavenStore}\@{cdMvnGroupId}\@{cdMvnArtifactId}\@{cdMvnVersion}\@{cdMvnArtifactId}-@{cdMvnVersion}@{cdMvnClassifier}.jar" />
+		</sequential>
+	</macrodef>
+
+	<macrodef name="copyDependAndLicense">
+		<attribute name="cdMvnGroupId"/>
+		<attribute name="cdMvnArtifactId"/>
+		<attribute name="cdMvnVersion"/>
+		<attribute name="cdLicense"/>
+		<sequential>
+			<copyDepend cdMvnGroupId="@{cdMvnGroupId}" cdMvnArtifactId="@{cdMvnArtifactId}" cdMvnVersion="@{cdMvnVersion}" />
+			<copy todir="${dist}/lib/licenses">
+				<fileset dir="../shared/licenses" includes="**/@{cdLicense}"/>
+			</copy>
+		</sequential>
+	</macrodef>
+
+	<!--
+		build_okapi-lib.xml tests if the *-javadoc.jar and -sources.jar files have
+		been copied from the maven repository.
+		If they did not it means that this is a developer build.
+		It is good for testing, but not deployment, or official binary release.
+		For official (non-developer) builds maven should be invoked with the proper profiles.
+	-->
+	<target name="chkDocSrc">
+
+		<available type="file" file="dist_common/lib/okapi-lib-${okapi.version}-sources.jar"
+			property="sources.jar.present" />
+		<available type="dir" file="dist_common/localweb/javadoc"
+			property="javadoc.jar.present" />
+
+		<echo unless:set="sources.jar.present">
+		==========================================================
+		The resulting distribution kit does not contain SOURCES.
+		This is OK for local testing, but not for public release.
+		Make sure to invoke mvn install this way:
+			mvn install -P with_sources,with_javadoc
+		==========================================================
+		</echo>
+		<echo unless:set="javadoc.jar.present">
+		==========================================================
+		The resulting distribution kit does not contain JAVADOC.
+		This is OK for local testing, but not for public release.
+		Make sure to invoke mvn install this way:
+			mvn install -P with_sources,with_javadoc
+		==========================================================
+		</echo>
+
+	</target>
+
+</project>

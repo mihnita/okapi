@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="bold_italics_underline_test.odp/meta.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/odp/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+</body>
+</file>
+<file original="bold_italics_underline_test.odp/content.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/odp/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T1"&gt;</bpt>Bold + Italics + Underline Test<ept id="1">&lt;/text:span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T1"&gt;</bpt>Bold + Italics + Underline Test<ept id="1">&lt;/text:span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T1"&gt;</bpt>Bold + Italics + Underline Test<ept id="1">&lt;/text:span&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+<file original="bold_italics_underline_test.odp/styles.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/odp/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-presentation:header">&lt;presentation:header&gt;</bpt><ept id="1">&lt;/presentation:header&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:header">&lt;presentation:header&gt;</bpt><ept id="1">&lt;/presentation:header&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:header">&lt;presentation:header&gt;</bpt><ept id="1">&lt;/presentation:header&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="2" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-presentation:date-time">&lt;presentation:date-time&gt;</bpt><ept id="1">&lt;/presentation:date-time&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:date-time">&lt;presentation:date-time&gt;</bpt><ept id="1">&lt;/presentation:date-time&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:date-time">&lt;presentation:date-time&gt;</bpt><ept id="1">&lt;/presentation:date-time&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="3" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-presentation:footer">&lt;presentation:footer&gt;</bpt><ept id="1">&lt;/presentation:footer&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:footer">&lt;presentation:footer&gt;</bpt><ept id="1">&lt;/presentation:footer&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:footer">&lt;presentation:footer&gt;</bpt><ept id="1">&lt;/presentation:footer&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="4" restype="x-text:p">
+<source xml:lang="en"><ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;&amp;lt;number&amp;gt;&lt;/text:page-number&gt;</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;&amp;lt;number&amp;gt;&lt;/text:page-number&gt;</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;&amp;lt;number&amp;gt;&lt;/text:page-number&gt;</ph></mrk></target>
+</trans-unit>
+<trans-unit id="5" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-presentation:date-time">&lt;presentation:date-time&gt;</bpt><ept id="1">&lt;/presentation:date-time&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:date-time">&lt;presentation:date-time&gt;</bpt><ept id="1">&lt;/presentation:date-time&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:date-time">&lt;presentation:date-time&gt;</bpt><ept id="1">&lt;/presentation:date-time&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="6" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-presentation:footer">&lt;presentation:footer&gt;</bpt><ept id="1">&lt;/presentation:footer&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:footer">&lt;presentation:footer&gt;</bpt><ept id="1">&lt;/presentation:footer&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:footer">&lt;presentation:footer&gt;</bpt><ept id="1">&lt;/presentation:footer&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="7" restype="x-text:p">
+<source xml:lang="en"><ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;&amp;lt;number&amp;gt;&lt;/text:page-number&gt;</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;&amp;lt;number&amp;gt;&lt;/text:page-number&gt;</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;&amp;lt;number&amp;gt;&lt;/text:page-number&gt;</ph></mrk></target>
+</trans-unit>
+<trans-unit id="8" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-presentation:header">&lt;presentation:header&gt;</bpt><ept id="1">&lt;/presentation:header&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:header">&lt;presentation:header&gt;</bpt><ept id="1">&lt;/presentation:header&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:header">&lt;presentation:header&gt;</bpt><ept id="1">&lt;/presentation:header&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="9" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-presentation:date-time">&lt;presentation:date-time&gt;</bpt><ept id="1">&lt;/presentation:date-time&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:date-time">&lt;presentation:date-time&gt;</bpt><ept id="1">&lt;/presentation:date-time&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:date-time">&lt;presentation:date-time&gt;</bpt><ept id="1">&lt;/presentation:date-time&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="10" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-presentation:footer">&lt;presentation:footer&gt;</bpt><ept id="1">&lt;/presentation:footer&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:footer">&lt;presentation:footer&gt;</bpt><ept id="1">&lt;/presentation:footer&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-presentation:footer">&lt;presentation:footer&gt;</bpt><ept id="1">&lt;/presentation:footer&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="11" restype="x-text:p">
+<source xml:lang="en"><ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;&amp;lt;number&amp;gt;&lt;/text:page-number&gt;</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;&amp;lt;number&amp;gt;&lt;/text:page-number&gt;</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;&amp;lt;number&amp;gt;&lt;/text:page-number&gt;</ph></mrk></target>
+</trans-unit>
+<trans-unit id="12" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><bpt id="2" ctype="x-presentation:date-time">&lt;presentation:date-time&gt;</bpt><ept id="2">&lt;/presentation:date-time&gt;</ept><ept id="1">&lt;/text:span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><bpt id="2" ctype="x-presentation:date-time">&lt;presentation:date-time&gt;</bpt><ept id="2">&lt;/presentation:date-time&gt;</ept><ept id="1">&lt;/text:span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><bpt id="2" ctype="x-presentation:date-time">&lt;presentation:date-time&gt;</bpt><ept id="2">&lt;/presentation:date-time&gt;</ept><ept id="1">&lt;/text:span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="13" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><bpt id="2" ctype="x-presentation:footer">&lt;presentation:footer&gt;</bpt><ept id="2">&lt;/presentation:footer&gt;</ept><ept id="1">&lt;/text:span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><bpt id="2" ctype="x-presentation:footer">&lt;presentation:footer&gt;</bpt><ept id="2">&lt;/presentation:footer&gt;</ept><ept id="1">&lt;/text:span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><bpt id="2" ctype="x-presentation:footer">&lt;presentation:footer&gt;</bpt><ept id="2">&lt;/presentation:footer&gt;</ept><ept id="1">&lt;/text:span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="14" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><ph id="2" ctype="x-text:page-number">&lt;text:page-number&gt;&amp;lt;number&amp;gt;&lt;/text:page-number&gt;</ph><ept id="1">&lt;/text:span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><ph id="2" ctype="x-text:page-number">&lt;text:page-number&gt;&amp;lt;number&amp;gt;&lt;/text:page-number&gt;</ph><ept id="1">&lt;/text:span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><ph id="2" ctype="x-text:page-number">&lt;text:page-number&gt;&amp;lt;number&amp;gt;&lt;/text:page-number&gt;</ph><ept id="1">&lt;/text:span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="15" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><bpt id="2" ctype="x-presentation:header">&lt;presentation:header&gt;</bpt><ept id="2">&lt;/presentation:header&gt;</ept><ept id="1">&lt;/text:span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><bpt id="2" ctype="x-presentation:header">&lt;presentation:header&gt;</bpt><ept id="2">&lt;/presentation:header&gt;</ept><ept id="1">&lt;/text:span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><bpt id="2" ctype="x-presentation:header">&lt;presentation:header&gt;</bpt><ept id="2">&lt;/presentation:header&gt;</ept><ept id="1">&lt;/text:span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="16" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><bpt id="2" ctype="x-presentation:date-time">&lt;presentation:date-time&gt;</bpt><ept id="2">&lt;/presentation:date-time&gt;</ept><ept id="1">&lt;/text:span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><bpt id="2" ctype="x-presentation:date-time">&lt;presentation:date-time&gt;</bpt><ept id="2">&lt;/presentation:date-time&gt;</ept><ept id="1">&lt;/text:span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><bpt id="2" ctype="x-presentation:date-time">&lt;presentation:date-time&gt;</bpt><ept id="2">&lt;/presentation:date-time&gt;</ept><ept id="1">&lt;/text:span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="17" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><bpt id="2" ctype="x-presentation:footer">&lt;presentation:footer&gt;</bpt><ept id="2">&lt;/presentation:footer&gt;</ept><ept id="1">&lt;/text:span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><bpt id="2" ctype="x-presentation:footer">&lt;presentation:footer&gt;</bpt><ept id="2">&lt;/presentation:footer&gt;</ept><ept id="1">&lt;/text:span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><bpt id="2" ctype="x-presentation:footer">&lt;presentation:footer&gt;</bpt><ept id="2">&lt;/presentation:footer&gt;</ept><ept id="1">&lt;/text:span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="18" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><ph id="2" ctype="x-text:page-number">&lt;text:page-number&gt;&amp;lt;number&amp;gt;&lt;/text:page-number&gt;</ph><ept id="1">&lt;/text:span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><ph id="2" ctype="x-text:page-number">&lt;text:page-number&gt;&amp;lt;number&amp;gt;&lt;/text:page-number&gt;</ph><ept id="1">&lt;/text:span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="MT1"&gt;</bpt><ph id="2" ctype="x-text:page-number">&lt;text:page-number&gt;&amp;lt;number&amp;gt;&lt;/text:page-number&gt;</ph><ept id="1">&lt;/text:span&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

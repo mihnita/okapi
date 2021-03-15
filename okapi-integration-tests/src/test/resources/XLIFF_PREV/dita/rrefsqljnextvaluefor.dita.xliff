@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljnextvaluefor.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">NEXT VALUE FOR expression</source>
+<seg-source><mrk mid="0" mtype="seg">NEXT VALUE FOR expression</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NEXT VALUE FOR expression</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">NEXT VALUE FOR expression</source>
+<seg-source><mrk mid="0" mtype="seg">NEXT VALUE FOR expression</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NEXT VALUE FOR expression</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">expressions</source>
+<seg-source><mrk mid="0" mtype="seg">expressions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">expressions</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">NEXT VALUE FOR</source>
+<seg-source><mrk mid="0" mtype="seg">NEXT VALUE FOR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NEXT VALUE FOR</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">sequence generators</source>
+<seg-source><mrk mid="0" mtype="seg">sequence generators</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sequence generators</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">obtaining next value</source>
+<seg-source><mrk mid="0" mtype="seg">obtaining next value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">obtaining next value</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The NEXT VALUE FOR expression retrieves the next value from a sequence generator that was created with a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatesequence.dita#rrefsqljcreatesequence"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The NEXT VALUE FOR expression retrieves the next value from a sequence generator that was created with a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatesequence.dita#rrefsqljcreatesequence"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The NEXT VALUE FOR expression retrieves the next value from a sequence generator that was created with a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatesequence.dita#rrefsqljcreatesequence"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>NEXT VALUE FOR <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsequencename.dita#rrefsequencenamerrefsequencename"&gt;</bpt>sequenceName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>NEXT VALUE FOR <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsequencename.dita#rrefsequencenamerrefsequencename"&gt;</bpt>sequenceName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>NEXT VALUE FOR <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsequencename.dita#rrefsequencenamerrefsequencename"&gt;</bpt>sequenceName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If this is the first use of the sequence generator, the generator returns its START value. Otherwise, the INCREMENT value is added to the previous value returned by the sequence generator. The data type of the value is the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> specified for the sequence generator.</source>
+<seg-source><mrk mid="0" mtype="seg">If this is the first use of the sequence generator, the generator returns its START value.</mrk><mrk mid="1" mtype="seg"> Otherwise, the INCREMENT value is added to the previous value returned by the sequence generator.</mrk><mrk mid="2" mtype="seg"> The data type of the value is the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> specified for the sequence generator.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If this is the first use of the sequence generator, the generator returns its START value.</mrk><mrk mid="1" mtype="seg"> Otherwise, the INCREMENT value is added to the previous value returned by the sequence generator.</mrk><mrk mid="2" mtype="seg"> The data type of the value is the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> specified for the sequence generator.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">If the sequence generator wraps around, then one of the following happens:</source>
+<seg-source><mrk mid="0" mtype="seg">If the sequence generator wraps around, then one of the following happens:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the sequence generator wraps around, then one of the following happens:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">If the sequence generator was created using the CYCLE keyword, the sequence generator is reset to its START value.</source>
+<seg-source><mrk mid="0" mtype="seg">If the sequence generator was created using the CYCLE keyword, the sequence generator is reset to its START value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the sequence generator was created using the CYCLE keyword, the sequence generator is reset to its START value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">If the sequence generator was created with the default NO CYCLE behavior, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an exception.</source>
+<seg-source><mrk mid="0" mtype="seg">If the sequence generator was created with the default NO CYCLE behavior, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an exception.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the sequence generator was created with the default NO CYCLE behavior, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an exception.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">In order to retrieve the next value of a sequence generator, you or your session's current role must have USAGE privilege on the generator.</source>
+<seg-source><mrk mid="0" mtype="seg">In order to retrieve the next value of a sequence generator, you or your session's current role must have USAGE privilege on the generator.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In order to retrieve the next value of a sequence generator, you or your session's current role must have USAGE privilege on the generator.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">A NEXT VALUE FOR expression may occur in the following places:</source>
+<seg-source><mrk mid="0" mtype="seg">A NEXT VALUE FOR expression may occur in the following places:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A NEXT VALUE FOR expression may occur in the following places:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj41360.dita#rrefsqlj41360"&gt;</bpt>SELECT statement<ept id="1">&lt;/xref&gt;</ept>: As part of the expression defining a returned column in a SELECT list</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj41360.dita#rrefsqlj41360"&gt;</bpt>SELECT statement<ept id="1">&lt;/xref&gt;</ept>: As part of the expression defining a returned column in a SELECT list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj41360.dita#rrefsqlj41360"&gt;</bpt>SELECT statement<ept id="1">&lt;/xref&gt;</ept>: As part of the expression defining a returned column in a SELECT list</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj11277.dita#rrefsqlj11277"&gt;</bpt>VALUES expression<ept id="1">&lt;/xref&gt;</ept>: As part of the expression defining a column in a row constructor (VALUES expression)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj11277.dita#rrefsqlj11277"&gt;</bpt>VALUES expression<ept id="1">&lt;/xref&gt;</ept>: As part of the expression defining a column in a row constructor (VALUES expression)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj11277.dita#rrefsqlj11277"&gt;</bpt>VALUES expression<ept id="1">&lt;/xref&gt;</ept>: As part of the expression defining a column in a row constructor (VALUES expression)</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj26498.dita#rrefsqlj26498"&gt;</bpt>UPDATE statement<ept id="1">&lt;/xref&gt;</ept>; As part of the expression defining the new value to which a column is being set</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj26498.dita#rrefsqlj26498"&gt;</bpt>UPDATE statement<ept id="1">&lt;/xref&gt;</ept>; As part of the expression defining the new value to which a column is being set</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj26498.dita#rrefsqlj26498"&gt;</bpt>UPDATE statement<ept id="1">&lt;/xref&gt;</ept>; As part of the expression defining the new value to which a column is being set</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Only one NEXT VALUE FOR expression is allowed per sequence per statement.</source>
+<seg-source><mrk mid="0" mtype="seg">Only one NEXT VALUE FOR expression is allowed per sequence per statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only one NEXT VALUE FOR expression is allowed per sequence per statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">The NEXT VALUE FOR expression is not allowed in any statement which has a DISTINCT or ORDER BY expression.</source>
+<seg-source><mrk mid="0" mtype="seg">The NEXT VALUE FOR expression is not allowed in any statement which has a DISTINCT or ORDER BY expression.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The NEXT VALUE FOR expression is not allowed in any statement which has a DISTINCT or ORDER BY expression.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">The next value of a sequence generator is not affected by whether the user commits or rolls back a transaction which invoked the sequence generator.</source>
+<seg-source><mrk mid="0" mtype="seg">The next value of a sequence generator is not affected by whether the user commits or rolls back a transaction which invoked the sequence generator.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The next value of a sequence generator is not affected by whether the user commits or rolls back a transaction which invoked the sequence generator.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">A NEXT VALUE expression may not appear in any of these situations:</source>
+<seg-source><mrk mid="0" mtype="seg">A NEXT VALUE expression may not appear in any of these situations:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A NEXT VALUE expression may not appear in any of these situations:</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">CASE expression</source>
+<seg-source><mrk mid="0" mtype="seg">CASE expression</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CASE expression</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">WHERE clause</source>
+<seg-source><mrk mid="0" mtype="seg">WHERE clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WHERE clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">ORDER BY clause</source>
+<seg-source><mrk mid="0" mtype="seg">ORDER BY clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ORDER BY clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Aggregate expression</source>
+<seg-source><mrk mid="0" mtype="seg">Aggregate expression</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Aggregate expression</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">ROW_NUMBER function</source>
+<seg-source><mrk mid="0" mtype="seg">ROW_NUMBER function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ROW_NUMBER function</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">DISTINCT select list</source>
+<seg-source><mrk mid="0" mtype="seg">DISTINCT select list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DISTINCT select list</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES (NEXT VALUE FOR order_id);<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES (NEXT VALUE FOR order_id);<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES (NEXT VALUE FOR order_id);<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO re_order_table SELECT NEXT VALUE FOR order_id, order_date, quantity FROM orders WHERE back_order = 1;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO re_order_table SELECT NEXT VALUE FOR order_id, order_date, quantity FROM orders WHERE back_order = 1;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO re_order_table SELECT NEXT VALUE FOR order_id, order_date, quantity FROM orders WHERE back_order = 1;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>UPDATE orders SET oid = NEXT VALUE FOR order_id WHERE expired = 1;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>UPDATE orders SET oid = NEXT VALUE FOR order_id WHERE expired = 1;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>UPDATE orders SET oid = NEXT VALUE FOR order_id WHERE expired = 1;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

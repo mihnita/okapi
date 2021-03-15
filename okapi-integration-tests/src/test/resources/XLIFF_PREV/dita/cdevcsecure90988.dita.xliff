@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure90988.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Signed jar files</source>
+<seg-source><mrk mid="0" mtype="seg">Signed jar files</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Signed jar files</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">In a Java SE environment, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can detect digital signatures on jar files. When attempting to load a class from a signed jar file stored in the database, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> will verify the validity of the signature.</source>
+<seg-source><mrk mid="0" mtype="seg">In a Java SE environment, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can detect digital signatures on jar files.</mrk><mrk mid="1" mtype="seg"> When attempting to load a class from a signed jar file stored in the database, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> will verify the validity of the signature.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In a Java SE environment, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can detect digital signatures on jar files.</mrk><mrk mid="1" mtype="seg"> When attempting to load a class from a signed jar file stored in the database, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> will verify the validity of the signature.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Jar files</source>
+<seg-source><mrk mid="0" mtype="seg">Jar files</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Jar files</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">loading signed</source>
+<seg-source><mrk mid="0" mtype="seg">loading signed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">loading signed</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Signed jar files</source>
+<seg-source><mrk mid="0" mtype="seg">Signed jar files</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Signed jar files</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> class loader only validates the integrity of the signed jar file and that the certificate has not expired. <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> cannot ascertain whether the validity/identity of declared signer is correct. To validate identity, use a Security Manager (i.e., an implementation of <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.lang.SecurityManager<ept id="3">&lt;/i&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> class loader only validates the integrity of the signed jar file and that the certificate has not expired.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> cannot ascertain whether the validity/identity of declared signer is correct.</mrk><mrk mid="2" mtype="seg"> To validate identity, use a Security Manager (i.e., an implementation of <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.lang.SecurityManager<ept id="3">&lt;/i&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> class loader only validates the integrity of the signed jar file and that the certificate has not expired.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> cannot ascertain whether the validity/identity of declared signer is correct.</mrk><mrk mid="2" mtype="seg"> To validate identity, use a Security Manager (i.e., an implementation of <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.lang.SecurityManager<ept id="3">&lt;/i&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">When loading classes from an application jar file in a Java SE environment, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> behaves as follows:</source>
+<seg-source><mrk mid="0" mtype="seg">When loading classes from an application jar file in a Java SE environment, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> behaves as follows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When loading classes from an application jar file in a Java SE environment, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> behaves as follows:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>If the class is signed, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> will:<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>If the class is signed, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> will:<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>If the class is signed, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> will:<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Verify that the jar was signed using a X.509 certificate (i.e., can be represented by the class <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.security.cert.X509Certificate<ept id="1">&lt;/i&gt;</ept>). If not, throw an exception.</source>
+<seg-source><mrk mid="0" mtype="seg">Verify that the jar was signed using a X.509 certificate (i.e., can be represented by the class <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.security.cert.X509Certificate<ept id="1">&lt;/i&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> If not, throw an exception.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Verify that the jar was signed using a X.509 certificate (i.e., can be represented by the class <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.security.cert.X509Certificate<ept id="1">&lt;/i&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> If not, throw an exception.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Verify that the digital signature matches the contents of the file. If not, throw an exception.</source>
+<seg-source><mrk mid="0" mtype="seg">Verify that the digital signature matches the contents of the file.</mrk><mrk mid="1" mtype="seg"> If not, throw an exception.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Verify that the digital signature matches the contents of the file.</mrk><mrk mid="1" mtype="seg"> If not, throw an exception.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Check that the set of signing certificates are all valid for the current date and time. If any certificate has expired or is not yet valid, throw an exception.</source>
+<seg-source><mrk mid="0" mtype="seg">Check that the set of signing certificates are all valid for the current date and time.</mrk><mrk mid="1" mtype="seg"> If any certificate has expired or is not yet valid, throw an exception.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check that the set of signing certificates are all valid for the current date and time.</mrk><mrk mid="1" mtype="seg"> If any certificate has expired or is not yet valid, throw an exception.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Pass the array of certificates to the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setSigners()<ept id="1">&lt;/i&gt;</ept> method of <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.lang.ClassLoader<ept id="2">&lt;/i&gt;</ept>. This allows security managers to obtain the list of signers for a class (using <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.lang.Class.getSigners<ept id="3">&lt;/i&gt;</ept>) and then validate the identity of the signers using the services of a Public Key Infrastructure (PKI).</source>
+<seg-source><mrk mid="0" mtype="seg">Pass the array of certificates to the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setSigners()<ept id="1">&lt;/i&gt;</ept> method of <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.lang.ClassLoader<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This allows security managers to obtain the list of signers for a class (using <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.lang.Class.getSigners<ept id="3">&lt;/i&gt;</ept>) and then validate the identity of the signers using the services of a Public Key Infrastructure (PKI).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pass the array of certificates to the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setSigners()<ept id="1">&lt;/i&gt;</ept> method of <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.lang.ClassLoader<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This allows security managers to obtain the list of signers for a class (using <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.lang.Class.getSigners<ept id="3">&lt;/i&gt;</ept>) and then validate the identity of the signers using the services of a Public Key Infrastructure (PKI).</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not provide a security manager.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not provide a security manager.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not provide a security manager.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">For more information about signed jar files, see <bpt id="1" ctype="x-xref">&lt;xref format="html"
+href="http://docs.oracle.com/javase/7/docs/technotes/guides/jar/jar.html"
+scope="external"&gt;</bpt>http://docs.oracle.com/javase/7/docs/technotes/guides/jar/jar.html<ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information about signed jar files, see <bpt id="1" ctype="x-xref">&lt;xref format="html"
+href="http://docs.oracle.com/javase/7/docs/technotes/guides/jar/jar.html"
+scope="external"&gt;</bpt>http://docs.oracle.com/javase/7/docs/technotes/guides/jar/jar.html<ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information about signed jar files, see <bpt id="1" ctype="x-xref">&lt;xref format="html"
+href="http://docs.oracle.com/javase/7/docs/technotes/guides/jar/jar.html"
+scope="external"&gt;</bpt>http://docs.oracle.com/javase/7/docs/technotes/guides/jar/jar.html<ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">For more information about Java security, go to <bpt id="1" ctype="x-xref">&lt;xref format="html"
+href="http://docs.oracle.com/javase/7/docs/technotes/guides/security/"
+scope="external"&gt;</bpt>http://docs.oracle.com/javase/7/docs/technotes/guides/security/<ept id="1">&lt;/xref&gt;</ept>..</source>
+<seg-source><mrk mid="0" mtype="seg">For more information about Java security, go to <bpt id="1" ctype="x-xref">&lt;xref format="html"
+href="http://docs.oracle.com/javase/7/docs/technotes/guides/security/"
+scope="external"&gt;</bpt>http://docs.oracle.com/javase/7/docs/technotes/guides/security/<ept id="1">&lt;/xref&gt;</ept>..</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information about Java security, go to <bpt id="1" ctype="x-xref">&lt;xref format="html"
+href="http://docs.oracle.com/javase/7/docs/technotes/guides/security/"
+scope="external"&gt;</bpt>http://docs.oracle.com/javase/7/docs/technotes/guides/security/<ept id="1">&lt;/xref&gt;</ept>..</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

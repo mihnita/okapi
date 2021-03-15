@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefproperbuiltinalgorithm.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.authentication.builtin.algorithm</source>
+<seg-source><mrk mid="0" mtype="seg">derby.authentication.builtin.algorithm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.authentication.builtin.algorithm</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">derby.authentication.builtin.algorithm</source>
+<seg-source><mrk mid="0" mtype="seg">derby.authentication.builtin.algorithm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.authentication.builtin.algorithm</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">authentication algorithm</source>
+<seg-source><mrk mid="0" mtype="seg">authentication algorithm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">authentication algorithm</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">configuring</source>
+<seg-source><mrk mid="0" mtype="seg">configuring</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">message digest algorithm</source>
+<seg-source><mrk mid="0" mtype="seg">message digest algorithm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">message digest algorithm</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">configuring</source>
+<seg-source><mrk mid="0" mtype="seg">configuring</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Specifies the message digest algorithm to use to protect the passwords that are stored in the database when using NATIVE or BUILTIN authentication. The value is the name of a message digest algorithm available from one of the Java Cryptography Extension (JCE) providers registered in the JVM. Some examples of valid values are MD5, SHA-256, and SHA-512.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the message digest algorithm to use to protect the passwords that are stored in the database when using NATIVE or BUILTIN authentication.</mrk><mrk mid="1" mtype="seg"> The value is the name of a message digest algorithm available from one of the Java Cryptography Extension (JCE) providers registered in the JVM.</mrk><mrk mid="2" mtype="seg"> Some examples of valid values are MD5, SHA-256, and SHA-512.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the message digest algorithm to use to protect the passwords that are stored in the database when using NATIVE or BUILTIN authentication.</mrk><mrk mid="1" mtype="seg"> The value is the name of a message digest algorithm available from one of the Java Cryptography Extension (JCE) providers registered in the JVM.</mrk><mrk mid="2" mtype="seg"> Some examples of valid values are MD5, SHA-256, and SHA-512.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The specified algorithm will be applied on the concatenation of the user name and the password before it is stored in the database.</source>
+<seg-source><mrk mid="0" mtype="seg">The specified algorithm will be applied on the concatenation of the user name and the password before it is stored in the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The specified algorithm will be applied on the concatenation of the user name and the password before it is stored in the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.authentication.builtin.algorithm=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>algorithm<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.authentication.builtin.algorithm=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>algorithm<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.authentication.builtin.algorithm=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>algorithm<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">If the value of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>algorithm<ept id="1">&lt;/i&gt;</ept> is NULL or an empty string, SHA-1 will be used on the password only.</source>
+<seg-source><mrk mid="0" mtype="seg">If the value of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>algorithm<ept id="1">&lt;/i&gt;</ept> is NULL or an empty string, SHA-1 will be used on the password only.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the value of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>algorithm<ept id="1">&lt;/i&gt;</ept> is NULL or an empty string, SHA-1 will be used on the password only.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">For a newly created database, the default value is SHA-256, if that algorithm is available. If SHA-256 is not available, the default is SHA-1.</source>
+<seg-source><mrk mid="0" mtype="seg">For a newly created database, the default value is SHA-256, if that algorithm is available.</mrk><mrk mid="1" mtype="seg"> If SHA-256 is not available, the default is SHA-1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For a newly created database, the default value is SHA-256, if that algorithm is available.</mrk><mrk mid="1" mtype="seg"> If SHA-256 is not available, the default is SHA-1.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- system-wide property<ept id="2">&lt;/ph&gt;</ept> derby.authentication.builtin.algorithm=SHA-512 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- database-level property<ept id="3">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.authentication.builtin.algorithm', 'SHA-512');<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- system-wide property<ept id="2">&lt;/ph&gt;</ept> derby.authentication.builtin.algorithm=SHA-512 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- database-level property<ept id="3">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.authentication.builtin.algorithm', 'SHA-512');<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- system-wide property<ept id="2">&lt;/ph&gt;</ept> derby.authentication.builtin.algorithm=SHA-512 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- database-level property<ept id="3">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.authentication.builtin.algorithm', 'SHA-512');<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Dynamic or static</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic or static</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic or static</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Dynamic; the change takes effect immediately. For information about dynamic changes to properties, see <ph id="1" ctype="x-xref">&lt;xref href="crefproperdynstat.dita#crefproperdynstat"/&gt;</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic; the change takes effect immediately.</mrk><mrk mid="1" mtype="seg"> For information about dynamic changes to properties, see <ph id="1" ctype="x-xref">&lt;xref href="crefproperdynstat.dita#crefproperdynstat"/&gt;</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic; the change takes effect immediately.</mrk><mrk mid="1" mtype="seg"> For information about dynamic changes to properties, see <ph id="1" ctype="x-xref">&lt;xref href="crefproperdynstat.dita#crefproperdynstat"/&gt;</ph>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj14854.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">HAVING clause</source>
+<seg-source><mrk mid="0" mtype="seg">HAVING clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HAVING clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">HAVING clause</source>
+<seg-source><mrk mid="0" mtype="seg">HAVING clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HAVING clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">A HAVING clause restricts the results of a GROUP BY in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><ph id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"/&gt;</ph>.<ept id="1">&lt;/i&gt;</ept> The HAVING clause is applied to each group of the grouped table, much as a WHERE clause is applied to a select list. If there is no GROUP BY clause, the HAVING clause is applied to the entire result as a single group. The SELECT clause cannot refer directly to any column that does not have a GROUP BY clause. It can, however, refer to constants, aggregates, and special registers.</source>
+<seg-source><mrk mid="0" mtype="seg">A HAVING clause restricts the results of a GROUP BY in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><ph id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"/&gt;</ph>.<ept id="1">&lt;/i&gt;</ept></mrk><mrk mid="1" mtype="seg"> The HAVING clause is applied to each group of the grouped table, much as a WHERE clause is applied to a select list.</mrk><mrk mid="2" mtype="seg"> If there is no GROUP BY clause, the HAVING clause is applied to the entire result as a single group.</mrk><mrk mid="3" mtype="seg"> The SELECT clause cannot refer directly to any column that does not have a GROUP BY clause.</mrk><mrk mid="4" mtype="seg"> It can, however, refer to constants, aggregates, and special registers.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A HAVING clause restricts the results of a GROUP BY in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><ph id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"/&gt;</ph>.<ept id="1">&lt;/i&gt;</ept></mrk><mrk mid="1" mtype="seg"> The HAVING clause is applied to each group of the grouped table, much as a WHERE clause is applied to a select list.</mrk><mrk mid="2" mtype="seg"> If there is no GROUP BY clause, the HAVING clause is applied to the entire result as a single group.</mrk><mrk mid="3" mtype="seg"> The SELECT clause cannot refer directly to any column that does not have a GROUP BY clause.</mrk><mrk mid="4" mtype="seg"> It can, however, refer to constants, aggregates, and special registers.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>HAVING <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqlj23075.dita#rrefsqlj23075"&gt;</bpt>booleanExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>HAVING <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqlj23075.dita#rrefsqlj23075"&gt;</bpt>booleanExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>HAVING <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqlj23075.dita#rrefsqlj23075"&gt;</bpt>booleanExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>booleanExpression<ept id="1">&lt;/i&gt;</ept> can contain only grouping columns (see <ph id="2" ctype="x-xref">&lt;xref href="rrefsqlj32654.dita#rrefsqlj32654"/&gt;</ph>), columns that are part of aggregate expressions, and columns that are part of a subquery. For example, the following query is illegal, because the column SALARY is not a grouping column, it does not appear within an aggregate, and it is not within a subquery:</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>booleanExpression<ept id="1">&lt;/i&gt;</ept> can contain only grouping columns (see <ph id="2" ctype="x-xref">&lt;xref href="rrefsqlj32654.dita#rrefsqlj32654"/&gt;</ph>), columns that are part of aggregate expressions, and columns that are part of a subquery.</mrk><mrk mid="1" mtype="seg"> For example, the following query is illegal, because the column SALARY is not a grouping column, it does not appear within an aggregate, and it is not within a subquery:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>booleanExpression<ept id="1">&lt;/i&gt;</ept> can contain only grouping columns (see <ph id="2" ctype="x-xref">&lt;xref href="rrefsqlj32654.dita#rrefsqlj32654"/&gt;</ph>), columns that are part of aggregate expressions, and columns that are part of a subquery.</mrk><mrk mid="1" mtype="seg"> For example, the following query is illegal, because the column SALARY is not a grouping column, it does not appear within an aggregate, and it is not within a subquery:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- SELECT COUNT(*) -- FROM SAMP.STAFF -- GROUP BY ID -- HAVING SALARY &gt; 15000<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- SELECT COUNT(*) -- FROM SAMP.STAFF -- GROUP BY ID -- HAVING SALARY &gt; 15000<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- SELECT COUNT(*) -- FROM SAMP.STAFF -- GROUP BY ID -- HAVING SALARY &gt; 15000<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Aggregates in the HAVING clause do not need to appear in the SELECT list. If the HAVING clause contains a subquery, the subquery can refer to the outer query block if and only if it refers to a grouping column.</source>
+<seg-source><mrk mid="0" mtype="seg">Aggregates in the HAVING clause do not need to appear in the SELECT list.</mrk><mrk mid="1" mtype="seg"> If the HAVING clause contains a subquery, the subquery can refer to the outer query block if and only if it refers to a grouping column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Aggregates in the HAVING clause do not need to appear in the SELECT list.</mrk><mrk mid="1" mtype="seg"> If the HAVING clause contains a subquery, the subquery can refer to the outer query block if and only if it refers to a grouping column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it><it id="2" ctype="x-ph" pos="open">&lt;ph&gt;</it>-- Find the total number of economy seats taken on a flight, -- grouped by airline, -- only when the group has at least 2 records. <it id="2" ctype="x-ph" pos="close">&lt;/ph&gt;</it> SELECT SUM(ECONOMY_SEATS_TAKEN), AIRLINE_FULL FROM FLIGHTAVAILABILITY, AIRLINES WHERE SUBSTR(FLIGHTAVAILABILITY.FLIGHT_ID, 1, 2) = AIRLINE GROUP BY AIRLINE_FULL HAVING COUNT(*) &gt; 1 <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it><it id="2" ctype="x-ph" pos="open">&lt;ph&gt;</it>-- Find the total number of economy seats taken on a flight, -- grouped by airline, -- only when the group has at least 2 records.</mrk><mrk mid="1" mtype="seg"> <it id="2" ctype="x-ph" pos="close">&lt;/ph&gt;</it> SELECT SUM(ECONOMY_SEATS_TAKEN), AIRLINE_FULL FROM FLIGHTAVAILABILITY, AIRLINES WHERE SUBSTR(FLIGHTAVAILABILITY.FLIGHT_ID, 1, 2) = AIRLINE GROUP BY AIRLINE_FULL HAVING COUNT(*) &gt; 1 <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it><it id="2" ctype="x-ph" pos="open">&lt;ph&gt;</it>-- Find the total number of economy seats taken on a flight, -- grouped by airline, -- only when the group has at least 2 records.</mrk><mrk mid="1" mtype="seg"> <it id="2" ctype="x-ph" pos="close">&lt;/ph&gt;</it> SELECT SUM(ECONOMY_SEATS_TAKEN), AIRLINE_FULL FROM FLIGHTAVAILABILITY, AIRLINES WHERE SUBSTR(FLIGHTAVAILABILITY.FLIGHT_ID, 1, 2) = AIRLINE GROUP BY AIRLINE_FULL HAVING COUNT(*) &gt; 1 <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

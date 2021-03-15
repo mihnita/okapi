@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevstandardsxml.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">XML data types and operators</source>
+<seg-source><mrk mid="0" mtype="seg">XML data types and operators</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XML data types and operators</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the XML data type and a set of operators that work with the XML data type, but does not provide JDBC support for the XML data type. The XML data type and operators are based on a small subset of the SQL/XML specification.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the XML data type and a set of operators that work with the XML data type, but does not provide JDBC support for the XML data type.</mrk><mrk mid="1" mtype="seg"> The XML data type and operators are based on a small subset of the SQL/XML specification.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the XML data type and a set of operators that work with the XML data type, but does not provide JDBC support for the XML data type.</mrk><mrk mid="1" mtype="seg"> The XML data type and operators are based on a small subset of the SQL/XML specification.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SQL standards</source>
+<seg-source><mrk mid="0" mtype="seg">SQL standards</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL standards</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">XML data types and operators</source>
+<seg-source><mrk mid="0" mtype="seg">XML data types and operators</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XML data types and operators</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">XML data types</source>
+<seg-source><mrk mid="0" mtype="seg">XML data types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XML data types</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SQL standard</source>
+<seg-source><mrk mid="0" mtype="seg">SQL standard</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL standard</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">XML data types</source>
+<seg-source><mrk mid="0" mtype="seg">XML data types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XML data types</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">limitations</source>
+<seg-source><mrk mid="0" mtype="seg">limitations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">limitations</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The XML data type and operators are defined only in the SQL layer.</source>
+<seg-source><mrk mid="0" mtype="seg">The XML data type and operators are defined only in the SQL layer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The XML data type and operators are defined only in the SQL layer.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">There is no JDBC-side support for XML data types. It is not possible to bind directly into an XML value or to retrieve an XML value directly from a result set. Instead, you must bind and retrieve the XML data as Java strings or character streams by explicitly specifying the appropriate XML operator as part of the SQL statements:</source>
+<seg-source><mrk mid="0" mtype="seg">There is no JDBC-side support for XML data types.</mrk><mrk mid="1" mtype="seg"> It is not possible to bind directly into an XML value or to retrieve an XML value directly from a result set.</mrk><mrk mid="2" mtype="seg"> Instead, you must bind and retrieve the XML data as Java strings or character streams by explicitly specifying the appropriate XML operator as part of the SQL statements:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There is no JDBC-side support for XML data types.</mrk><mrk mid="1" mtype="seg"> It is not possible to bind directly into an XML value or to retrieve an XML value directly from a result set.</mrk><mrk mid="2" mtype="seg"> Instead, you must bind and retrieve the XML data as Java strings or character streams by explicitly specifying the appropriate XML operator as part of the SQL statements:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Create a table with a XML data typed column. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">Create a table with a XML data typed column.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a table with a XML data typed column.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">CREATE TABLE xml_data(xml_col XML);</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE TABLE xml_data(xml_col XML);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE TABLE xml_data(xml_col XML);</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Use the XMLPARSE operator for binding data into XML values. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">Use the XMLPARSE operator for binding data into XML values.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the XMLPARSE operator for binding data into XML values.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">INSERT INTO xml_data(xml_col) VALUES(XMLPARSE(DOCUMENT ' &lt;name&gt; Derby &lt;/name&gt;' PRESERVE WHITESPACE));</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO xml_data(xml_col) VALUES(XMLPARSE(DOCUMENT ' &lt;name&gt; Derby &lt;/name&gt;' PRESERVE WHITESPACE));</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO xml_data(xml_col) VALUES(XMLPARSE(DOCUMENT ' &lt;name&gt; Derby &lt;/name&gt;' PRESERVE WHITESPACE));</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">You must insert the XML keywords DOCUMENT and PRESERVE WHITESPACE. Actual XML data should be inside single quotation marks, and values should be within the starting XML tag and the ending XML tag.</source>
+<seg-source><mrk mid="0" mtype="seg">You must insert the XML keywords DOCUMENT and PRESERVE WHITESPACE.</mrk><mrk mid="1" mtype="seg"> Actual XML data should be inside single quotation marks, and values should be within the starting XML tag and the ending XML tag.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You must insert the XML keywords DOCUMENT and PRESERVE WHITESPACE.</mrk><mrk mid="1" mtype="seg"> Actual XML data should be inside single quotation marks, and values should be within the starting XML tag and the ending XML tag.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Use the XMLSERIALIZE operator to retrieve XML values from a result set. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">Use the XMLSERIALIZE operator to retrieve XML values from a result set.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the XMLSERIALIZE operator to retrieve XML values from a result set.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">SELECT XMLSERIALIZE(xml_col AS CLOB) FROM xml_data;</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT XMLSERIALIZE(xml_col AS CLOB) FROM xml_data;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT XMLSERIALIZE(xml_col AS CLOB) FROM xml_data;</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">You can also specify <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>xml_col AS VARCHAR(25)<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You can also specify <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>xml_col AS VARCHAR(25)<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can also specify <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>xml_col AS VARCHAR(25)<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Use non-XML data retrieved from a non-XML column to create an XML fragment. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">Use non-XML data retrieved from a non-XML column to create an XML fragment.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use non-XML data retrieved from a non-XML column to create an XML fragment.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">SELECT '&lt;my_self&gt;' || '&lt;name&gt;'|| my_name ||'&lt;/name&gt;' || '&lt;age&gt;'|| TRIM(CHAR(my_age)) ||'&lt;/age&gt;'|| '&lt;/my_self&gt;' FROM my_non_xml_table;</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT '&lt;my_self&gt;' || '&lt;name&gt;'|| my_name ||'&lt;/name&gt;' || '&lt;age&gt;'|| TRIM(CHAR(my_age)) ||'&lt;/age&gt;'|| '&lt;/my_self&gt;' FROM my_non_xml_table;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT '&lt;my_self&gt;' || '&lt;name&gt;'|| my_name ||'&lt;/name&gt;' || '&lt;age&gt;'|| TRIM(CHAR(my_age)) ||'&lt;/age&gt;'|| '&lt;/my_self&gt;' FROM my_non_xml_table;</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">This will result in XML fragments, which you must plug into an XML document.</source>
+<seg-source><mrk mid="0" mtype="seg">This will result in XML fragments, which you must plug into an XML document.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This will result in XML fragments, which you must plug into an XML document.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Additionally, there is no JDBC metadata support for the XML data type.</source>
+<seg-source><mrk mid="0" mtype="seg">Additionally, there is no JDBC metadata support for the XML data type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Additionally, there is no JDBC metadata support for the XML data type.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">The XML data type is not allowed in any of the clauses or operations that are described in the section on expressions on LONG data types in <bpt id="1" ctype="x-xref">&lt;xref href="cdevstandards806118.dita#cdevstandards806118"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The XML data type is not allowed in any of the clauses or operations that are described in the section on expressions on LONG data types in <bpt id="1" ctype="x-xref">&lt;xref href="cdevstandards806118.dita#cdevstandards806118"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The XML data type is not allowed in any of the clauses or operations that are described in the section on expressions on LONG data types in <bpt id="1" ctype="x-xref">&lt;xref href="cdevstandards806118.dita#cdevstandards806118"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">For the XML operators to work properly, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> requires that a JAXP parser, such as Apache Xerces, and an implementation of the DOM Level 3 XPath specification, such as Apache Xalan, are included in the Java classpath. If either the parser or the XPath processor is missing from the classpath, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> disallows any XML-related operations.</source>
+<seg-source><mrk mid="0" mtype="seg">For the XML operators to work properly, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> requires that a JAXP parser, such as Apache Xerces, and an implementation of the DOM Level 3 XPath specification, such as Apache Xalan, are included in the Java classpath.</mrk><mrk mid="1" mtype="seg"> If either the parser or the XPath processor is missing from the classpath, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> disallows any XML-related operations.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For the XML operators to work properly, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> requires that a JAXP parser, such as Apache Xerces, and an implementation of the DOM Level 3 XPath specification, such as Apache Xalan, are included in the Java classpath.</mrk><mrk mid="1" mtype="seg"> If either the parser or the XPath processor is missing from the classpath, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> disallows any XML-related operations.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Classpath and version issues</source>
+<seg-source><mrk mid="0" mtype="seg">Classpath and version issues</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Classpath and version issues</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Most Java Virtual Machines (JVMs) that are version 6 or later have the required libraries embedded in the JVM. If you are using one of these JVMs, you may not need to add any classes to your classpath.</source>
+<seg-source><mrk mid="0" mtype="seg">Most Java Virtual Machines (JVMs) that are version 6 or later have the required libraries embedded in the JVM.</mrk><mrk mid="1" mtype="seg"> If you are using one of these JVMs, you may not need to add any classes to your classpath.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Most Java Virtual Machines (JVMs) that are version 6 or later have the required libraries embedded in the JVM.</mrk><mrk mid="1" mtype="seg"> If you are using one of these JVMs, you may not need to add any classes to your classpath.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">If your JVM does not include the required libraries, you must add Apache Xalan, or some other library that implements the required functionality, to your classpath.</source>
+<seg-source><mrk mid="0" mtype="seg">If your JVM does not include the required libraries, you must add Apache Xalan, or some other library that implements the required functionality, to your classpath.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If your JVM does not include the required libraries, you must add Apache Xalan, or some other library that implements the required functionality, to your classpath.</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Some JVMs include a version of Xalan that is not new enough. If your JVM comes with a too old version of Xalan, you may need to override the version of Xalan in the JVM with a newer version by using the Endorsed Standards Override Mechanism described at <bpt id="1" ctype="x-xref">&lt;xref format="html" href="http://download.oracle.com/javase/1.5.0/docs/guide/standards/"
+scope="external"&gt;</bpt>http://download.oracle.com/javase/1.5.0/docs/guide/standards/<ept id="1">&lt;/xref&gt;</ept>. To use this mechanism, download and install a binary distribution of Xalan from Apache and set the system property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>java.endorsed.dirs<ept id="2">&lt;/codeph&gt;</ept> to point to the Xalan installation directory.</source>
+<seg-source><mrk mid="0" mtype="seg">Some JVMs include a version of Xalan that is not new enough.</mrk><mrk mid="1" mtype="seg"> If your JVM comes with a too old version of Xalan, you may need to override the version of Xalan in the JVM with a newer version by using the Endorsed Standards Override Mechanism described at <bpt id="1" ctype="x-xref">&lt;xref format="html" href="http://download.oracle.com/javase/1.5.0/docs/guide/standards/"
+scope="external"&gt;</bpt>http://download.oracle.com/javase/1.5.0/docs/guide/standards/<ept id="1">&lt;/xref&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> To use this mechanism, download and install a binary distribution of Xalan from Apache and set the system property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>java.endorsed.dirs<ept id="2">&lt;/codeph&gt;</ept> to point to the Xalan installation directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Some JVMs include a version of Xalan that is not new enough.</mrk><mrk mid="1" mtype="seg"> If your JVM comes with a too old version of Xalan, you may need to override the version of Xalan in the JVM with a newer version by using the Endorsed Standards Override Mechanism described at <bpt id="1" ctype="x-xref">&lt;xref format="html" href="http://download.oracle.com/javase/1.5.0/docs/guide/standards/"
+scope="external"&gt;</bpt>http://download.oracle.com/javase/1.5.0/docs/guide/standards/<ept id="1">&lt;/xref&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> To use this mechanism, download and install a binary distribution of Xalan from Apache and set the system property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>java.endorsed.dirs<ept id="2">&lt;/codeph&gt;</ept> to point to the Xalan installation directory.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

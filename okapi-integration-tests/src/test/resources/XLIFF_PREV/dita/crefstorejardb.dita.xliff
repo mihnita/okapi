@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="crefstorejardb.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">System procedures for storing jar files in a database</source>
+<seg-source><mrk mid="0" mtype="seg">System procedures for storing jar files in a database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">System procedures for storing jar files in a database</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.INSTALL_JAR<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.REMOVE_JAR<ept id="2">&lt;/codeph&gt;</ept>, and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.REPLACE_JAR<ept id="3">&lt;/codeph&gt;</ept> are a set of procedures in the SQLJ schema that allow you to store jar files in a database.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.INSTALL_JAR<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.REMOVE_JAR<ept id="2">&lt;/codeph&gt;</ept>, and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.REPLACE_JAR<ept id="3">&lt;/codeph&gt;</ept> are a set of procedures in the SQLJ schema that allow you to store jar files in a database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.INSTALL_JAR<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.REMOVE_JAR<ept id="2">&lt;/codeph&gt;</ept>, and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.REPLACE_JAR<ept id="3">&lt;/codeph&gt;</ept> are a set of procedures in the SQLJ schema that allow you to store jar files in a database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Your jar file has two names:</source>
+<seg-source><mrk mid="0" mtype="seg">Your jar file has two names:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Your jar file has two names:</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>physical name<ept id="1">&lt;/i&gt;</ept> (the name you gave it when you created it)</source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>physical name<ept id="1">&lt;/i&gt;</ept> (the name you gave it when you created it)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>physical name<ept id="1">&lt;/i&gt;</ept> (the name you gave it when you created it)</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> name<ept id="1">&lt;/i&gt;</ept> (the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> identifier you give it when you load it into a particular schema). The <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> name, an <bpt id="5" ctype="x-i">&lt;i&gt;</bpt><bpt id="6" ctype="x-xref">&lt;xref href="crefsqlj34834.dita#crefsqlj34834"&gt;</bpt>SQL92Identifier<ept id="6">&lt;/xref&gt;</ept><ept id="5">&lt;/i&gt;</ept>, can be delimited and must be unique within a schema.</source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> name<ept id="1">&lt;/i&gt;</ept> (the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> identifier you give it when you load it into a particular schema).</mrk><mrk mid="1" mtype="seg"> The <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> name, an <bpt id="5" ctype="x-i">&lt;i&gt;</bpt><bpt id="6" ctype="x-xref">&lt;xref href="crefsqlj34834.dita#crefsqlj34834"&gt;</bpt>SQL92Identifier<ept id="6">&lt;/xref&gt;</ept><ept id="5">&lt;/i&gt;</ept>, can be delimited and must be unique within a schema.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> name<ept id="1">&lt;/i&gt;</ept> (the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> identifier you give it when you load it into a particular schema).</mrk><mrk mid="1" mtype="seg"> The <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> name, an <bpt id="5" ctype="x-i">&lt;i&gt;</bpt><bpt id="6" ctype="x-xref">&lt;xref href="crefsqlj34834.dita#crefsqlj34834"&gt;</bpt>SQL92Identifier<ept id="6">&lt;/xref&gt;</ept><ept id="5">&lt;/i&gt;</ept>, can be delimited and must be unique within a schema.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">A single schema can store more than one jar file.</source>
+<seg-source><mrk mid="0" mtype="seg">A single schema can store more than one jar file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A single schema can store more than one jar file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">For more information on when and how to use these procedures, see "Loading classes from a database" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information on when and how to use these procedures, see "Loading classes from a database" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information on when and how to use these procedures, see "Loading classes from a database" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

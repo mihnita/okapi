@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="test" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M28" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1">
+<source xml:lang="en"><mrk its:locQualityIssuesRef="#P3393D08C" mtype="x-its">error1</mrk>.</source>
+<seg-source><mrk mid="0" mtype="seg"><mrk its:locQualityIssuesRef="#P3393D08C" mtype="x-its">error1</mrk>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><mrk its:locQualityIssuesRef="#NA3D0E225" mtype="x-its">error1</mrk>.</mrk></target>
+<its:locQualityIssues xmlns:its="http://www.w3.org/2005/11/its" version="2.0" xml:id="P3393D08C">
+<its:locQualityIssue locQualityIssueComment="comment1"/>
+<its:locQualityIssue locQualityIssueComment="comment2" locQualityIssueType="misspelling"/>
+</its:locQualityIssues>
+<its:locQualityIssues xmlns:its="http://www.w3.org/2005/11/its" version="2.0" xml:id="NA3D0E225">
+<its:locQualityIssue locQualityIssueComment="comment1"/>
+<its:locQualityIssue locQualityIssueComment="comment2" locQualityIssueType="misspelling"/>
+</its:locQualityIssues>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en"><mrk its:locQualityIssuesRef="#P7F90666F" mtype="x-its">error2</mrk>.</source>
+<seg-source><mrk mid="0" mtype="seg"><mrk its:locQualityIssuesRef="#P7F90666F" mtype="x-its">error2</mrk>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><mrk its:locQualityIssuesRef="#P6591BD18" mtype="x-its">error2</mrk>.</mrk></target>
+<its:locQualityIssues xmlns:its="http://www.w3.org/2005/11/its" version="2.0" xml:id="P7F90666F">
+<its:locQualityIssue locQualityIssueComment="comment3"/>
+<its:locQualityIssue locQualityIssueComment="comment4" locQualityIssueType="misspelling"/>
+</its:locQualityIssues>
+<its:locQualityIssues xmlns:its="http://www.w3.org/2005/11/its" version="2.0" xml:id="P6591BD18">
+<its:locQualityIssue locQualityIssueComment="comment3"/>
+<its:locQualityIssue locQualityIssueComment="comment4" locQualityIssueType="misspelling"/>
+</its:locQualityIssues>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><mrk its:locQualityIssuesRef="#P7F1F0407" mtype="x-its">error3</mrk>.</source>
+<seg-source><mrk mid="0" mtype="seg"><mrk its:locQualityIssuesRef="#P7F1F0407" mtype="x-its">error3</mrk>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><mrk its:locQualityIssuesRef="#N8AA9EFC5" mtype="x-its">error3</mrk>.</mrk></target>
+<its:locQualityIssues xmlns:its="http://www.w3.org/2005/11/its" version="2.0" xml:id="P7F1F0407">
+<its:locQualityIssue locQualityIssueComment="comment5"/>
+<its:locQualityIssue locQualityIssueComment="comment6" locQualityIssueType="mistranslation"/>
+</its:locQualityIssues>
+<its:locQualityIssues xmlns:its="http://www.w3.org/2005/11/its" version="2.0" xml:id="N8AA9EFC5">
+<its:locQualityIssue locQualityIssueComment="comment5"/>
+<its:locQualityIssue locQualityIssueComment="comment6" locQualityIssueType="mistranslation"/>
+</its:locQualityIssues>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><mrk its:locQualityIssuesRef="#P6B6B14AD" mtype="x-its">error4</mrk>.</source>
+<seg-source><mrk mid="0" mtype="seg"><mrk its:locQualityIssuesRef="#P6B6B14AD" mtype="x-its">error4</mrk>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><mrk its:locQualityIssuesRef="#NBCAFCAF2" mtype="x-its">error4</mrk>.</mrk></target>
+<its:locQualityIssues xmlns:its="http://www.w3.org/2005/11/its" version="2.0" xml:id="P6B6B14AD">
+<its:locQualityIssue locQualityIssueComment="comment7"/>
+<its:locQualityIssue locQualityIssueComment="comment8" locQualityIssueType="mistranslation"/>
+</its:locQualityIssues>
+<its:locQualityIssues xmlns:its="http://www.w3.org/2005/11/its" version="2.0" xml:id="NBCAFCAF2">
+<its:locQualityIssue locQualityIssueComment="comment7"/>
+<its:locQualityIssue locQualityIssueComment="comment8" locQualityIssueType="mistranslation"/>
+</its:locQualityIssues>
+</trans-unit>
+</body>
+</file>
+</xliff>

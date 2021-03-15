@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="idmltest.idml" source-language="en" target-language="fr" datatype="x-application/vnd.adobe.indesign-idml-package" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="spr1" resname="MasterSpreads/MasterSpread_ub4.xml" restype="x-spread">
+</group>
+<group id="spr2" resname="Spreads/Spread_uad.xml" restype="x-spread">
+<group id="sto1" resname="uc2" restype="x-story">
+<trans-unit id="uc2-1">
+<source xml:lang="en">This is a first sentence.<ph id="3" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Content&gt;</ph>And a second line in that same paragraph.<ph id="6" ctype="lb"> </ph>and a third one after Ctrl+Enter<ph id="7" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Br/&gt;&lt;Content&gt;</ph>\=bs, &amp;=amp, &lt;=lt, “=quot, ^=caret<ph id="11" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Br/&gt;&lt;Content&gt;</ph>Text in <ph id="15" ctype="x-code">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"&gt;&lt;Properties&gt;&lt;AppliedFont type="string"&gt;VonnesBlackExt&lt;/AppliedFont&gt;&lt;/Properties&gt;&lt;Content&gt;</ph>a different font<ph id="24" ctype="x-code">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"&gt;&lt;Content&gt;</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a first sentence.<ph id="3" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Content&gt;</ph>And a second line in that same paragraph.<ph id="6" ctype="lb"> </ph>and a third one after Ctrl+Enter<ph id="7" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Br/&gt;&lt;Content&gt;</ph>\=bs, &amp;=amp, &lt;=lt, “=quot, ^=caret<ph id="11" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Br/&gt;&lt;Content&gt;</ph>Text in <ph id="15" ctype="x-code">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"&gt;&lt;Properties&gt;&lt;AppliedFont type="string"&gt;VonnesBlackExt&lt;/AppliedFont&gt;&lt;/Properties&gt;&lt;Content&gt;</ph>a different font<ph id="24" ctype="x-code">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"&gt;&lt;Content&gt;</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a first sentence.<ph id="3" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Content&gt;</ph>And a second line in that same paragraph.<ph id="6" ctype="lb"> </ph>and a third one after Ctrl+Enter<ph id="7" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Br/&gt;&lt;Content&gt;</ph>\=bs, &amp;=amp, &lt;=lt, “=quot, ^=caret<ph id="11" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Br/&gt;&lt;Content&gt;</ph>Text in <ph id="15" ctype="x-code">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"&gt;&lt;Properties&gt;&lt;AppliedFont type="string"&gt;VonnesBlackExt&lt;/AppliedFont&gt;&lt;/Properties&gt;&lt;Content&gt;</ph>a different font<ph id="24" ctype="x-code">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"&gt;&lt;Content&gt;</ph>.</mrk></target>
+</trans-unit>
+</group>
+<group id="sto2" resname="uf4" restype="x-story">
+<trans-unit id="uf4-2">
+<source xml:lang="en">Cell 1</source>
+<seg-source><mrk mid="0" mtype="seg">Cell 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cell 1</mrk></target>
+</trans-unit>
+<trans-unit id="uf4-3">
+<source xml:lang="en">Cell 2</source>
+<seg-source><mrk mid="0" mtype="seg">Cell 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cell 2</mrk></target>
+</trans-unit>
+<trans-unit id="uf4-4">
+<source xml:lang="en">Last cell.<ph id="3" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Content&gt;</ph>Second line of last cell.</source>
+<seg-source><mrk mid="0" mtype="seg">Last cell.<ph id="3" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Content&gt;</ph>Second line of last cell.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Last cell.<ph id="3" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Content&gt;</ph>Second line of last cell.</mrk></target>
+</trans-unit>
+<trans-unit id="uf4-1">
+<source xml:lang="en">Text before the table.<ph id="3" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;SKLREF id="1"/&gt;&lt;Br/&gt;&lt;Content&gt;</ph>Text after the table.<ph id="8" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Br/&gt;&lt;Content&gt;</ph>Before the note <ph id="12" ctype="x-code">&lt;/Content&gt;&lt;SKLREF id="2"/&gt;&lt;Content&gt;</ph> and after it.<ph id="15" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Br/&gt;&lt;Content&gt;</ph>Variables: <ph id="19" ctype="x-code">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PageNumberType="TextVariable"&gt;&lt;TextVariableInstance AssociatedTextVariable="dTextVariablenFile Name" Name="File Name" ResultText="Test02" Self="u114"/&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"&gt;&lt;Content&gt;</ph>=filename. 	=tab, <ph id="26" ctype="x-pi">&lt;?ACE 18?&gt;</ph>=curPageNum, “=dlq and ”=drq.<ph id="27" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Br/&gt;&lt;Content&gt;</ph> text</source>
+<seg-source><mrk mid="0" mtype="seg">Text before the table.<ph id="3" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;SKLREF id="1"/&gt;&lt;Br/&gt;&lt;Content&gt;</ph>Text after the table.<ph id="8" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Br/&gt;&lt;Content&gt;</ph>Before the note <ph id="12" ctype="x-code">&lt;/Content&gt;&lt;SKLREF id="2"/&gt;&lt;Content&gt;</ph> and after it.<ph id="15" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Br/&gt;&lt;Content&gt;</ph>Variables: <ph id="19" ctype="x-code">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PageNumberType="TextVariable"&gt;&lt;TextVariableInstance AssociatedTextVariable="dTextVariablenFile Name" Name="File Name" ResultText="Test02" Self="u114"/&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"&gt;&lt;Content&gt;</ph>=filename.</mrk><mrk mid="1" mtype="seg"> 	=tab, <ph id="26" ctype="x-pi">&lt;?ACE 18?&gt;</ph>=curPageNum, “=dlq and ”=drq.</mrk><ph id="27" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Br/&gt;&lt;Content&gt;</ph> <mrk mid="2" mtype="seg">text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text before the table.<ph id="3" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;SKLREF id="1"/&gt;&lt;Br/&gt;&lt;Content&gt;</ph>Text after the table.<ph id="8" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Br/&gt;&lt;Content&gt;</ph>Before the note <ph id="12" ctype="x-code">&lt;/Content&gt;&lt;SKLREF id="2"/&gt;&lt;Content&gt;</ph> and after it.<ph id="15" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Br/&gt;&lt;Content&gt;</ph>Variables: <ph id="19" ctype="x-code">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" PageNumberType="TextVariable"&gt;&lt;TextVariableInstance AssociatedTextVariable="dTextVariablenFile Name" Name="File Name" ResultText="Test02" Self="u114"/&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"&gt;&lt;Content&gt;</ph>=filename.</mrk><mrk mid="1" mtype="seg"> 	=tab, <ph id="26" ctype="x-pi">&lt;?ACE 18?&gt;</ph>=curPageNum, “=dlq and ”=drq.</mrk><ph id="27" ctype="x-code">&lt;/Content&gt;&lt;Br/&gt;&lt;Br/&gt;&lt;Content&gt;</ph> <mrk mid="2" mtype="seg">text</mrk></target>
+</trans-unit>
+</group>
+</group>
+</body>
+</file>
+</xliff>

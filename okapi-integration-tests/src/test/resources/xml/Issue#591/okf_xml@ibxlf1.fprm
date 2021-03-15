@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><its:rules xmlns:its="http://www.w3.org/2005/11/its" xmlns:cba="http://www.softcon.de/XML-schema/de.softcon.cba.itembuilder.xliff-supplement" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" xmlns:okp="okapi-framework:xmlfilter-options" xmlns:xlf="urn:oasis:names:tc:xliff:document:1.1" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0">
+ <its:translateRule selector="/xlf:xliff" translate="no"/>
+ <its:translateRule selector="//xlf:target" translate="yes"/>
+<okp:codeFinder useCodeFinder="yes">#v1
+count.i=2
+rule0=&lt;(/?)\w.*?&gt;
+rule1=(#\w+?\#)|(%\d+?%)
+</okp:codeFinder>
+</its:rules>

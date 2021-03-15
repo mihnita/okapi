@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminjmxdisable.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Disabling access to MBeans</source>
+<seg-source><mrk mid="0" mtype="seg">Disabling access to MBeans</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Disabling access to MBeans</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You may wish to disable or restrict access to MBeans in security-conscious environments. You can do this using either of the following techniques.</source>
+<seg-source><mrk mid="0" mtype="seg">You may wish to disable or restrict access to MBeans in security-conscious environments.</mrk><mrk mid="1" mtype="seg"> You can do this using either of the following techniques.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You may wish to disable or restrict access to MBeans in security-conscious environments.</mrk><mrk mid="1" mtype="seg"> You can do this using either of the following techniques.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Java Management Extensions (JMX) technology</source>
+<seg-source><mrk mid="0" mtype="seg">Java Management Extensions (JMX) technology</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Java Management Extensions (JMX) technology</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">JMX</source>
+<seg-source><mrk mid="0" mtype="seg">JMX</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JMX</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">disabling access</source>
+<seg-source><mrk mid="0" mtype="seg">disabling access</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">disabling access</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The first technique is to use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>stopManagement()<ept id="1">&lt;/codeph&gt;</ept> method of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ManagementMBean<ept id="2">&lt;/codeph&gt;</ept>. This method unregisters all of the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> MBeans except <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>ManagementMBean<ept id="4">&lt;/codeph&gt;</ept> itself, so it does not turn access off completely.</source>
+<seg-source><mrk mid="0" mtype="seg">The first technique is to use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>stopManagement()<ept id="1">&lt;/codeph&gt;</ept> method of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ManagementMBean<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This method unregisters all of the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> MBeans except <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>ManagementMBean<ept id="4">&lt;/codeph&gt;</ept> itself, so it does not turn access off completely.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The first technique is to use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>stopManagement()<ept id="1">&lt;/codeph&gt;</ept> method of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ManagementMBean<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This method unregisters all of the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> MBeans except <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>ManagementMBean<ept id="4">&lt;/codeph&gt;</ept> itself, so it does not turn access off completely.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The second technique is to run the Network Server with a custom security policy that does not grant <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept> the permissions needed to register MBeans. For example, you can modify the Network Server's basic policy (see <bpt id="2" ctype="x-xref">&lt;xref href="tadminnetservbasic.dita#tadminnetservbasic"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>) by commenting out this section:</source>
+<seg-source><mrk mid="0" mtype="seg">The second technique is to run the Network Server with a custom security policy that does not grant <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept> the permissions needed to register MBeans.</mrk><mrk mid="1" mtype="seg"> For example, you can modify the Network Server's basic policy (see <bpt id="2" ctype="x-xref">&lt;xref href="tadminnetservbasic.dita#tadminnetservbasic"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>) by commenting out this section:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The second technique is to run the Network Server with a custom security policy that does not grant <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept> the permissions needed to register MBeans.</mrk><mrk mid="1" mtype="seg"> For example, you can modify the Network Server's basic policy (see <bpt id="2" ctype="x-xref">&lt;xref href="tadminnetservbasic.dita#tadminnetservbasic"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>) by commenting out this section:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">// Allows access to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s built-in MBeans, within the domain // org.apache.derby. // <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> must be allowed to register and unregister these MBeans. // It is possible to allow access only to specific MBeans, attributes or // operations. To fine tune this permission, see the javadoc of // javax.management.MBeanPermission or the JMX Instrumentation and Agent // Specification. // permission javax.management.MBeanPermission "org.apache.derby.*#[org.apache.derby:*]", "registerMBean,unregisterMBean";</source>
+<seg-source><mrk mid="0" mtype="seg">// Allows access to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s built-in MBeans, within the domain // org.apache.derby.</mrk><mrk mid="1" mtype="seg"> // <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> must be allowed to register and unregister these MBeans.</mrk><mrk mid="2" mtype="seg"> // It is possible to allow access only to specific MBeans, attributes or // operations.</mrk><mrk mid="3" mtype="seg"> To fine tune this permission, see the javadoc of // javax.management.MBeanPermission or the JMX Instrumentation and Agent // Specification.</mrk><mrk mid="4" mtype="seg"> // permission javax.management.MBeanPermission "org.apache.derby.*#[org.apache.derby:*]", "registerMBean,unregisterMBean";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">// Allows access to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s built-in MBeans, within the domain // org.apache.derby.</mrk><mrk mid="1" mtype="seg"> // <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> must be allowed to register and unregister these MBeans.</mrk><mrk mid="2" mtype="seg"> // It is possible to allow access only to specific MBeans, attributes or // operations.</mrk><mrk mid="3" mtype="seg"> To fine tune this permission, see the javadoc of // javax.management.MBeanPermission or the JMX Instrumentation and Agent // Specification.</mrk><mrk mid="4" mtype="seg"> // permission javax.management.MBeanPermission "org.apache.derby.*#[org.apache.derby:*]", "registerMBean,unregisterMBean";</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">If the permission to register MBeans is not granted to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> will silently skip starting the management service at boot time.</source>
+<seg-source><mrk mid="0" mtype="seg">If the permission to register MBeans is not granted to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> will silently skip starting the management service at boot time.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the permission to register MBeans is not granted to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> will silently skip starting the management service at boot time.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

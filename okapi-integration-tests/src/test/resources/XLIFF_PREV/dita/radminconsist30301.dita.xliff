@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminconsist30301.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">The SYSCS_CHECK_TABLE function</source>
+<seg-source><mrk mid="0" mtype="seg">The SYSCS_CHECK_TABLE function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SYSCS_CHECK_TABLE function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> function checks the consistency of a <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> table.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> function checks the consistency of a <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> function checks the consistency of a <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">org.apache.derby.database.ConsistencyChecker.checkTable</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.database.ConsistencyChecker.checkTable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.database.ConsistencyChecker.checkTable</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">In particular, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> function verifies the following conditions:</source>
+<seg-source><mrk mid="0" mtype="seg">In particular, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> function verifies the following conditions:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In particular, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> function verifies the following conditions:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Base tables are internally consistent</source>
+<seg-source><mrk mid="0" mtype="seg">Base tables are internally consistent</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Base tables are internally consistent</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Base tables and all associated indexes contain the same number of rows</source>
+<seg-source><mrk mid="0" mtype="seg">Base tables and all associated indexes contain the same number of rows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Base tables and all associated indexes contain the same number of rows</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The values and row locations in each index match those of the base table</source>
+<seg-source><mrk mid="0" mtype="seg">The values and row locations in each index match those of the base table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The values and row locations in each index match those of the base table</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">All BTREE indexes are internally consistent</source>
+<seg-source><mrk mid="0" mtype="seg">All BTREE indexes are internally consistent</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All BTREE indexes are internally consistent</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">You run this function in an SQL statement, as follows:</source>
+<seg-source><mrk mid="0" mtype="seg">You run this function in an SQL statement, as follows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You run this function in an SQL statement, as follows:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SYSCS_UTIL.SYSCS_CHECK_TABLE(<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SchemaName<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>TableName<ept id="3">&lt;/i&gt;</ept>)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SYSCS_UTIL.SYSCS_CHECK_TABLE(<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SchemaName<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>TableName<ept id="3">&lt;/i&gt;</ept>)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SYSCS_UTIL.SYSCS_CHECK_TABLE(<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SchemaName<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>TableName<ept id="3">&lt;/i&gt;</ept>)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">where <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SchemaName<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>TableName<ept id="2">&lt;/i&gt;</ept> are expressions that evaluate to a string data type. If you created a schema or table name as a non-delimited identifier, you must present their names in all upper case. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">where <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SchemaName<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>TableName<ept id="2">&lt;/i&gt;</ept> are expressions that evaluate to a string data type.</mrk><mrk mid="1" mtype="seg"> If you created a schema or table name as a non-delimited identifier, you must present their names in all upper case.</mrk><mrk mid="2" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">where <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SchemaName<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>TableName<ept id="2">&lt;/i&gt;</ept> are expressions that evaluate to a string data type.</mrk><mrk mid="1" mtype="seg"> If you created a schema or table name as a non-delimited identifier, you must present their names in all upper case.</mrk><mrk mid="2" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SYSCS_UTIL.SYSCS_CHECK_TABLE('APP', 'CITIES')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SYSCS_UTIL.SYSCS_CHECK_TABLE('APP', 'CITIES')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SYSCS_UTIL.SYSCS_CHECK_TABLE('APP', 'CITIES')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> function returns a SMALLINT. If the table is consistent (or if you run <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="2">&lt;/codeph&gt;</ept> on a view), <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="3">&lt;/codeph&gt;</ept> returns a non-zero value. Otherwise, the function throws an exception on the first inconsistency that it finds.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> function returns a SMALLINT.</mrk><mrk mid="1" mtype="seg"> If the table is consistent (or if you run <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="2">&lt;/codeph&gt;</ept> on a view), <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="3">&lt;/codeph&gt;</ept> returns a non-zero value.</mrk><mrk mid="2" mtype="seg"> Otherwise, the function throws an exception on the first inconsistency that it finds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> function returns a SMALLINT.</mrk><mrk mid="1" mtype="seg"> If the table is consistent (or if you run <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="2">&lt;/codeph&gt;</ept> on a view), <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="3">&lt;/codeph&gt;</ept> returns a non-zero value.</mrk><mrk mid="2" mtype="seg"> Otherwise, the function throws an exception on the first inconsistency that it finds.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">For a consistent table, the following result is displayed:</source>
+<seg-source><mrk mid="0" mtype="seg">For a consistent table, the following result is displayed:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For a consistent table, the following result is displayed:</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">1 ----- 1 1 row selected</source>
+<seg-source><mrk mid="0" mtype="seg">1 ----- 1 1 row selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 ----- 1 1 row selected</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefattrib17246.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">databaseName=nameofDatabase attribute</source>
+<seg-source><mrk mid="0" mtype="seg">databaseName=nameofDatabase attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">databaseName=nameofDatabase attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">databaseName=nameOfDatabase database connection URL attribute</source>
+<seg-source><mrk mid="0" mtype="seg">databaseName=nameOfDatabase database connection URL attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">databaseName=nameOfDatabase database connection URL attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Connecting to a database (using databaseName attribute)</source>
+<seg-source><mrk mid="0" mtype="seg">Connecting to a database (using databaseName attribute)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connecting to a database (using databaseName attribute)</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Specifies a database name for a connection; it can be used instead of specifying the database name after the subprotocol.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies a database name for a connection; it can be used instead of specifying the database name after the subprotocol.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies a database name for a connection; it can be used instead of specifying the database name after the subprotocol.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">For example, these URL (and Properties object) combinations are equivalent:</source>
+<seg-source><mrk mid="0" mtype="seg">For example, these URL (and Properties object) combinations are equivalent:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, these URL (and Properties object) combinations are equivalent:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:toursDB<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:toursDB<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:toursDB<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:;databaseName=toursDB<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:;databaseName=toursDB<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:;databaseName=toursDB<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:<ept id="1">&lt;/i&gt;</ept>(with a property <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="2">&lt;/i&gt;</ept> and its value set to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>toursDB<ept id="3">&lt;/i&gt;</ept> in the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="4">&lt;/i&gt;</ept> object passed into a connection request)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:<ept id="1">&lt;/i&gt;</ept>(with a property <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="2">&lt;/i&gt;</ept> and its value set to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>toursDB<ept id="3">&lt;/i&gt;</ept> in the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="4">&lt;/i&gt;</ept> object passed into a connection request)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:<ept id="1">&lt;/i&gt;</ept>(with a property <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="2">&lt;/i&gt;</ept> and its value set to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>toursDB<ept id="3">&lt;/i&gt;</ept> in the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="4">&lt;/i&gt;</ept> object passed into a connection request)</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If you use a subsubprotocol to specify the database (for example, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>memory<ept id="1">&lt;/i&gt;</ept> for an in-memory database), include the subsubprotocol as part of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="2">&lt;/i&gt;</ept> attribute specification. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">If you use a subsubprotocol to specify the database (for example, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>memory<ept id="1">&lt;/i&gt;</ept> for an in-memory database), include the subsubprotocol as part of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="2">&lt;/i&gt;</ept> attribute specification.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you use a subsubprotocol to specify the database (for example, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>memory<ept id="1">&lt;/i&gt;</ept> for an in-memory database), include the subsubprotocol as part of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="2">&lt;/i&gt;</ept> attribute specification.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>jdbc:derby:;databaseName=memory:myDB<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>jdbc:derby:;databaseName=memory:myDB<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>jdbc:derby:;databaseName=memory:myDB<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">If the database name is specified both in the URL (as a subname) and as an attribute, the database name set as the subname has priority. For example, the following database connection URL connects to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>toursDB<ept id="1">&lt;/i&gt;</ept>:</source>
+<seg-source><mrk mid="0" mtype="seg">If the database name is specified both in the URL (as a subname) and as an attribute, the database name set as the subname has priority.</mrk><mrk mid="1" mtype="seg"> For example, the following database connection URL connects to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>toursDB<ept id="1">&lt;/i&gt;</ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the database name is specified both in the URL (as a subname) and as an attribute, the database name set as the subname has priority.</mrk><mrk mid="1" mtype="seg"> For example, the following database connection URL connects to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>toursDB<ept id="1">&lt;/i&gt;</ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>jdbc:derby:toursDB;databaseName=flightsDB<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>jdbc:derby:toursDB;databaseName=flightsDB<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>jdbc:derby:toursDB;databaseName=flightsDB<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Allowing the database name to be set as an attribute allows the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="1">&lt;/i&gt;</ept> method to return a list of choices for the database name based on the set of databases known to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>. For more information, see <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefjdbc34954.dita#rrefjdbc34954"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>.<ept id="3">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Allowing the database name to be set as an attribute allows the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="1">&lt;/i&gt;</ept> method to return a list of choices for the database name based on the set of databases known to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> For more information, see <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefjdbc34954.dita#rrefjdbc34954"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>.<ept id="3">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Allowing the database name to be set as an attribute allows the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="1">&lt;/i&gt;</ept> method to return a list of choices for the database name based on the set of databases known to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> For more information, see <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefjdbc34954.dita#rrefjdbc34954"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>.<ept id="3">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Combining with other attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Combining with other attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Combining with other attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">You can combine this attribute with all other attributes.</source>
+<seg-source><mrk mid="0" mtype="seg">You can combine this attribute with all other attributes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can combine this attribute with all other attributes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>jdbc:derby:;databaseName=newDB;create=true<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>jdbc:derby:;databaseName=newDB;create=true<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>jdbc:derby:;databaseName=newDB;create=true<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

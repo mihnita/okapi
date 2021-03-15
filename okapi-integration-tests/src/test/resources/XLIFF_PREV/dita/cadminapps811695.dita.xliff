@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminapps811695.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Enabling the encrypted user ID and password security mechanism</source>
+<seg-source><mrk mid="0" mtype="seg">Enabling the encrypted user ID and password security mechanism</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enabling the encrypted user ID and password security mechanism</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">To use the encrypted user ID and password security mechanism, you need a Java environment with a JCE (Java Cryptography Extension) which supports the Diffie-Hellman algorithm with a public prime of 256 bits.</source>
+<seg-source><mrk mid="0" mtype="seg">To use the encrypted user ID and password security mechanism, you need a Java environment with a JCE (Java Cryptography Extension) which supports the Diffie-Hellman algorithm with a public prime of 256 bits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To use the encrypted user ID and password security mechanism, you need a Java environment with a JCE (Java Cryptography Extension) which supports the Diffie-Hellman algorithm with a public prime of 256 bits.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Encrypted User ID and password</source>
+<seg-source><mrk mid="0" mtype="seg">Encrypted User ID and password</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encrypted User ID and password</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">using with Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">using with Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">using with Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Java Cryptography Extension (JCE)</source>
+<seg-source><mrk mid="0" mtype="seg">Java Cryptography Extension (JCE)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Java Cryptography Extension (JCE)</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The Java Platform, Standard Edition (Java SE) requires a public prime of 512 bits or more.</source>
+<seg-source><mrk mid="0" mtype="seg">The Java Platform, Standard Edition (Java SE) requires a public prime of 512 bits or more.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Java Platform, Standard Edition (Java SE) requires a public prime of 512 bits or more.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">To use the encrypted user id and password security mechanism during JDBC connection using the network client, specify the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>securityMechanism<ept id="1">&lt;/codeph&gt;</ept> in the connection property.</source>
+<seg-source><mrk mid="0" mtype="seg">To use the encrypted user id and password security mechanism during JDBC connection using the network client, specify the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>securityMechanism<ept id="1">&lt;/codeph&gt;</ept> in the connection property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To use the encrypted user id and password security mechanism during JDBC connection using the network client, specify the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>securityMechanism<ept id="1">&lt;/codeph&gt;</ept> in the connection property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If an encrypted database is booted in the Network Server, users can connect to the database without giving the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>bootPassword<ept id="1">&lt;/codeph&gt;</ept>. The first connection to the database must provide the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>bootPassword<ept id="2">&lt;/codeph&gt;</ept>, but all subsequent connections do not need to supply it. To remove access from the encrypted database, use the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown=true<ept id="3">&lt;/codeph&gt;</ept> option to shut down the database.</source>
+<seg-source><mrk mid="0" mtype="seg">If an encrypted database is booted in the Network Server, users can connect to the database without giving the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>bootPassword<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The first connection to the database must provide the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>bootPassword<ept id="2">&lt;/codeph&gt;</ept>, but all subsequent connections do not need to supply it.</mrk><mrk mid="2" mtype="seg"> To remove access from the encrypted database, use the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown=true<ept id="3">&lt;/codeph&gt;</ept> option to shut down the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If an encrypted database is booted in the Network Server, users can connect to the database without giving the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>bootPassword<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The first connection to the database must provide the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>bootPassword<ept id="2">&lt;/codeph&gt;</ept>, but all subsequent connections do not need to supply it.</mrk><mrk mid="2" mtype="seg"> To remove access from the encrypted database, use the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown=true<ept id="3">&lt;/codeph&gt;</ept> option to shut down the database.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

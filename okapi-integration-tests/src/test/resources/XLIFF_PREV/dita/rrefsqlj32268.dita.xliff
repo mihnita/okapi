@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj32268.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SET SCHEMA statement</source>
+<seg-source><mrk mid="0" mtype="seg">SET SCHEMA statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SET SCHEMA statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">SET SCHEMA statement</source>
+<seg-source><mrk mid="0" mtype="seg">SET SCHEMA statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SET SCHEMA statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Schemas</source>
+<seg-source><mrk mid="0" mtype="seg">Schemas</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Schemas</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">changing default for session</source>
+<seg-source><mrk mid="0" mtype="seg">changing default for session</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">changing default for session</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The SET SCHEMA statement sets the default schema for a connection's session to the designated schema. The default schema is used as the target schema for all statements issued from the connection that do not explicitly specify a schema name.</source>
+<seg-source><mrk mid="0" mtype="seg">The SET SCHEMA statement sets the default schema for a connection's session to the designated schema.</mrk><mrk mid="1" mtype="seg"> The default schema is used as the target schema for all statements issued from the connection that do not explicitly specify a schema name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SET SCHEMA statement sets the default schema for a connection's session to the designated schema.</mrk><mrk mid="1" mtype="seg"> The default schema is used as the target schema for all statements issued from the connection that do not explicitly specify a schema name.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The target schema must exist for the SET SCHEMA statement to succeed. If the schema doesn't exist an error is returned. See <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqlj31580.dita#rrefsqlj31580"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The target schema must exist for the SET SCHEMA statement to succeed.</mrk><mrk mid="1" mtype="seg"> If the schema doesn't exist an error is returned.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqlj31580.dita#rrefsqlj31580"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The target schema must exist for the SET SCHEMA statement to succeed.</mrk><mrk mid="1" mtype="seg"> If the schema doesn't exist an error is returned.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqlj31580.dita#rrefsqlj31580"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The SET SCHEMA statement is not transactional: If the SET SCHEMA statement is part of a transaction that is rolled back, the schema change remains in effect.</source>
+<seg-source><mrk mid="0" mtype="seg">The SET SCHEMA statement is not transactional: If the SET SCHEMA statement is part of a transaction that is rolled back, the schema change remains in effect.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SET SCHEMA statement is not transactional: If the SET SCHEMA statement is part of a transaction that is rolled back, the schema change remains in effect.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SET [ CURRENT ] SCHEMA [ = ] { <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | USER | ? | '<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>stringConstant<ept id="4">&lt;/i&gt;</ept>' } | SET CURRENT SQLID [ = ] { <bpt id="5" ctype="x-i">&lt;i&gt;</bpt><bpt id="6" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="6">&lt;/xref&gt;</ept><ept id="5">&lt;/i&gt;</ept> | USER | ? | '<bpt id="7" ctype="x-i">&lt;i&gt;</bpt>stringConstant<ept id="7">&lt;/i&gt;</ept>' }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SET [ CURRENT ] SCHEMA [ = ] { <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | USER | ? | '<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>stringConstant<ept id="4">&lt;/i&gt;</ept>' } | SET CURRENT SQLID [ = ] { <bpt id="5" ctype="x-i">&lt;i&gt;</bpt><bpt id="6" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="6">&lt;/xref&gt;</ept><ept id="5">&lt;/i&gt;</ept> | USER | ? | '<bpt id="7" ctype="x-i">&lt;i&gt;</bpt>stringConstant<ept id="7">&lt;/i&gt;</ept>' }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SET [ CURRENT ] SCHEMA [ = ] { <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | USER | ? | '<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>stringConstant<ept id="4">&lt;/i&gt;</ept>' } | SET CURRENT SQLID [ = ] { <bpt id="5" ctype="x-i">&lt;i&gt;</bpt><bpt id="6" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="6">&lt;/xref&gt;</ept><ept id="5">&lt;/i&gt;</ept> | USER | ? | '<bpt id="7" ctype="x-i">&lt;i&gt;</bpt>stringConstant<ept id="7">&lt;/i&gt;</ept>' }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> is an identifier with a maximum length of 128. It is case insensitive unless enclosed in double quotes. (For example, SYS is equivalent to sYs, SYs, and sys.)</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> is an identifier with a maximum length of 128.</mrk><mrk mid="1" mtype="seg"> It is case insensitive unless enclosed in double quotes.</mrk><mrk mid="2" mtype="seg"> (For example, SYS is equivalent to sYs, SYs, and sys.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> is an identifier with a maximum length of 128.</mrk><mrk mid="1" mtype="seg"> It is case insensitive unless enclosed in double quotes.</mrk><mrk mid="2" mtype="seg"> (For example, SYS is equivalent to sYs, SYs, and sys.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">USER is the current user. If no current user is defined, the current schema defaults to the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>APP<ept id="1">&lt;/i&gt;</ept> schema. (If a user name was specified upon connection, the user's name is the default schema for the connection, if a schema with that name exists.)</source>
+<seg-source><mrk mid="0" mtype="seg">USER is the current user.</mrk><mrk mid="1" mtype="seg"> If no current user is defined, the current schema defaults to the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>APP<ept id="1">&lt;/i&gt;</ept> schema.</mrk><mrk mid="2" mtype="seg"> (If a user name was specified upon connection, the user's name is the default schema for the connection, if a schema with that name exists.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">USER is the current user.</mrk><mrk mid="1" mtype="seg"> If no current user is defined, the current schema defaults to the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>APP<ept id="1">&lt;/i&gt;</ept> schema.</mrk><mrk mid="2" mtype="seg"> (If a user name was specified upon connection, the user's name is the default schema for the connection, if a schema with that name exists.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">? is a dynamic parameter specification that can be used in prepared statements. The SET SCHEMA statement can be prepared once and then executed with different schema values. The schema values are treated as string constants so they are case sensitive. For example, to designate the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>APP<ept id="1">&lt;/i&gt;</ept> schema, use the string "APP" rather than "app".</source>
+<seg-source><mrk mid="0" mtype="seg">? is a dynamic parameter specification that can be used in prepared statements.</mrk><mrk mid="1" mtype="seg"> The SET SCHEMA statement can be prepared once and then executed with different schema values.</mrk><mrk mid="2" mtype="seg"> The schema values are treated as string constants so they are case sensitive.</mrk><mrk mid="3" mtype="seg"> For example, to designate the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>APP<ept id="1">&lt;/i&gt;</ept> schema, use the string "APP" rather than "app".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">? is a dynamic parameter specification that can be used in prepared statements.</mrk><mrk mid="1" mtype="seg"> The SET SCHEMA statement can be prepared once and then executed with different schema values.</mrk><mrk mid="2" mtype="seg"> The schema values are treated as string constants so they are case sensitive.</mrk><mrk mid="3" mtype="seg"> For example, to designate the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>APP<ept id="1">&lt;/i&gt;</ept> schema, use the string "APP" rather than "app".</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- The following are all equivalent and will work -- assuming a schema called HOTEL <ept id="2">&lt;/ph&gt;</ept> SET SCHEMA HOTEL SET SCHEMA hotel SET CURRENT SCHEMA hotel SET CURRENT SQLID hotel SET SCHEMA = hotel SET CURRENT SCHEMA = hotel SET CURRENT SQLID = hotel SET SCHEMA "HOTEL" <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- quoted identifier<ept id="3">&lt;/ph&gt;</ept> SET SCHEMA 'HOTEL' <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- quoted string<ept id="4">&lt;/ph&gt;</ept> <bpt id="5" ctype="x-ph">&lt;ph&gt;</bpt>-- This example produces an error because -- lower case hotel won't be found<ept id="5">&lt;/ph&gt;</ept> SET SCHEMA = 'hotel' <bpt id="6" ctype="x-ph">&lt;ph&gt;</bpt> -- This example produces an error because SQLID is not -- allowed without CURRENT<ept id="6">&lt;/ph&gt;</ept> SET SQLID hotel <bpt id="7" ctype="x-ph">&lt;ph&gt;</bpt> -- This sets the schema to the current user id <ept id="7">&lt;/ph&gt;</ept> SET CURRENT SCHEMA USER <bpt id="8" ctype="x-ph">&lt;ph&gt;</bpt>// Here's an example of using SET SCHEMA in an Java program <ept id="8">&lt;/ph&gt;</ept> PreparedStatement ps = conn.PrepareStatement("set schema ?"); ps.setString(1,"HOTEL"); ps.executeUpdate(); ... do some work ps.setString(1,"APP"); ps.executeUpdate(); ps.setString(1,"app"); <bpt id="9" ctype="x-ph">&lt;ph&gt;</bpt>//error - string is case sensitive // no app will be found <ept id="9">&lt;/ph&gt;</ept> ps.setNull(1, Types.VARCHAR); <bpt id="10" ctype="x-ph">&lt;ph&gt;</bpt>//error - null is not allowed<ept id="10">&lt;/ph&gt;</ept> <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- The following are all equivalent and will work -- assuming a schema called HOTEL <ept id="2">&lt;/ph&gt;</ept> SET SCHEMA HOTEL SET SCHEMA hotel SET CURRENT SCHEMA hotel SET CURRENT SQLID hotel SET SCHEMA = hotel SET CURRENT SCHEMA = hotel SET CURRENT SQLID = hotel SET SCHEMA "HOTEL" <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- quoted identifier<ept id="3">&lt;/ph&gt;</ept> SET SCHEMA 'HOTEL' <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- quoted string<ept id="4">&lt;/ph&gt;</ept> <bpt id="5" ctype="x-ph">&lt;ph&gt;</bpt>-- This example produces an error because -- lower case hotel won't be found<ept id="5">&lt;/ph&gt;</ept> SET SCHEMA = 'hotel' <bpt id="6" ctype="x-ph">&lt;ph&gt;</bpt> -- This example produces an error because SQLID is not -- allowed without CURRENT<ept id="6">&lt;/ph&gt;</ept> SET SQLID hotel <bpt id="7" ctype="x-ph">&lt;ph&gt;</bpt> -- This sets the schema to the current user id <ept id="7">&lt;/ph&gt;</ept> SET CURRENT SCHEMA USER <bpt id="8" ctype="x-ph">&lt;ph&gt;</bpt>// Here's an example of using SET SCHEMA in an Java program <ept id="8">&lt;/ph&gt;</ept> PreparedStatement ps = conn.PrepareStatement("set schema ?"); ps.setString(1,"HOTEL"); ps.executeUpdate(); ...</mrk><mrk mid="1" mtype="seg"> do some work ps.setString(1,"APP"); ps.executeUpdate(); ps.setString(1,"app"); <bpt id="9" ctype="x-ph">&lt;ph&gt;</bpt>//error - string is case sensitive // no app will be found <ept id="9">&lt;/ph&gt;</ept> ps.setNull(1, Types.VARCHAR); <bpt id="10" ctype="x-ph">&lt;ph&gt;</bpt>//error - null is not allowed<ept id="10">&lt;/ph&gt;</ept> <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- The following are all equivalent and will work -- assuming a schema called HOTEL <ept id="2">&lt;/ph&gt;</ept> SET SCHEMA HOTEL SET SCHEMA hotel SET CURRENT SCHEMA hotel SET CURRENT SQLID hotel SET SCHEMA = hotel SET CURRENT SCHEMA = hotel SET CURRENT SQLID = hotel SET SCHEMA "HOTEL" <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- quoted identifier<ept id="3">&lt;/ph&gt;</ept> SET SCHEMA 'HOTEL' <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- quoted string<ept id="4">&lt;/ph&gt;</ept> <bpt id="5" ctype="x-ph">&lt;ph&gt;</bpt>-- This example produces an error because -- lower case hotel won't be found<ept id="5">&lt;/ph&gt;</ept> SET SCHEMA = 'hotel' <bpt id="6" ctype="x-ph">&lt;ph&gt;</bpt> -- This example produces an error because SQLID is not -- allowed without CURRENT<ept id="6">&lt;/ph&gt;</ept> SET SQLID hotel <bpt id="7" ctype="x-ph">&lt;ph&gt;</bpt> -- This sets the schema to the current user id <ept id="7">&lt;/ph&gt;</ept> SET CURRENT SCHEMA USER <bpt id="8" ctype="x-ph">&lt;ph&gt;</bpt>// Here's an example of using SET SCHEMA in an Java program <ept id="8">&lt;/ph&gt;</ept> PreparedStatement ps = conn.PrepareStatement("set schema ?"); ps.setString(1,"HOTEL"); ps.executeUpdate(); ...</mrk><mrk mid="1" mtype="seg"> do some work ps.setString(1,"APP"); ps.executeUpdate(); ps.setString(1,"app"); <bpt id="9" ctype="x-ph">&lt;ph&gt;</bpt>//error - string is case sensitive // no app will be found <ept id="9">&lt;/ph&gt;</ept> ps.setNull(1, Types.VARCHAR); <bpt id="10" ctype="x-ph">&lt;ph&gt;</bpt>//error - null is not allowed<ept id="10">&lt;/ph&gt;</ept> <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

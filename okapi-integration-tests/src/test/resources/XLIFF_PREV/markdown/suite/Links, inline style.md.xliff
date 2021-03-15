@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Links, inline style.md.tkitMerged" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Just a <ph id="1" ctype="x-LINK">[</ph>URL<ph id="2" ctype="x-LINK">](/url/)</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Just a <ph id="1" ctype="x-LINK">[</ph>URL<ph id="2" ctype="x-LINK">](/url/)</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Just a <ph id="1" ctype="x-LINK">[</ph>URL<ph id="2" ctype="x-LINK">](/url/)</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-LINK">[</ph>URL and title<ph id="2" ctype="x-LINK">](/url/ "</ph>title<ph id="3" ctype="x-LINK">")</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-LINK">[</ph>URL and title<ph id="2" ctype="x-LINK">](/url/ "</ph>title<ph id="3" ctype="x-LINK">")</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-LINK">[</ph>URL and title<ph id="2" ctype="x-LINK">](/url/ "</ph>title<ph id="3" ctype="x-LINK">")</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-LINK">[</ph>URL and title<ph id="2" ctype="x-LINK">](/url/ "</ph>title preceded by two spaces<ph id="3" ctype="x-LINK">")</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-LINK">[</ph>URL and title<ph id="2" ctype="x-LINK">](/url/ "</ph>title preceded by two spaces<ph id="3" ctype="x-LINK">")</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-LINK">[</ph>URL and title<ph id="2" ctype="x-LINK">](/url/ "</ph>title preceded by two spaces<ph id="3" ctype="x-LINK">")</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-LINK">[</ph>URL and title<ph id="2" ctype="x-LINK">](/url/ "</ph>title preceded by a tab<ph id="3" ctype="x-LINK">")</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-LINK">[</ph>URL and title<ph id="2" ctype="x-LINK">](/url/ "</ph>title preceded by a tab<ph id="3" ctype="x-LINK">")</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-LINK">[</ph>URL and title<ph id="2" ctype="x-LINK">](/url/ "</ph>title preceded by a tab<ph id="3" ctype="x-LINK">")</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-LINK">[</ph>Empty<ph id="2" ctype="x-LINK">]()</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-LINK">[</ph>Empty<ph id="2" ctype="x-LINK">]()</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-LINK">[</ph>Empty<ph id="2" ctype="x-LINK">]()</ph>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

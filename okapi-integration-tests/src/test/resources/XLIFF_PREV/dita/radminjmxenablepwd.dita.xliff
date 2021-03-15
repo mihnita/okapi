@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminjmxenablepwd.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Enabling remote JMX with password authentication only</source>
+<seg-source><mrk mid="0" mtype="seg">Enabling remote JMX with password authentication only</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enabling remote JMX with password authentication only</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Some JVMs include built-in support for JMX password authentication.</source>
+<seg-source><mrk mid="0" mtype="seg">Some JVMs include built-in support for JMX password authentication.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Some JVMs include built-in support for JMX password authentication.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Java Management Extensions (JMX) technology</source>
+<seg-source><mrk mid="0" mtype="seg">Java Management Extensions (JMX) technology</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Java Management Extensions (JMX) technology</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">JMX</source>
+<seg-source><mrk mid="0" mtype="seg">JMX</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JMX</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">enabling with password authentication</source>
+<seg-source><mrk mid="0" mtype="seg">enabling with password authentication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">enabling with password authentication</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">For example, with Oracle Java Development Kit (JDK) 6 or later, authentication is enabled by default, and it is possible to specify a properties file that contains usernames and passwords. The properties file syntax is the same as for other Java properties files.</source>
+<seg-source><mrk mid="0" mtype="seg">For example, with Oracle Java Development Kit (JDK) 6 or later, authentication is enabled by default, and it is possible to specify a properties file that contains usernames and passwords.</mrk><mrk mid="1" mtype="seg"> The properties file syntax is the same as for other Java properties files.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, with Oracle Java Development Kit (JDK) 6 or later, authentication is enabled by default, and it is possible to specify a properties file that contains usernames and passwords.</mrk><mrk mid="1" mtype="seg"> The properties file syntax is the same as for other Java properties files.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">When authentication is enabled and a Java Security Manager is installed, additional permissions may need to be granted to users in the security policy used. See <bpt id="1" ctype="x-xref">&lt;xref href="radminjmxenablepolicy.dita#radminjmxenablepolicy"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg">When authentication is enabled and a Java Security Manager is installed, additional permissions may need to be granted to users in the security policy used.</mrk><mrk mid="1" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="radminjmxenablepolicy.dita#radminjmxenablepolicy"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When authentication is enabled and a Java Security Manager is installed, additional permissions may need to be granted to users in the security policy used.</mrk><mrk mid="1" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="radminjmxenablepolicy.dita#radminjmxenablepolicy"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">For example, you could create a password file called <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>jmxremote.password<ept id="1">&lt;/codeph&gt;</ept>:</source>
+<seg-source><mrk mid="0" mtype="seg">For example, you could create a password file called <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>jmxremote.password<ept id="1">&lt;/codeph&gt;</ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, you could create a password file called <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>jmxremote.password<ept id="1">&lt;/codeph&gt;</ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">## Defining two "roles", each with its own password monitorRole derbym controlRole derby</source>
+<seg-source><mrk mid="0" mtype="seg">## Defining two "roles", each with its own password monitorRole derbym controlRole derby</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">## Defining two "roles", each with its own password monitorRole derbym controlRole derby</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The security of the password file relies on your file system's access control mechanisms. The file must be readable by the owner only. Also, you may need to change the permissions on the password file to be readable only by the user who starts the server. To do this on Windows (NTFS), use a command like the following:</source>
+<seg-source><mrk mid="0" mtype="seg">The security of the password file relies on your file system's access control mechanisms.</mrk><mrk mid="1" mtype="seg"> The file must be readable by the owner only.</mrk><mrk mid="2" mtype="seg"> Also, you may need to change the permissions on the password file to be readable only by the user who starts the server.</mrk><mrk mid="3" mtype="seg"> To do this on Windows (NTFS), use a command like the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The security of the password file relies on your file system's access control mechanisms.</mrk><mrk mid="1" mtype="seg"> The file must be readable by the owner only.</mrk><mrk mid="2" mtype="seg"> Also, you may need to change the permissions on the password file to be readable only by the user who starts the server.</mrk><mrk mid="3" mtype="seg"> To do this on Windows (NTFS), use a command like the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>cacls jmxremote.password /P <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>username<ept id="2">&lt;/i&gt;</ept>:R<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>cacls jmxremote.password /P <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>username<ept id="2">&lt;/i&gt;</ept>:R<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>cacls jmxremote.password /P <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>username<ept id="2">&lt;/i&gt;</ept>:R<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">FAT file systems do not support this feature.</source>
+<seg-source><mrk mid="0" mtype="seg">FAT file systems do not support this feature.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FAT file systems do not support this feature.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The following example starts the Network Server on the command line with built-in JMX password authentication enabled. SSL is disabled, meaning that JMX information, including user names and passwords most likely will be transferred unprotected on the computer network. The command line appears on multiple lines to improve readability, but you would enter it as a single <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java<ept id="1">&lt;/codeph&gt;</ept> command.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example starts the Network Server on the command line with built-in JMX password authentication enabled.</mrk><mrk mid="1" mtype="seg"> SSL is disabled, meaning that JMX information, including user names and passwords most likely will be transferred unprotected on the computer network.</mrk><mrk mid="2" mtype="seg"> The command line appears on multiple lines to improve readability, but you would enter it as a single <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java<ept id="1">&lt;/codeph&gt;</ept> command.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example starts the Network Server on the command line with built-in JMX password authentication enabled.</mrk><mrk mid="1" mtype="seg"> SSL is disabled, meaning that JMX information, including user names and passwords most likely will be transferred unprotected on the computer network.</mrk><mrk mid="2" mtype="seg"> The command line appears on multiple lines to improve readability, but you would enter it as a single <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java<ept id="1">&lt;/codeph&gt;</ept> command.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">It is not recommended to disable SSL in production environments.</source>
+<seg-source><mrk mid="0" mtype="seg">It is not recommended to disable SSL in production environments.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is not recommended to disable SSL in production environments.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Dcom.sun.management.jmxremote.port=9999 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.password.file=jmxremote.password -jar lib/derbyrun.jar server start<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Dcom.sun.management.jmxremote.port=9999 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.password.file=jmxremote.password -jar lib/derbyrun.jar server start<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Dcom.sun.management.jmxremote.port=9999 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.password.file=jmxremote.password -jar lib/derbyrun.jar server start<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

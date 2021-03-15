@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="JSS - Test email.json" source-language="en" target-language="fr" datatype="x-application/json" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1" resname="email_body" xml:space="preserve">
+<source xml:lang="en">{% content_attribute "email_body" %}{{ default_email_body }}{% end_content_attribute %}</source>
+<seg-source><mrk mid="0" mtype="seg">{% content_attribute "email_body" %}{{ default_email_body }}{% end_content_attribute %}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">{% content_attribute "email_body" %}{{ default_email_body }}{% end_content_attribute %}</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="emailbody_plaintext" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu3" resname="hs_email_body" xml:space="preserve">
+<source xml:lang="en">&lt;h1&gt;Catchy Heading Here&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Some text is important.&amp;nbsp; So get it translated. Here's some optional supporting text that helps introduce the things you will say in this newsletter. Use it to convince the reader that there is value in reading the rest of your content.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is the guts of your newsletter article. Hopefully it's about something people love. Like cute animals or ROI. An anguine plane without crackers is truly a sound of mellow chests. We can assume that any instance of a caterpillar can be construed as a ruttish separated. The gabled buffet comes from a templed panther. Those oceans are nothing more than loves.&lt;/p&gt;
+&lt;p&gt;The swindled mail comes from an inward cheese. Those cities are nothing more than drawers. One cannot separate doors from dispersed indices. If this was somewhat unclear, a december sees a picture as a hippest cheek.&lt;/p&gt;
+&lt;p&gt;A nice clever signoff,&lt;/p&gt;
+&lt;p&gt;Your Name&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;h1&gt;Catchy Heading Here&lt;/h1&gt;</mrk>
+<mrk mid="1" mtype="seg">&lt;p&gt;&lt;strong&gt;Some text is important.&amp;nbsp; So get it translated.</mrk><mrk mid="2" mtype="seg"> Here's some optional supporting text that helps introduce the things you will say in this newsletter.</mrk><mrk mid="3" mtype="seg"> Use it to convince the reader that there is value in reading the rest of your content.&lt;/strong&gt;&lt;/p&gt;</mrk>
+<mrk mid="4" mtype="seg">&lt;p&gt;This is the guts of your newsletter article.</mrk><mrk mid="5" mtype="seg"> Hopefully it's about something people love.</mrk><mrk mid="6" mtype="seg"> Like cute animals or ROI.</mrk><mrk mid="7" mtype="seg"> An anguine plane without crackers is truly a sound of mellow chests.</mrk><mrk mid="8" mtype="seg"> We can assume that any instance of a caterpillar can be construed as a ruttish separated.</mrk><mrk mid="9" mtype="seg"> The gabled buffet comes from a templed panther.</mrk><mrk mid="10" mtype="seg"> Those oceans are nothing more than loves.&lt;/p&gt;</mrk>
+<mrk mid="11" mtype="seg">&lt;p&gt;The swindled mail comes from an inward cheese.</mrk><mrk mid="12" mtype="seg"> Those cities are nothing more than drawers.</mrk><mrk mid="13" mtype="seg"> One cannot separate doors from dispersed indices.</mrk><mrk mid="14" mtype="seg"> If this was somewhat unclear, a december sees a picture as a hippest cheek.&lt;/p&gt;</mrk>
+<mrk mid="15" mtype="seg">&lt;p&gt;A nice clever signoff,&lt;/p&gt;</mrk>
+<mrk mid="16" mtype="seg">&lt;p&gt;Your Name&lt;/p&gt;</mrk>
+<mrk mid="17" mtype="seg">&lt;p&gt;&amp;nbsp;&lt;/p&gt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;h1&gt;Catchy Heading Here&lt;/h1&gt;</mrk>
+<mrk mid="1" mtype="seg">&lt;p&gt;&lt;strong&gt;Some text is important.&amp;nbsp; So get it translated.</mrk><mrk mid="2" mtype="seg"> Here's some optional supporting text that helps introduce the things you will say in this newsletter.</mrk><mrk mid="3" mtype="seg"> Use it to convince the reader that there is value in reading the rest of your content.&lt;/strong&gt;&lt;/p&gt;</mrk>
+<mrk mid="4" mtype="seg">&lt;p&gt;This is the guts of your newsletter article.</mrk><mrk mid="5" mtype="seg"> Hopefully it's about something people love.</mrk><mrk mid="6" mtype="seg"> Like cute animals or ROI.</mrk><mrk mid="7" mtype="seg"> An anguine plane without crackers is truly a sound of mellow chests.</mrk><mrk mid="8" mtype="seg"> We can assume that any instance of a caterpillar can be construed as a ruttish separated.</mrk><mrk mid="9" mtype="seg"> The gabled buffet comes from a templed panther.</mrk><mrk mid="10" mtype="seg"> Those oceans are nothing more than loves.&lt;/p&gt;</mrk>
+<mrk mid="11" mtype="seg">&lt;p&gt;The swindled mail comes from an inward cheese.</mrk><mrk mid="12" mtype="seg"> Those cities are nothing more than drawers.</mrk><mrk mid="13" mtype="seg"> One cannot separate doors from dispersed indices.</mrk><mrk mid="14" mtype="seg"> If this was somewhat unclear, a december sees a picture as a hippest cheek.&lt;/p&gt;</mrk>
+<mrk mid="15" mtype="seg">&lt;p&gt;A nice clever signoff,&lt;/p&gt;</mrk>
+<mrk mid="16" mtype="seg">&lt;p&gt;Your Name&lt;/p&gt;</mrk>
+<mrk mid="17" mtype="seg">&lt;p&gt;&amp;nbsp;&lt;/p&gt;</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="html_title" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu5" resname="name" xml:space="preserve">
+<source xml:lang="en">JSS - Test email</source>
+<seg-source><mrk mid="0" mtype="seg">JSS - Test email</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JSS - Test email</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="template_path" xml:space="preserve">
+<source xml:lang="en">generated_layouts/5508456984.html</source>
+<seg-source><mrk mid="0" mtype="seg">generated_layouts/5508456984.html</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">generated_layouts/5508456984.html</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminappsclient.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Accessing the Network Server by using the network client driver</source>
+<seg-source><mrk mid="0" mtype="seg">Accessing the Network Server by using the network client driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Accessing the Network Server by using the network client driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">When connecting to the Network Server, your application needs to load a driver and connection URL that is specific to the Network Server. In addition, you must specify a user name and password if you are using authentication.</source>
+<seg-source><mrk mid="0" mtype="seg">When connecting to the Network Server, your application needs to load a driver and connection URL that is specific to the Network Server.</mrk><mrk mid="1" mtype="seg"> In addition, you must specify a user name and password if you are using authentication.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When connecting to the Network Server, your application needs to load a driver and connection URL that is specific to the Network Server.</mrk><mrk mid="1" mtype="seg"> In addition, you must specify a user name and password if you are using authentication.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Network client driver</source>
+<seg-source><mrk mid="0" mtype="seg">Network client driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network client driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The driver that you need to access the Network Server is:</source>
+<seg-source><mrk mid="0" mtype="seg">The driver that you need to access the Network Server is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The driver that you need to access the Network Server is:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">org.apache.derby.jdbc.ClientDriver</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDriver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDriver</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The syntax of the URL that is required to access the Network Server is:</source>
+<seg-source><mrk mid="0" mtype="seg">The syntax of the URL that is required to access the Network Server is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The syntax of the URL that is required to access the Network Server is:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">jdbc:derby://<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>server<ept id="1">&lt;/i&gt;</ept>[:<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>port<ept id="2">&lt;/i&gt;</ept>]/ <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="3">&lt;/i&gt;</ept>[;<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>URL-attribute<ept id="4">&lt;/i&gt;</ept>=<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>value<ept id="5">&lt;/i&gt;</ept> [;...]]</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby://<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>server<ept id="1">&lt;/i&gt;</ept>[:<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>port<ept id="2">&lt;/i&gt;</ept>]/ <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="3">&lt;/i&gt;</ept>[;<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>URL-attribute<ept id="4">&lt;/i&gt;</ept>=<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>value<ept id="5">&lt;/i&gt;</ept> [;...]]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby://<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>server<ept id="1">&lt;/i&gt;</ept>[:<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>port<ept id="2">&lt;/i&gt;</ept>]/ <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="3">&lt;/i&gt;</ept>[;<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>URL-attribute<ept id="4">&lt;/i&gt;</ept>=<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>value<ept id="5">&lt;/i&gt;</ept> [;...]]</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">where the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>URL-attribute<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> is either a <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> embedded or network client attribute.</source>
+<seg-source><mrk mid="0" mtype="seg">where the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>URL-attribute<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> is either a <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> embedded or network client attribute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">where the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>URL-attribute<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> is either a <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> embedded or network client attribute.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">To access an in-memory database using the Network Server, the syntax is:</source>
+<seg-source><mrk mid="0" mtype="seg">To access an in-memory database using the Network Server, the syntax is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To access an in-memory database using the Network Server, the syntax is:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">jdbc:derby://<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>server<ept id="1">&lt;/i&gt;</ept>[:<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>port<ept id="2">&lt;/i&gt;</ept>]/memory: <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="3">&lt;/i&gt;</ept>[;<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>URL-attribute<ept id="4">&lt;/i&gt;</ept>=<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>value<ept id="5">&lt;/i&gt;</ept> [;...]]</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby://<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>server<ept id="1">&lt;/i&gt;</ept>[:<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>port<ept id="2">&lt;/i&gt;</ept>]/memory: <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="3">&lt;/i&gt;</ept>[;<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>URL-attribute<ept id="4">&lt;/i&gt;</ept>=<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>value<ept id="5">&lt;/i&gt;</ept> [;...]]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby://<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>server<ept id="1">&lt;/i&gt;</ept>[:<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>port<ept id="2">&lt;/i&gt;</ept>]/memory: <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="3">&lt;/i&gt;</ept>[;<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>URL-attribute<ept id="4">&lt;/i&gt;</ept>=<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>value<ept id="5">&lt;/i&gt;</ept> [;...]]</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">For more information, see "Using in-memory databases" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information, see "Using in-memory databases" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information, see "Using in-memory databases" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">For both driver and DataSource access, the database name (including path), user, password, and other attribute values must consist of characters that can be converted to UTF-8. The total byte length of the database name plus attributes when converted to UTF-8 must not exceed 255 bytes; keep in mind that in UTF-8, a character may occupy from 1 to 4 bytes. You may be able to work around this restriction for long paths or paths that include multibyte characters by setting the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept> system property when starting the Network Server and accessing the database with a relative path that is shorter and does not include multibyte characters.</source>
+<seg-source><mrk mid="0" mtype="seg">For both driver and DataSource access, the database name (including path), user, password, and other attribute values must consist of characters that can be converted to UTF-8.</mrk><mrk mid="1" mtype="seg"> The total byte length of the database name plus attributes when converted to UTF-8 must not exceed 255 bytes; keep in mind that in UTF-8, a character may occupy from 1 to 4 bytes.</mrk><mrk mid="2" mtype="seg"> You may be able to work around this restriction for long paths or paths that include multibyte characters by setting the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept> system property when starting the Network Server and accessing the database with a relative path that is shorter and does not include multibyte characters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For both driver and DataSource access, the database name (including path), user, password, and other attribute values must consist of characters that can be converted to UTF-8.</mrk><mrk mid="1" mtype="seg"> The total byte length of the database name plus attributes when converted to UTF-8 must not exceed 255 bytes; keep in mind that in UTF-8, a character may occupy from 1 to 4 bytes.</mrk><mrk mid="2" mtype="seg"> You may be able to work around this restriction for long paths or paths that include multibyte characters by setting the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept> system property when starting the Network Server and accessing the database with a relative path that is shorter and does not include multibyte characters.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The following table shows standard JDBC DataSource properties.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table shows standard JDBC DataSource properties.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table shows standard JDBC DataSource properties.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Standard JDBC DataSource properties</source>
+<seg-source><mrk mid="0" mtype="seg">Standard JDBC DataSource properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Standard JDBC DataSource properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">This table lists the standard JDBC DataSource properties, providing the data type, description, URL attribute, and additional information for each property.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the standard JDBC DataSource properties, providing the data type, description, URL attribute, and additional information for each property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the standard JDBC DataSource properties, providing the data type, description, URL attribute, and additional information for each property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Property</source>
+<seg-source><mrk mid="0" mtype="seg">Property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Property</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Description</source>
+<seg-source><mrk mid="0" mtype="seg">Description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Description</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">URL Attribute</source>
+<seg-source><mrk mid="0" mtype="seg">URL Attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">URL Attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Notes</source>
+<seg-source><mrk mid="0" mtype="seg">Notes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notes</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>databaseName<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>databaseName<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>databaseName<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">The name of the database. This property is required.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the database.</mrk><mrk mid="1" mtype="seg"> This property is required.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the database.</mrk><mrk mid="1" mtype="seg"> This property is required.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>dataSourceName<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>dataSourceName<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>dataSourceName<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">The data source name.</source>
+<seg-source><mrk mid="0" mtype="seg">The data source name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The data source name.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>description<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>description<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>description<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">A description of the data source.</source>
+<seg-source><mrk mid="0" mtype="seg">A description of the data source.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A description of the data source.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">The user's account name.</source>
+<seg-source><mrk mid="0" mtype="seg">The user's account name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user's account name.</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">Default is APP. This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Default is APP.</mrk><mrk mid="1" mtype="seg"> This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default is APP.</mrk><mrk mid="1" mtype="seg"> This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>password<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>password<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>password<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="2">&lt;/codeph&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="2">&lt;/codeph&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="2">&lt;/codeph&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">The user's database password.</source>
+<seg-source><mrk mid="0" mtype="seg">The user's database password.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user's database password.</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>password<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>password<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>password<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>serverName<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>serverName<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>serverName<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="2">&lt;/codeph&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="2">&lt;/codeph&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="2">&lt;/codeph&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">The host name or TCP/IP address where the server is listening for requests.</source>
+<seg-source><mrk mid="0" mtype="seg">The host name or TCP/IP address where the server is listening for requests.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The host name or TCP/IP address where the server is listening for requests.</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">Default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>localhost<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>localhost<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>localhost<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>portNumber<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>portNumber<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>portNumber<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Integer<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Integer<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Integer<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">The port number where the server is listening for requests.</source>
+<seg-source><mrk mid="0" mtype="seg">The port number where the server is listening for requests.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The port number where the server is listening for requests.</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">Default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>1527<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>1527<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>1527<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">The following table shows client-specific JDBC DataSource properties.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table shows client-specific JDBC DataSource properties.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table shows client-specific JDBC DataSource properties.</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">Client-specific DataSource properties</source>
+<seg-source><mrk mid="0" mtype="seg">Client-specific DataSource properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Client-specific DataSource properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">This table lists the client-specific JDBC DataSource properties, providing the data type, description, URL attribute, and additional information for each property.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the client-specific JDBC DataSource properties, providing the data type, description, URL attribute, and additional information for each property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the client-specific JDBC DataSource properties, providing the data type, description, URL attribute, and additional information for each property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">Property</source>
+<seg-source><mrk mid="0" mtype="seg">Property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Property</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">Description</source>
+<seg-source><mrk mid="0" mtype="seg">Description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Description</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">URL Attribute</source>
+<seg-source><mrk mid="0" mtype="seg">URL Attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">URL Attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">Notes</source>
+<seg-source><mrk mid="0" mtype="seg">Notes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notes</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="2">&lt;/codeph&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="2">&lt;/codeph&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="2">&lt;/codeph&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">The filename for tracing output. Setting this property turns on tracing. See <bpt id="1" ctype="x-xref">&lt;xref href="cadminappsclienttracing.dita#cadminappsclienttracing"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The filename for tracing output.</mrk><mrk mid="1" mtype="seg"> Setting this property turns on tracing.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cadminappsclienttracing.dita#cadminappsclienttracing"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The filename for tracing output.</mrk><mrk mid="1" mtype="seg"> Setting this property turns on tracing.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cadminappsclienttracing.dita#cadminappsclienttracing"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceDirectory<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceDirectory<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceDirectory<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="2">&lt;/codeph&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="2">&lt;/codeph&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="2">&lt;/codeph&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en">The directory for the tracing output. Each connection will send output to a separate file. Setting this property turns on tracing. See <bpt id="1" ctype="x-xref">&lt;xref href="cadminappsclienttracing.dita#cadminappsclienttracing"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The directory for the tracing output.</mrk><mrk mid="1" mtype="seg"> Each connection will send output to a separate file.</mrk><mrk mid="2" mtype="seg"> Setting this property turns on tracing.</mrk><mrk mid="3" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cadminappsclienttracing.dita#cadminappsclienttracing"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The directory for the tracing output.</mrk><mrk mid="1" mtype="seg"> Each connection will send output to a separate file.</mrk><mrk mid="2" mtype="seg"> Setting this property turns on tracing.</mrk><mrk mid="3" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cadminappsclienttracing.dita#cadminappsclienttracing"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceDirectory<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceDirectory<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceDirectory<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu74">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceLevel<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceLevel<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceLevel<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu75">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Integer<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Integer<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Integer<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu76">
+<source xml:lang="en">The level of client tracing if <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile<ept id="1">&lt;/codeph&gt;</ept> or <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>traceDirectory<ept id="2">&lt;/codeph&gt;</ept> is set.</source>
+<seg-source><mrk mid="0" mtype="seg">The level of client tracing if <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile<ept id="1">&lt;/codeph&gt;</ept> or <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>traceDirectory<ept id="2">&lt;/codeph&gt;</ept> is set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The level of client tracing if <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile<ept id="1">&lt;/codeph&gt;</ept> or <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>traceDirectory<ept id="2">&lt;/codeph&gt;</ept> is set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu77">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceLevel<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceLevel<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceLevel<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu78">
+<source xml:lang="en">The default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>TRACE_ALL<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>TRACE_ALL<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>TRACE_ALL<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu79">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFileAppend<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFileAppend<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFileAppend<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu80">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Boolean<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Boolean<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Boolean<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu81">
+<source xml:lang="en">Value is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="1">&lt;/codeph&gt;</ept> if tracing output should append to the existing trace file.</source>
+<seg-source><mrk mid="0" mtype="seg">Value is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="1">&lt;/codeph&gt;</ept> if tracing output should append to the existing trace file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Value is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="1">&lt;/codeph&gt;</ept> if tracing output should append to the existing trace file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu82">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFileAppend<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFileAppend<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFileAppend<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu83">
+<source xml:lang="en">The default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>false<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>false<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>false<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu84">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>securityMechanism<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>securityMechanism<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>securityMechanism<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu85">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Integer<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Integer<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Integer<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu86">
+<source xml:lang="en">The security mechanism. See <bpt id="1" ctype="x-xref">&lt;xref href="cadminappsclientsecurity.dita#cadminappsclientsecurity"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The security mechanism.</mrk><mrk mid="1" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cadminappsclientsecurity.dita#cadminappsclientsecurity"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The security mechanism.</mrk><mrk mid="1" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cadminappsclientsecurity.dita#cadminappsclientsecurity"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu87">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>securityMechanism<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>securityMechanism<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>securityMechanism<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu88">
+<source xml:lang="en">The default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>USER_ONLY_SECURITY<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>USER_ONLY_SECURITY<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>USER_ONLY_SECURITY<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu89">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>retrieveMessageText<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>retrieveMessageText<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>retrieveMessageText<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu90">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Boolean<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Boolean<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Boolean<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu91">
+<source xml:lang="en">Retrieve message text from the server. A stored procedure is called to retrieve the message text with each <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLException<ept id="1">&lt;/codeph&gt;</ept> and might start a new unit of work. Set this property to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>false<ept id="2">&lt;/codeph&gt;</ept> if you do not want the performance impact or when starting new units of work.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve message text from the server.</mrk><mrk mid="1" mtype="seg"> A stored procedure is called to retrieve the message text with each <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLException<ept id="1">&lt;/codeph&gt;</ept> and might start a new unit of work.</mrk><mrk mid="2" mtype="seg"> Set this property to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>false<ept id="2">&lt;/codeph&gt;</ept> if you do not want the performance impact or when starting new units of work.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve message text from the server.</mrk><mrk mid="1" mtype="seg"> A stored procedure is called to retrieve the message text with each <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLException<ept id="1">&lt;/codeph&gt;</ept> and might start a new unit of work.</mrk><mrk mid="2" mtype="seg"> Set this property to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>false<ept id="2">&lt;/codeph&gt;</ept> if you do not want the performance impact or when starting new units of work.</mrk></target>
+</trans-unit>
+<trans-unit id="tu92">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>retrieveMessageText<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>retrieveMessageText<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>retrieveMessageText<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu93">
+<source xml:lang="en">The default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu94">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu95">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu96">
+<source xml:lang="en">The SSL mode for the client connection. See <bpt id="1" ctype="x-xref">&lt;xref href="cadminssl.dita#cadminssl"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The SSL mode for the client connection.</mrk><mrk mid="1" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cadminssl.dita#cadminssl"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SSL mode for the client connection.</mrk><mrk mid="1" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cadminssl.dita#cadminssl"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu97">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu98">
+<source xml:lang="en">The default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>off<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>off<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>off<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu99">
+<source xml:lang="en">The following table shows server-specific JDBC DataSource properties.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table shows server-specific JDBC DataSource properties.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table shows server-specific JDBC DataSource properties.</mrk></target>
+</trans-unit>
+<trans-unit id="tu100">
+<source xml:lang="en">Server-specific DataSource properties</source>
+<seg-source><mrk mid="0" mtype="seg">Server-specific DataSource properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Server-specific DataSource properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu101">
+<source xml:lang="en">This table lists the server-specific JDBC DataSource properties, providing the data type, description, URL attribute, and additional information for each property.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the server-specific JDBC DataSource properties, providing the data type, description, URL attribute, and additional information for each property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the server-specific JDBC DataSource properties, providing the data type, description, URL attribute, and additional information for each property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu102">
+<source xml:lang="en">Property</source>
+<seg-source><mrk mid="0" mtype="seg">Property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Property</mrk></target>
+</trans-unit>
+<trans-unit id="tu103">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu104">
+<source xml:lang="en">Description</source>
+<seg-source><mrk mid="0" mtype="seg">Description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Description</mrk></target>
+</trans-unit>
+<trans-unit id="tu105">
+<source xml:lang="en">URL Attribute</source>
+<seg-source><mrk mid="0" mtype="seg">URL Attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">URL Attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu106">
+<source xml:lang="en">Notes</source>
+<seg-source><mrk mid="0" mtype="seg">Notes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notes</mrk></target>
+</trans-unit>
+<trans-unit id="tu107">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionAttributes<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionAttributes<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionAttributes<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu108">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu109">
+<source xml:lang="en">Set to the list of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> embedded connection attributes separated by semicolons.</source>
+<seg-source><mrk mid="0" mtype="seg">Set to the list of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> embedded connection attributes separated by semicolons.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set to the list of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> embedded connection attributes separated by semicolons.</mrk></target>
+</trans-unit>
+<trans-unit id="tu110">
+<source xml:lang="en">Various</source>
+<seg-source><mrk mid="0" mtype="seg">Various</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Various</mrk></target>
+</trans-unit>
+<trans-unit id="tu111">
+<source xml:lang="en">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>. See the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information about the various connection attributes.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> See the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information about the various connection attributes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> See the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information about the various connection attributes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu112">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>createDatabase<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>createDatabase<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>createDatabase<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu113">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu114">
+<source xml:lang="en">If set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>create<ept id="1">&lt;/codeph&gt;</ept>, create the database specified with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>databaseName<ept id="2">&lt;/codeph&gt;</ept> property.</source>
+<seg-source><mrk mid="0" mtype="seg">If set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>create<ept id="1">&lt;/codeph&gt;</ept>, create the database specified with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>databaseName<ept id="2">&lt;/codeph&gt;</ept> property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>create<ept id="1">&lt;/codeph&gt;</ept>, create the database specified with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>databaseName<ept id="2">&lt;/codeph&gt;</ept> property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu115">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>create<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>create<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>create<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu116">
+<source xml:lang="en">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>. See the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information. Similar to setting <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionAttribute<ept id="3">&lt;/codeph&gt;</ept> to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>create=true<ept id="4">&lt;/codeph&gt;</ept>. Only <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>create<ept id="5">&lt;/codeph&gt;</ept> is allowed; other values equate to <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>null<ept id="6">&lt;/codeph&gt;</ept>. The result of conflicting settings of <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>createDatabase<ept id="7">&lt;/codeph&gt;</ept>, <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdownDatabase<ept id="8">&lt;/codeph&gt;</ept>, and <bpt id="9" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionAttributes<ept id="9">&lt;/codeph&gt;</ept> is undefined.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> See the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> Similar to setting <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionAttribute<ept id="3">&lt;/codeph&gt;</ept> to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>create=true<ept id="4">&lt;/codeph&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> Only <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>create<ept id="5">&lt;/codeph&gt;</ept> is allowed; other values equate to <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>null<ept id="6">&lt;/codeph&gt;</ept>.</mrk><mrk mid="4" mtype="seg"> The result of conflicting settings of <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>createDatabase<ept id="7">&lt;/codeph&gt;</ept>, <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdownDatabase<ept id="8">&lt;/codeph&gt;</ept>, and <bpt id="9" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionAttributes<ept id="9">&lt;/codeph&gt;</ept> is undefined.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> See the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> Similar to setting <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionAttribute<ept id="3">&lt;/codeph&gt;</ept> to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>create=true<ept id="4">&lt;/codeph&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> Only <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>create<ept id="5">&lt;/codeph&gt;</ept> is allowed; other values equate to <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>null<ept id="6">&lt;/codeph&gt;</ept>.</mrk><mrk mid="4" mtype="seg"> The result of conflicting settings of <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>createDatabase<ept id="7">&lt;/codeph&gt;</ept>, <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdownDatabase<ept id="8">&lt;/codeph&gt;</ept>, and <bpt id="9" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionAttributes<ept id="9">&lt;/codeph&gt;</ept> is undefined.</mrk></target>
+</trans-unit>
+<trans-unit id="tu117">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdownDatabase<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdownDatabase<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdownDatabase<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu118">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>String<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu119">
+<source xml:lang="en">If set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown<ept id="1">&lt;/codeph&gt;</ept>, shut down the database specified with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>databaseName<ept id="2">&lt;/codeph&gt;</ept> property.</source>
+<seg-source><mrk mid="0" mtype="seg">If set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown<ept id="1">&lt;/codeph&gt;</ept>, shut down the database specified with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>databaseName<ept id="2">&lt;/codeph&gt;</ept> property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown<ept id="1">&lt;/codeph&gt;</ept>, shut down the database specified with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>databaseName<ept id="2">&lt;/codeph&gt;</ept> property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu120">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu121">
+<source xml:lang="en">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>. See the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information. Similar to setting <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionAttribute<ept id="3">&lt;/codeph&gt;</ept> to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown=true<ept id="4">&lt;/codeph&gt;</ept>. Only <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown<ept id="5">&lt;/codeph&gt;</ept> is allowed; other values equate to <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>null<ept id="6">&lt;/codeph&gt;</ept>. The result of conflicting settings of <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>createDatabase<ept id="7">&lt;/codeph&gt;</ept>, <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdownDatabase<ept id="8">&lt;/codeph&gt;</ept>, and <bpt id="9" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionAttributes<ept id="9">&lt;/codeph&gt;</ept> is undefined. If authentication <bpt id="10" ctype="x-b">&lt;b&gt;</bpt>and<ept id="10">&lt;/b&gt;</ept> SQL authorization are both enabled, database shutdown is restricted to the database owner.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> See the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> Similar to setting <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionAttribute<ept id="3">&lt;/codeph&gt;</ept> to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown=true<ept id="4">&lt;/codeph&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> Only <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown<ept id="5">&lt;/codeph&gt;</ept> is allowed; other values equate to <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>null<ept id="6">&lt;/codeph&gt;</ept>.</mrk><mrk mid="4" mtype="seg"> The result of conflicting settings of <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>createDatabase<ept id="7">&lt;/codeph&gt;</ept>, <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdownDatabase<ept id="8">&lt;/codeph&gt;</ept>, and <bpt id="9" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionAttributes<ept id="9">&lt;/codeph&gt;</ept> is undefined.</mrk><mrk mid="5" mtype="seg"> If authentication <bpt id="10" ctype="x-b">&lt;b&gt;</bpt>and<ept id="10">&lt;/b&gt;</ept> SQL authorization are both enabled, database shutdown is restricted to the database owner.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is also available using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDataSource<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> See the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> Similar to setting <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionAttribute<ept id="3">&lt;/codeph&gt;</ept> to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown=true<ept id="4">&lt;/codeph&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> Only <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown<ept id="5">&lt;/codeph&gt;</ept> is allowed; other values equate to <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>null<ept id="6">&lt;/codeph&gt;</ept>.</mrk><mrk mid="4" mtype="seg"> The result of conflicting settings of <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>createDatabase<ept id="7">&lt;/codeph&gt;</ept>, <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdownDatabase<ept id="8">&lt;/codeph&gt;</ept>, and <bpt id="9" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionAttributes<ept id="9">&lt;/codeph&gt;</ept> is undefined.</mrk><mrk mid="5" mtype="seg"> If authentication <bpt id="10" ctype="x-b">&lt;b&gt;</bpt>and<ept id="10">&lt;/b&gt;</ept> SQL authorization are both enabled, database shutdown is restricted to the database owner.</mrk></target>
+</trans-unit>
+<trans-unit id="tu122">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setAttributesAsPassword<ept id="1">&lt;/codeph&gt;</ept> property, which is available for the embedded DataSource, is not available for the client DataSource.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setAttributesAsPassword<ept id="1">&lt;/codeph&gt;</ept> property, which is available for the embedded DataSource, is not available for the client DataSource.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setAttributesAsPassword<ept id="1">&lt;/codeph&gt;</ept> property, which is available for the embedded DataSource, is not available for the client DataSource.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

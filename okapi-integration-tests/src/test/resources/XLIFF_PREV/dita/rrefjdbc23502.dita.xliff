@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbc23502.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">java.sql.ResultSet interface</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.ResultSet interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.ResultSet interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">java.sql.ResultSet interface</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.ResultSet interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.ResultSet interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">A positioned update or delete issued against a cursor being accessed through a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> object modifies or deletes the current row of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> object.</source>
+<seg-source><mrk mid="0" mtype="seg">A positioned update or delete issued against a cursor being accessed through a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> object modifies or deletes the current row of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A positioned update or delete issued against a cursor being accessed through a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> object modifies or deletes the current row of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> object.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Some intermediate protocols might pre-fetch rows. This causes positioned updates and deletes to operate against the row the underlying cursor is on, and not the current row of the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Some intermediate protocols might pre-fetch rows.</mrk><mrk mid="1" mtype="seg"> This causes positioned updates and deletes to operate against the row the underlying cursor is on, and not the current row of the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Some intermediate protocols might pre-fetch rows.</mrk><mrk mid="1" mtype="seg"> This causes positioned updates and deletes to operate against the row the underlying cursor is on, and not the current row of the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Cursors</source>
+<seg-source><mrk mid="0" mtype="seg">Cursors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cursors</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">pre-fetching affecting</source>
+<seg-source><mrk mid="0" mtype="seg">pre-fetching affecting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">pre-fetching affecting</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">JDBC does not define the sort of rounding to use for <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet.getBigDecimal<ept id="1">&lt;/i&gt;</ept>. <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> uses <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.math.BigDecimal.ROUND_HALF_DOWN<ept id="3">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC does not define the sort of rounding to use for <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet.getBigDecimal<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> uses <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.math.BigDecimal.ROUND_HALF_DOWN<ept id="3">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC does not define the sort of rounding to use for <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet.getBigDecimal<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> uses <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.math.BigDecimal.ROUND_HALF_DOWN<ept id="3">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The following table describes features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> methods that are specific to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table describes features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> methods that are specific to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table describes features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> methods that are specific to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Implementation notes on <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> methods</source>
+<seg-source><mrk mid="0" mtype="seg">Implementation notes on <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> methods</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Implementation notes on <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> methods</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">This table describes the implementation-specific features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> methods, providing the return type and signature for each method.</source>
+<seg-source><mrk mid="0" mtype="seg">This table describes the implementation-specific features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> methods, providing the return type and signature for each method.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table describes the implementation-specific features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> methods, providing the return type and signature for each method.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Returns</source>
+<seg-source><mrk mid="0" mtype="seg">Returns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Signature</source>
+<seg-source><mrk mid="0" mtype="seg">Signature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Signature</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Implementation Notes</source>
+<seg-source><mrk mid="0" mtype="seg">Implementation Notes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Implementation Notes</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>void<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>void<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>void<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>deleteRow()<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>deleteRow()<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>deleteRow()<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">After the row is deleted, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> object will be positioned before the next row. Before issuing any methods other than close on the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> object, the program will need to reposition the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> object.</source>
+<seg-source><mrk mid="0" mtype="seg">After the row is deleted, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> object will be positioned before the next row.</mrk><mrk mid="1" mtype="seg"> Before issuing any methods other than close on the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> object, the program will need to reposition the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After the row is deleted, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> object will be positioned before the next row.</mrk><mrk mid="1" mtype="seg"> Before issuing any methods other than close on the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> object, the program will need to reposition the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> object.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>int<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>int<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>int<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getConcurrency()<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getConcurrency()<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getConcurrency()<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">If the Statement object has <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>CONCUR_READ_ONLY<ept id="1">&lt;/i&gt;</ept> concurrency, then this method will return <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet.CONCUR_READ_ONLY<ept id="2">&lt;/i&gt;</ept>. But if the Statement object has <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>CONCUR_UPDATABLE<ept id="3">&lt;/i&gt;</ept> concurrency, then the return value will depend on whether the underlying language <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="4">&lt;/i&gt;</ept> is updatable or not. If the language <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="5">&lt;/i&gt;</ept> is updatable, then <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>getConcurrency()<ept id="6">&lt;/i&gt;</ept> will return <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ResultSet.CONCUR_UPDATABLE<ept id="7">&lt;/i&gt;</ept>. If the language <bpt id="8" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="8">&lt;/i&gt;</ept> is not updatable, then <bpt id="9" ctype="x-i">&lt;i&gt;</bpt>getConcurrency()<ept id="9">&lt;/i&gt;</ept> will return <bpt id="10" ctype="x-i">&lt;i&gt;</bpt>ResultSet.CONCUR_READ_ONLY<ept id="10">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If the Statement object has <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>CONCUR_READ_ONLY<ept id="1">&lt;/i&gt;</ept> concurrency, then this method will return <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet.CONCUR_READ_ONLY<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> But if the Statement object has <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>CONCUR_UPDATABLE<ept id="3">&lt;/i&gt;</ept> concurrency, then the return value will depend on whether the underlying language <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="4">&lt;/i&gt;</ept> is updatable or not.</mrk><mrk mid="2" mtype="seg"> If the language <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="5">&lt;/i&gt;</ept> is updatable, then <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>getConcurrency()<ept id="6">&lt;/i&gt;</ept> will return <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ResultSet.CONCUR_UPDATABLE<ept id="7">&lt;/i&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> If the language <bpt id="8" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="8">&lt;/i&gt;</ept> is not updatable, then <bpt id="9" ctype="x-i">&lt;i&gt;</bpt>getConcurrency()<ept id="9">&lt;/i&gt;</ept> will return <bpt id="10" ctype="x-i">&lt;i&gt;</bpt>ResultSet.CONCUR_READ_ONLY<ept id="10">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the Statement object has <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>CONCUR_READ_ONLY<ept id="1">&lt;/i&gt;</ept> concurrency, then this method will return <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet.CONCUR_READ_ONLY<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> But if the Statement object has <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>CONCUR_UPDATABLE<ept id="3">&lt;/i&gt;</ept> concurrency, then the return value will depend on whether the underlying language <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="4">&lt;/i&gt;</ept> is updatable or not.</mrk><mrk mid="2" mtype="seg"> If the language <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="5">&lt;/i&gt;</ept> is updatable, then <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>getConcurrency()<ept id="6">&lt;/i&gt;</ept> will return <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ResultSet.CONCUR_UPDATABLE<ept id="7">&lt;/i&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> If the language <bpt id="8" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="8">&lt;/i&gt;</ept> is not updatable, then <bpt id="9" ctype="x-i">&lt;i&gt;</bpt>getConcurrency()<ept id="9">&lt;/i&gt;</ept> will return <bpt id="10" ctype="x-i">&lt;i&gt;</bpt>ResultSet.CONCUR_READ_ONLY<ept id="10">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rowDeleted()<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rowDeleted()<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rowDeleted()<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">For forward-only result sets this method always returns <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>false<ept id="1">&lt;/i&gt;</ept>, for scrollable result sets it returns <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>true<ept id="2">&lt;/i&gt;</ept> if the row has been deleted, via result set or positioned delete.</source>
+<seg-source><mrk mid="0" mtype="seg">For forward-only result sets this method always returns <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>false<ept id="1">&lt;/i&gt;</ept>, for scrollable result sets it returns <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>true<ept id="2">&lt;/i&gt;</ept> if the row has been deleted, via result set or positioned delete.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For forward-only result sets this method always returns <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>false<ept id="1">&lt;/i&gt;</ept>, for scrollable result sets it returns <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>true<ept id="2">&lt;/i&gt;</ept> if the row has been deleted, via result set or positioned delete.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rowInserted()<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rowInserted()<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rowInserted()<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Always returns <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>false<ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Always returns <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>false<ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Always returns <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>false<ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rowUpdated()<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rowUpdated()<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rowUpdated()<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">For forward-only result sets this method always returns <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>false<ept id="1">&lt;/i&gt;</ept>, for scrollable result sets it returns <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>true<ept id="2">&lt;/i&gt;</ept> if the row has been updated, via result set or positioned update.</source>
+<seg-source><mrk mid="0" mtype="seg">For forward-only result sets this method always returns <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>false<ept id="1">&lt;/i&gt;</ept>, for scrollable result sets it returns <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>true<ept id="2">&lt;/i&gt;</ept> if the row has been updated, via result set or positioned update.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For forward-only result sets this method always returns <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>false<ept id="1">&lt;/i&gt;</ept>, for scrollable result sets it returns <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>true<ept id="2">&lt;/i&gt;</ept> if the row has been updated, via result set or positioned update.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>void<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>void<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>void<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>updateRow()<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>updateRow()<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>updateRow()<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">After the row is updated, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> object will be positioned before the next row. Before issuing any methods other than close on the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> object, the program will need to reposition the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> object.</source>
+<seg-source><mrk mid="0" mtype="seg">After the row is updated, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> object will be positioned before the next row.</mrk><mrk mid="1" mtype="seg"> Before issuing any methods other than close on the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> object, the program will need to reposition the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After the row is updated, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> object will be positioned before the next row.</mrk><mrk mid="1" mtype="seg"> Before issuing any methods other than close on the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> object, the program will need to reposition the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> object.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

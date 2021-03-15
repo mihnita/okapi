@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj15260.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">DECIMAL data type</source>
+<seg-source><mrk mid="0" mtype="seg">DECIMAL data type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DECIMAL data type</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">DECIMAL data type</source>
+<seg-source><mrk mid="0" mtype="seg">DECIMAL data type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DECIMAL data type</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">DECIMAL provides an exact numeric in which the precision and scale can be arbitrarily sized. You can specify the precision (the total number of digits, both to the left and the right of the decimal point) and the scale (the number of digits of the fractional component). The amount of storage required is based on the precision.</source>
+<seg-source><mrk mid="0" mtype="seg">DECIMAL provides an exact numeric in which the precision and scale can be arbitrarily sized.</mrk><mrk mid="1" mtype="seg"> You can specify the precision (the total number of digits, both to the left and the right of the decimal point) and the scale (the number of digits of the fractional component).</mrk><mrk mid="2" mtype="seg"> The amount of storage required is based on the precision.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DECIMAL provides an exact numeric in which the precision and scale can be arbitrarily sized.</mrk><mrk mid="1" mtype="seg"> You can specify the precision (the total number of digits, both to the left and the right of the decimal point) and the scale (the number of digits of the fractional component).</mrk><mrk mid="2" mtype="seg"> The amount of storage required is based on the precision.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ DECIMAL | DEC } [(<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>precision<ept id="2">&lt;/i&gt;</ept> [, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>scale<ept id="3">&lt;/i&gt;</ept> ])]<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ DECIMAL | DEC } [(<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>precision<ept id="2">&lt;/i&gt;</ept> [, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>scale<ept id="3">&lt;/i&gt;</ept> ])]<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ DECIMAL | DEC } [(<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>precision<ept id="2">&lt;/i&gt;</ept> [, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>scale<ept id="3">&lt;/i&gt;</ept> ])]<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>precision<ept id="1">&lt;/i&gt;</ept> must be between 1 and 31. The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>scale<ept id="2">&lt;/i&gt;</ept> must be less than or equal to the precision.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>precision<ept id="1">&lt;/i&gt;</ept> must be between 1 and 31.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>scale<ept id="2">&lt;/i&gt;</ept> must be less than or equal to the precision.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>precision<ept id="1">&lt;/i&gt;</ept> must be between 1 and 31.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>scale<ept id="2">&lt;/i&gt;</ept> must be less than or equal to the precision.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">If the scale is not specified, the default scale is 0. If the precision is not specified, the default precision is 5.</source>
+<seg-source><mrk mid="0" mtype="seg">If the scale is not specified, the default scale is 0.</mrk><mrk mid="1" mtype="seg"> If the precision is not specified, the default precision is 5.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the scale is not specified, the default scale is 0.</mrk><mrk mid="1" mtype="seg"> If the precision is not specified, the default precision is 5.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">An attempt to put a numeric value into a DECIMAL is allowed as long as any non-fractional precision is not lost. When truncating trailing digits from a DECIMAL value, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> rounds down.</source>
+<seg-source><mrk mid="0" mtype="seg">An attempt to put a numeric value into a DECIMAL is allowed as long as any non-fractional precision is not lost.</mrk><mrk mid="1" mtype="seg"> When truncating trailing digits from a DECIMAL value, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> rounds down.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An attempt to put a numeric value into a DECIMAL is allowed as long as any non-fractional precision is not lost.</mrk><mrk mid="1" mtype="seg"> When truncating trailing digits from a DECIMAL value, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> rounds down.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">For example:</source>
+<seg-source><mrk mid="0" mtype="seg">For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">-- this cast loses only fractional precision <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>values cast (1.798765 AS decimal(5,2));<ept id="1">&lt;/b&gt;</ept> 1 -------- 1.79 -- this cast does not fit <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>values cast (1798765 AS decimal(5,2));<ept id="2">&lt;/b&gt;</ept> 1 -------- ERROR 22003: The resulting value is outside the range for the data type DECIMAL/NUMERIC(5,2).</source>
+<seg-source><mrk mid="0" mtype="seg">-- this cast loses only fractional precision <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>values cast (1.798765 AS decimal(5,2));<ept id="1">&lt;/b&gt;</ept> 1 -------- 1.79 -- this cast does not fit <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>values cast (1798765 AS decimal(5,2));<ept id="2">&lt;/b&gt;</ept> 1 -------- ERROR 22003: The resulting value is outside the range for the data type DECIMAL/NUMERIC(5,2).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-- this cast loses only fractional precision <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>values cast (1.798765 AS decimal(5,2));<ept id="1">&lt;/b&gt;</ept> 1 -------- 1.79 -- this cast does not fit <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>values cast (1798765 AS decimal(5,2));<ept id="2">&lt;/b&gt;</ept> 1 -------- ERROR 22003: The resulting value is outside the range for the data type DECIMAL/NUMERIC(5,2).</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">When mixed with other data types in expressions, the resulting data type follows the rules shown in <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj27767.dita#rrefsqlj27767"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">When mixed with other data types in expressions, the resulting data type follows the rules shown in <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj27767.dita#rrefsqlj27767"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When mixed with other data types in expressions, the resulting data type follows the rules shown in <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj27767.dita#rrefsqlj27767"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">See also <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqlj20204.dita#rrefsqlj20204"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">See also <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqlj20204.dita#rrefsqlj20204"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See also <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqlj20204.dita#rrefsqlj20204"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">When two decimal values are mixed in an expression, the scale and precision of the resulting value follow the rules shown in <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj36146.dita#rrefsqlj36146"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">When two decimal values are mixed in an expression, the scale and precision of the resulting value follow the rules shown in <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj36146.dita#rrefsqlj36146"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When two decimal values are mixed in an expression, the scale and precision of the resulting value follow the rules shown in <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj36146.dita#rrefsqlj36146"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Integer constants too big for BIGINT are made DECIMAL constants.</source>
+<seg-source><mrk mid="0" mtype="seg">Integer constants too big for BIGINT are made DECIMAL constants.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Integer constants too big for BIGINT are made DECIMAL constants.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Corresponding compile-time Java type</source>
+<seg-source><mrk mid="0" mtype="seg">Corresponding compile-time Java type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Corresponding compile-time Java type</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.math.BigDecimal<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.math.BigDecimal<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.math.BigDecimal<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">JDBC metadata type (java.sql.Types)</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC metadata type (java.sql.Types)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC metadata type (java.sql.Types)</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">DECIMAL</source>
+<seg-source><mrk mid="0" mtype="seg">DECIMAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DECIMAL</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES 123.456 VALUES 0.001<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES 123.456 VALUES 0.001<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES 123.456 VALUES 0.001<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

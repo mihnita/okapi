@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevspecial28907.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Requirements for database-side JDBC routines using nested connections</source>
+<seg-source><mrk mid="0" mtype="seg">Requirements for database-side JDBC routines using nested connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Requirements for database-side JDBC routines using nested connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">In order to preserve transactional atomicity, database-side JDBC routines that use nested connections have the following limitations.</source>
+<seg-source><mrk mid="0" mtype="seg">In order to preserve transactional atomicity, database-side JDBC routines that use nested connections have the following limitations.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In order to preserve transactional atomicity, database-side JDBC routines that use nested connections have the following limitations.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Nested connections</source>
+<seg-source><mrk mid="0" mtype="seg">Nested connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nested connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">limitations of</source>
+<seg-source><mrk mid="0" mtype="seg">limitations of</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">limitations of</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Can issue a commit or rollback only within a procedure (not a function).</source>
+<seg-source><mrk mid="0" mtype="seg">Can issue a commit or rollback only within a procedure (not a function).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Can issue a commit or rollback only within a procedure (not a function).</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Cannot change the auto-commit connection attribute.</source>
+<seg-source><mrk mid="0" mtype="seg">Cannot change the auto-commit connection attribute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cannot change the auto-commit connection attribute.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Cannot modify the data in a table used by the parent statement that called the routine, using INSERT, UPDATE, or DELETE. For example, if a SELECT statement using the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>T<ept id="1">&lt;/i&gt;</ept> table calls the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>changeTables<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> procedure, <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="5" ctype="x-i">&lt;i&gt;</bpt>changeTables<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/codeph&gt;</ept> cannot modify data in the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>T<ept id="6">&lt;/i&gt;</ept> table.</source>
+<seg-source><mrk mid="0" mtype="seg">Cannot modify the data in a table used by the parent statement that called the routine, using INSERT, UPDATE, or DELETE.</mrk><mrk mid="1" mtype="seg"> For example, if a SELECT statement using the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>T<ept id="1">&lt;/i&gt;</ept> table calls the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>changeTables<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> procedure, <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="5" ctype="x-i">&lt;i&gt;</bpt>changeTables<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/codeph&gt;</ept> cannot modify data in the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>T<ept id="6">&lt;/i&gt;</ept> table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cannot modify the data in a table used by the parent statement that called the routine, using INSERT, UPDATE, or DELETE.</mrk><mrk mid="1" mtype="seg"> For example, if a SELECT statement using the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>T<ept id="1">&lt;/i&gt;</ept> table calls the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>changeTables<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> procedure, <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="5" ctype="x-i">&lt;i&gt;</bpt>changeTables<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/codeph&gt;</ept> cannot modify data in the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>T<ept id="6">&lt;/i&gt;</ept> table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Cannot drop a table used by the statement that called the routine.</source>
+<seg-source><mrk mid="0" mtype="seg">Cannot drop a table used by the statement that called the routine.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cannot drop a table used by the statement that called the routine.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Cannot be in a class whose static initializer executes DDL statements.</source>
+<seg-source><mrk mid="0" mtype="seg">Cannot be in a class whose static initializer executes DDL statements.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cannot be in a class whose static initializer executes DDL statements.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">In addition, the Connection object that represents the nested connection always has its auto-commit mode set to false.</source>
+<seg-source><mrk mid="0" mtype="seg">In addition, the Connection object that represents the nested connection always has its auto-commit mode set to false.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In addition, the Connection object that represents the nested connection always has its auto-commit mode set to false.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

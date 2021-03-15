@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefproceduresinplacecompress.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure to reclaim unused, allocated space in a table and its indexes.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure to reclaim unused, allocated space in a table and its indexes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure to reclaim unused, allocated space in a table and its indexes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">reclaiming unused space</source>
+<seg-source><mrk mid="0" mtype="seg">reclaiming unused space</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">reclaiming unused space</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">system procedures</source>
+<seg-source><mrk mid="0" mtype="seg">system procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Typically, unused allocated space exists when a large amount of data is deleted from a table and there have not been any subsequent inserts to use the space created by the deletes. By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not return unused space to the operating system. For example, once a page has been allocated to a table or index, it is not automatically returned to the operating system until the table or index is destroyed. <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE<ept id="2">&lt;/codeph&gt;</ept> allows you to return unused space to the operating system.</source>
+<seg-source><mrk mid="0" mtype="seg">Typically, unused allocated space exists when a large amount of data is deleted from a table and there have not been any subsequent inserts to use the space created by the deletes.</mrk><mrk mid="1" mtype="seg"> By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not return unused space to the operating system.</mrk><mrk mid="2" mtype="seg"> For example, once a page has been allocated to a table or index, it is not automatically returned to the operating system until the table or index is destroyed.</mrk><mrk mid="3" mtype="seg"> <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE<ept id="2">&lt;/codeph&gt;</ept> allows you to return unused space to the operating system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Typically, unused allocated space exists when a large amount of data is deleted from a table and there have not been any subsequent inserts to use the space created by the deletes.</mrk><mrk mid="1" mtype="seg"> By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not return unused space to the operating system.</mrk><mrk mid="2" mtype="seg"> For example, once a page has been allocated to a table or index, it is not automatically returned to the operating system until the table or index is destroyed.</mrk><mrk mid="3" mtype="seg"> <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE<ept id="2">&lt;/codeph&gt;</ept> allows you to return unused space to the operating system.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">This system procedure can be used to force three levels of in-place compression of a SQL table: <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>PURGE_ROWS<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DEFRAGMENT_ROWS<ept id="2">&lt;/codeph&gt;</ept>, and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>TRUNCATE_END<ept id="3">&lt;/codeph&gt;</ept>. Unlike <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="4">&lt;/codeph&gt;</ept>, all work is done in place in the existing table/index.</source>
+<seg-source><mrk mid="0" mtype="seg">This system procedure can be used to force three levels of in-place compression of a SQL table: <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>PURGE_ROWS<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DEFRAGMENT_ROWS<ept id="2">&lt;/codeph&gt;</ept>, and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>TRUNCATE_END<ept id="3">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Unlike <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="4">&lt;/codeph&gt;</ept>, all work is done in place in the existing table/index.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This system procedure can be used to force three levels of in-place compression of a SQL table: <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>PURGE_ROWS<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DEFRAGMENT_ROWS<ept id="2">&lt;/codeph&gt;</ept>, and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>TRUNCATE_END<ept id="3">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Unlike <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="4">&lt;/codeph&gt;</ept>, all work is done in place in the existing table/index.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE( IN SCHEMANAME VARCHAR(128), IN TABLENAME VARCHAR(128), IN PURGE_ROWS SMALLINT, IN DEFRAGMENT_ROWS SMALLINT, IN TRUNCATE_END SMALLINT )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE( IN SCHEMANAME VARCHAR(128), IN TABLENAME VARCHAR(128), IN PURGE_ROWS SMALLINT, IN DEFRAGMENT_ROWS SMALLINT, IN TRUNCATE_END SMALLINT )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE( IN SCHEMANAME VARCHAR(128), IN TABLENAME VARCHAR(128), IN PURGE_ROWS SMALLINT, IN DEFRAGMENT_ROWS SMALLINT, IN TRUNCATE_END SMALLINT )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">SCHEMANAME</source>
+<seg-source><mrk mid="0" mtype="seg">SCHEMANAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SCHEMANAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">An input argument of type VARCHAR(128) that specifies the schema of the table. Passing a null will result in an error.</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the schema of the table.</mrk><mrk mid="1" mtype="seg"> Passing a null will result in an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the schema of the table.</mrk><mrk mid="1" mtype="seg"> Passing a null will result in an error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">TABLENAME</source>
+<seg-source><mrk mid="0" mtype="seg">TABLENAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TABLENAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">An input argument of type VARCHAR(128) that specifies the table name of the table. The string must exactly match the case of the table name, and the argument of "Fred" will be passed to SQL as the delimited identifier 'Fred'. Passing a null will result in an error.</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the table name of the table.</mrk><mrk mid="1" mtype="seg"> The string must exactly match the case of the table name, and the argument of "Fred" will be passed to SQL as the delimited identifier 'Fred'.</mrk><mrk mid="2" mtype="seg"> Passing a null will result in an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the table name of the table.</mrk><mrk mid="1" mtype="seg"> The string must exactly match the case of the table name, and the argument of "Fred" will be passed to SQL as the delimited identifier 'Fred'.</mrk><mrk mid="2" mtype="seg"> Passing a null will result in an error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">PURGE_ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">PURGE_ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PURGE_ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">If PURGE_ROWS is set to a non-zero value, then a single pass is made through the table which will purge committed deleted rows from the table. This space is then available for future inserted rows, but remains allocated to the table. As this option scans every page of the table, its performance is linearly related to the size of the table.</source>
+<seg-source><mrk mid="0" mtype="seg">If PURGE_ROWS is set to a non-zero value, then a single pass is made through the table which will purge committed deleted rows from the table.</mrk><mrk mid="1" mtype="seg"> This space is then available for future inserted rows, but remains allocated to the table.</mrk><mrk mid="2" mtype="seg"> As this option scans every page of the table, its performance is linearly related to the size of the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If PURGE_ROWS is set to a non-zero value, then a single pass is made through the table which will purge committed deleted rows from the table.</mrk><mrk mid="1" mtype="seg"> This space is then available for future inserted rows, but remains allocated to the table.</mrk><mrk mid="2" mtype="seg"> As this option scans every page of the table, its performance is linearly related to the size of the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">DEFRAGMENT_ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">DEFRAGMENT_ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DEFRAGMENT_ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">If DEFRAGMENT_ROWS is set to a non-zero value, then a single defragment pass is made which will move existing rows from the end of the table towards the front of the table. The goal of defragmentation is to empty a set of pages at the end of the table which can then be returned to the operating system by the TRUNCATE_END option. It is recommended to only run DEFRAGMENT_ROWS if also specifying the TRUNCATE_END option. The DEFRAGMENT_ROWS option scans the whole table and needs to update index entries for every base table row move, so the execution time is linearly related to the size of the table.</source>
+<seg-source><mrk mid="0" mtype="seg">If DEFRAGMENT_ROWS is set to a non-zero value, then a single defragment pass is made which will move existing rows from the end of the table towards the front of the table.</mrk><mrk mid="1" mtype="seg"> The goal of defragmentation is to empty a set of pages at the end of the table which can then be returned to the operating system by the TRUNCATE_END option.</mrk><mrk mid="2" mtype="seg"> It is recommended to only run DEFRAGMENT_ROWS if also specifying the TRUNCATE_END option.</mrk><mrk mid="3" mtype="seg"> The DEFRAGMENT_ROWS option scans the whole table and needs to update index entries for every base table row move, so the execution time is linearly related to the size of the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If DEFRAGMENT_ROWS is set to a non-zero value, then a single defragment pass is made which will move existing rows from the end of the table towards the front of the table.</mrk><mrk mid="1" mtype="seg"> The goal of defragmentation is to empty a set of pages at the end of the table which can then be returned to the operating system by the TRUNCATE_END option.</mrk><mrk mid="2" mtype="seg"> It is recommended to only run DEFRAGMENT_ROWS if also specifying the TRUNCATE_END option.</mrk><mrk mid="3" mtype="seg"> The DEFRAGMENT_ROWS option scans the whole table and needs to update index entries for every base table row move, so the execution time is linearly related to the size of the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">TRUNCATE_END</source>
+<seg-source><mrk mid="0" mtype="seg">TRUNCATE_END</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TRUNCATE_END</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">If TRUNCATE_END is set to a non-zero value, then all contiguous pages at the end of the table will be returned to the operating system. Running the PURGE_ROWS and/or DEFRAGMENT_ROWS options may increase the number of pages affected. This option by itself performs no scans of the table.</source>
+<seg-source><mrk mid="0" mtype="seg">If TRUNCATE_END is set to a non-zero value, then all contiguous pages at the end of the table will be returned to the operating system.</mrk><mrk mid="1" mtype="seg"> Running the PURGE_ROWS and/or DEFRAGMENT_ROWS options may increase the number of pages affected.</mrk><mrk mid="2" mtype="seg"> This option by itself performs no scans of the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If TRUNCATE_END is set to a non-zero value, then all contiguous pages at the end of the table will be returned to the operating system.</mrk><mrk mid="1" mtype="seg"> Running the PURGE_ROWS and/or DEFRAGMENT_ROWS options may increase the number of pages affected.</mrk><mrk mid="2" mtype="seg"> This option by itself performs no scans of the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">If authentication and SQL authorization are both enabled, all users have execute privileges on this procedure. However, in order for the procedure to run successfully on a given table, the user must be the owner of either the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database<ept id="1">&lt;/xref&gt;</ept> or the schema in which the table resides. See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, all users have execute privileges on this procedure.</mrk><mrk mid="1" mtype="seg"> However, in order for the procedure to run successfully on a given table, the user must be the owner of either the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database<ept id="1">&lt;/xref&gt;</ept> or the schema in which the table resides.</mrk><mrk mid="2" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, all users have execute privileges on this procedure.</mrk><mrk mid="1" mtype="seg"> However, in order for the procedure to run successfully on a given table, the user must be the owner of either the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database<ept id="1">&lt;/xref&gt;</ept> or the schema in which the table resides.</mrk><mrk mid="2" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">SQL example</source>
+<seg-source><mrk mid="0" mtype="seg">SQL example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL example</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">To compress a table called CUSTOMER in a schema called US, using all available compress options:</source>
+<seg-source><mrk mid="0" mtype="seg">To compress a table called CUSTOMER in a schema called US, using all available compress options:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To compress a table called CUSTOMER in a schema called US, using all available compress options:</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>call SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE('US', 'CUSTOMER', 1, 1, 1);<ept id="1">&lt;/b
+&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>call SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE('US', 'CUSTOMER', 1, 1, 1);<ept id="1">&lt;/b
+&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>call SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE('US', 'CUSTOMER', 1, 1, 1);<ept id="1">&lt;/b
+&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">To return the empty free space at the end of the same table, the following call will run much quicker than running all options but will likely return much less space:</source>
+<seg-source><mrk mid="0" mtype="seg">To return the empty free space at the end of the same table, the following call will run much quicker than running all options but will likely return much less space:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To return the empty free space at the end of the same table, the following call will run much quicker than running all options but will likely return much less space:</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>call SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE('US', 'CUSTOMER', 0, 0, 1);<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>call SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE('US', 'CUSTOMER', 0, 0, 1);<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>call SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE('US', 'CUSTOMER', 0, 0, 1);<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">Java example</source>
+<seg-source><mrk mid="0" mtype="seg">Java example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Java example</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">To compress a table called CUSTOMER in a schema called US, using all available compress options:</source>
+<seg-source><mrk mid="0" mtype="seg">To compress a table called CUSTOMER in a schema called US, using all available compress options:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To compress a table called CUSTOMER in a schema called US, using all available compress options:</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE(?, ?, ?, ?, ?)"); cs.setString(1, "US"); cs.setString(2, "CUSTOMER"); cs.setShort(3, (short) 1); cs.setShort(4, (short) 1); cs.setShort(5, (short) 1); cs.execute();</source>
+<seg-source><mrk mid="0" mtype="seg">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE(?, ?, ?, ?, ?)"); cs.setString(1, "US"); cs.setString(2, "CUSTOMER"); cs.setShort(3, (short) 1); cs.setShort(4, (short) 1); cs.setShort(5, (short) 1); cs.execute();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE(?, ?, ?, ?, ?)"); cs.setString(1, "US"); cs.setString(2, "CUSTOMER"); cs.setShort(3, (short) 1); cs.setShort(4, (short) 1); cs.setShort(5, (short) 1); cs.execute();</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">To return the empty free space at the end of the same table, the following call will run much quicker than running all options but will likely return much less space:</source>
+<seg-source><mrk mid="0" mtype="seg">To return the empty free space at the end of the same table, the following call will run much quicker than running all options but will likely return much less space:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To return the empty free space at the end of the same table, the following call will run much quicker than running all options but will likely return much less space:</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE(?, ?, ?, ?, ?)"); cs.setString(1, "US"); cs.setString(2, "CUSTOMER"); cs.setShort(3, (short) 0); cs.setShort(4, (short) 0); cs.setShort(5, (short) 1); cs.execute();</source>
+<seg-source><mrk mid="0" mtype="seg">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE(?, ?, ?, ?, ?)"); cs.setString(1, "US"); cs.setString(2, "CUSTOMER"); cs.setShort(3, (short) 0); cs.setShort(4, (short) 0); cs.setShort(5, (short) 1); cs.execute();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE(?, ?, ?, ?, ?)"); cs.setString(1, "US"); cs.setString(2, "CUSTOMER"); cs.setShort(3, (short) 0); cs.setShort(4, (short) 0); cs.setShort(5, (short) 1); cs.execute();</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">We recommend that you issue the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure in auto-commit mode.</source>
+<seg-source><mrk mid="0" mtype="seg">We recommend that you issue the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure in auto-commit mode.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">We recommend that you issue the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure in auto-commit mode.</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">This procedure acquires an exclusive table lock on the table being compressed. All statement plans dependent on the table or its indexes are invalidated. For information on identifying unused space, see the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This procedure acquires an exclusive table lock on the table being compressed.</mrk><mrk mid="1" mtype="seg"> All statement plans dependent on the table or its indexes are invalidated.</mrk><mrk mid="2" mtype="seg"> For information on identifying unused space, see the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This procedure acquires an exclusive table lock on the table being compressed.</mrk><mrk mid="1" mtype="seg"> All statement plans dependent on the table or its indexes are invalidated.</mrk><mrk mid="2" mtype="seg"> For information on identifying unused space, see the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

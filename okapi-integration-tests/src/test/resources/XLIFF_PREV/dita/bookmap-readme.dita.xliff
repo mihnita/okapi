@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="bookmap-readme.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Bookmap Readme</source>
+<seg-source><mrk mid="0" mtype="seg">Bookmap Readme</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bookmap Readme</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">This demonstration provides a proof-of-concept implementation of the DITA bookmap proposal. The proposal adds book output to DITA using a specialized DITA map known as a bookmap. The bookmap organizes the DITA topics with the correct nesting and sequence for the book. In addition, the bookmap assigns roles such as preface, chapter, and appendix to top-level topics within the book.</source>
+<seg-source><mrk mid="0" mtype="seg">This demonstration provides a proof-of-concept implementation of the DITA bookmap proposal.</mrk><mrk mid="1" mtype="seg"> The proposal adds book output to DITA using a specialized DITA map known as a bookmap.</mrk><mrk mid="2" mtype="seg"> The bookmap organizes the DITA topics with the correct nesting and sequence for the book.</mrk><mrk mid="3" mtype="seg"> In addition, the bookmap assigns roles such as preface, chapter, and appendix to top-level topics within the book.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This demonstration provides a proof-of-concept implementation of the DITA bookmap proposal.</mrk><mrk mid="1" mtype="seg"> The proposal adds book output to DITA using a specialized DITA map known as a bookmap.</mrk><mrk mid="2" mtype="seg"> The bookmap organizes the DITA topics with the correct nesting and sequence for the book.</mrk><mrk mid="3" mtype="seg"> In addition, the bookmap assigns roles such as preface, chapter, and appendix to top-level topics within the book.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">For more detailed information about the proposal, see the detailed posting on the DITA forum at <bpt id="1" ctype="x-xref">&lt;xref href="news://news.software.ibm.com:119/c11fd3$85qq$2@news.boulder.ibm.com" format="news"&gt;</bpt>news://news.software.ibm.com:119/c11fd3$85qq$2@news.boulder.ibm.com<ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more detailed information about the proposal, see the detailed posting on the DITA forum at <bpt id="1" ctype="x-xref">&lt;xref href="news://news.software.ibm.com:119/c11fd3$85qq$2@news.boulder.ibm.com" format="news"&gt;</bpt>news://news.software.ibm.com:119/c11fd3$85qq$2@news.boulder.ibm.com<ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more detailed information about the proposal, see the detailed posting on the DITA forum at <bpt id="1" ctype="x-xref">&lt;xref href="news://news.software.ibm.com:119/c11fd3$85qq$2@news.boulder.ibm.com" format="news"&gt;</bpt>news://news.software.ibm.com:119/c11fd3$85qq$2@news.boulder.ibm.com<ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">This demonstration has the following limitations:</source>
+<seg-source><mrk mid="0" mtype="seg">This demonstration has the following limitations:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This demonstration has the following limitations:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">For XSL-FO formatting and thus PDF generation, only the basics have been implemented. Through specialization, the DITA XHTML-based outputs for DITA map are also available for bookmap.</source>
+<seg-source><mrk mid="0" mtype="seg">For XSL-FO formatting and thus PDF generation, only the basics have been implemented.</mrk><mrk mid="1" mtype="seg"> Through specialization, the DITA XHTML-based outputs for DITA map are also available for bookmap.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For XSL-FO formatting and thus PDF generation, only the basics have been implemented.</mrk><mrk mid="1" mtype="seg"> Through specialization, the DITA XHTML-based outputs for DITA map are also available for bookmap.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The design for the book info component of the proposal has been fleshed out based on antecedents in DocBook and IBMIDDoc (see the comments in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>bookinfo.mod<ept id="1">&lt;/codeph&gt;</ept> file). Most of the elements in bookinfo aren't processed.</source>
+<seg-source><mrk mid="0" mtype="seg">The design for the book info component of the proposal has been fleshed out based on antecedents in DocBook and IBMIDDoc (see the comments in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>bookinfo.mod<ept id="1">&lt;/codeph&gt;</ept> file).</mrk><mrk mid="1" mtype="seg"> Most of the elements in bookinfo aren't processed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The design for the book info component of the proposal has been fleshed out based on antecedents in DocBook and IBMIDDoc (see the comments in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>bookinfo.mod<ept id="1">&lt;/codeph&gt;</ept> file).</mrk><mrk mid="1" mtype="seg"> Most of the elements in bookinfo aren't processed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The book list component of the proposal hasn't been implemented yet. Possible designs for a glossary list have been discussed extensively on the DITA forum (resulting in the proposal posted as <bpt id="1" ctype="x-xref">&lt;xref href="news://news.software.ibm.com:119/3FA29F54.83AFB251@ca.ibm.com" format="news"&gt;</bpt>news://news.software.ibm.com:119/blfg38$5k0q$1@news.boulder.ibm.com<ept id="1">&lt;/xref&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">The book list component of the proposal hasn't been implemented yet.</mrk><mrk mid="1" mtype="seg"> Possible designs for a glossary list have been discussed extensively on the DITA forum (resulting in the proposal posted as <bpt id="1" ctype="x-xref">&lt;xref href="news://news.software.ibm.com:119/3FA29F54.83AFB251@ca.ibm.com" format="news"&gt;</bpt>news://news.software.ibm.com:119/blfg38$5k0q$1@news.boulder.ibm.com<ept id="1">&lt;/xref&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The book list component of the proposal hasn't been implemented yet.</mrk><mrk mid="1" mtype="seg"> Possible designs for a glossary list have been discussed extensively on the DITA forum (resulting in the proposal posted as <bpt id="1" ctype="x-xref">&lt;xref href="news://news.software.ibm.com:119/3FA29F54.83AFB251@ca.ibm.com" format="news"&gt;</bpt>news://news.software.ibm.com:119/blfg38$5k0q$1@news.boulder.ibm.com<ept id="1">&lt;/xref&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The book style component of the proposal is much more experimental than the bookmap and bookinfo components. Processing for this component is limited.</source>
+<seg-source><mrk mid="0" mtype="seg">The book style component of the proposal is much more experimental than the bookmap and bookinfo components.</mrk><mrk mid="1" mtype="seg"> Processing for this component is limited.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The book style component of the proposal is much more experimental than the bookmap and bookinfo components.</mrk><mrk mid="1" mtype="seg"> Processing for this component is limited.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

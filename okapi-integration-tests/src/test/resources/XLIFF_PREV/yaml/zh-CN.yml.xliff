@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="zh-CN.yml" source-language="en" target-language="fr" datatype="x-text/x-yaml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<group id="sg2">
+<group id="sg3">
+<group id="sg4">
+</group>
+<trans-unit id="tu1" resname="zh-CN/active_admin/any" xml:space="preserve">
+<source xml:lang="en">任何</source>
+<seg-source><mrk mid="0" mtype="seg">任何</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">任何</mrk></target>
+</trans-unit>
+<group id="sg5">
+<trans-unit id="tu2" resname="zh-CN/active_admin/batch_actions/action_label" xml:space="preserve">
+<source xml:lang="en">%{title} 被选中</source>
+<seg-source><mrk mid="0" mtype="seg">%{title} 被选中</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%{title} 被选中</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" resname="zh-CN/active_admin/batch_actions/button_label" xml:space="preserve">
+<source xml:lang="en">批处理</source>
+<seg-source><mrk mid="0" mtype="seg">批处理</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">批处理</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="zh-CN/active_admin/batch_actions/delete_confirmation" xml:space="preserve">
+<source xml:lang="en">你确定要删除所有%{plural_model}? 如果执行，将不可恢复.</source>
+<seg-source><mrk mid="0" mtype="seg">你确定要删除所有%{plural_model}? 如果执行，将不可恢复.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">你确定要删除所有%{plural_model}? 如果执行，将不可恢复.</mrk></target>
+</trans-unit>
+<group id="sg6">
+<trans-unit id="tu5" resname="zh-CN/active_admin/batch_actions/labels/destroy" xml:space="preserve">
+<source xml:lang="en">删除</source>
+<seg-source><mrk mid="0" mtype="seg">删除</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">删除</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu6" resname="zh-CN/active_admin/batch_actions/link" xml:space="preserve">
+<source xml:lang="en">新建一个</source>
+<seg-source><mrk mid="0" mtype="seg">新建一个</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">新建一个</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" resname="zh-CN/active_admin/batch_actions/selection_toggle_explanation" xml:space="preserve">
+<source xml:lang="en">(切换选择)</source>
+<seg-source><mrk mid="0" mtype="seg">(切换选择)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(切换选择)</mrk></target>
+</trans-unit>
+<group id="sg7">
+<trans-unit id="tu8" resname="zh-CN/active_admin/batch_actions/succesfully_destroyed/one" xml:space="preserve">
+<source xml:lang="en">成功删除 1 %{model}</source>
+<seg-source><mrk mid="0" mtype="seg">成功删除 1 %{model}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">成功删除 1 %{model}</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" resname="zh-CN/active_admin/batch_actions/succesfully_destroyed/other" xml:space="preserve">
+<source xml:lang="en">成功删除 %{count} %{plural_model}</source>
+<seg-source><mrk mid="0" mtype="seg">成功删除 %{count} %{plural_model}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">成功删除 %{count} %{plural_model}</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg8">
+<trans-unit id="tu10" resname="zh-CN/active_admin/blank_slate/content" xml:space="preserve">
+<source xml:lang="en">暂时还没有%{resource_name}.</source>
+<seg-source><mrk mid="0" mtype="seg">暂时还没有%{resource_name}.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">暂时还没有%{resource_name}.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" resname="zh-CN/active_admin/blank_slate/link" xml:space="preserve">
+<source xml:lang="en">新建一个</source>
+<seg-source><mrk mid="0" mtype="seg">新建一个</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">新建一个</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu12" resname="zh-CN/active_admin/cancel" xml:space="preserve">
+<source xml:lang="en">取消</source>
+<seg-source><mrk mid="0" mtype="seg">取消</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">取消</mrk></target>
+</trans-unit>
+<group id="sg9">
+<trans-unit id="tu13" resname="zh-CN/active_admin/comments/add" xml:space="preserve">
+<source xml:lang="en">添加评论</source>
+<seg-source><mrk mid="0" mtype="seg">添加评论</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">添加评论</mrk></target>
+</trans-unit>
+<trans-unit id="tu14" resname="zh-CN/active_admin/comments/author" xml:space="preserve">
+<source xml:lang="en">作者</source>
+<seg-source><mrk mid="0" mtype="seg">作者</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">作者</mrk></target>
+</trans-unit>
+<trans-unit id="tu15" resname="zh-CN/active_admin/comments/body" xml:space="preserve">
+<source xml:lang="en">内容</source>
+<seg-source><mrk mid="0" mtype="seg">内容</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">内容</mrk></target>
+</trans-unit>
+<group id="sg10">
+<trans-unit id="tu16" resname="zh-CN/active_admin/comments/errors/empty_text" xml:space="preserve">
+<source xml:lang="en">评论保存失败，内空不能为空.</source>
+<seg-source><mrk mid="0" mtype="seg">评论保存失败，内空不能为空.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">评论保存失败，内空不能为空.</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu17" resname="zh-CN/active_admin/comments/no_comments_yet" xml:space="preserve">
+<source xml:lang="en">暂时没有评论</source>
+<seg-source><mrk mid="0" mtype="seg">暂时没有评论</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">暂时没有评论</mrk></target>
+</trans-unit>
+<trans-unit id="tu18" resname="zh-CN/active_admin/comments/resource" xml:space="preserve">
+<source xml:lang="en">资源</source>
+<seg-source><mrk mid="0" mtype="seg">资源</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">资源</mrk></target>
+</trans-unit>
+<trans-unit id="tu19" resname="zh-CN/active_admin/comments/title" xml:space="preserve">
+<source xml:lang="en">评论</source>
+<seg-source><mrk mid="0" mtype="seg">评论</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">评论</mrk></target>
+</trans-unit>
+<trans-unit id="tu20" resname="zh-CN/active_admin/comments/title_content" xml:space="preserve">
+<source xml:lang="en">(%{count})条评论</source>
+<seg-source><mrk mid="0" mtype="seg">(%{count})条评论</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(%{count})条评论</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu21" resname="zh-CN/active_admin/create_model" xml:space="preserve">
+<source xml:lang="en">新建%{model}</source>
+<seg-source><mrk mid="0" mtype="seg">新建%{model}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">新建%{model}</mrk></target>
+</trans-unit>
+<trans-unit id="tu22" resname="zh-CN/active_admin/dashboard" xml:space="preserve">
+<source xml:lang="en">控制面板</source>
+<seg-source><mrk mid="0" mtype="seg">控制面板</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">控制面板</mrk></target>
+</trans-unit>
+<group id="sg11">
+<trans-unit id="tu23" resname="zh-CN/active_admin/dashboard_welcome/call_to_action" xml:space="preserve">
+<source xml:lang="en">若要添加新的面板内容, 请修改 'app/admin/dashboard.rb'</source>
+<seg-source><mrk mid="0" mtype="seg">若要添加新的面板内容, 请修改 'app/admin/dashboard.rb'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">若要添加新的面板内容, 请修改 'app/admin/dashboard.rb'</mrk></target>
+</trans-unit>
+<trans-unit id="tu24" resname="zh-CN/active_admin/dashboard_welcome/welcome" xml:space="preserve">
+<source xml:lang="en">欢迎使用Active Admin. 这是默认的控制面板页.</source>
+<seg-source><mrk mid="0" mtype="seg">欢迎使用Active Admin.</mrk><mrk mid="1" mtype="seg"> 这是默认的控制面板页.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">欢迎使用Active Admin.</mrk><mrk mid="1" mtype="seg"> 这是默认的控制面板页.</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu25" resname="zh-CN/active_admin/delete" xml:space="preserve">
+<source xml:lang="en">删除</source>
+<seg-source><mrk mid="0" mtype="seg">删除</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">删除</mrk></target>
+</trans-unit>
+<trans-unit id="tu26" resname="zh-CN/active_admin/delete_confirmation" xml:space="preserve">
+<source xml:lang="en">确定删除?</source>
+<seg-source><mrk mid="0" mtype="seg">确定删除?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">确定删除?</mrk></target>
+</trans-unit>
+<trans-unit id="tu27" resname="zh-CN/active_admin/delete_model" xml:space="preserve">
+<source xml:lang="en">删除%{model}</source>
+<seg-source><mrk mid="0" mtype="seg">删除%{model}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">删除%{model}</mrk></target>
+</trans-unit>
+<trans-unit id="tu28" resname="zh-CN/active_admin/details" xml:space="preserve">
+<source xml:lang="en">%{model}详情</source>
+<seg-source><mrk mid="0" mtype="seg">%{model}详情</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%{model}详情</mrk></target>
+</trans-unit>
+<group id="sg12">
+<group id="sg13">
+<trans-unit id="tu29" resname="zh-CN/active_admin/devise/change_password/submit" xml:space="preserve">
+<source xml:lang="en">更改我的密码</source>
+<seg-source><mrk mid="0" mtype="seg">更改我的密码</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">更改我的密码</mrk></target>
+</trans-unit>
+<trans-unit id="tu30" resname="zh-CN/active_admin/devise/change_password/title" xml:space="preserve">
+<source xml:lang="en">更改您的密码</source>
+<seg-source><mrk mid="0" mtype="seg">更改您的密码</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">更改您的密码</mrk></target>
+</trans-unit>
+</group>
+<group id="sg14">
+<trans-unit id="tu31" resname="zh-CN/active_admin/devise/links/forgot_your_password" xml:space="preserve">
+<source xml:lang="en">忘记密码？</source>
+<seg-source><mrk mid="0" mtype="seg">忘记密码？</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">忘记密码？</mrk></target>
+</trans-unit>
+<trans-unit id="tu32" resname="zh-CN/active_admin/devise/links/sign_in" xml:space="preserve">
+<source xml:lang="en">登录</source>
+<seg-source><mrk mid="0" mtype="seg">登录</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">登录</mrk></target>
+</trans-unit>
+<trans-unit id="tu33" resname="zh-CN/active_admin/devise/links/sign_in_with_omniauth_provider" xml:space="preserve">
+<source xml:lang="en">登入%{provider}</source>
+<seg-source><mrk mid="0" mtype="seg">登入%{provider}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">登入%{provider}</mrk></target>
+</trans-unit>
+</group>
+<group id="sg15">
+<trans-unit id="tu34" resname="zh-CN/active_admin/devise/login/remember_me" xml:space="preserve">
+<source xml:lang="en">记住我</source>
+<seg-source><mrk mid="0" mtype="seg">记住我</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">记住我</mrk></target>
+</trans-unit>
+<trans-unit id="tu35" resname="zh-CN/active_admin/devise/login/submit" xml:space="preserve">
+<source xml:lang="en">登录</source>
+<seg-source><mrk mid="0" mtype="seg">登录</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">登录</mrk></target>
+</trans-unit>
+<trans-unit id="tu36" resname="zh-CN/active_admin/devise/login/title" xml:space="preserve">
+<source xml:lang="en">登录</source>
+<seg-source><mrk mid="0" mtype="seg">登录</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">登录</mrk></target>
+</trans-unit>
+</group>
+<group id="sg16">
+<trans-unit id="tu37" resname="zh-CN/active_admin/devise/reset_password/submit" xml:space="preserve">
+<source xml:lang="en">重置密码</source>
+<seg-source><mrk mid="0" mtype="seg">重置密码</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">重置密码</mrk></target>
+</trans-unit>
+<trans-unit id="tu38" resname="zh-CN/active_admin/devise/reset_password/title" xml:space="preserve">
+<source xml:lang="en">忘记密码？</source>
+<seg-source><mrk mid="0" mtype="seg">忘记密码？</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">忘记密码？</mrk></target>
+</trans-unit>
+</group>
+<group id="sg17">
+</group>
+</group>
+<trans-unit id="tu39" resname="zh-CN/active_admin/download" xml:space="preserve">
+<source xml:lang="en">下载:</source>
+<seg-source><mrk mid="0" mtype="seg">下载:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">下载:</mrk></target>
+</trans-unit>
+<trans-unit id="tu40" resname="zh-CN/active_admin/edit" xml:space="preserve">
+<source xml:lang="en">编辑</source>
+<seg-source><mrk mid="0" mtype="seg">编辑</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">编辑</mrk></target>
+</trans-unit>
+<trans-unit id="tu41" resname="zh-CN/active_admin/edit_model" xml:space="preserve">
+<source xml:lang="en">编辑%{model}</source>
+<seg-source><mrk mid="0" mtype="seg">编辑%{model}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">编辑%{model}</mrk></target>
+</trans-unit>
+<trans-unit id="tu42" resname="zh-CN/active_admin/empty" xml:space="preserve">
+<source xml:lang="en">清空</source>
+<seg-source><mrk mid="0" mtype="seg">清空</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">清空</mrk></target>
+</trans-unit>
+<group id="sg18">
+<group id="sg19">
+<trans-unit id="tu43" resname="zh-CN/active_admin/filters/buttons/clear" xml:space="preserve">
+<source xml:lang="en">清除条件</source>
+<seg-source><mrk mid="0" mtype="seg">清除条件</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">清除条件</mrk></target>
+</trans-unit>
+<trans-unit id="tu44" resname="zh-CN/active_admin/filters/buttons/filter" xml:space="preserve">
+<source xml:lang="en">过滤</source>
+<seg-source><mrk mid="0" mtype="seg">过滤</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">过滤</mrk></target>
+</trans-unit>
+</group>
+<group id="sg20">
+<trans-unit id="tu45" resname="zh-CN/active_admin/filters/predicates/contains" xml:space="preserve">
+<source xml:lang="en">包含</source>
+<seg-source><mrk mid="0" mtype="seg">包含</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">包含</mrk></target>
+</trans-unit>
+<trans-unit id="tu46" resname="zh-CN/active_admin/filters/predicates/ends_with" xml:space="preserve">
+<source xml:lang="en">完与</source>
+<seg-source><mrk mid="0" mtype="seg">完与</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">完与</mrk></target>
+</trans-unit>
+<trans-unit id="tu47" resname="zh-CN/active_admin/filters/predicates/equals" xml:space="preserve">
+<source xml:lang="en">等于</source>
+<seg-source><mrk mid="0" mtype="seg">等于</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">等于</mrk></target>
+</trans-unit>
+<trans-unit id="tu48" resname="zh-CN/active_admin/filters/predicates/greater_than" xml:space="preserve">
+<source xml:lang="en">大于</source>
+<seg-source><mrk mid="0" mtype="seg">大于</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">大于</mrk></target>
+</trans-unit>
+<trans-unit id="tu49" resname="zh-CN/active_admin/filters/predicates/less_than" xml:space="preserve">
+<source xml:lang="en">小于</source>
+<seg-source><mrk mid="0" mtype="seg">小于</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">小于</mrk></target>
+</trans-unit>
+<trans-unit id="tu50" resname="zh-CN/active_admin/filters/predicates/starts_with" xml:space="preserve">
+<source xml:lang="en">开头</source>
+<seg-source><mrk mid="0" mtype="seg">开头</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">开头</mrk></target>
+</trans-unit>
+</group>
+</group>
+<trans-unit id="tu51" resname="zh-CN/active_admin/has_many_delete" xml:space="preserve">
+<source xml:lang="en">删除</source>
+<seg-source><mrk mid="0" mtype="seg">删除</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">删除</mrk></target>
+</trans-unit>
+<trans-unit id="tu52" resname="zh-CN/active_admin/has_many_new" xml:space="preserve">
+<source xml:lang="en">新建一个%{model}</source>
+<seg-source><mrk mid="0" mtype="seg">新建一个%{model}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">新建一个%{model}</mrk></target>
+</trans-unit>
+<trans-unit id="tu53" resname="zh-CN/active_admin/has_many_remove" xml:space="preserve">
+<source xml:lang="en">清除</source>
+<seg-source><mrk mid="0" mtype="seg">清除</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">清除</mrk></target>
+</trans-unit>
+<group id="sg21">
+</group>
+<trans-unit id="tu54" resname="zh-CN/active_admin/logout" xml:space="preserve">
+<source xml:lang="en">退出</source>
+<seg-source><mrk mid="0" mtype="seg">退出</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">退出</mrk></target>
+</trans-unit>
+<trans-unit id="tu55" resname="zh-CN/active_admin/main_content" xml:space="preserve">
+<source xml:lang="en">请执行 %{model}#main_content 来显示内容.</source>
+<seg-source><mrk mid="0" mtype="seg">请执行 %{model}#main_content 来显示内容.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">请执行 %{model}#main_content 来显示内容.</mrk></target>
+</trans-unit>
+<trans-unit id="tu56" resname="zh-CN/active_admin/new_model" xml:space="preserve">
+<source xml:lang="en">新建%{model}</source>
+<seg-source><mrk mid="0" mtype="seg">新建%{model}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">新建%{model}</mrk></target>
+</trans-unit>
+<trans-unit id="tu57" resname="zh-CN/active_admin/next" xml:space="preserve">
+<source xml:lang="en">下一个</source>
+<seg-source><mrk mid="0" mtype="seg">下一个</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">下一个</mrk></target>
+</trans-unit>
+<group id="sg22">
+<trans-unit id="tu58" resname="zh-CN/active_admin/pagination/empty" xml:space="preserve">
+<source xml:lang="en">暂时没有%{model}</source>
+<seg-source><mrk mid="0" mtype="seg">暂时没有%{model}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">暂时没有%{model}</mrk></target>
+</trans-unit>
+<group id="sg23">
+<trans-unit id="tu59" resname="zh-CN/active_admin/pagination/entry/one" xml:space="preserve">
+<source xml:lang="en">条目</source>
+<seg-source><mrk mid="0" mtype="seg">条目</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">条目</mrk></target>
+</trans-unit>
+<trans-unit id="tu60" resname="zh-CN/active_admin/pagination/entry/other" xml:space="preserve">
+<source xml:lang="en">条目</source>
+<seg-source><mrk mid="0" mtype="seg">条目</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">条目</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu61" resname="zh-CN/active_admin/pagination/multiple" xml:space="preserve">
+<source xml:lang="en">显示所有 &lt;b&gt;%{total}&lt;/b&gt; %{model}中的&lt;b&gt;%{from}&amp;nbsp;-&amp;nbsp;%{to}&lt;/b&gt; 条</source>
+<seg-source><mrk mid="0" mtype="seg">显示所有 &lt;b&gt;%{total}&lt;/b&gt; %{model}中的&lt;b&gt;%{from}&amp;nbsp;-&amp;nbsp;%{to}&lt;/b&gt; 条</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">显示所有 &lt;b&gt;%{total}&lt;/b&gt; %{model}中的&lt;b&gt;%{from}&amp;nbsp;-&amp;nbsp;%{to}&lt;/b&gt; 条</mrk></target>
+</trans-unit>
+<trans-unit id="tu62" resname="zh-CN/active_admin/pagination/one_page" xml:space="preserve">
+<source xml:lang="en">显示 &lt;b&gt;所有 %{n}&lt;/b&gt; %{model}</source>
+<seg-source><mrk mid="0" mtype="seg">显示 &lt;b&gt;所有 %{n}&lt;/b&gt; %{model}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">显示 &lt;b&gt;所有 %{n}&lt;/b&gt; %{model}</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu63" resname="zh-CN/active_admin/powered_by" xml:space="preserve">
+<source xml:lang="en">Powered by %{active_admin} %{version}</source>
+<seg-source><mrk mid="0" mtype="seg">Powered by %{active_admin} %{version}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Powered by %{active_admin} %{version}</mrk></target>
+</trans-unit>
+<trans-unit id="tu64" resname="zh-CN/active_admin/previous" xml:space="preserve">
+<source xml:lang="en">上一个</source>
+<seg-source><mrk mid="0" mtype="seg">上一个</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">上一个</mrk></target>
+</trans-unit>
+<group id="sg24">
+<trans-unit id="tu65" resname="zh-CN/active_admin/sidebars/filters" xml:space="preserve">
+<source xml:lang="en">所有条件</source>
+<seg-source><mrk mid="0" mtype="seg">所有条件</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">所有条件</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu66" resname="zh-CN/active_admin/update_model" xml:space="preserve">
+<source xml:lang="en">编辑%{model}</source>
+<seg-source><mrk mid="0" mtype="seg">编辑%{model}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">编辑%{model}</mrk></target>
+</trans-unit>
+<trans-unit id="tu67" resname="zh-CN/active_admin/view" xml:space="preserve">
+<source xml:lang="en">查看</source>
+<seg-source><mrk mid="0" mtype="seg">查看</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">查看</mrk></target>
+</trans-unit>
+</group>
+<group id="sg25">
+<group id="sg26">
+<group id="sg27">
+</group>
+</group>
+<group id="sg28">
+</group>
+</group>
+<group id="sg29">
+<group id="sg30">
+<group id="sg31">
+</group>
+</group>
+<group id="sg32">
+<group id="sg33">
+</group>
+</group>
+</group>
+<group id="sg34">
+<group id="sg35">
+</group>
+</group>
+<group id="sg36">
+<group id="sg37">
+</group>
+</group>
+</group>
+</group>
+</body>
+</file>
+</xliff>

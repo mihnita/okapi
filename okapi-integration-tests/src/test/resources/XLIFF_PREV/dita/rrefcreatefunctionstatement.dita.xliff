@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefcreatefunctionstatement.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CREATE FUNCTION statement</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE FUNCTION statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE FUNCTION statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The CREATE FUNCTION statement allows you to create Java functions, which you can then use in an expression.</source>
+<seg-source><mrk mid="0" mtype="seg">The CREATE FUNCTION statement allows you to create Java functions, which you can then use in an expression.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The CREATE FUNCTION statement allows you to create Java functions, which you can then use in an expression.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">CREATE FUNCTION statement</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE FUNCTION statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE FUNCTION statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SQL statements</source>
+<seg-source><mrk mid="0" mtype="seg">SQL statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">CREATE FUNCTION</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE FUNCTION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE FUNCTION</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">functions</source>
+<seg-source><mrk mid="0" mtype="seg">functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">creating</source>
+<seg-source><mrk mid="0" mtype="seg">creating</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">creating</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The function owner and the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> automatically gain the EXECUTE privilege on the function, and are able to grant this privilege to other users. The EXECUTE privileges cannot be revoked from the function and database owners.</source>
+<seg-source><mrk mid="0" mtype="seg">The function owner and the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> automatically gain the EXECUTE privilege on the function, and are able to grant this privilege to other users.</mrk><mrk mid="1" mtype="seg"> The EXECUTE privileges cannot be revoked from the function and database owners.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The function owner and the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> automatically gain the EXECUTE privilege on the function, and are able to grant this privilege to other users.</mrk><mrk mid="1" mtype="seg"> The EXECUTE privileges cannot be revoked from the function and database owners.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">For details on how <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> matches procedures to Java methods, see <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljargmatching.dita#rrefsqljargmatching"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For details on how <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> matches procedures to Java methods, see <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljargmatching.dita#rrefsqljargmatching"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For details on how <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> matches procedures to Java methods, see <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljargmatching.dita#rrefsqljargmatching"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE FUNCTION <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreffunctionname.dita#rreffunctionname"&gt;</bpt>functionName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ( [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrprofunctionparameter"&gt;</bpt>functionParameter<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> [ , <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrprofunctionparameter"&gt;</bpt>functionParameter<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ]* [...] ] ) RETURNS <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrfunctionreturntype"&gt;</bpt>returnDataType<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> [ <bpt id="10" ctype="x-i">&lt;i&gt;</bpt><bpt id="11" ctype="x-xref">&lt;xref href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrprofunctionelement"&gt;</bpt>functionElement<ept id="11">&lt;/xref&gt;</ept><ept id="10">&lt;/i&gt;</ept> ]*<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE FUNCTION <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreffunctionname.dita#rreffunctionname"&gt;</bpt>functionName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ( [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrprofunctionparameter"&gt;</bpt>functionParameter<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> [ , <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrprofunctionparameter"&gt;</bpt>functionParameter<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ]* [...] ] ) RETURNS <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrfunctionreturntype"&gt;</bpt>returnDataType<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> [ <bpt id="10" ctype="x-i">&lt;i&gt;</bpt><bpt id="11" ctype="x-xref">&lt;xref href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrprofunctionelement"&gt;</bpt>functionElement<ept id="11">&lt;/xref&gt;</ept><ept id="10">&lt;/i&gt;</ept> ]*<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE FUNCTION <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreffunctionname.dita#rreffunctionname"&gt;</bpt>functionName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ( [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrprofunctionparameter"&gt;</bpt>functionParameter<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> [ , <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrprofunctionparameter"&gt;</bpt>functionParameter<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ]* [...] ] ) RETURNS <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrfunctionreturntype"&gt;</bpt>returnDataType<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> [ <bpt id="10" ctype="x-i">&lt;i&gt;</bpt><bpt id="11" ctype="x-xref">&lt;xref href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrprofunctionelement"&gt;</bpt>functionElement<ept id="11">&lt;/xref&gt;</ept><ept id="10">&lt;/i&gt;</ept> ]*<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">An ellipsis (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>...<ept id="1">&lt;/codeph&gt;</ept>) after the last parameter indicates that the Java method supports trailing optional arguments, called <bpt id="2" ctype="x-term">&lt;term&gt;</bpt>varargs<ept id="2">&lt;/term&gt;</ept>. The ellipsis indicates that the method may be invoked with zero or more trailing values, all having the data type of the last argument.</source>
+<seg-source><mrk mid="0" mtype="seg">An ellipsis (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>...<ept id="1">&lt;/codeph&gt;</ept>) after the last parameter indicates that the Java method supports trailing optional arguments, called <bpt id="2" ctype="x-term">&lt;term&gt;</bpt>varargs<ept id="2">&lt;/term&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The ellipsis indicates that the method may be invoked with zero or more trailing values, all having the data type of the last argument.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An ellipsis (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>...<ept id="1">&lt;/codeph&gt;</ept>) after the last parameter indicates that the Java method supports trailing optional arguments, called <bpt id="2" ctype="x-term">&lt;term&gt;</bpt>varargs<ept id="2">&lt;/term&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The ellipsis indicates that the method may be invoked with zero or more trailing values, all having the data type of the last argument.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">functionParameter</source>
+<seg-source><mrk mid="0" mtype="seg">functionParameter</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">functionParameter</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>[ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>parameterName<ept id="2">&lt;/i&gt;</ept> ] <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="3">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>[ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>parameterName<ept id="2">&lt;/i&gt;</ept> ] <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="3">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>[ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>parameterName<ept id="2">&lt;/i&gt;</ept> ] <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="3">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>parameterName<ept id="1">&lt;/i&gt;</ept> must be unique within a function.</source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>parameterName<ept id="1">&lt;/i&gt;</ept> must be unique within a function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>parameterName<ept id="1">&lt;/i&gt;</ept> must be unique within a function.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">The syntax of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> is described in <bpt id="2" ctype="x-xref">&lt;xref href="crefsqlj31068.dita#crefsqlj31068"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The syntax of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> is described in <bpt id="2" ctype="x-xref">&lt;xref href="crefsqlj31068.dita#crefsqlj31068"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The syntax of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> is described in <bpt id="2" ctype="x-xref">&lt;xref href="crefsqlj31068.dita#crefsqlj31068"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">The data types BLOB, CLOB, LONG VARCHAR, LONG VARCHAR FOR BIT DATA, and XML are not allowed as parameters in a CREATE FUNCTION statement.</source>
+<seg-source><mrk mid="0" mtype="seg">The data types BLOB, CLOB, LONG VARCHAR, LONG VARCHAR FOR BIT DATA, and XML are not allowed as parameters in a CREATE FUNCTION statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The data types BLOB, CLOB, LONG VARCHAR, LONG VARCHAR FOR BIT DATA, and XML are not allowed as parameters in a CREATE FUNCTION statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">returnDataType</source>
+<seg-source><mrk mid="0" mtype="seg">returnDataType</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">returnDataType</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrfunctiontabletype"&gt;</bpt>tableType<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrfunctiontabletype"&gt;</bpt>tableType<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrfunctiontabletype"&gt;</bpt>tableType<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">The syntax of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> is described in <bpt id="2" ctype="x-xref">&lt;xref href="crefsqlj31068.dita#crefsqlj31068"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The syntax of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> is described in <bpt id="2" ctype="x-xref">&lt;xref href="crefsqlj31068.dita#crefsqlj31068"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The syntax of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> is described in <bpt id="2" ctype="x-xref">&lt;xref href="crefsqlj31068.dita#crefsqlj31068"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">tableType</source>
+<seg-source><mrk mid="0" mtype="seg">tableType</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tableType</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>TABLE( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrfunctioncolelement"&gt;</bpt>columnElement<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>columnElement<ept id="4">&lt;/i&gt;</ept> ]* )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>TABLE( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrfunctioncolelement"&gt;</bpt>columnElement<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>columnElement<ept id="4">&lt;/i&gt;</ept> ]* )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>TABLE( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrfunctioncolelement"&gt;</bpt>columnElement<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>columnElement<ept id="4">&lt;/i&gt;</ept> ]* )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">This is the return type of a table function. Currently, only <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table functions are supported. They are functions which return JDBC <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept>s. For more information, see "Programming <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>-style table functions" in the <bpt id="4" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept><ept id="4">&lt;/cite&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This is the return type of a table function.</mrk><mrk mid="1" mtype="seg"> Currently, only <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table functions are supported.</mrk><mrk mid="2" mtype="seg"> They are functions which return JDBC <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept>s.</mrk><mrk mid="3" mtype="seg"> For more information, see "Programming <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>-style table functions" in the <bpt id="4" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept><ept id="4">&lt;/cite&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is the return type of a table function.</mrk><mrk mid="1" mtype="seg"> Currently, only <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table functions are supported.</mrk><mrk mid="2" mtype="seg"> They are functions which return JDBC <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept>s.</mrk><mrk mid="3" mtype="seg"> For more information, see "Programming <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>-style table functions" in the <bpt id="4" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept><ept id="4">&lt;/cite&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">At runtime, as values are read out of the user-supplied <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept>, Derby coerces those values to the data types declared in the CREATE FUNCTION statement. This affects values typed as CHAR, VARCHAR, LONG VARCHAR, CHAR FOR BIT DATA, VARCHAR FOR BIT DATA, LONG VARCHAR FOR BIT DATA, and DECIMAL/NUMERIC. Values which are too long are truncated to the maximum length declared in the CREATE FUNCTION statement. In addition, if a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>String<ept id="2">&lt;/i&gt;</ept> value is returned in the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> for a column of CHAR type and the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>String<ept id="4">&lt;/i&gt;</ept> is shorter than the declared length of the CHAR column, Derby pads the end of the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>String<ept id="5">&lt;/i&gt;</ept> with blanks in order to stretch it out to the declared length.</source>
+<seg-source><mrk mid="0" mtype="seg">At runtime, as values are read out of the user-supplied <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept>, Derby coerces those values to the data types declared in the CREATE FUNCTION statement.</mrk><mrk mid="1" mtype="seg"> This affects values typed as CHAR, VARCHAR, LONG VARCHAR, CHAR FOR BIT DATA, VARCHAR FOR BIT DATA, LONG VARCHAR FOR BIT DATA, and DECIMAL/NUMERIC.</mrk><mrk mid="2" mtype="seg"> Values which are too long are truncated to the maximum length declared in the CREATE FUNCTION statement.</mrk><mrk mid="3" mtype="seg"> In addition, if a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>String<ept id="2">&lt;/i&gt;</ept> value is returned in the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> for a column of CHAR type and the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>String<ept id="4">&lt;/i&gt;</ept> is shorter than the declared length of the CHAR column, Derby pads the end of the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>String<ept id="5">&lt;/i&gt;</ept> with blanks in order to stretch it out to the declared length.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">At runtime, as values are read out of the user-supplied <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept>, Derby coerces those values to the data types declared in the CREATE FUNCTION statement.</mrk><mrk mid="1" mtype="seg"> This affects values typed as CHAR, VARCHAR, LONG VARCHAR, CHAR FOR BIT DATA, VARCHAR FOR BIT DATA, LONG VARCHAR FOR BIT DATA, and DECIMAL/NUMERIC.</mrk><mrk mid="2" mtype="seg"> Values which are too long are truncated to the maximum length declared in the CREATE FUNCTION statement.</mrk><mrk mid="3" mtype="seg"> In addition, if a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>String<ept id="2">&lt;/i&gt;</ept> value is returned in the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> for a column of CHAR type and the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>String<ept id="4">&lt;/i&gt;</ept> is shorter than the declared length of the CHAR column, Derby pads the end of the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>String<ept id="5">&lt;/i&gt;</ept> with blanks in order to stretch it out to the declared length.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">columnElement</source>
+<seg-source><mrk mid="0" mtype="seg">columnElement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">columnElement</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="crefsqlj34834.dita#crefsqlj34834"&gt;</bpt>SQL92Identifier<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="crefsqlj34834.dita#crefsqlj34834"&gt;</bpt>SQL92Identifier<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="crefsqlj34834.dita#crefsqlj34834"&gt;</bpt>SQL92Identifier<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">The syntax of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> is described in <bpt id="2" ctype="x-xref">&lt;xref href="crefsqlj31068.dita#crefsqlj31068"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The syntax of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> is described in <bpt id="2" ctype="x-xref">&lt;xref href="crefsqlj31068.dita#crefsqlj31068"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The syntax of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> is described in <bpt id="2" ctype="x-xref">&lt;xref href="crefsqlj31068.dita#crefsqlj31068"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">XML is not allowed as the type of a column in the dataset returned by a table function.</source>
+<seg-source><mrk mid="0" mtype="seg">XML is not allowed as the type of a column in the dataset returned by a table function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XML is not allowed as the type of a column in the dataset returned by a table function.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">functionElement</source>
+<seg-source><mrk mid="0" mtype="seg">functionElement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">functionElement</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ LANGUAGE JAVA | { DETERMINISTIC | NOT DETERMINISTIC } | <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt>EXTERNAL NAME<ept id="2">&lt;/xref&gt;</ept> <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="3">&lt;/i&gt;</ept> | PARAMETER STYLE { JAVA | DERBY_JDBC_RESULT_SET | DERBY } | EXTERNAL SECURITY { DEFINER | INVOKER } | { NO SQL | CONTAINS SQL | READS SQL DATA } | { RETURNS NULL ON NULL INPUT | CALLED ON NULL INPUT } }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ LANGUAGE JAVA | { DETERMINISTIC | NOT DETERMINISTIC } | <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt>EXTERNAL NAME<ept id="2">&lt;/xref&gt;</ept> <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="3">&lt;/i&gt;</ept> | PARAMETER STYLE { JAVA | DERBY_JDBC_RESULT_SET | DERBY } | EXTERNAL SECURITY { DEFINER | INVOKER } | { NO SQL | CONTAINS SQL | READS SQL DATA } | { RETURNS NULL ON NULL INPUT | CALLED ON NULL INPUT } }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ LANGUAGE JAVA | { DETERMINISTIC | NOT DETERMINISTIC } | <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt>EXTERNAL NAME<ept id="2">&lt;/xref&gt;</ept> <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="3">&lt;/i&gt;</ept> | PARAMETER STYLE { JAVA | DERBY_JDBC_RESULT_SET | DERBY } | EXTERNAL SECURITY { DEFINER | INVOKER } | { NO SQL | CONTAINS SQL | READS SQL DATA } | { RETURNS NULL ON NULL INPUT | CALLED ON NULL INPUT } }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">The function elements may appear in any order, but each type of element can only appear once. A function definition must contain these elements:</source>
+<seg-source><mrk mid="0" mtype="seg">The function elements may appear in any order, but each type of element can only appear once.</mrk><mrk mid="1" mtype="seg"> A function definition must contain these elements:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The function elements may appear in any order, but each type of element can only appear once.</mrk><mrk mid="1" mtype="seg"> A function definition must contain these elements:</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>LANGUAGE<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>LANGUAGE<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>LANGUAGE<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>EXTERNAL NAME<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>EXTERNAL NAME<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>EXTERNAL NAME<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>PARAMETER STYLE<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>PARAMETER STYLE<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>PARAMETER STYLE<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">LANGUAGE JAVA</source>
+<seg-source><mrk mid="0" mtype="seg">LANGUAGE JAVA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LANGUAGE JAVA</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">The database manager will call the function as a public static method in a Java class.</source>
+<seg-source><mrk mid="0" mtype="seg">The database manager will call the function as a public static method in a Java class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The database manager will call the function as a public static method in a Java class.</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">DETERMINISTIC, NOT DETERMINISTIC</source>
+<seg-source><mrk mid="0" mtype="seg">DETERMINISTIC, NOT DETERMINISTIC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DETERMINISTIC, NOT DETERMINISTIC</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">DETERMINISTIC declares that the function is deterministic, meaning that with the same set of input values, it always computes the same result. The default is NOT DETERMINISTIC. <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> cannot recognize whether an operation is actually deterministic, so you must take care to specify this element correctly.</source>
+<seg-source><mrk mid="0" mtype="seg">DETERMINISTIC declares that the function is deterministic, meaning that with the same set of input values, it always computes the same result.</mrk><mrk mid="1" mtype="seg"> The default is NOT DETERMINISTIC.</mrk><mrk mid="2" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> cannot recognize whether an operation is actually deterministic, so you must take care to specify this element correctly.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DETERMINISTIC declares that the function is deterministic, meaning that with the same set of input values, it always computes the same result.</mrk><mrk mid="1" mtype="seg"> The default is NOT DETERMINISTIC.</mrk><mrk mid="2" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> cannot recognize whether an operation is actually deterministic, so you must take care to specify this element correctly.</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">EXTERNAL NAME <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">EXTERNAL NAME <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EXTERNAL NAME <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="1">&lt;/i&gt;</ept> specified by the <bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> describes the Java method to be called when the function is executed.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="1">&lt;/i&gt;</ept> specified by the <bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> describes the Java method to be called when the function is executed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="1">&lt;/i&gt;</ept> specified by the <bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> describes the Java method to be called when the function is executed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">PARAMETER STYLE</source>
+<seg-source><mrk mid="0" mtype="seg">PARAMETER STYLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PARAMETER STYLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">JAVA</source>
+<seg-source><mrk mid="0" mtype="seg">JAVA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JAVA</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">The function will use a parameter-passing convention that conforms to the Java language and SQL Routines specification. INOUT and OUT parameters will be passed as single entry arrays to facilitate returning values. Result sets can be returned through additional parameters to the Java method of type <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet[]<ept id="1">&lt;/i&gt;</ept> that are passed single entry arrays.</source>
+<seg-source><mrk mid="0" mtype="seg">The function will use a parameter-passing convention that conforms to the Java language and SQL Routines specification.</mrk><mrk mid="1" mtype="seg"> INOUT and OUT parameters will be passed as single entry arrays to facilitate returning values.</mrk><mrk mid="2" mtype="seg"> Result sets can be returned through additional parameters to the Java method of type <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet[]<ept id="1">&lt;/i&gt;</ept> that are passed single entry arrays.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The function will use a parameter-passing convention that conforms to the Java language and SQL Routines specification.</mrk><mrk mid="1" mtype="seg"> INOUT and OUT parameters will be passed as single entry arrays to facilitate returning values.</mrk><mrk mid="2" mtype="seg"> Result sets can be returned through additional parameters to the Java method of type <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet[]<ept id="1">&lt;/i&gt;</ept> that are passed single entry arrays.</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support long column types (for example, LONG VARCHAR, BLOB, and so on). An error will occur if you try to use one of these long column types.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support long column types (for example, LONG VARCHAR, BLOB, and so on).</mrk><mrk mid="1" mtype="seg"> An error will occur if you try to use one of these long column types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support long column types (for example, LONG VARCHAR, BLOB, and so on).</mrk><mrk mid="1" mtype="seg"> An error will occur if you try to use one of these long column types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">DERBY_JDBC_RESULT_SET</source>
+<seg-source><mrk mid="0" mtype="seg">DERBY_JDBC_RESULT_SET</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DERBY_JDBC_RESULT_SET</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">The PARAMETER STYLE is DERBY_JDBC_RESULT_SET if and only if this is a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table function, that is, a function which returns <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrfunctiontabletype"&gt;</bpt>tableType<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> and which is mapped to a method which returns a JDBC <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="4">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The PARAMETER STYLE is DERBY_JDBC_RESULT_SET if and only if this is a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table function, that is, a function which returns <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrfunctiontabletype"&gt;</bpt>tableType<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> and which is mapped to a method which returns a JDBC <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="4">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The PARAMETER STYLE is DERBY_JDBC_RESULT_SET if and only if this is a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table function, that is, a function which returns <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement/rrefcrfunctiontabletype"&gt;</bpt>tableType<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> and which is mapped to a method which returns a JDBC <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="4">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">DERBY</source>
+<seg-source><mrk mid="0" mtype="seg">DERBY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DERBY</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">The PARAMETER STYLE must be DERBY if and only if an ellipsis (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>...<ept id="1">&lt;/codeph&gt;</ept>) appears at the end of the argument list.</source>
+<seg-source><mrk mid="0" mtype="seg">The PARAMETER STYLE must be DERBY if and only if an ellipsis (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>...<ept id="1">&lt;/codeph&gt;</ept>) appears at the end of the argument list.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The PARAMETER STYLE must be DERBY if and only if an ellipsis (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>...<ept id="1">&lt;/codeph&gt;</ept>) appears at the end of the argument list.</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">EXTERNAL SECURITY</source>
+<seg-source><mrk mid="0" mtype="seg">EXTERNAL SECURITY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EXTERNAL SECURITY</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">If SQL authorization mode is enabled, a function runs by default with the privileges specified for the user who invokes the function (invoker's rights). To specify that the function should run with the privileges specified for the user who defines the function (definer's rights), create the function with EXTERNAL SECURITY DEFINER. Those privileges include the right to set the current role to a role for which the definer has privileges. When the function is first invoked, no role is set; even if the invoker has set a current role, the function running with definer's rights has no current role set initially.</source>
+<seg-source><mrk mid="0" mtype="seg">If SQL authorization mode is enabled, a function runs by default with the privileges specified for the user who invokes the function (invoker's rights).</mrk><mrk mid="1" mtype="seg"> To specify that the function should run with the privileges specified for the user who defines the function (definer's rights), create the function with EXTERNAL SECURITY DEFINER.</mrk><mrk mid="2" mtype="seg"> Those privileges include the right to set the current role to a role for which the definer has privileges.</mrk><mrk mid="3" mtype="seg"> When the function is first invoked, no role is set; even if the invoker has set a current role, the function running with definer's rights has no current role set initially.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If SQL authorization mode is enabled, a function runs by default with the privileges specified for the user who invokes the function (invoker's rights).</mrk><mrk mid="1" mtype="seg"> To specify that the function should run with the privileges specified for the user who defines the function (definer's rights), create the function with EXTERNAL SECURITY DEFINER.</mrk><mrk mid="2" mtype="seg"> Those privileges include the right to set the current role to a role for which the definer has privileges.</mrk><mrk mid="3" mtype="seg"> When the function is first invoked, no role is set; even if the invoker has set a current role, the function running with definer's rights has no current role set initially.</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">See <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefpropersqlauth.dita#rrefpropersqlauth"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> for details about setting SQL authorization mode.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefpropersqlauth.dita#rrefpropersqlauth"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> for details about setting SQL authorization mode.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefpropersqlauth.dita#rrefpropersqlauth"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> for details about setting SQL authorization mode.</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">When a function with definer's rights is invoked, the current default schema is set to the eponymously named schema of the definer. For example, if the defining user is called OWNER, the default schema will also be set to OWNER.</source>
+<seg-source><mrk mid="0" mtype="seg">When a function with definer's rights is invoked, the current default schema is set to the eponymously named schema of the definer.</mrk><mrk mid="1" mtype="seg"> For example, if the defining user is called OWNER, the default schema will also be set to OWNER.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a function with definer's rights is invoked, the current default schema is set to the eponymously named schema of the definer.</mrk><mrk mid="1" mtype="seg"> For example, if the defining user is called OWNER, the default schema will also be set to OWNER.</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">When a function with invoker's rights is called, the current default schema and current role are unchanged initially within the function. Similarly, if SQL authorization mode is not enabled, the current default schema is unchanged initially within the function.</source>
+<seg-source><mrk mid="0" mtype="seg">When a function with invoker's rights is called, the current default schema and current role are unchanged initially within the function.</mrk><mrk mid="1" mtype="seg"> Similarly, if SQL authorization mode is not enabled, the current default schema is unchanged initially within the function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a function with invoker's rights is called, the current default schema and current role are unchanged initially within the function.</mrk><mrk mid="1" mtype="seg"> Similarly, if SQL authorization mode is not enabled, the current default schema is unchanged initially within the function.</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">When the call returns, any changes made inside the function to the default current schema (and current role, if relevant) are reset (popped).</source>
+<seg-source><mrk mid="0" mtype="seg">When the call returns, any changes made inside the function to the default current schema (and current role, if relevant) are reset (popped).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the call returns, any changes made inside the function to the default current schema (and current role, if relevant) are reset (popped).</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">If SQL authorization mode is not enabled, an attempt to create a function with EXTERNAL SECURITY will result in an error.</source>
+<seg-source><mrk mid="0" mtype="seg">If SQL authorization mode is not enabled, an attempt to create a function with EXTERNAL SECURITY will result in an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If SQL authorization mode is not enabled, an attempt to create a function with EXTERNAL SECURITY will result in an error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">NO SQL, CONTAINS SQL, READS SQL DATA</source>
+<seg-source><mrk mid="0" mtype="seg">NO SQL, CONTAINS SQL, READS SQL DATA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NO SQL, CONTAINS SQL, READS SQL DATA</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">Indicates whether the function issues any SQL statements and, if so, what type.</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates whether the function issues any SQL statements and, if so, what type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates whether the function issues any SQL statements and, if so, what type.</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">CONTAINS SQL</source>
+<seg-source><mrk mid="0" mtype="seg">CONTAINS SQL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CONTAINS SQL</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">Indicates that SQL statements that neither read nor modify SQL data can be executed by the function. Statements that are not supported in any function return a different error.</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates that SQL statements that neither read nor modify SQL data can be executed by the function.</mrk><mrk mid="1" mtype="seg"> Statements that are not supported in any function return a different error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates that SQL statements that neither read nor modify SQL data can be executed by the function.</mrk><mrk mid="1" mtype="seg"> Statements that are not supported in any function return a different error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">NO SQL</source>
+<seg-source><mrk mid="0" mtype="seg">NO SQL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NO SQL</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">Indicates that the function cannot execute any SQL statements</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates that the function cannot execute any SQL statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates that the function cannot execute any SQL statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">READS SQL DATA</source>
+<seg-source><mrk mid="0" mtype="seg">READS SQL DATA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">READS SQL DATA</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">Indicates that some SQL statements that do not modify SQL data can be included in the function. Statements that are not supported in any stored function return a different error. This is the default value.</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates that some SQL statements that do not modify SQL data can be included in the function.</mrk><mrk mid="1" mtype="seg"> Statements that are not supported in any stored function return a different error.</mrk><mrk mid="2" mtype="seg"> This is the default value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates that some SQL statements that do not modify SQL data can be included in the function.</mrk><mrk mid="1" mtype="seg"> Statements that are not supported in any stored function return a different error.</mrk><mrk mid="2" mtype="seg"> This is the default value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en">RETURNS NULL ON NULL INPUT or CALLED ON NULL INPUT</source>
+<seg-source><mrk mid="0" mtype="seg">RETURNS NULL ON NULL INPUT or CALLED ON NULL INPUT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RETURNS NULL ON NULL INPUT or CALLED ON NULL INPUT</mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en">Specifies whether the function is called if any of the input arguments is null. The result is the null value.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies whether the function is called if any of the input arguments is null.</mrk><mrk mid="1" mtype="seg"> The result is the null value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies whether the function is called if any of the input arguments is null.</mrk><mrk mid="1" mtype="seg"> The result is the null value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">RETURNS NULL ON NULL INPUT</source>
+<seg-source><mrk mid="0" mtype="seg">RETURNS NULL ON NULL INPUT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RETURNS NULL ON NULL INPUT</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">Specifies that the function is not invoked if any of the input arguments is null. The result is the null value.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies that the function is not invoked if any of the input arguments is null.</mrk><mrk mid="1" mtype="seg"> The result is the null value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies that the function is not invoked if any of the input arguments is null.</mrk><mrk mid="1" mtype="seg"> The result is the null value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">CALLED ON NULL INPUT</source>
+<seg-source><mrk mid="0" mtype="seg">CALLED ON NULL INPUT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALLED ON NULL INPUT</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en">Specifies that the function is invoked if any or all input arguments are null. This specification means that the function must be coded to test for null argument values. The function can return a null or non-null value. This is the default setting.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies that the function is invoked if any or all input arguments are null.</mrk><mrk mid="1" mtype="seg"> This specification means that the function must be coded to test for null argument values.</mrk><mrk mid="2" mtype="seg"> The function can return a null or non-null value.</mrk><mrk mid="3" mtype="seg"> This is the default setting.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies that the function is invoked if any or all input arguments are null.</mrk><mrk mid="1" mtype="seg"> This specification means that the function must be coded to test for null argument values.</mrk><mrk mid="2" mtype="seg"> The function can return a null or non-null value.</mrk><mrk mid="3" mtype="seg"> This is the default setting.</mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en">Example of declaring a scalar function</source>
+<seg-source><mrk mid="0" mtype="seg">Example of declaring a scalar function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example of declaring a scalar function</mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> CREATE FUNCTION TO_DEGREES ( RADIANS DOUBLE ) RETURNS DOUBLE PARAMETER STYLE JAVA NO SQL LANGUAGE JAVA EXTERNAL NAME 'java.lang.Math.toDegrees' <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> CREATE FUNCTION TO_DEGREES ( RADIANS DOUBLE ) RETURNS DOUBLE PARAMETER STYLE JAVA NO SQL LANGUAGE JAVA EXTERNAL NAME 'java.lang.Math.toDegrees' <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> CREATE FUNCTION TO_DEGREES ( RADIANS DOUBLE ) RETURNS DOUBLE PARAMETER STYLE JAVA NO SQL LANGUAGE JAVA EXTERNAL NAME 'java.lang.Math.toDegrees' <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en">Example of declaring a table function</source>
+<seg-source><mrk mid="0" mtype="seg">Example of declaring a table function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example of declaring a table function</mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> CREATE FUNCTION PROPERTY_FILE_READER ( FILENAME VARCHAR( 32672 ) ) RETURNS TABLE ( KEY_COL VARCHAR( 10 ), VALUE_COL VARCHAR( 1000 ) ) LANGUAGE JAVA PARAMETER STYLE DERBY_JDBC_RESULT_SET NO SQL EXTERNAL NAME 'vtis.example.PropertyFileVTI.propertyFileVTI' <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> CREATE FUNCTION PROPERTY_FILE_READER ( FILENAME VARCHAR( 32672 ) ) RETURNS TABLE ( KEY_COL VARCHAR( 10 ), VALUE_COL VARCHAR( 1000 ) ) LANGUAGE JAVA PARAMETER STYLE DERBY_JDBC_RESULT_SET NO SQL EXTERNAL NAME 'vtis.example.PropertyFileVTI.propertyFileVTI' <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> CREATE FUNCTION PROPERTY_FILE_READER ( FILENAME VARCHAR( 32672 ) ) RETURNS TABLE ( KEY_COL VARCHAR( 10 ), VALUE_COL VARCHAR( 1000 ) ) LANGUAGE JAVA PARAMETER STYLE DERBY_JDBC_RESULT_SET NO SQL EXTERNAL NAME 'vtis.example.PropertyFileVTI.propertyFileVTI' <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu74">
+<source xml:lang="en">Example of declaring a function that takes varargs</source>
+<seg-source><mrk mid="0" mtype="seg">Example of declaring a function that takes varargs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example of declaring a function that takes varargs</mrk></target>
+</trans-unit>
+<trans-unit id="tu75">
+<source xml:lang="en"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it> CREATE FUNCTION maximum ( a INT ... ) RETURNS INT LANGUAGE JAVA PARAMETER STYLE DERBY NO SQL EXTERNAL NAME 'IntFunctions.maximum' <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it> CREATE FUNCTION maximum ( a INT ...</mrk><mrk mid="1" mtype="seg"> ) RETURNS INT LANGUAGE JAVA PARAMETER STYLE DERBY NO SQL EXTERNAL NAME 'IntFunctions.maximum' <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it> CREATE FUNCTION maximum ( a INT ...</mrk><mrk mid="1" mtype="seg"> ) RETURNS INT LANGUAGE JAVA PARAMETER STYLE DERBY NO SQL EXTERNAL NAME 'IntFunctions.maximum' <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

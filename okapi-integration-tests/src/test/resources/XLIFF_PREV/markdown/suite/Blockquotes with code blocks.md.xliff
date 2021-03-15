@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Blockquotes with code blocks.md.tkitMerged" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Example:
+&gt; sub status {
+&gt; print "working";
+}
+Or:
+sub status {
+&gt; return "working";
+}</source>
+<seg-source><mrk mid="0" mtype="seg">Example:</mrk>
+<mrk mid="1" mtype="seg">&gt; sub status {</mrk>
+<mrk mid="2" mtype="seg">&gt; print "working";</mrk>
+<mrk mid="3" mtype="seg">}</mrk>
+<mrk mid="4" mtype="seg">Or:</mrk>
+<mrk mid="5" mtype="seg">sub status {</mrk>
+<mrk mid="6" mtype="seg">&gt; return "working";</mrk>
+<mrk mid="7" mtype="seg">}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example:</mrk>
+<mrk mid="1" mtype="seg">&gt; sub status {</mrk>
+<mrk mid="2" mtype="seg">&gt; print "working";</mrk>
+<mrk mid="3" mtype="seg">}</mrk>
+<mrk mid="4" mtype="seg">Or:</mrk>
+<mrk mid="5" mtype="seg">sub status {</mrk>
+<mrk mid="6" mtype="seg">&gt; return "working";</mrk>
+<mrk mid="7" mtype="seg">}</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

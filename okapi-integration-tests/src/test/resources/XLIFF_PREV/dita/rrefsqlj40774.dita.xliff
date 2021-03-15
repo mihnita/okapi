@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj40774.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">INSERT statement</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">INSERT statement</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Read-write VTIs</source>
+<seg-source><mrk mid="0" mtype="seg">Read-write VTIs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read-write VTIs</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">and INSERTs</source>
+<seg-source><mrk mid="0" mtype="seg">and INSERTs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and INSERTs</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">An INSERT statement creates a row or rows and stores them in the named table. The number of values assigned in an INSERT statement must be the same as the number of specified or implied columns.</source>
+<seg-source><mrk mid="0" mtype="seg">An INSERT statement creates a row or rows and stores them in the named table.</mrk><mrk mid="1" mtype="seg"> The number of values assigned in an INSERT statement must be the same as the number of specified or implied columns.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An INSERT statement creates a row or rows and stores them in the named table.</mrk><mrk mid="1" mtype="seg"> The number of values assigned in an INSERT statement must be the same as the number of specified or implied columns.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Whenever you insert into a table which has generated columns, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> calculates the values of those columns.</source>
+<seg-source><mrk mid="0" mtype="seg">Whenever you insert into a table which has generated columns, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> calculates the values of those columns.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Whenever you insert into a table which has generated columns, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> calculates the values of those columns.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ ( <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> [ , <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ]* ) ] <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref
+href="rrefsqlj21571.dita#rrefsqlj21571"&gt;</bpt>query<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> [ <bpt id="10" ctype="x-i">&lt;i&gt;</bpt><bpt id="11" ctype="x-xref">&lt;xref href="rrefsqlj13658.dita#rrefsqlj13658"&gt;</bpt>ORDER BY clause<ept id="11">&lt;/xref&gt;</ept><ept id="10">&lt;/i&gt;</ept> ] [ <bpt id="12" ctype="x-i">&lt;i&gt;</bpt><bpt id="13" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt>result offset clause<ept id="13">&lt;/xref&gt;</ept><ept id="12">&lt;/i&gt;</ept> ] [ <bpt id="14" ctype="x-i">&lt;i&gt;</bpt><bpt id="15" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt>fetch first clause<ept id="15">&lt;/xref&gt;</ept><ept id="14">&lt;/i&gt;</ept> ] <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ ( <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> [ , <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ]* ) ] <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref
+href="rrefsqlj21571.dita#rrefsqlj21571"&gt;</bpt>query<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> [ <bpt id="10" ctype="x-i">&lt;i&gt;</bpt><bpt id="11" ctype="x-xref">&lt;xref href="rrefsqlj13658.dita#rrefsqlj13658"&gt;</bpt>ORDER BY clause<ept id="11">&lt;/xref&gt;</ept><ept id="10">&lt;/i&gt;</ept> ] [ <bpt id="12" ctype="x-i">&lt;i&gt;</bpt><bpt id="13" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt>result offset clause<ept id="13">&lt;/xref&gt;</ept><ept id="12">&lt;/i&gt;</ept> ] [ <bpt id="14" ctype="x-i">&lt;i&gt;</bpt><bpt id="15" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt>fetch first clause<ept id="15">&lt;/xref&gt;</ept><ept id="14">&lt;/i&gt;</ept> ] <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ ( <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> [ , <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ]* ) ] <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref
+href="rrefsqlj21571.dita#rrefsqlj21571"&gt;</bpt>query<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> [ <bpt id="10" ctype="x-i">&lt;i&gt;</bpt><bpt id="11" ctype="x-xref">&lt;xref href="rrefsqlj13658.dita#rrefsqlj13658"&gt;</bpt>ORDER BY clause<ept id="11">&lt;/xref&gt;</ept><ept id="10">&lt;/i&gt;</ept> ] [ <bpt id="12" ctype="x-i">&lt;i&gt;</bpt><bpt id="13" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt>result offset clause<ept id="13">&lt;/xref&gt;</ept><ept id="12">&lt;/i&gt;</ept> ] [ <bpt id="14" ctype="x-i">&lt;i&gt;</bpt><bpt id="15" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt>fetch first clause<ept id="15">&lt;/xref&gt;</ept><ept id="14">&lt;/i&gt;</ept> ] <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>query<ept id="1">&lt;/i&gt;</ept> can be:</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>query<ept id="1">&lt;/i&gt;</ept> can be:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>query<ept id="1">&lt;/i&gt;</ept> can be:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">A single-row or multiple-row VALUES expression</source>
+<seg-source><mrk mid="0" mtype="seg">A single-row or multiple-row VALUES expression</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A single-row or multiple-row VALUES expression</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Single-row and multiple-row VALUES expressions can include the keyword DEFAULT. Specifying DEFAULT for a column inserts the column's default value into the column. Another way to insert the default value into the column is to omit the column from the column list and only insert values into other columns in the table. For more information, see <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqlj11277.dita#rrefsqlj11277"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Single-row and multiple-row VALUES expressions can include the keyword DEFAULT.</mrk><mrk mid="1" mtype="seg"> Specifying DEFAULT for a column inserts the column's default value into the column.</mrk><mrk mid="2" mtype="seg"> Another way to insert the default value into the column is to omit the column from the column list and only insert values into other columns in the table.</mrk><mrk mid="3" mtype="seg"> For more information, see <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqlj11277.dita#rrefsqlj11277"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Single-row and multiple-row VALUES expressions can include the keyword DEFAULT.</mrk><mrk mid="1" mtype="seg"> Specifying DEFAULT for a column inserts the column's default value into the column.</mrk><mrk mid="2" mtype="seg"> Another way to insert the default value into the column is to omit the column from the column list and only insert values into other columns in the table.</mrk><mrk mid="3" mtype="seg"> For more information, see <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqlj11277.dita#rrefsqlj11277"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The DEFAULT literal is the only value which you can directly insert into a generated column.</source>
+<seg-source><mrk mid="0" mtype="seg">The DEFAULT literal is the only value which you can directly insert into a generated column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The DEFAULT literal is the only value which you can directly insert into a generated column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">UNION expressions</source>
+<seg-source><mrk mid="0" mtype="seg">UNION expressions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNION expressions</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">When you want insertion to happen with a specific ordering (for example, in conjunction with auto-generated keys), it can be useful to specify an ORDER BY clause on the result set to be inserted.</source>
+<seg-source><mrk mid="0" mtype="seg">When you want insertion to happen with a specific ordering (for example, in conjunction with auto-generated keys), it can be useful to specify an ORDER BY clause on the result set to be inserted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you want insertion to happen with a specific ordering (for example, in conjunction with auto-generated keys), it can be useful to specify an ORDER BY clause on the result set to be inserted.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">If the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>query<ept id="1">&lt;/i&gt;</ept> is a VALUES expression, it cannot contain or be followed by an ORDER BY, result offset, or fetch first clause. However, if the VALUES expression does not contain the DEFAULT keyword, the VALUES clause can be put in a subquery and ordered, as in the following statement:</source>
+<seg-source><mrk mid="0" mtype="seg">If the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>query<ept id="1">&lt;/i&gt;</ept> is a VALUES expression, it cannot contain or be followed by an ORDER BY, result offset, or fetch first clause.</mrk><mrk mid="1" mtype="seg"> However, if the VALUES expression does not contain the DEFAULT keyword, the VALUES clause can be put in a subquery and ordered, as in the following statement:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>query<ept id="1">&lt;/i&gt;</ept> is a VALUES expression, it cannot contain or be followed by an ORDER BY, result offset, or fetch first clause.</mrk><mrk mid="1" mtype="seg"> However, if the VALUES expression does not contain the DEFAULT keyword, the VALUES clause can be put in a subquery and ordered, as in the following statement:</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO t SELECT * FROM (VALUES 'a','c','b') t ORDER BY 1;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO t SELECT * FROM (VALUES 'a','c','b') t ORDER BY 1;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO t SELECT * FROM (VALUES 'a','c','b') t ORDER BY 1;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it>INSERT INTO COUNTRIES VALUES ('Taiwan', 'TW', 'Asia') -- Insert a new department into the DEPARTMENT table, -- but do not assign a manager to the new department INSERT INTO DEPARTMENT (DEPTNO, DEPTNAME, ADMRDEPT) VALUES ('E31', 'ARCHITECTURE', 'E01') <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- Insert two new departments using one statement -- into the DEPARTMENT table as in the previous example, -- but do not assign a manager to the new department.<ept id="2">&lt;/ph&gt;</ept> INSERT INTO DEPARTMENT (DEPTNO, DEPTNAME, ADMRDEPT) VALUES ('B11', 'PURCHASING', 'B01'), ('E41', 'DATABASE ADMINISTRATION', 'E01') <it id="3" ctype="x-ph" pos="open">&lt;ph&gt;</it>-- Create a temporary table MA_EMP_ACT with the -- same columns as the EMP_ACT table. -- Load MA_EMP_ACT with the rows from the EMP_ACT -- table with a project number (PROJNO) -- starting with the letters 'MA'.<it id="3" ctype="x-ph" pos="close">&lt;/ph&gt;</it> CREATE TABLE MA_EMP_ACT ( EMPNO CHAR(6) NOT NULL, PROJNO CHAR(6) NOT NULL, ACTNO SMALLINT NOT NULL, EMPTIME DEC(5,2), EMSTDATE DATE, EMENDATE DATE ); INSERT INTO MA_EMP_ACT SELECT * FROM EMP_ACT WHERE SUBSTR(PROJNO, 1, 2) = 'MA'; <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- Insert the DEFAULT value for the LOCATION column<ept id="4">&lt;/ph&gt;</ept> INSERT INTO DEPARTMENT VALUES ('E31', 'ARCHITECTURE', '00390', 'E01', DEFAULT) <bpt id="5" ctype="x-ph">&lt;ph&gt;</bpt>-- Create an AIRPORTS table and insert into it -- some of the fields from the CITIES table, with the airport -- codes sorted alphabetically<ept id="5">&lt;/ph&gt;</ept> CREATE TABLE AIRPORTS ( AIRPORT_ID INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY PRIMARY KEY, AIRPORT VARCHAR(3), CITY VARCHAR(24) NOT NULL, COUNTRY VARCHAR(26) NOT NULL ); INSERT INTO AIRPORTS (AIRPORT, CITY, COUNTRY) SELECT AIRPORT, CITY_NAME, COUNTRY FROM CITIES ORDER BY AIRPORT; <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it>INSERT INTO COUNTRIES VALUES ('Taiwan', 'TW', 'Asia') -- Insert a new department into the DEPARTMENT table, -- but do not assign a manager to the new department INSERT INTO DEPARTMENT (DEPTNO, DEPTNAME, ADMRDEPT) VALUES ('E31', 'ARCHITECTURE', 'E01') <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- Insert two new departments using one statement -- into the DEPARTMENT table as in the previous example, -- but do not assign a manager to the new department.<ept id="2">&lt;/ph&gt;</ept></mrk><mrk mid="1" mtype="seg"> INSERT INTO DEPARTMENT (DEPTNO, DEPTNAME, ADMRDEPT) VALUES ('B11', 'PURCHASING', 'B01'), ('E41', 'DATABASE ADMINISTRATION', 'E01') <it id="3" ctype="x-ph" pos="open">&lt;ph&gt;</it>-- Create a temporary table MA_EMP_ACT with the -- same columns as the EMP_ACT table.</mrk><mrk mid="2" mtype="seg"> -- Load MA_EMP_ACT with the rows from the EMP_ACT -- table with a project number (PROJNO) -- starting with the letters 'MA'.<it id="3" ctype="x-ph" pos="close">&lt;/ph&gt;</it></mrk><mrk mid="3" mtype="seg"> CREATE TABLE MA_EMP_ACT ( EMPNO CHAR(6) NOT NULL, PROJNO CHAR(6) NOT NULL, ACTNO SMALLINT NOT NULL, EMPTIME DEC(5,2), EMSTDATE DATE, EMENDATE DATE ); INSERT INTO MA_EMP_ACT SELECT * FROM EMP_ACT WHERE SUBSTR(PROJNO, 1, 2) = 'MA'; <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- Insert the DEFAULT value for the LOCATION column<ept id="4">&lt;/ph&gt;</ept> INSERT INTO DEPARTMENT VALUES ('E31', 'ARCHITECTURE', '00390', 'E01', DEFAULT) <bpt id="5" ctype="x-ph">&lt;ph&gt;</bpt>-- Create an AIRPORTS table and insert into it -- some of the fields from the CITIES table, with the airport -- codes sorted alphabetically<ept id="5">&lt;/ph&gt;</ept> CREATE TABLE AIRPORTS ( AIRPORT_ID INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY PRIMARY KEY, AIRPORT VARCHAR(3), CITY VARCHAR(24) NOT NULL, COUNTRY VARCHAR(26) NOT NULL ); INSERT INTO AIRPORTS (AIRPORT, CITY, COUNTRY) SELECT AIRPORT, CITY_NAME, COUNTRY FROM CITIES ORDER BY AIRPORT; <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it>INSERT INTO COUNTRIES VALUES ('Taiwan', 'TW', 'Asia') -- Insert a new department into the DEPARTMENT table, -- but do not assign a manager to the new department INSERT INTO DEPARTMENT (DEPTNO, DEPTNAME, ADMRDEPT) VALUES ('E31', 'ARCHITECTURE', 'E01') <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- Insert two new departments using one statement -- into the DEPARTMENT table as in the previous example, -- but do not assign a manager to the new department.<ept id="2">&lt;/ph&gt;</ept></mrk><mrk mid="1" mtype="seg"> INSERT INTO DEPARTMENT (DEPTNO, DEPTNAME, ADMRDEPT) VALUES ('B11', 'PURCHASING', 'B01'), ('E41', 'DATABASE ADMINISTRATION', 'E01') <it id="3" ctype="x-ph" pos="open">&lt;ph&gt;</it>-- Create a temporary table MA_EMP_ACT with the -- same columns as the EMP_ACT table.</mrk><mrk mid="2" mtype="seg"> -- Load MA_EMP_ACT with the rows from the EMP_ACT -- table with a project number (PROJNO) -- starting with the letters 'MA'.<it id="3" ctype="x-ph" pos="close">&lt;/ph&gt;</it></mrk><mrk mid="3" mtype="seg"> CREATE TABLE MA_EMP_ACT ( EMPNO CHAR(6) NOT NULL, PROJNO CHAR(6) NOT NULL, ACTNO SMALLINT NOT NULL, EMPTIME DEC(5,2), EMSTDATE DATE, EMENDATE DATE ); INSERT INTO MA_EMP_ACT SELECT * FROM EMP_ACT WHERE SUBSTR(PROJNO, 1, 2) = 'MA'; <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- Insert the DEFAULT value for the LOCATION column<ept id="4">&lt;/ph&gt;</ept> INSERT INTO DEPARTMENT VALUES ('E31', 'ARCHITECTURE', '00390', 'E01', DEFAULT) <bpt id="5" ctype="x-ph">&lt;ph&gt;</bpt>-- Create an AIRPORTS table and insert into it -- some of the fields from the CITIES table, with the airport -- codes sorted alphabetically<ept id="5">&lt;/ph&gt;</ept> CREATE TABLE AIRPORTS ( AIRPORT_ID INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY PRIMARY KEY, AIRPORT VARCHAR(3), CITY VARCHAR(24) NOT NULL, COUNTRY VARCHAR(26) NOT NULL ); INSERT INTO AIRPORTS (AIRPORT, CITY, COUNTRY) SELECT AIRPORT, CITY_NAME, COUNTRY FROM CITIES ORDER BY AIRPORT; <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Statement dependency system</source>
+<seg-source><mrk mid="0" mtype="seg">Statement dependency system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Statement dependency system</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">The INSERT statement depends on the table being inserted into, all of the conglomerates (units of storage such as heaps or indexes) for that table, and any other table named in the statement. Any statement that creates or drops an index or a constraint for the target table of a prepared INSERT statement invalidates the prepared INSERT statement.</source>
+<seg-source><mrk mid="0" mtype="seg">The INSERT statement depends on the table being inserted into, all of the conglomerates (units of storage such as heaps or indexes) for that table, and any other table named in the statement.</mrk><mrk mid="1" mtype="seg"> Any statement that creates or drops an index or a constraint for the target table of a prepared INSERT statement invalidates the prepared INSERT statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The INSERT statement depends on the table being inserted into, all of the conglomerates (units of storage such as heaps or indexes) for that table, and any other table named in the statement.</mrk><mrk mid="1" mtype="seg"> Any statement that creates or drops an index or a constraint for the target table of a prepared INSERT statement invalidates the prepared INSERT statement.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

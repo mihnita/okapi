@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljcreatesequence.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CREATE SEQUENCE statement</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE SEQUENCE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE SEQUENCE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">CREATE SEQUENCE statement</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE SEQUENCE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE SEQUENCE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SQL statements</source>
+<seg-source><mrk mid="0" mtype="seg">SQL statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">CREATE SEQUENCE</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE SEQUENCE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE SEQUENCE</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">sequence generators</source>
+<seg-source><mrk mid="0" mtype="seg">sequence generators</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sequence generators</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">creating</source>
+<seg-source><mrk mid="0" mtype="seg">creating</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">creating</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The CREATE SEQUENCE statement creates a sequence generator, which is a mechanism for generating exact numeric values, one at a time.</source>
+<seg-source><mrk mid="0" mtype="seg">The CREATE SEQUENCE statement creates a sequence generator, which is a mechanism for generating exact numeric values, one at a time.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The CREATE SEQUENCE statement creates a sequence generator, which is a mechanism for generating exact numeric values, one at a time.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The owner of the schema where the sequence generator lives automatically gains the USAGE privilege on the sequence generator, and can grant this privilege to other users and roles. Only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> and the owner of the sequence generator can grant these USAGE privileges. The USAGE privilege cannot be revoked from the schema owner. See <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> and <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">The owner of the schema where the sequence generator lives automatically gains the USAGE privilege on the sequence generator, and can grant this privilege to other users and roles.</mrk><mrk mid="1" mtype="seg"> Only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> and the owner of the sequence generator can grant these USAGE privileges.</mrk><mrk mid="2" mtype="seg"> The USAGE privilege cannot be revoked from the schema owner.</mrk><mrk mid="3" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> and <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The owner of the schema where the sequence generator lives automatically gains the USAGE privilege on the sequence generator, and can grant this privilege to other users and roles.</mrk><mrk mid="1" mtype="seg"> Only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> and the owner of the sequence generator can grant these USAGE privileges.</mrk><mrk mid="2" mtype="seg"> The USAGE privilege cannot be revoked from the schema owner.</mrk><mrk mid="3" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> and <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE SEQUENCE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefsequencename.dita#rrefsequencename"&gt;</bpt>sequenceName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljcreatesequence.dita#rrefsqljcreatesequence/rrefsqljcrseqsequenceelement"&gt;</bpt>sequenceElement<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]*<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE SEQUENCE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefsequencename.dita#rrefsequencename"&gt;</bpt>sequenceName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljcreatesequence.dita#rrefsqljcreatesequence/rrefsqljcrseqsequenceelement"&gt;</bpt>sequenceElement<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]*<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE SEQUENCE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefsequencename.dita#rrefsequencename"&gt;</bpt>sequenceName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljcreatesequence.dita#rrefsqljcreatesequence/rrefsqljcrseqsequenceelement"&gt;</bpt>sequenceElement<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]*<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The sequence name is composed of an optional <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="3">&lt;/i&gt;</ept>. If a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>schemaName<ept id="4">&lt;/i&gt;</ept> is not provided, the current schema is the default schema. If a qualified sequence name is specified, the schema name cannot begin with SYS.</source>
+<seg-source><mrk mid="0" mtype="seg">The sequence name is composed of an optional <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> If a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>schemaName<ept id="4">&lt;/i&gt;</ept> is not provided, the current schema is the default schema.</mrk><mrk mid="2" mtype="seg"> If a qualified sequence name is specified, the schema name cannot begin with SYS.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The sequence name is composed of an optional <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> If a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>schemaName<ept id="4">&lt;/i&gt;</ept> is not provided, the current schema is the default schema.</mrk><mrk mid="2" mtype="seg"> If a qualified sequence name is specified, the schema name cannot begin with SYS.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">sequenceElement</source>
+<seg-source><mrk mid="0" mtype="seg">sequenceElement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sequenceElement</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ AS <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="2">&lt;/i&gt;</ept> | START WITH <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>signedInteger<ept id="3">&lt;/i&gt;</ept> | INCREMENT BY <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>signedInteger<ept id="4">&lt;/i&gt;</ept> | MAXVALUE <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>signedInteger<ept id="5">&lt;/i&gt;</ept> | NO MAXVALUE | MINVALUE <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>signedInteger<ept id="6">&lt;/i&gt;</ept> | NO MINVALUE | CYCLE | NO CYCLE }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ AS <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="2">&lt;/i&gt;</ept> | START WITH <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>signedInteger<ept id="3">&lt;/i&gt;</ept> | INCREMENT BY <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>signedInteger<ept id="4">&lt;/i&gt;</ept> | MAXVALUE <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>signedInteger<ept id="5">&lt;/i&gt;</ept> | NO MAXVALUE | MINVALUE <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>signedInteger<ept id="6">&lt;/i&gt;</ept> | NO MINVALUE | CYCLE | NO CYCLE }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ AS <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="2">&lt;/i&gt;</ept> | START WITH <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>signedInteger<ept id="3">&lt;/i&gt;</ept> | INCREMENT BY <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>signedInteger<ept id="4">&lt;/i&gt;</ept> | MAXVALUE <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>signedInteger<ept id="5">&lt;/i&gt;</ept> | NO MAXVALUE | MINVALUE <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>signedInteger<ept id="6">&lt;/i&gt;</ept> | NO MINVALUE | CYCLE | NO CYCLE }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">If specified, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> must be an integer type (SMALLINT, INT, or BIGINT). If not specified, the default data type is INT.</source>
+<seg-source><mrk mid="0" mtype="seg">If specified, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> must be an integer type (SMALLINT, INT, or BIGINT).</mrk><mrk mid="1" mtype="seg"> If not specified, the default data type is INT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If specified, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> must be an integer type (SMALLINT, INT, or BIGINT).</mrk><mrk mid="1" mtype="seg"> If not specified, the default data type is INT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">If specified, the INCREMENT value is a non-zero number which fits in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> value. If not specified, the INCREMENT defaults to 1. INCREMENT is the step by which the sequence generator advances. If INCREMENT is positive, the sequence numbers get larger over time. If INCREMENT is negative, the sequence numbers get smaller.</source>
+<seg-source><mrk mid="0" mtype="seg">If specified, the INCREMENT value is a non-zero number which fits in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> value.</mrk><mrk mid="1" mtype="seg"> If not specified, the INCREMENT defaults to 1.</mrk><mrk mid="2" mtype="seg"> INCREMENT is the step by which the sequence generator advances.</mrk><mrk mid="3" mtype="seg"> If INCREMENT is positive, the sequence numbers get larger over time.</mrk><mrk mid="4" mtype="seg"> If INCREMENT is negative, the sequence numbers get smaller.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If specified, the INCREMENT value is a non-zero number which fits in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> value.</mrk><mrk mid="1" mtype="seg"> If not specified, the INCREMENT defaults to 1.</mrk><mrk mid="2" mtype="seg"> INCREMENT is the step by which the sequence generator advances.</mrk><mrk mid="3" mtype="seg"> If INCREMENT is positive, the sequence numbers get larger over time.</mrk><mrk mid="4" mtype="seg"> If INCREMENT is negative, the sequence numbers get smaller.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">If specified, MINVALUE must be an integer which fits in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> value. If MINVALUE is not specified, or if NO MINVALUE is specified, MINVALUE defaults to the smallest negative number which fits in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="2">&lt;/i&gt;</ept> value.</source>
+<seg-source><mrk mid="0" mtype="seg">If specified, MINVALUE must be an integer which fits in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> value.</mrk><mrk mid="1" mtype="seg"> If MINVALUE is not specified, or if NO MINVALUE is specified, MINVALUE defaults to the smallest negative number which fits in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="2">&lt;/i&gt;</ept> value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If specified, MINVALUE must be an integer which fits in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> value.</mrk><mrk mid="1" mtype="seg"> If MINVALUE is not specified, or if NO MINVALUE is specified, MINVALUE defaults to the smallest negative number which fits in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="2">&lt;/i&gt;</ept> value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">If specified, MAXVALUE may not be greater than the largest positive integer that fits in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> value. If MAXVALUE is not specified, or if NO MAXVALUE is specified, MAXVALUE defaults to the largest positive integer which fits in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="2">&lt;/i&gt;</ept> value. MAXVALUE must be greater than MINVALUE.</source>
+<seg-source><mrk mid="0" mtype="seg">If specified, MAXVALUE may not be greater than the largest positive integer that fits in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> value.</mrk><mrk mid="1" mtype="seg"> If MAXVALUE is not specified, or if NO MAXVALUE is specified, MAXVALUE defaults to the largest positive integer which fits in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="2">&lt;/i&gt;</ept> value.</mrk><mrk mid="2" mtype="seg"> MAXVALUE must be greater than MINVALUE.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If specified, MAXVALUE may not be greater than the largest positive integer that fits in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> value.</mrk><mrk mid="1" mtype="seg"> If MAXVALUE is not specified, or if NO MAXVALUE is specified, MAXVALUE defaults to the largest positive integer which fits in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="2">&lt;/i&gt;</ept> value.</mrk><mrk mid="2" mtype="seg"> MAXVALUE must be greater than MINVALUE.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">The START WITH clause specifies the initial value of the sequence generator. This value must fall between MINVALUE and MAXVALUE. If the START WITH clause is not specified, the initial value defaults to be:</source>
+<seg-source><mrk mid="0" mtype="seg">The START WITH clause specifies the initial value of the sequence generator.</mrk><mrk mid="1" mtype="seg"> This value must fall between MINVALUE and MAXVALUE.</mrk><mrk mid="2" mtype="seg"> If the START WITH clause is not specified, the initial value defaults to be:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The START WITH clause specifies the initial value of the sequence generator.</mrk><mrk mid="1" mtype="seg"> This value must fall between MINVALUE and MAXVALUE.</mrk><mrk mid="2" mtype="seg"> If the START WITH clause is not specified, the initial value defaults to be:</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">MINVALUE if INCREMENT is positive</source>
+<seg-source><mrk mid="0" mtype="seg">MINVALUE if INCREMENT is positive</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MINVALUE if INCREMENT is positive</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">MAXVALUE if INCREMENT is negative</source>
+<seg-source><mrk mid="0" mtype="seg">MAXVALUE if INCREMENT is negative</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MAXVALUE if INCREMENT is negative</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">The CYCLE clause controls what happens when the sequence generator exhausts its range and wraps around. If CYCLE is specified, the wraparound behavior is to reinitialize the sequence generator to its START value. If NO CYCLE is specified, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an exception when the generator wraps around. The default behavior is NO CYCLE.</source>
+<seg-source><mrk mid="0" mtype="seg">The CYCLE clause controls what happens when the sequence generator exhausts its range and wraps around.</mrk><mrk mid="1" mtype="seg"> If CYCLE is specified, the wraparound behavior is to reinitialize the sequence generator to its START value.</mrk><mrk mid="2" mtype="seg"> If NO CYCLE is specified, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an exception when the generator wraps around.</mrk><mrk mid="3" mtype="seg"> The default behavior is NO CYCLE.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The CYCLE clause controls what happens when the sequence generator exhausts its range and wraps around.</mrk><mrk mid="1" mtype="seg"> If CYCLE is specified, the wraparound behavior is to reinitialize the sequence generator to its START value.</mrk><mrk mid="2" mtype="seg"> If NO CYCLE is specified, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an exception when the generator wraps around.</mrk><mrk mid="3" mtype="seg"> The default behavior is NO CYCLE.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">To retrieve the next value from a sequence generator, use a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljnextvaluefor.dita#rrefsqljnextvaluefor"&gt;</bpt>NEXT VALUE FOR expression<ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">To retrieve the next value from a sequence generator, use a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljnextvaluefor.dita#rrefsqljnextvaluefor"&gt;</bpt>NEXT VALUE FOR expression<ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To retrieve the next value from a sequence generator, use a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljnextvaluefor.dita#rrefsqljnextvaluefor"&gt;</bpt>NEXT VALUE FOR expression<ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Performance</source>
+<seg-source><mrk mid="0" mtype="seg">Performance</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Performance</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">To boost performance and concurrency, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> preallocates ranges of upcoming values for sequences. The lengths of these ranges can be configured by adjusting the value of the <bpt id="2" ctype="x-xref">&lt;xref href="rrefproperpreallocator.dita#rrefproperpreallocator"&gt;</bpt>derby.language.sequence.preallocator<ept id="2">&lt;/xref&gt;</ept> property.</source>
+<seg-source><mrk mid="0" mtype="seg">To boost performance and concurrency, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> preallocates ranges of upcoming values for sequences.</mrk><mrk mid="1" mtype="seg"> The lengths of these ranges can be configured by adjusting the value of the <bpt id="2" ctype="x-xref">&lt;xref href="rrefproperpreallocator.dita#rrefproperpreallocator"&gt;</bpt>derby.language.sequence.preallocator<ept id="2">&lt;/xref&gt;</ept> property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To boost performance and concurrency, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> preallocates ranges of upcoming values for sequences.</mrk><mrk mid="1" mtype="seg"> The lengths of these ranges can be configured by adjusting the value of the <bpt id="2" ctype="x-xref">&lt;xref href="rrefproperpreallocator.dita#rrefproperpreallocator"&gt;</bpt>derby.language.sequence.preallocator<ept id="2">&lt;/xref&gt;</ept> property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">The following statement creates a sequence generator of type INT, with a start value of -2147483648 (the smallest INT value). The value increases by 1, and the last legal value is the largest possible INT. If NEXT VALUE FOR is invoked on the generator again, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an exception.</source>
+<seg-source><mrk mid="0" mtype="seg">The following statement creates a sequence generator of type INT, with a start value of -2147483648 (the smallest INT value).</mrk><mrk mid="1" mtype="seg"> The value increases by 1, and the last legal value is the largest possible INT.</mrk><mrk mid="2" mtype="seg"> If NEXT VALUE FOR is invoked on the generator again, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an exception.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following statement creates a sequence generator of type INT, with a start value of -2147483648 (the smallest INT value).</mrk><mrk mid="1" mtype="seg"> The value increases by 1, and the last legal value is the largest possible INT.</mrk><mrk mid="2" mtype="seg"> If NEXT VALUE FOR is invoked on the generator again, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an exception.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE SEQUENCE order_id;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE SEQUENCE order_id;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE SEQUENCE order_id;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">The following statement creates a sequence of type BIGINT with a start value of 3,000,000,000. The value increases by 1, and the last legal value is the largest possible BIGINT. If NEXT VALUE FOR is invoked on the generator again, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an exception.</source>
+<seg-source><mrk mid="0" mtype="seg">The following statement creates a sequence of type BIGINT with a start value of 3,000,000,000.</mrk><mrk mid="1" mtype="seg"> The value increases by 1, and the last legal value is the largest possible BIGINT.</mrk><mrk mid="2" mtype="seg"> If NEXT VALUE FOR is invoked on the generator again, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an exception.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following statement creates a sequence of type BIGINT with a start value of 3,000,000,000.</mrk><mrk mid="1" mtype="seg"> The value increases by 1, and the last legal value is the largest possible BIGINT.</mrk><mrk mid="2" mtype="seg"> If NEXT VALUE FOR is invoked on the generator again, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an exception.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE SEQUENCE order_entry_id AS BIGINT START WITH 3000000000;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE SEQUENCE order_entry_id AS BIGINT START WITH 3000000000;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE SEQUENCE order_entry_id AS BIGINT START WITH 3000000000;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

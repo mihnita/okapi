@@ -1,0 +1,153 @@
+zh-CN:
+  active_admin:
+    access_denied:
+      message: 
+    any: 任何
+    batch_actions:
+      action_label: ! '%{title} 被选中'
+      button_label: 批处理
+      delete_confirmation: 你确定要删除所有%{plural_model}? 如果执行，将不可恢复.
+      labels:
+        destroy: 删除
+      link: 新建一个
+      selection_toggle_explanation: (切换选择)
+      succesfully_destroyed:
+        one: 成功删除 1 %{model}
+        other: 成功删除 %{count} %{plural_model}
+    blank_slate:
+      content: 暂时还没有%{resource_name}.
+      entry: 
+      link: 新建一个
+    cancel: 取消
+    clear_filters: 
+    comments:
+      add: 添加评论
+      author: 作者
+      author_type: 
+      body: 内容
+      errors:
+        empty_text: 评论保存失败，内空不能为空.
+      no_comments_yet: 暂时没有评论
+      resource: 资源
+      resource_type: 
+      title: 评论
+      title_content: (%{count})条评论
+    contains: 
+    create_model: 新建%{model}
+    dashboard: 控制面板
+    dashboard_welcome:
+      call_to_action: 若要添加新的面板内容, 请修改 'app/admin/dashboard.rb'
+      welcome: 欢迎使用Active Admin. 这是默认的控制面板页.
+    delete: 删除
+    delete_confirmation: 确定删除?
+    delete_model: 删除%{model}
+    details: ! '%{model}详情'
+    devise:
+      change_password:
+        submit: 更改我的密码
+        title: 更改您的密码
+      links:
+        forgot_your_password: 忘记密码？
+        sign_in: 登录
+        sign_in_with_omniauth_provider: 登入%{provider}
+      login:
+        remember_me: 记住我
+        submit: 登录
+        title: 登录
+      reset_password:
+        submit: 重置密码
+        title: 忘记密码？
+      unlock:
+        submit: 
+        title: 
+    download: ! '下载:'
+    edit: 编辑
+    edit_model: 编辑%{model}
+    empty: 清空
+    ends_with: 
+    equal_to: 
+    filter: 
+    filters:
+      buttons:
+        clear: 清除条件
+        filter: 过滤
+      predicates:
+        contains: 包含
+        ends_with: 完与
+        equals: 等于
+        greater_than: 大于
+        less_than: 小于
+        starts_with: 开头
+    greater_than: 
+    has_many_delete: 删除
+    has_many_new: 新建一个%{model}
+    has_many_remove: 清除
+    index_list:
+      block: 
+      blog: 
+      grid: 
+      table: 
+    less_than: 
+    logout: 退出
+    main_content: 请执行 %{model}#main_content 来显示内容.
+    new_model: 新建%{model}
+    next: 下一个
+    pagination:
+      empty: 暂时没有%{model}
+      entry:
+        one: 条目
+        other: 条目
+      multiple: 显示所有 <b>%{total}</b> %{model}中的<b>%{from}&nbsp;-&nbsp;%{to}</b> 条
+      one_page: 显示 <b>所有 %{n}</b> %{model}
+    powered_by: Powered by %{active_admin} %{version}
+    previous: 上一个
+    sidebars:
+      filters: 所有条件
+    starts_with: 
+    update_model: 编辑%{model}
+    view: 查看
+  activerecord:
+    attributes:
+      admin_user:
+        created_at: 
+        current_sign_in_at: 
+        current_sign_in_ip: 
+        email: 
+        encrypted_Password: 
+        id: 
+        last_sign_in_at: 
+        last_sign_in_ip: 
+        remember_created_at: 
+        reset_password_sent_at: 
+        reset_password_token: 
+        sign_in_count: 
+        updated_at: 
+    models:
+      admin_user: 
+  devise:
+    failure:
+      admin_user:
+        invalid: 
+        unauthenticated: 
+    sessions:
+      admin_user:
+        signed_in: 
+  formtastic:
+    actions:
+      create: 
+      update: 
+    cancel: 
+    create: 
+    'false': 
+    required: 
+    reset: 
+    submit: 
+    'true': 
+    update: 
+  views:
+    pagination:
+      first: 
+      last: 
+      next: 
+      previous: 
+      truncate: 

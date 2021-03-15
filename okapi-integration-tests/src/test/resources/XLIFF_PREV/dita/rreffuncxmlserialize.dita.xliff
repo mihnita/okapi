@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rreffuncxmlserialize.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">XMLSERIALIZE operator</source>
+<seg-source><mrk mid="0" mtype="seg">XMLSERIALIZE operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XMLSERIALIZE operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">XMLSERIALIZE is a SQL/XML operator that you can use to convert an XML type to a character type. There is no other way to convert the type of a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> XML value.</source>
+<seg-source><mrk mid="0" mtype="seg">XMLSERIALIZE is a SQL/XML operator that you can use to convert an XML type to a character type.</mrk><mrk mid="1" mtype="seg"> There is no other way to convert the type of a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> XML value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XMLSERIALIZE is a SQL/XML operator that you can use to convert an XML type to a character type.</mrk><mrk mid="1" mtype="seg"> There is no other way to convert the type of a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> XML value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">XMLSERIALIZE operator</source>
+<seg-source><mrk mid="0" mtype="seg">XMLSERIALIZE operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XMLSERIALIZE operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">operators</source>
+<seg-source><mrk mid="0" mtype="seg">operators</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">operators</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">XMLSERIALIZE</source>
+<seg-source><mrk mid="0" mtype="seg">XMLSERIALIZE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XMLSERIALIZE</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">XML</source>
+<seg-source><mrk mid="0" mtype="seg">XML</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XML</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">operators, XMLSERIALIZE</source>
+<seg-source><mrk mid="0" mtype="seg">operators, XMLSERIALIZE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">operators, XMLSERIALIZE</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Serialization is performed based on the SQL/XML serialization rules. These rules, combined with the fact that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports only a subset of the XMLSERIALIZE syntax, dictate that the results of an XMLSERIALIZE operation are not guaranteed to be in-tact copies of the original XML text. For example, assume that <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>[xString]<ept id="2">&lt;/codeph&gt;</ept> is a textual representation of a well-formed XML document. You issue the following statements:</source>
+<seg-source><mrk mid="0" mtype="seg">Serialization is performed based on the SQL/XML serialization rules.</mrk><mrk mid="1" mtype="seg"> These rules, combined with the fact that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports only a subset of the XMLSERIALIZE syntax, dictate that the results of an XMLSERIALIZE operation are not guaranteed to be in-tact copies of the original XML text.</mrk><mrk mid="2" mtype="seg"> For example, assume that <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>[xString]<ept id="2">&lt;/codeph&gt;</ept> is a textual representation of a well-formed XML document.</mrk><mrk mid="3" mtype="seg"> You issue the following statements:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Serialization is performed based on the SQL/XML serialization rules.</mrk><mrk mid="1" mtype="seg"> These rules, combined with the fact that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports only a subset of the XMLSERIALIZE syntax, dictate that the results of an XMLSERIALIZE operation are not guaranteed to be in-tact copies of the original XML text.</mrk><mrk mid="2" mtype="seg"> For example, assume that <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>[xString]<ept id="2">&lt;/codeph&gt;</ept> is a textual representation of a well-formed XML document.</mrk><mrk mid="3" mtype="seg"> You issue the following statements:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO x_table (id, xcol) VALUES (3, XMLPARSE(DOCUMENT '[xString]' PRESERVE WHITESPACE)); SELECT id, XMLSERIALIZE(xcol AS VARCHAR(100)) FROM x_table WHERE id = 3;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO x_table (id, xcol) VALUES (3, XMLPARSE(DOCUMENT '[xString]' PRESERVE WHITESPACE)); SELECT id, XMLSERIALIZE(xcol AS VARCHAR(100)) FROM x_table WHERE id = 3;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO x_table (id, xcol) VALUES (3, XMLPARSE(DOCUMENT '[xString]' PRESERVE WHITESPACE)); SELECT id, XMLSERIALIZE(xcol AS VARCHAR(100)) FROM x_table WHERE id = 3;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">There is no guarantee that the result of the XMLSERIALIZE operator will be identical to the original <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>[xString]<ept id="1">&lt;/codeph&gt;</ept> representation. Certain transformations can occur as part of XMLSERIALIZE processing, and those transformations are defined in the SQL/XML specification. In some cases the result of XMLSERIALIZE might actually be the same as the original textual representation, but that is not guaranteed.</source>
+<seg-source><mrk mid="0" mtype="seg">There is no guarantee that the result of the XMLSERIALIZE operator will be identical to the original <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>[xString]<ept id="1">&lt;/codeph&gt;</ept> representation.</mrk><mrk mid="1" mtype="seg"> Certain transformations can occur as part of XMLSERIALIZE processing, and those transformations are defined in the SQL/XML specification.</mrk><mrk mid="2" mtype="seg"> In some cases the result of XMLSERIALIZE might actually be the same as the original textual representation, but that is not guaranteed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There is no guarantee that the result of the XMLSERIALIZE operator will be identical to the original <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>[xString]<ept id="1">&lt;/codeph&gt;</ept> representation.</mrk><mrk mid="1" mtype="seg"> Certain transformations can occur as part of XMLSERIALIZE processing, and those transformations are defined in the SQL/XML specification.</mrk><mrk mid="2" mtype="seg"> In some cases the result of XMLSERIALIZE might actually be the same as the original textual representation, but that is not guaranteed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">When an XMLSERIALIZE operator is specified as part of the top-level result set for a query, the result can be accessed from JDBC by using whatever JDBC getXXX methods are allowed on the <bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>stringDataType<ept id="1">&lt;/varname&gt;</ept> argument that is included in the XMLSERIALIZE syntax. If you attempt to select the contents of an XML value from a top-level result set without using the XMLSERIALIZE operator, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> throws an error. <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> does not implicitly serialize XML values.</source>
+<seg-source><mrk mid="0" mtype="seg">When an XMLSERIALIZE operator is specified as part of the top-level result set for a query, the result can be accessed from JDBC by using whatever JDBC getXXX methods are allowed on the <bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>stringDataType<ept id="1">&lt;/varname&gt;</ept> argument that is included in the XMLSERIALIZE syntax.</mrk><mrk mid="1" mtype="seg"> If you attempt to select the contents of an XML value from a top-level result set without using the XMLSERIALIZE operator, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> throws an error.</mrk><mrk mid="2" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> does not implicitly serialize XML values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When an XMLSERIALIZE operator is specified as part of the top-level result set for a query, the result can be accessed from JDBC by using whatever JDBC getXXX methods are allowed on the <bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>stringDataType<ept id="1">&lt;/varname&gt;</ept> argument that is included in the XMLSERIALIZE syntax.</mrk><mrk mid="1" mtype="seg"> If you attempt to select the contents of an XML value from a top-level result set without using the XMLSERIALIZE operator, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> throws an error.</mrk><mrk mid="2" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> does not implicitly serialize XML values.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>XMLSERIALIZE ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="2">&lt;/varname&gt;</ept> AS <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>stringDataType<ept id="3">&lt;/varname&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>XMLSERIALIZE ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="2">&lt;/varname&gt;</ept> AS <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>stringDataType<ept id="3">&lt;/varname&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>XMLSERIALIZE ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="2">&lt;/varname&gt;</ept> AS <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>stringDataType<ept id="3">&lt;/varname&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="1">&lt;/varname&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="1">&lt;/varname&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="1">&lt;/varname&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Can be any <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> XML value, including an XML result sequence generated by the XMLQUERY operator. The <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="2">&lt;/varname&gt;</ept> argument cannot be a parameter.</source>
+<seg-source><mrk mid="0" mtype="seg">Can be any <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> XML value, including an XML result sequence generated by the XMLQUERY operator.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="2">&lt;/varname&gt;</ept> argument cannot be a parameter.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Can be any <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> XML value, including an XML result sequence generated by the XMLQUERY operator.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="2">&lt;/varname&gt;</ept> argument cannot be a parameter.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>stringDataType<ept id="1">&lt;/varname&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>stringDataType<ept id="1">&lt;/varname&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>stringDataType<ept id="1">&lt;/varname&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Must be a SQL character string type, such as CHAR, VARCHAR, LONG VARCHAR, or CLOB. If you specify a type that is not a valid character string type, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an error.</source>
+<seg-source><mrk mid="0" mtype="seg">Must be a SQL character string type, such as CHAR, VARCHAR, LONG VARCHAR, or CLOB.</mrk><mrk mid="1" mtype="seg"> If you specify a type that is not a valid character string type, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Must be a SQL character string type, such as CHAR, VARCHAR, LONG VARCHAR, or CLOB.</mrk><mrk mid="1" mtype="seg"> If you specify a type that is not a valid character string type, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">In the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>x_table<ept id="1">&lt;/codeph&gt;</ept> table, to display the contents of the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>xcol<ept id="2">&lt;/codeph&gt;</ept> XML column, use this statement:</source>
+<seg-source><mrk mid="0" mtype="seg">In the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>x_table<ept id="1">&lt;/codeph&gt;</ept> table, to display the contents of the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>xcol<ept id="2">&lt;/codeph&gt;</ept> XML column, use this statement:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>x_table<ept id="1">&lt;/codeph&gt;</ept> table, to display the contents of the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>xcol<ept id="2">&lt;/codeph&gt;</ept> XML column, use this statement:</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT ID, XMLSERIALIZE(xcol AS CLOB) FROM x_table<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT ID, XMLSERIALIZE(xcol AS CLOB) FROM x_table<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT ID, XMLSERIALIZE(xcol AS CLOB) FROM x_table<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">To retrieve the results from JDBC, you can use the JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getCharacterStream()<ept id="1">&lt;/i&gt;</ept> or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getString()<ept id="2">&lt;/i&gt;</ept> method.</source>
+<seg-source><mrk mid="0" mtype="seg">To retrieve the results from JDBC, you can use the JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getCharacterStream()<ept id="1">&lt;/i&gt;</ept> or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getString()<ept id="2">&lt;/i&gt;</ept> method.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To retrieve the results from JDBC, you can use the JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getCharacterStream()<ept id="1">&lt;/i&gt;</ept> or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getString()<ept id="2">&lt;/i&gt;</ept> method.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">To display the results of an XMLQUERY operation, use the following statement:</source>
+<seg-source><mrk mid="0" mtype="seg">To display the results of an XMLQUERY operation, use the following statement:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To display the results of an XMLQUERY operation, use the following statement:</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT ID, XMLSERIALIZE( XMLQUERY('//student[@age&gt;20]' PASSING BY REF xcol EMPTY ON EMPTY) AS VARCHAR(50)) FROM x_table<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT ID, XMLSERIALIZE( XMLQUERY('//student[@age&gt;20]' PASSING BY REF xcol EMPTY ON EMPTY) AS VARCHAR(50)) FROM x_table<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT ID, XMLSERIALIZE( XMLQUERY('//student[@age&gt;20]' PASSING BY REF xcol EMPTY ON EMPTY) AS VARCHAR(50)) FROM x_table<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Usage note</source>
+<seg-source><mrk mid="0" mtype="seg">Usage note</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Usage note</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> requires that a JAXP parser (such as Apache Xerces) and Apache Xalan are listed in the Java classpath for the XML functions to work. If either the JAXP parser or Xalan is missing from the classpath, attempts to use the XMLSERIALIZE operator will result in an error. In some situations, you may need to take steps to place the parser and Xalan in your classpath. See "XML data types and operators" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> requires that a JAXP parser (such as Apache Xerces) and Apache Xalan are listed in the Java classpath for the XML functions to work.</mrk><mrk mid="1" mtype="seg"> If either the JAXP parser or Xalan is missing from the classpath, attempts to use the XMLSERIALIZE operator will result in an error.</mrk><mrk mid="2" mtype="seg"> In some situations, you may need to take steps to place the parser and Xalan in your classpath.</mrk><mrk mid="3" mtype="seg"> See "XML data types and operators" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> requires that a JAXP parser (such as Apache Xerces) and Apache Xalan are listed in the Java classpath for the XML functions to work.</mrk><mrk mid="1" mtype="seg"> If either the JAXP parser or Xalan is missing from the classpath, attempts to use the XMLSERIALIZE operator will result in an error.</mrk><mrk mid="2" mtype="seg"> In some situations, you may need to take steps to place the parser and Xalan in your classpath.</mrk><mrk mid="3" mtype="seg"> See "XML data types and operators" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefattrib16471.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">shutdown=true attribute</source>
+<seg-source><mrk mid="0" mtype="seg">shutdown=true attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shutdown=true attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">shutdown=true database connection URL attribute</source>
+<seg-source><mrk mid="0" mtype="seg">shutdown=true database connection URL attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shutdown=true database connection URL attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Shuts down the specified database if you specify a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="1">&lt;/i&gt;</ept>. (Reconnecting to the database reboots the database.) For a database for which authentication and SQL authorization are both enabled, only the <bpt id="2" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="2">&lt;/xref&gt;</ept> can perform shutdown of that database. Please see "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">Shuts down the specified database if you specify a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> (Reconnecting to the database reboots the database.) For a database for which authentication and SQL authorization are both enabled, only the <bpt id="2" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="2">&lt;/xref&gt;</ept> can perform shutdown of that database.</mrk><mrk mid="2" mtype="seg"> Please see "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shuts down the specified database if you specify a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> (Reconnecting to the database reboots the database.) For a database for which authentication and SQL authorization are both enabled, only the <bpt id="2" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="2">&lt;/xref&gt;</ept> can perform shutdown of that database.</mrk><mrk mid="2" mtype="seg"> Please see "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Shuts down the entire <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system if and only if you do not specify a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Shuts down the entire <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system if and only if you do not specify a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shuts down the entire <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system if and only if you do not specify a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">When you are shutting down a single database, it lets <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> perform a final checkpoint on the database.</source>
+<seg-source><mrk mid="0" mtype="seg">When you are shutting down a single database, it lets <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> perform a final checkpoint on the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you are shutting down a single database, it lets <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> perform a final checkpoint on the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">When you are shutting down a system, it lets <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> perform a final checkpoint on all system databases, deregister the JDBC driver (if permitted; see <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefattribderegister.dita#rrefattribderegister"&gt;</bpt>deregister=false<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept>), and shut down within the JVM before the JVM exits. A successful shutdown always results in an <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="4">&lt;/i&gt;</ept> indicating that <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> has shut down and that there is no connection. Once <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> is shut down, you can restart it by reloading the driver. For details on restarting <bpt id="7" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="7">&lt;/ph&gt;</ept>, see "Shutting down the system" in the <bpt id="8" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="9" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="9">&lt;/ph&gt;</ept><ept id="8">&lt;/cite&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">When you are shutting down a system, it lets <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> perform a final checkpoint on all system databases, deregister the JDBC driver (if permitted; see <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefattribderegister.dita#rrefattribderegister"&gt;</bpt>deregister=false<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept>), and shut down within the JVM before the JVM exits.</mrk><mrk mid="1" mtype="seg"> A successful shutdown always results in an <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="4">&lt;/i&gt;</ept> indicating that <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> has shut down and that there is no connection.</mrk><mrk mid="2" mtype="seg"> Once <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> is shut down, you can restart it by reloading the driver.</mrk><mrk mid="3" mtype="seg"> For details on restarting <bpt id="7" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="7">&lt;/ph&gt;</ept>, see "Shutting down the system" in the <bpt id="8" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="9" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="9">&lt;/ph&gt;</ept><ept id="8">&lt;/cite&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you are shutting down a system, it lets <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> perform a final checkpoint on all system databases, deregister the JDBC driver (if permitted; see <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefattribderegister.dita#rrefattribderegister"&gt;</bpt>deregister=false<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept>), and shut down within the JVM before the JVM exits.</mrk><mrk mid="1" mtype="seg"> A successful shutdown always results in an <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="4">&lt;/i&gt;</ept> indicating that <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> has shut down and that there is no connection.</mrk><mrk mid="2" mtype="seg"> Once <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> is shut down, you can restart it by reloading the driver.</mrk><mrk mid="3" mtype="seg"> For details on restarting <bpt id="7" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="7">&lt;/ph&gt;</ept>, see "Shutting down the system" in the <bpt id="8" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="9" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="9">&lt;/ph&gt;</ept><ept id="8">&lt;/cite&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Checkpointing<ept id="1">&lt;/i&gt;</ept> means writing all data and transaction information to disk so that no recovery needs to be performed at the next connection.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Checkpointing<ept id="1">&lt;/i&gt;</ept> means writing all data and transaction information to disk so that no recovery needs to be performed at the next connection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Checkpointing<ept id="1">&lt;/i&gt;</ept> means writing all data and transaction information to disk so that no recovery needs to be performed at the next connection.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Used to shut down the entire system only when it is embedded in an application.</source>
+<seg-source><mrk mid="0" mtype="seg">Used to shut down the entire system only when it is embedded in an application.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Used to shut down the entire system only when it is embedded in an application.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Any request to the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager<ept id="1">&lt;/i&gt;</ept> with a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>shutdown=true<ept id="2">&lt;/i&gt;</ept> attribute raises an exception.</source>
+<seg-source><mrk mid="0" mtype="seg">Any request to the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager<ept id="1">&lt;/i&gt;</ept> with a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>shutdown=true<ept id="2">&lt;/i&gt;</ept> attribute raises an exception.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Any request to the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager<ept id="1">&lt;/i&gt;</ept> with a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>shutdown=true<ept id="2">&lt;/i&gt;</ept> attribute raises an exception.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Combining with other attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Combining with other attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Combining with other attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">This attribute may be combined with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefattribderegister.dita#rrefattribderegister"&gt;</bpt>deregister=false<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> attribute.</source>
+<seg-source><mrk mid="0" mtype="seg">This attribute may be combined with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefattribderegister.dita#rrefattribderegister"&gt;</bpt>deregister=false<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> attribute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This attribute may be combined with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefattribderegister.dita#rrefattribderegister"&gt;</bpt>deregister=false<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> attribute.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">When you shut down a database, if authentication is turned on, you must specify this attribute in conjunction with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefattrib10035.dita#rrefattrib10035"&gt;</bpt>user=userName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref
+href="rrefattrib42686.dita#rrefattrib42686"&gt;</bpt>password=userPassword<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> attributes. If both authentication and SQL authorization are turned on, the user must be the database owner.</source>
+<seg-source><mrk mid="0" mtype="seg">When you shut down a database, if authentication is turned on, you must specify this attribute in conjunction with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefattrib10035.dita#rrefattrib10035"&gt;</bpt>user=userName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref
+href="rrefattrib42686.dita#rrefattrib42686"&gt;</bpt>password=userPassword<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> attributes.</mrk><mrk mid="1" mtype="seg"> If both authentication and SQL authorization are turned on, the user must be the database owner.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you shut down a database, if authentication is turned on, you must specify this attribute in conjunction with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefattrib10035.dita#rrefattrib10035"&gt;</bpt>user=userName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref
+href="rrefattrib42686.dita#rrefattrib42686"&gt;</bpt>password=userPassword<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> attributes.</mrk><mrk mid="1" mtype="seg"> If both authentication and SQL authorization are turned on, the user must be the database owner.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">When you shut down the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, if both authentication and SQL authorization are turned on, you must specify this attribute in conjunction with the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefattrib10035.dita#rrefattrib10035"&gt;</bpt>user=userName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefattrib42686.dita#rrefattrib42686"&gt;</bpt>password=userPassword<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> attributes.</source>
+<seg-source><mrk mid="0" mtype="seg">When you shut down the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, if both authentication and SQL authorization are turned on, you must specify this attribute in conjunction with the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefattrib10035.dita#rrefattrib10035"&gt;</bpt>user=userName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefattrib42686.dita#rrefattrib42686"&gt;</bpt>password=userPassword<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> attributes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you shut down the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, if both authentication and SQL authorization are turned on, you must specify this attribute in conjunction with the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefattrib10035.dita#rrefattrib10035"&gt;</bpt>user=userName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefattrib42686.dita#rrefattrib42686"&gt;</bpt>password=userPassword<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> attributes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- shut down entire system<ept id="2">&lt;/ph&gt;</ept> jdbc:derby:;shutdown=true <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- shut down salesDB (authentication not enabled)<ept id="3">&lt;/ph&gt;</ept> jdbc:derby:salesDB;shutdown=true <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- shut down an in-memory database using the embedded driver<ept id="4">&lt;/ph&gt;</ept> jdbc:derby:memory:myInMemDB;shutdown=true <bpt id="5" ctype="x-ph">&lt;ph&gt;</bpt>-- shut down an in-memory database using the Network Server<ept id="5">&lt;/ph&gt;</ept> jdbc:derby://localhost:1527/memory:myInMemDB;shutdown=true<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- shut down entire system<ept id="2">&lt;/ph&gt;</ept> jdbc:derby:;shutdown=true <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- shut down salesDB (authentication not enabled)<ept id="3">&lt;/ph&gt;</ept> jdbc:derby:salesDB;shutdown=true <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- shut down an in-memory database using the embedded driver<ept id="4">&lt;/ph&gt;</ept> jdbc:derby:memory:myInMemDB;shutdown=true <bpt id="5" ctype="x-ph">&lt;ph&gt;</bpt>-- shut down an in-memory database using the Network Server<ept id="5">&lt;/ph&gt;</ept> jdbc:derby://localhost:1527/memory:myInMemDB;shutdown=true<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- shut down entire system<ept id="2">&lt;/ph&gt;</ept> jdbc:derby:;shutdown=true <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- shut down salesDB (authentication not enabled)<ept id="3">&lt;/ph&gt;</ept> jdbc:derby:salesDB;shutdown=true <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- shut down an in-memory database using the embedded driver<ept id="4">&lt;/ph&gt;</ept> jdbc:derby:memory:myInMemDB;shutdown=true <bpt id="5" ctype="x-ph">&lt;ph&gt;</bpt>-- shut down an in-memory database using the Network Server<ept id="5">&lt;/ph&gt;</ept> jdbc:derby://localhost:1527/memory:myInMemDB;shutdown=true<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

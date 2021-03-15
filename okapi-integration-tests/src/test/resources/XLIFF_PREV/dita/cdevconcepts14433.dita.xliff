@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts14433.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Statement versus transaction runtime rollback</source>
+<seg-source><mrk mid="0" mtype="seg">Statement versus transaction runtime rollback</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Statement versus transaction runtime rollback</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">When an SQL statement generates an exception, this exception results in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>runtime rollback<ept id="1">&lt;/i&gt;</ept>. A runtime rollback is a system-generated rollback of a statement or transaction by <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, as opposed to an explicit <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>rollback<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> call from your application.</source>
+<seg-source><mrk mid="0" mtype="seg">When an SQL statement generates an exception, this exception results in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>runtime rollback<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> A runtime rollback is a system-generated rollback of a statement or transaction by <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, as opposed to an explicit <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>rollback<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> call from your application.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When an SQL statement generates an exception, this exception results in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>runtime rollback<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> A runtime rollback is a system-generated rollback of a statement or transaction by <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, as opposed to an explicit <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>rollback<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> call from your application.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Rollback</source>
+<seg-source><mrk mid="0" mtype="seg">Rollback</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Rollback</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">implicit versus explicit</source>
+<seg-source><mrk mid="0" mtype="seg">implicit versus explicit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">implicit versus explicit</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Extremely severe exceptions, such as disk-full errors, shut down the system, and the transaction is rolled back when the database is next booted. Severe exceptions, such as deadlock, cause transaction rollback; <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> rolls back all changes since the beginning of the transaction and implicitly begins a new transaction. Less severe exceptions, such as syntax errors, result in statement rollback; <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> rolls back only changes made by the statement that caused the error. The application developer can insert code to explicitly roll back the entire transaction if desired.</source>
+<seg-source><mrk mid="0" mtype="seg">Extremely severe exceptions, such as disk-full errors, shut down the system, and the transaction is rolled back when the database is next booted.</mrk><mrk mid="1" mtype="seg"> Severe exceptions, such as deadlock, cause transaction rollback; <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> rolls back all changes since the beginning of the transaction and implicitly begins a new transaction.</mrk><mrk mid="2" mtype="seg"> Less severe exceptions, such as syntax errors, result in statement rollback; <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> rolls back only changes made by the statement that caused the error.</mrk><mrk mid="3" mtype="seg"> The application developer can insert code to explicitly roll back the entire transaction if desired.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Extremely severe exceptions, such as disk-full errors, shut down the system, and the transaction is rolled back when the database is next booted.</mrk><mrk mid="1" mtype="seg"> Severe exceptions, such as deadlock, cause transaction rollback; <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> rolls back all changes since the beginning of the transaction and implicitly begins a new transaction.</mrk><mrk mid="2" mtype="seg"> Less severe exceptions, such as syntax errors, result in statement rollback; <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> rolls back only changes made by the statement that caused the error.</mrk><mrk mid="3" mtype="seg"> The application developer can insert code to explicitly roll back the entire transaction if desired.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports partial rollback through the use of savepoints. See <bpt id="2" ctype="x-xref">&lt;xref href="cdevconceptssavepoints.dita#cdevconceptssavepoints"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports partial rollback through the use of savepoints.</mrk><mrk mid="1" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="cdevconceptssavepoints.dita#cdevconceptssavepoints"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports partial rollback through the use of savepoints.</mrk><mrk mid="1" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="cdevconceptssavepoints.dita#cdevconceptssavepoints"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure866060.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Setting the SQL standard authorization mode</source>
+<seg-source><mrk mid="0" mtype="seg">Setting the SQL standard authorization mode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Setting the SQL standard authorization mode</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">If you use NATIVE authentication, SQL standard authorization is automatically enabled. Otherwise, use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property to enable SQL standard authorization.</source>
+<seg-source><mrk mid="0" mtype="seg">If you use NATIVE authentication, SQL standard authorization is automatically enabled.</mrk><mrk mid="1" mtype="seg"> Otherwise, use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property to enable SQL standard authorization.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you use NATIVE authentication, SQL standard authorization is automatically enabled.</mrk><mrk mid="1" mtype="seg"> Otherwise, use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property to enable SQL standard authorization.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">databases</source>
+<seg-source><mrk mid="0" mtype="seg">databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SQL standard authorization, setting</source>
+<seg-source><mrk mid="0" mtype="seg">SQL standard authorization, setting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL standard authorization, setting</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">derby.database.sqlAuthorization property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.database.sqlAuthorization property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.database.sqlAuthorization property</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">properties</source>
+<seg-source><mrk mid="0" mtype="seg">properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">derby.database.sqlAuthorization</source>
+<seg-source><mrk mid="0" mtype="seg">derby.database.sqlAuthorization</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.database.sqlAuthorization</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If SQL standard authorization mode is enabled, object owners can grant and revoke permission for other users to perform actions on database objects. SQL standard authorization mode also controls users' ability to create, set, and drop roles.</source>
+<seg-source><mrk mid="0" mtype="seg">If SQL standard authorization mode is enabled, object owners can grant and revoke permission for other users to perform actions on database objects.</mrk><mrk mid="1" mtype="seg"> SQL standard authorization mode also controls users' ability to create, set, and drop roles.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If SQL standard authorization mode is enabled, object owners can grant and revoke permission for other users to perform actions on database objects.</mrk><mrk mid="1" mtype="seg"> SQL standard authorization mode also controls users' ability to create, set, and drop roles.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The valid settings for the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property are:</source>
+<seg-source><mrk mid="0" mtype="seg">The valid settings for the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The valid settings for the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>TRUE<ept id="1">&lt;/varname&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>TRUE<ept id="1">&lt;/varname&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>TRUE<ept id="1">&lt;/varname&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>FALSE<ept id="1">&lt;/varname&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>FALSE<ept id="1">&lt;/varname&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>FALSE<ept id="1">&lt;/varname&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The default setting for the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property is <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>FALSE<ept id="2">&lt;/varname&gt;</ept>, unless NATIVE authentication is enabled.</source>
+<seg-source><mrk mid="0" mtype="seg">The default setting for the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property is <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>FALSE<ept id="2">&lt;/varname&gt;</ept>, unless NATIVE authentication is enabled.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default setting for the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property is <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>FALSE<ept id="2">&lt;/varname&gt;</ept>, unless NATIVE authentication is enabled.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property is usable only if the property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.connection.requireAuthentication<ept id="2">&lt;/codeph&gt;</ept> is also set to true, since SQL authorization is of no value unless authentication is also enabled. (With NATIVE authentication, both are enabled automatically.)</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property is usable only if the property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.connection.requireAuthentication<ept id="2">&lt;/codeph&gt;</ept> is also set to true, since SQL authorization is of no value unless authentication is also enabled.</mrk><mrk mid="1" mtype="seg"> (With NATIVE authentication, both are enabled automatically.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property is usable only if the property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.connection.requireAuthentication<ept id="2">&lt;/codeph&gt;</ept> is also set to true, since SQL authorization is of no value unless authentication is also enabled.</mrk><mrk mid="1" mtype="seg"> (With NATIVE authentication, both are enabled automatically.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">After you set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property to <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>TRUE<ept id="2">&lt;/varname&gt;</ept>, you cannot set the property back to <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>FALSE<ept id="3">&lt;/varname&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">After you set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property to <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>TRUE<ept id="2">&lt;/varname&gt;</ept>, you cannot set the property back to <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>FALSE<ept id="3">&lt;/varname&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After you set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property to <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>TRUE<ept id="2">&lt;/varname&gt;</ept>, you cannot set the property back to <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>FALSE<ept id="3">&lt;/varname&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">You can set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property as a system property or as a database property. If you set this property as a system property before you create the databases, all new databases will automatically have SQL authorization enabled. If the databases already exist, you can set this property only as a database property.</source>
+<seg-source><mrk mid="0" mtype="seg">You can set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property as a system property or as a database property.</mrk><mrk mid="1" mtype="seg"> If you set this property as a system property before you create the databases, all new databases will automatically have SQL authorization enabled.</mrk><mrk mid="2" mtype="seg"> If the databases already exist, you can set this property only as a database property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property as a system property or as a database property.</mrk><mrk mid="1" mtype="seg"> If you set this property as a system property before you create the databases, all new databases will automatically have SQL authorization enabled.</mrk><mrk mid="2" mtype="seg"> If the databases already exist, you can set this property only as a database property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">To enable SQL standard authorization for the entire system, set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property as a system property:</source>
+<seg-source><mrk mid="0" mtype="seg">To enable SQL standard authorization for the entire system, set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property as a system property:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To enable SQL standard authorization for the entire system, set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property as a system property:</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.database.sqlAuthorization=true<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.database.sqlAuthorization=true<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.database.sqlAuthorization=true<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">To enable SQL standard authorization for a specific database, set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property as a database property:</source>
+<seg-source><mrk mid="0" mtype="seg">To enable SQL standard authorization for a specific database, set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property as a database property:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To enable SQL standard authorization for a specific database, set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> property as a database property:</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.sqlAuthorization', 'true')</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.sqlAuthorization', 'true')</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.sqlAuthorization', 'true')</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

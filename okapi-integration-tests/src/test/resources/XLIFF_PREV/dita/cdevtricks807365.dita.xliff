@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevtricks807365.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Mapping column values to return values</source>
+<seg-source><mrk mid="0" mtype="seg">Mapping column values to return values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mapping column values to return values</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Multiple-row VALUES tables are useful in mapping column values to desired return values in queries.</source>
+<seg-source><mrk mid="0" mtype="seg">Multiple-row VALUES tables are useful in mapping column values to desired return values in queries.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multiple-row VALUES tables are useful in mapping column values to desired return values in queries.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Mapping column values to return values</source>
+<seg-source><mrk mid="0" mtype="seg">Mapping column values to return values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mapping column values to return values</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- get the names of all departments in Ohio<ept id="1">&lt;/b&gt;</ept>SELECT DeptName FROM Depts, (VALUES (1, 'Shoe'), (2, 'Laces'), (4, 'Polish')) AS DeptMap(DeptCode,DeptDesc) WHERE Depts.DeptCode = DeptMap.DeptCode AND Depts.DeptLocn LIKE '%Ohio%'</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- get the names of all departments in Ohio<ept id="1">&lt;/b&gt;</ept>SELECT DeptName FROM Depts, (VALUES (1, 'Shoe'), (2, 'Laces'), (4, 'Polish')) AS DeptMap(DeptCode,DeptDesc) WHERE Depts.DeptCode = DeptMap.DeptCode AND Depts.DeptLocn LIKE '%Ohio%'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- get the names of all departments in Ohio<ept id="1">&lt;/b&gt;</ept>SELECT DeptName FROM Depts, (VALUES (1, 'Shoe'), (2, 'Laces'), (4, 'Polish')) AS DeptMap(DeptCode,DeptDesc) WHERE Depts.DeptCode = DeptMap.DeptCode AND Depts.DeptLocn LIKE '%Ohio%'</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">You might also find it useful to store values used often for mapping in a persistent table and then using that table in the query.</source>
+<seg-source><mrk mid="0" mtype="seg">You might also find it useful to store values used often for mapping in a persistent table and then using that table in the query.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You might also find it useful to store values used often for mapping in a persistent table and then using that table in the query.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

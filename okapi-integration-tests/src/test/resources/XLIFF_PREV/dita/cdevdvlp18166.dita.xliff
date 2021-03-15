@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdvlp18166.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Storage and recovery</source>
+<seg-source><mrk mid="0" mtype="seg">Storage and recovery</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Storage and recovery</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">A <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database (unless it is an in-memory database) provides persistent storage and recovery. <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> ensures that all committed transactions are durable, even if the system fails, through the use of a database transaction log.</source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database (unless it is an in-memory database) provides persistent storage and recovery.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> ensures that all committed transactions are durable, even if the system fails, through the use of a database transaction log.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database (unless it is an in-memory database) provides persistent storage and recovery.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> ensures that all committed transactions are durable, even if the system fails, through the use of a database transaction log.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Recovery</source>
+<seg-source><mrk mid="0" mtype="seg">Recovery</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Recovery</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Start-up</source>
+<seg-source><mrk mid="0" mtype="seg">Start-up</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start-up</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">description</source>
+<seg-source><mrk mid="0" mtype="seg">description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">description</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Shutdown</source>
+<seg-source><mrk mid="0" mtype="seg">Shutdown</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shutdown</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">description</source>
+<seg-source><mrk mid="0" mtype="seg">description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">description</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Whereas inserts, updates, and deletes may be cached before being written to disk, log entries tracking all those changes are never cached but always forced to disk when a transaction commits. If the system or operating system fails unexpectedly, when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> next starts up it can use the log to perform recovery, recovering the "lost" transactions from the log and rolling back uncommitted transactions. <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Recovery<ept id="2">&lt;/i&gt;</ept> ensures that all committed transactions at the time the system failed are applied to the database, and all transactions that were active are rolled back. Thus the databases are left in a consistent, valid state.</source>
+<seg-source><mrk mid="0" mtype="seg">Whereas inserts, updates, and deletes may be cached before being written to disk, log entries tracking all those changes are never cached but always forced to disk when a transaction commits.</mrk><mrk mid="1" mtype="seg"> If the system or operating system fails unexpectedly, when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> next starts up it can use the log to perform recovery, recovering the "lost" transactions from the log and rolling back uncommitted transactions.</mrk><mrk mid="2" mtype="seg"> <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Recovery<ept id="2">&lt;/i&gt;</ept> ensures that all committed transactions at the time the system failed are applied to the database, and all transactions that were active are rolled back.</mrk><mrk mid="3" mtype="seg"> Thus the databases are left in a consistent, valid state.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Whereas inserts, updates, and deletes may be cached before being written to disk, log entries tracking all those changes are never cached but always forced to disk when a transaction commits.</mrk><mrk mid="1" mtype="seg"> If the system or operating system fails unexpectedly, when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> next starts up it can use the log to perform recovery, recovering the "lost" transactions from the log and rolling back uncommitted transactions.</mrk><mrk mid="2" mtype="seg"> <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Recovery<ept id="2">&lt;/i&gt;</ept> ensures that all committed transactions at the time the system failed are applied to the database, and all transactions that were active are rolled back.</mrk><mrk mid="3" mtype="seg"> Thus the databases are left in a consistent, valid state.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">In normal operation, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> keeps the log small through periodic checkpoints. Checkpointing marks the portions of the log that are no longer useful, writes changed pages to disk, then truncates the log.</source>
+<seg-source><mrk mid="0" mtype="seg">In normal operation, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> keeps the log small through periodic checkpoints.</mrk><mrk mid="1" mtype="seg"> Checkpointing marks the portions of the log that are no longer useful, writes changed pages to disk, then truncates the log.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In normal operation, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> keeps the log small through periodic checkpoints.</mrk><mrk mid="1" mtype="seg"> Checkpointing marks the portions of the log that are no longer useful, writes changed pages to disk, then truncates the log.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checkpoints the log file as it fills. It also checkpoints the log when a shutdown command is issued. Shutting down the JVM in which <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> is running without issuing the proper shutdown command is equivalent to a system failure from <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>'s point of view.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checkpoints the log file as it fills.</mrk><mrk mid="1" mtype="seg"> It also checkpoints the log when a shutdown command is issued.</mrk><mrk mid="2" mtype="seg"> Shutting down the JVM in which <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> is running without issuing the proper shutdown command is equivalent to a system failure from <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>'s point of view.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checkpoints the log file as it fills.</mrk><mrk mid="1" mtype="seg"> It also checkpoints the log when a shutdown command is issued.</mrk><mrk mid="2" mtype="seg"> Shutting down the JVM in which <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> is running without issuing the proper shutdown command is equivalent to a system failure from <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>'s point of view.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Booting a database means that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks to see if recovery needs to be run on a database. Recovery can be costly, so using the proper shutdown command improves connection or startup performance.</source>
+<seg-source><mrk mid="0" mtype="seg">Booting a database means that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks to see if recovery needs to be run on a database.</mrk><mrk mid="1" mtype="seg"> Recovery can be costly, so using the proper shutdown command improves connection or startup performance.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Booting a database means that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks to see if recovery needs to be run on a database.</mrk><mrk mid="1" mtype="seg"> Recovery can be costly, so using the proper shutdown command improves connection or startup performance.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

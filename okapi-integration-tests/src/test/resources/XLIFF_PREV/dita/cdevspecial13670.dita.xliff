@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevspecial13670.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Examples of trigger actions</source>
+<seg-source><mrk mid="0" mtype="seg">Examples of trigger actions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples of trigger actions</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">This section provides some examples of triggers.</source>
+<seg-source><mrk mid="0" mtype="seg">This section provides some examples of triggers.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This section provides some examples of triggers.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Triggers</source>
+<seg-source><mrk mid="0" mtype="seg">Triggers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Triggers</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">example of trigger actions</source>
+<seg-source><mrk mid="0" mtype="seg">example of trigger actions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">example of trigger actions</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The following trigger action copies a row from the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>flights<ept id="1">&lt;/codeph&gt;</ept> table into the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>flight_history<ept id="2">&lt;/codeph&gt;</ept> table whenever any row gets inserted into <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>flights<ept id="3">&lt;/codeph&gt;</ept> and adds the comment "inserted from trig1" in the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>status<ept id="4">&lt;/codeph&gt;</ept> column of the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>flight_history<ept id="5">&lt;/codeph&gt;</ept> table.</source>
+<seg-source><mrk mid="0" mtype="seg">The following trigger action copies a row from the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>flights<ept id="1">&lt;/codeph&gt;</ept> table into the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>flight_history<ept id="2">&lt;/codeph&gt;</ept> table whenever any row gets inserted into <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>flights<ept id="3">&lt;/codeph&gt;</ept> and adds the comment "inserted from trig1" in the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>status<ept id="4">&lt;/codeph&gt;</ept> column of the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>flight_history<ept id="5">&lt;/codeph&gt;</ept> table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following trigger action copies a row from the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>flights<ept id="1">&lt;/codeph&gt;</ept> table into the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>flight_history<ept id="2">&lt;/codeph&gt;</ept> table whenever any row gets inserted into <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>flights<ept id="3">&lt;/codeph&gt;</ept> and adds the comment "inserted from trig1" in the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>status<ept id="4">&lt;/codeph&gt;</ept> column of the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>flight_history<ept id="5">&lt;/codeph&gt;</ept> table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TRIGGER trig1 AFTER UPDATE ON flights REFERENCING OLD AS UPDATEDROW FOR EACH ROW INSERT INTO flights_history VALUES (UPDATEDROW.FLIGHT_ID, UPDATEDROW.SEGMENT_NUMBER, UPDATEDROW.ORIG_AIRPORT, UPDATEDROW.DEPART_TIME, UPDATED ROW.DEST_AIRPORT, UPDATEDROW.ARRIVE_TIME, UPDATEDROW.MEAL, UPDATEDROW.FLYING_TIME, UPDATEDROW.MILES, UPDATEDROW.AIRCRAFT,'inserted from trig1');<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TRIGGER trig1 AFTER UPDATE ON flights REFERENCING OLD AS UPDATEDROW FOR EACH ROW INSERT INTO flights_history VALUES (UPDATEDROW.FLIGHT_ID, UPDATEDROW.SEGMENT_NUMBER, UPDATEDROW.ORIG_AIRPORT, UPDATEDROW.DEPART_TIME, UPDATED ROW.DEST_AIRPORT, UPDATEDROW.ARRIVE_TIME, UPDATEDROW.MEAL, UPDATEDROW.FLYING_TIME, UPDATEDROW.MILES, UPDATEDROW.AIRCRAFT,'inserted from trig1');<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TRIGGER trig1 AFTER UPDATE ON flights REFERENCING OLD AS UPDATEDROW FOR EACH ROW INSERT INTO flights_history VALUES (UPDATEDROW.FLIGHT_ID, UPDATEDROW.SEGMENT_NUMBER, UPDATEDROW.ORIG_AIRPORT, UPDATEDROW.DEPART_TIME, UPDATED ROW.DEST_AIRPORT, UPDATEDROW.ARRIVE_TIME, UPDATEDROW.MEAL, UPDATEDROW.FLYING_TIME, UPDATEDROW.MILES, UPDATEDROW.AIRCRAFT,'inserted from trig1');<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The following trigger action updates the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>FlightAvailability<ept id="1">&lt;/codeph&gt;</ept> table after an update of the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>flights<ept id="2">&lt;/codeph&gt;</ept> table by setting the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>flight_id<ept id="3">&lt;/codeph&gt;</ept> column to the value of the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>flight_id<ept id="4">&lt;/codeph&gt;</ept> column in the modified row. The update of the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>FlightAvailability<ept id="5">&lt;/codeph&gt;</ept> table happens only if the triggering update actually changed the value of FLIGHTS.FLIGHT_ID.</source>
+<seg-source><mrk mid="0" mtype="seg">The following trigger action updates the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>FlightAvailability<ept id="1">&lt;/codeph&gt;</ept> table after an update of the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>flights<ept id="2">&lt;/codeph&gt;</ept> table by setting the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>flight_id<ept id="3">&lt;/codeph&gt;</ept> column to the value of the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>flight_id<ept id="4">&lt;/codeph&gt;</ept> column in the modified row.</mrk><mrk mid="1" mtype="seg"> The update of the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>FlightAvailability<ept id="5">&lt;/codeph&gt;</ept> table happens only if the triggering update actually changed the value of FLIGHTS.FLIGHT_ID.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following trigger action updates the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>FlightAvailability<ept id="1">&lt;/codeph&gt;</ept> table after an update of the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>flights<ept id="2">&lt;/codeph&gt;</ept> table by setting the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>flight_id<ept id="3">&lt;/codeph&gt;</ept> column to the value of the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>flight_id<ept id="4">&lt;/codeph&gt;</ept> column in the modified row.</mrk><mrk mid="1" mtype="seg"> The update of the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>FlightAvailability<ept id="5">&lt;/codeph&gt;</ept> table happens only if the triggering update actually changed the value of FLIGHTS.FLIGHT_ID.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TRIGGER FLIGHTSUPDATE AFTER UPDATE ON flights REFERENCING OLD AS OLD NEW AS NEW FOR EACH ROW WHEN (OLD.FLIGHT_ID &lt;&gt; NEW.FLIGHT_ID) UPDATE FlightAvailability SET FLIGHT_ID = NEW.FLIGHT_ID WHERE FLIGHT_ID = OLD.FLIGHT_ID;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TRIGGER FLIGHTSUPDATE AFTER UPDATE ON flights REFERENCING OLD AS OLD NEW AS NEW FOR EACH ROW WHEN (OLD.FLIGHT_ID &lt;&gt; NEW.FLIGHT_ID) UPDATE FlightAvailability SET FLIGHT_ID = NEW.FLIGHT_ID WHERE FLIGHT_ID = OLD.FLIGHT_ID;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TRIGGER FLIGHTSUPDATE AFTER UPDATE ON flights REFERENCING OLD AS OLD NEW AS NEW FOR EACH ROW WHEN (OLD.FLIGHT_ID &lt;&gt; NEW.FLIGHT_ID) UPDATE FlightAvailability SET FLIGHT_ID = NEW.FLIGHT_ID WHERE FLIGHT_ID = OLD.FLIGHT_ID;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

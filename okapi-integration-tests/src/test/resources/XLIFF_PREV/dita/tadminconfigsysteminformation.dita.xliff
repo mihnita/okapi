@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminconfigsysteminformation.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Obtaining system information</source>
+<seg-source><mrk mid="0" mtype="seg">Obtaining system information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Obtaining system information</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You can obtain information about the Network Server, such as version and current property values, Java information, and <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database server information, by using the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sysinfo<ept id="2">&lt;/codeph&gt;</ept> utility.</source>
+<seg-source><mrk mid="0" mtype="seg">You can obtain information about the Network Server, such as version and current property values, Java information, and <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database server information, by using the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sysinfo<ept id="2">&lt;/codeph&gt;</ept> utility.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can obtain information about the Network Server, such as version and current property values, Java information, and <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database server information, by using the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sysinfo<ept id="2">&lt;/codeph&gt;</ept> utility.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sysinfo<ept id="1">&lt;/codeph&gt;</ept> utility is available from scripts, the command line, and the NetworkServerControl API.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sysinfo<ept id="1">&lt;/codeph&gt;</ept> utility is available from scripts, the command line, and the NetworkServerControl API.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sysinfo<ept id="1">&lt;/codeph&gt;</ept> utility is available from scripts, the command line, and the NetworkServerControl API.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The following scripts are located in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>$<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>/bin<ept id="1">&lt;/codeph&gt;</ept> directory. Before running these scripts, make sure that the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> Network Server is started.</source>
+<seg-source><mrk mid="0" mtype="seg">The following scripts are located in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>$<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>/bin<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk><mrk mid="1" mtype="seg"> Before running these scripts, make sure that the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> Network Server is started.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following scripts are located in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>$<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>/bin<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk><mrk mid="1" mtype="seg"> Before running these scripts, make sure that the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> Network Server is started.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Run the following script to obtain information about the Network Server on a Windows system:</source>
+<seg-source><mrk mid="0" mtype="seg">Run the following script to obtain information about the Network Server on a Windows system:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run the following script to obtain information about the Network Server on a Windows system:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>NetworkServerControl.bat sysinfo [-h <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="3">&lt;/varname&gt;</ept>][-p <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="4">&lt;/varname&gt;</ept>]<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>NetworkServerControl.bat sysinfo [-h <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="3">&lt;/varname&gt;</ept>][-p <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="4">&lt;/varname&gt;</ept>]<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>NetworkServerControl.bat sysinfo [-h <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="3">&lt;/varname&gt;</ept>][-p <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="4">&lt;/varname&gt;</ept>]<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Run the following script to obtain information about the Network Server on a UNIX system:</source>
+<seg-source><mrk mid="0" mtype="seg">Run the following script to obtain information about the Network Server on a UNIX system:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run the following script to obtain information about the Network Server on a UNIX system:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>NetworkServerControl sysinfo [-h <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="3">&lt;/varname&gt;</ept>] [-p <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="4">&lt;/varname&gt;</ept>]<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>NetworkServerControl sysinfo [-h <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="3">&lt;/varname&gt;</ept>] [-p <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="4">&lt;/varname&gt;</ept>]<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>NetworkServerControl sysinfo [-h <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="3">&lt;/varname&gt;</ept>] [-p <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="4">&lt;/varname&gt;</ept>]<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">For more information on the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sysinfo<ept id="1">&lt;/codeph&gt;</ept> utility, see the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citutilities"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information on the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sysinfo<ept id="1">&lt;/codeph&gt;</ept> utility, see the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citutilities"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information on the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sysinfo<ept id="1">&lt;/codeph&gt;</ept> utility, see the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citutilities"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">You can also use Java Management Extensions (JMX) technology to obtain system information. For details, see <bpt id="1" ctype="x-xref">&lt;xref href="cadminjmxoverview.dita#cadminjmxoverview"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You can also use Java Management Extensions (JMX) technology to obtain system information.</mrk><mrk mid="1" mtype="seg"> For details, see <bpt id="1" ctype="x-xref">&lt;xref href="cadminjmxoverview.dita#cadminjmxoverview"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can also use Java Management Extensions (JMX) technology to obtain system information.</mrk><mrk mid="1" mtype="seg"> For details, see <bpt id="1" ctype="x-xref">&lt;xref href="cadminjmxoverview.dita#cadminjmxoverview"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

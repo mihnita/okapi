@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rreffuncxmlquery.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">XMLQUERY operator</source>
+<seg-source><mrk mid="0" mtype="seg">XMLQUERY operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XMLQUERY operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">XMLQUERY is a SQL/XML operator that you can use to query XML values in SQL.</source>
+<seg-source><mrk mid="0" mtype="seg">XMLQUERY is a SQL/XML operator that you can use to query XML values in SQL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XMLQUERY is a SQL/XML operator that you can use to query XML values in SQL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">XMLQUERY operator</source>
+<seg-source><mrk mid="0" mtype="seg">XMLQUERY operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XMLQUERY operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">operators</source>
+<seg-source><mrk mid="0" mtype="seg">operators</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">operators</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">XMLQUERY</source>
+<seg-source><mrk mid="0" mtype="seg">XMLQUERY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XMLQUERY</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">XML</source>
+<seg-source><mrk mid="0" mtype="seg">XML</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XML</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">operators, XMLQUERY</source>
+<seg-source><mrk mid="0" mtype="seg">operators, XMLQUERY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">operators, XMLQUERY</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The XMLQUERY operator has two arguments, an XML query expression and a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> XML value.</source>
+<seg-source><mrk mid="0" mtype="seg">The XMLQUERY operator has two arguments, an XML query expression and a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> XML value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The XMLQUERY operator has two arguments, an XML query expression and a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> XML value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>XMLQUERY ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>xqueryStringLiteral<ept id="2">&lt;/varname&gt;</ept> PASSING BY REF <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="3">&lt;/varname&gt;</ept> [ RETURNING SEQUENCE [ BY REF ] ] EMPTY ON EMPTY )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>XMLQUERY ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>xqueryStringLiteral<ept id="2">&lt;/varname&gt;</ept> PASSING BY REF <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="3">&lt;/varname&gt;</ept> [ RETURNING SEQUENCE [ BY REF ] ] EMPTY ON EMPTY )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>XMLQUERY ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>xqueryStringLiteral<ept id="2">&lt;/varname&gt;</ept> PASSING BY REF <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="3">&lt;/varname&gt;</ept> [ RETURNING SEQUENCE [ BY REF ] ] EMPTY ON EMPTY )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>xqueryStringLiteral<ept id="1">&lt;/varname&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>xqueryStringLiteral<ept id="1">&lt;/varname&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>xqueryStringLiteral<ept id="1">&lt;/varname&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Must be specified as a string literal. If this argument is specified as a parameter, an expression that is not a literal, or a literal that is not a string (for example an integer), <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an error. The <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>xqueryStringLiteral<ept id="2">&lt;/varname&gt;</ept> argument must also be an XPath expression that is supported by Apache Xalan. <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> uses Apache Xalan to evaluate all XML query expressions. Because Xalan does not support full XQuery, neither does <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>. If Xalan is unable to compile or execute the query argument, <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> catches the error that is thrown by Xalan and throws the error as a SQLException. For more on XPath and XQuery expressions, see these Web sites: <bpt id="6" ctype="x-xref">&lt;xref format="html"
+href="http://www.w3.org/TR/xpath"&gt;</bpt>http://www.w3.org/TR/xpath<ept id="6">&lt;/xref&gt;</ept> and <bpt id="7" ctype="x-xref">&lt;xref
+format="html" href="http://www.w3.org/TR/xquery/"&gt;</bpt>http://www.w3.org/TR/xquery/<ept id="7">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Must be specified as a string literal.</mrk><mrk mid="1" mtype="seg"> If this argument is specified as a parameter, an expression that is not a literal, or a literal that is not a string (for example an integer), <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an error.</mrk><mrk mid="2" mtype="seg"> The <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>xqueryStringLiteral<ept id="2">&lt;/varname&gt;</ept> argument must also be an XPath expression that is supported by Apache Xalan.</mrk><mrk mid="3" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> uses Apache Xalan to evaluate all XML query expressions.</mrk><mrk mid="4" mtype="seg"> Because Xalan does not support full XQuery, neither does <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>.</mrk><mrk mid="5" mtype="seg"> If Xalan is unable to compile or execute the query argument, <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> catches the error that is thrown by Xalan and throws the error as a SQLException.</mrk><mrk mid="6" mtype="seg"> For more on XPath and XQuery expressions, see these Web sites: <bpt id="6" ctype="x-xref">&lt;xref format="html"
+href="http://www.w3.org/TR/xpath"&gt;</bpt>http://www.w3.org/TR/xpath<ept id="6">&lt;/xref&gt;</ept> and <bpt id="7" ctype="x-xref">&lt;xref
+format="html" href="http://www.w3.org/TR/xquery/"&gt;</bpt>http://www.w3.org/TR/xquery/<ept id="7">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Must be specified as a string literal.</mrk><mrk mid="1" mtype="seg"> If this argument is specified as a parameter, an expression that is not a literal, or a literal that is not a string (for example an integer), <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an error.</mrk><mrk mid="2" mtype="seg"> The <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>xqueryStringLiteral<ept id="2">&lt;/varname&gt;</ept> argument must also be an XPath expression that is supported by Apache Xalan.</mrk><mrk mid="3" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> uses Apache Xalan to evaluate all XML query expressions.</mrk><mrk mid="4" mtype="seg"> Because Xalan does not support full XQuery, neither does <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>.</mrk><mrk mid="5" mtype="seg"> If Xalan is unable to compile or execute the query argument, <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> catches the error that is thrown by Xalan and throws the error as a SQLException.</mrk><mrk mid="6" mtype="seg"> For more on XPath and XQuery expressions, see these Web sites: <bpt id="6" ctype="x-xref">&lt;xref format="html"
+href="http://www.w3.org/TR/xpath"&gt;</bpt>http://www.w3.org/TR/xpath<ept id="6">&lt;/xref&gt;</ept> and <bpt id="7" ctype="x-xref">&lt;xref
+format="html" href="http://www.w3.org/TR/xquery/"&gt;</bpt>http://www.w3.org/TR/xquery/<ept id="7">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="1">&lt;/varname&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="1">&lt;/varname&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="1">&lt;/varname&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Must be an XML data value and must constitute a well-formed SQL/XML document. The <bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="1">&lt;/varname&gt;</ept> argument cannot be a parameter. <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not perform implicit parsing nor casting of XML values, so use of strings or any other data type results in an error. If the argument is a sequence that is returned by a <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> XMLQUERY operation, the argument is accepted if it is a sequence of exactly one node that is a document node. Otherwise <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> throws an error.</source>
+<seg-source><mrk mid="0" mtype="seg">Must be an XML data value and must constitute a well-formed SQL/XML document.</mrk><mrk mid="1" mtype="seg"> The <bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="1">&lt;/varname&gt;</ept> argument cannot be a parameter.</mrk><mrk mid="2" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not perform implicit parsing nor casting of XML values, so use of strings or any other data type results in an error.</mrk><mrk mid="3" mtype="seg"> If the argument is a sequence that is returned by a <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> XMLQUERY operation, the argument is accepted if it is a sequence of exactly one node that is a document node.</mrk><mrk mid="4" mtype="seg"> Otherwise <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> throws an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Must be an XML data value and must constitute a well-formed SQL/XML document.</mrk><mrk mid="1" mtype="seg"> The <bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>xmlValueExpression<ept id="1">&lt;/varname&gt;</ept> argument cannot be a parameter.</mrk><mrk mid="2" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not perform implicit parsing nor casting of XML values, so use of strings or any other data type results in an error.</mrk><mrk mid="3" mtype="seg"> If the argument is a sequence that is returned by a <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> XMLQUERY operation, the argument is accepted if it is a sequence of exactly one node that is a document node.</mrk><mrk mid="4" mtype="seg"> Otherwise <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> throws an error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">BY REF</source>
+<seg-source><mrk mid="0" mtype="seg">BY REF</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BY REF</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Optional keywords that describe the only value passing mechanism supported by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>. Since BY REF is also the default passing mechanism, the XMLQUERY operator behaves the same whether the keywords are present or not. For more information on passing mechanisms, see the SQL/XML specification.</source>
+<seg-source><mrk mid="0" mtype="seg">Optional keywords that describe the only value passing mechanism supported by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Since BY REF is also the default passing mechanism, the XMLQUERY operator behaves the same whether the keywords are present or not.</mrk><mrk mid="2" mtype="seg"> For more information on passing mechanisms, see the SQL/XML specification.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Optional keywords that describe the only value passing mechanism supported by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Since BY REF is also the default passing mechanism, the XMLQUERY operator behaves the same whether the keywords are present or not.</mrk><mrk mid="2" mtype="seg"> For more information on passing mechanisms, see the SQL/XML specification.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">RETURNING SEQUENCE</source>
+<seg-source><mrk mid="0" mtype="seg">RETURNING SEQUENCE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RETURNING SEQUENCE</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Optional keywords that describe the only XML type returned by the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> XMLQUERY operator. Since SEQUENCE is also the default return type, the XMLQUERY operator behaves the same whether the keywords are present or not. For more information on the different XML return types, see the SQL/XML specification.</source>
+<seg-source><mrk mid="0" mtype="seg">Optional keywords that describe the only XML type returned by the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> XMLQUERY operator.</mrk><mrk mid="1" mtype="seg"> Since SEQUENCE is also the default return type, the XMLQUERY operator behaves the same whether the keywords are present or not.</mrk><mrk mid="2" mtype="seg"> For more information on the different XML return types, see the SQL/XML specification.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Optional keywords that describe the only XML type returned by the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> XMLQUERY operator.</mrk><mrk mid="1" mtype="seg"> Since SEQUENCE is also the default return type, the XMLQUERY operator behaves the same whether the keywords are present or not.</mrk><mrk mid="2" mtype="seg"> For more information on the different XML return types, see the SQL/XML specification.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">EMPTY ON EMPTY</source>
+<seg-source><mrk mid="0" mtype="seg">EMPTY ON EMPTY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EMPTY ON EMPTY</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Required keywords that describe the way in which XMLQUERY handles an empty result sequence. The XMLQUERY operator returns an empty sequence exactly as the sequence is. The XMLQUERY operator does not convert the empty sequence to a null value. When an empty result sequence is serialized, the result is an empty string. <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not consider an empty result sequence to be a well-formed XML document.</source>
+<seg-source><mrk mid="0" mtype="seg">Required keywords that describe the way in which XMLQUERY handles an empty result sequence.</mrk><mrk mid="1" mtype="seg"> The XMLQUERY operator returns an empty sequence exactly as the sequence is.</mrk><mrk mid="2" mtype="seg"> The XMLQUERY operator does not convert the empty sequence to a null value.</mrk><mrk mid="3" mtype="seg"> When an empty result sequence is serialized, the result is an empty string.</mrk><mrk mid="4" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not consider an empty result sequence to be a well-formed XML document.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Required keywords that describe the way in which XMLQUERY handles an empty result sequence.</mrk><mrk mid="1" mtype="seg"> The XMLQUERY operator returns an empty sequence exactly as the sequence is.</mrk><mrk mid="2" mtype="seg"> The XMLQUERY operator does not convert the empty sequence to a null value.</mrk><mrk mid="3" mtype="seg"> When an empty result sequence is serialized, the result is an empty string.</mrk><mrk mid="4" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not consider an empty result sequence to be a well-formed XML document.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">The result of the XMLQUERY operator is a value of type XML. The result represents a sequence of XML nodes or values. Atomic values, such as strings, can be part of the result sequence. The result of an XMLQUERY operator is not guaranteed to represent a well-formed XML document and it might not be possible to insert the result of an XMLQUERY operator into an XML column. To store the result in an XML column, the result must be a sequence with exactly one item in the sequence and the item must be a well-formed document node. The result can be viewed only in serialized form by explicitly using the <bpt id="1" ctype="x-xref">&lt;xref href="rreffuncxmlserialize.dita#rreffuncxmlserialize"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The result of the XMLQUERY operator is a value of type XML.</mrk><mrk mid="1" mtype="seg"> The result represents a sequence of XML nodes or values.</mrk><mrk mid="2" mtype="seg"> Atomic values, such as strings, can be part of the result sequence.</mrk><mrk mid="3" mtype="seg"> The result of an XMLQUERY operator is not guaranteed to represent a well-formed XML document and it might not be possible to insert the result of an XMLQUERY operator into an XML column.</mrk><mrk mid="4" mtype="seg"> To store the result in an XML column, the result must be a sequence with exactly one item in the sequence and the item must be a well-formed document node.</mrk><mrk mid="5" mtype="seg"> The result can be viewed only in serialized form by explicitly using the <bpt id="1" ctype="x-xref">&lt;xref href="rreffuncxmlserialize.dita#rreffuncxmlserialize"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The result of the XMLQUERY operator is a value of type XML.</mrk><mrk mid="1" mtype="seg"> The result represents a sequence of XML nodes or values.</mrk><mrk mid="2" mtype="seg"> Atomic values, such as strings, can be part of the result sequence.</mrk><mrk mid="3" mtype="seg"> The result of an XMLQUERY operator is not guaranteed to represent a well-formed XML document and it might not be possible to insert the result of an XMLQUERY operator into an XML column.</mrk><mrk mid="4" mtype="seg"> To store the result in an XML column, the result must be a sequence with exactly one item in the sequence and the item must be a well-formed document node.</mrk><mrk mid="5" mtype="seg"> The result can be viewed only in serialized form by explicitly using the <bpt id="1" ctype="x-xref">&lt;xref href="rreffuncxmlserialize.dita#rreffuncxmlserialize"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">In the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>x_table<ept id="1">&lt;/codeph&gt;</ept> table, to search the XML column <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>xcol<ept id="2">&lt;/codeph&gt;</ept> and return the students that have an age attribute that is greater than 20, use the following statement:</source>
+<seg-source><mrk mid="0" mtype="seg">In the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>x_table<ept id="1">&lt;/codeph&gt;</ept> table, to search the XML column <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>xcol<ept id="2">&lt;/codeph&gt;</ept> and return the students that have an age attribute that is greater than 20, use the following statement:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>x_table<ept id="1">&lt;/codeph&gt;</ept> table, to search the XML column <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>xcol<ept id="2">&lt;/codeph&gt;</ept> and return the students that have an age attribute that is greater than 20, use the following statement:</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT ID, XMLSERIALIZE( XMLQUERY('//student[@age&gt;20]' PASSING BY REF xcol EMPTY ON EMPTY) AS VARCHAR(50)) FROM x_table<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT ID, XMLSERIALIZE( XMLQUERY('//student[@age&gt;20]' PASSING BY REF xcol EMPTY ON EMPTY) AS VARCHAR(50)) FROM x_table<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT ID, XMLSERIALIZE( XMLQUERY('//student[@age&gt;20]' PASSING BY REF xcol EMPTY ON EMPTY) AS VARCHAR(50)) FROM x_table<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">The result set for this query contains a row for every row in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>x_table<ept id="1">&lt;/codeph&gt;</ept>, regardless of whether or not the XMLQUERY operator actually returns results.</source>
+<seg-source><mrk mid="0" mtype="seg">The result set for this query contains a row for every row in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>x_table<ept id="1">&lt;/codeph&gt;</ept>, regardless of whether or not the XMLQUERY operator actually returns results.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The result set for this query contains a row for every row in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>x_table<ept id="1">&lt;/codeph&gt;</ept>, regardless of whether or not the XMLQUERY operator actually returns results.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">In the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>x_table<ept id="1">&lt;/codeph&gt;</ept> table, to search the XML column <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>xcol<ept id="2">&lt;/codeph&gt;</ept> and return the ages for any students named BC, use the following statement:</source>
+<seg-source><mrk mid="0" mtype="seg">In the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>x_table<ept id="1">&lt;/codeph&gt;</ept> table, to search the XML column <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>xcol<ept id="2">&lt;/codeph&gt;</ept> and return the ages for any students named BC, use the following statement:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>x_table<ept id="1">&lt;/codeph&gt;</ept> table, to search the XML column <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>xcol<ept id="2">&lt;/codeph&gt;</ept> and return the ages for any students named BC, use the following statement:</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT ID, XMLSERIALIZE( XMLQUERY('string(//student[text() = "BC"]/@age)' PASSING BY REF xcol EMPTY ON EMPTY) AS VARCHAR(50)) FROM x_table WHERE XMLEXISTS('//student[text() = "BC"]' PASSING BY REF xcol)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT ID, XMLSERIALIZE( XMLQUERY('string(//student[text() = "BC"]/@age)' PASSING BY REF xcol EMPTY ON EMPTY) AS VARCHAR(50)) FROM x_table WHERE XMLEXISTS('//student[text() = "BC"]' PASSING BY REF xcol)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT ID, XMLSERIALIZE( XMLQUERY('string(//student[text() = "BC"]/@age)' PASSING BY REF xcol EMPTY ON EMPTY) AS VARCHAR(50)) FROM x_table WHERE XMLEXISTS('//student[text() = "BC"]' PASSING BY REF xcol)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">The result set for this query contains a row for only the rows in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>x_table<ept id="1">&lt;/codeph&gt;</ept> that have a student whose name is BC.</source>
+<seg-source><mrk mid="0" mtype="seg">The result set for this query contains a row for only the rows in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>x_table<ept id="1">&lt;/codeph&gt;</ept> that have a student whose name is BC.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The result set for this query contains a row for only the rows in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>x_table<ept id="1">&lt;/codeph&gt;</ept> that have a student whose name is BC.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">Usage note</source>
+<seg-source><mrk mid="0" mtype="seg">Usage note</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Usage note</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> requires that a JAXP parser (such as Apache Xerces) and Apache Xalan are listed in the Java classpath for the XML functions to work. If either the JAXP parser or Xalan is missing from the classpath, attempts to use the XMLQUERY operator will result in an error. In some situations, you may need to take steps to place the parser and Xalan in your classpath. See "XML data types and operators" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> requires that a JAXP parser (such as Apache Xerces) and Apache Xalan are listed in the Java classpath for the XML functions to work.</mrk><mrk mid="1" mtype="seg"> If either the JAXP parser or Xalan is missing from the classpath, attempts to use the XMLQUERY operator will result in an error.</mrk><mrk mid="2" mtype="seg"> In some situations, you may need to take steps to place the parser and Xalan in your classpath.</mrk><mrk mid="3" mtype="seg"> See "XML data types and operators" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> requires that a JAXP parser (such as Apache Xerces) and Apache Xalan are listed in the Java classpath for the XML functions to work.</mrk><mrk mid="1" mtype="seg"> If either the JAXP parser or Xalan is missing from the classpath, attempts to use the XMLQUERY operator will result in an error.</mrk><mrk mid="2" mtype="seg"> In some situations, you may need to take steps to place the parser and Xalan in your classpath.</mrk><mrk mid="3" mtype="seg"> See "XML data types and operators" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

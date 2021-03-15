@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminconfig815822.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Obtaining Network Server properties by using the getCurrentProperties method</source>
+<seg-source><mrk mid="0" mtype="seg">Obtaining Network Server properties by using the getCurrentProperties method</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Obtaining Network Server properties by using the getCurrentProperties method</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>getCurrentProperties<ept id="1">&lt;/codeph&gt;</ept> method is a Java method that you can use to obtain information about the Network Server.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>getCurrentProperties<ept id="1">&lt;/codeph&gt;</ept> method is a Java method that you can use to obtain information about the Network Server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>getCurrentProperties<ept id="1">&lt;/codeph&gt;</ept> method is a Java method that you can use to obtain information about the Network Server.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">properties information, getCurrentProperties method</source>
+<seg-source><mrk mid="0" mtype="seg">properties information, getCurrentProperties method</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">properties information, getCurrentProperties method</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">It returns a <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Properties<ept id="1">&lt;/codeph&gt;</ept> object with the value of all the Network Server properties as they are currently set.</source>
+<seg-source><mrk mid="0" mtype="seg">It returns a <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Properties<ept id="1">&lt;/codeph&gt;</ept> object with the value of all the Network Server properties as they are currently set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It returns a <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Properties<ept id="1">&lt;/codeph&gt;</ept> object with the value of all the Network Server properties as they are currently set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The signature of this method is:</source>
+<seg-source><mrk mid="0" mtype="seg">The signature of this method is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The signature of this method is:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Properties getCurrentProperties()</source>
+<seg-source><mrk mid="0" mtype="seg">Properties getCurrentProperties()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Properties getCurrentProperties()</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">For example:</source>
+<seg-source><mrk mid="0" mtype="seg">For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">NetworkServerControl server = new NetworkServerControl(); Properties p = server.getCurrentProperties(); p.list(System.out); System.out.println(p.getProperty("derby.drda.host"));</source>
+<seg-source><mrk mid="0" mtype="seg">NetworkServerControl server = new NetworkServerControl(); Properties p = server.getCurrentProperties(); p.list(System.out); System.out.println(p.getProperty("derby.drda.host"));</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NetworkServerControl server = new NetworkServerControl(); Properties p = server.getCurrentProperties(); p.list(System.out); System.out.println(p.getProperty("derby.drda.host"));</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">As shown in the previous example, you can look up the current properties and then work with individual properties if needed by using various APIs on the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Properties<ept id="1">&lt;/codeph&gt;</ept> class. You can also print out all the properties by using the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>Properties.list<ept id="2">&lt;/codeph&gt;</ept> method.</source>
+<seg-source><mrk mid="0" mtype="seg">As shown in the previous example, you can look up the current properties and then work with individual properties if needed by using various APIs on the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Properties<ept id="1">&lt;/codeph&gt;</ept> class.</mrk><mrk mid="1" mtype="seg"> You can also print out all the properties by using the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>Properties.list<ept id="2">&lt;/codeph&gt;</ept> method.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">As shown in the previous example, you can look up the current properties and then work with individual properties if needed by using various APIs on the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Properties<ept id="1">&lt;/codeph&gt;</ept> class.</mrk><mrk mid="1" mtype="seg"> You can also print out all the properties by using the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>Properties.list<ept id="2">&lt;/codeph&gt;</ept> method.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

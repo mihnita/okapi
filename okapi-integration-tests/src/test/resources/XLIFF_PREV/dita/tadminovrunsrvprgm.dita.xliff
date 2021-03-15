@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminovrunsrvprgm.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Running the SimpleNetworkServerSample program</source>
+<seg-source><mrk mid="0" mtype="seg">Running the SimpleNetworkServerSample program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running the SimpleNetworkServerSample program</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">To run the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server sample program, follow these steps.</source>
+<seg-source><mrk mid="0" mtype="seg">To run the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server sample program, follow these steps.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To run the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server sample program, follow these steps.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Open a command prompt and change directories to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>%<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>%\demo\nserverdemo<ept id="1">&lt;/codeph&gt;</ept> directory, where <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>%<bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>%<ept id="3">&lt;/codeph&gt;</ept> is the directory where you installed <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Open a command prompt and change directories to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>%<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>%\demo\nserverdemo<ept id="1">&lt;/codeph&gt;</ept> directory, where <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>%<bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>%<ept id="3">&lt;/codeph&gt;</ept> is the directory where you installed <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a command prompt and change directories to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>%<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>%\demo\nserverdemo<ept id="1">&lt;/codeph&gt;</ept> directory, where <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>%<bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>%<ept id="3">&lt;/codeph&gt;</ept> is the directory where you installed <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Set the classpath to include the current directory (".") and the following jar files:</source>
+<seg-source><mrk mid="0" mtype="seg">Set the classpath to include the current directory (".") and the following jar files:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the classpath to include the current directory (".") and the following jar files:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The Network Server jar file. It must be in your CLASSPATH because you start the Network Server in this program.</source>
+<seg-source><mrk mid="0" mtype="seg">The Network Server jar file.</mrk><mrk mid="1" mtype="seg"> It must be in your CLASSPATH because you start the Network Server in this program.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Network Server jar file.</mrk><mrk mid="1" mtype="seg"> It must be in your CLASSPATH because you start the Network Server in this program.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The database engine jar file.</source>
+<seg-source><mrk mid="0" mtype="seg">The database engine jar file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The database engine jar file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbytools.jar<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbytools.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbytools.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> tools jar file.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> tools jar file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> tools jar file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Test the CLASSPATH settings by running the following Java command:</source>
+<seg-source><mrk mid="0" mtype="seg">Test the CLASSPATH settings by running the following Java command:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test the CLASSPATH settings by running the following Java command:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.tools.sysinfo<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.tools.sysinfo<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.tools.sysinfo<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">This command displays the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> jar files that are in the classpath.</source>
+<seg-source><mrk mid="0" mtype="seg">This command displays the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> jar files that are in the classpath.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This command displays the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> jar files that are in the classpath.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">After you set up your environment correctly, run the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SimpleNetworkServerSample<ept id="1">&lt;/codeph&gt;</ept> program from the same directory:</source>
+<seg-source><mrk mid="0" mtype="seg">After you set up your environment correctly, run the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SimpleNetworkServerSample<ept id="1">&lt;/codeph&gt;</ept> program from the same directory:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After you set up your environment correctly, run the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SimpleNetworkServerSample<ept id="1">&lt;/codeph&gt;</ept> program from the same directory:</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java SimpleNetworkServerSample<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java SimpleNetworkServerSample<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java SimpleNetworkServerSample<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">If the program runs successfully, you will receive output that is similar to that shown in the following example:</source>
+<seg-source><mrk mid="0" mtype="seg">If the program runs successfully, you will receive output that is similar to that shown in the following example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the program runs successfully, you will receive output that is similar to that shown in the following example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Starting Network Server Testing if Network Server is up and running! <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server now running Got an embedded connection. Testing embedded connection by executing a sample query number of rows in sys.systables = 16 While my app is busy with embedded work, ij might connect like this: $ java -Dij.user=me -Dij.password=pw -Dij.protocol= jdbc:derby:\\localhost:1527\ org.apache.derby.tools.ij ij&gt; connect 'NSSimpleDB'; Clients can continue to connect: Press [Enter] to stop Server</source>
+<seg-source><mrk mid="0" mtype="seg">Starting Network Server Testing if Network Server is up and running! <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server now running Got an embedded connection.</mrk><mrk mid="1" mtype="seg"> Testing embedded connection by executing a sample query number of rows in sys.systables = 16 While my app is busy with embedded work, ij might connect like this: $ java -Dij.user=me -Dij.password=pw -Dij.protocol= jdbc:derby:\\localhost:1527\ org.apache.derby.tools.ij ij&gt; connect 'NSSimpleDB'; Clients can continue to connect: Press [Enter] to stop Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Starting Network Server Testing if Network Server is up and running! <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server now running Got an embedded connection.</mrk><mrk mid="1" mtype="seg"> Testing embedded connection by executing a sample query number of rows in sys.systables = 16 While my app is busy with embedded work, ij might connect like this: $ java -Dij.user=me -Dij.password=pw -Dij.protocol= jdbc:derby:\\localhost:1527\ org.apache.derby.tools.ij ij&gt; connect 'NSSimpleDB'; Clients can continue to connect: Press [Enter] to stop Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Running the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SimpleNetworkServerSample<ept id="1">&lt;/codeph&gt;</ept> program also creates the following new directory and file:</source>
+<seg-source><mrk mid="0" mtype="seg">Running the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SimpleNetworkServerSample<ept id="1">&lt;/codeph&gt;</ept> program also creates the following new directory and file:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SimpleNetworkServerSample<ept id="1">&lt;/codeph&gt;</ept> program also creates the following new directory and file:</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NSSimpleDB<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NSSimpleDB<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NSSimpleDB<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">This directory makes up the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NSSimpleDB<ept id="1">&lt;/codeph&gt;</ept> database.</source>
+<seg-source><mrk mid="0" mtype="seg">This directory makes up the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NSSimpleDB<ept id="1">&lt;/codeph&gt;</ept> database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This directory makes up the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NSSimpleDB<ept id="1">&lt;/codeph&gt;</ept> database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">This log file contains <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> progress and error messages.</source>
+<seg-source><mrk mid="0" mtype="seg">This log file contains <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> progress and error messages.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This log file contains <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> progress and error messages.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

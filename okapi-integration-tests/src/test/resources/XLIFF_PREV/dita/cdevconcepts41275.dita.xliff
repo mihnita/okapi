@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts41275.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Result set and cursor mechanisms</source>
+<seg-source><mrk mid="0" mtype="seg">Result set and cursor mechanisms</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Result set and cursor mechanisms</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">A result set maintains a cursor, which points to its current row of data. It can be used to step through and process the rows one by one.</source>
+<seg-source><mrk mid="0" mtype="seg">A result set maintains a cursor, which points to its current row of data.</mrk><mrk mid="1" mtype="seg"> It can be used to step through and process the rows one by one.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A result set maintains a cursor, which points to its current row of data.</mrk><mrk mid="1" mtype="seg"> It can be used to step through and process the rows one by one.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Cursors</source>
+<seg-source><mrk mid="0" mtype="seg">Cursors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cursors</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">working with</source>
+<seg-source><mrk mid="0" mtype="seg">working with</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">working with</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">ResultSets</source>
+<seg-source><mrk mid="0" mtype="seg">ResultSets</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ResultSets</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">working with</source>
+<seg-source><mrk mid="0" mtype="seg">working with</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">working with</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">In <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, any SELECT statement generates a cursor which can be controlled by a <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> object. <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> does not support SQL-92's DECLARE CURSOR language construct to create cursors, however <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> supports positioned deletes and positioned updates of updatable cursors.</source>
+<seg-source><mrk mid="0" mtype="seg">In <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, any SELECT statement generates a cursor which can be controlled by a <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> object.</mrk><mrk mid="1" mtype="seg"> <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> does not support SQL-92's DECLARE CURSOR language construct to create cursors, however <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> supports positioned deletes and positioned updates of updatable cursors.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, any SELECT statement generates a cursor which can be controlled by a <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> object.</mrk><mrk mid="1" mtype="seg"> <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> does not support SQL-92's DECLARE CURSOR language construct to create cursors, however <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> supports positioned deletes and positioned updates of updatable cursors.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsyscsdiagcontainedroles.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_DIAG.CONTAINED_ROLES diagnostic table function</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_DIAG.CONTAINED_ROLES diagnostic table function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_DIAG.CONTAINED_ROLES diagnostic table function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">SYSCS_DIAG.CONTAINED_ROLES diagnostic table function</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_DIAG.CONTAINED_ROLES diagnostic table function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_DIAG.CONTAINED_ROLES diagnostic table function</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">diagnostic table functions</source>
+<seg-source><mrk mid="0" mtype="seg">diagnostic table functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">diagnostic table functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SYSCS_DIAG.CONTAINED_ROLES</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_DIAG.CONTAINED_ROLES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_DIAG.CONTAINED_ROLES</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The SYSCS_DIAG.CONTAINED_ROLES diagnostic table function returns all the roles contained within the specified role. The argument that is passed to this table function should be the name of the role, specified as a string in quotes, or the special keyword CURRENT_ROLE, which indicates the current role in effect. For a definition of role containment, see "Syntax for roles" in <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantrolesyn"&gt;</bpt>GRANT statement<ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The SYSCS_DIAG.CONTAINED_ROLES diagnostic table function returns all the roles contained within the specified role.</mrk><mrk mid="1" mtype="seg"> The argument that is passed to this table function should be the name of the role, specified as a string in quotes, or the special keyword CURRENT_ROLE, which indicates the current role in effect.</mrk><mrk mid="2" mtype="seg"> For a definition of role containment, see "Syntax for roles" in <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantrolesyn"&gt;</bpt>GRANT statement<ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SYSCS_DIAG.CONTAINED_ROLES diagnostic table function returns all the roles contained within the specified role.</mrk><mrk mid="1" mtype="seg"> The argument that is passed to this table function should be the name of the role, specified as a string in quotes, or the special keyword CURRENT_ROLE, which indicates the current role in effect.</mrk><mrk mid="2" mtype="seg"> For a definition of role containment, see "Syntax for roles" in <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantrolesyn"&gt;</bpt>GRANT statement<ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">For example:</source>
+<seg-source><mrk mid="0" mtype="seg">For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SELECT * FROM TABLE (SYSCS_DIAG.CONTAINED_ROLES('READER')) AS T1 SELECT * FROM TABLE (SYSCS_DIAG.CONTAINED_ROLES(CURRENT_ROLE)) AS T2</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT * FROM TABLE (SYSCS_DIAG.CONTAINED_ROLES('READER')) AS T1 SELECT * FROM TABLE (SYSCS_DIAG.CONTAINED_ROLES(CURRENT_ROLE)) AS T2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT * FROM TABLE (SYSCS_DIAG.CONTAINED_ROLES('READER')) AS T1 SELECT * FROM TABLE (SYSCS_DIAG.CONTAINED_ROLES(CURRENT_ROLE)) AS T2</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">All users can access this diagnostic table function, whether or not the database has authentication and SQL authorization enabled.</source>
+<seg-source><mrk mid="0" mtype="seg">All users can access this diagnostic table function, whether or not the database has authentication and SQL authorization enabled.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All users can access this diagnostic table function, whether or not the database has authentication and SQL authorization enabled.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The returned table has the column shown in the following table.</source>
+<seg-source><mrk mid="0" mtype="seg">The returned table has the column shown in the following table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The returned table has the column shown in the following table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Column returned by the SYSCS_DIAG.CONTAINED_ROLES table function</source>
+<seg-source><mrk mid="0" mtype="seg">Column returned by the SYSCS_DIAG.CONTAINED_ROLES table function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column returned by the SYSCS_DIAG.CONTAINED_ROLES table function</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">For the column returned by the SYSCS_DIAG.CONTAINED_ROLES table function, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</source>
+<seg-source><mrk mid="0" mtype="seg">For the column returned by the SYSCS_DIAG.CONTAINED_ROLES table function, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For the column returned by the SYSCS_DIAG.CONTAINED_ROLES table function, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Column Name</source>
+<seg-source><mrk mid="0" mtype="seg">Column Name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column Name</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Length</source>
+<seg-source><mrk mid="0" mtype="seg">Length</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Length</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Nullable</source>
+<seg-source><mrk mid="0" mtype="seg">Nullable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nullable</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Contents</source>
+<seg-source><mrk mid="0" mtype="seg">Contents</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contents</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">ROLEID</source>
+<seg-source><mrk mid="0" mtype="seg">ROLEID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ROLEID</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">128</source>
+<seg-source><mrk mid="0" mtype="seg">128</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">128</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">The identifier of the role.</source>
+<seg-source><mrk mid="0" mtype="seg">The identifier of the role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The identifier of the role.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

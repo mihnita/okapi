@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Test.resx" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" resname="Cancel" xml:space="preserve" its:locNote="XBUT" its:locNoteType="description">
+<source xml:lang="en">Cancel</source>
+<seg-source><mrk mid="0" mtype="seg">Cancel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cancel</mrk></target>
+<note>XBUT</note>
+</trans-unit>
+<trans-unit id="2" resname="Greetings" xml:space="preserve" its:locNote="XMSG" its:locNoteType="description">
+<source xml:lang="en">Hello <ph id="1" ctype="x-regxph" equiv-text="{0}">{0}</ph>, my name is <ph id="2" ctype="x-regxph" equiv-text="{1}">{1}</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Hello <ph id="1" ctype="x-regxph" equiv-text="{0}">{0}</ph>, my name is <ph id="2" ctype="x-regxph" equiv-text="{1}">{1}</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hello <ph id="1" ctype="x-regxph" equiv-text="{0}">{0}</ph>, my name is <ph id="2" ctype="x-regxph" equiv-text="{1}">{1}</ph>.</mrk></target>
+<note>XMSG</note>
+</trans-unit>
+<trans-unit id="3" resname="HelloWorld" xml:space="preserve" its:locNote="XMSG" its:locNoteType="description">
+<source xml:lang="en">Hello world!</source>
+<seg-source><mrk mid="0" mtype="seg">Hello world!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hello world!</mrk></target>
+<note>XMSG</note>
+</trans-unit>
+<trans-unit id="4" resname="Ok" xml:space="preserve" its:locNote="XBUT" its:locNoteType="description">
+<source xml:lang="en">OK</source>
+<seg-source><mrk mid="0" mtype="seg">OK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OK</mrk></target>
+<note>XBUT</note>
+</trans-unit>
+<trans-unit id="5" resname="Time" xml:space="preserve" its:locNote="XFLD: Time appears in upper right corner of screen" its:locNoteType="description">
+<source xml:lang="en">The time is <ph id="1" ctype="x-regxph" equiv-text="{0:t}">{0:t}</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">The time is <ph id="1" ctype="x-regxph" equiv-text="{0:t}">{0:t}</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time is <ph id="1" ctype="x-regxph" equiv-text="{0:t}">{0:t}</ph>.</mrk></target>
+<note>XFLD: Time appears in upper right corner of screen</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

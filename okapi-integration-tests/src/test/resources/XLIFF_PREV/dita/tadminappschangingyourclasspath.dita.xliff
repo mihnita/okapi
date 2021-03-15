@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminappschangingyourclasspath.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Installing required jar files and adding them to the classpath</source>
+<seg-source><mrk mid="0" mtype="seg">Installing required jar files and adding them to the classpath</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Installing required jar files and adding them to the classpath</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">To use the Network Server and network client driver, add the following jar file to your server classpath.</source>
+<seg-source><mrk mid="0" mtype="seg">To use the Network Server and network client driver, add the following jar file to your server classpath.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To use the Network Server and network client driver, add the following jar file to your server classpath.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">derbyclient.jar</source>
+<seg-source><mrk mid="0" mtype="seg">derbyclient.jar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derbyclient.jar</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">derby.jar</source>
+<seg-source><mrk mid="0" mtype="seg">derby.jar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.jar</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">derbynet.jar</source>
+<seg-source><mrk mid="0" mtype="seg">derbynet.jar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derbynet.jar</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">derbyrun.jar</source>
+<seg-source><mrk mid="0" mtype="seg">derbyrun.jar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derbyrun.jar</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyrun.jar<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyrun.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyrun.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Adding this file to your classpath has the effect of including all of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> classes in your classpath. These classes are in the following jar files, which you can also add to your classpath separately:</source>
+<seg-source><mrk mid="0" mtype="seg">Adding this file to your classpath has the effect of including all of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> classes in your classpath.</mrk><mrk mid="1" mtype="seg"> These classes are in the following jar files, which you can also add to your classpath separately:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adding this file to your classpath has the effect of including all of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> classes in your classpath.</mrk><mrk mid="1" mtype="seg"> These classes are in the following jar files, which you can also add to your classpath separately:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">This jar file contains the Network Server code. It must be in your classpath to start the Network Server.</source>
+<seg-source><mrk mid="0" mtype="seg">This jar file contains the Network Server code.</mrk><mrk mid="1" mtype="seg"> It must be in your classpath to start the Network Server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This jar file contains the Network Server code.</mrk><mrk mid="1" mtype="seg"> It must be in your classpath to start the Network Server.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">This jar file contains the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database engine code. It must be in the classpath in order for the Network Server to access <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> databases. <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="3">&lt;/codeph&gt;</ept> is included in the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>Class-Path<ept id="4">&lt;/codeph&gt;</ept> attribute of <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="5">&lt;/codeph&gt;</ept>'s manifest file. If you have <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="6">&lt;/codeph&gt;</ept> in the classpath and <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="7">&lt;/codeph&gt;</ept> is in the same directory as <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="8">&lt;/codeph&gt;</ept>, it is not necessary to include <bpt id="9" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="9">&lt;/codeph&gt;</ept> explicitly.</source>
+<seg-source><mrk mid="0" mtype="seg">This jar file contains the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database engine code.</mrk><mrk mid="1" mtype="seg"> It must be in the classpath in order for the Network Server to access <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> databases.</mrk><mrk mid="2" mtype="seg"> <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="3">&lt;/codeph&gt;</ept> is included in the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>Class-Path<ept id="4">&lt;/codeph&gt;</ept> attribute of <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="5">&lt;/codeph&gt;</ept>'s manifest file.</mrk><mrk mid="3" mtype="seg"> If you have <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="6">&lt;/codeph&gt;</ept> in the classpath and <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="7">&lt;/codeph&gt;</ept> is in the same directory as <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="8">&lt;/codeph&gt;</ept>, it is not necessary to include <bpt id="9" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="9">&lt;/codeph&gt;</ept> explicitly.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This jar file contains the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database engine code.</mrk><mrk mid="1" mtype="seg"> It must be in the classpath in order for the Network Server to access <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> databases.</mrk><mrk mid="2" mtype="seg"> <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="3">&lt;/codeph&gt;</ept> is included in the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>Class-Path<ept id="4">&lt;/codeph&gt;</ept> attribute of <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="5">&lt;/codeph&gt;</ept>'s manifest file.</mrk><mrk mid="3" mtype="seg"> If you have <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="6">&lt;/codeph&gt;</ept> in the classpath and <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="7">&lt;/codeph&gt;</ept> is in the same directory as <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="8">&lt;/codeph&gt;</ept>, it is not necessary to include <bpt id="9" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="9">&lt;/codeph&gt;</ept> explicitly.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyclient.jar<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyclient.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyclient.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">This jar file contains the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Client JDBC driver that is necessary for communication with the Network Server. It must be in the classpath of the application on the client side in order to access <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> databases over a network.</source>
+<seg-source><mrk mid="0" mtype="seg">This jar file contains the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Client JDBC driver that is necessary for communication with the Network Server.</mrk><mrk mid="1" mtype="seg"> It must be in the classpath of the application on the client side in order to access <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> databases over a network.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This jar file contains the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Client JDBC driver that is necessary for communication with the Network Server.</mrk><mrk mid="1" mtype="seg"> It must be in the classpath of the application on the client side in order to access <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> databases over a network.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">All of the jar files are in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>$<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>/lib<ept id="1">&lt;/codeph&gt;</ept> directory.</source>
+<seg-source><mrk mid="0" mtype="seg">All of the jar files are in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>$<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>/lib<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All of the jar files are in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>$<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>/lib<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides script files for setting the classpath to work with the Network Server. The scripts are located in the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>$<bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>/bin<ept id="2">&lt;/codeph&gt;</ept> directory.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides script files for setting the classpath to work with the Network Server.</mrk><mrk mid="1" mtype="seg"> The scripts are located in the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>$<bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>/bin<ept id="2">&lt;/codeph&gt;</ept> directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides script files for setting the classpath to work with the Network Server.</mrk><mrk mid="1" mtype="seg"> The scripts are located in the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>$<bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>/bin<ept id="2">&lt;/codeph&gt;</ept> directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setNetworkClientCP.bat<ept id="1">&lt;/codeph&gt;</ept> (Windows)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setNetworkClientCP.bat<ept id="1">&lt;/codeph&gt;</ept> (Windows)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setNetworkClientCP.bat<ept id="1">&lt;/codeph&gt;</ept> (Windows)</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setNetworkClientCP<ept id="1">&lt;/codeph&gt;</ept> (UNIX)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setNetworkClientCP<ept id="1">&lt;/codeph&gt;</ept> (UNIX)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setNetworkClientCP<ept id="1">&lt;/codeph&gt;</ept> (UNIX)</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setNetworkServerCP.bat<ept id="1">&lt;/codeph&gt;</ept> (Windows)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setNetworkServerCP.bat<ept id="1">&lt;/codeph&gt;</ept> (Windows)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setNetworkServerCP.bat<ept id="1">&lt;/codeph&gt;</ept> (Windows)</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setNetworkServerCP<ept id="1">&lt;/codeph&gt;</ept> (UNIX)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setNetworkServerCP<ept id="1">&lt;/codeph&gt;</ept> (UNIX)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setNetworkServerCP<ept id="1">&lt;/codeph&gt;</ept> (UNIX)</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="cadminconfig86869.dita#cadminconfig86869"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> and <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citgetstart"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information on setting the classpath.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="cadminconfig86869.dita#cadminconfig86869"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> and <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citgetstart"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information on setting the classpath.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="cadminconfig86869.dita#cadminconfig86869"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> and <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citgetstart"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information on setting the classpath.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

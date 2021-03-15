@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcollationlocale.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Locale-based collation</source>
+<seg-source><mrk mid="0" mtype="seg">Locale-based collation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Locale-based collation</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the ability to define collation rules that are appropriate to a locale. This is referred to as <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-term">&lt;term&gt;</bpt>locale-based collation<ept id="3">&lt;/term&gt;</ept><ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the ability to define collation rules that are appropriate to a locale.</mrk><mrk mid="1" mtype="seg"> This is referred to as <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-term">&lt;term&gt;</bpt>locale-based collation<ept id="3">&lt;/term&gt;</ept><ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the ability to define collation rules that are appropriate to a locale.</mrk><mrk mid="1" mtype="seg"> This is referred to as <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-term">&lt;term&gt;</bpt>locale-based collation<ept id="3">&lt;/term&gt;</ept><ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">collation</source>
+<seg-source><mrk mid="0" mtype="seg">collation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">collation</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">locale-based</source>
+<seg-source><mrk mid="0" mtype="seg">locale-based</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">locale-based</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">locale-based collation</source>
+<seg-source><mrk mid="0" mtype="seg">locale-based collation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">locale-based collation</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the locales that the Java programming language supports. In addition, it is possible to create customized locales. For details, see <bpt id="2" ctype="x-xref">&lt;xref href="tdevdvlpcustomcollation.dita#tdevdvlpcustomcollation"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the locales that the Java programming language supports.</mrk><mrk mid="1" mtype="seg"> In addition, it is possible to create customized locales.</mrk><mrk mid="2" mtype="seg"> For details, see <bpt id="2" ctype="x-xref">&lt;xref href="tdevdvlpcustomcollation.dita#tdevdvlpcustomcollation"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the locales that the Java programming language supports.</mrk><mrk mid="1" mtype="seg"> In addition, it is possible to create customized locales.</mrk><mrk mid="2" mtype="seg"> For details, see <bpt id="2" ctype="x-xref">&lt;xref href="tdevdvlpcustomcollation.dita#tdevdvlpcustomcollation"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">You can set the locale of a database when you create the database by specifying the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>territory=ll_CC<ept id="1">&lt;/i&gt;</ept> attribute. (See <bpt id="2" ctype="x-xref">&lt;xref href="tdevdvlpcollation.dita#tdevdvlpcollation"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for details.) If you do not specify a locale, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> uses the default locale of the JVM in which the database is created.</source>
+<seg-source><mrk mid="0" mtype="seg">You can set the locale of a database when you create the database by specifying the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>territory=ll_CC<ept id="1">&lt;/i&gt;</ept> attribute.</mrk><mrk mid="1" mtype="seg"> (See <bpt id="2" ctype="x-xref">&lt;xref href="tdevdvlpcollation.dita#tdevdvlpcollation"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for details.) If you do not specify a locale, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> uses the default locale of the JVM in which the database is created.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can set the locale of a database when you create the database by specifying the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>territory=ll_CC<ept id="1">&lt;/i&gt;</ept> attribute.</mrk><mrk mid="1" mtype="seg"> (See <bpt id="2" ctype="x-xref">&lt;xref href="tdevdvlpcollation.dita#tdevdvlpcollation"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for details.) If you do not specify a locale, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> uses the default locale of the JVM in which the database is created.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">At the same time, you can also specify locale-based collation by using the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>collation=collation<ept id="1">&lt;/i&gt;</ept> attribute, and you can specify a particular collation strength to make the database either case-sensitive or case-insensitive, or to respect both case and accent in collation. See <bpt id="2" ctype="x-xref">&lt;xref href="tdevdvlpcaseinscoll.dita#tdevdvlpcaseinscoll"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for information on making the database use case-insensensitive searches.</source>
+<seg-source><mrk mid="0" mtype="seg">At the same time, you can also specify locale-based collation by using the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>collation=collation<ept id="1">&lt;/i&gt;</ept> attribute, and you can specify a particular collation strength to make the database either case-sensitive or case-insensitive, or to respect both case and accent in collation.</mrk><mrk mid="1" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="tdevdvlpcaseinscoll.dita#tdevdvlpcaseinscoll"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for information on making the database use case-insensensitive searches.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">At the same time, you can also specify locale-based collation by using the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>collation=collation<ept id="1">&lt;/i&gt;</ept> attribute, and you can specify a particular collation strength to make the database either case-sensitive or case-insensitive, or to respect both case and accent in collation.</mrk><mrk mid="1" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="tdevdvlpcaseinscoll.dita#tdevdvlpcaseinscoll"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for information on making the database use case-insensensitive searches.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Each JVM can support many locales that are independent of the default locale for the JVM. Collation support for these additional locales is provided through the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.text.RuleBasedCollator<ept id="1">&lt;/i&gt;</ept> class and the set of rules for these locales. Refer to the JVM specification for details of how these rules are used to provide locale-specific collation.</source>
+<seg-source><mrk mid="0" mtype="seg">Each JVM can support many locales that are independent of the default locale for the JVM.</mrk><mrk mid="1" mtype="seg"> Collation support for these additional locales is provided through the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.text.RuleBasedCollator<ept id="1">&lt;/i&gt;</ept> class and the set of rules for these locales.</mrk><mrk mid="2" mtype="seg"> Refer to the JVM specification for details of how these rules are used to provide locale-specific collation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Each JVM can support many locales that are independent of the default locale for the JVM.</mrk><mrk mid="1" mtype="seg"> Collation support for these additional locales is provided through the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.text.RuleBasedCollator<ept id="1">&lt;/i&gt;</ept> class and the set of rules for these locales.</mrk><mrk mid="2" mtype="seg"> Refer to the JVM specification for details of how these rules are used to provide locale-specific collation.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The locale-based collation in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> affects how the CHAR and VARCHAR data types are compared. Specifying locale-based collation also impacts how the LIKE Boolean operator processes CHAR, VARCHAR, CLOB, and LONG VARCHAR data.</source>
+<seg-source><mrk mid="0" mtype="seg">The locale-based collation in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> affects how the CHAR and VARCHAR data types are compared.</mrk><mrk mid="1" mtype="seg"> Specifying locale-based collation also impacts how the LIKE Boolean operator processes CHAR, VARCHAR, CLOB, and LONG VARCHAR data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The locale-based collation in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> affects how the CHAR and VARCHAR data types are compared.</mrk><mrk mid="1" mtype="seg"> Specifying locale-based collation also impacts how the LIKE Boolean operator processes CHAR, VARCHAR, CLOB, and LONG VARCHAR data.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Locale-based collation adds some extra processing overhead to all character-based comparison operations.</source>
+<seg-source><mrk mid="0" mtype="seg">Locale-based collation adds some extra processing overhead to all character-based comparison operations.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Locale-based collation adds some extra processing overhead to all character-based comparison operations.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

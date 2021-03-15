@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsyscsdiagspacetable.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_DIAG.SPACE_TABLE diagnostic table function</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_DIAG.SPACE_TABLE diagnostic table function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_DIAG.SPACE_TABLE diagnostic table function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">diagnostic table functions</source>
+<seg-source><mrk mid="0" mtype="seg">diagnostic table functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">diagnostic table functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SYSCS_DIAG.SPACE_TABLE</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_DIAG.SPACE_TABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_DIAG.SPACE_TABLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SYSCS_DIAG.SPACE_TABLE diagnostic table function</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_DIAG.SPACE_TABLE diagnostic table function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_DIAG.SPACE_TABLE diagnostic table function</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The SYSCS_DIAG.SPACE_TABLE diagnostic table function shows the space usage of a particular table and its indexes. You can use this diagnostic table function to determine if space might be saved by compressing the table and indexes.</source>
+<seg-source><mrk mid="0" mtype="seg">The SYSCS_DIAG.SPACE_TABLE diagnostic table function shows the space usage of a particular table and its indexes.</mrk><mrk mid="1" mtype="seg"> You can use this diagnostic table function to determine if space might be saved by compressing the table and indexes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SYSCS_DIAG.SPACE_TABLE diagnostic table function shows the space usage of a particular table and its indexes.</mrk><mrk mid="1" mtype="seg"> You can use this diagnostic table function to determine if space might be saved by compressing the table and indexes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">All users can access this diagnostic table function, whether or not the database has authentication and SQL authorization enabled.</source>
+<seg-source><mrk mid="0" mtype="seg">All users can access this diagnostic table function, whether or not the database has authentication and SQL authorization enabled.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All users can access this diagnostic table function, whether or not the database has authentication and SQL authorization enabled.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">To access the SYSCS_DIAG.SPACE_TABLE diagnostic table function, you must use the SQL table function syntax. You can invoke the table function in the following ways:</source>
+<seg-source><mrk mid="0" mtype="seg">To access the SYSCS_DIAG.SPACE_TABLE diagnostic table function, you must use the SQL table function syntax.</mrk><mrk mid="1" mtype="seg"> You can invoke the table function in the following ways:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To access the SYSCS_DIAG.SPACE_TABLE diagnostic table function, you must use the SQL table function syntax.</mrk><mrk mid="1" mtype="seg"> You can invoke the table function in the following ways:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If invoked with no arguments, the table function retrieves space information for all tables and indexes in the database.</source>
+<seg-source><mrk mid="0" mtype="seg">If invoked with no arguments, the table function retrieves space information for all tables and indexes in the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If invoked with no arguments, the table function retrieves space information for all tables and indexes in the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">If invoked with one argument, a <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>tableName<ept id="1">&lt;/parmname&gt;</ept>, the table function retrieves information for the specified table in the current schema.</source>
+<seg-source><mrk mid="0" mtype="seg">If invoked with one argument, a <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>tableName<ept id="1">&lt;/parmname&gt;</ept>, the table function retrieves information for the specified table in the current schema.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If invoked with one argument, a <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>tableName<ept id="1">&lt;/parmname&gt;</ept>, the table function retrieves information for the specified table in the current schema.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If invoked with two arguments, a <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>schemaName<ept id="1">&lt;/parmname&gt;</ept> followed by a <bpt id="2" ctype="x-parmname">&lt;parmname&gt;</bpt>tableName<ept id="2">&lt;/parmname&gt;</ept>, the table function retrieves information for the specified schema and table.</source>
+<seg-source><mrk mid="0" mtype="seg">If invoked with two arguments, a <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>schemaName<ept id="1">&lt;/parmname&gt;</ept> followed by a <bpt id="2" ctype="x-parmname">&lt;parmname&gt;</bpt>tableName<ept id="2">&lt;/parmname&gt;</ept>, the table function retrieves information for the specified schema and table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If invoked with two arguments, a <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>schemaName<ept id="1">&lt;/parmname&gt;</ept> followed by a <bpt id="2" ctype="x-parmname">&lt;parmname&gt;</bpt>tableName<ept id="2">&lt;/parmname&gt;</ept>, the table function retrieves information for the specified schema and table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The returned table has the columns shown in the following table.</source>
+<seg-source><mrk mid="0" mtype="seg">The returned table has the columns shown in the following table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The returned table has the columns shown in the following table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Columns returned by the SYSCS_DIAG.SPACE_TABLE table function</source>
+<seg-source><mrk mid="0" mtype="seg">Columns returned by the SYSCS_DIAG.SPACE_TABLE table function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Columns returned by the SYSCS_DIAG.SPACE_TABLE table function</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">For each column returned by the SYSCS_DIAG.SPACE_TABLE table function, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</source>
+<seg-source><mrk mid="0" mtype="seg">For each column returned by the SYSCS_DIAG.SPACE_TABLE table function, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For each column returned by the SYSCS_DIAG.SPACE_TABLE table function, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Column Name</source>
+<seg-source><mrk mid="0" mtype="seg">Column Name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column Name</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Length</source>
+<seg-source><mrk mid="0" mtype="seg">Length</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Length</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Nullable</source>
+<seg-source><mrk mid="0" mtype="seg">Nullable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nullable</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Contents</source>
+<seg-source><mrk mid="0" mtype="seg">Contents</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contents</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">CONGLOMERATENAME</source>
+<seg-source><mrk mid="0" mtype="seg">CONGLOMERATENAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CONGLOMERATENAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">128</source>
+<seg-source><mrk mid="0" mtype="seg">128</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">128</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">The name of the conglomerate, which is either the table name or the index name. (Unlike the SYSCONGLOMERATES column of the same name, table ID's do not appear here).</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the conglomerate, which is either the table name or the index name.</mrk><mrk mid="1" mtype="seg"> (Unlike the SYSCONGLOMERATES column of the same name, table ID's do not appear here).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the conglomerate, which is either the table name or the index name.</mrk><mrk mid="1" mtype="seg"> (Unlike the SYSCONGLOMERATES column of the same name, table ID's do not appear here).</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">ISINDEX</source>
+<seg-source><mrk mid="0" mtype="seg">ISINDEX</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ISINDEX</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">SMALLINT</source>
+<seg-source><mrk mid="0" mtype="seg">SMALLINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SMALLINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">5</source>
+<seg-source><mrk mid="0" mtype="seg">5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">5</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Is not zero if the conglomerate is an index, 0 otherwise.</source>
+<seg-source><mrk mid="0" mtype="seg">Is not zero if the conglomerate is an index, 0 otherwise.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Is not zero if the conglomerate is an index, 0 otherwise.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">NUMALLOCATEDPAGES</source>
+<seg-source><mrk mid="0" mtype="seg">NUMALLOCATEDPAGES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NUMALLOCATEDPAGES</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">The number of pages actively linked into the table. The total number of pages in the file is the sum of NUMALLOCATEDPAGES + NUMFREEPAGES.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of pages actively linked into the table.</mrk><mrk mid="1" mtype="seg"> The total number of pages in the file is the sum of NUMALLOCATEDPAGES + NUMFREEPAGES.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of pages actively linked into the table.</mrk><mrk mid="1" mtype="seg"> The total number of pages in the file is the sum of NUMALLOCATEDPAGES + NUMFREEPAGES.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">NUMFREEPAGES</source>
+<seg-source><mrk mid="0" mtype="seg">NUMFREEPAGES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NUMFREEPAGES</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">The number of free pages that belong to the table. When a new page is to be linked into the table the system will move a page from the NUMFREEPAGES list to the NUMALLOCATEDPAGES list. The total number of pages in the file is the sum of NUMALLOCATEDPAGES + NUMFREEPAGES.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of free pages that belong to the table.</mrk><mrk mid="1" mtype="seg"> When a new page is to be linked into the table the system will move a page from the NUMFREEPAGES list to the NUMALLOCATEDPAGES list.</mrk><mrk mid="2" mtype="seg"> The total number of pages in the file is the sum of NUMALLOCATEDPAGES + NUMFREEPAGES.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of free pages that belong to the table.</mrk><mrk mid="1" mtype="seg"> When a new page is to be linked into the table the system will move a page from the NUMFREEPAGES list to the NUMALLOCATEDPAGES list.</mrk><mrk mid="2" mtype="seg"> The total number of pages in the file is the sum of NUMALLOCATEDPAGES + NUMFREEPAGES.</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">NUMUNFILLEDPAGES</source>
+<seg-source><mrk mid="0" mtype="seg">NUMUNFILLEDPAGES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NUMUNFILLEDPAGES</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">The number of unfilled pages that belong to the table. Unfilled pages are allocated pages that are not completely full. Note that the number of unfilled pages is an estimate and is not exact. Running the same query twice can give different results on this column.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of unfilled pages that belong to the table.</mrk><mrk mid="1" mtype="seg"> Unfilled pages are allocated pages that are not completely full.</mrk><mrk mid="2" mtype="seg"> Note that the number of unfilled pages is an estimate and is not exact.</mrk><mrk mid="3" mtype="seg"> Running the same query twice can give different results on this column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of unfilled pages that belong to the table.</mrk><mrk mid="1" mtype="seg"> Unfilled pages are allocated pages that are not completely full.</mrk><mrk mid="2" mtype="seg"> Note that the number of unfilled pages is an estimate and is not exact.</mrk><mrk mid="3" mtype="seg"> Running the same query twice can give different results on this column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">PAGESIZE</source>
+<seg-source><mrk mid="0" mtype="seg">PAGESIZE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PAGESIZE</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">The size of the page in bytes for that conglomerate.</source>
+<seg-source><mrk mid="0" mtype="seg">The size of the page in bytes for that conglomerate.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The size of the page in bytes for that conglomerate.</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">ESTIMSPACESAVING</source>
+<seg-source><mrk mid="0" mtype="seg">ESTIMSPACESAVING</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ESTIMSPACESAVING</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">The estimated space which could possibly be saved by compressing the conglomerate, in bytes.</source>
+<seg-source><mrk mid="0" mtype="seg">The estimated space which could possibly be saved by compressing the conglomerate, in bytes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The estimated space which could possibly be saved by compressing the conglomerate, in bytes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">TABLEID</source>
+<seg-source><mrk mid="0" mtype="seg">TABLEID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TABLEID</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">36</source>
+<seg-source><mrk mid="0" mtype="seg">36</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">36</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">The id of the table to which the conglomerate belongs.</source>
+<seg-source><mrk mid="0" mtype="seg">The id of the table to which the conglomerate belongs.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The id of the table to which the conglomerate belongs.</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">For example, use the following query to return the space usage for all of the user tables and indexes in the database:</source>
+<seg-source><mrk mid="0" mtype="seg">For example, use the following query to return the space usage for all of the user tables and indexes in the database:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, use the following query to return the space usage for all of the user tables and indexes in the database:</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">SELECT sysschemas.schemaname, T2.* FROM SYS.SYSTABLES systabs, SYS.SYSSCHEMAS sysschemas, TABLE (SYSCS_DIAG.SPACE_TABLE()) AS T2 WHERE systabs.tabletype = 'T' AND sysschemas.schemaid = systabs.schemaid AND systabs.tableid = T2.tableid;</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT sysschemas.schemaname, T2.* FROM SYS.SYSTABLES systabs, SYS.SYSSCHEMAS sysschemas, TABLE (SYSCS_DIAG.SPACE_TABLE()) AS T2 WHERE systabs.tabletype = 'T' AND sysschemas.schemaid = systabs.schemaid AND systabs.tableid = T2.tableid;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT sysschemas.schemaname, T2.* FROM SYS.SYSTABLES systabs, SYS.SYSSCHEMAS sysschemas, TABLE (SYSCS_DIAG.SPACE_TABLE()) AS T2 WHERE systabs.tabletype = 'T' AND sysschemas.schemaid = systabs.schemaid AND systabs.tableid = T2.tableid;</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">where T2 is a user-specified table name that is any valid identifier.</source>
+<seg-source><mrk mid="0" mtype="seg">where T2 is a user-specified table name that is any valid identifier.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">where T2 is a user-specified table name that is any valid identifier.</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">Both the <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>schemaName<ept id="1">&lt;/parmname&gt;</ept> and the <bpt id="2" ctype="x-parmname">&lt;parmname&gt;</bpt>tableName<ept id="2">&lt;/parmname&gt;</ept> arguments must be expressions whose data types map to Java strings. If the <bpt id="3" ctype="x-parmname">&lt;parmname&gt;</bpt>schemaName<ept id="3">&lt;/parmname&gt;</ept> and the <bpt id="4" ctype="x-parmname">&lt;parmname&gt;</bpt>tableName<ept id="4">&lt;/parmname&gt;</ept> are non-delimited identifiers, you must specify the names in upper case.</source>
+<seg-source><mrk mid="0" mtype="seg">Both the <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>schemaName<ept id="1">&lt;/parmname&gt;</ept> and the <bpt id="2" ctype="x-parmname">&lt;parmname&gt;</bpt>tableName<ept id="2">&lt;/parmname&gt;</ept> arguments must be expressions whose data types map to Java strings.</mrk><mrk mid="1" mtype="seg"> If the <bpt id="3" ctype="x-parmname">&lt;parmname&gt;</bpt>schemaName<ept id="3">&lt;/parmname&gt;</ept> and the <bpt id="4" ctype="x-parmname">&lt;parmname&gt;</bpt>tableName<ept id="4">&lt;/parmname&gt;</ept> are non-delimited identifiers, you must specify the names in upper case.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Both the <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>schemaName<ept id="1">&lt;/parmname&gt;</ept> and the <bpt id="2" ctype="x-parmname">&lt;parmname&gt;</bpt>tableName<ept id="2">&lt;/parmname&gt;</ept> arguments must be expressions whose data types map to Java strings.</mrk><mrk mid="1" mtype="seg"> If the <bpt id="3" ctype="x-parmname">&lt;parmname&gt;</bpt>schemaName<ept id="3">&lt;/parmname&gt;</ept> and the <bpt id="4" ctype="x-parmname">&lt;parmname&gt;</bpt>tableName<ept id="4">&lt;/parmname&gt;</ept> are non-delimited identifiers, you must specify the names in upper case.</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">For example:</source>
+<seg-source><mrk mid="0" mtype="seg">For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en">SELECT * FROM TABLE (SYSCS_DIAG.SPACE_TABLE('MYSCHEMA', 'MYTABLE')) AS T2</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT * FROM TABLE (SYSCS_DIAG.SPACE_TABLE('MYSCHEMA', 'MYTABLE')) AS T2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT * FROM TABLE (SYSCS_DIAG.SPACE_TABLE('MYSCHEMA', 'MYTABLE')) AS T2</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

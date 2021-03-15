@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminimportcodeset.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CODESET values for import and export procedures</source>
+<seg-source><mrk mid="0" mtype="seg">CODESET values for import and export procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CODESET values for import and export procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Import and export procedures accept arguments to specify codeset values. You can specify the codeset (character encoding) for import and export procedures to override the system default.</source>
+<seg-source><mrk mid="0" mtype="seg">Import and export procedures accept arguments to specify codeset values.</mrk><mrk mid="1" mtype="seg"> You can specify the codeset (character encoding) for import and export procedures to override the system default.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Import and export procedures accept arguments to specify codeset values.</mrk><mrk mid="1" mtype="seg"> You can specify the codeset (character encoding) for import and export procedures to override the system default.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">import and export procedures</source>
+<seg-source><mrk mid="0" mtype="seg">import and export procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">import and export procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">codesets</source>
+<seg-source><mrk mid="0" mtype="seg">codesets</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">codesets</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">codeset values</source>
+<seg-source><mrk mid="0" mtype="seg">codeset values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">codeset values</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">import and export procedures</source>
+<seg-source><mrk mid="0" mtype="seg">import and export procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">import and export procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">For a table that shows a sample of the character encodings supported by the Java Development Kit, see "derby.ui.codeset property" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citutilities"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>. To review the complete list of character encodings, refer to your Java documentation.</source>
+<seg-source><mrk mid="0" mtype="seg">For a table that shows a sample of the character encodings supported by the Java Development Kit, see "derby.ui.codeset property" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citutilities"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> To review the complete list of character encodings, refer to your Java documentation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For a table that shows a sample of the character encodings supported by the Java Development Kit, see "derby.ui.codeset property" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citutilities"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> To review the complete list of character encodings, refer to your Java documentation.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Examples: Specifying the codeset in import and export procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Examples: Specifying the codeset in import and export procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples: Specifying the codeset in import and export procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The following example shows how to specify UTF-8 encoding to export to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.dat<ept id="1">&lt;/codeph&gt;</ept> table:</source>
+<seg-source><mrk mid="0" mtype="seg">The following example shows how to specify UTF-8 encoding to export to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.dat<ept id="1">&lt;/codeph&gt;</ept> table:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example shows how to specify UTF-8 encoding to export to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.dat<ept id="1">&lt;/codeph&gt;</ept> table:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE( NULL,'STAFF','staff.dat',NULL,NULL,'UTF-8')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE( NULL,'STAFF','staff.dat',NULL,NULL,'UTF-8')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE( NULL,'STAFF','staff.dat',NULL,NULL,'UTF-8')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The following example shows how to specify UTF-8 encoding to import from the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.dat<ept id="1">&lt;/codeph&gt;</ept> table:</source>
+<seg-source><mrk mid="0" mtype="seg">The following example shows how to specify UTF-8 encoding to import from the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.dat<ept id="1">&lt;/codeph&gt;</ept> table:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example shows how to specify UTF-8 encoding to import from the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.dat<ept id="1">&lt;/codeph&gt;</ept> table:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE( NULL,'STAFF','staff.dat',NULL,NULL,'UTF-8',0)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE( NULL,'STAFF','staff.dat',NULL,NULL,'UTF-8',0)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE( NULL,'STAFF','staff.dat',NULL,NULL,'UTF-8',0)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

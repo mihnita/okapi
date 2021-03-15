@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="example2_27.yaml" source-language="en" target-language="fr" datatype="x-text/x-yaml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi-integration-tests/common-integration-tests/target/test-classes/yaml/spec_test/okf_yaml@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1" resname="invoice" xml:space="preserve">
+<source xml:lang="en">34843</source>
+<seg-source><mrk mid="0" mtype="seg">34843</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">34843</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="date" xml:space="preserve">
+<source xml:lang="en">2001-01-23</source>
+<seg-source><mrk mid="0" mtype="seg">2001-01-23</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2001-01-23</mrk></target>
+</trans-unit>
+<group id="sg2">
+<trans-unit id="tu3" resname="billTo/given" xml:space="preserve">
+<source xml:lang="en">Chris</source>
+<seg-source><mrk mid="0" mtype="seg">Chris</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Chris</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="billTo/family" xml:space="preserve">
+<source xml:lang="en">Dumars</source>
+<seg-source><mrk mid="0" mtype="seg">Dumars</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dumars</mrk></target>
+</trans-unit>
+<group id="sg3">
+<trans-unit id="tu5" resname="billTo/address/lines" xml:space="preserve">
+<source xml:lang="en">458 Walkman Dr.<ph id="1" ctype="lb">
+            </ph>Suite #292</source>
+<seg-source><mrk mid="0" mtype="seg">458 Walkman Dr.<ph id="1" ctype="lb">
+            </ph>Suite #292</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">458 Walkman Dr.<ph id="1" ctype="lb">
+            </ph>Suite #292</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="billTo/address/city" xml:space="preserve">
+<source xml:lang="en">Royal Oak</source>
+<seg-source><mrk mid="0" mtype="seg">Royal Oak</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Royal Oak</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" resname="billTo/address/state" xml:space="preserve">
+<source xml:lang="en">MI</source>
+<seg-source><mrk mid="0" mtype="seg">MI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MI</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" resname="billTo/address/postal" xml:space="preserve">
+<source xml:lang="en">48046</source>
+<seg-source><mrk mid="0" mtype="seg">48046</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">48046</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg4">
+<group id="sg5">
+<trans-unit id="tu9" resname="product/sku" xml:space="preserve">
+<source xml:lang="en">BL394D</source>
+<seg-source><mrk mid="0" mtype="seg">BL394D</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BL394D</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" resname="product/quantity" xml:space="preserve">
+<source xml:lang="en">4</source>
+<seg-source><mrk mid="0" mtype="seg">4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" resname="product/description" xml:space="preserve">
+<source xml:lang="en">Basketball</source>
+<seg-source><mrk mid="0" mtype="seg">Basketball</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Basketball</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" resname="product/price" xml:space="preserve">
+<source xml:lang="en">450.00</source>
+<seg-source><mrk mid="0" mtype="seg">450.00</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">450.00</mrk></target>
+</trans-unit>
+</group>
+<group id="sg6">
+<trans-unit id="tu13" resname="product/sku" xml:space="preserve">
+<source xml:lang="en">BL4438H</source>
+<seg-source><mrk mid="0" mtype="seg">BL4438H</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BL4438H</mrk></target>
+</trans-unit>
+<trans-unit id="tu14" resname="product/quantity" xml:space="preserve">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu15" resname="product/description" xml:space="preserve">
+<source xml:lang="en">Super Hoop</source>
+<seg-source><mrk mid="0" mtype="seg">Super Hoop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Super Hoop</mrk></target>
+</trans-unit>
+<trans-unit id="tu16" resname="product/price" xml:space="preserve">
+<source xml:lang="en">2392.00</source>
+<seg-source><mrk mid="0" mtype="seg">2392.00</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2392.00</mrk></target>
+</trans-unit>
+</group>
+</group>
+<trans-unit id="tu17" resname="tax" xml:space="preserve">
+<source xml:lang="en">251.42</source>
+<seg-source><mrk mid="0" mtype="seg">251.42</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">251.42</mrk></target>
+</trans-unit>
+<trans-unit id="tu18" resname="total" xml:space="preserve">
+<source xml:lang="en">4443.52</source>
+<seg-source><mrk mid="0" mtype="seg">4443.52</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4443.52</mrk></target>
+</trans-unit>
+<trans-unit id="tu19" resname="comments" xml:space="preserve">
+<source xml:lang="en">Late afternoon is best. Backup contact is Nancy Billsmer @ 338-4338.</source>
+<seg-source><mrk mid="0" mtype="seg">Late afternoon is best.</mrk><mrk mid="1" mtype="seg"> Backup contact is Nancy Billsmer @ 338-4338.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Late afternoon is best.</mrk><mrk mid="1" mtype="seg"> Backup contact is Nancy Billsmer @ 338-4338.</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

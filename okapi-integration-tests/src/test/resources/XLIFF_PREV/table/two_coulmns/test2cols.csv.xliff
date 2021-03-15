@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="test2cols.csv" source-language="en" target-language="fr" datatype="x-text/csv" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi-integration-tests/target/test-classes/table/two_coulmns/okf_table@2Cols_ID_Text.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="2" restype="row">
+<trans-unit id="1" xml:space="preserve">
+<source xml:lang="en">814</source>
+<seg-source><mrk mid="0" mtype="seg">814</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">814</mrk></target>
+</trans-unit>
+<trans-unit id="2" xml:space="preserve">
+<source xml:lang="en">text</source>
+<seg-source><mrk mid="0" mtype="seg">text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text</mrk></target>
+</trans-unit>
+</group>
+<group id="5" restype="row">
+<trans-unit id="3" resname="815" xml:space="preserve">
+<source xml:lang="en">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph> text
+</source>
+<seg-source><mrk mid="0" mtype="seg">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph> text</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph> text</mrk>
+</target>
+</trans-unit>
+</group>
+<group id="8" restype="row">
+<trans-unit id="4" resname="815" xml:space="preserve">
+<source xml:lang="en">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph> text</source>
+<seg-source><mrk mid="0" mtype="seg">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph> text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph> text</mrk></target>
+</trans-unit>
+</group>
+<group id="11" restype="row">
+<trans-unit id="5" resname="815" xml:space="preserve">
+<source xml:lang="en">does not work <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph> text
+</source>
+<seg-source><mrk mid="0" mtype="seg">does not work <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph> text</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">does not work <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph> text</mrk>
+</target>
+</trans-unit>
+</group>
+<group id="14" restype="row">
+<trans-unit id="6" resname="816" xml:space="preserve">
+<source xml:lang="en">text</source>
+<seg-source><mrk mid="0" mtype="seg">text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text</mrk></target>
+</trans-unit>
+</group>
+<group id="17" restype="row">
+<trans-unit id="7" resname="817" xml:space="preserve">
+<source xml:lang="en">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph></source>
+<seg-source><mrk mid="0" mtype="seg">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="20" restype="row">
+<trans-unit id="8" resname="817" xml:space="preserve">
+<source xml:lang="en">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph>
+</source>
+<seg-source><mrk mid="0" mtype="seg">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph></mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph></mrk>
+</target>
+</trans-unit>
+</group>
+<group id="23" restype="row">
+<trans-unit id="9" resname="817" xml:space="preserve">
+<source xml:lang="en">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph></source>
+<seg-source><mrk mid="0" mtype="seg">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="26" restype="row">
+<trans-unit id="10" resname="817" xml:space="preserve">
+<source xml:lang="en">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph>
+</source>
+<seg-source><mrk mid="0" mtype="seg">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph></mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">works <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, and <ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph></mrk>
+</target>
+</trans-unit>
+</group>
+<group id="29" restype="row">
+<trans-unit id="11" resname="818" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> and text</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> and text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> and text</mrk></target>
+</trans-unit>
+</group>
+<group id="32" restype="row">
+<trans-unit id="12" resname="818" xml:space="preserve">
+<source xml:lang="en">text, <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> text</source>
+<seg-source><mrk mid="0" mtype="seg">text, <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text, <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> text</mrk></target>
+</trans-unit>
+</group>
+<group id="35" restype="row">
+<trans-unit id="13" resname="818" xml:space="preserve">
+<source xml:lang="en">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</source>
+<seg-source><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</mrk></target>
+</trans-unit>
+</group>
+<group id="38" restype="row">
+<trans-unit id="14" resname="818" xml:space="preserve">
+<source xml:lang="en">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text
+</source>
+<seg-source><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</mrk>
+</target>
+</trans-unit>
+</group>
+<group id="41" restype="row">
+<trans-unit id="15" resname="819" xml:space="preserve">
+<source xml:lang="en">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text, text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</source>
+<seg-source><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text, text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text, text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</mrk></target>
+</trans-unit>
+</group>
+<group id="44" restype="row">
+<trans-unit id="16" resname="819" xml:space="preserve">
+<source xml:lang="en">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text, text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text
+</source>
+<seg-source><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text, text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text, text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</mrk>
+</target>
+</trans-unit>
+</group>
+<group id="47" restype="row">
+<trans-unit id="17" resname="820" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text</mrk></target>
+</trans-unit>
+</group>
+<group id="50" restype="row">
+<trans-unit id="18" resname="821" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text, text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text, text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text, text<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="53" restype="row">
+<trans-unit id="19" resname="822" xml:space="preserve">
+<source xml:lang="en">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text</source>
+<seg-source><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text</mrk></target>
+</trans-unit>
+</group>
+<group id="56" restype="row">
+<trans-unit id="20" resname="823" xml:space="preserve">
+<source xml:lang="en">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text <ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>text,text<ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>, text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph> text</source>
+<seg-source><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text <ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>text,text<ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>, text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph> text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text <ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>text,text<ph id="5" ctype="x-CSV_text_qualifier">"</ph><ph id="6" ctype="x-CSV_text_qualifier">"</ph>, text<ph id="7" ctype="x-CSV_text_qualifier">"</ph><ph id="8" ctype="x-CSV_text_qualifier">"</ph> text</mrk></target>
+</trans-unit>
+</group>
+<group id="59" restype="row">
+<trans-unit id="21" resname="999" xml:space="preserve">
+<source xml:lang="en">X &lt;x&gt;xxxxN&lt;/x&gt; xxxxN &lt;X&gt;xxxxN&lt;/X&gt;, text4.</source>
+<seg-source><mrk mid="0" mtype="seg">X &lt;x&gt;xxxxN&lt;/x&gt; xxxxN &lt;X&gt;xxxxN&lt;/X&gt;, text4.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X &lt;x&gt;xxxxN&lt;/x&gt; xxxxN &lt;X&gt;xxxxN&lt;/X&gt;, text4.</mrk></target>
+</trans-unit>
+</group>
+<group id="62" restype="row">
+<trans-unit id="22" resname="999" xml:space="preserve">
+<source xml:lang="en">A &lt;b&gt;text1&lt;/b&gt; text2 &lt;B&gt;text3&lt;/B&gt;, text4.</source>
+<seg-source><mrk mid="0" mtype="seg">A &lt;b&gt;text1&lt;/b&gt; text2 &lt;B&gt;text3&lt;/B&gt;, text4.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A &lt;b&gt;text1&lt;/b&gt; text2 &lt;B&gt;text3&lt;/B&gt;, text4.</mrk></target>
+</trans-unit>
+</group>
+<group id="65" restype="row">
+<trans-unit id="23" resname="999" xml:space="preserve">
+<source xml:lang="en">A &lt;b&gt;text1&lt;/b&gt; text2 &lt;B&gt;text3&lt;/B&gt;, text4 </source>
+<seg-source><mrk mid="0" mtype="seg">A &lt;b&gt;text1&lt;/b&gt; text2 &lt;B&gt;text3&lt;/B&gt;, text4</mrk> </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A &lt;b&gt;text1&lt;/b&gt; text2 &lt;B&gt;text3&lt;/B&gt;, text4</mrk> </target>
+</trans-unit>
+</group>
+<group id="68" restype="row">
+<trans-unit id="24" resname="819" xml:space="preserve">
+<source xml:lang="en">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text, text.<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</source>
+<seg-source><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text, text.<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text, text.<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</mrk></target>
+</trans-unit>
+</group>
+<group id="71" restype="row">
+<trans-unit id="25" resname="819" xml:space="preserve">
+<source xml:lang="en">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text, text <ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</source>
+<seg-source><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text, text <ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text, text <ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph>, text</mrk></target>
+</trans-unit>
+</group>
+<group id="74" restype="row">
+<trans-unit id="26" resname="111" xml:space="preserve">
+<source xml:lang="en">Text</source>
+<seg-source><mrk mid="0" mtype="seg">Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text</mrk></target>
+</trans-unit>
+</group>
+<group id="77" restype="row">
+<trans-unit id="27" resname="222" xml:space="preserve">
+<source xml:lang="en"> text1 <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text2<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> text3, text4, text5.</source>
+<seg-source><mrk mid="0" mtype="seg"> text1 <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text2<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> text3, text4, text5.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> text1 <ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>text2<ph id="3" ctype="x-CSV_text_qualifier">"</ph><ph id="4" ctype="x-CSV_text_qualifier">"</ph> text3, text4, text5.</mrk></target>
+</trans-unit>
+</group>
+<group id="80" restype="row">
+<trans-unit id="28" resname="333" xml:space="preserve">
+<source xml:lang="en">Text</source>
+<seg-source><mrk mid="0" mtype="seg">Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

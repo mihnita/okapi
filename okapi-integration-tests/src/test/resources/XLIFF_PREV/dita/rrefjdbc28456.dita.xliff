@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbc28456.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">JDBC escape syntax for LIKE clauses</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC escape syntax for LIKE clauses</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC escape syntax for LIKE clauses</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">escape (JDBC escape keyword)</source>
+<seg-source><mrk mid="0" mtype="seg">escape (JDBC escape keyword)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">escape (JDBC escape keyword)</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Escape character for LIKE clauses</source>
+<seg-source><mrk mid="0" mtype="seg">Escape character for LIKE clauses</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Escape character for LIKE clauses</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The percent sign (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>%<ept id="1">&lt;/codeph&gt;</ept>) and underscore (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>_<ept id="2">&lt;/codeph&gt;</ept>) are metacharacters within SQL LIKE clauses. JDBC provides syntax to force these characters to be interpreted literally. The JDBC clause immediately following a LIKE expression allows you to specify an escape character:</source>
+<seg-source><mrk mid="0" mtype="seg">The percent sign (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>%<ept id="1">&lt;/codeph&gt;</ept>) and underscore (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>_<ept id="2">&lt;/codeph&gt;</ept>) are metacharacters within SQL LIKE clauses.</mrk><mrk mid="1" mtype="seg"> JDBC provides syntax to force these characters to be interpreted literally.</mrk><mrk mid="2" mtype="seg"> The JDBC clause immediately following a LIKE expression allows you to specify an escape character:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The percent sign (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>%<ept id="1">&lt;/codeph&gt;</ept>) and underscore (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>_<ept id="2">&lt;/codeph&gt;</ept>) are metacharacters within SQL LIKE clauses.</mrk><mrk mid="1" mtype="seg"> JDBC provides syntax to force these characters to be interpreted literally.</mrk><mrk mid="2" mtype="seg"> The JDBC clause immediately following a LIKE expression allows you to specify an escape character:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> [ NOT ] LIKE <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>characterExpressionWithWildCard<ept id="3">&lt;/i&gt;</ept> { ESCAPE '<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>escapeCharacter<ept id="4">&lt;/i&gt;</ept>' }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> [ NOT ] LIKE <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>characterExpressionWithWildCard<ept id="3">&lt;/i&gt;</ept> { ESCAPE '<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>escapeCharacter<ept id="4">&lt;/i&gt;</ept>' }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> [ NOT ] LIKE <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>characterExpressionWithWildCard<ept id="3">&lt;/i&gt;</ept> { ESCAPE '<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>escapeCharacter<ept id="4">&lt;/i&gt;</ept>' }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- find all rows in which a begins with the character "%"<ept id="2">&lt;/ph&gt;</ept> SELECT a FROM tabA WHERE a LIKE '$%%' {escape '$'} <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- find all rows in which a ends with the character "_"<ept id="3">&lt;/ph&gt;</ept> SELECT a FROM tabA WHERE a LIKE '%=_' {escape '='}<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- find all rows in which a begins with the character "%"<ept id="2">&lt;/ph&gt;</ept> SELECT a FROM tabA WHERE a LIKE '$%%' {escape '$'} <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- find all rows in which a ends with the character "_"<ept id="3">&lt;/ph&gt;</ept> SELECT a FROM tabA WHERE a LIKE '%=_' {escape '='}<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- find all rows in which a begins with the character "%"<ept id="2">&lt;/ph&gt;</ept> SELECT a FROM tabA WHERE a LIKE '$%%' {escape '$'} <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- find all rows in which a ends with the character "_"<ept id="3">&lt;/ph&gt;</ept> SELECT a FROM tabA WHERE a LIKE '%=_' {escape '='}<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>?<ept id="1">&lt;/codeph&gt;</ept> is not permitted as an escape character if the LIKE pattern is also a dynamic parameter (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>?<ept id="2">&lt;/codeph&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>?<ept id="1">&lt;/codeph&gt;</ept> is not permitted as an escape character if the LIKE pattern is also a dynamic parameter (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>?<ept id="2">&lt;/codeph&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>?<ept id="1">&lt;/codeph&gt;</ept> is not permitted as an escape character if the LIKE pattern is also a dynamic parameter (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>?<ept id="2">&lt;/codeph&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">In some languages, a single character consists of more than one collation unit (a 16-bit character). The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>escapeCharacter<ept id="1">&lt;/i&gt;</ept> used in the escape clause must be a single collation unit in order to work properly.</source>
+<seg-source><mrk mid="0" mtype="seg">In some languages, a single character consists of more than one collation unit (a 16-bit character).</mrk><mrk mid="1" mtype="seg"> The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>escapeCharacter<ept id="1">&lt;/i&gt;</ept> used in the escape clause must be a single collation unit in order to work properly.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In some languages, a single character consists of more than one collation unit (a 16-bit character).</mrk><mrk mid="1" mtype="seg"> The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>escapeCharacter<ept id="1">&lt;/i&gt;</ept> used in the escape clause must be a single collation unit in order to work properly.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">You can also use the escape character sequence for LIKE without using JDBC's curly braces; see <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj23075.dita#rrefsqlj23075"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You can also use the escape character sequence for LIKE without using JDBC's curly braces; see <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj23075.dita#rrefsqlj23075"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can also use the escape character sequence for LIKE without using JDBC's curly braces; see <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj23075.dita#rrefsqlj23075"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

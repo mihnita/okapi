@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdeploy15818.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Create jar files for your application</source>
+<seg-source><mrk mid="0" mtype="seg">Create jar files for your application</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create jar files for your application</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Include any Java classes in a jar file that are intended for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> class loading, except the following classes.</source>
+<seg-source><mrk mid="0" mtype="seg">Include any Java classes in a jar file that are intended for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> class loading, except the following classes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Include any Java classes in a jar file that are intended for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> class loading, except the following classes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">The standard Java packages (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.*<ept id="1">&lt;/i&gt;</ept>, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>javax.*<ept id="2">&lt;/i&gt;</ept>)</source>
+<seg-source><mrk mid="0" mtype="seg">The standard Java packages (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.*<ept id="1">&lt;/i&gt;</ept>, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>javax.*<ept id="2">&lt;/i&gt;</ept>)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The standard Java packages (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.*<ept id="1">&lt;/i&gt;</ept>, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>javax.*<ept id="2">&lt;/i&gt;</ept>)</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not prevent you from storing such a jar file in the database, but these classes <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>are never loaded<ept id="2">&lt;/i&gt;</ept> from the jar file.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not prevent you from storing such a jar file in the database, but these classes <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>are never loaded<ept id="2">&lt;/i&gt;</ept> from the jar file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not prevent you from storing such a jar file in the database, but these classes <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>are never loaded<ept id="2">&lt;/i&gt;</ept> from the jar file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The classes that are supplied with your Java environment</source>
+<seg-source><mrk mid="0" mtype="seg">The classes that are supplied with your Java environment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The classes that are supplied with your Java environment</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">A running <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system can load classes from any number of jar files from any number of schemas and databases.</source>
+<seg-source><mrk mid="0" mtype="seg">A running <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system can load classes from any number of jar files from any number of schemas and databases.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A running <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system can load classes from any number of jar files from any number of schemas and databases.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Create jar files intended for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database class loading the same way you create a jar file for inclusion in a user's classpath. For example, consider an application targeted at travel agencies:</source>
+<seg-source><mrk mid="0" mtype="seg">Create jar files intended for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database class loading the same way you create a jar file for inclusion in a user's classpath.</mrk><mrk mid="1" mtype="seg"> For example, consider an application targeted at travel agencies:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create jar files intended for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database class loading the same way you create a jar file for inclusion in a user's classpath.</mrk><mrk mid="1" mtype="seg"> For example, consider an application targeted at travel agencies:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>jar cf travelagent.jar travelagent/*.class.<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>jar cf travelagent.jar travelagent/*.class.<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>jar cf travelagent.jar travelagent/*.class.<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Various IDEs have tools to generate a list of contents for a jar file based on your application. If your application requires classes from other jar files, you have a choice:</source>
+<seg-source><mrk mid="0" mtype="seg">Various IDEs have tools to generate a list of contents for a jar file based on your application.</mrk><mrk mid="1" mtype="seg"> If your application requires classes from other jar files, you have a choice:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Various IDEs have tools to generate a list of contents for a jar file based on your application.</mrk><mrk mid="1" mtype="seg"> If your application requires classes from other jar files, you have a choice:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Extract the required third-party classes from their jar file and include only those classes in your jar file.<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Extract the required third-party classes from their jar file and include only those classes in your jar file.<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Extract the required third-party classes from their jar file and include only those classes in your jar file.<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Use this option when you need only a small subset of the classes in the third-party jar file.</source>
+<seg-source><mrk mid="0" mtype="seg">Use this option when you need only a small subset of the classes in the third-party jar file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use this option when you need only a small subset of the classes in the third-party jar file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Store the third-party jar file in the database.<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Store the third-party jar file in the database.<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Store the third-party jar file in the database.<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Use this option when you need most or all of the classes in the third-party jar file, since your application and third-party logic can be upgraded separately.</source>
+<seg-source><mrk mid="0" mtype="seg">Use this option when you need most or all of the classes in the third-party jar file, since your application and third-party logic can be upgraded separately.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use this option when you need most or all of the classes in the third-party jar file, since your application and third-party logic can be upgraded separately.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Deploy the third-party jar file in the user's class path.<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Deploy the third-party jar file in the user's class path.<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Deploy the third-party jar file in the user's class path.<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Use this option when the classes are already installed on a user's machine (for example, Objectspace's JGL classes).</source>
+<seg-source><mrk mid="0" mtype="seg">Use this option when the classes are already installed on a user's machine (for example, Objectspace's JGL classes).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use this option when the classes are already installed on a user's machine (for example, Objectspace's JGL classes).</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

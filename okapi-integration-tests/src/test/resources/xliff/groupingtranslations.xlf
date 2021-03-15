@@ -1,0 +1,40 @@
+<xliff version='1.2'
+       xmlns='urn:oasis:names:tc:xliff:document:1.2'>
+	   
+<file original='hello.txt' source-language='en' target-language='de'
+       datatype='plaintext'>
+	   
+<body>
+
+<trans-unit id="t1"> 
+   <source>The German acronym v.</source>
+   <target>Niemiecki skrót v. OT oznacza górna pozycje silnika.</target>
+   <note>This segment should be grouped with the next segment.</note>
+</trans-unit>
+
+<trans-unit id="t2">
+   <source> OT signifies the top dead center position for an engine.</source>
+   <target/>
+   <note>The previous segment should be grouped with this segment.</note>
+</trans-unit>
+
+
+<group merged-trans="yes">
+
+<trans-unit id="t3">
+<source>The German acronym v.</source>
+<target equiv-trans="no">Niemiecki skrót v. OT oznacza górna pozycje silnika.</target>
+</trans-unit>
+
+<trans-unit id="t4">
+<source> OT signifies the top dead center position for an engine.</source>
+<target equiv-trans="no"/>
+</trans-unit>
+
+</group>
+
+</body>
+
+</file>
+
+</xliff>

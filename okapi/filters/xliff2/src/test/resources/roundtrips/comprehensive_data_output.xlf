@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0"
+       version="2.0" srcLang="en" trgLang="fr"
+       xmlns:fs="urn:oasis:names:tc:xliff:fs:2.0"
+       xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0"
+       xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0"
+       xmlns:itsxlf="http://www.w3.org/ns/its-xliff/"
+       xmlns:my="myNamespace" my:attr="value1"
+>
+ <file id="f1" canResegment="no" translate="no" srcDir="rtl" trgDir="rtl" original="file1.txt"  my:attr="value2" xml:space="preserve">
+
+  <mda:metadata xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+   <mda:metaGroup category="someCat">
+    <mda:meta type="mtype1">info-mtype1</mda:meta>
+    <mda:metaGroup category="subCat">
+     <mda:meta type="mtype2">info-mtype2</mda:meta>
+    </mda:metaGroup>
+   </mda:metaGroup>
+   <mda:metaGroup category="dog?">
+     <mda:meta type="size">big</mda:meta>
+    <mda:meta type="breed">boxed</mda:meta>
+    <mda:meta type="age">2.5 years</mda:meta>
+    <mda:meta type="cuteness">100%</mda:meta>
+   </mda:metaGroup>
+  </mda:metadata>
+  <skeleton>
+  &lt;span>Some spooky data!&lt;/span>
+  </skeleton>
+  <notes>
+     <note id="one" appliesTo="source" category="yellow">Important note #1!</note>
+   <note id="two" appliesTo="target" priority="2" category="black" >Important note #2!</note>
+    </notes>
+  <group id="1" my:someattribute="anotherValue">
+   <group id="4" my:someOtherAttribute="yet another value! == :a:b:c">
+      <!-- XLIFF Toolkit not providing metadata in group elements -->
+<!--     <mda:metadata>-->
+<!--      <mda:metaGroup category="row_xml_attribute">-->
+<!--       <mda:meta type="style">head</mda:meta>-->
+<!--      </mda:metaGroup>-->
+<!--     </mda:metadata>-->
+    <unit id="22" name="A unit!">
+     <notes>
+      <note id="one" appliesTo="source" category="orange">Note #1 for unit 1</note>
+      <note id="two" appliesTo="source" category="yellow">Note #2 for unit 1</note>
+     </notes>
+     <originalData>
+      <data id="d1">&lt;b></data>
+      <data id="d2">&lt;/b></data>
+     </originalData>
+     <segment id="abc" canResegment="yes" state="reviewed">
+      <source xml:space="preserve">Some source <pc id="stringId" canCopy="no" canDelete="no" dispStart="&lt;b>"  dispEnd="&lt;/b>" dataRefEnd="d2" dataRefStart="d1" >information</pc>.</source>
+      <target xml:space="preserve">Certaines sources <pc id="stringId" canCopy="no" canDelete="no" dispStart="&lt;b>" dispEnd="&lt;/b>" dataRefEnd="d2" dataRefStart="d1"  >informations</pc>.</target>
+     </segment>
+    </unit>
+   </group>
+  </group>
+ </file>
+ <file id="f2" original="file1.txt">
+  <skeleton>
+  &lt;span>Some spooky data!&lt;/span>-->
+  </skeleton>
+    <notes>
+     <note id="one" appliesTo="target" category="blue">Important note for file 2: #1!</note>
+     <note id="two" appliesTo="source" category="blue">Important note for file 2: #2!</note>
+    </notes>
+  <group id="3">
+   <group id="6">
+    <notes>
+     <note id="one" appliesTo="source" category="red">Note #1 for group id 6</note>
+     <note id="two" appliesTo="target" category="green">Note #2 for group id 6</note>
+    </notes>
+    <unit id="8" name="Another Unit!">
+     <notes>
+      <note id="one" appliesTo="source" category="red">Note #1 for file 2, unit 1</note>
+      <note id="two" appliesTo="target" category="green">Note #2 for file 2, unit 1</note>
+     </notes>
+     <originalData>
+      <data id="d1">&lt;b></data>
+      <data id="d2">&lt;/b></data>
+     </originalData>
+     <segment id="1239bca" canResegment="no" state="final">
+      <source xml:space="preserve">Some source <pc id="stringId" canOverlap="yes" canCopy="no" canDelete="no" dispStart="&lt;b>"  dispEnd="&lt;/b>" dataRefEnd="d2" dataRefStart="d1">information</pc>.</source>
+      <target xml:space="preserve">Certaines sources <pc id="stringId" canOverlap="yes" canCopy="no" canDelete="no" dispStart="&lt;b>" dispEnd="&lt;/b>" dataRefEnd="d2" dataRefStart="d1">informations</pc>.</target>
+     </segment>
+     <ignorable>
+      <source>Some text.</source>
+      <target></target>
+     </ignorable>
+     <segment>
+      <source>Text that wont be translated.</source>
+      <target></target>
+     </segment>
+     <ignorable>
+      <source>Some more text...</source>
+      <target>Encore du texte ...</target>
+     </ignorable>
+     <segment>
+<source>[MARKER]Text that will be translated.[MARKER]</source>
+      <target>Texte qui sera traduit.</target>
+     </segment>
+     <ignorable>
+      <source>Even more text!</source>
+      <target></target>
+     </ignorable>
+     <segment>
+      <source>Common ocean birds are Brandt's Cormorant,
+       Double-crested Cormorant, Pelagic Cormorant, Pigeon
+       Guillemot, and Tufted Puffin.</source>
+      <target>Common ocean birds are Brandt's Cormorant,
+       Double-crested Cormorant, Pelagic Cormorant, Pigeon
+       Guillemot, and Tufted Puffin.</target>
+     </segment>
+    </unit>
+   </group>
+  </group>
+ </file>
+</xliff>

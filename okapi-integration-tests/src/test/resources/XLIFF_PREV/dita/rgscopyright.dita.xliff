@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rgscopyright.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Copyright</source>
+<seg-source><mrk mid="0" mtype="seg">Copyright</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Copyright</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-image">&lt;image href="../images/logowithtext.jpg"&gt;</bpt><bpt id="2" ctype="x-alt">&lt;alt&gt;</bpt>Logo for Apache Derby<ept id="2">&lt;/alt&gt;</ept><ept id="1">&lt;/image&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-image">&lt;image href="../images/logowithtext.jpg"&gt;</bpt><bpt id="2" ctype="x-alt">&lt;alt&gt;</bpt>Logo for Apache Derby<ept id="2">&lt;/alt&gt;</ept><ept id="1">&lt;/image&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-image">&lt;image href="../images/logowithtext.jpg"&gt;</bpt><bpt id="2" ctype="x-alt">&lt;alt&gt;</bpt>Logo for Apache Derby<ept id="2">&lt;/alt&gt;</ept><ept id="1">&lt;/image&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Copyright 2004-@COPYRIGHT_YEAR@ The Apache Software Foundation</source>
+<seg-source><mrk mid="0" mtype="seg">Copyright 2004-@COPYRIGHT_YEAR@ The Apache Software Foundation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Copyright 2004-@COPYRIGHT_YEAR@ The Apache Software Foundation</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at <bpt id="1" ctype="x-xref">&lt;xref format="html" href="http://www.apache.org/licenses/LICENSE-2.0"
+scope="external"&gt;</bpt>http://www.apache.org/licenses/LICENSE-2.0<ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.</mrk><mrk mid="1" mtype="seg"> You may obtain a copy of the License at <bpt id="1" ctype="x-xref">&lt;xref format="html" href="http://www.apache.org/licenses/LICENSE-2.0"
+scope="external"&gt;</bpt>http://www.apache.org/licenses/LICENSE-2.0<ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.</mrk><mrk mid="1" mtype="seg"> You may obtain a copy of the License at <bpt id="1" ctype="x-xref">&lt;xref format="html" href="http://www.apache.org/licenses/LICENSE-2.0"
+scope="external"&gt;</bpt>http://www.apache.org/licenses/LICENSE-2.0<ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Related information</source>
+<seg-source><mrk mid="0" mtype="seg">Related information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related information</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="rgslicense.dita#rgslicense"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rgslicense.dita#rgslicense"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rgslicense.dita#rgslicense"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

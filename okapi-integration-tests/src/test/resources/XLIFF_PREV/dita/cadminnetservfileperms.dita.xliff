@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminnetservfileperms.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Controlling database file access</source>
+<seg-source><mrk mid="0" mtype="seg">Controlling database file access</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Controlling database file access</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">When <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> creates new files, the visibility of the new file (that is, which users can access it) is normally determined by the JVM environment and the file location only (that is, by the umask setting on UNIX and Linux systems and by the default file permissions on Windows NTFS).</source>
+<seg-source><mrk mid="0" mtype="seg">When <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> creates new files, the visibility of the new file (that is, which users can access it) is normally determined by the JVM environment and the file location only (that is, by the umask setting on UNIX and Linux systems and by the default file permissions on Windows NTFS).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> creates new files, the visibility of the new file (that is, which users can access it) is normally determined by the JVM environment and the file location only (that is, by the umask setting on UNIX and Linux systems and by the default file permissions on Windows NTFS).</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">derby.storage.useDefaultFilePermissions property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.storage.useDefaultFilePermissions property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.storage.useDefaultFilePermissions property</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">database files</source>
+<seg-source><mrk mid="0" mtype="seg">database files</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">database files</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">specifying permissions with Java SE 7 and up</source>
+<seg-source><mrk mid="0" mtype="seg">specifying permissions with Java SE 7 and up</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">specifying permissions with Java SE 7 and up</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">file permissions</source>
+<seg-source><mrk mid="0" mtype="seg">file permissions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">file permissions</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">specifying with Java SE 7 and up</source>
+<seg-source><mrk mid="0" mtype="seg">specifying with Java SE 7 and up</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">specifying with Java SE 7 and up</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">permissions</source>
+<seg-source><mrk mid="0" mtype="seg">permissions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permissions</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">file, specifying with Java SE 7 and up</source>
+<seg-source><mrk mid="0" mtype="seg">file, specifying with Java SE 7 and up</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">file, specifying with Java SE 7 and up</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">On Java SE 7 or later, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> may further restrict the file permissions to the operating system account that started the Java process (that is, to the minimum access needed for operation). This means that other operating system accounts will have no access to directories or files created by <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>. This behavior can be helpful in enhancing default security for database files.</source>
+<seg-source><mrk mid="0" mtype="seg">On Java SE 7 or later, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> may further restrict the file permissions to the operating system account that started the Java process (that is, to the minimum access needed for operation).</mrk><mrk mid="1" mtype="seg"> This means that other operating system accounts will have no access to directories or files created by <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> This behavior can be helpful in enhancing default security for database files.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">On Java SE 7 or later, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> may further restrict the file permissions to the operating system account that started the Java process (that is, to the minimum access needed for operation).</mrk><mrk mid="1" mtype="seg"> This means that other operating system accounts will have no access to directories or files created by <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> This behavior can be helpful in enhancing default security for database files.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The exact behavior is determined by two factors: how the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine is started, and the presence or absence and specified value of the property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.storage.useDefaultFilePermissions<ept id="2">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The exact behavior is determined by two factors: how the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine is started, and the presence or absence and specified value of the property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.storage.useDefaultFilePermissions<ept id="2">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The exact behavior is determined by two factors: how the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine is started, and the presence or absence and specified value of the property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.storage.useDefaultFilePermissions<ept id="2">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The two tables that follow show how file access works with Java SE 6 and with Java SE 7 and later JVMs. In both tables,</source>
+<seg-source><mrk mid="0" mtype="seg">The two tables that follow show how file access works with Java SE 6 and with Java SE 7 and later JVMs.</mrk><mrk mid="1" mtype="seg"> In both tables,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The two tables that follow show how file access works with Java SE 6 and with Java SE 7 and later JVMs.</mrk><mrk mid="1" mtype="seg"> In both tables,</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">"Environment" means that access is controlled entirely by the JVM environment and the file location only (that is, by the umask setting on UNIX and Linux systems and by the default file permissions on Windows NTFS).</source>
+<seg-source><mrk mid="0" mtype="seg">"Environment" means that access is controlled entirely by the JVM environment and the file location only (that is, by the umask setting on UNIX and Linux systems and by the default file permissions on Windows NTFS).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"Environment" means that access is controlled entirely by the JVM environment and the file location only (that is, by the umask setting on UNIX and Linux systems and by the default file permissions on Windows NTFS).</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">"Restricted" means that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> restricts access to the operating system account that started the JVM.</source>
+<seg-source><mrk mid="0" mtype="seg">"Restricted" means that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> restricts access to the operating system account that started the JVM.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"Restricted" means that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> restricts access to the operating system account that started the JVM.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">The following table shows how file access works on Java SE 6 systems.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table shows how file access works on Java SE 6 systems.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table shows how file access works on Java SE 6 systems.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">File access on Java SE 6 systems</source>
+<seg-source><mrk mid="0" mtype="seg">File access on Java SE 6 systems</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File access on Java SE 6 systems</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">This table shows how access to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> files is controlled on Java SE 6 systems.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows how access to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> files is controlled on Java SE 6 systems.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows how access to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> files is controlled on Java SE 6 systems.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Property Setting</source>
+<seg-source><mrk mid="0" mtype="seg">Property Setting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Property Setting</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Server Started from Command Line</source>
+<seg-source><mrk mid="0" mtype="seg">Server Started from Command Line</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Server Started from Command Line</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Server Started Programmatically or Embedded</source>
+<seg-source><mrk mid="0" mtype="seg">Server Started Programmatically or Embedded</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Server Started Programmatically or Embedded</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Not applicable</source>
+<seg-source><mrk mid="0" mtype="seg">Not applicable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Not applicable</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Environment</source>
+<seg-source><mrk mid="0" mtype="seg">Environment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Environment</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Environment</source>
+<seg-source><mrk mid="0" mtype="seg">Environment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Environment</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">The following table shows how file access works on Java SE 7 and later systems with various settings of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.storage.useDefaultFilePermissions<ept id="1">&lt;/codeph&gt;</ept> property.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table shows how file access works on Java SE 7 and later systems with various settings of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.storage.useDefaultFilePermissions<ept id="1">&lt;/codeph&gt;</ept> property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table shows how file access works on Java SE 7 and later systems with various settings of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.storage.useDefaultFilePermissions<ept id="1">&lt;/codeph&gt;</ept> property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">File access on Java SE 7 and later systems</source>
+<seg-source><mrk mid="0" mtype="seg">File access on Java SE 7 and later systems</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File access on Java SE 7 and later systems</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">This table shows how access to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> files is controlled on Java SE 7 and later systems.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows how access to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> files is controlled on Java SE 7 and later systems.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows how access to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> files is controlled on Java SE 7 and later systems.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">Property Setting</source>
+<seg-source><mrk mid="0" mtype="seg">Property Setting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Property Setting</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Server Started from Command Line</source>
+<seg-source><mrk mid="0" mtype="seg">Server Started from Command Line</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Server Started from Command Line</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">Server Started Programmatically or Embedded</source>
+<seg-source><mrk mid="0" mtype="seg">Server Started Programmatically or Embedded</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Server Started Programmatically or Embedded</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">No property specified</source>
+<seg-source><mrk mid="0" mtype="seg">No property specified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No property specified</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">Restricted</source>
+<seg-source><mrk mid="0" mtype="seg">Restricted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Restricted</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">Environment</source>
+<seg-source><mrk mid="0" mtype="seg">Environment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Environment</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">Property set to true</source>
+<seg-source><mrk mid="0" mtype="seg">Property set to true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Property set to true</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">Environment</source>
+<seg-source><mrk mid="0" mtype="seg">Environment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Environment</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">Environment</source>
+<seg-source><mrk mid="0" mtype="seg">Environment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Environment</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">Property set to false</source>
+<seg-source><mrk mid="0" mtype="seg">Property set to false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Property set to false</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">Restricted</source>
+<seg-source><mrk mid="0" mtype="seg">Restricted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Restricted</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">Restricted</source>
+<seg-source><mrk mid="0" mtype="seg">Restricted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Restricted</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">For more information, see "derby.storage.useDefaultFilePermissions" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information, see "derby.storage.useDefaultFilePermissions" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information, see "derby.storage.useDefaultFilePermissions" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

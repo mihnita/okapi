@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="customer_form.json" source-language="en" target-language="fr" datatype="x-application/json" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1" resname="firstName" xml:space="preserve">
+<source xml:lang="en">John</source>
+<seg-source><mrk mid="0" mtype="seg">John</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">John</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="lastName" xml:space="preserve">
+<source xml:lang="en">Smith</source>
+<seg-source><mrk mid="0" mtype="seg">Smith</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Smith</mrk></target>
+</trans-unit>
+<group id="sg2">
+<trans-unit id="tu3" resname="streetAddress" xml:space="preserve">
+<source xml:lang="en">21 2nd Street</source>
+<seg-source><mrk mid="0" mtype="seg">21 2nd Street</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">21 2nd Street</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="city" xml:space="preserve">
+<source xml:lang="en">New York</source>
+<seg-source><mrk mid="0" mtype="seg">New York</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">New York</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" resname="state" xml:space="preserve">
+<source xml:lang="en">NY</source>
+<seg-source><mrk mid="0" mtype="seg">NY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NY</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="postalCode" xml:space="preserve">
+<source xml:lang="en">10021</source>
+<seg-source><mrk mid="0" mtype="seg">10021</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10021</mrk></target>
+</trans-unit>
+</group>
+<group id="sg3">
+<group id="sg4">
+<trans-unit id="tu7" resname="type" xml:space="preserve">
+<source xml:lang="en">home</source>
+<seg-source><mrk mid="0" mtype="seg">home</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">home</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" resname="number" xml:space="preserve">
+<source xml:lang="en">212 555-1234</source>
+<seg-source><mrk mid="0" mtype="seg">212 555-1234</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">212 555-1234</mrk></target>
+</trans-unit>
+</group>
+<group id="sg5">
+<trans-unit id="tu9" resname="type" xml:space="preserve">
+<source xml:lang="en">fax</source>
+<seg-source><mrk mid="0" mtype="seg">fax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">fax</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" resname="number" xml:space="preserve">
+<source xml:lang="en">646 555-4567</source>
+<seg-source><mrk mid="0" mtype="seg">646 555-4567</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">646 555-4567</mrk></target>
+</trans-unit>
+</group>
+</group>
+</group>
+</body>
+</file>
+</xliff>

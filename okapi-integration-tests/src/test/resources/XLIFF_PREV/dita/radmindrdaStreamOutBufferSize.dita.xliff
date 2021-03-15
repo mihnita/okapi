@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radmindrdaStreamOutBufferSize.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.drda.streamOutBufferSize property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.streamOutBufferSize property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.streamOutBufferSize property</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Configures the size of the buffer for streaming blob/clob data from server to client.</source>
+<seg-source><mrk mid="0" mtype="seg">Configures the size of the buffer for streaming blob/clob data from server to client.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Configures the size of the buffer for streaming blob/clob data from server to client.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">derby.drda.streamOutBufferSize property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.streamOutBufferSize property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.streamOutBufferSize property</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">If the configured size is 0 or less, the buffer is not placed.</source>
+<seg-source><mrk mid="0" mtype="seg">If the configured size is 0 or less, the buffer is not placed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the configured size is 0 or less, the buffer is not placed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">This configuration is used when optimizing streaming blob/clob from server to client.</source>
+<seg-source><mrk mid="0" mtype="seg">This configuration is used when optimizing streaming blob/clob from server to client.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This configuration is used when optimizing streaming blob/clob from server to client.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">If there were found many small packets, of which sizes are much lower than maximum size of packet possible in the network, it will improve performance of streaming to setting this configuration.</source>
+<seg-source><mrk mid="0" mtype="seg">If there were found many small packets, of which sizes are much lower than maximum size of packet possible in the network, it will improve performance of streaming to setting this configuration.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If there were found many small packets, of which sizes are much lower than maximum size of packet possible in the network, it will improve performance of streaming to setting this configuration.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Recommended value of this configuration is maximum packet size possible in the network minus appropriate size for header.</source>
+<seg-source><mrk mid="0" mtype="seg">Recommended value of this configuration is maximum packet size possible in the network minus appropriate size for header.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Recommended value of this configuration is maximum packet size possible in the network minus appropriate size for header.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">derby.drda.streamOutBufferSize=<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>sizeOfBuffer<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.streamOutBufferSize=<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>sizeOfBuffer<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.streamOutBufferSize=<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>sizeOfBuffer<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">0 (zero).</source>
+<seg-source><mrk mid="0" mtype="seg">0 (zero).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 (zero).</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.drda.streamOutBufferSize=1024<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.drda.streamOutBufferSize=1024<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.drda.streamOutBufferSize=1024<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Static or dynamic</source>
+<seg-source><mrk mid="0" mtype="seg">Static or dynamic</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Static or dynamic</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Dynamic. You can change system values by using commands after the Network Server has been started.</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic.</mrk><mrk mid="1" mtype="seg"> You can change system values by using commands after the Network Server has been started.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic.</mrk><mrk mid="1" mtype="seg"> You can change system values by using commands after the Network Server has been started.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

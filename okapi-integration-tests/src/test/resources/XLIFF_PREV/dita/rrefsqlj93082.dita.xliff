@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj93082.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SUBSTR function</source>
+<seg-source><mrk mid="0" mtype="seg">SUBSTR function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SUBSTR function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The SUBSTR function acts on a character string expression or a bit string expression.</source>
+<seg-source><mrk mid="0" mtype="seg">The SUBSTR function acts on a character string expression or a bit string expression.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SUBSTR function acts on a character string expression or a bit string expression.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">functions</source>
+<seg-source><mrk mid="0" mtype="seg">functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SUBSTR</source>
+<seg-source><mrk mid="0" mtype="seg">SUBSTR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SUBSTR</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SUBSTR function</source>
+<seg-source><mrk mid="0" mtype="seg">SUBSTR function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SUBSTR function</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The type of the result is a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj41207.dita#rrefsqlj41207"&gt;</bpt>VARCHAR<ept id="1">&lt;/xref&gt;</ept> in the first case and a <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj32714.dita#rrefsqlj32714"&gt;</bpt>VARCHAR FOR BIT DATA<ept id="2">&lt;/xref&gt;</ept> in the second case. The length of the result is the maximum length of the source type.</source>
+<seg-source><mrk mid="0" mtype="seg">The type of the result is a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj41207.dita#rrefsqlj41207"&gt;</bpt>VARCHAR<ept id="1">&lt;/xref&gt;</ept> in the first case and a <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj32714.dita#rrefsqlj32714"&gt;</bpt>VARCHAR FOR BIT DATA<ept id="2">&lt;/xref&gt;</ept> in the second case.</mrk><mrk mid="1" mtype="seg"> The length of the result is the maximum length of the source type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The type of the result is a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj41207.dita#rrefsqlj41207"&gt;</bpt>VARCHAR<ept id="1">&lt;/xref&gt;</ept> in the first case and a <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj32714.dita#rrefsqlj32714"&gt;</bpt>VARCHAR FOR BIT DATA<ept id="2">&lt;/xref&gt;</ept> in the second case.</mrk><mrk mid="1" mtype="seg"> The length of the result is the maximum length of the source type.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SUBSTR( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="3">&lt;/i&gt;</ept> [, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="4">&lt;/i&gt;</ept> ] )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SUBSTR( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="3">&lt;/i&gt;</ept> [, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="4">&lt;/i&gt;</ept> ] )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SUBSTR( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="3">&lt;/i&gt;</ept> [, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="4">&lt;/i&gt;</ept> ] )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The parameter <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="1">&lt;/i&gt;</ept> and the optional parameter <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="2">&lt;/i&gt;</ept> are both integer expressions. The first character or bit has a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="3">&lt;/i&gt;</ept> of 1. If you specify 0, <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> assumes that you mean 1.</source>
+<seg-source><mrk mid="0" mtype="seg">The parameter <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="1">&lt;/i&gt;</ept> and the optional parameter <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="2">&lt;/i&gt;</ept> are both integer expressions.</mrk><mrk mid="1" mtype="seg"> The first character or bit has a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="3">&lt;/i&gt;</ept> of 1.</mrk><mrk mid="2" mtype="seg"> If you specify 0, <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> assumes that you mean 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The parameter <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="1">&lt;/i&gt;</ept> and the optional parameter <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="2">&lt;/i&gt;</ept> are both integer expressions.</mrk><mrk mid="1" mtype="seg"> The first character or bit has a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="3">&lt;/i&gt;</ept> of 1.</mrk><mrk mid="2" mtype="seg"> If you specify 0, <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> assumes that you mean 1.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The parameter <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept> is a CHAR, VARCHAR, or LONG VARCHAR data type or any built-in type that is implicitly converted to a string (except a bit expression).</source>
+<seg-source><mrk mid="0" mtype="seg">The parameter <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept> is a CHAR, VARCHAR, or LONG VARCHAR data type or any built-in type that is implicitly converted to a string (except a bit expression).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The parameter <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept> is a CHAR, VARCHAR, or LONG VARCHAR data type or any built-in type that is implicitly converted to a string (except a bit expression).</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">For character expressions, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="2">&lt;/i&gt;</ept> parameters refer to characters. For bit expressions, the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="3">&lt;/i&gt;</ept> and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="4">&lt;/i&gt;</ept> parameters refer to bits.</source>
+<seg-source><mrk mid="0" mtype="seg">For character expressions, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="2">&lt;/i&gt;</ept> parameters refer to characters.</mrk><mrk mid="1" mtype="seg"> For bit expressions, the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="3">&lt;/i&gt;</ept> and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="4">&lt;/i&gt;</ept> parameters refer to bits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For character expressions, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="2">&lt;/i&gt;</ept> parameters refer to characters.</mrk><mrk mid="1" mtype="seg"> For bit expressions, the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="3">&lt;/i&gt;</ept> and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="4">&lt;/i&gt;</ept> parameters refer to bits.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">If the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="1">&lt;/i&gt;</ept> is positive, it refers to position from the start of the source expression (counting the first character as 1). The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="2">&lt;/i&gt;</ept> cannot be a negative number.</source>
+<seg-source><mrk mid="0" mtype="seg">If the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="1">&lt;/i&gt;</ept> is positive, it refers to position from the start of the source expression (counting the first character as 1).</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="2">&lt;/i&gt;</ept> cannot be a negative number.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="1">&lt;/i&gt;</ept> is positive, it refers to position from the start of the source expression (counting the first character as 1).</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="2">&lt;/i&gt;</ept> cannot be a negative number.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">If the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="1">&lt;/i&gt;</ept> is not specified, SUBSTR returns the substring of the expression from the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="2">&lt;/i&gt;</ept> to the end of the source expression. If <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="3">&lt;/i&gt;</ept> is specified, SUBSTR returns a VARCHAR or VARBIT of length <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="4">&lt;/i&gt;</ept> starting at the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="5">&lt;/i&gt;</ept>. The SUBSTR function returns an error if you specify a negative number for the parameter <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="6">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="1">&lt;/i&gt;</ept> is not specified, SUBSTR returns the substring of the expression from the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="2">&lt;/i&gt;</ept> to the end of the source expression.</mrk><mrk mid="1" mtype="seg"> If <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="3">&lt;/i&gt;</ept> is specified, SUBSTR returns a VARCHAR or VARBIT of length <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="4">&lt;/i&gt;</ept> starting at the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="5">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> The SUBSTR function returns an error if you specify a negative number for the parameter <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="6">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="1">&lt;/i&gt;</ept> is not specified, SUBSTR returns the substring of the expression from the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="2">&lt;/i&gt;</ept> to the end of the source expression.</mrk><mrk mid="1" mtype="seg"> If <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="3">&lt;/i&gt;</ept> is specified, SUBSTR returns a VARCHAR or VARBIT of length <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="4">&lt;/i&gt;</ept> starting at the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="5">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> The SUBSTR function returns an error if you specify a negative number for the parameter <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>lengthOfString<ept id="6">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">To return a substring of the word <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>hello<ept id="1">&lt;/codeph&gt;</ept>, starting at the second character and continuing until the end of the word, use the following clause:</source>
+<seg-source><mrk mid="0" mtype="seg">To return a substring of the word <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>hello<ept id="1">&lt;/codeph&gt;</ept>, starting at the second character and continuing until the end of the word, use the following clause:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To return a substring of the word <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>hello<ept id="1">&lt;/codeph&gt;</ept>, starting at the second character and continuing until the end of the word, use the following clause:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SUBSTR('hello', 2)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SUBSTR('hello', 2)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SUBSTR('hello', 2)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">The result is '<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ello<ept id="1">&lt;/codeph&gt;</ept>'.</source>
+<seg-source><mrk mid="0" mtype="seg">The result is '<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ello<ept id="1">&lt;/codeph&gt;</ept>'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The result is '<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ello<ept id="1">&lt;/codeph&gt;</ept>'.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">To return a substring of the word <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>hello<ept id="1">&lt;/codeph&gt;</ept>, starting at the first character and continuing for two characters, use the following clause:</source>
+<seg-source><mrk mid="0" mtype="seg">To return a substring of the word <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>hello<ept id="1">&lt;/codeph&gt;</ept>, starting at the first character and continuing for two characters, use the following clause:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To return a substring of the word <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>hello<ept id="1">&lt;/codeph&gt;</ept>, starting at the first character and continuing for two characters, use the following clause:</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SUBSTR('hello',1,2)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SUBSTR('hello',1,2)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SUBSTR('hello',1,2)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">The result is '<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>he<ept id="1">&lt;/codeph&gt;</ept>'.</source>
+<seg-source><mrk mid="0" mtype="seg">The result is '<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>he<ept id="1">&lt;/codeph&gt;</ept>'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The result is '<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>he<ept id="1">&lt;/codeph&gt;</ept>'.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

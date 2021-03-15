@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="test05.json" source-language="en" target-language="fr" datatype="x-application/json" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<group id="sg2">
+<group id="sg3">
+<group id="sg4">
+<trans-unit id="tu1" resname="servlet-name" xml:space="preserve">
+<source xml:lang="en">cofaxCDS</source>
+<seg-source><mrk mid="0" mtype="seg">cofaxCDS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cofaxCDS</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="servlet-class" xml:space="preserve">
+<source xml:lang="en">org.cofax.cds.CDSServlet</source>
+<seg-source><mrk mid="0" mtype="seg">org.cofax.cds.CDSServlet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.cofax.cds.CDSServlet</mrk></target>
+</trans-unit>
+<group id="sg5">
+<trans-unit id="tu3" resname="configGlossary:installationAt" xml:space="preserve">
+<source xml:lang="en">Philadelphia, PA</source>
+<seg-source><mrk mid="0" mtype="seg">Philadelphia, PA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Philadelphia, PA</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="configGlossary:adminEmail" xml:space="preserve">
+<source xml:lang="en">ksm@pobox.com</source>
+<seg-source><mrk mid="0" mtype="seg">ksm@pobox.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ksm@pobox.com</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" resname="configGlossary:poweredBy" xml:space="preserve">
+<source xml:lang="en">Cofax</source>
+<seg-source><mrk mid="0" mtype="seg">Cofax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cofax</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="configGlossary:poweredByIcon" xml:space="preserve">
+<source xml:lang="en">/images/cofax.gif</source>
+<seg-source><mrk mid="0" mtype="seg">/images/cofax.gif</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/images/cofax.gif</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" resname="configGlossary:staticPath" xml:space="preserve">
+<source xml:lang="en">/content/static</source>
+<seg-source><mrk mid="0" mtype="seg">/content/static</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/content/static</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" resname="templateProcessorClass" xml:space="preserve">
+<source xml:lang="en">org.cofax.WysiwygTemplate</source>
+<seg-source><mrk mid="0" mtype="seg">org.cofax.WysiwygTemplate</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.cofax.WysiwygTemplate</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" resname="templateLoaderClass" xml:space="preserve">
+<source xml:lang="en">org.cofax.FilesTemplateLoader</source>
+<seg-source><mrk mid="0" mtype="seg">org.cofax.FilesTemplateLoader</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.cofax.FilesTemplateLoader</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" resname="templatePath" xml:space="preserve">
+<source xml:lang="en">templates</source>
+<seg-source><mrk mid="0" mtype="seg">templates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">templates</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" resname="templateOverridePath" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu12" resname="defaultListTemplate" xml:space="preserve">
+<source xml:lang="en">listTemplate.htm</source>
+<seg-source><mrk mid="0" mtype="seg">listTemplate.htm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">listTemplate.htm</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" resname="defaultFileTemplate" xml:space="preserve">
+<source xml:lang="en">articleTemplate.htm</source>
+<seg-source><mrk mid="0" mtype="seg">articleTemplate.htm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">articleTemplate.htm</mrk></target>
+</trans-unit>
+<trans-unit id="tu14" resname="jspListTemplate" xml:space="preserve">
+<source xml:lang="en">listTemplate.jsp</source>
+<seg-source><mrk mid="0" mtype="seg">listTemplate.jsp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">listTemplate.jsp</mrk></target>
+</trans-unit>
+<trans-unit id="tu15" resname="jspFileTemplate" xml:space="preserve">
+<source xml:lang="en">articleTemplate.jsp</source>
+<seg-source><mrk mid="0" mtype="seg">articleTemplate.jsp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">articleTemplate.jsp</mrk></target>
+</trans-unit>
+<trans-unit id="tu16" resname="searchEngineListTemplate" xml:space="preserve">
+<source xml:lang="en">forSearchEnginesList.htm</source>
+<seg-source><mrk mid="0" mtype="seg">forSearchEnginesList.htm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">forSearchEnginesList.htm</mrk></target>
+</trans-unit>
+<trans-unit id="tu17" resname="searchEngineFileTemplate" xml:space="preserve">
+<source xml:lang="en">forSearchEngines.htm</source>
+<seg-source><mrk mid="0" mtype="seg">forSearchEngines.htm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">forSearchEngines.htm</mrk></target>
+</trans-unit>
+<trans-unit id="tu18" resname="searchEngineRobotsDb" xml:space="preserve">
+<source xml:lang="en">WEB-INF/robots.db</source>
+<seg-source><mrk mid="0" mtype="seg">WEB-INF/robots.db</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WEB-INF/robots.db</mrk></target>
+</trans-unit>
+<trans-unit id="tu19" resname="dataStoreClass" xml:space="preserve">
+<source xml:lang="en">org.cofax.SqlDataStore</source>
+<seg-source><mrk mid="0" mtype="seg">org.cofax.SqlDataStore</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.cofax.SqlDataStore</mrk></target>
+</trans-unit>
+<trans-unit id="tu20" resname="redirectionClass" xml:space="preserve">
+<source xml:lang="en">org.cofax.SqlRedirection</source>
+<seg-source><mrk mid="0" mtype="seg">org.cofax.SqlRedirection</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.cofax.SqlRedirection</mrk></target>
+</trans-unit>
+<trans-unit id="tu21" resname="dataStoreName" xml:space="preserve">
+<source xml:lang="en">cofax</source>
+<seg-source><mrk mid="0" mtype="seg">cofax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cofax</mrk></target>
+</trans-unit>
+<trans-unit id="tu22" resname="dataStoreDriver" xml:space="preserve">
+<source xml:lang="en">com.microsoft.jdbc.sqlserver.SQLServerDriver</source>
+<seg-source><mrk mid="0" mtype="seg">com.microsoft.jdbc.sqlserver.SQLServerDriver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">com.microsoft.jdbc.sqlserver.SQLServerDriver</mrk></target>
+</trans-unit>
+<trans-unit id="tu23" resname="dataStoreUrl" xml:space="preserve">
+<source xml:lang="en">jdbc:microsoft:sqlserver://LOCALHOST:1433;DatabaseName=goon</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:microsoft:sqlserver://LOCALHOST:1433;DatabaseName=goon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:microsoft:sqlserver://LOCALHOST:1433;DatabaseName=goon</mrk></target>
+</trans-unit>
+<trans-unit id="tu24" resname="dataStoreUser" xml:space="preserve">
+<source xml:lang="en">sa</source>
+<seg-source><mrk mid="0" mtype="seg">sa</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sa</mrk></target>
+</trans-unit>
+<trans-unit id="tu25" resname="dataStorePassword" xml:space="preserve">
+<source xml:lang="en">dataStoreTestQuery</source>
+<seg-source><mrk mid="0" mtype="seg">dataStoreTestQuery</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dataStoreTestQuery</mrk></target>
+</trans-unit>
+<trans-unit id="tu26" resname="dataStoreTestQuery" xml:space="preserve">
+<source xml:lang="en">SET NOCOUNT ON;select test='test';</source>
+<seg-source><mrk mid="0" mtype="seg">SET NOCOUNT ON;select test='test';</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SET NOCOUNT ON;select test='test';</mrk></target>
+</trans-unit>
+<trans-unit id="tu27" resname="dataStoreLogFile" xml:space="preserve">
+<source xml:lang="en">/usr/local/tomcat/logs/datastore.log</source>
+<seg-source><mrk mid="0" mtype="seg">/usr/local/tomcat/logs/datastore.log</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/usr/local/tomcat/logs/datastore.log</mrk></target>
+</trans-unit>
+<trans-unit id="tu28" resname="dataStoreLogLevel" xml:space="preserve">
+<source xml:lang="en">debug</source>
+<seg-source><mrk mid="0" mtype="seg">debug</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">debug</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg6">
+<trans-unit id="tu29" resname="servlet-name" xml:space="preserve">
+<source xml:lang="en">cofaxEmail</source>
+<seg-source><mrk mid="0" mtype="seg">cofaxEmail</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cofaxEmail</mrk></target>
+</trans-unit>
+<trans-unit id="tu30" resname="servlet-class" xml:space="preserve">
+<source xml:lang="en">org.cofax.cds.EmailServlet</source>
+<seg-source><mrk mid="0" mtype="seg">org.cofax.cds.EmailServlet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.cofax.cds.EmailServlet</mrk></target>
+</trans-unit>
+<group id="sg7">
+<trans-unit id="tu31" resname="mailHost" xml:space="preserve">
+<source xml:lang="en">mail1</source>
+<seg-source><mrk mid="0" mtype="seg">mail1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mail1</mrk></target>
+</trans-unit>
+<trans-unit id="tu32" resname="mailHostOverride" xml:space="preserve">
+<source xml:lang="en">mail2</source>
+<seg-source><mrk mid="0" mtype="seg">mail2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mail2</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg8">
+<trans-unit id="tu33" resname="servlet-name" xml:space="preserve">
+<source xml:lang="en">cofaxAdmin</source>
+<seg-source><mrk mid="0" mtype="seg">cofaxAdmin</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cofaxAdmin</mrk></target>
+</trans-unit>
+<trans-unit id="tu34" resname="servlet-class" xml:space="preserve">
+<source xml:lang="en">org.cofax.cds.AdminServlet</source>
+<seg-source><mrk mid="0" mtype="seg">org.cofax.cds.AdminServlet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.cofax.cds.AdminServlet</mrk></target>
+</trans-unit>
+</group>
+<group id="sg9">
+<trans-unit id="tu35" resname="servlet-name" xml:space="preserve">
+<source xml:lang="en">fileServlet</source>
+<seg-source><mrk mid="0" mtype="seg">fileServlet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">fileServlet</mrk></target>
+</trans-unit>
+<trans-unit id="tu36" resname="servlet-class" xml:space="preserve">
+<source xml:lang="en">org.cofax.cds.FileServlet</source>
+<seg-source><mrk mid="0" mtype="seg">org.cofax.cds.FileServlet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.cofax.cds.FileServlet</mrk></target>
+</trans-unit>
+</group>
+<group id="sg10">
+<trans-unit id="tu37" resname="servlet-name" xml:space="preserve">
+<source xml:lang="en">cofaxTools</source>
+<seg-source><mrk mid="0" mtype="seg">cofaxTools</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cofaxTools</mrk></target>
+</trans-unit>
+<trans-unit id="tu38" resname="servlet-class" xml:space="preserve">
+<source xml:lang="en">org.cofax.cms.CofaxToolsServlet</source>
+<seg-source><mrk mid="0" mtype="seg">org.cofax.cms.CofaxToolsServlet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.cofax.cms.CofaxToolsServlet</mrk></target>
+</trans-unit>
+<group id="sg11">
+<trans-unit id="tu39" resname="templatePath" xml:space="preserve">
+<source xml:lang="en">toolstemplates/</source>
+<seg-source><mrk mid="0" mtype="seg">toolstemplates/</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">toolstemplates/</mrk></target>
+</trans-unit>
+<trans-unit id="tu40" resname="logLocation" xml:space="preserve">
+<source xml:lang="en">/usr/local/tomcat/logs/CofaxTools.log</source>
+<seg-source><mrk mid="0" mtype="seg">/usr/local/tomcat/logs/CofaxTools.log</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/usr/local/tomcat/logs/CofaxTools.log</mrk></target>
+</trans-unit>
+<trans-unit id="tu41" resname="logMaxSize" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu42" resname="dataLogLocation" xml:space="preserve">
+<source xml:lang="en">/usr/local/tomcat/logs/dataLog.log</source>
+<seg-source><mrk mid="0" mtype="seg">/usr/local/tomcat/logs/dataLog.log</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/usr/local/tomcat/logs/dataLog.log</mrk></target>
+</trans-unit>
+<trans-unit id="tu43" resname="dataLogMaxSize" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu44" resname="removePageCache" xml:space="preserve">
+<source xml:lang="en">/content/admin/remove?cache=pages&amp;id=</source>
+<seg-source><mrk mid="0" mtype="seg">/content/admin/remove?cache=pages&amp;id=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/content/admin/remove?cache=pages&amp;id=</mrk></target>
+</trans-unit>
+<trans-unit id="tu45" resname="removeTemplateCache" xml:space="preserve">
+<source xml:lang="en">/content/admin/remove?cache=templates&amp;id=</source>
+<seg-source><mrk mid="0" mtype="seg">/content/admin/remove?cache=templates&amp;id=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/content/admin/remove?cache=templates&amp;id=</mrk></target>
+</trans-unit>
+<trans-unit id="tu46" resname="fileTransferFolder" xml:space="preserve">
+<source xml:lang="en">/usr/local/tomcat/webapps/content/fileTransferFolder</source>
+<seg-source><mrk mid="0" mtype="seg">/usr/local/tomcat/webapps/content/fileTransferFolder</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/usr/local/tomcat/webapps/content/fileTransferFolder</mrk></target>
+</trans-unit>
+</group>
+</group>
+</group>
+<group id="sg12">
+<trans-unit id="tu47" resname="cofaxCDS" xml:space="preserve">
+<source xml:lang="en">/</source>
+<seg-source><mrk mid="0" mtype="seg">/</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/</mrk></target>
+</trans-unit>
+<trans-unit id="tu48" resname="cofaxEmail" xml:space="preserve">
+<source xml:lang="en">/cofaxutil/aemail/*</source>
+<seg-source><mrk mid="0" mtype="seg">/cofaxutil/aemail/*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/cofaxutil/aemail/*</mrk></target>
+</trans-unit>
+<trans-unit id="tu49" resname="cofaxAdmin" xml:space="preserve">
+<source xml:lang="en">/admin/*</source>
+<seg-source><mrk mid="0" mtype="seg">/admin/*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/admin/*</mrk></target>
+</trans-unit>
+<trans-unit id="tu50" resname="fileServlet" xml:space="preserve">
+<source xml:lang="en">/static/*</source>
+<seg-source><mrk mid="0" mtype="seg">/static/*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/static/*</mrk></target>
+</trans-unit>
+<trans-unit id="tu51" resname="cofaxTools" xml:space="preserve">
+<source xml:lang="en">/tools/*</source>
+<seg-source><mrk mid="0" mtype="seg">/tools/*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/tools/*</mrk></target>
+</trans-unit>
+</group>
+<group id="sg13">
+<trans-unit id="tu52" resname="taglib-uri" xml:space="preserve">
+<source xml:lang="en">cofax.tld</source>
+<seg-source><mrk mid="0" mtype="seg">cofax.tld</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cofax.tld</mrk></target>
+</trans-unit>
+<trans-unit id="tu53" resname="taglib-location" xml:space="preserve">
+<source xml:lang="en">/WEB-INF/tlds/cofax.tld</source>
+<seg-source><mrk mid="0" mtype="seg">/WEB-INF/tlds/cofax.tld</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/WEB-INF/tlds/cofax.tld</mrk></target>
+</trans-unit>
+</group>
+</group>
+</group>
+</body>
+</file>
+</xliff>

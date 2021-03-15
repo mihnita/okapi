@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="/Test01.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="windows-1252">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M28" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Text attribute</source>
+<seg-source><mrk mid="0" mtype="seg">Text attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text attribute</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Paragraph.</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraph.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraph.</mrk></target>
+</trans-unit>
+<trans-unit id="3" resname="ID1">
+<source xml:lang="en">Paragraph 2</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraph 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraph 2</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Text with <bpt id="1" ctype="x-g"></bpt>code<ept id="1"></ept> and <bpt id="2" ctype="x-g"></bpt>bold<ept id="2"></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Text with <bpt id="1" ctype="x-g"></bpt>code<ept id="1"></ept> and <bpt id="2" ctype="x-g"></bpt>bold<ept id="2"></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text with <bpt id="1" ctype="x-g"></bpt>code<ept id="1"></ept> and <bpt id="2" ctype="x-g"></bpt>bold<ept id="2"></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Text of the footnote</source>
+<seg-source><mrk mid="0" mtype="seg">Text of the footnote</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text of the footnote</mrk></target>
+</trans-unit>
+<trans-unit id="6" resname="OtherID">
+<source xml:lang="en">Text with a footnote<ph id="1" ctype="x-x"></ph> and more text</source>
+<seg-source><mrk mid="0" mtype="seg">Text with a footnote<ph id="1" ctype="x-x"></ph> and more text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text with a footnote<ph id="1" ctype="x-x"></ph> and more text</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Text with <bpt id="2" ctype="x-g"></bpt><ph id="1" ctype="x-x"></ph><ept id="2"></ept> and more text.</source>
+<seg-source><mrk mid="0" mtype="seg">Text with <bpt id="2" ctype="x-g"></bpt><ph id="1" ctype="x-x"></ph><ept id="2"></ept> and more text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text with <bpt id="2" ctype="x-g"></bpt><ph id="1" ctype="x-x"></ph><ept id="2"></ept> and more text.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Sentence 1. Sentence 2.</source>
+<seg-source><mrk mid="0" mtype="seg">Sentence 1.</mrk> <mrk mid="1" mtype="seg">Sentence 2.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sentence 1.</mrk> <mrk mid="1" mtype="seg">Sentence 2.</mrk></target>
+</trans-unit>
+<trans-unit id="11withWarning">
+<source xml:lang="en">Sentence 1. Sentence 2.</source>
+<seg-source><mrk mid="0" mtype="seg">Sentence 1.</mrk><mrk mid="1" mtype="seg"> Sentence 2.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sentence 1.</mrk><mrk mid="1" mtype="seg"> Sentence 2.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

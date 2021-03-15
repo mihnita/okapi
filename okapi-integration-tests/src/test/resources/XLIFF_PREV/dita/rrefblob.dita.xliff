@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefblob.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">BLOB data type</source>
+<seg-source><mrk mid="0" mtype="seg">BLOB data type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BLOB data type</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">BLOB data type</source>
+<seg-source><mrk mid="0" mtype="seg">BLOB data type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BLOB data type</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">A BLOB (binary large object) is a varying-length binary string that can be up to 2,147,483,647 characters long. Like other binary types, BLOB strings are not associated with a code page. In addition, BLOB strings do not hold character data.</source>
+<seg-source><mrk mid="0" mtype="seg">A BLOB (binary large object) is a varying-length binary string that can be up to 2,147,483,647 characters long.</mrk><mrk mid="1" mtype="seg"> Like other binary types, BLOB strings are not associated with a code page.</mrk><mrk mid="2" mtype="seg"> In addition, BLOB strings do not hold character data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A BLOB (binary large object) is a varying-length binary string that can be up to 2,147,483,647 characters long.</mrk><mrk mid="1" mtype="seg"> Like other binary types, BLOB strings are not associated with a code page.</mrk><mrk mid="2" mtype="seg"> In addition, BLOB strings do not hold character data.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The length is given in bytes for BLOB unless one of the suffixes K, M, or G is given, relating to the multiples of 1024, 1024*1024, 1024*1024*1024 respectively.</source>
+<seg-source><mrk mid="0" mtype="seg">The length is given in bytes for BLOB unless one of the suffixes K, M, or G is given, relating to the multiples of 1024, 1024*1024, 1024*1024*1024 respectively.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The length is given in bytes for BLOB unless one of the suffixes K, M, or G is given, relating to the multiples of 1024, 1024*1024, 1024*1024*1024 respectively.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Length is specified in bytes for BLOB.</source>
+<seg-source><mrk mid="0" mtype="seg">Length is specified in bytes for BLOB.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Length is specified in bytes for BLOB.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> { BLOB | BINARY LARGE OBJECT } [ ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>length<ept id="2">&lt;/i&gt;</ept> [{K |M |G }] ) ] <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> { BLOB | BINARY LARGE OBJECT } [ ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>length<ept id="2">&lt;/i&gt;</ept> [{K |M |G }] ) ] <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> { BLOB | BINARY LARGE OBJECT } [ ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>length<ept id="2">&lt;/i&gt;</ept> [{K |M |G }] ) ] <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">A BLOB without a specified length is defaulted to two gigabytes (2,147,483,647).</source>
+<seg-source><mrk mid="0" mtype="seg">A BLOB without a specified length is defaulted to two gigabytes (2,147,483,647).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A BLOB without a specified length is defaulted to two gigabytes (2,147,483,647).</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Corresponding compile-time Java type</source>
+<seg-source><mrk mid="0" mtype="seg">Corresponding compile-time Java type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Corresponding compile-time Java type</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">JDBC metadata type (java.sql.Types)</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC metadata type (java.sql.Types)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC metadata type (java.sql.Types)</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">BLOB</source>
+<seg-source><mrk mid="0" mtype="seg">BLOB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BLOB</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getBlob<ept id="1">&lt;/i&gt;</ept> method on the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet<ept id="2">&lt;/i&gt;</ept> to retrieve a BLOB handle to the underlying data.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getBlob<ept id="1">&lt;/i&gt;</ept> method on the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet<ept id="2">&lt;/i&gt;</ept> to retrieve a BLOB handle to the underlying data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getBlob<ept id="1">&lt;/i&gt;</ept> method on the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet<ept id="2">&lt;/i&gt;</ept> to retrieve a BLOB handle to the underlying data.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Related information</source>
+<seg-source><mrk mid="0" mtype="seg">Related information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related information</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefjdbc96386.dita#rrefjdbc96386"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefjdbc96386.dita#rrefjdbc96386"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefjdbc96386.dita#rrefjdbc96386"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>create table pictures(name varchar(32) not null primary key, pic blob(16M)); <ept id="2">&lt;/ph&gt;</ept> -- find all logotype pictures select length(pic), name from pictures where name like '%logo%'; -- find all image doubles (blob comparisons) select a.name as double_one, b.name as double_two from pictures as a, pictures as b where a.name &lt; b.name and a.pic = b.pic order by 1,2;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>create table pictures(name varchar(32) not null primary key, pic blob(16M)); <ept id="2">&lt;/ph&gt;</ept> -- find all logotype pictures select length(pic), name from pictures where name like '%logo%'; -- find all image doubles (blob comparisons) select a.name as double_one, b.name as double_two from pictures as a, pictures as b where a.name &lt; b.name and a.pic = b.pic order by 1,2;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>create table pictures(name varchar(32) not null primary key, pic blob(16M)); <ept id="2">&lt;/ph&gt;</ept> -- find all logotype pictures select length(pic), name from pictures where name like '%logo%'; -- find all image doubles (blob comparisons) select a.name as double_one, b.name as double_two from pictures as a, pictures as b where a.name &lt; b.name and a.pic = b.pic order by 1,2;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Using an INSERT statement to put BLOB data into a table has some limitations if you need to cast a long string constant to a BLOB. (See <bpt id="1" ctype="x-xref">&lt;xref href="rrefstringlimits.dita#rrefstringlimits"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.) You may be better off using a binary stream, as in the following code fragment.</source>
+<seg-source><mrk mid="0" mtype="seg">Using an INSERT statement to put BLOB data into a table has some limitations if you need to cast a long string constant to a BLOB.</mrk><mrk mid="1" mtype="seg"> (See <bpt id="1" ctype="x-xref">&lt;xref href="rrefstringlimits.dita#rrefstringlimits"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.) You may be better off using a binary stream, as in the following code fragment.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using an INSERT statement to put BLOB data into a table has some limitations if you need to cast a long string constant to a BLOB.</mrk><mrk mid="1" mtype="seg"> (See <bpt id="1" ctype="x-xref">&lt;xref href="rrefstringlimits.dita#rrefstringlimits"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.) You may be better off using a binary stream, as in the following code fragment.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">String url = "jdbc:derby:blobby;create=true"; Connection conn = DriverManager.getConnection(url); Statement s = conn.createStatement(); s.executeUpdate( "CREATE TABLE images (id INT, img BLOB)"); // - first, create an input stream InputStream fin = new FileInputStream("image.jpg"); PreparedStatement ps = conn.prepareStatement( "INSERT INTO images VALUES (?, ?)"); ps.setInt(1, 1477); // - set the value of the input parameter to the input stream ps.setBinaryStream(2, fin); ps.execute(); // --- reading the columns ResultSet rs = s.executeQuery( "SELECT img FROM images WHERE id = 1477"); byte buff[] = new byte[1024]; while (rs.next()) { Blob ablob = rs.getBlob(1); File newfile = new File("newimage.jpg"); InputStream is = ablob.getBinaryStream(); FileOutputStream fos = new FileOutputStream(newfile); for (int b = is.read(buff); b != -1; b = is.read(buff)) { fos.write(buff, 0, b); } is.close(); fos.close(); } s.close(); ps.close(); rs.close(); conn.close();</source>
+<seg-source><mrk mid="0" mtype="seg">String url = "jdbc:derby:blobby;create=true"; Connection conn = DriverManager.getConnection(url); Statement s = conn.createStatement(); s.executeUpdate( "CREATE TABLE images (id INT, img BLOB)"); // - first, create an input stream InputStream fin = new FileInputStream("image.jpg"); PreparedStatement ps = conn.prepareStatement( "INSERT INTO images VALUES (?, ?)"); ps.setInt(1, 1477); // - set the value of the input parameter to the input stream ps.setBinaryStream(2, fin); ps.execute(); // --- reading the columns ResultSet rs = s.executeQuery( "SELECT img FROM images WHERE id = 1477"); byte buff[] = new byte[1024]; while (rs.next()) { Blob ablob = rs.getBlob(1); File newfile = new File("newimage.jpg"); InputStream is = ablob.getBinaryStream(); FileOutputStream fos = new FileOutputStream(newfile); for (int b = is.read(buff); b != -1; b = is.read(buff)) { fos.write(buff, 0, b); } is.close(); fos.close(); } s.close(); ps.close(); rs.close(); conn.close();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String url = "jdbc:derby:blobby;create=true"; Connection conn = DriverManager.getConnection(url); Statement s = conn.createStatement(); s.executeUpdate( "CREATE TABLE images (id INT, img BLOB)"); // - first, create an input stream InputStream fin = new FileInputStream("image.jpg"); PreparedStatement ps = conn.prepareStatement( "INSERT INTO images VALUES (?, ?)"); ps.setInt(1, 1477); // - set the value of the input parameter to the input stream ps.setBinaryStream(2, fin); ps.execute(); // --- reading the columns ResultSet rs = s.executeQuery( "SELECT img FROM images WHERE id = 1477"); byte buff[] = new byte[1024]; while (rs.next()) { Blob ablob = rs.getBlob(1); File newfile = new File("newimage.jpg"); InputStream is = ablob.getBinaryStream(); FileOutputStream fos = new FileOutputStream(newfile); for (int b = is.read(buff); b != -1; b = is.read(buff)) { fos.write(buff, 0, b); } is.close(); fos.close(); } s.close(); ps.close(); rs.close(); conn.close();</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevadvjdbc41138.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Offering connection choices to the user</source>
+<seg-source><mrk mid="0" mtype="seg">Offering connection choices to the user</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Offering connection choices to the user</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">JDBC's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Driver.getPropertyInfo<ept id="1">&lt;/i&gt;</ept> method allows a generic GUI tool to determine the properties for which it should prompt a user in order to get enough information to connect to a database. Depending on the values the user has supplied so far, additional values might become necessary. It might be necessary to iterate though several calls to <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Driver.getPropertyInfo<ept id="1">&lt;/i&gt;</ept> method allows a generic GUI tool to determine the properties for which it should prompt a user in order to get enough information to connect to a database.</mrk><mrk mid="1" mtype="seg"> Depending on the values the user has supplied so far, additional values might become necessary.</mrk><mrk mid="2" mtype="seg"> It might be necessary to iterate though several calls to <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Driver.getPropertyInfo<ept id="1">&lt;/i&gt;</ept> method allows a generic GUI tool to determine the properties for which it should prompt a user in order to get enough information to connect to a database.</mrk><mrk mid="1" mtype="seg"> Depending on the values the user has supplied so far, additional values might become necessary.</mrk><mrk mid="2" mtype="seg"> It might be necessary to iterate though several calls to <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">java.sql.Driver.getPropertyInfo</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.Driver.getPropertyInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.Driver.getPropertyInfo</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Available databases</source>
+<seg-source><mrk mid="0" mtype="seg">Available databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Available databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">list of provided by databaseName attribute</source>
+<seg-source><mrk mid="0" mtype="seg">list of provided by databaseName attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">list of provided by databaseName attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">If no more properties are necessary, the call returns an array of zero length.</source>
+<seg-source><mrk mid="0" mtype="seg">If no more properties are necessary, the call returns an array of zero length.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If no more properties are necessary, the call returns an array of zero length.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">In a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, do not use the method against an instance of <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.EmbeddedDriver<ept id="2">&lt;/i&gt;</ept>. Instead, request the JDBC driver from the driver manager:</source>
+<seg-source><mrk mid="0" mtype="seg">In a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, do not use the method against an instance of <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.EmbeddedDriver<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Instead, request the JDBC driver from the driver manager:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, do not use the method against an instance of <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.EmbeddedDriver<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Instead, request the JDBC driver from the driver manager:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">java.sql.DriverManager.getDriver( "jdbc:derby:").getPropertyInfo(<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>URL<ept id="1">&lt;/i&gt;</ept>, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Prop<ept id="2">&lt;/i&gt;</ept>)</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.DriverManager.getDriver( "jdbc:derby:").getPropertyInfo(<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>URL<ept id="1">&lt;/i&gt;</ept>, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Prop<ept id="2">&lt;/i&gt;</ept>)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.DriverManager.getDriver( "jdbc:derby:").getPropertyInfo(<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>URL<ept id="1">&lt;/i&gt;</ept>, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Prop<ept id="2">&lt;/i&gt;</ept>)</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">In a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, the properties returned in the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>DriverPropertyInfo<ept id="2">&lt;/i&gt;</ept> object are connection URL attributes, including a list of booted databases in a system (the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="3">&lt;/i&gt;</ept> attribute).</source>
+<seg-source><mrk mid="0" mtype="seg">In a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, the properties returned in the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>DriverPropertyInfo<ept id="2">&lt;/i&gt;</ept> object are connection URL attributes, including a list of booted databases in a system (the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="3">&lt;/i&gt;</ept> attribute).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, the properties returned in the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>DriverPropertyInfo<ept id="2">&lt;/i&gt;</ept> object are connection URL attributes, including a list of booted databases in a system (the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="3">&lt;/i&gt;</ept> attribute).</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Databases in a system are not automatically booted until you connect with them. You can configure your system to retain the former behavior, in which case the steps described in this section will continue to work. See "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.bootAll<ept id="1">&lt;/i&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Databases in a system are not automatically booted until you connect with them.</mrk><mrk mid="1" mtype="seg"> You can configure your system to retain the former behavior, in which case the steps described in this section will continue to work.</mrk><mrk mid="2" mtype="seg"> See "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.bootAll<ept id="1">&lt;/i&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Databases in a system are not automatically booted until you connect with them.</mrk><mrk mid="1" mtype="seg"> You can configure your system to retain the former behavior, in which case the steps described in this section will continue to work.</mrk><mrk mid="2" mtype="seg"> See "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.bootAll<ept id="1">&lt;/i&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="1">&lt;/i&gt;</ept> requires a connection URL and a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="2">&lt;/i&gt;</ept> object as parameters. Typically, what you pass are values that you will use in a future call to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.DriverManager.getConnection<ept id="3">&lt;/i&gt;</ept> when you actually connect to the database.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="1">&lt;/i&gt;</ept> requires a connection URL and a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="2">&lt;/i&gt;</ept> object as parameters.</mrk><mrk mid="1" mtype="seg"> Typically, what you pass are values that you will use in a future call to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.DriverManager.getConnection<ept id="3">&lt;/i&gt;</ept> when you actually connect to the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="1">&lt;/i&gt;</ept> requires a connection URL and a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="2">&lt;/i&gt;</ept> object as parameters.</mrk><mrk mid="1" mtype="seg"> Typically, what you pass are values that you will use in a future call to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.DriverManager.getConnection<ept id="3">&lt;/i&gt;</ept> when you actually connect to the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">A call to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="1">&lt;/i&gt;</ept> with parameters that contain sufficient information to connect successfully returns an array of zero length. (Receiving this zero-length array does not <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>guarantee<ept id="2">&lt;/i&gt;</ept> that the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>getConnection<ept id="3">&lt;/i&gt;</ept> call will succeed, because something else could go wrong.)</source>
+<seg-source><mrk mid="0" mtype="seg">A call to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="1">&lt;/i&gt;</ept> with parameters that contain sufficient information to connect successfully returns an array of zero length.</mrk><mrk mid="1" mtype="seg"> (Receiving this zero-length array does not <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>guarantee<ept id="2">&lt;/i&gt;</ept> that the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>getConnection<ept id="3">&lt;/i&gt;</ept> call will succeed, because something else could go wrong.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A call to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="1">&lt;/i&gt;</ept> with parameters that contain sufficient information to connect successfully returns an array of zero length.</mrk><mrk mid="1" mtype="seg"> (Receiving this zero-length array does not <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>guarantee<ept id="2">&lt;/i&gt;</ept> that the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>getConnection<ept id="3">&lt;/i&gt;</ept> call will succeed, because something else could go wrong.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Repeat calls to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="1">&lt;/i&gt;</ept> until it returns a zero-length array or none of the properties remaining are desired.</source>
+<seg-source><mrk mid="0" mtype="seg">Repeat calls to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="1">&lt;/i&gt;</ept> until it returns a zero-length array or none of the properties remaining are desired.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Repeat calls to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="1">&lt;/i&gt;</ept> until it returns a zero-length array or none of the properties remaining are desired.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

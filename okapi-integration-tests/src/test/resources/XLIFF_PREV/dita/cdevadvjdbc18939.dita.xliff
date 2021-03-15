@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevadvjdbc18939.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">IDEs and multiple JVMs</source>
+<seg-source><mrk mid="0" mtype="seg">IDEs and multiple JVMs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDEs and multiple JVMs</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">When you use an integrated development environment (IDE) to build a Java application, you can launch the application from within the IDE at any point in the development process. Typically, the IDE launches a JVM dedicated to the application. When the application completes, the JVM exits. Any database connections established by the application are closed.</source>
+<seg-source><mrk mid="0" mtype="seg">When you use an integrated development environment (IDE) to build a Java application, you can launch the application from within the IDE at any point in the development process.</mrk><mrk mid="1" mtype="seg"> Typically, the IDE launches a JVM dedicated to the application.</mrk><mrk mid="2" mtype="seg"> When the application completes, the JVM exits.</mrk><mrk mid="3" mtype="seg"> Any database connections established by the application are closed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you use an integrated development environment (IDE) to build a Java application, you can launch the application from within the IDE at any point in the development process.</mrk><mrk mid="1" mtype="seg"> Typically, the IDE launches a JVM dedicated to the application.</mrk><mrk mid="2" mtype="seg"> When the application completes, the JVM exits.</mrk><mrk mid="3" mtype="seg"> Any database connections established by the application are closed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">During the development of a database application, most IDEs allow you to test individual database connections and queries without running the entire application. When you test an individual database connection or query (which requires a database connection), the IDE might launch a JVM that runs in a specialized testing environment. In this case, when a test completes, the JVM remains active and available for further testing, and the database connection established during the test remains open.</source>
+<seg-source><mrk mid="0" mtype="seg">During the development of a database application, most IDEs allow you to test individual database connections and queries without running the entire application.</mrk><mrk mid="1" mtype="seg"> When you test an individual database connection or query (which requires a database connection), the IDE might launch a JVM that runs in a specialized testing environment.</mrk><mrk mid="2" mtype="seg"> In this case, when a test completes, the JVM remains active and available for further testing, and the database connection established during the test remains open.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">During the development of a database application, most IDEs allow you to test individual database connections and queries without running the entire application.</mrk><mrk mid="1" mtype="seg"> When you test an individual database connection or query (which requires a database connection), the IDE might launch a JVM that runs in a specialized testing environment.</mrk><mrk mid="2" mtype="seg"> In this case, when a test completes, the JVM remains active and available for further testing, and the database connection established during the test remains open.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Because of the behaviors of the IDE described above, if you use the embedded <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> JDBC driver, you may encounter errors connecting in the following situations:</source>
+<seg-source><mrk mid="0" mtype="seg">Because of the behaviors of the IDE described above, if you use the embedded <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> JDBC driver, you may encounter errors connecting in the following situations:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Because of the behaviors of the IDE described above, if you use the embedded <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> JDBC driver, you may encounter errors connecting in the following situations:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">You test an individual query or database connection and then try to run an application that uses the same database as the tested feature.</source>
+<seg-source><mrk mid="0" mtype="seg">You test an individual query or database connection and then try to run an application that uses the same database as the tested feature.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You test an individual query or database connection and then try to run an application that uses the same database as the tested feature.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The database connection established by testing the connection or query stays open, and prevents the application from establishing a connection to the same database.</source>
+<seg-source><mrk mid="0" mtype="seg">The database connection established by testing the connection or query stays open, and prevents the application from establishing a connection to the same database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The database connection established by testing the connection or query stays open, and prevents the application from establishing a connection to the same database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">You run an application, and before it completes (for example, while it waits for user input), you attempt to run a second application or to test a connection or query that uses the same database as the first application.</source>
+<seg-source><mrk mid="0" mtype="seg">You run an application, and before it completes (for example, while it waits for user input), you attempt to run a second application or to test a connection or query that uses the same database as the first application.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You run an application, and before it completes (for example, while it waits for user input), you attempt to run a second application or to test a connection or query that uses the same database as the first application.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

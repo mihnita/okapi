@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure96815.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Requirements for Derby encryption</source>
+<seg-source><mrk mid="0" mtype="seg">Requirements for Derby encryption</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Requirements for Derby encryption</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports disk encryption and requires an encryption provider.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports disk encryption and requires an encryption provider.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports disk encryption and requires an encryption provider.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Encryption</source>
+<seg-source><mrk mid="0" mtype="seg">Encryption</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encryption</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">providers</source>
+<seg-source><mrk mid="0" mtype="seg">providers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">providers</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Data encryption</source>
+<seg-source><mrk mid="0" mtype="seg">Data encryption</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data encryption</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">providers</source>
+<seg-source><mrk mid="0" mtype="seg">providers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">providers</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">An encryption provider implements the Java cryptography concepts. The Java Runtime Environment (JRE) for Java SE includes Java Cryptographic Extensions (JCE, part of the Java Cryptography Architecture) and one or more default encryption providers. For more information, see the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref format="html"
+href="http://download.oracle.com/javase/6/docs/technotes/guides/security/crypto/CryptoSpec.html"
+scope="external"&gt;</bpt>Java Cryptography Architecture (JCA) Reference Guide<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">An encryption provider implements the Java cryptography concepts.</mrk><mrk mid="1" mtype="seg"> The Java Runtime Environment (JRE) for Java SE includes Java Cryptographic Extensions (JCE, part of the Java Cryptography Architecture) and one or more default encryption providers.</mrk><mrk mid="2" mtype="seg"> For more information, see the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref format="html"
+href="http://download.oracle.com/javase/6/docs/technotes/guides/security/crypto/CryptoSpec.html"
+scope="external"&gt;</bpt>Java Cryptography Architecture (JCA) Reference Guide<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An encryption provider implements the Java cryptography concepts.</mrk><mrk mid="1" mtype="seg"> The Java Runtime Environment (JRE) for Java SE includes Java Cryptographic Extensions (JCE, part of the Java Cryptography Architecture) and one or more default encryption providers.</mrk><mrk mid="2" mtype="seg"> For more information, see the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref format="html"
+href="http://download.oracle.com/javase/6/docs/technotes/guides/security/crypto/CryptoSpec.html"
+scope="external"&gt;</bpt>Java Cryptography Architecture (JCA) Reference Guide<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The JRE determines the default encryption provider as follows:</source>
+<seg-source><mrk mid="0" mtype="seg">The JRE determines the default encryption provider as follows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The JRE determines the default encryption provider as follows:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The JRE's provider is the default.</source>
+<seg-source><mrk mid="0" mtype="seg">The JRE's provider is the default.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The JRE's provider is the default.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If your environment for some reason does not include a provider, it must be specified.</source>
+<seg-source><mrk mid="0" mtype="seg">If your environment for some reason does not include a provider, it must be specified.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If your environment for some reason does not include a provider, it must be specified.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

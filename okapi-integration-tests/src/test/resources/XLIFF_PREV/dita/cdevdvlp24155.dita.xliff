@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdvlp24155.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Accessing databases from a jar or zip file</source>
+<seg-source><mrk mid="0" mtype="seg">Accessing databases from a jar or zip file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Accessing databases from a jar or zip file</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">It is possible to access databases from a jar file. The jar file does not have to be on the classpath.</source>
+<seg-source><mrk mid="0" mtype="seg">It is possible to access databases from a jar file.</mrk><mrk mid="1" mtype="seg"> The jar file does not have to be on the classpath.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is possible to access databases from a jar file.</mrk><mrk mid="1" mtype="seg"> The jar file does not have to be on the classpath.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">All such databases are read-only.</source>
+<seg-source><mrk mid="0" mtype="seg">All such databases are read-only.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All such databases are read-only.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">For example, suppose you have archived the database <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jarDB1<ept id="1">&lt;/i&gt;</ept> into a file called <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>jar1.jar<ept id="2">&lt;/i&gt;</ept>. This archive is in the classpath before you start up <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>. You can access <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>jarDB1<ept id="4">&lt;/i&gt;</ept> with the following connection URL</source>
+<seg-source><mrk mid="0" mtype="seg">For example, suppose you have archived the database <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jarDB1<ept id="1">&lt;/i&gt;</ept> into a file called <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>jar1.jar<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This archive is in the classpath before you start up <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> You can access <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>jarDB1<ept id="4">&lt;/i&gt;</ept> with the following connection URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, suppose you have archived the database <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jarDB1<ept id="1">&lt;/i&gt;</ept> into a file called <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>jar1.jar<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This archive is in the classpath before you start up <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> You can access <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>jarDB1<ept id="4">&lt;/i&gt;</ept> with the following connection URL</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">jdbc:derby:classpath:jarDB1</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:classpath:jarDB1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:classpath:jarDB1</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">To access a database in a jar file that is not on the classpath, use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jar<ept id="1">&lt;/i&gt;</ept> subprotocol.</source>
+<seg-source><mrk mid="0" mtype="seg">To access a database in a jar file that is not on the classpath, use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jar<ept id="1">&lt;/i&gt;</ept> subprotocol.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To access a database in a jar file that is not on the classpath, use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jar<ept id="1">&lt;/i&gt;</ept> subprotocol.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">For example, suppose you have archived the database <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jarDB2<ept id="1">&lt;/i&gt;</ept> into a file called <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>jar2.jar<ept id="2">&lt;/i&gt;</ept>. This archive is not in the classpath. You can access <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>jarDB2<ept id="3">&lt;/i&gt;</ept> by specifying the path to the jar file along with the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>jar<ept id="4">&lt;/i&gt;</ept> subsubprotocol, like this:</source>
+<seg-source><mrk mid="0" mtype="seg">For example, suppose you have archived the database <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jarDB2<ept id="1">&lt;/i&gt;</ept> into a file called <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>jar2.jar<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This archive is not in the classpath.</mrk><mrk mid="2" mtype="seg"> You can access <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>jarDB2<ept id="3">&lt;/i&gt;</ept> by specifying the path to the jar file along with the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>jar<ept id="4">&lt;/i&gt;</ept> subsubprotocol, like this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, suppose you have archived the database <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jarDB2<ept id="1">&lt;/i&gt;</ept> into a file called <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>jar2.jar<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This archive is not in the classpath.</mrk><mrk mid="2" mtype="seg"> You can access <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>jarDB2<ept id="3">&lt;/i&gt;</ept> by specifying the path to the jar file along with the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>jar<ept id="4">&lt;/i&gt;</ept> subsubprotocol, like this:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">jdbc:derby:jar:(c:/<bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productlowercase"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>/lib/jar2.jar)jarDB2</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:jar:(c:/<bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productlowercase"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>/lib/jar2.jar)jarDB2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:jar:(c:/<bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productlowercase"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>/lib/jar2.jar)jarDB2</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">For complete instructions and examples of accessing databases in jar files, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevdeploy11201.dita#cdevdeploy11201"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For complete instructions and examples of accessing databases in jar files, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevdeploy11201.dita#cdevdeploy11201"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For complete instructions and examples of accessing databases in jar files, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevdeploy11201.dita#cdevdeploy11201"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

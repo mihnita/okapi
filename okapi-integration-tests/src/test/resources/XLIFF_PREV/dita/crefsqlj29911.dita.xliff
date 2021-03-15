@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="crefsqlj29911.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Dynamic parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic parameters</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Dynamic parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic parameters</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">IN (? or dynamic) parameters</source>
+<seg-source><mrk mid="0" mtype="seg">IN (? or dynamic) parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IN (? or dynamic) parameters</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Prepared statements</source>
+<seg-source><mrk mid="0" mtype="seg">Prepared statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Prepared statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">use of dynamic parameters in</source>
+<seg-source><mrk mid="0" mtype="seg">use of dynamic parameters in</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">use of dynamic parameters in</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">? (dynamic parameter)</source>
+<seg-source><mrk mid="0" mtype="seg">? (dynamic parameter)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">? (dynamic parameter)</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">in prepared statements</source>
+<seg-source><mrk mid="0" mtype="seg">in prepared statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">in prepared statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">You can prepare statements that are allowed to have parameters for which the value is not specified when the statement is prepared using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>PreparedStatement<ept id="1">&lt;/i&gt;</ept> methods in the JDBC API. These parameters are called dynamic parameters and are represented by a ?.</source>
+<seg-source><mrk mid="0" mtype="seg">You can prepare statements that are allowed to have parameters for which the value is not specified when the statement is prepared using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>PreparedStatement<ept id="1">&lt;/i&gt;</ept> methods in the JDBC API.</mrk><mrk mid="1" mtype="seg"> These parameters are called dynamic parameters and are represented by a ?.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can prepare statements that are allowed to have parameters for which the value is not specified when the statement is prepared using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>PreparedStatement<ept id="1">&lt;/i&gt;</ept> methods in the JDBC API.</mrk><mrk mid="1" mtype="seg"> These parameters are called dynamic parameters and are represented by a ?.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The JDBC API documents refer to dynamic parameters as IN, INOUT, or OUT parameters. In SQL, they are always IN parameters.</source>
+<seg-source><mrk mid="0" mtype="seg">The JDBC API documents refer to dynamic parameters as IN, INOUT, or OUT parameters.</mrk><mrk mid="1" mtype="seg"> In SQL, they are always IN parameters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The JDBC API documents refer to dynamic parameters as IN, INOUT, or OUT parameters.</mrk><mrk mid="1" mtype="seg"> In SQL, they are always IN parameters.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" restype="x-othertype">
+<source xml:lang="en">New</source>
+<seg-source><mrk mid="0" mtype="seg">New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">New</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the interface <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ParameterMetaData<ept id="2">&lt;/i&gt;</ept>, new in JDBC 3.0. This interface describes the number, type, and properties of prepared statement parameters. See the <bpt id="3" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="4" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept><ept id="3">&lt;/cite&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the interface <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ParameterMetaData<ept id="2">&lt;/i&gt;</ept>, new in JDBC 3.0.</mrk><mrk mid="1" mtype="seg"> This interface describes the number, type, and properties of prepared statement parameters.</mrk><mrk mid="2" mtype="seg"> See the <bpt id="3" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="4" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept><ept id="3">&lt;/cite&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the interface <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ParameterMetaData<ept id="2">&lt;/i&gt;</ept>, new in JDBC 3.0.</mrk><mrk mid="1" mtype="seg"> This interface describes the number, type, and properties of prepared statement parameters.</mrk><mrk mid="2" mtype="seg"> See the <bpt id="3" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="4" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept><ept id="3">&lt;/cite&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">You must specify values for them before executing the statement. The values specified must match the types expected.</source>
+<seg-source><mrk mid="0" mtype="seg">You must specify values for them before executing the statement.</mrk><mrk mid="1" mtype="seg"> The values specified must match the types expected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You must specify values for them before executing the statement.</mrk><mrk mid="1" mtype="seg"> The values specified must match the types expected.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

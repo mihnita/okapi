@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Amps and angle encoding.md.tkitMerged" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">AT&amp;T has an ampersand in their name.</source>
+<seg-source><mrk mid="0" mtype="seg">AT&amp;T has an ampersand in their name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AT&amp;T has an ampersand in their name.</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">AT&amp;amp;T is another way to write it.</source>
+<seg-source><mrk mid="0" mtype="seg">AT&amp;amp;T is another way to write it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AT&amp;amp;T is another way to write it.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">This &amp; that.</source>
+<seg-source><mrk mid="0" mtype="seg">This &amp; that.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This &amp; that.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">4 &lt; 5.</source>
+<seg-source><mrk mid="0" mtype="seg">4 &lt; 5.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4 &lt; 5.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">6 &gt; 5.</source>
+<seg-source><mrk mid="0" mtype="seg">6 &gt; 5.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">6 &gt; 5.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Here's a <ph id="1" ctype="x-LINK_REF">[</ph>link<ph id="2" ctype="x-LINK_REF">]</ph> <ph id="3" ctype="x-LINK_REF">[</ph>1<ph id="4" ctype="x-LINK_REF">]</ph> with an ampersand in the URL.</source>
+<seg-source><mrk mid="0" mtype="seg">Here's a <ph id="1" ctype="x-LINK_REF">[</ph>link<ph id="2" ctype="x-LINK_REF">]</ph> <ph id="3" ctype="x-LINK_REF">[</ph>1<ph id="4" ctype="x-LINK_REF">]</ph> with an ampersand in the URL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here's a <ph id="1" ctype="x-LINK_REF">[</ph>link<ph id="2" ctype="x-LINK_REF">]</ph> <ph id="3" ctype="x-LINK_REF">[</ph>1<ph id="4" ctype="x-LINK_REF">]</ph> with an ampersand in the URL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">Here's a link with an amersand in the link text: <ph id="1" ctype="x-LINK_REF">[</ph>AT&amp;T<ph id="2" ctype="x-LINK_REF">]</ph> <ph id="3" ctype="x-LINK_REF">[</ph>2<ph id="4" ctype="x-LINK_REF">]</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Here's a link with an amersand in the link text: <ph id="1" ctype="x-LINK_REF">[</ph>AT&amp;T<ph id="2" ctype="x-LINK_REF">]</ph> <ph id="3" ctype="x-LINK_REF">[</ph>2<ph id="4" ctype="x-LINK_REF">]</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here's a link with an amersand in the link text: <ph id="1" ctype="x-LINK_REF">[</ph>AT&amp;T<ph id="2" ctype="x-LINK_REF">]</ph> <ph id="3" ctype="x-LINK_REF">[</ph>2<ph id="4" ctype="x-LINK_REF">]</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">Here's an inline <ph id="1" ctype="x-LINK">[</ph>link<ph id="2" ctype="x-LINK">](/script?foo=1&amp;bar=2)</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Here's an inline <ph id="1" ctype="x-LINK">[</ph>link<ph id="2" ctype="x-LINK">](/script?foo=1&amp;bar=2)</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here's an inline <ph id="1" ctype="x-LINK">[</ph>link<ph id="2" ctype="x-LINK">](/script?foo=1&amp;bar=2)</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">Here's an inline <ph id="1" ctype="x-LINK">[</ph>link<ph id="2" ctype="x-LINK">](&lt;/script?foo=1&amp;bar=2&gt;)</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Here's an inline <ph id="1" ctype="x-LINK">[</ph>link<ph id="2" ctype="x-LINK">](&lt;/script?foo=1&amp;bar=2&gt;)</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here's an inline <ph id="1" ctype="x-LINK">[</ph>link<ph id="2" ctype="x-LINK">](&lt;/script?foo=1&amp;bar=2&gt;)</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" xml:space="preserve">
+<source xml:lang="en">2</source>
+<seg-source><mrk mid="0" mtype="seg">2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" xml:space="preserve">
+<source xml:lang="en">AT&amp;T</source>
+<seg-source><mrk mid="0" mtype="seg">AT&amp;T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AT&amp;T</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

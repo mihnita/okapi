@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="hello.txt" source-language="en" target-language="fr" datatype="x-plaintext" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M28" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1">
+<source xml:lang="en">First sentence.Second sentence.</source>
+<seg-source><mrk mid="0" mtype="seg">First sentence.Second sentence.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="1" mtype="seg">Translated first sentence.</mrk> <mrk mid="2" mtype="seg">Translated second sentence.</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">First sentence.Second sentence.</source>
+<seg-source><mrk mid="0" mtype="seg">First sentence.Second sentence.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">First sentence.Second sentence.</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The second sentence.</source>
+<seg-source><mrk mid="0" mtype="seg">The second sentence.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The second sentence.</mrk></target>
+<alt-trans match-quality="50" origin="SourceDoc" okp:matchType="FUZZY"><source xml:lang="en">First sentence. Second sentence.</source>
+<target xml:lang="fr">Translated first sentence. Translated second sentence.</target>
+</alt-trans>
+</trans-unit>
+</body>
+</file>
+</xliff>

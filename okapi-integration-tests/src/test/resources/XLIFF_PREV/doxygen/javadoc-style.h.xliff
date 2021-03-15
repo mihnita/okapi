@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="javadoc-style.h" source-language="en" target-language="fr" datatype="x-text/x-doxygen-txt" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/doxygen/target/classes/net/sf/okapi/filters/doxygen/doxygenConfiguration.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1">
+<source xml:lang="en">A test class. A more elaborate class description.</source>
+<seg-source><mrk mid="0" mtype="seg">A test class.</mrk><mrk mid="1" mtype="seg"> A more elaborate class description.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A test class.</mrk><mrk mid="1" mtype="seg"> A more elaborate class description.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg2">
+<trans-unit id="tu2">
+<source xml:lang="en">An enum. More detailed enum description.</source>
+<seg-source><mrk mid="0" mtype="seg">An enum.</mrk><mrk mid="1" mtype="seg"> More detailed enum description.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An enum.</mrk><mrk mid="1" mtype="seg"> More detailed enum description.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg3">
+<trans-unit id="tu3">
+<source xml:lang="en">enum value TVal1.</source>
+<seg-source><mrk mid="0" mtype="seg">enum value TVal1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">enum value TVal1.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg4">
+<trans-unit id="tu4">
+<source xml:lang="en">enum value TVal2.</source>
+<seg-source><mrk mid="0" mtype="seg">enum value TVal2.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">enum value TVal2.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg5">
+<trans-unit id="tu5">
+<source xml:lang="en">enum value TVal3.</source>
+<seg-source><mrk mid="0" mtype="seg">enum value TVal3.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">enum value TVal3.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg6">
+<trans-unit id="tu6">
+<source xml:lang="en">enum pointer. Details.</source>
+<seg-source><mrk mid="0" mtype="seg">enum pointer.</mrk><mrk mid="1" mtype="seg"> Details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">enum pointer.</mrk><mrk mid="1" mtype="seg"> Details.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg7">
+<trans-unit id="tu7">
+<source xml:lang="en">enum variable. Details.</source>
+<seg-source><mrk mid="0" mtype="seg">enum variable.</mrk><mrk mid="1" mtype="seg"> Details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">enum variable.</mrk><mrk mid="1" mtype="seg"> Details.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg8">
+<trans-unit id="tu8">
+<source xml:lang="en">A constructor. A more elaborate description of the constructor.</source>
+<seg-source><mrk mid="0" mtype="seg">A constructor.</mrk><mrk mid="1" mtype="seg"> A more elaborate description of the constructor.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A constructor.</mrk><mrk mid="1" mtype="seg"> A more elaborate description of the constructor.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg9">
+<trans-unit id="tu9">
+<source xml:lang="en">A destructor. A more elaborate description of the destructor.</source>
+<seg-source><mrk mid="0" mtype="seg">A destructor.</mrk><mrk mid="1" mtype="seg"> A more elaborate description of the destructor.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A destructor.</mrk><mrk mid="1" mtype="seg"> A more elaborate description of the destructor.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg10">
+<trans-unit id="tu10">
+<source xml:lang="en">a normal member taking two arguments and returning an integer value.</source>
+<seg-source><mrk mid="0" mtype="seg">a normal member taking two arguments and returning an integer value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a normal member taking two arguments and returning an integer value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><ph id="1" ctype="x-param">@param a </ph>an integer argument.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param a </ph>an integer argument.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param a </ph>an integer argument.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><ph id="1" ctype="x-param">@param s </ph>a constant character pointer.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param s </ph>a constant character pointer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param s </ph>a constant character pointer.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><ph id="1" ctype="x-see">@see Test()
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-see">@see Test()
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-see">@see Test()
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><ph id="1" ctype="x-see">@see ~Test()
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-see">@see ~Test()
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-see">@see ~Test()
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><ph id="1" ctype="x-see">@see testMeToo()
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-see">@see testMeToo()
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-see">@see testMeToo()
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><ph id="1" ctype="x-see">@see publicVar()
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-see">@see publicVar()
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-see">@see publicVar()
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><ph id="1" ctype="x-return">@return</ph> The test results</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-return">@return</ph> The test results</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-return">@return</ph> The test results</mrk></target>
+</trans-unit>
+</group>
+<group id="sg11">
+<trans-unit id="tu18">
+<source xml:lang="en">A pure virtual member.</source>
+<seg-source><mrk mid="0" mtype="seg">A pure virtual member.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A pure virtual member.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><ph id="1" ctype="x-see">@see testMe()
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-see">@see testMe()
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-see">@see testMe()
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><ph id="1" ctype="x-param">@param c1 </ph>the first argument.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param c1 </ph>the first argument.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param c1 </ph>the first argument.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><ph id="1" ctype="x-param">@param c2 </ph>the second argument.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param c2 </ph>the second argument.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param c2 </ph>the second argument.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg12">
+<trans-unit id="tu22">
+<source xml:lang="en">a public variable. Details.</source>
+<seg-source><mrk mid="0" mtype="seg">a public variable.</mrk><mrk mid="1" mtype="seg"> Details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a public variable.</mrk><mrk mid="1" mtype="seg"> Details.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg13">
+<trans-unit id="tu23">
+<source xml:lang="en">a function variable. Details.</source>
+<seg-source><mrk mid="0" mtype="seg">a function variable.</mrk><mrk mid="1" mtype="seg"> Details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a function variable.</mrk><mrk mid="1" mtype="seg"> Details.</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

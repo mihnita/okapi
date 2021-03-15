@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljrevoke.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">REVOKE statement</source>
+<seg-source><mrk mid="0" mtype="seg">REVOKE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REVOKE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">REVOKE statement</source>
+<seg-source><mrk mid="0" mtype="seg">REVOKE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REVOKE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">syntax</source>
+<seg-source><mrk mid="0" mtype="seg">syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SQL statements</source>
+<seg-source><mrk mid="0" mtype="seg">SQL statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">REVOKE</source>
+<seg-source><mrk mid="0" mtype="seg">REVOKE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REVOKE</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">REVOKE statement</source>
+<seg-source><mrk mid="0" mtype="seg">REVOKE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REVOKE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">limitations</source>
+<seg-source><mrk mid="0" mtype="seg">limitations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">limitations</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">privileges</source>
+<seg-source><mrk mid="0" mtype="seg">privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">tables and columns, revoking</source>
+<seg-source><mrk mid="0" mtype="seg">tables and columns, revoking</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tables and columns, revoking</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Use the REVOKE statement to remove privileges from a specific user or role, or from all users, to perform actions on database objects. You can also use the REVOKE statement to revoke a role from a user, from PUBLIC, or from another role.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the REVOKE statement to remove privileges from a specific user or role, or from all users, to perform actions on database objects.</mrk><mrk mid="1" mtype="seg"> You can also use the REVOKE statement to revoke a role from a user, from PUBLIC, or from another role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the REVOKE statement to remove privileges from a specific user or role, or from all users, to perform actions on database objects.</mrk><mrk mid="1" mtype="seg"> You can also use the REVOKE statement to revoke a role from a user, from PUBLIC, or from another role.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The following types of privileges can be revoked:</source>
+<seg-source><mrk mid="0" mtype="seg">The following types of privileges can be revoked:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following types of privileges can be revoked:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Delete data from a specific table.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete data from a specific table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete data from a specific table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Insert data into a specific table.</source>
+<seg-source><mrk mid="0" mtype="seg">Insert data into a specific table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert data into a specific table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Create a foreign key reference to the named table or to a subset of columns from a table.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a foreign key reference to the named table or to a subset of columns from a table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a foreign key reference to the named table or to a subset of columns from a table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Select data from a table, view, or a subset of columns in a table.</source>
+<seg-source><mrk mid="0" mtype="seg">Select data from a table, view, or a subset of columns in a table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select data from a table, view, or a subset of columns in a table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Create a trigger on a table.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a trigger on a table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a trigger on a table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Update data in a table or in a subset of columns in a table.</source>
+<seg-source><mrk mid="0" mtype="seg">Update data in a table or in a subset of columns in a table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Update data in a table or in a subset of columns in a table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Run a specified routine (function or procedure).</source>
+<seg-source><mrk mid="0" mtype="seg">Run a specified routine (function or procedure).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run a specified routine (function or procedure).</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Use a sequence generator, a user-defined type, or a user-defined aggregate.</source>
+<seg-source><mrk mid="0" mtype="seg">Use a sequence generator, a user-defined type, or a user-defined aggregate.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use a sequence generator, a user-defined type, or a user-defined aggregate.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefpropersqlauth.dita#rrefpropersqlauth"&gt;</bpt>derby.database.sqlAuthorization<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> property must be set to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="3">&lt;/codeph&gt;</ept> before you can use the GRANT statement or the REVOKE statement. The <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.database.sqlAuthorization<ept id="4">&lt;/i&gt;</ept> property enables SQL Authorization mode.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefpropersqlauth.dita#rrefpropersqlauth"&gt;</bpt>derby.database.sqlAuthorization<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> property must be set to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="3">&lt;/codeph&gt;</ept> before you can use the GRANT statement or the REVOKE statement.</mrk><mrk mid="1" mtype="seg"> The <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.database.sqlAuthorization<ept id="4">&lt;/i&gt;</ept> property enables SQL Authorization mode.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefpropersqlauth.dita#rrefpropersqlauth"&gt;</bpt>derby.database.sqlAuthorization<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> property must be set to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="3">&lt;/codeph&gt;</ept> before you can use the GRANT statement or the REVOKE statement.</mrk><mrk mid="1" mtype="seg"> The <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.database.sqlAuthorization<ept id="4">&lt;/i&gt;</ept> property enables SQL Authorization mode.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">You can revoke privileges for an object if you are the owner of the object or the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You can revoke privileges for an object if you are the owner of the object or the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can revoke privileges for an object if you are the owner of the object or the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">The syntax that you use for the REVOKE statement depends on whether you are revoking privileges to a schema object or revoking a role.</source>
+<seg-source><mrk mid="0" mtype="seg">The syntax that you use for the REVOKE statement depends on whether you are revoking privileges to a schema object or revoking a role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The syntax that you use for the REVOKE statement depends on whether you are revoking privileges to a schema object or revoking a role.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">For more information on using the REVOKE statement, see "Using SQL standard authorization" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information on using the REVOKE statement, see "Using SQL standard authorization" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information on using the REVOKE statement, see "Using SQL standard authorization" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Syntax for tables</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax for tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax for tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke/revokeprivtype"&gt;</bpt>privilegeType<ept id="3">&lt;/xref
+&gt;</ept><ept id="2">&lt;/i&gt;</ept> ON [ TABLE ] { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt><ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefviewname.dita#rrefviewname"&gt;</bpt><ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> } FROM <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept><ept id="1">&lt;/b
+&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke/revokeprivtype"&gt;</bpt>privilegeType<ept id="3">&lt;/xref
+&gt;</ept><ept id="2">&lt;/i&gt;</ept> ON [ TABLE ] { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt><ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefviewname.dita#rrefviewname"&gt;</bpt><ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> } FROM <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept><ept id="1">&lt;/b
+&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke/revokeprivtype"&gt;</bpt>privilegeType<ept id="3">&lt;/xref
+&gt;</ept><ept id="2">&lt;/i&gt;</ept> ON [ TABLE ] { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt><ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefviewname.dita#rrefviewname"&gt;</bpt><ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> } FROM <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept><ept id="1">&lt;/b
+&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Revoking a privilege without specifying a column list revokes the privilege for all of the columns in the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Revoking a privilege without specifying a column list revokes the privilege for all of the columns in the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Revoking a privilege without specifying a column list revokes the privilege for all of the columns in the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">Syntax for routines</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax for routines</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax for routines</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE EXECUTE ON FUNCTION <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreffunctionname.dita#rreffunctionname"&gt;</bpt>functionName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FROM <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE EXECUTE ON FUNCTION <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreffunctionname.dita#rreffunctionname"&gt;</bpt>functionName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FROM <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE EXECUTE ON FUNCTION <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreffunctionname.dita#rreffunctionname"&gt;</bpt>functionName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FROM <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE EXECUTE ON PROCEDURE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefprocedurename.dita#rrefprocedurename.dita"&gt;</bpt>procedureName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FROM <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE EXECUTE ON PROCEDURE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefprocedurename.dita#rrefprocedurename.dita"&gt;</bpt>procedureName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FROM <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE EXECUTE ON PROCEDURE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefprocedurename.dita#rrefprocedurename.dita"&gt;</bpt>procedureName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FROM <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">You must use the RESTRICT clause on REVOKE statements for routines. The RESTRICT clause specifies that the EXECUTE privilege cannot be revoked if the specified routine is used in a view, trigger, or constraint, and the privilege is being revoked from the owner of the view, trigger, or constraint.</source>
+<seg-source><mrk mid="0" mtype="seg">You must use the RESTRICT clause on REVOKE statements for routines.</mrk><mrk mid="1" mtype="seg"> The RESTRICT clause specifies that the EXECUTE privilege cannot be revoked if the specified routine is used in a view, trigger, or constraint, and the privilege is being revoked from the owner of the view, trigger, or constraint.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You must use the RESTRICT clause on REVOKE statements for routines.</mrk><mrk mid="1" mtype="seg"> The RESTRICT clause specifies that the EXECUTE privilege cannot be revoked if the specified routine is used in a view, trigger, or constraint, and the privilege is being revoked from the owner of the view, trigger, or constraint.</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">Syntax for sequence generators</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax for sequence generators</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax for sequence generators</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON SEQUENCE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefsequencename.dita#rrefsequencename"&gt;</bpt>sequenceName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FROM <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON SEQUENCE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefsequencename.dita#rrefsequencename"&gt;</bpt>sequenceName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FROM <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON SEQUENCE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefsequencename.dita#rrefsequencename"&gt;</bpt>sequenceName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FROM <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">In order to use a sequence generator, you must have the USAGE privilege on it. This privilege can be revoked from users and roles. Only RESTRICTed revokes are allowed. This means that the REVOKE statement cannot make a view, trigger, or constraint unusable by its owner. The USAGE privilege cannot be revoked from the schema owner. See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatesequence.dita#rrefsqljcreatesequence"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">In order to use a sequence generator, you must have the USAGE privilege on it.</mrk><mrk mid="1" mtype="seg"> This privilege can be revoked from users and roles.</mrk><mrk mid="2" mtype="seg"> Only RESTRICTed revokes are allowed.</mrk><mrk mid="3" mtype="seg"> This means that the REVOKE statement cannot make a view, trigger, or constraint unusable by its owner.</mrk><mrk mid="4" mtype="seg"> The USAGE privilege cannot be revoked from the schema owner.</mrk><mrk mid="5" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatesequence.dita#rrefsqljcreatesequence"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In order to use a sequence generator, you must have the USAGE privilege on it.</mrk><mrk mid="1" mtype="seg"> This privilege can be revoked from users and roles.</mrk><mrk mid="2" mtype="seg"> Only RESTRICTed revokes are allowed.</mrk><mrk mid="3" mtype="seg"> This means that the REVOKE statement cannot make a view, trigger, or constraint unusable by its owner.</mrk><mrk mid="4" mtype="seg"> The USAGE privilege cannot be revoked from the schema owner.</mrk><mrk mid="5" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatesequence.dita#rrefsqljcreatesequence"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">Syntax for user-defined types</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax for user-defined types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax for user-defined types</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON TYPE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rreftypename.dita#rreftypename"&gt;</bpt>typeName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FROM <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON TYPE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rreftypename.dita#rreftypename"&gt;</bpt>typeName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FROM <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON TYPE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rreftypename.dita#rreftypename"&gt;</bpt>typeName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FROM <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">In order to use a user-defined type, you must have the USAGE privilege on it. This privilege can be revoked from users and roles. Only RESTRICTed revokes are allowed. This means that the REVOKE statement cannot make a view, trigger, or constraint unusable by its owner. The USAGE privilege cannot be revoked from the schema owner. See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatetype.dita#rrefsqljcreatetype"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">In order to use a user-defined type, you must have the USAGE privilege on it.</mrk><mrk mid="1" mtype="seg"> This privilege can be revoked from users and roles.</mrk><mrk mid="2" mtype="seg"> Only RESTRICTed revokes are allowed.</mrk><mrk mid="3" mtype="seg"> This means that the REVOKE statement cannot make a view, trigger, or constraint unusable by its owner.</mrk><mrk mid="4" mtype="seg"> The USAGE privilege cannot be revoked from the schema owner.</mrk><mrk mid="5" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatetype.dita#rrefsqljcreatetype"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In order to use a user-defined type, you must have the USAGE privilege on it.</mrk><mrk mid="1" mtype="seg"> This privilege can be revoked from users and roles.</mrk><mrk mid="2" mtype="seg"> Only RESTRICTed revokes are allowed.</mrk><mrk mid="3" mtype="seg"> This means that the REVOKE statement cannot make a view, trigger, or constraint unusable by its owner.</mrk><mrk mid="4" mtype="seg"> The USAGE privilege cannot be revoked from the schema owner.</mrk><mrk mid="5" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatetype.dita#rrefsqljcreatetype"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">Syntax for user-defined aggregates</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax for user-defined aggregates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax for user-defined aggregates</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON DERBY AGGREGATE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefaggregatename.dita#rrefaggregatename"&gt;</bpt>aggregateName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FROM <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON DERBY AGGREGATE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefaggregatename.dita#rrefaggregatename"&gt;</bpt>aggregateName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FROM <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON DERBY AGGREGATE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefaggregatename.dita#rrefaggregatename"&gt;</bpt>aggregateName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FROM <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">In order to use a user-defined aggregate, you must have the USAGE privilege on it. This privilege can be revoked from users and roles. Only RESTRICTed revokes are allowed. This means that the REVOKE statement cannot make a view or trigger unusable by its owner. The USAGE privilege cannot be revoked from the schema owner. See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreateaggregate.dita#rrefsqljcreateaggregate"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">In order to use a user-defined aggregate, you must have the USAGE privilege on it.</mrk><mrk mid="1" mtype="seg"> This privilege can be revoked from users and roles.</mrk><mrk mid="2" mtype="seg"> Only RESTRICTed revokes are allowed.</mrk><mrk mid="3" mtype="seg"> This means that the REVOKE statement cannot make a view or trigger unusable by its owner.</mrk><mrk mid="4" mtype="seg"> The USAGE privilege cannot be revoked from the schema owner.</mrk><mrk mid="5" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreateaggregate.dita#rrefsqljcreateaggregate"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In order to use a user-defined aggregate, you must have the USAGE privilege on it.</mrk><mrk mid="1" mtype="seg"> This privilege can be revoked from users and roles.</mrk><mrk mid="2" mtype="seg"> Only RESTRICTed revokes are allowed.</mrk><mrk mid="3" mtype="seg"> This means that the REVOKE statement cannot make a view or trigger unusable by its owner.</mrk><mrk mid="4" mtype="seg"> The USAGE privilege cannot be revoked from the schema owner.</mrk><mrk mid="5" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreateaggregate.dita#rrefsqljcreateaggregate"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">Syntax for roles</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax for roles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax for roles</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* FROM <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref 
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* FROM <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref 
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* FROM <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref 
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokerevokees"&gt;</bpt>revokees<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">Only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can revoke a role.</source>
+<seg-source><mrk mid="0" mtype="seg">Only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can revoke a role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can revoke a role.</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">privilegeType</source>
+<seg-source><mrk mid="0" mtype="seg">privilegeType</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">privilegeType</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> ALL PRIVILEGES | <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokeprivlist"&gt;</bpt>privilegeList<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> ALL PRIVILEGES | <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokeprivlist"&gt;</bpt>privilegeList<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> ALL PRIVILEGES | <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokeprivlist"&gt;</bpt>privilegeList<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">privilegeList</source>
+<seg-source><mrk mid="0" mtype="seg">privilegeList</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">privilegeList</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revoketablepriv"&gt;</bpt>tablePrivilege<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revoketablepriv"&gt;</bpt>tablePrivilege<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revoketablepriv"&gt;</bpt>tablePrivilege<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revoketablepriv"&gt;</bpt>tablePrivilege<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revoketablepriv"&gt;</bpt>tablePrivilege<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revoketablepriv"&gt;</bpt>tablePrivilege<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">tablePrivilege</source>
+<seg-source><mrk mid="0" mtype="seg">tablePrivilege</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tablePrivilege</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> DELETE | INSERT | REFERENCES [ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokecollist"&gt;</bpt>columnList<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ] | SELECT [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokecollist"&gt;</bpt>columnList<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ] | TRIGGER | UPDATE [ <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokecollist"&gt;</bpt>columnList<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ] <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> DELETE | INSERT | REFERENCES [ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokecollist"&gt;</bpt>columnList<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ] | SELECT [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokecollist"&gt;</bpt>columnList<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ] | TRIGGER | UPDATE [ <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokecollist"&gt;</bpt>columnList<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ] <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> DELETE | INSERT | REFERENCES [ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokecollist"&gt;</bpt>columnList<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ] | SELECT [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokecollist"&gt;</bpt>columnList<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ] | TRIGGER | UPDATE [ <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefsqljrevoke.dita#rrefsqljrevoke/revokecollist"&gt;</bpt>columnList<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ] <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">columnList</source>
+<seg-source><mrk mid="0" mtype="seg">columnList</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">columnList</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>columnIdentifier<ept id="2">&lt;/i&gt;</ept> [ , <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>columnIdentifier<ept id="3">&lt;/i&gt;</ept> ]* ) <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>columnIdentifier<ept id="2">&lt;/i&gt;</ept> [ , <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>columnIdentifier<ept id="3">&lt;/i&gt;</ept> ]* ) <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>columnIdentifier<ept id="2">&lt;/i&gt;</ept> [ , <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>columnIdentifier<ept id="3">&lt;/i&gt;</ept> ]* ) <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">Use the ALL PRIVILEGES privilege type to revoke all of the privileges from the user or role for the specified table. You can also revoke one or more table privileges by specifying a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>privilegeList<ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the ALL PRIVILEGES privilege type to revoke all of the privileges from the user or role for the specified table.</mrk><mrk mid="1" mtype="seg"> You can also revoke one or more table privileges by specifying a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>privilegeList<ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the ALL PRIVILEGES privilege type to revoke all of the privileges from the user or role for the specified table.</mrk><mrk mid="1" mtype="seg"> You can also revoke one or more table privileges by specifying a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>privilegeList<ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">Use the DELETE privilege type to revoke permission to delete rows from the specified table.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the DELETE privilege type to revoke permission to delete rows from the specified table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the DELETE privilege type to revoke permission to delete rows from the specified table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">Use the INSERT privilege type to revoke permission to insert rows into the specified table.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the INSERT privilege type to revoke permission to insert rows into the specified table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the INSERT privilege type to revoke permission to insert rows into the specified table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">Use the REFERENCES privilege type to revoke permission to create a foreign key reference to the specified table. If a column list is specified with the REFERENCES privilege, the permission is revoked on only the foreign key reference to the specified columns.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the REFERENCES privilege type to revoke permission to create a foreign key reference to the specified table.</mrk><mrk mid="1" mtype="seg"> If a column list is specified with the REFERENCES privilege, the permission is revoked on only the foreign key reference to the specified columns.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the REFERENCES privilege type to revoke permission to create a foreign key reference to the specified table.</mrk><mrk mid="1" mtype="seg"> If a column list is specified with the REFERENCES privilege, the permission is revoked on only the foreign key reference to the specified columns.</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">Use the SELECT privilege type to revoke permission to perform SELECT statements on a table or view. If a column list is specified with the SELECT privilege, the permission is revoked on only those columns. If no column list is specified, then the privilege is valid on all of the columns in the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the SELECT privilege type to revoke permission to perform SELECT statements on a table or view.</mrk><mrk mid="1" mtype="seg"> If a column list is specified with the SELECT privilege, the permission is revoked on only those columns.</mrk><mrk mid="2" mtype="seg"> If no column list is specified, then the privilege is valid on all of the columns in the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the SELECT privilege type to revoke permission to perform SELECT statements on a table or view.</mrk><mrk mid="1" mtype="seg"> If a column list is specified with the SELECT privilege, the permission is revoked on only those columns.</mrk><mrk mid="2" mtype="seg"> If no column list is specified, then the privilege is valid on all of the columns in the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">Use the TRIGGER privilege type to revoke permission to create a trigger on the specified table.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the TRIGGER privilege type to revoke permission to create a trigger on the specified table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the TRIGGER privilege type to revoke permission to create a trigger on the specified table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">Use the UPDATE privilege type to revoke permission to use the UPDATE statement on the specified table. If a column list is specified, the privilege is revoked only on the specified columns.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the UPDATE privilege type to revoke permission to use the UPDATE statement on the specified table.</mrk><mrk mid="1" mtype="seg"> If a column list is specified, the privilege is revoked only on the specified columns.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the UPDATE privilege type to revoke permission to use the UPDATE statement on the specified table.</mrk><mrk mid="1" mtype="seg"> If a column list is specified, the privilege is revoked only on the specified columns.</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">revokees</source>
+<seg-source><mrk mid="0" mtype="seg">revokees</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">revokees</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefrauthid.dita#rrefrauthid"&gt;</bpt>authorizationIdentifier<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | PUBLIC } [ , { <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefrauthid.dita#rrefrauthid"&gt;</bpt>authorizationIdentifier<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> | <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> | PUBLIC } ]*<ept id="1">&lt;/b
+&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefrauthid.dita#rrefrauthid"&gt;</bpt>authorizationIdentifier<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | PUBLIC } [ , { <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefrauthid.dita#rrefrauthid"&gt;</bpt>authorizationIdentifier<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> | <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> | PUBLIC } ]*<ept id="1">&lt;/b
+&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefrauthid.dita#rrefrauthid"&gt;</bpt>authorizationIdentifier<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | PUBLIC } [ , { <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefrauthid.dita#rrefrauthid"&gt;</bpt>authorizationIdentifier<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> | <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> | PUBLIC } ]*<ept id="1">&lt;/b
+&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">You can revoke the privileges from specific users or roles or from all users. Use the keyword PUBLIC to specify all users. The privileges revoked from PUBLIC and from individual users or roles are independent privileges. For example, a SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> is revokeed to both PUBLIC and to the authorization ID <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="2">&lt;/codeph&gt;</ept>. The SELECT privilege is later revoked from the authorization ID <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="3">&lt;/codeph&gt;</ept>, but the authorization ID <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="4">&lt;/codeph&gt;</ept> can access the table <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="5">&lt;/codeph&gt;</ept> through the PUBLIC privilege.</source>
+<seg-source><mrk mid="0" mtype="seg">You can revoke the privileges from specific users or roles or from all users.</mrk><mrk mid="1" mtype="seg"> Use the keyword PUBLIC to specify all users.</mrk><mrk mid="2" mtype="seg"> The privileges revoked from PUBLIC and from individual users or roles are independent privileges.</mrk><mrk mid="3" mtype="seg"> For example, a SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> is revokeed to both PUBLIC and to the authorization ID <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="4" mtype="seg"> The SELECT privilege is later revoked from the authorization ID <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="3">&lt;/codeph&gt;</ept>, but the authorization ID <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="4">&lt;/codeph&gt;</ept> can access the table <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="5">&lt;/codeph&gt;</ept> through the PUBLIC privilege.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can revoke the privileges from specific users or roles or from all users.</mrk><mrk mid="1" mtype="seg"> Use the keyword PUBLIC to specify all users.</mrk><mrk mid="2" mtype="seg"> The privileges revoked from PUBLIC and from individual users or roles are independent privileges.</mrk><mrk mid="3" mtype="seg"> For example, a SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> is revokeed to both PUBLIC and to the authorization ID <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="4" mtype="seg"> The SELECT privilege is later revoked from the authorization ID <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="3">&lt;/codeph&gt;</ept>, but the authorization ID <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="4">&lt;/codeph&gt;</ept> can access the table <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="5">&lt;/codeph&gt;</ept> through the PUBLIC privilege.</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">You can revoke a role from a role, from a user, or from PUBLIC.</source>
+<seg-source><mrk mid="0" mtype="seg">You can revoke a role from a role, from a user, or from PUBLIC.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can revoke a role from a role, from a user, or from PUBLIC.</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">You cannot revoke the privileges of the owner of an object.</source>
+<seg-source><mrk mid="0" mtype="seg">You cannot revoke the privileges of the owner of an object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You cannot revoke the privileges of the owner of an object.</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">Prepared statements and open result sets/cursors</source>
+<seg-source><mrk mid="0" mtype="seg">Prepared statements and open result sets/cursors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Prepared statements and open result sets/cursors</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en">Checking for privileges happens at statement execution time, so prepared statements are still usable after a revoke action. If sufficient privileges are still available for the session, prepared statements will be executed, and for queries, a result set will be returned.</source>
+<seg-source><mrk mid="0" mtype="seg">Checking for privileges happens at statement execution time, so prepared statements are still usable after a revoke action.</mrk><mrk mid="1" mtype="seg"> If sufficient privileges are still available for the session, prepared statements will be executed, and for queries, a result set will be returned.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Checking for privileges happens at statement execution time, so prepared statements are still usable after a revoke action.</mrk><mrk mid="1" mtype="seg"> If sufficient privileges are still available for the session, prepared statements will be executed, and for queries, a result set will be returned.</mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en">Once a result set has been returned to the application (by executing a prepared statement or by direct execution), it will remain accessible even if privileges or roles are revoked in a way that would cause another execution of the same statement to fail.</source>
+<seg-source><mrk mid="0" mtype="seg">Once a result set has been returned to the application (by executing a prepared statement or by direct execution), it will remain accessible even if privileges or roles are revoked in a way that would cause another execution of the same statement to fail.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Once a result set has been returned to the application (by executing a prepared statement or by direct execution), it will remain accessible even if privileges or roles are revoked in a way that would cause another execution of the same statement to fail.</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">Cascading object dependencies</source>
+<seg-source><mrk mid="0" mtype="seg">Cascading object dependencies</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cascading object dependencies</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">For views, triggers, and constraints, if the privilege on which the object depends on is revoked, the object is automatically dropped. <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not try to determine if you have other privileges that can replace the privileges that are being revoked. For more information, see "Using SQL standard authorization" and "Privileges on views, triggers, and constraints" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For views, triggers, and constraints, if the privilege on which the object depends on is revoked, the object is automatically dropped.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not try to determine if you have other privileges that can replace the privileges that are being revoked.</mrk><mrk mid="2" mtype="seg"> For more information, see "Using SQL standard authorization" and "Privileges on views, triggers, and constraints" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For views, triggers, and constraints, if the privilege on which the object depends on is revoked, the object is automatically dropped.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not try to determine if you have other privileges that can replace the privileges that are being revoked.</mrk><mrk mid="2" mtype="seg"> For more information, see "Using SQL standard authorization" and "Privileges on views, triggers, and constraints" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">Limitations</source>
+<seg-source><mrk mid="0" mtype="seg">Limitations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Limitations</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en">The following limitations apply to the REVOKE statement:</source>
+<seg-source><mrk mid="0" mtype="seg">The following limitations apply to the REVOKE statement:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following limitations apply to the REVOKE statement:</mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en">Table-level privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Table-level privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Table-level privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en">All of the table-level privilege types for a specified revokeee and table ID are stored in one row in the SYSTABLEPERMS system table. For example, when <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="1">&lt;/codeph&gt;</ept> is revokeed the SELECT and DELETE privileges on table <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="2">&lt;/codeph&gt;</ept>, a row is added to the SYSTABLEPERMS table. The GRANTEE field contains <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="3">&lt;/codeph&gt;</ept> and the TABLEID contains <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="4">&lt;/codeph&gt;</ept>. The SELECTPRIV and DELETEPRIV fields are set to Y. The remaining privilege type fields are set to N.</source>
+<seg-source><mrk mid="0" mtype="seg">All of the table-level privilege types for a specified revokeee and table ID are stored in one row in the SYSTABLEPERMS system table.</mrk><mrk mid="1" mtype="seg"> For example, when <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="1">&lt;/codeph&gt;</ept> is revokeed the SELECT and DELETE privileges on table <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="2">&lt;/codeph&gt;</ept>, a row is added to the SYSTABLEPERMS table.</mrk><mrk mid="2" mtype="seg"> The GRANTEE field contains <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="3">&lt;/codeph&gt;</ept> and the TABLEID contains <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="4">&lt;/codeph&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> The SELECTPRIV and DELETEPRIV fields are set to Y. The remaining privilege type fields are set to N.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All of the table-level privilege types for a specified revokeee and table ID are stored in one row in the SYSTABLEPERMS system table.</mrk><mrk mid="1" mtype="seg"> For example, when <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="1">&lt;/codeph&gt;</ept> is revokeed the SELECT and DELETE privileges on table <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="2">&lt;/codeph&gt;</ept>, a row is added to the SYSTABLEPERMS table.</mrk><mrk mid="2" mtype="seg"> The GRANTEE field contains <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="3">&lt;/codeph&gt;</ept> and the TABLEID contains <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="4">&lt;/codeph&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> The SELECTPRIV and DELETEPRIV fields are set to Y. The remaining privilege type fields are set to N.</mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en">When a revokeee creates an object that relies on one of the privilege types, the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine tracks the dependency of the object on the specific row in the SYSTABLEPERMS table. For example, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="2">&lt;/codeph&gt;</ept> creates the view <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>v1<ept id="3">&lt;/codeph&gt;</ept> by using the statement <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SELECT * FROM user1.t1<ept id="4">&lt;/codeph&gt;</ept>, the dependency manager tracks the dependency of view <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>v1<ept id="5">&lt;/codeph&gt;</ept> on the row in SYSTABLEPERMS for GRANTEE(<bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="6">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="7">&lt;/codeph&gt;</ept>). The dependency manager knows only that the view is dependent on a privilege type in that specific row, but does not track exactly which privilege type the view is dependent on.</source>
+<seg-source><mrk mid="0" mtype="seg">When a revokeee creates an object that relies on one of the privilege types, the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine tracks the dependency of the object on the specific row in the SYSTABLEPERMS table.</mrk><mrk mid="1" mtype="seg"> For example, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="2">&lt;/codeph&gt;</ept> creates the view <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>v1<ept id="3">&lt;/codeph&gt;</ept> by using the statement <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SELECT * FROM user1.t1<ept id="4">&lt;/codeph&gt;</ept>, the dependency manager tracks the dependency of view <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>v1<ept id="5">&lt;/codeph&gt;</ept> on the row in SYSTABLEPERMS for GRANTEE(<bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="6">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="7">&lt;/codeph&gt;</ept>).</mrk><mrk mid="2" mtype="seg"> The dependency manager knows only that the view is dependent on a privilege type in that specific row, but does not track exactly which privilege type the view is dependent on.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a revokeee creates an object that relies on one of the privilege types, the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine tracks the dependency of the object on the specific row in the SYSTABLEPERMS table.</mrk><mrk mid="1" mtype="seg"> For example, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="2">&lt;/codeph&gt;</ept> creates the view <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>v1<ept id="3">&lt;/codeph&gt;</ept> by using the statement <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SELECT * FROM user1.t1<ept id="4">&lt;/codeph&gt;</ept>, the dependency manager tracks the dependency of view <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>v1<ept id="5">&lt;/codeph&gt;</ept> on the row in SYSTABLEPERMS for GRANTEE(<bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="6">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="7">&lt;/codeph&gt;</ept>).</mrk><mrk mid="2" mtype="seg"> The dependency manager knows only that the view is dependent on a privilege type in that specific row, but does not track exactly which privilege type the view is dependent on.</mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en">When a REVOKE statement for a table-level privilege is issued for a revokeee and table ID, all of the objects that are dependent on the revokeee and table ID are dropped. For example, if <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user1<ept id="1">&lt;/codeph&gt;</ept> revokes the DELETE privilege on table <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>t1<ept id="2">&lt;/codeph&gt;</ept> from <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="3">&lt;/codeph&gt;</ept>, the row in SYSTABLEPERMS for GRANTEE(<bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="4">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="5">&lt;/codeph&gt;</ept>) is modified by the REVOKE statement. The dependency manager sends a revoke invalidation message to the view <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>user2.v1<ept id="6">&lt;/codeph&gt;</ept> and the view is dropped even though the view is not dependent on the DELETE privilege for GRANTEE(<bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="7">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="8">&lt;/codeph&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">When a REVOKE statement for a table-level privilege is issued for a revokeee and table ID, all of the objects that are dependent on the revokeee and table ID are dropped.</mrk><mrk mid="1" mtype="seg"> For example, if <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user1<ept id="1">&lt;/codeph&gt;</ept> revokes the DELETE privilege on table <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>t1<ept id="2">&lt;/codeph&gt;</ept> from <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="3">&lt;/codeph&gt;</ept>, the row in SYSTABLEPERMS for GRANTEE(<bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="4">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="5">&lt;/codeph&gt;</ept>) is modified by the REVOKE statement.</mrk><mrk mid="2" mtype="seg"> The dependency manager sends a revoke invalidation message to the view <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>user2.v1<ept id="6">&lt;/codeph&gt;</ept> and the view is dropped even though the view is not dependent on the DELETE privilege for GRANTEE(<bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="7">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="8">&lt;/codeph&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a REVOKE statement for a table-level privilege is issued for a revokeee and table ID, all of the objects that are dependent on the revokeee and table ID are dropped.</mrk><mrk mid="1" mtype="seg"> For example, if <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user1<ept id="1">&lt;/codeph&gt;</ept> revokes the DELETE privilege on table <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>t1<ept id="2">&lt;/codeph&gt;</ept> from <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="3">&lt;/codeph&gt;</ept>, the row in SYSTABLEPERMS for GRANTEE(<bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="4">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="5">&lt;/codeph&gt;</ept>) is modified by the REVOKE statement.</mrk><mrk mid="2" mtype="seg"> The dependency manager sends a revoke invalidation message to the view <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>user2.v1<ept id="6">&lt;/codeph&gt;</ept> and the view is dropped even though the view is not dependent on the DELETE privilege for GRANTEE(<bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="7">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="8">&lt;/codeph&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu74">
+<source xml:lang="en">Column-level privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Column-level privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column-level privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu75">
+<source xml:lang="en">Only one type of privilege for a specified revokeee and table ID are stored in one row in the SYSCOLPERMS system table. For example, when <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="1">&lt;/codeph&gt;</ept> is revokeed the SELECT privilege on table <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="2">&lt;/codeph&gt;</ept> for columns c12 and c13, a row is added to the SYSCOLPERMS. The GRANTEE field contains <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="3">&lt;/codeph&gt;</ept>, the TABLEID contains <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="4">&lt;/codeph&gt;</ept>, the TYPE field contains <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>S<ept id="5">&lt;/codeph&gt;</ept>, and the COLUMNS field contains <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>c12, c13<ept id="6">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Only one type of privilege for a specified revokeee and table ID are stored in one row in the SYSCOLPERMS system table.</mrk><mrk mid="1" mtype="seg"> For example, when <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="1">&lt;/codeph&gt;</ept> is revokeed the SELECT privilege on table <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="2">&lt;/codeph&gt;</ept> for columns c12 and c13, a row is added to the SYSCOLPERMS.</mrk><mrk mid="2" mtype="seg"> The GRANTEE field contains <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="3">&lt;/codeph&gt;</ept>, the TABLEID contains <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="4">&lt;/codeph&gt;</ept>, the TYPE field contains <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>S<ept id="5">&lt;/codeph&gt;</ept>, and the COLUMNS field contains <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>c12, c13<ept id="6">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only one type of privilege for a specified revokeee and table ID are stored in one row in the SYSCOLPERMS system table.</mrk><mrk mid="1" mtype="seg"> For example, when <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="1">&lt;/codeph&gt;</ept> is revokeed the SELECT privilege on table <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="2">&lt;/codeph&gt;</ept> for columns c12 and c13, a row is added to the SYSCOLPERMS.</mrk><mrk mid="2" mtype="seg"> The GRANTEE field contains <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="3">&lt;/codeph&gt;</ept>, the TABLEID contains <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="4">&lt;/codeph&gt;</ept>, the TYPE field contains <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>S<ept id="5">&lt;/codeph&gt;</ept>, and the COLUMNS field contains <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>c12, c13<ept id="6">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu76">
+<source xml:lang="en">When a revokeee creates an object that relies on the privilege type and the subset of columns in a table ID, the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine tracks the dependency of the object on the specific row in the SYSCOLPERMS table. For example, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="2">&lt;/codeph&gt;</ept> creates the view <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>v1<ept id="3">&lt;/codeph&gt;</ept> by using the statement <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SELECT c11 FROM user1.t1<ept id="4">&lt;/codeph&gt;</ept>, the dependency manager tracks the dependency of view <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>v1<ept id="5">&lt;/codeph&gt;</ept> on the row in SYSCOLPERMS for GRANTEE(<bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="6">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="7">&lt;/codeph&gt;</ept>), TYPE(S). The dependency manager knows that the view is dependent on the SELECT privilege type, but does not track exactly which columns the view is dependent on.</source>
+<seg-source><mrk mid="0" mtype="seg">When a revokeee creates an object that relies on the privilege type and the subset of columns in a table ID, the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine tracks the dependency of the object on the specific row in the SYSCOLPERMS table.</mrk><mrk mid="1" mtype="seg"> For example, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="2">&lt;/codeph&gt;</ept> creates the view <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>v1<ept id="3">&lt;/codeph&gt;</ept> by using the statement <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SELECT c11 FROM user1.t1<ept id="4">&lt;/codeph&gt;</ept>, the dependency manager tracks the dependency of view <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>v1<ept id="5">&lt;/codeph&gt;</ept> on the row in SYSCOLPERMS for GRANTEE(<bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="6">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="7">&lt;/codeph&gt;</ept>), TYPE(S).</mrk><mrk mid="2" mtype="seg"> The dependency manager knows that the view is dependent on the SELECT privilege type, but does not track exactly which columns the view is dependent on.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a revokeee creates an object that relies on the privilege type and the subset of columns in a table ID, the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine tracks the dependency of the object on the specific row in the SYSCOLPERMS table.</mrk><mrk mid="1" mtype="seg"> For example, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="2">&lt;/codeph&gt;</ept> creates the view <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>v1<ept id="3">&lt;/codeph&gt;</ept> by using the statement <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SELECT c11 FROM user1.t1<ept id="4">&lt;/codeph&gt;</ept>, the dependency manager tracks the dependency of view <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>v1<ept id="5">&lt;/codeph&gt;</ept> on the row in SYSCOLPERMS for GRANTEE(<bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="6">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="7">&lt;/codeph&gt;</ept>), TYPE(S).</mrk><mrk mid="2" mtype="seg"> The dependency manager knows that the view is dependent on the SELECT privilege type, but does not track exactly which columns the view is dependent on.</mrk></target>
+</trans-unit>
+<trans-unit id="tu77">
+<source xml:lang="en">When a REVOKE statement for a column-level privilege is issued for a revokeee, table ID, and type, all of the objects that are dependent on the revokeee, table ID, and type are dropped. For example, if <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user1<ept id="1">&lt;/codeph&gt;</ept> revokes the SELECT privilege on column <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>c12<ept id="2">&lt;/codeph&gt;</ept> on table <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="3">&lt;/codeph&gt;</ept> from <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="4">&lt;/codeph&gt;</ept>, the row in SYSCOLPERMS for GRANTEE(<bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="5">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="6">&lt;/codeph&gt;</ept>), TYPE(S) is modified by the REVOKE statement. The dependency manager sends a revoke invalidation message to the view <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>user2.v1<ept id="7">&lt;/codeph&gt;</ept> and the view is dropped even though the view is not dependent on the column <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>c12<ept id="8">&lt;/codeph&gt;</ept> for GRANTEE(<bpt id="9" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="9">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="10" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="10">&lt;/codeph&gt;</ept>), TYPE(S).</source>
+<seg-source><mrk mid="0" mtype="seg">When a REVOKE statement for a column-level privilege is issued for a revokeee, table ID, and type, all of the objects that are dependent on the revokeee, table ID, and type are dropped.</mrk><mrk mid="1" mtype="seg"> For example, if <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user1<ept id="1">&lt;/codeph&gt;</ept> revokes the SELECT privilege on column <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>c12<ept id="2">&lt;/codeph&gt;</ept> on table <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="3">&lt;/codeph&gt;</ept> from <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="4">&lt;/codeph&gt;</ept>, the row in SYSCOLPERMS for GRANTEE(<bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="5">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="6">&lt;/codeph&gt;</ept>), TYPE(S) is modified by the REVOKE statement.</mrk><mrk mid="2" mtype="seg"> The dependency manager sends a revoke invalidation message to the view <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>user2.v1<ept id="7">&lt;/codeph&gt;</ept> and the view is dropped even though the view is not dependent on the column <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>c12<ept id="8">&lt;/codeph&gt;</ept> for GRANTEE(<bpt id="9" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="9">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="10" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="10">&lt;/codeph&gt;</ept>), TYPE(S).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a REVOKE statement for a column-level privilege is issued for a revokeee, table ID, and type, all of the objects that are dependent on the revokeee, table ID, and type are dropped.</mrk><mrk mid="1" mtype="seg"> For example, if <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user1<ept id="1">&lt;/codeph&gt;</ept> revokes the SELECT privilege on column <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>c12<ept id="2">&lt;/codeph&gt;</ept> on table <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="3">&lt;/codeph&gt;</ept> from <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="4">&lt;/codeph&gt;</ept>, the row in SYSCOLPERMS for GRANTEE(<bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="5">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="6">&lt;/codeph&gt;</ept>), TYPE(S) is modified by the REVOKE statement.</mrk><mrk mid="2" mtype="seg"> The dependency manager sends a revoke invalidation message to the view <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>user2.v1<ept id="7">&lt;/codeph&gt;</ept> and the view is dropped even though the view is not dependent on the column <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>c12<ept id="8">&lt;/codeph&gt;</ept> for GRANTEE(<bpt id="9" ctype="x-codeph">&lt;codeph&gt;</bpt>user2<ept id="9">&lt;/codeph&gt;</ept>), TABLEID(<bpt id="10" ctype="x-codeph">&lt;codeph&gt;</bpt>user1.t1<ept id="10">&lt;/codeph&gt;</ept>), TYPE(S).</mrk></target>
+</trans-unit>
+<trans-unit id="tu78">
+<source xml:lang="en">Roles</source>
+<seg-source><mrk mid="0" mtype="seg">Roles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Roles</mrk></target>
+</trans-unit>
+<trans-unit id="tu79">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> tracks any dependencies on the definer's current role for views, constraints, and triggers. If privileges were obtainable only via the current role when the object in question was defined, that object depends on the current role. The object will be dropped if the role is revoked from the defining user or from PUBLIC, as the case may be. Also, if a contained role of the current role in such cases is revoked, dependent objects will be dropped. Note that dropping may be too pessimistic. This is because <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not currently make an attempt to recheck if the necessary privileges are still available in such cases.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> tracks any dependencies on the definer's current role for views, constraints, and triggers.</mrk><mrk mid="1" mtype="seg"> If privileges were obtainable only via the current role when the object in question was defined, that object depends on the current role.</mrk><mrk mid="2" mtype="seg"> The object will be dropped if the role is revoked from the defining user or from PUBLIC, as the case may be.</mrk><mrk mid="3" mtype="seg"> Also, if a contained role of the current role in such cases is revoked, dependent objects will be dropped.</mrk><mrk mid="4" mtype="seg"> Note that dropping may be too pessimistic.</mrk><mrk mid="5" mtype="seg"> This is because <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not currently make an attempt to recheck if the necessary privileges are still available in such cases.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> tracks any dependencies on the definer's current role for views, constraints, and triggers.</mrk><mrk mid="1" mtype="seg"> If privileges were obtainable only via the current role when the object in question was defined, that object depends on the current role.</mrk><mrk mid="2" mtype="seg"> The object will be dropped if the role is revoked from the defining user or from PUBLIC, as the case may be.</mrk><mrk mid="3" mtype="seg"> Also, if a contained role of the current role in such cases is revoked, dependent objects will be dropped.</mrk><mrk mid="4" mtype="seg"> Note that dropping may be too pessimistic.</mrk><mrk mid="5" mtype="seg"> This is because <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not currently make an attempt to recheck if the necessary privileges are still available in such cases.</mrk></target>
+</trans-unit>
+<trans-unit id="tu80">
+<source xml:lang="en">Revoke examples</source>
+<seg-source><mrk mid="0" mtype="seg">Revoke examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Revoke examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu81">
+<source xml:lang="en">To revoke the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> from the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>maria<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To revoke the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> from the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>maria<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To revoke the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> from the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>maria<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu82">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE SELECT ON TABLE t FROM maria,harry<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE SELECT ON TABLE t FROM maria,harry<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE SELECT ON TABLE t FROM maria,harry<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu83">
+<source xml:lang="en">To revoke the UPDATE and TRIGGER privileges on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> from the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>zhi<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To revoke the UPDATE and TRIGGER privileges on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> from the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>zhi<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To revoke the UPDATE and TRIGGER privileges on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> from the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>zhi<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu84">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE UPDATE, TRIGGER ON TABLE t FROM anita,zhi<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE UPDATE, TRIGGER ON TABLE t FROM anita,zhi<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE UPDATE, TRIGGER ON TABLE t FROM anita,zhi<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu85">
+<source xml:lang="en">To revoke the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="1">&lt;/codeph&gt;</ept> from all users, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To revoke the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="1">&lt;/codeph&gt;</ept> from all users, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To revoke the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="1">&lt;/codeph&gt;</ept> from all users, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu86">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE SELECT ON TABLE s.v FROM PUBLIC<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE SELECT ON TABLE s.v FROM PUBLIC<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE SELECT ON TABLE s.v FROM PUBLIC<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu87">
+<source xml:lang="en">To revoke the UPDATE privilege on columns <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>c1<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>c2<ept id="2">&lt;/codeph&gt;</ept> of table <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="3">&lt;/codeph&gt;</ept> from all users, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To revoke the UPDATE privilege on columns <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>c1<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>c2<ept id="2">&lt;/codeph&gt;</ept> of table <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="3">&lt;/codeph&gt;</ept> from all users, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To revoke the UPDATE privilege on columns <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>c1<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>c2<ept id="2">&lt;/codeph&gt;</ept> of table <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="3">&lt;/codeph&gt;</ept> from all users, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu88">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE UPDATE (c1,c2) ON TABLE s.v FROM PUBLIC<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE UPDATE (c1,c2) ON TABLE s.v FROM PUBLIC<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE UPDATE (c1,c2) ON TABLE s.v FROM PUBLIC<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu89">
+<source xml:lang="en">To revoke the EXECUTE privilege on procedure <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>p<ept id="1">&lt;/codeph&gt;</ept> from the authorization ID <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>george<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To revoke the EXECUTE privilege on procedure <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>p<ept id="1">&lt;/codeph&gt;</ept> from the authorization ID <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>george<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To revoke the EXECUTE privilege on procedure <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>p<ept id="1">&lt;/codeph&gt;</ept> from the authorization ID <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>george<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu90">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE EXECUTE ON PROCEDURE p FROM george RESTRICT<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE EXECUTE ON PROCEDURE p FROM george RESTRICT<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE EXECUTE ON PROCEDURE p FROM george RESTRICT<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu91">
+<source xml:lang="en">To revoke the role <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>purchases_reader_role<ept id="1">&lt;/codeph&gt;</ept> from the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>george<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>maria<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To revoke the role <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>purchases_reader_role<ept id="1">&lt;/codeph&gt;</ept> from the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>george<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>maria<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To revoke the role <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>purchases_reader_role<ept id="1">&lt;/codeph&gt;</ept> from the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>george<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>maria<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu92">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE purchases_reader_role FROM george,maria<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE purchases_reader_role FROM george,maria<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE purchases_reader_role FROM george,maria<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu93">
+<source xml:lang="en">To revoke the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> from the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>purchases_reader_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To revoke the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> from the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>purchases_reader_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To revoke the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> from the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>purchases_reader_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu94">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE SELECT ON TABLE t FROM purchases_reader_role<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE SELECT ON TABLE t FROM purchases_reader_role<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE SELECT ON TABLE t FROM purchases_reader_role<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu95">
+<source xml:lang="en">To revoke the USAGE privilege on the sequence generator <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>order_id<ept id="1">&lt;/codeph&gt;</ept> from the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sales_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To revoke the USAGE privilege on the sequence generator <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>order_id<ept id="1">&lt;/codeph&gt;</ept> from the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sales_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To revoke the USAGE privilege on the sequence generator <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>order_id<ept id="1">&lt;/codeph&gt;</ept> from the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sales_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu96">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON SEQUENCE order_id FROM sales_role;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON SEQUENCE order_id FROM sales_role;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON SEQUENCE order_id FROM sales_role;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu97">
+<source xml:lang="en">To revoke the USAGE privilege on the user-defined type <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>price<ept id="1">&lt;/codeph&gt;</ept> from the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>finance_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To revoke the USAGE privilege on the user-defined type <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>price<ept id="1">&lt;/codeph&gt;</ept> from the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>finance_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To revoke the USAGE privilege on the user-defined type <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>price<ept id="1">&lt;/codeph&gt;</ept> from the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>finance_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu98">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON TYPE price FROM finance_role;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON TYPE price FROM finance_role;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON TYPE price FROM finance_role;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu99">
+<source xml:lang="en">To revoke the USAGE privilege on the user-defined aggregate <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>types.maxPrice<ept id="1">&lt;/codeph&gt;</ept> from the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sales_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To revoke the USAGE privilege on the user-defined aggregate <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>types.maxPrice<ept id="1">&lt;/codeph&gt;</ept> from the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sales_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To revoke the USAGE privilege on the user-defined aggregate <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>types.maxPrice<ept id="1">&lt;/codeph&gt;</ept> from the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sales_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu100">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON DERBY AGGREGATE types.maxPrice FROM sales_role;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON DERBY AGGREGATE types.maxPrice FROM sales_role;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>REVOKE USAGE ON DERBY AGGREGATE types.maxPrice FROM sales_role;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

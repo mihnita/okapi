@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefattribupgrade.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">upgrade=true attribute</source>
+<seg-source><mrk mid="0" mtype="seg">upgrade=true attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">upgrade=true attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">upgrade=true database connection URL attribute</source>
+<seg-source><mrk mid="0" mtype="seg">upgrade=true database connection URL attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">upgrade=true database connection URL attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Upgrades a database that was created using an earlier version of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to the current version of <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, then connects to it. If the database does not exist, an error appears in the error log and the connection attempt fails with an <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="3">&lt;/i&gt;</ept> indicating that the database cannot be found.</source>
+<seg-source><mrk mid="0" mtype="seg">Upgrades a database that was created using an earlier version of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to the current version of <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, then connects to it.</mrk><mrk mid="1" mtype="seg"> If the database does not exist, an error appears in the error log and the connection attempt fails with an <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="3">&lt;/i&gt;</ept> indicating that the database cannot be found.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Upgrades a database that was created using an earlier version of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to the current version of <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, then connects to it.</mrk><mrk mid="1" mtype="seg"> If the database does not exist, an error appears in the error log and the connection attempt fails with an <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="3">&lt;/i&gt;</ept> indicating that the database cannot be found.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">This operation performs a full upgrade, as defined in "Upgrading a database" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>. For more information about upgrades, see the other topics under "Upgrades" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This operation performs a full upgrade, as defined in "Upgrading a database" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> For more information about upgrades, see the other topics under "Upgrades" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This operation performs a full upgrade, as defined in "Upgrading a database" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> For more information about upgrades, see the other topics under "Upgrades" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">For a database for which authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can perform a full upgrade. See also "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">For a database for which authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can perform a full upgrade.</mrk><mrk mid="1" mtype="seg"> See also "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For a database for which authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can perform a full upgrade.</mrk><mrk mid="1" mtype="seg"> See also "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Note:<ept id="1">&lt;/b&gt;</ept> You cannot perform a full upgrade on a database already booted in soft upgrade mode. If a database is already booted in soft upgrade mode, the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>upgrade=true<ept id="2">&lt;/i&gt;</ept> attribute will have no effect. If a database is already booted in soft upgrade mode, you can first shutdown the database with the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefattrib16471.dita#rrefattrib16471"&gt;</bpt>shutdown=true<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> attribute and then connect with <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>upgrade=true<ept id="5">&lt;/i&gt;</ept> to perform the upgrade.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Note:<ept id="1">&lt;/b&gt;</ept> You cannot perform a full upgrade on a database already booted in soft upgrade mode.</mrk><mrk mid="1" mtype="seg"> If a database is already booted in soft upgrade mode, the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>upgrade=true<ept id="2">&lt;/i&gt;</ept> attribute will have no effect.</mrk><mrk mid="2" mtype="seg"> If a database is already booted in soft upgrade mode, you can first shutdown the database with the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefattrib16471.dita#rrefattrib16471"&gt;</bpt>shutdown=true<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> attribute and then connect with <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>upgrade=true<ept id="5">&lt;/i&gt;</ept> to perform the upgrade.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Note:<ept id="1">&lt;/b&gt;</ept> You cannot perform a full upgrade on a database already booted in soft upgrade mode.</mrk><mrk mid="1" mtype="seg"> If a database is already booted in soft upgrade mode, the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>upgrade=true<ept id="2">&lt;/i&gt;</ept> attribute will have no effect.</mrk><mrk mid="2" mtype="seg"> If a database is already booted in soft upgrade mode, you can first shutdown the database with the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefattrib16471.dita#rrefattrib16471"&gt;</bpt>shutdown=true<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> attribute and then connect with <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>upgrade=true<ept id="5">&lt;/i&gt;</ept> to perform the upgrade.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Combining with other attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Combining with other attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Combining with other attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">You must specify a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="1">&lt;/i&gt;</ept> (after the subprotocol in the database connection URL) or a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefattrib17246.dita#rrefattrib17246"&gt;</bpt>databaseName=nameofDatabase<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> attribute with this attribute.</source>
+<seg-source><mrk mid="0" mtype="seg">You must specify a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="1">&lt;/i&gt;</ept> (after the subprotocol in the database connection URL) or a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefattrib17246.dita#rrefattrib17246"&gt;</bpt>databaseName=nameofDatabase<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> attribute with this attribute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You must specify a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>databaseName<ept id="1">&lt;/i&gt;</ept> (after the subprotocol in the database connection URL) or a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefattrib17246.dita#rrefattrib17246"&gt;</bpt>databaseName=nameofDatabase<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> attribute with this attribute.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">You cannot combine this attribute with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefattribcollation.dita#rrefattribcollation"&gt;</bpt>collation<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefattrib56769.dita#rrefattrib56769"&gt;</bpt>territory=ll_CC<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> attributes.</source>
+<seg-source><mrk mid="0" mtype="seg">You cannot combine this attribute with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefattribcollation.dita#rrefattribcollation"&gt;</bpt>collation<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefattrib56769.dita#rrefattrib56769"&gt;</bpt>territory=ll_CC<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> attributes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You cannot combine this attribute with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefattribcollation.dita#rrefattribcollation"&gt;</bpt>collation<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefattrib56769.dita#rrefattrib56769"&gt;</bpt>territory=ll_CC<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> attributes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>jdbc:derby:sampleDB;upgrade=true jdbc:derby:;databaseName=sampleDB;upgrade=true;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>jdbc:derby:sampleDB;upgrade=true jdbc:derby:;databaseName=sampleDB;upgrade=true;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>jdbc:derby:sampleDB;upgrade=true jdbc:derby:;databaseName=sampleDB;upgrade=true;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

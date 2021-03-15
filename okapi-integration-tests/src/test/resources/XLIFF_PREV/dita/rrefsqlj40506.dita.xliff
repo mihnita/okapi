@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj40506.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">LOCK TABLE statement</source>
+<seg-source><mrk mid="0" mtype="seg">LOCK TABLE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOCK TABLE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">LOCK TABLE statement</source>
+<seg-source><mrk mid="0" mtype="seg">LOCK TABLE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOCK TABLE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SQL statements</source>
+<seg-source><mrk mid="0" mtype="seg">SQL statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">LOCK TABLE</source>
+<seg-source><mrk mid="0" mtype="seg">LOCK TABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOCK TABLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">tables</source>
+<seg-source><mrk mid="0" mtype="seg">tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">locking</source>
+<seg-source><mrk mid="0" mtype="seg">locking</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">locking</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">lock escalation</source>
+<seg-source><mrk mid="0" mtype="seg">lock escalation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lock escalation</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">by user</source>
+<seg-source><mrk mid="0" mtype="seg">by user</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">by user</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The LOCK TABLE statement allows you to explicitly acquire a shared or exclusive table lock on the specified table. The table lock lasts until the end of the current transaction.</source>
+<seg-source><mrk mid="0" mtype="seg">The LOCK TABLE statement allows you to explicitly acquire a shared or exclusive table lock on the specified table.</mrk><mrk mid="1" mtype="seg"> The table lock lasts until the end of the current transaction.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The LOCK TABLE statement allows you to explicitly acquire a shared or exclusive table lock on the specified table.</mrk><mrk mid="1" mtype="seg"> The table lock lasts until the end of the current transaction.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">To lock a table, you must either be the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> or the table owner.</source>
+<seg-source><mrk mid="0" mtype="seg">To lock a table, you must either be the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> or the table owner.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To lock a table, you must either be the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> or the table owner.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Explicitly locking a table is useful to:</source>
+<seg-source><mrk mid="0" mtype="seg">Explicitly locking a table is useful to:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Explicitly locking a table is useful to:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Avoid the overhead of multiple row locks on a table (in other words, user-initiated lock escalation)</source>
+<seg-source><mrk mid="0" mtype="seg">Avoid the overhead of multiple row locks on a table (in other words, user-initiated lock escalation)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Avoid the overhead of multiple row locks on a table (in other words, user-initiated lock escalation)</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Avoid deadlocks</source>
+<seg-source><mrk mid="0" mtype="seg">Avoid deadlocks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Avoid deadlocks</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">You cannot lock system tables with this statement.</source>
+<seg-source><mrk mid="0" mtype="seg">You cannot lock system tables with this statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You cannot lock system tables with this statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>LOCK TABLE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> IN { SHARE | EXCLUSIVE } MODE<ept id="1">&lt;/b
+&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>LOCK TABLE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> IN { SHARE | EXCLUSIVE } MODE<ept id="1">&lt;/b
+&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>LOCK TABLE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> IN { SHARE | EXCLUSIVE } MODE<ept id="1">&lt;/b
+&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">After a table is locked in either mode, a transaction does not acquire any subsequent row-level locks on a table. For example, if a transaction locks the entire <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Flights<ept id="1">&lt;/codeph&gt;</ept> table in share mode in order to read data, a particular statement might need to lock a particular row in exclusive mode in order to update the row. However, the previous table-level lock on the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>Flights<ept id="2">&lt;/codeph&gt;</ept> table forces the exclusive lock to be table-level as well.</source>
+<seg-source><mrk mid="0" mtype="seg">After a table is locked in either mode, a transaction does not acquire any subsequent row-level locks on a table.</mrk><mrk mid="1" mtype="seg"> For example, if a transaction locks the entire <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Flights<ept id="1">&lt;/codeph&gt;</ept> table in share mode in order to read data, a particular statement might need to lock a particular row in exclusive mode in order to update the row.</mrk><mrk mid="2" mtype="seg"> However, the previous table-level lock on the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>Flights<ept id="2">&lt;/codeph&gt;</ept> table forces the exclusive lock to be table-level as well.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After a table is locked in either mode, a transaction does not acquire any subsequent row-level locks on a table.</mrk><mrk mid="1" mtype="seg"> For example, if a transaction locks the entire <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Flights<ept id="1">&lt;/codeph&gt;</ept> table in share mode in order to read data, a particular statement might need to lock a particular row in exclusive mode in order to update the row.</mrk><mrk mid="2" mtype="seg"> However, the previous table-level lock on the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>Flights<ept id="2">&lt;/codeph&gt;</ept> table forces the exclusive lock to be table-level as well.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">If the specified lock cannot be acquired because another connection already holds a lock on the table, a statement-level exception is raised (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLState<ept id="1">&lt;/i&gt;</ept> X0X02) after the deadlock timeout period.</source>
+<seg-source><mrk mid="0" mtype="seg">If the specified lock cannot be acquired because another connection already holds a lock on the table, a statement-level exception is raised (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLState<ept id="1">&lt;/i&gt;</ept> X0X02) after the deadlock timeout period.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the specified lock cannot be acquired because another connection already holds a lock on the table, a statement-level exception is raised (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLState<ept id="1">&lt;/i&gt;</ept> X0X02) after the deadlock timeout period.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">To lock the entire <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Flights<ept id="1">&lt;/codeph&gt;</ept> table in share mode to avoid a large number of row locks, use the following statement:</source>
+<seg-source><mrk mid="0" mtype="seg">To lock the entire <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Flights<ept id="1">&lt;/codeph&gt;</ept> table in share mode to avoid a large number of row locks, use the following statement:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To lock the entire <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>Flights<ept id="1">&lt;/codeph&gt;</ept> table in share mode to avoid a large number of row locks, use the following statement:</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">LOCK TABLE Flights IN SHARE MODE; SELECT * FROM Flights WHERE orig_airport &gt; 'OOO';</source>
+<seg-source><mrk mid="0" mtype="seg">LOCK TABLE Flights IN SHARE MODE; SELECT * FROM Flights WHERE orig_airport &gt; 'OOO';</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOCK TABLE Flights IN SHARE MODE; SELECT * FROM Flights WHERE orig_airport &gt; 'OOO';</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">You have a transaction with multiple UPDATE statements. Since each of the individual statements acquires only a few row-level locks, the transaction will not automatically upgrade the locks to a table-level lock. However, collectively the UPDATE statements acquire and release a large number of locks, which might result in deadlocks. For this type of transaction, you can acquire an exclusive table-level lock at the beginning of the transaction. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">You have a transaction with multiple UPDATE statements.</mrk><mrk mid="1" mtype="seg"> Since each of the individual statements acquires only a few row-level locks, the transaction will not automatically upgrade the locks to a table-level lock.</mrk><mrk mid="2" mtype="seg"> However, collectively the UPDATE statements acquire and release a large number of locks, which might result in deadlocks.</mrk><mrk mid="3" mtype="seg"> For this type of transaction, you can acquire an exclusive table-level lock at the beginning of the transaction.</mrk><mrk mid="4" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You have a transaction with multiple UPDATE statements.</mrk><mrk mid="1" mtype="seg"> Since each of the individual statements acquires only a few row-level locks, the transaction will not automatically upgrade the locks to a table-level lock.</mrk><mrk mid="2" mtype="seg"> However, collectively the UPDATE statements acquire and release a large number of locks, which might result in deadlocks.</mrk><mrk mid="3" mtype="seg"> For this type of transaction, you can acquire an exclusive table-level lock at the beginning of the transaction.</mrk><mrk mid="4" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">LOCK TABLE FlightAvailability IN EXCLUSIVE MODE; UPDATE FlightAvailability SET economy_seats_taken = (economy_seats_taken + 2) WHERE flight_id = 'AA1265' AND flight_date = DATE('2004-03-31'); UPDATE FlightAvailability SET economy_seats_taken = (economy_seats_taken + 2) WHERE flight_id = 'AA1265' AND flight_date = DATE('2004-04-11'); UPDATE FlightAvailability SET economy_seats_taken = (economy_seats_taken + 2) WHERE flight_id = 'AA1265' AND flight_date = DATE('2004-04-12'); UPDATE FlightAvailability SET economy_seats_taken = (economy_seats_taken + 2) WHERE flight_id = 'AA1265' AND flight_date = DATE('2004-04-15');</source>
+<seg-source><mrk mid="0" mtype="seg">LOCK TABLE FlightAvailability IN EXCLUSIVE MODE; UPDATE FlightAvailability SET economy_seats_taken = (economy_seats_taken + 2) WHERE flight_id = 'AA1265' AND flight_date = DATE('2004-03-31'); UPDATE FlightAvailability SET economy_seats_taken = (economy_seats_taken + 2) WHERE flight_id = 'AA1265' AND flight_date = DATE('2004-04-11'); UPDATE FlightAvailability SET economy_seats_taken = (economy_seats_taken + 2) WHERE flight_id = 'AA1265' AND flight_date = DATE('2004-04-12'); UPDATE FlightAvailability SET economy_seats_taken = (economy_seats_taken + 2) WHERE flight_id = 'AA1265' AND flight_date = DATE('2004-04-15');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOCK TABLE FlightAvailability IN EXCLUSIVE MODE; UPDATE FlightAvailability SET economy_seats_taken = (economy_seats_taken + 2) WHERE flight_id = 'AA1265' AND flight_date = DATE('2004-03-31'); UPDATE FlightAvailability SET economy_seats_taken = (economy_seats_taken + 2) WHERE flight_id = 'AA1265' AND flight_date = DATE('2004-04-11'); UPDATE FlightAvailability SET economy_seats_taken = (economy_seats_taken + 2) WHERE flight_id = 'AA1265' AND flight_date = DATE('2004-04-12'); UPDATE FlightAvailability SET economy_seats_taken = (economy_seats_taken + 2) WHERE flight_id = 'AA1265' AND flight_date = DATE('2004-04-15');</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">If a transaction needs to look at a table before updating the table, acquire an exclusive lock before selecting to avoid deadlocks. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">If a transaction needs to look at a table before updating the table, acquire an exclusive lock before selecting to avoid deadlocks.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a transaction needs to look at a table before updating the table, acquire an exclusive lock before selecting to avoid deadlocks.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">LOCK TABLE Maps IN EXCLUSIVE MODE; SELECT MAX(map_id) + 1 FROM Maps; -- INSERT INTO Maps . . .</source>
+<seg-source><mrk mid="0" mtype="seg">LOCK TABLE Maps IN EXCLUSIVE MODE; SELECT MAX(map_id) + 1 FROM Maps; -- INSERT INTO Maps .</mrk><mrk mid="1" mtype="seg"> .</mrk><mrk mid="2" mtype="seg"> .</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOCK TABLE Maps IN EXCLUSIVE MODE; SELECT MAX(map_id) + 1 FROM Maps; -- INSERT INTO Maps .</mrk><mrk mid="1" mtype="seg"> .</mrk><mrk mid="2" mtype="seg"> .</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

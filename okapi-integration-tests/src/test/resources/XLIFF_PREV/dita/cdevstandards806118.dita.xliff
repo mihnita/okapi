@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevstandards806118.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Derby and standards</source>
+<seg-source><mrk mid="0" mtype="seg">Derby and standards</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Derby and standards</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> adheres to SQL99 or newer standards wherever possible. This section describes those features currently in <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> that are not standard; these features are currently being evaluated and might be removed in future releases.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> adheres to SQL99 or newer standards wherever possible.</mrk><mrk mid="1" mtype="seg"> This section describes those features currently in <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> that are not standard; these features are currently being evaluated and might be removed in future releases.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> adheres to SQL99 or newer standards wherever possible.</mrk><mrk mid="1" mtype="seg"> This section describes those features currently in <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> that are not standard; these features are currently being evaluated and might be removed in future releases.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SQL99 standards</source>
+<seg-source><mrk mid="0" mtype="seg">SQL99 standards</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL99 standards</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">and Derby</source>
+<seg-source><mrk mid="0" mtype="seg">and Derby</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and Derby</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">data types</source>
+<seg-source><mrk mid="0" mtype="seg">data types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">data types</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">CLOB</source>
+<seg-source><mrk mid="0" mtype="seg">CLOB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CLOB</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">data types</source>
+<seg-source><mrk mid="0" mtype="seg">data types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">data types</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">BLOB</source>
+<seg-source><mrk mid="0" mtype="seg">BLOB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BLOB</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">This section describes those parts of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> that are non-standard or not typical for a database system.</source>
+<seg-source><mrk mid="0" mtype="seg">This section describes those parts of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> that are non-standard or not typical for a database system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This section describes those parts of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> that are non-standard or not typical for a database system.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">ALTER TABLE syntax</source>
+<seg-source><mrk mid="0" mtype="seg">ALTER TABLE syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ALTER TABLE syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses a slightly different ALTER TABLE syntax for altering column defaults. While SQL99 uses DROP and SET, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> uses DEFAULT.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses a slightly different ALTER TABLE syntax for altering column defaults.</mrk><mrk mid="1" mtype="seg"> While SQL99 uses DROP and SET, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> uses DEFAULT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses a slightly different ALTER TABLE syntax for altering column defaults.</mrk><mrk mid="1" mtype="seg"> While SQL99 uses DROP and SET, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> uses DEFAULT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Calling functions and procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Calling functions and procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calling functions and procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the CALL (procedure) statement for calling external procedures declared by the CREATE PROCEDURE statement. Built-in functions and user-defined functions declared with the CREATE FUNCTION command can be called as part of an SQL select statement or by using either a VALUES clause or VALUES expression.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the CALL (procedure) statement for calling external procedures declared by the CREATE PROCEDURE statement.</mrk><mrk mid="1" mtype="seg"> Built-in functions and user-defined functions declared with the CREATE FUNCTION command can be called as part of an SQL select statement or by using either a VALUES clause or VALUES expression.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the CALL (procedure) statement for calling external procedures declared by the CREATE PROCEDURE statement.</mrk><mrk mid="1" mtype="seg"> Built-in functions and user-defined functions declared with the CREATE FUNCTION command can be called as part of an SQL select statement or by using either a VALUES clause or VALUES expression.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">CLOB and BLOB data types</source>
+<seg-source><mrk mid="0" mtype="seg">CLOB and BLOB data types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CLOB and BLOB data types</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the standard CLOB and BLOB data types. BLOB and CLOB values are limited to a maximum of 2,147,483,647 characters.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the standard CLOB and BLOB data types.</mrk><mrk mid="1" mtype="seg"> BLOB and CLOB values are limited to a maximum of 2,147,483,647 characters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the standard CLOB and BLOB data types.</mrk><mrk mid="1" mtype="seg"> BLOB and CLOB values are limited to a maximum of 2,147,483,647 characters.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Cursors</source>
+<seg-source><mrk mid="0" mtype="seg">Cursors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cursors</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses JDBC's result sets, and does not provide SQL for manipulating cursors except for positioned update and delete. <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>'s scrollable insensitive cursors are provided through JDBC, not through SQL commands.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses JDBC's result sets, and does not provide SQL for manipulating cursors except for positioned update and delete.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>'s scrollable insensitive cursors are provided through JDBC, not through SQL commands.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses JDBC's result sets, and does not provide SQL for manipulating cursors except for positioned update and delete.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>'s scrollable insensitive cursors are provided through JDBC, not through SQL commands.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">DECIMAL max precision</source>
+<seg-source><mrk mid="0" mtype="seg">DECIMAL max precision</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DECIMAL max precision</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">For <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, the maximum precision for DECIMAL columns is 31 digits. SQL99 does not require a specific maximum precision for decimals, but most products have a maximum precision of 15-32 digits.</source>
+<seg-source><mrk mid="0" mtype="seg">For <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, the maximum precision for DECIMAL columns is 31 digits.</mrk><mrk mid="1" mtype="seg"> SQL99 does not require a specific maximum precision for decimals, but most products have a maximum precision of 15-32 digits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, the maximum precision for DECIMAL columns is 31 digits.</mrk><mrk mid="1" mtype="seg"> SQL99 does not require a specific maximum precision for decimals, but most products have a maximum precision of 15-32 digits.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Dynamic SQL</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic SQL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic SQL</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses JDBC's Prepared Statement, and does not provide SQL commands for dynamic SQL.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses JDBC's Prepared Statement, and does not provide SQL commands for dynamic SQL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses JDBC's Prepared Statement, and does not provide SQL commands for dynamic SQL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Expressions on LONGs</source>
+<seg-source><mrk mid="0" mtype="seg">Expressions on LONGs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Expressions on LONGs</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> permits expressions on LONG VARCHAR; however, LONG VARCHAR data types are not allowed in the following clauses, operations, constraints, functions, and predicates:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> permits expressions on LONG VARCHAR; however, LONG VARCHAR data types are not allowed in the following clauses, operations, constraints, functions, and predicates:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> permits expressions on LONG VARCHAR; however, LONG VARCHAR data types are not allowed in the following clauses, operations, constraints, functions, and predicates:</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">GROUP BY clauses</source>
+<seg-source><mrk mid="0" mtype="seg">GROUP BY clauses</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GROUP BY clauses</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">ORDER BY clauses</source>
+<seg-source><mrk mid="0" mtype="seg">ORDER BY clauses</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ORDER BY clauses</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">JOIN operations</source>
+<seg-source><mrk mid="0" mtype="seg">JOIN operations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JOIN operations</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">PRIMARY KEY constraints</source>
+<seg-source><mrk mid="0" mtype="seg">PRIMARY KEY constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PRIMARY KEY constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Foreign KEY constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Foreign KEY constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Foreign KEY constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">UNIQUE key constraints</source>
+<seg-source><mrk mid="0" mtype="seg">UNIQUE key constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNIQUE key constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">MIN aggregate function</source>
+<seg-source><mrk mid="0" mtype="seg">MIN aggregate function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MIN aggregate function</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">MAX aggregate function</source>
+<seg-source><mrk mid="0" mtype="seg">MAX aggregate function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MAX aggregate function</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">[NOT] IN predicate</source>
+<seg-source><mrk mid="0" mtype="seg">[NOT] IN predicate</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[NOT] IN predicate</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">UNION, INTERSECT, and EXCEPT operators</source>
+<seg-source><mrk mid="0" mtype="seg">UNION, INTERSECT, and EXCEPT operators</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNION, INTERSECT, and EXCEPT operators</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">SQL99 also places some restrictions on expressions on LONG types.</source>
+<seg-source><mrk mid="0" mtype="seg">SQL99 also places some restrictions on expressions on LONG types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL99 also places some restrictions on expressions on LONG types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">Information schema</source>
+<seg-source><mrk mid="0" mtype="seg">Information schema</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information schema</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses its own system catalog that can be accessed using standard JDBC DatabaseMetadata calls. <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not provide the standard Information Schema views.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses its own system catalog that can be accessed using standard JDBC DatabaseMetadata calls.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not provide the standard Information Schema views.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses its own system catalog that can be accessed using standard JDBC DatabaseMetadata calls.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not provide the standard Information Schema views.</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">NOT NULL characteristic</source>
+<seg-source><mrk mid="0" mtype="seg">NOT NULL characteristic</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NOT NULL characteristic</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">The SQL standard says NOT NULL is a constraint, and can be named and viewed in the information schema as such. <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not provide naming for NOT NULL, nor does it present it as a constraint in the information schema, only as a characteristic of the column.</source>
+<seg-source><mrk mid="0" mtype="seg">The SQL standard says NOT NULL is a constraint, and can be named and viewed in the information schema as such.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not provide naming for NOT NULL, nor does it present it as a constraint in the information schema, only as a characteristic of the column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SQL standard says NOT NULL is a constraint, and can be named and viewed in the information schema as such.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not provide naming for NOT NULL, nor does it present it as a constraint in the information schema, only as a characteristic of the column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">Stored routines and PSM</source>
+<seg-source><mrk mid="0" mtype="seg">Stored routines and PSM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stored routines and PSM</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports external procedures using the Java programming language. Procedures are managed using the CREATE PROCEDURE and DROP PROCEDURE statements.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports external procedures using the Java programming language.</mrk><mrk mid="1" mtype="seg"> Procedures are managed using the CREATE PROCEDURE and DROP PROCEDURE statements.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports external procedures using the Java programming language.</mrk><mrk mid="1" mtype="seg"> Procedures are managed using the CREATE PROCEDURE and DROP PROCEDURE statements.</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">Transactions</source>
+<seg-source><mrk mid="0" mtype="seg">Transactions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transactions</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">All operations in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> are transactional. <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> supports transaction control using JDBC Connection methods. This includes support for savepoints and for the four JDBC transaction isolation levels. The only SQL command provided for transaction control is SET TRANSACTION ISOLATION.</source>
+<seg-source><mrk mid="0" mtype="seg">All operations in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> are transactional.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> supports transaction control using JDBC Connection methods.</mrk><mrk mid="2" mtype="seg"> This includes support for savepoints and for the four JDBC transaction isolation levels.</mrk><mrk mid="3" mtype="seg"> The only SQL command provided for transaction control is SET TRANSACTION ISOLATION.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All operations in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> are transactional.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> supports transaction control using JDBC Connection methods.</mrk><mrk mid="2" mtype="seg"> This includes support for savepoints and for the four JDBC transaction isolation levels.</mrk><mrk mid="3" mtype="seg"> The only SQL command provided for transaction control is SET TRANSACTION ISOLATION.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

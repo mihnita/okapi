@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="space-test.md" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Paragraphs with varying number of leading spaces:</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraphs with varying number of leading spaces:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraphs with varying number of leading spaces:</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">One space after a newline before me will be rendered without a leading space.</source>
+<seg-source><mrk mid="0" mtype="seg">One space after a newline before me will be rendered without a leading space.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">One space after a newline before me will be rendered without a leading space.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Two spaces after a newline before me will be rendered without a leading space.</source>
+<seg-source><mrk mid="0" mtype="seg">Two spaces after a newline before me will be rendered without a leading space.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Two spaces after a newline before me will be rendered without a leading space.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Three spaces after a newline before me will be rendered without a leading space.</source>
+<seg-source><mrk mid="0" mtype="seg">Three spaces after a newline before me will be rendered without a leading space.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Three spaces after a newline before me will be rendered without a leading space.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">Four spaces after a newline before me will be rendered with no leading space in code block.
+
+ Five spaces after a newline before me will be rendered with one leading space in code block.
+
+  Six spaces after a newline before me will be rendered with two leading spaces in code block.
+</source>
+<seg-source><mrk mid="0" mtype="seg">Four spaces after a newline before me will be rendered with no leading space in code block.</mrk>
+
+<mrk mid="1" mtype="seg"> Five spaces after a newline before me will be rendered with one leading space in code block.</mrk>
+
+<mrk mid="2" mtype="seg">  Six spaces after a newline before me will be rendered with two leading spaces in code block.</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Four spaces after a newline before me will be rendered with no leading space in code block.</mrk>
+
+<mrk mid="1" mtype="seg"> Five spaces after a newline before me will be rendered with one leading space in code block.</mrk>
+
+<mrk mid="2" mtype="seg">  Six spaces after a newline before me will be rendered with two leading spaces in code block.</mrk>
+</target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">One space after <bpt id="1" ctype="x-CODE">`</bpt>&gt;<ept id="1">`</ept>
+two spaces after <bpt id="2" ctype="x-CODE">`</bpt>&gt;<ept id="2">`</ept>
+three spaces after <bpt id="3" ctype="x-CODE">`</bpt>&gt;<ept id="3">`</ept>
+four spaces after <bpt id="4" ctype="x-CODE">`</bpt>&gt;<ept id="4">`</ept>
+fieve spaces after <bpt id="5" ctype="x-CODE">`</bpt>&gt;<ept id="5">`</ept>
+are all concatenated and rendered as a paragraph.</source>
+<seg-source><mrk mid="0" mtype="seg">One space after <bpt id="1" ctype="x-CODE">`</bpt>&gt;<ept id="1">`</ept></mrk>
+<mrk mid="1" mtype="seg">two spaces after <bpt id="2" ctype="x-CODE">`</bpt>&gt;<ept id="2">`</ept></mrk>
+<mrk mid="2" mtype="seg">three spaces after <bpt id="3" ctype="x-CODE">`</bpt>&gt;<ept id="3">`</ept></mrk>
+<mrk mid="3" mtype="seg">four spaces after <bpt id="4" ctype="x-CODE">`</bpt>&gt;<ept id="4">`</ept></mrk>
+<mrk mid="4" mtype="seg">fieve spaces after <bpt id="5" ctype="x-CODE">`</bpt>&gt;<ept id="5">`</ept></mrk>
+<mrk mid="5" mtype="seg">are all concatenated and rendered as a paragraph.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">One space after <bpt id="1" ctype="x-CODE">`</bpt>&gt;<ept id="1">`</ept></mrk>
+<mrk mid="1" mtype="seg">two spaces after <bpt id="2" ctype="x-CODE">`</bpt>&gt;<ept id="2">`</ept></mrk>
+<mrk mid="2" mtype="seg">three spaces after <bpt id="3" ctype="x-CODE">`</bpt>&gt;<ept id="3">`</ept></mrk>
+<mrk mid="3" mtype="seg">four spaces after <bpt id="4" ctype="x-CODE">`</bpt>&gt;<ept id="4">`</ept></mrk>
+<mrk mid="4" mtype="seg">fieve spaces after <bpt id="5" ctype="x-CODE">`</bpt>&gt;<ept id="5">`</ept></mrk>
+<mrk mid="5" mtype="seg">are all concatenated and rendered as a paragraph.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">A numbered list with leading spaces of more than two:</source>
+<seg-source><mrk mid="0" mtype="seg">A numbered list with leading spaces of more than two:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A numbered list with leading spaces of more than two:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">PointCloudType.GetPath() - The path of the link source from which the points are loaded</source>
+<seg-source><mrk mid="0" mtype="seg">PointCloudType.GetPath() - The path of the link source from which the points are loaded</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PointCloudType.GetPath() - The path of the link source from which the points are loaded</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">Application.PointCloudsRootPath - The root path for point cloud files which is used by Revit to calculate relative paths to point cloud files</source>
+<seg-source><mrk mid="0" mtype="seg">Application.PointCloudsRootPath - The root path for point cloud files which is used by Revit to calculate relative paths to point cloud files</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Application.PointCloudsRootPath - The root path for point cloud files which is used by Revit to calculate relative paths to point cloud files</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en">A bullet list with leading spaces of more than two, and inline markups:</source>
+<seg-source><mrk mid="0" mtype="seg">A bullet list with leading spaces of more than two, and inline markups:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A bullet list with leading spaces of more than two, and inline markups:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="bold">**</bpt>PointCloudType<ept id="1">**</ept> - type of point cloud loaded into a Revit document. Each PointCloudType maps to a single file or identifier (depending upon the type of Point Cloud Engine which governs it).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="bold">**</bpt>PointCloudType<ept id="1">**</ept> - type of point cloud loaded into a Revit document.</mrk><mrk mid="1" mtype="seg"> Each PointCloudType maps to a single file or identifier (depending upon the type of Point Cloud Engine which governs it).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="bold">**</bpt>PointCloudType<ept id="1">**</ept> - type of point cloud loaded into a Revit document.</mrk><mrk mid="1" mtype="seg"> Each PointCloudType maps to a single file or identifier (depending upon the type of Point Cloud Engine which governs it).</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="bold">**</bpt>PointCloudInstance<ept id="1">**</ept> - an instance of a point cloud in a location in the Revit project.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="bold">**</bpt>PointCloudInstance<ept id="1">**</ept> - an instance of a point cloud in a location in the Revit project.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="bold">**</bpt>PointCloudInstance<ept id="1">**</ept> - an instance of a point cloud in a location in the Revit project.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

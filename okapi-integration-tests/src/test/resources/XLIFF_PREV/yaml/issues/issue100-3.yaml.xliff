@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="issue100-3.yaml" source-language="en" target-language="fr" datatype="x-text/x-yaml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi-integration-tests/common-integration-tests/target/test-classes/yaml/issues/okf_yaml@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<group id="sg2">
+<trans-unit id="tu1" resname="data/age" xml:space="preserve">
+<source xml:lang="en">17</source>
+<seg-source><mrk mid="0" mtype="seg">17</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">17</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="data/id" xml:space="preserve">
+<source xml:lang="en">id002</source>
+<seg-source><mrk mid="0" mtype="seg">id002</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">id002</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu3" resname="id" xml:space="preserve">
+<source xml:lang="en">id001</source>
+<seg-source><mrk mid="0" mtype="seg">id001</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">id001</mrk></target>
+</trans-unit>
+<group id="sg3">
+<trans-unit id="tu4" resname="more/id" xml:space="preserve">
+<source xml:lang="en">more003</source>
+<seg-source><mrk mid="0" mtype="seg">more003</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">more003</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" resname="more/complete" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+</group>
+</group>
+</body>
+</file>
+</xliff>

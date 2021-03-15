@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="fr"
+ xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+ <file id="f1">
+  <unit id="u1" its:annotatorsRef="localization-quality-issue|someAnnotator" >
+   <segment>
+    <source>This is the content</source>
+    <target><mrk id="m1" type="its:any" its:locQualityIssueType="misspelling"
+             its:locQualityIssueComment="'c'es' is unknown. Could be 'c'est'"
+             its:locQualityIssueSeverity="50">c'es</mrk> le contenu</target>
+   </segment>
+  </unit>
+  <unit id="u2">
+   <its:locQualityIssues xml:id="lqi1">
+    <its:locQualityIssue 
+     locQualityIssueType="misspelling"
+     locQualityIssueComment="'c'es' is unknown. Could be 'c'est'"
+     locQualityIssueSeverity="50" />
+    <its:locQualityIssue 
+     locQualityIssueType="grammar"
+     locQualityIssueComment="Sentence is not capitalized"
+     locQualityIssueSeverity="20" />
+   </its:locQualityIssues>
+   <segment>
+    <source>This is the content</source>
+    <target><mrk id="m1" type="its:any"
+             its:locQualityIssuesRef="#its=lqi1">c'es le contenu</mrk></target>
+   </segment>
+  </unit>
+ </file>
+</xliff>

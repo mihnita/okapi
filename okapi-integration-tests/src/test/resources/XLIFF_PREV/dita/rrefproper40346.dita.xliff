@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefproper40346.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.locks.escalationThreshold</source>
+<seg-source><mrk mid="0" mtype="seg">derby.locks.escalationThreshold</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.locks.escalationThreshold</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">derby.locks.escalationThreshold</source>
+<seg-source><mrk mid="0" mtype="seg">derby.locks.escalationThreshold</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.locks.escalationThreshold</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Lock escalation</source>
+<seg-source><mrk mid="0" mtype="seg">Lock escalation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Lock escalation</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Used by the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system at runtime in determining when to attempt to escalate locking for at least one of the tables involved in a transaction from row-level locking to table-level locking.</source>
+<seg-source><mrk mid="0" mtype="seg">Used by the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system at runtime in determining when to attempt to escalate locking for at least one of the tables involved in a transaction from row-level locking to table-level locking.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Used by the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system at runtime in determining when to attempt to escalate locking for at least one of the tables involved in a transaction from row-level locking to table-level locking.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">A large number of row locks use a lot of resources. If nearly all the rows are locked, it might be worth the slight decrease in concurrency to lock the entire table to avoid the large number of row locks.</source>
+<seg-source><mrk mid="0" mtype="seg">A large number of row locks use a lot of resources.</mrk><mrk mid="1" mtype="seg"> If nearly all the rows are locked, it might be worth the slight decrease in concurrency to lock the entire table to avoid the large number of row locks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A large number of row locks use a lot of resources.</mrk><mrk mid="1" mtype="seg"> If nearly all the rows are locked, it might be worth the slight decrease in concurrency to lock the entire table to avoid the large number of row locks.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">For more information, see "Locking and performance" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information, see "Locking and performance" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information, see "Locking and performance" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">It is useful to increase this value for large systems (such as enterprise-level servers, where there is more than 64 MB of memory), and to decrease it for very small systems (such as palmtops).</source>
+<seg-source><mrk mid="0" mtype="seg">It is useful to increase this value for large systems (such as enterprise-level servers, where there is more than 64 MB of memory), and to decrease it for very small systems (such as palmtops).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is useful to increase this value for large systems (such as enterprise-level servers, where there is more than 64 MB of memory), and to decrease it for very small systems (such as palmtops).</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.locks.escalationThreshold=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>numberOfLocks<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.locks.escalationThreshold=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>numberOfLocks<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.locks.escalationThreshold=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>numberOfLocks<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">5000.</source>
+<seg-source><mrk mid="0" mtype="seg">5000.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">5000.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Minimum value</source>
+<seg-source><mrk mid="0" mtype="seg">Minimum value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Minimum value</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">100.</source>
+<seg-source><mrk mid="0" mtype="seg">100.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">100.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Maximum value</source>
+<seg-source><mrk mid="0" mtype="seg">Maximum value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Maximum value</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">2,147,483,647.</source>
+<seg-source><mrk mid="0" mtype="seg">2,147,483,647.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2,147,483,647.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- system-wide property<ept id="2">&lt;/ph&gt;</ept> derby.locks.escalationThreshold=1000 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- database-wide property<ept id="3">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.locks.escalationThreshold', '1000')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- system-wide property<ept id="2">&lt;/ph&gt;</ept> derby.locks.escalationThreshold=1000 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- database-wide property<ept id="3">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.locks.escalationThreshold', '1000')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- system-wide property<ept id="2">&lt;/ph&gt;</ept> derby.locks.escalationThreshold=1000 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- database-wide property<ept id="3">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.locks.escalationThreshold', '1000')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Dynamic or static</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic or static</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic or static</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Dynamic; the change takes effect immediately. For information about dynamic changes to properties, see <ph id="1" ctype="x-xref">&lt;xref href="crefproperdynstat.dita#crefproperdynstat"/&gt;</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic; the change takes effect immediately.</mrk><mrk mid="1" mtype="seg"> For information about dynamic changes to properties, see <ph id="1" ctype="x-xref">&lt;xref href="crefproperdynstat.dita#crefproperdynstat"/&gt;</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic; the change takes effect immediately.</mrk><mrk mid="1" mtype="seg"> For information about dynamic changes to properties, see <ph id="1" ctype="x-xref">&lt;xref href="crefproperdynstat.dita#crefproperdynstat"/&gt;</ph>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

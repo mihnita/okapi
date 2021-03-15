@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="example2_20.yaml" source-language="en" target-language="fr" datatype="x-text/x-yaml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi-integration-tests/common-integration-tests/target/test-classes/yaml/spec_test/okf_yaml@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1" resname="canonical" xml:space="preserve">
+<source xml:lang="en">1.23015e+3</source>
+<seg-source><mrk mid="0" mtype="seg">1.23015e+3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.23015e+3</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="exponential" xml:space="preserve">
+<source xml:lang="en">12.3015e+02</source>
+<seg-source><mrk mid="0" mtype="seg">12.3015e+02</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">12.3015e+02</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" resname="sexagesimal" xml:space="preserve">
+<source xml:lang="en">20:30.15</source>
+<seg-source><mrk mid="0" mtype="seg">20:30.15</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20:30.15</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="fixed" xml:space="preserve">
+<source xml:lang="en">1_230.15</source>
+<seg-source><mrk mid="0" mtype="seg">1_230.15</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1_230.15</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" resname="negative infinity" xml:space="preserve">
+<source xml:lang="en">-.inf</source>
+<seg-source><mrk mid="0" mtype="seg">-.inf</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-.inf</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="not a number" xml:space="preserve">
+<source xml:lang="en">.NaN</source>
+<seg-source><mrk mid="0" mtype="seg">.NaN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.NaN</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

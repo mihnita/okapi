@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminsslclient.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Running the client with SSL/TLS</source>
+<seg-source><mrk mid="0" mtype="seg">Running the client with SSL/TLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running the client with SSL/TLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Basic SSL encryption on the client is enabled either by the URL attribute <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="1">&lt;/codeph&gt;</ept>, the property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="2">&lt;/codeph&gt;</ept>, or the datasource attribute <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="3">&lt;/codeph&gt;</ept> set to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>basic<ept id="4">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Basic SSL encryption on the client is enabled either by the URL attribute <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="1">&lt;/codeph&gt;</ept>, the property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="2">&lt;/codeph&gt;</ept>, or the datasource attribute <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="3">&lt;/codeph&gt;</ept> set to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>basic<ept id="4">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Basic SSL encryption on the client is enabled either by the URL attribute <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="1">&lt;/codeph&gt;</ept>, the property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="2">&lt;/codeph&gt;</ept>, or the datasource attribute <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="3">&lt;/codeph&gt;</ept> set to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>basic<ept id="4">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Network Client</source>
+<seg-source><mrk mid="0" mtype="seg">Network Client</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Client</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SSL</source>
+<seg-source><mrk mid="0" mtype="seg">SSL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSL</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Network Client</source>
+<seg-source><mrk mid="0" mtype="seg">Network Client</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Client</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">TLS</source>
+<seg-source><mrk mid="0" mtype="seg">TLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SSL</source>
+<seg-source><mrk mid="0" mtype="seg">SSL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSL</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">TLS</source>
+<seg-source><mrk mid="0" mtype="seg">TLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Connection c = getConnection("jdbc:derby://myhost:1527/db;ssl=basic");</source>
+<seg-source><mrk mid="0" mtype="seg">Connection c = getConnection("jdbc:derby://myhost:1527/db;ssl=basic");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connection c = getConnection("jdbc:derby://myhost:1527/db;ssl=basic");</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Running a client which authenticates the server</source>
+<seg-source><mrk mid="0" mtype="seg">Running a client which authenticates the server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running a client which authenticates the server</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">If the client wants to authenticate the server, then the client's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>trust store<ept id="1">&lt;/i&gt;</ept> must contain the server's certificate. See <bpt id="2" ctype="x-xref">&lt;xref
+href="cadminsslkeys.dita#cadminsslkeys"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If the client wants to authenticate the server, then the client's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>trust store<ept id="1">&lt;/i&gt;</ept> must contain the server's certificate.</mrk><mrk mid="1" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref
+href="cadminsslkeys.dita#cadminsslkeys"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the client wants to authenticate the server, then the client's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>trust store<ept id="1">&lt;/i&gt;</ept> must contain the server's certificate.</mrk><mrk mid="1" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref
+href="cadminsslkeys.dita#cadminsslkeys"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Client SSL with server authentication is enabled by the URL attribute <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="1">&lt;/codeph&gt;</ept> or the property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="2">&lt;/codeph&gt;</ept> set to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>peerAuthentication<ept id="3">&lt;/codeph&gt;</ept>. In addition, the system properties <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.trustStore<ept id="4">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.trustStorePassword<ept id="5">&lt;/codeph&gt;</ept> need to be set.</source>
+<seg-source><mrk mid="0" mtype="seg">Client SSL with server authentication is enabled by the URL attribute <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="1">&lt;/codeph&gt;</ept> or the property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="2">&lt;/codeph&gt;</ept> set to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>peerAuthentication<ept id="3">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> In addition, the system properties <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.trustStore<ept id="4">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.trustStorePassword<ept id="5">&lt;/codeph&gt;</ept> need to be set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Client SSL with server authentication is enabled by the URL attribute <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="1">&lt;/codeph&gt;</ept> or the property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ssl<ept id="2">&lt;/codeph&gt;</ept> set to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>peerAuthentication<ept id="3">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> In addition, the system properties <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.trustStore<ept id="4">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.trustStorePassword<ept id="5">&lt;/codeph&gt;</ept> need to be set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">System.setProperty("javax.net.ssl.trustStore","clientTrustStore.key"); System.setProperty("javax.net.ssl.trustStorePassword","qwerty"); Connection c = getConnection("jdbc:derby://myhost:1527/db;ssl=peerAuthentication");</source>
+<seg-source><mrk mid="0" mtype="seg">System.setProperty("javax.net.ssl.trustStore","clientTrustStore.key"); System.setProperty("javax.net.ssl.trustStorePassword","qwerty"); Connection c = getConnection("jdbc:derby://myhost:1527/db;ssl=peerAuthentication");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">System.setProperty("javax.net.ssl.trustStore","clientTrustStore.key"); System.setProperty("javax.net.ssl.trustStorePassword","qwerty"); Connection c = getConnection("jdbc:derby://myhost:1527/db;ssl=peerAuthentication");</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Running the client when the server does client authentication</source>
+<seg-source><mrk mid="0" mtype="seg">Running the client when the server does client authentication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running the client when the server does client authentication</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">If the server does client authentication, the client will need a key pair and a client certificate which is installed in the server's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>trust store<ept id="1">&lt;/i&gt;</ept>. See <bpt id="2" ctype="x-xref">&lt;xref href="cadminsslkeys.dita#cadminsslkeys"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If the server does client authentication, the client will need a key pair and a client certificate which is installed in the server's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>trust store<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="cadminsslkeys.dita#cadminsslkeys"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the server does client authentication, the client will need a key pair and a client certificate which is installed in the server's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>trust store<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="cadminsslkeys.dita#cadminsslkeys"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">The client needs to set <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.keyStore<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.keyStorePassword<ept id="2">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The client needs to set <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.keyStore<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.keyStorePassword<ept id="2">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The client needs to set <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.keyStore<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.keyStorePassword<ept id="2">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">System.setProperty("javax.net.ssl.keyStore","clientKeyStore.key"); System.setProperty("javax.net.ssl.keyStorePassword","qwerty"); Connection c = getConnection("jdbc:derby://myhost:1527/db;ssl=basic");</source>
+<seg-source><mrk mid="0" mtype="seg">System.setProperty("javax.net.ssl.keyStore","clientKeyStore.key"); System.setProperty("javax.net.ssl.keyStorePassword","qwerty"); Connection c = getConnection("jdbc:derby://myhost:1527/db;ssl=basic");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">System.setProperty("javax.net.ssl.keyStore","clientKeyStore.key"); System.setProperty("javax.net.ssl.keyStorePassword","qwerty"); Connection c = getConnection("jdbc:derby://myhost:1527/db;ssl=basic");</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Running the client when both parties do peer authentication</source>
+<seg-source><mrk mid="0" mtype="seg">Running the client when both parties do peer authentication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running the client when both parties do peer authentication</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">This is a combination of the two last variants.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a combination of the two last variants.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a combination of the two last variants.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">System.setProperty("javax.net.ssl.keyStore","clientKeyStore.key"); System.setProperty("javax.net.ssl.keyStorePassword","qwerty"); System.setProperty("javax.net.ssl.trustStore","clientTrustStore.key"); System.setProperty("javax.net.ssl.trustStorePassword","qwerty"); Connection c = getConnection("jdbc:derby://myhost:1527/db;ssl=peerAuthentication");</source>
+<seg-source><mrk mid="0" mtype="seg">System.setProperty("javax.net.ssl.keyStore","clientKeyStore.key"); System.setProperty("javax.net.ssl.keyStorePassword","qwerty"); System.setProperty("javax.net.ssl.trustStore","clientTrustStore.key"); System.setProperty("javax.net.ssl.trustStorePassword","qwerty"); Connection c = getConnection("jdbc:derby://myhost:1527/db;ssl=peerAuthentication");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">System.setProperty("javax.net.ssl.keyStore","clientKeyStore.key"); System.setProperty("javax.net.ssl.keyStorePassword","qwerty"); System.setProperty("javax.net.ssl.trustStore","clientTrustStore.key"); System.setProperty("javax.net.ssl.trustStorePassword","qwerty"); Connection c = getConnection("jdbc:derby://myhost:1527/db;ssl=peerAuthentication");</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

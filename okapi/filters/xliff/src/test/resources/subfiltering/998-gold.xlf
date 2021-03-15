@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff m:level="1" m:version="2.3" version="1.2"
+       xmlns="urn:oasis:names:tc:xliff:document:1.2"
+       xmlns:m="http://www.memsource.com/mxlf/2.0"
+       xmlns:of="http://okapiframework.org" xmlns:ofe="okapi-framework:xliff-extensions">
+    <file datatype="x-test" original="file.ext" source-language="en" target-language="fr">
+        <header>
+            <m:in-ctx-preview-skel><![CDATA[<p>CDATA in header</p>]]></m:in-ctx-preview-skel>
+        </header>
+        <body>
+            <trans-unit id="1">
+                <source>&lt;p&gt;CDATA in source &amp;amp; &amp;amp;&lt;/p&gt;</source>
+                <target xml:lang="fr">&lt;p&gt;CDATA in source &amp;amp; &amp;amp;&lt;/p&gt;</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

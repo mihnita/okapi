@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminreplicfailover.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Forcing a failover</source>
+<seg-source><mrk mid="0" mtype="seg">Forcing a failover</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Forcing a failover</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">At any time, you can transform the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database that has the slave role into a normal <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> database that can process transactions. This transformation from being a slave to becoming an active <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> database is called <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>failover<ept id="4">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">At any time, you can transform the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database that has the slave role into a normal <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> database that can process transactions.</mrk><mrk mid="1" mtype="seg"> This transformation from being a slave to becoming an active <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> database is called <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>failover<ept id="4">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">At any time, you can transform the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database that has the slave role into a normal <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> database that can process transactions.</mrk><mrk mid="1" mtype="seg"> This transformation from being a slave to becoming an active <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> database is called <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>failover<ept id="4">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">replicating databases</source>
+<seg-source><mrk mid="0" mtype="seg">replicating databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">replicating databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">forcing failover</source>
+<seg-source><mrk mid="0" mtype="seg">forcing failover</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">forcing failover</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">database replication</source>
+<seg-source><mrk mid="0" mtype="seg">database replication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">database replication</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">forcing failover</source>
+<seg-source><mrk mid="0" mtype="seg">forcing failover</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">forcing failover</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">During failover, the slave applies the parts of the transaction log that have not yet been processed. It then undoes operations that belong to uncommitted transactions, resulting in a transaction-consistent state that includes all transactions whose commit log record has been sent to the slave.</source>
+<seg-source><mrk mid="0" mtype="seg">During failover, the slave applies the parts of the transaction log that have not yet been processed.</mrk><mrk mid="1" mtype="seg"> It then undoes operations that belong to uncommitted transactions, resulting in a transaction-consistent state that includes all transactions whose commit log record has been sent to the slave.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">During failover, the slave applies the parts of the transaction log that have not yet been processed.</mrk><mrk mid="1" mtype="seg"> It then undoes operations that belong to uncommitted transactions, resulting in a transaction-consistent state that includes all transactions whose commit log record has been sent to the slave.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">You perform failover from the master system. To do so, you connect to the database on the master system using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>failover=true<ept id="1">&lt;/codeph&gt;</ept> connection URL attribute. For example, for a database named <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>wombat<ept id="2">&lt;/codeph&gt;</ept>, you might specify the following connection URL:</source>
+<seg-source><mrk mid="0" mtype="seg">You perform failover from the master system.</mrk><mrk mid="1" mtype="seg"> To do so, you connect to the database on the master system using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>failover=true<ept id="1">&lt;/codeph&gt;</ept> connection URL attribute.</mrk><mrk mid="2" mtype="seg"> For example, for a database named <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>wombat<ept id="2">&lt;/codeph&gt;</ept>, you might specify the following connection URL:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You perform failover from the master system.</mrk><mrk mid="1" mtype="seg"> To do so, you connect to the database on the master system using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>failover=true<ept id="1">&lt;/codeph&gt;</ept> connection URL attribute.</mrk><mrk mid="2" mtype="seg"> For example, for a database named <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>wombat<ept id="2">&lt;/codeph&gt;</ept>, you might specify the following connection URL:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">jdbc:derby:wombat;failover=true</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:wombat;failover=true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:wombat;failover=true</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If the network connection between the master system and the slave system is lost, you can perform failover from the slave system.</source>
+<seg-source><mrk mid="0" mtype="seg">If the network connection between the master system and the slave system is lost, you can perform failover from the slave system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the network connection between the master system and the slave system is lost, you can perform failover from the slave system.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details about the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>failover=true<ept id="2">&lt;/codeph&gt;</ept> attribute.</source>
+<seg-source><mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details about the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>failover=true<ept id="2">&lt;/codeph&gt;</ept> attribute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details about the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>failover=true<ept id="2">&lt;/codeph&gt;</ept> attribute.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">There is no automatic failover or restart of replication after one of the instances has failed.</source>
+<seg-source><mrk mid="0" mtype="seg">There is no automatic failover or restart of replication after one of the instances has failed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There is no automatic failover or restart of replication after one of the instances has failed.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

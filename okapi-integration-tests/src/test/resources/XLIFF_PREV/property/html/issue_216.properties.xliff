@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="issue_216.properties" source-language="en" target-language="fr" datatype="x-text/x-properties" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi-integration-tests/common-integration-tests/target/test-classes/property/html/okf_properties@issue_216.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="someKey1_ssf1" resname="sub-filter:someKey1">
+<trans-unit id="someKey1_tu1" resname="one-id" restype="x-li">
+<source xml:lang="en">item 1</source>
+<seg-source><mrk mid="0" mtype="seg">item 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item 1</mrk></target>
+</trans-unit>
+<trans-unit id="someKey1_tu2" resname="two-id" restype="x-li">
+<source xml:lang="en">item 2</source>
+<seg-source><mrk mid="0" mtype="seg">item 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item 2</mrk></target>
+</trans-unit>
+</group>
+<group id="someKey2_ssf2" resname="sub-filter:someKey2">
+<trans-unit id="someKey2_tu1" resname="someKey2_2" restype="x-li">
+<source xml:lang="en">item 1</source>
+<seg-source><mrk mid="0" mtype="seg">item 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item 1</mrk></target>
+</trans-unit>
+<trans-unit id="someKey2_tu2" resname="two-id" restype="x-li">
+<source xml:lang="en">item 2</source>
+<seg-source><mrk mid="0" mtype="seg">item 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item 2</mrk></target>
+</trans-unit>
+</group>
+<group id="someKey3_ssf3" resname="sub-filter:someKey3">
+<trans-unit id="someKey3_tu1" resname="someKey3_2" restype="x-li">
+<source xml:lang="en">item 1</source>
+<seg-source><mrk mid="0" mtype="seg">item 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item 1</mrk></target>
+</trans-unit>
+<trans-unit id="someKey3_tu2" resname="someKey3_4" restype="x-li">
+<source xml:lang="en">item 2</source>
+<seg-source><mrk mid="0" mtype="seg">item 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item 2</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

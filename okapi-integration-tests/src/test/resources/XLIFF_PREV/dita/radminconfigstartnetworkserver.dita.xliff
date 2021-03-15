@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminconfigstartnetworkserver.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.drda.startNetworkServer property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.startNetworkServer property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.startNetworkServer property</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Indicates whether the Network Server will start automatically when you start <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates whether the Network Server will start automatically when you start <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates whether the Network Server will start automatically when you start <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">derby.drda.startNetworkServer property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.startNetworkServer property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.startNetworkServer property</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.startNetworkServer<ept id="1">&lt;/codeph&gt;</ept> property to simplify embedding the Network Server in your Java application. When you set this property to true, the Network Server will automatically start when you start <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> (in this context, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> will start when the embedded driver is loaded). Only one Network Server can be started in a JVM.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.startNetworkServer<ept id="1">&lt;/codeph&gt;</ept> property to simplify embedding the Network Server in your Java application.</mrk><mrk mid="1" mtype="seg"> When you set this property to true, the Network Server will automatically start when you start <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> (in this context, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> will start when the embedded driver is loaded).</mrk><mrk mid="2" mtype="seg"> Only one Network Server can be started in a JVM.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.startNetworkServer<ept id="1">&lt;/codeph&gt;</ept> property to simplify embedding the Network Server in your Java application.</mrk><mrk mid="1" mtype="seg"> When you set this property to true, the Network Server will automatically start when you start <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> (in this context, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> will start when the embedded driver is loaded).</mrk><mrk mid="2" mtype="seg"> Only one Network Server can be started in a JVM.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">If you start the Network Server with this property set to true, the Network Server will stop when your application ends or when you stop it by other means (for example, by using the Java API or the command line interface, or by shutting down the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system), whichever comes first.</source>
+<seg-source><mrk mid="0" mtype="seg">If you start the Network Server with this property set to true, the Network Server will stop when your application ends or when you stop it by other means (for example, by using the Java API or the command line interface, or by shutting down the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system), whichever comes first.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you start the Network Server with this property set to true, the Network Server will stop when your application ends or when you stop it by other means (for example, by using the Java API or the command line interface, or by shutting down the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system), whichever comes first.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">derby.drda.startNetworkServer={true|false}</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.startNetworkServer={true|false}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.startNetworkServer={true|false}</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.drda.startNetworkServer=true<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.drda.startNetworkServer=true<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.drda.startNetworkServer=true<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Static or dynamic</source>
+<seg-source><mrk mid="0" mtype="seg">Static or dynamic</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Static or dynamic</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Static. You must shut down the Network Server and restart <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for this change to take effect.</source>
+<seg-source><mrk mid="0" mtype="seg">Static.</mrk><mrk mid="1" mtype="seg"> You must shut down the Network Server and restart <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for this change to take effect.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Static.</mrk><mrk mid="1" mtype="seg"> You must shut down the Network Server and restart <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for this change to take effect.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

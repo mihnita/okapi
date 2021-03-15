@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="example2.md" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">h1 Heading 8-)</source>
+<seg-source><mrk mid="0" mtype="seg">h1 Heading 8-)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">h1 Heading 8-)</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">h2 Heading</source>
+<seg-source><mrk mid="0" mtype="seg">h2 Heading</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">h2 Heading</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">h3 Heading</source>
+<seg-source><mrk mid="0" mtype="seg">h3 Heading</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">h3 Heading</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">h4 Heading</source>
+<seg-source><mrk mid="0" mtype="seg">h4 Heading</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">h4 Heading</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">h5 Heading</source>
+<seg-source><mrk mid="0" mtype="seg">h5 Heading</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">h5 Heading</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">h6 Heading</source>
+<seg-source><mrk mid="0" mtype="seg">h6 Heading</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">h6 Heading</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">Horizontal Rules</source>
+<seg-source><mrk mid="0" mtype="seg">Horizontal Rules</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Horizontal Rules</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">Typographic replacements</source>
+<seg-source><mrk mid="0" mtype="seg">Typographic replacements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Typographic replacements</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">Enable typographer option to see result.</source>
+<seg-source><mrk mid="0" mtype="seg">Enable typographer option to see result.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enable typographer option to see result.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en">(c) (C) (r) (R) (tm) (TM) (p) (P) +-</source>
+<seg-source><mrk mid="0" mtype="seg">(c) (C) (r) (R) (tm) (TM) (p) (P) +-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(c) (C) (r) (R) (tm) (TM) (p) (P) +-</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" xml:space="preserve">
+<source xml:lang="en">test.. test... test..... test?..... test!....</source>
+<seg-source><mrk mid="0" mtype="seg">test..</mrk><mrk mid="1" mtype="seg"> test...</mrk><mrk mid="2" mtype="seg"> test.....</mrk><mrk mid="3" mtype="seg"> test?.....</mrk><mrk mid="4" mtype="seg"> test!....</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">test..</mrk><mrk mid="1" mtype="seg"> test...</mrk><mrk mid="2" mtype="seg"> test.....</mrk><mrk mid="3" mtype="seg"> test?.....</mrk><mrk mid="4" mtype="seg"> test!....</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" xml:space="preserve">
+<source xml:lang="en">!!!!!! ???? ,,  -- ---</source>
+<seg-source><mrk mid="0" mtype="seg">!!!!!! ???? ,,  -- ---</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!!!!!! ???? ,,  -- ---</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" xml:space="preserve">
+<source xml:lang="en">"Smartypants, double quotes" and 'single quotes'</source>
+<seg-source><mrk mid="0" mtype="seg">"Smartypants, double quotes" and 'single quotes'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"Smartypants, double quotes" and 'single quotes'</mrk></target>
+</trans-unit>
+<trans-unit id="tu14" xml:space="preserve">
+<source xml:lang="en">Emphasis</source>
+<seg-source><mrk mid="0" mtype="seg">Emphasis</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Emphasis</mrk></target>
+</trans-unit>
+<trans-unit id="tu15" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="bold">**</bpt>This is bold text<ept id="1">**</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="bold">**</bpt>This is bold text<ept id="1">**</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="bold">**</bpt>This is bold text<ept id="1">**</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="bold">__</bpt>This is bold text<ept id="1">__</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="bold">__</bpt>This is bold text<ept id="1">__</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="bold">__</bpt>This is bold text<ept id="1">__</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="italic">*</bpt>This is italic text<ept id="1">*</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="italic">*</bpt>This is italic text<ept id="1">*</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="italic">*</bpt>This is italic text<ept id="1">*</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="italic">_</bpt>This is italic text<ept id="1">_</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="italic">_</bpt>This is italic text<ept id="1">_</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="italic">_</bpt>This is italic text<ept id="1">_</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu19" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-STRIKETHROUGH">~~</ph>Strikethrough<ph id="2" ctype="x-STRIKETHROUGH">~~</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-STRIKETHROUGH">~~</ph>Strikethrough<ph id="2" ctype="x-STRIKETHROUGH">~~</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-STRIKETHROUGH">~~</ph>Strikethrough<ph id="2" ctype="x-STRIKETHROUGH">~~</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu20" xml:space="preserve">
+<source xml:lang="en">Blockquotes</source>
+<seg-source><mrk mid="0" mtype="seg">Blockquotes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Blockquotes</mrk></target>
+</trans-unit>
+<trans-unit id="tu21" xml:space="preserve">
+<source xml:lang="en">Blockquotes can also be nested...</source>
+<seg-source><mrk mid="0" mtype="seg">Blockquotes can also be nested...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Blockquotes can also be nested...</mrk></target>
+</trans-unit>
+<trans-unit id="tu22" xml:space="preserve">
+<source xml:lang="en">...by using additional greater-than signs right next to each other...</source>
+<seg-source><mrk mid="0" mtype="seg">...by using additional greater-than signs right next to each other...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">...by using additional greater-than signs right next to each other...</mrk></target>
+</trans-unit>
+<trans-unit id="tu23" xml:space="preserve">
+<source xml:lang="en">...or with spaces between arrows.</source>
+<seg-source><mrk mid="0" mtype="seg">...or with spaces between arrows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">...or with spaces between arrows.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24" xml:space="preserve">
+<source xml:lang="en">Lists</source>
+<seg-source><mrk mid="0" mtype="seg">Lists</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Lists</mrk></target>
+</trans-unit>
+<trans-unit id="tu25" xml:space="preserve">
+<source xml:lang="en">Unordered</source>
+<seg-source><mrk mid="0" mtype="seg">Unordered</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unordered</mrk></target>
+</trans-unit>
+<trans-unit id="tu26" xml:space="preserve">
+<source xml:lang="en">Create a list by starting a line with <bpt id="1" ctype="x-CODE">`</bpt>+<ept id="1">`</ept>, <bpt id="2" ctype="x-CODE">`</bpt>-<ept id="2">`</ept>, or <bpt id="3" ctype="x-CODE">`</bpt>*<ept id="3">`</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Create a list by starting a line with <bpt id="1" ctype="x-CODE">`</bpt>+<ept id="1">`</ept>, <bpt id="2" ctype="x-CODE">`</bpt>-<ept id="2">`</ept>, or <bpt id="3" ctype="x-CODE">`</bpt>*<ept id="3">`</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a list by starting a line with <bpt id="1" ctype="x-CODE">`</bpt>+<ept id="1">`</ept>, <bpt id="2" ctype="x-CODE">`</bpt>-<ept id="2">`</ept>, or <bpt id="3" ctype="x-CODE">`</bpt>*<ept id="3">`</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu27" xml:space="preserve">
+<source xml:lang="en">Sub-lists are made by indenting 2 spaces:</source>
+<seg-source><mrk mid="0" mtype="seg">Sub-lists are made by indenting 2 spaces:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sub-lists are made by indenting 2 spaces:</mrk></target>
+</trans-unit>
+<trans-unit id="tu28" xml:space="preserve">
+<source xml:lang="en">Marker character change forces new list start:</source>
+<seg-source><mrk mid="0" mtype="seg">Marker character change forces new list start:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Marker character change forces new list start:</mrk></target>
+</trans-unit>
+<trans-unit id="tu29" xml:space="preserve">
+<source xml:lang="en">Ac tristique libero volutpat at</source>
+<seg-source><mrk mid="0" mtype="seg">Ac tristique libero volutpat at</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ac tristique libero volutpat at</mrk></target>
+</trans-unit>
+<trans-unit id="tu30" xml:space="preserve">
+<source xml:lang="en">Facilisis in pretium nisl aliquet</source>
+<seg-source><mrk mid="0" mtype="seg">Facilisis in pretium nisl aliquet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Facilisis in pretium nisl aliquet</mrk></target>
+</trans-unit>
+<trans-unit id="tu31" xml:space="preserve">
+<source xml:lang="en">Nulla volutpat aliquam velit</source>
+<seg-source><mrk mid="0" mtype="seg">Nulla volutpat aliquam velit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nulla volutpat aliquam velit</mrk></target>
+</trans-unit>
+<trans-unit id="tu32" xml:space="preserve">
+<source xml:lang="en">Very easy!</source>
+<seg-source><mrk mid="0" mtype="seg">Very easy!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Very easy!</mrk></target>
+</trans-unit>
+<trans-unit id="tu33" xml:space="preserve">
+<source xml:lang="en">Ordered</source>
+<seg-source><mrk mid="0" mtype="seg">Ordered</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ordered</mrk></target>
+</trans-unit>
+<trans-unit id="tu34" xml:space="preserve">
+<source xml:lang="en">Lorem ipsum dolor sit amet</source>
+<seg-source><mrk mid="0" mtype="seg">Lorem ipsum dolor sit amet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Lorem ipsum dolor sit amet</mrk></target>
+</trans-unit>
+<trans-unit id="tu35" xml:space="preserve">
+<source xml:lang="en">Consectetur adipiscing elit</source>
+<seg-source><mrk mid="0" mtype="seg">Consectetur adipiscing elit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Consectetur adipiscing elit</mrk></target>
+</trans-unit>
+<trans-unit id="tu36" xml:space="preserve">
+<source xml:lang="en">Integer molestie lorem at massa</source>
+<seg-source><mrk mid="0" mtype="seg">Integer molestie lorem at massa</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Integer molestie lorem at massa</mrk></target>
+</trans-unit>
+<trans-unit id="tu37" xml:space="preserve">
+<source xml:lang="en">You can use sequential numbers...</source>
+<seg-source><mrk mid="0" mtype="seg">You can use sequential numbers...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use sequential numbers...</mrk></target>
+</trans-unit>
+<trans-unit id="tu38" xml:space="preserve">
+<source xml:lang="en">...or keep all the numbers as <bpt id="1" ctype="x-CODE">`</bpt>1.<ept id="1">`</ept></source>
+<seg-source><mrk mid="0" mtype="seg">...or keep all the numbers as <bpt id="1" ctype="x-CODE">`</bpt>1.<ept id="1">`</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">...or keep all the numbers as <bpt id="1" ctype="x-CODE">`</bpt>1.<ept id="1">`</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu39" xml:space="preserve">
+<source xml:lang="en">Start numbering with offset:</source>
+<seg-source><mrk mid="0" mtype="seg">Start numbering with offset:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start numbering with offset:</mrk></target>
+</trans-unit>
+<trans-unit id="tu40" xml:space="preserve">
+<source xml:lang="en">foo</source>
+<seg-source><mrk mid="0" mtype="seg">foo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">foo</mrk></target>
+</trans-unit>
+<trans-unit id="tu41" xml:space="preserve">
+<source xml:lang="en">bar</source>
+<seg-source><mrk mid="0" mtype="seg">bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bar</mrk></target>
+</trans-unit>
+<trans-unit id="tu42" xml:space="preserve">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="tu43" xml:space="preserve">
+<source xml:lang="en">Inline <bpt id="1" ctype="x-CODE">`</bpt>code<ept id="1">`</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Inline <bpt id="1" ctype="x-CODE">`</bpt>code<ept id="1">`</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inline <bpt id="1" ctype="x-CODE">`</bpt>code<ept id="1">`</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu44" xml:space="preserve">
+<source xml:lang="en">Indented code</source>
+<seg-source><mrk mid="0" mtype="seg">Indented code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indented code</mrk></target>
+</trans-unit>
+<trans-unit id="tu45" xml:space="preserve">
+<source xml:lang="en">// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+</source>
+<seg-source><mrk mid="0" mtype="seg">// Some comments</mrk>
+<mrk mid="1" mtype="seg">line 1 of code</mrk>
+<mrk mid="2" mtype="seg">line 2 of code</mrk>
+<mrk mid="3" mtype="seg">line 3 of code</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">// Some comments</mrk>
+<mrk mid="1" mtype="seg">line 1 of code</mrk>
+<mrk mid="2" mtype="seg">line 2 of code</mrk>
+<mrk mid="3" mtype="seg">line 3 of code</mrk>
+</target>
+</trans-unit>
+<trans-unit id="tu46" xml:space="preserve">
+<source xml:lang="en">Block code "fences"</source>
+<seg-source><mrk mid="0" mtype="seg">Block code "fences"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Block code "fences"</mrk></target>
+</trans-unit>
+<trans-unit id="tu47" xml:space="preserve">
+<source xml:lang="en">Sample text here...
+</source>
+<seg-source><mrk mid="0" mtype="seg">Sample text here...</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sample text here...</mrk>
+</target>
+</trans-unit>
+<trans-unit id="tu48" xml:space="preserve">
+<source xml:lang="en">Syntax highlighting</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax highlighting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax highlighting</mrk></target>
+</trans-unit>
+<trans-unit id="tu49" xml:space="preserve">
+<source xml:lang="en">var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
+</source>
+<seg-source><mrk mid="0" mtype="seg">var foo = function (bar) {</mrk>
+<mrk mid="1" mtype="seg">  return bar++;</mrk>
+<mrk mid="2" mtype="seg">};</mrk>
+
+<mrk mid="3" mtype="seg">console.log(foo(5));</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">var foo = function (bar) {</mrk>
+<mrk mid="1" mtype="seg">  return bar++;</mrk>
+<mrk mid="2" mtype="seg">};</mrk>
+
+<mrk mid="3" mtype="seg">console.log(foo(5));</mrk>
+</target>
+</trans-unit>
+<trans-unit id="tu50" xml:space="preserve">
+<source xml:lang="en">Tables</source>
+<seg-source><mrk mid="0" mtype="seg">Tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu51" xml:space="preserve">
+<source xml:lang="en">Option</source>
+<seg-source><mrk mid="0" mtype="seg">Option</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Option</mrk></target>
+</trans-unit>
+<trans-unit id="tu52" xml:space="preserve">
+<source xml:lang="en">Description</source>
+<seg-source><mrk mid="0" mtype="seg">Description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Description</mrk></target>
+</trans-unit>
+<trans-unit id="tu53" xml:space="preserve">
+<source xml:lang="en">data</source>
+<seg-source><mrk mid="0" mtype="seg">data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">data</mrk></target>
+</trans-unit>
+<trans-unit id="tu54" xml:space="preserve">
+<source xml:lang="en">path to data files to supply the data that will be passed into templates.</source>
+<seg-source><mrk mid="0" mtype="seg">path to data files to supply the data that will be passed into templates.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">path to data files to supply the data that will be passed into templates.</mrk></target>
+</trans-unit>
+<trans-unit id="tu55" xml:space="preserve">
+<source xml:lang="en">engine</source>
+<seg-source><mrk mid="0" mtype="seg">engine</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">engine</mrk></target>
+</trans-unit>
+<trans-unit id="tu56" xml:space="preserve">
+<source xml:lang="en">engine to be used for processing templates. Handlebars is the default.</source>
+<seg-source><mrk mid="0" mtype="seg">engine to be used for processing templates.</mrk><mrk mid="1" mtype="seg"> Handlebars is the default.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">engine to be used for processing templates.</mrk><mrk mid="1" mtype="seg"> Handlebars is the default.</mrk></target>
+</trans-unit>
+<trans-unit id="tu57" xml:space="preserve">
+<source xml:lang="en">ext</source>
+<seg-source><mrk mid="0" mtype="seg">ext</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ext</mrk></target>
+</trans-unit>
+<trans-unit id="tu58" xml:space="preserve">
+<source xml:lang="en">extension to be used for dest files.</source>
+<seg-source><mrk mid="0" mtype="seg">extension to be used for dest files.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">extension to be used for dest files.</mrk></target>
+</trans-unit>
+<trans-unit id="tu59" xml:space="preserve">
+<source xml:lang="en">Right aligned columns</source>
+<seg-source><mrk mid="0" mtype="seg">Right aligned columns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Right aligned columns</mrk></target>
+</trans-unit>
+<trans-unit id="tu60" xml:space="preserve">
+<source xml:lang="en">Option</source>
+<seg-source><mrk mid="0" mtype="seg">Option</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Option</mrk></target>
+</trans-unit>
+<trans-unit id="tu61" xml:space="preserve">
+<source xml:lang="en">Description</source>
+<seg-source><mrk mid="0" mtype="seg">Description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Description</mrk></target>
+</trans-unit>
+<trans-unit id="tu62" xml:space="preserve">
+<source xml:lang="en">data</source>
+<seg-source><mrk mid="0" mtype="seg">data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">data</mrk></target>
+</trans-unit>
+<trans-unit id="tu63" xml:space="preserve">
+<source xml:lang="en">path to data files to supply the data that will be passed into templates.</source>
+<seg-source><mrk mid="0" mtype="seg">path to data files to supply the data that will be passed into templates.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">path to data files to supply the data that will be passed into templates.</mrk></target>
+</trans-unit>
+<trans-unit id="tu64" xml:space="preserve">
+<source xml:lang="en">engine</source>
+<seg-source><mrk mid="0" mtype="seg">engine</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">engine</mrk></target>
+</trans-unit>
+<trans-unit id="tu65" xml:space="preserve">
+<source xml:lang="en">engine to be used for processing templates. Handlebars is the default.</source>
+<seg-source><mrk mid="0" mtype="seg">engine to be used for processing templates.</mrk><mrk mid="1" mtype="seg"> Handlebars is the default.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">engine to be used for processing templates.</mrk><mrk mid="1" mtype="seg"> Handlebars is the default.</mrk></target>
+</trans-unit>
+<trans-unit id="tu66" xml:space="preserve">
+<source xml:lang="en">ext</source>
+<seg-source><mrk mid="0" mtype="seg">ext</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ext</mrk></target>
+</trans-unit>
+<trans-unit id="tu67" xml:space="preserve">
+<source xml:lang="en">extension to be used for dest files.</source>
+<seg-source><mrk mid="0" mtype="seg">extension to be used for dest files.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">extension to be used for dest files.</mrk></target>
+</trans-unit>
+<trans-unit id="tu68" xml:space="preserve">
+<source xml:lang="en">Links</source>
+<seg-source><mrk mid="0" mtype="seg">Links</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Links</mrk></target>
+</trans-unit>
+<trans-unit id="tu69" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[</bpt>link text<ept id="1">](http://dev.nodeca.com)</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>link text<ept id="1">](http://dev.nodeca.com)</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>link text<ept id="1">](http://dev.nodeca.com)</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu70" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[</bpt>link with title<ept id="1">](http://nodeca.github.io/pica/demo/ "</ept>title text!<it id="2" ctype="link" pos="close">")</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>link with title<ept id="1">](http://nodeca.github.io/pica/demo/ "</ept>title text!<it id="2" ctype="link" pos="close">")</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>link with title<ept id="1">](http://nodeca.github.io/pica/demo/ "</ept>title text!<it id="2" ctype="link" pos="close">")</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu71" xml:space="preserve">
+<source xml:lang="en">Autoconverted link https://github.com/nodeca/pica (enable linkify to see)</source>
+<seg-source><mrk mid="0" mtype="seg">Autoconverted link https://github.com/nodeca/pica (enable linkify to see)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Autoconverted link https://github.com/nodeca/pica (enable linkify to see)</mrk></target>
+</trans-unit>
+<trans-unit id="tu72" xml:space="preserve">
+<source xml:lang="en">Images</source>
+<seg-source><mrk mid="0" mtype="seg">Images</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Images</mrk></target>
+</trans-unit>
+<trans-unit id="tu73" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-IMAGE">![</ph>Minion<ph id="2" ctype="x-IMAGE">](https://octodex.github.com/images/minion.png)</ph>
+<ph id="3" ctype="x-IMAGE">![</ph>Stormtroopocat<ph id="4" ctype="x-IMAGE">](https://octodex.github.com/images/stormtroopocat.jpg "</ph>The Stormtroopocat<ph id="5" ctype="x-IMAGE">")</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-IMAGE">![</ph>Minion<ph id="2" ctype="x-IMAGE">](https://octodex.github.com/images/minion.png)</ph></mrk>
+<mrk mid="1" mtype="seg"><ph id="3" ctype="x-IMAGE">![</ph>Stormtroopocat<ph id="4" ctype="x-IMAGE">](https://octodex.github.com/images/stormtroopocat.jpg "</ph>The Stormtroopocat<ph id="5" ctype="x-IMAGE">")</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-IMAGE">![</ph>Minion<ph id="2" ctype="x-IMAGE">](https://octodex.github.com/images/minion.png)</ph></mrk>
+<mrk mid="1" mtype="seg"><ph id="3" ctype="x-IMAGE">![</ph>Stormtroopocat<ph id="4" ctype="x-IMAGE">](https://octodex.github.com/images/stormtroopocat.jpg "</ph>The Stormtroopocat<ph id="5" ctype="x-IMAGE">")</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu74" xml:space="preserve">
+<source xml:lang="en">Like links, Images also have a footnote style syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Like links, Images also have a footnote style syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Like links, Images also have a footnote style syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu75" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-IMAGE_REF">![</ph>Alt text<ph id="2" ctype="x-IMAGE_REF">]</ph><ph id="3" ctype="x-IMAGE_REF">[</ph><ph id="4" ctype="x-IMAGE_REF">id</ph><ph id="5" ctype="x-IMAGE_REF">]</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-IMAGE_REF">![</ph>Alt text<ph id="2" ctype="x-IMAGE_REF">]</ph><ph id="3" ctype="x-IMAGE_REF">[</ph><ph id="4" ctype="x-IMAGE_REF">id</ph><ph id="5" ctype="x-IMAGE_REF">]</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-IMAGE_REF">![</ph>Alt text<ph id="2" ctype="x-IMAGE_REF">]</ph><ph id="3" ctype="x-IMAGE_REF">[</ph><ph id="4" ctype="x-IMAGE_REF">id</ph><ph id="5" ctype="x-IMAGE_REF">]</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu76" xml:space="preserve">
+<source xml:lang="en">With a reference later in the document defining the URL location:</source>
+<seg-source><mrk mid="0" mtype="seg">With a reference later in the document defining the URL location:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">With a reference later in the document defining the URL location:</mrk></target>
+</trans-unit>
+<trans-unit id="tu77" xml:space="preserve">
+<source xml:lang="en">The Dojocat</source>
+<seg-source><mrk mid="0" mtype="seg">The Dojocat</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Dojocat</mrk></target>
+</trans-unit>
+<trans-unit id="tu78" xml:space="preserve">
+<source xml:lang="en">Plugins</source>
+<seg-source><mrk mid="0" mtype="seg">Plugins</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Plugins</mrk></target>
+</trans-unit>
+<trans-unit id="tu79" xml:space="preserve">
+<source xml:lang="en">The killer feature of <bpt id="1" ctype="x-CODE">`</bpt>markdown-it<ept id="1">`</ept> is very effective support of
+<bpt id="2" ctype="link">[</bpt>syntax plugins<ept id="2">](https://www.npmjs.org/browse/keyword/markdown-it-plugin)</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The killer feature of <bpt id="1" ctype="x-CODE">`</bpt>markdown-it<ept id="1">`</ept> is very effective support of</mrk>
+<mrk mid="1" mtype="seg"><bpt id="2" ctype="link">[</bpt>syntax plugins<ept id="2">](https://www.npmjs.org/browse/keyword/markdown-it-plugin)</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The killer feature of <bpt id="1" ctype="x-CODE">`</bpt>markdown-it<ept id="1">`</ept> is very effective support of</mrk>
+<mrk mid="1" mtype="seg"><bpt id="2" ctype="link">[</bpt>syntax plugins<ept id="2">](https://www.npmjs.org/browse/keyword/markdown-it-plugin)</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu80" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[</bpt>Emojies<ept id="1">](https://github.com/markdown-it/markdown-it-emoji)</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>Emojies<ept id="1">](https://github.com/markdown-it/markdown-it-emoji)</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>Emojies<ept id="1">](https://github.com/markdown-it/markdown-it-emoji)</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu81" xml:space="preserve">
+<source xml:lang="en">Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:</source>
+<seg-source><mrk mid="0" mtype="seg">Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:</mrk></target>
+</trans-unit>
+<trans-unit id="tu82" xml:space="preserve">
+<source xml:lang="en">Shortcuts (emoticons): :-) :-( 8-) ;)</source>
+<seg-source><mrk mid="0" mtype="seg">Shortcuts (emoticons): :-) :-( 8-) ;)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shortcuts (emoticons): :-) :-( 8-) ;)</mrk></target>
+</trans-unit>
+<trans-unit id="tu83" xml:space="preserve">
+<source xml:lang="en">see <bpt id="1" ctype="link">[</bpt>how to change output<ept id="1">](https://github.com/markdown-it/markdown-it-emoji#change-output)</ept> with twemoji.</source>
+<seg-source><mrk mid="0" mtype="seg">see <bpt id="1" ctype="link">[</bpt>how to change output<ept id="1">](https://github.com/markdown-it/markdown-it-emoji#change-output)</ept> with twemoji.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">see <bpt id="1" ctype="link">[</bpt>how to change output<ept id="1">](https://github.com/markdown-it/markdown-it-emoji#change-output)</ept> with twemoji.</mrk></target>
+</trans-unit>
+<trans-unit id="tu84" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[</bpt>Subscript<ept id="1">](https://github.com/markdown-it/markdown-it-sub)</ept> / <bpt id="2" ctype="link">[</bpt>Superscript<ept id="2">](https://github.com/markdown-it/markdown-it-sup)</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>Subscript<ept id="1">](https://github.com/markdown-it/markdown-it-sub)</ept> / <bpt id="2" ctype="link">[</bpt>Superscript<ept id="2">](https://github.com/markdown-it/markdown-it-sup)</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>Subscript<ept id="1">](https://github.com/markdown-it/markdown-it-sub)</ept> / <bpt id="2" ctype="link">[</bpt>Superscript<ept id="2">](https://github.com/markdown-it/markdown-it-sup)</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu85" xml:space="preserve">
+<source xml:lang="en">19^th^</source>
+<seg-source><mrk mid="0" mtype="seg">19^th^</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">19^th^</mrk></target>
+</trans-unit>
+<trans-unit id="tu86" xml:space="preserve">
+<source xml:lang="en">H<ph id="1" ctype="x-SUBSCRIPT">~</ph>2<ph id="2" ctype="x-SUBSCRIPT">~</ph>O</source>
+<seg-source><mrk mid="0" mtype="seg">H<ph id="1" ctype="x-SUBSCRIPT">~</ph>2<ph id="2" ctype="x-SUBSCRIPT">~</ph>O</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">H<ph id="1" ctype="x-SUBSCRIPT">~</ph>2<ph id="2" ctype="x-SUBSCRIPT">~</ph>O</mrk></target>
+</trans-unit>
+<trans-unit id="tu87" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[</bpt>\&lt;ins&gt;<ept id="1">](https://github.com/markdown-it/markdown-it-ins)</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>\&lt;ins&gt;<ept id="1">](https://github.com/markdown-it/markdown-it-ins)</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>\&lt;ins&gt;<ept id="1">](https://github.com/markdown-it/markdown-it-ins)</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu88" xml:space="preserve">
+<source xml:lang="en">++Inserted text++</source>
+<seg-source><mrk mid="0" mtype="seg">++Inserted text++</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">++Inserted text++</mrk></target>
+</trans-unit>
+<trans-unit id="tu89" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[</bpt>\&lt;mark&gt;<ept id="1">](https://github.com/markdown-it/markdown-it-mark)</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>\&lt;mark&gt;<ept id="1">](https://github.com/markdown-it/markdown-it-mark)</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>\&lt;mark&gt;<ept id="1">](https://github.com/markdown-it/markdown-it-mark)</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu90" xml:space="preserve">
+<source xml:lang="en">==Marked text==</source>
+<seg-source><mrk mid="0" mtype="seg">==Marked text==</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">==Marked text==</mrk></target>
+</trans-unit>
+<trans-unit id="tu91" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[</bpt>Footnotes<ept id="1">](https://github.com/markdown-it/markdown-it-footnote)</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>Footnotes<ept id="1">](https://github.com/markdown-it/markdown-it-footnote)</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>Footnotes<ept id="1">](https://github.com/markdown-it/markdown-it-footnote)</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu92" xml:space="preserve">
+<source xml:lang="en">Footnote 1 link<bpt id="1" ctype="link">[</bpt>^first<ept id="1">]</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Footnote 1 link<bpt id="1" ctype="link">[</bpt>^first<ept id="1">]</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Footnote 1 link<bpt id="1" ctype="link">[</bpt>^first<ept id="1">]</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu93" xml:space="preserve">
+<source xml:lang="en">Footnote 2 link<bpt id="1" ctype="link">[</bpt>^second<ept id="1">]</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Footnote 2 link<bpt id="1" ctype="link">[</bpt>^second<ept id="1">]</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Footnote 2 link<bpt id="1" ctype="link">[</bpt>^second<ept id="1">]</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu94" xml:space="preserve">
+<source xml:lang="en">Inline footnote^<bpt id="1" ctype="link">[</bpt>Text of inline footnote<ept id="1">]</ept> definition.</source>
+<seg-source><mrk mid="0" mtype="seg">Inline footnote^<bpt id="1" ctype="link">[</bpt>Text of inline footnote<ept id="1">]</ept> definition.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inline footnote^<bpt id="1" ctype="link">[</bpt>Text of inline footnote<ept id="1">]</ept> definition.</mrk></target>
+</trans-unit>
+<trans-unit id="tu95" xml:space="preserve">
+<source xml:lang="en">Duplicated footnote reference<bpt id="1" ctype="link">[</bpt>^second<ept id="1">]</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Duplicated footnote reference<bpt id="1" ctype="link">[</bpt>^second<ept id="1">]</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Duplicated footnote reference<bpt id="1" ctype="link">[</bpt>^second<ept id="1">]</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu96" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[</bpt>^first<ept id="1">]</ept>: Footnote <bpt id="2" ctype="bold">**</bpt>can have markup<ept id="2">**</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>^first<ept id="1">]</ept>: Footnote <bpt id="2" ctype="bold">**</bpt>can have markup<ept id="2">**</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>^first<ept id="1">]</ept>: Footnote <bpt id="2" ctype="bold">**</bpt>can have markup<ept id="2">**</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu97" xml:space="preserve">
+<source xml:lang="en">and multiple paragraphs.
+</source>
+<seg-source><mrk mid="0" mtype="seg">and multiple paragraphs.</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and multiple paragraphs.</mrk>
+</target>
+</trans-unit>
+<trans-unit id="tu98" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[</bpt>^second<ept id="1">]</ept>: Footnote text.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>^second<ept id="1">]</ept>: Footnote text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>^second<ept id="1">]</ept>: Footnote text.</mrk></target>
+</trans-unit>
+<trans-unit id="tu99" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[</bpt>Definition lists<ept id="1">](https://github.com/markdown-it/markdown-it-deflist)</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>Definition lists<ept id="1">](https://github.com/markdown-it/markdown-it-deflist)</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>Definition lists<ept id="1">](https://github.com/markdown-it/markdown-it-deflist)</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu100" xml:space="preserve">
+<source xml:lang="en">Term 1</source>
+<seg-source><mrk mid="0" mtype="seg">Term 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Term 1</mrk></target>
+</trans-unit>
+<trans-unit id="tu101" xml:space="preserve">
+<source xml:lang="en">:   Definition 1
+with lazy continuation.</source>
+<seg-source><mrk mid="0" mtype="seg">:   Definition 1</mrk>
+<mrk mid="1" mtype="seg">with lazy continuation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:   Definition 1</mrk>
+<mrk mid="1" mtype="seg">with lazy continuation.</mrk></target>
+</trans-unit>
+<trans-unit id="tu102" xml:space="preserve">
+<source xml:lang="en">Term 2 with <bpt id="1" ctype="italic">*</bpt>inline markup<ept id="1">*</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Term 2 with <bpt id="1" ctype="italic">*</bpt>inline markup<ept id="1">*</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Term 2 with <bpt id="1" ctype="italic">*</bpt>inline markup<ept id="1">*</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu103" xml:space="preserve">
+<source xml:lang="en">:   Definition 2</source>
+<seg-source><mrk mid="0" mtype="seg">:   Definition 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:   Definition 2</mrk></target>
+</trans-unit>
+<trans-unit id="tu104" xml:space="preserve">
+<source xml:lang="en">    { some code, part of Definition 2 }
+
+Third paragraph of definition 2.
+</source>
+<seg-source><mrk mid="0" mtype="seg">    { some code, part of Definition 2 }</mrk>
+
+<mrk mid="1" mtype="seg">Third paragraph of definition 2.</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">    { some code, part of Definition 2 }</mrk>
+
+<mrk mid="1" mtype="seg">Third paragraph of definition 2.</mrk>
+</target>
+</trans-unit>
+<trans-unit id="tu105" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="italic">_</bpt>Compact style:<ept id="1">_</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="italic">_</bpt>Compact style:<ept id="1">_</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="italic">_</bpt>Compact style:<ept id="1">_</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu106" xml:space="preserve">
+<source xml:lang="en">Term 1
+~ Definition 1</source>
+<seg-source><mrk mid="0" mtype="seg">Term 1</mrk>
+<mrk mid="1" mtype="seg">~ Definition 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Term 1</mrk>
+<mrk mid="1" mtype="seg">~ Definition 1</mrk></target>
+</trans-unit>
+<trans-unit id="tu107" xml:space="preserve">
+<source xml:lang="en">Term 2
+~ Definition 2a
+~ Definition 2b</source>
+<seg-source><mrk mid="0" mtype="seg">Term 2</mrk>
+<mrk mid="1" mtype="seg">~ Definition 2a</mrk>
+<mrk mid="2" mtype="seg">~ Definition 2b</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Term 2</mrk>
+<mrk mid="1" mtype="seg">~ Definition 2a</mrk>
+<mrk mid="2" mtype="seg">~ Definition 2b</mrk></target>
+</trans-unit>
+<trans-unit id="tu108" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[</bpt>Abbreviations<ept id="1">](https://github.com/markdown-it/markdown-it-abbr)</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>Abbreviations<ept id="1">](https://github.com/markdown-it/markdown-it-abbr)</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>Abbreviations<ept id="1">](https://github.com/markdown-it/markdown-it-abbr)</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu109" xml:space="preserve">
+<source xml:lang="en">This is HTML abbreviation example.</source>
+<seg-source><mrk mid="0" mtype="seg">This is HTML abbreviation example.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is HTML abbreviation example.</mrk></target>
+</trans-unit>
+<trans-unit id="tu110" xml:space="preserve">
+<source xml:lang="en">It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.</source>
+<seg-source><mrk mid="0" mtype="seg">It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.</mrk></target>
+</trans-unit>
+<trans-unit id="tu111" xml:space="preserve">
+<source xml:lang="en">*<bpt id="1" ctype="link">[</bpt>HTML<ept id="1">]</ept>: Hyper Text Markup Language</source>
+<seg-source><mrk mid="0" mtype="seg">*<bpt id="1" ctype="link">[</bpt>HTML<ept id="1">]</ept>: Hyper Text Markup Language</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*<bpt id="1" ctype="link">[</bpt>HTML<ept id="1">]</ept>: Hyper Text Markup Language</mrk></target>
+</trans-unit>
+<trans-unit id="tu112" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[</bpt>Custom containers<ept id="1">](https://github.com/markdown-it/markdown-it-container)</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>Custom containers<ept id="1">](https://github.com/markdown-it/markdown-it-container)</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>Custom containers<ept id="1">](https://github.com/markdown-it/markdown-it-container)</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu113" xml:space="preserve">
+<source xml:lang="en">::: warning
+<bpt id="1" ctype="italic">*</bpt>here be dragons<ept id="1">*</ept>
+:::</source>
+<seg-source><mrk mid="0" mtype="seg">::: warning</mrk>
+<mrk mid="1" mtype="seg"><bpt id="1" ctype="italic">*</bpt>here be dragons<ept id="1">*</ept></mrk>
+<mrk mid="2" mtype="seg">:::</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">::: warning</mrk>
+<mrk mid="1" mtype="seg"><bpt id="1" ctype="italic">*</bpt>here be dragons<ept id="1">*</ept></mrk>
+<mrk mid="2" mtype="seg">:::</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefexportproc.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_EXPORT_TABLE system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_TABLE system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_TABLE system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_EXPORT_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure exports all of the data from a table to an operating system file.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_EXPORT_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure exports all of the data from a table to an operating system file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_EXPORT_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure exports all of the data from a table to an operating system file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">system procedures</source>
+<seg-source><mrk mid="0" mtype="seg">system procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_EXPORT_TABLE</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_TABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_TABLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_EXPORT_TABLE</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_TABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_TABLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">system procedures</source>
+<seg-source><mrk mid="0" mtype="seg">system procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">For security concerns, and to avoid accidental file damage, this EXPORT procedure does not export data into an existing file. You must specify a filename in the EXPORT procedure that does not exist. When you run the procedure the file is created and the data is exported into the new file.</source>
+<seg-source><mrk mid="0" mtype="seg">For security concerns, and to avoid accidental file damage, this EXPORT procedure does not export data into an existing file.</mrk><mrk mid="1" mtype="seg"> You must specify a filename in the EXPORT procedure that does not exist.</mrk><mrk mid="2" mtype="seg"> When you run the procedure the file is created and the data is exported into the new file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For security concerns, and to avoid accidental file damage, this EXPORT procedure does not export data into an existing file.</mrk><mrk mid="1" mtype="seg"> You must specify a filename in the EXPORT procedure that does not exist.</mrk><mrk mid="2" mtype="seg"> When you run the procedure the file is created and the data is exported into the new file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The data is exported using a delimited file format.</source>
+<seg-source><mrk mid="0" mtype="seg">The data is exported using a delimited file format.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The data is exported using a delimited file format.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues a COMMIT or a ROLLBACK statement after each import and export procedure is run (a COMMIT if the procedure completes successfully, a ROLLBACK if it fails). For this reason, you should issue either a COMMIT or ROLLBACK statement to complete all transactions and release all table-level locks before you invoke an import or export procedure.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues a COMMIT or a ROLLBACK statement after each import and export procedure is run (a COMMIT if the procedure completes successfully, a ROLLBACK if it fails).</mrk><mrk mid="1" mtype="seg"> For this reason, you should issue either a COMMIT or ROLLBACK statement to complete all transactions and release all table-level locks before you invoke an import or export procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues a COMMIT or a ROLLBACK statement after each import and export procedure is run (a COMMIT if the procedure completes successfully, a ROLLBACK if it fails).</mrk><mrk mid="1" mtype="seg"> For this reason, you should issue either a COMMIT or ROLLBACK statement to complete all transactions and release all table-level locks before you invoke an import or export procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">For more information on using this procedure, see the section "Importing and exporting data" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information on using this procedure, see the section "Importing and exporting data" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information on using this procedure, see the section "Importing and exporting data" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_EXPORT_TABLE (IN SCHEMANAME VARCHAR(128), IN TABLENAME VARCHAR(128), IN FILENAME VARCHAR(32672), IN COLUMNDELIMITER CHAR(1), IN CHARACTERDELIMITER CHAR(1), IN CODESET VARCHAR(128))</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_TABLE (IN SCHEMANAME VARCHAR(128), IN TABLENAME VARCHAR(128), IN FILENAME VARCHAR(32672), IN COLUMNDELIMITER CHAR(1), IN CHARACTERDELIMITER CHAR(1), IN CODESET VARCHAR(128))</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_TABLE (IN SCHEMANAME VARCHAR(128), IN TABLENAME VARCHAR(128), IN FILENAME VARCHAR(32672), IN COLUMNDELIMITER CHAR(1), IN CHARACTERDELIMITER CHAR(1), IN CODESET VARCHAR(128))</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">No result is returned from the procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">No result is returned from the procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No result is returned from the procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">SCHEMANAME</source>
+<seg-source><mrk mid="0" mtype="seg">SCHEMANAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SCHEMANAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">An input argument of type VARCHAR(128) that specifies the schema name of the table. Passing a NULL value will use the default schema name.</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the schema name of the table.</mrk><mrk mid="1" mtype="seg"> Passing a NULL value will use the default schema name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the schema name of the table.</mrk><mrk mid="1" mtype="seg"> Passing a NULL value will use the default schema name.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">TABLENAME</source>
+<seg-source><mrk mid="0" mtype="seg">TABLENAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TABLENAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">An input argument of type VARCHAR(128) that specifies the name of the table/view from which the data is to be exported. Passing a null will result in an error.</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the name of the table/view from which the data is to be exported.</mrk><mrk mid="1" mtype="seg"> Passing a null will result in an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the name of the table/view from which the data is to be exported.</mrk><mrk mid="1" mtype="seg"> Passing a null will result in an error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">FILENAME</source>
+<seg-source><mrk mid="0" mtype="seg">FILENAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FILENAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Specifies the name of a new file to which the data is to be exported. If the path is omitted, the current working directory is used. If the name of a file that already exists is specified, the export procedure returns an error. The specified location of the file should refer to the server-side location if you are using the Network Server. Specifying a NULL value results in an error. The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>FILENAME<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a VARCHAR (32672) data type.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the name of a new file to which the data is to be exported.</mrk><mrk mid="1" mtype="seg"> If the path is omitted, the current working directory is used.</mrk><mrk mid="2" mtype="seg"> If the name of a file that already exists is specified, the export procedure returns an error.</mrk><mrk mid="3" mtype="seg"> The specified location of the file should refer to the server-side location if you are using the Network Server.</mrk><mrk mid="4" mtype="seg"> Specifying a NULL value results in an error.</mrk><mrk mid="5" mtype="seg"> The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>FILENAME<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a VARCHAR (32672) data type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the name of a new file to which the data is to be exported.</mrk><mrk mid="1" mtype="seg"> If the path is omitted, the current working directory is used.</mrk><mrk mid="2" mtype="seg"> If the name of a file that already exists is specified, the export procedure returns an error.</mrk><mrk mid="3" mtype="seg"> The specified location of the file should refer to the server-side location if you are using the Network Server.</mrk><mrk mid="4" mtype="seg"> Specifying a NULL value results in an error.</mrk><mrk mid="5" mtype="seg"> The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>FILENAME<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a VARCHAR (32672) data type.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">COLUMNDELIMITER</source>
+<seg-source><mrk mid="0" mtype="seg">COLUMNDELIMITER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COLUMNDELIMITER</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">An input argument of type CHAR(1) that specifies a column delimiter. The specified character is used in place of a comma to signal the end of a column. Passing a NULL value will use the default value; the default value is a comma (,).</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type CHAR(1) that specifies a column delimiter.</mrk><mrk mid="1" mtype="seg"> The specified character is used in place of a comma to signal the end of a column.</mrk><mrk mid="2" mtype="seg"> Passing a NULL value will use the default value; the default value is a comma (,).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type CHAR(1) that specifies a column delimiter.</mrk><mrk mid="1" mtype="seg"> The specified character is used in place of a comma to signal the end of a column.</mrk><mrk mid="2" mtype="seg"> Passing a NULL value will use the default value; the default value is a comma (,).</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">CHARACTERDELIMITER</source>
+<seg-source><mrk mid="0" mtype="seg">CHARACTERDELIMITER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHARACTERDELIMITER</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">An input argument of type CHAR(1) that specifies a character delimiter. The specified character is used in place of double quotation marks to enclose a character string. Passing a NULL value will use the default value; the default value is a double quotation mark (").</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type CHAR(1) that specifies a character delimiter.</mrk><mrk mid="1" mtype="seg"> The specified character is used in place of double quotation marks to enclose a character string.</mrk><mrk mid="2" mtype="seg"> Passing a NULL value will use the default value; the default value is a double quotation mark (").</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type CHAR(1) that specifies a character delimiter.</mrk><mrk mid="1" mtype="seg"> The specified character is used in place of double quotation marks to enclose a character string.</mrk><mrk mid="2" mtype="seg"> Passing a NULL value will use the default value; the default value is a double quotation mark (").</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">CODESET</source>
+<seg-source><mrk mid="0" mtype="seg">CODESET</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CODESET</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">An input argument of type VARCHAR(128) that specifies the code set of the data in the exported file. The name of the code set should be one of the Java-supported character encodings. Data is converted from the database code set to the specified code set before writing to the file. Passing a NULL value will write the data in the same code set as the JVM in which it is being executed.</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the code set of the data in the exported file.</mrk><mrk mid="1" mtype="seg"> The name of the code set should be one of the Java-supported character encodings.</mrk><mrk mid="2" mtype="seg"> Data is converted from the database code set to the specified code set before writing to the file.</mrk><mrk mid="3" mtype="seg"> Passing a NULL value will write the data in the same code set as the JVM in which it is being executed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the code set of the data in the exported file.</mrk><mrk mid="1" mtype="seg"> The name of the code set should be one of the Java-supported character encodings.</mrk><mrk mid="2" mtype="seg"> Data is converted from the database code set to the specified code set before writing to the file.</mrk><mrk mid="3" mtype="seg"> Passing a NULL value will write the data in the same code set as the JVM in which it is being executed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">If you create a schema or table name as a non-delimited identifier, you must pass the name to the export procedure using all uppercase characters. If you created a schema, table, or column name as a delimited identifier, you must pass the name to the export procedure using the same case that was used when it was created.</source>
+<seg-source><mrk mid="0" mtype="seg">If you create a schema or table name as a non-delimited identifier, you must pass the name to the export procedure using all uppercase characters.</mrk><mrk mid="1" mtype="seg"> If you created a schema, table, or column name as a delimited identifier, you must pass the name to the export procedure using the same case that was used when it was created.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you create a schema or table name as a non-delimited identifier, you must pass the name to the export procedure using all uppercase characters.</mrk><mrk mid="1" mtype="seg"> If you created a schema, table, or column name as a delimited identifier, you must pass the name to the export procedure using the same case that was used when it was created.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default. See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information. The database owner can grant access to other users. The user must also have SELECT privileges on the table.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk><mrk mid="3" mtype="seg"> The user must also have SELECT privileges on the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk><mrk mid="3" mtype="seg"> The user must also have SELECT privileges on the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">The following example shows how to export information from the STAFF table in a SAMPLE database to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="1">&lt;/codeph&gt;</ept> file.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example shows how to export information from the STAFF table in a SAMPLE database to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="1">&lt;/codeph&gt;</ept> file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example shows how to export information from the STAFF table in a SAMPLE database to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="1">&lt;/codeph&gt;</ept> file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE (null, 'STAFF', 'myfile.del', null, null, null);</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE (null, 'STAFF', 'myfile.del', null, null, null);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE (null, 'STAFF', 'myfile.del', null, null, null);</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

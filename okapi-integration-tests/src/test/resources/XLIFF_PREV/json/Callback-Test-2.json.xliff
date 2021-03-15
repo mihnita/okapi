@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Callback-Test-2.json" source-language="en" target-language="fr" datatype="x-application/json" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1" resname="name" xml:space="preserve">
+<source xml:lang="en">Callback-Test-2</source>
+<seg-source><mrk mid="0" mtype="seg">Callback-Test-2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Callback-Test-2</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="description" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu3" resname="subject" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<group id="sg2">
+<group id="sg3">
+<trans-unit id="tu4" resname="htmlId" xml:space="preserve">
+<source xml:lang="en">body</source>
+<seg-source><mrk mid="0" mtype="seg">body</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">body</mrk></target>
+</trans-unit>
+<group id="sg4">
+<group id="sg5">
+<trans-unit id="tu5" resname="type" xml:space="preserve">
+<source xml:lang="en">HTML</source>
+<seg-source><mrk mid="0" mtype="seg">HTML</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HTML</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="value" xml:space="preserve">
+<source xml:lang="en">&lt;div&gt;Dear {{lead.First Name:default=Friend}},&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry. Please find enclosed a list of all necessary books and equipment. Term begins on September 1. We await your owl by no later than July 31.&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;Yours sincerely,&lt;/div&gt;
+&lt;div&gt;Minerva McGonagall here is an edit again edit again edit&lt;/div&gt;
+&lt;div&gt;Deputy Headmistress&lt;/div&gt;</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;div&gt;Dear {{lead.First Name:default=Friend}},&lt;/div&gt;</mrk>
+<mrk mid="1" mtype="seg">&lt;div&gt;&lt;br /&gt;&lt;/div&gt;</mrk>
+<mrk mid="2" mtype="seg">&lt;div&gt;We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry.</mrk><mrk mid="3" mtype="seg"> Please find enclosed a list of all necessary books and equipment.</mrk><mrk mid="4" mtype="seg"> Term begins on September 1.</mrk><mrk mid="5" mtype="seg"> We await your owl by no later than July 31.</mrk><mrk mid="6" mtype="seg">&lt;/div&gt;</mrk>
+<mrk mid="7" mtype="seg">&lt;div&gt;&lt;br /&gt;&lt;/div&gt;</mrk>
+<mrk mid="8" mtype="seg">&lt;div&gt;Yours sincerely,&lt;/div&gt;</mrk>
+<mrk mid="9" mtype="seg">&lt;div&gt;Minerva McGonagall here is an edit again edit again edit&lt;/div&gt;</mrk>
+<mrk mid="10" mtype="seg">&lt;div&gt;Deputy Headmistress&lt;/div&gt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;div&gt;Dear {{lead.First Name:default=Friend}},&lt;/div&gt;</mrk>
+<mrk mid="1" mtype="seg">&lt;div&gt;&lt;br /&gt;&lt;/div&gt;</mrk>
+<mrk mid="2" mtype="seg">&lt;div&gt;We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry.</mrk><mrk mid="3" mtype="seg"> Please find enclosed a list of all necessary books and equipment.</mrk><mrk mid="4" mtype="seg"> Term begins on September 1.</mrk><mrk mid="5" mtype="seg"> We await your owl by no later than July 31.</mrk><mrk mid="6" mtype="seg">&lt;/div&gt;</mrk>
+<mrk mid="7" mtype="seg">&lt;div&gt;&lt;br /&gt;&lt;/div&gt;</mrk>
+<mrk mid="8" mtype="seg">&lt;div&gt;Yours sincerely,&lt;/div&gt;</mrk>
+<mrk mid="9" mtype="seg">&lt;div&gt;Minerva McGonagall here is an edit again edit again edit&lt;/div&gt;</mrk>
+<mrk mid="10" mtype="seg">&lt;div&gt;Deputy Headmistress&lt;/div&gt;</mrk></target>
+</trans-unit>
+</group>
+<group id="sg6">
+<trans-unit id="tu7" resname="type" xml:space="preserve">
+<source xml:lang="en">Text</source>
+<seg-source><mrk mid="0" mtype="seg">Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" resname="value" xml:space="preserve">
+<source xml:lang="en">Dear {{lead.First Name:default=Friend}},
+
+
+We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry. Please find enclosed a list of all necessary books and equipment. Term begins on September 1. We await your owl by no later than July 31.
+
+
+Yours sincerely,
+Minerva McGonagall here is an edit again edit again edit
+Deputy Headmistress</source>
+<seg-source><mrk mid="0" mtype="seg">Dear {{lead.First Name:default=Friend}},</mrk>
+
+
+<mrk mid="1" mtype="seg">We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry.</mrk><mrk mid="2" mtype="seg"> Please find enclosed a list of all necessary books and equipment.</mrk><mrk mid="3" mtype="seg"> Term begins on September 1.</mrk><mrk mid="4" mtype="seg"> We await your owl by no later than July 31.</mrk>
+
+
+<mrk mid="5" mtype="seg">Yours sincerely,</mrk>
+<mrk mid="6" mtype="seg">Minerva McGonagall here is an edit again edit again edit</mrk>
+<mrk mid="7" mtype="seg">Deputy Headmistress</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dear {{lead.First Name:default=Friend}},</mrk>
+
+
+<mrk mid="1" mtype="seg">We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry.</mrk><mrk mid="2" mtype="seg"> Please find enclosed a list of all necessary books and equipment.</mrk><mrk mid="3" mtype="seg"> Term begins on September 1.</mrk><mrk mid="4" mtype="seg"> We await your owl by no later than July 31.</mrk>
+
+
+<mrk mid="5" mtype="seg">Yours sincerely,</mrk>
+<mrk mid="6" mtype="seg">Minerva McGonagall here is an edit again edit again edit</mrk>
+<mrk mid="7" mtype="seg">Deputy Headmistress</mrk></target>
+</trans-unit>
+</group>
+</group>
+<trans-unit id="tu9" resname="contentType" xml:space="preserve">
+<source xml:lang="en">Text</source>
+<seg-source><mrk mid="0" mtype="seg">Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text</mrk></target>
+</trans-unit>
+</group>
+</group>
+</group>
+</body>
+</file>
+</xliff>

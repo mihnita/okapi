@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj27767.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Numeric type promotion in expressions</source>
+<seg-source><mrk mid="0" mtype="seg">Numeric type promotion in expressions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Numeric type promotion in expressions</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">In expressions that use only integer types, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> promotes the type of the result to at least INTEGER. In expressions that mix integer with non-integer types, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> promotes the result of the expression to the highest type in the expression. The following table shows the promotion of data types in expressions.</source>
+<seg-source><mrk mid="0" mtype="seg">In expressions that use only integer types, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> promotes the type of the result to at least INTEGER.</mrk><mrk mid="1" mtype="seg"> In expressions that mix integer with non-integer types, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> promotes the result of the expression to the highest type in the expression.</mrk><mrk mid="2" mtype="seg"> The following table shows the promotion of data types in expressions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In expressions that use only integer types, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> promotes the type of the result to at least INTEGER.</mrk><mrk mid="1" mtype="seg"> In expressions that mix integer with non-integer types, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> promotes the result of the expression to the highest type in the expression.</mrk><mrk mid="2" mtype="seg"> The following table shows the promotion of data types in expressions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Type promotion in expressions</source>
+<seg-source><mrk mid="0" mtype="seg">Type promotion in expressions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type promotion in expressions</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">This table shows the result of type promotion for each numeric data type when that type is the largest type that appears in an expression.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows the result of type promotion for each numeric data type when that type is the largest type that appears in an expression.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows the result of type promotion for each numeric data type when that type is the largest type that appears in an expression.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Largest Type That Appears in Expression</source>
+<seg-source><mrk mid="0" mtype="seg">Largest Type That Appears in Expression</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Largest Type That Appears in Expression</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Resulting Type of Expression</source>
+<seg-source><mrk mid="0" mtype="seg">Resulting Type of Expression</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Resulting Type of Expression</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">DOUBLE PRECISION</source>
+<seg-source><mrk mid="0" mtype="seg">DOUBLE PRECISION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DOUBLE PRECISION</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">DOUBLE PRECISION</source>
+<seg-source><mrk mid="0" mtype="seg">DOUBLE PRECISION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DOUBLE PRECISION</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">REAL</source>
+<seg-source><mrk mid="0" mtype="seg">REAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REAL</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">DOUBLE PRECISION</source>
+<seg-source><mrk mid="0" mtype="seg">DOUBLE PRECISION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DOUBLE PRECISION</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">DECIMAL</source>
+<seg-source><mrk mid="0" mtype="seg">DECIMAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DECIMAL</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">DECIMAL</source>
+<seg-source><mrk mid="0" mtype="seg">DECIMAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DECIMAL</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">SMALLINT</source>
+<seg-source><mrk mid="0" mtype="seg">SMALLINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SMALLINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">For example:</source>
+<seg-source><mrk mid="0" mtype="seg">For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns a double precision<ept id="2">&lt;/ph&gt;</ept> VALUES 1 + 1.0e0 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- returns a decimal<ept id="3">&lt;/ph&gt;</ept> VALUES 1 + 1.0 <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- returns an integer<ept id="4">&lt;/ph&gt;</ept> VALUES CAST (1 AS INT) + CAST (1 AS INT)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns a double precision<ept id="2">&lt;/ph&gt;</ept> VALUES 1 + 1.0e0 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- returns a decimal<ept id="3">&lt;/ph&gt;</ept> VALUES 1 + 1.0 <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- returns an integer<ept id="4">&lt;/ph&gt;</ept> VALUES CAST (1 AS INT) + CAST (1 AS INT)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns a double precision<ept id="2">&lt;/ph&gt;</ept> VALUES 1 + 1.0e0 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- returns a decimal<ept id="3">&lt;/ph&gt;</ept> VALUES 1 + 1.0 <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- returns an integer<ept id="4">&lt;/ph&gt;</ept> VALUES CAST (1 AS INT) + CAST (1 AS INT)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,16 @@
+HERE COMES A <![CDATA[CDATA SECTION THAT INCLUDES SYMBOLS LIKE > AND & AND <]]>.
+
+<![CDATA[
+FUNCTION MATCHWO(A,B)
+{
+  IF (A < B && A < 0) THEN {
+    RETURN 1;
+
+  } ELSE {
+
+    RETURN 0;
+  }
+}
+]]>
+
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljgenerationclause.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">generationClause</source>
+<seg-source><mrk mid="0" mtype="seg">generationClause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">generationClause</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GENERATED ALWAYS AS ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>valueExpression<ept id="2">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GENERATED ALWAYS AS ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>valueExpression<ept id="2">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GENERATED ALWAYS AS ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>valueExpression<ept id="2">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>valueExpression<ept id="1">&lt;/i&gt;</ept> is an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> that resolves to a single value, with some limitations that are described here. See <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj19433.dita#rrefsqlj19433"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> for more information about <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="4">&lt;/i&gt;</ept>s.</source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>valueExpression<ept id="1">&lt;/i&gt;</ept> is an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> that resolves to a single value, with some limitations that are described here.</mrk><mrk mid="1" mtype="seg"> See <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj19433.dita#rrefsqlj19433"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> for more information about <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="4">&lt;/i&gt;</ept>s.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>valueExpression<ept id="1">&lt;/i&gt;</ept> is an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> that resolves to a single value, with some limitations that are described here.</mrk><mrk mid="1" mtype="seg"> See <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj19433.dita#rrefsqlj19433"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> for more information about <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="4">&lt;/i&gt;</ept>s.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">References</source>
+<seg-source><mrk mid="0" mtype="seg">References</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">References</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>generationClause<ept id="1">&lt;/i&gt;</ept> may reference other non-generated columns in the table, but it must not reference any generated column. The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>generationClause<ept id="2">&lt;/i&gt;</ept> must not reference a column in another table.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>generationClause<ept id="1">&lt;/i&gt;</ept> may reference other non-generated columns in the table, but it must not reference any generated column.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>generationClause<ept id="2">&lt;/i&gt;</ept> must not reference a column in another table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>generationClause<ept id="1">&lt;/i&gt;</ept> may reference other non-generated columns in the table, but it must not reference any generated column.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>generationClause<ept id="2">&lt;/i&gt;</ept> must not reference a column in another table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Functions</source>
+<seg-source><mrk mid="0" mtype="seg">Functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>generationClause<ept id="1">&lt;/i&gt;</ept> may invoke user-coded functions, if the functions meet the following requirements:</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>generationClause<ept id="1">&lt;/i&gt;</ept> may invoke user-coded functions, if the functions meet the following requirements:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>generationClause<ept id="1">&lt;/i&gt;</ept> may invoke user-coded functions, if the functions meet the following requirements:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The functions must not read or write SQL data.</source>
+<seg-source><mrk mid="0" mtype="seg">The functions must not read or write SQL data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The functions must not read or write SQL data.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The functions must have been declared DETERMINISTIC.</source>
+<seg-source><mrk mid="0" mtype="seg">The functions must have been declared DETERMINISTIC.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The functions must have been declared DETERMINISTIC.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The functions must not invoke any of the following possibly non-deterministic system functions:</source>
+<seg-source><mrk mid="0" mtype="seg">The functions must not invoke any of the following possibly non-deterministic system functions:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The functions must not invoke any of the following possibly non-deterministic system functions:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">CURRENT_DATE</source>
+<seg-source><mrk mid="0" mtype="seg">CURRENT_DATE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CURRENT_DATE</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">CURRENT_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">CURRENT_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CURRENT_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">CURRENT_TIMESTAMP</source>
+<seg-source><mrk mid="0" mtype="seg">CURRENT_TIMESTAMP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CURRENT_TIMESTAMP</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">CURRENT_USER</source>
+<seg-source><mrk mid="0" mtype="seg">CURRENT_USER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CURRENT_USER</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">CURRENT_ROLE</source>
+<seg-source><mrk mid="0" mtype="seg">CURRENT_ROLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CURRENT_ROLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">CURRENT SCHEMA</source>
+<seg-source><mrk mid="0" mtype="seg">CURRENT SCHEMA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CURRENT SCHEMA</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">CURRENT SQLID</source>
+<seg-source><mrk mid="0" mtype="seg">CURRENT SQLID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CURRENT SQLID</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">SESSION_USER</source>
+<seg-source><mrk mid="0" mtype="seg">SESSION_USER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SESSION_USER</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Subqueries</source>
+<seg-source><mrk mid="0" mtype="seg">Subqueries</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Subqueries</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>generationClause<ept id="1">&lt;/i&gt;</ept> must not include subqueries.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>generationClause<ept id="1">&lt;/i&gt;</ept> must not include subqueries.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>generationClause<ept id="1">&lt;/i&gt;</ept> must not include subqueries.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Foreign keys</source>
+<seg-source><mrk mid="0" mtype="seg">Foreign keys</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Foreign keys</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">If the generated column is part of a foreign key that references another table, the referential action must not specify SET NULL or SET DEFAULT, and the update rule must not specify ON UPDATE CASCADE.</source>
+<seg-source><mrk mid="0" mtype="seg">If the generated column is part of a foreign key that references another table, the referential action must not specify SET NULL or SET DEFAULT, and the update rule must not specify ON UPDATE CASCADE.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the generated column is part of a foreign key that references another table, the referential action must not specify SET NULL or SET DEFAULT, and the update rule must not specify ON UPDATE CASCADE.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TABLE employee ( employeeID int, name varchar( 50 ), caseInsensitiveName GENERATED ALWAYS AS( UPPER( name ) ) ); CREATE INDEX caseInsensitiveEmployeeName ON employee( caseInsensitiveName ); <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TABLE employee ( employeeID int, name varchar( 50 ), caseInsensitiveName GENERATED ALWAYS AS( UPPER( name ) ) ); CREATE INDEX caseInsensitiveEmployeeName ON employee( caseInsensitiveName ); <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TABLE employee ( employeeID int, name varchar( 50 ), caseInsensitiveName GENERATED ALWAYS AS( UPPER( name ) ) ); CREATE INDEX caseInsensitiveEmployeeName ON employee( caseInsensitiveName ); <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

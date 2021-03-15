@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsysxplain_resultset_timings.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSXPLAIN_RESULTSET_TIMINGS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSET_TIMINGS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSET_TIMINGS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The SYSXPLAIN_RESULTSET_TIMINGS table captures timing information about result set accesses which occurred during statements that were executed using RUNTIMESTATISTICS with XPLAIN style.</source>
+<seg-source><mrk mid="0" mtype="seg">The SYSXPLAIN_RESULTSET_TIMINGS table captures timing information about result set accesses which occurred during statements that were executed using RUNTIMESTATISTICS with XPLAIN style.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SYSXPLAIN_RESULTSET_TIMINGS table captures timing information about result set accesses which occurred during statements that were executed using RUNTIMESTATISTICS with XPLAIN style.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">system tables</source>
+<seg-source><mrk mid="0" mtype="seg">system tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SYSXPLAIN_RESULTSET_TIMINGS</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSET_TIMINGS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSET_TIMINGS</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">XPLAIN style statistics</source>
+<seg-source><mrk mid="0" mtype="seg">XPLAIN style statistics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XPLAIN style statistics</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SYSXPLAIN_RESULTSET_TIMINGS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSET_TIMINGS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSET_TIMINGS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SYSXPLAIN_RESULTSET_TIMINGS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSET_TIMINGS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSET_TIMINGS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on how to configure this. Note that statistics timing must be configured by calling SYSCS_UTIL.SYSCS_SET_STATISTICS_TIMING(1). Each row in this table describes various timing information for this particular result set in this particular statement. Rows in this table are typically joined with rows in SYSXPLAIN_STATEMENTS and SYSXPLAIN_RESULTSETS during analysis. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on how to configure this.</mrk><mrk mid="1" mtype="seg"> Note that statistics timing must be configured by calling SYSCS_UTIL.SYSCS_SET_STATISTICS_TIMING(1).</mrk><mrk mid="2" mtype="seg"> Each row in this table describes various timing information for this particular result set in this particular statement.</mrk><mrk mid="3" mtype="seg"> Rows in this table are typically joined with rows in SYSXPLAIN_STATEMENTS and SYSXPLAIN_RESULTSETS during analysis.</mrk><mrk mid="4" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on how to configure this.</mrk><mrk mid="1" mtype="seg"> Note that statistics timing must be configured by calling SYSCS_UTIL.SYSCS_SET_STATISTICS_TIMING(1).</mrk><mrk mid="2" mtype="seg"> Each row in this table describes various timing information for this particular result set in this particular statement.</mrk><mrk mid="3" mtype="seg"> Rows in this table are typically joined with rows in SYSXPLAIN_STATEMENTS and SYSXPLAIN_RESULTSETS during analysis.</mrk><mrk mid="4" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">select rs.op_identifier, rst.execute_time from my_stats.sysxplain_resultsets rs, my_stats.sysxplain_resultset_timings rst where rs.stmt_id = ? and rs.timing_id = rst.timing_id order by rst.execute_time desc</source>
+<seg-source><mrk mid="0" mtype="seg">select rs.op_identifier, rst.execute_time from my_stats.sysxplain_resultsets rs, my_stats.sysxplain_resultset_timings rst where rs.stmt_id = ? and rs.timing_id = rst.timing_id order by rst.execute_time desc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">select rs.op_identifier, rst.execute_time from my_stats.sysxplain_resultsets rs, my_stats.sysxplain_resultset_timings rst where rs.stmt_id = ? and rs.timing_id = rst.timing_id order by rst.execute_time desc</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Rows in this table are added automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has been configured appropriately. The rows remain in the table until you delete them or drop the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Rows in this table are added automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has been configured appropriately.</mrk><mrk mid="1" mtype="seg"> The rows remain in the table until you delete them or drop the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Rows in this table are added automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has been configured appropriately.</mrk><mrk mid="1" mtype="seg"> The rows remain in the table until you delete them or drop the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The following table shows the contents of the SYSXPLAIN_RESULTSET_TIMINGS system table.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table shows the contents of the SYSXPLAIN_RESULTSET_TIMINGS system table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table shows the contents of the SYSXPLAIN_RESULTSET_TIMINGS system table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">SYSXPLAIN_RESULTSET_TIMINGS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSET_TIMINGS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_RESULTSET_TIMINGS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">For each column in the SYSXPLAIN_RESULTSET_TIMINGS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</source>
+<seg-source><mrk mid="0" mtype="seg">For each column in the SYSXPLAIN_RESULTSET_TIMINGS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For each column in the SYSXPLAIN_RESULTSET_TIMINGS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Column Name</source>
+<seg-source><mrk mid="0" mtype="seg">Column Name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column Name</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Length</source>
+<seg-source><mrk mid="0" mtype="seg">Length</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Length</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Nullable</source>
+<seg-source><mrk mid="0" mtype="seg">Nullable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nullable</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Contents</source>
+<seg-source><mrk mid="0" mtype="seg">Contents</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contents</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">TIMING_ID</source>
+<seg-source><mrk mid="0" mtype="seg">TIMING_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMING_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">36</source>
+<seg-source><mrk mid="0" mtype="seg">36</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">36</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">A unique ID for this particular row. This column can be used to join against the TIMING_ID column in the SYSXPLAIN_RESULTSETS table.</source>
+<seg-source><mrk mid="0" mtype="seg">A unique ID for this particular row.</mrk><mrk mid="1" mtype="seg"> This column can be used to join against the TIMING_ID column in the SYSXPLAIN_RESULTSETS table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A unique ID for this particular row.</mrk><mrk mid="1" mtype="seg"> This column can be used to join against the TIMING_ID column in the SYSXPLAIN_RESULTSETS table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">CONSTRUCTOR_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">CONSTRUCTOR_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CONSTRUCTOR_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">The time it took to construct this instance of this result set, in milliseconds.</source>
+<seg-source><mrk mid="0" mtype="seg">The time it took to construct this instance of this result set, in milliseconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time it took to construct this instance of this result set, in milliseconds.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">OPEN_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">OPEN_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OPEN_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">The time it took to open this instance of this result set, in milliseconds. Note that if this result set was opened multiple times, this column is the sum of all the individual open times.</source>
+<seg-source><mrk mid="0" mtype="seg">The time it took to open this instance of this result set, in milliseconds.</mrk><mrk mid="1" mtype="seg"> Note that if this result set was opened multiple times, this column is the sum of all the individual open times.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time it took to open this instance of this result set, in milliseconds.</mrk><mrk mid="1" mtype="seg"> Note that if this result set was opened multiple times, this column is the sum of all the individual open times.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">NEXT_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">NEXT_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NEXT_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">The accumulated time for all the calls to fetch the next row from this result set, in milliseconds, for all the opens of this result set.</source>
+<seg-source><mrk mid="0" mtype="seg">The accumulated time for all the calls to fetch the next row from this result set, in milliseconds, for all the opens of this result set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The accumulated time for all the calls to fetch the next row from this result set, in milliseconds, for all the opens of this result set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">CLOSE_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">CLOSE_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CLOSE_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">The time it took to close this instance of the result set, in milliseconds.</source>
+<seg-source><mrk mid="0" mtype="seg">The time it took to close this instance of the result set, in milliseconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time it took to close this instance of the result set, in milliseconds.</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">EXECUTE_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">EXECUTE_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EXECUTE_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">The time for all operations performed by this result set, excluding the time taken by all the children result sets of this result set, in milliseconds.</source>
+<seg-source><mrk mid="0" mtype="seg">The time for all operations performed by this result set, excluding the time taken by all the children result sets of this result set, in milliseconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time for all operations performed by this result set, excluding the time taken by all the children result sets of this result set, in milliseconds.</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">AVG_NEXT_TIME_PER_ROW</source>
+<seg-source><mrk mid="0" mtype="seg">AVG_NEXT_TIME_PER_ROW</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AVG_NEXT_TIME_PER_ROW</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">If there was at least one row returned from this result set, then this value is the NEXT_TIME value divided by the number of rows returned from this result set, which thus is the average time, in milliseconds, that it took to retrieve a row from this result set.</source>
+<seg-source><mrk mid="0" mtype="seg">If there was at least one row returned from this result set, then this value is the NEXT_TIME value divided by the number of rows returned from this result set, which thus is the average time, in milliseconds, that it took to retrieve a row from this result set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If there was at least one row returned from this result set, then this value is the NEXT_TIME value divided by the number of rows returned from this result set, which thus is the average time, in milliseconds, that it took to retrieve a row from this result set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">PROJECTION_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">PROJECTION_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PROJECTION_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">This value is NULL unless this result set is a PROJECTION result set, in which case this column contains the time, in milliseconds, that it took to perform projection of columns from the rows in this result set.</source>
+<seg-source><mrk mid="0" mtype="seg">This value is NULL unless this result set is a PROJECTION result set, in which case this column contains the time, in milliseconds, that it took to perform projection of columns from the rows in this result set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This value is NULL unless this result set is a PROJECTION result set, in which case this column contains the time, in milliseconds, that it took to perform projection of columns from the rows in this result set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">RESTRICTION_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">RESTRICTION_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RESTRICTION_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">This value is NULL unless this result set is a PROJECTION result set, in which case this column contains the time, in milliseconds, that it took to perform restriction of rows from the rows in this result set.</source>
+<seg-source><mrk mid="0" mtype="seg">This value is NULL unless this result set is a PROJECTION result set, in which case this column contains the time, in milliseconds, that it took to perform restriction of rows from the rows in this result set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This value is NULL unless this result set is a PROJECTION result set, in which case this column contains the time, in milliseconds, that it took to perform restriction of rows from the rows in this result set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en">TEMP_CONG_CREATE_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">TEMP_CONG_CREATE_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TEMP_CONG_CREATE_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">For result sets which involve a materialization of a temporary intermediate result set, this value is the time it took to create the materialized result set, in milliseconds. This materialization may occur with hash joins where the number of rows in the intermediate result is too large to hold in memory.</source>
+<seg-source><mrk mid="0" mtype="seg">For result sets which involve a materialization of a temporary intermediate result set, this value is the time it took to create the materialized result set, in milliseconds.</mrk><mrk mid="1" mtype="seg"> This materialization may occur with hash joins where the number of rows in the intermediate result is too large to hold in memory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For result sets which involve a materialization of a temporary intermediate result set, this value is the time it took to create the materialized result set, in milliseconds.</mrk><mrk mid="1" mtype="seg"> This materialization may occur with hash joins where the number of rows in the intermediate result is too large to hold in memory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en">TEMP_CONG_FETCH_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">TEMP_CONG_FETCH_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TEMP_CONG_FETCH_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en">Similar to TEMP_CONG_CREATE_TIME, this value is the time it took to retrieve rows from the materialized result set, in milliseconds.</source>
+<seg-source><mrk mid="0" mtype="seg">Similar to TEMP_CONG_CREATE_TIME, this value is the time it took to retrieve rows from the materialized result set, in milliseconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Similar to TEMP_CONG_CREATE_TIME, this value is the time it took to retrieve rows from the materialized result set, in milliseconds.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

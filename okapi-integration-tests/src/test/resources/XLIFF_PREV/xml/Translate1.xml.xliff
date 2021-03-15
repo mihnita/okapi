@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Translate1.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" restype="x-alt">
+<source xml:lang="en">Image description</source>
+<seg-source><mrk mid="0" mtype="seg">Image description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Image description</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Text with an image: <ph id="1" ctype="x-img">&lt;img alt="[#$1]" src="img.png"/&gt;</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Text with an image: <ph id="1" ctype="x-img">&lt;img alt="[#$1]" src="img.png"/&gt;</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text with an image: <ph id="1" ctype="x-img">&lt;img alt="[#$1]" src="img.png"/&gt;</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="3" restype="x-title">
+<source xml:lang="en">Text</source>
+<seg-source><mrk mid="0" mtype="seg">Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">This is the first paragraph. It has some <bpt id="1" ctype="x-verbatim">&lt;verbatim&gt;</bpt><ph id="2">un-translatable 
+   code with an image: </ph><ph id="3" ctype="x-img">&lt;img alt="Image description" src="test.png"/&gt;</ph><ept id="1">&lt;/verbatim&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This is the first paragraph.</mrk><mrk mid="1" mtype="seg"> It has some <bpt id="1" ctype="x-verbatim">&lt;verbatim&gt;</bpt><ph id="2">un-translatable 
+   code with an image: </ph><ph id="3" ctype="x-img">&lt;img alt="Image description" src="test.png"/&gt;</ph><ept id="1">&lt;/verbatim&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is the first paragraph.</mrk><mrk mid="1" mtype="seg"> It has some <bpt id="1" ctype="x-verbatim">&lt;verbatim&gt;</bpt><ph id="2">un-translatable 
+   code with an image: </ph><ph id="3" ctype="x-img">&lt;img alt="Image description" src="test.png"/&gt;</ph><ept id="1">&lt;/verbatim&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The Lord of the Rings</source>
+<seg-source><mrk mid="0" mtype="seg">The Lord of the Rings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Lord of the Rings</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The Return of the King</source>
+<seg-source><mrk mid="0" mtype="seg">The Return of the King</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Return of the King</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Minas Tirith</source>
+<seg-source><mrk mid="0" mtype="seg">Minas Tirith</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Minas Tirith</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-姓名">&lt;z:姓名&gt;</bpt><ph id="2">Pippin</ph><ept id="1">&lt;/z:姓名&gt;</ept> looked out from the shelter of <bpt id="3" ctype="x-姓名">&lt;z:姓名&gt;</bpt><ph id="4">Gandalf</ph><ept id="3">&lt;/z:姓名&gt;</ept>'s cloak.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-姓名">&lt;z:姓名&gt;</bpt><ph id="2">Pippin</ph><ept id="1">&lt;/z:姓名&gt;</ept> looked out from the shelter of <bpt id="3" ctype="x-姓名">&lt;z:姓名&gt;</bpt><ph id="4">Gandalf</ph><ept id="3">&lt;/z:姓名&gt;</ept>'s cloak.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-姓名">&lt;z:姓名&gt;</bpt><ph id="2">Pippin</ph><ept id="1">&lt;/z:姓名&gt;</ept> looked out from the shelter of <bpt id="3" ctype="x-姓名">&lt;z:姓名&gt;</bpt><ph id="4">Gandalf</ph><ept id="3">&lt;/z:姓名&gt;</ept>'s cloak.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

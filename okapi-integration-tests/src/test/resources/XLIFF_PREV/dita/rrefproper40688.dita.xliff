@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefproper40688.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.storage.pageSize</source>
+<seg-source><mrk mid="0" mtype="seg">derby.storage.pageSize</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.storage.pageSize</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">derby.storage.pageSize</source>
+<seg-source><mrk mid="0" mtype="seg">derby.storage.pageSize</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.storage.pageSize</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Page size</source>
+<seg-source><mrk mid="0" mtype="seg">Page size</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Page size</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">configuring</source>
+<seg-source><mrk mid="0" mtype="seg">configuring</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Defines the page size, in bytes, for on-disk database pages for tables or indexes used during table or index creation. Set this property prior to issuing the CREATE TABLE or CREATE INDEX statement. This value will be used for the lifetime of the newly created conglomerates.</source>
+<seg-source><mrk mid="0" mtype="seg">Defines the page size, in bytes, for on-disk database pages for tables or indexes used during table or index creation.</mrk><mrk mid="1" mtype="seg"> Set this property prior to issuing the CREATE TABLE or CREATE INDEX statement.</mrk><mrk mid="2" mtype="seg"> This value will be used for the lifetime of the newly created conglomerates.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Defines the page size, in bytes, for on-disk database pages for tables or indexes used during table or index creation.</mrk><mrk mid="1" mtype="seg"> Set this property prior to issuing the CREATE TABLE or CREATE INDEX statement.</mrk><mrk mid="2" mtype="seg"> This value will be used for the lifetime of the newly created conglomerates.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Valid conglomerates</source>
+<seg-source><mrk mid="0" mtype="seg">Valid conglomerates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Valid conglomerates</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Tables and indexes, including the indexes created to enforce constraints.</source>
+<seg-source><mrk mid="0" mtype="seg">Tables and indexes, including the indexes created to enforce constraints.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tables and indexes, including the indexes created to enforce constraints.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> automatically tunes for the database page size. If you have any LONG VARCHAR, LONG VARCHAR FOR BIT DATA, BLOB, or CLOB columns, or if <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> estimates that the total length of the columns declared at create time is greater than 4096 bytes, the default page size for the table is set to 32768 bytes. Otherwise, the default is 4096 bytes.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> automatically tunes for the database page size.</mrk><mrk mid="1" mtype="seg"> If you have any LONG VARCHAR, LONG VARCHAR FOR BIT DATA, BLOB, or CLOB columns, or if <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> estimates that the total length of the columns declared at create time is greater than 4096 bytes, the default page size for the table is set to 32768 bytes.</mrk><mrk mid="2" mtype="seg"> Otherwise, the default is 4096 bytes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> automatically tunes for the database page size.</mrk><mrk mid="1" mtype="seg"> If you have any LONG VARCHAR, LONG VARCHAR FOR BIT DATA, BLOB, or CLOB columns, or if <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> estimates that the total length of the columns declared at create time is greater than 4096 bytes, the default page size for the table is set to 32768 bytes.</mrk><mrk mid="2" mtype="seg"> Otherwise, the default is 4096 bytes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Valid values</source>
+<seg-source><mrk mid="0" mtype="seg">Valid values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Valid values</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Page size can only be one of the following values: 4096, 8192, 16384, or 32768 bytes. If you specify an invalid value, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the default value.</source>
+<seg-source><mrk mid="0" mtype="seg">Page size can only be one of the following values: 4096, 8192, 16384, or 32768 bytes.</mrk><mrk mid="1" mtype="seg"> If you specify an invalid value, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the default value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Page size can only be one of the following values: 4096, 8192, 16384, or 32768 bytes.</mrk><mrk mid="1" mtype="seg"> If you specify an invalid value, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the default value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- changing the default for the system<ept id="2">&lt;/ph&gt;</ept> derby.storage.pageSize=8192 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- changing the default for the database<ept id="3">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.storage.pageSize', '8192')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- changing the default for the system<ept id="2">&lt;/ph&gt;</ept> derby.storage.pageSize=8192 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- changing the default for the database<ept id="3">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.storage.pageSize', '8192')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- changing the default for the system<ept id="2">&lt;/ph&gt;</ept> derby.storage.pageSize=8192 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- changing the default for the database<ept id="3">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.storage.pageSize', '8192')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Dynamic or static</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic or static</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic or static</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">This property is dynamic; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change takes effect immediately. For information about dynamic changes to properties, see <ph id="2" ctype="x-xref">&lt;xref href="crefproperdynstat.dita#crefproperdynstat"/&gt;</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is dynamic; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change takes effect immediately.</mrk><mrk mid="1" mtype="seg"> For information about dynamic changes to properties, see <ph id="2" ctype="x-xref">&lt;xref href="crefproperdynstat.dita#crefproperdynstat"/&gt;</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is dynamic; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change takes effect immediately.</mrk><mrk mid="1" mtype="seg"> For information about dynamic changes to properties, see <ph id="2" ctype="x-xref">&lt;xref href="crefproperdynstat.dita#crefproperdynstat"/&gt;</ph>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

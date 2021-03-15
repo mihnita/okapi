@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminconfig814963.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Starting the Network Server from a Java application</source>
+<seg-source><mrk mid="0" mtype="seg">Starting the Network Server from a Java application</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Starting the Network Server from a Java application</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Always shut down the Network Server properly after use, because failure to do so might result in unpredictable side effects, such as blocked ports on the server.</source>
+<seg-source><mrk mid="0" mtype="seg">Always shut down the Network Server properly after use, because failure to do so might result in unpredictable side effects, such as blocked ports on the server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Always shut down the Network Server properly after use, because failure to do so might result in unpredictable side effects, such as blocked ports on the server.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">starting from the API</source>
+<seg-source><mrk mid="0" mtype="seg">starting from the API</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">starting from the API</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">There are two ways to start the Network Server from a Java application.</source>
+<seg-source><mrk mid="0" mtype="seg">There are two ways to start the Network Server from a Java application.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There are two ways to start the Network Server from a Java application.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">You can include the following line in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.properties<ept id="1">&lt;/codeph&gt;</ept> file:</source>
+<seg-source><mrk mid="0" mtype="seg">You can include the following line in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.properties<ept id="1">&lt;/codeph&gt;</ept> file:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can include the following line in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.properties<ept id="1">&lt;/codeph&gt;</ept> file:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">derby.drda.startNetworkServer=true</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.startNetworkServer=true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.startNetworkServer=true</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">This starts the server on the default port, 1527, listening on <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>localhost<ept id="1">&lt;/codeph&gt;</ept> (all interfaces).</source>
+<seg-source><mrk mid="0" mtype="seg">This starts the server on the default port, 1527, listening on <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>localhost<ept id="1">&lt;/codeph&gt;</ept> (all interfaces).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This starts the server on the default port, 1527, listening on <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>localhost<ept id="1">&lt;/codeph&gt;</ept> (all interfaces).</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">To specify a different port or a specific interface in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.properties<ept id="1">&lt;/codeph&gt;</ept> file, include the following lines, respectively:</source>
+<seg-source><mrk mid="0" mtype="seg">To specify a different port or a specific interface in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.properties<ept id="1">&lt;/codeph&gt;</ept> file, include the following lines, respectively:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To specify a different port or a specific interface in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.properties<ept id="1">&lt;/codeph&gt;</ept> file, include the following lines, respectively:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">derby.drda.portNumber=1110 derby.drda.host=<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>myhost<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.portNumber=1110 derby.drda.host=<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>myhost<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.portNumber=1110 derby.drda.host=<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>myhost<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">You can also specify the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>startNetworkServer<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>portNumber<ept id="2">&lt;/codeph&gt;</ept> properties by using a Java command:</source>
+<seg-source><mrk mid="0" mtype="seg">You can also specify the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>startNetworkServer<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>portNumber<ept id="2">&lt;/codeph&gt;</ept> properties by using a Java command:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can also specify the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>startNetworkServer<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>portNumber<ept id="2">&lt;/codeph&gt;</ept> properties by using a Java command:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Dderby.drda.startNetworkServer=true \ -Dderby.drda.portNumber=1110 \ -Dderby.drda.host=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>myhost yourApp<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Dderby.drda.startNetworkServer=true \ -Dderby.drda.portNumber=1110 \ -Dderby.drda.host=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>myhost yourApp<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Dderby.drda.startNetworkServer=true \ -Dderby.drda.portNumber=1110 \ -Dderby.drda.host=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>myhost yourApp<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">You can use the NetworkServerControl API to start the Network Server from a separate thread within a Java application:</source>
+<seg-source><mrk mid="0" mtype="seg">You can use the NetworkServerControl API to start the Network Server from a separate thread within a Java application:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use the NetworkServerControl API to start the Network Server from a separate thread within a Java application:</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">NetworkServerControl server = new NetworkServerControl(); server.start (null);</source>
+<seg-source><mrk mid="0" mtype="seg">NetworkServerControl server = new NetworkServerControl(); server.start (null);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NetworkServerControl server = new NetworkServerControl(); server.start (null);</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

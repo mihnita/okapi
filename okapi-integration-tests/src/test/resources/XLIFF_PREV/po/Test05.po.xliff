@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Test05.po" source-language="en" target-language="fr" datatype="x-application/x-gettext" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" resname="N93745AA6" approved="yes" xml:space="preserve">
+<source xml:lang="en">Text with an approved translation <ph id="1" ctype="x-regxph">%s</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Text with an approved translation <ph id="1" ctype="x-regxph">%s</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Texte avec une traducion approuvée <ph id="1" ctype="x-regxph">%s</ph></mrk></target>
+</trans-unit>
+<trans-unit id="2" resname="P2FB90C53" xml:space="preserve">
+<source xml:lang="en">Text with non-approved translation <ph id="1" ctype="x-regxph">%s</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Text with non-approved translation <ph id="1" ctype="x-regxph">%s</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text avec une traduction non-approuvée <ph id="1" ctype="x-regxph">%s</ph></mrk></target>
+</trans-unit>
+<trans-unit id="3" resname="ND00CDCC1" xml:space="preserve">
+<source xml:lang="en">Text 2 with non-approved translation <ph id="1" ctype="x-regxph">%s</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Text 2 with non-approved translation <ph id="1" ctype="x-regxph">%s</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text 2 avec une traduction non-approuvée <ph id="1" ctype="x-regxph">%s</ph></mrk></target>
+</trans-unit>
+<trans-unit id="4" resname="P24749192" xml:space="preserve">
+<source xml:lang="en">Text without translation</source>
+<seg-source><mrk mid="0" mtype="seg">Text without translation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text without translation</mrk></target>
+</trans-unit>
+<trans-unit id="5" resname="N8F2BAB8B" approved="yes" xml:space="preserve">
+<source xml:lang="en">Special chars: \"=quot, &amp;=amp, &lt;=lt, &gt;=gt, '=apos, Ą=U+0104</source>
+<seg-source><mrk mid="0" mtype="seg">Special chars: \"=quot, &amp;=amp, &lt;=lt, &gt;=gt, '=apos, Ą=U+0104</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Characters spéciaux : \"=quot, &amp;=amp, &lt;=lt, &gt;=gt, '=apos, Ą=U+0104</mrk></target>
+</trans-unit>
+<group id="o3" restype="x-gettext-plurals">
+<trans-unit id="6" resname="N90CD1911-0" approved="yes" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph">%d</ph> file</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph">%d</ph> file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph">%d</ph> fichier</mrk></target>
+</trans-unit>
+<trans-unit id="7" resname="N90CD1911-1" approved="yes" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph">%d</ph> files</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph">%d</ph> files</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph">%d</ph> fichiers</mrk></target>
+</trans-unit>
+</group>
+<group id="o5" restype="x-gettext-plurals">
+<trans-unit id="8" resname="NBB19007D-0" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph">%d</ph> file left to trash</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph">%d</ph> file left to trash</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encore <ph id="1" ctype="x-regxph">%d</ph> fichier à détruire</mrk></target>
+</trans-unit>
+<trans-unit id="9" resname="NBB19007D-1" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph">%d</ph> files left to trash</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph">%d</ph> files left to trash</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encore <ph id="1" ctype="x-regxph">%d</ph> fichiers à détruire</mrk></target>
+</trans-unit>
+</group>
+<group id="o7" restype="x-gettext-plurals">
+<trans-unit id="10" resname="P68A1DB2F-0" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph">%d</ph> directory left</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph">%d</ph> directory left</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph">%d</ph> directory left</mrk></target>
+</trans-unit>
+<trans-unit id="11" resname="P68A1DB2F-1" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph">%d</ph> directories left</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph">%d</ph> directories left</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph">%d</ph> directories left</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="12" resname="NAC232408" approved="yes" xml:space="preserve">
+<source xml:lang="en">bslashes=\\\\</source>
+<seg-source><mrk mid="0" mtype="seg">bslashes=\\\\</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bslashes=\\\\</mrk></target>
+</trans-unit>
+<trans-unit id="13" resname="P792386B5" approved="yes" xml:space="preserve">
+<source xml:lang="en">quoted-bslash=\"\\\"</source>
+<seg-source><mrk mid="0" mtype="seg">quoted-bslash=\"\\\"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">quoted-bslash=\"\\\"</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

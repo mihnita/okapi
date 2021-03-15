@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="TestSpreadsheet01.ods/content.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/ods/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" restype="x-table:name">
+<source xml:lang="en">Title of sheet one</source>
+<seg-source><mrk mid="0" mtype="seg">Title of sheet one</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title of sheet one</mrk></target>
+</trans-unit>
+<trans-unit id="2" restype="x-text:p">
+<source xml:lang="en">Text in cell A1</source>
+<seg-source><mrk mid="0" mtype="seg">Text in cell A1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text in cell A1</mrk></target>
+</trans-unit>
+<trans-unit id="3" restype="x-text:p">
+<source xml:lang="en">Text in cell B1</source>
+<seg-source><mrk mid="0" mtype="seg">Text in cell B1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text in cell B1</mrk></target>
+</trans-unit>
+<trans-unit id="4" restype="x-text:p">
+<source xml:lang="en">12</source>
+<seg-source><mrk mid="0" mtype="seg">12</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">12</mrk></target>
+</trans-unit>
+<trans-unit id="6" restype="x-text:p">
+<source xml:lang="en">Note for cell with “15”</source>
+<seg-source><mrk mid="0" mtype="seg">Note for cell with “15”</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note for cell with “15”</mrk></target>
+</trans-unit>
+<trans-unit id="5" restype="x-office:annotation">
+<source xml:lang="en"><ph id="1" ctype="x-dc:creator">&lt;dc:creator&gt;YS&lt;/dc:creator&gt;</ph><ph id="2" ctype="x-dc:date">&lt;dc:date&gt;2009-05-04T00:00:00&lt;/dc:date&gt;</ph><ph id="3" ctype="x-text:p">[#$6]</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-dc:creator">&lt;dc:creator&gt;YS&lt;/dc:creator&gt;</ph><ph id="2" ctype="x-dc:date">&lt;dc:date&gt;2009-05-04T00:00:00&lt;/dc:date&gt;</ph><ph id="3" ctype="x-text:p">[#$6]</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-dc:creator">&lt;dc:creator&gt;YS&lt;/dc:creator&gt;</ph><ph id="2" ctype="x-dc:date">&lt;dc:date&gt;2009-05-04T00:00:00&lt;/dc:date&gt;</ph><ph id="3" ctype="x-text:p">[#$6]</ph></mrk></target>
+</trans-unit>
+<trans-unit id="7" restype="x-text:p">
+<source xml:lang="en">15</source>
+<seg-source><mrk mid="0" mtype="seg">15</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">15</mrk></target>
+</trans-unit>
+<trans-unit id="9" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T1"&gt;</bpt>Note for the cell A5.<ept id="1">&lt;/text:span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T1"&gt;</bpt>Note for the cell A5.<ept id="1">&lt;/text:span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T1"&gt;</bpt>Note for the cell A5.<ept id="1">&lt;/text:span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="10" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T1"&gt;</bpt>Second paragraph of that note.<ept id="1">&lt;/text:span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T1"&gt;</bpt>Second paragraph of that note.<ept id="1">&lt;/text:span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T1"&gt;</bpt>Second paragraph of that note.<ept id="1">&lt;/text:span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="8" restype="x-office:annotation">
+<source xml:lang="en"><ph id="1" ctype="x-dc:creator">&lt;dc:creator&gt;YS&lt;/dc:creator&gt;</ph><ph id="2" ctype="x-dc:date">&lt;dc:date&gt;2008-10-15T00:00:00&lt;/dc:date&gt;</ph><ph id="3" ctype="x-text:p">[#$9]</ph><ph id="4" ctype="x-text:p">[#$10]</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-dc:creator">&lt;dc:creator&gt;YS&lt;/dc:creator&gt;</ph><ph id="2" ctype="x-dc:date">&lt;dc:date&gt;2008-10-15T00:00:00&lt;/dc:date&gt;</ph><ph id="3" ctype="x-text:p">[#$9]</ph><ph id="4" ctype="x-text:p">[#$10]</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-dc:creator">&lt;dc:creator&gt;YS&lt;/dc:creator&gt;</ph><ph id="2" ctype="x-dc:date">&lt;dc:date&gt;2008-10-15T00:00:00&lt;/dc:date&gt;</ph><ph id="3" ctype="x-text:p">[#$9]</ph><ph id="4" ctype="x-text:p">[#$10]</ph></mrk></target>
+</trans-unit>
+<trans-unit id="11" restype="x-text:p">
+<source xml:lang="en">cell A5</source>
+<seg-source><mrk mid="0" mtype="seg">cell A5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cell A5</mrk></target>
+</trans-unit>
+<trans-unit id="12" restype="x-text:p">
+<source xml:lang="en">This is a longer text. It has several sentences.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a longer text.</mrk><mrk mid="1" mtype="seg"> It has several sentences.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a longer text.</mrk><mrk mid="1" mtype="seg"> It has several sentences.</mrk></target>
+</trans-unit>
+<trans-unit id="13" restype="x-text:p">
+<source xml:lang="en">And it goes on several lines.</source>
+<seg-source><mrk mid="0" mtype="seg">And it goes on several lines.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">And it goes on several lines.</mrk></target>
+</trans-unit>
+<trans-unit id="14" restype="x-text:p">
+<source xml:lang="en">In fact 3 of them.</source>
+<seg-source><mrk mid="0" mtype="seg">In fact 3 of them.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In fact 3 of them.</mrk></target>
+</trans-unit>
+<trans-unit id="16" restype="x-text:p">
+<source xml:lang="en">Note for empty cell A7</source>
+<seg-source><mrk mid="0" mtype="seg">Note for empty cell A7</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note for empty cell A7</mrk></target>
+</trans-unit>
+<trans-unit id="15" restype="x-office:annotation">
+<source xml:lang="en"><ph id="1" ctype="x-dc:creator">&lt;dc:creator&gt;YS&lt;/dc:creator&gt;</ph><ph id="2" ctype="x-dc:date">&lt;dc:date&gt;2009-05-04T00:00:00&lt;/dc:date&gt;</ph><ph id="3" ctype="x-text:p">[#$16]</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-dc:creator">&lt;dc:creator&gt;YS&lt;/dc:creator&gt;</ph><ph id="2" ctype="x-dc:date">&lt;dc:date&gt;2009-05-04T00:00:00&lt;/dc:date&gt;</ph><ph id="3" ctype="x-text:p">[#$16]</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-dc:creator">&lt;dc:creator&gt;YS&lt;/dc:creator&gt;</ph><ph id="2" ctype="x-dc:date">&lt;dc:date&gt;2009-05-04T00:00:00&lt;/dc:date&gt;</ph><ph id="3" ctype="x-text:p">[#$16]</ph></mrk></target>
+</trans-unit>
+<trans-unit id="17" restype="x-text:p">
+<source xml:lang="en">cell A8</source>
+<seg-source><mrk mid="0" mtype="seg">cell A8</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cell A8</mrk></target>
+</trans-unit>
+<trans-unit id="18" restype="x-table:name">
+<source xml:lang="en">Title of sheet two</source>
+<seg-source><mrk mid="0" mtype="seg">Title of sheet two</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title of sheet two</mrk></target>
+</trans-unit>
+<trans-unit id="19" restype="x-text:p">
+<source xml:lang="en">Text of the cell-A1 in sheet 2</source>
+<seg-source><mrk mid="0" mtype="seg">Text of the cell-A1 in sheet 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text of the cell-A1 in sheet 2</mrk></target>
+</trans-unit>
+</body>
+</file>
+<file original="TestSpreadsheet01.ods/styles.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/ods/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:sheet-name">&lt;text:sheet-name&gt;</bpt>???<ept id="1">&lt;/text:sheet-name&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:sheet-name">&lt;text:sheet-name&gt;</bpt>???<ept id="1">&lt;/text:sheet-name&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:sheet-name">&lt;text:sheet-name&gt;</bpt>???<ept id="1">&lt;/text:sheet-name&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="2" restype="x-text:p">
+<source xml:lang="en">Page <ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;1&lt;/text:page-number&gt;</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Page <ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;1&lt;/text:page-number&gt;</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Page <ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;1&lt;/text:page-number&gt;</ph></mrk></target>
+</trans-unit>
+<trans-unit id="3" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:sheet-name">&lt;text:sheet-name&gt;</bpt>???<ept id="1">&lt;/text:sheet-name&gt;</ept> (<ph id="2" ctype="x-text:title">&lt;text:title&gt;???&lt;/text:title&gt;</ph>)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:sheet-name">&lt;text:sheet-name&gt;</bpt>???<ept id="1">&lt;/text:sheet-name&gt;</ept> (<ph id="2" ctype="x-text:title">&lt;text:title&gt;???&lt;/text:title&gt;</ph>)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:sheet-name">&lt;text:sheet-name&gt;</bpt>???<ept id="1">&lt;/text:sheet-name&gt;</ept> (<ph id="2" ctype="x-text:title">&lt;text:title&gt;???&lt;/text:title&gt;</ph>)</mrk></target>
+</trans-unit>
+<trans-unit id="4" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:date">&lt;text:date style:data-style-name="N2" text:date-value="2009-05-04"&gt;</bpt>05/04/2009<ept id="1">&lt;/text:date&gt;</ept>, <bpt id="2" ctype="x-text:time">&lt;text:time&gt;</bpt>11:31:10<ept id="2">&lt;/text:time&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:date">&lt;text:date style:data-style-name="N2" text:date-value="2009-05-04"&gt;</bpt>05/04/2009<ept id="1">&lt;/text:date&gt;</ept>, <bpt id="2" ctype="x-text:time">&lt;text:time&gt;</bpt>11:31:10<ept id="2">&lt;/text:time&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:date">&lt;text:date style:data-style-name="N2" text:date-value="2009-05-04"&gt;</bpt>05/04/2009<ept id="1">&lt;/text:date&gt;</ept>, <bpt id="2" ctype="x-text:time">&lt;text:time&gt;</bpt>11:31:10<ept id="2">&lt;/text:time&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="5" restype="x-text:p">
+<source xml:lang="en">Page <ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;1&lt;/text:page-number&gt;</ph> / <ph id="2" ctype="x-text:page-count">&lt;text:page-count&gt;99&lt;/text:page-count&gt;</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Page <ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;1&lt;/text:page-number&gt;</ph> / <ph id="2" ctype="x-text:page-count">&lt;text:page-count&gt;99&lt;/text:page-count&gt;</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Page <ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;1&lt;/text:page-number&gt;</ph> / <ph id="2" ctype="x-text:page-count">&lt;text:page-count&gt;99&lt;/text:page-count&gt;</ph></mrk></target>
+</trans-unit>
+</body>
+</file>
+<file original="TestSpreadsheet01.ods/meta.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/ods/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+</body>
+</file>
+</xliff>

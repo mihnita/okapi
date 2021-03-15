@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="test.txt" source-language="en" target-language="fr" datatype="x-text/plain" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/solidstate/code/okapi-integration-tests/target/test-classes/regex/meta/okf_regex@meta.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" xml:space="preserve">
+<source xml:lang="en">This is the first subtitle</source>
+<seg-source><mrk mid="0" mtype="seg">This is the first subtitle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is the first subtitle</mrk></target>
+<context-group><context context-type="x-meta1">00:00:12</context><context context-type="x-meta2">00:00:12</context></context-group>
+<note>00:00:12,000 --> 00:00:15,123</note>
+</trans-unit>
+<trans-unit id="2" xml:space="preserve">
+<source xml:lang="en">Another subtitle demonstrating tags:
+&lt;b&gt;bold&lt;/b&gt;, &lt;i&gt;italic&lt;/i&gt;, &lt;u&gt;underlined&lt;/u&gt;
+&lt;font color="#ff0000"&gt;red text&lt;/font&gt;</source>
+<seg-source><mrk mid="0" mtype="seg">Another subtitle demonstrating tags:</mrk>
+<mrk mid="1" mtype="seg">&lt;b&gt;bold&lt;/b&gt;, &lt;i&gt;italic&lt;/i&gt;, &lt;u&gt;underlined&lt;/u&gt;</mrk>
+<mrk mid="2" mtype="seg">&lt;font color="#ff0000"&gt;red text&lt;/font&gt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Another subtitle demonstrating tags:</mrk>
+<mrk mid="1" mtype="seg">&lt;b&gt;bold&lt;/b&gt;, &lt;i&gt;italic&lt;/i&gt;, &lt;u&gt;underlined&lt;/u&gt;</mrk>
+<mrk mid="2" mtype="seg">&lt;font color="#ff0000"&gt;red text&lt;/font&gt;</mrk></target>
+<context-group><context context-type="x-meta1">00:00:16</context><context context-type="x-meta2">00:00:16</context></context-group>
+<note>00:00:16,000 --> 00:00:18,000</note>
+</trans-unit>
+<trans-unit id="3" xml:space="preserve">
+<source xml:lang="en">Another subtitle demonstrating position.</source>
+<seg-source><mrk mid="0" mtype="seg">Another subtitle demonstrating position.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Another subtitle demonstrating position.</mrk></target>
+<context-group><context context-type="x-meta1">00:00:20</context><context context-type="x-meta2">00:00:20</context></context-group>
+<note>00:00:20,000 --> 00:00:22,000  X1:40 X2:600 Y1:20 Y2:50</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

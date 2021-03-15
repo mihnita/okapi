@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure865880.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Setting access for individual users</source>
+<seg-source><mrk mid="0" mtype="seg">Setting access for individual users</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Setting access for individual users</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.fullAccessUsers<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.readOnlyAccessUsers<ept id="2">&lt;/codeph&gt;</ept> properties to specify the user IDs that have read-write access and read-only access to a database.</source>
+<seg-source><mrk mid="0" mtype="seg">You can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.fullAccessUsers<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.readOnlyAccessUsers<ept id="2">&lt;/codeph&gt;</ept> properties to specify the user IDs that have read-write access and read-only access to a database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.fullAccessUsers<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.readOnlyAccessUsers<ept id="2">&lt;/codeph&gt;</ept> properties to specify the user IDs that have read-write access and read-only access to a database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">databases</source>
+<seg-source><mrk mid="0" mtype="seg">databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">access for individual users, setting</source>
+<seg-source><mrk mid="0" mtype="seg">access for individual users, setting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">access for individual users, setting</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">derby.database.fullAccessUsers property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.database.fullAccessUsers property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.database.fullAccessUsers property</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">properties</source>
+<seg-source><mrk mid="0" mtype="seg">properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">derby.database.fullAccessUsers</source>
+<seg-source><mrk mid="0" mtype="seg">derby.database.fullAccessUsers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.database.fullAccessUsers</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">derby.database.readOnlyAccessUsers property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.database.readOnlyAccessUsers property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.database.readOnlyAccessUsers property</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">properties</source>
+<seg-source><mrk mid="0" mtype="seg">properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">derby.database.readOnlyAccessUsers</source>
+<seg-source><mrk mid="0" mtype="seg">derby.database.readOnlyAccessUsers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.database.readOnlyAccessUsers</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">If you use SQL authorization (the default with NATIVE authentication), you typically do not use these properties.</source>
+<seg-source><mrk mid="0" mtype="seg">If you use SQL authorization (the default with NATIVE authentication), you typically do not use these properties.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you use SQL authorization (the default with NATIVE authentication), you typically do not use these properties.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">You can specify multiple user IDs by using a comma-separated list, with no spaces between the comma and the next user ID.</source>
+<seg-source><mrk mid="0" mtype="seg">You can specify multiple user IDs by using a comma-separated list, with no spaces between the comma and the next user ID.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can specify multiple user IDs by using a comma-separated list, with no spaces between the comma and the next user ID.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">To set the user authorizations for individual users, specify the access in a CALL statement. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">To set the user authorizations for individual users, specify the access in a CALL statement.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To set the user authorizations for individual users, specify the access in a CALL statement.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">To specify read-write access for the system administrator user ID <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sa<ept id="1">&lt;/codeph&gt;</ept> and for the user ID <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>maria<ept id="2">&lt;/codeph&gt;</ept>, issue this CALL statement:</source>
+<seg-source><mrk mid="0" mtype="seg">To specify read-write access for the system administrator user ID <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sa<ept id="1">&lt;/codeph&gt;</ept> and for the user ID <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>maria<ept id="2">&lt;/codeph&gt;</ept>, issue this CALL statement:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To specify read-write access for the system administrator user ID <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sa<ept id="1">&lt;/codeph&gt;</ept> and for the user ID <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>maria<ept id="2">&lt;/codeph&gt;</ept>, issue this CALL statement:</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.fullAccessUsers', 'sa,maria')</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.fullAccessUsers', 'sa,maria')</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.fullAccessUsers', 'sa,maria')</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">To specify read-only access for a guest user ID and for Fred, issue this CALL statement:</source>
+<seg-source><mrk mid="0" mtype="seg">To specify read-only access for a guest user ID and for Fred, issue this CALL statement:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To specify read-only access for a guest user ID and for Fred, issue this CALL statement:</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.readOnlyAccessUsers', 'guest,Fred')</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.readOnlyAccessUsers', 'guest,Fred')</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.readOnlyAccessUsers', 'guest,Fred')</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">To specify read-write access for the user ID "Elena!", use delimited identifiers for the user ID. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">To specify read-write access for the user ID "Elena!", use delimited identifiers for the user ID.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To specify read-write access for the user ID "Elena!", use delimited identifiers for the user ID.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.fullAccessUsers', '"Elena!"')</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.fullAccessUsers', '"Elena!"')</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.fullAccessUsers', '"Elena!"')</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

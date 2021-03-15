@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="DirectShape.md" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sd1_ssf1" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf2" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf3" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf4" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf5" resname="sub-filter:sd1">
+<trans-unit id="sd1_sf5_tu1" resname="sd1_1" restype="x-td" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+</group>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="bold">**</bpt>Code Region: Create a DirectShape<ept id="1">**</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="bold">**</bpt>Code Region: Create a DirectShape<ept id="1">**</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="bold">**</bpt>Code Region: Create a DirectShape<ept id="1">**</ept></mrk></target>
+</trans-unit>
+<group id="sd1_ssf6" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf7" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf8" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf9" resname="sub-filter:sd1">
+<trans-unit id="sd1_sf9_tu1" resname="sd1_1" restype="x-td" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+</group>
+<group id="sd1_ssf10" resname="sub-filter:sd1">
+<trans-unit id="sd1_sf10_tu1" resname="sd1_1" restype="x-pre" xml:space="preserve">
+<source xml:lang="en">// Create a DirectShape Sphere
+public void CreateSphereDirectShape(Document doc)
+{
+    List</source>
+<seg-source><mrk mid="0" mtype="seg">// Create a DirectShape Sphere</mrk>
+<mrk mid="1" mtype="seg">public void CreateSphereDirectShape(Document doc)</mrk>
+<mrk mid="2" mtype="seg">{</mrk>
+<mrk mid="3" mtype="seg">    List</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">// Create a DirectShape Sphere</mrk>
+<mrk mid="1" mtype="seg">public void CreateSphereDirectShape(Document doc)</mrk>
+<mrk mid="2" mtype="seg">{</mrk>
+<mrk mid="3" mtype="seg">    List</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf10_tu2" resname="sd1_3" xml:space="preserve">
+<source xml:lang="en"> profile = new List</source>
+<seg-source><mrk mid="0" mtype="seg"> profile = new List</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> profile = new List</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf10_tu3" resname="sd1_5" xml:space="preserve">
+<source xml:lang="en">();
+
+    // first create sphere with 2' radius
+    XYZ center = XYZ.Zero;
+    double radius = 2.0;    
+    XYZ profile00 = center;
+    XYZ profilePlus = center + new XYZ(0, radius, 0);
+    XYZ profileMinus = center - new XYZ(0, radius, 0);
+
+    profile.Add(Line.CreateBound(profilePlus, profileMinus));
+    profile.Add(Arc.Create(profileMinus, profilePlus, center + new XYZ(radius, 0, 0)));
+
+    CurveLoop curveLoop = CurveLoop.Create(profile);
+    SolidOptions options = new SolidOptions(ElementId.InvalidElementId, ElementId.InvalidElementId);
+
+    Frame frame = new Frame(center, XYZ.BasisX, -XYZ.BasisZ, XYZ.BasisY);
+    if (Frame.CanDefineRevitGeometry(frame) == true)
+    {
+        Solid sphere = GeometryCreationUtilities.CreateRevolvedGeometry(frame, new CurveLoop[] { curveLoop }, 0, 2 * Math.PI, options);
+        using (Transaction t = new Transaction(doc, "Create sphere direct shape"))
+        {
+            t.Start();
+            // create direct shape and assign the sphere shape
+            DirectShape ds = DirectShape.CreateElement(doc, new ElementId(BuiltInCategory.OST_GenericModel));
+
+            ds.ApplicationId = "Application id";
+            ds.ApplicationDataId = "Geometry object id";
+            ds.SetShape(new GeometryObject[] { sphere });
+            t.Commit();
+        }
+    }
+}
+</source>
+<seg-source><mrk mid="0" mtype="seg">();</mrk>
+
+<mrk mid="1" mtype="seg">    // first create sphere with 2' radius</mrk>
+<mrk mid="2" mtype="seg">    XYZ center = XYZ.Zero;</mrk>
+<mrk mid="3" mtype="seg">    double radius = 2.0;</mrk>    
+<mrk mid="4" mtype="seg">    XYZ profile00 = center;</mrk>
+<mrk mid="5" mtype="seg">    XYZ profilePlus = center + new XYZ(0, radius, 0);</mrk>
+<mrk mid="6" mtype="seg">    XYZ profileMinus = center - new XYZ(0, radius, 0);</mrk>
+
+<mrk mid="7" mtype="seg">    profile.Add(Line.CreateBound(profilePlus, profileMinus));</mrk>
+<mrk mid="8" mtype="seg">    profile.Add(Arc.Create(profileMinus, profilePlus, center + new XYZ(radius, 0, 0)));</mrk>
+
+<mrk mid="9" mtype="seg">    CurveLoop curveLoop = CurveLoop.Create(profile);</mrk>
+<mrk mid="10" mtype="seg">    SolidOptions options = new SolidOptions(ElementId.InvalidElementId, ElementId.InvalidElementId);</mrk>
+
+<mrk mid="11" mtype="seg">    Frame frame = new Frame(center, XYZ.BasisX, -XYZ.BasisZ, XYZ.BasisY);</mrk>
+<mrk mid="12" mtype="seg">    if (Frame.CanDefineRevitGeometry(frame) == true)</mrk>
+<mrk mid="13" mtype="seg">    {</mrk>
+<mrk mid="14" mtype="seg">        Solid sphere = GeometryCreationUtilities.CreateRevolvedGeometry(frame, new CurveLoop[] { curveLoop }, 0, 2 * Math.PI, options);</mrk>
+<mrk mid="15" mtype="seg">        using (Transaction t = new Transaction(doc, "Create sphere direct shape"))</mrk>
+<mrk mid="16" mtype="seg">        {</mrk>
+<mrk mid="17" mtype="seg">            t.Start();</mrk>
+<mrk mid="18" mtype="seg">            // create direct shape and assign the sphere shape</mrk>
+<mrk mid="19" mtype="seg">            DirectShape ds = DirectShape.CreateElement(doc, new ElementId(BuiltInCategory.OST_GenericModel));</mrk>
+
+<mrk mid="20" mtype="seg">            ds.ApplicationId = "Application id";</mrk>
+<mrk mid="21" mtype="seg">            ds.ApplicationDataId = "Geometry object id";</mrk>
+<mrk mid="22" mtype="seg">            ds.SetShape(new GeometryObject[] { sphere });</mrk>
+<mrk mid="23" mtype="seg">            t.Commit();</mrk>
+<mrk mid="24" mtype="seg">        }</mrk>
+<mrk mid="25" mtype="seg">    }</mrk>
+<mrk mid="26" mtype="seg">}</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">();</mrk>
+
+<mrk mid="1" mtype="seg">    // first create sphere with 2' radius</mrk>
+<mrk mid="2" mtype="seg">    XYZ center = XYZ.Zero;</mrk>
+<mrk mid="3" mtype="seg">    double radius = 2.0;</mrk>    
+<mrk mid="4" mtype="seg">    XYZ profile00 = center;</mrk>
+<mrk mid="5" mtype="seg">    XYZ profilePlus = center + new XYZ(0, radius, 0);</mrk>
+<mrk mid="6" mtype="seg">    XYZ profileMinus = center - new XYZ(0, radius, 0);</mrk>
+
+<mrk mid="7" mtype="seg">    profile.Add(Line.CreateBound(profilePlus, profileMinus));</mrk>
+<mrk mid="8" mtype="seg">    profile.Add(Arc.Create(profileMinus, profilePlus, center + new XYZ(radius, 0, 0)));</mrk>
+
+<mrk mid="9" mtype="seg">    CurveLoop curveLoop = CurveLoop.Create(profile);</mrk>
+<mrk mid="10" mtype="seg">    SolidOptions options = new SolidOptions(ElementId.InvalidElementId, ElementId.InvalidElementId);</mrk>
+
+<mrk mid="11" mtype="seg">    Frame frame = new Frame(center, XYZ.BasisX, -XYZ.BasisZ, XYZ.BasisY);</mrk>
+<mrk mid="12" mtype="seg">    if (Frame.CanDefineRevitGeometry(frame) == true)</mrk>
+<mrk mid="13" mtype="seg">    {</mrk>
+<mrk mid="14" mtype="seg">        Solid sphere = GeometryCreationUtilities.CreateRevolvedGeometry(frame, new CurveLoop[] { curveLoop }, 0, 2 * Math.PI, options);</mrk>
+<mrk mid="15" mtype="seg">        using (Transaction t = new Transaction(doc, "Create sphere direct shape"))</mrk>
+<mrk mid="16" mtype="seg">        {</mrk>
+<mrk mid="17" mtype="seg">            t.Start();</mrk>
+<mrk mid="18" mtype="seg">            // create direct shape and assign the sphere shape</mrk>
+<mrk mid="19" mtype="seg">            DirectShape ds = DirectShape.CreateElement(doc, new ElementId(BuiltInCategory.OST_GenericModel));</mrk>
+
+<mrk mid="20" mtype="seg">            ds.ApplicationId = "Application id";</mrk>
+<mrk mid="21" mtype="seg">            ds.ApplicationDataId = "Geometry object id";</mrk>
+<mrk mid="22" mtype="seg">            ds.SetShape(new GeometryObject[] { sphere });</mrk>
+<mrk mid="23" mtype="seg">            t.Commit();</mrk>
+<mrk mid="24" mtype="seg">        }</mrk>
+<mrk mid="25" mtype="seg">    }</mrk>
+<mrk mid="26" mtype="seg">}</mrk>
+</target>
+</trans-unit>
+</group>
+<group id="sd1_ssf11" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf12" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf13" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf14" resname="sub-filter:sd1">
+</group>
+</body>
+</file>
+</xliff>

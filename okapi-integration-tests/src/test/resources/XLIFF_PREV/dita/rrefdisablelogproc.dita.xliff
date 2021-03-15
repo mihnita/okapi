@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefdisablelogproc.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE<ept id="1">&lt;/codeph&gt;</ept> system procedure disables the log archive mode and deletes any existing online archived log files if the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DELETE_ARCHIVED_LOG_FILES<ept id="2">&lt;/codeph&gt;</ept> input parameter is non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE<ept id="1">&lt;/codeph&gt;</ept> system procedure disables the log archive mode and deletes any existing online archived log files if the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DELETE_ARCHIVED_LOG_FILES<ept id="2">&lt;/codeph&gt;</ept> input parameter is non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE<ept id="1">&lt;/codeph&gt;</ept> system procedure disables the log archive mode and deletes any existing online archived log files if the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DELETE_ARCHIVED_LOG_FILES<ept id="2">&lt;/codeph&gt;</ept> input parameter is non-zero.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">See "Roll-forward recovery" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for more information on using this procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">See "Roll-forward recovery" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for more information on using this procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See "Roll-forward recovery" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for more information on using this procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE(IN SMALLINT DELETE_ARCHIVED_LOG_FILES)</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE(IN SMALLINT DELETE_ARCHIVED_LOG_FILES)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE(IN SMALLINT DELETE_ARCHIVED_LOG_FILES)</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">No result is returned from the procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">No result is returned from the procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No result is returned from the procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">DELETE_ARCHIVED_LOG_FILES</source>
+<seg-source><mrk mid="0" mtype="seg">DELETE_ARCHIVED_LOG_FILES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DELETE_ARCHIVED_LOG_FILES</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If the input parameter value for the DELETE_ARCHIVED_LOG_FILES parameter is a non-zero value, then all existing online archived log files are deleted. If the parameter value is zero, then existing online archived log files are not deleted.</source>
+<seg-source><mrk mid="0" mtype="seg">If the input parameter value for the DELETE_ARCHIVED_LOG_FILES parameter is a non-zero value, then all existing online archived log files are deleted.</mrk><mrk mid="1" mtype="seg"> If the parameter value is zero, then existing online archived log files are not deleted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the input parameter value for the DELETE_ARCHIVED_LOG_FILES parameter is a non-zero value, then all existing online archived log files are deleted.</mrk><mrk mid="1" mtype="seg"> If the parameter value is zero, then existing online archived log files are not deleted.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default. See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information. The database owner can grant access to other users.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">JDBC example</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC example</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The following example disables log archive mode for the database and deletes any existing log archive files.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example disables log archive mode for the database and deletes any existing log archive files.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example disables log archive mode for the database and deletes any existing log archive files.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE(?)"); cs.setInt(1, 1); cs.execute(); cs.close();</source>
+<seg-source><mrk mid="0" mtype="seg">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE(?)"); cs.setInt(1, 1); cs.execute(); cs.close();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE(?)"); cs.setInt(1, 1); cs.execute(); cs.close();</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">SQL examples</source>
+<seg-source><mrk mid="0" mtype="seg">SQL examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">The following example disables log archive mode for the database and retains any existing log archive files:</source>
+<seg-source><mrk mid="0" mtype="seg">The following example disables log archive mode for the database and retains any existing log archive files:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example disables log archive mode for the database and retains any existing log archive files:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE(0);</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE(0);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE(0);</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">The following example disables log archive mode for the database and deletes any existing log archive files:</source>
+<seg-source><mrk mid="0" mtype="seg">The following example disables log archive mode for the database and deletes any existing log archive files:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example disables log archive mode for the database and deletes any existing log archive files:</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE(1);</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE(1);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_DISABLE_LOG_ARCHIVE_MODE(1);</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

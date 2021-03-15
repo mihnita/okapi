@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts22641.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Scrollable result sets</source>
+<seg-source><mrk mid="0" mtype="seg">Scrollable result sets</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scrollable result sets</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">JDBC provides two types of result sets that allow you to scroll in either direction or to move the cursor to a particular row. <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports one of these types: scrollable insensitive result sets (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet.TYPE_SCROLL_INSENSITIVE<ept id="2">&lt;/codeph&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC provides two types of result sets that allow you to scroll in either direction or to move the cursor to a particular row.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports one of these types: scrollable insensitive result sets (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet.TYPE_SCROLL_INSENSITIVE<ept id="2">&lt;/codeph&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC provides two types of result sets that allow you to scroll in either direction or to move the cursor to a particular row.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports one of these types: scrollable insensitive result sets (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet.TYPE_SCROLL_INSENSITIVE<ept id="2">&lt;/codeph&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">result set</source>
+<seg-source><mrk mid="0" mtype="seg">result set</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">result set</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Scrollable cursors</source>
+<seg-source><mrk mid="0" mtype="seg">Scrollable cursors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scrollable cursors</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">ResultSets</source>
+<seg-source><mrk mid="0" mtype="seg">ResultSets</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ResultSets</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">scrollable insensitive</source>
+<seg-source><mrk mid="0" mtype="seg">scrollable insensitive</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">scrollable insensitive</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Cursors</source>
+<seg-source><mrk mid="0" mtype="seg">Cursors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cursors</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">scrollable insensitive</source>
+<seg-source><mrk mid="0" mtype="seg">scrollable insensitive</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">scrollable insensitive</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">When you use a result set of type of type <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet.TYPE_SCROLL_INSENSITIVE<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> materializes rows from the first one in the result set up to the one with the biggest row number as the rows are requested. The materialized rows will be backed to disk if necessary, to avoid excessive memory usage.</source>
+<seg-source><mrk mid="0" mtype="seg">When you use a result set of type of type <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet.TYPE_SCROLL_INSENSITIVE<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> materializes rows from the first one in the result set up to the one with the biggest row number as the rows are requested.</mrk><mrk mid="1" mtype="seg"> The materialized rows will be backed to disk if necessary, to avoid excessive memory usage.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you use a result set of type of type <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet.TYPE_SCROLL_INSENSITIVE<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> materializes rows from the first one in the result set up to the one with the biggest row number as the rows are requested.</mrk><mrk mid="1" mtype="seg"> The materialized rows will be backed to disk if necessary, to avoid excessive memory usage.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Insensitive result sets, in contrast to sensitive result sets, cannot see changes made by others on the rows which have been materialized. <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> allows updates of scrollable insensitive result sets; see <bpt id="2" ctype="x-xref">&lt;xref
+href="rdevconceptssur.dita#visibility"&gt;</bpt>Visibility of changes<ept id="2">&lt;/xref&gt;</ept>, which also explains visibility of own changes.</source>
+<seg-source><mrk mid="0" mtype="seg">Insensitive result sets, in contrast to sensitive result sets, cannot see changes made by others on the rows which have been materialized.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> allows updates of scrollable insensitive result sets; see <bpt id="2" ctype="x-xref">&lt;xref
+href="rdevconceptssur.dita#visibility"&gt;</bpt>Visibility of changes<ept id="2">&lt;/xref&gt;</ept>, which also explains visibility of own changes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insensitive result sets, in contrast to sensitive result sets, cannot see changes made by others on the rows which have been materialized.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> allows updates of scrollable insensitive result sets; see <bpt id="2" ctype="x-xref">&lt;xref
+href="rdevconceptssur.dita#visibility"&gt;</bpt>Visibility of changes<ept id="2">&lt;/xref&gt;</ept>, which also explains visibility of own changes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support result sets of type <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet.TYPE_SCROLL_SENSITIVE<ept id="2">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support result sets of type <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet.TYPE_SCROLL_SENSITIVE<ept id="2">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support result sets of type <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet.TYPE_SCROLL_SENSITIVE<ept id="2">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>//autocommit does not have to be off because even if //we accidentally scroll past the last row, the implicit commit //on the the statement will not close the result set because result sets //are held over commit by default<ept id="1">&lt;/b&gt;</ept> conn.setAutoCommit(false); Statement s4 = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY); s4.execute("set schema 'SAMP'"); ResultSet scroller=s4.executeQuery( "SELECT sales_person, region, sales FROM sales " + "WHERE sales &gt; 8 ORDER BY sales DESC"); if (scroller.first()) { // One row is now materialized System.out.println("The sales rep who sold the highest number" + " of sales is " + scroller.getString("SALES_PERSON")); } else { System.out.println("There are no rows."); } scroller.beforeFirst(); scroller.afterLast(); // By calling afterlast(), all rows will be materialized scroller.absolute(3); if (!scroller.isAfterLast()) { System.out.println("The employee with the third highest number " + "of sales is " + scroller.getString("SALES_PERSON") + ", with " + scroller.getInt("SALES") + " sales"); } if (scroller.isLast()) { System.out.println("There are only three rows."); } if (scroller.last()) { System.out.println("The least highest number " + "of sales of the top three sales is: " + scroller.getInt("SALES")); } scroller.close(); s4.close(); conn.commit() conn.close(); System.out.println("Closed connection");</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>//autocommit does not have to be off because even if //we accidentally scroll past the last row, the implicit commit //on the the statement will not close the result set because result sets //are held over commit by default<ept id="1">&lt;/b&gt;</ept> conn.setAutoCommit(false); Statement s4 = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY); s4.execute("set schema 'SAMP'"); ResultSet scroller=s4.executeQuery( "SELECT sales_person, region, sales FROM sales " + "WHERE sales &gt; 8 ORDER BY sales DESC"); if (scroller.first()) { // One row is now materialized System.out.println("The sales rep who sold the highest number" + " of sales is " + scroller.getString("SALES_PERSON")); } else { System.out.println("There are no rows."); } scroller.beforeFirst(); scroller.afterLast(); // By calling afterlast(), all rows will be materialized scroller.absolute(3); if (!scroller.isAfterLast()) { System.out.println("The employee with the third highest number " + "of sales is " + scroller.getString("SALES_PERSON") + ", with " + scroller.getInt("SALES") + " sales"); } if (scroller.isLast()) { System.out.println("There are only three rows."); } if (scroller.last()) { System.out.println("The least highest number " + "of sales of the top three sales is: " + scroller.getInt("SALES")); } scroller.close(); s4.close(); conn.commit() conn.close(); System.out.println("Closed connection");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>//autocommit does not have to be off because even if //we accidentally scroll past the last row, the implicit commit //on the the statement will not close the result set because result sets //are held over commit by default<ept id="1">&lt;/b&gt;</ept> conn.setAutoCommit(false); Statement s4 = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY); s4.execute("set schema 'SAMP'"); ResultSet scroller=s4.executeQuery( "SELECT sales_person, region, sales FROM sales " + "WHERE sales &gt; 8 ORDER BY sales DESC"); if (scroller.first()) { // One row is now materialized System.out.println("The sales rep who sold the highest number" + " of sales is " + scroller.getString("SALES_PERSON")); } else { System.out.println("There are no rows."); } scroller.beforeFirst(); scroller.afterLast(); // By calling afterlast(), all rows will be materialized scroller.absolute(3); if (!scroller.isAfterLast()) { System.out.println("The employee with the third highest number " + "of sales is " + scroller.getString("SALES_PERSON") + ", with " + scroller.getInt("SALES") + " sales"); } if (scroller.isLast()) { System.out.println("There are only three rows."); } if (scroller.last()) { System.out.println("The least highest number " + "of sales of the top three sales is: " + scroller.getInt("SALES")); } scroller.close(); s4.close(); conn.commit() conn.close(); System.out.println("Closed connection");</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

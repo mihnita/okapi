@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminreplicstop.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Stopping replication</source>
+<seg-source><mrk mid="0" mtype="seg">Stopping replication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stopping replication</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">To stop replication of a database, connect to the master database using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>stopMaster=true<ept id="1">&lt;/codeph&gt;</ept> connection URL attribute.</source>
+<seg-source><mrk mid="0" mtype="seg">To stop replication of a database, connect to the master database using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>stopMaster=true<ept id="1">&lt;/codeph&gt;</ept> connection URL attribute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To stop replication of a database, connect to the master database using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>stopMaster=true<ept id="1">&lt;/codeph&gt;</ept> connection URL attribute.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">replicating databases</source>
+<seg-source><mrk mid="0" mtype="seg">replicating databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">replicating databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">stopping</source>
+<seg-source><mrk mid="0" mtype="seg">stopping</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">stopping</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">database replication</source>
+<seg-source><mrk mid="0" mtype="seg">database replication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">database replication</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">stopping</source>
+<seg-source><mrk mid="0" mtype="seg">stopping</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">stopping</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The master sends the remaining log records that await shipment, and then sends a stop replication command to the slave. The slave then writes all logs to disk and shuts down the database. For example, for a database named <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>wombat<ept id="1">&lt;/codeph&gt;</ept>, you might specify the following connection URL:</source>
+<seg-source><mrk mid="0" mtype="seg">The master sends the remaining log records that await shipment, and then sends a stop replication command to the slave.</mrk><mrk mid="1" mtype="seg"> The slave then writes all logs to disk and shuts down the database.</mrk><mrk mid="2" mtype="seg"> For example, for a database named <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>wombat<ept id="1">&lt;/codeph&gt;</ept>, you might specify the following connection URL:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The master sends the remaining log records that await shipment, and then sends a stop replication command to the slave.</mrk><mrk mid="1" mtype="seg"> The slave then writes all logs to disk and shuts down the database.</mrk><mrk mid="2" mtype="seg"> For example, for a database named <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>wombat<ept id="1">&lt;/codeph&gt;</ept>, you might specify the following connection URL:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">jdbc:derby:wombat;stopMaster=true</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:wombat;stopMaster=true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:wombat;stopMaster=true</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">To stop replication on the slave system if the connection to the master is lost, use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>stopSlave=true<ept id="1">&lt;/codeph&gt;</ept> connection URL attribute.</source>
+<seg-source><mrk mid="0" mtype="seg">To stop replication on the slave system if the connection to the master is lost, use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>stopSlave=true<ept id="1">&lt;/codeph&gt;</ept> connection URL attribute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To stop replication on the slave system if the connection to the master is lost, use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>stopSlave=true<ept id="1">&lt;/codeph&gt;</ept> connection URL attribute.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details about these attributes.</source>
+<seg-source><mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details about these attributes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details about these attributes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">You cannot resume replication after it has been stopped. You need to start replication over again from the beginning using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>startMaster=true<ept id="1">&lt;/codeph&gt;</ept> attribute, as described in <bpt id="2" ctype="x-xref">&lt;xref href="cadminreplicstartrun.dita#cadminreplicstartrun"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You cannot resume replication after it has been stopped.</mrk><mrk mid="1" mtype="seg"> You need to start replication over again from the beginning using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>startMaster=true<ept id="1">&lt;/codeph&gt;</ept> attribute, as described in <bpt id="2" ctype="x-xref">&lt;xref href="cadminreplicstartrun.dita#cadminreplicstartrun"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You cannot resume replication after it has been stopped.</mrk><mrk mid="1" mtype="seg"> You need to start replication over again from the beginning using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>startMaster=true<ept id="1">&lt;/codeph&gt;</ept> attribute, as described in <bpt id="2" ctype="x-xref">&lt;xref href="cadminreplicstartrun.dita#cadminreplicstartrun"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

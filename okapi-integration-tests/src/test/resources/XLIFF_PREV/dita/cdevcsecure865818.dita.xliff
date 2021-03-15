@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure865818.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Setting the default connection access mode</source>
+<seg-source><mrk mid="0" mtype="seg">Setting the default connection access mode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Setting the default connection access mode</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.defaultConnectionMode<ept id="1">&lt;/codeph&gt;</ept> property to specify the default type of access that users have when they connect to the database.</source>
+<seg-source><mrk mid="0" mtype="seg">You can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.defaultConnectionMode<ept id="1">&lt;/codeph&gt;</ept> property to specify the default type of access that users have when they connect to the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.defaultConnectionMode<ept id="1">&lt;/codeph&gt;</ept> property to specify the default type of access that users have when they connect to the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">databases</source>
+<seg-source><mrk mid="0" mtype="seg">databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">controlling access to</source>
+<seg-source><mrk mid="0" mtype="seg">controlling access to</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">controlling access to</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">derby.database.ConnectionMode property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.database.ConnectionMode property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.database.ConnectionMode property</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">properties</source>
+<seg-source><mrk mid="0" mtype="seg">properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">defaultConnectionMode</source>
+<seg-source><mrk mid="0" mtype="seg">defaultConnectionMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">defaultConnectionMode</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If you use SQL authorization (the default with NATIVE authentication), you typically do not use this property.</source>
+<seg-source><mrk mid="0" mtype="seg">If you use SQL authorization (the default with NATIVE authentication), you typically do not use this property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you use SQL authorization (the default with NATIVE authentication), you typically do not use this property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The valid settings for the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.defaultConnectionMode<ept id="1">&lt;/codeph&gt;</ept> property are:</source>
+<seg-source><mrk mid="0" mtype="seg">The valid settings for the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.defaultConnectionMode<ept id="1">&lt;/codeph&gt;</ept> property are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The valid settings for the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.defaultConnectionMode<ept id="1">&lt;/codeph&gt;</ept> property are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>noAccess<ept id="1">&lt;/varname&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>noAccess<ept id="1">&lt;/varname&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>noAccess<ept id="1">&lt;/varname&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>readOnlyAccess<ept id="1">&lt;/varname&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>readOnlyAccess<ept id="1">&lt;/varname&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>readOnlyAccess<ept id="1">&lt;/varname&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>fullAccess<ept id="1">&lt;/varname&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>fullAccess<ept id="1">&lt;/varname&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>fullAccess<ept id="1">&lt;/varname&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">If you do not specify a setting for the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.defaultConnectionMode<ept id="1">&lt;/codeph&gt;</ept> property, the default access setting is <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>fullAccess<ept id="2">&lt;/varname&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If you do not specify a setting for the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.defaultConnectionMode<ept id="1">&lt;/codeph&gt;</ept> property, the default access setting is <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>fullAccess<ept id="2">&lt;/varname&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you do not specify a setting for the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.defaultConnectionMode<ept id="1">&lt;/codeph&gt;</ept> property, the default access setting is <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>fullAccess<ept id="2">&lt;/varname&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">To set the default connection access mode, specify the access in a CALL statement. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">To set the default connection access mode, specify the access in a CALL statement.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To set the default connection access mode, specify the access in a CALL statement.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">To specify read-write access for the system administrator userID <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sa<ept id="1">&lt;/codeph&gt;</ept> and the read-only as the default access for anyone else who connects to the database, issue these CALL statements:</source>
+<seg-source><mrk mid="0" mtype="seg">To specify read-write access for the system administrator userID <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sa<ept id="1">&lt;/codeph&gt;</ept> and the read-only as the default access for anyone else who connects to the database, issue these CALL statements:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To specify read-write access for the system administrator userID <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sa<ept id="1">&lt;/codeph&gt;</ept> and the read-only as the default access for anyone else who connects to the database, issue these CALL statements:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.fullAccessUsers', 'sa') CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.defaultConnectionMode', 'readOnlyAccess')</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.fullAccessUsers', 'sa') CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.defaultConnectionMode', 'readOnlyAccess')</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.fullAccessUsers', 'sa') CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.defaultConnectionMode', 'readOnlyAccess')</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">To specify read-write access for the user ID Fred and no access for other users, issue these CALL statements:</source>
+<seg-source><mrk mid="0" mtype="seg">To specify read-write access for the user ID Fred and no access for other users, issue these CALL statements:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To specify read-write access for the user ID Fred and no access for other users, issue these CALL statements:</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.fullAccessUsers', 'Fred') CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.defaultConnectionMode', 'noAccess')</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.fullAccessUsers', 'Fred') CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.defaultConnectionMode', 'noAccess')</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.fullAccessUsers', 'Fred') CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.defaultConnectionMode', 'noAccess')</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

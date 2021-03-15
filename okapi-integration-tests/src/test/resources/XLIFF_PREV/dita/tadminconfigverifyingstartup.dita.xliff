@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminconfigverifyingstartup.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Verifying startup</source>
+<seg-source><mrk mid="0" mtype="seg">Verifying startup</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Verifying startup</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">To verify that the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server is currently running, use the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ping<ept id="2">&lt;/codeph&gt;</ept> command.</source>
+<seg-source><mrk mid="0" mtype="seg">To verify that the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server is currently running, use the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ping<ept id="2">&lt;/codeph&gt;</ept> command.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To verify that the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server is currently running, use the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ping<ept id="2">&lt;/codeph&gt;</ept> command.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">verifying startup</source>
+<seg-source><mrk mid="0" mtype="seg">verifying startup</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">verifying startup</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">You can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ping<ept id="1">&lt;/codeph&gt;</ept> command in the following ways:</source>
+<seg-source><mrk mid="0" mtype="seg">You can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ping<ept id="1">&lt;/codeph&gt;</ept> command in the following ways:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ping<ept id="1">&lt;/codeph&gt;</ept> command in the following ways:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">You can use the script <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl.bat<ept id="1">&lt;/codeph&gt;</ept> for Windows systems or <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl.ksh<ept id="2">&lt;/codeph&gt;</ept> for UNIX systems with the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ping<ept id="3">&lt;/codeph&gt;</ept> command. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">You can use the script <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl.bat<ept id="1">&lt;/codeph&gt;</ept> for Windows systems or <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl.ksh<ept id="2">&lt;/codeph&gt;</ept> for UNIX systems with the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ping<ept id="3">&lt;/codeph&gt;</ept> command.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use the script <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl.bat<ept id="1">&lt;/codeph&gt;</ept> for Windows systems or <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl.ksh<ept id="2">&lt;/codeph&gt;</ept> for UNIX systems with the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ping<ept id="3">&lt;/codeph&gt;</ept> command.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">NetworkServerControl ping [-h &lt;<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="1">&lt;/i&gt;</ept>&gt;;] [-p &lt;<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="2">&lt;/i&gt;</ept>&gt;]</source>
+<seg-source><mrk mid="0" mtype="seg">NetworkServerControl ping [-h &lt;<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="1">&lt;/i&gt;</ept>&gt;;] [-p &lt;<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="2">&lt;/i&gt;</ept>&gt;]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NetworkServerControl ping [-h &lt;<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="1">&lt;/i&gt;</ept>&gt;;] [-p &lt;<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="2">&lt;/i&gt;</ept>&gt;]</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">You can use the NetworkServerControl <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ping<ept id="1">&lt;/codeph&gt;</ept> command:</source>
+<seg-source><mrk mid="0" mtype="seg">You can use the NetworkServerControl <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ping<ept id="1">&lt;/codeph&gt;</ept> command:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use the NetworkServerControl <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ping<ept id="1">&lt;/codeph&gt;</ept> command:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">java org.apache.derby.drda.NetworkServerControl ping [-h &lt;<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="1">&lt;/i&gt;</ept>&gt;] [-p &lt;<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="2">&lt;/i&gt;</ept>&gt;]</source>
+<seg-source><mrk mid="0" mtype="seg">java org.apache.derby.drda.NetworkServerControl ping [-h &lt;<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="1">&lt;/i&gt;</ept>&gt;] [-p &lt;<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="2">&lt;/i&gt;</ept>&gt;]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java org.apache.derby.drda.NetworkServerControl ping [-h &lt;<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="1">&lt;/i&gt;</ept>&gt;] [-p &lt;<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="2">&lt;/i&gt;</ept>&gt;]</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">You can use the NetworkServerControl API to verify startup from within a Java application:</source>
+<seg-source><mrk mid="0" mtype="seg">You can use the NetworkServerControl API to verify startup from within a Java application:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use the NetworkServerControl API to verify startup from within a Java application:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">ping();</source>
+<seg-source><mrk mid="0" mtype="seg">ping();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ping();</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The following example uses a method to verify startup. It will try to verify for the specified number of seconds:</source>
+<seg-source><mrk mid="0" mtype="seg">The following example uses a method to verify startup.</mrk><mrk mid="1" mtype="seg"> It will try to verify for the specified number of seconds:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example uses a method to verify startup.</mrk><mrk mid="1" mtype="seg"> It will try to verify for the specified number of seconds:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">private static boolean isServerStarted(NetworkServerControl server, int ntries) { for (int i = 1; i &lt;= ntries; i ++) { try { Thread.sleep(500); server.ping(); return true; } catch (Exception e) { if (i == ntries) { return false; } } } return false; }</source>
+<seg-source><mrk mid="0" mtype="seg">private static boolean isServerStarted(NetworkServerControl server, int ntries) { for (int i = 1; i &lt;= ntries; i ++) { try { Thread.sleep(500); server.ping(); return true; } catch (Exception e) { if (i == ntries) { return false; } } } return false; }</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">private static boolean isServerStarted(NetworkServerControl server, int ntries) { for (int i = 1; i &lt;= ntries; i ++) { try { Thread.sleep(500); server.ping(); return true; } catch (Exception e) { if (i == ntries) { return false; } } } return false; }</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

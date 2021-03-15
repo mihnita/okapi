@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljoffsetfetch.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">The result offset and fetch first clauses</source>
+<seg-source><mrk mid="0" mtype="seg">The result offset and fetch first clauses</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The result offset and fetch first clauses</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">result offset clause</source>
+<seg-source><mrk mid="0" mtype="seg">result offset clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">result offset clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">fetch first clause</source>
+<seg-source><mrk mid="0" mtype="seg">fetch first clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">fetch first clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>result offset clause<ept id="1">&lt;/i&gt;</ept> provides a way to skip the N first rows in a result set before starting to return any rows. The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>fetch first clause<ept id="2">&lt;/i&gt;</ept>, which can be combined with the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>result offset clause<ept id="3">&lt;/i&gt;</ept> if desired, limits the number of rows returned in the result set. The <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>fetch first clause<ept id="4">&lt;/i&gt;</ept> can sometimes be useful for retrieving only a few rows from an otherwise large result set, usually in combination with an ORDER BY clause. The use of this clause can give efficiency benefits. In addition, it can make programming the application simpler.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>result offset clause<ept id="1">&lt;/i&gt;</ept> provides a way to skip the N first rows in a result set before starting to return any rows.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>fetch first clause<ept id="2">&lt;/i&gt;</ept>, which can be combined with the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>result offset clause<ept id="3">&lt;/i&gt;</ept> if desired, limits the number of rows returned in the result set.</mrk><mrk mid="2" mtype="seg"> The <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>fetch first clause<ept id="4">&lt;/i&gt;</ept> can sometimes be useful for retrieving only a few rows from an otherwise large result set, usually in combination with an ORDER BY clause.</mrk><mrk mid="3" mtype="seg"> The use of this clause can give efficiency benefits.</mrk><mrk mid="4" mtype="seg"> In addition, it can make programming the application simpler.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>result offset clause<ept id="1">&lt;/i&gt;</ept> provides a way to skip the N first rows in a result set before starting to return any rows.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>fetch first clause<ept id="2">&lt;/i&gt;</ept>, which can be combined with the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>result offset clause<ept id="3">&lt;/i&gt;</ept> if desired, limits the number of rows returned in the result set.</mrk><mrk mid="2" mtype="seg"> The <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>fetch first clause<ept id="4">&lt;/i&gt;</ept> can sometimes be useful for retrieving only a few rows from an otherwise large result set, usually in combination with an ORDER BY clause.</mrk><mrk mid="3" mtype="seg"> The use of this clause can give efficiency benefits.</mrk><mrk mid="4" mtype="seg"> In addition, it can make programming the application simpler.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>OFFSET { <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>integerLiteral<ept id="2">&lt;/i&gt;</ept> | ? } { ROW | ROWS }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>OFFSET { <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>integerLiteral<ept id="2">&lt;/i&gt;</ept> | ? } { ROW | ROWS }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>OFFSET { <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>integerLiteral<ept id="2">&lt;/i&gt;</ept> | ? } { ROW | ROWS }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>FETCH { FIRST | NEXT } [ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>integerLiteral<ept id="2">&lt;/i&gt;</ept> | ? ] { ROW | ROWS } ONLY<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>FETCH { FIRST | NEXT } [ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>integerLiteral<ept id="2">&lt;/i&gt;</ept> | ? ] { ROW | ROWS } ONLY<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>FETCH { FIRST | NEXT } [ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>integerLiteral<ept id="2">&lt;/i&gt;</ept> | ? ] { ROW | ROWS } ONLY<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">ROW is synonymous with ROWS and FIRST is synonymous with NEXT.</source>
+<seg-source><mrk mid="0" mtype="seg">ROW is synonymous with ROWS and FIRST is synonymous with NEXT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ROW is synonymous with ROWS and FIRST is synonymous with NEXT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">For the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>result offset clause<ept id="1">&lt;/i&gt;</ept>, the value of the integer literal (or the dynamic parameter <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>?<ept id="2">&lt;/codeph&gt;</ept>) must be equal to 0 (default if the clause is not given), or positive. If it is larger than the number of rows in the underlying result set, no rows are returned.</source>
+<seg-source><mrk mid="0" mtype="seg">For the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>result offset clause<ept id="1">&lt;/i&gt;</ept>, the value of the integer literal (or the dynamic parameter <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>?<ept id="2">&lt;/codeph&gt;</ept>) must be equal to 0 (default if the clause is not given), or positive.</mrk><mrk mid="1" mtype="seg"> If it is larger than the number of rows in the underlying result set, no rows are returned.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>result offset clause<ept id="1">&lt;/i&gt;</ept>, the value of the integer literal (or the dynamic parameter <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>?<ept id="2">&lt;/codeph&gt;</ept>) must be equal to 0 (default if the clause is not given), or positive.</mrk><mrk mid="1" mtype="seg"> If it is larger than the number of rows in the underlying result set, no rows are returned.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">For the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>fetch first clause<ept id="1">&lt;/i&gt;</ept>, the value of the literal (or the dynamic parameter <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>?<ept id="2">&lt;/codeph&gt;</ept>) must be 1 or higher. The literal can be omitted, in which case it defaults to 1. If the clause is omitted entirely, all rows (or those rows remaining if a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>result offset clause<ept id="3">&lt;/i&gt;</ept> is also given) will be returned.</source>
+<seg-source><mrk mid="0" mtype="seg">For the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>fetch first clause<ept id="1">&lt;/i&gt;</ept>, the value of the literal (or the dynamic parameter <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>?<ept id="2">&lt;/codeph&gt;</ept>) must be 1 or higher.</mrk><mrk mid="1" mtype="seg"> The literal can be omitted, in which case it defaults to 1.</mrk><mrk mid="2" mtype="seg"> If the clause is omitted entirely, all rows (or those rows remaining if a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>result offset clause<ept id="3">&lt;/i&gt;</ept> is also given) will be returned.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>fetch first clause<ept id="1">&lt;/i&gt;</ept>, the value of the literal (or the dynamic parameter <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>?<ept id="2">&lt;/codeph&gt;</ept>) must be 1 or higher.</mrk><mrk mid="1" mtype="seg"> The literal can be omitted, in which case it defaults to 1.</mrk><mrk mid="2" mtype="seg"> If the clause is omitted entirely, all rows (or those rows remaining if a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>result offset clause<ept id="3">&lt;/i&gt;</ept> is also given) will be returned.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- Fetch the first row of T SELECT * FROM T FETCH FIRST ROW ONLY -- Sort T using column I, then fetch rows 11 through 20 of the sorted -- rows (inclusive) SELECT * FROM T ORDER BY I OFFSET 10 ROWS FETCH NEXT 10 ROWS ONLY -- Skip the first 100 rows of T -- If the table has fewer than 101 records, an empty result set is -- returned SELECT * FROM T OFFSET 100 ROWS -- Use of ORDER BY and FETCH FIRST in a subquery SELECT DISTINCT A.ORIG_AIRPORT, B.FLIGHT_ID FROM (SELECT FLIGHT_ID, ORIG_AIRPORT FROM FLIGHTS ORDER BY ORIG_AIRPORT DESC FETCH FIRST 40 ROWS ONLY) AS A, FLIGHTAVAILABILITY AS B WHERE A.FLIGHT_ID = B.FLIGHT_ID JDBC (using a dynamic parameter): PreparedStatement p = con.prepareStatement("SELECT * FROM T ORDER BY I OFFSET ? ROWS"); p.setInt(1, 100); ResultSet rs = p.executeQuery(); <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- Fetch the first row of T SELECT * FROM T FETCH FIRST ROW ONLY -- Sort T using column I, then fetch rows 11 through 20 of the sorted -- rows (inclusive) SELECT * FROM T ORDER BY I OFFSET 10 ROWS FETCH NEXT 10 ROWS ONLY -- Skip the first 100 rows of T -- If the table has fewer than 101 records, an empty result set is -- returned SELECT * FROM T OFFSET 100 ROWS -- Use of ORDER BY and FETCH FIRST in a subquery SELECT DISTINCT A.ORIG_AIRPORT, B.FLIGHT_ID FROM (SELECT FLIGHT_ID, ORIG_AIRPORT FROM FLIGHTS ORDER BY ORIG_AIRPORT DESC FETCH FIRST 40 ROWS ONLY) AS A, FLIGHTAVAILABILITY AS B WHERE A.FLIGHT_ID = B.FLIGHT_ID JDBC (using a dynamic parameter): PreparedStatement p = con.prepareStatement("SELECT * FROM T ORDER BY I OFFSET ? ROWS"); p.setInt(1, 100); ResultSet rs = p.executeQuery(); <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- Fetch the first row of T SELECT * FROM T FETCH FIRST ROW ONLY -- Sort T using column I, then fetch rows 11 through 20 of the sorted -- rows (inclusive) SELECT * FROM T ORDER BY I OFFSET 10 ROWS FETCH NEXT 10 ROWS ONLY -- Skip the first 100 rows of T -- If the table has fewer than 101 records, an empty result set is -- returned SELECT * FROM T OFFSET 100 ROWS -- Use of ORDER BY and FETCH FIRST in a subquery SELECT DISTINCT A.ORIG_AIRPORT, B.FLIGHT_ID FROM (SELECT FLIGHT_ID, ORIG_AIRPORT FROM FLIGHTS ORDER BY ORIG_AIRPORT DESC FETCH FIRST 40 ROWS ONLY) AS A, FLIGHTAVAILABILITY AS B WHERE A.FLIGHT_ID = B.FLIGHT_ID JDBC (using a dynamic parameter): PreparedStatement p = con.prepareStatement("SELECT * FROM T ORDER BY I OFFSET ? ROWS"); p.setInt(1, 100); ResultSet rs = p.executeQuery(); <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Make sure to specify the ORDER BY clause if you expect to retrieve a sorted result set. If you do not use an ORDER BY clause, the result set that is retrieved will typically have the order in which the records were inserted.</source>
+<seg-source><mrk mid="0" mtype="seg">Make sure to specify the ORDER BY clause if you expect to retrieve a sorted result set.</mrk><mrk mid="1" mtype="seg"> If you do not use an ORDER BY clause, the result set that is retrieved will typically have the order in which the records were inserted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Make sure to specify the ORDER BY clause if you expect to retrieve a sorted result set.</mrk><mrk mid="1" mtype="seg"> If you do not use an ORDER BY clause, the result set that is retrieved will typically have the order in which the records were inserted.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

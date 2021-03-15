@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconceptssavepoints.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Using savepoints</source>
+<seg-source><mrk mid="0" mtype="seg">Using savepoints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using savepoints</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Savepoint<ept id="1">&lt;/i&gt;</ept> interface contains methods to set, release, or roll back a transaction to designated savepoints. Once a savepoint has been set, the transaction can be rolled back to that savepoint without affecting preceding work. Savepoints provide finer-grained control of transactions by marking intermediate points within a transaction.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Savepoint<ept id="1">&lt;/i&gt;</ept> interface contains methods to set, release, or roll back a transaction to designated savepoints.</mrk><mrk mid="1" mtype="seg"> Once a savepoint has been set, the transaction can be rolled back to that savepoint without affecting preceding work.</mrk><mrk mid="2" mtype="seg"> Savepoints provide finer-grained control of transactions by marking intermediate points within a transaction.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Savepoint<ept id="1">&lt;/i&gt;</ept> interface contains methods to set, release, or roll back a transaction to designated savepoints.</mrk><mrk mid="1" mtype="seg"> Once a savepoint has been set, the transaction can be rolled back to that savepoint without affecting preceding work.</mrk><mrk mid="2" mtype="seg"> Savepoints provide finer-grained control of transactions by marking intermediate points within a transaction.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">java.sql.Savepoint</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.Savepoint</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.Savepoint</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Savepoints (JDBC)</source>
+<seg-source><mrk mid="0" mtype="seg">Savepoints (JDBC)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Savepoints (JDBC)</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Savepoints</source>
+<seg-source><mrk mid="0" mtype="seg">Savepoints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Savepoints</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">setting and rollong back</source>
+<seg-source><mrk mid="0" mtype="seg">setting and rollong back</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setting and rollong back</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Savepoints</source>
+<seg-source><mrk mid="0" mtype="seg">Savepoints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Savepoints</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">releasing</source>
+<seg-source><mrk mid="0" mtype="seg">releasing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">releasing</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Setting and rolling back to a savepoint</source>
+<seg-source><mrk mid="0" mtype="seg">Setting and rolling back to a savepoint</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Setting and rolling back to a savepoint</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection.setSavepoint<ept id="1">&lt;/i&gt;</ept> method sets a savepoint within the current transaction. The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection.rollback<ept id="2">&lt;/i&gt;</ept> method is overloaded to take a savepoint argument.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection.setSavepoint<ept id="1">&lt;/i&gt;</ept> method sets a savepoint within the current transaction.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection.rollback<ept id="2">&lt;/i&gt;</ept> method is overloaded to take a savepoint argument.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection.setSavepoint<ept id="1">&lt;/i&gt;</ept> method sets a savepoint within the current transaction.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection.rollback<ept id="2">&lt;/i&gt;</ept> method is overloaded to take a savepoint argument.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The code example below inserts a row into a table, sets the savepoint <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>svpt1<ept id="1">&lt;/codeph&gt;</ept>, and then inserts a second row. When the transaction is later rolled back to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>svpt1<ept id="2">&lt;/codeph&gt;</ept>, the second insertion is undone, but the first insertion remains intact. In other words, when the transaction is committed, only the row containing '1' will be added to TABLE1.</source>
+<seg-source><mrk mid="0" mtype="seg">The code example below inserts a row into a table, sets the savepoint <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>svpt1<ept id="1">&lt;/codeph&gt;</ept>, and then inserts a second row.</mrk><mrk mid="1" mtype="seg"> When the transaction is later rolled back to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>svpt1<ept id="2">&lt;/codeph&gt;</ept>, the second insertion is undone, but the first insertion remains intact.</mrk><mrk mid="2" mtype="seg"> In other words, when the transaction is committed, only the row containing '1' will be added to TABLE1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The code example below inserts a row into a table, sets the savepoint <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>svpt1<ept id="1">&lt;/codeph&gt;</ept>, and then inserts a second row.</mrk><mrk mid="1" mtype="seg"> When the transaction is later rolled back to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>svpt1<ept id="2">&lt;/codeph&gt;</ept>, the second insertion is undone, but the first insertion remains intact.</mrk><mrk mid="2" mtype="seg"> In other words, when the transaction is committed, only the row containing '1' will be added to TABLE1.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it>conn.setAutoCommit(false); // Autocommit must be off to use savepoints. Statement stmt = conn.createStatement(); int rows = stmt.executeUpdate("INSERT INTO TABLE1 (COL1) VALUES(1)"); // set savepoint Savepoint svpt1 = conn.setSavepoint("S1"); rows = stmt.executeUpdate("INSERT INTO TABLE1 (COL1) VALUES (2)"); ... conn.rollback(svpt1); ... conn.commit();<it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it>conn.setAutoCommit(false); // Autocommit must be off to use savepoints.</mrk><mrk mid="1" mtype="seg"> Statement stmt = conn.createStatement(); int rows = stmt.executeUpdate("INSERT INTO TABLE1 (COL1) VALUES(1)"); // set savepoint Savepoint svpt1 = conn.setSavepoint("S1"); rows = stmt.executeUpdate("INSERT INTO TABLE1 (COL1) VALUES (2)"); ...</mrk><mrk mid="2" mtype="seg"> conn.rollback(svpt1); ...</mrk><mrk mid="3" mtype="seg"> conn.commit();<it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it>conn.setAutoCommit(false); // Autocommit must be off to use savepoints.</mrk><mrk mid="1" mtype="seg"> Statement stmt = conn.createStatement(); int rows = stmt.executeUpdate("INSERT INTO TABLE1 (COL1) VALUES(1)"); // set savepoint Savepoint svpt1 = conn.setSavepoint("S1"); rows = stmt.executeUpdate("INSERT INTO TABLE1 (COL1) VALUES (2)"); ...</mrk><mrk mid="2" mtype="seg"> conn.rollback(svpt1); ...</mrk><mrk mid="3" mtype="seg"> conn.commit();<it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Releasing a savepoint</source>
+<seg-source><mrk mid="0" mtype="seg">Releasing a savepoint</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Releasing a savepoint</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">The method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection.releaseSavepoint<ept id="1">&lt;/i&gt;</ept> takes a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Savepoint<ept id="2">&lt;/i&gt;</ept> object as a parameter and removes it from the current transaction. Once a savepoint has been released, attempting to reference it in a rollback operation will cause an <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="3">&lt;/i&gt;</ept> to be thrown.</source>
+<seg-source><mrk mid="0" mtype="seg">The method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection.releaseSavepoint<ept id="1">&lt;/i&gt;</ept> takes a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Savepoint<ept id="2">&lt;/i&gt;</ept> object as a parameter and removes it from the current transaction.</mrk><mrk mid="1" mtype="seg"> Once a savepoint has been released, attempting to reference it in a rollback operation will cause an <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="3">&lt;/i&gt;</ept> to be thrown.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection.releaseSavepoint<ept id="1">&lt;/i&gt;</ept> takes a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Savepoint<ept id="2">&lt;/i&gt;</ept> object as a parameter and removes it from the current transaction.</mrk><mrk mid="1" mtype="seg"> Once a savepoint has been released, attempting to reference it in a rollback operation will cause an <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="3">&lt;/i&gt;</ept> to be thrown.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Any savepoints that have been created in a transaction are automatically released and become invalid when the transaction is committed or when the entire transaction is rolled back.</source>
+<seg-source><mrk mid="0" mtype="seg">Any savepoints that have been created in a transaction are automatically released and become invalid when the transaction is committed or when the entire transaction is rolled back.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Any savepoints that have been created in a transaction are automatically released and become invalid when the transaction is committed or when the entire transaction is rolled back.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Rolling a transaction back to a savepoint automatically releases and makes invalid any other savepoints created after the savepoint in question.</source>
+<seg-source><mrk mid="0" mtype="seg">Rolling a transaction back to a savepoint automatically releases and makes invalid any other savepoints created after the savepoint in question.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Rolling a transaction back to a savepoint automatically releases and makes invalid any other savepoints created after the savepoint in question.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Rules for savepoints</source>
+<seg-source><mrk mid="0" mtype="seg">Rules for savepoints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Rules for savepoints</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">The savepoint cannot be set within a batch of statements to enable partial recovery. If a savepoint is set any time before the method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>executeBatch<ept id="1">&lt;/i&gt;</ept> is called, it is set before any of the statements that have been added to the batch are executed.</source>
+<seg-source><mrk mid="0" mtype="seg">The savepoint cannot be set within a batch of statements to enable partial recovery.</mrk><mrk mid="1" mtype="seg"> If a savepoint is set any time before the method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>executeBatch<ept id="1">&lt;/i&gt;</ept> is called, it is set before any of the statements that have been added to the batch are executed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The savepoint cannot be set within a batch of statements to enable partial recovery.</mrk><mrk mid="1" mtype="seg"> If a savepoint is set any time before the method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>executeBatch<ept id="1">&lt;/i&gt;</ept> is called, it is set before any of the statements that have been added to the batch are executed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">A savepoint can be reused after it has been released explicitly (by issuing a release of the savepoint) or implicitly (by issuing a connection commit/rollback to that savepoint or to a savepoint declared earlier than that savepoint).</source>
+<seg-source><mrk mid="0" mtype="seg">A savepoint can be reused after it has been released explicitly (by issuing a release of the savepoint) or implicitly (by issuing a connection commit/rollback to that savepoint or to a savepoint declared earlier than that savepoint).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A savepoint can be reused after it has been released explicitly (by issuing a release of the savepoint) or implicitly (by issuing a connection commit/rollback to that savepoint or to a savepoint declared earlier than that savepoint).</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">It is possible to nest savepoints, but only in an embedded environment.</source>
+<seg-source><mrk mid="0" mtype="seg">It is possible to nest savepoints, but only in an embedded environment.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is possible to nest savepoints, but only in an embedded environment.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

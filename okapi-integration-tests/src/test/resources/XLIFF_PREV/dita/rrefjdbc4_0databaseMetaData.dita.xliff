@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbc4_0databaseMetaData.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">java.sql.DatabaseMetaData interface: JDBC 4.0 features</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.DatabaseMetaData interface: JDBC 4.0 features</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.DatabaseMetaData interface: JDBC 4.0 features</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Capability reports</source>
+<seg-source><mrk mid="0" mtype="seg">Capability reports</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Capability reports</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Column metadata</source>
+<seg-source><mrk mid="0" mtype="seg">Column metadata</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column metadata</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Function metadata</source>
+<seg-source><mrk mid="0" mtype="seg">Function metadata</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function metadata</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Procedure metadata</source>
+<seg-source><mrk mid="0" mtype="seg">Procedure metadata</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Procedure metadata</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Schema metadata</source>
+<seg-source><mrk mid="0" mtype="seg">Schema metadata</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Schema metadata</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implements all of the new metadata methods added by JDBC 4.0.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implements all of the new metadata methods added by JDBC 4.0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implements all of the new metadata methods added by JDBC 4.0.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Capability reports<ept id="1">&lt;/b&gt;</ept> - JDBC 4.0 adds new methods for querying the capabilities of a database. These include <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>autoCommitFailureClosesAllResultSets<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>providesQueryObjectGenerator<ept id="3">&lt;/i&gt;</ept>, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>getClientInfoProperties<ept id="4">&lt;/i&gt;</ept>, and <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>supportsStoredFunctionsUsingCallSyntax<ept id="5">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Capability reports<ept id="1">&lt;/b&gt;</ept> - JDBC 4.0 adds new methods for querying the capabilities of a database.</mrk><mrk mid="1" mtype="seg"> These include <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>autoCommitFailureClosesAllResultSets<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>providesQueryObjectGenerator<ept id="3">&lt;/i&gt;</ept>, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>getClientInfoProperties<ept id="4">&lt;/i&gt;</ept>, and <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>supportsStoredFunctionsUsingCallSyntax<ept id="5">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Capability reports<ept id="1">&lt;/b&gt;</ept> - JDBC 4.0 adds new methods for querying the capabilities of a database.</mrk><mrk mid="1" mtype="seg"> These include <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>autoCommitFailureClosesAllResultSets<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>providesQueryObjectGenerator<ept id="3">&lt;/i&gt;</ept>, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>getClientInfoProperties<ept id="4">&lt;/i&gt;</ept>, and <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>supportsStoredFunctionsUsingCallSyntax<ept id="5">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Column metadata<ept id="1">&lt;/b&gt;</ept> - The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getColumns<ept id="2">&lt;/i&gt;</ept> method reports <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>IS_AUTOINCREMENT<ept id="3">&lt;/i&gt;</ept> = YES if a column is generated.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Column metadata<ept id="1">&lt;/b&gt;</ept> - The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getColumns<ept id="2">&lt;/i&gt;</ept> method reports <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>IS_AUTOINCREMENT<ept id="3">&lt;/i&gt;</ept> = YES if a column is generated.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Column metadata<ept id="1">&lt;/b&gt;</ept> - The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getColumns<ept id="2">&lt;/i&gt;</ept> method reports <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>IS_AUTOINCREMENT<ept id="3">&lt;/i&gt;</ept> = YES if a column is generated.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Function metadata<ept id="1">&lt;/b&gt;</ept> - JDBC 4.0 adds new methods for inspecting the arguments and return types of functions, including user-defined functions. These new methods are <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getFunctions<ept id="2">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>getFunctionColumns<ept id="3">&lt;/i&gt;</ept>. These methods behave similarly to <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>getProcedures<ept id="4">&lt;/i&gt;</ept> and <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>getProcedureColumns<ept id="5">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Function metadata<ept id="1">&lt;/b&gt;</ept> - JDBC 4.0 adds new methods for inspecting the arguments and return types of functions, including user-defined functions.</mrk><mrk mid="1" mtype="seg"> These new methods are <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getFunctions<ept id="2">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>getFunctionColumns<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> These methods behave similarly to <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>getProcedures<ept id="4">&lt;/i&gt;</ept> and <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>getProcedureColumns<ept id="5">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Function metadata<ept id="1">&lt;/b&gt;</ept> - JDBC 4.0 adds new methods for inspecting the arguments and return types of functions, including user-defined functions.</mrk><mrk mid="1" mtype="seg"> These new methods are <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getFunctions<ept id="2">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>getFunctionColumns<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> These methods behave similarly to <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>getProcedures<ept id="4">&lt;/i&gt;</ept> and <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>getProcedureColumns<ept id="5">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Procedure metadata<ept id="1">&lt;/b&gt;</ept> - The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getProcedureColumns<ept id="2">&lt;/i&gt;</ept> method reports additional information about procedure arguments. For more information, see the javadoc for this method. The new columns in the ResultSet returned by <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>getProcedureColumns<ept id="3">&lt;/i&gt;</ept> are: <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>COLUMN_DEF<ept id="4">&lt;/i&gt;</ept>, <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>SQL_DATA_TYPE<ept id="5">&lt;/i&gt;</ept>, <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>SQL_DATETIME_SUB<ept id="6">&lt;/i&gt;</ept>, <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>CHAR_OCTET_LENGTH<ept id="7">&lt;/i&gt;</ept>, <bpt id="8" ctype="x-i">&lt;i&gt;</bpt>ORDINAL_POSITION<ept id="8">&lt;/i&gt;</ept>, <bpt id="9" ctype="x-i">&lt;i&gt;</bpt>IS_NULLABLE<ept id="9">&lt;/i&gt;</ept>, and <bpt id="10" ctype="x-i">&lt;i&gt;</bpt>SPECIFIC_NAME<ept id="10">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Procedure metadata<ept id="1">&lt;/b&gt;</ept> - The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getProcedureColumns<ept id="2">&lt;/i&gt;</ept> method reports additional information about procedure arguments.</mrk><mrk mid="1" mtype="seg"> For more information, see the javadoc for this method.</mrk><mrk mid="2" mtype="seg"> The new columns in the ResultSet returned by <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>getProcedureColumns<ept id="3">&lt;/i&gt;</ept> are: <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>COLUMN_DEF<ept id="4">&lt;/i&gt;</ept>, <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>SQL_DATA_TYPE<ept id="5">&lt;/i&gt;</ept>, <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>SQL_DATETIME_SUB<ept id="6">&lt;/i&gt;</ept>, <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>CHAR_OCTET_LENGTH<ept id="7">&lt;/i&gt;</ept>, <bpt id="8" ctype="x-i">&lt;i&gt;</bpt>ORDINAL_POSITION<ept id="8">&lt;/i&gt;</ept>, <bpt id="9" ctype="x-i">&lt;i&gt;</bpt>IS_NULLABLE<ept id="9">&lt;/i&gt;</ept>, and <bpt id="10" ctype="x-i">&lt;i&gt;</bpt>SPECIFIC_NAME<ept id="10">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Procedure metadata<ept id="1">&lt;/b&gt;</ept> - The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getProcedureColumns<ept id="2">&lt;/i&gt;</ept> method reports additional information about procedure arguments.</mrk><mrk mid="1" mtype="seg"> For more information, see the javadoc for this method.</mrk><mrk mid="2" mtype="seg"> The new columns in the ResultSet returned by <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>getProcedureColumns<ept id="3">&lt;/i&gt;</ept> are: <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>COLUMN_DEF<ept id="4">&lt;/i&gt;</ept>, <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>SQL_DATA_TYPE<ept id="5">&lt;/i&gt;</ept>, <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>SQL_DATETIME_SUB<ept id="6">&lt;/i&gt;</ept>, <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>CHAR_OCTET_LENGTH<ept id="7">&lt;/i&gt;</ept>, <bpt id="8" ctype="x-i">&lt;i&gt;</bpt>ORDINAL_POSITION<ept id="8">&lt;/i&gt;</ept>, <bpt id="9" ctype="x-i">&lt;i&gt;</bpt>IS_NULLABLE<ept id="9">&lt;/i&gt;</ept>, and <bpt id="10" ctype="x-i">&lt;i&gt;</bpt>SPECIFIC_NAME<ept id="10">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Schema metadata<ept id="1">&lt;/b&gt;</ept> - JDBC 4.0 adds a new <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getSchemas<ept id="2">&lt;/i&gt;</ept> overload, which lets you look up schemas based on a name pattern.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Schema metadata<ept id="1">&lt;/b&gt;</ept> - JDBC 4.0 adds a new <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getSchemas<ept id="2">&lt;/i&gt;</ept> overload, which lets you look up schemas based on a name pattern.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Schema metadata<ept id="1">&lt;/b&gt;</ept> - JDBC 4.0 adds a new <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getSchemas<ept id="2">&lt;/i&gt;</ept> overload, which lets you look up schemas based on a name pattern.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

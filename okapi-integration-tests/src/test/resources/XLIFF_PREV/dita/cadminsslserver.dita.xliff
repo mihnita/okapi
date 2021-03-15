@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminsslserver.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Starting the server with SSL/TLS</source>
+<seg-source><mrk mid="0" mtype="seg">Starting the server with SSL/TLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Starting the server with SSL/TLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">For server SSL/TLS, a server key pair needs to be generated. If the server is going to do client authentication, the client certificates need to be installed in the trust store.</source>
+<seg-source><mrk mid="0" mtype="seg">For server SSL/TLS, a server key pair needs to be generated.</mrk><mrk mid="1" mtype="seg"> If the server is going to do client authentication, the client certificates need to be installed in the trust store.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For server SSL/TLS, a server key pair needs to be generated.</mrk><mrk mid="1" mtype="seg"> If the server is going to do client authentication, the client certificates need to be installed in the trust store.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SSL</source>
+<seg-source><mrk mid="0" mtype="seg">SSL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSL</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">TLS</source>
+<seg-source><mrk mid="0" mtype="seg">TLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SSL</source>
+<seg-source><mrk mid="0" mtype="seg">SSL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSL</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">TLS</source>
+<seg-source><mrk mid="0" mtype="seg">TLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">These operations are described in <bpt id="1" ctype="x-xref">&lt;xref href="cadminsslkeys.dita#cadminsslkeys"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">These operations are described in <bpt id="1" ctype="x-xref">&lt;xref href="cadminsslkeys.dita#cadminsslkeys"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">These operations are described in <bpt id="1" ctype="x-xref">&lt;xref href="cadminsslkeys.dita#cadminsslkeys"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">SSL at the server side is activated with the property <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.sslMode<ept id="1">&lt;/codeph&gt;</ept> (default off) or the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>-ssl<ept id="2">&lt;/codeph&gt;</ept> option for the server start command.</source>
+<seg-source><mrk mid="0" mtype="seg">SSL at the server side is activated with the property <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.sslMode<ept id="1">&lt;/codeph&gt;</ept> (default off) or the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>-ssl<ept id="2">&lt;/codeph&gt;</ept> option for the server start command.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSL at the server side is activated with the property <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.sslMode<ept id="1">&lt;/codeph&gt;</ept> (default off) or the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>-ssl<ept id="2">&lt;/codeph&gt;</ept> option for the server start command.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Starting the server with basic SSL encryption</source>
+<seg-source><mrk mid="0" mtype="seg">Starting the server with basic SSL encryption</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Starting the server with basic SSL encryption</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">When the SSL mode is set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>basic<ept id="1">&lt;/codeph&gt;</ept>, the server will only accept SSL encrypted connections.</source>
+<seg-source><mrk mid="0" mtype="seg">When the SSL mode is set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>basic<ept id="1">&lt;/codeph&gt;</ept>, the server will only accept SSL encrypted connections.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the SSL mode is set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>basic<ept id="1">&lt;/codeph&gt;</ept>, the server will only accept SSL encrypted connections.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The properties <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.keyStore<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.keyStorePassword<ept id="2">&lt;/codeph&gt;</ept> need to be set with the proper values.</source>
+<seg-source><mrk mid="0" mtype="seg">The properties <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.keyStore<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.keyStorePassword<ept id="2">&lt;/codeph&gt;</ept> need to be set with the proper values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The properties <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.keyStore<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.keyStorePassword<ept id="2">&lt;/codeph&gt;</ept> need to be set with the proper values.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Djavax.net.ssl.keyStore=serverKeyStore.key \ -Djavax.net.ssl.keyStorePassword=qwerty \ -jar derbyrun.jar server start -ssl basic<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Djavax.net.ssl.keyStore=serverKeyStore.key \ -Djavax.net.ssl.keyStorePassword=qwerty \ -jar derbyrun.jar server start -ssl basic<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Djavax.net.ssl.keyStore=serverKeyStore.key \ -Djavax.net.ssl.keyStorePassword=qwerty \ -jar derbyrun.jar server start -ssl basic<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Starting a server which authenticates clients</source>
+<seg-source><mrk mid="0" mtype="seg">Starting a server which authenticates clients</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Starting a server which authenticates clients</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">When the server's SSL mode is set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>peerAuthentication<ept id="1">&lt;/codeph&gt;</ept>, the server authenticates its clients' identity in addition to encrypting network traffic. In this situation, the server's <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>trust store<ept id="2">&lt;/i&gt;</ept> must contain a certificate for each client which will connect.</source>
+<seg-source><mrk mid="0" mtype="seg">When the server's SSL mode is set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>peerAuthentication<ept id="1">&lt;/codeph&gt;</ept>, the server authenticates its clients' identity in addition to encrypting network traffic.</mrk><mrk mid="1" mtype="seg"> In this situation, the server's <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>trust store<ept id="2">&lt;/i&gt;</ept> must contain a certificate for each client which will connect.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the server's SSL mode is set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>peerAuthentication<ept id="1">&lt;/codeph&gt;</ept>, the server authenticates its clients' identity in addition to encrypting network traffic.</mrk><mrk mid="1" mtype="seg"> In this situation, the server's <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>trust store<ept id="2">&lt;/i&gt;</ept> must contain a certificate for each client which will connect.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.trustStore<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.trustStorePassword<ept id="2">&lt;/codeph&gt;</ept> need to be set in addition to the properties above.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.trustStore<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.trustStorePassword<ept id="2">&lt;/codeph&gt;</ept> need to be set in addition to the properties above.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.trustStore<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.net.ssl.trustStorePassword<ept id="2">&lt;/codeph&gt;</ept> need to be set in addition to the properties above.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="cadminsslclient.dita#cadminsslclient"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for client settings when the server does client authentication.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="cadminsslclient.dita#cadminsslclient"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for client settings when the server does client authentication.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="cadminsslclient.dita#cadminsslclient"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for client settings when the server does client authentication.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Djavax.net.ssl.keyStore=serverKeyStore.key \ -Djavax.net.ssl.keyStorePassword=qwerty \ -Djavax.net.ssl.trustStore=serverTrustStore.key \ -Djavax.net.ssl.trustStorePassword=qwerty \ -jar derbyrun.jar server start -ssl peerAuthentication<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Djavax.net.ssl.keyStore=serverKeyStore.key \ -Djavax.net.ssl.keyStorePassword=qwerty \ -Djavax.net.ssl.trustStore=serverTrustStore.key \ -Djavax.net.ssl.trustStorePassword=qwerty \ -jar derbyrun.jar server start -ssl peerAuthentication<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Djavax.net.ssl.keyStore=serverKeyStore.key \ -Djavax.net.ssl.keyStorePassword=qwerty \ -Djavax.net.ssl.trustStore=serverTrustStore.key \ -Djavax.net.ssl.trustStorePassword=qwerty \ -jar derbyrun.jar server start -ssl peerAuthentication<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

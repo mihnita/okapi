@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevspecial29620.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Database-side JDBC routines and nested connections</source>
+<seg-source><mrk mid="0" mtype="seg">Database-side JDBC routines and nested connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database-side JDBC routines and nested connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Most database-side JDBC routines need to share the same transaction space as the statements that called them.</source>
+<seg-source><mrk mid="0" mtype="seg">Most database-side JDBC routines need to share the same transaction space as the statements that called them.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Most database-side JDBC routines need to share the same transaction space as the statements that called them.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Nested connections</source>
+<seg-source><mrk mid="0" mtype="seg">Nested connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nested connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">getting</source>
+<seg-source><mrk mid="0" mtype="seg">getting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">getting</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Database-side JDBC routines</source>
+<seg-source><mrk mid="0" mtype="seg">Database-side JDBC routines</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database-side JDBC routines</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">using nested connections</source>
+<seg-source><mrk mid="0" mtype="seg">using nested connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">using nested connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The reasons for this are:</source>
+<seg-source><mrk mid="0" mtype="seg">The reasons for this are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The reasons for this are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">to avoid blocking and deadlocks</source>
+<seg-source><mrk mid="0" mtype="seg">to avoid blocking and deadlocks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">to avoid blocking and deadlocks</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">to ensure that any updates done from within the routine are atomic with the outer transaction</source>
+<seg-source><mrk mid="0" mtype="seg">to ensure that any updates done from within the routine are atomic with the outer transaction</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">to ensure that any updates done from within the routine are atomic with the outer transaction</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">In order to use the same transaction, the routine must use the same connection as the parent SQL statement in which the routine was executed. Connections re-used in this way are called <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>nested connections<ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">In order to use the same transaction, the routine must use the same connection as the parent SQL statement in which the routine was executed.</mrk><mrk mid="1" mtype="seg"> Connections re-used in this way are called <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>nested connections<ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In order to use the same transaction, the routine must use the same connection as the parent SQL statement in which the routine was executed.</mrk><mrk mid="1" mtype="seg"> Connections re-used in this way are called <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>nested connections<ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Use the connection URL <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jdbc:default:connection<ept id="1">&lt;/i&gt;</ept> to re-use the current <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the connection URL <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jdbc:default:connection<ept id="1">&lt;/i&gt;</ept> to re-use the current <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the connection URL <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jdbc:default:connection<ept id="1">&lt;/i&gt;</ept> to re-use the current <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The database donnection URL <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jdbc:default:connection<ept id="1">&lt;/i&gt;</ept> allows a Java method to get the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="2">&lt;/i&gt;</ept> of the SQL statement that called it. This is the standard (SQL standard, Part 13, SQL Routines and Java) mechanism to obtain the nested connection object. The method would get a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="3">&lt;/i&gt;</ept> as follows:</source>
+<seg-source><mrk mid="0" mtype="seg">The database donnection URL <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jdbc:default:connection<ept id="1">&lt;/i&gt;</ept> allows a Java method to get the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="2">&lt;/i&gt;</ept> of the SQL statement that called it.</mrk><mrk mid="1" mtype="seg"> This is the standard (SQL standard, Part 13, SQL Routines and Java) mechanism to obtain the nested connection object.</mrk><mrk mid="2" mtype="seg"> The method would get a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="3">&lt;/i&gt;</ept> as follows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The database donnection URL <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>jdbc:default:connection<ept id="1">&lt;/i&gt;</ept> allows a Java method to get the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="2">&lt;/i&gt;</ept> of the SQL statement that called it.</mrk><mrk mid="1" mtype="seg"> This is the standard (SQL standard, Part 13, SQL Routines and Java) mechanism to obtain the nested connection object.</mrk><mrk mid="2" mtype="seg"> The method would get a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="3">&lt;/i&gt;</ept> as follows:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Connection conn = DriverManager.getConnection( "jdbc:default:connection");</source>
+<seg-source><mrk mid="0" mtype="seg">Connection conn = DriverManager.getConnection( "jdbc:default:connection");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connection conn = DriverManager.getConnection( "jdbc:default:connection");</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">URL attributes are not supported as part of this connection URL. Any URL attributes specified in a Properties object, user name, or password that are passed to a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.DriverManager.getConnection()<ept id="1">&lt;/i&gt;</ept> call will be ignored.</source>
+<seg-source><mrk mid="0" mtype="seg">URL attributes are not supported as part of this connection URL.</mrk><mrk mid="1" mtype="seg"> Any URL attributes specified in a Properties object, user name, or password that are passed to a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.DriverManager.getConnection()<ept id="1">&lt;/i&gt;</ept> call will be ignored.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">URL attributes are not supported as part of this connection URL.</mrk><mrk mid="1" mtype="seg"> Any URL attributes specified in a Properties object, user name, or password that are passed to a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.DriverManager.getConnection()<ept id="1">&lt;/i&gt;</ept> call will be ignored.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Loading a JDBC driver in a database-side routine is not required.</source>
+<seg-source><mrk mid="0" mtype="seg">Loading a JDBC driver in a database-side routine is not required.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loading a JDBC driver in a database-side routine is not required.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

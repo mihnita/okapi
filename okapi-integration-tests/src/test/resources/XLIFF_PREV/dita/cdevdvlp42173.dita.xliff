@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdvlp42173.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Creating, dropping, and backing up databases</source>
+<seg-source><mrk mid="0" mtype="seg">Creating, dropping, and backing up databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creating, dropping, and backing up databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You create new databases and access existing ones by specifying attributes to the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> connection URL.</source>
+<seg-source><mrk mid="0" mtype="seg">You create new databases and access existing ones by specifying attributes to the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> connection URL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You create new databases and access existing ones by specifying attributes to the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> connection URL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Databases</source>
+<seg-source><mrk mid="0" mtype="seg">Databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">dropping</source>
+<seg-source><mrk mid="0" mtype="seg">dropping</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dropping</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Dropping databases</source>
+<seg-source><mrk mid="0" mtype="seg">Dropping databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dropping databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Backing up databases</source>
+<seg-source><mrk mid="0" mtype="seg">Backing up databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Backing up databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Databases</source>
+<seg-source><mrk mid="0" mtype="seg">Databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">backing up</source>
+<seg-source><mrk mid="0" mtype="seg">backing up</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">backing up</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">If you use an in-memory database, you can use a connection URL attribute to drop it. For a file system database, however, there is no drop attribute. To drop a database on the file system, delete the database directory with operating system commands. The database must not be booted when you remove a database. You can get a list of booted databases with <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If you use an in-memory database, you can use a connection URL attribute to drop it.</mrk><mrk mid="1" mtype="seg"> For a file system database, however, there is no drop attribute.</mrk><mrk mid="2" mtype="seg"> To drop a database on the file system, delete the database directory with operating system commands.</mrk><mrk mid="3" mtype="seg"> The database must not be booted when you remove a database.</mrk><mrk mid="4" mtype="seg"> You can get a list of booted databases with <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you use an in-memory database, you can use a connection URL attribute to drop it.</mrk><mrk mid="1" mtype="seg"> For a file system database, however, there is no drop attribute.</mrk><mrk mid="2" mtype="seg"> To drop a database on the file system, delete the database directory with operating system commands.</mrk><mrk mid="3" mtype="seg"> The database must not be booted when you remove a database.</mrk><mrk mid="4" mtype="seg"> You can get a list of booted databases with <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getPropertyInfo<ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">To back up a database, you can use the online backup utility. For information on this utility, see the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">To back up a database, you can use the online backup utility.</mrk><mrk mid="1" mtype="seg"> For information on this utility, see the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To back up a database, you can use the online backup utility.</mrk><mrk mid="1" mtype="seg"> For information on this utility, see the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">You can also use <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>roll-forward recovery<ept id="1">&lt;/i&gt;</ept> to recover a damaged database. <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> accomplishes roll-forward recovery by using a full backup copy of the database, archived logs, and active logs from the most recent time before a failure. For more information on roll-forward recovery see the <bpt id="3" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept><ept id="3">&lt;/cite&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You can also use <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>roll-forward recovery<ept id="1">&lt;/i&gt;</ept> to recover a damaged database.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> accomplishes roll-forward recovery by using a full backup copy of the database, archived logs, and active logs from the most recent time before a failure.</mrk><mrk mid="2" mtype="seg"> For more information on roll-forward recovery see the <bpt id="3" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept><ept id="3">&lt;/cite&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can also use <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>roll-forward recovery<ept id="1">&lt;/i&gt;</ept> to recover a damaged database.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> accomplishes roll-forward recovery by using a full backup copy of the database, archived logs, and active logs from the most recent time before a failure.</mrk><mrk mid="2" mtype="seg"> For more information on roll-forward recovery see the <bpt id="3" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept><ept id="3">&lt;/cite&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

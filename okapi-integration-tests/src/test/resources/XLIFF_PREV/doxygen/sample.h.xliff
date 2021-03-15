@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="sample.h" source-language="en" target-language="fr" datatype="x-text/x-doxygen-txt" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/doxygen/target/classes/net/sf/okapi/filters/doxygen/doxygenConfiguration.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1">
+<source xml:lang="en"><ph id="1" ctype="x-class">\class MyClass
+ </ph><ph id="2" ctype="x-brief">\brief</ph> Brief description.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-class">\class MyClass
+ </ph><ph id="2" ctype="x-brief">\brief</ph> Brief description.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-class">\class MyClass
+ </ph><ph id="2" ctype="x-brief">\brief</ph> Brief description.</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">A more detailed class description spanning multiple lines.</source>
+<seg-source><mrk mid="0" mtype="seg">A more detailed class description spanning multiple lines.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A more detailed class description spanning multiple lines.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg2">
+<trans-unit id="tu3">
+<source xml:lang="en">constructor; initialize the list to be empty</source>
+<seg-source><mrk mid="0" mtype="seg">constructor; initialize the list to be empty</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">constructor; initialize the list to be empty</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">This is a <ph id="1" ctype="x-b">\b</ph> list.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a <ph id="1" ctype="x-b">\b</ph> list.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a <ph id="1" ctype="x-b">\b</ph> list.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">This item spans multiple lines.</source>
+<seg-source><mrk mid="0" mtype="seg">This item spans multiple lines.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This item spans multiple lines.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">This item has an \invalid command in it.</source>
+<seg-source><mrk mid="0" mtype="seg">This item has an \invalid command in it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This item has an \invalid command in it.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Post-list paragraph.</source>
+<seg-source><mrk mid="0" mtype="seg">Post-list paragraph.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Post-list paragraph.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg3">
+<trans-unit id="tu8">
+<source xml:lang="en"><ph id="1" ctype="x-param">\param a </ph>This paragraph has</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">\param a </ph>This paragraph has</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">\param a </ph>This paragraph has</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><ph id="1" ctype="x-param">\param b </ph>many different</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">\param b </ph>many different</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">\param b </ph>many different</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><ph id="1" ctype="x-param">\param c </ph>text units</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">\param c </ph>text units</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">\param c </ph>text units</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><ph id="1" ctype="x-param">\param d </ph>all smashed together.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">\param d </ph>all smashed together.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">\param d </ph>all smashed together.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg4">
+<trans-unit id="tu12">
+<source xml:lang="en">Here's some embedded sample code that shouldn't be extracted:</source>
+<seg-source><mrk mid="0" mtype="seg">Here's some embedded sample code that shouldn't be extracted:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here's some embedded sample code that shouldn't be extracted:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" translate="no">
+<source xml:lang="en"><bpt id="1" ctype="x-code">\code</bpt>
+     jimmy.crack('corn') &amp;&amp; me['care'] == false;
+ <ept id="1">\endcode</ept></source>
+<target xml:lang="fr"><bpt id="1" ctype="x-code">\code</bpt>
+     jimmy.crack('corn') &amp;&amp; me['care'] == false;
+ <ept id="1">\endcode</ept></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Follow it up with another paragraph for good measure.</source>
+<seg-source><mrk mid="0" mtype="seg">Follow it up with another paragraph for good measure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Follow it up with another paragraph for good measure.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg5">
+<trans-unit id="tu15">
+<source xml:lang="en">Paragraph one</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraph one</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraph one</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Paragraph two separated only by a blank line.</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraph two separated only by a blank line.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraph two separated only by a blank line.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg6">
+<trans-unit id="tu17">
+<source xml:lang="en">initial size of the array</source>
+<seg-source><mrk mid="0" mtype="seg">initial size of the array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">initial size of the array</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Items will point to the dynamically allocated array</source>
+<seg-source><mrk mid="0" mtype="seg">Items will point to the dynamically allocated array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Items will point to the dynamically allocated array</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">number of items currently in the list</source>
+<seg-source><mrk mid="0" mtype="seg">number of items currently in the list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">number of items currently in the list</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">the current size of the array</source>
+<seg-source><mrk mid="0" mtype="seg">the current size of the array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the current size of the array</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

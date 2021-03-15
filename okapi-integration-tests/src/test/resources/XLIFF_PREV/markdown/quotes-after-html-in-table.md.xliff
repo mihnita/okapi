@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="quotes-after-html-in-table.md.tkitMerged" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Expression with HTML</source>
+<seg-source><mrk mid="0" mtype="seg">Expression with HTML</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Expression with HTML</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Text with a quote</source>
+<seg-source><mrk mid="0" mtype="seg">Text with a quote</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text with a quote</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Hello, <ph id="1" ctype="x-bold">&lt;b&gt;</ph>World<ph id="2" ctype="x-bold">&lt;/b&gt;</ph>!</source>
+<seg-source><mrk mid="0" mtype="seg">Hello, <ph id="1" ctype="x-bold">&lt;b&gt;</ph>World<ph id="2" ctype="x-bold">&lt;/b&gt;</ph>!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hello, <ph id="1" ctype="x-bold">&lt;b&gt;</ph>World<ph id="2" ctype="x-bold">&lt;/b&gt;</ph>!</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">It's still good, isn't it?</source>
+<seg-source><mrk mid="0" mtype="seg">It's still good, isn't it?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It's still good, isn't it?</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">A div block</source>
+<seg-source><mrk mid="0" mtype="seg">A div block</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A div block</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">It's still good, right?</source>
+<seg-source><mrk mid="0" mtype="seg">It's still good, right?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It's still good, right?</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf6_tu1" resname="sd1_1" restype="x-li" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">item1</source>
+<seg-source><mrk mid="0" mtype="seg">item1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item1</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">It's bad here.</source>
+<seg-source><mrk mid="0" mtype="seg">It's bad here.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It's bad here.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">And it's still bad here after the table ends.</source>
+<seg-source><mrk mid="0" mtype="seg">And it's still bad here after the table ends.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">And it's still bad here after the table ends.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

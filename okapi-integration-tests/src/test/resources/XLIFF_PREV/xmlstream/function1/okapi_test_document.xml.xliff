@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="okapi_test_document.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi-integration-tests/common-integration-tests/target/test-classes/xmlstream/function1/okf_xmlstream@function1.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sd1_ssf1" resname="sub-filter:sd1">
+<trans-unit id="sd1_tu1" resname="sd1_1">
+<source xml:lang="en">Test article with divs and spans.</source>
+<seg-source><mrk mid="0" mtype="seg">Test article with divs and spans.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test article with divs and spans.</mrk></target>
+</trans-unit>
+</group>
+<group id="sd1_ssf2" resname="sub-filter:sd1">
+<trans-unit id="sd1_tu1" resname="sd1_1">
+<source xml:lang="en">This is an article about divs and spans.</source>
+<seg-source><mrk mid="0" mtype="seg">This is an article about divs and spans.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is an article about divs and spans.</mrk></target>
+</trans-unit>
+</group>
+<group id="sd1_ssf3" resname="sub-filter:sd1">
+<trans-unit id="sd1_tu1" resname="sd1_2" restype="x-paragraph">
+<source xml:lang="en">This is the start of the body with divs and spans.</source>
+<seg-source><mrk mid="0" mtype="seg">This is the start of the body with divs and spans.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is the start of the body with divs and spans.</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_tu2" resname="sd1_5">
+<source xml:lang="en">Hello World</source>
+<seg-source><mrk mid="0" mtype="seg">Hello World</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hello World</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_tu3" resname="sd1_7">
+<source xml:lang="en">Hello World Again</source>
+<seg-source><mrk mid="0" mtype="seg">Hello World Again</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hello World Again</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

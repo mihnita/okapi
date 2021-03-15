@@ -1,0 +1,34 @@
+global_pcdata_subfilter: okf_html
+assumeWellformed: true
+preserve_whitespace: false
+attributes:
+  xml:lang:
+    ruleTypes: [ATTRIBUTE_WRITABLE]
+  xml:id:
+    ruleTypes: [ATTRIBUTE_ID]
+  id:
+    ruleTypes: [ATTRIBUTE_ID]
+  xml:space:
+    ruleTypes: [ATTRIBUTE_PRESERVE_WHITESPACE]
+    preserve: ['xml:space', EQUALS, preserve]
+    default: ['xml:space', EQUALS, default]
+  
+  # 'Value1', 'Value2', 'Value3', and 'Value4' are translatable
+  # attributes. Because the global_pcdata_subfilter is specified,
+  # we will subfilter these attributes regardless of the elements
+  # they appear in
+  value1:
+    ruleTypes: [ATTRIBUTE_TRANS]
+  value2:
+    ruleTypes: [ATTRIBUTE_TRANS]
+  value3:
+    ruleTypes: [ATTRIBUTE_TRANS]
+  value4:
+    ruleTypes: [ATTRIBUTE_TRANS]
+    
+elements:
+  # content of Foo will be subfiltered
+  # no other elements will have their content subfiltered
+  foo:
+    ruleTypes: [TEXTUNIT]
+    

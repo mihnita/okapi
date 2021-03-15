@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts36881.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Connections</source>
+<seg-source><mrk mid="0" mtype="seg">Connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> object represents a connection with a database.</source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> object represents a connection with a database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> object represents a connection with a database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">JDBC Connections</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC Connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC Connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">definition</source>
+<seg-source><mrk mid="0" mtype="seg">definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Connections</source>
+<seg-source><mrk mid="0" mtype="seg">Connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">getting</source>
+<seg-source><mrk mid="0" mtype="seg">getting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">getting</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Connecting to multiple databases</source>
+<seg-source><mrk mid="0" mtype="seg">Connecting to multiple databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connecting to multiple databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Within the scope of one <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept>, you access only a single <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> database. (Database-side JDBC routines can allow you to access more than one database in some circumstances.) A single application might allow one or more <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connections<ept id="3">&lt;/i&gt;</ept> to <bpt id="4" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>, either to a single database or to many different databases, provided that all the databases are within the same system.</source>
+<seg-source><mrk mid="0" mtype="seg">Within the scope of one <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept>, you access only a single <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> database.</mrk><mrk mid="1" mtype="seg"> (Database-side JDBC routines can allow you to access more than one database in some circumstances.) A single application might allow one or more <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connections<ept id="3">&lt;/i&gt;</ept> to <bpt id="4" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>, either to a single database or to many different databases, provided that all the databases are within the same system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Within the scope of one <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept>, you access only a single <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> database.</mrk><mrk mid="1" mtype="seg"> (Database-side JDBC routines can allow you to access more than one database in some circumstances.) A single application might allow one or more <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connections<ept id="3">&lt;/i&gt;</ept> to <bpt id="4" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>, either to a single database or to many different databases, provided that all the databases are within the same system.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">With DriverManager, you use the connection URL as an argument to get the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getConnection<ept id="1">&lt;/i&gt;</ept> method to specify which database to connect to and other details.</source>
+<seg-source><mrk mid="0" mtype="seg">With DriverManager, you use the connection URL as an argument to get the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getConnection<ept id="1">&lt;/i&gt;</ept> method to specify which database to connect to and other details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">With DriverManager, you use the connection URL as an argument to get the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getConnection<ept id="1">&lt;/i&gt;</ept> method to specify which database to connect to and other details.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The following example shows an application establishing three separate connections to two different databases in the current system.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example shows an application establishing three separate connections to two different databases in the current system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example shows an application establishing three separate connections to two different databases in the current system.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Connection conn = DriverManager.getConnection( "jdbc:derby:sample"); System.out.println("Connected to database sample"); conn.setAutoCommit(false); Connection conn2 = DriverManager.getConnection( "jdbc:derby:newDB;create=true"); System.out.println("Created AND connected to newDB"); conn2.setAutoCommit(false); Connection conn3 = DriverManager.getConnection( "jdbc:derby:newDB"); System.out.println("Got second connection to newDB"); conn3.setAutoCommit(false);</source>
+<seg-source><mrk mid="0" mtype="seg">Connection conn = DriverManager.getConnection( "jdbc:derby:sample"); System.out.println("Connected to database sample"); conn.setAutoCommit(false); Connection conn2 = DriverManager.getConnection( "jdbc:derby:newDB;create=true"); System.out.println("Created AND connected to newDB"); conn2.setAutoCommit(false); Connection conn3 = DriverManager.getConnection( "jdbc:derby:newDB"); System.out.println("Got second connection to newDB"); conn3.setAutoCommit(false);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connection conn = DriverManager.getConnection( "jdbc:derby:sample"); System.out.println("Connected to database sample"); conn.setAutoCommit(false); Connection conn2 = DriverManager.getConnection( "jdbc:derby:newDB;create=true"); System.out.println("Created AND connected to newDB"); conn2.setAutoCommit(false); Connection conn3 = DriverManager.getConnection( "jdbc:derby:newDB"); System.out.println("Got second connection to newDB"); conn3.setAutoCommit(false);</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> object has no association with any specific thread; during its lifetime, any number of threads might have access to it, as controlled by the application.</source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> object has no association with any specific thread; during its lifetime, any number of threads might have access to it, as controlled by the application.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> object has no association with any specific thread; during its lifetime, any number of threads might have access to it, as controlled by the application.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminappsruntimeinfo.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Obtaining Network Server runtime information</source>
+<seg-source><mrk mid="0" mtype="seg">Obtaining Network Server runtime information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Obtaining Network Server runtime information</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimeinfo<ept id="1">&lt;/codeph&gt;</ept> command or the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>getRuntimeInfo<ept id="2">&lt;/codeph&gt;</ept> method to get memory usage and current session information about the Network Server, including user, database, and prepared statement information.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimeinfo<ept id="1">&lt;/codeph&gt;</ept> command or the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>getRuntimeInfo<ept id="2">&lt;/codeph&gt;</ept> method to get memory usage and current session information about the Network Server, including user, database, and prepared statement information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimeinfo<ept id="1">&lt;/codeph&gt;</ept> command or the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>getRuntimeInfo<ept id="2">&lt;/codeph&gt;</ept> method to get memory usage and current session information about the Network Server, including user, database, and prepared statement information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">To run <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimeinfo<ept id="1">&lt;/codeph&gt;</ept> from the command line:</source>
+<seg-source><mrk mid="0" mtype="seg">To run <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimeinfo<ept id="1">&lt;/codeph&gt;</ept> from the command line:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To run <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimeinfo<ept id="1">&lt;/codeph&gt;</ept> from the command line:</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl runtimeinfo [-h &lt;<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="2">&lt;/i&gt;</ept>&gt;][&lt;-p <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="3">&lt;/i&gt;</ept>&gt;]<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl runtimeinfo [-h &lt;<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="2">&lt;/i&gt;</ept>&gt;][&lt;-p <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="3">&lt;/i&gt;</ept>&gt;]<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl runtimeinfo [-h &lt;<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="2">&lt;/i&gt;</ept>&gt;][&lt;-p <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="3">&lt;/i&gt;</ept>&gt;]<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>getRuntimeInfo<ept id="1">&lt;/codeph&gt;</ept> method returns the same information as the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimeinfo<ept id="2">&lt;/codeph&gt;</ept> command. The signature for the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>getRuntimeInfo<ept id="3">&lt;/codeph&gt;</ept> method is</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>getRuntimeInfo<ept id="1">&lt;/codeph&gt;</ept> method returns the same information as the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimeinfo<ept id="2">&lt;/codeph&gt;</ept> command.</mrk><mrk mid="1" mtype="seg"> The signature for the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>getRuntimeInfo<ept id="3">&lt;/codeph&gt;</ept> method is</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>getRuntimeInfo<ept id="1">&lt;/codeph&gt;</ept> method returns the same information as the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimeinfo<ept id="2">&lt;/codeph&gt;</ept> command.</mrk><mrk mid="1" mtype="seg"> The signature for the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>getRuntimeInfo<ept id="3">&lt;/codeph&gt;</ept> method is</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">String getRuntimeInfo()</source>
+<seg-source><mrk mid="0" mtype="seg">String getRuntimeInfo()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String getRuntimeInfo()</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">For example:</source>
+<seg-source><mrk mid="0" mtype="seg">For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">NetworkServerControl serverControl = new NetworkServerControl(); String <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>myinfo<ept id="1">&lt;/i&gt;</ept> = serverControl.getRuntimeInfo();</source>
+<seg-source><mrk mid="0" mtype="seg">NetworkServerControl serverControl = new NetworkServerControl(); String <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>myinfo<ept id="1">&lt;/i&gt;</ept> = serverControl.getRuntimeInfo();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NetworkServerControl serverControl = new NetworkServerControl(); String <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>myinfo<ept id="1">&lt;/i&gt;</ept> = serverControl.getRuntimeInfo();</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

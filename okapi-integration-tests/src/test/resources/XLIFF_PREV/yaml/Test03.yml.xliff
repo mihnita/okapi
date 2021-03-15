@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Test03.yml.tkitMerged" source-language="en" target-language="fr" datatype="x-text/x-yaml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<group id="sg2">
+<group id="sg3">
+<group id="sg4">
+<trans-unit id="tu1" resname="fr/date/formats/default" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph>/<ph id="2" ctype="x-regxph" equiv-text="%m">%m</ph>/<ph id="3" ctype="x-regxph" equiv-text="%Y">%Y</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph>/<ph id="2" ctype="x-regxph" equiv-text="%m">%m</ph>/<ph id="3" ctype="x-regxph" equiv-text="%Y">%Y</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph>/<ph id="2" ctype="x-regxph" equiv-text="%m">%m</ph>/<ph id="3" ctype="x-regxph" equiv-text="%Y">%Y</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="fr/date/formats/short" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%e">%e</ph> <ph id="2" ctype="x-regxph" equiv-text="%b">%b</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%e">%e</ph> <ph id="2" ctype="x-regxph" equiv-text="%b">%b</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%e">%e</ph> <ph id="2" ctype="x-regxph" equiv-text="%b">%b</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu3" resname="fr/date/formats/long" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%e">%e</ph> <ph id="2" ctype="x-regxph" equiv-text="%B">%B</ph> <ph id="3" ctype="x-regxph" equiv-text="%Y">%Y</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%e">%e</ph> <ph id="2" ctype="x-regxph" equiv-text="%B">%B</ph> <ph id="3" ctype="x-regxph" equiv-text="%Y">%Y</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%e">%e</ph> <ph id="2" ctype="x-regxph" equiv-text="%B">%B</ph> <ph id="3" ctype="x-regxph" equiv-text="%Y">%Y</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="fr/date/formats/long_ordinal" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%e">%e</ph> <ph id="2" ctype="x-regxph" equiv-text="%B">%B</ph> <ph id="3" ctype="x-regxph" equiv-text="%Y">%Y</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%e">%e</ph> <ph id="2" ctype="x-regxph" equiv-text="%B">%B</ph> <ph id="3" ctype="x-regxph" equiv-text="%Y">%Y</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%e">%e</ph> <ph id="2" ctype="x-regxph" equiv-text="%B">%B</ph> <ph id="3" ctype="x-regxph" equiv-text="%Y">%Y</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu5" resname="fr/date/formats/only_day" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%e">%e</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%e">%e</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%e">%e</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="sg5">
+<trans-unit id="tu6" resname="fr/date/day_names" xml:space="preserve">
+<source xml:lang="en">dimanche</source>
+<seg-source><mrk mid="0" mtype="seg">dimanche</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dimanche</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" resname="fr/date/day_names" xml:space="preserve">
+<source xml:lang="en">lundi</source>
+<seg-source><mrk mid="0" mtype="seg">lundi</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lundi</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" resname="fr/date/day_names" xml:space="preserve">
+<source xml:lang="en">mardi</source>
+<seg-source><mrk mid="0" mtype="seg">mardi</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mardi</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" resname="fr/date/day_names" xml:space="preserve">
+<source xml:lang="en">mercredi</source>
+<seg-source><mrk mid="0" mtype="seg">mercredi</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mercredi</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" resname="fr/date/day_names" xml:space="preserve">
+<source xml:lang="en">jeudi</source>
+<seg-source><mrk mid="0" mtype="seg">jeudi</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jeudi</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" resname="fr/date/day_names" xml:space="preserve">
+<source xml:lang="en">vendredi</source>
+<seg-source><mrk mid="0" mtype="seg">vendredi</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">vendredi</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" resname="fr/date/day_names" xml:space="preserve">
+<source xml:lang="en">samedi</source>
+<seg-source><mrk mid="0" mtype="seg">samedi</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">samedi</mrk></target>
+</trans-unit>
+</group>
+<group id="sg6">
+<trans-unit id="tu13" resname="fr/date/abbr_day_names" xml:space="preserve">
+<source xml:lang="en">dim</source>
+<seg-source><mrk mid="0" mtype="seg">dim</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dim</mrk></target>
+</trans-unit>
+<trans-unit id="tu14" resname="fr/date/abbr_day_names" xml:space="preserve">
+<source xml:lang="en">lun</source>
+<seg-source><mrk mid="0" mtype="seg">lun</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lun</mrk></target>
+</trans-unit>
+<trans-unit id="tu15" resname="fr/date/abbr_day_names" xml:space="preserve">
+<source xml:lang="en">mar</source>
+<seg-source><mrk mid="0" mtype="seg">mar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mar</mrk></target>
+</trans-unit>
+<trans-unit id="tu16" resname="fr/date/abbr_day_names" xml:space="preserve">
+<source xml:lang="en">mer</source>
+<seg-source><mrk mid="0" mtype="seg">mer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mer</mrk></target>
+</trans-unit>
+<trans-unit id="tu17" resname="fr/date/abbr_day_names" xml:space="preserve">
+<source xml:lang="en">jeu</source>
+<seg-source><mrk mid="0" mtype="seg">jeu</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jeu</mrk></target>
+</trans-unit>
+<trans-unit id="tu18" resname="fr/date/abbr_day_names" xml:space="preserve">
+<source xml:lang="en">ven</source>
+<seg-source><mrk mid="0" mtype="seg">ven</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ven</mrk></target>
+</trans-unit>
+<trans-unit id="tu19" resname="fr/date/abbr_day_names" xml:space="preserve">
+<source xml:lang="en">sam</source>
+<seg-source><mrk mid="0" mtype="seg">sam</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sam</mrk></target>
+</trans-unit>
+</group>
+<group id="sg7">
+<trans-unit id="tu20" resname="fr/date/month_names" xml:space="preserve">
+<source xml:lang="en">~</source>
+<seg-source><mrk mid="0" mtype="seg">~</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">~</mrk></target>
+</trans-unit>
+<trans-unit id="tu21" resname="fr/date/month_names" xml:space="preserve">
+<source xml:lang="en">janvier</source>
+<seg-source><mrk mid="0" mtype="seg">janvier</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">janvier</mrk></target>
+</trans-unit>
+<trans-unit id="tu22" resname="fr/date/month_names" xml:space="preserve">
+<source xml:lang="en">février</source>
+<seg-source><mrk mid="0" mtype="seg">février</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">février</mrk></target>
+</trans-unit>
+<trans-unit id="tu23" resname="fr/date/month_names" xml:space="preserve">
+<source xml:lang="en">mars</source>
+<seg-source><mrk mid="0" mtype="seg">mars</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mars</mrk></target>
+</trans-unit>
+<trans-unit id="tu24" resname="fr/date/month_names" xml:space="preserve">
+<source xml:lang="en">avril</source>
+<seg-source><mrk mid="0" mtype="seg">avril</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">avril</mrk></target>
+</trans-unit>
+<trans-unit id="tu25" resname="fr/date/month_names" xml:space="preserve">
+<source xml:lang="en">mai</source>
+<seg-source><mrk mid="0" mtype="seg">mai</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mai</mrk></target>
+</trans-unit>
+<trans-unit id="tu26" resname="fr/date/month_names" xml:space="preserve">
+<source xml:lang="en">juin</source>
+<seg-source><mrk mid="0" mtype="seg">juin</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">juin</mrk></target>
+</trans-unit>
+<trans-unit id="tu27" resname="fr/date/month_names" xml:space="preserve">
+<source xml:lang="en">juillet</source>
+<seg-source><mrk mid="0" mtype="seg">juillet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">juillet</mrk></target>
+</trans-unit>
+<trans-unit id="tu28" resname="fr/date/month_names" xml:space="preserve">
+<source xml:lang="en">août</source>
+<seg-source><mrk mid="0" mtype="seg">août</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">août</mrk></target>
+</trans-unit>
+<trans-unit id="tu29" resname="fr/date/month_names" xml:space="preserve">
+<source xml:lang="en">septembre</source>
+<seg-source><mrk mid="0" mtype="seg">septembre</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">septembre</mrk></target>
+</trans-unit>
+<trans-unit id="tu30" resname="fr/date/month_names" xml:space="preserve">
+<source xml:lang="en">octobre</source>
+<seg-source><mrk mid="0" mtype="seg">octobre</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">octobre</mrk></target>
+</trans-unit>
+<trans-unit id="tu31" resname="fr/date/month_names" xml:space="preserve">
+<source xml:lang="en">novembre</source>
+<seg-source><mrk mid="0" mtype="seg">novembre</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">novembre</mrk></target>
+</trans-unit>
+<trans-unit id="tu32" resname="fr/date/month_names" xml:space="preserve">
+<source xml:lang="en">décembre</source>
+<seg-source><mrk mid="0" mtype="seg">décembre</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">décembre</mrk></target>
+</trans-unit>
+</group>
+<group id="sg8">
+<trans-unit id="tu33" resname="fr/date/abbr_month_names" xml:space="preserve">
+<source xml:lang="en">~</source>
+<seg-source><mrk mid="0" mtype="seg">~</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">~</mrk></target>
+</trans-unit>
+<trans-unit id="tu34" resname="fr/date/abbr_month_names" xml:space="preserve">
+<source xml:lang="en">jan.</source>
+<seg-source><mrk mid="0" mtype="seg">jan.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jan.</mrk></target>
+</trans-unit>
+<trans-unit id="tu35" resname="fr/date/abbr_month_names" xml:space="preserve">
+<source xml:lang="en">fév.</source>
+<seg-source><mrk mid="0" mtype="seg">fév.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">fév.</mrk></target>
+</trans-unit>
+<trans-unit id="tu36" resname="fr/date/abbr_month_names" xml:space="preserve">
+<source xml:lang="en">mar.</source>
+<seg-source><mrk mid="0" mtype="seg">mar.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mar.</mrk></target>
+</trans-unit>
+<trans-unit id="tu37" resname="fr/date/abbr_month_names" xml:space="preserve">
+<source xml:lang="en">avr.</source>
+<seg-source><mrk mid="0" mtype="seg">avr.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">avr.</mrk></target>
+</trans-unit>
+<trans-unit id="tu38" resname="fr/date/abbr_month_names" xml:space="preserve">
+<source xml:lang="en">mai</source>
+<seg-source><mrk mid="0" mtype="seg">mai</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mai</mrk></target>
+</trans-unit>
+<trans-unit id="tu39" resname="fr/date/abbr_month_names" xml:space="preserve">
+<source xml:lang="en">juin</source>
+<seg-source><mrk mid="0" mtype="seg">juin</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">juin</mrk></target>
+</trans-unit>
+<trans-unit id="tu40" resname="fr/date/abbr_month_names" xml:space="preserve">
+<source xml:lang="en">juil.</source>
+<seg-source><mrk mid="0" mtype="seg">juil.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">juil.</mrk></target>
+</trans-unit>
+<trans-unit id="tu41" resname="fr/date/abbr_month_names" xml:space="preserve">
+<source xml:lang="en">août</source>
+<seg-source><mrk mid="0" mtype="seg">août</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">août</mrk></target>
+</trans-unit>
+<trans-unit id="tu42" resname="fr/date/abbr_month_names" xml:space="preserve">
+<source xml:lang="en">sept.</source>
+<seg-source><mrk mid="0" mtype="seg">sept.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sept.</mrk></target>
+</trans-unit>
+<trans-unit id="tu43" resname="fr/date/abbr_month_names" xml:space="preserve">
+<source xml:lang="en">oct.</source>
+<seg-source><mrk mid="0" mtype="seg">oct.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">oct.</mrk></target>
+</trans-unit>
+<trans-unit id="tu44" resname="fr/date/abbr_month_names" xml:space="preserve">
+<source xml:lang="en">nov.</source>
+<seg-source><mrk mid="0" mtype="seg">nov.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">nov.</mrk></target>
+</trans-unit>
+<trans-unit id="tu45" resname="fr/date/abbr_month_names" xml:space="preserve">
+<source xml:lang="en">déc.</source>
+<seg-source><mrk mid="0" mtype="seg">déc.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">déc.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg9">
+<trans-unit id="tu46" resname="fr/date/order" xml:space="preserve">
+<source xml:lang="en">:day</source>
+<seg-source><mrk mid="0" mtype="seg">:day</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:day</mrk></target>
+</trans-unit>
+<trans-unit id="tu47" resname="fr/date/order" xml:space="preserve">
+<source xml:lang="en">:month</source>
+<seg-source><mrk mid="0" mtype="seg">:month</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:month</mrk></target>
+</trans-unit>
+<trans-unit id="tu48" resname="fr/date/order" xml:space="preserve">
+<source xml:lang="en">:year </source>
+<seg-source><mrk mid="0" mtype="seg">:year</mrk> </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:year</mrk> </target>
+</trans-unit>
+</group>
+</group>
+<group id="sg10">
+<group id="sg11">
+<trans-unit id="tu49" resname="fr/time/formats/default" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> <ph id="2" ctype="x-regxph" equiv-text="%B">%B</ph> <ph id="3" ctype="x-regxph" equiv-text="%Y">%Y</ph> <ph id="4" ctype="x-regxph" equiv-text="%H">%H</ph>:<ph id="5" ctype="x-regxph" equiv-text="%M">%M</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> <ph id="2" ctype="x-regxph" equiv-text="%B">%B</ph> <ph id="3" ctype="x-regxph" equiv-text="%Y">%Y</ph> <ph id="4" ctype="x-regxph" equiv-text="%H">%H</ph>:<ph id="5" ctype="x-regxph" equiv-text="%M">%M</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> <ph id="2" ctype="x-regxph" equiv-text="%B">%B</ph> <ph id="3" ctype="x-regxph" equiv-text="%Y">%Y</ph> <ph id="4" ctype="x-regxph" equiv-text="%H">%H</ph>:<ph id="5" ctype="x-regxph" equiv-text="%M">%M</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu50" resname="fr/time/formats/time" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%H">%H</ph>:<ph id="2" ctype="x-regxph" equiv-text="%M">%M</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%H">%H</ph>:<ph id="2" ctype="x-regxph" equiv-text="%M">%M</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%H">%H</ph>:<ph id="2" ctype="x-regxph" equiv-text="%M">%M</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu51" resname="fr/time/formats/short" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> <ph id="2" ctype="x-regxph" equiv-text="%b">%b</ph> <ph id="3" ctype="x-regxph" equiv-text="%H">%H</ph>:<ph id="4" ctype="x-regxph" equiv-text="%M">%M</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> <ph id="2" ctype="x-regxph" equiv-text="%b">%b</ph> <ph id="3" ctype="x-regxph" equiv-text="%H">%H</ph>:<ph id="4" ctype="x-regxph" equiv-text="%M">%M</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> <ph id="2" ctype="x-regxph" equiv-text="%b">%b</ph> <ph id="3" ctype="x-regxph" equiv-text="%H">%H</ph>:<ph id="4" ctype="x-regxph" equiv-text="%M">%M</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu52" resname="fr/time/formats/long" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%A">%A</ph> <ph id="2" ctype="x-regxph" equiv-text="%d">%d</ph> <ph id="3" ctype="x-regxph" equiv-text="%B">%B</ph> <ph id="4" ctype="x-regxph" equiv-text="%Y">%Y</ph> <ph id="5" ctype="x-regxph" equiv-text="%H">%H</ph>:<ph id="6" ctype="x-regxph" equiv-text="%M">%M</ph>:<ph id="7" ctype="x-regxph" equiv-text="%S">%S</ph> <ph id="8" ctype="x-regxph" equiv-text="%Z">%Z</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%A">%A</ph> <ph id="2" ctype="x-regxph" equiv-text="%d">%d</ph> <ph id="3" ctype="x-regxph" equiv-text="%B">%B</ph> <ph id="4" ctype="x-regxph" equiv-text="%Y">%Y</ph> <ph id="5" ctype="x-regxph" equiv-text="%H">%H</ph>:<ph id="6" ctype="x-regxph" equiv-text="%M">%M</ph>:<ph id="7" ctype="x-regxph" equiv-text="%S">%S</ph> <ph id="8" ctype="x-regxph" equiv-text="%Z">%Z</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%A">%A</ph> <ph id="2" ctype="x-regxph" equiv-text="%d">%d</ph> <ph id="3" ctype="x-regxph" equiv-text="%B">%B</ph> <ph id="4" ctype="x-regxph" equiv-text="%Y">%Y</ph> <ph id="5" ctype="x-regxph" equiv-text="%H">%H</ph>:<ph id="6" ctype="x-regxph" equiv-text="%M">%M</ph>:<ph id="7" ctype="x-regxph" equiv-text="%S">%S</ph> <ph id="8" ctype="x-regxph" equiv-text="%Z">%Z</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu53" resname="fr/time/formats/long_ordinal" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%A">%A</ph> <ph id="2" ctype="x-regxph" equiv-text="%d">%d</ph> <ph id="3" ctype="x-regxph" equiv-text="%B">%B</ph> <ph id="4" ctype="x-regxph" equiv-text="%Y">%Y</ph> <ph id="5" ctype="x-regxph" equiv-text="%H">%H</ph>:<ph id="6" ctype="x-regxph" equiv-text="%M">%M</ph>:<ph id="7" ctype="x-regxph" equiv-text="%S">%S</ph> <ph id="8" ctype="x-regxph" equiv-text="%Z">%Z</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%A">%A</ph> <ph id="2" ctype="x-regxph" equiv-text="%d">%d</ph> <ph id="3" ctype="x-regxph" equiv-text="%B">%B</ph> <ph id="4" ctype="x-regxph" equiv-text="%Y">%Y</ph> <ph id="5" ctype="x-regxph" equiv-text="%H">%H</ph>:<ph id="6" ctype="x-regxph" equiv-text="%M">%M</ph>:<ph id="7" ctype="x-regxph" equiv-text="%S">%S</ph> <ph id="8" ctype="x-regxph" equiv-text="%Z">%Z</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%A">%A</ph> <ph id="2" ctype="x-regxph" equiv-text="%d">%d</ph> <ph id="3" ctype="x-regxph" equiv-text="%B">%B</ph> <ph id="4" ctype="x-regxph" equiv-text="%Y">%Y</ph> <ph id="5" ctype="x-regxph" equiv-text="%H">%H</ph>:<ph id="6" ctype="x-regxph" equiv-text="%M">%M</ph>:<ph id="7" ctype="x-regxph" equiv-text="%S">%S</ph> <ph id="8" ctype="x-regxph" equiv-text="%Z">%Z</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu54" resname="fr/time/formats/only_second" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%S">%S</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%S">%S</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%S">%S</ph></mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu55" resname="fr/time/am" xml:space="preserve">
+<source xml:lang="en">am</source>
+<seg-source><mrk mid="0" mtype="seg">am</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">am</mrk></target>
+</trans-unit>
+<trans-unit id="tu56" resname="fr/time/pm" xml:space="preserve">
+<source xml:lang="en">pm</source>
+<seg-source><mrk mid="0" mtype="seg">pm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">pm</mrk></target>
+</trans-unit>
+</group>
+<group id="sg12">
+<group id="sg13">
+<trans-unit id="tu57" resname="fr/datetime/distance_in_words/half_a_minute" xml:space="preserve">
+<source xml:lang="en">une demi-minute</source>
+<seg-source><mrk mid="0" mtype="seg">une demi-minute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">une demi-minute</mrk></target>
+</trans-unit>
+<group id="sg14">
+<trans-unit id="tu58" resname="fr/datetime/distance_in_words/less_than_x_seconds/zero" xml:space="preserve">
+<source xml:lang="en">moins d'une seconde</source>
+<seg-source><mrk mid="0" mtype="seg">moins d'une seconde</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">moins d'une seconde</mrk></target>
+</trans-unit>
+<trans-unit id="tu59" resname="fr/datetime/distance_in_words/less_than_x_seconds/one" xml:space="preserve">
+<source xml:lang="en">moins de 1 seconde</source>
+<seg-source><mrk mid="0" mtype="seg">moins de 1 seconde</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">moins de 1 seconde</mrk></target>
+</trans-unit>
+<trans-unit id="tu60" resname="fr/datetime/distance_in_words/less_than_x_seconds/other" xml:space="preserve">
+<source xml:lang="en">moins de <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> secondes</source>
+<seg-source><mrk mid="0" mtype="seg">moins de <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> secondes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">moins de <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> secondes</mrk></target>
+</trans-unit>
+</group>
+<group id="sg15">
+<trans-unit id="tu61" resname="fr/datetime/distance_in_words/x_seconds/one" xml:space="preserve">
+<source xml:lang="en">1 seconde</source>
+<seg-source><mrk mid="0" mtype="seg">1 seconde</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 seconde</mrk></target>
+</trans-unit>
+<trans-unit id="tu62" resname="fr/datetime/distance_in_words/x_seconds/other" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> secondes</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> secondes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> secondes</mrk></target>
+</trans-unit>
+</group>
+<group id="sg16">
+<trans-unit id="tu63" resname="fr/datetime/distance_in_words/less_than_x_minutes/zero" xml:space="preserve">
+<source xml:lang="en">moins d'une minute</source>
+<seg-source><mrk mid="0" mtype="seg">moins d'une minute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">moins d'une minute</mrk></target>
+</trans-unit>
+<trans-unit id="tu64" resname="fr/datetime/distance_in_words/less_than_x_minutes/one" xml:space="preserve">
+<source xml:lang="en">moins de 1 minute</source>
+<seg-source><mrk mid="0" mtype="seg">moins de 1 minute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">moins de 1 minute</mrk></target>
+</trans-unit>
+<trans-unit id="tu65" resname="fr/datetime/distance_in_words/less_than_x_minutes/other" xml:space="preserve">
+<source xml:lang="en">moins de <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> minutes</source>
+<seg-source><mrk mid="0" mtype="seg">moins de <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> minutes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">moins de <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> minutes</mrk></target>
+</trans-unit>
+</group>
+<group id="sg17">
+<trans-unit id="tu66" resname="fr/datetime/distance_in_words/x_minutes/one" xml:space="preserve">
+<source xml:lang="en">1 minute</source>
+<seg-source><mrk mid="0" mtype="seg">1 minute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 minute</mrk></target>
+</trans-unit>
+<trans-unit id="tu67" resname="fr/datetime/distance_in_words/x_minutes/other" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> minutes</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> minutes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> minutes</mrk></target>
+</trans-unit>
+</group>
+<group id="sg18">
+<trans-unit id="tu68" resname="fr/datetime/distance_in_words/about_x_hours/one" xml:space="preserve">
+<source xml:lang="en">environ une heure</source>
+<seg-source><mrk mid="0" mtype="seg">environ une heure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">environ une heure</mrk></target>
+</trans-unit>
+<trans-unit id="tu69" resname="fr/datetime/distance_in_words/about_x_hours/other" xml:space="preserve">
+<source xml:lang="en">environ <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> heures</source>
+<seg-source><mrk mid="0" mtype="seg">environ <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> heures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">environ <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> heures</mrk></target>
+</trans-unit>
+</group>
+<group id="sg19">
+<trans-unit id="tu70" resname="fr/datetime/distance_in_words/x_days/one" xml:space="preserve">
+<source xml:lang="en">1 jour</source>
+<seg-source><mrk mid="0" mtype="seg">1 jour</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 jour</mrk></target>
+</trans-unit>
+<trans-unit id="tu71" resname="fr/datetime/distance_in_words/x_days/other" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> jours</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> jours</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> jours</mrk></target>
+</trans-unit>
+</group>
+<group id="sg20">
+<trans-unit id="tu72" resname="fr/datetime/distance_in_words/about_x_months/one" xml:space="preserve">
+<source xml:lang="en">environ un mois</source>
+<seg-source><mrk mid="0" mtype="seg">environ un mois</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">environ un mois</mrk></target>
+</trans-unit>
+<trans-unit id="tu73" resname="fr/datetime/distance_in_words/about_x_months/other" xml:space="preserve">
+<source xml:lang="en">environ <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> mois</source>
+<seg-source><mrk mid="0" mtype="seg">environ <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> mois</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">environ <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> mois</mrk></target>
+</trans-unit>
+</group>
+<group id="sg21">
+<trans-unit id="tu74" resname="fr/datetime/distance_in_words/x_months/one" xml:space="preserve">
+<source xml:lang="en">1 mois</source>
+<seg-source><mrk mid="0" mtype="seg">1 mois</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 mois</mrk></target>
+</trans-unit>
+<trans-unit id="tu75" resname="fr/datetime/distance_in_words/x_months/other" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> mois</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> mois</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> mois</mrk></target>
+</trans-unit>
+</group>
+<group id="sg22">
+<trans-unit id="tu76" resname="fr/datetime/distance_in_words/about_x_years/one" xml:space="preserve">
+<source xml:lang="en">environ un an</source>
+<seg-source><mrk mid="0" mtype="seg">environ un an</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">environ un an</mrk></target>
+</trans-unit>
+<trans-unit id="tu77" resname="fr/datetime/distance_in_words/about_x_years/other" xml:space="preserve">
+<source xml:lang="en">environ <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> ans</source>
+<seg-source><mrk mid="0" mtype="seg">environ <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> ans</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">environ <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> ans</mrk></target>
+</trans-unit>
+</group>
+<group id="sg23">
+<trans-unit id="tu78" resname="fr/datetime/distance_in_words/over_x_years/one" xml:space="preserve">
+<source xml:lang="en">plus d'un an</source>
+<seg-source><mrk mid="0" mtype="seg">plus d'un an</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">plus d'un an</mrk></target>
+</trans-unit>
+<trans-unit id="tu79" resname="fr/datetime/distance_in_words/over_x_years/other" xml:space="preserve">
+<source xml:lang="en">plus de <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> ans</source>
+<seg-source><mrk mid="0" mtype="seg">plus de <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> ans</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">plus de <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> ans</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg24">
+<trans-unit id="tu80" resname="fr/datetime/prompts/year" xml:space="preserve">
+<source xml:lang="en">Année</source>
+<seg-source><mrk mid="0" mtype="seg">Année</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Année</mrk></target>
+</trans-unit>
+<trans-unit id="tu81" resname="fr/datetime/prompts/month" xml:space="preserve">
+<source xml:lang="en">Mois</source>
+<seg-source><mrk mid="0" mtype="seg">Mois</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mois</mrk></target>
+</trans-unit>
+<trans-unit id="tu82" resname="fr/datetime/prompts/day" xml:space="preserve">
+<source xml:lang="en">Jour</source>
+<seg-source><mrk mid="0" mtype="seg">Jour</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Jour</mrk></target>
+</trans-unit>
+<trans-unit id="tu83" resname="fr/datetime/prompts/hour" xml:space="preserve">
+<source xml:lang="en">Heure</source>
+<seg-source><mrk mid="0" mtype="seg">Heure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Heure</mrk></target>
+</trans-unit>
+<trans-unit id="tu84" resname="fr/datetime/prompts/minute" xml:space="preserve">
+<source xml:lang="en">Minute</source>
+<seg-source><mrk mid="0" mtype="seg">Minute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Minute</mrk></target>
+</trans-unit>
+<trans-unit id="tu85" resname="fr/datetime/prompts/second" xml:space="preserve">
+<source xml:lang="en">Seconde</source>
+<seg-source><mrk mid="0" mtype="seg">Seconde</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Seconde</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg25">
+<group id="sg26">
+<trans-unit id="tu86" resname="fr/number/format/precision" xml:space="preserve">
+<source xml:lang="en">3</source>
+<seg-source><mrk mid="0" mtype="seg">3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3</mrk></target>
+</trans-unit>
+<trans-unit id="tu87" resname="fr/number/format/separator" xml:space="preserve">
+<source xml:lang="en">,</source>
+<seg-source><mrk mid="0" mtype="seg">,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,</mrk></target>
+</trans-unit>
+<trans-unit id="tu88" resname="fr/number/format/delimiter" xml:space="preserve">
+<source xml:lang="en"> </source>
+<seg-source><mrk mid="0" mtype="seg"> </mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> </mrk></target>
+</trans-unit>
+</group>
+<group id="sg27">
+<group id="sg28">
+<trans-unit id="tu89" resname="fr/number/currency/format/unit" xml:space="preserve">
+<source xml:lang="en">€</source>
+<seg-source><mrk mid="0" mtype="seg">€</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">€</mrk></target>
+</trans-unit>
+<trans-unit id="tu90" resname="fr/number/currency/format/precision" xml:space="preserve">
+<source xml:lang="en">2</source>
+<seg-source><mrk mid="0" mtype="seg">2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2</mrk></target>
+</trans-unit>
+<trans-unit id="tu91" resname="fr/number/currency/format/format" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%n">%n</ph> <ph id="2" ctype="x-regxph" equiv-text="%u">%u</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%n">%n</ph> <ph id="2" ctype="x-regxph" equiv-text="%u">%u</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%n">%n</ph> <ph id="2" ctype="x-regxph" equiv-text="%u">%u</ph></mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg29">
+<group id="sg30">
+<trans-unit id="tu92" resname="fr/number/human/format/delimiter" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu93" resname="fr/number/human/format/precision" xml:space="preserve">
+<source xml:lang="en">2</source>
+<seg-source><mrk mid="0" mtype="seg">2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2</mrk></target>
+</trans-unit>
+</group>
+<group id="sg31">
+<trans-unit id="tu94" resname="fr/number/human/storage_units/format" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%n">%n</ph> <ph id="2" ctype="x-regxph" equiv-text="%u">%u</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%n">%n</ph> <ph id="2" ctype="x-regxph" equiv-text="%u">%u</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%n">%n</ph> <ph id="2" ctype="x-regxph" equiv-text="%u">%u</ph></mrk></target>
+</trans-unit>
+<group id="sg32">
+<group id="sg33">
+<trans-unit id="tu95" resname="fr/number/human/storage_units/units/byte/one" xml:space="preserve">
+<source xml:lang="en">octet</source>
+<seg-source><mrk mid="0" mtype="seg">octet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">octet</mrk></target>
+</trans-unit>
+<trans-unit id="tu96" resname="fr/number/human/storage_units/units/byte/other" xml:space="preserve">
+<source xml:lang="en">octets</source>
+<seg-source><mrk mid="0" mtype="seg">octets</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">octets</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu97" resname="fr/number/human/storage_units/units/kb" xml:space="preserve">
+<source xml:lang="en">ko</source>
+<seg-source><mrk mid="0" mtype="seg">ko</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ko</mrk></target>
+</trans-unit>
+<trans-unit id="tu98" resname="fr/number/human/storage_units/units/mb" xml:space="preserve">
+<source xml:lang="en">Mo</source>
+<seg-source><mrk mid="0" mtype="seg">Mo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mo</mrk></target>
+</trans-unit>
+<trans-unit id="tu99" resname="fr/number/human/storage_units/units/gb" xml:space="preserve">
+<source xml:lang="en">Go</source>
+<seg-source><mrk mid="0" mtype="seg">Go</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Go</mrk></target>
+</trans-unit>
+<trans-unit id="tu100" resname="fr/number/human/storage_units/units/tb" xml:space="preserve">
+<source xml:lang="en">To</source>
+<seg-source><mrk mid="0" mtype="seg">To</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To</mrk></target>
+</trans-unit>
+</group>
+</group>
+</group>
+</group>
+<group id="sg34">
+<group id="sg35">
+<trans-unit id="tu101" resname="fr/support/array/sentence_connector" xml:space="preserve">
+<source xml:lang="en">et</source>
+<seg-source><mrk mid="0" mtype="seg">et</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">et</mrk></target>
+</trans-unit>
+<trans-unit id="tu102" resname="fr/support/array/skip_last_comma" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu103" resname="fr/support/array/words_connector" xml:space="preserve">
+<source xml:lang="en">, </source>
+<seg-source><mrk mid="0" mtype="seg">,</mrk> </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,</mrk> </target>
+</trans-unit>
+<trans-unit id="tu104" resname="fr/support/array/two_words_connector" xml:space="preserve">
+<source xml:lang="en"> et </source>
+<seg-source><mrk mid="0" mtype="seg"> et</mrk> </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> et</mrk> </target>
+</trans-unit>
+<trans-unit id="tu105" resname="fr/support/array/last_word_connector" xml:space="preserve">
+<source xml:lang="en"> et </source>
+<seg-source><mrk mid="0" mtype="seg"> et</mrk> </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> et</mrk> </target>
+</trans-unit>
+</group>
+</group>
+<group id="sg36">
+<group id="sg37">
+<group id="sg38">
+<group id="sg39">
+<trans-unit id="tu106" resname="fr/activerecord/errors/template/header/one" xml:space="preserve">
+<source xml:lang="en">Impossible d'enregistrer <ph id="1" ctype="x-regxph" equiv-text="{{model}}">{{model}}</ph>: 1 erreur</source>
+<seg-source><mrk mid="0" mtype="seg">Impossible d'enregistrer <ph id="1" ctype="x-regxph" equiv-text="{{model}}">{{model}}</ph>: 1 erreur</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Impossible d'enregistrer <ph id="1" ctype="x-regxph" equiv-text="{{model}}">{{model}}</ph>: 1 erreur</mrk></target>
+</trans-unit>
+<trans-unit id="tu107" resname="fr/activerecord/errors/template/header/other" xml:space="preserve">
+<source xml:lang="en">Impossible d'enregistrer <ph id="1" ctype="x-regxph" equiv-text="{{model}}">{{model}}</ph>: <ph id="2" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> erreurs.</source>
+<seg-source><mrk mid="0" mtype="seg">Impossible d'enregistrer <ph id="1" ctype="x-regxph" equiv-text="{{model}}">{{model}}</ph>: <ph id="2" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> erreurs.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Impossible d'enregistrer <ph id="1" ctype="x-regxph" equiv-text="{{model}}">{{model}}</ph>: <ph id="2" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> erreurs.</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu108" resname="fr/activerecord/errors/template/body" xml:space="preserve">
+<source xml:lang="en">Veuillez vérifier les champs suivants :</source>
+<seg-source><mrk mid="0" mtype="seg">Veuillez vérifier les champs suivants :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Veuillez vérifier les champs suivants :</mrk></target>
+</trans-unit>
+</group>
+<group id="sg40">
+<trans-unit id="tu109" resname="fr/activerecord/errors/messages/inclusion" xml:space="preserve">
+<source xml:lang="en">n'est pas inclus(e) dans la liste</source>
+<seg-source><mrk mid="0" mtype="seg">n'est pas inclus(e) dans la liste</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">n'est pas inclus(e) dans la liste</mrk></target>
+</trans-unit>
+<trans-unit id="tu110" resname="fr/activerecord/errors/messages/exclusion" xml:space="preserve">
+<source xml:lang="en">n'est pas disponible</source>
+<seg-source><mrk mid="0" mtype="seg">n'est pas disponible</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">n'est pas disponible</mrk></target>
+</trans-unit>
+<trans-unit id="tu111" resname="fr/activerecord/errors/messages/invalid" xml:space="preserve">
+<source xml:lang="en">n'est pas valide</source>
+<seg-source><mrk mid="0" mtype="seg">n'est pas valide</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">n'est pas valide</mrk></target>
+</trans-unit>
+<trans-unit id="tu112" resname="fr/activerecord/errors/messages/confirmation" xml:space="preserve">
+<source xml:lang="en">ne concorde pas avec la confirmation</source>
+<seg-source><mrk mid="0" mtype="seg">ne concorde pas avec la confirmation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ne concorde pas avec la confirmation</mrk></target>
+</trans-unit>
+<trans-unit id="tu113" resname="fr/activerecord/errors/messages/accepted" xml:space="preserve">
+<source xml:lang="en">doit être accepté(e)</source>
+<seg-source><mrk mid="0" mtype="seg">doit être accepté(e)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">doit être accepté(e)</mrk></target>
+</trans-unit>
+<trans-unit id="tu114" resname="fr/activerecord/errors/messages/empty" xml:space="preserve">
+<source xml:lang="en">doit être rempli(e)</source>
+<seg-source><mrk mid="0" mtype="seg">doit être rempli(e)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">doit être rempli(e)</mrk></target>
+</trans-unit>
+<trans-unit id="tu115" resname="fr/activerecord/errors/messages/blank" xml:space="preserve">
+<source xml:lang="en">doit être rempli(e)</source>
+<seg-source><mrk mid="0" mtype="seg">doit être rempli(e)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">doit être rempli(e)</mrk></target>
+</trans-unit>
+<trans-unit id="tu116" resname="fr/activerecord/errors/messages/too_long" xml:space="preserve">
+<source xml:lang="en">est trop long (pas plus de <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> caractères)</source>
+<seg-source><mrk mid="0" mtype="seg">est trop long (pas plus de <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> caractères)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">est trop long (pas plus de <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> caractères)</mrk></target>
+</trans-unit>
+<trans-unit id="tu117" resname="fr/activerecord/errors/messages/too_short" xml:space="preserve">
+<source xml:lang="en">est trop court (au moins <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> caractères)</source>
+<seg-source><mrk mid="0" mtype="seg">est trop court (au moins <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> caractères)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">est trop court (au moins <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> caractères)</mrk></target>
+</trans-unit>
+<trans-unit id="tu118" resname="fr/activerecord/errors/messages/wrong_length" xml:space="preserve">
+<source xml:lang="en">ne fait pas la bonne longueur (doit comporter <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> caractères)</source>
+<seg-source><mrk mid="0" mtype="seg">ne fait pas la bonne longueur (doit comporter <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> caractères)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ne fait pas la bonne longueur (doit comporter <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph> caractères)</mrk></target>
+</trans-unit>
+<trans-unit id="tu119" resname="fr/activerecord/errors/messages/taken" xml:space="preserve">
+<source xml:lang="en">n'est pas disponible</source>
+<seg-source><mrk mid="0" mtype="seg">n'est pas disponible</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">n'est pas disponible</mrk></target>
+</trans-unit>
+<trans-unit id="tu120" resname="fr/activerecord/errors/messages/not_a_number" xml:space="preserve">
+<source xml:lang="en">n'est pas un nombre</source>
+<seg-source><mrk mid="0" mtype="seg">n'est pas un nombre</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">n'est pas un nombre</mrk></target>
+</trans-unit>
+<trans-unit id="tu121" resname="fr/activerecord/errors/messages/greater_than" xml:space="preserve">
+<source xml:lang="en">doit être supérieur à <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph></source>
+<seg-source><mrk mid="0" mtype="seg">doit être supérieur à <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">doit être supérieur à <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu122" resname="fr/activerecord/errors/messages/greater_than_or_equal_to" xml:space="preserve">
+<source xml:lang="en">doit être supérieur ou égal à <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph></source>
+<seg-source><mrk mid="0" mtype="seg">doit être supérieur ou égal à <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">doit être supérieur ou égal à <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu123" resname="fr/activerecord/errors/messages/equal_to" xml:space="preserve">
+<source xml:lang="en">doit être égal à <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph></source>
+<seg-source><mrk mid="0" mtype="seg">doit être égal à <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">doit être égal à <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu124" resname="fr/activerecord/errors/messages/less_than" xml:space="preserve">
+<source xml:lang="en">doit être inférieur à <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph></source>
+<seg-source><mrk mid="0" mtype="seg">doit être inférieur à <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">doit être inférieur à <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu125" resname="fr/activerecord/errors/messages/less_than_or_equal_to" xml:space="preserve">
+<source xml:lang="en">doit être inférieur ou égal à <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph></source>
+<seg-source><mrk mid="0" mtype="seg">doit être inférieur ou égal à <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">doit être inférieur ou égal à <ph id="1" ctype="x-regxph" equiv-text="{{count}}">{{count}}</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu126" resname="fr/activerecord/errors/messages/odd" xml:space="preserve">
+<source xml:lang="en">doit être impair</source>
+<seg-source><mrk mid="0" mtype="seg">doit être impair</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">doit être impair</mrk></target>
+</trans-unit>
+<trans-unit id="tu127" resname="fr/activerecord/errors/messages/even" xml:space="preserve">
+<source xml:lang="en">doit être pair</source>
+<seg-source><mrk mid="0" mtype="seg">doit être pair</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">doit être pair</mrk></target>
+</trans-unit>
+<trans-unit id="tu128" resname="fr/activerecord/errors/messages/record_invalid" xml:space="preserve">
+<source xml:lang="en">La validation a échoué : <ph id="1" ctype="x-regxph" equiv-text="{{errors}}">{{errors}}</ph></source>
+<seg-source><mrk mid="0" mtype="seg">La validation a échoué : <ph id="1" ctype="x-regxph" equiv-text="{{errors}}">{{errors}}</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">La validation a échoué : <ph id="1" ctype="x-regxph" equiv-text="{{errors}}">{{errors}}</ph></mrk></target>
+</trans-unit>
+</group>
+</group>
+</group>
+</group>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="invalid_by_most_processors.json" source-language="en" target-language="fr" datatype="x-application/json" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1" resname="foo" xml:space="preserve">
+<source xml:lang="en">bar</source>
+<seg-source><mrk mid="0" mtype="seg">bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bar</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="foo" xml:space="preserve">
+<source xml:lang="en">bar</source>
+<seg-source><mrk mid="0" mtype="seg">bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bar</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" resname="foo" xml:space="preserve">
+<source xml:lang="en">bar</source>
+<seg-source><mrk mid="0" mtype="seg">bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bar</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="foo" xml:space="preserve">
+<source xml:lang="en">bar</source>
+<seg-source><mrk mid="0" mtype="seg">bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bar</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" resname="valName2" xml:space="preserve">
+<source xml:lang="en">'The quoted Value'</source>
+<seg-source><mrk mid="0" mtype="seg">'The quoted Value'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">'The quoted Value'</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="NodeUsage" xml:space="preserve">
+<source xml:lang="en">{"nodeUsage":{"min":"0.00%","median":"0.01%","max":"0.01%","stdDev":"0.00%"}}</source>
+<seg-source><mrk mid="0" mtype="seg">{"nodeUsage":{"min":"0.00%","median":"0.01%","max":"0.01%","stdDev":"0.00%"}}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">{"nodeUsage":{"min":"0.00%","median":"0.01%","max":"0.01%","stdDev":"0.00%"}}</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

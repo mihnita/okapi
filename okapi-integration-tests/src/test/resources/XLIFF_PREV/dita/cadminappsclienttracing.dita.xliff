@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminappsclienttracing.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Network client tracing</source>
+<seg-source><mrk mid="0" mtype="seg">Network client tracing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network client tracing</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network client provides a tracing facility to collect JDBC trace information and view protocol flows.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network client provides a tracing facility to collect JDBC trace information and view protocol flows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network client provides a tracing facility to collect JDBC trace information and view protocol flows.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Network Client tracing</source>
+<seg-source><mrk mid="0" mtype="seg">Network Client tracing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Client tracing</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">There are various ways to obtain trace output. However, the easiest way to obtain trace output is to use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>path<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> attribute on the URL in <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="3">&lt;/codeph&gt;</ept>. The following example shows all tracing going to the file <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>trace.out<ept id="4">&lt;/codeph&gt;</ept> from an <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="5">&lt;/codeph&gt;</ept> session.</source>
+<seg-source><mrk mid="0" mtype="seg">There are various ways to obtain trace output.</mrk><mrk mid="1" mtype="seg"> However, the easiest way to obtain trace output is to use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>path<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> attribute on the URL in <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="3">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> The following example shows all tracing going to the file <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>trace.out<ept id="4">&lt;/codeph&gt;</ept> from an <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="5">&lt;/codeph&gt;</ept> session.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There are various ways to obtain trace output.</mrk><mrk mid="1" mtype="seg"> However, the easiest way to obtain trace output is to use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>path<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> attribute on the URL in <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="3">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> The following example shows all tracing going to the file <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>trace.out<ept id="4">&lt;/codeph&gt;</ept> from an <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="5">&lt;/codeph&gt;</ept> session.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">ij&gt;<bpt id="1" ctype="x-b">&lt;b&gt;</bpt>connect 'jdbc:derby://localhost:1527/mydb; create=true;traceFile=trace.out;user=user1;password=secret4me';<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">ij&gt;<bpt id="1" ctype="x-b">&lt;b&gt;</bpt>connect 'jdbc:derby://localhost:1527/mydb; create=true;traceFile=trace.out;user=user1;password=secret4me';<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ij&gt;<bpt id="1" ctype="x-b">&lt;b&gt;</bpt>connect 'jdbc:derby://localhost:1527/mydb; create=true;traceFile=trace.out;user=user1;password=secret4me';<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">To append trace information to the specified file, use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFileAppend=true<ept id="1">&lt;/codeph&gt;</ept> URL attribute in addition to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile=<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>path<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">To append trace information to the specified file, use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFileAppend=true<ept id="1">&lt;/codeph&gt;</ept> URL attribute in addition to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile=<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>path<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To append trace information to the specified file, use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFileAppend=true<ept id="1">&lt;/codeph&gt;</ept> URL attribute in addition to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile=<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>path<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">For more information, see "traceFile=path attribute" and "traceFileAppend=true attribute" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information, see "traceFile=path attribute" and "traceFileAppend=true attribute" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information, see "traceFile=path attribute" and "traceFileAppend=true attribute" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Implementing ClientDataSource tracing</source>
+<seg-source><mrk mid="0" mtype="seg">Implementing ClientDataSource tracing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Implementing ClientDataSource tracing</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">You can use one of three methods to collect tracing data while obtaining connections from the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource<ept id="1">&lt;/codeph&gt;</ept>:</source>
+<seg-source><mrk mid="0" mtype="seg">You can use one of three methods to collect tracing data while obtaining connections from the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource<ept id="1">&lt;/codeph&gt;</ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use one of three methods to collect tracing data while obtaining connections from the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource<ept id="1">&lt;/codeph&gt;</ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setLogWriter(java.io.PrintWriter)<ept id="1">&lt;/codeph&gt;</ept> method of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource<ept id="2">&lt;/codeph&gt;</ept> and set the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>PrintWriter<ept id="3">&lt;/codeph&gt;</ept> to a non-null value.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setLogWriter(java.io.PrintWriter)<ept id="1">&lt;/codeph&gt;</ept> method of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource<ept id="2">&lt;/codeph&gt;</ept> and set the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>PrintWriter<ept id="3">&lt;/codeph&gt;</ept> to a non-null value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setLogWriter(java.io.PrintWriter)<ept id="1">&lt;/codeph&gt;</ept> method of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource<ept id="2">&lt;/codeph&gt;</ept> and set the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>PrintWriter<ept id="3">&lt;/codeph&gt;</ept> to a non-null value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setTraceFile(String filename)<ept id="1">&lt;/codeph&gt;</ept> method of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource<ept id="2">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setTraceFile(String filename)<ept id="1">&lt;/codeph&gt;</ept> method of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource<ept id="2">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setTraceFile(String filename)<ept id="1">&lt;/codeph&gt;</ept> method of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource<ept id="2">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setTraceDirectory(String dirname)<ept id="1">&lt;/codeph&gt;</ept> method of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource<ept id="2">&lt;/codeph&gt;</ept> to trace each connection flow in its own file for programs that have multiple connections.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setTraceDirectory(String dirname)<ept id="1">&lt;/codeph&gt;</ept> method of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource<ept id="2">&lt;/codeph&gt;</ept> to trace each connection flow in its own file for programs that have multiple connections.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setTraceDirectory(String dirname)<ept id="1">&lt;/codeph&gt;</ept> method of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource<ept id="2">&lt;/codeph&gt;</ept> to trace each connection flow in its own file for programs that have multiple connections.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides three <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource<ept id="2">&lt;/codeph&gt;</ept> implementations. You can use the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.ClientDataSource<ept id="3">&lt;/codeph&gt;</ept> class on Java SE 5 and above (except Java SE 8 Compact Profiles), in applications that call JDBC 3 or JDBC 4.0 methods. You can use the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.ClientDataSource40<ept id="4">&lt;/codeph&gt;</ept> class on Java SE 6 and above (except Java SE 8 Compact Profiles), in applications that call JDBC 4.1 or JDBC 4.2 methods. You must use the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.BasicClientDataSource40<ept id="5">&lt;/codeph&gt;</ept>class on Java SE 8 Compact Profile 2 or 3.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides three <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource<ept id="2">&lt;/codeph&gt;</ept> implementations.</mrk><mrk mid="1" mtype="seg"> You can use the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.ClientDataSource<ept id="3">&lt;/codeph&gt;</ept> class on Java SE 5 and above (except Java SE 8 Compact Profiles), in applications that call JDBC 3 or JDBC 4.0 methods.</mrk><mrk mid="2" mtype="seg"> You can use the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.ClientDataSource40<ept id="4">&lt;/codeph&gt;</ept> class on Java SE 6 and above (except Java SE 8 Compact Profiles), in applications that call JDBC 4.1 or JDBC 4.2 methods.</mrk><mrk mid="3" mtype="seg"> You must use the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.BasicClientDataSource40<ept id="5">&lt;/codeph&gt;</ept>class on Java SE 8 Compact Profile 2 or 3.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides three <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource<ept id="2">&lt;/codeph&gt;</ept> implementations.</mrk><mrk mid="1" mtype="seg"> You can use the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.ClientDataSource<ept id="3">&lt;/codeph&gt;</ept> class on Java SE 5 and above (except Java SE 8 Compact Profiles), in applications that call JDBC 3 or JDBC 4.0 methods.</mrk><mrk mid="2" mtype="seg"> You can use the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.ClientDataSource40<ept id="4">&lt;/codeph&gt;</ept> class on Java SE 6 and above (except Java SE 8 Compact Profiles), in applications that call JDBC 4.1 or JDBC 4.2 methods.</mrk><mrk mid="3" mtype="seg"> You must use the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.BasicClientDataSource40<ept id="5">&lt;/codeph&gt;</ept>class on Java SE 8 Compact Profile 2 or 3.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Implementing DriverManager tracing</source>
+<seg-source><mrk mid="0" mtype="seg">Implementing DriverManager tracing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Implementing DriverManager tracing</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Use one of the following two options to enable and collect tracing information while obtaining connections using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager<ept id="1">&lt;/codeph&gt;</ept>:</source>
+<seg-source><mrk mid="0" mtype="seg">Use one of the following two options to enable and collect tracing information while obtaining connections using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager<ept id="1">&lt;/codeph&gt;</ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use one of the following two options to enable and collect tracing information while obtaining connections using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager<ept id="1">&lt;/codeph&gt;</ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setLogWriter(java.io.PrintWriter)<ept id="1">&lt;/codeph&gt;</ept> method of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager<ept id="2">&lt;/codeph&gt;</ept> and set the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>PrintWriter<ept id="3">&lt;/codeph&gt;</ept> to a non null-value.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setLogWriter(java.io.PrintWriter)<ept id="1">&lt;/codeph&gt;</ept> method of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager<ept id="2">&lt;/codeph&gt;</ept> and set the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>PrintWriter<ept id="3">&lt;/codeph&gt;</ept> to a non null-value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setLogWriter(java.io.PrintWriter)<ept id="1">&lt;/codeph&gt;</ept> method of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager<ept id="2">&lt;/codeph&gt;</ept> and set the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>PrintWriter<ept id="3">&lt;/codeph&gt;</ept> to a non null-value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>path<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> or <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>traceDirectory=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>path<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> URL attributes to set these properties prior to creating the connection with the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager.getConnection()<ept id="5">&lt;/codeph&gt;</ept> method. For more information, see "traceFile=path attribute" and "traceDirectory=path attribute" in the <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>path<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> or <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>traceDirectory=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>path<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> URL attributes to set these properties prior to creating the connection with the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager.getConnection()<ept id="5">&lt;/codeph&gt;</ept> method.</mrk><mrk mid="1" mtype="seg"> For more information, see "traceFile=path attribute" and "traceDirectory=path attribute" in the <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceFile=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>path<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> or <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>traceDirectory=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>path<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> URL attributes to set these properties prior to creating the connection with the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager.getConnection()<ept id="5">&lt;/codeph&gt;</ept> method.</mrk><mrk mid="1" mtype="seg"> For more information, see "traceFile=path attribute" and "traceDirectory=path attribute" in the <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Changing the default trace level</source>
+<seg-source><mrk mid="0" mtype="seg">Changing the default trace level</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Changing the default trace level</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">The default trace level is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource.TRACE_ALL<ept id="1">&lt;/codeph&gt;</ept>. You can choose the tracing level by calling the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>setTraceLevel(int level)<ept id="2">&lt;/codeph&gt;</ept> method or by setting the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>traceLevel=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>value<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> URL attribute:</source>
+<seg-source><mrk mid="0" mtype="seg">The default trace level is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource.TRACE_ALL<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> You can choose the tracing level by calling the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>setTraceLevel(int level)<ept id="2">&lt;/codeph&gt;</ept> method or by setting the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>traceLevel=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>value<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> URL attribute:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default trace level is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ClientDataSource.TRACE_ALL<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> You can choose the tracing level by calling the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>setTraceLevel(int level)<ept id="2">&lt;/codeph&gt;</ept> method or by setting the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>traceLevel=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>value<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> URL attribute:</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">String url = "jdbc:derby://samplehost.example.com:1528/mydb" + ";traceFile=/u/user1/trace.out" + ";traceLevel=" + org.apache.derby.jdbc.ClientDataSource.TRACE_PROTOCOL_FLOWS; DriverManager.getConnection(url,"user1","secret4me");</source>
+<seg-source><mrk mid="0" mtype="seg">String url = "jdbc:derby://samplehost.example.com:1528/mydb" + ";traceFile=/u/user1/trace.out" + ";traceLevel=" + org.apache.derby.jdbc.ClientDataSource.TRACE_PROTOCOL_FLOWS; DriverManager.getConnection(url,"user1","secret4me");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String url = "jdbc:derby://samplehost.example.com:1528/mydb" + ";traceFile=/u/user1/trace.out" + ";traceLevel=" + org.apache.derby.jdbc.ClientDataSource.TRACE_PROTOCOL_FLOWS; DriverManager.getConnection(url,"user1","secret4me");</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">The following table shows the tracing levels you can set.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table shows the tracing levels you can set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table shows the tracing levels you can set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Available tracing levels and values</source>
+<seg-source><mrk mid="0" mtype="seg">Available tracing levels and values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Available tracing levels and values</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">This table lists the network client tracing levels and their values.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the network client tracing levels and their values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the network client tracing levels and their values.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Trace Level</source>
+<seg-source><mrk mid="0" mtype="seg">Trace Level</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Trace Level</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Value</source>
+<seg-source><mrk mid="0" mtype="seg">Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Value</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">org.apache.derby.jdbc.ClientDataSource.TRACE_NONE</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_NONE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_NONE</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">0x0</source>
+<seg-source><mrk mid="0" mtype="seg">0x0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x0</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">org.apache.derby.jdbc.ClientDataSource.TRACE_CONNECTION_CALLS</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_CONNECTION_CALLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_CONNECTION_CALLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">0x1</source>
+<seg-source><mrk mid="0" mtype="seg">0x1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x1</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">org.apache.derby.jdbc.ClientDataSource.TRACE_STATEMENT_CALLS</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_STATEMENT_CALLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_STATEMENT_CALLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">0x2</source>
+<seg-source><mrk mid="0" mtype="seg">0x2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x2</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">org.apache.derby.jdbc.ClientDataSource.TRACE_RESULT_SET_CALLS</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_RESULT_SET_CALLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_RESULT_SET_CALLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">0x4</source>
+<seg-source><mrk mid="0" mtype="seg">0x4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x4</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">org.apache.derby.jdbc.ClientDataSource.TRACE _DRIVER_CONFIGURATION</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE _DRIVER_CONFIGURATION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE _DRIVER_CONFIGURATION</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">0x10</source>
+<seg-source><mrk mid="0" mtype="seg">0x10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x10</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">org.apache.derby.jdbc.ClientDataSource.TRACE_CONNECTS</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_CONNECTS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_CONNECTS</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">0x20</source>
+<seg-source><mrk mid="0" mtype="seg">0x20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x20</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">org.apache.derby.jdbc.ClientDataSource.TRACE_PROTOCOL_FLOWS</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_PROTOCOL_FLOWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_PROTOCOL_FLOWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">0x40</source>
+<seg-source><mrk mid="0" mtype="seg">0x40</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x40</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">org.apache.derby.jdbc.ClientDataSource.TRACE _RESULT_SET_META_DATA</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE _RESULT_SET_META_DATA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE _RESULT_SET_META_DATA</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">0x80</source>
+<seg-source><mrk mid="0" mtype="seg">0x80</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x80</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">org.apache.derby.jdbc.ClientDataSource.TRACE _PARAMETER_META_DATA</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE _PARAMETER_META_DATA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE _PARAMETER_META_DATA</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">0x100</source>
+<seg-source><mrk mid="0" mtype="seg">0x100</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x100</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">org.apache.derby.jdbc.ClientDataSource.TRACE_DIAGNOSTICS</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_DIAGNOSTICS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_DIAGNOSTICS</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">0x200</source>
+<seg-source><mrk mid="0" mtype="seg">0x200</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x200</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">org.apache.derby.jdbc.ClientDataSource.TRACE_XA_CALLS</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_XA_CALLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_XA_CALLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">0x800</source>
+<seg-source><mrk mid="0" mtype="seg">0x800</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x800</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">org.apache.derby.jdbc.ClientDataSource.TRACE_ALL</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_ALL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDataSource.TRACE_ALL</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">0xFFFFFFFF</source>
+<seg-source><mrk mid="0" mtype="seg">0xFFFFFFFF</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0xFFFFFFFF</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">To specify more than one trace level, use one of the following techniques:</source>
+<seg-source><mrk mid="0" mtype="seg">To specify more than one trace level, use one of the following techniques:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To specify more than one trace level, use one of the following techniques:</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">Use bitwise OR operators ( | ) with two or more trace values. For example, to trace PROTOCOL flows and connection calls, specify this value for <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceLevel<ept id="1">&lt;/codeph&gt;</ept>:</source>
+<seg-source><mrk mid="0" mtype="seg">Use bitwise OR operators ( | ) with two or more trace values.</mrk><mrk mid="1" mtype="seg"> For example, to trace PROTOCOL flows and connection calls, specify this value for <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceLevel<ept id="1">&lt;/codeph&gt;</ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use bitwise OR operators ( | ) with two or more trace values.</mrk><mrk mid="1" mtype="seg"> For example, to trace PROTOCOL flows and connection calls, specify this value for <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceLevel<ept id="1">&lt;/codeph&gt;</ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">TRACE_PROTOCOL_FLOWS | TRACE_CONNECTION_CALLS</source>
+<seg-source><mrk mid="0" mtype="seg">TRACE_PROTOCOL_FLOWS | TRACE_CONNECTION_CALLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TRACE_PROTOCOL_FLOWS | TRACE_CONNECTION_CALLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">Use a bitwise complement operator ( ~ ) with a trace value to specify all except a certain trace. For example, to trace everything except PROTOCOL flows, specify this value for <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceLevel<ept id="1">&lt;/codeph&gt;</ept>:</source>
+<seg-source><mrk mid="0" mtype="seg">Use a bitwise complement operator ( ~ ) with a trace value to specify all except a certain trace.</mrk><mrk mid="1" mtype="seg"> For example, to trace everything except PROTOCOL flows, specify this value for <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceLevel<ept id="1">&lt;/codeph&gt;</ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use a bitwise complement operator ( ~ ) with a trace value to specify all except a certain trace.</mrk><mrk mid="1" mtype="seg"> For example, to trace everything except PROTOCOL flows, specify this value for <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>traceLevel<ept id="1">&lt;/codeph&gt;</ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">~TRACE_PROTOCOL_FLOWS</source>
+<seg-source><mrk mid="0" mtype="seg">~TRACE_PROTOCOL_FLOWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">~TRACE_PROTOCOL_FLOWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">For more information, see "traceLevel=value attribute" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information, see "traceLevel=value attribute" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information, see "traceLevel=value attribute" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

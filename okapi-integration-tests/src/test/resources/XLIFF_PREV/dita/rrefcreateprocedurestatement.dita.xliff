@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefcreateprocedurestatement.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CREATE PROCEDURE statement</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE PROCEDURE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE PROCEDURE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">CREATE PROCEDURE statement</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE PROCEDURE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE PROCEDURE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SQL statements</source>
+<seg-source><mrk mid="0" mtype="seg">SQL statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">CREATE PROCEDURE</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE PROCEDURE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE PROCEDURE</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">procedures</source>
+<seg-source><mrk mid="0" mtype="seg">procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">creating</source>
+<seg-source><mrk mid="0" mtype="seg">creating</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">creating</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The CREATE PROCEDURE statement allows you to create Java stored procedures, which you can then call using the CALL PROCEDURE statement.</source>
+<seg-source><mrk mid="0" mtype="seg">The CREATE PROCEDURE statement allows you to create Java stored procedures, which you can then call using the CALL PROCEDURE statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The CREATE PROCEDURE statement allows you to create Java stored procedures, which you can then call using the CALL PROCEDURE statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The procedure owner and the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> automatically gain the EXECUTE privilege on the procedure, and are able to grant this privilege to other users. The EXECUTE privileges cannot be revoked from the procedure and database owners.</source>
+<seg-source><mrk mid="0" mtype="seg">The procedure owner and the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> automatically gain the EXECUTE privilege on the procedure, and are able to grant this privilege to other users.</mrk><mrk mid="1" mtype="seg"> The EXECUTE privileges cannot be revoked from the procedure and database owners.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The procedure owner and the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> automatically gain the EXECUTE privilege on the procedure, and are able to grant this privilege to other users.</mrk><mrk mid="1" mtype="seg"> The EXECUTE privileges cannot be revoked from the procedure and database owners.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">For details on how <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> matches procedures to Java methods, see <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljargmatching.dita#rrefsqljargmatching"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For details on how <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> matches procedures to Java methods, see <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljargmatching.dita#rrefsqljargmatching"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For details on how <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> matches procedures to Java methods, see <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljargmatching.dita#rrefsqljargmatching"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE PROCEDURE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefprocedurename.dita#rrefprocedurename.dita"&gt;</bpt>procedureName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ( [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefcreateprocedurestatement.dita#rrefcreateprocedurestatement/rrefcrproprocedureparameter"&gt;</bpt>procedureParameter<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> [ , <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefcreateprocedurestatement.dita#rrefcreateprocedurestatement/rrefcrproprocedureparameter"&gt;</bpt>procedureParameter<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ]* [...] ] ) [ <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefcreateprocedurestatement.dita#rrefcreateprocedurestatement/rrefcrproprocedureelement"&gt;</bpt>procedureElement<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> ]*<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE PROCEDURE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefprocedurename.dita#rrefprocedurename.dita"&gt;</bpt>procedureName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ( [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefcreateprocedurestatement.dita#rrefcreateprocedurestatement/rrefcrproprocedureparameter"&gt;</bpt>procedureParameter<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> [ , <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefcreateprocedurestatement.dita#rrefcreateprocedurestatement/rrefcrproprocedureparameter"&gt;</bpt>procedureParameter<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ]* [...] ] ) [ <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefcreateprocedurestatement.dita#rrefcreateprocedurestatement/rrefcrproprocedureelement"&gt;</bpt>procedureElement<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> ]*<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE PROCEDURE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefprocedurename.dita#rrefprocedurename.dita"&gt;</bpt>procedureName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ( [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefcreateprocedurestatement.dita#rrefcreateprocedurestatement/rrefcrproprocedureparameter"&gt;</bpt>procedureParameter<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> [ , <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefcreateprocedurestatement.dita#rrefcreateprocedurestatement/rrefcrproprocedureparameter"&gt;</bpt>procedureParameter<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ]* [...] ] ) [ <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefcreateprocedurestatement.dita#rrefcreateprocedurestatement/rrefcrproprocedureelement"&gt;</bpt>procedureElement<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> ]*<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">An ellipsis (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>...<ept id="1">&lt;/codeph&gt;</ept>) after the last parameter indicates that the Java method supports trailing optional arguments, called <bpt id="2" ctype="x-term">&lt;term&gt;</bpt>varargs<ept id="2">&lt;/term&gt;</ept>. The ellipsis indicates that the method may be invoked with zero or more trailing values, all having the data type of the last argument.</source>
+<seg-source><mrk mid="0" mtype="seg">An ellipsis (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>...<ept id="1">&lt;/codeph&gt;</ept>) after the last parameter indicates that the Java method supports trailing optional arguments, called <bpt id="2" ctype="x-term">&lt;term&gt;</bpt>varargs<ept id="2">&lt;/term&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The ellipsis indicates that the method may be invoked with zero or more trailing values, all having the data type of the last argument.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An ellipsis (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>...<ept id="1">&lt;/codeph&gt;</ept>) after the last parameter indicates that the Java method supports trailing optional arguments, called <bpt id="2" ctype="x-term">&lt;term&gt;</bpt>varargs<ept id="2">&lt;/term&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The ellipsis indicates that the method may be invoked with zero or more trailing values, all having the data type of the last argument.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">procedureParameter</source>
+<seg-source><mrk mid="0" mtype="seg">procedureParameter</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">procedureParameter</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>[ { IN | OUT | INOUT } ] [ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>parameterName<ept id="2">&lt;/i&gt;</ept> ] <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="3">&lt;/i
+&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>[ { IN | OUT | INOUT } ] [ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>parameterName<ept id="2">&lt;/i&gt;</ept> ] <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="3">&lt;/i
+&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>[ { IN | OUT | INOUT } ] [ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>parameterName<ept id="2">&lt;/i&gt;</ept> ] <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="3">&lt;/i
+&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">The default value for a parameter is IN. A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>parameterName<ept id="1">&lt;/i&gt;</ept> must be unique within a procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">The default value for a parameter is IN.</mrk><mrk mid="1" mtype="seg"> A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>parameterName<ept id="1">&lt;/i&gt;</ept> must be unique within a procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default value for a parameter is IN.</mrk><mrk mid="1" mtype="seg"> A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>parameterName<ept id="1">&lt;/i&gt;</ept> must be unique within a procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">The syntax of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> is described in <bpt id="2" ctype="x-xref">&lt;xref href="crefsqlj31068.dita#crefsqlj31068"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The syntax of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> is described in <bpt id="2" ctype="x-xref">&lt;xref href="crefsqlj31068.dita#crefsqlj31068"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The syntax of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>dataType<ept id="1">&lt;/i&gt;</ept> is described in <bpt id="2" ctype="x-xref">&lt;xref href="crefsqlj31068.dita#crefsqlj31068"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">The data types BLOB, CLOB, LONG VARCHAR, LONG VARCHAR FOR BIT DATA, and XML are not allowed as parameters in a CREATE PROCEDURE statement.</source>
+<seg-source><mrk mid="0" mtype="seg">The data types BLOB, CLOB, LONG VARCHAR, LONG VARCHAR FOR BIT DATA, and XML are not allowed as parameters in a CREATE PROCEDURE statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The data types BLOB, CLOB, LONG VARCHAR, LONG VARCHAR FOR BIT DATA, and XML are not allowed as parameters in a CREATE PROCEDURE statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">procedureElement</source>
+<seg-source><mrk mid="0" mtype="seg">procedureElement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">procedureElement</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ [ DYNAMIC ] RESULT SETS <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj10696.dita#rrefsqlj10696"&gt;</bpt>integer<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | LANGUAGE JAVA | { DETERMINISTIC | NOT DETERMINISTIC } | <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt>EXTERNAL NAME<ept id="4">&lt;/xref&gt;</ept> <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="5">&lt;/i&gt;</ept> | PARAMETER STYLE { JAVA | DERBY } | EXTERNAL SECURITY { DEFINER | INVOKER } | { NO SQL | MODIFIES SQL DATA | CONTAINS SQL | READS SQL DATA } }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ [ DYNAMIC ] RESULT SETS <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj10696.dita#rrefsqlj10696"&gt;</bpt>integer<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | LANGUAGE JAVA | { DETERMINISTIC | NOT DETERMINISTIC } | <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt>EXTERNAL NAME<ept id="4">&lt;/xref&gt;</ept> <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="5">&lt;/i&gt;</ept> | PARAMETER STYLE { JAVA | DERBY } | EXTERNAL SECURITY { DEFINER | INVOKER } | { NO SQL | MODIFIES SQL DATA | CONTAINS SQL | READS SQL DATA } }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ [ DYNAMIC ] RESULT SETS <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj10696.dita#rrefsqlj10696"&gt;</bpt>integer<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | LANGUAGE JAVA | { DETERMINISTIC | NOT DETERMINISTIC } | <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt>EXTERNAL NAME<ept id="4">&lt;/xref&gt;</ept> <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="5">&lt;/i&gt;</ept> | PARAMETER STYLE { JAVA | DERBY } | EXTERNAL SECURITY { DEFINER | INVOKER } | { NO SQL | MODIFIES SQL DATA | CONTAINS SQL | READS SQL DATA } }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">The procedure elements may appear in any order, but each type of element can only appear once. A procedure definition must contain these elements:</source>
+<seg-source><mrk mid="0" mtype="seg">The procedure elements may appear in any order, but each type of element can only appear once.</mrk><mrk mid="1" mtype="seg"> A procedure definition must contain these elements:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The procedure elements may appear in any order, but each type of element can only appear once.</mrk><mrk mid="1" mtype="seg"> A procedure definition must contain these elements:</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>LANGUAGE<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>LANGUAGE<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>LANGUAGE<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>EXTERNAL NAME<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>EXTERNAL NAME<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>EXTERNAL NAME<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>PARAMETER STYLE<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>PARAMETER STYLE<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>PARAMETER STYLE<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">DYNAMIC RESULT SETS <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>integer<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">DYNAMIC RESULT SETS <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>integer<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DYNAMIC RESULT SETS <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>integer<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Indicates the estimated upper bound of returned result sets for the procedure. Default is no (zero) dynamic result sets. If the procedure takes varargs, the value must be zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates the estimated upper bound of returned result sets for the procedure.</mrk><mrk mid="1" mtype="seg"> Default is no (zero) dynamic result sets.</mrk><mrk mid="2" mtype="seg"> If the procedure takes varargs, the value must be zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates the estimated upper bound of returned result sets for the procedure.</mrk><mrk mid="1" mtype="seg"> Default is no (zero) dynamic result sets.</mrk><mrk mid="2" mtype="seg"> If the procedure takes varargs, the value must be zero.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">LANGUAGE JAVA</source>
+<seg-source><mrk mid="0" mtype="seg">LANGUAGE JAVA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LANGUAGE JAVA</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">The database manager will call the procedure as a public static method in a Java class.</source>
+<seg-source><mrk mid="0" mtype="seg">The database manager will call the procedure as a public static method in a Java class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The database manager will call the procedure as a public static method in a Java class.</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">DETERMINISTIC, NOT DETERMINISTIC</source>
+<seg-source><mrk mid="0" mtype="seg">DETERMINISTIC, NOT DETERMINISTIC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DETERMINISTIC, NOT DETERMINISTIC</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">DETERMINISTIC declares that the procedure is deterministic, meaning that with the same set of input values, it always computes the same result. The default is NOT DETERMINISTIC. <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> cannot recognize whether an operation is actually deterministic, so you must take care to specify this element correctly.</source>
+<seg-source><mrk mid="0" mtype="seg">DETERMINISTIC declares that the procedure is deterministic, meaning that with the same set of input values, it always computes the same result.</mrk><mrk mid="1" mtype="seg"> The default is NOT DETERMINISTIC.</mrk><mrk mid="2" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> cannot recognize whether an operation is actually deterministic, so you must take care to specify this element correctly.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DETERMINISTIC declares that the procedure is deterministic, meaning that with the same set of input values, it always computes the same result.</mrk><mrk mid="1" mtype="seg"> The default is NOT DETERMINISTIC.</mrk><mrk mid="2" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> cannot recognize whether an operation is actually deterministic, so you must take care to specify this element correctly.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">EXTERNAL NAME <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">EXTERNAL NAME <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EXTERNAL NAME <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="1">&lt;/i&gt;</ept> specified by the <bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> describes the Java method to be called when the procedure is executed.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="1">&lt;/i&gt;</ept> specified by the <bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> describes the Java method to be called when the procedure is executed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="1">&lt;/i&gt;</ept> specified by the <bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> describes the Java method to be called when the procedure is executed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">PARAMETER STYLE</source>
+<seg-source><mrk mid="0" mtype="seg">PARAMETER STYLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PARAMETER STYLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">JAVA</source>
+<seg-source><mrk mid="0" mtype="seg">JAVA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JAVA</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">The procedure will use a parameter-passing convention that conforms to the Java language and SQL Routines specification. INOUT and OUT parameters will be passed as single entry arrays to facilitate returning values. Result sets are returned through additional parameters to the Java method of type <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet[]<ept id="1">&lt;/i&gt;</ept> that are passed single entry arrays.</source>
+<seg-source><mrk mid="0" mtype="seg">The procedure will use a parameter-passing convention that conforms to the Java language and SQL Routines specification.</mrk><mrk mid="1" mtype="seg"> INOUT and OUT parameters will be passed as single entry arrays to facilitate returning values.</mrk><mrk mid="2" mtype="seg"> Result sets are returned through additional parameters to the Java method of type <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet[]<ept id="1">&lt;/i&gt;</ept> that are passed single entry arrays.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The procedure will use a parameter-passing convention that conforms to the Java language and SQL Routines specification.</mrk><mrk mid="1" mtype="seg"> INOUT and OUT parameters will be passed as single entry arrays to facilitate returning values.</mrk><mrk mid="2" mtype="seg"> Result sets are returned through additional parameters to the Java method of type <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet[]<ept id="1">&lt;/i&gt;</ept> that are passed single entry arrays.</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support long column types (for example, LONG VARCHAR, BLOB, and so on). An error will occur if you try to use one of these long column types.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support long column types (for example, LONG VARCHAR, BLOB, and so on).</mrk><mrk mid="1" mtype="seg"> An error will occur if you try to use one of these long column types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support long column types (for example, LONG VARCHAR, BLOB, and so on).</mrk><mrk mid="1" mtype="seg"> An error will occur if you try to use one of these long column types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">DERBY</source>
+<seg-source><mrk mid="0" mtype="seg">DERBY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DERBY</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">The PARAMETER STYLE must be DERBY if and only if an ellipsis (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>...<ept id="1">&lt;/codeph&gt;</ept>) appears at the end of the argument list.</source>
+<seg-source><mrk mid="0" mtype="seg">The PARAMETER STYLE must be DERBY if and only if an ellipsis (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>...<ept id="1">&lt;/codeph&gt;</ept>) appears at the end of the argument list.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The PARAMETER STYLE must be DERBY if and only if an ellipsis (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>...<ept id="1">&lt;/codeph&gt;</ept>) appears at the end of the argument list.</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">EXTERNAL SECURITY</source>
+<seg-source><mrk mid="0" mtype="seg">EXTERNAL SECURITY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EXTERNAL SECURITY</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">If SQL authorization mode is enabled, a procedure runs by default with the privileges specified for the user who invokes the procedure (invoker's rights). To specify that the procedure should run with the privileges specified for the user who defines the procedure (definer's rights), create the procedure with EXTERNAL SECURITY DEFINER. Those privileges include the right to set the current role to a role for which the definer has privileges. When the procedure is first invoked, no role is set; even if the invoker has set a current role, the procedure running with definer's rights has no current role set initially.</source>
+<seg-source><mrk mid="0" mtype="seg">If SQL authorization mode is enabled, a procedure runs by default with the privileges specified for the user who invokes the procedure (invoker's rights).</mrk><mrk mid="1" mtype="seg"> To specify that the procedure should run with the privileges specified for the user who defines the procedure (definer's rights), create the procedure with EXTERNAL SECURITY DEFINER.</mrk><mrk mid="2" mtype="seg"> Those privileges include the right to set the current role to a role for which the definer has privileges.</mrk><mrk mid="3" mtype="seg"> When the procedure is first invoked, no role is set; even if the invoker has set a current role, the procedure running with definer's rights has no current role set initially.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If SQL authorization mode is enabled, a procedure runs by default with the privileges specified for the user who invokes the procedure (invoker's rights).</mrk><mrk mid="1" mtype="seg"> To specify that the procedure should run with the privileges specified for the user who defines the procedure (definer's rights), create the procedure with EXTERNAL SECURITY DEFINER.</mrk><mrk mid="2" mtype="seg"> Those privileges include the right to set the current role to a role for which the definer has privileges.</mrk><mrk mid="3" mtype="seg"> When the procedure is first invoked, no role is set; even if the invoker has set a current role, the procedure running with definer's rights has no current role set initially.</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">See <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefpropersqlauth.dita#rrefpropersqlauth"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> for details about setting SQL authorization mode.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefpropersqlauth.dita#rrefpropersqlauth"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> for details about setting SQL authorization mode.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefpropersqlauth.dita#rrefpropersqlauth"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> for details about setting SQL authorization mode.</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">When a procedure with definer's rights is called, the current default schema is set to the eponymously named schema of the definer. For example, if the defining user is called OWNER, the default schema will also be set to OWNER.</source>
+<seg-source><mrk mid="0" mtype="seg">When a procedure with definer's rights is called, the current default schema is set to the eponymously named schema of the definer.</mrk><mrk mid="1" mtype="seg"> For example, if the defining user is called OWNER, the default schema will also be set to OWNER.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a procedure with definer's rights is called, the current default schema is set to the eponymously named schema of the definer.</mrk><mrk mid="1" mtype="seg"> For example, if the defining user is called OWNER, the default schema will also be set to OWNER.</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">When a procedure with invoker's rights is called, the current default schema and current role are unchanged initially within the procedure. Similarly, if SQL authorization mode is not enabled, the current default schema is unchanged initially within the procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">When a procedure with invoker's rights is called, the current default schema and current role are unchanged initially within the procedure.</mrk><mrk mid="1" mtype="seg"> Similarly, if SQL authorization mode is not enabled, the current default schema is unchanged initially within the procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a procedure with invoker's rights is called, the current default schema and current role are unchanged initially within the procedure.</mrk><mrk mid="1" mtype="seg"> Similarly, if SQL authorization mode is not enabled, the current default schema is unchanged initially within the procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">When the call returns, any changes made inside the procedure to the default current schema (and current role, if relevant) are reset (popped).</source>
+<seg-source><mrk mid="0" mtype="seg">When the call returns, any changes made inside the procedure to the default current schema (and current role, if relevant) are reset (popped).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the call returns, any changes made inside the procedure to the default current schema (and current role, if relevant) are reset (popped).</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">If SQL authorization mode is not enabled, an attempt to create a procedure with EXTERNAL SECURITY will result in an error.</source>
+<seg-source><mrk mid="0" mtype="seg">If SQL authorization mode is not enabled, an attempt to create a procedure with EXTERNAL SECURITY will result in an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If SQL authorization mode is not enabled, an attempt to create a procedure with EXTERNAL SECURITY will result in an error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">NO SQL, CONTAINS SQL, READS SQL DATA, MODIFIES SQL DATA</source>
+<seg-source><mrk mid="0" mtype="seg">NO SQL, CONTAINS SQL, READS SQL DATA, MODIFIES SQL DATA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NO SQL, CONTAINS SQL, READS SQL DATA, MODIFIES SQL DATA</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">Indicates whether the stored procedure issues any SQL statements and, if so, what type. MODIFIES SQL DATA is the default value. A stored procedure which issues a statement which does not conform to the declared SQL statement level will cause Derby to throw an exception.</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates whether the stored procedure issues any SQL statements and, if so, what type.</mrk><mrk mid="1" mtype="seg"> MODIFIES SQL DATA is the default value.</mrk><mrk mid="2" mtype="seg"> A stored procedure which issues a statement which does not conform to the declared SQL statement level will cause Derby to throw an exception.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates whether the stored procedure issues any SQL statements and, if so, what type.</mrk><mrk mid="1" mtype="seg"> MODIFIES SQL DATA is the default value.</mrk><mrk mid="2" mtype="seg"> A stored procedure which issues a statement which does not conform to the declared SQL statement level will cause Derby to throw an exception.</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">NO SQL</source>
+<seg-source><mrk mid="0" mtype="seg">NO SQL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NO SQL</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">Indicates that the stored procedure cannot execute any SQL statements</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates that the stored procedure cannot execute any SQL statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates that the stored procedure cannot execute any SQL statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">CONTAINS SQL</source>
+<seg-source><mrk mid="0" mtype="seg">CONTAINS SQL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CONTAINS SQL</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">Indicates that SQL statements that neither read nor modify SQL data can be executed by the stored procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates that SQL statements that neither read nor modify SQL data can be executed by the stored procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates that SQL statements that neither read nor modify SQL data can be executed by the stored procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">READS SQL DATA</source>
+<seg-source><mrk mid="0" mtype="seg">READS SQL DATA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">READS SQL DATA</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">Indicates that SQL statements that do not modify SQL data (for example, SELECT statements) can be included in the stored procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates that SQL statements that do not modify SQL data (for example, SELECT statements) can be included in the stored procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates that SQL statements that do not modify SQL data (for example, SELECT statements) can be included in the stored procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">MODIFIES SQL DATA</source>
+<seg-source><mrk mid="0" mtype="seg">MODIFIES SQL DATA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MODIFIES SQL DATA</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">Indicates that the stored procedure can execute any SQL statement.</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates that the stored procedure can execute any SQL statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates that the stored procedure can execute any SQL statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE PROCEDURE SALES.TOTAL_REVENUE(IN S_MONTH INTEGER, IN S_YEAR INTEGER, OUT TOTAL DECIMAL(10,2)) PARAMETER STYLE JAVA READS SQL DATA LANGUAGE JAVA EXTERNAL NAME 'com.example.sales.calculateRevenueByMonth'<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE PROCEDURE SALES.TOTAL_REVENUE(IN S_MONTH INTEGER, IN S_YEAR INTEGER, OUT TOTAL DECIMAL(10,2)) PARAMETER STYLE JAVA READS SQL DATA LANGUAGE JAVA EXTERNAL NAME 'com.example.sales.calculateRevenueByMonth'<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE PROCEDURE SALES.TOTAL_REVENUE(IN S_MONTH INTEGER, IN S_YEAR INTEGER, OUT TOTAL DECIMAL(10,2)) PARAMETER STYLE JAVA READS SQL DATA LANGUAGE JAVA EXTERNAL NAME 'com.example.sales.calculateRevenueByMonth'<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it> CREATE PROCEDURE VARARGPROC ( IN a INT, IN b INT, IN c BIGINT ... ) LANGUAGE JAVA PARAMETER STYLE DERBY READS SQL DATA EXTERNAL NAME 'Procs.varargProc' <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it> CREATE PROCEDURE VARARGPROC ( IN a INT, IN b INT, IN c BIGINT ...</mrk><mrk mid="1" mtype="seg"> ) LANGUAGE JAVA PARAMETER STYLE DERBY READS SQL DATA EXTERNAL NAME 'Procs.varargProc' <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it> CREATE PROCEDURE VARARGPROC ( IN a INT, IN b INT, IN c BIGINT ...</mrk><mrk mid="1" mtype="seg"> ) LANGUAGE JAVA PARAMETER STYLE DERBY READS SQL DATA EXTERNAL NAME 'Procs.varargProc' <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

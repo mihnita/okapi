@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminjmxenabledisable.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Enabling and disabling JMX</source>
+<seg-source><mrk mid="0" mtype="seg">Enabling and disabling JMX</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enabling and disabling JMX</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You can use JMX management and monitoring both locally and remotely.</source>
+<seg-source><mrk mid="0" mtype="seg">You can use JMX management and monitoring both locally and remotely.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use JMX management and monitoring both locally and remotely.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Java Management Extensions (JMX) technology</source>
+<seg-source><mrk mid="0" mtype="seg">Java Management Extensions (JMX) technology</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Java Management Extensions (JMX) technology</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">JMX</source>
+<seg-source><mrk mid="0" mtype="seg">JMX</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JMX</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">enabling and disabling</source>
+<seg-source><mrk mid="0" mtype="seg">enabling and disabling</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">enabling and disabling</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The term <bpt id="1" ctype="x-term">&lt;term&gt;</bpt>local<ept id="1">&lt;/term&gt;</ept> means <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>on the same host (machine)<ept id="2">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>running as the same user<ept id="3">&lt;/i&gt;</ept>. For example, this means that local JMX access is possible only if the JVM you want to access is running on the same host and as the same user as the user who is running a JMX client such as JConsole (or a different user with sufficient file system permissions). In order to allow other users to access the JVM, or to allow access from other hosts, remote JMX must be enabled.</source>
+<seg-source><mrk mid="0" mtype="seg">The term <bpt id="1" ctype="x-term">&lt;term&gt;</bpt>local<ept id="1">&lt;/term&gt;</ept> means <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>on the same host (machine)<ept id="2">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>running as the same user<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> For example, this means that local JMX access is possible only if the JVM you want to access is running on the same host and as the same user as the user who is running a JMX client such as JConsole (or a different user with sufficient file system permissions).</mrk><mrk mid="2" mtype="seg"> In order to allow other users to access the JVM, or to allow access from other hosts, remote JMX must be enabled.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The term <bpt id="1" ctype="x-term">&lt;term&gt;</bpt>local<ept id="1">&lt;/term&gt;</ept> means <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>on the same host (machine)<ept id="2">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>running as the same user<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> For example, this means that local JMX access is possible only if the JVM you want to access is running on the same host and as the same user as the user who is running a JMX client such as JConsole (or a different user with sufficient file system permissions).</mrk><mrk mid="2" mtype="seg"> In order to allow other users to access the JVM, or to allow access from other hosts, remote JMX must be enabled.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Local JMX access</source>
+<seg-source><mrk mid="0" mtype="seg">Local JMX access</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Local JMX access</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If you are using a Java SE 6 or later JVM, local JMX management and monitoring are most likely enabled by default.</source>
+<seg-source><mrk mid="0" mtype="seg">If you are using a Java SE 6 or later JVM, local JMX management and monitoring are most likely enabled by default.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you are using a Java SE 6 or later JVM, local JMX management and monitoring are most likely enabled by default.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Some JVMs, for example Java SE 5 JVMs, do not enable local JMX management by default. Refer to the documentation for your JVM for details. A common way to enable local JMX access on these JVMs is to include the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>-Dcom.sun.management.jmxremote<ept id="1">&lt;/codeph&gt;</ept> option on the command line when you start the JVM.</source>
+<seg-source><mrk mid="0" mtype="seg">Some JVMs, for example Java SE 5 JVMs, do not enable local JMX management by default.</mrk><mrk mid="1" mtype="seg"> Refer to the documentation for your JVM for details.</mrk><mrk mid="2" mtype="seg"> A common way to enable local JMX access on these JVMs is to include the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>-Dcom.sun.management.jmxremote<ept id="1">&lt;/codeph&gt;</ept> option on the command line when you start the JVM.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Some JVMs, for example Java SE 5 JVMs, do not enable local JMX management by default.</mrk><mrk mid="1" mtype="seg"> Refer to the documentation for your JVM for details.</mrk><mrk mid="2" mtype="seg"> A common way to enable local JMX access on these JVMs is to include the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>-Dcom.sun.management.jmxremote<ept id="1">&lt;/codeph&gt;</ept> option on the command line when you start the JVM.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Remote JMX access</source>
+<seg-source><mrk mid="0" mtype="seg">Remote JMX access</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remote JMX access</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Remote JMX management and monitoring is a powerful Java feature, allowing you to monitor a specific JVM from a remote location. Enabling remote JMX requires explicit actions by the JVM administrator, since it may involve exposing sensitive information about your system.</source>
+<seg-source><mrk mid="0" mtype="seg">Remote JMX management and monitoring is a powerful Java feature, allowing you to monitor a specific JVM from a remote location.</mrk><mrk mid="1" mtype="seg"> Enabling remote JMX requires explicit actions by the JVM administrator, since it may involve exposing sensitive information about your system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remote JMX management and monitoring is a powerful Java feature, allowing you to monitor a specific JVM from a remote location.</mrk><mrk mid="1" mtype="seg"> Enabling remote JMX requires explicit actions by the JVM administrator, since it may involve exposing sensitive information about your system.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The most common way to enable remote JMX access to your JVM is to specify a TCP/IP port number and some basic security settings when you start the JVM. The security settings commonly include authentication and SSL (Secure Socket Layer). <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> attempts to use the JVM's built-in platform MBean server. For a list of current command line options (system properties) and their meanings, refer to the table in the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt>Java SE Monitoring and Management Guide<ept id="2">&lt;/cite&gt;</ept> at <bpt id="3" ctype="x-xref">&lt;xref format="html"
+href="http://docs.oracle.com/javase/7/docs/technotes/guides/management/agent.html#gdeum"
+scope="external"&gt;</bpt>http://docs.oracle.com/javase/7/docs/technotes/guides/management/agent.html#gdeum <ept id="3">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The most common way to enable remote JMX access to your JVM is to specify a TCP/IP port number and some basic security settings when you start the JVM.</mrk><mrk mid="1" mtype="seg"> The security settings commonly include authentication and SSL (Secure Socket Layer).</mrk><mrk mid="2" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> attempts to use the JVM's built-in platform MBean server.</mrk><mrk mid="3" mtype="seg"> For a list of current command line options (system properties) and their meanings, refer to the table in the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt>Java SE Monitoring and Management Guide<ept id="2">&lt;/cite&gt;</ept> at <bpt id="3" ctype="x-xref">&lt;xref format="html"
+href="http://docs.oracle.com/javase/7/docs/technotes/guides/management/agent.html#gdeum"
+scope="external"&gt;</bpt>http://docs.oracle.com/javase/7/docs/technotes/guides/management/agent.html#gdeum <ept id="3">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The most common way to enable remote JMX access to your JVM is to specify a TCP/IP port number and some basic security settings when you start the JVM.</mrk><mrk mid="1" mtype="seg"> The security settings commonly include authentication and SSL (Secure Socket Layer).</mrk><mrk mid="2" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> attempts to use the JVM's built-in platform MBean server.</mrk><mrk mid="3" mtype="seg"> For a list of current command line options (system properties) and their meanings, refer to the table in the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt>Java SE Monitoring and Management Guide<ept id="2">&lt;/cite&gt;</ept> at <bpt id="3" ctype="x-xref">&lt;xref format="html"
+href="http://docs.oracle.com/javase/7/docs/technotes/guides/management/agent.html#gdeum"
+scope="external"&gt;</bpt>http://docs.oracle.com/javase/7/docs/technotes/guides/management/agent.html#gdeum <ept id="3">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The following topics describe ways to enable and disable remote JMX access.</source>
+<seg-source><mrk mid="0" mtype="seg">The following topics describe ways to enable and disable remote JMX access.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following topics describe ways to enable and disable remote JMX access.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

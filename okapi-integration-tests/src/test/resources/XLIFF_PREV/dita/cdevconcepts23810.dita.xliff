@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts23810.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Lock granularity</source>
+<seg-source><mrk mid="0" mtype="seg">Lock granularity</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Lock granularity</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can be configured for <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>table-level<ept id="2">&lt;/i&gt;</ept> locking. With table-level locking, when a transaction locks data in order to prevent any transaction anomalies, it always locks the entire table, not just those rows being accessed.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can be configured for <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>table-level<ept id="2">&lt;/i&gt;</ept> locking.</mrk><mrk mid="1" mtype="seg"> With table-level locking, when a transaction locks data in order to prevent any transaction anomalies, it always locks the entire table, not just those rows being accessed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can be configured for <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>table-level<ept id="2">&lt;/i&gt;</ept> locking.</mrk><mrk mid="1" mtype="seg"> With table-level locking, when a transaction locks data in order to prevent any transaction anomalies, it always locks the entire table, not just those rows being accessed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Lock granularity</source>
+<seg-source><mrk mid="0" mtype="seg">Lock granularity</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Lock granularity</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Locking</source>
+<seg-source><mrk mid="0" mtype="seg">Locking</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Locking</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">table-level</source>
+<seg-source><mrk mid="0" mtype="seg">table-level</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">table-level</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">row-level</source>
+<seg-source><mrk mid="0" mtype="seg">row-level</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">row-level</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is configured for row-level locking. Row-level locking uses more memory but allows greater concurrency, which works better in multi-user systems. Table-level locking works best with single-user applications or read-only applications.</source>
+<seg-source><mrk mid="0" mtype="seg">By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is configured for row-level locking.</mrk><mrk mid="1" mtype="seg"> Row-level locking uses more memory but allows greater concurrency, which works better in multi-user systems.</mrk><mrk mid="2" mtype="seg"> Table-level locking works best with single-user applications or read-only applications.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is configured for row-level locking.</mrk><mrk mid="1" mtype="seg"> Row-level locking uses more memory but allows greater concurrency, which works better in multi-user systems.</mrk><mrk mid="2" mtype="seg"> Table-level locking works best with single-user applications or read-only applications.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">You typically set lock granularity for the entire <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, not for a particular application. However, at runtime, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> may escalate the lock granularity for a particular transaction from row-level locking to table-level locking for performance reasons. You have some control over the threshold at which this occurs. For information on turning off row-level locking, see "<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.storage.rowLocking<ept id="3">&lt;/i&gt;</ept>" in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>. For more information about automatic lock escalation, see "About the system's selection of lock granularity" and "Transaction-based lock escalation" in <bpt id="5" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>. For more information on tuning your <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> system, see "Tuning databases and applications," also in <bpt id="7" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="7">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You typically set lock granularity for the entire <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, not for a particular application.</mrk><mrk mid="1" mtype="seg"> However, at runtime, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> may escalate the lock granularity for a particular transaction from row-level locking to table-level locking for performance reasons.</mrk><mrk mid="2" mtype="seg"> You have some control over the threshold at which this occurs.</mrk><mrk mid="3" mtype="seg"> For information on turning off row-level locking, see "<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.storage.rowLocking<ept id="3">&lt;/i&gt;</ept>" in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>.</mrk><mrk mid="4" mtype="seg"> For more information about automatic lock escalation, see "About the system's selection of lock granularity" and "Transaction-based lock escalation" in <bpt id="5" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>.</mrk><mrk mid="5" mtype="seg"> For more information on tuning your <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> system, see "Tuning databases and applications," also in <bpt id="7" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="7">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You typically set lock granularity for the entire <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, not for a particular application.</mrk><mrk mid="1" mtype="seg"> However, at runtime, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> may escalate the lock granularity for a particular transaction from row-level locking to table-level locking for performance reasons.</mrk><mrk mid="2" mtype="seg"> You have some control over the threshold at which this occurs.</mrk><mrk mid="3" mtype="seg"> For information on turning off row-level locking, see "<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.storage.rowLocking<ept id="3">&lt;/i&gt;</ept>" in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>.</mrk><mrk mid="4" mtype="seg"> For more information about automatic lock escalation, see "About the system's selection of lock granularity" and "Transaction-based lock escalation" in <bpt id="5" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>.</mrk><mrk mid="5" mtype="seg"> For more information on tuning your <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> system, see "Tuning databases and applications," also in <bpt id="7" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="7">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjavsqlprst.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Prepared statements and streaming columns</source>
+<seg-source><mrk mid="0" mtype="seg">Prepared statements and streaming columns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Prepared statements and streaming columns</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">setXXXStream requests</source>
+<seg-source><mrk mid="0" mtype="seg">setXXXStream requests</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setXXXStream requests</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Streaming columns</source>
+<seg-source><mrk mid="0" mtype="seg">Streaming columns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Streaming columns</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">as IN parameters to prepared statement</source>
+<seg-source><mrk mid="0" mtype="seg">as IN parameters to prepared statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">as IN parameters to prepared statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">setBinaryStream</source>
+<seg-source><mrk mid="0" mtype="seg">setBinaryStream</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setBinaryStream</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">setAsciiStream</source>
+<seg-source><mrk mid="0" mtype="seg">setAsciiStream</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setAsciiStream</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">setUnicodeStream</source>
+<seg-source><mrk mid="0" mtype="seg">setUnicodeStream</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setUnicodeStream</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Unicode</source>
+<seg-source><mrk mid="0" mtype="seg">Unicode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unicode</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">setUnicodeStream</source>
+<seg-source><mrk mid="0" mtype="seg">setUnicodeStream</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setUnicodeStream</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">setCharacterStream</source>
+<seg-source><mrk mid="0" mtype="seg">setCharacterStream</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setCharacterStream</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setXXXStream<ept id="1">&lt;/i&gt;</ept> requests stream data between the application and the database.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setXXXStream<ept id="1">&lt;/i&gt;</ept> requests stream data between the application and the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setXXXStream<ept id="1">&lt;/i&gt;</ept> requests stream data between the application and the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">JDBC allows an IN parameter to be set to a Java input stream for passing in large amounts of data in smaller chunks. When the statement is run, the JDBC driver makes repeated calls to this input stream. <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the following JDBC stream methods for <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>PreparedStatement<ept id="2">&lt;/i&gt;</ept> objects:</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC allows an IN parameter to be set to a Java input stream for passing in large amounts of data in smaller chunks.</mrk><mrk mid="1" mtype="seg"> When the statement is run, the JDBC driver makes repeated calls to this input stream.</mrk><mrk mid="2" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the following JDBC stream methods for <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>PreparedStatement<ept id="2">&lt;/i&gt;</ept> objects:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC allows an IN parameter to be set to a Java input stream for passing in large amounts of data in smaller chunks.</mrk><mrk mid="1" mtype="seg"> When the statement is run, the JDBC driver makes repeated calls to this input stream.</mrk><mrk mid="2" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the following JDBC stream methods for <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>PreparedStatement<ept id="2">&lt;/i&gt;</ept> objects:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setBinaryStream<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setBinaryStream<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setBinaryStream<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Use for streams that contain uninterpreted bytes</source>
+<seg-source><mrk mid="0" mtype="seg">Use for streams that contain uninterpreted bytes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use for streams that contain uninterpreted bytes</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setAsciiStream<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setAsciiStream<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setAsciiStream<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Use for streams that contain ASCII characters</source>
+<seg-source><mrk mid="0" mtype="seg">Use for streams that contain ASCII characters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use for streams that contain ASCII characters</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setCharacterStream<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setCharacterStream<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setCharacterStream<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Use for streams that contain characters</source>
+<seg-source><mrk mid="0" mtype="seg">Use for streams that contain characters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use for streams that contain characters</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>setNCharacterStream<ept id="2">&lt;/i&gt;</ept> method or the deprecated <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>setUnicodeStream<ept id="3">&lt;/i&gt;</ept> method.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>setNCharacterStream<ept id="2">&lt;/i&gt;</ept> method or the deprecated <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>setUnicodeStream<ept id="3">&lt;/i&gt;</ept> method.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>setNCharacterStream<ept id="2">&lt;/i&gt;</ept> method or the deprecated <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>setUnicodeStream<ept id="3">&lt;/i&gt;</ept> method.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">JDBC 3.0 requires that you specify the length of the stream, and <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> enforces this requirement if your application runs on JDK 5. If your application runs on JDK 6 or later, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> exposes a JDBC 4.0 implementation, which lets you use the streaming interfaces without having to specify the stream length.</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC 3.0 requires that you specify the length of the stream, and <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> enforces this requirement if your application runs on JDK 5.</mrk><mrk mid="1" mtype="seg"> If your application runs on JDK 6 or later, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> exposes a JDBC 4.0 implementation, which lets you use the streaming interfaces without having to specify the stream length.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC 3.0 requires that you specify the length of the stream, and <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> enforces this requirement if your application runs on JDK 5.</mrk><mrk mid="1" mtype="seg"> If your application runs on JDK 6 or later, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> exposes a JDBC 4.0 implementation, which lets you use the streaming interfaces without having to specify the stream length.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">If you omit the length argument when the stream object is a LOB greater than a single page in size, performance will be impaired if you later retrieve the length of the LOB. However, if you are simply inserting or reading data, performance is unaffected.</source>
+<seg-source><mrk mid="0" mtype="seg">If you omit the length argument when the stream object is a LOB greater than a single page in size, performance will be impaired if you later retrieve the length of the LOB.</mrk><mrk mid="1" mtype="seg"> However, if you are simply inserting or reading data, performance is unaffected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you omit the length argument when the stream object is a LOB greater than a single page in size, performance will be impaired if you later retrieve the length of the LOB.</mrk><mrk mid="1" mtype="seg"> However, if you are simply inserting or reading data, performance is unaffected.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">The stream object passed to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setBinaryStream<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>setAsciiStream<ept id="2">&lt;/i&gt;</ept> can be either a standard Java stream object or the user's own subclass that implements the standard <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.io.InputStream<ept id="3">&lt;/i&gt;</ept> interface. The object passed to <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>setCharacterStream<ept id="4">&lt;/i&gt;</ept> must be a subclass of the abstract <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.io.Reader<ept id="5">&lt;/i&gt;</ept> class.</source>
+<seg-source><mrk mid="0" mtype="seg">The stream object passed to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setBinaryStream<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>setAsciiStream<ept id="2">&lt;/i&gt;</ept> can be either a standard Java stream object or the user's own subclass that implements the standard <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.io.InputStream<ept id="3">&lt;/i&gt;</ept> interface.</mrk><mrk mid="1" mtype="seg"> The object passed to <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>setCharacterStream<ept id="4">&lt;/i&gt;</ept> must be a subclass of the abstract <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.io.Reader<ept id="5">&lt;/i&gt;</ept> class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The stream object passed to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setBinaryStream<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>setAsciiStream<ept id="2">&lt;/i&gt;</ept> can be either a standard Java stream object or the user's own subclass that implements the standard <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.io.InputStream<ept id="3">&lt;/i&gt;</ept> interface.</mrk><mrk mid="1" mtype="seg"> The object passed to <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>setCharacterStream<ept id="4">&lt;/i&gt;</ept> must be a subclass of the abstract <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.io.Reader<ept id="5">&lt;/i&gt;</ept> class.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">According to the JDBC standard, streams can be stored only in columns with the data types shown in the following table. The word "Preferred" indicates the preferred target data type for the type of stream. See <bpt id="1" ctype="x-xref">&lt;xref href="rrefjdbc20377.dita#rrefjdbc20377/jdbc31241"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">According to the JDBC standard, streams can be stored only in columns with the data types shown in the following table.</mrk><mrk mid="1" mtype="seg"> The word "Preferred" indicates the preferred target data type for the type of stream.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefjdbc20377.dita#rrefjdbc20377/jdbc31241"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">According to the JDBC standard, streams can be stored only in columns with the data types shown in the following table.</mrk><mrk mid="1" mtype="seg"> The word "Preferred" indicates the preferred target data type for the type of stream.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefjdbc20377.dita#rrefjdbc20377/jdbc31241"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Streamable JDBC data types</source>
+<seg-source><mrk mid="0" mtype="seg">Streamable JDBC data types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Streamable JDBC data types</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">For each JDBC column data type, this table lists the corresponding Java data type (if any) and shows whether each of the stream types can be stored in columns of that type.</source>
+<seg-source><mrk mid="0" mtype="seg">For each JDBC column data type, this table lists the corresponding Java data type (if any) and shows whether each of the stream types can be stored in columns of that type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For each JDBC column data type, this table lists the corresponding Java data type (if any) and shows whether each of the stream types can be stored in columns of that type.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Column Data Type</source>
+<seg-source><mrk mid="0" mtype="seg">Column Data Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column Data Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">Corresponding Java Type</source>
+<seg-source><mrk mid="0" mtype="seg">Corresponding Java Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Corresponding Java Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">AsciiStream</source>
+<seg-source><mrk mid="0" mtype="seg">AsciiStream</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AsciiStream</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">CharacterStream</source>
+<seg-source><mrk mid="0" mtype="seg">CharacterStream</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CharacterStream</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">BinaryStream</source>
+<seg-source><mrk mid="0" mtype="seg">BinaryStream</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BinaryStream</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">CLOB</source>
+<seg-source><mrk mid="0" mtype="seg">CLOB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CLOB</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">LONGVARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">LONGVARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LONGVARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">Preferred</source>
+<seg-source><mrk mid="0" mtype="seg">Preferred</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Preferred</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">Preferred</source>
+<seg-source><mrk mid="0" mtype="seg">Preferred</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Preferred</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">BINARY</source>
+<seg-source><mrk mid="0" mtype="seg">BINARY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BINARY</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">BLOB</source>
+<seg-source><mrk mid="0" mtype="seg">BLOB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BLOB</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">VARBINARY</source>
+<seg-source><mrk mid="0" mtype="seg">VARBINARY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARBINARY</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">LONGVARBINARY</source>
+<seg-source><mrk mid="0" mtype="seg">LONGVARBINARY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LONGVARBINARY</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en">Preferred</source>
+<seg-source><mrk mid="0" mtype="seg">Preferred</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Preferred</mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en">Streams cannot be stored in columns of the other built-in data types or columns of user-defined data types.</source>
+<seg-source><mrk mid="0" mtype="seg">Streams cannot be stored in columns of the other built-in data types or columns of user-defined data types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Streams cannot be stored in columns of the other built-in data types or columns of user-defined data types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en">The following code fragment shows how a user can store a streamed, ASCII-encoded <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.io.File<ept id="1">&lt;/i&gt;</ept> in a LONG VARCHAR column:</source>
+<seg-source><mrk mid="0" mtype="seg">The following code fragment shows how a user can store a streamed, ASCII-encoded <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.io.File<ept id="1">&lt;/i&gt;</ept> in a LONG VARCHAR column:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following code fragment shows how a user can store a streamed, ASCII-encoded <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.io.File<ept id="1">&lt;/i&gt;</ept> in a LONG VARCHAR column:</mrk></target>
+</trans-unit>
+<trans-unit id="tu74">
+<source xml:lang="en">Statement s = conn.createStatement(); s.executeUpdate("CREATE TABLE atable (a INT, b LONG VARCHAR)"); conn.commit(); java.io.File file = new java.io.File("derby.txt"); int fileLength = (int) file.length(); <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>// create an input stream<ept id="1">&lt;/b&gt;</ept> java.io.InputStream fin = new java.io.FileInputStream(file); PreparedStatement ps = conn.prepareStatement( "INSERT INTO atable VALUES (?, ?)"); ps.setInt(1, 1); <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>// set the value of the input parameter to the input stream<ept id="2">&lt;/b&gt;</ept> ps.setAsciiStream(2, fin, fileLength); ps.execute(); conn.commit();</source>
+<seg-source><mrk mid="0" mtype="seg">Statement s = conn.createStatement(); s.executeUpdate("CREATE TABLE atable (a INT, b LONG VARCHAR)"); conn.commit(); java.io.File file = new java.io.File("derby.txt"); int fileLength = (int) file.length(); <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>// create an input stream<ept id="1">&lt;/b&gt;</ept> java.io.InputStream fin = new java.io.FileInputStream(file); PreparedStatement ps = conn.prepareStatement( "INSERT INTO atable VALUES (?, ?)"); ps.setInt(1, 1); <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>// set the value of the input parameter to the input stream<ept id="2">&lt;/b&gt;</ept> ps.setAsciiStream(2, fin, fileLength); ps.execute(); conn.commit();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Statement s = conn.createStatement(); s.executeUpdate("CREATE TABLE atable (a INT, b LONG VARCHAR)"); conn.commit(); java.io.File file = new java.io.File("derby.txt"); int fileLength = (int) file.length(); <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>// create an input stream<ept id="1">&lt;/b&gt;</ept> java.io.InputStream fin = new java.io.FileInputStream(file); PreparedStatement ps = conn.prepareStatement( "INSERT INTO atable VALUES (?, ?)"); ps.setInt(1, 1); <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>// set the value of the input parameter to the input stream<ept id="2">&lt;/b&gt;</ept> ps.setAsciiStream(2, fin, fileLength); ps.execute(); conn.commit();</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

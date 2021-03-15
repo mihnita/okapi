@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj41180.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SET ISOLATION statement</source>
+<seg-source><mrk mid="0" mtype="seg">SET ISOLATION statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SET ISOLATION statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">SET ISOLATION statement</source>
+<seg-source><mrk mid="0" mtype="seg">SET ISOLATION statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SET ISOLATION statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">ISOLATION</source>
+<seg-source><mrk mid="0" mtype="seg">ISOLATION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ISOLATION</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The SET ISOLATION statement allows a user to change the isolation level for the user's connection. Valid levels are SERIALIZABLE, REPEATABLE READ, READ COMMITTED, and READ UNCOMMITTED.</source>
+<seg-source><mrk mid="0" mtype="seg">The SET ISOLATION statement allows a user to change the isolation level for the user's connection.</mrk><mrk mid="1" mtype="seg"> Valid levels are SERIALIZABLE, REPEATABLE READ, READ COMMITTED, and READ UNCOMMITTED.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SET ISOLATION statement allows a user to change the isolation level for the user's connection.</mrk><mrk mid="1" mtype="seg"> Valid levels are SERIALIZABLE, REPEATABLE READ, READ COMMITTED, and READ UNCOMMITTED.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Issuing this statement always commits the current transaction. The JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection.setTransactionIsolation<ept id="1">&lt;/i&gt;</ept> method behaves almost identically to this command, with one exception: if you are using the embedded driver, and if the call to <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection.setTransactionIsolation<ept id="2">&lt;/i&gt;</ept> does not actually change the isolation level (that is, if it sets the isolation level to its current value), the current transaction is not committed.</source>
+<seg-source><mrk mid="0" mtype="seg">Issuing this statement always commits the current transaction.</mrk><mrk mid="1" mtype="seg"> The JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection.setTransactionIsolation<ept id="1">&lt;/i&gt;</ept> method behaves almost identically to this command, with one exception: if you are using the embedded driver, and if the call to <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection.setTransactionIsolation<ept id="2">&lt;/i&gt;</ept> does not actually change the isolation level (that is, if it sets the isolation level to its current value), the current transaction is not committed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Issuing this statement always commits the current transaction.</mrk><mrk mid="1" mtype="seg"> The JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection.setTransactionIsolation<ept id="1">&lt;/i&gt;</ept> method behaves almost identically to this command, with one exception: if you are using the embedded driver, and if the call to <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection.setTransactionIsolation<ept id="2">&lt;/i&gt;</ept> does not actually change the isolation level (that is, if it sets the isolation level to its current value), the current transaction is not committed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">For information about isolation levels, see "Locking, concurrency, and isolation" in the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>. For information about the JDBC <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection.setTransactionIsolation<ept id="3">&lt;/i&gt;</ept> method, see <bpt id="4" ctype="x-xref">&lt;xref href="rrefjavcsti.dita#rrefjavcsti"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For information about isolation levels, see "Locking, concurrency, and isolation" in the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> For information about the JDBC <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection.setTransactionIsolation<ept id="3">&lt;/i&gt;</ept> method, see <bpt id="4" ctype="x-xref">&lt;xref href="rrefjavcsti.dita#rrefjavcsti"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For information about isolation levels, see "Locking, concurrency, and isolation" in the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> For information about the JDBC <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection.setTransactionIsolation<ept id="3">&lt;/i&gt;</ept> method, see <bpt id="4" ctype="x-xref">&lt;xref href="rrefjavcsti.dita#rrefjavcsti"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SET [ CURRENT ] ISOLATION [ = ] { UR | DIRTY READ | READ UNCOMMITTED | CS | READ COMMITTED | CURSOR STABILITY | RS | RR | REPEATABLE READ | SERIALIZABLE | RESET } <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SET [ CURRENT ] ISOLATION [ = ] { UR | DIRTY READ | READ UNCOMMITTED | CS | READ COMMITTED | CURSOR STABILITY | RS | RR | REPEATABLE READ | SERIALIZABLE | RESET } <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SET [ CURRENT ] ISOLATION [ = ] { UR | DIRTY READ | READ UNCOMMITTED | CS | READ COMMITTED | CURSOR STABILITY | RS | RR | REPEATABLE READ | SERIALIZABLE | RESET } <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>set isolation serializable;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>set isolation serializable;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>set isolation serializable;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

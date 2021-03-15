@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Strong and em together.md.tkitMerged" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-EMPHASIS">*</ph><ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>This is strong and em.<ph id="3" ctype="x-STRONG_EMPHASIS">**</ph><ph id="4" ctype="x-EMPHASIS">*</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-EMPHASIS">*</ph><ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>This is strong and em.<ph id="3" ctype="x-STRONG_EMPHASIS">**</ph><ph id="4" ctype="x-EMPHASIS">*</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-EMPHASIS">*</ph><ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>This is strong and em.<ph id="3" ctype="x-STRONG_EMPHASIS">**</ph><ph id="4" ctype="x-EMPHASIS">*</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">So is <ph id="1" ctype="x-EMPHASIS">*</ph><ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>this<ph id="3" ctype="x-STRONG_EMPHASIS">**</ph><ph id="4" ctype="x-EMPHASIS">*</ph> word.</source>
+<seg-source><mrk mid="0" mtype="seg">So is <ph id="1" ctype="x-EMPHASIS">*</ph><ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>this<ph id="3" ctype="x-STRONG_EMPHASIS">**</ph><ph id="4" ctype="x-EMPHASIS">*</ph> word.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">So is <ph id="1" ctype="x-EMPHASIS">*</ph><ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>this<ph id="3" ctype="x-STRONG_EMPHASIS">**</ph><ph id="4" ctype="x-EMPHASIS">*</ph> word.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-EMPHASIS">_</ph><ph id="2" ctype="x-STRONG_EMPHASIS">__</ph>This is strong and em.<ph id="3" ctype="x-STRONG_EMPHASIS">__</ph><ph id="4" ctype="x-EMPHASIS">_</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-EMPHASIS">_</ph><ph id="2" ctype="x-STRONG_EMPHASIS">__</ph>This is strong and em.<ph id="3" ctype="x-STRONG_EMPHASIS">__</ph><ph id="4" ctype="x-EMPHASIS">_</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-EMPHASIS">_</ph><ph id="2" ctype="x-STRONG_EMPHASIS">__</ph>This is strong and em.<ph id="3" ctype="x-STRONG_EMPHASIS">__</ph><ph id="4" ctype="x-EMPHASIS">_</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">So is <ph id="1" ctype="x-EMPHASIS">_</ph><ph id="2" ctype="x-STRONG_EMPHASIS">__</ph>this<ph id="3" ctype="x-STRONG_EMPHASIS">__</ph><ph id="4" ctype="x-EMPHASIS">_</ph> word.</source>
+<seg-source><mrk mid="0" mtype="seg">So is <ph id="1" ctype="x-EMPHASIS">_</ph><ph id="2" ctype="x-STRONG_EMPHASIS">__</ph>this<ph id="3" ctype="x-STRONG_EMPHASIS">__</ph><ph id="4" ctype="x-EMPHASIS">_</ph> word.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">So is <ph id="1" ctype="x-EMPHASIS">_</ph><ph id="2" ctype="x-STRONG_EMPHASIS">__</ph>this<ph id="3" ctype="x-STRONG_EMPHASIS">__</ph><ph id="4" ctype="x-EMPHASIS">_</ph> word.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

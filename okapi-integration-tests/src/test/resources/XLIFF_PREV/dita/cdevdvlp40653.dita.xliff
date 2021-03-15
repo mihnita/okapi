@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdvlp40653.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Derby JDBC driver</source>
+<seg-source><mrk mid="0" mtype="seg">Derby JDBC driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Derby JDBC driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> consists of both the database engine and an embedded JDBC driver. Applications use JDBC to interact with a database. Applications running on JDK 5 must load the driver in order to work with the database.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> consists of both the database engine and an embedded JDBC driver.</mrk><mrk mid="1" mtype="seg"> Applications use JDBC to interact with a database.</mrk><mrk mid="2" mtype="seg"> Applications running on JDK 5 must load the driver in order to work with the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> consists of both the database engine and an embedded JDBC driver.</mrk><mrk mid="1" mtype="seg"> Applications use JDBC to interact with a database.</mrk><mrk mid="2" mtype="seg"> Applications running on JDK 5 must load the driver in order to work with the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">JDBC driver</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">description</source>
+<seg-source><mrk mid="0" mtype="seg">description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">description</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">In an embedded environment, loading the driver also starts <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">In an embedded environment, loading the driver also starts <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In an embedded environment, loading the driver also starts <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> driver class name for the embedded environment is <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.EmbeddedDriver<ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> driver class name for the embedded environment is <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.EmbeddedDriver<ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> driver class name for the embedded environment is <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.EmbeddedDriver<ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">In a Java application, you typically load the driver with the static <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Class.forName<ept id="1">&lt;/i&gt;</ept> method or with the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>jdbc.drivers<ept id="2">&lt;/i&gt;</ept> system property. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">In a Java application, you typically load the driver with the static <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Class.forName<ept id="1">&lt;/i&gt;</ept> method or with the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>jdbc.drivers<ept id="2">&lt;/i&gt;</ept> system property.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In a Java application, you typically load the driver with the static <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Class.forName<ept id="1">&lt;/i&gt;</ept> method or with the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>jdbc.drivers<ept id="2">&lt;/i&gt;</ept> system property.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Class.forName("org.apache.derby.jdbc.EmbeddedDriver");</source>
+<seg-source><mrk mid="0" mtype="seg">Class.forName("org.apache.derby.jdbc.EmbeddedDriver");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Class.forName("org.apache.derby.jdbc.EmbeddedDriver");</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">java -Djdbc.drivers=org.apache.derby.jdbc.EmbeddedDriver<bpt id="1" ctype="x-i">&lt;i&gt;</bpt> applicationClass<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">java -Djdbc.drivers=org.apache.derby.jdbc.EmbeddedDriver<bpt id="1" ctype="x-i">&lt;i&gt;</bpt> applicationClass<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java -Djdbc.drivers=org.apache.derby.jdbc.EmbeddedDriver<bpt id="1" ctype="x-i">&lt;i&gt;</bpt> applicationClass<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">For detailed information about loading the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> JDBC driver, see "java.sql.Driver interface" in the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For detailed information about loading the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> JDBC driver, see "java.sql.Driver interface" in the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For detailed information about loading the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> JDBC driver, see "java.sql.Driver interface" in the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">If your application runs on JDK 6 or higher, you do not need to explicitly load the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDriver<ept id="1">&lt;/codeph&gt;</ept>. In that environment, the driver loads automatically.</source>
+<seg-source><mrk mid="0" mtype="seg">If your application runs on JDK 6 or higher, you do not need to explicitly load the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDriver<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> In that environment, the driver loads automatically.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If your application runs on JDK 6 or higher, you do not need to explicitly load the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>EmbeddedDriver<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> In that environment, the driver loads automatically.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">If your application shuts down Derby or calls the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager.deregisterDriver<ept id="1">&lt;/i&gt;</ept> method, and you then want to reload the driver, call the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Class.forName().newInstance()<ept id="2">&lt;/i&gt;</ept> method.</source>
+<seg-source><mrk mid="0" mtype="seg">If your application shuts down Derby or calls the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager.deregisterDriver<ept id="1">&lt;/i&gt;</ept> method, and you then want to reload the driver, call the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Class.forName().newInstance()<ept id="2">&lt;/i&gt;</ept> method.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If your application shuts down Derby or calls the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager.deregisterDriver<ept id="1">&lt;/i&gt;</ept> method, and you then want to reload the driver, call the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Class.forName().newInstance()<ept id="2">&lt;/i&gt;</ept> method.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="fr" xmlns:my="myNamespace" xmlns:fs="urn:oasis:names:tc:xliff:fs:2.0" my:attr="value1">
+<file id="f1" canResegment="no" translate="no" srcDir="rtl" trgDir="rtl" original="myfile" my:attr="value2" xml:space="preserve">
+<mda:metadata xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+<mda:metaGroup category="someCat">
+<mda:meta type="mtype1">info-mtype1</mda:meta>
+<mda:metaGroup category="subCat">
+<mda:meta type="mtype2">info-mtype2</mda:meta>
+</mda:metaGroup>
+</mda:metaGroup>
+</mda:metadata>
+<notes>
+<note id="note1" appliesTo="source" priority="2" category="mycat" my:attr="value3">Text of note1</note>
+</notes>
+<unit id="tu1" canResegment="yes" translate="yes" srcDir="ltr" trgDir="ltr" name="unit1" type="z:typeu">
+<segment id="1">
+<source xml:space="preserve">Sample segment.</source>
+<target xml:space="preserve">Exemple de segment.</target>
+</segment>
+</unit>
+</file>
+</xliff>

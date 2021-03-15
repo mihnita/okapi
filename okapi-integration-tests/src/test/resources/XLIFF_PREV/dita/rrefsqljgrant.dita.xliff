@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljgrant.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">GRANT statement</source>
+<seg-source><mrk mid="0" mtype="seg">GRANT statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GRANT statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">GRANT statement</source>
+<seg-source><mrk mid="0" mtype="seg">GRANT statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GRANT statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SQL statements</source>
+<seg-source><mrk mid="0" mtype="seg">SQL statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">GRANT</source>
+<seg-source><mrk mid="0" mtype="seg">GRANT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GRANT</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Use the GRANT statement to give privileges to a specific user or role, or to all users, to perform actions on database objects. You can also use the GRANT statement to grant a role to a user, to PUBLIC, or to another role.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the GRANT statement to give privileges to a specific user or role, or to all users, to perform actions on database objects.</mrk><mrk mid="1" mtype="seg"> You can also use the GRANT statement to grant a role to a user, to PUBLIC, or to another role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the GRANT statement to give privileges to a specific user or role, or to all users, to perform actions on database objects.</mrk><mrk mid="1" mtype="seg"> You can also use the GRANT statement to grant a role to a user, to PUBLIC, or to another role.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The following types of privileges can be granted:</source>
+<seg-source><mrk mid="0" mtype="seg">The following types of privileges can be granted:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following types of privileges can be granted:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Delete data from a specific table.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete data from a specific table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete data from a specific table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Insert data into a specific table.</source>
+<seg-source><mrk mid="0" mtype="seg">Insert data into a specific table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert data into a specific table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Create a foreign key reference to the named table or to a subset of columns from a table.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a foreign key reference to the named table or to a subset of columns from a table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a foreign key reference to the named table or to a subset of columns from a table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Select data from a table, view, or a subset of columns in a table.</source>
+<seg-source><mrk mid="0" mtype="seg">Select data from a table, view, or a subset of columns in a table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select data from a table, view, or a subset of columns in a table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Create a trigger on a table.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a trigger on a table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a trigger on a table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Update data in a table or in a subset of columns in a table.</source>
+<seg-source><mrk mid="0" mtype="seg">Update data in a table or in a subset of columns in a table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Update data in a table or in a subset of columns in a table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Run a specified function or procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">Run a specified function or procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run a specified function or procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Use a sequence generator, a user-defined type, or a user-defined aggregate.</source>
+<seg-source><mrk mid="0" mtype="seg">Use a sequence generator, a user-defined type, or a user-defined aggregate.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use a sequence generator, a user-defined type, or a user-defined aggregate.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Before you issue a GRANT statement, check that the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefpropersqlauth.dita#rrefpropersqlauth"&gt;</bpt>derby.database.sqlAuthorization<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> property is set to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="3">&lt;/codeph&gt;</ept>. The <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.database.sqlAuthorization<ept id="4">&lt;/i&gt;</ept> property enables the SQL Authorization mode.</source>
+<seg-source><mrk mid="0" mtype="seg">Before you issue a GRANT statement, check that the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefpropersqlauth.dita#rrefpropersqlauth"&gt;</bpt>derby.database.sqlAuthorization<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> property is set to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="3">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.database.sqlAuthorization<ept id="4">&lt;/i&gt;</ept> property enables the SQL Authorization mode.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Before you issue a GRANT statement, check that the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefpropersqlauth.dita#rrefpropersqlauth"&gt;</bpt>derby.database.sqlAuthorization<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> property is set to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="3">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.database.sqlAuthorization<ept id="4">&lt;/i&gt;</ept> property enables the SQL Authorization mode.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">You can grant privileges on an object if you are the owner of the object or the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept>. See the CREATE statement for the database object that you want to grant privileges on for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">You can grant privileges on an object if you are the owner of the object or the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> See the CREATE statement for the database object that you want to grant privileges on for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can grant privileges on an object if you are the owner of the object or the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> See the CREATE statement for the database object that you want to grant privileges on for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">The syntax that you use for the GRANT statement depends on whether you are granting privileges to a schema object or granting a role.</source>
+<seg-source><mrk mid="0" mtype="seg">The syntax that you use for the GRANT statement depends on whether you are granting privileges to a schema object or granting a role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The syntax that you use for the GRANT statement depends on whether you are granting privileges to a schema object or granting a role.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">For more information on using the GRANT statement, see "Using SQL standard authorization" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information on using the GRANT statement, see "Using SQL standard authorization" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information on using the GRANT statement, see "Using SQL standard authorization" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Syntax for tables</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax for tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax for tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantprivtype"&gt;</bpt>privilegeType<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i
+&gt;</ept> ON [ TABLE ] { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt><ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefviewname.dita#rrefviewname"&gt;</bpt><ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> } TO <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantprivtype"&gt;</bpt>privilegeType<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i
+&gt;</ept> ON [ TABLE ] { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt><ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefviewname.dita#rrefviewname"&gt;</bpt><ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> } TO <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantprivtype"&gt;</bpt>privilegeType<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i
+&gt;</ept> ON [ TABLE ] { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt><ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefviewname.dita#rrefviewname"&gt;</bpt><ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> } TO <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Syntax for routines</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax for routines</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax for routines</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT EXECUTE ON FUNCTION <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreffunctionname.dita#rreffunctionname"&gt;</bpt>functionName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT EXECUTE ON FUNCTION <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreffunctionname.dita#rreffunctionname"&gt;</bpt>functionName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT EXECUTE ON FUNCTION <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreffunctionname.dita#rreffunctionname"&gt;</bpt>functionName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT EXECUTE ON PROCEDURE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefprocedurename.dita#rrefprocedurename.dita"&gt;</bpt>procedureName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT EXECUTE ON PROCEDURE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefprocedurename.dita#rrefprocedurename.dita"&gt;</bpt>procedureName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT EXECUTE ON PROCEDURE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefprocedurename.dita#rrefprocedurename.dita"&gt;</bpt>procedureName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Syntax for sequence generators</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax for sequence generators</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax for sequence generators</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON SEQUENCE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefsequencename.dita#rrefsequencename"&gt;</bpt>sequenceName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON SEQUENCE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefsequencename.dita#rrefsequencename"&gt;</bpt>sequenceName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON SEQUENCE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefsequencename.dita#rrefsequencename"&gt;</bpt>sequenceName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">In order to use a sequence generator, you must have the USAGE privilege on it. This privilege can be granted to users and to roles. See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatesequence.dita#rrefsqljcreatesequence"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">In order to use a sequence generator, you must have the USAGE privilege on it.</mrk><mrk mid="1" mtype="seg"> This privilege can be granted to users and to roles.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatesequence.dita#rrefsqljcreatesequence"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In order to use a sequence generator, you must have the USAGE privilege on it.</mrk><mrk mid="1" mtype="seg"> This privilege can be granted to users and to roles.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatesequence.dita#rrefsqljcreatesequence"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">Syntax for user-defined types</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax for user-defined types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax for user-defined types</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON TYPE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rreftypename.dita#rreftypename"&gt;</bpt>typeName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON TYPE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rreftypename.dita#rreftypename"&gt;</bpt>typeName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON TYPE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rreftypename.dita#rreftypename"&gt;</bpt>typeName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">In order to use a user-defined type, you must have the USAGE privilege on it. This privilege can be granted to users and to roles. See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatetype.dita#rrefsqljcreatetype"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">In order to use a user-defined type, you must have the USAGE privilege on it.</mrk><mrk mid="1" mtype="seg"> This privilege can be granted to users and to roles.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatetype.dita#rrefsqljcreatetype"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In order to use a user-defined type, you must have the USAGE privilege on it.</mrk><mrk mid="1" mtype="seg"> This privilege can be granted to users and to roles.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatetype.dita#rrefsqljcreatetype"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">Syntax for user-defined aggregates</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax for user-defined aggregates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax for user-defined aggregates</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON DERBY AGGREGATE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefaggregatename.dita#rrefaggregatename"&gt;</bpt>aggregateName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON DERBY AGGREGATE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefaggregatename.dita#rrefaggregatename"&gt;</bpt>aggregateName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON DERBY AGGREGATE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefaggregatename.dita#rrefaggregatename"&gt;</bpt>aggregateName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">In order to use a user-defined aggregate, you must have the USAGE privilege on it. This privilege can be granted to users and to roles. See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreateaggregate.dita#rrefsqljcreateaggregate"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">In order to use a user-defined aggregate, you must have the USAGE privilege on it.</mrk><mrk mid="1" mtype="seg"> This privilege can be granted to users and to roles.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreateaggregate.dita#rrefsqljcreateaggregate"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In order to use a user-defined aggregate, you must have the USAGE privilege on it.</mrk><mrk mid="1" mtype="seg"> This privilege can be granted to users and to roles.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreateaggregate.dita#rrefsqljcreateaggregate"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">Syntax for roles</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax for roles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax for roles</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* TO <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref 
+href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* TO <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref 
+href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* TO <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref 
+href="rrefsqljgrant.dita#rrefsqljgrant/grantgrantees"&gt;</bpt>grantees<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">Before you can grant a role to a user or to another role, you must create the role using the <bpt id="1" ctype="x-xref">&lt;xref href="rrefcreaterole.dita#rrefcreaterole"&gt;</bpt>CREATE ROLE statement<ept id="1">&lt;/xref&gt;</ept>. Only the <bpt id="2" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="2">&lt;/xref&gt;</ept> can grant a role.</source>
+<seg-source><mrk mid="0" mtype="seg">Before you can grant a role to a user or to another role, you must create the role using the <bpt id="1" ctype="x-xref">&lt;xref href="rrefcreaterole.dita#rrefcreaterole"&gt;</bpt>CREATE ROLE statement<ept id="1">&lt;/xref&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Only the <bpt id="2" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="2">&lt;/xref&gt;</ept> can grant a role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Before you can grant a role to a user or to another role, you must create the role using the <bpt id="1" ctype="x-xref">&lt;xref href="rrefcreaterole.dita#rrefcreaterole"&gt;</bpt>CREATE ROLE statement<ept id="1">&lt;/xref&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Only the <bpt id="2" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="2">&lt;/xref&gt;</ept> can grant a role.</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">A role A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>contains<ept id="1">&lt;/i&gt;</ept> another role B if role B is granted to role A, or is contained in a role C granted to role A. Privileges granted to a contained role are inherited by the containing roles. So the set of privileges identified by role A is the union of the privileges granted to role A and the privileges granted to any contained roles of role A.</source>
+<seg-source><mrk mid="0" mtype="seg">A role A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>contains<ept id="1">&lt;/i&gt;</ept> another role B if role B is granted to role A, or is contained in a role C granted to role A. Privileges granted to a contained role are inherited by the containing roles.</mrk><mrk mid="1" mtype="seg"> So the set of privileges identified by role A is the union of the privileges granted to role A and the privileges granted to any contained roles of role A.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A role A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>contains<ept id="1">&lt;/i&gt;</ept> another role B if role B is granted to role A, or is contained in a role C granted to role A. Privileges granted to a contained role are inherited by the containing roles.</mrk><mrk mid="1" mtype="seg"> So the set of privileges identified by role A is the union of the privileges granted to role A and the privileges granted to any contained roles of role A.</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">privilegeType</source>
+<seg-source><mrk mid="0" mtype="seg">privilegeType</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">privilegeType</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> { ALL PRIVILEGES | <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantprivlist"&gt;</bpt>privilegeList<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> } <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> { ALL PRIVILEGES | <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantprivlist"&gt;</bpt>privilegeList<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> } <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> { ALL PRIVILEGES | <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantprivlist"&gt;</bpt>privilegeList<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> } <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">privilegeList</source>
+<seg-source><mrk mid="0" mtype="seg">privilegeList</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">privilegeList</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/granttablepriv"&gt;</bpt>tablePrivilege<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/granttablepriv"&gt;</bpt>tablePrivilege<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/granttablepriv"&gt;</bpt>tablePrivilege<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/granttablepriv"&gt;</bpt>tablePrivilege<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/granttablepriv"&gt;</bpt>tablePrivilege<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/granttablepriv"&gt;</bpt>tablePrivilege<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">tablePrivilege</source>
+<seg-source><mrk mid="0" mtype="seg">tablePrivilege</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tablePrivilege</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> DELETE | INSERT | REFERENCES [ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantcollist"&gt;</bpt>columnList<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ] | SELECT [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantcollist"&gt;</bpt>columnList<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ] | TRIGGER | UPDATE [ <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantcollist"&gt;</bpt>columnList<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ] <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> DELETE | INSERT | REFERENCES [ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantcollist"&gt;</bpt>columnList<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ] | SELECT [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantcollist"&gt;</bpt>columnList<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ] | TRIGGER | UPDATE [ <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantcollist"&gt;</bpt>columnList<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ] <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> DELETE | INSERT | REFERENCES [ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantcollist"&gt;</bpt>columnList<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ] | SELECT [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantcollist"&gt;</bpt>columnList<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ] | TRIGGER | UPDATE [ <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefsqljgrant.dita#rrefsqljgrant/grantcollist"&gt;</bpt>columnList<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ] <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">columnList</source>
+<seg-source><mrk mid="0" mtype="seg">columnList</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">columnList</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>columnIdentifier<ept id="2">&lt;/i&gt;</ept> [ , <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>columnIdentifier<ept id="3">&lt;/i&gt;</ept> ]* ) <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>columnIdentifier<ept id="2">&lt;/i&gt;</ept> [ , <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>columnIdentifier<ept id="3">&lt;/i&gt;</ept> ]* ) <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>columnIdentifier<ept id="2">&lt;/i&gt;</ept> [ , <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>columnIdentifier<ept id="3">&lt;/i&gt;</ept> ]* ) <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">Use the ALL PRIVILEGES privilege type to grant all of the privileges to the user or role for the specified table. You can also grant one or more table privileges by specifying a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>privilegeList<ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the ALL PRIVILEGES privilege type to grant all of the privileges to the user or role for the specified table.</mrk><mrk mid="1" mtype="seg"> You can also grant one or more table privileges by specifying a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>privilegeList<ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the ALL PRIVILEGES privilege type to grant all of the privileges to the user or role for the specified table.</mrk><mrk mid="1" mtype="seg"> You can also grant one or more table privileges by specifying a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>privilegeList<ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">Use the DELETE privilege type to grant permission to delete rows from the specified table.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the DELETE privilege type to grant permission to delete rows from the specified table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the DELETE privilege type to grant permission to delete rows from the specified table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">Use the INSERT privilege type to grant permission to insert rows into the specified table.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the INSERT privilege type to grant permission to insert rows into the specified table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the INSERT privilege type to grant permission to insert rows into the specified table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">Use the REFERENCES privilege type to grant permission to create a foreign key reference to the specified table. If a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>columnList<ept id="1">&lt;/i&gt;</ept> is specified with the REFERENCES privilege, the permission is valid on only the foreign key reference to the specified columns.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the REFERENCES privilege type to grant permission to create a foreign key reference to the specified table.</mrk><mrk mid="1" mtype="seg"> If a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>columnList<ept id="1">&lt;/i&gt;</ept> is specified with the REFERENCES privilege, the permission is valid on only the foreign key reference to the specified columns.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the REFERENCES privilege type to grant permission to create a foreign key reference to the specified table.</mrk><mrk mid="1" mtype="seg"> If a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>columnList<ept id="1">&lt;/i&gt;</ept> is specified with the REFERENCES privilege, the permission is valid on only the foreign key reference to the specified columns.</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">Use the SELECT privilege type to grant permission to perform <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj41360.dita#rrefsqlj41360"&gt;</bpt>SELECT statements<ept id="1">&lt;/xref&gt;</ept> or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpressions<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> on a table or view. If a column list is specified with the SELECT privilege, the permission is valid on only those columns. If no column list is specified, then the privilege is valid on all of the columns in the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the SELECT privilege type to grant permission to perform <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj41360.dita#rrefsqlj41360"&gt;</bpt>SELECT statements<ept id="1">&lt;/xref&gt;</ept> or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpressions<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> on a table or view.</mrk><mrk mid="1" mtype="seg"> If a column list is specified with the SELECT privilege, the permission is valid on only those columns.</mrk><mrk mid="2" mtype="seg"> If no column list is specified, then the privilege is valid on all of the columns in the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the SELECT privilege type to grant permission to perform <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj41360.dita#rrefsqlj41360"&gt;</bpt>SELECT statements<ept id="1">&lt;/xref&gt;</ept> or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpressions<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> on a table or view.</mrk><mrk mid="1" mtype="seg"> If a column list is specified with the SELECT privilege, the permission is valid on only those columns.</mrk><mrk mid="2" mtype="seg"> If no column list is specified, then the privilege is valid on all of the columns in the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">For queries that do not select a specific column from the tables involved in a SELECT statement or <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>selectExpression<ept id="1">&lt;/i&gt;</ept> (for example, queries that use <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>COUNT(*)<ept id="2">&lt;/codeph&gt;</ept>), the user must have at least one column-level SELECT privilege or table-level SELECT privilege.</source>
+<seg-source><mrk mid="0" mtype="seg">For queries that do not select a specific column from the tables involved in a SELECT statement or <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>selectExpression<ept id="1">&lt;/i&gt;</ept> (for example, queries that use <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>COUNT(*)<ept id="2">&lt;/codeph&gt;</ept>), the user must have at least one column-level SELECT privilege or table-level SELECT privilege.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For queries that do not select a specific column from the tables involved in a SELECT statement or <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>selectExpression<ept id="1">&lt;/i&gt;</ept> (for example, queries that use <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>COUNT(*)<ept id="2">&lt;/codeph&gt;</ept>), the user must have at least one column-level SELECT privilege or table-level SELECT privilege.</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">Use the TRIGGER privilege type to grant permission to create a trigger on the specified table.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the TRIGGER privilege type to grant permission to create a trigger on the specified table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the TRIGGER privilege type to grant permission to create a trigger on the specified table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">Use the UPDATE privilege type to grant permission to use the UPDATE statement on the specified table. If a column list is specified, the permission applies only to the specified columns. To update a row using a statement that includes a WHERE clause, you must have the SELECT privilege on the columns in the row that you want to update.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the UPDATE privilege type to grant permission to use the UPDATE statement on the specified table.</mrk><mrk mid="1" mtype="seg"> If a column list is specified, the permission applies only to the specified columns.</mrk><mrk mid="2" mtype="seg"> To update a row using a statement that includes a WHERE clause, you must have the SELECT privilege on the columns in the row that you want to update.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the UPDATE privilege type to grant permission to use the UPDATE statement on the specified table.</mrk><mrk mid="1" mtype="seg"> If a column list is specified, the permission applies only to the specified columns.</mrk><mrk mid="2" mtype="seg"> To update a row using a statement that includes a WHERE clause, you must have the SELECT privilege on the columns in the row that you want to update.</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">grantees</source>
+<seg-source><mrk mid="0" mtype="seg">grantees</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">grantees</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefrauthid.dita#rrefrauthid"&gt;</bpt>authorizationIdentifier<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | PUBLIC } [ , { <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefrauthid.dita#rrefrauthid"&gt;</bpt>authorizationIdentifier<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> | <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> | PUBLIC } ]*<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefrauthid.dita#rrefrauthid"&gt;</bpt>authorizationIdentifier<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | PUBLIC } [ , { <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefrauthid.dita#rrefrauthid"&gt;</bpt>authorizationIdentifier<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> | <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> | PUBLIC } ]*<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefrauthid.dita#rrefrauthid"&gt;</bpt>authorizationIdentifier<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | PUBLIC } [ , { <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefrauthid.dita#rrefrauthid"&gt;</bpt>authorizationIdentifier<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> | <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefrolename.dita#rrefrolename"&gt;</bpt>roleName<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> | PUBLIC } ]*<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">You can grant privileges or roles to specific users or roles or to all users. Use the keyword PUBLIC to specify all users. When PUBLIC is specified, the privileges or roles affect all current and future users. The privileges granted to PUBLIC and to individual users or roles are independent privileges. For example, a SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> is granted to both PUBLIC and to the authorization ID <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="2">&lt;/codeph&gt;</ept>. The SELECT privilege is later revoked from the authorization ID <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="3">&lt;/codeph&gt;</ept>, but Harry can access the table <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="4">&lt;/codeph&gt;</ept> through the PUBLIC privilege.</source>
+<seg-source><mrk mid="0" mtype="seg">You can grant privileges or roles to specific users or roles or to all users.</mrk><mrk mid="1" mtype="seg"> Use the keyword PUBLIC to specify all users.</mrk><mrk mid="2" mtype="seg"> When PUBLIC is specified, the privileges or roles affect all current and future users.</mrk><mrk mid="3" mtype="seg"> The privileges granted to PUBLIC and to individual users or roles are independent privileges.</mrk><mrk mid="4" mtype="seg"> For example, a SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> is granted to both PUBLIC and to the authorization ID <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="5" mtype="seg"> The SELECT privilege is later revoked from the authorization ID <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="3">&lt;/codeph&gt;</ept>, but Harry can access the table <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="4">&lt;/codeph&gt;</ept> through the PUBLIC privilege.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can grant privileges or roles to specific users or roles or to all users.</mrk><mrk mid="1" mtype="seg"> Use the keyword PUBLIC to specify all users.</mrk><mrk mid="2" mtype="seg"> When PUBLIC is specified, the privileges or roles affect all current and future users.</mrk><mrk mid="3" mtype="seg"> The privileges granted to PUBLIC and to individual users or roles are independent privileges.</mrk><mrk mid="4" mtype="seg"> For example, a SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> is granted to both PUBLIC and to the authorization ID <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="5" mtype="seg"> The SELECT privilege is later revoked from the authorization ID <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="3">&lt;/codeph&gt;</ept>, but Harry can access the table <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="4">&lt;/codeph&gt;</ept> through the PUBLIC privilege.</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">Either the object owner or the database owner can grant privileges to a user or to a role. Only the database owner can grant a role to a user or to another role.</source>
+<seg-source><mrk mid="0" mtype="seg">Either the object owner or the database owner can grant privileges to a user or to a role.</mrk><mrk mid="1" mtype="seg"> Only the database owner can grant a role to a user or to another role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Either the object owner or the database owner can grant privileges to a user or to a role.</mrk><mrk mid="1" mtype="seg"> Only the database owner can grant a role to a user or to another role.</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">To grant the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> to the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>maria<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To grant the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> to the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>maria<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To grant the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> to the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>maria<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT SELECT ON TABLE t TO maria,harry<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT SELECT ON TABLE t TO maria,harry<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT SELECT ON TABLE t TO maria,harry<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">To grant the UPDATE and TRIGGER privileges on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> to the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>zhi<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To grant the UPDATE and TRIGGER privileges on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> to the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>zhi<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To grant the UPDATE and TRIGGER privileges on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> to the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>zhi<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT UPDATE, TRIGGER ON TABLE t TO anita,zhi<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT UPDATE, TRIGGER ON TABLE t TO anita,zhi<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT UPDATE, TRIGGER ON TABLE t TO anita,zhi<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">To grant the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="1">&lt;/codeph&gt;</ept> to all users, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To grant the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="1">&lt;/codeph&gt;</ept> to all users, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To grant the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="1">&lt;/codeph&gt;</ept> to all users, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT SELECT ON TABLE s.v to PUBLIC<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT SELECT ON TABLE s.v to PUBLIC<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT SELECT ON TABLE s.v to PUBLIC<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en">To grant the EXECUTE privilege on procedure <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>p<ept id="1">&lt;/codeph&gt;</ept> to the authorization ID <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>george<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To grant the EXECUTE privilege on procedure <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>p<ept id="1">&lt;/codeph&gt;</ept> to the authorization ID <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>george<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To grant the EXECUTE privilege on procedure <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>p<ept id="1">&lt;/codeph&gt;</ept> to the authorization ID <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>george<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT EXECUTE ON PROCEDURE p TO george<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT EXECUTE ON PROCEDURE p TO george<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT EXECUTE ON PROCEDURE p TO george<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">To grant the role <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>purchases_reader_role<ept id="1">&lt;/codeph&gt;</ept> to the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>george<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>maria<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To grant the role <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>purchases_reader_role<ept id="1">&lt;/codeph&gt;</ept> to the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>george<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>maria<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To grant the role <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>purchases_reader_role<ept id="1">&lt;/codeph&gt;</ept> to the authorization IDs <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>george<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>maria<ept id="3">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT purchases_reader_role TO george,maria<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT purchases_reader_role TO george,maria<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT purchases_reader_role TO george,maria<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">To grant the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> to the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>purchases_reader_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To grant the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> to the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>purchases_reader_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To grant the SELECT privilege on table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t<ept id="1">&lt;/codeph&gt;</ept> to the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>purchases_reader_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT SELECT ON TABLE t TO purchases_reader_role<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT SELECT ON TABLE t TO purchases_reader_role<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT SELECT ON TABLE t TO purchases_reader_role<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en">To grant the USAGE privilege on the sequence generator <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>order_id<ept id="1">&lt;/codeph&gt;</ept> to the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sales_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To grant the USAGE privilege on the sequence generator <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>order_id<ept id="1">&lt;/codeph&gt;</ept> to the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sales_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To grant the USAGE privilege on the sequence generator <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>order_id<ept id="1">&lt;/codeph&gt;</ept> to the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sales_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON SEQUENCE order_id TO sales_role;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON SEQUENCE order_id TO sales_role;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON SEQUENCE order_id TO sales_role;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en">To grant the USAGE privilege on the user-defined type <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>price<ept id="1">&lt;/codeph&gt;</ept> to the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>finance_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To grant the USAGE privilege on the user-defined type <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>price<ept id="1">&lt;/codeph&gt;</ept> to the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>finance_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To grant the USAGE privilege on the user-defined type <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>price<ept id="1">&lt;/codeph&gt;</ept> to the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>finance_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON TYPE price TO finance_role;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON TYPE price TO finance_role;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON TYPE price TO finance_role;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu74">
+<source xml:lang="en">To grant the USAGE privilege on the user-defined aggregate <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>types.maxPrice<ept id="1">&lt;/codeph&gt;</ept> to the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sales_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To grant the USAGE privilege on the user-defined aggregate <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>types.maxPrice<ept id="1">&lt;/codeph&gt;</ept> to the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sales_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To grant the USAGE privilege on the user-defined aggregate <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>types.maxPrice<ept id="1">&lt;/codeph&gt;</ept> to the role <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sales_role<ept id="2">&lt;/codeph&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu75">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON DERBY AGGREGATE types.maxPrice TO sales_role;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON DERBY AGGREGATE types.maxPrice TO sales_role;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>GRANT USAGE ON DERBY AGGREGATE types.maxPrice TO sales_role;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

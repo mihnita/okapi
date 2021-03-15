@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminreplicstartrun.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Starting and running replication</source>
+<seg-source><mrk mid="0" mtype="seg">Starting and running replication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Starting and running replication</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Each replicated database is replicated from a master to a slave version of that database.</source>
+<seg-source><mrk mid="0" mtype="seg">Each replicated database is replicated from a master to a slave version of that database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Each replicated database is replicated from a master to a slave version of that database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">replicating databases</source>
+<seg-source><mrk mid="0" mtype="seg">replicating databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">replicating databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">starting and running</source>
+<seg-source><mrk mid="0" mtype="seg">starting and running</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">starting and running</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">database replication</source>
+<seg-source><mrk mid="0" mtype="seg">database replication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">database replication</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">starting and running</source>
+<seg-source><mrk mid="0" mtype="seg">starting and running</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">starting and running</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Initially there is no replication; a master database must be created before it can be replicated. The database may, of course, be empty when replication starts. On the other hand, replication does not need to be specified immediately after the database is created; it can be initiated at any time after the database is created.</source>
+<seg-source><mrk mid="0" mtype="seg">Initially there is no replication; a master database must be created before it can be replicated.</mrk><mrk mid="1" mtype="seg"> The database may, of course, be empty when replication starts.</mrk><mrk mid="2" mtype="seg"> On the other hand, replication does not need to be specified immediately after the database is created; it can be initiated at any time after the database is created.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Initially there is no replication; a master database must be created before it can be replicated.</mrk><mrk mid="1" mtype="seg"> The database may, of course, be empty when replication starts.</mrk><mrk mid="2" mtype="seg"> On the other hand, replication does not need to be specified immediately after the database is created; it can be initiated at any time after the database is created.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Before you start replication, you must shut down the master database and then copy the database to the slave location. Follow these steps to start replication:</source>
+<seg-source><mrk mid="0" mtype="seg">Before you start replication, you must shut down the master database and then copy the database to the slave location.</mrk><mrk mid="1" mtype="seg"> Follow these steps to start replication:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Before you start replication, you must shut down the master database and then copy the database to the slave location.</mrk><mrk mid="1" mtype="seg"> Follow these steps to start replication:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Make sure that the database on the master system is shut down cleanly.</source>
+<seg-source><mrk mid="0" mtype="seg">Make sure that the database on the master system is shut down cleanly.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Make sure that the database on the master system is shut down cleanly.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Copy the database to the slave location.</source>
+<seg-source><mrk mid="0" mtype="seg">Copy the database to the slave location.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Copy the database to the slave location.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Start slave replication mode on the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance that is acting as the slave for the database. To start slave replication, use the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>startSlave=true<ept id="2">&lt;/codeph&gt;</ept> attribute and, optionally, the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>slaveHost=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>slavePort=<bpt id="6" ctype="x-i">&lt;i&gt;</bpt>portValue<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> attributes. For example, for a database named <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>wombat<ept id="7">&lt;/codeph&gt;</ept>, you might use the following connection URL:</source>
+<seg-source><mrk mid="0" mtype="seg">Start slave replication mode on the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance that is acting as the slave for the database.</mrk><mrk mid="1" mtype="seg"> To start slave replication, use the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>startSlave=true<ept id="2">&lt;/codeph&gt;</ept> attribute and, optionally, the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>slaveHost=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>slavePort=<bpt id="6" ctype="x-i">&lt;i&gt;</bpt>portValue<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> attributes.</mrk><mrk mid="2" mtype="seg"> For example, for a database named <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>wombat<ept id="7">&lt;/codeph&gt;</ept>, you might use the following connection URL:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start slave replication mode on the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance that is acting as the slave for the database.</mrk><mrk mid="1" mtype="seg"> To start slave replication, use the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>startSlave=true<ept id="2">&lt;/codeph&gt;</ept> attribute and, optionally, the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>slaveHost=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>slavePort=<bpt id="6" ctype="x-i">&lt;i&gt;</bpt>portValue<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> attributes.</mrk><mrk mid="2" mtype="seg"> For example, for a database named <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>wombat<ept id="7">&lt;/codeph&gt;</ept>, you might use the following connection URL:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">jdbc:derby:wombat;startSlave=true</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:wombat;startSlave=true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:wombat;startSlave=true</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Start master replication mode on the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance that is acting as the master for the database. To start replication, connect to the database on the master system using the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>startMaster=true<ept id="2">&lt;/codeph&gt;</ept> attribute in conjunction with the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>slaveHost=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> attribute (and, optionally, the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>slavePort=<bpt id="6" ctype="x-i">&lt;i&gt;</bpt>portValue<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> attribute). For example, you might use the following connection URL:</source>
+<seg-source><mrk mid="0" mtype="seg">Start master replication mode on the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance that is acting as the master for the database.</mrk><mrk mid="1" mtype="seg"> To start replication, connect to the database on the master system using the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>startMaster=true<ept id="2">&lt;/codeph&gt;</ept> attribute in conjunction with the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>slaveHost=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> attribute (and, optionally, the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>slavePort=<bpt id="6" ctype="x-i">&lt;i&gt;</bpt>portValue<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> attribute).</mrk><mrk mid="2" mtype="seg"> For example, you might use the following connection URL:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start master replication mode on the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance that is acting as the master for the database.</mrk><mrk mid="1" mtype="seg"> To start replication, connect to the database on the master system using the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>startMaster=true<ept id="2">&lt;/codeph&gt;</ept> attribute in conjunction with the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>slaveHost=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> attribute (and, optionally, the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>slavePort=<bpt id="6" ctype="x-i">&lt;i&gt;</bpt>portValue<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> attribute).</mrk><mrk mid="2" mtype="seg"> For example, you might use the following connection URL:</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">jdbc:derby:wombat;startMaster=true;slaveHost=myremotesystem</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:wombat;startMaster=true;slaveHost=myremotesystem</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:wombat;startMaster=true;slaveHost=myremotesystem</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">A successful use of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>startMaster=true<ept id="1">&lt;/codeph&gt;</ept> attribute will also start the database.</source>
+<seg-source><mrk mid="0" mtype="seg">A successful use of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>startMaster=true<ept id="1">&lt;/codeph&gt;</ept> attribute will also start the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A successful use of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>startMaster=true<ept id="1">&lt;/codeph&gt;</ept> attribute will also start the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details about these attributes.</source>
+<seg-source><mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details about these attributes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details about these attributes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">After replication has been started, the slave is ready to receive logged operations from the master. The master can now continue to process transactions. From this point on, the master forwards all logged operations to the slave in chunks. The slave repeats these operations by applying the contents of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> transaction log, but does not process any other operations. Attempts to connect to the slave database are refused. In case of failure, the slave can recover to the state the master was in at the time the last chunk of the transaction log was sent.</source>
+<seg-source><mrk mid="0" mtype="seg">After replication has been started, the slave is ready to receive logged operations from the master.</mrk><mrk mid="1" mtype="seg"> The master can now continue to process transactions.</mrk><mrk mid="2" mtype="seg"> From this point on, the master forwards all logged operations to the slave in chunks.</mrk><mrk mid="3" mtype="seg"> The slave repeats these operations by applying the contents of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> transaction log, but does not process any other operations.</mrk><mrk mid="4" mtype="seg"> Attempts to connect to the slave database are refused.</mrk><mrk mid="5" mtype="seg"> In case of failure, the slave can recover to the state the master was in at the time the last chunk of the transaction log was sent.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After replication has been started, the slave is ready to receive logged operations from the master.</mrk><mrk mid="1" mtype="seg"> The master can now continue to process transactions.</mrk><mrk mid="2" mtype="seg"> From this point on, the master forwards all logged operations to the slave in chunks.</mrk><mrk mid="3" mtype="seg"> The slave repeats these operations by applying the contents of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> transaction log, but does not process any other operations.</mrk><mrk mid="4" mtype="seg"> Attempts to connect to the slave database are refused.</mrk><mrk mid="5" mtype="seg"> In case of failure, the slave can recover to the state the master was in at the time the last chunk of the transaction log was sent.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">While replication is running, neither the slave or the master database is permitted to be shut down. Replication must be stopped before you can shut down either the slave or the master database. There is one exception to this rule: if the entire system is shut down, the peer that is shut down notifies the other replication peer that replication is stopped.</source>
+<seg-source><mrk mid="0" mtype="seg">While replication is running, neither the slave or the master database is permitted to be shut down.</mrk><mrk mid="1" mtype="seg"> Replication must be stopped before you can shut down either the slave or the master database.</mrk><mrk mid="2" mtype="seg"> There is one exception to this rule: if the entire system is shut down, the peer that is shut down notifies the other replication peer that replication is stopped.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">While replication is running, neither the slave or the master database is permitted to be shut down.</mrk><mrk mid="1" mtype="seg"> Replication must be stopped before you can shut down either the slave or the master database.</mrk><mrk mid="2" mtype="seg"> There is one exception to this rule: if the entire system is shut down, the peer that is shut down notifies the other replication peer that replication is stopped.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">If you install jar files on the master system while replication is running, the same jars are not automatically installed on the slave. But because the transaction log information sent to the slave system includes the jar file installation, the slave database has a record of the jar files, even though they are not actually there. Therefore, you must install the jar files on the former slave after a failover by calling either <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.remove_jar<ept id="1">&lt;/codeph&gt;</ept> followed by <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.install_jar<ept id="2">&lt;/codeph&gt;</ept>, or <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.replace_jar<ept id="3">&lt;/codeph&gt;</ept>. (For information on installing jar files, see "Loading classes from a database" in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> and "System procedures for storing jar files in a database" in the <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>.)</source>
+<seg-source><mrk mid="0" mtype="seg">If you install jar files on the master system while replication is running, the same jars are not automatically installed on the slave.</mrk><mrk mid="1" mtype="seg"> But because the transaction log information sent to the slave system includes the jar file installation, the slave database has a record of the jar files, even though they are not actually there.</mrk><mrk mid="2" mtype="seg"> Therefore, you must install the jar files on the former slave after a failover by calling either <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.remove_jar<ept id="1">&lt;/codeph&gt;</ept> followed by <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.install_jar<ept id="2">&lt;/codeph&gt;</ept>, or <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.replace_jar<ept id="3">&lt;/codeph&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> (For information on installing jar files, see "Loading classes from a database" in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> and "System procedures for storing jar files in a database" in the <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you install jar files on the master system while replication is running, the same jars are not automatically installed on the slave.</mrk><mrk mid="1" mtype="seg"> But because the transaction log information sent to the slave system includes the jar file installation, the slave database has a record of the jar files, even though they are not actually there.</mrk><mrk mid="2" mtype="seg"> Therefore, you must install the jar files on the former slave after a failover by calling either <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.remove_jar<ept id="1">&lt;/codeph&gt;</ept> followed by <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.install_jar<ept id="2">&lt;/codeph&gt;</ept>, or <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.replace_jar<ept id="3">&lt;/codeph&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> (For information on installing jar files, see "Loading classes from a database" in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> and "System procedures for storing jar files in a database" in the <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">If the jar files must be available to clients immediately after a failover, you must stop replication and then start replication over again from the beginning, so that the slave database will have the same jar files as the master.</source>
+<seg-source><mrk mid="0" mtype="seg">If the jar files must be available to clients immediately after a failover, you must stop replication and then start replication over again from the beginning, so that the slave database will have the same jar files as the master.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the jar files must be available to clients immediately after a failover, you must stop replication and then start replication over again from the beginning, so that the slave database will have the same jar files as the master.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

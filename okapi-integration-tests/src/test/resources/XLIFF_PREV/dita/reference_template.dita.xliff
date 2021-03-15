@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="reference_template.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">reference_template</source>
+<seg-source><mrk mid="0" mtype="seg">reference_template</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">reference_template</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">templates</source>
+<seg-source><mrk mid="0" mtype="seg">templates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">templates</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">concept</source>
+<seg-source><mrk mid="0" mtype="seg">concept</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">concept</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">CREATE [ UNIQUE ] INDEX <bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>IndexName<ept id="1">&lt;/varname&gt;</ept> ON <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>TableName<ept id="2">&lt;/varname&gt;</ept> (<bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>SimpleColumnName<ept id="3">&lt;/varname&gt;</ept> [ , <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>SimpleColumnName<ept id="4">&lt;/varname&gt;</ept>] * )</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE [ UNIQUE ] INDEX <bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>IndexName<ept id="1">&lt;/varname&gt;</ept> ON <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>TableName<ept id="2">&lt;/varname&gt;</ept> (<bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>SimpleColumnName<ept id="3">&lt;/varname&gt;</ept> [ , <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>SimpleColumnName<ept id="4">&lt;/varname&gt;</ept>] * )</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE [ UNIQUE ] INDEX <bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>IndexName<ept id="1">&lt;/varname&gt;</ept> ON <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>TableName<ept id="2">&lt;/varname&gt;</ept> (<bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>SimpleColumnName<ept id="3">&lt;/varname&gt;</ept> [ , <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>SimpleColumnName<ept id="4">&lt;/varname&gt;</ept>] * )</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">CREATE UNIQUE INDEX <bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>Index1<ept id="1">&lt;/varname&gt;</ept>
+   ON <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>Table1<ept id="2">&lt;/varname&gt;</ept> (<bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>Column1<ept id="3">&lt;/varname&gt;</ept>, <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>Column2<ept id="4">&lt;/varname&gt;</ept>)
+</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE UNIQUE INDEX <bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>Index1<ept id="1">&lt;/varname&gt;</ept></mrk>
+<mrk mid="1" mtype="seg">   ON <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>Table1<ept id="2">&lt;/varname&gt;</ept> (<bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>Column1<ept id="3">&lt;/varname&gt;</ept>, <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>Column2<ept id="4">&lt;/varname&gt;</ept>)</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE UNIQUE INDEX <bpt id="1" ctype="x-varname">&lt;varname&gt;</bpt>Index1<ept id="1">&lt;/varname&gt;</ept></mrk>
+<mrk mid="1" mtype="seg">   ON <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>Table1<ept id="2">&lt;/varname&gt;</ept> (<bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>Column1<ept id="3">&lt;/varname&gt;</ept>, <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>Column2<ept id="4">&lt;/varname&gt;</ept>)</mrk>
+</target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">A Section</source>
+<seg-source><mrk mid="0" mtype="seg">A Section</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A Section</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Other tags that you might use</source>
+<seg-source><mrk mid="0" mtype="seg">Other tags that you might use</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Other tags that you might use</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Type your text here.</source>
+<seg-source><mrk mid="0" mtype="seg">Type your text here.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type your text here.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="http://db.apache.org/derby/manuals/index.html" scope="external"&gt;</bpt>Type link text here <ept id="1">&lt;/xref&gt;</ept> <ph id="2" ctype="x-comment">&lt;!--TABLE: Use a &lt;table&gt; when you have a lot of reference information to convey 
+to the user.  The first row should contain headings for each of the columns. If you need to 
+adjust the column widths or change the text alignment, see the instructions on the Derby 
+Documentation Writing Guidelines page at http://db.apache.org/derby/manuals/guidelines.html.--&gt;</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="http://db.apache.org/derby/manuals/index.html" scope="external"&gt;</bpt>Type link text here <ept id="1">&lt;/xref&gt;</ept> <ph id="2" ctype="x-comment">&lt;!--TABLE: Use a &lt;table&gt; when you have a lot of reference information to convey 
+to the user.  The first row should contain headings for each of the columns. If you need to 
+adjust the column widths or change the text alignment, see the instructions on the Derby 
+Documentation Writing Guidelines page at http://db.apache.org/derby/manuals/guidelines.html.--&gt;</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="http://db.apache.org/derby/manuals/index.html" scope="external"&gt;</bpt>Type link text here <ept id="1">&lt;/xref&gt;</ept> <ph id="2" ctype="x-comment">&lt;!--TABLE: Use a &lt;table&gt; when you have a lot of reference information to convey 
+to the user.  The first row should contain headings for each of the columns. If you need to 
+adjust the column widths or change the text alignment, see the instructions on the Derby 
+Documentation Writing Guidelines page at http://db.apache.org/derby/manuals/guidelines.html.--&gt;</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Add your table description here</source>
+<seg-source><mrk mid="0" mtype="seg">Add your table description here</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add your table description here</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Parameter</source>
+<seg-source><mrk mid="0" mtype="seg">Parameter</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameter</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Valid values</source>
+<seg-source><mrk mid="0" mtype="seg">Valid values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Valid values</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Description</source>
+<seg-source><mrk mid="0" mtype="seg">Description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Description</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Parameter name 1</source>
+<seg-source><mrk mid="0" mtype="seg">Parameter name 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameter name 1</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Parameter name 2</source>
+<seg-source><mrk mid="0" mtype="seg">Parameter name 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameter name 2</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Parameter name 3</source>
+<seg-source><mrk mid="0" mtype="seg">Parameter name 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameter name 3</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminreplicfailures.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Replication failure handling</source>
+<seg-source><mrk mid="0" mtype="seg">Replication failure handling</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replication failure handling</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Replication can encounter several failure situations. The following table lists these situations and describes the actions that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> takes as a result.</source>
+<seg-source><mrk mid="0" mtype="seg">Replication can encounter several failure situations.</mrk><mrk mid="1" mtype="seg"> The following table lists these situations and describes the actions that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> takes as a result.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replication can encounter several failure situations.</mrk><mrk mid="1" mtype="seg"> The following table lists these situations and describes the actions that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> takes as a result.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">replicating databases</source>
+<seg-source><mrk mid="0" mtype="seg">replicating databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">replicating databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">failure handling</source>
+<seg-source><mrk mid="0" mtype="seg">failure handling</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">failure handling</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">database replication</source>
+<seg-source><mrk mid="0" mtype="seg">database replication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">database replication</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">failure handling</source>
+<seg-source><mrk mid="0" mtype="seg">failure handling</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">failure handling</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Replication failure handling</source>
+<seg-source><mrk mid="0" mtype="seg">Replication failure handling</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replication failure handling</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">This table lists the possible replication failure situations and describes the actions taken as a result.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the possible replication failure situations and describes the actions taken as a result.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the possible replication failure situations and describes the actions taken as a result.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Failure Situation</source>
+<seg-source><mrk mid="0" mtype="seg">Failure Situation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Failure Situation</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Action Taken</source>
+<seg-source><mrk mid="0" mtype="seg">Action Taken</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Action Taken</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Master loses connection with slave.</source>
+<seg-source><mrk mid="0" mtype="seg">Master loses connection with slave.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Master loses connection with slave.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Transactions are allowed to continue processing while the master tries to reconnect with the slave. Log records generated while the connection is down are buffered in main memory. If the log buffer reaches its size limit before the connection can be reestablished, the master replication functionality is stopped. You can use the property <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.replication.logBufferSize<ept id="1">&lt;/codeph&gt;</ept> to configure the size limit of the buffer; see the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg">Transactions are allowed to continue processing while the master tries to reconnect with the slave.</mrk><mrk mid="1" mtype="seg"> Log records generated while the connection is down are buffered in main memory.</mrk><mrk mid="2" mtype="seg"> If the log buffer reaches its size limit before the connection can be reestablished, the master replication functionality is stopped.</mrk><mrk mid="3" mtype="seg"> You can use the property <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.replication.logBufferSize<ept id="1">&lt;/codeph&gt;</ept> to configure the size limit of the buffer; see the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transactions are allowed to continue processing while the master tries to reconnect with the slave.</mrk><mrk mid="1" mtype="seg"> Log records generated while the connection is down are buffered in main memory.</mrk><mrk mid="2" mtype="seg"> If the log buffer reaches its size limit before the connection can be reestablished, the master replication functionality is stopped.</mrk><mrk mid="3" mtype="seg"> You can use the property <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.replication.logBufferSize<ept id="1">&lt;/codeph&gt;</ept> to configure the size limit of the buffer; see the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Slave loses connection with master.</source>
+<seg-source><mrk mid="0" mtype="seg">Slave loses connection with master.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Slave loses connection with master.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">The slave tries to reestablish the connection with the master by listening on the specified host and port. It will not give up until it is explicitly requested to do so by either the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>failover=true<ept id="1">&lt;/codeph&gt;</ept> or <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>stopSlave=true<ept id="2">&lt;/codeph&gt;</ept> connection URL attribute. If a failover is requested, the slave applies all received log records and boots the database as described in <bpt id="3" ctype="x-xref">&lt;xref href="cadminreplicfailover.dita#cadminreplicfailover"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>. If the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>stopSlave=true<ept id="4">&lt;/codeph&gt;</ept> attribute is specified, the slave database is shut down without further actions.</source>
+<seg-source><mrk mid="0" mtype="seg">The slave tries to reestablish the connection with the master by listening on the specified host and port.</mrk><mrk mid="1" mtype="seg"> It will not give up until it is explicitly requested to do so by either the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>failover=true<ept id="1">&lt;/codeph&gt;</ept> or <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>stopSlave=true<ept id="2">&lt;/codeph&gt;</ept> connection URL attribute.</mrk><mrk mid="2" mtype="seg"> If a failover is requested, the slave applies all received log records and boots the database as described in <bpt id="3" ctype="x-xref">&lt;xref href="cadminreplicfailover.dita#cadminreplicfailover"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> If the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>stopSlave=true<ept id="4">&lt;/codeph&gt;</ept> attribute is specified, the slave database is shut down without further actions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The slave tries to reestablish the connection with the master by listening on the specified host and port.</mrk><mrk mid="1" mtype="seg"> It will not give up until it is explicitly requested to do so by either the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>failover=true<ept id="1">&lt;/codeph&gt;</ept> or <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>stopSlave=true<ept id="2">&lt;/codeph&gt;</ept> connection URL attribute.</mrk><mrk mid="2" mtype="seg"> If a failover is requested, the slave applies all received log records and boots the database as described in <bpt id="3" ctype="x-xref">&lt;xref href="cadminreplicfailover.dita#cadminreplicfailover"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> If the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>stopSlave=true<ept id="4">&lt;/codeph&gt;</ept> attribute is specified, the slave database is shut down without further actions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Two different masters of database D try to replicate to the same slave.</source>
+<seg-source><mrk mid="0" mtype="seg">Two different masters of database D try to replicate to the same slave.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Two different masters of database D try to replicate to the same slave.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">The slave will only accept the connection from the first master attempting to connect. Note that authentication is required to start both the slave and the master, as described in <bpt id="1" ctype="x-xref">&lt;xref href="cadminreplicsecurity.dita#cadminreplicsecurity"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The slave will only accept the connection from the first master attempting to connect.</mrk><mrk mid="1" mtype="seg"> Note that authentication is required to start both the slave and the master, as described in <bpt id="1" ctype="x-xref">&lt;xref href="cadminreplicsecurity.dita#cadminreplicsecurity"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The slave will only accept the connection from the first master attempting to connect.</mrk><mrk mid="1" mtype="seg"> Note that authentication is required to start both the slave and the master, as described in <bpt id="1" ctype="x-xref">&lt;xref href="cadminreplicsecurity.dita#cadminreplicsecurity"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">The master and slave <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instances are not at the same <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> version.</source>
+<seg-source><mrk mid="0" mtype="seg">The master and slave <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instances are not at the same <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> version.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The master and slave <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instances are not at the same <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> version.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">An exception is raised and replication does not start.</source>
+<seg-source><mrk mid="0" mtype="seg">An exception is raised and replication does not start.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An exception is raised and replication does not start.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">The master <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance crashes, then restarts.</source>
+<seg-source><mrk mid="0" mtype="seg">The master <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance crashes, then restarts.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The master <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance crashes, then restarts.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Replication must be restarted, as described in <bpt id="1" ctype="x-xref">&lt;xref href="cadminreplicstartrun.dita#cadminreplicstartrun"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Replication must be restarted, as described in <bpt id="1" ctype="x-xref">&lt;xref href="cadminreplicstartrun.dita#cadminreplicstartrun"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replication must be restarted, as described in <bpt id="1" ctype="x-xref">&lt;xref href="cadminreplicstartrun.dita#cadminreplicstartrun"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">The master <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance is not able to send log data to the slave at the same pace as the log is generated. The main memory log buffer gradually fills up and eventually becomes full.</source>
+<seg-source><mrk mid="0" mtype="seg">The master <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance is not able to send log data to the slave at the same pace as the log is generated.</mrk><mrk mid="1" mtype="seg"> The main memory log buffer gradually fills up and eventually becomes full.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The master <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance is not able to send log data to the slave at the same pace as the log is generated.</mrk><mrk mid="1" mtype="seg"> The main memory log buffer gradually fills up and eventually becomes full.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">The master notices that the main memory log buffer is filling up. It first tries to increase the speed of the log shipment to keep the amount of log in the buffer below the maximum. If that is not enough to keep the buffer from getting full, the response time of transactions may increase for as long as log shipment has trouble keeping up with the amount of generated log records. You can use properties to tune both the log buffer size and the minimum and maximum interval between consecutive log shipments. See "derby.replication.logBufferSize", "derby.replication.maxLogShippingInterval", and "derby.replication.minLogShippingInterval" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg">The master notices that the main memory log buffer is filling up.</mrk><mrk mid="1" mtype="seg"> It first tries to increase the speed of the log shipment to keep the amount of log in the buffer below the maximum.</mrk><mrk mid="2" mtype="seg"> If that is not enough to keep the buffer from getting full, the response time of transactions may increase for as long as log shipment has trouble keeping up with the amount of generated log records.</mrk><mrk mid="3" mtype="seg"> You can use properties to tune both the log buffer size and the minimum and maximum interval between consecutive log shipments.</mrk><mrk mid="4" mtype="seg"> See "derby.replication.logBufferSize", "derby.replication.maxLogShippingInterval", and "derby.replication.minLogShippingInterval" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The master notices that the main memory log buffer is filling up.</mrk><mrk mid="1" mtype="seg"> It first tries to increase the speed of the log shipment to keep the amount of log in the buffer below the maximum.</mrk><mrk mid="2" mtype="seg"> If that is not enough to keep the buffer from getting full, the response time of transactions may increase for as long as log shipment has trouble keeping up with the amount of generated log records.</mrk><mrk mid="3" mtype="seg"> You can use properties to tune both the log buffer size and the minimum and maximum interval between consecutive log shipments.</mrk><mrk mid="4" mtype="seg"> See "derby.replication.logBufferSize", "derby.replication.maxLogShippingInterval", and "derby.replication.minLogShippingInterval" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">The slave <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance crashes.</source>
+<seg-source><mrk mid="0" mtype="seg">The slave <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance crashes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The slave <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance crashes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">The master sees this as a lost connection to the slave. The master tries to reestablish the connection until the replication log buffer is full. Replication is then stopped on the master. Replication must be restarted, as described in <bpt id="1" ctype="x-xref">&lt;xref href="cadminreplicstartrun.dita#cadminreplicstartrun"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The master sees this as a lost connection to the slave.</mrk><mrk mid="1" mtype="seg"> The master tries to reestablish the connection until the replication log buffer is full.</mrk><mrk mid="2" mtype="seg"> Replication is then stopped on the master.</mrk><mrk mid="3" mtype="seg"> Replication must be restarted, as described in <bpt id="1" ctype="x-xref">&lt;xref href="cadminreplicstartrun.dita#cadminreplicstartrun"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The master sees this as a lost connection to the slave.</mrk><mrk mid="1" mtype="seg"> The master tries to reestablish the connection until the replication log buffer is full.</mrk><mrk mid="2" mtype="seg"> Replication is then stopped on the master.</mrk><mrk mid="3" mtype="seg"> Replication must be restarted, as described in <bpt id="1" ctype="x-xref">&lt;xref href="cadminreplicstartrun.dita#cadminreplicstartrun"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">An unexpected failure is encountered.</source>
+<seg-source><mrk mid="0" mtype="seg">An unexpected failure is encountered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An unexpected failure is encountered.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Replication is stopped. The other <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance of the replication pair is notified of the decision if the network connection is still alive.</source>
+<seg-source><mrk mid="0" mtype="seg">Replication is stopped.</mrk><mrk mid="1" mtype="seg"> The other <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance of the replication pair is notified of the decision if the network connection is still alive.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replication is stopped.</mrk><mrk mid="1" mtype="seg"> The other <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance of the replication pair is notified of the decision if the network connection is still alive.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

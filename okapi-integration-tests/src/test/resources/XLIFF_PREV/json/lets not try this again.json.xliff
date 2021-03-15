@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="lets not try this again.json" source-language="en" target-language="fr" datatype="x-application/json" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1" resname="email_body" xml:space="preserve">
+<source xml:lang="en">{% content_attribute "email_body" %}{{ default_email_body }}{% end_content_attribute %}</source>
+<seg-source><mrk mid="0" mtype="seg">{% content_attribute "email_body" %}{{ default_email_body }}{% end_content_attribute %}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">{% content_attribute "email_body" %}{{ default_email_body }}{% end_content_attribute %}</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="emailbody_plaintext" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu3" resname="hs_email_body" xml:space="preserve">
+<source xml:lang="en">&lt;h1&gt;a not so Catchy Heading Here&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;and Here's some not so optional supporting text that helps introduce the things you will say in this newsletter. Use it to convince the reader that there is value in reading the rest of your content.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is the guts of your newsletter article. Hopefully it's about something people love. Like cute animals or ROI. An anguine plane without crackers is truly a sound of mellow chests. We can assume that any instance of a caterpillar can be construed as a ruttish separated. The gabled buffet comes from a templed panther. Those oceans are nothing more than loves.&lt;/p&gt;
+&lt;p&gt;&lt;span style="background-color: transparent; color: inherit; font-size: inherit; font-family: sans-serif;"&gt;why A nice clever signoff,&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Your Name&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;h1&gt;a not so Catchy Heading Here&lt;/h1&gt;</mrk>
+<mrk mid="1" mtype="seg">&lt;p&gt;&lt;strong&gt;and Here's some not so optional supporting text that helps introduce the things you will say in this newsletter.</mrk><mrk mid="2" mtype="seg"> Use it to convince the reader that there is value in reading the rest of your content.&lt;/strong&gt;&lt;/p&gt;</mrk>
+<mrk mid="3" mtype="seg">&lt;p&gt;This is the guts of your newsletter article.</mrk><mrk mid="4" mtype="seg"> Hopefully it's about something people love.</mrk><mrk mid="5" mtype="seg"> Like cute animals or ROI.</mrk><mrk mid="6" mtype="seg"> An anguine plane without crackers is truly a sound of mellow chests.</mrk><mrk mid="7" mtype="seg"> We can assume that any instance of a caterpillar can be construed as a ruttish separated.</mrk><mrk mid="8" mtype="seg"> The gabled buffet comes from a templed panther.</mrk><mrk mid="9" mtype="seg"> Those oceans are nothing more than loves.&lt;/p&gt;</mrk>
+<mrk mid="10" mtype="seg">&lt;p&gt;&lt;span style="background-color: transparent; color: inherit; font-size: inherit; font-family: sans-serif;"&gt;why A nice clever signoff,&lt;/span&gt;&lt;/p&gt;</mrk>
+<mrk mid="11" mtype="seg">&lt;p&gt;Your Name&lt;/p&gt;</mrk>
+<mrk mid="12" mtype="seg">&lt;p&gt;&amp;nbsp;&lt;/p&gt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;h1&gt;a not so Catchy Heading Here&lt;/h1&gt;</mrk>
+<mrk mid="1" mtype="seg">&lt;p&gt;&lt;strong&gt;and Here's some not so optional supporting text that helps introduce the things you will say in this newsletter.</mrk><mrk mid="2" mtype="seg"> Use it to convince the reader that there is value in reading the rest of your content.&lt;/strong&gt;&lt;/p&gt;</mrk>
+<mrk mid="3" mtype="seg">&lt;p&gt;This is the guts of your newsletter article.</mrk><mrk mid="4" mtype="seg"> Hopefully it's about something people love.</mrk><mrk mid="5" mtype="seg"> Like cute animals or ROI.</mrk><mrk mid="6" mtype="seg"> An anguine plane without crackers is truly a sound of mellow chests.</mrk><mrk mid="7" mtype="seg"> We can assume that any instance of a caterpillar can be construed as a ruttish separated.</mrk><mrk mid="8" mtype="seg"> The gabled buffet comes from a templed panther.</mrk><mrk mid="9" mtype="seg"> Those oceans are nothing more than loves.&lt;/p&gt;</mrk>
+<mrk mid="10" mtype="seg">&lt;p&gt;&lt;span style="background-color: transparent; color: inherit; font-size: inherit; font-family: sans-serif;"&gt;why A nice clever signoff,&lt;/span&gt;&lt;/p&gt;</mrk>
+<mrk mid="11" mtype="seg">&lt;p&gt;Your Name&lt;/p&gt;</mrk>
+<mrk mid="12" mtype="seg">&lt;p&gt;&amp;nbsp;&lt;/p&gt;</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="html_title" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu5" resname="name" xml:space="preserve">
+<source xml:lang="en">lets not try this again</source>
+<seg-source><mrk mid="0" mtype="seg">lets not try this again</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lets not try this again</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="template_path" xml:space="preserve">
+<source xml:lang="en">generated_layouts/5508456984.html</source>
+<seg-source><mrk mid="0" mtype="seg">generated_layouts/5508456984.html</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">generated_layouts/5508456984.html</mrk></target>
+</trans-unit>
+<group id="sg2">
+<group id="sg3">
+<group id="sg4">
+<trans-unit id="tu7" resname="html" xml:space="preserve">
+<source xml:lang="en">&lt;h1&gt;a not so Catchy Heading Here&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;and Here's some not so optional supporting text that helps introduce the things you will say in this newsletter. Use it to convince the reader that there is value in reading the rest of your content.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is the guts of your newsletter article. Hopefully it's about something people love. Like cute animals or ROI. An anguine plane without crackers is truly a sound of mellow chests. We can assume that any instance of a caterpillar can be construed as a ruttish separated. The gabled buffet comes from a templed panther. Those oceans are nothing more than loves.&lt;/p&gt;
+&lt;p&gt;&lt;span style="background-color: transparent; color: inherit; font-size: inherit; font-family: sans-serif;"&gt;why A nice clever signoff,&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Your Name&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;h1&gt;a not so Catchy Heading Here&lt;/h1&gt;</mrk>
+<mrk mid="1" mtype="seg">&lt;p&gt;&lt;strong&gt;and Here's some not so optional supporting text that helps introduce the things you will say in this newsletter.</mrk><mrk mid="2" mtype="seg"> Use it to convince the reader that there is value in reading the rest of your content.&lt;/strong&gt;&lt;/p&gt;</mrk>
+<mrk mid="3" mtype="seg">&lt;p&gt;This is the guts of your newsletter article.</mrk><mrk mid="4" mtype="seg"> Hopefully it's about something people love.</mrk><mrk mid="5" mtype="seg"> Like cute animals or ROI.</mrk><mrk mid="6" mtype="seg"> An anguine plane without crackers is truly a sound of mellow chests.</mrk><mrk mid="7" mtype="seg"> We can assume that any instance of a caterpillar can be construed as a ruttish separated.</mrk><mrk mid="8" mtype="seg"> The gabled buffet comes from a templed panther.</mrk><mrk mid="9" mtype="seg"> Those oceans are nothing more than loves.&lt;/p&gt;</mrk>
+<mrk mid="10" mtype="seg">&lt;p&gt;&lt;span style="background-color: transparent; color: inherit; font-size: inherit; font-family: sans-serif;"&gt;why A nice clever signoff,&lt;/span&gt;&lt;/p&gt;</mrk>
+<mrk mid="11" mtype="seg">&lt;p&gt;Your Name&lt;/p&gt;</mrk>
+<mrk mid="12" mtype="seg">&lt;p&gt;&amp;nbsp;&lt;/p&gt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;h1&gt;a not so Catchy Heading Here&lt;/h1&gt;</mrk>
+<mrk mid="1" mtype="seg">&lt;p&gt;&lt;strong&gt;and Here's some not so optional supporting text that helps introduce the things you will say in this newsletter.</mrk><mrk mid="2" mtype="seg"> Use it to convince the reader that there is value in reading the rest of your content.&lt;/strong&gt;&lt;/p&gt;</mrk>
+<mrk mid="3" mtype="seg">&lt;p&gt;This is the guts of your newsletter article.</mrk><mrk mid="4" mtype="seg"> Hopefully it's about something people love.</mrk><mrk mid="5" mtype="seg"> Like cute animals or ROI.</mrk><mrk mid="6" mtype="seg"> An anguine plane without crackers is truly a sound of mellow chests.</mrk><mrk mid="7" mtype="seg"> We can assume that any instance of a caterpillar can be construed as a ruttish separated.</mrk><mrk mid="8" mtype="seg"> The gabled buffet comes from a templed panther.</mrk><mrk mid="9" mtype="seg"> Those oceans are nothing more than loves.&lt;/p&gt;</mrk>
+<mrk mid="10" mtype="seg">&lt;p&gt;&lt;span style="background-color: transparent; color: inherit; font-size: inherit; font-family: sans-serif;"&gt;why A nice clever signoff,&lt;/span&gt;&lt;/p&gt;</mrk>
+<mrk mid="11" mtype="seg">&lt;p&gt;Your Name&lt;/p&gt;</mrk>
+<mrk mid="12" mtype="seg">&lt;p&gt;&amp;nbsp;&lt;/p&gt;</mrk></target>
+</trans-unit>
+</group>
+<group id="sg5">
+</group>
+<group id="sg6">
+</group>
+<trans-unit id="tu8" resname="id" xml:space="preserve">
+<source xml:lang="en">hs_email_body</source>
+<seg-source><mrk mid="0" mtype="seg">hs_email_body</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hs_email_body</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" resname="label" xml:space="preserve">
+<source xml:lang="en">Main Email Body</source>
+<seg-source><mrk mid="0" mtype="seg">Main Email Body</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Main Email Body</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" resname="name" xml:space="preserve">
+<source xml:lang="en">hs_email_body</source>
+<seg-source><mrk mid="0" mtype="seg">hs_email_body</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hs_email_body</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" resname="type" xml:space="preserve">
+<source xml:lang="en">rich_text</source>
+<seg-source><mrk mid="0" mtype="seg">rich_text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">rich_text</mrk></target>
+</trans-unit>
+</group>
+<group id="sg7">
+<group id="sg8">
+<trans-unit id="tu12" resname="alt" xml:space="preserve">
+<source xml:lang="en">test</source>
+<seg-source><mrk mid="0" mtype="seg">test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">test</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" resname="img_alt" xml:space="preserve">
+<source xml:lang="en">riggs-logo.png</source>
+<seg-source><mrk mid="0" mtype="seg">riggs-logo.png</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">riggs-logo.png</mrk></target>
+</trans-unit>
+<trans-unit id="tu14" resname="link" xml:space="preserve">
+<source xml:lang="en">http://lingotek-dev-4203244-4203244.hs-sites.com/</source>
+<seg-source><mrk mid="0" mtype="seg">http://lingotek-dev-4203244-4203244.hs-sites.com/</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://lingotek-dev-4203244-4203244.hs-sites.com/</mrk></target>
+</trans-unit>
+<trans-unit id="tu15" resname="redirectUrl" xml:space="preserve">
+<source xml:lang="en">https://app.hubspot.com/email/4203244/edit-beta/6542221053</source>
+<seg-source><mrk mid="0" mtype="seg">https://app.hubspot.com/email/4203244/edit-beta/6542221053</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">https://app.hubspot.com/email/4203244/edit-beta/6542221053</mrk></target>
+</trans-unit>
+<trans-unit id="tu16" resname="src" xml:space="preserve">
+<source xml:lang="en">http://vast2.cosdesignlab.com/hs-fs/hubfs/Vast/Logos/vast.png?t=1487789210000&amp;width=667&amp;name=vast.png</source>
+<seg-source><mrk mid="0" mtype="seg">http://vast2.cosdesignlab.com/hs-fs/hubfs/Vast/Logos/vast.png?t=1487789210000&amp;width=667&amp;name=vast.png</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://vast2.cosdesignlab.com/hs-fs/hubfs/Vast/Logos/vast.png?t=1487789210000&amp;width=667&amp;name=vast.png</mrk></target>
+</trans-unit>
+</group>
+<group id="sg9">
+</group>
+<group id="sg10">
+</group>
+<trans-unit id="tu17" resname="id" xml:space="preserve">
+<source xml:lang="en">logo_image</source>
+<seg-source><mrk mid="0" mtype="seg">logo_image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">logo_image</mrk></target>
+</trans-unit>
+<trans-unit id="tu18" resname="label" xml:space="preserve">
+<source xml:lang="en">Logo</source>
+<seg-source><mrk mid="0" mtype="seg">Logo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Logo</mrk></target>
+</trans-unit>
+<trans-unit id="tu19" resname="name" xml:space="preserve">
+<source xml:lang="en">logo_image</source>
+<seg-source><mrk mid="0" mtype="seg">logo_image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">logo_image</mrk></target>
+</trans-unit>
+<trans-unit id="tu20" resname="type" xml:space="preserve">
+<source xml:lang="en">logo</source>
+<seg-source><mrk mid="0" mtype="seg">logo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">logo</mrk></target>
+</trans-unit>
+</group>
+<group id="sg11">
+<group id="sg12">
+<group id="sg13">
+<trans-unit id="tu21" resname="facebook_link" xml:space="preserve">
+<source xml:lang="en">text</source>
+<seg-source><mrk mid="0" mtype="seg">text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text</mrk></target>
+</trans-unit>
+<trans-unit id="tu22" resname="linkedin_link" xml:space="preserve">
+<source xml:lang="en">text</source>
+<seg-source><mrk mid="0" mtype="seg">text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text</mrk></target>
+</trans-unit>
+<trans-unit id="tu23" resname="twitter_link" xml:space="preserve">
+<source xml:lang="en">text</source>
+<seg-source><mrk mid="0" mtype="seg">text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu24" resname="redirectUrl" xml:space="preserve">
+<source xml:lang="en">https://app.hubspot.com/email/4203244/edit-beta/6542221053</source>
+<seg-source><mrk mid="0" mtype="seg">https://app.hubspot.com/email/4203244/edit-beta/6542221053</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">https://app.hubspot.com/email/4203244/edit-beta/6542221053</mrk></target>
+</trans-unit>
+<trans-unit id="tu25" resname="tag" xml:space="preserve">
+<source xml:lang="en">custom_widget</source>
+<seg-source><mrk mid="0" mtype="seg">custom_widget</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">custom_widget</mrk></target>
+</trans-unit>
+<trans-unit id="tu26" resname="type" xml:space="preserve">
+<source xml:lang="en">custom_widget</source>
+<seg-source><mrk mid="0" mtype="seg">custom_widget</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">custom_widget</mrk></target>
+</trans-unit>
+<trans-unit id="tu27" resname="widget_name" xml:space="preserve">
+<source xml:lang="en">Vast Email Social Media</source>
+<seg-source><mrk mid="0" mtype="seg">Vast Email Social Media</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Vast Email Social Media</mrk></target>
+</trans-unit>
+</group>
+<group id="sg14">
+</group>
+<group id="sg15">
+</group>
+<trans-unit id="tu28" resname="id" xml:space="preserve">
+<source xml:lang="en">module_1487864149208566</source>
+<seg-source><mrk mid="0" mtype="seg">module_1487864149208566</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">module_1487864149208566</mrk></target>
+</trans-unit>
+<trans-unit id="tu29" resname="label" xml:space="preserve">
+<source xml:lang="en">Vast Email Social Media</source>
+<seg-source><mrk mid="0" mtype="seg">Vast Email Social Media</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Vast Email Social Media</mrk></target>
+</trans-unit>
+<trans-unit id="tu30" resname="name" xml:space="preserve">
+<source xml:lang="en">module_1487864149208566</source>
+<seg-source><mrk mid="0" mtype="seg">module_1487864149208566</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">module_1487864149208566</mrk></target>
+</trans-unit>
+<trans-unit id="tu31" resname="type" xml:space="preserve">
+<source xml:lang="en">custom_widget</source>
+<seg-source><mrk mid="0" mtype="seg">custom_widget</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">custom_widget</mrk></target>
+</trans-unit>
+</group>
+<group id="sg16">
+<group id="sg17">
+<trans-unit id="tu32" resname="redirectUrl" xml:space="preserve">
+<source xml:lang="en">https://app.hubspot.com/email/4203244/edit-beta/6542221053</source>
+<seg-source><mrk mid="0" mtype="seg">https://app.hubspot.com/email/4203244/edit-beta/6542221053</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">https://app.hubspot.com/email/4203244/edit-beta/6542221053</mrk></target>
+</trans-unit>
+<trans-unit id="tu33" resname="value" xml:space="preserve">
+<source xml:lang="en">What we've been excited about this week test  and more to  come and some testing stuff too</source>
+<seg-source><mrk mid="0" mtype="seg">What we've been excited about this week test  and more to  come and some testing stuff too</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">What we've been excited about this week test  and more to  come and some testing stuff too</mrk></target>
+</trans-unit>
+</group>
+<group id="sg18">
+</group>
+<group id="sg19">
+</group>
+<trans-unit id="tu34" resname="id" xml:space="preserve">
+<source xml:lang="en">module_1487864337360579</source>
+<seg-source><mrk mid="0" mtype="seg">module_1487864337360579</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">module_1487864337360579</mrk></target>
+</trans-unit>
+<trans-unit id="tu35" resname="label" xml:space="preserve">
+<source xml:lang="en">Main Heading</source>
+<seg-source><mrk mid="0" mtype="seg">Main Heading</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Main Heading</mrk></target>
+</trans-unit>
+<trans-unit id="tu36" resname="name" xml:space="preserve">
+<source xml:lang="en">module_1487864337360579</source>
+<seg-source><mrk mid="0" mtype="seg">module_1487864337360579</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">module_1487864337360579</mrk></target>
+</trans-unit>
+<trans-unit id="tu37" resname="type" xml:space="preserve">
+<source xml:lang="en">text</source>
+<seg-source><mrk mid="0" mtype="seg">text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text</mrk></target>
+</trans-unit>
+</group>
+<group id="sg20">
+<group id="sg21">
+<trans-unit id="tu38" resname="redirectUrl" xml:space="preserve">
+<source xml:lang="en">https://app.hubspot.com/email/4203244/edit-beta/6542221053</source>
+<seg-source><mrk mid="0" mtype="seg">https://app.hubspot.com/email/4203244/edit-beta/6542221053</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">https://app.hubspot.com/email/4203244/edit-beta/6542221053</mrk></target>
+</trans-unit>
+</group>
+<group id="sg22">
+</group>
+<group id="sg23">
+</group>
+<trans-unit id="tu39" resname="id" xml:space="preserve">
+<source xml:lang="en">module_14878648559031085</source>
+<seg-source><mrk mid="0" mtype="seg">module_14878648559031085</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">module_14878648559031085</mrk></target>
+</trans-unit>
+<trans-unit id="tu40" resname="label" xml:space="preserve">
+<source xml:lang="en">Call-to-Action</source>
+<seg-source><mrk mid="0" mtype="seg">Call-to-Action</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Call-to-Action</mrk></target>
+</trans-unit>
+<trans-unit id="tu41" resname="name" xml:space="preserve">
+<source xml:lang="en">module_14878648559031085</source>
+<seg-source><mrk mid="0" mtype="seg">module_14878648559031085</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">module_14878648559031085</mrk></target>
+</trans-unit>
+<trans-unit id="tu42" resname="type" xml:space="preserve">
+<source xml:lang="en">cta</source>
+<seg-source><mrk mid="0" mtype="seg">cta</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cta</mrk></target>
+</trans-unit>
+</group>
+<group id="sg24">
+<group id="sg25">
+<trans-unit id="tu43" resname="html" xml:space="preserve">
+<source xml:lang="en">&lt;h2&gt;A not so Catchy Headline test&lt;/h2&gt;
+&lt;p&gt;Here I am, just looking around. im adding some stuff to test something. hopefully this works out great!&lt;/p&gt;</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;h2&gt;A not so Catchy Headline test&lt;/h2&gt;</mrk>
+<mrk mid="1" mtype="seg">&lt;p&gt;Here I am, just looking around.</mrk><mrk mid="2" mtype="seg"> im adding some stuff to test something.</mrk><mrk mid="3" mtype="seg"> hopefully this works out great!&lt;/p&gt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;h2&gt;A not so Catchy Headline test&lt;/h2&gt;</mrk>
+<mrk mid="1" mtype="seg">&lt;p&gt;Here I am, just looking around.</mrk><mrk mid="2" mtype="seg"> im adding some stuff to test something.</mrk><mrk mid="3" mtype="seg"> hopefully this works out great!&lt;/p&gt;</mrk></target>
+</trans-unit>
+<trans-unit id="tu44" resname="redirectUrl" xml:space="preserve">
+<source xml:lang="en">https://app.hubspot.com/email/4203244/edit-beta/6542221053</source>
+<seg-source><mrk mid="0" mtype="seg">https://app.hubspot.com/email/4203244/edit-beta/6542221053</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">https://app.hubspot.com/email/4203244/edit-beta/6542221053</mrk></target>
+</trans-unit>
+</group>
+<group id="sg26">
+</group>
+<group id="sg27">
+</group>
+<trans-unit id="tu45" resname="id" xml:space="preserve">
+<source xml:lang="en">module_1489411559234509</source>
+<seg-source><mrk mid="0" mtype="seg">module_1489411559234509</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">module_1489411559234509</mrk></target>
+</trans-unit>
+<trans-unit id="tu46" resname="label" xml:space="preserve">
+<source xml:lang="en">Rich Text</source>
+<seg-source><mrk mid="0" mtype="seg">Rich Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Rich Text</mrk></target>
+</trans-unit>
+<trans-unit id="tu47" resname="name" xml:space="preserve">
+<source xml:lang="en">module_1489411559234509</source>
+<seg-source><mrk mid="0" mtype="seg">module_1489411559234509</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">module_1489411559234509</mrk></target>
+</trans-unit>
+<trans-unit id="tu48" resname="type" xml:space="preserve">
+<source xml:lang="en">rich_text</source>
+<seg-source><mrk mid="0" mtype="seg">rich_text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">rich_text</mrk></target>
+</trans-unit>
+</group>
+<group id="sg28">
+<group id="sg29">
+<group id="sg30">
+<trans-unit id="tu49" resname="alt" xml:space="preserve">
+<source xml:lang="en">test</source>
+<seg-source><mrk mid="0" mtype="seg">test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">test</mrk></target>
+</trans-unit>
+<trans-unit id="tu50" resname="height" xml:space="preserve">
+<source xml:lang="en">400</source>
+<seg-source><mrk mid="0" mtype="seg">400</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">400</mrk></target>
+</trans-unit>
+<trans-unit id="tu51" resname="src" xml:space="preserve">
+<source xml:lang="en">http://design-assets.hubspot.com/hubfs/Vast/Email/banner-image.jpg</source>
+<seg-source><mrk mid="0" mtype="seg">http://design-assets.hubspot.com/hubfs/Vast/Email/banner-image.jpg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://design-assets.hubspot.com/hubfs/Vast/Email/banner-image.jpg</mrk></target>
+</trans-unit>
+<trans-unit id="tu52" resname="width" xml:space="preserve">
+<source xml:lang="en">600</source>
+<seg-source><mrk mid="0" mtype="seg">600</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">600</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu53" resname="banner_image_alt" xml:space="preserve">
+<source xml:lang="en">test</source>
+<seg-source><mrk mid="0" mtype="seg">test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">test</mrk></target>
+</trans-unit>
+<trans-unit id="tu54" resname="banner_image_height" xml:space="preserve">
+<source xml:lang="en">400</source>
+<seg-source><mrk mid="0" mtype="seg">400</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">400</mrk></target>
+</trans-unit>
+<trans-unit id="tu55" resname="banner_image_src" xml:space="preserve">
+<source xml:lang="en">http://design-assets.hubspot.com/hubfs/Vast/Email/banner-image.jpg</source>
+<seg-source><mrk mid="0" mtype="seg">http://design-assets.hubspot.com/hubfs/Vast/Email/banner-image.jpg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://design-assets.hubspot.com/hubfs/Vast/Email/banner-image.jpg</mrk></target>
+</trans-unit>
+<trans-unit id="tu56" resname="banner_image_width" xml:space="preserve">
+<source xml:lang="en">600</source>
+<seg-source><mrk mid="0" mtype="seg">600</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">600</mrk></target>
+</trans-unit>
+<trans-unit id="tu57" resname="redirectUrl" xml:space="preserve">
+<source xml:lang="en">https://app.hubspot.com/email/4203244/edit-beta/6542221053</source>
+<seg-source><mrk mid="0" mtype="seg">https://app.hubspot.com/email/4203244/edit-beta/6542221053</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">https://app.hubspot.com/email/4203244/edit-beta/6542221053</mrk></target>
+</trans-unit>
+<trans-unit id="tu58" resname="widget_name" xml:space="preserve">
+<source xml:lang="en">Vast - Email Banner Image</source>
+<seg-source><mrk mid="0" mtype="seg">Vast - Email Banner Image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Vast - Email Banner Image</mrk></target>
+</trans-unit>
+</group>
+<group id="sg31">
+</group>
+<group id="sg32">
+</group>
+<trans-unit id="tu59" resname="id" xml:space="preserve">
+<source xml:lang="en">module_149979678341473</source>
+<seg-source><mrk mid="0" mtype="seg">module_149979678341473</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">module_149979678341473</mrk></target>
+</trans-unit>
+<trans-unit id="tu60" resname="label" xml:space="preserve">
+<source xml:lang="en">Vast - Email Banner Image</source>
+<seg-source><mrk mid="0" mtype="seg">Vast - Email Banner Image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Vast - Email Banner Image</mrk></target>
+</trans-unit>
+<trans-unit id="tu61" resname="name" xml:space="preserve">
+<source xml:lang="en">module_149979678341473</source>
+<seg-source><mrk mid="0" mtype="seg">module_149979678341473</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">module_149979678341473</mrk></target>
+</trans-unit>
+<trans-unit id="tu62" resname="type" xml:space="preserve">
+<source xml:lang="en">custom_widget</source>
+<seg-source><mrk mid="0" mtype="seg">custom_widget</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">custom_widget</mrk></target>
+</trans-unit>
+</group>
+<group id="sg33">
+<group id="sg34">
+<trans-unit id="tu63" resname="value" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+</group>
+<group id="sg35">
+</group>
+<group id="sg36">
+</group>
+<trans-unit id="tu64" resname="id" xml:space="preserve">
+<source xml:lang="en">preview_text</source>
+<seg-source><mrk mid="0" mtype="seg">preview_text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">preview_text</mrk></target>
+</trans-unit>
+<trans-unit id="tu65" resname="label" xml:space="preserve">
+<source xml:lang="en">Preview Text &lt;span class=help-text&gt;This will be used as the preview text that displays in some email clients&lt;/span&gt;</source>
+<seg-source><mrk mid="0" mtype="seg">Preview Text &lt;span class=help-text&gt;This will be used as the preview text that displays in some email clients&lt;/span&gt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Preview Text &lt;span class=help-text&gt;This will be used as the preview text that displays in some email clients&lt;/span&gt;</mrk></target>
+</trans-unit>
+<trans-unit id="tu66" resname="name" xml:space="preserve">
+<source xml:lang="en">preview_text</source>
+<seg-source><mrk mid="0" mtype="seg">preview_text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">preview_text</mrk></target>
+</trans-unit>
+<trans-unit id="tu67" resname="type" xml:space="preserve">
+<source xml:lang="en">text</source>
+<seg-source><mrk mid="0" mtype="seg">text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text</mrk></target>
+</trans-unit>
+</group>
+</group>
+</group>
+</body>
+</file>
+</xliff>

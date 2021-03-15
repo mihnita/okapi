@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rwwdactivity3.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">The WwdEmbedded program</source>
+<seg-source><mrk mid="0" mtype="seg">The WwdEmbedded program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The WwdEmbedded program</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">This section describes the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="1">&lt;/codeph&gt;</ept> program, highlighting details specific to accessing a <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> database from a JDBC program.</source>
+<seg-source><mrk mid="0" mtype="seg">This section describes the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="1">&lt;/codeph&gt;</ept> program, highlighting details specific to accessing a <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> database from a JDBC program.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This section describes the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="1">&lt;/codeph&gt;</ept> program, highlighting details specific to accessing a <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> database from a JDBC program.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">WwdEmbedded.java program</source>
+<seg-source><mrk mid="0" mtype="seg">WwdEmbedded.java program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WwdEmbedded.java program</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">code description</source>
+<seg-source><mrk mid="0" mtype="seg">code description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">code description</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">org.apache.derby.jdbc.EmbeddedDriver</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.jdbc.EmbeddedDriver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.jdbc.EmbeddedDriver</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Database</source>
+<seg-source><mrk mid="0" mtype="seg">Database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">shutdown</source>
+<seg-source><mrk mid="0" mtype="seg">shutdown</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shutdown</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">JDBC</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">SQLException</source>
+<seg-source><mrk mid="0" mtype="seg">SQLException</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLException</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Most of the code related to the database activities performed is included in this section, but you might find it helpful to open the program file and follow along in a text viewer or editor. The <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>SECTION NAMES<ept id="1">&lt;/cite&gt;</ept> referred to in this section can be found in the comments within the program code and serve as cross-reference points between this section and the Java program. The program uses methods from the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdUtils<ept id="2">&lt;/codeph&gt;</ept> class. The utility class code is not described here but is available for review in the file <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdUtils.java<ept id="3">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Most of the code related to the database activities performed is included in this section, but you might find it helpful to open the program file and follow along in a text viewer or editor.</mrk><mrk mid="1" mtype="seg"> The <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>SECTION NAMES<ept id="1">&lt;/cite&gt;</ept> referred to in this section can be found in the comments within the program code and serve as cross-reference points between this section and the Java program.</mrk><mrk mid="2" mtype="seg"> The program uses methods from the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdUtils<ept id="2">&lt;/codeph&gt;</ept> class.</mrk><mrk mid="3" mtype="seg"> The utility class code is not described here but is available for review in the file <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdUtils.java<ept id="3">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Most of the code related to the database activities performed is included in this section, but you might find it helpful to open the program file and follow along in a text viewer or editor.</mrk><mrk mid="1" mtype="seg"> The <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>SECTION NAMES<ept id="1">&lt;/cite&gt;</ept> referred to in this section can be found in the comments within the program code and serve as cross-reference points between this section and the Java program.</mrk><mrk mid="2" mtype="seg"> The program uses methods from the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdUtils<ept id="2">&lt;/codeph&gt;</ept> class.</mrk><mrk mid="3" mtype="seg"> The utility class code is not described here but is available for review in the file <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdUtils.java<ept id="3">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Initialize the program</source>
+<seg-source><mrk mid="0" mtype="seg">Initialize the program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Initialize the program</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>INITIALIZATION SECTION<ept id="1">&lt;/cite&gt;</ept>: The initial lines of code identify the Java packages used in the program, then set up the Java class <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded<ept id="2">&lt;/codeph&gt;</ept> and the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>main<ept id="3">&lt;/codeph&gt;</ept> method signature. Refer to a Java programming guide for information on these program constructs.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>INITIALIZATION SECTION<ept id="1">&lt;/cite&gt;</ept>: The initial lines of code identify the Java packages used in the program, then set up the Java class <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded<ept id="2">&lt;/codeph&gt;</ept> and the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>main<ept id="3">&lt;/codeph&gt;</ept> method signature.</mrk><mrk mid="1" mtype="seg"> Refer to a Java programming guide for information on these program constructs.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>INITIALIZATION SECTION<ept id="1">&lt;/cite&gt;</ept>: The initial lines of code identify the Java packages used in the program, then set up the Java class <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded<ept id="2">&lt;/codeph&gt;</ept> and the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>main<ept id="3">&lt;/codeph&gt;</ept> method signature.</mrk><mrk mid="1" mtype="seg"> Refer to a Java programming guide for information on these program constructs.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">import java.sql.*; public class WwdEmbedded { public static void main(String[] args) {</source>
+<seg-source><mrk mid="0" mtype="seg">import java.sql.*; public class WwdEmbedded { public static void main(String[] args) {</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">import java.sql.*; public class WwdEmbedded { public static void main(String[] args) {</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Define key variables and objects</source>
+<seg-source><mrk mid="0" mtype="seg">Define key variables and objects</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Define key variables and objects</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>DEFINE VARIABLES SECTION<ept id="1">&lt;/cite&gt;</ept>: The initial lines of the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>main<ept id="2">&lt;/codeph&gt;</ept> method define the variables and objects used in the program. This example uses variables to store the information needed to connect to the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> database. The use of variables for this information makes it easy to adapt the program to other configurations and other databases.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>DEFINE VARIABLES SECTION<ept id="1">&lt;/cite&gt;</ept>: The initial lines of the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>main<ept id="2">&lt;/codeph&gt;</ept> method define the variables and objects used in the program.</mrk><mrk mid="1" mtype="seg"> This example uses variables to store the information needed to connect to the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> database.</mrk><mrk mid="2" mtype="seg"> The use of variables for this information makes it easy to adapt the program to other configurations and other databases.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>DEFINE VARIABLES SECTION<ept id="1">&lt;/cite&gt;</ept>: The initial lines of the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>main<ept id="2">&lt;/codeph&gt;</ept> method define the variables and objects used in the program.</mrk><mrk mid="1" mtype="seg"> This example uses variables to store the information needed to connect to the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> database.</mrk><mrk mid="2" mtype="seg"> The use of variables for this information makes it easy to adapt the program to other configurations and other databases.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>driver<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>driver<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>driver<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Stores the name of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> embedded driver.</source>
+<seg-source><mrk mid="0" mtype="seg">Stores the name of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> embedded driver.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stores the name of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> embedded driver.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>dbName<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>dbName<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>dbName<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Stores the name of the database.</source>
+<seg-source><mrk mid="0" mtype="seg">Stores the name of the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stores the name of the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionURL<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionURL<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionURL<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Stores the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> connection URL that is used to access the database.</source>
+<seg-source><mrk mid="0" mtype="seg">Stores the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> connection URL that is used to access the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stores the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> connection URL that is used to access the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>createString<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>createString<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>createString<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Stores the SQL <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CREATE<ept id="1">&lt;/codeph&gt;</ept> statement for the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WISH_LIST<ept id="2">&lt;/codeph&gt;</ept> table.</source>
+<seg-source><mrk mid="0" mtype="seg">Stores the SQL <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CREATE<ept id="1">&lt;/codeph&gt;</ept> statement for the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WISH_LIST<ept id="2">&lt;/codeph&gt;</ept> table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stores the SQL <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CREATE<ept id="1">&lt;/codeph&gt;</ept> statement for the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WISH_LIST<ept id="2">&lt;/codeph&gt;</ept> table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">String driver = "org.apache.derby.jdbc.EmbeddedDriver"; String dbName="jdbcDemoDB"; String connectionURL = "jdbc:derby:" + dbName + ";create=true"; ... String createString = "CREATE TABLE WISH_LIST " + "(WISH_ID INT NOT NULL GENERATED ALWAYS AS IDENTITY " ... + " WISH_ITEM VARCHAR(32) NOT NULL) " ;</source>
+<seg-source><mrk mid="0" mtype="seg">String driver = "org.apache.derby.jdbc.EmbeddedDriver"; String dbName="jdbcDemoDB"; String connectionURL = "jdbc:derby:" + dbName + ";create=true"; ...</mrk><mrk mid="1" mtype="seg"> String createString = "CREATE TABLE WISH_LIST " + "(WISH_ID INT NOT NULL GENERATED ALWAYS AS IDENTITY " ...</mrk><mrk mid="2" mtype="seg"> + " WISH_ITEM VARCHAR(32) NOT NULL) " ;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String driver = "org.apache.derby.jdbc.EmbeddedDriver"; String dbName="jdbcDemoDB"; String connectionURL = "jdbc:derby:" + dbName + ";create=true"; ...</mrk><mrk mid="1" mtype="seg"> String createString = "CREATE TABLE WISH_LIST " + "(WISH_ID INT NOT NULL GENERATED ALWAYS AS IDENTITY " ...</mrk><mrk mid="2" mtype="seg"> + " WISH_ITEM VARCHAR(32) NOT NULL) " ;</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Start the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine</source>
+<seg-source><mrk mid="0" mtype="seg">Start the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>LOAD DRIVER SECTION<ept id="1">&lt;/cite&gt;</ept>: Loading the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> embedded JDBC driver starts the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> database engine. The <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>try<ept id="4">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>catch<ept id="5">&lt;/codeph&gt;</ept> block (the Java error-handling construct) catches the exceptions that may occur. A problem here is usually due to an incorrect classpath setting.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>LOAD DRIVER SECTION<ept id="1">&lt;/cite&gt;</ept>: Loading the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> embedded JDBC driver starts the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> database engine.</mrk><mrk mid="1" mtype="seg"> The <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>try<ept id="4">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>catch<ept id="5">&lt;/codeph&gt;</ept> block (the Java error-handling construct) catches the exceptions that may occur.</mrk><mrk mid="2" mtype="seg"> A problem here is usually due to an incorrect classpath setting.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>LOAD DRIVER SECTION<ept id="1">&lt;/cite&gt;</ept>: Loading the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> embedded JDBC driver starts the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> database engine.</mrk><mrk mid="1" mtype="seg"> The <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>try<ept id="4">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>catch<ept id="5">&lt;/codeph&gt;</ept> block (the Java error-handling construct) catches the exceptions that may occur.</mrk><mrk mid="2" mtype="seg"> A problem here is usually due to an incorrect classpath setting.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">String driver = "org.apache.derby.jdbc.EmbeddedDriver"; ... try { Class.forName(driver); } catch(java.lang.ClassNotFoundException e) { ... }</source>
+<seg-source><mrk mid="0" mtype="seg">String driver = "org.apache.derby.jdbc.EmbeddedDriver"; ...</mrk><mrk mid="1" mtype="seg"> try { Class.forName(driver); } catch(java.lang.ClassNotFoundException e) { ...</mrk><mrk mid="2" mtype="seg"> }</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String driver = "org.apache.derby.jdbc.EmbeddedDriver"; ...</mrk><mrk mid="1" mtype="seg"> try { Class.forName(driver); } catch(java.lang.ClassNotFoundException e) { ...</mrk><mrk mid="2" mtype="seg"> }</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Boot the database</source>
+<seg-source><mrk mid="0" mtype="seg">Boot the database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Boot the database</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>BOOT DATABASE SECTION<ept id="1">&lt;/cite&gt;</ept>: The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager<ept id="2">&lt;/codeph&gt;</ept> class loads the database using the <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> connection URL stored in the variable <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionURL<ept id="4">&lt;/codeph&gt;</ept>. This URL includes the parameter <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>;create=true<ept id="5">&lt;/codeph&gt;</ept> so that the database will be created if it does not already exist. The primary <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>try<ept id="6">&lt;/codeph&gt;</ept> and <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>catch<ept id="7">&lt;/codeph&gt;</ept> block begins here. This construct handles errors for the database access code.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>BOOT DATABASE SECTION<ept id="1">&lt;/cite&gt;</ept>: The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager<ept id="2">&lt;/codeph&gt;</ept> class loads the database using the <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> connection URL stored in the variable <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionURL<ept id="4">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This URL includes the parameter <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>;create=true<ept id="5">&lt;/codeph&gt;</ept> so that the database will be created if it does not already exist.</mrk><mrk mid="2" mtype="seg"> The primary <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>try<ept id="6">&lt;/codeph&gt;</ept> and <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>catch<ept id="7">&lt;/codeph&gt;</ept> block begins here.</mrk><mrk mid="3" mtype="seg"> This construct handles errors for the database access code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>BOOT DATABASE SECTION<ept id="1">&lt;/cite&gt;</ept>: The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager<ept id="2">&lt;/codeph&gt;</ept> class loads the database using the <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> connection URL stored in the variable <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionURL<ept id="4">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This URL includes the parameter <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>;create=true<ept id="5">&lt;/codeph&gt;</ept> so that the database will be created if it does not already exist.</mrk><mrk mid="2" mtype="seg"> The primary <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>try<ept id="6">&lt;/codeph&gt;</ept> and <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>catch<ept id="7">&lt;/codeph&gt;</ept> block begins here.</mrk><mrk mid="3" mtype="seg"> This construct handles errors for the database access code.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">String connectionURL = "jdbc:derby:" + dbName + ";create=true"; ... try { conn = DriverManager.getConnection(connectionURL); ... <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>&lt;most of the program code is contained here&gt;<ept id="1">&lt;/i&gt;</ept> } catch (Throwable e) { ... }</source>
+<seg-source><mrk mid="0" mtype="seg">String connectionURL = "jdbc:derby:" + dbName + ";create=true"; ...</mrk><mrk mid="1" mtype="seg"> try { conn = DriverManager.getConnection(connectionURL); ...</mrk><mrk mid="2" mtype="seg"> <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>&lt;most of the program code is contained here&gt;<ept id="1">&lt;/i&gt;</ept> } catch (Throwable e) { ...</mrk><mrk mid="3" mtype="seg"> }</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String connectionURL = "jdbc:derby:" + dbName + ";create=true"; ...</mrk><mrk mid="1" mtype="seg"> try { conn = DriverManager.getConnection(connectionURL); ...</mrk><mrk mid="2" mtype="seg"> <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>&lt;most of the program code is contained here&gt;<ept id="1">&lt;/i&gt;</ept> } catch (Throwable e) { ...</mrk><mrk mid="3" mtype="seg"> }</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">Set up program to execute SQL</source>
+<seg-source><mrk mid="0" mtype="seg">Set up program to execute SQL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set up program to execute SQL</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>INITIAL SQL SECTION<ept id="1">&lt;/cite&gt;</ept>: The program initializes the objects needed to perform subsequent SQL operations and checks to see if the required data table exists.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>INITIAL SQL SECTION<ept id="1">&lt;/cite&gt;</ept>: The program initializes the objects needed to perform subsequent SQL operations and checks to see if the required data table exists.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>INITIAL SQL SECTION<ept id="1">&lt;/cite&gt;</ept>: The program initializes the objects needed to perform subsequent SQL operations and checks to see if the required data table exists.</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">The statement object <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>s<ept id="1">&lt;/codeph&gt;</ept> is initialized. If the utility method <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdUtils.wwdChk4Table<ept id="2">&lt;/codeph&gt;</ept> does not find the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WISH_LIST<ept id="3">&lt;/codeph&gt;</ept> table, the statement object's <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>execute<ept id="4">&lt;/codeph&gt;</ept> method creates the table by executing the SQL stored in the variable <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>createString<ept id="5">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The statement object <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>s<ept id="1">&lt;/codeph&gt;</ept> is initialized.</mrk><mrk mid="1" mtype="seg"> If the utility method <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdUtils.wwdChk4Table<ept id="2">&lt;/codeph&gt;</ept> does not find the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WISH_LIST<ept id="3">&lt;/codeph&gt;</ept> table, the statement object's <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>execute<ept id="4">&lt;/codeph&gt;</ept> method creates the table by executing the SQL stored in the variable <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>createString<ept id="5">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The statement object <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>s<ept id="1">&lt;/codeph&gt;</ept> is initialized.</mrk><mrk mid="1" mtype="seg"> If the utility method <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdUtils.wwdChk4Table<ept id="2">&lt;/codeph&gt;</ept> does not find the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WISH_LIST<ept id="3">&lt;/codeph&gt;</ept> table, the statement object's <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>execute<ept id="4">&lt;/codeph&gt;</ept> method creates the table by executing the SQL stored in the variable <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>createString<ept id="5">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">s = conn.createStatement(); if (! WwdUtils.wwdChk4Table(conn)) { System.out.println (" . . . . creating table WISH_LIST"); s.execute(createString); }</source>
+<seg-source><mrk mid="0" mtype="seg">s = conn.createStatement(); if (! WwdUtils.wwdChk4Table(conn)) { System.out.println (" .</mrk><mrk mid="1" mtype="seg"> .</mrk><mrk mid="2" mtype="seg"> .</mrk><mrk mid="3" mtype="seg"> .</mrk><mrk mid="4" mtype="seg"> creating table WISH_LIST"); s.execute(createString); }</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">s = conn.createStatement(); if (! WwdUtils.wwdChk4Table(conn)) { System.out.println (" .</mrk><mrk mid="1" mtype="seg"> .</mrk><mrk mid="2" mtype="seg"> .</mrk><mrk mid="3" mtype="seg"> .</mrk><mrk mid="4" mtype="seg"> creating table WISH_LIST"); s.execute(createString); }</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>INSERT<ept id="1">&lt;/codeph&gt;</ept> statement used to add data to the table is bound to the prepared statement object <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>psInsert<ept id="2">&lt;/codeph&gt;</ept>. The prepared statement uses the question mark parameter <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>?<ept id="3">&lt;/codeph&gt;</ept> to represent the data that will be inserted by the user. The program sets the actual value to be inserted later on, before executing the SQL. This is the most efficient way to execute SQL statements that will be used multiple times.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>INSERT<ept id="1">&lt;/codeph&gt;</ept> statement used to add data to the table is bound to the prepared statement object <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>psInsert<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The prepared statement uses the question mark parameter <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>?<ept id="3">&lt;/codeph&gt;</ept> to represent the data that will be inserted by the user.</mrk><mrk mid="2" mtype="seg"> The program sets the actual value to be inserted later on, before executing the SQL.</mrk><mrk mid="3" mtype="seg"> This is the most efficient way to execute SQL statements that will be used multiple times.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>INSERT<ept id="1">&lt;/codeph&gt;</ept> statement used to add data to the table is bound to the prepared statement object <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>psInsert<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The prepared statement uses the question mark parameter <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>?<ept id="3">&lt;/codeph&gt;</ept> to represent the data that will be inserted by the user.</mrk><mrk mid="2" mtype="seg"> The program sets the actual value to be inserted later on, before executing the SQL.</mrk><mrk mid="3" mtype="seg"> This is the most efficient way to execute SQL statements that will be used multiple times.</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">psInsert = conn.prepareStatement ("insert into WISH_LIST(WISH_ITEM) values (?)");</source>
+<seg-source><mrk mid="0" mtype="seg">psInsert = conn.prepareStatement ("insert into WISH_LIST(WISH_ITEM) values (?)");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">psInsert = conn.prepareStatement ("insert into WISH_LIST(WISH_ITEM) values (?)");</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">Interact with the database</source>
+<seg-source><mrk mid="0" mtype="seg">Interact with the database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Interact with the database</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>ADD / DISPLAY RECORD SECTION<ept id="1">&lt;/cite&gt;</ept>: This section uses the utility method <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdUtils.getWishItem<ept id="2">&lt;/codeph&gt;</ept> to gather information from the user. It then uses the objects set up previously to insert the data into the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WISH_LIST<ept id="3">&lt;/codeph&gt;</ept> table and then display all records. A standard <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>do<ept id="4">&lt;/codeph&gt;</ept> loop causes the program to repeat this series of steps until the user types <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>exit<ept id="5">&lt;/codeph&gt;</ept>. The data-related activities performed in this section are as follows:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>ADD / DISPLAY RECORD SECTION<ept id="1">&lt;/cite&gt;</ept>: This section uses the utility method <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdUtils.getWishItem<ept id="2">&lt;/codeph&gt;</ept> to gather information from the user.</mrk><mrk mid="1" mtype="seg"> It then uses the objects set up previously to insert the data into the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WISH_LIST<ept id="3">&lt;/codeph&gt;</ept> table and then display all records.</mrk><mrk mid="2" mtype="seg"> A standard <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>do<ept id="4">&lt;/codeph&gt;</ept> loop causes the program to repeat this series of steps until the user types <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>exit<ept id="5">&lt;/codeph&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> The data-related activities performed in this section are as follows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>ADD / DISPLAY RECORD SECTION<ept id="1">&lt;/cite&gt;</ept>: This section uses the utility method <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdUtils.getWishItem<ept id="2">&lt;/codeph&gt;</ept> to gather information from the user.</mrk><mrk mid="1" mtype="seg"> It then uses the objects set up previously to insert the data into the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WISH_LIST<ept id="3">&lt;/codeph&gt;</ept> table and then display all records.</mrk><mrk mid="2" mtype="seg"> A standard <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>do<ept id="4">&lt;/codeph&gt;</ept> loop causes the program to repeat this series of steps until the user types <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>exit<ept id="5">&lt;/codeph&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> The data-related activities performed in this section are as follows:</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setString<ept id="1">&lt;/codeph&gt;</ept> method sets the substitution parameter of the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>psInsert<ept id="2">&lt;/codeph&gt;</ept> object to the value typed by the user. Then the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>executeUpdate<ept id="3">&lt;/codeph&gt;</ept> method performs the database insert.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setString<ept id="1">&lt;/codeph&gt;</ept> method sets the substitution parameter of the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>psInsert<ept id="2">&lt;/codeph&gt;</ept> object to the value typed by the user.</mrk><mrk mid="1" mtype="seg"> Then the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>executeUpdate<ept id="3">&lt;/codeph&gt;</ept> method performs the database insert.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>setString<ept id="1">&lt;/codeph&gt;</ept> method sets the substitution parameter of the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>psInsert<ept id="2">&lt;/codeph&gt;</ept> object to the value typed by the user.</mrk><mrk mid="1" mtype="seg"> Then the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>executeUpdate<ept id="3">&lt;/codeph&gt;</ept> method performs the database insert.</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">psInsert.setString(1,answer); psInsert.executeUpdate();</source>
+<seg-source><mrk mid="0" mtype="seg">psInsert.setString(1,answer); psInsert.executeUpdate();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">psInsert.setString(1,answer); psInsert.executeUpdate();</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">The statement object <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>s<ept id="1">&lt;/codeph&gt;</ept> is used to select all the records in the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WISH_LIST<ept id="2">&lt;/codeph&gt;</ept> table and store them in the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet<ept id="3">&lt;/codeph&gt;</ept> named <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>myWishes<ept id="4">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The statement object <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>s<ept id="1">&lt;/codeph&gt;</ept> is used to select all the records in the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WISH_LIST<ept id="2">&lt;/codeph&gt;</ept> table and store them in the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet<ept id="3">&lt;/codeph&gt;</ept> named <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>myWishes<ept id="4">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The statement object <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>s<ept id="1">&lt;/codeph&gt;</ept> is used to select all the records in the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WISH_LIST<ept id="2">&lt;/codeph&gt;</ept> table and store them in the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet<ept id="3">&lt;/codeph&gt;</ept> named <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>myWishes<ept id="4">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">myWishes = s.executeQuery("select ENTRY_DATE, WISH_ITEM from WISH_LIST order by ENTRY_DATE");</source>
+<seg-source><mrk mid="0" mtype="seg">myWishes = s.executeQuery("select ENTRY_DATE, WISH_ITEM from WISH_LIST order by ENTRY_DATE");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">myWishes = s.executeQuery("select ENTRY_DATE, WISH_ITEM from WISH_LIST order by ENTRY_DATE");</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>while<ept id="1">&lt;/codeph&gt;</ept> loop reads each record in turn by calling the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>next<ept id="2">&lt;/codeph&gt;</ept> method. The <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>getTimestamp<ept id="3">&lt;/codeph&gt;</ept> and <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>getString<ept id="4">&lt;/codeph&gt;</ept> methods return specific fields in the record in the proper format. The fields are displayed using rudimentary formatting.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>while<ept id="1">&lt;/codeph&gt;</ept> loop reads each record in turn by calling the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>next<ept id="2">&lt;/codeph&gt;</ept> method.</mrk><mrk mid="1" mtype="seg"> The <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>getTimestamp<ept id="3">&lt;/codeph&gt;</ept> and <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>getString<ept id="4">&lt;/codeph&gt;</ept> methods return specific fields in the record in the proper format.</mrk><mrk mid="2" mtype="seg"> The fields are displayed using rudimentary formatting.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>while<ept id="1">&lt;/codeph&gt;</ept> loop reads each record in turn by calling the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>next<ept id="2">&lt;/codeph&gt;</ept> method.</mrk><mrk mid="1" mtype="seg"> The <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>getTimestamp<ept id="3">&lt;/codeph&gt;</ept> and <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>getString<ept id="4">&lt;/codeph&gt;</ept> methods return specific fields in the record in the proper format.</mrk><mrk mid="2" mtype="seg"> The fields are displayed using rudimentary formatting.</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">while (myWishes.next()) { System.out.println("On " + myWishes.getTimestamp(1) + " I wished for " + myWishes.getString(2)); }</source>
+<seg-source><mrk mid="0" mtype="seg">while (myWishes.next()) { System.out.println("On " + myWishes.getTimestamp(1) + " I wished for " + myWishes.getString(2)); }</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">while (myWishes.next()) { System.out.println("On " + myWishes.getTimestamp(1) + " I wished for " + myWishes.getString(2)); }</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">Close the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet<ept id="1">&lt;/codeph&gt;</ept> to release the memory being used.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet<ept id="1">&lt;/codeph&gt;</ept> to release the memory being used.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet<ept id="1">&lt;/codeph&gt;</ept> to release the memory being used.</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">myWishes.close();</source>
+<seg-source><mrk mid="0" mtype="seg">myWishes.close();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">myWishes.close();</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">Shut down the database</source>
+<seg-source><mrk mid="0" mtype="seg">Shut down the database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shut down the database</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>DATABASE SHUTDOWN SECTION<ept id="1">&lt;/cite&gt;</ept>: If an application starts the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> engine, the application should shut down all databases before exiting. The attribute <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>;shutdown=true<ept id="3">&lt;/codeph&gt;</ept> in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> connection URL performs the shutdown. When the <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> engine is shutdown, all booted databases will automatically shut down. The shutdown process cleans up records in the transaction log to ensure a faster startup the next time the database is booted.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>DATABASE SHUTDOWN SECTION<ept id="1">&lt;/cite&gt;</ept>: If an application starts the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> engine, the application should shut down all databases before exiting.</mrk><mrk mid="1" mtype="seg"> The attribute <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>;shutdown=true<ept id="3">&lt;/codeph&gt;</ept> in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> connection URL performs the shutdown.</mrk><mrk mid="2" mtype="seg"> When the <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> engine is shutdown, all booted databases will automatically shut down.</mrk><mrk mid="3" mtype="seg"> The shutdown process cleans up records in the transaction log to ensure a faster startup the next time the database is booted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>DATABASE SHUTDOWN SECTION<ept id="1">&lt;/cite&gt;</ept>: If an application starts the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> engine, the application should shut down all databases before exiting.</mrk><mrk mid="1" mtype="seg"> The attribute <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>;shutdown=true<ept id="3">&lt;/codeph&gt;</ept> in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> connection URL performs the shutdown.</mrk><mrk mid="2" mtype="seg"> When the <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> engine is shutdown, all booted databases will automatically shut down.</mrk><mrk mid="3" mtype="seg"> The shutdown process cleans up records in the transaction log to ensure a faster startup the next time the database is booted.</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">You can shut down individual databases without shutting down the engine by including the database name in the connection URL.</source>
+<seg-source><mrk mid="0" mtype="seg">You can shut down individual databases without shutting down the engine by including the database name in the connection URL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can shut down individual databases without shutting down the engine by including the database name in the connection URL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">"This section verifies that the embedded driver is being used, then issues the shutdown command and catches the shutdown exception to confirm that the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine shut down cleanly. The shutdown status is displayed before the program exits.</source>
+<seg-source><mrk mid="0" mtype="seg">"This section verifies that the embedded driver is being used, then issues the shutdown command and catches the shutdown exception to confirm that the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine shut down cleanly.</mrk><mrk mid="1" mtype="seg"> The shutdown status is displayed before the program exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"This section verifies that the embedded driver is being used, then issues the shutdown command and catches the shutdown exception to confirm that the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine shut down cleanly.</mrk><mrk mid="1" mtype="seg"> The shutdown status is displayed before the program exits.</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">if (driver.equals("org.apache.derby.jdbc.EmbeddedDriver")) { boolean gotSQLExc = false; try { DriverManager.getConnection("jdbc:derby:;shutdown=true"); } catch (SQLException se) { if ( se.getSQLState().equals("XJ015") ) { gotSQLExc = true; } } if (!gotSQLExc) { System.out.println("Database did not shut down normally"); } else { System.out.println("Database shut down normally"); } }</source>
+<seg-source><mrk mid="0" mtype="seg">if (driver.equals("org.apache.derby.jdbc.EmbeddedDriver")) { boolean gotSQLExc = false; try { DriverManager.getConnection("jdbc:derby:;shutdown=true"); } catch (SQLException se) { if ( se.getSQLState().equals("XJ015") ) { gotSQLExc = true; } } if (!gotSQLExc) { System.out.println("Database did not shut down normally"); } else { System.out.println("Database shut down normally"); } }</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">if (driver.equals("org.apache.derby.jdbc.EmbeddedDriver")) { boolean gotSQLExc = false; try { DriverManager.getConnection("jdbc:derby:;shutdown=true"); } catch (SQLException se) { if ( se.getSQLState().equals("XJ015") ) { gotSQLExc = true; } } if (!gotSQLExc) { System.out.println("Database did not shut down normally"); } else { System.out.println("Database shut down normally"); } }</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">The XJ015 error (successful shutdown of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine) and the 08006 error (successful shutdown of a single database) are the only exceptions thrown by <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> that might indicate that an operation succeeded. All other exceptions indicate that an operation failed. You should check the log file to be certain.</source>
+<seg-source><mrk mid="0" mtype="seg">The XJ015 error (successful shutdown of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine) and the 08006 error (successful shutdown of a single database) are the only exceptions thrown by <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> that might indicate that an operation succeeded.</mrk><mrk mid="1" mtype="seg"> All other exceptions indicate that an operation failed.</mrk><mrk mid="2" mtype="seg"> You should check the log file to be certain.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The XJ015 error (successful shutdown of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine) and the 08006 error (successful shutdown of a single database) are the only exceptions thrown by <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> that might indicate that an operation succeeded.</mrk><mrk mid="1" mtype="seg"> All other exceptions indicate that an operation failed.</mrk><mrk mid="2" mtype="seg"> You should check the log file to be certain.</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">The errorPrint and SQLExceptionPrint methods</source>
+<seg-source><mrk mid="0" mtype="seg">The errorPrint and SQLExceptionPrint methods</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The errorPrint and SQLExceptionPrint methods</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>DERBY EXCEPTION REPORTING CLASSES<ept id="1">&lt;/cite&gt;</ept>: The two methods at the end of the file, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>errorPrint<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLExceptionPrint<ept id="3">&lt;/codeph&gt;</ept>, are generic exception-reporting methods that can be used with any JDBC program. This type of exception handling is required because often multiple exceptions (<bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLException<ept id="4">&lt;/codeph&gt;</ept>) are chained together and then thrown. A <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>while<ept id="5">&lt;/codeph&gt;</ept> loop is used to report on each error in the chain. The program starts this process by calling the <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>errorPrint<ept id="6">&lt;/codeph&gt;</ept> method from the <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>catch<ept id="7">&lt;/codeph&gt;</ept> block of the code that accesses the database.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>DERBY EXCEPTION REPORTING CLASSES<ept id="1">&lt;/cite&gt;</ept>: The two methods at the end of the file, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>errorPrint<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLExceptionPrint<ept id="3">&lt;/codeph&gt;</ept>, are generic exception-reporting methods that can be used with any JDBC program.</mrk><mrk mid="1" mtype="seg"> This type of exception handling is required because often multiple exceptions (<bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLException<ept id="4">&lt;/codeph&gt;</ept>) are chained together and then thrown.</mrk><mrk mid="2" mtype="seg"> A <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>while<ept id="5">&lt;/codeph&gt;</ept> loop is used to report on each error in the chain.</mrk><mrk mid="3" mtype="seg"> The program starts this process by calling the <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>errorPrint<ept id="6">&lt;/codeph&gt;</ept> method from the <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>catch<ept id="7">&lt;/codeph&gt;</ept> block of the code that accesses the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>DERBY EXCEPTION REPORTING CLASSES<ept id="1">&lt;/cite&gt;</ept>: The two methods at the end of the file, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>errorPrint<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLExceptionPrint<ept id="3">&lt;/codeph&gt;</ept>, are generic exception-reporting methods that can be used with any JDBC program.</mrk><mrk mid="1" mtype="seg"> This type of exception handling is required because often multiple exceptions (<bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLException<ept id="4">&lt;/codeph&gt;</ept>) are chained together and then thrown.</mrk><mrk mid="2" mtype="seg"> A <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>while<ept id="5">&lt;/codeph&gt;</ept> loop is used to report on each error in the chain.</mrk><mrk mid="3" mtype="seg"> The program starts this process by calling the <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>errorPrint<ept id="6">&lt;/codeph&gt;</ept> method from the <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>catch<ept id="7">&lt;/codeph&gt;</ept> block of the code that accesses the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">// Beginning of the primary catch block: uses errorPrint method } catch (Throwable e) { /* Catch all exceptions and pass them to ** the exception reporting method */ System.out.println(" . . . exception thrown:"); errorPrint(e); }</source>
+<seg-source><mrk mid="0" mtype="seg">// Beginning of the primary catch block: uses errorPrint method } catch (Throwable e) { /* Catch all exceptions and pass them to ** the exception reporting method */ System.out.println(" .</mrk><mrk mid="1" mtype="seg"> .</mrk><mrk mid="2" mtype="seg"> .</mrk><mrk mid="3" mtype="seg"> exception thrown:"); errorPrint(e); }</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">// Beginning of the primary catch block: uses errorPrint method } catch (Throwable e) { /* Catch all exceptions and pass them to ** the exception reporting method */ System.out.println(" .</mrk><mrk mid="1" mtype="seg"> .</mrk><mrk mid="2" mtype="seg"> .</mrk><mrk mid="3" mtype="seg"> exception thrown:"); errorPrint(e); }</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>errorPrint<ept id="1">&lt;/codeph&gt;</ept> method prints a stack trace for all exceptions except a <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLException<ept id="2">&lt;/codeph&gt;</ept>. Each <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLException<ept id="3">&lt;/codeph&gt;</ept> is passed to the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLExceptionPrint<ept id="4">&lt;/codeph&gt;</ept> method.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>errorPrint<ept id="1">&lt;/codeph&gt;</ept> method prints a stack trace for all exceptions except a <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLException<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Each <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLException<ept id="3">&lt;/codeph&gt;</ept> is passed to the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLExceptionPrint<ept id="4">&lt;/codeph&gt;</ept> method.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>errorPrint<ept id="1">&lt;/codeph&gt;</ept> method prints a stack trace for all exceptions except a <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLException<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Each <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLException<ept id="3">&lt;/codeph&gt;</ept> is passed to the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLExceptionPrint<ept id="4">&lt;/codeph&gt;</ept> method.</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">static void errorPrint(Throwable e) { if (e instanceof SQLException) SQLExceptionPrint((SQLException)e); else { System.out.println("A non SQL error occured."); e.printStackTrace(); } } // END errorPrint</source>
+<seg-source><mrk mid="0" mtype="seg">static void errorPrint(Throwable e) { if (e instanceof SQLException) SQLExceptionPrint((SQLException)e); else { System.out.println("A non SQL error occured."); e.printStackTrace(); } } // END errorPrint</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">static void errorPrint(Throwable e) { if (e instanceof SQLException) SQLExceptionPrint((SQLException)e); else { System.out.println("A non SQL error occured."); e.printStackTrace(); } } // END errorPrint</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLExceptionPrint<ept id="1">&lt;/codeph&gt;</ept> method iterates through each of the exceptions on the stack. For each error, the method displays the codes, message, and stacktrace.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLExceptionPrint<ept id="1">&lt;/codeph&gt;</ept> method iterates through each of the exceptions on the stack.</mrk><mrk mid="1" mtype="seg"> For each error, the method displays the codes, message, and stacktrace.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLExceptionPrint<ept id="1">&lt;/codeph&gt;</ept> method iterates through each of the exceptions on the stack.</mrk><mrk mid="1" mtype="seg"> For each error, the method displays the codes, message, and stacktrace.</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">// Iterates through a stack of SQLExceptions static void SQLExceptionPrint(SQLException sqle) { while (sqle != null) { System.out.println("\n---SQLException Caught---\n"); System.out.println("SQLState: " + (sqle).getSQLState()); System.out.println("Severity: " + (sqle).getErrorCode()); System.out.println("Message: " + (sqle).getMessage()); sqle.printStackTrace(); sqle = sqle.getNextException(); } } // END SQLExceptionPrint</source>
+<seg-source><mrk mid="0" mtype="seg">// Iterates through a stack of SQLExceptions static void SQLExceptionPrint(SQLException sqle) { while (sqle != null) { System.out.println("\n---SQLException Caught---\n"); System.out.println("SQLState: " + (sqle).getSQLState()); System.out.println("Severity: " + (sqle).getErrorCode()); System.out.println("Message: " + (sqle).getMessage()); sqle.printStackTrace(); sqle = sqle.getNextException(); } } // END SQLExceptionPrint</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">// Iterates through a stack of SQLExceptions static void SQLExceptionPrint(SQLException sqle) { while (sqle != null) { System.out.println("\n---SQLException Caught---\n"); System.out.println("SQLState: " + (sqle).getSQLState()); System.out.println("Severity: " + (sqle).getErrorCode()); System.out.println("Message: " + (sqle).getMessage()); sqle.printStackTrace(); sqle = sqle.getNextException(); } } // END SQLExceptionPrint</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">To see the output produced by this method, type a wish-list item with more than 32 characters, such as <bpt id="1" ctype="x-userinput">&lt;userinput&gt;</bpt>I wish to see a Java program fail<ept id="1">&lt;/userinput&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">To see the output produced by this method, type a wish-list item with more than 32 characters, such as <bpt id="1" ctype="x-userinput">&lt;userinput&gt;</bpt>I wish to see a Java program fail<ept id="1">&lt;/userinput&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To see the output produced by this method, type a wish-list item with more than 32 characters, such as <bpt id="1" ctype="x-userinput">&lt;userinput&gt;</bpt>I wish to see a Java program fail<ept id="1">&lt;/userinput&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

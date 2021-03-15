@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="de">
+ <file id="f1" original="some_file.txt">
+  <unit id="1">
+   <originalData>
+    <data id="d1">&lt;b></data>
+    <data id="d2">&lt;/b></data>
+   </originalData>
+   <segment>
+    <source xml:space="preserve">How is <ph id="1" canCopy="no" canDelete="no" disp="&lt;b>" dataRef="d1"/>your<ph id="2" canCopy="no" canDelete="no" disp="&lt;/b>" dataRef="d2"/> day?</source>
+   </segment>
+  </unit>
+  <unit id="2">
+   <originalData>
+    <data id="d1">&lt;span class="emphasis"></data>
+    <data id="d2">&lt;/span></data>
+    <data id="d3">&lt;img src="icon.svg"/></data>
+    <data id="d4">&lt;img src="some_icon2.svg"/></data>
+   </originalData>
+   <segment>
+    <source xml:space="preserve">Frodo</source>
+   </segment>
+   <ignorable>
+    <source xml:space="preserve">: </source>
+   </ignorable>
+   <segment>
+    <source xml:space="preserve">I wish the <pc id="1" dispStart="&lt;span class=&quot;emphasis&quot;>" dispEnd="&lt;/span>" dataRefEnd="d2" dataRefStart="d1">Ring</pc> had never come to me.</source>
+   </segment>
+   <ignorable>
+    <source xml:space="preserve"> </source>
+   </ignorable>
+   <segment>
+    <source xml:space="preserve">I wish <ph id="stringedIdOne" disp="&lt;img src=&quot;icon.svg&quot;/>" dataRef="d3"/>none of this had happened.<ph id="stringedIdTwo" disp="&lt;img src=&quot;some_icon2.svg&quot;/>" dataRef="d4"/></source>
+   </segment>
+  </unit>
+  <unit id="3">
+   <originalData>
+    <data id="d1">&lt;span class="emphasis"></data>
+    <data id="d2">&lt;/span></data>
+   </originalData>
+   <segment>
+    <source xml:space="preserve">Gandalf</source>
+   </segment>
+   <ignorable>
+    <source xml:space="preserve">: </source>
+   </ignorable>
+   <segment>
+    <source xml:space="preserve">So do all who live to see such times, but that is not for them to decide.</source>
+   </segment>
+   <ignorable>
+    <source xml:space="preserve"> </source>
+   </ignorable>
+   <segment>
+    <source xml:space="preserve">All we have to decide is <pc id="4" dispStart="&lt;span class=&quot;emphasis&quot;>" dispEnd="&lt;/span>" dataRefEnd="d2" dataRefStart="d1">what to do with the time that is given to us</pc>.</source>
+   </segment>
+  </unit>
+ </file>
+</xliff>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdeploy857648.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Notes on dynamic changes</source>
+<seg-source><mrk mid="0" mtype="seg">Notes on dynamic changes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notes on dynamic changes</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Remember the following items when you make dynamic changes to jar files or to the classpath.</source>
+<seg-source><mrk mid="0" mtype="seg">Remember the following items when you make dynamic changes to jar files or to the classpath.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remember the following items when you make dynamic changes to jar files or to the classpath.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">When you are changing the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.database.classpath<ept id="1">&lt;/i&gt;</ept> property, all classes loaded from database jar files are reloaded, even for a jar file that has not changed.</source>
+<seg-source><mrk mid="0" mtype="seg">When you are changing the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.database.classpath<ept id="1">&lt;/i&gt;</ept> property, all classes loaded from database jar files are reloaded, even for a jar file that has not changed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you are changing the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.database.classpath<ept id="1">&lt;/i&gt;</ept> property, all classes loaded from database jar files are reloaded, even for a jar file that has not changed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Remember that the user's classpath is searched first.</source>
+<seg-source><mrk mid="0" mtype="seg">Remember that the user's classpath is searched first.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remember that the user's classpath is searched first.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Any existing prepared statements will use the previously loaded classes unless they require class loading, in which case they will fail with a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ClassNotFound<ept id="1">&lt;/i&gt;</ept> error.</source>
+<seg-source><mrk mid="0" mtype="seg">Any existing prepared statements will use the previously loaded classes unless they require class loading, in which case they will fail with a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ClassNotFound<ept id="1">&lt;/i&gt;</ept> error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Any existing prepared statements will use the previously loaded classes unless they require class loading, in which case they will fail with a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ClassNotFound<ept id="1">&lt;/i&gt;</ept> error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Cached objects do not match objects created with newly loaded classes. For example, an in-memory <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Customer<ept id="1">&lt;/i&gt;</ept> object will not match a new <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Customer<ept id="2">&lt;/i&gt;</ept> object if the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Customer<ept id="3">&lt;/i&gt;</ept> class has been reloaded, and it will raise a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>ClassCastException<ept id="4">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Cached objects do not match objects created with newly loaded classes.</mrk><mrk mid="1" mtype="seg"> For example, an in-memory <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Customer<ept id="1">&lt;/i&gt;</ept> object will not match a new <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Customer<ept id="2">&lt;/i&gt;</ept> object if the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Customer<ept id="3">&lt;/i&gt;</ept> class has been reloaded, and it will raise a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>ClassCastException<ept id="4">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cached objects do not match objects created with newly loaded classes.</mrk><mrk mid="1" mtype="seg"> For example, an in-memory <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Customer<ept id="1">&lt;/i&gt;</ept> object will not match a new <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Customer<ept id="2">&lt;/i&gt;</ept> object if the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Customer<ept id="3">&lt;/i&gt;</ept> class has been reloaded, and it will raise a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>ClassCastException<ept id="4">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

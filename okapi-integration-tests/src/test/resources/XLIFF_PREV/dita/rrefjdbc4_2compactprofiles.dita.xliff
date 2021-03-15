@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbc4_2compactprofiles.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">JDBC support for Java SE 8 Compact Profiles</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC support for Java SE 8 Compact Profiles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC support for Java SE 8 Compact Profiles</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Compact Profiles</source>
+<seg-source><mrk mid="0" mtype="seg">Compact Profiles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Compact Profiles</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">JDBC support</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC support</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC support</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides support for Compact Profiles 2 and 3 on the Java SE 8 platform by means of a group of JDBC DataSource classes. (Compact Profile 1 does not provide any JDBC support.)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides support for Compact Profiles 2 and 3 on the Java SE 8 platform by means of a group of JDBC DataSource classes.</mrk><mrk mid="1" mtype="seg"> (Compact Profile 1 does not provide any JDBC support.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides support for Compact Profiles 2 and 3 on the Java SE 8 platform by means of a group of JDBC DataSource classes.</mrk><mrk mid="1" mtype="seg"> (Compact Profile 1 does not provide any JDBC support.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The following DataSource classes, all within the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc<ept id="1">&lt;/codeph&gt;</ept> package, support Java SE 8 Compact Profiles 2 and 3:</source>
+<seg-source><mrk mid="0" mtype="seg">The following DataSource classes, all within the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc<ept id="1">&lt;/codeph&gt;</ept> package, support Java SE 8 Compact Profiles 2 and 3:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following DataSource classes, all within the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc<ept id="1">&lt;/codeph&gt;</ept> package, support Java SE 8 Compact Profiles 2 and 3:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicEmbeddedConnectionPoolDataSource40<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicEmbeddedConnectionPoolDataSource40<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicEmbeddedConnectionPoolDataSource40<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicEmbeddedDataSource40<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicEmbeddedDataSource40<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicEmbeddedDataSource40<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicEmbeddedXADataSource40<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicEmbeddedXADataSource40<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicEmbeddedXADataSource40<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicClientConnectionPoolDataSource40<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicClientConnectionPoolDataSource40<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicClientConnectionPoolDataSource40<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicClientDataSource40<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicClientDataSource40<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicClientDataSource40<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicClientXADataSource40<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicClientXADataSource40<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>org.apache.derby.jdbc.BasicClientXADataSource40<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">These DataSource classes cannot be used in applications that use the Java Naming and Directory Interface (JNDI) API. Otherwise, they are just like the versions for the full Java SE platform.</source>
+<seg-source><mrk mid="0" mtype="seg">These DataSource classes cannot be used in applications that use the Java Naming and Directory Interface (JNDI) API.</mrk><mrk mid="1" mtype="seg"> Otherwise, they are just like the versions for the full Java SE platform.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">These DataSource classes cannot be used in applications that use the Java Naming and Directory Interface (JNDI) API.</mrk><mrk mid="1" mtype="seg"> Otherwise, they are just like the versions for the full Java SE platform.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

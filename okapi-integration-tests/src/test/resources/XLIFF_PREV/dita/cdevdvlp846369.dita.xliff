@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdvlp846369.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Connecting to databases within the system</source>
+<seg-source><mrk mid="0" mtype="seg">Connecting to databases within the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connecting to databases within the system</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The standard way to access databases in the file system is by specifying the path to the database, either absolute or relative to the system directory. In a client/server environment, this path is always on the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>server<ept id="1">&lt;/i&gt;</ept> machine.</source>
+<seg-source><mrk mid="0" mtype="seg">The standard way to access databases in the file system is by specifying the path to the database, either absolute or relative to the system directory.</mrk><mrk mid="1" mtype="seg"> In a client/server environment, this path is always on the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>server<ept id="1">&lt;/i&gt;</ept> machine.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The standard way to access databases in the file system is by specifying the path to the database, either absolute or relative to the system directory.</mrk><mrk mid="1" mtype="seg"> In a client/server environment, this path is always on the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>server<ept id="1">&lt;/i&gt;</ept> machine.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Databases</source>
+<seg-source><mrk mid="0" mtype="seg">Databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">connecting to within system</source>
+<seg-source><mrk mid="0" mtype="seg">connecting to within system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">connecting to within system</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">By default, you can connect to databases within the current system directory (see <bpt id="1" ctype="x-xref">&lt;xref href="cdevdvlp13018.dita#cdevdvlp13018"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>). To connect to databases within the current system, just specify the database name on the connection URL. For example, if your system directory contains a database called <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>myDB<ept id="2">&lt;/i&gt;</ept>, you can connect to that database with the following connection URL:</source>
+<seg-source><mrk mid="0" mtype="seg">By default, you can connect to databases within the current system directory (see <bpt id="1" ctype="x-xref">&lt;xref href="cdevdvlp13018.dita#cdevdvlp13018"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> To connect to databases within the current system, just specify the database name on the connection URL.</mrk><mrk mid="2" mtype="seg"> For example, if your system directory contains a database called <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>myDB<ept id="2">&lt;/i&gt;</ept>, you can connect to that database with the following connection URL:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default, you can connect to databases within the current system directory (see <bpt id="1" ctype="x-xref">&lt;xref href="cdevdvlp13018.dita#cdevdvlp13018"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> To connect to databases within the current system, just specify the database name on the connection URL.</mrk><mrk mid="2" mtype="seg"> For example, if your system directory contains a database called <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>myDB<ept id="2">&lt;/i&gt;</ept>, you can connect to that database with the following connection URL:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">jdbc:derby:myDB</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:myDB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:myDB</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The full call within a Java program would be:</source>
+<seg-source><mrk mid="0" mtype="seg">The full call within a Java program would be:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The full call within a Java program would be:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Connection conn =DriverManager.getConnection("jdbc:derby:myDB");</source>
+<seg-source><mrk mid="0" mtype="seg">Connection conn =DriverManager.getConnection("jdbc:derby:myDB");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connection conn =DriverManager.getConnection("jdbc:derby:myDB");</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

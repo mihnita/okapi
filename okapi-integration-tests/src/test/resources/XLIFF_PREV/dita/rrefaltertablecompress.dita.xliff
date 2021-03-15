@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefaltertablecompress.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_COMPRESS_TABLE system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_COMPRESS_TABLE system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_COMPRESS_TABLE system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure to reclaim unused, allocated space in a table and its indexes.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure to reclaim unused, allocated space in a table and its indexes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure to reclaim unused, allocated space in a table and its indexes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">compressing tables</source>
+<seg-source><mrk mid="0" mtype="seg">compressing tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">compressing tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">system procedures</source>
+<seg-source><mrk mid="0" mtype="seg">system procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_COMPRESS_TABLE</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_COMPRESS_TABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_COMPRESS_TABLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Typically, unused allocated space exists when a large amount of data is deleted from a table, or indexes are updated. By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not return unused space to the operating system. For example, once a page has been allocated to a table or index, it is not automatically returned to the operating system until the table or index is destroyed. <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="2">&lt;/codeph&gt;</ept> allows you to return unused space to the operating system.</source>
+<seg-source><mrk mid="0" mtype="seg">Typically, unused allocated space exists when a large amount of data is deleted from a table, or indexes are updated.</mrk><mrk mid="1" mtype="seg"> By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not return unused space to the operating system.</mrk><mrk mid="2" mtype="seg"> For example, once a page has been allocated to a table or index, it is not automatically returned to the operating system until the table or index is destroyed.</mrk><mrk mid="3" mtype="seg"> <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="2">&lt;/codeph&gt;</ept> allows you to return unused space to the operating system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Typically, unused allocated space exists when a large amount of data is deleted from a table, or indexes are updated.</mrk><mrk mid="1" mtype="seg"> By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not return unused space to the operating system.</mrk><mrk mid="2" mtype="seg"> For example, once a page has been allocated to a table or index, it is not automatically returned to the operating system until the table or index is destroyed.</mrk><mrk mid="3" mtype="seg"> <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="2">&lt;/codeph&gt;</ept> allows you to return unused space to the operating system.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure updates statistics on all indexes as part of the index rebuilding process.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure updates statistics on all indexes as part of the index rebuilding process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure updates statistics on all indexes as part of the index rebuilding process.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE (IN SCHEMANAME VARCHAR(128), IN TABLENAME VARCHAR(128), IN SEQUENTIAL SMALLINT)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE (IN SCHEMANAME VARCHAR(128), IN TABLENAME VARCHAR(128), IN SEQUENTIAL SMALLINT)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE (IN SCHEMANAME VARCHAR(128), IN TABLENAME VARCHAR(128), IN SEQUENTIAL SMALLINT)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">SCHEMANAME</source>
+<seg-source><mrk mid="0" mtype="seg">SCHEMANAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SCHEMANAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">An input argument of type VARCHAR(128) that specifies the schema of the table. Passing a null will result in an error.</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the schema of the table.</mrk><mrk mid="1" mtype="seg"> Passing a null will result in an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the schema of the table.</mrk><mrk mid="1" mtype="seg"> Passing a null will result in an error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">TABLENAME</source>
+<seg-source><mrk mid="0" mtype="seg">TABLENAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TABLENAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">An input argument of type VARCHAR(128) that specifies the table name of the table. The string must exactly match the case of the table name, and the argument of "Fred" will be passed to SQL as the delimited identifier 'Fred'. Passing a null will result in an error.</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the table name of the table.</mrk><mrk mid="1" mtype="seg"> The string must exactly match the case of the table name, and the argument of "Fred" will be passed to SQL as the delimited identifier 'Fred'.</mrk><mrk mid="2" mtype="seg"> Passing a null will result in an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the table name of the table.</mrk><mrk mid="1" mtype="seg"> The string must exactly match the case of the table name, and the argument of "Fred" will be passed to SQL as the delimited identifier 'Fred'.</mrk><mrk mid="2" mtype="seg"> Passing a null will result in an error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">SEQUENTIAL</source>
+<seg-source><mrk mid="0" mtype="seg">SEQUENTIAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SEQUENTIAL</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">A non-zero input argument of type SMALLINT will force the operation to run in sequential mode, while an argument of 0 will force the operation not to run in sequential mode. Passing a null will result in an error.</source>
+<seg-source><mrk mid="0" mtype="seg">A non-zero input argument of type SMALLINT will force the operation to run in sequential mode, while an argument of 0 will force the operation not to run in sequential mode.</mrk><mrk mid="1" mtype="seg"> Passing a null will result in an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A non-zero input argument of type SMALLINT will force the operation to run in sequential mode, while an argument of 0 will force the operation not to run in sequential mode.</mrk><mrk mid="1" mtype="seg"> Passing a null will result in an error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">If authentication and SQL authorization are both enabled, all users have execute privileges on this procedure. However, in order for the procedure to run successfully on a given table, the user must be the owner of either the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database<ept id="1">&lt;/xref&gt;</ept> or the schema in which the table resides. See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, all users have execute privileges on this procedure.</mrk><mrk mid="1" mtype="seg"> However, in order for the procedure to run successfully on a given table, the user must be the owner of either the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database<ept id="1">&lt;/xref&gt;</ept> or the schema in which the table resides.</mrk><mrk mid="2" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, all users have execute privileges on this procedure.</mrk><mrk mid="1" mtype="seg"> However, in order for the procedure to run successfully on a given table, the user must be the owner of either the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database<ept id="1">&lt;/xref&gt;</ept> or the schema in which the table resides.</mrk><mrk mid="2" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">SQL example</source>
+<seg-source><mrk mid="0" mtype="seg">SQL example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL example</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">To compress a table called CUSTOMER in a schema called US, using the SEQUENTIAL option:</source>
+<seg-source><mrk mid="0" mtype="seg">To compress a table called CUSTOMER in a schema called US, using the SEQUENTIAL option:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To compress a table called CUSTOMER in a schema called US, using the SEQUENTIAL option:</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>call SYSCS_UTIL.SYSCS_COMPRESS_TABLE('US', 'CUSTOMER', 1)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>call SYSCS_UTIL.SYSCS_COMPRESS_TABLE('US', 'CUSTOMER', 1)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>call SYSCS_UTIL.SYSCS_COMPRESS_TABLE('US', 'CUSTOMER', 1)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Java example</source>
+<seg-source><mrk mid="0" mtype="seg">Java example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Java example</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">To compress a table called CUSTOMER in a schema called US, using the SEQUENTIAL option:</source>
+<seg-source><mrk mid="0" mtype="seg">To compress a table called CUSTOMER in a schema called US, using the SEQUENTIAL option:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To compress a table called CUSTOMER in a schema called US, using the SEQUENTIAL option:</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_COMPRESS_TABLE(?, ?, ?)"); cs.setString(1, "US"); cs.setString(2, "CUSTOMER"); cs.setShort(3, (short) 1); cs.execute();</source>
+<seg-source><mrk mid="0" mtype="seg">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_COMPRESS_TABLE(?, ?, ?)"); cs.setString(1, "US"); cs.setString(2, "CUSTOMER"); cs.setShort(3, (short) 1); cs.execute();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_COMPRESS_TABLE(?, ?, ?)"); cs.setString(1, "US"); cs.setString(2, "CUSTOMER"); cs.setShort(3, (short) 1); cs.execute();</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">If the SEQUENTIAL parameter is not specified, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> rebuilds all indexes concurrently with the base table. If you do not specify the SEQUENTIAL argument, this procedure can be memory-intensive and use a lot of temporary disk space (an amount equal to approximately two times the used space plus the unused, allocated space). This is because <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> compresses the table by copying active rows to newly allocated space (as opposed to shuffling and truncating the existing space). The extra space used is returned to the operating system on COMMIT.</source>
+<seg-source><mrk mid="0" mtype="seg">If the SEQUENTIAL parameter is not specified, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> rebuilds all indexes concurrently with the base table.</mrk><mrk mid="1" mtype="seg"> If you do not specify the SEQUENTIAL argument, this procedure can be memory-intensive and use a lot of temporary disk space (an amount equal to approximately two times the used space plus the unused, allocated space).</mrk><mrk mid="2" mtype="seg"> This is because <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> compresses the table by copying active rows to newly allocated space (as opposed to shuffling and truncating the existing space).</mrk><mrk mid="3" mtype="seg"> The extra space used is returned to the operating system on COMMIT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the SEQUENTIAL parameter is not specified, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> rebuilds all indexes concurrently with the base table.</mrk><mrk mid="1" mtype="seg"> If you do not specify the SEQUENTIAL argument, this procedure can be memory-intensive and use a lot of temporary disk space (an amount equal to approximately two times the used space plus the unused, allocated space).</mrk><mrk mid="2" mtype="seg"> This is because <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> compresses the table by copying active rows to newly allocated space (as opposed to shuffling and truncating the existing space).</mrk><mrk mid="3" mtype="seg"> The extra space used is returned to the operating system on COMMIT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">When SEQUENTIAL is specified, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> compresses the base table and then compresses each index sequentially. Using SEQUENTIAL uses less memory and disk space, but is more time-intensive. Use the SEQUENTIAL argument to reduce memory and disk space usage.</source>
+<seg-source><mrk mid="0" mtype="seg">When SEQUENTIAL is specified, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> compresses the base table and then compresses each index sequentially.</mrk><mrk mid="1" mtype="seg"> Using SEQUENTIAL uses less memory and disk space, but is more time-intensive.</mrk><mrk mid="2" mtype="seg"> Use the SEQUENTIAL argument to reduce memory and disk space usage.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When SEQUENTIAL is specified, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> compresses the base table and then compresses each index sequentially.</mrk><mrk mid="1" mtype="seg"> Using SEQUENTIAL uses less memory and disk space, but is more time-intensive.</mrk><mrk mid="2" mtype="seg"> Use the SEQUENTIAL argument to reduce memory and disk space usage.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> cannot release any permanent disk space back to the operating system until a COMMIT is issued. This means that the space occupied by both the base table and its indexes cannot be released. Only the disk space that is temporarily claimed by an external sort can be returned to the operating system prior to a COMMIT.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> cannot release any permanent disk space back to the operating system until a COMMIT is issued.</mrk><mrk mid="1" mtype="seg"> This means that the space occupied by both the base table and its indexes cannot be released.</mrk><mrk mid="2" mtype="seg"> Only the disk space that is temporarily claimed by an external sort can be returned to the operating system prior to a COMMIT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> cannot release any permanent disk space back to the operating system until a COMMIT is issued.</mrk><mrk mid="1" mtype="seg"> This means that the space occupied by both the base table and its indexes cannot be released.</mrk><mrk mid="2" mtype="seg"> Only the disk space that is temporarily claimed by an external sort can be returned to the operating system prior to a COMMIT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">We recommend that you issue the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure in the auto-commit mode.</source>
+<seg-source><mrk mid="0" mtype="seg">We recommend that you issue the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure in the auto-commit mode.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">We recommend that you issue the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure in the auto-commit mode.</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">This procedure acquires an exclusive table lock on the table being compressed. All statement plans dependent on the table or its indexes are invalidated. For information on identifying unused space, see the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This procedure acquires an exclusive table lock on the table being compressed.</mrk><mrk mid="1" mtype="seg"> All statement plans dependent on the table or its indexes are invalidated.</mrk><mrk mid="2" mtype="seg"> For information on identifying unused space, see the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This procedure acquires an exclusive table lock on the table being compressed.</mrk><mrk mid="1" mtype="seg"> All statement plans dependent on the table or its indexes are invalidated.</mrk><mrk mid="2" mtype="seg"> For information on identifying unused space, see the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadmincrtdbbkup.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Creating a database from a backup copy</source>
+<seg-source><mrk mid="0" mtype="seg">Creating a database from a backup copy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creating a database from a backup copy</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">To create a database from a full backup copy at a specified location, specify the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>createFrom=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>path<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> attribute in the boot-time connection URL.</source>
+<seg-source><mrk mid="0" mtype="seg">To create a database from a full backup copy at a specified location, specify the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>createFrom=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>path<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> attribute in the boot-time connection URL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To create a database from a full backup copy at a specified location, specify the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>createFrom=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>path<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> attribute in the boot-time connection URL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Creating a database from a backup copy</source>
+<seg-source><mrk mid="0" mtype="seg">Creating a database from a backup copy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creating a database from a backup copy</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">If there is already a database with the same name in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept>, an error will occur and the existing database will be left intact. If there is not an existing database with the same name in the current <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="2">&lt;/codeph&gt;</ept> location, the system will copy the whole database from the backup location to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="3">&lt;/codeph&gt;</ept> and start it.</source>
+<seg-source><mrk mid="0" mtype="seg">If there is already a database with the same name in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept>, an error will occur and the existing database will be left intact.</mrk><mrk mid="1" mtype="seg"> If there is not an existing database with the same name in the current <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="2">&lt;/codeph&gt;</ept> location, the system will copy the whole database from the backup location to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="3">&lt;/codeph&gt;</ept> and start it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If there is already a database with the same name in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept>, an error will occur and the existing database will be left intact.</mrk><mrk mid="1" mtype="seg"> If there is not an existing database with the same name in the current <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="2">&lt;/codeph&gt;</ept> location, the system will copy the whole database from the backup location to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="3">&lt;/codeph&gt;</ept> and start it.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The log files are also copied to the default location. You can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="1">&lt;/codeph&gt;</ept> attribute in conjunction with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>createFrom=<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>path<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> attribute to store logs in a different location. With the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>createFrom=<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>path<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/codeph&gt;</ept> attribute, you do not need to copy the individual log files to the log directory.</source>
+<seg-source><mrk mid="0" mtype="seg">The log files are also copied to the default location.</mrk><mrk mid="1" mtype="seg"> You can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="1">&lt;/codeph&gt;</ept> attribute in conjunction with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>createFrom=<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>path<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> attribute to store logs in a different location.</mrk><mrk mid="2" mtype="seg"> With the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>createFrom=<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>path<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/codeph&gt;</ept> attribute, you do not need to copy the individual log files to the log directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The log files are also copied to the default location.</mrk><mrk mid="1" mtype="seg"> You can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="1">&lt;/codeph&gt;</ept> attribute in conjunction with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>createFrom=<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>path<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> attribute to store logs in a different location.</mrk><mrk mid="2" mtype="seg"> With the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>createFrom=<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>path<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/codeph&gt;</ept> attribute, you do not need to copy the individual log files to the log directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">For example, to create the sample database from a backup copy in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>c:\mybackups\sample<ept id="1">&lt;/codeph&gt;</ept>, the connection URL should be:</source>
+<seg-source><mrk mid="0" mtype="seg">For example, to create the sample database from a backup copy in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>c:\mybackups\sample<ept id="1">&lt;/codeph&gt;</ept>, the connection URL should be:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, to create the sample database from a backup copy in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>c:\mybackups\sample<ept id="1">&lt;/codeph&gt;</ept>, the connection URL should be:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">jdbc:derby:sample;createFrom=c:\mybackups\sample</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:sample;createFrom=c:\mybackups\sample</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:sample;createFrom=c:\mybackups\sample</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">For more information, see "createFrom=path attribute" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information, see "createFrom=path attribute" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information, see "createFrom=path attribute" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

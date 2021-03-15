@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="scalar_sample.yml" source-language="en" target-language="fr" datatype="x-text/x-yaml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1" resname="receipt" xml:space="preserve">
+<source xml:lang="en">Oz-Ware Purchase Invoice</source>
+<seg-source><mrk mid="0" mtype="seg">Oz-Ware Purchase Invoice</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Oz-Ware Purchase Invoice</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="date" xml:space="preserve">
+<source xml:lang="en">2012-08-06</source>
+<seg-source><mrk mid="0" mtype="seg">2012-08-06</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2012-08-06</mrk></target>
+</trans-unit>
+<group id="sg2">
+<trans-unit id="tu3" resname="customer/given" xml:space="preserve">
+<source xml:lang="en">Dorothy</source>
+<seg-source><mrk mid="0" mtype="seg">Dorothy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dorothy</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="customer/family" xml:space="preserve">
+<source xml:lang="en">Gale</source>
+<seg-source><mrk mid="0" mtype="seg">Gale</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Gale</mrk></target>
+</trans-unit>
+</group>
+<group id="sg3">
+<group id="sg4">
+<trans-unit id="tu5" resname="items/part_no" xml:space="preserve">
+<source xml:lang="en">A4786</source>
+<seg-source><mrk mid="0" mtype="seg">A4786</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A4786</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="items/descrip" xml:space="preserve">
+<source xml:lang="en">Water Bucket (Filled)</source>
+<seg-source><mrk mid="0" mtype="seg">Water Bucket (Filled)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Water Bucket (Filled)</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" resname="items/price" xml:space="preserve">
+<source xml:lang="en">1.47</source>
+<seg-source><mrk mid="0" mtype="seg">1.47</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.47</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" resname="items/quantity" xml:space="preserve">
+<source xml:lang="en">4</source>
+<seg-source><mrk mid="0" mtype="seg">4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4</mrk></target>
+</trans-unit>
+</group>
+<group id="sg5">
+<trans-unit id="tu9" resname="items/part_no" xml:space="preserve">
+<source xml:lang="en">E1628</source>
+<seg-source><mrk mid="0" mtype="seg">E1628</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">E1628</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" resname="items/descrip" xml:space="preserve">
+<source xml:lang="en">High Heeled "Ruby" Slippers</source>
+<seg-source><mrk mid="0" mtype="seg">High Heeled "Ruby" Slippers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">High Heeled "Ruby" Slippers</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" resname="items/size" xml:space="preserve">
+<source xml:lang="en">8</source>
+<seg-source><mrk mid="0" mtype="seg">8</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">8</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" resname="items/price" xml:space="preserve">
+<source xml:lang="en">100.27</source>
+<seg-source><mrk mid="0" mtype="seg">100.27</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">100.27</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" resname="items/quantity" xml:space="preserve">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg6">
+<trans-unit id="tu14" resname="bill-to/street" xml:space="preserve">
+<source xml:lang="en">123 Tornado Alley<ph id="1" ctype="lb">
+            </ph>Suite 16</source>
+<seg-source><mrk mid="0" mtype="seg">123 Tornado Alley<ph id="1" ctype="lb">
+            </ph>Suite 16</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">123 Tornado Alley<ph id="1" ctype="lb">
+            </ph>Suite 16</mrk></target>
+</trans-unit>
+<trans-unit id="tu15" resname="bill-to/city" xml:space="preserve">
+<source xml:lang="en">East Centerville</source>
+<seg-source><mrk mid="0" mtype="seg">East Centerville</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">East Centerville</mrk></target>
+</trans-unit>
+<trans-unit id="tu16" resname="bill-to/state" xml:space="preserve">
+<source xml:lang="en">KS</source>
+<seg-source><mrk mid="0" mtype="seg">KS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">KS</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu17" resname="specialDelivery" xml:space="preserve">
+<source xml:lang="en">Follow the Yellow Brick Road to the Emerald City. Pay no attention to the man behind the curtain.</source>
+<seg-source><mrk mid="0" mtype="seg">Follow the Yellow Brick Road to the Emerald City.</mrk><mrk mid="1" mtype="seg"> Pay no attention to the man behind the curtain.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Follow the Yellow Brick Road to the Emerald City.</mrk><mrk mid="1" mtype="seg"> Pay no attention to the man behind the curtain.</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

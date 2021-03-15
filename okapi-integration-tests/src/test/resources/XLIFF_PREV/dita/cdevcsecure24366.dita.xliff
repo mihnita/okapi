@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure24366.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Encrypting databases on disk</source>
+<seg-source><mrk mid="0" mtype="seg">Encrypting databases on disk</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encrypting databases on disk</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides a way for you to encrypt your data on disk.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides a way for you to encrypt your data on disk.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides a way for you to encrypt your data on disk.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Database encryption</source>
+<seg-source><mrk mid="0" mtype="seg">Database encryption</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database encryption</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Databases</source>
+<seg-source><mrk mid="0" mtype="seg">Databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">encrypting</source>
+<seg-source><mrk mid="0" mtype="seg">encrypting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">encrypting</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Typically, database systems encrypt and decrypt data in transport over the network, using industry-standard systems. This system works well for client/server databases; the server is assumed to be in a trusted, safe environment, managed by a system administrator. In addition, the recipient of the data is trusted and should be capable of protecting the data. The only risk comes when transporting data over the wire, and data encryption happens during network transport only.</source>
+<seg-source><mrk mid="0" mtype="seg">Typically, database systems encrypt and decrypt data in transport over the network, using industry-standard systems.</mrk><mrk mid="1" mtype="seg"> This system works well for client/server databases; the server is assumed to be in a trusted, safe environment, managed by a system administrator.</mrk><mrk mid="2" mtype="seg"> In addition, the recipient of the data is trusted and should be capable of protecting the data.</mrk><mrk mid="3" mtype="seg"> The only risk comes when transporting data over the wire, and data encryption happens during network transport only.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Typically, database systems encrypt and decrypt data in transport over the network, using industry-standard systems.</mrk><mrk mid="1" mtype="seg"> This system works well for client/server databases; the server is assumed to be in a trusted, safe environment, managed by a system administrator.</mrk><mrk mid="2" mtype="seg"> In addition, the recipient of the data is trusted and should be capable of protecting the data.</mrk><mrk mid="3" mtype="seg"> The only risk comes when transporting data over the wire, and data encryption happens during network transport only.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">However, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> databases are platform-independent files that are designed to be easily shared in a number of ways, including transport over the Internet. Recipients of the data might not know how, or might not have the means, to properly protect the data.</source>
+<seg-source><mrk mid="0" mtype="seg">However, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> databases are platform-independent files that are designed to be easily shared in a number of ways, including transport over the Internet.</mrk><mrk mid="1" mtype="seg"> Recipients of the data might not know how, or might not have the means, to properly protect the data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">However, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> databases are platform-independent files that are designed to be easily shared in a number of ways, including transport over the Internet.</mrk><mrk mid="1" mtype="seg"> Recipients of the data might not know how, or might not have the means, to properly protect the data.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">This data encryption feature provides the ability to store user data in an encrypted form. The user who boots the database must provide a boot password or encryption key.</source>
+<seg-source><mrk mid="0" mtype="seg">This data encryption feature provides the ability to store user data in an encrypted form.</mrk><mrk mid="1" mtype="seg"> The user who boots the database must provide a boot password or encryption key.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This data encryption feature provides the ability to store user data in an encrypted form.</mrk><mrk mid="1" mtype="seg"> The user who boots the database must provide a boot password or encryption key.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Jar files stored in the database are not encrypted.</source>
+<seg-source><mrk mid="0" mtype="seg">Jar files stored in the database are not encrypted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Jar files stored in the database are not encrypted.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

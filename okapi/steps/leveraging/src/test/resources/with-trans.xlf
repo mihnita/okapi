@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+    <file original="Graphic Example.psd" source-language="en" target-language="fr" tool="okapi" datatype="html">
+        <header>           
+            <note>With existing translations</note>                
+        </header>
+        <body>
+            <trans-unit id="1">
+                <source>Text one.</source>
+                <target>Text one.</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Text one bis.</source>
+                <target>Texte un bis.</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Text one ter.</source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Text two. Text three.</source>
+                <seg-source><mrk mid="1" mtype="seg">Text two. </mrk><mrk mid="2" mtype="seg">Text three.</mrk></seg-source>
+                <target><mrk mid="1" mtype="seg">Text two. </mrk><mrk mid="2" mtype="seg">Texte trois.</mrk></target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Text four. Text five.</source>
+                <seg-source><mrk mid="1" mtype="seg">Text four. </mrk><mrk mid="2" mtype="seg">Text five.</mrk></seg-source>
+                <target><mrk mid="1" mtype="seg">Texte quatre. </mrk><mrk mid="2" mtype="seg">Text five.</mrk></target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Text six. Text seven.</source>
+                <seg-source><mrk mid="1" mtype="seg">Text six. </mrk><mrk mid="2" mtype="seg">Text seven.</mrk></seg-source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

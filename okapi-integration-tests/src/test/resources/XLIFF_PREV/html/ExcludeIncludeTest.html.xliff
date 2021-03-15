@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="ExcludeIncludeTest.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/html/target/classes/net/sf/okapi/filters/html/nonwellformedConfiguration.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Text should be excluded 1.</source>
+<seg-source><mrk mid="0" mtype="seg">Text should be excluded 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text should be excluded 1.</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Text should be included. <it id="1" ctype="bold" pos="open">&lt;b&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg">Text should be included.</mrk><mrk mid="1" mtype="seg"> <it id="1" ctype="bold" pos="open">&lt;b&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text should be included.</mrk><mrk mid="1" mtype="seg"> <it id="1" ctype="bold" pos="open">&lt;b&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">More excluded text</source>
+<seg-source><mrk mid="0" mtype="seg">More excluded text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">More excluded text</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en"><it id="1" ctype="bold" pos="close">&lt;/b&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="bold" pos="close">&lt;/b&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="bold" pos="close">&lt;/b&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Text should be excluded 2.</source>
+<seg-source><mrk mid="0" mtype="seg">Text should be excluded 2.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text should be excluded 2.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

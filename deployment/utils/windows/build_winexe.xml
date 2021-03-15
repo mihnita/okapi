@@ -1,0 +1,22 @@
+<?xml version="1.0"?> 
+<project name="winexe" default="all" basedir="."> 
+
+	<!--
+	This file build Windows executables. It should be run only when something changes in the .exe configuration or
+	for some reasons the .exe needs to be updated.
+	The built .exe is placed in the win32 directory. It should be copy to the proper location.
+	This means the main build can be done a) without installing launch4j and b) on non-Windows platforms.
+	-->
+
+	<target name="all">
+		<mkdir dir="win32"/>
+
+		<property name="launch4j.dir" location="launch4j\launch4j" />
+		<taskdef name="launch4j"
+			classname="net.sf.launch4j.ant.Launch4jTask"
+			classpath="${launch4j.dir}/launch4j.jar
+				:${launch4j.dir}/lib/xstream.jar" />
+		<launch4j configFile="./l4j_${appname}_config.xml" />
+	</target>
+	
+</project>

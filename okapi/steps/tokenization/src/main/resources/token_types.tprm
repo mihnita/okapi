@@ -1,0 +1,77 @@
+#v1
+TokenCount.i=18
+
+# Must match token in RBBI rules file (rbbi.txt) exactly. spaces and "-" are not allowed
+# token id's must also match. custom tokens must have an id >500
+
+Token0.name=UNKNOWN
+Token0.description=Tokens not matched by any rule
+Token0.id.i=0
+
+Token1.name=INTERNET
+Token1.description=Internet Address: 192.168.1, www.google.com, etc.
+Token1.id.i=506
+
+Token2.name=EMAIL
+Token2.description=Email address: sequence of letters, digits and punctuation followed by @ and followed by another sequence
+Token2.id.i=502
+
+Token3.name=MARKUP
+Token3.description=HTML or XML markup: A run begins with < and ends with the first matching >
+Token3.id.i=504
+
+Token4.name=EMOTICON
+Token4.description=Emoticon: A run that starts with :;B8{[ and contains only one or more of the following -=/{})(
+Token4.id.i=505
+
+Token5.name=HYPHENATED_WORD
+Token5.description=Hyphenated Word in various scripts (we accept all true hyphen chars)
+Token5.id.i=501
+
+Token6.name=WHITESPACE
+Token6.description=one whitespace characters
+Token6.id.i=508
+
+Token7.name=PUNCTUATION
+Token7.description=punctuation as defined by Unicode
+Token7.id.i=509
+
+Token8.name=EMOJI
+Token8.description=All defined emoji as of Unicode 6
+Token8.id.i=510
+
+Token9.name=ABBREVIATION
+Token9.description=Limited types English abbreviations like pct in 3.3pct, U.S., USD.
+Token9.id.i=516
+
+Token10.name=NUMBER
+Token10.description=Numbers
+Token10.id.i=100
+
+Token11.name=WORD
+Token11.description=Words that contain letters, excluding hiragana, katakana or ideographic characters
+Token11.id.i=200
+
+Token12.name=KANA
+Token12.description=Words containing kana characters
+Token12.id.i=300
+
+Token13.name=IDEOGRAPH
+Token13.description=Words containing ideographic characters
+Token13.id.i=400
+
+Token14.name=CURRENCY
+Token14.description=Currency symbols like $
+Token14.id.i=514
+
+Token15.name=OTHER_SYMBOL
+Token15.description=Various symbols from mathematics etc..
+Token15.id.i=512
+
+Token16.name=TIME
+Token16.description=Matches times separated by either : or . will match a 24 hour time, or a 12 hour time with AM or PM specified. Allows 0-59 minutes, and 0-59 seconds. Seconds are not required.
+Token16.id.i=513
+
+Token17.name=DATE
+Token17.description=The following validates dates with and without leading zeros in the following formats: MM/DD/YYYY and it also takes YYYY (this can easily be removed). All months are validated for the correct number of days for that particular month except for February which can be set to 29 days.
+Token17.id.i=515

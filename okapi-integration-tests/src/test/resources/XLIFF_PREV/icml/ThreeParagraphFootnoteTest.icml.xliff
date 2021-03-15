@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="ThreeParagraphFootnoteTest.icml" source-language="en" target-language="fr" datatype="x-application/x-icml+xml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="spr1" resname="Stories" restype="x-spread">
+<group id="sto1" resname="xhtml2icml_default_story" restype="x-story">
+<trans-unit id="xhtml2icml_default_story-1" xml:space="preserve">
+<source xml:lang="en">Three Paragraph Footnote Test</source>
+<seg-source><mrk mid="0" mtype="seg">Three Paragraph Footnote Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Three Paragraph Footnote Test</mrk></target>
+</trans-unit>
+<trans-unit id="xhtml2icml_default_story-2" xml:space="preserve">
+<source xml:lang="en">This is a paragraph.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a paragraph.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a paragraph.</mrk></target>
+</trans-unit>
+<trans-unit id="xhtml2icml_default_story-3" xml:space="preserve">
+<source xml:lang="en"><bpt id="4" ctype="x-cs_NOCHARACTERSTYLE">&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"&gt;&lt;Content&gt;&lt;?ACE 4?&gt;&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/[No character style]"&gt;&lt;Content&gt;</bpt> Here is footnote number 1.<ept id="4">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange&gt;&lt;Br/&gt;&lt;/CharacterStyleRange&gt;</ept><bpt id="8" ctype="x-cs_NOCHARACTERSTYLE">&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/[No character style]"&gt;&lt;Content&gt;</bpt>Here is the first footnote's second paragraph.<ept id="8">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;/ParagraphStyleRange&gt;&lt;/Footnote&gt;&lt;/CharacterStyleRange&gt;</ept><it id="10" ctype="x-cs_NOCHARACTERSTYLE" pos="open">&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/[No character style]"&gt;&lt;Content&gt;</it> This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph.<it id="10" ctype="x-cs_NOCHARACTERSTYLE" pos="close">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;Br/&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="4" ctype="x-cs_NOCHARACTERSTYLE">&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"&gt;&lt;Content&gt;&lt;?ACE 4?&gt;&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/[No character style]"&gt;&lt;Content&gt;</bpt> Here is footnote number 1.<ept id="4">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange&gt;&lt;Br/&gt;&lt;/CharacterStyleRange&gt;</ept><bpt id="8" ctype="x-cs_NOCHARACTERSTYLE">&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/[No character style]"&gt;&lt;Content&gt;</bpt>Here is the first footnote's second paragraph.<ept id="8">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;/ParagraphStyleRange&gt;&lt;/Footnote&gt;&lt;/CharacterStyleRange&gt;</ept></mrk><mrk mid="1" mtype="seg"><it id="10" ctype="x-cs_NOCHARACTERSTYLE" pos="open">&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/[No character style]"&gt;&lt;Content&gt;</it> This is a paragraph.</mrk><mrk mid="2" mtype="seg"> This is a paragraph.</mrk><mrk mid="3" mtype="seg"> This is a paragraph.</mrk><mrk mid="4" mtype="seg"> This is a paragraph.</mrk><mrk mid="5" mtype="seg"> This is a paragraph.</mrk><mrk mid="6" mtype="seg"> This is a paragraph.</mrk><mrk mid="7" mtype="seg"> This is a paragraph.</mrk><mrk mid="8" mtype="seg"> This is a paragraph.</mrk><mrk mid="9" mtype="seg"> This is a paragraph.</mrk><mrk mid="10" mtype="seg"> This is a paragraph.<it id="10" ctype="x-cs_NOCHARACTERSTYLE" pos="close">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;Br/&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="4" ctype="x-cs_NOCHARACTERSTYLE">&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]"&gt;&lt;Content&gt;&lt;?ACE 4?&gt;&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/[No character style]"&gt;&lt;Content&gt;</bpt> Here is footnote number 1.<ept id="4">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;CharacterStyleRange&gt;&lt;Br/&gt;&lt;/CharacterStyleRange&gt;</ept><bpt id="8" ctype="x-cs_NOCHARACTERSTYLE">&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/[No character style]"&gt;&lt;Content&gt;</bpt>Here is the first footnote's second paragraph.<ept id="8">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;/ParagraphStyleRange&gt;&lt;/Footnote&gt;&lt;/CharacterStyleRange&gt;</ept></mrk><mrk mid="1" mtype="seg"><it id="10" ctype="x-cs_NOCHARACTERSTYLE" pos="open">&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/[No character style]"&gt;&lt;Content&gt;</it> This is a paragraph.</mrk><mrk mid="2" mtype="seg"> This is a paragraph.</mrk><mrk mid="3" mtype="seg"> This is a paragraph.</mrk><mrk mid="4" mtype="seg"> This is a paragraph.</mrk><mrk mid="5" mtype="seg"> This is a paragraph.</mrk><mrk mid="6" mtype="seg"> This is a paragraph.</mrk><mrk mid="7" mtype="seg"> This is a paragraph.</mrk><mrk mid="8" mtype="seg"> This is a paragraph.</mrk><mrk mid="9" mtype="seg"> This is a paragraph.</mrk><mrk mid="10" mtype="seg"> This is a paragraph.<it id="10" ctype="x-cs_NOCHARACTERSTYLE" pos="close">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;Br/&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="xhtml2icml_default_story-4" xml:space="preserve">
+<source xml:lang="en"> </source>
+<seg-source><mrk mid="0" mtype="seg"> </mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> </mrk></target>
+</trans-unit>
+<trans-unit id="xhtml2icml_default_story-5" xml:space="preserve">
+<source xml:lang="en"> </source>
+<seg-source><mrk mid="0" mtype="seg"> </mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> </mrk></target>
+</trans-unit>
+<trans-unit id="xhtml2icml_default_story-6" xml:space="preserve">
+<source xml:lang="en">Here is the first footnote's third paragraph (unhandled).</source>
+<seg-source><mrk mid="0" mtype="seg">Here is the first footnote's third paragraph (unhandled).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here is the first footnote's third paragraph (unhandled).</mrk></target>
+</trans-unit>
+</group>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevbabejgjd.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Granting permissions to Derby</source>
+<seg-source><mrk mid="0" mtype="seg">Granting permissions to Derby</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Granting permissions to Derby</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">This section discusses which permissions should be granted to <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> (the code base <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="2">&lt;/codeph&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">This section discusses which permissions should be granted to <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> (the code base <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="2">&lt;/codeph&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This section discusses which permissions should be granted to <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> (the code base <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="2">&lt;/codeph&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Permissions</source>
+<seg-source><mrk mid="0" mtype="seg">Permissions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Permissions</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">granting to Derby</source>
+<seg-source><mrk mid="0" mtype="seg">granting to Derby</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">granting to Derby</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">See "Default Policy Implementation and Policy File Syntax" at <bpt id="1" ctype="x-xref">&lt;xref format="html"
+href="http://docs.oracle.com/javase/7/docs/technotes/guides/security/PolicyFiles.html"
+scope="external"&gt;</bpt>http://docs.oracle.com/javase/7/docs/technotes/guides/security/PolicyFiles.html<ept id="1">&lt;/xref&gt;</ept> for more information about creating policy files.</source>
+<seg-source><mrk mid="0" mtype="seg">See "Default Policy Implementation and Policy File Syntax" at <bpt id="1" ctype="x-xref">&lt;xref format="html"
+href="http://docs.oracle.com/javase/7/docs/technotes/guides/security/PolicyFiles.html"
+scope="external"&gt;</bpt>http://docs.oracle.com/javase/7/docs/technotes/guides/security/PolicyFiles.html<ept id="1">&lt;/xref&gt;</ept> for more information about creating policy files.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See "Default Policy Implementation and Policy File Syntax" at <bpt id="1" ctype="x-xref">&lt;xref format="html"
+href="http://docs.oracle.com/javase/7/docs/technotes/guides/security/PolicyFiles.html"
+scope="external"&gt;</bpt>http://docs.oracle.com/javase/7/docs/technotes/guides/security/PolicyFiles.html<ept id="1">&lt;/xref&gt;</ept> for more information about creating policy files.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Mandatory permissions</source>
+<seg-source><mrk mid="0" mtype="seg">Mandatory permissions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mandatory permissions</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">permission java.lang.RuntimePermission createClassLoader</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission createClassLoader</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission createClassLoader</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Mandatory. It allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to execute SQL queries and supports loading class files from jar files stored in the database.</source>
+<seg-source><mrk mid="0" mtype="seg">Mandatory.</mrk><mrk mid="1" mtype="seg"> It allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to execute SQL queries and supports loading class files from jar files stored in the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mandatory.</mrk><mrk mid="1" mtype="seg"> It allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to execute SQL queries and supports loading class files from jar files stored in the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">permission java.util.PropertyPermission "derby.*", "read"</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.util.PropertyPermission "derby.*", "read"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.util.PropertyPermission "derby.*", "read"</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to read individual <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> properties set in the JVM machine's system set. If the action is denied, properties in the JVM machine's system set are ignored.</source>
+<seg-source><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to read individual <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> properties set in the JVM machine's system set.</mrk><mrk mid="1" mtype="seg"> If the action is denied, properties in the JVM machine's system set are ignored.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to read individual <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> properties set in the JVM machine's system set.</mrk><mrk mid="1" mtype="seg"> If the action is denied, properties in the JVM machine's system set are ignored.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Database access permissions</source>
+<seg-source><mrk mid="0" mtype="seg">Database access permissions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database access permissions</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">permission java.io.FilePermission "directory${/}/-", "read,write,delete"</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.io.FilePermission "directory${/}/-", "read,write,delete"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.io.FilePermission "directory${/}/-", "read,write,delete"</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to manage files within the database that maps to the directory specified. For read-only databases, only the "read" action needs to be granted.</source>
+<seg-source><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to manage files within the database that maps to the directory specified.</mrk><mrk mid="1" mtype="seg"> For read-only databases, only the "read" action needs to be granted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to manage files within the database that maps to the directory specified.</mrk><mrk mid="1" mtype="seg"> For read-only databases, only the "read" action needs to be granted.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Optional permissions</source>
+<seg-source><mrk mid="0" mtype="seg">Optional permissions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Optional permissions</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">permission java.io.FilePermission "${derby.system.home}", "read,write"</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.io.FilePermission "${derby.system.home}", "read,write"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.io.FilePermission "${derby.system.home}", "read,write"</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to determine the system directory when set by <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.system.home <ept id="2">&lt;/i&gt;</ept>and create it if needed. If the system directory already exists then only the "read" permission needs to be granted.</source>
+<seg-source><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to determine the system directory when set by <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.system.home <ept id="2">&lt;/i&gt;</ept>and create it if needed.</mrk><mrk mid="1" mtype="seg"> If the system directory already exists then only the "read" permission needs to be granted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to determine the system directory when set by <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.system.home <ept id="2">&lt;/i&gt;</ept>and create it if needed.</mrk><mrk mid="1" mtype="seg"> If the system directory already exists then only the "read" permission needs to be granted.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">permission java.util.PropertyPermission "user.dir", "read"</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.util.PropertyPermission "user.dir", "read"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.util.PropertyPermission "user.dir", "read"</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Permits access to the system directory value if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="1">&lt;/i&gt;</ept> is not set or no permission has been granted to read the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="2">&lt;/i&gt;</ept> property.</source>
+<seg-source><mrk mid="0" mtype="seg">Permits access to the system directory value if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="1">&lt;/i&gt;</ept> is not set or no permission has been granted to read the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="2">&lt;/i&gt;</ept> property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Permits access to the system directory value if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="1">&lt;/i&gt;</ept> is not set or no permission has been granted to read the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="2">&lt;/i&gt;</ept> property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">permission java.util.PropertyPermission "sun.arch.data.model", "read"</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.util.PropertyPermission "sun.arch.data.model", "read"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.util.PropertyPermission "sun.arch.data.model", "read"</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">If set by the JVM, this is the definite answer to whether the system is 32 or 64 bit.</source>
+<seg-source><mrk mid="0" mtype="seg">If set by the JVM, this is the definite answer to whether the system is 32 or 64 bit.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If set by the JVM, this is the definite answer to whether the system is 32 or 64 bit.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">permission java.util.PropertyPermission "os.arch", "read"</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.util.PropertyPermission "os.arch", "read"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.util.PropertyPermission "os.arch", "read"</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Used by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to determine if the system is 32 or 64 bit, if the system property <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>sun.arch.data.model<ept id="2">&lt;/i&gt;</ept> isn't set by the JVM. <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> has to recognize the value of <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>os.arch<ept id="4">&lt;/i&gt;</ept> to determine if the system is 32 or 64 bit, and if the value isn't recognized a heuristic will be used instead.</source>
+<seg-source><mrk mid="0" mtype="seg">Used by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to determine if the system is 32 or 64 bit, if the system property <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>sun.arch.data.model<ept id="2">&lt;/i&gt;</ept> isn't set by the JVM.</mrk><mrk mid="1" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> has to recognize the value of <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>os.arch<ept id="4">&lt;/i&gt;</ept> to determine if the system is 32 or 64 bit, and if the value isn't recognized a heuristic will be used instead.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Used by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to determine if the system is 32 or 64 bit, if the system property <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>sun.arch.data.model<ept id="2">&lt;/i&gt;</ept> isn't set by the JVM.</mrk><mrk mid="1" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> has to recognize the value of <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>os.arch<ept id="4">&lt;/i&gt;</ept> to determine if the system is 32 or 64 bit, and if the value isn't recognized a heuristic will be used instead.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">permission java.io.FilePermission "${derby.system.home}${/}derby.properties", "read"</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.io.FilePermission "${derby.system.home}${/}derby.properties", "read"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.io.FilePermission "${derby.system.home}${/}derby.properties", "read"</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to read the system properties file from the system directory.</source>
+<seg-source><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to read the system properties file from the system directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to read the system properties file from the system directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">permission java.io.FilePermission "${derby.system.home}${/}derby.log", "read,write,delete"</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.io.FilePermission "${derby.system.home}${/}derby.log", "read,write,delete"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.io.FilePermission "${derby.system.home}${/}derby.log", "read,write,delete"</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">permission java.io.FilePermission "${user.dir}${/}derby.log", "read,write,delete";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.io.FilePermission "${user.dir}${/}derby.log", "read,write,delete";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.io.FilePermission "${user.dir}${/}derby.log", "read,write,delete";</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">Only one of these permissions is needed. Permits the application to read, write, and delete to the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> log file, unless the log has been re-directed. (See the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.stream.error<ept id="2">&lt;/i&gt;</ept> properties in the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for more information.) If one of the requested valid actions is denied, the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> log will be <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>java.lang.System.err<ept id="5">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Only one of these permissions is needed.</mrk><mrk mid="1" mtype="seg"> Permits the application to read, write, and delete to the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> log file, unless the log has been re-directed.</mrk><mrk mid="2" mtype="seg"> (See the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.stream.error<ept id="2">&lt;/i&gt;</ept> properties in the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for more information.) If one of the requested valid actions is denied, the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> log will be <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>java.lang.System.err<ept id="5">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only one of these permissions is needed.</mrk><mrk mid="1" mtype="seg"> Permits the application to read, write, and delete to the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> log file, unless the log has been re-directed.</mrk><mrk mid="2" mtype="seg"> (See the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.stream.error<ept id="2">&lt;/i&gt;</ept> properties in the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for more information.) If one of the requested valid actions is denied, the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> log will be <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>java.lang.System.err<ept id="5">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">permission java.security.SecurityPermission "getPolicy"</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.security.SecurityPermission "getPolicy"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.security.SecurityPermission "getPolicy"</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">You need this permission if you want to change the security policy on the fly and reload it into a running system. Given this permission, a DBA can reload the policy file by calling the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_RELOAD_SECURITY_POLICY<ept id="1">&lt;/codeph&gt;</ept> system procedure. For more information, see the section which describes this procedure in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You need this permission if you want to change the security policy on the fly and reload it into a running system.</mrk><mrk mid="1" mtype="seg"> Given this permission, a DBA can reload the policy file by calling the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_RELOAD_SECURITY_POLICY<ept id="1">&lt;/codeph&gt;</ept> system procedure.</mrk><mrk mid="2" mtype="seg"> For more information, see the section which describes this procedure in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You need this permission if you want to change the security policy on the fly and reload it into a running system.</mrk><mrk mid="1" mtype="seg"> Given this permission, a DBA can reload the policy file by calling the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_RELOAD_SECURITY_POLICY<ept id="1">&lt;/codeph&gt;</ept> system procedure.</mrk><mrk mid="2" mtype="seg"> For more information, see the section which describes this procedure in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">permission java.lang.RuntimePermission "setContextClassLoader"</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission "setContextClassLoader"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission "setContextClassLoader"</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to set the context class loader for long running threads to null to avoid potential for class loader leaks in application server environments when the application server starts <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> in a custom class loader.</source>
+<seg-source><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to set the context class loader for long running threads to null to avoid potential for class loader leaks in application server environments when the application server starts <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> in a custom class loader.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to set the context class loader for long running threads to null to avoid potential for class loader leaks in application server environments when the application server starts <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> in a custom class loader.</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">permission java.lang.RuntimePermission "getClassLoader"</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission "getClassLoader"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission "getClassLoader"</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">This permission is also needed when setting the context class loader to avoid class loader leaks. The class loader for the parent is saved and set to null before creation of the thread and restored afterwards.</source>
+<seg-source><mrk mid="0" mtype="seg">This permission is also needed when setting the context class loader to avoid class loader leaks.</mrk><mrk mid="1" mtype="seg"> The class loader for the parent is saved and set to null before creation of the thread and restored afterwards.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This permission is also needed when setting the context class loader to avoid class loader leaks.</mrk><mrk mid="1" mtype="seg"> The class loader for the parent is saved and set to null before creation of the thread and restored afterwards.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">permission java.lang.RuntimePermission "getStackTrace";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission "getStackTrace";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission "getStackTrace";</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">permission java.lang.RuntimePermission "modifyThreadGroup";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission "modifyThreadGroup";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission "modifyThreadGroup";</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">These two permissions are needed to allow extended diagnostics, specifically the stack traces of all threads, to be dumped to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.log<ept id="1">&lt;/i&gt;</ept> on severe errors and when the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.stream.error.extendedDiagSeverityLevel<ept id="2">&lt;/i&gt;</ept> property is set. See the documentation of this property in the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg">These two permissions are needed to allow extended diagnostics, specifically the stack traces of all threads, to be dumped to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.log<ept id="1">&lt;/i&gt;</ept> on severe errors and when the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.stream.error.extendedDiagSeverityLevel<ept id="2">&lt;/i&gt;</ept> property is set.</mrk><mrk mid="1" mtype="seg"> See the documentation of this property in the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">These two permissions are needed to allow extended diagnostics, specifically the stack traces of all threads, to be dumped to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.log<ept id="1">&lt;/i&gt;</ept> on severe errors and when the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.stream.error.extendedDiagSeverityLevel<ept id="2">&lt;/i&gt;</ept> property is set.</mrk><mrk mid="1" mtype="seg"> See the documentation of this property in the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for details.</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">permission java.lang.RuntimePermission "accessUserInformation";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission "accessUserInformation";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission "accessUserInformation";</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">permission java.lang.RuntimePermission "getFileStoreAttributes";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission "getFileStoreAttributes";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission "getFileStoreAttributes";</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">These two permissions are needed when you are running with JDK 7 or higher and when the secure file mask settings are active (that is, when <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.storage.useDefaultFilePermissions<ept id="1">&lt;/i&gt;</ept> is set to false, or when the server has been started from the command line (in which case secure file mask settings are active by default).</source>
+<seg-source><mrk mid="0" mtype="seg">These two permissions are needed when you are running with JDK 7 or higher and when the secure file mask settings are active (that is, when <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.storage.useDefaultFilePermissions<ept id="1">&lt;/i&gt;</ept> is set to false, or when the server has been started from the command line (in which case secure file mask settings are active by default).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">These two permissions are needed when you are running with JDK 7 or higher and when the secure file mask settings are active (that is, when <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.storage.useDefaultFilePermissions<ept id="1">&lt;/i&gt;</ept> is set to false, or when the server has been started from the command line (in which case secure file mask settings are active by default).</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">permission java.lang.RuntimePermission "getProtectionDomain";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission "getProtectionDomain";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.lang.RuntimePermission "getProtectionDomain";</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">This permission is needed if you want classpath information to be printed to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.log<ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This permission is needed if you want classpath information to be printed to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.log<ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This permission is needed if you want classpath information to be printed to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.log<ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">permission javax.management.MBeanServerPermission "createMBeanServer";</source>
+<seg-source><mrk mid="0" mtype="seg">permission javax.management.MBeanServerPermission "createMBeanServer";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission javax.management.MBeanServerPermission "createMBeanServer";</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to create an MBean server. If the JVM running <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> supports the platform MBean server, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> will automatically try to create such a server if it does not already exist. For details, see "Using Java Management Extensions (JMX) technology" in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to create an MBean server.</mrk><mrk mid="1" mtype="seg"> If the JVM running <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> supports the platform MBean server, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> will automatically try to create such a server if it does not already exist.</mrk><mrk mid="2" mtype="seg"> For details, see "Using Java Management Extensions (JMX) technology" in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to create an MBean server.</mrk><mrk mid="1" mtype="seg"> If the JVM running <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> supports the platform MBean server, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> will automatically try to create such a server if it does not already exist.</mrk><mrk mid="2" mtype="seg"> For details, see "Using Java Management Extensions (JMX) technology" in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">permission javax.management.MBeanPermission "org.apache.derby.*#[org.apache.derby:*]","registerMBean,unregisterMBean";</source>
+<seg-source><mrk mid="0" mtype="seg">permission javax.management.MBeanPermission "org.apache.derby.*#[org.apache.derby:*]","registerMBean,unregisterMBean";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission javax.management.MBeanPermission "org.apache.derby.*#[org.apache.derby:*]","registerMBean,unregisterMBean";</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to register and unregister its (JMX) MBeans. Such MBeans are associated with the domain <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby<ept id="2">&lt;/codeph&gt;</ept>, which is also the prefix of the fully qualified class name of all <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> MBeans. For more information about the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> MBeans, refer to the public API (Javadoc) documentation of the package <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.mbeans<ept id="5">&lt;/codeph&gt;</ept> and its subpackages. It is possible to fine-tune this permission, for example in order to allow access only to certain MBeans. To fine-tune this permission, see the API documentation for <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.management.MBeanPermission<ept id="6">&lt;/codeph&gt;</ept> or the JMX Instrumentation and Agent Specification.</source>
+<seg-source><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to register and unregister its (JMX) MBeans.</mrk><mrk mid="1" mtype="seg"> Such MBeans are associated with the domain <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby<ept id="2">&lt;/codeph&gt;</ept>, which is also the prefix of the fully qualified class name of all <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> MBeans.</mrk><mrk mid="2" mtype="seg"> For more information about the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> MBeans, refer to the public API (Javadoc) documentation of the package <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.mbeans<ept id="5">&lt;/codeph&gt;</ept> and its subpackages.</mrk><mrk mid="3" mtype="seg"> It is possible to fine-tune this permission, for example in order to allow access only to certain MBeans.</mrk><mrk mid="4" mtype="seg"> To fine-tune this permission, see the API documentation for <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.management.MBeanPermission<ept id="6">&lt;/codeph&gt;</ept> or the JMX Instrumentation and Agent Specification.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to register and unregister its (JMX) MBeans.</mrk><mrk mid="1" mtype="seg"> Such MBeans are associated with the domain <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby<ept id="2">&lt;/codeph&gt;</ept>, which is also the prefix of the fully qualified class name of all <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> MBeans.</mrk><mrk mid="2" mtype="seg"> For more information about the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> MBeans, refer to the public API (Javadoc) documentation of the package <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.mbeans<ept id="5">&lt;/codeph&gt;</ept> and its subpackages.</mrk><mrk mid="3" mtype="seg"> It is possible to fine-tune this permission, for example in order to allow access only to certain MBeans.</mrk><mrk mid="4" mtype="seg"> To fine-tune this permission, see the API documentation for <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>javax.management.MBeanPermission<ept id="6">&lt;/codeph&gt;</ept> or the JMX Instrumentation and Agent Specification.</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">permission javax.management.MBeanTrustPermission "register";</source>
+<seg-source><mrk mid="0" mtype="seg">permission javax.management.MBeanTrustPermission "register";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission javax.management.MBeanTrustPermission "register";</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">Trusts <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> code to be the source of MBeans and to register these in the MBean server.</source>
+<seg-source><mrk mid="0" mtype="seg">Trusts <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> code to be the source of MBeans and to register these in the MBean server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Trusts <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> code to be the source of MBeans and to register these in the MBean server.</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">permission java.net.SocketPermission "localhost:389", "connect,resolve";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.net.SocketPermission "localhost:389", "connect,resolve";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.net.SocketPermission "localhost:389", "connect,resolve";</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> code to contact the LDAP server to perform authentication. This permission must be granted to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="2">&lt;/codeph&gt;</ept>. Port 389 is the default LDAP port.</source>
+<seg-source><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> code to contact the LDAP server to perform authentication.</mrk><mrk mid="1" mtype="seg"> This permission must be granted to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> Port 389 is the default LDAP port.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> code to contact the LDAP server to perform authentication.</mrk><mrk mid="1" mtype="seg"> This permission must be granted to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> Port 389 is the default LDAP port.</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">permission java.sql.SQLPermission "callAbort";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.sql.SQLPermission "callAbort";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.sql.SQLPermission "callAbort";</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> code to call the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>java.sql.Connection.abort<ept id="2">&lt;/codeph&gt;</ept> method. This permission must be granted both to the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> JDBC driver (by granting it to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="4">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyclient.jar<ept id="5">&lt;/codeph&gt;</ept>) and to the application code that calls <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>Connection.abort()<ept id="6">&lt;/codeph&gt;</ept>. Do not grant this permission to application code unless you are certain that only superusers can invoke the code.</source>
+<seg-source><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> code to call the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>java.sql.Connection.abort<ept id="2">&lt;/codeph&gt;</ept> method.</mrk><mrk mid="1" mtype="seg"> This permission must be granted both to the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> JDBC driver (by granting it to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="4">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyclient.jar<ept id="5">&lt;/codeph&gt;</ept>) and to the application code that calls <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>Connection.abort()<ept id="6">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> Do not grant this permission to application code unless you are certain that only superusers can invoke the code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> code to call the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>java.sql.Connection.abort<ept id="2">&lt;/codeph&gt;</ept> method.</mrk><mrk mid="1" mtype="seg"> This permission must be granted both to the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> JDBC driver (by granting it to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="4">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyclient.jar<ept id="5">&lt;/codeph&gt;</ept>) and to the application code that calls <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>Connection.abort()<ept id="6">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> Do not grant this permission to application code unless you are certain that only superusers can invoke the code.</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">permission java.sql.SQLPermission "deregisterDriver";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.sql.SQLPermission "deregisterDriver";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.sql.SQLPermission "deregisterDriver";</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to deregister the driver. This permission is needed for system shutdown only on the Java SE 8 platform and higher, if system shutdown is invoked without the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>deregister=false<ept id="2">&lt;/i&gt;</ept> connection URL attribute (see the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for details).</source>
+<seg-source><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to deregister the driver.</mrk><mrk mid="1" mtype="seg"> This permission is needed for system shutdown only on the Java SE 8 platform and higher, if system shutdown is invoked without the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>deregister=false<ept id="2">&lt;/i&gt;</ept> connection URL attribute (see the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for details).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Allows <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to deregister the driver.</mrk><mrk mid="1" mtype="seg"> This permission is needed for system shutdown only on the Java SE 8 platform and higher, if system shutdown is invoked without the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>deregister=false<ept id="2">&lt;/i&gt;</ept> connection URL attribute (see the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for details).</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">Combining permissions</source>
+<seg-source><mrk mid="0" mtype="seg">Combining permissions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Combining permissions</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">You might grant one <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>FilePermission<ept id="1">&lt;/i&gt;</ept> that encompasses several or all of the permissions instead of separately granting a number of the more specific permissions. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">You might grant one <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>FilePermission<ept id="1">&lt;/i&gt;</ept> that encompasses several or all of the permissions instead of separately granting a number of the more specific permissions.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You might grant one <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>FilePermission<ept id="1">&lt;/i&gt;</ept> that encompasses several or all of the permissions instead of separately granting a number of the more specific permissions.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">permission java.io.FilePermission "${derby.system.home}/-", "read,write,delete";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.io.FilePermission "${derby.system.home}/-", "read,write,delete";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.io.FilePermission "${derby.system.home}/-", "read,write,delete";</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">This allows the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine complete access to the system directory and any databases contained in the system directory.</source>
+<seg-source><mrk mid="0" mtype="seg">This allows the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine complete access to the system directory and any databases contained in the system directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This allows the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine complete access to the system directory and any databases contained in the system directory.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminovnssample.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">The NsSample sample program</source>
+<seg-source><mrk mid="0" mtype="seg">The NsSample sample program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The NsSample sample program</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> demonstration program is a simple JDBC application that interacts with the Network Server.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> demonstration program is a simple JDBC application that interacts with the Network Server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> demonstration program is a simple JDBC application that interacts with the Network Server.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">NsSample sample program</source>
+<seg-source><mrk mid="0" mtype="seg">NsSample sample program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NsSample sample program</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> program performs the following tasks:</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> program performs the following tasks:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> program performs the following tasks:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Starts the Network Server.</source>
+<seg-source><mrk mid="0" mtype="seg">Starts the Network Server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Starts the Network Server.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Checks that the Network Server is running.</source>
+<seg-source><mrk mid="0" mtype="seg">Checks that the Network Server is running.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Checks that the Network Server is running.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Loads the Network Client driver. (Note that this step is not necessary if you are running the client on JDK 1.6 or higher. In that environment, the network client driver loads automatically.)</source>
+<seg-source><mrk mid="0" mtype="seg">Loads the Network Client driver.</mrk><mrk mid="1" mtype="seg"> (Note that this step is not necessary if you are running the client on JDK 1.6 or higher.</mrk><mrk mid="2" mtype="seg"> In that environment, the network client driver loads automatically.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loads the Network Client driver.</mrk><mrk mid="1" mtype="seg"> (Note that this step is not necessary if you are running the client on JDK 1.6 or higher.</mrk><mrk mid="2" mtype="seg"> In that environment, the network client driver loads automatically.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Creates the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampledb<ept id="1">&lt;/codeph&gt;</ept> database if it has not already been created.</source>
+<seg-source><mrk mid="0" mtype="seg">Creates the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampledb<ept id="1">&lt;/codeph&gt;</ept> database if it has not already been created.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampledb<ept id="1">&lt;/codeph&gt;</ept> database if it has not already been created.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Checks to see if the schema is already created, and if not, creates the schema, which includes the SAMPLETBL table and corresponding indexes.</source>
+<seg-source><mrk mid="0" mtype="seg">Checks to see if the schema is already created, and if not, creates the schema, which includes the SAMPLETBL table and corresponding indexes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Checks to see if the schema is already created, and if not, creates the schema, which includes the SAMPLETBL table and corresponding indexes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Connects to the database.</source>
+<seg-source><mrk mid="0" mtype="seg">Connects to the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connects to the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Loads the schema by inserting data.</source>
+<seg-source><mrk mid="0" mtype="seg">Loads the schema by inserting data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loads the schema by inserting data.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Starts client threads to perform database related operations.</source>
+<seg-source><mrk mid="0" mtype="seg">Starts client threads to perform database related operations.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Starts client threads to perform database related operations.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Has each of the clients perform DML operations (select, insert, delete, update) using JDBC calls. For example, one client thread establishes an embedded connection to perform database operations, while another client thread establishes a client connection to the Network Server to perform database operations.</source>
+<seg-source><mrk mid="0" mtype="seg">Has each of the clients perform DML operations (select, insert, delete, update) using JDBC calls.</mrk><mrk mid="1" mtype="seg"> For example, one client thread establishes an embedded connection to perform database operations, while another client thread establishes a client connection to the Network Server to perform database operations.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Has each of the clients perform DML operations (select, insert, delete, update) using JDBC calls.</mrk><mrk mid="1" mtype="seg"> For example, one client thread establishes an embedded connection to perform database operations, while another client thread establishes a client connection to the Network Server to perform database operations.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Waits for the client threads to finish the tasks.</source>
+<seg-source><mrk mid="0" mtype="seg">Waits for the client threads to finish the tasks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Waits for the client threads to finish the tasks.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Shuts down the Network Server at the end of the demonstration.</source>
+<seg-source><mrk mid="0" mtype="seg">Shuts down the Network Server at the end of the demonstration.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shuts down the Network Server at the end of the demonstration.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">You must install the following files in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>%<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>%\demo\nserverdemo\<ept id="1">&lt;/codeph&gt;</ept> directory before you can run the sample program:</source>
+<seg-source><mrk mid="0" mtype="seg">You must install the following files in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>%<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>%\demo\nserverdemo\<ept id="1">&lt;/codeph&gt;</ept> directory before you can run the sample program:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You must install the following files in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>%<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>%\demo\nserverdemo\<ept id="1">&lt;/codeph&gt;</ept> directory before you can run the sample program:</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample.java<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample.java<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample.java<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">This is the entry point into the sample program. The program starts up two client threads. The first client establishes an embedded connection to perform database operations, and the second client establishes a client connection to the Network Server to perform database operations.</source>
+<seg-source><mrk mid="0" mtype="seg">This is the entry point into the sample program.</mrk><mrk mid="1" mtype="seg"> The program starts up two client threads.</mrk><mrk mid="2" mtype="seg"> The first client establishes an embedded connection to perform database operations, and the second client establishes a client connection to the Network Server to perform database operations.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is the entry point into the sample program.</mrk><mrk mid="1" mtype="seg"> The program starts up two client threads.</mrk><mrk mid="2" mtype="seg"> The first client establishes an embedded connection to perform database operations, and the second client establishes a client connection to the Network Server to perform database operations.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">You can change the following constants to modify the sample program:</source>
+<seg-source><mrk mid="0" mtype="seg">You can change the following constants to modify the sample program:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can change the following constants to modify the sample program:</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">NUM_ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">NUM_ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NUM_ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">The number of rows that must be initially loaded into the schema.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of rows that must be initially loaded into the schema.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of rows that must be initially loaded into the schema.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">ITERATIONS</source>
+<seg-source><mrk mid="0" mtype="seg">ITERATIONS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ITERATIONS</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">The number of iterations for which each client thread does database related work.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of iterations for which each client thread does database related work.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of iterations for which each client thread does database related work.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">NUM_CLIENT_THREADS</source>
+<seg-source><mrk mid="0" mtype="seg">NUM_CLIENT_THREADS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NUM_CLIENT_THREADS</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">The number of clients that you want to run the program against.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of clients that you want to run the program against.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of clients that you want to run the program against.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">NETWORKSERVER_PORT</source>
+<seg-source><mrk mid="0" mtype="seg">NETWORKSERVER_PORT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NETWORKSERVER_PORT</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">The port on which the Network Server is running.</source>
+<seg-source><mrk mid="0" mtype="seg">The port on which the Network Server is running.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The port on which the Network Server is running.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleClientThread.java<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleClientThread.java<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleClientThread.java<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">This file contains two Java classes:</source>
+<seg-source><mrk mid="0" mtype="seg">This file contains two Java classes:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This file contains two Java classes:</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleClientThread<ept id="1">&lt;/codeph&gt;</ept> class extends <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>Thread<ept id="2">&lt;/codeph&gt;</ept> and instantiates a <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleWork<ept id="3">&lt;/codeph&gt;</ept> instance.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleClientThread<ept id="1">&lt;/codeph&gt;</ept> class extends <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>Thread<ept id="2">&lt;/codeph&gt;</ept> and instantiates a <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleWork<ept id="3">&lt;/codeph&gt;</ept> instance.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleClientThread<ept id="1">&lt;/codeph&gt;</ept> class extends <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>Thread<ept id="2">&lt;/codeph&gt;</ept> and instantiates a <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleWork<ept id="3">&lt;/codeph&gt;</ept> instance.</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleWork<ept id="1">&lt;/codeph&gt;</ept> class contains everything that is required to perform DML operations using JDBC calls. The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>doWork<ept id="2">&lt;/codeph&gt;</ept> method in the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleWork<ept id="3">&lt;/codeph&gt;</ept> class represents all the work done as part of this sample program.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleWork<ept id="1">&lt;/codeph&gt;</ept> class contains everything that is required to perform DML operations using JDBC calls.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>doWork<ept id="2">&lt;/codeph&gt;</ept> method in the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleWork<ept id="3">&lt;/codeph&gt;</ept> class represents all the work done as part of this sample program.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleWork<ept id="1">&lt;/codeph&gt;</ept> class contains everything that is required to perform DML operations using JDBC calls.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>doWork<ept id="2">&lt;/codeph&gt;</ept> method in the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleWork<ept id="3">&lt;/codeph&gt;</ept> class represents all the work done as part of this sample program.</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerUtil.java<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerUtil.java<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerUtil.java<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">This file contains helper methods to start the Network Server and to shut down the server.</source>
+<seg-source><mrk mid="0" mtype="seg">This file contains helper methods to start the Network Server and to shut down the server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This file contains helper methods to start the Network Server and to shut down the server.</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">The compiled class files for the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> program are:</source>
+<seg-source><mrk mid="0" mtype="seg">The compiled class files for the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> program are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The compiled class files for the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> program are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample.class<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample.class<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample.class<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleClientThread.class<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleClientThread.class<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleClientThread.class<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleWork.class<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleWork.class<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSampleWork.class<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerUtil.class<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerUtil.class<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerUtil.class<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

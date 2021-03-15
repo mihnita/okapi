@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="simple.properties" source-language="en" target-language="fr" datatype="x-text/x-properties" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" resname="website" xml:space="preserve">
+<source xml:lang="en">http://en.wikipedia.org/</source>
+<seg-source><mrk mid="0" mtype="seg">http://en.wikipedia.org/</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://en.wikipedia.org/</mrk></target>
+<note> You are reading the ".properties" entry.
+ The exclamation mark can also mark text as comments.</note>
+</trans-unit>
+<trans-unit id="2" resname="language" xml:space="preserve">
+<source xml:lang="en">English </source>
+<seg-source><mrk mid="0" mtype="seg">English</mrk> </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">English</mrk> </target>
+</trans-unit>
+<trans-unit id="3" resname="message" xml:space="preserve">
+<source xml:lang="en">Welcome to Wikipedia!</source>
+<seg-source><mrk mid="0" mtype="seg">Welcome to Wikipedia!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Welcome to Wikipedia!</mrk></target>
+<note> The backslash below tells the application to continue reading
+ the value onto the next line.</note>
+</trans-unit>
+<trans-unit id="4" resname="key\ with\ spaces" xml:space="preserve">
+<source xml:lang="en">This is the value that could be looked up with the key "The quick fox jumps over the lazy dog".</source>
+<seg-source><mrk mid="0" mtype="seg">This is the value that could be looked up with the key "The quick fox jumps over the lazy dog".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is the value that could be looked up with the key "The quick fox jumps over the lazy dog".</mrk></target>
+<note> Add spaces to the key</note>
+</trans-unit>
+<trans-unit id="5" resname="tab" xml:space="preserve">
+<source xml:lang="en">	</source>
+<target xml:lang="fr">	</target>
+<note> Unicode</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

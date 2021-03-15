@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefattribderegister.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">deregister=false attribute</source>
+<seg-source><mrk mid="0" mtype="seg">deregister=false attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">deregister=false attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">deregister=false database connection URL attribute</source>
+<seg-source><mrk mid="0" mtype="seg">deregister=false database connection URL attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">deregister=false database connection URL attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">embedded driver</source>
+<seg-source><mrk mid="0" mtype="seg">embedded driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">embedded driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">deregistering</source>
+<seg-source><mrk mid="0" mtype="seg">deregistering</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">deregistering</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">driver</source>
+<seg-source><mrk mid="0" mtype="seg">driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">deregistering embedded</source>
+<seg-source><mrk mid="0" mtype="seg">deregistering embedded</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">deregistering embedded</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">attributes</source>
+<seg-source><mrk mid="0" mtype="seg">attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">deregister</source>
+<seg-source><mrk mid="0" mtype="seg">deregister</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">deregister</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If set to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>true<ept id="1">&lt;/i&gt;</ept> (the default), deregisters the embedded JDBC driver from the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>DriverManager<ept id="2">&lt;/i&gt;</ept> after a shutdown, so that the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> classes can be garbage-collected.</source>
+<seg-source><mrk mid="0" mtype="seg">If set to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>true<ept id="1">&lt;/i&gt;</ept> (the default), deregisters the embedded JDBC driver from the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>DriverManager<ept id="2">&lt;/i&gt;</ept> after a shutdown, so that the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> classes can be garbage-collected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If set to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>true<ept id="1">&lt;/i&gt;</ept> (the default), deregisters the embedded JDBC driver from the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>DriverManager<ept id="2">&lt;/i&gt;</ept> after a shutdown, so that the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> classes can be garbage-collected.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">If you are running with a security manager on JDK 8 or higher, you must grant the following permission to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.jar<ept id="1">&lt;/i&gt;</ept> to allow the JDBC driver to be deregistered:</source>
+<seg-source><mrk mid="0" mtype="seg">If you are running with a security manager on JDK 8 or higher, you must grant the following permission to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.jar<ept id="1">&lt;/i&gt;</ept> to allow the JDBC driver to be deregistered:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you are running with a security manager on JDK 8 or higher, you must grant the following permission to <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.jar<ept id="1">&lt;/i&gt;</ept> to allow the JDBC driver to be deregistered:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">permission java.sql.SQLPermission "deregisterDriver";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.sql.SQLPermission "deregisterDriver";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.sql.SQLPermission "deregisterDriver";</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">See "Granting permissions to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details. If you do not grant this permission when using a security manager, an error message and stack trace will appear in <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.log<ept id="3">&lt;/i&gt;</ept> on shutdown, and the embedded JDBC driver will remain registered.</source>
+<seg-source><mrk mid="0" mtype="seg">See "Granting permissions to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</mrk><mrk mid="1" mtype="seg"> If you do not grant this permission when using a security manager, an error message and stack trace will appear in <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.log<ept id="3">&lt;/i&gt;</ept> on shutdown, and the embedded JDBC driver will remain registered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See "Granting permissions to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</mrk><mrk mid="1" mtype="seg"> If you do not grant this permission when using a security manager, an error message and stack trace will appear in <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.log<ept id="3">&lt;/i&gt;</ept> on shutdown, and the embedded JDBC driver will remain registered.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">If you are running with a security manager on JDK 7 or earlier, you do not need to set this permission.</source>
+<seg-source><mrk mid="0" mtype="seg">If you are running with a security manager on JDK 7 or earlier, you do not need to set this permission.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you are running with a security manager on JDK 7 or earlier, you do not need to set this permission.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">You initially register the embedded driver by doing one of the following:</source>
+<seg-source><mrk mid="0" mtype="seg">You initially register the embedded driver by doing one of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You initially register the embedded driver by doing one of the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Call the method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Class.forName("org.apache.derby.jdbc.EmbeddedDriver").newInstance()<ept id="1">&lt;/i&gt;</ept>. This mechanism works on all supported Java Virtual Machines (JVMs) (that is, JDK 5 and up).</source>
+<seg-source><mrk mid="0" mtype="seg">Call the method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Class.forName("org.apache.derby.jdbc.EmbeddedDriver").newInstance()<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This mechanism works on all supported Java Virtual Machines (JVMs) (that is, JDK 5 and up).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Call the method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Class.forName("org.apache.derby.jdbc.EmbeddedDriver").newInstance()<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This mechanism works on all supported Java Virtual Machines (JVMs) (that is, JDK 5 and up).</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Set <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>-Djdbc.drivers=org.apache.derby.jdbc.EmbeddedDriver<ept id="1">&lt;/i&gt;</ept> when you boot the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> engine's VM, then call <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefjdbc34565.dita#rrefjdbc34565"&gt;</bpt>DriverManager.getConnection()<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept>. This mechanism also works on all supported JVMs.</source>
+<seg-source><mrk mid="0" mtype="seg">Set <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>-Djdbc.drivers=org.apache.derby.jdbc.EmbeddedDriver<ept id="1">&lt;/i&gt;</ept> when you boot the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> engine's VM, then call <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefjdbc34565.dita#rrefjdbc34565"&gt;</bpt>DriverManager.getConnection()<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This mechanism also works on all supported JVMs.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>-Djdbc.drivers=org.apache.derby.jdbc.EmbeddedDriver<ept id="1">&lt;/i&gt;</ept> when you boot the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> engine's VM, then call <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefjdbc34565.dita#rrefjdbc34565"&gt;</bpt>DriverManager.getConnection()<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This mechanism also works on all supported JVMs.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Simply call <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection()<ept id="1">&lt;/i&gt;</ept>. This mechanism works only on JDK 6 and up.</source>
+<seg-source><mrk mid="0" mtype="seg">Simply call <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection()<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This mechanism works only on JDK 6 and up.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simply call <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection()<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This mechanism works only on JDK 6 and up.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Once the embedded driver is registered, you can shut down the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine by using the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefattrib16471.dita#rrefattrib16471"&gt;</bpt>shutdown=true<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> connection URL attribute. If you also specify <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>deregister=false<ept id="4">&lt;/i&gt;</ept> with the shutdown URL, the following will happen:</source>
+<seg-source><mrk mid="0" mtype="seg">Once the embedded driver is registered, you can shut down the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine by using the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefattrib16471.dita#rrefattrib16471"&gt;</bpt>shutdown=true<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> connection URL attribute.</mrk><mrk mid="1" mtype="seg"> If you also specify <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>deregister=false<ept id="4">&lt;/i&gt;</ept> with the shutdown URL, the following will happen:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Once the embedded driver is registered, you can shut down the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine by using the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefattrib16471.dita#rrefattrib16471"&gt;</bpt>shutdown=true<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> connection URL attribute.</mrk><mrk mid="1" mtype="seg"> If you also specify <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>deregister=false<ept id="4">&lt;/i&gt;</ept> with the shutdown URL, the following will happen:</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">The embedded driver will remain registered.</source>
+<seg-source><mrk mid="0" mtype="seg">The embedded driver will remain registered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The embedded driver will remain registered.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> classes will <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>not<ept id="2">&lt;/b&gt;</ept> be garbage-collected.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> classes will <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>not<ept id="2">&lt;/b&gt;</ept> be garbage-collected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> classes will <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>not<ept id="2">&lt;/b&gt;</ept> be garbage-collected.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">You can get a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> connection just by issuing a call to <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection()<ept id="2">&lt;/i&gt;</ept>. That is, you <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>do not<ept id="3">&lt;/b&gt;</ept> need to first call <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Class.forName("org.apache.derby.jdbc.EmbeddedDriver").newInstance()<ept id="4">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You can get a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> connection just by issuing a call to <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection()<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> That is, you <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>do not<ept id="3">&lt;/b&gt;</ept> need to first call <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Class.forName("org.apache.derby.jdbc.EmbeddedDriver").newInstance()<ept id="4">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can get a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> connection just by issuing a call to <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection()<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> That is, you <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>do not<ept id="3">&lt;/b&gt;</ept> need to first call <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Class.forName("org.apache.derby.jdbc.EmbeddedDriver").newInstance()<ept id="4">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">In contrast, if you use the default setting of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>deregister=true<ept id="1">&lt;/i&gt;</ept> when you shut down the database, the following will happen:</source>
+<seg-source><mrk mid="0" mtype="seg">In contrast, if you use the default setting of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>deregister=true<ept id="1">&lt;/i&gt;</ept> when you shut down the database, the following will happen:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In contrast, if you use the default setting of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>deregister=true<ept id="1">&lt;/i&gt;</ept> when you shut down the database, the following will happen:</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">The embedded driver will be deregistered.</source>
+<seg-source><mrk mid="0" mtype="seg">The embedded driver will be deregistered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The embedded driver will be deregistered.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> classes will be garbage-collected.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> classes will be garbage-collected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> classes will be garbage-collected.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">You will have to call <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Class.forName("org.apache.derby.jdbc.EmbeddedDriver").newInstance()<ept id="1">&lt;/i&gt;</ept> before you obtain a new <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> connection.</source>
+<seg-source><mrk mid="0" mtype="seg">You will have to call <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Class.forName("org.apache.derby.jdbc.EmbeddedDriver").newInstance()<ept id="1">&lt;/i&gt;</ept> before you obtain a new <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> connection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You will have to call <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Class.forName("org.apache.derby.jdbc.EmbeddedDriver").newInstance()<ept id="1">&lt;/i&gt;</ept> before you obtain a new <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> connection.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">This attribute has no meaning if it is used with the network driver.</source>
+<seg-source><mrk mid="0" mtype="seg">This attribute has no meaning if it is used with the network driver.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This attribute has no meaning if it is used with the network driver.</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Combining with other attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Combining with other attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Combining with other attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">This attribute is valid only when issued in conjunction with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>shutdown=true<ept id="1">&lt;/i&gt;</ept> attribute.</source>
+<seg-source><mrk mid="0" mtype="seg">This attribute is valid only when issued in conjunction with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>shutdown=true<ept id="1">&lt;/i&gt;</ept> attribute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This attribute is valid only when issued in conjunction with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>shutdown=true<ept id="1">&lt;/i&gt;</ept> attribute.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- shut down salesDB and deregister the driver jdbc:derby:salesDB;shutdown=true -- shut down salesDB, but do not deregister the driver jdbc:derby:salesDB;shutdown=true;deregister=false <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- shut down salesDB and deregister the driver jdbc:derby:salesDB;shutdown=true -- shut down salesDB, but do not deregister the driver jdbc:derby:salesDB;shutdown=true;deregister=false <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- shut down salesDB and deregister the driver jdbc:derby:salesDB;shutdown=true -- shut down salesDB, but do not deregister the driver jdbc:derby:salesDB;shutdown=true;deregister=false <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

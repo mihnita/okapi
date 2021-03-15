@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure67151.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Specifying an alternate encryption algorithm</source>
+<seg-source><mrk mid="0" mtype="seg">Specifying an alternate encryption algorithm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifying an alternate encryption algorithm</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the following encryption algorithms.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the following encryption algorithms.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the following encryption algorithms.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Encryption algorithms</source>
+<seg-source><mrk mid="0" mtype="seg">Encryption algorithms</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encryption algorithms</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">configuring</source>
+<seg-source><mrk mid="0" mtype="seg">configuring</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">DES (the default)</source>
+<seg-source><mrk mid="0" mtype="seg">DES (the default)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DES (the default)</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">DESede (also known as triple DES)</source>
+<seg-source><mrk mid="0" mtype="seg">DESede (also known as triple DES)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DESede (also known as triple DES)</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Any encryption algorithm that fulfills the following requirements:</source>
+<seg-source><mrk mid="0" mtype="seg">Any encryption algorithm that fulfills the following requirements:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Any encryption algorithm that fulfills the following requirements:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">It is symmetric</source>
+<seg-source><mrk mid="0" mtype="seg">It is symmetric</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is symmetric</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">It is a block cipher, with a block size of 8 bytes</source>
+<seg-source><mrk mid="0" mtype="seg">It is a block cipher, with a block size of 8 bytes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is a block cipher, with a block size of 8 bytes</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">It uses the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>NoPadding<ept id="1">&lt;/i&gt;</ept> padding scheme</source>
+<seg-source><mrk mid="0" mtype="seg">It uses the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>NoPadding<ept id="1">&lt;/i&gt;</ept> padding scheme</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It uses the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>NoPadding<ept id="1">&lt;/i&gt;</ept> padding scheme</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Its secret key can be represented as an arbitrary byte array</source>
+<seg-source><mrk mid="0" mtype="seg">Its secret key can be represented as an arbitrary byte array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Its secret key can be represented as an arbitrary byte array</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">It requires exactly one initialization parameter, an initialization vector of type <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>javax.crypto.spec.IvParameterSpec<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">It requires exactly one initialization parameter, an initialization vector of type <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>javax.crypto.spec.IvParameterSpec<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It requires exactly one initialization parameter, an initialization vector of type <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>javax.crypto.spec.IvParameterSpec<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">It can use <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>javax.crypto.spec.SecretKeySpec<ept id="1">&lt;/i&gt;</ept> to represent its key</source>
+<seg-source><mrk mid="0" mtype="seg">It can use <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>javax.crypto.spec.SecretKeySpec<ept id="1">&lt;/i&gt;</ept> to represent its key</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It can use <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>javax.crypto.spec.SecretKeySpec<ept id="1">&lt;/i&gt;</ept> to represent its key</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">For example, the algorithm <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Blowfish<ept id="1">&lt;/i&gt;</ept> implemented in the Java Cryptography Extension (JCE) packages (<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>javax.crypto.*<ept id="2">&lt;/i&gt;</ept>) fulfills these requirements.</source>
+<seg-source><mrk mid="0" mtype="seg">For example, the algorithm <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Blowfish<ept id="1">&lt;/i&gt;</ept> implemented in the Java Cryptography Extension (JCE) packages (<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>javax.crypto.*<ept id="2">&lt;/i&gt;</ept>) fulfills these requirements.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, the algorithm <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Blowfish<ept id="1">&lt;/i&gt;</ept> implemented in the Java Cryptography Extension (JCE) packages (<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>javax.crypto.*<ept id="2">&lt;/i&gt;</ept>) fulfills these requirements.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">By Java convention, an encryption algorithm is specified like this:</source>
+<seg-source><mrk mid="0" mtype="seg">By Java convention, an encryption algorithm is specified like this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By Java convention, an encryption algorithm is specified like this:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>algorithmName<ept id="2">&lt;/i&gt;</ept>/<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>feedbackMode<ept id="3">&lt;/i&gt;</ept>/<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>padding<ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>algorithmName<ept id="2">&lt;/i&gt;</ept>/<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>feedbackMode<ept id="3">&lt;/i&gt;</ept>/<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>padding<ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>algorithmName<ept id="2">&lt;/i&gt;</ept>/<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>feedbackMode<ept id="3">&lt;/i&gt;</ept>/<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>padding<ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">The only feedback modes allowed are:</source>
+<seg-source><mrk mid="0" mtype="seg">The only feedback modes allowed are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The only feedback modes allowed are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">CBC</source>
+<seg-source><mrk mid="0" mtype="seg">CBC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CBC</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">CFB</source>
+<seg-source><mrk mid="0" mtype="seg">CFB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CFB</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">ECB</source>
+<seg-source><mrk mid="0" mtype="seg">ECB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ECB</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">OFB</source>
+<seg-source><mrk mid="0" mtype="seg">OFB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OFB</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">The only padding mode allowed is <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>NoPadding<ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The only padding mode allowed is <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>NoPadding<ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The only padding mode allowed is <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>NoPadding<ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the DES algorithm of <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>DES/CBC/NoPadding<ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the DES algorithm of <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>DES/CBC/NoPadding<ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the DES algorithm of <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>DES/CBC/NoPadding<ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">To specify an alternate encryption algorithm when you create a database, use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>encryptionAlgorithm=algorithm<ept id="1">&lt;/i&gt;</ept> attribute. If the algorithm you specify is not supported by the provider you have specified, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> throws an exception.</source>
+<seg-source><mrk mid="0" mtype="seg">To specify an alternate encryption algorithm when you create a database, use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>encryptionAlgorithm=algorithm<ept id="1">&lt;/i&gt;</ept> attribute.</mrk><mrk mid="1" mtype="seg"> If the algorithm you specify is not supported by the provider you have specified, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> throws an exception.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To specify an alternate encryption algorithm when you create a database, use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>encryptionAlgorithm=algorithm<ept id="1">&lt;/i&gt;</ept> attribute.</mrk><mrk mid="1" mtype="seg"> If the algorithm you specify is not supported by the provider you have specified, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> throws an exception.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">To specify the AES encryption algorithm with a key length other than the default of 128, specify the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>encryptionKeyLength=length<ept id="1">&lt;/i&gt;</ept> attribute. For example, you might specify the following connection attributes:</source>
+<seg-source><mrk mid="0" mtype="seg">To specify the AES encryption algorithm with a key length other than the default of 128, specify the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>encryptionKeyLength=length<ept id="1">&lt;/i&gt;</ept> attribute.</mrk><mrk mid="1" mtype="seg"> For example, you might specify the following connection attributes:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To specify the AES encryption algorithm with a key length other than the default of 128, specify the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>encryptionKeyLength=length<ept id="1">&lt;/i&gt;</ept> attribute.</mrk><mrk mid="1" mtype="seg"> For example, you might specify the following connection attributes:</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">jdbc:derby:encdbcbc_192;create=true;dataEncryption=true; encryptionKeyLength=192;encryptionAlgorithm=AES/CBC/NoPadding; bootPassword=Thursday</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:encdbcbc_192;create=true;dataEncryption=true; encryptionKeyLength=192;encryptionAlgorithm=AES/CBC/NoPadding; bootPassword=Thursday</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:encdbcbc_192;create=true;dataEncryption=true; encryptionKeyLength=192;encryptionAlgorithm=AES/CBC/NoPadding; bootPassword=Thursday</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">To use the AES algorithm with a key length of 192 or 256, you must use unrestricted policy jar files for your JRE. You can obtain these files from your Java provider. They might have a name like "Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files." If you specify a non-default key length using the default policy jar files, a Java exception occurs.</source>
+<seg-source><mrk mid="0" mtype="seg">To use the AES algorithm with a key length of 192 or 256, you must use unrestricted policy jar files for your JRE.</mrk><mrk mid="1" mtype="seg"> You can obtain these files from your Java provider.</mrk><mrk mid="2" mtype="seg"> They might have a name like "Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files." If you specify a non-default key length using the default policy jar files, a Java exception occurs.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To use the AES algorithm with a key length of 192 or 256, you must use unrestricted policy jar files for your JRE.</mrk><mrk mid="1" mtype="seg"> You can obtain these files from your Java provider.</mrk><mrk mid="2" mtype="seg"> They might have a name like "Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files." If you specify a non-default key length using the default policy jar files, a Java exception occurs.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

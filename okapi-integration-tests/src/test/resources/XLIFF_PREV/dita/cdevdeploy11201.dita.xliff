@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdeploy11201.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Accessing a read-only database in a zip/jar file</source>
+<seg-source><mrk mid="0" mtype="seg">Accessing a read-only database in a zip/jar file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Accessing a read-only database in a zip/jar file</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">To access a database in a zip/jar, you specify the jar in the subsubprotocol.</source>
+<seg-source><mrk mid="0" mtype="seg">To access a database in a zip/jar, you specify the jar in the subsubprotocol.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To access a database in a zip/jar, you specify the jar in the subsubprotocol.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">read-only databases</source>
+<seg-source><mrk mid="0" mtype="seg">read-only databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">read-only databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">accessing in zip/jar files</source>
+<seg-source><mrk mid="0" mtype="seg">accessing in zip/jar files</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">accessing in zip/jar files</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">jdbc:derby:jar:(<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pathToArchive<ept id="1">&lt;/i&gt;</ept>)<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>databasePathWithinArchive<ept id="2">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:jar:(<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pathToArchive<ept id="1">&lt;/i&gt;</ept>)<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>databasePathWithinArchive<ept id="2">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:jar:(<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pathToArchive<ept id="1">&lt;/i&gt;</ept>)<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>databasePathWithinArchive<ept id="2">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pathToArchive<ept id="1">&lt;/i&gt;</ept> is the absolute path to the archive file. The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>databasePathWithinArchive<ept id="2">&lt;/i&gt;</ept> is the relative path to the database within the archive. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pathToArchive<ept id="1">&lt;/i&gt;</ept> is the absolute path to the archive file.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>databasePathWithinArchive<ept id="2">&lt;/i&gt;</ept> is the relative path to the database within the archive.</mrk><mrk mid="2" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pathToArchive<ept id="1">&lt;/i&gt;</ept> is the absolute path to the archive file.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>databasePathWithinArchive<ept id="2">&lt;/i&gt;</ept> is the relative path to the database within the archive.</mrk><mrk mid="2" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">jdbc:derby:jar:(C:/dbs.jar)products/boiledfood jdbc:derby:jar:(C:/dbs.jar)sales</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:jar:(C:/dbs.jar)products/boiledfood jdbc:derby:jar:(C:/dbs.jar)sales</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:jar:(C:/dbs.jar)products/boiledfood jdbc:derby:jar:(C:/dbs.jar)sales</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If you have trouble finding a database within an archive, check the contents of the archive using your archive tool. The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>databasePathWithinArchive<ept id="1">&lt;/i&gt;</ept> must match the one in the archive. You might find that the path in the archive has a leading slash, and thus the URL would be:</source>
+<seg-source><mrk mid="0" mtype="seg">If you have trouble finding a database within an archive, check the contents of the archive using your archive tool.</mrk><mrk mid="1" mtype="seg"> The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>databasePathWithinArchive<ept id="1">&lt;/i&gt;</ept> must match the one in the archive.</mrk><mrk mid="2" mtype="seg"> You might find that the path in the archive has a leading slash, and thus the URL would be:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you have trouble finding a database within an archive, check the contents of the archive using your archive tool.</mrk><mrk mid="1" mtype="seg"> The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>databasePathWithinArchive<ept id="1">&lt;/i&gt;</ept> must match the one in the archive.</mrk><mrk mid="2" mtype="seg"> You might find that the path in the archive has a leading slash, and thus the URL would be:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">jdbc:derby:jar:(C:/dbs.jar)/products/boiledfood</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:jar:(C:/dbs.jar)/products/boiledfood</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:jar:(C:/dbs.jar)/products/boiledfood</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Databases in a jar or zip file are always opened read-only and there is currently no support to allow updates of any type.</source>
+<seg-source><mrk mid="0" mtype="seg">Databases in a jar or zip file are always opened read-only and there is currently no support to allow updates of any type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Databases in a jar or zip file are always opened read-only and there is currently no support to allow updates of any type.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

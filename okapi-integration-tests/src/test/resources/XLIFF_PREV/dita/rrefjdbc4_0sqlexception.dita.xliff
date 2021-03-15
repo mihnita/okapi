@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbc4_0sqlexception.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Refined subclasses of SQLException</source>
+<seg-source><mrk mid="0" mtype="seg">Refined subclasses of SQLException</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Refined subclasses of SQLException</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">SQLException</source>
+<seg-source><mrk mid="0" mtype="seg">SQLException</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLException</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">If your application runs on JDK 1.6 or higher, exceptions raised by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> will generally be one of the refined subclasses of SQLException, introduced by JDBC 4.0. These refined exceptions are raised under the conditions described by their respective javadoc.</source>
+<seg-source><mrk mid="0" mtype="seg">If your application runs on JDK 1.6 or higher, exceptions raised by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> will generally be one of the refined subclasses of SQLException, introduced by JDBC 4.0.</mrk><mrk mid="1" mtype="seg"> These refined exceptions are raised under the conditions described by their respective javadoc.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If your application runs on JDK 1.6 or higher, exceptions raised by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> will generally be one of the refined subclasses of SQLException, introduced by JDBC 4.0.</mrk><mrk mid="1" mtype="seg"> These refined exceptions are raised under the conditions described by their respective javadoc.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLClientInfoException<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLClientInfoException<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLClientInfoException<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLDataException<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLDataException<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLDataException<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLFeatureNotSupportedException<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLFeatureNotSupportedException<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLFeatureNotSupportedException<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLIntegrityConstraintViolationException<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLIntegrityConstraintViolationException<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLIntegrityConstraintViolationException<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLInvalidAuthorizationSpecException<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLInvalidAuthorizationSpecException<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLInvalidAuthorizationSpecException<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLSyntaxErrorException<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLSyntaxErrorException<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLSyntaxErrorException<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLTransactionRollbackException<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLTransactionRollbackException<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLTransactionRollbackException<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLTransientConnectionException<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLTransientConnectionException<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java.sql.SQLTransientConnectionException<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

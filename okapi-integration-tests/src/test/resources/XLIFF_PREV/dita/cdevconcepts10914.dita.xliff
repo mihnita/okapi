@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts10914.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Multi-user database access</source>
+<seg-source><mrk mid="0" mtype="seg">Multi-user database access</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multi-user database access</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Multi-user database access is possible if <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running inside a server framework.</source>
+<seg-source><mrk mid="0" mtype="seg">Multi-user database access is possible if <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running inside a server framework.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multi-user database access is possible if <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running inside a server framework.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Multi-user database access</source>
+<seg-source><mrk mid="0" mtype="seg">Multi-user database access</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multi-user database access</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">programming for</source>
+<seg-source><mrk mid="0" mtype="seg">programming for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">programming for</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">If more than one client application tries to modify the same data, the connection that gets the table first gets the lock on the data (either specific rows or the entire table). The second connection has to wait until the first connection commits or rolls back the transaction in order to access the data. If two connections are only querying and not modifying data, they can both access the same data at the same time because they can each get a shared lock.</source>
+<seg-source><mrk mid="0" mtype="seg">If more than one client application tries to modify the same data, the connection that gets the table first gets the lock on the data (either specific rows or the entire table).</mrk><mrk mid="1" mtype="seg"> The second connection has to wait until the first connection commits or rolls back the transaction in order to access the data.</mrk><mrk mid="2" mtype="seg"> If two connections are only querying and not modifying data, they can both access the same data at the same time because they can each get a shared lock.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If more than one client application tries to modify the same data, the connection that gets the table first gets the lock on the data (either specific rows or the entire table).</mrk><mrk mid="1" mtype="seg"> The second connection has to wait until the first connection commits or rolls back the transaction in order to access the data.</mrk><mrk mid="2" mtype="seg"> If two connections are only querying and not modifying data, they can both access the same data at the same time because they can each get a shared lock.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj13083.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SUM function</source>
+<seg-source><mrk mid="0" mtype="seg">SUM function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SUM function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">SUM is an aggregate function that evaluates the sum of the expression over a set of rows.</source>
+<seg-source><mrk mid="0" mtype="seg">SUM is an aggregate function that evaluates the sum of the expression over a set of rows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SUM is an aggregate function that evaluates the sum of the expression over a set of rows.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SUM aggregate function</source>
+<seg-source><mrk mid="0" mtype="seg">SUM aggregate function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SUM aggregate function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33923.dita#rrefsqlj33923"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information about these functions.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33923.dita#rrefsqlj33923"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information about these functions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33923.dita#rrefsqlj33923"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information about these functions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SUM is allowed only on expressions that evaluate to numeric data types.</source>
+<seg-source><mrk mid="0" mtype="seg">SUM is allowed only on expressions that evaluate to numeric data types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SUM is allowed only on expressions that evaluate to numeric data types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SUM ( [ DISTINCT | ALL ] <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SUM ( [ DISTINCT | ALL ] <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SUM ( [ DISTINCT | ALL ] <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The DISTINCT and ALL qualifiers eliminate or retain duplicates. ALL is assumed if neither ALL nor DISTINCT is specified. For example, if a column contains the values 1, 1, 1, 1, and 2, SUM(col) returns a greater value than SUM(DISTINCT col).</source>
+<seg-source><mrk mid="0" mtype="seg">The DISTINCT and ALL qualifiers eliminate or retain duplicates.</mrk><mrk mid="1" mtype="seg"> ALL is assumed if neither ALL nor DISTINCT is specified.</mrk><mrk mid="2" mtype="seg"> For example, if a column contains the values 1, 1, 1, 1, and 2, SUM(col) returns a greater value than SUM(DISTINCT col).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The DISTINCT and ALL qualifiers eliminate or retain duplicates.</mrk><mrk mid="1" mtype="seg"> ALL is assumed if neither ALL nor DISTINCT is specified.</mrk><mrk mid="2" mtype="seg"> For example, if a column contains the values 1, 1, 1, 1, and 2, SUM(col) returns a greater value than SUM(DISTINCT col).</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Only one DISTINCT aggregate expression per <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> is allowed. For example, the following query is not allowed:</source>
+<seg-source><mrk mid="0" mtype="seg">Only one DISTINCT aggregate expression per <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> is allowed.</mrk><mrk mid="1" mtype="seg"> For example, the following query is not allowed:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only one DISTINCT aggregate expression per <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> is allowed.</mrk><mrk mid="1" mtype="seg"> For example, the following query is not allowed:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT AVG (DISTINCT flying_time), SUM (DISTINCT miles) FROM Flights<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT AVG (DISTINCT flying_time), SUM (DISTINCT miles) FROM Flights<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT AVG (DISTINCT flying_time), SUM (DISTINCT miles) FROM Flights<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="1">&lt;/i&gt;</ept> can contain multiple column references or expressions, but it cannot contain another aggregate or subquery. It must evaluate to a built-in numeric data type. If an expression evaluates to NULL, the aggregate skips that value.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="1">&lt;/i&gt;</ept> can contain multiple column references or expressions, but it cannot contain another aggregate or subquery.</mrk><mrk mid="1" mtype="seg"> It must evaluate to a built-in numeric data type.</mrk><mrk mid="2" mtype="seg"> If an expression evaluates to NULL, the aggregate skips that value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="1">&lt;/i&gt;</ept> can contain multiple column references or expressions, but it cannot contain another aggregate or subquery.</mrk><mrk mid="1" mtype="seg"> It must evaluate to a built-in numeric data type.</mrk><mrk mid="2" mtype="seg"> If an expression evaluates to NULL, the aggregate skips that value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The resulting data type is the same as the expression on which it operates (it might overflow).</source>
+<seg-source><mrk mid="0" mtype="seg">The resulting data type is the same as the expression on which it operates (it might overflow).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The resulting data type is the same as the expression on which it operates (it might overflow).</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- find all economy seats available: SELECT SUM (economy_seats) FROM Airlines; -- use SUM on multiple column references -- (find the total number of all seats purchased): SELECT SUM (economy_seats_taken + business_seats_taken + firstclass_seats_taken) as seats_taken FROM FLIGHTAVAILABILITY; <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- find all economy seats available: SELECT SUM (economy_seats) FROM Airlines; -- use SUM on multiple column references -- (find the total number of all seats purchased): SELECT SUM (economy_seats_taken + business_seats_taken + firstclass_seats_taken) as seats_taken FROM FLIGHTAVAILABILITY; <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- find all economy seats available: SELECT SUM (economy_seats) FROM Airlines; -- use SUM on multiple column references -- (find the total number of all seats purchased): SELECT SUM (economy_seats_taken + business_seats_taken + firstclass_seats_taken) as seats_taken FROM FLIGHTAVAILABILITY; <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

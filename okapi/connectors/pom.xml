@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>net.sf.okapi</groupId>
+    <artifactId>build-okapi</artifactId>
+    <version>1.42.0-SNAPSHOT</version>
+  </parent>
+  <groupId>net.sf.okapi.connectors</groupId>
+  <artifactId>build-connectors</artifactId>
+  <packaging>pom</packaging>
+  <name>Okapi Connectors Build</name>
+  <modules>
+    <module>globalsight</module>
+    <module>mymemory</module>
+    <module>translatetoolkit</module>
+    <module>simpletm</module>
+    <module>pensieve</module>
+    <module>google</module>
+    <module>apertium</module>
+    <module>promt</module>
+    <module>crosslanguage</module>
+    <module>microsoft</module>
+    <module>tda</module>
+    <module>moses</module>
+    <module>bifile</module>
+    <module>lingo24</module>
+    <module>kantan</module>
+    <module>mmt</module>
+    <module>deepl</module>
+    <module>googleautoml</module>
+  </modules>
+</project>

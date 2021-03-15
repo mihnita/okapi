@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure864692.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">System-level properties</source>
+<seg-source><mrk mid="0" mtype="seg">System-level properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">System-level properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">When you create users with system-level properties, those users are available to all databases in the system.</source>
+<seg-source><mrk mid="0" mtype="seg">When you create users with system-level properties, those users are available to all databases in the system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you create users with system-level properties, those users are available to all databases in the system.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">You set the value of this system-wide property once for each user, so you can set it several times. To delete a user, remove that user from the file.</source>
+<seg-source><mrk mid="0" mtype="seg">You set the value of this system-wide property once for each user, so you can set it several times.</mrk><mrk mid="1" mtype="seg"> To delete a user, remove that user from the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You set the value of this system-wide property once for each user, so you can set it several times.</mrk><mrk mid="1" mtype="seg"> To delete a user, remove that user from the file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">You can define this property in the usual ways -- typically in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file. For more information about setting properties, see <bpt id="2" ctype="x-xref">&lt;xref href="cdevsetprop34818.dita#cdevsetprop34818"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You can define this property in the usual ways -- typically in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file.</mrk><mrk mid="1" mtype="seg"> For more information about setting properties, see <bpt id="2" ctype="x-xref">&lt;xref href="cdevsetprop34818.dita#cdevsetprop34818"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can define this property in the usual ways -- typically in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file.</mrk><mrk mid="1" mtype="seg"> For more information about setting properties, see <bpt id="2" ctype="x-xref">&lt;xref href="cdevsetprop34818.dita#cdevsetprop34818"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Here is a sample excerpt from the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file:</source>
+<seg-source><mrk mid="0" mtype="seg">Here is a sample excerpt from the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here is a sample excerpt from the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt># Users definition #<ept id="1">&lt;/b&gt;</ept> derby.user.sa=<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productlowercase"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>pass derby.user.mary=little7xylamb</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt># Users definition #<ept id="1">&lt;/b&gt;</ept> derby.user.sa=<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productlowercase"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>pass derby.user.mary=little7xylamb</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt># Users definition #<ept id="1">&lt;/b&gt;</ept> derby.user.sa=<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productlowercase"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>pass derby.user.mary=little7xylamb</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

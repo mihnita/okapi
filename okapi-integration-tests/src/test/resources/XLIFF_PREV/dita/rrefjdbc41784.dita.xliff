@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbc41784.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">JDBC escape syntax for timestamp formats</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC escape syntax for timestamp formats</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC escape syntax for timestamp formats</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">ts (JDBC escape keyword)</source>
+<seg-source><mrk mid="0" mtype="seg">ts (JDBC escape keyword)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ts (JDBC escape keyword)</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">{ts (JDBC escape syntax)</source>
+<seg-source><mrk mid="0" mtype="seg">{ts (JDBC escape syntax)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">{ts (JDBC escape syntax)</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Timestamp formats</source>
+<seg-source><mrk mid="0" mtype="seg">Timestamp formats</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Timestamp formats</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">JDBC escape syntax for</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC escape syntax for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC escape syntax for</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> interprets the JDBC escape syntax for timestamp as equivalent to the correct SQL syntax for timestamps. <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> also supports the ISO format of 23 characters (17 digits, 3 dashes, and 3 decimal points).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> interprets the JDBC escape syntax for timestamp as equivalent to the correct SQL syntax for timestamps.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> also supports the ISO format of 23 characters (17 digits, 3 dashes, and 3 decimal points).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> interprets the JDBC escape syntax for timestamp as equivalent to the correct SQL syntax for timestamps.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> also supports the ISO format of 23 characters (17 digits, 3 dashes, and 3 decimal points).</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ ts '<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>yyyy<ept id="2">&lt;/i&gt;</ept>-<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>mm<ept id="3">&lt;/i&gt;</ept>-<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>dd<ept id="4">&lt;/i&gt;</ept> <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>hh<ept id="5">&lt;/i&gt;</ept>:<bpt id="6" ctype="x-i">&lt;i&gt;</bpt>mm<ept id="6">&lt;/i&gt;</ept>:<bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ss<ept id="7">&lt;/i&gt;</ept>.<bpt id="8" ctype="x-i">&lt;i&gt;</bpt>f<ept id="8">&lt;/i&gt;</ept>...' }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ ts '<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>yyyy<ept id="2">&lt;/i&gt;</ept>-<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>mm<ept id="3">&lt;/i&gt;</ept>-<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>dd<ept id="4">&lt;/i&gt;</ept> <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>hh<ept id="5">&lt;/i&gt;</ept>:<bpt id="6" ctype="x-i">&lt;i&gt;</bpt>mm<ept id="6">&lt;/i&gt;</ept>:<bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ss<ept id="7">&lt;/i&gt;</ept>.<bpt id="8" ctype="x-i">&lt;i&gt;</bpt>f<ept id="8">&lt;/i&gt;</ept>...' }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ ts '<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>yyyy<ept id="2">&lt;/i&gt;</ept>-<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>mm<ept id="3">&lt;/i&gt;</ept>-<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>dd<ept id="4">&lt;/i&gt;</ept> <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>hh<ept id="5">&lt;/i&gt;</ept>:<bpt id="6" ctype="x-i">&lt;i&gt;</bpt>mm<ept id="6">&lt;/i&gt;</ept>:<bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ss<ept id="7">&lt;/i&gt;</ept>.<bpt id="8" ctype="x-i">&lt;i&gt;</bpt>f<ept id="8">&lt;/i&gt;</ept>...' }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Equivalent to</source>
+<seg-source><mrk mid="0" mtype="seg">Equivalent to</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Equivalent to</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>TIMESTAMP('<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>yyyy<ept id="2">&lt;/i&gt;</ept>-<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>mm<ept id="3">&lt;/i&gt;</ept>-<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>dd<ept id="4">&lt;/i&gt;</ept> <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>hh<ept id="5">&lt;/i&gt;</ept>:<bpt id="6" ctype="x-i">&lt;i&gt;</bpt>mm<ept id="6">&lt;/i&gt;</ept>:<bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ss<ept id="7">&lt;/i&gt;</ept>.<bpt id="8" ctype="x-i">&lt;i&gt;</bpt>f<ept id="8">&lt;/i&gt;</ept>...')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>TIMESTAMP('<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>yyyy<ept id="2">&lt;/i&gt;</ept>-<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>mm<ept id="3">&lt;/i&gt;</ept>-<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>dd<ept id="4">&lt;/i&gt;</ept> <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>hh<ept id="5">&lt;/i&gt;</ept>:<bpt id="6" ctype="x-i">&lt;i&gt;</bpt>mm<ept id="6">&lt;/i&gt;</ept>:<bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ss<ept id="7">&lt;/i&gt;</ept>.<bpt id="8" ctype="x-i">&lt;i&gt;</bpt>f<ept id="8">&lt;/i&gt;</ept>...')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>TIMESTAMP('<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>yyyy<ept id="2">&lt;/i&gt;</ept>-<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>mm<ept id="3">&lt;/i&gt;</ept>-<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>dd<ept id="4">&lt;/i&gt;</ept> <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>hh<ept id="5">&lt;/i&gt;</ept>:<bpt id="6" ctype="x-i">&lt;i&gt;</bpt>mm<ept id="6">&lt;/i&gt;</ept>:<bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ss<ept id="7">&lt;/i&gt;</ept>.<bpt id="8" ctype="x-i">&lt;i&gt;</bpt>f<ept id="8">&lt;/i&gt;</ept>...')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The fractional portion of timestamp constants (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>.<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>f<ept id="2">&lt;/i&gt;</ept>...<ept id="1">&lt;/codeph&gt;</ept>) can be omitted.</source>
+<seg-source><mrk mid="0" mtype="seg">The fractional portion of timestamp constants (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>.<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>f<ept id="2">&lt;/i&gt;</ept>...<ept id="1">&lt;/codeph&gt;</ept>) can be omitted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The fractional portion of timestamp constants (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>.<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>f<ept id="2">&lt;/i&gt;</ept>...<ept id="1">&lt;/codeph&gt;</ept>) can be omitted.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES {ts '1999-01-09 20:11:11.123455'}<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES {ts '1999-01-09 20:11:11.123455'}<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES {ts '1999-01-09 20:11:11.123455'}<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

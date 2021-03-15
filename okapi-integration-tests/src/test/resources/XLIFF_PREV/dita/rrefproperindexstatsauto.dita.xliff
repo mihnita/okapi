@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefproperindexstatsauto.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.storage.indexStats.auto</source>
+<seg-source><mrk mid="0" mtype="seg">derby.storage.indexStats.auto</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.storage.indexStats.auto</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">derby.storage.indexStats.auto</source>
+<seg-source><mrk mid="0" mtype="seg">derby.storage.indexStats.auto</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.storage.indexStats.auto</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">databases</source>
+<seg-source><mrk mid="0" mtype="seg">databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">configuring automatic updating of statistics</source>
+<seg-source><mrk mid="0" mtype="seg">configuring automatic updating of statistics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring automatic updating of statistics</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">statistics</source>
+<seg-source><mrk mid="0" mtype="seg">statistics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">statistics</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">configuring automatic updating</source>
+<seg-source><mrk mid="0" mtype="seg">configuring automatic updating</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring automatic updating</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">index statistics</source>
+<seg-source><mrk mid="0" mtype="seg">index statistics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">index statistics</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">configuring automatic updating</source>
+<seg-source><mrk mid="0" mtype="seg">configuring automatic updating</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring automatic updating</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If this property is set to true (the default), outdated index cardinality statistics are updated automatically during query compilation. The query compiler schedules a job that updates the statistics in a separate thread.</source>
+<seg-source><mrk mid="0" mtype="seg">If this property is set to true (the default), outdated index cardinality statistics are updated automatically during query compilation.</mrk><mrk mid="1" mtype="seg"> The query compiler schedules a job that updates the statistics in a separate thread.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If this property is set to true (the default), outdated index cardinality statistics are updated automatically during query compilation.</mrk><mrk mid="1" mtype="seg"> The query compiler schedules a job that updates the statistics in a separate thread.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The thread that updates the statistics in the background may affect the performance of the user threads. If this causes problems, you can set <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.storage.indexStats.auto<ept id="1">&lt;/i&gt;</ept> to false.</source>
+<seg-source><mrk mid="0" mtype="seg">The thread that updates the statistics in the background may affect the performance of the user threads.</mrk><mrk mid="1" mtype="seg"> If this causes problems, you can set <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.storage.indexStats.auto<ept id="1">&lt;/i&gt;</ept> to false.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The thread that updates the statistics in the background may affect the performance of the user threads.</mrk><mrk mid="1" mtype="seg"> If this causes problems, you can set <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.storage.indexStats.auto<ept id="1">&lt;/i&gt;</ept> to false.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">To diagnose problems with automatic updating of index statistics, an application can set the property <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperindexstatslog.dita#rrefproperindexstatslog"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> to true. The <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefproperindexstatstrace.dita#rrefproperindexstatstrace"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> property can be used to provide more detailed information.</source>
+<seg-source><mrk mid="0" mtype="seg">To diagnose problems with automatic updating of index statistics, an application can set the property <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperindexstatslog.dita#rrefproperindexstatslog"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> to true.</mrk><mrk mid="1" mtype="seg"> The <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefproperindexstatstrace.dita#rrefproperindexstatstrace"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> property can be used to provide more detailed information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To diagnose problems with automatic updating of index statistics, an application can set the property <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperindexstatslog.dita#rrefproperindexstatslog"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> to true.</mrk><mrk mid="1" mtype="seg"> The <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefproperindexstatstrace.dita#rrefproperindexstatstrace"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> property can be used to provide more detailed information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">For more information about index statistics, see "Working with cardinality statistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information about index statistics, see "Working with cardinality statistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information about index statistics, see "Working with cardinality statistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- system-wide property<ept id="2">&lt;/ph&gt;</ept> derby.storage.indexStats.auto=false<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- system-wide property<ept id="2">&lt;/ph&gt;</ept> derby.storage.indexStats.auto=false<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- system-wide property<ept id="2">&lt;/ph&gt;</ept> derby.storage.indexStats.auto=false<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- database-level property<ept id="2">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.storage.indexStats.auto', 'false')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- database-level property<ept id="2">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.storage.indexStats.auto', 'false')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- database-level property<ept id="2">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.storage.indexStats.auto', 'false')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Dynamic or static</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic or static</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic or static</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Static. For system-wide properties, you must reboot <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for the change to take effect. For database-wide properties, you must reboot the database for the change to take effect.</source>
+<seg-source><mrk mid="0" mtype="seg">Static.</mrk><mrk mid="1" mtype="seg"> For system-wide properties, you must reboot <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for the change to take effect.</mrk><mrk mid="2" mtype="seg"> For database-wide properties, you must reboot the database for the change to take effect.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Static.</mrk><mrk mid="1" mtype="seg"> For system-wide properties, you must reboot <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for the change to take effect.</mrk><mrk mid="2" mtype="seg"> For database-wide properties, you must reboot the database for the change to take effect.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

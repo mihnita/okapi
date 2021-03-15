@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="code_and_codeblock_tests.md" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Code and Codeblock tests</source>
+<seg-source><mrk mid="0" mtype="seg">Code and Codeblock tests</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code and Codeblock tests</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Code blocks</source>
+<seg-source><mrk mid="0" mtype="seg">Code blocks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code blocks</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">There are two ways to specify code blocks. One may delimit via four  tildas, like this:</source>
+<seg-source><mrk mid="0" mtype="seg">There are two ways to specify code blocks.</mrk><mrk mid="1" mtype="seg"> One may delimit via four  tildas, like this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There are two ways to specify code blocks.</mrk><mrk mid="1" mtype="seg"> One may delimit via four  tildas, like this:</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">This text is within a code block and should remain in English.
+</source>
+<seg-source><mrk mid="0" mtype="seg">This text is within a code block and should remain in English.</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This text is within a code block and should remain in English.</mrk>
+</target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">Another is to delimit with three ticks like this:</source>
+<seg-source><mrk mid="0" mtype="seg">Another is to delimit with three ticks like this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Another is to delimit with three ticks like this:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">This text is within a code block and should remain in English.
+</source>
+<seg-source><mrk mid="0" mtype="seg">This text is within a code block and should remain in English.</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This text is within a code block and should remain in English.</mrk>
+</target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">One may also specify that the code is to be treated with syntax coloring like this:</source>
+<seg-source><mrk mid="0" mtype="seg">One may also specify that the code is to be treated with syntax coloring like this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">One may also specify that the code is to be treated with syntax coloring like this:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">This text is within a code block and should remain in English.
+</source>
+<seg-source><mrk mid="0" mtype="seg">This text is within a code block and should remain in English.</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This text is within a code block and should remain in English.</mrk>
+</target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">Inline code blocks</source>
+<seg-source><mrk mid="0" mtype="seg">Inline code blocks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inline code blocks</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en">Inline code contain things like <bpt id="1" ctype="x-CODE">`</bpt>variable names<ept id="1">`</ept> that we may want to protect.</source>
+<seg-source><mrk mid="0" mtype="seg">Inline code contain things like <bpt id="1" ctype="x-CODE">`</bpt>variable names<ept id="1">`</ept> that we may want to protect.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inline code contain things like <bpt id="1" ctype="x-CODE">`</bpt>variable names<ept id="1">`</ept> that we may want to protect.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

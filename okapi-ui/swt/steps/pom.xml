@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>net.sf.okapi</groupId>
+    <artifactId>build-okapi-ui</artifactId>
+    <version>1.42.0-SNAPSHOT</version>
+  </parent>
+  <groupId>net.sf.okapi.steps</groupId>
+  <artifactId>build-steps-ui</artifactId>
+  <packaging>pom</packaging>
+  <name>Okapi Steps UI Build</name>
+  <modules>
+    <module>bomconversion-ui</module>
+    <module>encodingconversion-ui</module>
+    <module>fullwidthconversion-ui</module>
+    <module>leveraging-ui</module>
+    <module>searchandreplace-ui</module>
+    <module>segmentation-ui</module>
+    <module>textmodification-ui</module>
+    <module>uriconversion-ui</module>
+    <module>xsltransform-ui</module>
+    <module>rainbowkit-ui</module>
+  </modules>
+
+  <dependencies>
+    <dependency>
+      <groupId>net.sf.okapi</groupId>
+      <artifactId>okapi-core-ui</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
+
+</project>

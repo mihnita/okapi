@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="98959751.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/solidstate/IdeaProjects/okapi/okapi-integration-tests/target/test-classes/html/Issue488/okf_html@wellFormed-Conf5.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+</group>
+<trans-unit id="tu1" restype="x-paragraph">
+<source xml:lang="en">This page contains <ph id="1" ctype="x-ac:macro">[#$sg1]</ph> security details.</source>
+<seg-source><mrk mid="0" mtype="seg">This page contains <ph id="1" ctype="x-ac:macro">[#$sg1]</ph> security details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This page contains <ph id="1" ctype="x-ac:macro">[#$sg1]</ph> security details.</mrk></target>
+</trans-unit>
+<group id="sg2">
+</group>
+<trans-unit id="tu2" restype="x-h2">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt><ph id="2" ctype="x-ac:macro">[#$sg2]</ph> functionality<ept id="1">&lt;/strong&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt><ph id="2" ctype="x-ac:macro">[#$sg2]</ph> functionality<ept id="1">&lt;/strong&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt><ph id="2" ctype="x-ac:macro">[#$sg2]</ph> functionality<ept id="1">&lt;/strong&gt;</ept></mrk></target>
+</trans-unit>
+<group id="sg3">
+</group>
+<trans-unit id="tu3" restype="x-paragraph">
+<source xml:lang="en">There are two conditions which cause <ph id="1" ctype="x-ac:macro">[#$sg3]</ph> to reach out to a server. They are discovery and polling.  </source>
+<seg-source><mrk mid="0" mtype="seg">There are two conditions which cause <ph id="1" ctype="x-ac:macro">[#$sg3]</ph> to reach out to a server.</mrk><mrk mid="1" mtype="seg"> They are discovery and polling.</mrk><mrk mid="2" mtype="seg">  </mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There are two conditions which cause <ph id="1" ctype="x-ac:macro">[#$sg3]</ph> to reach out to a server.</mrk><mrk mid="1" mtype="seg"> They are discovery and polling.</mrk><mrk mid="2" mtype="seg">  </mrk></target>
+</trans-unit>
+<group id="sg4">
+</group>
+<trans-unit id="tu4" restype="x-paragraph">
+<source xml:lang="en">During <bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>discovery<ept id="1">&lt;/strong&gt;</ept>, for WMI, SSH, and VMware protocols, <ph id="2" ctype="x-ac:macro">[#$sg4]</ph> performs a logon to the target server, and pulls a series of information from the host including server make and model, IP, serial number, OS type, CPU details  (make/model, cache, speed,...), Memory details (make/model, size, type,  ...). SNMP discovery is similar, except no physical logon to the host is required. After initial discovery, a discovery of a Windows or Linux server only needs to occur if the physical hardware changes. Often running discoveries less than once a month is enough but must be based on server changes done in the data center.   </source>
+<seg-source><mrk mid="0" mtype="seg">During <bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>discovery<ept id="1">&lt;/strong&gt;</ept>, for WMI, SSH, and VMware protocols, <ph id="2" ctype="x-ac:macro">[#$sg4]</ph> performs a logon to the target server, and pulls a series of information from the host including server make and model, IP, serial number, OS type, CPU details  (make/model, cache, speed,...), Memory details (make/model, size, type,  ...).</mrk><mrk mid="1" mtype="seg"> SNMP discovery is similar, except no physical logon to the host is required.</mrk><mrk mid="2" mtype="seg"> After initial discovery, a discovery of a Windows or Linux server only needs to occur if the physical hardware changes.</mrk><mrk mid="3" mtype="seg"> Often running discoveries less than once a month is enough but must be based on server changes done in the data center.</mrk><mrk mid="4" mtype="seg">   </mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">During <bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>discovery<ept id="1">&lt;/strong&gt;</ept>, for WMI, SSH, and VMware protocols, <ph id="2" ctype="x-ac:macro">[#$sg4]</ph> performs a logon to the target server, and pulls a series of information from the host including server make and model, IP, serial number, OS type, CPU details  (make/model, cache, speed,...), Memory details (make/model, size, type,  ...).</mrk><mrk mid="1" mtype="seg"> SNMP discovery is similar, except no physical logon to the host is required.</mrk><mrk mid="2" mtype="seg"> After initial discovery, a discovery of a Windows or Linux server only needs to occur if the physical hardware changes.</mrk><mrk mid="3" mtype="seg"> Often running discoveries less than once a month is enough but must be based on server changes done in the data center.</mrk><mrk mid="4" mtype="seg">   </mrk></target>
+</trans-unit>
+<group id="sg5">
+</group>
+<group id="sg6">
+</group>
+<group id="sg7">
+</group>
+<group id="sg8">
+</group>
+<trans-unit id="tu5" restype="x-paragraph">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>Polling<ept id="1">&lt;/strong&gt;</ept> occurs when <ph id="2" ctype="x-ac:macro">[#$sg5]</ph>contacts the target server to pull CPU utilization information. In this case, only previously discovered servers are polled. By default,  polls occur every five minutes. This value can be configured using the <ph id="3" ctype="x-ac:macro">[#$sg6]</ph> GUI to occur as infrequently as every 30 minutes. So having 1000 discovered hosts, you can expect approximately 100k of polling data to be read from servers every 5 minutes. Overall load on the target servers is low. In our labs, we have a large set of <ph id="4" ctype="x-ac:macro">[#$sg7]</ph>configurations discovering and poling a set of live servers. They are all polling and discovering the same servers 24x365. The average CPU utilization of our idle lab servers (so only <ph id="5" ctype="x-ac:macro">[#$sg8]</ph>discover and polling is occurring on them) is approximately 3%.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>Polling<ept id="1">&lt;/strong&gt;</ept> occurs when <ph id="2" ctype="x-ac:macro">[#$sg5]</ph>contacts the target server to pull CPU utilization information.</mrk><mrk mid="1" mtype="seg"> In this case, only previously discovered servers are polled.</mrk><mrk mid="2" mtype="seg"> By default,  polls occur every five minutes.</mrk><mrk mid="3" mtype="seg"> This value can be configured using the <ph id="3" ctype="x-ac:macro">[#$sg6]</ph> GUI to occur as infrequently as every 30 minutes.</mrk><mrk mid="4" mtype="seg"> So having 1000 discovered hosts, you can expect approximately 100k of polling data to be read from servers every 5 minutes.</mrk><mrk mid="5" mtype="seg"> Overall load on the target servers is low.</mrk><mrk mid="6" mtype="seg"> In our labs, we have a large set of <ph id="4" ctype="x-ac:macro">[#$sg7]</ph>configurations discovering and poling a set of live servers.</mrk><mrk mid="7" mtype="seg"> They are all polling and discovering the same servers 24x365.</mrk><mrk mid="8" mtype="seg"> The average CPU utilization of our idle lab servers (so only <ph id="5" ctype="x-ac:macro">[#$sg8]</ph>discover and polling is occurring on them) is approximately 3%.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>Polling<ept id="1">&lt;/strong&gt;</ept> occurs when <ph id="2" ctype="x-ac:macro">[#$sg5]</ph>contacts the target server to pull CPU utilization information.</mrk><mrk mid="1" mtype="seg"> In this case, only previously discovered servers are polled.</mrk><mrk mid="2" mtype="seg"> By default,  polls occur every five minutes.</mrk><mrk mid="3" mtype="seg"> This value can be configured using the <ph id="3" ctype="x-ac:macro">[#$sg6]</ph> GUI to occur as infrequently as every 30 minutes.</mrk><mrk mid="4" mtype="seg"> So having 1000 discovered hosts, you can expect approximately 100k of polling data to be read from servers every 5 minutes.</mrk><mrk mid="5" mtype="seg"> Overall load on the target servers is low.</mrk><mrk mid="6" mtype="seg"> In our labs, we have a large set of <ph id="4" ctype="x-ac:macro">[#$sg7]</ph>configurations discovering and poling a set of live servers.</mrk><mrk mid="7" mtype="seg"> They are all polling and discovering the same servers 24x365.</mrk><mrk mid="8" mtype="seg"> The average CPU utilization of our idle lab servers (so only <ph id="5" ctype="x-ac:macro">[#$sg8]</ph>discover and polling is occurring on them) is approximately 3%.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<seg-source><mrk mid="0" mtype="seg"> </mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> </mrk></target>
+</trans-unit>
+<trans-unit id="tu7" restype="x-paragraph">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong style="font-size: 20.0px;line-height: 1.5;"&gt;</bpt>Network protocol and ports<ept id="1">&lt;/strong&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong style="font-size: 20.0px;line-height: 1.5;"&gt;</bpt>Network protocol and ports<ept id="1">&lt;/strong&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong style="font-size: 20.0px;line-height: 1.5;"&gt;</bpt>Network protocol and ports<ept id="1">&lt;/strong&gt;</ept></mrk></target>
+</trans-unit>
+<group id="sg9">
+<group id="sg10">
+<group id="sg11">
+<trans-unit id="tu9" restype="x-paragraph">
+<source xml:lang="en">Protocol</source>
+<seg-source><mrk mid="0" mtype="seg">Protocol</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Protocol</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" restype="x-th">
+<source xml:lang="en">Transfer protocol</source>
+<seg-source><mrk mid="0" mtype="seg">Transfer protocol</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transfer protocol</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" restype="x-paragraph">
+<source xml:lang="en">Port(s)</source>
+<seg-source><mrk mid="0" mtype="seg">Port(s)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Port(s)</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" restype="x-th">
+<source xml:lang="en">Network</source>
+<seg-source><mrk mid="0" mtype="seg">Network</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network</mrk></target>
+</trans-unit>
+<trans-unit id="tu14" restype="x-th">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Credentials/Access<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Credentials/Access<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Credentials/Access<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu15" restype="x-th">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Encryption<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Encryption<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Encryption<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16" restype="x-th">
+<source xml:lang="en">Commands</source>
+<seg-source><mrk mid="0" mtype="seg">Commands</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Commands</mrk></target>
+</trans-unit>
+</group>
+<group id="sg12">
+<trans-unit id="tu18" restype="x-paragraph">
+<source xml:lang="en">WMI</source>
+<seg-source><mrk mid="0" mtype="seg">WMI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WMI</mrk></target>
+</trans-unit>
+<trans-unit id="tu19" restype="x-td">
+<source xml:lang="en">TCP</source>
+<seg-source><mrk mid="0" mtype="seg">TCP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TCP</mrk></target>
+</trans-unit>
+<trans-unit id="tu21" restype="x-paragraph">
+<source xml:lang="en">Request: 135</source>
+<seg-source><mrk mid="0" mtype="seg">Request: 135</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Request: 135</mrk></target>
+</trans-unit>
+<trans-unit id="tu22" restype="x-paragraph">
+<source xml:lang="en">Response: 1024-<bpt id="1" ctype="x-span">&lt;span&gt;</bpt>65535<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Response: 1024-<bpt id="1" ctype="x-span">&lt;span&gt;</bpt>65535<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Response: 1024-<bpt id="1" ctype="x-span">&lt;span&gt;</bpt>65535<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu24" restype="x-ri:content-title">
+<source xml:lang="en">WMI Windows Required Ports</source>
+<seg-source><mrk mid="0" mtype="seg">WMI Windows Required Ports</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WMI Windows Required Ports</mrk></target>
+</trans-unit>
+<trans-unit id="tu23" restype="x-paragraph">
+<source xml:lang="en"><it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu27" restype="x-paragraph">
+<source xml:lang="en">Discovery queries between 3K and 10K of data (on average) per discovered asset.</source>
+<seg-source><mrk mid="0" mtype="seg">Discovery queries between 3K and 10K of data (on average) per discovered asset.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Discovery queries between 3K and 10K of data (on average) per discovered asset.</mrk></target>
+</trans-unit>
+<trans-unit id="tu28" restype="x-paragraph">
+<source xml:lang="en">Polling queries approx. 60 bytes of data per asset per poll. Polling interval can be configured in the external system configuration.</source>
+<seg-source><mrk mid="0" mtype="seg">Polling queries approx. 60 bytes of data per asset per poll.</mrk><mrk mid="1" mtype="seg"> Polling interval can be configured in the external system configuration.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Polling queries approx. 60 bytes of data per asset per poll.</mrk><mrk mid="1" mtype="seg"> Polling interval can be configured in the external system configuration.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30" restype="x-paragraph">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt>WMI connections between hosts require valid user credentials on the remote system.<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt>WMI connections between hosts require valid user credentials on the remote system.<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt>WMI connections between hosts require valid user credentials on the remote system.<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu31" restype="x-paragraph">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt><bpt id="2" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt>The credentials should be encrypted on Linux (using j-Interop) as well as Windows (using the <ept id="2">&lt;/span&gt;</ept><bpt id="3" ctype="x-span">&lt;span style="color: rgb(102,102,102);"&gt;</bpt> <ept id="3">&lt;/span&gt;</ept><bpt id="4" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt>native Windows libraries).<ept id="4">&lt;/span&gt;</ept><ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt><bpt id="2" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt>The credentials should be encrypted on Linux (using j-Interop) as well as Windows (using the <ept id="2">&lt;/span&gt;</ept><bpt id="3" ctype="x-span">&lt;span style="color: rgb(102,102,102);"&gt;</bpt> <ept id="3">&lt;/span&gt;</ept><bpt id="4" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt>native Windows libraries).<ept id="4">&lt;/span&gt;</ept><ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt><bpt id="2" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt>The credentials should be encrypted on Linux (using j-Interop) as well as Windows (using the <ept id="2">&lt;/span&gt;</ept><bpt id="3" ctype="x-span">&lt;span style="color: rgb(102,102,102);"&gt;</bpt> <ept id="3">&lt;/span&gt;</ept><bpt id="4" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt>native Windows libraries).<ept id="4">&lt;/span&gt;</ept><ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<group id="sg13">
+</group>
+<trans-unit id="tu32" restype="x-paragraph">
+<source xml:lang="en"><it id="1" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it><it id="2" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it><it id="3" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it><ph id="4" ctype="x-ac:macro">[#$sg13]</ph> polls Windows server WMI namespace. The specified user account must have local <it id="3" ctype="x-span" pos="close">&lt;/span&gt;</it><it id="5" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it>administrator access to query disk related details from the namespace. <it id="5" ctype="x-span" pos="close">&lt;/span&gt;</it><it id="2" ctype="x-span" pos="close">&lt;/span&gt;</it><it id="1" ctype="x-span" pos="close">&lt;/span&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it><it id="2" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it><it id="3" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it><ph id="4" ctype="x-ac:macro">[#$sg13]</ph> polls Windows server WMI namespace.</mrk><mrk mid="1" mtype="seg"> The specified user account must have local <it id="3" ctype="x-span" pos="close">&lt;/span&gt;</it><it id="5" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it>administrator access to query disk related details from the namespace.</mrk><mrk mid="2" mtype="seg"> <it id="5" ctype="x-span" pos="close">&lt;/span&gt;</it><it id="2" ctype="x-span" pos="close">&lt;/span&gt;</it><it id="1" ctype="x-span" pos="close">&lt;/span&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it><it id="2" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it><it id="3" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it><ph id="4" ctype="x-ac:macro">[#$sg13]</ph> polls Windows server WMI namespace.</mrk><mrk mid="1" mtype="seg"> The specified user account must have local <it id="3" ctype="x-span" pos="close">&lt;/span&gt;</it><it id="5" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it>administrator access to query disk related details from the namespace.</mrk><mrk mid="2" mtype="seg"> <it id="5" ctype="x-span" pos="close">&lt;/span&gt;</it><it id="2" ctype="x-span" pos="close">&lt;/span&gt;</it><it id="1" ctype="x-span" pos="close">&lt;/span&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu34" restype="x-paragraph">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt><bpt id="2" ctype="x-span">&lt;span class="tx"&gt;</bpt>Credential information is always encrypted using NTLM <ept id="2">&lt;/span&gt;</ept><bpt id="3" ctype="x-span">&lt;span&gt;</bpt> <ept id="3">&lt;/span&gt;</ept><bpt id="4" ctype="x-span">&lt;span class="tx"&gt;</bpt>and/or Kerberos encryption.<ept id="4">&lt;/span&gt;</ept><ept id="1">&lt;/span&gt;</ept><bpt id="5" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt> <ept id="5">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt><bpt id="2" ctype="x-span">&lt;span class="tx"&gt;</bpt>Credential information is always encrypted using NTLM <ept id="2">&lt;/span&gt;</ept><bpt id="3" ctype="x-span">&lt;span&gt;</bpt> <ept id="3">&lt;/span&gt;</ept><bpt id="4" ctype="x-span">&lt;span class="tx"&gt;</bpt>and/or Kerberos encryption.<ept id="4">&lt;/span&gt;</ept><ept id="1">&lt;/span&gt;</ept></mrk><mrk mid="1" mtype="seg"><bpt id="5" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt> <ept id="5">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt><bpt id="2" ctype="x-span">&lt;span class="tx"&gt;</bpt>Credential information is always encrypted using NTLM <ept id="2">&lt;/span&gt;</ept><bpt id="3" ctype="x-span">&lt;span&gt;</bpt> <ept id="3">&lt;/span&gt;</ept><bpt id="4" ctype="x-span">&lt;span class="tx"&gt;</bpt>and/or Kerberos encryption.<ept id="4">&lt;/span&gt;</ept><ept id="1">&lt;/span&gt;</ept></mrk><mrk mid="1" mtype="seg"><bpt id="5" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt> <ept id="5">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu36" restype="x-ri:content-title">
+<source xml:lang="en">WMI Command Details</source>
+<seg-source><mrk mid="0" mtype="seg">WMI Command Details</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WMI Command Details</mrk></target>
+</trans-unit>
+<trans-unit id="tu35" restype="x-td">
+<source xml:lang="en"><it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></target>
+</trans-unit>
+</group>
+<group id="sg14">
+<trans-unit id="tu39" restype="x-paragraph">
+<source xml:lang="en">SNMP</source>
+<seg-source><mrk mid="0" mtype="seg">SNMP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SNMP</mrk></target>
+</trans-unit>
+<trans-unit id="tu40" restype="x-td">
+<source xml:lang="en">TCP/UDP</source>
+<seg-source><mrk mid="0" mtype="seg">TCP/UDP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TCP/UDP</mrk></target>
+</trans-unit>
+<trans-unit id="tu42" restype="x-paragraph">
+<source xml:lang="en">161, 162 <ph id="1" ctype="x-br">&lt;br class="atl-forced-newline" /&gt;</ph><ph id="2" ctype="x-br">&lt;br /&gt;</ph></source>
+<seg-source><mrk mid="0" mtype="seg">161, 162 <ph id="1" ctype="x-br">&lt;br class="atl-forced-newline" /&gt;</ph><ph id="2" ctype="x-br">&lt;br /&gt;</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">161, 162 <ph id="1" ctype="x-br">&lt;br class="atl-forced-newline" /&gt;</ph><ph id="2" ctype="x-br">&lt;br /&gt;</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu44" restype="x-paragraph">
+<source xml:lang="en">Discovery queries between 3K and 10K of data (on average) per discovered asset.</source>
+<seg-source><mrk mid="0" mtype="seg">Discovery queries between 3K and 10K of data (on average) per discovered asset.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Discovery queries between 3K and 10K of data (on average) per discovered asset.</mrk></target>
+</trans-unit>
+<trans-unit id="tu45" restype="x-paragraph">
+<source xml:lang="en">Polling queries approx. 60 bytes of data per asset per poll. Polling interval can be configured in the external system configuration.</source>
+<seg-source><mrk mid="0" mtype="seg">Polling queries approx. 60 bytes of data per asset per poll.</mrk><mrk mid="1" mtype="seg"> Polling interval can be configured in the external system configuration.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Polling queries approx. 60 bytes of data per asset per poll.</mrk><mrk mid="1" mtype="seg"> Polling interval can be configured in the external system configuration.</mrk></target>
+</trans-unit>
+<group id="sg15">
+</group>
+<trans-unit id="tu47" restype="x-paragraph">
+<source xml:lang="en"><ph id="1" ctype="x-ac:macro">[#$sg15]</ph> uses a read-only community string to pull values from a set of server OIDs or Blade Chassis OIDs</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-ac:macro">[#$sg15]</ph> uses a read-only community string to pull values from a set of server OIDs or Blade Chassis OIDs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-ac:macro">[#$sg15]</ph> uses a read-only community string to pull values from a set of server OIDs or Blade Chassis OIDs</mrk></target>
+</trans-unit>
+<trans-unit id="tu49" restype="x-paragraph">
+<source xml:lang="en">No encryption is used for SNMP communication</source>
+<seg-source><mrk mid="0" mtype="seg">No encryption is used for SNMP communication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No encryption is used for SNMP communication</mrk></target>
+</trans-unit>
+<trans-unit id="tu50" restype="x-paragraph">
+<source xml:lang="en">Both SNMP v1 and v2 are supported.</source>
+<seg-source><mrk mid="0" mtype="seg">Both SNMP v1 and v2 are supported.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Both SNMP v1 and v2 are supported.</mrk></target>
+</trans-unit>
+<trans-unit id="tu52" restype="x-ri:content-title">
+<source xml:lang="en">SNMP Command Details</source>
+<seg-source><mrk mid="0" mtype="seg">SNMP Command Details</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SNMP Command Details</mrk></target>
+</trans-unit>
+<trans-unit id="tu51" restype="x-td">
+<source xml:lang="en"><it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></target>
+</trans-unit>
+</group>
+<group id="sg16">
+<trans-unit id="tu55" restype="x-paragraph">
+<source xml:lang="en">VMware vSphere Web Service</source>
+<seg-source><mrk mid="0" mtype="seg">VMware vSphere Web Service</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VMware vSphere Web Service</mrk></target>
+</trans-unit>
+<trans-unit id="tu56" restype="x-td">
+<source xml:lang="en">TCP</source>
+<seg-source><mrk mid="0" mtype="seg">TCP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TCP</mrk></target>
+</trans-unit>
+<trans-unit id="tu58" restype="x-paragraph">
+<source xml:lang="en">80, 443</source>
+<seg-source><mrk mid="0" mtype="seg">80, 443</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">80, 443</mrk></target>
+</trans-unit>
+<trans-unit id="tu60" restype="x-paragraph">
+<source xml:lang="en">Discovery queries between 3K and 10K of data (on average) per discovered asset.</source>
+<seg-source><mrk mid="0" mtype="seg">Discovery queries between 3K and 10K of data (on average) per discovered asset.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Discovery queries between 3K and 10K of data (on average) per discovered asset.</mrk></target>
+</trans-unit>
+<trans-unit id="tu61" restype="x-paragraph">
+<source xml:lang="en">Polling queries approx. 60 bytes of data per asset per poll. Polling interval can be configured in the external system configuration.</source>
+<seg-source><mrk mid="0" mtype="seg">Polling queries approx. 60 bytes of data per asset per poll.</mrk><mrk mid="1" mtype="seg"> Polling interval can be configured in the external system configuration.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Polling queries approx. 60 bytes of data per asset per poll.</mrk><mrk mid="1" mtype="seg"> Polling interval can be configured in the external system configuration.</mrk></target>
+</trans-unit>
+<trans-unit id="tu62" restype="x-paragraph">
+<source xml:lang="en">Connections are made on port 443 by default</source>
+<seg-source><mrk mid="0" mtype="seg">Connections are made on port 443 by default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connections are made on port 443 by default</mrk></target>
+</trans-unit>
+<trans-unit id="tu64" restype="x-paragraph">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>SSL connections to VMware web services api's to pull ESX server and guest utilization information<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>SSL connections to VMware web services api's to pull ESX server and guest utilization information<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>SSL connections to VMware web services api's to pull ESX server and guest utilization information<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<group id="sg17">
+</group>
+<trans-unit id="tu65" restype="x-paragraph">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt><bpt id="2" ctype="x-span">&lt;span&gt;</bpt>Password authentication is used, no keys are stored on the <ph id="3" ctype="x-ac:macro">[#$sg17]</ph>server.<ept id="2">&lt;/span&gt;</ept><ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt><bpt id="2" ctype="x-span">&lt;span&gt;</bpt>Password authentication is used, no keys are stored on the <ph id="3" ctype="x-ac:macro">[#$sg17]</ph>server.<ept id="2">&lt;/span&gt;</ept><ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt><bpt id="2" ctype="x-span">&lt;span&gt;</bpt>Password authentication is used, no keys are stored on the <ph id="3" ctype="x-ac:macro">[#$sg17]</ph>server.<ept id="2">&lt;/span&gt;</ept><ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu66" restype="x-paragraph">
+<source xml:lang="en">VMware protocol discoveries require a local user account on each ESX host. The account must belong to at least the readonly role. It does NOT require access to the ESX shell.</source>
+<seg-source><mrk mid="0" mtype="seg">VMware protocol discoveries require a local user account on each ESX host.</mrk><mrk mid="1" mtype="seg"> The account must belong to at least the readonly role.</mrk><mrk mid="2" mtype="seg"> It does NOT require access to the ESX shell.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VMware protocol discoveries require a local user account on each ESX host.</mrk><mrk mid="1" mtype="seg"> The account must belong to at least the readonly role.</mrk><mrk mid="2" mtype="seg"> It does NOT require access to the ESX shell.</mrk></target>
+</trans-unit>
+<trans-unit id="tu68" restype="x-paragraph">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Encrypted connection (SSL) to the default https port (443) k<ept id="1">&lt;/span&gt;</ept>ey length is determined by server</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Encrypted connection (SSL) to the default https port (443) k<ept id="1">&lt;/span&gt;</ept>ey length is determined by server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Encrypted connection (SSL) to the default https port (443) k<ept id="1">&lt;/span&gt;</ept>ey length is determined by server</mrk></target>
+</trans-unit>
+<trans-unit id="tu70" restype="x-ri:content-title">
+<source xml:lang="en">VMware vSphere Web Service</source>
+<seg-source><mrk mid="0" mtype="seg">VMware vSphere Web Service</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VMware vSphere Web Service</mrk></target>
+</trans-unit>
+<trans-unit id="tu69" restype="x-td">
+<source xml:lang="en"><it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>VMware vSphere Web Service command details<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="3" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>VMware vSphere Web Service command details<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="3" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>VMware vSphere Web Service command details<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="3" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it></mrk></target>
+</trans-unit>
+</group>
+<group id="sg18">
+<trans-unit id="tu73" restype="x-paragraph">
+<source xml:lang="en">SSH</source>
+<seg-source><mrk mid="0" mtype="seg">SSH</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSH</mrk></target>
+</trans-unit>
+<trans-unit id="tu74" restype="x-td">
+<source xml:lang="en">TCP</source>
+<seg-source><mrk mid="0" mtype="seg">TCP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TCP</mrk></target>
+</trans-unit>
+<trans-unit id="tu76" restype="x-paragraph">
+<source xml:lang="en">22</source>
+<seg-source><mrk mid="0" mtype="seg">22</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">22</mrk></target>
+</trans-unit>
+<trans-unit id="tu78" restype="x-paragraph">
+<source xml:lang="en">Discovery queries between 3K and 10K of data (on average) per discovered asset.</source>
+<seg-source><mrk mid="0" mtype="seg">Discovery queries between 3K and 10K of data (on average) per discovered asset.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Discovery queries between 3K and 10K of data (on average) per discovered asset.</mrk></target>
+</trans-unit>
+<trans-unit id="tu79" restype="x-paragraph">
+<source xml:lang="en">Polling queries approx. 60 bytes of data per asset per poll. Polling interval can be configured in the external system configuration.</source>
+<seg-source><mrk mid="0" mtype="seg">Polling queries approx. 60 bytes of data per asset per poll.</mrk><mrk mid="1" mtype="seg"> Polling interval can be configured in the external system configuration.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Polling queries approx. 60 bytes of data per asset per poll.</mrk><mrk mid="1" mtype="seg"> Polling interval can be configured in the external system configuration.</mrk></target>
+</trans-unit>
+<trans-unit id="tu82" restype="x-ri:content-title">
+<source xml:lang="en">SSH Sudo Discovery Configuration</source>
+<seg-source><mrk mid="0" mtype="seg">SSH Sudo Discovery Configuration</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSH Sudo Discovery Configuration</mrk></target>
+</trans-unit>
+<trans-unit id="tu81" restype="x-paragraph">
+<source xml:lang="en">Discovery commands require root level access. "sudo" may be used to complete this task a guide can be found <it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg">Discovery commands require root level access.</mrk><mrk mid="1" mtype="seg"> "sudo" may be used to complete this task a guide can be found <it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Discovery commands require root level access.</mrk><mrk mid="1" mtype="seg"> "sudo" may be used to complete this task a guide can be found <it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu83">
+<source xml:lang="en"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="3" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it>. Polling of Linux and Unix clients is completed using SNMP.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="3" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it>.</mrk><mrk mid="1" mtype="seg"> Polling of Linux and Unix clients is completed using SNMP.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="3" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it>.</mrk><mrk mid="1" mtype="seg"> Polling of Linux and Unix clients is completed using SNMP.</mrk></target>
+</trans-unit>
+<trans-unit id="tu84" restype="x-paragraph">
+<source xml:lang="en"> </source>
+<seg-source><mrk mid="0" mtype="seg"> </mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> </mrk></target>
+</trans-unit>
+<trans-unit id="tu86" restype="x-paragraph">
+<source xml:lang="en">Server determine cipher type and key length.</source>
+<seg-source><mrk mid="0" mtype="seg">Server determine cipher type and key length.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Server determine cipher type and key length.</mrk></target>
+</trans-unit>
+<trans-unit id="tu87" restype="x-paragraph">
+<source xml:lang="en">SSH v2 is supported, v1 is not supported.</source>
+<seg-source><mrk mid="0" mtype="seg">SSH v2 is supported, v1 is not supported.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSH v2 is supported, v1 is not supported.</mrk></target>
+</trans-unit>
+<trans-unit id="tu89" restype="x-ri:content-title">
+<source xml:lang="en">SSH Command Details</source>
+<seg-source><mrk mid="0" mtype="seg">SSH Command Details</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSH Command Details</mrk></target>
+</trans-unit>
+<trans-unit id="tu88" restype="x-td">
+<source xml:lang="en"><it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu90">
+<source xml:lang="en"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>SSH command details<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="3" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>SSH command details<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="3" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>SSH command details<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="3" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it></mrk></target>
+</trans-unit>
+</group>
+<group id="sg19">
+<trans-unit id="tu92" restype="x-paragraph">
+<source xml:lang="en">TCP ECHO</source>
+<seg-source><mrk mid="0" mtype="seg">TCP ECHO</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TCP ECHO</mrk></target>
+</trans-unit>
+<trans-unit id="tu93" restype="x-td">
+<source xml:lang="en">TCP</source>
+<seg-source><mrk mid="0" mtype="seg">TCP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TCP</mrk></target>
+</trans-unit>
+<trans-unit id="tu95" restype="x-paragraph">
+<source xml:lang="en">7</source>
+<seg-source><mrk mid="0" mtype="seg">7</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">7</mrk></target>
+</trans-unit>
+<trans-unit id="tu96" restype="x-td">
+<source xml:lang="en">Echo functionality to make sure discovered device is alive</source>
+<seg-source><mrk mid="0" mtype="seg">Echo functionality to make sure discovered device is alive</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Echo functionality to make sure discovered device is alive</mrk></target>
+</trans-unit>
+<trans-unit id="tu97" restype="x-td">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+<trans-unit id="tu98" restype="x-td">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+<trans-unit id="tu99" restype="x-td">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+</group>
+<group id="sg20">
+<trans-unit id="tu101" restype="x-paragraph">
+<source xml:lang="en">ICMP ECHO</source>
+<seg-source><mrk mid="0" mtype="seg">ICMP ECHO</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ICMP ECHO</mrk></target>
+</trans-unit>
+<trans-unit id="tu102" restype="x-td">
+<source xml:lang="en">IP</source>
+<seg-source><mrk mid="0" mtype="seg">IP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IP</mrk></target>
+</trans-unit>
+<trans-unit id="tu104" restype="x-paragraph">
+<source xml:lang="en">N/A</source>
+<seg-source><mrk mid="0" mtype="seg">N/A</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">N/A</mrk></target>
+</trans-unit>
+<trans-unit id="tu105" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Ping/Echo functionality to make sure <bpt id="2" ctype="x-span">&lt;span&gt;</bpt>discovered <ept id="2">&lt;/span&gt;</ept>device is alive<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Ping/Echo functionality to make sure <bpt id="2" ctype="x-span">&lt;span&gt;</bpt>discovered <ept id="2">&lt;/span&gt;</ept>device is alive<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Ping/Echo functionality to make sure <bpt id="2" ctype="x-span">&lt;span&gt;</bpt>discovered <ept id="2">&lt;/span&gt;</ept>device is alive<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu106" restype="x-td">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+<trans-unit id="tu107" restype="x-td">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+<trans-unit id="tu108" restype="x-td">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+</group>
+<group id="sg21">
+<trans-unit id="tu110" restype="x-paragraph">
+<source xml:lang="en">IPMI</source>
+<seg-source><mrk mid="0" mtype="seg">IPMI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IPMI</mrk></target>
+</trans-unit>
+<trans-unit id="tu111" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>UDP<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>UDP<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>UDP<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu113" restype="x-paragraph">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>623<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>623<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>623<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu115" restype="x-paragraph">
+<source xml:lang="en">Discovery queries between 3K and 10K of data (on average) per discovered asset.</source>
+<seg-source><mrk mid="0" mtype="seg">Discovery queries between 3K and 10K of data (on average) per discovered asset.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Discovery queries between 3K and 10K of data (on average) per discovered asset.</mrk></target>
+</trans-unit>
+<trans-unit id="tu116" restype="x-paragraph">
+<source xml:lang="en">Polling queries approx. 60 bytes of data per asset per poll. Polling interval can be configured in the external system configuration.</source>
+<seg-source><mrk mid="0" mtype="seg">Polling queries approx. 60 bytes of data per asset per poll.</mrk><mrk mid="1" mtype="seg"> Polling interval can be configured in the external system configuration.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Polling queries approx. 60 bytes of data per asset per poll.</mrk><mrk mid="1" mtype="seg"> Polling interval can be configured in the external system configuration.</mrk></target>
+</trans-unit>
+<trans-unit id="tu118" restype="x-paragraph">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt>IPMI connections between hosts require valid user credentials on the remote system.<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt>IPMI connections between hosts require valid user credentials on the remote system.<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</bpt>IPMI connections between hosts require valid user credentials on the remote system.<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu119" restype="x-td">
+<source xml:lang="en">Depending on configuration and BMC interface</source>
+<seg-source><mrk mid="0" mtype="seg">Depending on configuration and BMC interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Depending on configuration and BMC interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu120" restype="x-td">
+<source xml:lang="en"> </source>
+<seg-source><mrk mid="0" mtype="seg"> </mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> </mrk></target>
+</trans-unit>
+</group>
+<group id="sg22">
+<trans-unit id="tu121" restype="x-td">
+<source xml:lang="en">Postgres</source>
+<seg-source><mrk mid="0" mtype="seg">Postgres</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Postgres</mrk></target>
+</trans-unit>
+<trans-unit id="tu122" restype="x-td">
+<source xml:lang="en">UDP</source>
+<seg-source><mrk mid="0" mtype="seg">UDP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UDP</mrk></target>
+</trans-unit>
+<trans-unit id="tu123" restype="x-td">
+<source xml:lang="en">3306</source>
+<seg-source><mrk mid="0" mtype="seg">3306</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3306</mrk></target>
+</trans-unit>
+<trans-unit id="tu124" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Localhost only - internal ITO database connection<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Localhost only - internal ITO database connection<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Localhost only - internal ITO database connection<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu125" restype="x-td">
+<source xml:lang="en">Handled by ITO system</source>
+<seg-source><mrk mid="0" mtype="seg">Handled by ITO system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handled by ITO system</mrk></target>
+</trans-unit>
+<trans-unit id="tu126" restype="x-td">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu127" restype="x-td">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+</group>
+<group id="sg23">
+<trans-unit id="tu128" restype="x-td">
+<source xml:lang="en">HTTP</source>
+<seg-source><mrk mid="0" mtype="seg">HTTP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HTTP</mrk></target>
+</trans-unit>
+<trans-unit id="tu129" restype="x-td">
+<source xml:lang="en">TCP</source>
+<seg-source><mrk mid="0" mtype="seg">TCP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TCP</mrk></target>
+</trans-unit>
+<trans-unit id="tu130" restype="x-td">
+<source xml:lang="en">8090</source>
+<seg-source><mrk mid="0" mtype="seg">8090</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">8090</mrk></target>
+</trans-unit>
+<trans-unit id="tu131" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Management Console interface for ITO<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Management Console interface for ITO<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Management Console interface for ITO<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu132" restype="x-td">
+<source xml:lang="en">Handled by DCO/ITO integration interface</source>
+<seg-source><mrk mid="0" mtype="seg">Handled by DCO/ITO integration interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handled by DCO/ITO integration interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu133" restype="x-td">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+<trans-unit id="tu134" restype="x-td">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+</group>
+<group id="sg24">
+<trans-unit id="tu136" restype="x-paragraph">
+<source xml:lang="en">HTTPs</source>
+<seg-source><mrk mid="0" mtype="seg">HTTPs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HTTPs</mrk></target>
+</trans-unit>
+<trans-unit id="tu137" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>TCP<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>TCP<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>TCP<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu139" restype="x-paragraph">
+<source xml:lang="en">8643</source>
+<seg-source><mrk mid="0" mtype="seg">8643</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">8643</mrk></target>
+</trans-unit>
+<trans-unit id="tu141" restype="x-paragraph">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Management Console interface for Intel DCM <ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Management Console interface for Intel DCM <ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Management Console interface for Intel DCM <ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu142" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Localhost only<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Localhost only<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Localhost only<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu143" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>-<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>-<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>-<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu144" restype="x-td">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+</group>
+<group id="sg25">
+<trans-unit id="tu146" restype="x-paragraph">
+<source xml:lang="en">HTTP</source>
+<seg-source><mrk mid="0" mtype="seg">HTTP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HTTP</mrk></target>
+</trans-unit>
+<trans-unit id="tu147" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>UDP<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>UDP<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>UDP<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu149" restype="x-paragraph">
+<source xml:lang="en">8688</source>
+<seg-source><mrk mid="0" mtype="seg">8688</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">8688</mrk></target>
+</trans-unit>
+<trans-unit id="tu150" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Management Console interface for Intel DCM <ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Management Console interface for Intel DCM <ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Management Console interface for Intel DCM <ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu151" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Localhost only<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Localhost only<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Localhost only<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu152" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>-<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>-<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>-<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu153" restype="x-td">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+</group>
+<group id="sg26">
+<trans-unit id="tu155" restype="x-paragraph">
+<source xml:lang="en">Postgres</source>
+<seg-source><mrk mid="0" mtype="seg">Postgres</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Postgres</mrk></target>
+</trans-unit>
+<trans-unit id="tu156" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>UDP<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>UDP<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>UDP<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu158" restype="x-paragraph">
+<source xml:lang="en">6443</source>
+<seg-source><mrk mid="0" mtype="seg">6443</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">6443</mrk></target>
+</trans-unit>
+<trans-unit id="tu159" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Localhost only - internal Intel DCM database connection<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Localhost only - internal Intel DCM database connection<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Localhost only - internal Intel DCM database connection<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu160" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Localhost only<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Localhost only<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Localhost only<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu161" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>-<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>-<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>-<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu162" restype="x-td">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+</group>
+<group id="sg27">
+<trans-unit id="tu163" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>Server Access - related protocols<ept id="1">&lt;/strong&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>Server Access - related protocols<ept id="1">&lt;/strong&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>Server Access - related protocols<ept id="1">&lt;/strong&gt;</ept></mrk></target>
+</trans-unit>
+</group>
+<group id="sg28">
+<trans-unit id="tu164" restype="x-td">
+<source xml:lang="en">VNC</source>
+<seg-source><mrk mid="0" mtype="seg">VNC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VNC</mrk></target>
+</trans-unit>
+<trans-unit id="tu165" restype="x-td">
+<source xml:lang="en">RFB</source>
+<seg-source><mrk mid="0" mtype="seg">RFB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RFB</mrk></target>
+</trans-unit>
+<trans-unit id="tu166" restype="x-td">
+<source xml:lang="en">5900 (default)</source>
+<seg-source><mrk mid="0" mtype="seg">5900 (default)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">5900 (default)</mrk></target>
+</trans-unit>
+<trans-unit id="tu167" restype="x-td">
+<source xml:lang="en">Bandwidth usage is very depended on screen activity and usage</source>
+<seg-source><mrk mid="0" mtype="seg">Bandwidth usage is very depended on screen activity and usage</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bandwidth usage is very depended on screen activity and usage</mrk></target>
+</trans-unit>
+<trans-unit id="tu169" restype="x-ri:content-title">
+<source xml:lang="en">Server Access through Various Protocols</source>
+<seg-source><mrk mid="0" mtype="seg">Server Access through Various Protocols</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Server Access through Various Protocols</mrk></target>
+</trans-unit>
+<trans-unit id="tu168" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>More info can be found <ept id="1">&lt;/span&gt;</ept><it id="2" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>More info can be found <ept id="1">&lt;/span&gt;</ept><it id="2" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>More info can be found <ept id="1">&lt;/span&gt;</ept><it id="2" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu170">
+<source xml:lang="en"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="4" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it><bpt id="3" ctype="x-span">&lt;span&gt;</bpt> <ept id="3">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="4" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it><bpt id="3" ctype="x-span">&lt;span&gt;</bpt> <ept id="3">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="4" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it><bpt id="3" ctype="x-span">&lt;span&gt;</bpt> <ept id="3">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu171" restype="x-td">
+<source xml:lang="en">The encryption is depended on the OS and the installed VNC application</source>
+<seg-source><mrk mid="0" mtype="seg">The encryption is depended on the OS and the installed VNC application</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The encryption is depended on the OS and the installed VNC application</mrk></target>
+</trans-unit>
+<trans-unit id="tu172" restype="x-td">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+</group>
+<group id="sg29">
+<trans-unit id="tu173" restype="x-td">
+<source xml:lang="en">SSH</source>
+<seg-source><mrk mid="0" mtype="seg">SSH</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSH</mrk></target>
+</trans-unit>
+<trans-unit id="tu174" restype="x-td">
+<source xml:lang="en">TCP</source>
+<seg-source><mrk mid="0" mtype="seg">TCP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TCP</mrk></target>
+</trans-unit>
+<trans-unit id="tu175" restype="x-td">
+<source xml:lang="en">22</source>
+<seg-source><mrk mid="0" mtype="seg">22</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">22</mrk></target>
+</trans-unit>
+<trans-unit id="tu176" restype="x-td">
+<source xml:lang="en">Since text only is transferred the bandwidth requirement is very limited.</source>
+<seg-source><mrk mid="0" mtype="seg">Since text only is transferred the bandwidth requirement is very limited.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Since text only is transferred the bandwidth requirement is very limited.</mrk></target>
+</trans-unit>
+<trans-unit id="tu178" restype="x-ri:content-title">
+<source xml:lang="en">Server Access through Various Protocols</source>
+<seg-source><mrk mid="0" mtype="seg">Server Access through Various Protocols</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Server Access through Various Protocols</mrk></target>
+</trans-unit>
+<trans-unit id="tu177" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>More info can be found <ept id="1">&lt;/span&gt;</ept><it id="2" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>More info can be found <ept id="1">&lt;/span&gt;</ept><it id="2" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>More info can be found <ept id="1">&lt;/span&gt;</ept><it id="2" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu179">
+<source xml:lang="en"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="4" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it><bpt id="3" ctype="x-span">&lt;span&gt;</bpt> <ept id="3">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="4" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it><bpt id="3" ctype="x-span">&lt;span&gt;</bpt> <ept id="3">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="4" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it><bpt id="3" ctype="x-span">&lt;span&gt;</bpt> <ept id="3">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu180" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Server determine cipher type and key length<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Server determine cipher type and key length<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Server determine cipher type and key length<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu181" restype="x-td">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+</group>
+<group id="sg30">
+<trans-unit id="tu182" restype="x-td">
+<source xml:lang="en">RDP</source>
+<seg-source><mrk mid="0" mtype="seg">RDP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RDP</mrk></target>
+</trans-unit>
+<trans-unit id="tu183" restype="x-td">
+<source xml:lang="en">TCP</source>
+<seg-source><mrk mid="0" mtype="seg">TCP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TCP</mrk></target>
+</trans-unit>
+<trans-unit id="tu184" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span style="color: rgb(37,37,37);"&gt;</bpt>3389 (default)<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span style="color: rgb(37,37,37);"&gt;</bpt>3389 (default)<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span style="color: rgb(37,37,37);"&gt;</bpt>3389 (default)<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu185" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Bandwidth usage is very depended on screen activity and usage<ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Bandwidth usage is very depended on screen activity and usage<ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>Bandwidth usage is very depended on screen activity and usage<ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu187" restype="x-ri:content-title">
+<source xml:lang="en">Server Access through Various Protocols</source>
+<seg-source><mrk mid="0" mtype="seg">Server Access through Various Protocols</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Server Access through Various Protocols</mrk></target>
+</trans-unit>
+<trans-unit id="tu186" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>More info can be found <ept id="1">&lt;/span&gt;</ept><it id="2" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>More info can be found <ept id="1">&lt;/span&gt;</ept><it id="2" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span&gt;</bpt>More info can be found <ept id="1">&lt;/span&gt;</ept><it id="2" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu188">
+<source xml:lang="en"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="4" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it><bpt id="3" ctype="x-span">&lt;span&gt;</bpt> <ept id="3">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="4" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it><bpt id="3" ctype="x-span">&lt;span&gt;</bpt> <ept id="3">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="4" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it><bpt id="3" ctype="x-span">&lt;span&gt;</bpt> <ept id="3">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu189" restype="x-td">
+<source xml:lang="en"><it id="1" ctype="x-span" pos="open">&lt;span style="color: rgb(37,37,37);"&gt;</it>The encryption is depended on the OS and the installed application. Default 128-bit encryption, using the <it id="1" ctype="x-span" pos="close">&lt;/span&gt;</it>RC4<bpt id="2" ctype="x-span">&lt;span style="color: rgb(37,37,37);"&gt;</bpt> encryption algorithm<ept id="2">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-span" pos="open">&lt;span style="color: rgb(37,37,37);"&gt;</it>The encryption is depended on the OS and the installed application.</mrk><mrk mid="1" mtype="seg"> Default 128-bit encryption, using the <it id="1" ctype="x-span" pos="close">&lt;/span&gt;</it>RC4<bpt id="2" ctype="x-span">&lt;span style="color: rgb(37,37,37);"&gt;</bpt> encryption algorithm<ept id="2">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-span" pos="open">&lt;span style="color: rgb(37,37,37);"&gt;</it>The encryption is depended on the OS and the installed application.</mrk><mrk mid="1" mtype="seg"> Default 128-bit encryption, using the <it id="1" ctype="x-span" pos="close">&lt;/span&gt;</it>RC4<bpt id="2" ctype="x-span">&lt;span style="color: rgb(37,37,37);"&gt;</bpt> encryption algorithm<ept id="2">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu190" restype="x-td">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+</group>
+</group>
+</group>
+<group id="sg31">
+</group>
+<group id="sg32">
+</group>
+<trans-unit id="tu192" restype="x-paragraph">
+<source xml:lang="en"><it id="1" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it>A 1024-bit RSA key is generated and used for SSL communication. The key is self-<it id="1" ctype="x-span" pos="close">&lt;/span&gt;</it><bpt id="2" ctype="x-span">&lt;span style="color: rgb(102,102,102);"&gt;</bpt> <ept id="2">&lt;/span&gt;</ept><it id="3" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it>signed and will generally require the user to trust the signing authority. When connecting to an <it id="3" ctype="x-span" pos="close">&lt;/span&gt;</it><ph id="4" ctype="x-ac:macro">[#$sg31]</ph><it id="5" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it>server, <ph id="6" ctype="x-ac:macro">[#$sg32]</ph>presents a dialog asking the user to trust the certificate. <it id="5" ctype="x-span" pos="close">&lt;/span&gt;</it><bpt id="7" ctype="x-span">&lt;span style="color: rgb(102,102,102);"&gt;</bpt>The keystore where the RSA key is stored is password protected.<ept id="7">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it>A 1024-bit RSA key is generated and used for SSL communication.</mrk><mrk mid="1" mtype="seg"> The key is self-<it id="1" ctype="x-span" pos="close">&lt;/span&gt;</it><bpt id="2" ctype="x-span">&lt;span style="color: rgb(102,102,102);"&gt;</bpt> <ept id="2">&lt;/span&gt;</ept><it id="3" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it>signed and will generally require the user to trust the signing authority.</mrk><mrk mid="2" mtype="seg"> When connecting to an <it id="3" ctype="x-span" pos="close">&lt;/span&gt;</it><ph id="4" ctype="x-ac:macro">[#$sg31]</ph><it id="5" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it>server, <ph id="6" ctype="x-ac:macro">[#$sg32]</ph>presents a dialog asking the user to trust the certificate.</mrk><mrk mid="3" mtype="seg"> <it id="5" ctype="x-span" pos="close">&lt;/span&gt;</it><bpt id="7" ctype="x-span">&lt;span style="color: rgb(102,102,102);"&gt;</bpt>The keystore where the RSA key is stored is password protected.<ept id="7">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it>A 1024-bit RSA key is generated and used for SSL communication.</mrk><mrk mid="1" mtype="seg"> The key is self-<it id="1" ctype="x-span" pos="close">&lt;/span&gt;</it><bpt id="2" ctype="x-span">&lt;span style="color: rgb(102,102,102);"&gt;</bpt> <ept id="2">&lt;/span&gt;</ept><it id="3" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it>signed and will generally require the user to trust the signing authority.</mrk><mrk mid="2" mtype="seg"> When connecting to an <it id="3" ctype="x-span" pos="close">&lt;/span&gt;</it><ph id="4" ctype="x-ac:macro">[#$sg31]</ph><it id="5" ctype="x-span" pos="open">&lt;span class="tx" style="color: rgb(102,102,102);"&gt;</it>server, <ph id="6" ctype="x-ac:macro">[#$sg32]</ph>presents a dialog asking the user to trust the certificate.</mrk><mrk mid="3" mtype="seg"> <it id="5" ctype="x-span" pos="close">&lt;/span&gt;</it><bpt id="7" ctype="x-span">&lt;span style="color: rgb(102,102,102);"&gt;</bpt>The keystore where the RSA key is stored is password protected.<ept id="7">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<group id="sg33">
+</group>
+<trans-unit id="tu193" restype="x-h2">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>Packages being used in <ph id="2" ctype="x-ac:macro">[#$sg33]</ph> server<ept id="1">&lt;/strong&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>Packages being used in <ph id="2" ctype="x-ac:macro">[#$sg33]</ph> server<ept id="1">&lt;/strong&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>Packages being used in <ph id="2" ctype="x-ac:macro">[#$sg33]</ph> server<ept id="1">&lt;/strong&gt;</ept></mrk></target>
+</trans-unit>
+<group id="sg34">
+</group>
+<trans-unit id="tu195" restype="x-ri:content-title">
+<source xml:lang="en">Software Packages in StruxureWare Data Center IT Optimize</source>
+<seg-source><mrk mid="0" mtype="seg">Software Packages in StruxureWare Data Center IT Optimize</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Software Packages in StruxureWare Data Center IT Optimize</mrk></target>
+</trans-unit>
+<trans-unit id="tu194" restype="x-paragraph">
+<source xml:lang="en">Packages and their version numbers being used in <ph id="1" ctype="x-ac:macro">[#$sg34]</ph> server can be found <it id="2" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg">Packages and their version numbers being used in <ph id="1" ctype="x-ac:macro">[#$sg34]</ph> server can be found <it id="2" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Packages and their version numbers being used in <ph id="1" ctype="x-ac:macro">[#$sg34]</ph> server can be found <it id="2" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu196">
+<source xml:lang="en"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="3" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="3" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="3" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu197" restype="x-h2">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong style="font-size: 20.0px;line-height: 1.5;"&gt;</bpt>Firewall configuration<ept id="1">&lt;/strong&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong style="font-size: 20.0px;line-height: 1.5;"&gt;</bpt>Firewall configuration<ept id="1">&lt;/strong&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong style="font-size: 20.0px;line-height: 1.5;"&gt;</bpt>Firewall configuration<ept id="1">&lt;/strong&gt;</ept></mrk></target>
+</trans-unit>
+<group id="sg35">
+</group>
+<trans-unit id="tu198" restype="x-paragraph">
+<source xml:lang="en"><ph id="1" ctype="x-ac:macro">[#$sg35]</ph> does not contain any firewall in the installation. The firewall must be allowing ports as needed from the above table of ports and protocols.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-ac:macro">[#$sg35]</ph> does not contain any firewall in the installation.</mrk><mrk mid="1" mtype="seg"> The firewall must be allowing ports as needed from the above table of ports and protocols.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-ac:macro">[#$sg35]</ph> does not contain any firewall in the installation.</mrk><mrk mid="1" mtype="seg"> The firewall must be allowing ports as needed from the above table of ports and protocols.</mrk></target>
+</trans-unit>
+<trans-unit id="tu199" restype="x-h2">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong style="font-size: 20.0px;line-height: 1.5;"&gt;</bpt>Software Vulnerability, Scan(s) and Certifications<ept id="1">&lt;/strong&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong style="font-size: 20.0px;line-height: 1.5;"&gt;</bpt>Software Vulnerability, Scan(s) and Certifications<ept id="1">&lt;/strong&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong style="font-size: 20.0px;line-height: 1.5;"&gt;</bpt>Software Vulnerability, Scan(s) and Certifications<ept id="1">&lt;/strong&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu201" restype="x-ri:content-title">
+<source xml:lang="en">StruxureWare Data Center: IT Optimize Software Vulnerabilities</source>
+<seg-source><mrk mid="0" mtype="seg">StruxureWare Data Center: IT Optimize Software Vulnerabilities</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">StruxureWare Data Center: IT Optimize Software Vulnerabilities</mrk></target>
+</trans-unit>
+<trans-unit id="tu200" restype="x-paragraph">
+<source xml:lang="en">Status in terms of general known vulnerabilities can be found <it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg">Status in terms of general known vulnerabilities can be found <it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Status in terms of general known vulnerabilities can be found <it id="1" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu202">
+<source xml:lang="en"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="3" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="3" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ac:plain-text-link-body">&lt;ac:plain-text-link-body&gt;</bpt><bpt id="2" ctype="x-cdata">&lt;![CDATA[</bpt>here<ept id="2">]]&gt;</ept><ept id="1">&lt;/ac:plain-text-link-body&gt;</ept><it id="3" ctype="x-ac:link" pos="close">&lt;/ac:link&gt;</it>.</mrk></target>
+</trans-unit>
+<group id="sg36">
+<group id="sg37">
+<group id="sg38">
+<group id="sg39">
+<group id="sg40">
+<group id="sg41">
+<trans-unit id="tu203">
+<source xml:lang="en">A software scanning tool is run against every release of the product. The results are investigated and needed action in terms of security updates etc. taken. The scanning tool used is named <bpt id="1" ctype="x-strong">&lt;strong style="color: rgb(112,112,112);line-height: 1.6666666;"&gt;</bpt><bpt id="2" ctype="x-em">&lt;em&gt;</bpt>Nessus.<ept id="2">&lt;/em&gt;</ept><ept id="1">&lt;/strong&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">A software scanning tool is run against every release of the product.</mrk><mrk mid="1" mtype="seg"> The results are investigated and needed action in terms of security updates etc.</mrk><mrk mid="2" mtype="seg"> taken.</mrk><mrk mid="3" mtype="seg"> The scanning tool used is named <bpt id="1" ctype="x-strong">&lt;strong style="color: rgb(112,112,112);line-height: 1.6666666;"&gt;</bpt><bpt id="2" ctype="x-em">&lt;em&gt;</bpt>Nessus.<ept id="2">&lt;/em&gt;</ept><ept id="1">&lt;/strong&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A software scanning tool is run against every release of the product.</mrk><mrk mid="1" mtype="seg"> The results are investigated and needed action in terms of security updates etc.</mrk><mrk mid="2" mtype="seg"> taken.</mrk><mrk mid="3" mtype="seg"> The scanning tool used is named <bpt id="1" ctype="x-strong">&lt;strong style="color: rgb(112,112,112);line-height: 1.6666666;"&gt;</bpt><bpt id="2" ctype="x-em">&lt;em&gt;</bpt>Nessus.<ept id="2">&lt;/em&gt;</ept><ept id="1">&lt;/strong&gt;</ept></mrk></target>
+</trans-unit>
+<group id="sg42">
+<trans-unit id="tu204">
+<source xml:lang="en"><it id="1" ctype="x-span" pos="open">&lt;span class="tx"&gt;</it>Nessus is a network vulnerability scan utility. It scans the server as a network device and not just a web<it id="1" ctype="x-span" pos="close">&lt;/span&gt;</it><it id="2" ctype="x-span" pos="open">&lt;span class="tx"&gt;</it>server. <it id="2" ctype="x-span" pos="close">&lt;/span&gt;</it>Please contact us for details.</source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-span" pos="open">&lt;span class="tx"&gt;</it>Nessus is a network vulnerability scan utility.</mrk><mrk mid="1" mtype="seg"> It scans the server as a network device and not just a web<it id="1" ctype="x-span" pos="close">&lt;/span&gt;</it><it id="2" ctype="x-span" pos="open">&lt;span class="tx"&gt;</it>server.</mrk><mrk mid="2" mtype="seg"> <it id="2" ctype="x-span" pos="close">&lt;/span&gt;</it>Please contact us for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-span" pos="open">&lt;span class="tx"&gt;</it>Nessus is a network vulnerability scan utility.</mrk><mrk mid="1" mtype="seg"> It scans the server as a network device and not just a web<it id="1" ctype="x-span" pos="close">&lt;/span&gt;</it><it id="2" ctype="x-span" pos="open">&lt;span class="tx"&gt;</it>server.</mrk><mrk mid="2" mtype="seg"> <it id="2" ctype="x-span" pos="close">&lt;/span&gt;</it>Please contact us for details.</mrk></target>
+</trans-unit>
+</group>
+</group>
+</group>
+</group>
+</group>
+<trans-unit id="tu205" restype="x-h2">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>Antivirus<ept id="1">&lt;/strong&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>Antivirus<ept id="1">&lt;/strong&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>Antivirus<ept id="1">&lt;/strong&gt;</ept></mrk></target>
+</trans-unit>
+<group id="sg43">
+</group>
+<group id="sg44">
+</group>
+<trans-unit id="tu206" restype="x-paragraph">
+<source xml:lang="en">Antivirus tools are not provided with the <ph id="1" ctype="x-ac:macro">[#$sg43]</ph>server installation. Antivirus is allowed on the <ph id="2" ctype="x-ac:macro">[#$sg44]</ph>server and target client. It is recommended to exclude the data folders for the databases to maintain performance and reduce problems when installing and upgrading ITO software.</source>
+<seg-source><mrk mid="0" mtype="seg">Antivirus tools are not provided with the <ph id="1" ctype="x-ac:macro">[#$sg43]</ph>server installation.</mrk><mrk mid="1" mtype="seg"> Antivirus is allowed on the <ph id="2" ctype="x-ac:macro">[#$sg44]</ph>server and target client.</mrk><mrk mid="2" mtype="seg"> It is recommended to exclude the data folders for the databases to maintain performance and reduce problems when installing and upgrading ITO software.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Antivirus tools are not provided with the <ph id="1" ctype="x-ac:macro">[#$sg43]</ph>server installation.</mrk><mrk mid="1" mtype="seg"> Antivirus is allowed on the <ph id="2" ctype="x-ac:macro">[#$sg44]</ph>server and target client.</mrk><mrk mid="2" mtype="seg"> It is recommended to exclude the data folders for the databases to maintain performance and reduce problems when installing and upgrading ITO software.</mrk></target>
+</trans-unit>
+<trans-unit id="tu207" restype="x-h2">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>Logging<ept id="1">&lt;/strong&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>Logging<ept id="1">&lt;/strong&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt>Logging<ept id="1">&lt;/strong&gt;</ept></mrk></target>
+</trans-unit>
+<group id="sg45">
+</group>
+<trans-unit id="tu208" restype="x-paragraph">
+<source xml:lang="en">Log files can be found in the .log folder in the installation directory of the <ph id="1" ctype="x-ac:macro">[#$sg45]</ph> server</source>
+<seg-source><mrk mid="0" mtype="seg">Log files can be found in the .log folder in the installation directory of the <ph id="1" ctype="x-ac:macro">[#$sg45]</ph> server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Log files can be found in the .log folder in the installation directory of the <ph id="1" ctype="x-ac:macro">[#$sg45]</ph> server</mrk></target>
+</trans-unit>
+<trans-unit id="tu209" restype="x-h2">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong style="line-height: 1.4285715;"&gt;</bpt>Database architecture<ept id="1">&lt;/strong&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong style="line-height: 1.4285715;"&gt;</bpt>Database architecture<ept id="1">&lt;/strong&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong style="line-height: 1.4285715;"&gt;</bpt>Database architecture<ept id="1">&lt;/strong&gt;</ept></mrk></target>
+</trans-unit>
+<group id="sg46">
+</group>
+<trans-unit id="tu210" restype="x-paragraph">
+<source xml:lang="en"><ph id="1" ctype="x-ac:macro">[#$sg46]</ph>d<bpt id="2" ctype="x-span">&lt;span style="line-height: 1.4285715;"&gt;</bpt>atabase technology is <ept id="2">&lt;/span&gt;</ept>MariaDB version 5.2.14 and cannot be exchanged with any other database type or technology.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-ac:macro">[#$sg46]</ph>d<bpt id="2" ctype="x-span">&lt;span style="line-height: 1.4285715;"&gt;</bpt>atabase technology is <ept id="2">&lt;/span&gt;</ept>MariaDB version 5.2.14 and cannot be exchanged with any other database type or technology.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-ac:macro">[#$sg46]</ph>d<bpt id="2" ctype="x-span">&lt;span style="line-height: 1.4285715;"&gt;</bpt>atabase technology is <ept id="2">&lt;/span&gt;</ept>MariaDB version 5.2.14 and cannot be exchanged with any other database type or technology.</mrk></target>
+</trans-unit>
+<group id="sg47">
+<group id="sg48">
+<group id="sg49">
+<trans-unit id="tu213" restype="x-paragraph">
+<source xml:lang="en">See also</source>
+<seg-source><mrk mid="0" mtype="seg">See also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See also</mrk></target>
+</trans-unit>
+</group>
+</group>
+</group>
+<trans-unit id="tu215" restype="x-ri:content-title">
+<source xml:lang="en">StruxureWare Data Center Operation: IT Optimize</source>
+<seg-source><mrk mid="0" mtype="seg">StruxureWare Data Center Operation: IT Optimize</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">StruxureWare Data Center Operation: IT Optimize</mrk></target>
+</trans-unit>
+<trans-unit id="tu214" restype="x-paragraph">
+<source xml:lang="en"><ph id="1" ctype="x-br">&lt;br /&gt;</ph> <it id="2" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-br">&lt;br /&gt;</ph> <it id="2" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-br">&lt;br /&gt;</ph> <it id="2" ctype="x-ac:link" pos="open">&lt;ac:link&gt;</it></mrk></target>
+</trans-unit>
+</group>
+</group>
+</body>

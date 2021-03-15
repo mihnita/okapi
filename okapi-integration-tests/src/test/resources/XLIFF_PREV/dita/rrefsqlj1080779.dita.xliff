@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj1080779.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Expression precedence</source>
+<seg-source><mrk mid="0" mtype="seg">Expression precedence</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Expression precedence</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Expressions</source>
+<seg-source><mrk mid="0" mtype="seg">Expressions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Expressions</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">hierarchy of</source>
+<seg-source><mrk mid="0" mtype="seg">hierarchy of</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hierarchy of</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">precedence of</source>
+<seg-source><mrk mid="0" mtype="seg">precedence of</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">precedence of</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Precedence of operations from highest to lowest is:</source>
+<seg-source><mrk mid="0" mtype="seg">Precedence of operations from highest to lowest is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Precedence of operations from highest to lowest is:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">(), ?, Constant (including sign), NULL, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>columnReference<ept id="1">&lt;/i&gt;</ept>, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>scalarSubquery<ept id="2">&lt;/i&gt;</ept>, CAST</source>
+<seg-source><mrk mid="0" mtype="seg">(), ?, Constant (including sign), NULL, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>columnReference<ept id="1">&lt;/i&gt;</ept>, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>scalarSubquery<ept id="2">&lt;/i&gt;</ept>, CAST</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(), ?, Constant (including sign), NULL, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>columnReference<ept id="1">&lt;/i&gt;</ept>, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>scalarSubquery<ept id="2">&lt;/i&gt;</ept>, CAST</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">LENGTH, CURRENT_DATE, CURRENT_TIME, CURRENT_TIMESTAMP, and other built-ins</source>
+<seg-source><mrk mid="0" mtype="seg">LENGTH, CURRENT_DATE, CURRENT_TIME, CURRENT_TIMESTAMP, and other built-ins</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LENGTH, CURRENT_DATE, CURRENT_TIME, CURRENT_TIMESTAMP, and other built-ins</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">unary + and -</source>
+<seg-source><mrk mid="0" mtype="seg">unary + and -</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">unary + and -</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">*, /, || (concatenation)</source>
+<seg-source><mrk mid="0" mtype="seg">*, /, || (concatenation)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*, /, || (concatenation)</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">binary + and -</source>
+<seg-source><mrk mid="0" mtype="seg">binary + and -</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">binary + and -</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">comparisons, quantified comparisons, EXISTS, IN, IS NULL, LIKE, BETWEEN, IS</source>
+<seg-source><mrk mid="0" mtype="seg">comparisons, quantified comparisons, EXISTS, IN, IS NULL, LIKE, BETWEEN, IS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">comparisons, quantified comparisons, EXISTS, IN, IS NULL, LIKE, BETWEEN, IS</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">NOT</source>
+<seg-source><mrk mid="0" mtype="seg">NOT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NOT</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">AND</source>
+<seg-source><mrk mid="0" mtype="seg">AND</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AND</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">OR</source>
+<seg-source><mrk mid="0" mtype="seg">OR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OR</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">You can explicitly specify precedence by placing expressions within parentheses. An expression within parentheses is evaluated before any operations outside the parentheses are applied to it.</source>
+<seg-source><mrk mid="0" mtype="seg">You can explicitly specify precedence by placing expressions within parentheses.</mrk><mrk mid="1" mtype="seg"> An expression within parentheses is evaluated before any operations outside the parentheses are applied to it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can explicitly specify precedence by placing expressions within parentheses.</mrk><mrk mid="1" mtype="seg"> An expression within parentheses is evaluated before any operations outside the parentheses are applied to it.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>(3+4)*9 (age &lt; 16 OR age &gt; 65) AND employed = TRUE<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>(3+4)*9 (age &lt; 16 OR age &gt; 65) AND employed = TRUE<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>(3+4)*9 (age &lt; 16 OR age &gt; 65) AND employed = TRUE<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="example1.md" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">An h1 header</source>
+<seg-source><mrk mid="0" mtype="seg">An h1 header</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An h1 header</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Paragraphs are separated by a blank line.</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraphs are separated by a blank line.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraphs are separated by a blank line.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">2nd paragraph. <bpt id="1" ctype="italic">*</bpt>Italic<ept id="1">*</ept>, <bpt id="2" ctype="bold">**</bpt>bold<ept id="2">**</ept>, and <bpt id="3" ctype="x-CODE">`</bpt>monospace<ept id="3">`</ept>. Itemized lists
+look like:</source>
+<seg-source><mrk mid="0" mtype="seg">2nd paragraph.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="italic">*</bpt>Italic<ept id="1">*</ept>, <bpt id="2" ctype="bold">**</bpt>bold<ept id="2">**</ept>, and <bpt id="3" ctype="x-CODE">`</bpt>monospace<ept id="3">`</ept>.</mrk><mrk mid="2" mtype="seg"> Itemized lists</mrk>
+<mrk mid="3" mtype="seg">look like:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2nd paragraph.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="italic">*</bpt>Italic<ept id="1">*</ept>, <bpt id="2" ctype="bold">**</bpt>bold<ept id="2">**</ept>, and <bpt id="3" ctype="x-CODE">`</bpt>monospace<ept id="3">`</ept>.</mrk><mrk mid="2" mtype="seg"> Itemized lists</mrk>
+<mrk mid="3" mtype="seg">look like:</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">this one</source>
+<seg-source><mrk mid="0" mtype="seg">this one</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">this one</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">that one</source>
+<seg-source><mrk mid="0" mtype="seg">that one</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">that one</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">the other one</source>
+<seg-source><mrk mid="0" mtype="seg">the other one</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the other one</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">Note that --- not considering the asterisk --- the actual text
+content starts at 4-columns in.</source>
+<seg-source><mrk mid="0" mtype="seg">Note that --- not considering the asterisk --- the actual text</mrk>
+<mrk mid="1" mtype="seg">content starts at 4-columns in.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note that --- not considering the asterisk --- the actual text</mrk>
+<mrk mid="1" mtype="seg">content starts at 4-columns in.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">Block quotes are
+written like so.</source>
+<seg-source><mrk mid="0" mtype="seg">Block quotes are</mrk>
+<mrk mid="1" mtype="seg">written like so.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Block quotes are</mrk>
+<mrk mid="1" mtype="seg">written like so.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">They can span multiple paragraphs,
+if you like.</source>
+<seg-source><mrk mid="0" mtype="seg">They can span multiple paragraphs,</mrk>
+<mrk mid="1" mtype="seg">if you like.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">They can span multiple paragraphs,</mrk>
+<mrk mid="1" mtype="seg">if you like.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en">Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
+in chapters 12--14"). Three dots ... will be converted to an ellipsis.
+Unicode is supported. ☺</source>
+<seg-source><mrk mid="0" mtype="seg">Use 3 dashes for an em-dash.</mrk><mrk mid="1" mtype="seg"> Use 2 dashes for ranges (ex., "it's all</mrk>
+<mrk mid="2" mtype="seg">in chapters 12--14").</mrk><mrk mid="3" mtype="seg"> Three dots ...</mrk><mrk mid="4" mtype="seg"> will be converted to an ellipsis.</mrk>
+<mrk mid="5" mtype="seg">Unicode is supported.</mrk><mrk mid="6" mtype="seg"> ☺</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use 3 dashes for an em-dash.</mrk><mrk mid="1" mtype="seg"> Use 2 dashes for ranges (ex., "it's all</mrk>
+<mrk mid="2" mtype="seg">in chapters 12--14").</mrk><mrk mid="3" mtype="seg"> Three dots ...</mrk><mrk mid="4" mtype="seg"> will be converted to an ellipsis.</mrk>
+<mrk mid="5" mtype="seg">Unicode is supported.</mrk><mrk mid="6" mtype="seg"> ☺</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" xml:space="preserve">
+<source xml:lang="en">An h2 header</source>
+<seg-source><mrk mid="0" mtype="seg">An h2 header</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An h2 header</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" xml:space="preserve">
+<source xml:lang="en">Here's a numbered list:</source>
+<seg-source><mrk mid="0" mtype="seg">Here's a numbered list:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here's a numbered list:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" xml:space="preserve">
+<source xml:lang="en">first item</source>
+<seg-source><mrk mid="0" mtype="seg">first item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">first item</mrk></target>
+</trans-unit>
+<trans-unit id="tu14" xml:space="preserve">
+<source xml:lang="en">second item</source>
+<seg-source><mrk mid="0" mtype="seg">second item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">second item</mrk></target>
+</trans-unit>
+<trans-unit id="tu15" xml:space="preserve">
+<source xml:lang="en">third item</source>
+<seg-source><mrk mid="0" mtype="seg">third item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">third item</mrk></target>
+</trans-unit>
+<trans-unit id="tu16" xml:space="preserve">
+<source xml:lang="en">Note again how the actual text starts at 4 columns in (4 characters
+from the left side). Here's a code sample:</source>
+<seg-source><mrk mid="0" mtype="seg">Note again how the actual text starts at 4 columns in (4 characters</mrk>
+<mrk mid="1" mtype="seg">from the left side).</mrk><mrk mid="2" mtype="seg"> Here's a code sample:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note again how the actual text starts at 4 columns in (4 characters</mrk>
+<mrk mid="1" mtype="seg">from the left side).</mrk><mrk mid="2" mtype="seg"> Here's a code sample:</mrk></target>
+</trans-unit>
+<trans-unit id="tu17" xml:space="preserve">
+<source xml:lang="en"># Let me re-iterate ...
+for i in 1 .. 10 { do-something(i) }
+</source>
+<seg-source><mrk mid="0" mtype="seg"># Let me re-iterate ...</mrk>
+<mrk mid="1" mtype="seg">for i in 1 ..</mrk><mrk mid="2" mtype="seg"> 10 { do-something(i) }</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"># Let me re-iterate ...</mrk>
+<mrk mid="1" mtype="seg">for i in 1 ..</mrk><mrk mid="2" mtype="seg"> 10 { do-something(i) }</mrk>
+</target>
+</trans-unit>
+<trans-unit id="tu18" xml:space="preserve">
+<source xml:lang="en">As you probably guessed, indented 4 spaces. By the way, instead of
+indenting the block, you can use delimited blocks, if you like:</source>
+<seg-source><mrk mid="0" mtype="seg">As you probably guessed, indented 4 spaces.</mrk><mrk mid="1" mtype="seg"> By the way, instead of</mrk>
+<mrk mid="2" mtype="seg">indenting the block, you can use delimited blocks, if you like:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">As you probably guessed, indented 4 spaces.</mrk><mrk mid="1" mtype="seg"> By the way, instead of</mrk>
+<mrk mid="2" mtype="seg">indenting the block, you can use delimited blocks, if you like:</mrk></target>
+</trans-unit>
+<trans-unit id="tu19" xml:space="preserve">
+<source xml:lang="en">define foobar() {
+    print "Welcome to flavor country!";
+}
+</source>
+<seg-source><mrk mid="0" mtype="seg">define foobar() {</mrk>
+<mrk mid="1" mtype="seg">    print "Welcome to flavor country!";</mrk>
+<mrk mid="2" mtype="seg">}</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">define foobar() {</mrk>
+<mrk mid="1" mtype="seg">    print "Welcome to flavor country!";</mrk>
+<mrk mid="2" mtype="seg">}</mrk>
+</target>
+</trans-unit>
+<trans-unit id="tu20" xml:space="preserve">
+<source xml:lang="en">(which makes copying &amp; pasting easier). You can optionally mark the
+delimited block for Pandoc to syntax highlight it:</source>
+<seg-source><mrk mid="0" mtype="seg">(which makes copying &amp; pasting easier).</mrk><mrk mid="1" mtype="seg"> You can optionally mark the</mrk>
+<mrk mid="2" mtype="seg">delimited block for Pandoc to syntax highlight it:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(which makes copying &amp; pasting easier).</mrk><mrk mid="1" mtype="seg"> You can optionally mark the</mrk>
+<mrk mid="2" mtype="seg">delimited block for Pandoc to syntax highlight it:</mrk></target>
+</trans-unit>
+<trans-unit id="tu21" xml:space="preserve">
+<source xml:lang="en">import time
+# Quick, count to ten!
+for i in range(10):
+    # (but not *too* quick)
+    time.sleep(0.5)
+    print i
+</source>
+<seg-source><mrk mid="0" mtype="seg">import time</mrk>
+<mrk mid="1" mtype="seg"># Quick, count to ten!</mrk>
+<mrk mid="2" mtype="seg">for i in range(10):</mrk>
+<mrk mid="3" mtype="seg">    # (but not *too* quick)</mrk>
+<mrk mid="4" mtype="seg">    time.sleep(0.5)</mrk>
+<mrk mid="5" mtype="seg">    print i</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">import time</mrk>
+<mrk mid="1" mtype="seg"># Quick, count to ten!</mrk>
+<mrk mid="2" mtype="seg">for i in range(10):</mrk>
+<mrk mid="3" mtype="seg">    # (but not *too* quick)</mrk>
+<mrk mid="4" mtype="seg">    time.sleep(0.5)</mrk>
+<mrk mid="5" mtype="seg">    print i</mrk>
+</target>
+</trans-unit>
+<trans-unit id="tu22" xml:space="preserve">
+<source xml:lang="en">An h3 header</source>
+<seg-source><mrk mid="0" mtype="seg">An h3 header</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An h3 header</mrk></target>
+</trans-unit>
+<trans-unit id="tu23" xml:space="preserve">
+<source xml:lang="en">Now a nested list:</source>
+<seg-source><mrk mid="0" mtype="seg">Now a nested list:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Now a nested list:</mrk></target>
+</trans-unit>
+<trans-unit id="tu24" xml:space="preserve">
+<source xml:lang="en">First, get these ingredients:</source>
+<seg-source><mrk mid="0" mtype="seg">First, get these ingredients:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">First, get these ingredients:</mrk></target>
+</trans-unit>
+<trans-unit id="tu25" xml:space="preserve">
+<source xml:lang="en">carrots</source>
+<seg-source><mrk mid="0" mtype="seg">carrots</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">carrots</mrk></target>
+</trans-unit>
+<trans-unit id="tu26" xml:space="preserve">
+<source xml:lang="en">celery</source>
+<seg-source><mrk mid="0" mtype="seg">celery</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">celery</mrk></target>
+</trans-unit>
+<trans-unit id="tu27" xml:space="preserve">
+<source xml:lang="en">lentils</source>
+<seg-source><mrk mid="0" mtype="seg">lentils</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lentils</mrk></target>
+</trans-unit>
+<trans-unit id="tu28" xml:space="preserve">
+<source xml:lang="en">Boil some water.</source>
+<seg-source><mrk mid="0" mtype="seg">Boil some water.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Boil some water.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29" xml:space="preserve">
+<source xml:lang="en">Dump everything in the pot and follow
+this algorithm:</source>
+<seg-source><mrk mid="0" mtype="seg">Dump everything in the pot and follow</mrk>
+<mrk mid="1" mtype="seg">this algorithm:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dump everything in the pot and follow</mrk>
+<mrk mid="1" mtype="seg">this algorithm:</mrk></target>
+</trans-unit>
+<trans-unit id="tu30" xml:space="preserve">
+<source xml:lang="en">find wooden spoon
+uncover pot
+stir
+cover pot
+balance wooden spoon precariously on pot handle
+wait 10 minutes
+goto first step (or shut off burner when done)
+</source>
+<seg-source><mrk mid="0" mtype="seg">find wooden spoon</mrk>
+<mrk mid="1" mtype="seg">uncover pot</mrk>
+<mrk mid="2" mtype="seg">stir</mrk>
+<mrk mid="3" mtype="seg">cover pot</mrk>
+<mrk mid="4" mtype="seg">balance wooden spoon precariously on pot handle</mrk>
+<mrk mid="5" mtype="seg">wait 10 minutes</mrk>
+<mrk mid="6" mtype="seg">goto first step (or shut off burner when done)</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">find wooden spoon</mrk>
+<mrk mid="1" mtype="seg">uncover pot</mrk>
+<mrk mid="2" mtype="seg">stir</mrk>
+<mrk mid="3" mtype="seg">cover pot</mrk>
+<mrk mid="4" mtype="seg">balance wooden spoon precariously on pot handle</mrk>
+<mrk mid="5" mtype="seg">wait 10 minutes</mrk>
+<mrk mid="6" mtype="seg">goto first step (or shut off burner when done)</mrk>
+</target>
+</trans-unit>
+<trans-unit id="tu31" xml:space="preserve">
+<source xml:lang="en">Do not bump wooden spoon or it will fall.</source>
+<seg-source><mrk mid="0" mtype="seg">Do not bump wooden spoon or it will fall.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Do not bump wooden spoon or it will fall.</mrk></target>
+</trans-unit>
+<trans-unit id="tu32" xml:space="preserve">
+<source xml:lang="en">Notice again how text always lines up on 4-space indents (including
+that last line which continues item 3 above).</source>
+<seg-source><mrk mid="0" mtype="seg">Notice again how text always lines up on 4-space indents (including</mrk>
+<mrk mid="1" mtype="seg">that last line which continues item 3 above).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notice again how text always lines up on 4-space indents (including</mrk>
+<mrk mid="1" mtype="seg">that last line which continues item 3 above).</mrk></target>
+</trans-unit>
+<trans-unit id="tu33" xml:space="preserve">
+<source xml:lang="en">Here's a link to <bpt id="1" ctype="link">[</bpt>a website<ept id="1">](http://foo.bar)</ept>, to a <it id="2" ctype="link" pos="open">[</it>local
+doc<it id="2" ctype="link" pos="close">](local-doc.html)</it>, and to a <it id="3" ctype="link" pos="open">[</it>section heading in the current
+doc<it id="3" ctype="link" pos="close">](#an-h2-header)</it>. Here's a footnote <bpt id="4" ctype="link">[</bpt>^1<ept id="4">]</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Here's a link to <bpt id="1" ctype="link">[</bpt>a website<ept id="1">](http://foo.bar)</ept>, to a <it id="2" ctype="link" pos="open">[</it>local</mrk>
+<mrk mid="1" mtype="seg">doc<it id="2" ctype="link" pos="close">](local-doc.html)</it>, and to a <it id="3" ctype="link" pos="open">[</it>section heading in the current</mrk>
+<mrk mid="2" mtype="seg">doc<it id="3" ctype="link" pos="close">](#an-h2-header)</it>.</mrk><mrk mid="3" mtype="seg"> Here's a footnote <bpt id="4" ctype="link">[</bpt>^1<ept id="4">]</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here's a link to <bpt id="1" ctype="link">[</bpt>a website<ept id="1">](http://foo.bar)</ept>, to a <it id="2" ctype="link" pos="open">[</it>local</mrk>
+<mrk mid="1" mtype="seg">doc<it id="2" ctype="link" pos="close">](local-doc.html)</it>, and to a <it id="3" ctype="link" pos="open">[</it>section heading in the current</mrk>
+<mrk mid="2" mtype="seg">doc<it id="3" ctype="link" pos="close">](#an-h2-header)</it>.</mrk><mrk mid="3" mtype="seg"> Here's a footnote <bpt id="4" ctype="link">[</bpt>^1<ept id="4">]</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[</bpt>^1<ept id="1">]</ept>: Footnote text goes here.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>^1<ept id="1">]</ept>: Footnote text goes here.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>^1<ept id="1">]</ept>: Footnote text goes here.</mrk></target>
+</trans-unit>
+<trans-unit id="tu35" xml:space="preserve">
+<source xml:lang="en">Tables can look like this:</source>
+<seg-source><mrk mid="0" mtype="seg">Tables can look like this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tables can look like this:</mrk></target>
+</trans-unit>
+<trans-unit id="tu36" xml:space="preserve">
+<source xml:lang="en">size  material      color</source>
+<seg-source><mrk mid="0" mtype="seg">size  material      color</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">size  material      color</mrk></target>
+</trans-unit>
+<trans-unit id="tu37" xml:space="preserve">
+<source xml:lang="en">9     leather       brown
+10    hemp canvas   natural
+11    glass         transparent</source>
+<seg-source><mrk mid="0" mtype="seg">9     leather       brown</mrk>
+<mrk mid="1" mtype="seg">10    hemp canvas   natural</mrk>
+<mrk mid="2" mtype="seg">11    glass         transparent</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">9     leather       brown</mrk>
+<mrk mid="1" mtype="seg">10    hemp canvas   natural</mrk>
+<mrk mid="2" mtype="seg">11    glass         transparent</mrk></target>
+</trans-unit>
+<trans-unit id="tu38" xml:space="preserve">
+<source xml:lang="en">Table: Shoes, their sizes, and what they're made of</source>
+<seg-source><mrk mid="0" mtype="seg">Table: Shoes, their sizes, and what they're made of</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Table: Shoes, their sizes, and what they're made of</mrk></target>
+</trans-unit>
+<trans-unit id="tu39" xml:space="preserve">
+<source xml:lang="en">(The above is the caption for the table.) Pandoc also supports
+multi-line tables:</source>
+<seg-source><mrk mid="0" mtype="seg">(The above is the caption for the table.) Pandoc also supports</mrk>
+<mrk mid="1" mtype="seg">multi-line tables:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(The above is the caption for the table.) Pandoc also supports</mrk>
+<mrk mid="1" mtype="seg">multi-line tables:</mrk></target>
+</trans-unit>
+<trans-unit id="tu40" xml:space="preserve">
+<source xml:lang="en">keyword   text</source>
+<seg-source><mrk mid="0" mtype="seg">keyword   text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">keyword   text</mrk></target>
+</trans-unit>
+<trans-unit id="tu41" xml:space="preserve">
+<source xml:lang="en">red       Sunsets, apples, and
+other red or reddish
+things.</source>
+<seg-source><mrk mid="0" mtype="seg">red       Sunsets, apples, and</mrk>
+<mrk mid="1" mtype="seg">other red or reddish</mrk>
+<mrk mid="2" mtype="seg">things.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">red       Sunsets, apples, and</mrk>
+<mrk mid="1" mtype="seg">other red or reddish</mrk>
+<mrk mid="2" mtype="seg">things.</mrk></target>
+</trans-unit>
+<trans-unit id="tu42" xml:space="preserve">
+<source xml:lang="en">green     Leaves, grass, frogs
+and other things it's
+not easy being.</source>
+<seg-source><mrk mid="0" mtype="seg">green     Leaves, grass, frogs</mrk>
+<mrk mid="1" mtype="seg">and other things it's</mrk>
+<mrk mid="2" mtype="seg">not easy being.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">green     Leaves, grass, frogs</mrk>
+<mrk mid="1" mtype="seg">and other things it's</mrk>
+<mrk mid="2" mtype="seg">not easy being.</mrk></target>
+</trans-unit>
+<trans-unit id="tu43" xml:space="preserve">
+<source xml:lang="en">A horizontal rule follows.</source>
+<seg-source><mrk mid="0" mtype="seg">A horizontal rule follows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A horizontal rule follows.</mrk></target>
+</trans-unit>
+<trans-unit id="tu44" xml:space="preserve">
+<source xml:lang="en">Here's a definition list:</source>
+<seg-source><mrk mid="0" mtype="seg">Here's a definition list:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here's a definition list:</mrk></target>
+</trans-unit>
+<trans-unit id="tu45" xml:space="preserve">
+<source xml:lang="en">apples
+: Good for making applesauce.
+oranges
+: Citrus!
+tomatoes
+: There's no "e" in tomatoe.</source>
+<seg-source><mrk mid="0" mtype="seg">apples</mrk>
+<mrk mid="1" mtype="seg">: Good for making applesauce.</mrk>
+<mrk mid="2" mtype="seg">oranges</mrk>
+<mrk mid="3" mtype="seg">: Citrus!</mrk>
+<mrk mid="4" mtype="seg">tomatoes</mrk>
+<mrk mid="5" mtype="seg">: There's no "e" in tomatoe.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">apples</mrk>
+<mrk mid="1" mtype="seg">: Good for making applesauce.</mrk>
+<mrk mid="2" mtype="seg">oranges</mrk>
+<mrk mid="3" mtype="seg">: Citrus!</mrk>
+<mrk mid="4" mtype="seg">tomatoes</mrk>
+<mrk mid="5" mtype="seg">: There's no "e" in tomatoe.</mrk></target>
+</trans-unit>
+<trans-unit id="tu46" xml:space="preserve">
+<source xml:lang="en">Again, text is indented 4 spaces. (Put a blank line between each
+term/definition pair to spread things out more.)</source>
+<seg-source><mrk mid="0" mtype="seg">Again, text is indented 4 spaces.</mrk><mrk mid="1" mtype="seg"> (Put a blank line between each</mrk>
+<mrk mid="2" mtype="seg">term/definition pair to spread things out more.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Again, text is indented 4 spaces.</mrk><mrk mid="1" mtype="seg"> (Put a blank line between each</mrk>
+<mrk mid="2" mtype="seg">term/definition pair to spread things out more.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu47" xml:space="preserve">
+<source xml:lang="en">Here's a "line block":</source>
+<seg-source><mrk mid="0" mtype="seg">Here's a "line block":</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here's a "line block":</mrk></target>
+</trans-unit>
+<trans-unit id="tu48" xml:space="preserve">
+<source xml:lang="en">| Line one
+|   Line too
+| Line tree</source>
+<seg-source><mrk mid="0" mtype="seg">| Line one</mrk>
+<mrk mid="1" mtype="seg">|   Line too</mrk>
+<mrk mid="2" mtype="seg">| Line tree</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">| Line one</mrk>
+<mrk mid="1" mtype="seg">|   Line too</mrk>
+<mrk mid="2" mtype="seg">| Line tree</mrk></target>
+</trans-unit>
+<trans-unit id="tu49" xml:space="preserve">
+<source xml:lang="en">and images can be specified like so:</source>
+<seg-source><mrk mid="0" mtype="seg">and images can be specified like so:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and images can be specified like so:</mrk></target>
+</trans-unit>
+<trans-unit id="tu50" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-IMAGE">![</ph>example image<ph id="2" ctype="x-IMAGE">](example-image.jpg "</ph>An exemplary image<ph id="3" ctype="x-IMAGE">")</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-IMAGE">![</ph>example image<ph id="2" ctype="x-IMAGE">](example-image.jpg "</ph>An exemplary image<ph id="3" ctype="x-IMAGE">")</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-IMAGE">![</ph>example image<ph id="2" ctype="x-IMAGE">](example-image.jpg "</ph>An exemplary image<ph id="3" ctype="x-IMAGE">")</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu51" xml:space="preserve">
+<source xml:lang="en">Inline math equations go in like so: $\omega = d\phi / dt$. Display
+math should get its own line and be put in in double-dollarsigns:</source>
+<seg-source><mrk mid="0" mtype="seg">Inline math equations go in like so: $\omega = d\phi / dt$.</mrk><mrk mid="1" mtype="seg"> Display</mrk>
+<mrk mid="2" mtype="seg">math should get its own line and be put in in double-dollarsigns:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inline math equations go in like so: $\omega = d\phi / dt$.</mrk><mrk mid="1" mtype="seg"> Display</mrk>
+<mrk mid="2" mtype="seg">math should get its own line and be put in in double-dollarsigns:</mrk></target>
+</trans-unit>
+<trans-unit id="tu52" xml:space="preserve">
+<source xml:lang="en">$$I = \int \rho R^{2} dV$$</source>
+<seg-source><mrk mid="0" mtype="seg">$$I = \int \rho R^{2} dV$$</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$$I = \int \rho R^{2} dV$$</mrk></target>
+</trans-unit>
+<trans-unit id="tu53" xml:space="preserve">
+<source xml:lang="en">And note that you can backslash-escape any punctuation characters
+which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.</source>
+<seg-source><mrk mid="0" mtype="seg">And note that you can backslash-escape any punctuation characters</mrk>
+<mrk mid="1" mtype="seg">which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">And note that you can backslash-escape any punctuation characters</mrk>
+<mrk mid="1" mtype="seg">which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

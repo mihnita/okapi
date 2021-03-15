@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdvlp96597.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">One Derby instance for each Java Virtual Machine (JVM)</source>
+<seg-source><mrk mid="0" mtype="seg">One Derby instance for each Java Virtual Machine (JVM)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">One Derby instance for each Java Virtual Machine (JVM)</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You could potentially have two instances of a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system running on the same machine at the same time. Each instance must run in a different Java Virtual Machine (JVM).</source>
+<seg-source><mrk mid="0" mtype="seg">You could potentially have two instances of a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system running on the same machine at the same time.</mrk><mrk mid="1" mtype="seg"> Each instance must run in a different Java Virtual Machine (JVM).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You could potentially have two instances of a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system running on the same machine at the same time.</mrk><mrk mid="1" mtype="seg"> Each instance must run in a different Java Virtual Machine (JVM).</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Multiple JVMs accessing</source>
+<seg-source><mrk mid="0" mtype="seg">Multiple JVMs accessing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multiple JVMs accessing</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">prohibition of</source>
+<seg-source><mrk mid="0" mtype="seg">prohibition of</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">prohibition of</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">single system</source>
+<seg-source><mrk mid="0" mtype="seg">single system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">single system</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">prohibition of</source>
+<seg-source><mrk mid="0" mtype="seg">prohibition of</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">prohibition of</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">If you use the embedded driver, two separate instances of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> cannot access the same database. If a <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> instance attempts to access a running database, an error message appears, and a stack trace appears in the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.log<ept id="3">&lt;/i&gt;</ept> file. If you want more than one <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> instance to be able to access the same database, you can use the Network Server.</source>
+<seg-source><mrk mid="0" mtype="seg">If you use the embedded driver, two separate instances of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> cannot access the same database.</mrk><mrk mid="1" mtype="seg"> If a <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> instance attempts to access a running database, an error message appears, and a stack trace appears in the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.log<ept id="3">&lt;/i&gt;</ept> file.</mrk><mrk mid="2" mtype="seg"> If you want more than one <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> instance to be able to access the same database, you can use the Network Server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you use the embedded driver, two separate instances of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> cannot access the same database.</mrk><mrk mid="1" mtype="seg"> If a <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> instance attempts to access a running database, an error message appears, and a stack trace appears in the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.log<ept id="3">&lt;/i&gt;</ept> file.</mrk><mrk mid="2" mtype="seg"> If you want more than one <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> instance to be able to access the same database, you can use the Network Server.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance uses the in-memory database capability for its database connection, the database exists only within the JVM of that <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> instance. Another <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> instance could refer to the same database name, but it would not be referring to the same actual database, and no error would result.</source>
+<seg-source><mrk mid="0" mtype="seg">If a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance uses the in-memory database capability for its database connection, the database exists only within the JVM of that <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> instance.</mrk><mrk mid="1" mtype="seg"> Another <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> instance could refer to the same database name, but it would not be referring to the same actual database, and no error would result.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance uses the in-memory database capability for its database connection, the database exists only within the JVM of that <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> instance.</mrk><mrk mid="1" mtype="seg"> Another <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> instance could refer to the same database name, but it would not be referring to the same actual database, and no error would result.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

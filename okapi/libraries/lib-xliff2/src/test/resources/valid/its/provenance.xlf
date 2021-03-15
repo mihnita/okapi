@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="fr"
+ xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+ <file id="f1">
+  <unit id="u1" its:annotatorsRef="provenance|myTool" its:person="Gladys Overwith" its:revPerson="Kent B. Goode">
+   <segment>
+    <source>Text 1.</source>
+    <target>Texte 1.</target>
+   </segment>
+  </unit>
+  <unit id="u2" its:annotatorsRef="provenance|someAnnotator" its:provenanceRecordsRef="#its=prov1">
+   <its:provenanceRecords xml:id="prov1">
+    <its:provenanceRecord person="Justin Kase" tool="someTool"/>
+    <its:provenanceRecord revPerson="Dusty Rhodes" revTool="anotherTool" annotatorsRef="provenance|anotherAnnotator"/>
+   </its:provenanceRecords>
+   <segment>
+    <source>Text 2.</source>
+    <target>Texte 2.</target>
+   </segment>
+  </unit>
+  <unit id="u3" its:annotatorsRef="provenance|anAnnotator">
+   <its:provenanceRecords xml:id="prov2">
+    <its:provenanceRecord person="Turner Luce" toolRef="http://www.omegat.org/"/>
+    <its:provenanceRecord revPerson="Hugo First" revToolRef="http://virtaal.translatehouse.org/"/>
+   </its:provenanceRecords>
+   <segment>
+    <source>Text 3. </source>
+    <target><mrk id="m1" type="its:any" its:org="someOrg" its:revOrg="someRevOrg">Texte 3</mrk>. </target>
+   </segment>
+   <segment>
+    <source>Text 4. </source>
+    <target><mrk id="m2" type="its:any" its:provenanceRecordsRef="#its=prov2">Texte 4</mrk>. </target>
+   </segment>
+  </unit>
+ </file>
+</xliff>

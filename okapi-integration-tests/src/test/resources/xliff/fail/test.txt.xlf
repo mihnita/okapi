@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xmlns:lgtk="http://www.lingotek.com/xliff/1.2">
+  <file date="2020-09-11T22:04:52Z" original="test.txt" source-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="no_space">
+        <source>I expect this to return normally.</source>
+      </trans-unit>
+      <trans-unit id="This has a space &#x0a; and a return">
+        <source>This will not get translated.</source>
+      </trans-unit>
+      <trans-unit id="no_space_2">
+        <source>This one will also break.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

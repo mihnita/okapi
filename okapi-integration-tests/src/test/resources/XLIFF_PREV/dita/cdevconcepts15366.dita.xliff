@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts15366.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Isolation levels and concurrency</source>
+<seg-source><mrk mid="0" mtype="seg">Isolation levels and concurrency</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Isolation levels and concurrency</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides four transaction isolation levels. Setting the transaction isolation level for a connection allows a user to specify how severely the user's transaction should be isolated from other transactions.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides four transaction isolation levels.</mrk><mrk mid="1" mtype="seg"> Setting the transaction isolation level for a connection allows a user to specify how severely the user's transaction should be isolated from other transactions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides four transaction isolation levels.</mrk><mrk mid="1" mtype="seg"> Setting the transaction isolation level for a connection allows a user to specify how severely the user's transaction should be isolated from other transactions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Transaction anomalies in generic database systems</source>
+<seg-source><mrk mid="0" mtype="seg">Transaction anomalies in generic database systems</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transaction anomalies in generic database systems</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">description</source>
+<seg-source><mrk mid="0" mtype="seg">description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">description</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Dirty reads</source>
+<seg-source><mrk mid="0" mtype="seg">Dirty reads</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dirty reads</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">definition</source>
+<seg-source><mrk mid="0" mtype="seg">definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Nonrepeatable reads</source>
+<seg-source><mrk mid="0" mtype="seg">Nonrepeatable reads</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nonrepeatable reads</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">definition</source>
+<seg-source><mrk mid="0" mtype="seg">definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Phantom reads</source>
+<seg-source><mrk mid="0" mtype="seg">Phantom reads</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Phantom reads</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">definition</source>
+<seg-source><mrk mid="0" mtype="seg">definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">TRANSACTION_SERIALIZABLE isolation level</source>
+<seg-source><mrk mid="0" mtype="seg">TRANSACTION_SERIALIZABLE isolation level</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TRANSACTION_SERIALIZABLE isolation level</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">TRANSACTION_REPEATABLE _READ isolation level</source>
+<seg-source><mrk mid="0" mtype="seg">TRANSACTION_REPEATABLE _READ isolation level</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TRANSACTION_REPEATABLE _READ isolation level</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">TRANSACTION_READ _COMMITTED isolation level</source>
+<seg-source><mrk mid="0" mtype="seg">TRANSACTION_READ _COMMITTED isolation level</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TRANSACTION_READ _COMMITTED isolation level</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">TRANSACTION_READ _UNCOMMITTED isolation level</source>
+<seg-source><mrk mid="0" mtype="seg">TRANSACTION_READ _UNCOMMITTED isolation level</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TRANSACTION_READ _UNCOMMITTED isolation level</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">For example, it allows you to specify whether transaction A is allowed to make changes to data that have been viewed by transaction B before transaction B has committed.</source>
+<seg-source><mrk mid="0" mtype="seg">For example, it allows you to specify whether transaction A is allowed to make changes to data that have been viewed by transaction B before transaction B has committed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, it allows you to specify whether transaction A is allowed to make changes to data that have been viewed by transaction B before transaction B has committed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">A connection determines its own isolation level, so JDBC provides an application with a way to specify a level of transaction isolation. It specifies four levels of transaction isolation. The higher the transaction isolation, the more care is taken to avoid conflicts; avoiding conflicts sometimes means locking out transactions. Lower isolation levels thus allow greater concurrency.</source>
+<seg-source><mrk mid="0" mtype="seg">A connection determines its own isolation level, so JDBC provides an application with a way to specify a level of transaction isolation.</mrk><mrk mid="1" mtype="seg"> It specifies four levels of transaction isolation.</mrk><mrk mid="2" mtype="seg"> The higher the transaction isolation, the more care is taken to avoid conflicts; avoiding conflicts sometimes means locking out transactions.</mrk><mrk mid="3" mtype="seg"> Lower isolation levels thus allow greater concurrency.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A connection determines its own isolation level, so JDBC provides an application with a way to specify a level of transaction isolation.</mrk><mrk mid="1" mtype="seg"> It specifies four levels of transaction isolation.</mrk><mrk mid="2" mtype="seg"> The higher the transaction isolation, the more care is taken to avoid conflicts; avoiding conflicts sometimes means locking out transactions.</mrk><mrk mid="3" mtype="seg"> Lower isolation levels thus allow greater concurrency.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Inserts, updates, and deletes always behave the same no matter what the isolation level is. Only the behavior of select statements varies.</source>
+<seg-source><mrk mid="0" mtype="seg">Inserts, updates, and deletes always behave the same no matter what the isolation level is.</mrk><mrk mid="1" mtype="seg"> Only the behavior of select statements varies.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inserts, updates, and deletes always behave the same no matter what the isolation level is.</mrk><mrk mid="1" mtype="seg"> Only the behavior of select statements varies.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">To set isolation levels you can use the JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection.setTransactionIsolation<ept id="1">&lt;/i&gt;</ept> method or the SQL SET ISOLATION statement.</source>
+<seg-source><mrk mid="0" mtype="seg">To set isolation levels you can use the JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection.setTransactionIsolation<ept id="1">&lt;/i&gt;</ept> method or the SQL SET ISOLATION statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To set isolation levels you can use the JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection.setTransactionIsolation<ept id="1">&lt;/i&gt;</ept> method or the SQL SET ISOLATION statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">If there is an active transaction, the network client driver always commits the active transaction, whether you use the JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection.setTransactionIsolation<ept id="1">&lt;/i&gt;</ept> method or the SQL SET ISOLATION statement. It does this even if the method call or statement does not actually change the isolation level (that is, if it sets the isolation level to its current value). The embedded driver also always commits the active transaction if you use the SET ISOLATION statement. However, if you use the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection.setTransactionIsolation<ept id="2">&lt;/i&gt;</ept> method, the embedded driver commits the active transaction only if the call to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connection.setTransactionIsolation<ept id="3">&lt;/i&gt;</ept> actually changes the isolation level.</source>
+<seg-source><mrk mid="0" mtype="seg">If there is an active transaction, the network client driver always commits the active transaction, whether you use the JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection.setTransactionIsolation<ept id="1">&lt;/i&gt;</ept> method or the SQL SET ISOLATION statement.</mrk><mrk mid="1" mtype="seg"> It does this even if the method call or statement does not actually change the isolation level (that is, if it sets the isolation level to its current value).</mrk><mrk mid="2" mtype="seg"> The embedded driver also always commits the active transaction if you use the SET ISOLATION statement.</mrk><mrk mid="3" mtype="seg"> However, if you use the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection.setTransactionIsolation<ept id="2">&lt;/i&gt;</ept> method, the embedded driver commits the active transaction only if the call to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connection.setTransactionIsolation<ept id="3">&lt;/i&gt;</ept> actually changes the isolation level.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If there is an active transaction, the network client driver always commits the active transaction, whether you use the JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection.setTransactionIsolation<ept id="1">&lt;/i&gt;</ept> method or the SQL SET ISOLATION statement.</mrk><mrk mid="1" mtype="seg"> It does this even if the method call or statement does not actually change the isolation level (that is, if it sets the isolation level to its current value).</mrk><mrk mid="2" mtype="seg"> The embedded driver also always commits the active transaction if you use the SET ISOLATION statement.</mrk><mrk mid="3" mtype="seg"> However, if you use the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection.setTransactionIsolation<ept id="2">&lt;/i&gt;</ept> method, the embedded driver commits the active transaction only if the call to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connection.setTransactionIsolation<ept id="3">&lt;/i&gt;</ept> actually changes the isolation level.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">The names of the isolation levels are different, depending on whether you use a JDBC method or SQL statement. The following table shows the equivalent names for isolation levels whether they are set through the JDBC method or an SQL statement.</source>
+<seg-source><mrk mid="0" mtype="seg">The names of the isolation levels are different, depending on whether you use a JDBC method or SQL statement.</mrk><mrk mid="1" mtype="seg"> The following table shows the equivalent names for isolation levels whether they are set through the JDBC method or an SQL statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The names of the isolation levels are different, depending on whether you use a JDBC method or SQL statement.</mrk><mrk mid="1" mtype="seg"> The following table shows the equivalent names for isolation levels whether they are set through the JDBC method or an SQL statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Mapping of JDBC transaction isolation levels to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> isolation levels</source>
+<seg-source><mrk mid="0" mtype="seg">Mapping of JDBC transaction isolation levels to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> isolation levels</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mapping of JDBC transaction isolation levels to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> isolation levels</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">This table lists the JDBC isolation levels and shows how they map to SQL isolation levels.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the JDBC isolation levels and shows how they map to SQL isolation levels.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the JDBC isolation levels and shows how they map to SQL isolation levels.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Isolation Levels for JDBC</source>
+<seg-source><mrk mid="0" mtype="seg">Isolation Levels for JDBC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Isolation Levels for JDBC</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Isolation Levels for SQL</source>
+<seg-source><mrk mid="0" mtype="seg">Isolation Levels for SQL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Isolation Levels for SQL</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Connection.TRANSACTION_READ_UNCOMMITTED (ANSI level 0)</source>
+<seg-source><mrk mid="0" mtype="seg">Connection.TRANSACTION_READ_UNCOMMITTED (ANSI level 0)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connection.TRANSACTION_READ_UNCOMMITTED (ANSI level 0)</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">UR, DIRTY READ, READ UNCOMMITTED</source>
+<seg-source><mrk mid="0" mtype="seg">UR, DIRTY READ, READ UNCOMMITTED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UR, DIRTY READ, READ UNCOMMITTED</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">Connection.TRANSACTION_READ_COMMITTED (ANSI level 1)</source>
+<seg-source><mrk mid="0" mtype="seg">Connection.TRANSACTION_READ_COMMITTED (ANSI level 1)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connection.TRANSACTION_READ_COMMITTED (ANSI level 1)</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">CS, CURSOR STABILITY, READ COMMITTED</source>
+<seg-source><mrk mid="0" mtype="seg">CS, CURSOR STABILITY, READ COMMITTED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CS, CURSOR STABILITY, READ COMMITTED</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">Connection.TRANSACTION_REPEATABLE_READ (ANSI level 2)</source>
+<seg-source><mrk mid="0" mtype="seg">Connection.TRANSACTION_REPEATABLE_READ (ANSI level 2)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connection.TRANSACTION_REPEATABLE_READ (ANSI level 2)</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">RS</source>
+<seg-source><mrk mid="0" mtype="seg">RS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RS</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">Connection.TRANSACTION_SERIALIZABLE (ANSI level 3)</source>
+<seg-source><mrk mid="0" mtype="seg">Connection.TRANSACTION_SERIALIZABLE (ANSI level 3)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connection.TRANSACTION_SERIALIZABLE (ANSI level 3)</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">RR, REPEATABLE READ, SERIALIZABLE</source>
+<seg-source><mrk mid="0" mtype="seg">RR, REPEATABLE READ, SERIALIZABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RR, REPEATABLE READ, SERIALIZABLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">These levels allow you to avoid particular kinds of transaction anomalies, which are described in the following table.</source>
+<seg-source><mrk mid="0" mtype="seg">These levels allow you to avoid particular kinds of transaction anomalies, which are described in the following table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">These levels allow you to avoid particular kinds of transaction anomalies, which are described in the following table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">Transaction anomalies</source>
+<seg-source><mrk mid="0" mtype="seg">Transaction anomalies</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transaction anomalies</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">This table lists several kinds of transaction anomalies and gives an example of each.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists several kinds of transaction anomalies and gives an example of each.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists several kinds of transaction anomalies and gives an example of each.</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">Anomaly</source>
+<seg-source><mrk mid="0" mtype="seg">Anomaly</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Anomaly</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Dirty Reads<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Dirty Reads<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Dirty Reads<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">A dirty read happens when a transaction reads data that is being modified by another transaction that has not yet committed.</source>
+<seg-source><mrk mid="0" mtype="seg">A dirty read happens when a transaction reads data that is being modified by another transaction that has not yet committed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A dirty read happens when a transaction reads data that is being modified by another transaction that has not yet committed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">Transaction A begins.</source>
+<seg-source><mrk mid="0" mtype="seg">Transaction A begins.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transaction A begins.</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">UPDATE employee SET salary = 31650 WHERE empno = '000090'</source>
+<seg-source><mrk mid="0" mtype="seg">UPDATE employee SET salary = 31650 WHERE empno = '000090'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UPDATE employee SET salary = 31650 WHERE empno = '000090'</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">Transaction B begins.</source>
+<seg-source><mrk mid="0" mtype="seg">Transaction B begins.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transaction B begins.</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">SELECT * FROM employee</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT * FROM employee</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT * FROM employee</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">(Transaction B sees data updated by transaction A. Those updates have not yet been committed.)</source>
+<seg-source><mrk mid="0" mtype="seg">(Transaction B sees data updated by transaction A. Those updates have not yet been committed.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(Transaction B sees data updated by transaction A. Those updates have not yet been committed.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Nonrepeatable Reads<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Nonrepeatable Reads<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Nonrepeatable Reads<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">Nonrepeatable reads happen when a query returns data that would be different if the query were repeated within the same transaction. Nonrepeatable reads can occur when other transactions are modifying data that a transaction is reading.</source>
+<seg-source><mrk mid="0" mtype="seg">Nonrepeatable reads happen when a query returns data that would be different if the query were repeated within the same transaction.</mrk><mrk mid="1" mtype="seg"> Nonrepeatable reads can occur when other transactions are modifying data that a transaction is reading.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nonrepeatable reads happen when a query returns data that would be different if the query were repeated within the same transaction.</mrk><mrk mid="1" mtype="seg"> Nonrepeatable reads can occur when other transactions are modifying data that a transaction is reading.</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">Transaction A begins.</source>
+<seg-source><mrk mid="0" mtype="seg">Transaction A begins.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transaction A begins.</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">SELECT * FROM employee WHERE empno = '000090'</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT * FROM employee WHERE empno = '000090'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT * FROM employee WHERE empno = '000090'</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">Transaction B begins.</source>
+<seg-source><mrk mid="0" mtype="seg">Transaction B begins.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transaction B begins.</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">UPDATE employee SET salary = 30100 WHERE empno = '000090'</source>
+<seg-source><mrk mid="0" mtype="seg">UPDATE employee SET salary = 30100 WHERE empno = '000090'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UPDATE employee SET salary = 30100 WHERE empno = '000090'</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">(Transaction B updates rows viewed by transaction A before transaction A commits.) If Transaction A issues the same SELECT statement, the results will be different.</source>
+<seg-source><mrk mid="0" mtype="seg">(Transaction B updates rows viewed by transaction A before transaction A commits.) If Transaction A issues the same SELECT statement, the results will be different.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(Transaction B updates rows viewed by transaction A before transaction A commits.) If Transaction A issues the same SELECT statement, the results will be different.</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Phantom Reads<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Phantom Reads<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Phantom Reads<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">Records that appear in a set being read by another transaction. Phantom reads can occur when other transactions insert rows that would satisfy the WHERE clause of another transaction's statement.</source>
+<seg-source><mrk mid="0" mtype="seg">Records that appear in a set being read by another transaction.</mrk><mrk mid="1" mtype="seg"> Phantom reads can occur when other transactions insert rows that would satisfy the WHERE clause of another transaction's statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Records that appear in a set being read by another transaction.</mrk><mrk mid="1" mtype="seg"> Phantom reads can occur when other transactions insert rows that would satisfy the WHERE clause of another transaction's statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">Transaction A begins.</source>
+<seg-source><mrk mid="0" mtype="seg">Transaction A begins.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transaction A begins.</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">SELECT * FROM employee WHERE salary &gt; 30000</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT * FROM employee WHERE salary &gt; 30000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT * FROM employee WHERE salary &gt; 30000</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">Transaction B begins.</source>
+<seg-source><mrk mid="0" mtype="seg">Transaction B begins.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transaction B begins.</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">INSERT INTO employee (empno, firstnme, midinit, lastname, job, salary) VALUES ('000350', 'NICK', 'A','GREEN','LEGAL COUNSEL',35000)</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO employee (empno, firstnme, midinit, lastname, job, salary) VALUES ('000350', 'NICK', 'A','GREEN','LEGAL COUNSEL',35000)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO employee (empno, firstnme, midinit, lastname, job, salary) VALUES ('000350', 'NICK', 'A','GREEN','LEGAL COUNSEL',35000)</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">Transaction B inserts a row that would satisfy the query in Transaction A if it were issued again.</source>
+<seg-source><mrk mid="0" mtype="seg">Transaction B inserts a row that would satisfy the query in Transaction A if it were issued again.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transaction B inserts a row that would satisfy the query in Transaction A if it were issued again.</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">The transaction isolation level is a way of specifying whether these transaction anomalies are allowed. The transaction isolation level thus affects the quantity of data locked by a particular transaction. In addition, a DBMS's locking schema might also affect whether these anomalies are allowed. A DBMS can lock either the entire table or only specific rows in order to prevent transaction anomalies.</source>
+<seg-source><mrk mid="0" mtype="seg">The transaction isolation level is a way of specifying whether these transaction anomalies are allowed.</mrk><mrk mid="1" mtype="seg"> The transaction isolation level thus affects the quantity of data locked by a particular transaction.</mrk><mrk mid="2" mtype="seg"> In addition, a DBMS's locking schema might also affect whether these anomalies are allowed.</mrk><mrk mid="3" mtype="seg"> A DBMS can lock either the entire table or only specific rows in order to prevent transaction anomalies.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The transaction isolation level is a way of specifying whether these transaction anomalies are allowed.</mrk><mrk mid="1" mtype="seg"> The transaction isolation level thus affects the quantity of data locked by a particular transaction.</mrk><mrk mid="2" mtype="seg"> In addition, a DBMS's locking schema might also affect whether these anomalies are allowed.</mrk><mrk mid="3" mtype="seg"> A DBMS can lock either the entire table or only specific rows in order to prevent transaction anomalies.</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">The following table shows which anomalies are possible under the various locking schemas and isolation levels.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table shows which anomalies are possible under the various locking schemas and isolation levels.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table shows which anomalies are possible under the various locking schemas and isolation levels.</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">When transaction anomalies are possible</source>
+<seg-source><mrk mid="0" mtype="seg">When transaction anomalies are possible</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When transaction anomalies are possible</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">This table lists the JDBC isolation levels and shows which transaction anomalies can occur with table-level and row-level locking.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the JDBC isolation levels and shows which transaction anomalies can occur with table-level and row-level locking.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the JDBC isolation levels and shows which transaction anomalies can occur with table-level and row-level locking.</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">Isolation Level</source>
+<seg-source><mrk mid="0" mtype="seg">Isolation Level</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Isolation Level</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en">Table-Level Locking</source>
+<seg-source><mrk mid="0" mtype="seg">Table-Level Locking</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Table-Level Locking</mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en">Row-Level Locking</source>
+<seg-source><mrk mid="0" mtype="seg">Row-Level Locking</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Row-Level Locking</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">TRANSACTION_READ_UNCOMMITTED</source>
+<seg-source><mrk mid="0" mtype="seg">TRANSACTION_READ_UNCOMMITTED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TRANSACTION_READ_UNCOMMITTED</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">Dirty reads, nonrepeatable reads, and phantom reads possible</source>
+<seg-source><mrk mid="0" mtype="seg">Dirty reads, nonrepeatable reads, and phantom reads possible</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dirty reads, nonrepeatable reads, and phantom reads possible</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">Dirty reads, nonrepeatable reads, and phantom reads possible</source>
+<seg-source><mrk mid="0" mtype="seg">Dirty reads, nonrepeatable reads, and phantom reads possible</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dirty reads, nonrepeatable reads, and phantom reads possible</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en">TRANSACTION_READ_COMMITTED</source>
+<seg-source><mrk mid="0" mtype="seg">TRANSACTION_READ_COMMITTED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TRANSACTION_READ_COMMITTED</mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en">Nonrepeatable reads and phantom reads possible</source>
+<seg-source><mrk mid="0" mtype="seg">Nonrepeatable reads and phantom reads possible</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nonrepeatable reads and phantom reads possible</mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en">Nonrepeatable reads and phantom reads possible</source>
+<seg-source><mrk mid="0" mtype="seg">Nonrepeatable reads and phantom reads possible</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nonrepeatable reads and phantom reads possible</mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en">TRANSACTION_REPEATABLE_READ</source>
+<seg-source><mrk mid="0" mtype="seg">TRANSACTION_REPEATABLE_READ</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TRANSACTION_REPEATABLE_READ</mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en">Phantom reads not possible because entire table is locked</source>
+<seg-source><mrk mid="0" mtype="seg">Phantom reads not possible because entire table is locked</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Phantom reads not possible because entire table is locked</mrk></target>
+</trans-unit>
+<trans-unit id="tu74">
+<source xml:lang="en">Phantom reads possible</source>
+<seg-source><mrk mid="0" mtype="seg">Phantom reads possible</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Phantom reads possible</mrk></target>
+</trans-unit>
+<trans-unit id="tu75">
+<source xml:lang="en">TRANSACTION_SERIALIZABLE</source>
+<seg-source><mrk mid="0" mtype="seg">TRANSACTION_SERIALIZABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TRANSACTION_SERIALIZABLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu76">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu77">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu78">
+<source xml:lang="en">The following <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection<ept id="1">&lt;/i&gt;</ept> isolation levels are supported:</source>
+<seg-source><mrk mid="0" mtype="seg">The following <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection<ept id="1">&lt;/i&gt;</ept> isolation levels are supported:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection<ept id="1">&lt;/i&gt;</ept> isolation levels are supported:</mrk></target>
+</trans-unit>
+<trans-unit id="tu79">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>TRANSACTION_SERIALIZABLE<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>TRANSACTION_SERIALIZABLE<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>TRANSACTION_SERIALIZABLE<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu80">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>RR<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SERIALIZABLE<ept id="2">&lt;/codeph&gt;</ept>, or <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>REPEATABLE READ<ept id="3">&lt;/codeph&gt;</ept> from SQL.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>RR<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SERIALIZABLE<ept id="2">&lt;/codeph&gt;</ept>, or <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>REPEATABLE READ<ept id="3">&lt;/codeph&gt;</ept> from SQL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>RR<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SERIALIZABLE<ept id="2">&lt;/codeph&gt;</ept>, or <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>REPEATABLE READ<ept id="3">&lt;/codeph&gt;</ept> from SQL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu81">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_SERIALIZABLE<ept id="1">&lt;/i&gt;</ept> means that <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> treats the transactions as if they occurred serially (one after the other) instead of concurrently. <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> issues locks to prevent all the transaction anomalies listed in <bpt id="4" ctype="x-xref">&lt;xref href="cdevconcepts15366.dita#cdevconcepts15366/cdevconcepts17741"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept> from occurring. The type of lock it issues is sometimes called a <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>range lock<ept id="5">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_SERIALIZABLE<ept id="1">&lt;/i&gt;</ept> means that <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> treats the transactions as if they occurred serially (one after the other) instead of concurrently.</mrk><mrk mid="1" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> issues locks to prevent all the transaction anomalies listed in <bpt id="4" ctype="x-xref">&lt;xref href="cdevconcepts15366.dita#cdevconcepts15366/cdevconcepts17741"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept> from occurring.</mrk><mrk mid="2" mtype="seg"> The type of lock it issues is sometimes called a <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>range lock<ept id="5">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_SERIALIZABLE<ept id="1">&lt;/i&gt;</ept> means that <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> treats the transactions as if they occurred serially (one after the other) instead of concurrently.</mrk><mrk mid="1" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> issues locks to prevent all the transaction anomalies listed in <bpt id="4" ctype="x-xref">&lt;xref href="cdevconcepts15366.dita#cdevconcepts15366/cdevconcepts17741"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept> from occurring.</mrk><mrk mid="2" mtype="seg"> The type of lock it issues is sometimes called a <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>range lock<ept id="5">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu82">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>TRANSACTION_REPEATABLE_READ<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>TRANSACTION_REPEATABLE_READ<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>TRANSACTION_REPEATABLE_READ<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu83">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>RS<ept id="1">&lt;/codeph&gt;</ept> from SQL.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>RS<ept id="1">&lt;/codeph&gt;</ept> from SQL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>RS<ept id="1">&lt;/codeph&gt;</ept> from SQL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu84">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_REPEATABLE_READ<ept id="1">&lt;/i&gt;</ept> means that <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> issues locks to prevent only dirty reads and nonrepeatable reads, but not phantoms. It does not issue range locks for selects.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_REPEATABLE_READ<ept id="1">&lt;/i&gt;</ept> means that <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> issues locks to prevent only dirty reads and nonrepeatable reads, but not phantoms.</mrk><mrk mid="1" mtype="seg"> It does not issue range locks for selects.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_REPEATABLE_READ<ept id="1">&lt;/i&gt;</ept> means that <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> issues locks to prevent only dirty reads and nonrepeatable reads, but not phantoms.</mrk><mrk mid="1" mtype="seg"> It does not issue range locks for selects.</mrk></target>
+</trans-unit>
+<trans-unit id="tu85">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>TRANSACTION_READ_COMMITTED<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>TRANSACTION_READ_COMMITTED<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>TRANSACTION_READ_COMMITTED<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu86">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CS<ept id="1">&lt;/codeph&gt;</ept> or <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>CURSOR STABILITY<ept id="2">&lt;/codeph&gt;</ept> from SQL.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CS<ept id="1">&lt;/codeph&gt;</ept> or <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>CURSOR STABILITY<ept id="2">&lt;/codeph&gt;</ept> from SQL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CS<ept id="1">&lt;/codeph&gt;</ept> or <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>CURSOR STABILITY<ept id="2">&lt;/codeph&gt;</ept> from SQL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu87">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_READ_COMMITTED<ept id="1">&lt;/i&gt;</ept> means that <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> issues locks to prevent only dirty reads, not all the transaction anomalies listed in <bpt id="3" ctype="x-xref">&lt;xref
+href="cdevconcepts15366.dita#cdevconcepts15366/cdevconcepts17741"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_READ_COMMITTED<ept id="1">&lt;/i&gt;</ept> means that <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> issues locks to prevent only dirty reads, not all the transaction anomalies listed in <bpt id="3" ctype="x-xref">&lt;xref
+href="cdevconcepts15366.dita#cdevconcepts15366/cdevconcepts17741"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_READ_COMMITTED<ept id="1">&lt;/i&gt;</ept> means that <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> issues locks to prevent only dirty reads, not all the transaction anomalies listed in <bpt id="3" ctype="x-xref">&lt;xref
+href="cdevconcepts15366.dita#cdevconcepts15366/cdevconcepts17741"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu88">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_READ_COMMITTED<ept id="1">&lt;/i&gt;</ept> is the default isolation level for transactions.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_READ_COMMITTED<ept id="1">&lt;/i&gt;</ept> is the default isolation level for transactions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_READ_COMMITTED<ept id="1">&lt;/i&gt;</ept> is the default isolation level for transactions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu89">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>TRANSACTION_READ_UNCOMMITTED<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>TRANSACTION_READ_UNCOMMITTED<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>TRANSACTION_READ_UNCOMMITTED<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu90">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>UR<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DIRTY READ<ept id="2">&lt;/codeph&gt;</ept>, or <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>READ UNCOMMITTED<ept id="3">&lt;/codeph&gt;</ept> from SQL.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>UR<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DIRTY READ<ept id="2">&lt;/codeph&gt;</ept>, or <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>READ UNCOMMITTED<ept id="3">&lt;/codeph&gt;</ept> from SQL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>UR<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DIRTY READ<ept id="2">&lt;/codeph&gt;</ept>, or <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>READ UNCOMMITTED<ept id="3">&lt;/codeph&gt;</ept> from SQL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu91">
+<source xml:lang="en">For a SELECT INTO, FETCH with a read-only cursor, full select used in an INSERT, full select/subquery in an UPDATE/DELETE, or scalar full select (wherever used), READ UNCOMMITTED allows:</source>
+<seg-source><mrk mid="0" mtype="seg">For a SELECT INTO, FETCH with a read-only cursor, full select used in an INSERT, full select/subquery in an UPDATE/DELETE, or scalar full select (wherever used), READ UNCOMMITTED allows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For a SELECT INTO, FETCH with a read-only cursor, full select used in an INSERT, full select/subquery in an UPDATE/DELETE, or scalar full select (wherever used), READ UNCOMMITTED allows:</mrk></target>
+</trans-unit>
+<trans-unit id="tu92">
+<source xml:lang="en">Any row that is read during the unit of work to be changed by other application processes.</source>
+<seg-source><mrk mid="0" mtype="seg">Any row that is read during the unit of work to be changed by other application processes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Any row that is read during the unit of work to be changed by other application processes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu93">
+<source xml:lang="en">Any row that was changed by another application process to be read even if the change has not been committed by the application process.</source>
+<seg-source><mrk mid="0" mtype="seg">Any row that was changed by another application process to be read even if the change has not been committed by the application process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Any row that was changed by another application process to be read even if the change has not been committed by the application process.</mrk></target>
+</trans-unit>
+<trans-unit id="tu94">
+<source xml:lang="en">For other operations, the rules that apply to READ COMMITTED also apply to READ UNCOMMITTED.</source>
+<seg-source><mrk mid="0" mtype="seg">For other operations, the rules that apply to READ COMMITTED also apply to READ UNCOMMITTED.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For other operations, the rules that apply to READ COMMITTED also apply to READ UNCOMMITTED.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

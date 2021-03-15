@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj20937.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CREATE INDEX statement</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE INDEX statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE INDEX statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">CREATE INDEX statement</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE INDEX statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE INDEX statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Descending indexes</source>
+<seg-source><mrk mid="0" mtype="seg">Descending indexes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Descending indexes</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Indexes</source>
+<seg-source><mrk mid="0" mtype="seg">Indexes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indexes</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">created in descending order</source>
+<seg-source><mrk mid="0" mtype="seg">created in descending order</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">created in descending order</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Backing indexes</source>
+<seg-source><mrk mid="0" mtype="seg">Backing indexes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Backing indexes</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">created automatically to enforce primary key, unique, and foreign key constraints</source>
+<seg-source><mrk mid="0" mtype="seg">created automatically to enforce primary key, unique, and foreign key constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">created automatically to enforce primary key, unique, and foreign key constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Indexes</source>
+<seg-source><mrk mid="0" mtype="seg">Indexes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indexes</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">automatic creation of for primary key, unique, and foreign key constraints</source>
+<seg-source><mrk mid="0" mtype="seg">automatic creation of for primary key, unique, and foreign key constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">automatic creation of for primary key, unique, and foreign key constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Indexes</source>
+<seg-source><mrk mid="0" mtype="seg">Indexes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indexes</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">specifying page size for</source>
+<seg-source><mrk mid="0" mtype="seg">specifying page size for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">specifying page size for</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" resname="sqlj31027-id">
+<source xml:lang="en">A CREATE INDEX statement creates an index on a table. Indexes can be on one or more columns in the table.</source>
+<seg-source><mrk mid="0" mtype="seg">A CREATE INDEX statement creates an index on a table.</mrk><mrk mid="1" mtype="seg"> Indexes can be on one or more columns in the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A CREATE INDEX statement creates an index on a table.</mrk><mrk mid="1" mtype="seg"> Indexes can be on one or more columns in the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE [ UNIQUE ] INDEX <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefindexname.dita#rrefindexname"&gt;</bpt>indexName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ON <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ( <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> [ ASC | DESC ] [ , <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> [ ASC | DESC ] ]* )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE [ UNIQUE ] INDEX <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefindexname.dita#rrefindexname"&gt;</bpt>indexName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ON <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ( <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> [ ASC | DESC ] [ , <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> [ ASC | DESC ] ]* )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE [ UNIQUE ] INDEX <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefindexname.dita#rrefindexname"&gt;</bpt>indexName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ON <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ( <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> [ ASC | DESC ] [ , <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> [ ASC | DESC ] ]* )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">The maximum number of columns for an index key in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is 16.</source>
+<seg-source><mrk mid="0" mtype="seg">The maximum number of columns for an index key in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is 16.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The maximum number of columns for an index key in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is 16.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">An index name cannot exceed 128 characters.</source>
+<seg-source><mrk mid="0" mtype="seg">An index name cannot exceed 128 characters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An index name cannot exceed 128 characters.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">A column must not be named more than once in a single CREATE INDEX statement. Different indexes can name the same column, however.</source>
+<seg-source><mrk mid="0" mtype="seg">A column must not be named more than once in a single CREATE INDEX statement.</mrk><mrk mid="1" mtype="seg"> Different indexes can name the same column, however.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A column must not be named more than once in a single CREATE INDEX statement.</mrk><mrk mid="1" mtype="seg"> Different indexes can name the same column, however.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can use indexes to improve the performance of data manipulation statements (see <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>). In addition, UNIQUE indexes provide a form of data integrity checking.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can use indexes to improve the performance of data manipulation statements (see <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> In addition, UNIQUE indexes provide a form of data integrity checking.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can use indexes to improve the performance of data manipulation statements (see <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> In addition, UNIQUE indexes provide a form of data integrity checking.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Index names are unique within a schema. (Some database systems allow different tables in a single schema to have indexes of the same name, but <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not.) Both index and table are assumed to be in the same schema if a schema name is specified for one of the names, but not the other. If schema names are specified for both index and table, an exception will be thrown if the schema names are not the same. If no schema name is specified for either table or index, the current schema is used.</source>
+<seg-source><mrk mid="0" mtype="seg">Index names are unique within a schema.</mrk><mrk mid="1" mtype="seg"> (Some database systems allow different tables in a single schema to have indexes of the same name, but <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not.) Both index and table are assumed to be in the same schema if a schema name is specified for one of the names, but not the other.</mrk><mrk mid="2" mtype="seg"> If schema names are specified for both index and table, an exception will be thrown if the schema names are not the same.</mrk><mrk mid="3" mtype="seg"> If no schema name is specified for either table or index, the current schema is used.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Index names are unique within a schema.</mrk><mrk mid="1" mtype="seg"> (Some database systems allow different tables in a single schema to have indexes of the same name, but <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not.) Both index and table are assumed to be in the same schema if a schema name is specified for one of the names, but not the other.</mrk><mrk mid="2" mtype="seg"> If schema names are specified for both index and table, an exception will be thrown if the schema names are not the same.</mrk><mrk mid="3" mtype="seg"> If no schema name is specified for either table or index, the current schema is used.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the ascending order of each column to create the index. Specifying ASC after the column name does not alter the default behavior. The DESC keyword after the column name causes <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> to use descending order for the column to create the index. Using the descending order for a column can help improve the performance of queries that require the results in mixed sort order or descending order and for queries that select the minimum or maximum value of an indexed column.</source>
+<seg-source><mrk mid="0" mtype="seg">By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the ascending order of each column to create the index.</mrk><mrk mid="1" mtype="seg"> Specifying ASC after the column name does not alter the default behavior.</mrk><mrk mid="2" mtype="seg"> The DESC keyword after the column name causes <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> to use descending order for the column to create the index.</mrk><mrk mid="3" mtype="seg"> Using the descending order for a column can help improve the performance of queries that require the results in mixed sort order or descending order and for queries that select the minimum or maximum value of an indexed column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the ascending order of each column to create the index.</mrk><mrk mid="1" mtype="seg"> Specifying ASC after the column name does not alter the default behavior.</mrk><mrk mid="2" mtype="seg"> The DESC keyword after the column name causes <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> to use descending order for the column to create the index.</mrk><mrk mid="3" mtype="seg"> Using the descending order for a column can help improve the performance of queries that require the results in mixed sort order or descending order and for queries that select the minimum or maximum value of an indexed column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Sorting and ordering of character data is controlled by the collation specified for a database when it is created, as well as the locale of the database. For details, see <bpt id="1" ctype="x-xref">&lt;xref href="rrefattribcollation.dita#rrefattribcollation"&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>collation=collation<ept id="2">&lt;/i&gt;</ept> attribute<ept id="1">&lt;/xref&gt;</ept> and <bpt id="3" ctype="x-xref">&lt;xref href="rrefattrib56769.dita#rrefattrib56769"&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>territory=ll_CC<ept id="4">&lt;/i&gt;</ept> attribute<ept id="3">&lt;/xref&gt;</ept>, as well as the sections "Creating a database with locale-based collation", "Creating a case-insensitive database", and "Character-based collation in <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>" in the <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Sorting and ordering of character data is controlled by the collation specified for a database when it is created, as well as the locale of the database.</mrk><mrk mid="1" mtype="seg"> For details, see <bpt id="1" ctype="x-xref">&lt;xref href="rrefattribcollation.dita#rrefattribcollation"&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>collation=collation<ept id="2">&lt;/i&gt;</ept> attribute<ept id="1">&lt;/xref&gt;</ept> and <bpt id="3" ctype="x-xref">&lt;xref href="rrefattrib56769.dita#rrefattrib56769"&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>territory=ll_CC<ept id="4">&lt;/i&gt;</ept> attribute<ept id="3">&lt;/xref&gt;</ept>, as well as the sections "Creating a database with locale-based collation", "Creating a case-insensitive database", and "Character-based collation in <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>" in the <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sorting and ordering of character data is controlled by the collation specified for a database when it is created, as well as the locale of the database.</mrk><mrk mid="1" mtype="seg"> For details, see <bpt id="1" ctype="x-xref">&lt;xref href="rrefattribcollation.dita#rrefattribcollation"&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>collation=collation<ept id="2">&lt;/i&gt;</ept> attribute<ept id="1">&lt;/xref&gt;</ept> and <bpt id="3" ctype="x-xref">&lt;xref href="rrefattrib56769.dita#rrefattrib56769"&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>territory=ll_CC<ept id="4">&lt;/i&gt;</ept> attribute<ept id="3">&lt;/xref&gt;</ept>, as well as the sections "Creating a database with locale-based collation", "Creating a case-insensitive database", and "Character-based collation in <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>" in the <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">If a qualified index name is specified, the schema name cannot begin with <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYS<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If a qualified index name is specified, the schema name cannot begin with <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYS<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a qualified index name is specified, the schema name cannot begin with <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYS<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Indexes and constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Indexes and constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indexes and constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Unique, primary key, and foreign key constraints generate indexes that enforce or "back" the constraint (and are thus sometimes called <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>backing indexes<ept id="1">&lt;/i&gt;</ept>). If a column or set of columns has a UNIQUE or PRIMARY KEY constraint on it, you can not create an index on those columns. <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> has already created it for you with a system-generated name. System-generated names for indexes that back up constraints are easy to find by querying the system tables if you name your constraint. Adding a PRIMARY KEY or UNIQUE constraint when an existing UNIQUE index exists on the same set of columns will result in two physical indexes on the table for the same set of columns. One index is the original UNIQUE index and one is the backing index for the new constraint.</source>
+<seg-source><mrk mid="0" mtype="seg">Unique, primary key, and foreign key constraints generate indexes that enforce or "back" the constraint (and are thus sometimes called <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>backing indexes<ept id="1">&lt;/i&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> If a column or set of columns has a UNIQUE or PRIMARY KEY constraint on it, you can not create an index on those columns.</mrk><mrk mid="2" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> has already created it for you with a system-generated name.</mrk><mrk mid="3" mtype="seg"> System-generated names for indexes that back up constraints are easy to find by querying the system tables if you name your constraint.</mrk><mrk mid="4" mtype="seg"> Adding a PRIMARY KEY or UNIQUE constraint when an existing UNIQUE index exists on the same set of columns will result in two physical indexes on the table for the same set of columns.</mrk><mrk mid="5" mtype="seg"> One index is the original UNIQUE index and one is the backing index for the new constraint.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unique, primary key, and foreign key constraints generate indexes that enforce or "back" the constraint (and are thus sometimes called <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>backing indexes<ept id="1">&lt;/i&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> If a column or set of columns has a UNIQUE or PRIMARY KEY constraint on it, you can not create an index on those columns.</mrk><mrk mid="2" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> has already created it for you with a system-generated name.</mrk><mrk mid="3" mtype="seg"> System-generated names for indexes that back up constraints are easy to find by querying the system tables if you name your constraint.</mrk><mrk mid="4" mtype="seg"> Adding a PRIMARY KEY or UNIQUE constraint when an existing UNIQUE index exists on the same set of columns will result in two physical indexes on the table for the same set of columns.</mrk><mrk mid="5" mtype="seg"> One index is the original UNIQUE index and one is the backing index for the new constraint.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">To find out the name of the index that backs a constraint called FLIGHTS_PK:</source>
+<seg-source><mrk mid="0" mtype="seg">To find out the name of the index that backs a constraint called FLIGHTS_PK:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To find out the name of the index that backs a constraint called FLIGHTS_PK:</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT CONGLOMERATENAME FROM SYS.SYSCONGLOMERATES, SYS.SYSCONSTRAINTS WHERE SYS.SYSCONGLOMERATES.TABLEID = SYSCONSTRAINTS.TABLEID AND CONSTRAINTNAME = 'FLIGHTS_PK'<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT CONGLOMERATENAME FROM SYS.SYSCONGLOMERATES, SYS.SYSCONSTRAINTS WHERE SYS.SYSCONGLOMERATES.TABLEID = SYSCONSTRAINTS.TABLEID AND CONSTRAINTNAME = 'FLIGHTS_PK'<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT CONGLOMERATENAME FROM SYS.SYSCONGLOMERATES, SYS.SYSCONSTRAINTS WHERE SYS.SYSCONGLOMERATES.TABLEID = SYSCONSTRAINTS.TABLEID AND CONSTRAINTNAME = 'FLIGHTS_PK'<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE INDEX OrigIndex ON Flights(orig_airport); <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- money is usually ordered from greatest to least, -- so create the index using the descending order<ept id="2">&lt;/b&gt;</ept> CREATE INDEX PAY_DESC ON SAMP.EMPLOYEE (SALARY); <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- use a larger page size for the index<ept id="3">&lt;/ph&gt;</ept> call SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY('derby.storage.pageSize','8192'); CREATE INDEX IXSALE ON SAMP.SALES (SALES); call SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY('derby.storage.pageSize',NULL); <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE INDEX OrigIndex ON Flights(orig_airport); <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- money is usually ordered from greatest to least, -- so create the index using the descending order<ept id="2">&lt;/b&gt;</ept> CREATE INDEX PAY_DESC ON SAMP.EMPLOYEE (SALARY); <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- use a larger page size for the index<ept id="3">&lt;/ph&gt;</ept> call SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY('derby.storage.pageSize','8192'); CREATE INDEX IXSALE ON SAMP.SALES (SALES); call SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY('derby.storage.pageSize',NULL); <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE INDEX OrigIndex ON Flights(orig_airport); <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- money is usually ordered from greatest to least, -- so create the index using the descending order<ept id="2">&lt;/b&gt;</ept> CREATE INDEX PAY_DESC ON SAMP.EMPLOYEE (SALARY); <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- use a larger page size for the index<ept id="3">&lt;/ph&gt;</ept> call SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY('derby.storage.pageSize','8192'); CREATE INDEX IXSALE ON SAMP.SALES (SALES); call SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY('derby.storage.pageSize',NULL); <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Page size and key size</source>
+<seg-source><mrk mid="0" mtype="seg">Page size and key size</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Page size and key size</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">The size of the key columns in an index must be equal to or smaller than half the page size. If the length of the key columns in an existing row in a table is larger than half the page size of the index, creating an index on those key columns for the table will fail. This error only occurs when creating an index if an existing row in the table fails the criteria. After an index is created, inserts may fail if the size of their associated key exceeds the criteria.</source>
+<seg-source><mrk mid="0" mtype="seg">The size of the key columns in an index must be equal to or smaller than half the page size.</mrk><mrk mid="1" mtype="seg"> If the length of the key columns in an existing row in a table is larger than half the page size of the index, creating an index on those key columns for the table will fail.</mrk><mrk mid="2" mtype="seg"> This error only occurs when creating an index if an existing row in the table fails the criteria.</mrk><mrk mid="3" mtype="seg"> After an index is created, inserts may fail if the size of their associated key exceeds the criteria.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The size of the key columns in an index must be equal to or smaller than half the page size.</mrk><mrk mid="1" mtype="seg"> If the length of the key columns in an existing row in a table is larger than half the page size of the index, creating an index on those key columns for the table will fail.</mrk><mrk mid="2" mtype="seg"> This error only occurs when creating an index if an existing row in the table fails the criteria.</mrk><mrk mid="3" mtype="seg"> After an index is created, inserts may fail if the size of their associated key exceeds the criteria.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">Statement dependency system</source>
+<seg-source><mrk mid="0" mtype="seg">Statement dependency system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Statement dependency system</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">Prepared statements that involve SELECT, INSERT, UPDATE, UPDATE WHERE CURRENT, DELETE, and DELETE WHERE CURRENT on the table referenced by the CREATE INDEX statement are invalidated when the index is created. Open cursors on the table are not affected.</source>
+<seg-source><mrk mid="0" mtype="seg">Prepared statements that involve SELECT, INSERT, UPDATE, UPDATE WHERE CURRENT, DELETE, and DELETE WHERE CURRENT on the table referenced by the CREATE INDEX statement are invalidated when the index is created.</mrk><mrk mid="1" mtype="seg"> Open cursors on the table are not affected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Prepared statements that involve SELECT, INSERT, UPDATE, UPDATE WHERE CURRENT, DELETE, and DELETE WHERE CURRENT on the table referenced by the CREATE INDEX statement are invalidated when the index is created.</mrk><mrk mid="1" mtype="seg"> Open cursors on the table are not affected.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

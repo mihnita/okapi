@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure21561.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">User-defined class</source>
+<seg-source><mrk mid="0" mtype="seg">User-defined class</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">User-defined class</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Set <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.provider<ept id="1">&lt;/i&gt;</ept> to the full name of a class that implements the public interface <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.authentication.UserAuthenticator<ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Set <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.provider<ept id="1">&lt;/i&gt;</ept> to the full name of a class that implements the public interface <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.authentication.UserAuthenticator<ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.provider<ept id="1">&lt;/i&gt;</ept> to the full name of a class that implements the public interface <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.authentication.UserAuthenticator<ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">User authorization</source>
+<seg-source><mrk mid="0" mtype="seg">User authorization</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">User authorization</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">providing your own</source>
+<seg-source><mrk mid="0" mtype="seg">providing your own</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">providing your own</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">By writing your own class that fulfills some minimal requirements, you can hook <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> up to an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>external authentication service<ept id="2">&lt;/i&gt;</ept> other than LDAP. To do so, specify an external authentication service by setting the property <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.provider<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> to a class name that you want <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> to load at startup.</source>
+<seg-source><mrk mid="0" mtype="seg">By writing your own class that fulfills some minimal requirements, you can hook <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> up to an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>external authentication service<ept id="2">&lt;/i&gt;</ept> other than LDAP.</mrk><mrk mid="1" mtype="seg"> To do so, specify an external authentication service by setting the property <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.provider<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> to a class name that you want <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> to load at startup.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By writing your own class that fulfills some minimal requirements, you can hook <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> up to an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>external authentication service<ept id="2">&lt;/i&gt;</ept> other than LDAP.</mrk><mrk mid="1" mtype="seg"> To do so, specify an external authentication service by setting the property <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.provider<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> to a class name that you want <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> to load at startup.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The class that provides the external authentication service must implement the public interface <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.authentication<ept id="1">&lt;/i&gt;</ept>.<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>UserAuthenticator<ept id="2">&lt;/i&gt;</ept> and throw exceptions of the type <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.SQLException<ept id="3">&lt;/i&gt;</ept> where appropriate.</source>
+<seg-source><mrk mid="0" mtype="seg">The class that provides the external authentication service must implement the public interface <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.authentication<ept id="1">&lt;/i&gt;</ept>.<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>UserAuthenticator<ept id="2">&lt;/i&gt;</ept> and throw exceptions of the type <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.SQLException<ept id="3">&lt;/i&gt;</ept> where appropriate.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The class that provides the external authentication service must implement the public interface <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.authentication<ept id="1">&lt;/i&gt;</ept>.<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>UserAuthenticator<ept id="2">&lt;/i&gt;</ept> and throw exceptions of the type <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.SQLException<ept id="3">&lt;/i&gt;</ept> where appropriate.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Using a user-defined class makes <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> adaptable to various naming and directory services.</source>
+<seg-source><mrk mid="0" mtype="seg">Using a user-defined class makes <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> adaptable to various naming and directory services.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using a user-defined class makes <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> adaptable to various naming and directory services.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

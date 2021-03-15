@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefproper13766.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.authentication.provider</source>
+<seg-source><mrk mid="0" mtype="seg">derby.authentication.provider</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.authentication.provider</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">derby.authentication.provider</source>
+<seg-source><mrk mid="0" mtype="seg">derby.authentication.provider</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.authentication.provider</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Authentication provider</source>
+<seg-source><mrk mid="0" mtype="seg">Authentication provider</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Authentication provider</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">specifying</source>
+<seg-source><mrk mid="0" mtype="seg">specifying</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">specifying</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Specifies the authentication provider for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> user authentication.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the authentication provider for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> user authentication.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the authentication provider for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> user authentication.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Legal values include:</source>
+<seg-source><mrk mid="0" mtype="seg">Legal values include:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Legal values include:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">NATIVE:<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">NATIVE:<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NATIVE:<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">NATIVE authentication using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="1">&lt;/i&gt;</ept>, a dedicated database, to store user credentials. This value must be set by using system-wide Java Virtual Machine (JVM) properties or by using the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="2">&lt;/i&gt;</ept> file; it cannot be set in the database by using the SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY system procedure. When this system-wide value is set, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="3">&lt;/i&gt;</ept> is used to authenticate all operations. Individual databases can override this directive by specifying their own value for <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.provider<ept id="4">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">NATIVE authentication using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="1">&lt;/i&gt;</ept>, a dedicated database, to store user credentials.</mrk><mrk mid="1" mtype="seg"> This value must be set by using system-wide Java Virtual Machine (JVM) properties or by using the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="2">&lt;/i&gt;</ept> file; it cannot be set in the database by using the SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY system procedure.</mrk><mrk mid="2" mtype="seg"> When this system-wide value is set, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="3">&lt;/i&gt;</ept> is used to authenticate all operations.</mrk><mrk mid="3" mtype="seg"> Individual databases can override this directive by specifying their own value for <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.provider<ept id="4">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NATIVE authentication using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="1">&lt;/i&gt;</ept>, a dedicated database, to store user credentials.</mrk><mrk mid="1" mtype="seg"> This value must be set by using system-wide Java Virtual Machine (JVM) properties or by using the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="2">&lt;/i&gt;</ept> file; it cannot be set in the database by using the SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY system procedure.</mrk><mrk mid="2" mtype="seg"> When this system-wide value is set, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="3">&lt;/i&gt;</ept> is used to authenticate all operations.</mrk><mrk mid="3" mtype="seg"> Individual databases can override this directive by specifying their own value for <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.provider<ept id="4">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The value of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="1">&lt;/i&gt;</ept> must be a valid name for a database.</source>
+<seg-source><mrk mid="0" mtype="seg">The value of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="1">&lt;/i&gt;</ept> must be a valid name for a database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The value of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="1">&lt;/i&gt;</ept> must be a valid name for a database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">NATIVE:<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="1">&lt;/i&gt;</ept>:LOCAL</source>
+<seg-source><mrk mid="0" mtype="seg">NATIVE:<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="1">&lt;/i&gt;</ept>:LOCAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NATIVE:<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="1">&lt;/i&gt;</ept>:LOCAL</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">NATIVE authentication using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="1">&lt;/i&gt;</ept> for system-wide operations, but using an individual database's <bpt id="2" ctype="x-xref">&lt;xref href="rrefsistabssysusers.dita#rrefsistabssysusers"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> to authenticate connections to that database. This value must be set by using system-wide JVM properties or by using the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="3">&lt;/i&gt;</ept> file; it cannot be set in the database by using the SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">NATIVE authentication using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="1">&lt;/i&gt;</ept> for system-wide operations, but using an individual database's <bpt id="2" ctype="x-xref">&lt;xref href="rrefsistabssysusers.dita#rrefsistabssysusers"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> to authenticate connections to that database.</mrk><mrk mid="1" mtype="seg"> This value must be set by using system-wide JVM properties or by using the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="3">&lt;/i&gt;</ept> file; it cannot be set in the database by using the SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NATIVE authentication using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="1">&lt;/i&gt;</ept> for system-wide operations, but using an individual database's <bpt id="2" ctype="x-xref">&lt;xref href="rrefsistabssysusers.dita#rrefsistabssysusers"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> to authenticate connections to that database.</mrk><mrk mid="1" mtype="seg"> This value must be set by using system-wide JVM properties or by using the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="3">&lt;/i&gt;</ept> file; it cannot be set in the database by using the SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">LDAP</source>
+<seg-source><mrk mid="0" mtype="seg">LDAP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LDAP</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">An external LDAP directory service.</source>
+<seg-source><mrk mid="0" mtype="seg">An external LDAP directory service.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An external LDAP directory service.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">A complete Java class name</source>
+<seg-source><mrk mid="0" mtype="seg">A complete Java class name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A complete Java class name</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">A user-defined class that provides user authentication.</source>
+<seg-source><mrk mid="0" mtype="seg">A user-defined class that provides user authentication.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A user-defined class that provides user authentication.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">BUILTIN</source>
+<seg-source><mrk mid="0" mtype="seg">BUILTIN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BUILTIN</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s simple internal user authentication repository.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s simple internal user authentication repository.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s simple internal user authentication repository.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s BUILTIN authentication mechanism is suitable only for development and testing purposes, and it will no longer be documented in future releases. It is strongly recommended that production systems rely on NATIVE authentication, an external directory service such as LDAP, or a user-defined class for authentication. It is also strongly recommended that production systems protect network connections with SSL/TLS.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s BUILTIN authentication mechanism is suitable only for development and testing purposes, and it will no longer be documented in future releases.</mrk><mrk mid="1" mtype="seg"> It is strongly recommended that production systems rely on NATIVE authentication, an external directory service such as LDAP, or a user-defined class for authentication.</mrk><mrk mid="2" mtype="seg"> It is also strongly recommended that production systems protect network connections with SSL/TLS.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s BUILTIN authentication mechanism is suitable only for development and testing purposes, and it will no longer be documented in future releases.</mrk><mrk mid="1" mtype="seg"> It is strongly recommended that production systems rely on NATIVE authentication, an external directory service such as LDAP, or a user-defined class for authentication.</mrk><mrk mid="2" mtype="seg"> It is also strongly recommended that production systems protect network connections with SSL/TLS.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">For more information about these settings, see "Using NATIVE authentication" and "External directory service" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information about these settings, see "Using NATIVE authentication" and "External directory service" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information about these settings, see "Using NATIVE authentication" and "External directory service" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">To enable any <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> user authentication setting other than NATIVE, you must set the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefproper27467.dita#rrefproper27467"&gt;</bpt>derby.connection.requireAuthentication<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> property to true. If you specify NATIVE authentication, <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> behaves as if the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>derby.connection.requireAuthentication<ept id="5">&lt;/i&gt;</ept> and <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefpropersqlauth.dita#rrefpropersqlauth"&gt;</bpt>derby.database.sqlAuthorization<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> properties were also set.</source>
+<seg-source><mrk mid="0" mtype="seg">To enable any <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> user authentication setting other than NATIVE, you must set the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefproper27467.dita#rrefproper27467"&gt;</bpt>derby.connection.requireAuthentication<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> property to true.</mrk><mrk mid="1" mtype="seg"> If you specify NATIVE authentication, <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> behaves as if the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>derby.connection.requireAuthentication<ept id="5">&lt;/i&gt;</ept> and <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefpropersqlauth.dita#rrefpropersqlauth"&gt;</bpt>derby.database.sqlAuthorization<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> properties were also set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To enable any <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> user authentication setting other than NATIVE, you must set the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefproper27467.dita#rrefproper27467"&gt;</bpt>derby.connection.requireAuthentication<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> property to true.</mrk><mrk mid="1" mtype="seg"> If you specify NATIVE authentication, <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> behaves as if the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>derby.connection.requireAuthentication<ept id="5">&lt;/i&gt;</ept> and <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefpropersqlauth.dita#rrefpropersqlauth"&gt;</bpt>derby.database.sqlAuthorization<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> properties were also set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">When using NATIVE authentication, you can also set the following related properties:</source>
+<seg-source><mrk mid="0" mtype="seg">When using NATIVE authentication, you can also set the following related properties:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When using NATIVE authentication, you can also set the following related properties:</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperpasswordmillis.dita#rrefproperpasswordmillis"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperpasswordmillis.dita#rrefproperpasswordmillis"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperpasswordmillis.dita#rrefproperpasswordmillis"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperpasswordthreshold.dita#rrefproperpasswordthreshold"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperpasswordthreshold.dita#rrefproperpasswordthreshold"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperpasswordthreshold.dita#rrefproperpasswordthreshold"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">When using NATIVE authentication, the database owner calls the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefnativecreateuserproc.dita#rrefnativecreateuserproc"&gt;</bpt>SYSCS_UTIL.SYSCS_CREATE_USER<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> system procedure to create users, and can also call the following additional user management procedures:</source>
+<seg-source><mrk mid="0" mtype="seg">When using NATIVE authentication, the database owner calls the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefnativecreateuserproc.dita#rrefnativecreateuserproc"&gt;</bpt>SYSCS_UTIL.SYSCS_CREATE_USER<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> system procedure to create users, and can also call the following additional user management procedures:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When using NATIVE authentication, the database owner calls the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefnativecreateuserproc.dita#rrefnativecreateuserproc"&gt;</bpt>SYSCS_UTIL.SYSCS_CREATE_USER<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> system procedure to create users, and can also call the following additional user management procedures:</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefnativedropuserproc.dita#rrefnativedropuserproc"&gt;</bpt>SYSCS_UTIL.SYSCS_DROP_USER<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefnativedropuserproc.dita#rrefnativedropuserproc"&gt;</bpt>SYSCS_UTIL.SYSCS_DROP_USER<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefnativedropuserproc.dita#rrefnativedropuserproc"&gt;</bpt>SYSCS_UTIL.SYSCS_DROP_USER<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefnativeresetpasswordproc.dita#rrefnativeresetpasswordproc"&gt;</bpt>SYSCS_UTIL.SYSCS_RESET_PASSWORD<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefnativeresetpasswordproc.dita#rrefnativeresetpasswordproc"&gt;</bpt>SYSCS_UTIL.SYSCS_RESET_PASSWORD<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefnativeresetpasswordproc.dita#rrefnativeresetpasswordproc"&gt;</bpt>SYSCS_UTIL.SYSCS_RESET_PASSWORD<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">When using NATIVE authentication, any user can call the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefnativemodifypasswordproc.dita#rrefnativemodifypasswordproc"&gt;</bpt>SYSCS_UTIL.SYSCS_MODIFY_PASSWORD<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> system procedure to change that user's password.</source>
+<seg-source><mrk mid="0" mtype="seg">When using NATIVE authentication, any user can call the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefnativemodifypasswordproc.dita#rrefnativemodifypasswordproc"&gt;</bpt>SYSCS_UTIL.SYSCS_MODIFY_PASSWORD<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> system procedure to change that user's password.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When using NATIVE authentication, any user can call the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefnativemodifypasswordproc.dita#rrefnativemodifypasswordproc"&gt;</bpt>SYSCS_UTIL.SYSCS_MODIFY_PASSWORD<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> system procedure to change that user's password.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">For more information about user authentication, see the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information about user authentication, see the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information about user authentication, see the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">When using an external authentication service provider (LDAP), you must also set:</source>
+<seg-source><mrk mid="0" mtype="seg">When using an external authentication service provider (LDAP), you must also set:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When using an external authentication service provider (LDAP), you must also set:</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper25581.dita#rrefproper25581"&gt;</bpt>derby.authentication.server<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper25581.dita#rrefproper25581"&gt;</bpt>derby.authentication.server<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper25581.dita#rrefproper25581"&gt;</bpt>derby.authentication.server<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">When using LDAP, you can set other LDAP-specific properties. See also:</source>
+<seg-source><mrk mid="0" mtype="seg">When using LDAP, you can set other LDAP-specific properties.</mrk><mrk mid="1" mtype="seg"> See also:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When using LDAP, you can set other LDAP-specific properties.</mrk><mrk mid="1" mtype="seg"> See also:</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperauthdn.dita#rrefproperauthdn"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperauthdn.dita#rrefproperauthdn"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperauthdn.dita#rrefproperauthdn"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperauthpw.dita#rrefproperauthpw"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperauthpw.dita#rrefproperauthpw"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperauthpw.dita#rrefproperauthpw"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper37341.dita#rrefproper37341"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper37341.dita#rrefproper37341"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper37341.dita#rrefproper37341"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper26978.dita#rrefproper26978"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper26978.dita#rrefproper26978"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper26978.dita#rrefproper26978"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">Alternatively, you can write your own class to provide a different external authentication service. This class must implement the public interface <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.authentication.UserAuthenticator<ept id="1">&lt;/i&gt;</ept> and throw exceptions of the type <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.SQLException<ept id="2">&lt;/i&gt;</ept> where appropriate. Using a user-defined class makes <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> adaptable to various naming and directory services. For example, the class could allow <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> to hook up to an existing user authentication service that uses any of the standard directory and naming service providers to JNDI.</source>
+<seg-source><mrk mid="0" mtype="seg">Alternatively, you can write your own class to provide a different external authentication service.</mrk><mrk mid="1" mtype="seg"> This class must implement the public interface <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.authentication.UserAuthenticator<ept id="1">&lt;/i&gt;</ept> and throw exceptions of the type <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.SQLException<ept id="2">&lt;/i&gt;</ept> where appropriate.</mrk><mrk mid="2" mtype="seg"> Using a user-defined class makes <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> adaptable to various naming and directory services.</mrk><mrk mid="3" mtype="seg"> For example, the class could allow <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> to hook up to an existing user authentication service that uses any of the standard directory and naming service providers to JNDI.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Alternatively, you can write your own class to provide a different external authentication service.</mrk><mrk mid="1" mtype="seg"> This class must implement the public interface <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.authentication.UserAuthenticator<ept id="1">&lt;/i&gt;</ept> and throw exceptions of the type <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.SQLException<ept id="2">&lt;/i&gt;</ept> where appropriate.</mrk><mrk mid="2" mtype="seg"> Using a user-defined class makes <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> adaptable to various naming and directory services.</mrk><mrk mid="3" mtype="seg"> For example, the class could allow <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> to hook up to an existing user authentication service that uses any of the standard directory and naming service providers to JNDI.</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.authentication.provider={ NATIVE:<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="2">&lt;/i&gt;</ept> | NATIVE:<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="3">&lt;/i&gt;</ept>:LOCAL | LDAP | BUILTIN | <bpt id="4" ctype="x-b">&lt;b&gt;</bpt><bpt id="5" ctype="x-i">&lt;i&gt;</bpt>classProviderName<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/b&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.authentication.provider={ NATIVE:<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="2">&lt;/i&gt;</ept> | NATIVE:<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="3">&lt;/i&gt;</ept>:LOCAL | LDAP | BUILTIN | <bpt id="4" ctype="x-b">&lt;b&gt;</bpt><bpt id="5" ctype="x-i">&lt;i&gt;</bpt>classProviderName<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/b&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.authentication.provider={ NATIVE:<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="2">&lt;/i&gt;</ept> | NATIVE:<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>credentialsDB<ept id="3">&lt;/i&gt;</ept>:LOCAL | LDAP | BUILTIN | <bpt id="4" ctype="x-b">&lt;b&gt;</bpt><bpt id="5" ctype="x-i">&lt;i&gt;</bpt>classProviderName<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/b&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">No authentication.</source>
+<seg-source><mrk mid="0" mtype="seg">No authentication.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No authentication.</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- system-wide property derby.authentication.provider=NATIVE:MyCredsDB:LOCAL -- database-wide property CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.authentication.provider', 'LDAP')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- system-wide property derby.authentication.provider=NATIVE:MyCredsDB:LOCAL -- database-wide property CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.authentication.provider', 'LDAP')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- system-wide property derby.authentication.provider=NATIVE:MyCredsDB:LOCAL -- database-wide property CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.authentication.provider', 'LDAP')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">Dynamic or static</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic or static</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic or static</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">Static. For system-wide properties, you must reboot <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for the change to take effect. For database-wide properties, you must reboot the database for the change to take effect.</source>
+<seg-source><mrk mid="0" mtype="seg">Static.</mrk><mrk mid="1" mtype="seg"> For system-wide properties, you must reboot <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for the change to take effect.</mrk><mrk mid="2" mtype="seg"> For database-wide properties, you must reboot the database for the change to take effect.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Static.</mrk><mrk mid="1" mtype="seg"> For system-wide properties, you must reboot <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for the change to take effect.</mrk><mrk mid="2" mtype="seg"> For database-wide properties, you must reboot the database for the change to take effect.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

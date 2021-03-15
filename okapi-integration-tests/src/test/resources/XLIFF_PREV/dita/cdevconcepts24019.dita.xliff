@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts24019.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Multiple connections from a single application</source>
+<seg-source><mrk mid="0" mtype="seg">Multiple connections from a single application</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multiple connections from a single application</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">A single application can work with multiple <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connections<ept id="1">&lt;/i&gt;</ept> to the same database and assign them to different threads.</source>
+<seg-source><mrk mid="0" mtype="seg">A single application can work with multiple <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connections<ept id="1">&lt;/i&gt;</ept> to the same database and assign them to different threads.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A single application can work with multiple <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connections<ept id="1">&lt;/i&gt;</ept> to the same database and assign them to different threads.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">You can avoid concurrency and deadlock problems in your application in several ways:</source>
+<seg-source><mrk mid="0" mtype="seg">You can avoid concurrency and deadlock problems in your application in several ways:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can avoid concurrency and deadlock problems in your application in several ways:</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_READ_COMMITTED<ept id="1">&lt;/i&gt;</ept> isolation level and turn on row-level locking (the defaults).</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_READ_COMMITTED<ept id="1">&lt;/i&gt;</ept> isolation level and turn on row-level locking (the defaults).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_READ_COMMITTED<ept id="1">&lt;/i&gt;</ept> isolation level and turn on row-level locking (the defaults).</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Beware of deadlocks caused by using more than one <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> in a single thread (the most obvious case). For example, if the thread tries to update the same table from two different <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connections<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept>, a deadlock can occur.</source>
+<seg-source><mrk mid="0" mtype="seg">Beware of deadlocks caused by using more than one <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> in a single thread (the most obvious case).</mrk><mrk mid="1" mtype="seg"> For example, if the thread tries to update the same table from two different <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connections<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept>, a deadlock can occur.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Beware of deadlocks caused by using more than one <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> in a single thread (the most obvious case).</mrk><mrk mid="1" mtype="seg"> For example, if the thread tries to update the same table from two different <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connections<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept>, a deadlock can occur.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Assign <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connections<ept id="1">&lt;/i&gt;</ept> to threads that handle discrete tasks. For example, do not have two threads update the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Hotels<ept id="2">&lt;/i&gt;</ept> table. Have one thread update the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Hotels<ept id="3">&lt;/i&gt;</ept> table and a different one update the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Groups<ept id="4">&lt;/i&gt;</ept> table.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connections<ept id="1">&lt;/i&gt;</ept> to threads that handle discrete tasks.</mrk><mrk mid="1" mtype="seg"> For example, do not have two threads update the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Hotels<ept id="2">&lt;/i&gt;</ept> table.</mrk><mrk mid="2" mtype="seg"> Have one thread update the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Hotels<ept id="3">&lt;/i&gt;</ept> table and a different one update the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Groups<ept id="4">&lt;/i&gt;</ept> table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connections<ept id="1">&lt;/i&gt;</ept> to threads that handle discrete tasks.</mrk><mrk mid="1" mtype="seg"> For example, do not have two threads update the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Hotels<ept id="2">&lt;/i&gt;</ept> table.</mrk><mrk mid="2" mtype="seg"> Have one thread update the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Hotels<ept id="3">&lt;/i&gt;</ept> table and a different one update the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Groups<ept id="4">&lt;/i&gt;</ept> table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">If threads access the same tables, commit transactions often.</source>
+<seg-source><mrk mid="0" mtype="seg">If threads access the same tables, commit transactions often.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If threads access the same tables, commit transactions often.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Multi-threaded Java applications have the ability to self-deadlock without even accessing a database, so beware of that too.</source>
+<seg-source><mrk mid="0" mtype="seg">Multi-threaded Java applications have the ability to self-deadlock without even accessing a database, so beware of that too.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multi-threaded Java applications have the ability to self-deadlock without even accessing a database, so beware of that too.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Use nested connections to share the same lock space.</source>
+<seg-source><mrk mid="0" mtype="seg">Use nested connections to share the same lock space.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use nested connections to share the same lock space.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

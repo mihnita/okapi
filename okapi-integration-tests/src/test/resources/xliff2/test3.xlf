@@ -1,0 +1,18 @@
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="fr" xmlns:my="myNamespace" xmlns:fs="urn:oasis:names:tc:xliff:fs:2.0" my:attr="value1">
+	<file id="f1" original="Graphic Example.psd">
+		<unit id="tu1" canResegment="yes" translate="yes" srcDir="ltr"
+			trgDir="ltr" name="unit1" type="z:typeu" my:attr="value5">
+			<segment id="1" canResegment="no" state="translated" subState="my:state">
+				<source>Sample segment.</source>
+				<target>Exemple de segment.</target>
+			</segment>
+			<ignorable>
+				<source> </source>
+			</ignorable>
+			<segment id="2">
+				<source xml:space="default">Segment's content.</source>
+				<target xml:space="default">Contenu du segment.</target>
+			</segment>
+		</unit>
+	</file>
+</xliff>

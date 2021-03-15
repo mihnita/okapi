@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdeploy855655.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Deploying Derby in an embedded environment</source>
+<seg-source><mrk mid="0" mtype="seg">Deploying Derby in an embedded environment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Deploying Derby in an embedded environment</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You can embed <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> in any Java application (single- or multi-user) by deploying the following packages.</source>
+<seg-source><mrk mid="0" mtype="seg">You can embed <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> in any Java application (single- or multi-user) by deploying the following packages.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can embed <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> in any Java application (single- or multi-user) by deploying the following packages.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">derby.jar</source>
+<seg-source><mrk mid="0" mtype="seg">derby.jar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.jar</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">embedded environments</source>
+<seg-source><mrk mid="0" mtype="seg">embedded environments</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">embedded environments</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">deployment configurations</source>
+<seg-source><mrk mid="0" mtype="seg">deployment configurations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">deployment configurations</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> library (<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.jar<ept id="2">&lt;/i&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> library (<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.jar<ept id="2">&lt;/i&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> library (<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.jar<ept id="2">&lt;/i&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The libraries for the application. You have the option of storing these libraries in the database.</source>
+<seg-source><mrk mid="0" mtype="seg">The libraries for the application.</mrk><mrk mid="1" mtype="seg"> You have the option of storing these libraries in the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The libraries for the application.</mrk><mrk mid="1" mtype="seg"> You have the option of storing these libraries in the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The database or databases used by the application, in the context of their system directory.</source>
+<seg-source><mrk mid="0" mtype="seg">The database or databases used by the application, in the context of their system directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The database or databases used by the application, in the context of their system directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">In the following figure, the top graphic shows the deployment of an application, where the application, the Derby software for embedded use, the derby.properties file and the database are four objects. The bottom graphic shows a simplified deployment by reducing the number of objects to two by storing the application and the properties file in the database.</source>
+<seg-source><mrk mid="0" mtype="seg">In the following figure, the top graphic shows the deployment of an application, where the application, the Derby software for embedded use, the derby.properties file and the database are four objects.</mrk><mrk mid="1" mtype="seg"> The bottom graphic shows a simplified deployment by reducing the number of objects to two by storing the application and the properties file in the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the following figure, the top graphic shows the deployment of an application, where the application, the Derby software for embedded use, the derby.properties file and the database are four objects.</mrk><mrk mid="1" mtype="seg"> The bottom graphic shows a simplified deployment by reducing the number of objects to two by storing the application and the properties file in the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Two approaches to deploying a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> application in an embedded environment</source>
+<seg-source><mrk mid="0" mtype="seg">Two approaches to deploying a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> application in an embedded environment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Two approaches to deploying a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> application in an embedded environment</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><it id="1" ctype="x-alt" pos="open">&lt;alt&gt;</it>This figure shows two graphics. The top graphic displays a slightly more complicated deployment of a Derby system involving four objects: the derby.jar file, your application jar file, the derby.properties file and the database. The bottom graphic displays a simplified deployment of a Derby system involving two objects. The application jar file and the derby properties are stored in the database. Only the derby.jar file is outside the database.<it id="1" ctype="x-alt" pos="close">&lt;/alt&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-alt" pos="open">&lt;alt&gt;</it>This figure shows two graphics.</mrk><mrk mid="1" mtype="seg"> The top graphic displays a slightly more complicated deployment of a Derby system involving four objects: the derby.jar file, your application jar file, the derby.properties file and the database.</mrk><mrk mid="2" mtype="seg"> The bottom graphic displays a simplified deployment of a Derby system involving two objects.</mrk><mrk mid="3" mtype="seg"> The application jar file and the derby properties are stored in the database.</mrk><mrk mid="4" mtype="seg"> Only the derby.jar file is outside the database.<it id="1" ctype="x-alt" pos="close">&lt;/alt&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-alt" pos="open">&lt;alt&gt;</it>This figure shows two graphics.</mrk><mrk mid="1" mtype="seg"> The top graphic displays a slightly more complicated deployment of a Derby system involving four objects: the derby.jar file, your application jar file, the derby.properties file and the database.</mrk><mrk mid="2" mtype="seg"> The bottom graphic displays a simplified deployment of a Derby system involving two objects.</mrk><mrk mid="3" mtype="seg"> The application jar file and the derby properties are stored in the database.</mrk><mrk mid="4" mtype="seg"> Only the derby.jar file is outside the database.<it id="1" ctype="x-alt" pos="close">&lt;/alt&gt;</it></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure60146.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Booting an encrypted database</source>
+<seg-source><mrk mid="0" mtype="seg">Booting an encrypted database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Booting an encrypted database</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">If you create an encrypted database using the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>bootPassword=key<ept id="1">&lt;/i&gt;</ept> attribute, you must specify the boot password to reboot the database. If you create an encrypted database using the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>encryptionKey=key<ept id="2">&lt;/i&gt;</ept> attribute, you must specify the encryption key to reboot the database.</source>
+<seg-source><mrk mid="0" mtype="seg">If you create an encrypted database using the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>bootPassword=key<ept id="1">&lt;/i&gt;</ept> attribute, you must specify the boot password to reboot the database.</mrk><mrk mid="1" mtype="seg"> If you create an encrypted database using the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>encryptionKey=key<ept id="2">&lt;/i&gt;</ept> attribute, you must specify the encryption key to reboot the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you create an encrypted database using the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>bootPassword=key<ept id="1">&lt;/i&gt;</ept> attribute, you must specify the boot password to reboot the database.</mrk><mrk mid="1" mtype="seg"> If you create an encrypted database using the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>encryptionKey=key<ept id="2">&lt;/i&gt;</ept> attribute, you must specify the encryption key to reboot the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">encrypted databases</source>
+<seg-source><mrk mid="0" mtype="seg">encrypted databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">encrypted databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">booting</source>
+<seg-source><mrk mid="0" mtype="seg">booting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">booting</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Encrypted databases cannot be booted automatically along with all other system databases on system startup (see "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.bootAll<ept id="1">&lt;/i&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>). Instead, you boot an encrypted database when you first connect to the database.</source>
+<seg-source><mrk mid="0" mtype="seg">Encrypted databases cannot be booted automatically along with all other system databases on system startup (see "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.bootAll<ept id="1">&lt;/i&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> Instead, you boot an encrypted database when you first connect to the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encrypted databases cannot be booted automatically along with all other system databases on system startup (see "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.bootAll<ept id="1">&lt;/i&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> Instead, you boot an encrypted database when you first connect to the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Booting a database with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>bootPassword=key<ept id="1">&lt;/i&gt;</ept> attribute</source>
+<seg-source><mrk mid="0" mtype="seg">Booting a database with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>bootPassword=key<ept id="1">&lt;/i&gt;</ept> attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Booting a database with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>bootPassword=key<ept id="1">&lt;/i&gt;</ept> attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">To access an encrypted database called <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>wombat<ept id="1">&lt;/codeph&gt;</ept> that was created with the boot password <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>clo760uds2caPe<ept id="2">&lt;/codeph&gt;</ept>, use the following connection URL:</source>
+<seg-source><mrk mid="0" mtype="seg">To access an encrypted database called <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>wombat<ept id="1">&lt;/codeph&gt;</ept> that was created with the boot password <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>clo760uds2caPe<ept id="2">&lt;/codeph&gt;</ept>, use the following connection URL:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To access an encrypted database called <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>wombat<ept id="1">&lt;/codeph&gt;</ept> that was created with the boot password <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>clo760uds2caPe<ept id="2">&lt;/codeph&gt;</ept>, use the following connection URL:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">jdbc:derby:wombat;bootPassword=clo760uds2caPe</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:wombat;bootPassword=clo760uds2caPe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:wombat;bootPassword=clo760uds2caPe</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Booting a database with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>encryptionKey=key<ept id="1">&lt;/i&gt;</ept> attribute</source>
+<seg-source><mrk mid="0" mtype="seg">Booting a database with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>encryptionKey=key<ept id="1">&lt;/i&gt;</ept> attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Booting a database with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>encryptionKey=key<ept id="1">&lt;/i&gt;</ept> attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">To access an encrypted database called <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>flintstone<ept id="1">&lt;/codeph&gt;</ept> that was created with the attributes <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>encryptionKey=c566bab9ee8b62a5ddb4d9229224c678<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>encryptionAlgorithm=AES/CBC/NoPadding<ept id="3">&lt;/codeph&gt;</ept>, use the following connection URL:</source>
+<seg-source><mrk mid="0" mtype="seg">To access an encrypted database called <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>flintstone<ept id="1">&lt;/codeph&gt;</ept> that was created with the attributes <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>encryptionKey=c566bab9ee8b62a5ddb4d9229224c678<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>encryptionAlgorithm=AES/CBC/NoPadding<ept id="3">&lt;/codeph&gt;</ept>, use the following connection URL:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To access an encrypted database called <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>flintstone<ept id="1">&lt;/codeph&gt;</ept> that was created with the attributes <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>encryptionKey=c566bab9ee8b62a5ddb4d9229224c678<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>encryptionAlgorithm=AES/CBC/NoPadding<ept id="3">&lt;/codeph&gt;</ept>, use the following connection URL:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">jdbc:derby:flintstone;encryptionKey=c566bab9ee8b62a5ddb4d9229224c678</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:flintstone;encryptionKey=c566bab9ee8b62a5ddb4d9229224c678</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:flintstone;encryptionKey=c566bab9ee8b62a5ddb4d9229224c678</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">After the database is booted, all connections can access the database without the boot password. Only a connection that boots the database requires the key.</source>
+<seg-source><mrk mid="0" mtype="seg">After the database is booted, all connections can access the database without the boot password.</mrk><mrk mid="1" mtype="seg"> Only a connection that boots the database requires the key.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After the database is booted, all connections can access the database without the boot password.</mrk><mrk mid="1" mtype="seg"> Only a connection that boots the database requires the key.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">For example, the following connections would boot the database and require the boot password or encryption key, depending on what mechanism was used to encrypt the database originally:</source>
+<seg-source><mrk mid="0" mtype="seg">For example, the following connections would boot the database and require the boot password or encryption key, depending on what mechanism was used to encrypt the database originally:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, the following connections would boot the database and require the boot password or encryption key, depending on what mechanism was used to encrypt the database originally:</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">The first connection to the database in the JVM session</source>
+<seg-source><mrk mid="0" mtype="seg">The first connection to the database in the JVM session</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The first connection to the database in the JVM session</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">The first connection to the database after the database has been explicitly shut down</source>
+<seg-source><mrk mid="0" mtype="seg">The first connection to the database after the database has been explicitly shut down</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The first connection to the database after the database has been explicitly shut down</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">The first connection to the database after the system has been shut down and then rebooted</source>
+<seg-source><mrk mid="0" mtype="seg">The first connection to the database after the system has been shut down and then rebooted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The first connection to the database after the system has been shut down and then rebooted</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">The boot password and the encryption key are not meant to prevent unauthorized connections to the database after the database is booted. To protect a database after it has been booted, turn on user authentication (see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure42374.dita#cdevcsecure42374"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">The boot password and the encryption key are not meant to prevent unauthorized connections to the database after the database is booted.</mrk><mrk mid="1" mtype="seg"> To protect a database after it has been booted, turn on user authentication (see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure42374.dita#cdevcsecure42374"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The boot password and the encryption key are not meant to prevent unauthorized connections to the database after the database is booted.</mrk><mrk mid="1" mtype="seg"> To protect a database after it has been booted, turn on user authentication (see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure42374.dita#cdevcsecure42374"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>).</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

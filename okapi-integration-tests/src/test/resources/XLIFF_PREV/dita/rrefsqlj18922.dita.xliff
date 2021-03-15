@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj18922.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">LEFT OUTER JOIN operation</source>
+<seg-source><mrk mid="0" mtype="seg">LEFT OUTER JOIN operation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LEFT OUTER JOIN operation</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">LEFT OUTER JOIN operation</source>
+<seg-source><mrk mid="0" mtype="seg">LEFT OUTER JOIN operation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LEFT OUTER JOIN operation</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">A LEFT OUTER JOIN is one of the <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj29840.dita#rrefsqlj29840"&gt;</bpt>JOIN operations<ept id="1">&lt;/xref&gt;</ept> that allow you to specify a join clause. It preserves the unmatched rows from the first (left) table, joining them with a NULL row in the shape of the second (right) table.</source>
+<seg-source><mrk mid="0" mtype="seg">A LEFT OUTER JOIN is one of the <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj29840.dita#rrefsqlj29840"&gt;</bpt>JOIN operations<ept id="1">&lt;/xref&gt;</ept> that allow you to specify a join clause.</mrk><mrk mid="1" mtype="seg"> It preserves the unmatched rows from the first (left) table, joining them with a NULL row in the shape of the second (right) table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A LEFT OUTER JOIN is one of the <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj29840.dita#rrefsqlj29840"&gt;</bpt>JOIN operations<ept id="1">&lt;/xref&gt;</ept> that allow you to specify a join clause.</mrk><mrk mid="1" mtype="seg"> It preserves the unmatched rows from the first (left) table, joining them with a NULL row in the shape of the second (right) table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> LEFT [ OUTER ] JOIN <bpt id="4" ctype="x-i">&lt;i
+&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> { ON <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefsqlj23075.dita#rrefsqlj23075"&gt;</bpt>booleanExpression<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> | <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefsqljusing.dita#rrefsqljusing"&gt;</bpt>USING clause<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> LEFT [ OUTER ] JOIN <bpt id="4" ctype="x-i">&lt;i
+&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> { ON <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefsqlj23075.dita#rrefsqlj23075"&gt;</bpt>booleanExpression<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> | <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefsqljusing.dita#rrefsqljusing"&gt;</bpt>USING clause<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> LEFT [ OUTER ] JOIN <bpt id="4" ctype="x-i">&lt;i
+&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> { ON <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefsqlj23075.dita#rrefsqlj23075"&gt;</bpt>booleanExpression<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> | <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefsqljusing.dita#rrefsqljusing"&gt;</bpt>USING clause<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The scope of expressions in either the ON clause includes the current tables and any tables in query blocks outer to the current SELECT. The ON clause can reference tables not being joined and does not have to reference either of the tables being joined (though typically it does).</source>
+<seg-source><mrk mid="0" mtype="seg">The scope of expressions in either the ON clause includes the current tables and any tables in query blocks outer to the current SELECT.</mrk><mrk mid="1" mtype="seg"> The ON clause can reference tables not being joined and does not have to reference either of the tables being joined (though typically it does).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The scope of expressions in either the ON clause includes the current tables and any tables in query blocks outer to the current SELECT.</mrk><mrk mid="1" mtype="seg"> The ON clause can reference tables not being joined and does not have to reference either of the tables being joined (though typically it does).</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- match cities to countries in Asia<ept id="1">&lt;/b&gt;</ept> SELECT CITIES.COUNTRY, CITIES.CITY_NAME, REGION FROM Countries LEFT OUTER JOIN Cities ON CITIES.COUNTRY_ISO_CODE = COUNTRIES.COUNTRY_ISO_CODE WHERE REGION = 'Asia' <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- use the synonymous syntax, LEFT JOIN, to achieve exactly -- the same results as in the example above <ept id="2">&lt;/b&gt;</ept> SELECT COUNTRIES.COUNTRY, CITIES.CITY_NAME,REGION FROM COUNTRIES LEFT JOIN CITIES ON CITIES.COUNTRY_ISO_CODE = COUNTRIES.COUNTRY_ISO_CODE WHERE REGION = 'Asia'</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- match cities to countries in Asia<ept id="1">&lt;/b&gt;</ept> SELECT CITIES.COUNTRY, CITIES.CITY_NAME, REGION FROM Countries LEFT OUTER JOIN Cities ON CITIES.COUNTRY_ISO_CODE = COUNTRIES.COUNTRY_ISO_CODE WHERE REGION = 'Asia' <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- use the synonymous syntax, LEFT JOIN, to achieve exactly -- the same results as in the example above <ept id="2">&lt;/b&gt;</ept> SELECT COUNTRIES.COUNTRY, CITIES.CITY_NAME,REGION FROM COUNTRIES LEFT JOIN CITIES ON CITIES.COUNTRY_ISO_CODE = COUNTRIES.COUNTRY_ISO_CODE WHERE REGION = 'Asia'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- match cities to countries in Asia<ept id="1">&lt;/b&gt;</ept> SELECT CITIES.COUNTRY, CITIES.CITY_NAME, REGION FROM Countries LEFT OUTER JOIN Cities ON CITIES.COUNTRY_ISO_CODE = COUNTRIES.COUNTRY_ISO_CODE WHERE REGION = 'Asia' <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- use the synonymous syntax, LEFT JOIN, to achieve exactly -- the same results as in the example above <ept id="2">&lt;/b&gt;</ept> SELECT COUNTRIES.COUNTRY, CITIES.CITY_NAME,REGION FROM COUNTRIES LEFT JOIN CITIES ON CITIES.COUNTRY_ISO_CODE = COUNTRIES.COUNTRY_ISO_CODE WHERE REGION = 'Asia'</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- Join the EMPLOYEE and DEPARTMENT tables, -- select the employee number (EMPNO), -- employee surname (LASTNAME), -- department number (WORKDEPT in the EMPLOYEE table -- and DEPTNO in the DEPARTMENT table) -- and department name (DEPTNAME) -- of all employees who were born (BIRTHDATE) earlier than 1930 <ept id="1">&lt;/b&gt;</ept> SELECT EMPNO, LASTNAME, WORKDEPT, DEPTNAME FROM SAMP.EMPLOYEE LEFT OUTER JOIN SAMP.DEPARTMENT ON WORKDEPT = DEPTNO AND YEAR(BIRTHDATE) &lt; 1930 <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- List every department with the employee number and -- last name of the manager, -- including departments without a manager <ept id="2">&lt;/b&gt;</ept> SELECT DEPTNO, DEPTNAME, EMPNO, LASTNAME FROM DEPARTMENT LEFT OUTER JOIN EMPLOYEE ON MGRNO = EMPNO</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- Join the EMPLOYEE and DEPARTMENT tables, -- select the employee number (EMPNO), -- employee surname (LASTNAME), -- department number (WORKDEPT in the EMPLOYEE table -- and DEPTNO in the DEPARTMENT table) -- and department name (DEPTNAME) -- of all employees who were born (BIRTHDATE) earlier than 1930 <ept id="1">&lt;/b&gt;</ept> SELECT EMPNO, LASTNAME, WORKDEPT, DEPTNAME FROM SAMP.EMPLOYEE LEFT OUTER JOIN SAMP.DEPARTMENT ON WORKDEPT = DEPTNO AND YEAR(BIRTHDATE) &lt; 1930 <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- List every department with the employee number and -- last name of the manager, -- including departments without a manager <ept id="2">&lt;/b&gt;</ept> SELECT DEPTNO, DEPTNAME, EMPNO, LASTNAME FROM DEPARTMENT LEFT OUTER JOIN EMPLOYEE ON MGRNO = EMPNO</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- Join the EMPLOYEE and DEPARTMENT tables, -- select the employee number (EMPNO), -- employee surname (LASTNAME), -- department number (WORKDEPT in the EMPLOYEE table -- and DEPTNO in the DEPARTMENT table) -- and department name (DEPTNAME) -- of all employees who were born (BIRTHDATE) earlier than 1930 <ept id="1">&lt;/b&gt;</ept> SELECT EMPNO, LASTNAME, WORKDEPT, DEPTNAME FROM SAMP.EMPLOYEE LEFT OUTER JOIN SAMP.DEPARTMENT ON WORKDEPT = DEPTNO AND YEAR(BIRTHDATE) &lt; 1930 <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- List every department with the employee number and -- last name of the manager, -- including departments without a manager <ept id="2">&lt;/b&gt;</ept> SELECT DEPTNO, DEPTNAME, EMPNO, LASTNAME FROM DEPARTMENT LEFT OUTER JOIN EMPLOYEE ON MGRNO = EMPNO</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

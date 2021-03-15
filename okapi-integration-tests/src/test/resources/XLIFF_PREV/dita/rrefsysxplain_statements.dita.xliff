@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsysxplain_statements.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSXPLAIN_STATEMENTS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENTS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENTS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The SYSXPLAIN_STATEMENTS table captures information about statements which have been executed using RUNTIMESTATISTICS with XPLAIN style.</source>
+<seg-source><mrk mid="0" mtype="seg">The SYSXPLAIN_STATEMENTS table captures information about statements which have been executed using RUNTIMESTATISTICS with XPLAIN style.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SYSXPLAIN_STATEMENTS table captures information about statements which have been executed using RUNTIMESTATISTICS with XPLAIN style.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">system tables</source>
+<seg-source><mrk mid="0" mtype="seg">system tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SYSXPLAIN_STATEMENTS</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENTS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENTS</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">XPLAIN style statistics</source>
+<seg-source><mrk mid="0" mtype="seg">XPLAIN style statistics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XPLAIN style statistics</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SYSXPLAIN_STATEMENTS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENTS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENTS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SYSXPLAIN_STATEMENTS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENTS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENTS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on how to configure this.</source>
+<seg-source><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on how to configure this.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on how to configure this.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Each row in this table describes a single statement which has been captured. Depending on the precise configuration of the RUNTIMESTATISTICS and XPLAIN features, there may be additional rows in the other XPLAIN system tables with additional information; the STMT_ID and TIMING_ID columns in this table are used to join against those tables.</source>
+<seg-source><mrk mid="0" mtype="seg">Each row in this table describes a single statement which has been captured.</mrk><mrk mid="1" mtype="seg"> Depending on the precise configuration of the RUNTIMESTATISTICS and XPLAIN features, there may be additional rows in the other XPLAIN system tables with additional information; the STMT_ID and TIMING_ID columns in this table are used to join against those tables.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Each row in this table describes a single statement which has been captured.</mrk><mrk mid="1" mtype="seg"> Depending on the precise configuration of the RUNTIMESTATISTICS and XPLAIN features, there may be additional rows in the other XPLAIN system tables with additional information; the STMT_ID and TIMING_ID columns in this table are used to join against those tables.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Rows in this table are added automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has been configured appropriately. The rows remain in the table until you delete them or drop the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Rows in this table are added automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has been configured appropriately.</mrk><mrk mid="1" mtype="seg"> The rows remain in the table until you delete them or drop the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Rows in this table are added automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has been configured appropriately.</mrk><mrk mid="1" mtype="seg"> The rows remain in the table until you delete them or drop the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The following table shows the contents of the SYSXPLAIN_STATEMENTS system table.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table shows the contents of the SYSXPLAIN_STATEMENTS system table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table shows the contents of the SYSXPLAIN_STATEMENTS system table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">SYSXPLAIN_STATEMENTS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENTS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENTS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">For each column in the SYSXPLAIN_STATEMENTS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</source>
+<seg-source><mrk mid="0" mtype="seg">For each column in the SYSXPLAIN_STATEMENTS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For each column in the SYSXPLAIN_STATEMENTS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Column Name</source>
+<seg-source><mrk mid="0" mtype="seg">Column Name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column Name</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Length</source>
+<seg-source><mrk mid="0" mtype="seg">Length</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Length</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Nullable</source>
+<seg-source><mrk mid="0" mtype="seg">Nullable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nullable</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Contents</source>
+<seg-source><mrk mid="0" mtype="seg">Contents</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contents</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">STMT_ID</source>
+<seg-source><mrk mid="0" mtype="seg">STMT_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">STMT_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">36</source>
+<seg-source><mrk mid="0" mtype="seg">36</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">36</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">A unique identifier for this particular captured statement.</source>
+<seg-source><mrk mid="0" mtype="seg">A unique identifier for this particular captured statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A unique identifier for this particular captured statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">STMT_NAME</source>
+<seg-source><mrk mid="0" mtype="seg">STMT_NAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">STMT_NAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">128</source>
+<seg-source><mrk mid="0" mtype="seg">128</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">128</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">The name of the associated query or statement. This value is NULL if the user did not assign a name (by calling <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Statement.setCursorName()<ept id="1">&lt;/i&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the associated query or statement.</mrk><mrk mid="1" mtype="seg"> This value is NULL if the user did not assign a name (by calling <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Statement.setCursorName()<ept id="1">&lt;/i&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the associated query or statement.</mrk><mrk mid="1" mtype="seg"> This value is NULL if the user did not assign a name (by calling <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Statement.setCursorName()<ept id="1">&lt;/i&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">STMT_TYPE</source>
+<seg-source><mrk mid="0" mtype="seg">STMT_TYPE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">STMT_TYPE</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">3</source>
+<seg-source><mrk mid="0" mtype="seg">3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">A code indicating what type of statement this is: <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'S'<ept id="1">&lt;/i&gt;</ept> for SELECT, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'I'<ept id="2">&lt;/i&gt;</ept> for INSERT, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'U'<ept id="3">&lt;/i&gt;</ept> for UPDATE, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>'D'<ept id="4">&lt;/i&gt;</ept> for DELETE, <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>'C'<ept id="5">&lt;/i&gt;</ept> for CALL, <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>'DDL'<ept id="6">&lt;/i&gt;</ept> for Data Definition (such as CREATE TABLE), <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>'SA'<ept id="7">&lt;/i&gt;</ept> for SELECT (Approximate), or blank, indicating the statement was a comment.</source>
+<seg-source><mrk mid="0" mtype="seg">A code indicating what type of statement this is: <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'S'<ept id="1">&lt;/i&gt;</ept> for SELECT, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'I'<ept id="2">&lt;/i&gt;</ept> for INSERT, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'U'<ept id="3">&lt;/i&gt;</ept> for UPDATE, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>'D'<ept id="4">&lt;/i&gt;</ept> for DELETE, <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>'C'<ept id="5">&lt;/i&gt;</ept> for CALL, <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>'DDL'<ept id="6">&lt;/i&gt;</ept> for Data Definition (such as CREATE TABLE), <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>'SA'<ept id="7">&lt;/i&gt;</ept> for SELECT (Approximate), or blank, indicating the statement was a comment.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A code indicating what type of statement this is: <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'S'<ept id="1">&lt;/i&gt;</ept> for SELECT, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'I'<ept id="2">&lt;/i&gt;</ept> for INSERT, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'U'<ept id="3">&lt;/i&gt;</ept> for UPDATE, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>'D'<ept id="4">&lt;/i&gt;</ept> for DELETE, <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>'C'<ept id="5">&lt;/i&gt;</ept> for CALL, <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>'DDL'<ept id="6">&lt;/i&gt;</ept> for Data Definition (such as CREATE TABLE), <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>'SA'<ept id="7">&lt;/i&gt;</ept> for SELECT (Approximate), or blank, indicating the statement was a comment.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">STMT_TEXT</source>
+<seg-source><mrk mid="0" mtype="seg">STMT_TEXT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">STMT_TEXT</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">32,672</source>
+<seg-source><mrk mid="0" mtype="seg">32,672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,672</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">The text of the statement.</source>
+<seg-source><mrk mid="0" mtype="seg">The text of the statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The text of the statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">JVM_ID</source>
+<seg-source><mrk mid="0" mtype="seg">JVM_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JVM_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">32,672</source>
+<seg-source><mrk mid="0" mtype="seg">32,672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,672</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">A code indicating what version of the JVM was running when this statement was captured. The code is a character that represents the release number plus one. For example, the code for Java SE 6 is <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'7'<ept id="1">&lt;/i&gt;</ept>, and the code for Java SE 7 is <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'8'<ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">A code indicating what version of the JVM was running when this statement was captured.</mrk><mrk mid="1" mtype="seg"> The code is a character that represents the release number plus one.</mrk><mrk mid="2" mtype="seg"> For example, the code for Java SE 6 is <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'7'<ept id="1">&lt;/i&gt;</ept>, and the code for Java SE 7 is <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'8'<ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A code indicating what version of the JVM was running when this statement was captured.</mrk><mrk mid="1" mtype="seg"> The code is a character that represents the release number plus one.</mrk><mrk mid="2" mtype="seg"> For example, the code for Java SE 6 is <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'7'<ept id="1">&lt;/i&gt;</ept>, and the code for Java SE 7 is <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'8'<ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">OS_IDENTIFIER</source>
+<seg-source><mrk mid="0" mtype="seg">OS_IDENTIFIER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OS_IDENTIFIER</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">32,672</source>
+<seg-source><mrk mid="0" mtype="seg">32,672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,672</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">Contains information about the operating system which was being used when this statement was captured.</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information about the operating system which was being used when this statement was captured.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information about the operating system which was being used when this statement was captured.</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">XPLAIN_MODE</source>
+<seg-source><mrk mid="0" mtype="seg">XPLAIN_MODE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XPLAIN_MODE</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">A code indicating the XPLAIN mode which was in use when this statement was captured: <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'F'<ept id="1">&lt;/i&gt;</ept> for FULL, or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'O'<ept id="2">&lt;/i&gt;</ept> for ONLY.</source>
+<seg-source><mrk mid="0" mtype="seg">A code indicating the XPLAIN mode which was in use when this statement was captured: <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'F'<ept id="1">&lt;/i&gt;</ept> for FULL, or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'O'<ept id="2">&lt;/i&gt;</ept> for ONLY.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A code indicating the XPLAIN mode which was in use when this statement was captured: <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'F'<ept id="1">&lt;/i&gt;</ept> for FULL, or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'O'<ept id="2">&lt;/i&gt;</ept> for ONLY.</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">XPLAIN_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">XPLAIN_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XPLAIN_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">TIMESTAMP</source>
+<seg-source><mrk mid="0" mtype="seg">TIMESTAMP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMESTAMP</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">29</source>
+<seg-source><mrk mid="0" mtype="seg">29</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">29</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">Contains the date and time when this statement was captured.</source>
+<seg-source><mrk mid="0" mtype="seg">Contains the date and time when this statement was captured.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains the date and time when this statement was captured.</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">XPLAIN_THREAD_ID</source>
+<seg-source><mrk mid="0" mtype="seg">XPLAIN_THREAD_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XPLAIN_THREAD_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">32,672</source>
+<seg-source><mrk mid="0" mtype="seg">32,672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,672</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">The JVM thread which was running when this statement was captured</source>
+<seg-source><mrk mid="0" mtype="seg">The JVM thread which was running when this statement was captured</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The JVM thread which was running when this statement was captured</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en">TRANSACTION_ID</source>
+<seg-source><mrk mid="0" mtype="seg">TRANSACTION_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TRANSACTION_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">32,672</source>
+<seg-source><mrk mid="0" mtype="seg">32,672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,672</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">An internal identifier for the transaction which was active when this statement was captured.</source>
+<seg-source><mrk mid="0" mtype="seg">An internal identifier for the transaction which was active when this statement was captured.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An internal identifier for the transaction which was active when this statement was captured.</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en">SESSION_ID</source>
+<seg-source><mrk mid="0" mtype="seg">SESSION_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SESSION_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en">32,672</source>
+<seg-source><mrk mid="0" mtype="seg">32,672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,672</mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en">An internal identifier for the session which was active when this statement was captured.</source>
+<seg-source><mrk mid="0" mtype="seg">An internal identifier for the session which was active when this statement was captured.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An internal identifier for the session which was active when this statement was captured.</mrk></target>
+</trans-unit>
+<trans-unit id="tu74">
+<source xml:lang="en">DATABASE_NAME</source>
+<seg-source><mrk mid="0" mtype="seg">DATABASE_NAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DATABASE_NAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu75">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu76">
+<source xml:lang="en">128</source>
+<seg-source><mrk mid="0" mtype="seg">128</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">128</mrk></target>
+</trans-unit>
+<trans-unit id="tu77">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu78">
+<source xml:lang="en">Contains the name of the database which was being used when this statement was captured.</source>
+<seg-source><mrk mid="0" mtype="seg">Contains the name of the database which was being used when this statement was captured.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains the name of the database which was being used when this statement was captured.</mrk></target>
+</trans-unit>
+<trans-unit id="tu79">
+<source xml:lang="en">DRDA_ID</source>
+<seg-source><mrk mid="0" mtype="seg">DRDA_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DRDA_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu80">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu81">
+<source xml:lang="en">32,672</source>
+<seg-source><mrk mid="0" mtype="seg">32,672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,672</mrk></target>
+</trans-unit>
+<trans-unit id="tu82">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu83">
+<source xml:lang="en">In a network environment, this column contains an internal identifier for the network connection which was active when this statement was captured. In an embedded environment, this column is null.</source>
+<seg-source><mrk mid="0" mtype="seg">In a network environment, this column contains an internal identifier for the network connection which was active when this statement was captured.</mrk><mrk mid="1" mtype="seg"> In an embedded environment, this column is null.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In a network environment, this column contains an internal identifier for the network connection which was active when this statement was captured.</mrk><mrk mid="1" mtype="seg"> In an embedded environment, this column is null.</mrk></target>
+</trans-unit>
+<trans-unit id="tu84">
+<source xml:lang="en">TIMING_ID</source>
+<seg-source><mrk mid="0" mtype="seg">TIMING_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMING_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu85">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu86">
+<source xml:lang="en">36</source>
+<seg-source><mrk mid="0" mtype="seg">36</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">36</mrk></target>
+</trans-unit>
+<trans-unit id="tu87">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu88">
+<source xml:lang="en">This field will be NULL unless SYSCS_UTIL.SYSCS_SET_STATISTICS_TIMING has been called to enable statistics timing. If statistics timings are being captured, then this column will contain the ID of the row in SYSXPLAIN_STATEMENT_TIMINGS which records the statement timing for this statement.</source>
+<seg-source><mrk mid="0" mtype="seg">This field will be NULL unless SYSCS_UTIL.SYSCS_SET_STATISTICS_TIMING has been called to enable statistics timing.</mrk><mrk mid="1" mtype="seg"> If statistics timings are being captured, then this column will contain the ID of the row in SYSXPLAIN_STATEMENT_TIMINGS which records the statement timing for this statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This field will be NULL unless SYSCS_UTIL.SYSCS_SET_STATISTICS_TIMING has been called to enable statistics timing.</mrk><mrk mid="1" mtype="seg"> If statistics timings are being captured, then this column will contain the ID of the row in SYSXPLAIN_STATEMENT_TIMINGS which records the statement timing for this statement.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

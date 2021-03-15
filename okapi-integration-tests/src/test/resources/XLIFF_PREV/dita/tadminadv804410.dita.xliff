@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminadv804410.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Turning on the trace facility</source>
+<seg-source><mrk mid="0" mtype="seg">Turning on the trace facility</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Turning on the trace facility</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Follow these steps to turn on the trace facility.</source>
+<seg-source><mrk mid="0" mtype="seg">Follow these steps to turn on the trace facility.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Follow these steps to turn on the trace facility.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Turn on tracing for all sessions by specifying the following property:</source>
+<seg-source><mrk mid="0" mtype="seg">Turn on tracing for all sessions by specifying the following property:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Turn on tracing for all sessions by specifying the following property:</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">derby.drda.traceAll=true</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.traceAll=true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.traceAll=true</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="radminconfig.dita#radminconfig"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information on this property.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="radminconfig.dita#radminconfig"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information on this property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="radminconfig.dita#radminconfig"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information on this property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Alternatively, while the Network Server is running, you can use the following command (all on one line) to turn on the trace facility:</source>
+<seg-source><mrk mid="0" mtype="seg">Alternatively, while the Network Server is running, you can use the following command (all on one line) to turn on the trace facility:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Alternatively, while the Network Server is running, you can use the following command (all on one line) to turn on the trace facility:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl trace on [-s <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>connection-number<ept id="2">&lt;/i&gt;</ept>] [-h <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="3">&lt;/i&gt;</ept>][-p <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="4">&lt;/i&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl trace on [-s <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>connection-number<ept id="2">&lt;/i&gt;</ept>] [-h <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="3">&lt;/i&gt;</ept>][-p <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="4">&lt;/i&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl trace on [-s <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>connection-number<ept id="2">&lt;/i&gt;</ept>] [-h <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="3">&lt;/i&gt;</ept>][-p <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="4">&lt;/i&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If you specify a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>connection-number<ept id="1">&lt;/i&gt;</ept>, tracing will be turned on only for that connection.</source>
+<seg-source><mrk mid="0" mtype="seg">If you specify a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>connection-number<ept id="1">&lt;/i&gt;</ept>, tracing will be turned on only for that connection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you specify a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>connection-number<ept id="1">&lt;/i&gt;</ept>, tracing will be turned on only for that connection.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Set the location of the tracing files by specifying the following property:</source>
+<seg-source><mrk mid="0" mtype="seg">Set the location of the tracing files by specifying the following property:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the location of the tracing files by specifying the following property:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">derby.drda.traceDirectory=<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>directory-for-tracing-files<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.traceDirectory=<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>directory-for-tracing-files<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.traceDirectory=<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>directory-for-tracing-files<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="radminconfigdb2jdrdatracedirectory.dita#radminconfigdb2jdrdatracedirectory"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information on this property.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="radminconfigdb2jdrdatracedirectory.dita#radminconfigdb2jdrdatracedirectory"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information on this property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="radminconfigdb2jdrdatracedirectory.dita#radminconfigdb2jdrdatracedirectory"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information on this property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Alternatively, while the Network Server is running, use the following command (all on one line) to set the trace directory:</source>
+<seg-source><mrk mid="0" mtype="seg">Alternatively, while the Network Server is running, use the following command (all on one line) to set the trace directory:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Alternatively, while the Network Server is running, use the following command (all on one line) to set the trace directory:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl traceDirectory <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>directory-for-tracing-files<ept id="2">&lt;/i&gt;</ept> [-h <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="3">&lt;/i&gt;</ept>] [-p <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="4">&lt;/i&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl traceDirectory <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>directory-for-tracing-files<ept id="2">&lt;/i&gt;</ept> [-h <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="3">&lt;/i&gt;</ept>] [-p <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="4">&lt;/i&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl traceDirectory <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>directory-for-tracing-files<ept id="2">&lt;/i&gt;</ept> [-h <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="3">&lt;/i&gt;</ept>] [-p <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="4">&lt;/i&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">You need to specify only the directory where the tracing files will reside. The names of the tracing files are determined by the system. If you do not set a trace directory, the tracing files will be placed in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You need to specify only the directory where the tracing files will reside.</mrk><mrk mid="1" mtype="seg"> The names of the tracing files are determined by the system.</mrk><mrk mid="2" mtype="seg"> If you do not set a trace directory, the tracing files will be placed in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You need to specify only the directory where the tracing files will reside.</mrk><mrk mid="1" mtype="seg"> The names of the tracing files are determined by the system.</mrk><mrk mid="2" mtype="seg"> If you do not set a trace directory, the tracing files will be placed in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">The Network Server will attempt to create the trace directory (and any parent directories) if they do not exist. This will require that the Java security policy for <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="1">&lt;/codeph&gt;</ept> permits verification of the existence of the named trace directory and all necessary parent directories. For each directory created, the policy must allow</source>
+<seg-source><mrk mid="0" mtype="seg">The Network Server will attempt to create the trace directory (and any parent directories) if they do not exist.</mrk><mrk mid="1" mtype="seg"> This will require that the Java security policy for <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="1">&lt;/codeph&gt;</ept> permits verification of the existence of the named trace directory and all necessary parent directories.</mrk><mrk mid="2" mtype="seg"> For each directory created, the policy must allow</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Network Server will attempt to create the trace directory (and any parent directories) if they do not exist.</mrk><mrk mid="1" mtype="seg"> This will require that the Java security policy for <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="1">&lt;/codeph&gt;</ept> permits verification of the existence of the named trace directory and all necessary parent directories.</mrk><mrk mid="2" mtype="seg"> For each directory created, the policy must allow</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">permission java.io.FilePermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>directory<ept id="1">&lt;/i&gt;</ept>", "read,write";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.io.FilePermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>directory<ept id="1">&lt;/i&gt;</ept>", "read,write";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.io.FilePermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>directory<ept id="1">&lt;/i&gt;</ept>", "read,write";</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">For the trace directory itself, the policy must allow</source>
+<seg-source><mrk mid="0" mtype="seg">For the trace directory itself, the policy must allow</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For the trace directory itself, the policy must allow</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">permission java.io.FilePermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>tracedirectory<ept id="1">&lt;/i&gt;</ept>${/}-", "write";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.io.FilePermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>tracedirectory<ept id="1">&lt;/i&gt;</ept>${/}-", "write";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.io.FilePermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>tracedirectory<ept id="1">&lt;/i&gt;</ept>${/}-", "write";</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="tadminnetservcustom.dita#tadminnetservcustom"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information about customizing the Network Server's security policy.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="tadminnetservcustom.dita#tadminnetservcustom"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information about customizing the Network Server's security policy.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="tadminnetservcustom.dita#tadminnetservcustom"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information about customizing the Network Server's security policy.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="TestDocument04.odt/content.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/odt/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" restype="x-text:p">
+<source xml:lang="en">delete</source>
+<seg-source><mrk mid="0" mtype="seg">delete</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">delete</mrk></target>
+</trans-unit>
+<trans-unit id="2" restype="x-text:h">
+<source xml:lang="en"><bpt id="1" ctype="x-text:bookmark-start">&lt;text:bookmark-start text:name="__RefHeading__43135167"&gt;</bpt><ept id="1">&lt;/text:bookmark-start&gt;</ept>Document Title<bpt id="2" ctype="x-text:bookmark-end">&lt;text:bookmark-end text:name="__RefHeading__43135167"&gt;</bpt><ept id="2">&lt;/text:bookmark-end&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:bookmark-start">&lt;text:bookmark-start text:name="__RefHeading__43135167"&gt;</bpt><ept id="1">&lt;/text:bookmark-start&gt;</ept>Document Title<bpt id="2" ctype="x-text:bookmark-end">&lt;text:bookmark-end text:name="__RefHeading__43135167"&gt;</bpt><ept id="2">&lt;/text:bookmark-end&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:bookmark-start">&lt;text:bookmark-start text:name="__RefHeading__43135167"&gt;</bpt><ept id="1">&lt;/text:bookmark-start&gt;</ept>Document Title<bpt id="2" ctype="x-text:bookmark-end">&lt;text:bookmark-end text:name="__RefHeading__43135167"&gt;</bpt><ept id="2">&lt;/text:bookmark-end&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="4" restype="x-text:p">
+<source xml:lang="en"> Text of the big footnote.</source>
+<seg-source><mrk mid="0" mtype="seg"> Text of the big footnote.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> Text of the big footnote.</mrk></target>
+</trans-unit>
+<trans-unit id="7" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T2"&gt;</bpt>Text of the note in the footnote.<ept id="1">&lt;/text:span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T2"&gt;</bpt>Text of the note in the footnote.<ept id="1">&lt;/text:span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T2"&gt;</bpt>Text of the note in the footnote.<ept id="1">&lt;/text:span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="6" restype="x-office:annotation">
+<source xml:lang="en"><ph id="1" ctype="x-dc:creator">&lt;dc:creator&gt;Yves Savourel&lt;/dc:creator&gt;</ph><ph id="2" ctype="x-dc:date">&lt;dc:date&gt;2009-03-13T23:02:32.57&lt;/dc:date&gt;</ph><ph id="3" ctype="x-text:p">[#$7]</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-dc:creator">&lt;dc:creator&gt;Yves Savourel&lt;/dc:creator&gt;</ph><ph id="2" ctype="x-dc:date">&lt;dc:date&gt;2009-03-13T23:02:32.57&lt;/dc:date&gt;</ph><ph id="3" ctype="x-text:p">[#$7]</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-dc:creator">&lt;dc:creator&gt;Yves Savourel&lt;/dc:creator&gt;</ph><ph id="2" ctype="x-dc:date">&lt;dc:date&gt;2009-03-13T23:02:32.57&lt;/dc:date&gt;</ph><ph id="3" ctype="x-text:p">[#$7]</ph></mrk></target>
+</trans-unit>
+<trans-unit id="5" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T1"&gt;</bpt>Paragraph<ept id="1">&lt;/text:span&gt;</ept> 2 of footnote with annotation &gt;<ph id="2" ctype="x-office:annotation">[#$6]</ph>&lt; text after.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T1"&gt;</bpt>Paragraph<ept id="1">&lt;/text:span&gt;</ept> 2 of footnote with annotation &gt;<ph id="2" ctype="x-office:annotation">[#$6]</ph>&lt; text after.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T1"&gt;</bpt>Paragraph<ept id="1">&lt;/text:span&gt;</ept> 2 of footnote with annotation &gt;<ph id="2" ctype="x-office:annotation">[#$6]</ph>&lt; text after.</mrk></target>
+</trans-unit>
+<trans-unit id="3" restype="x-text:note">
+<source xml:lang="en"><ph id="1" ctype="x-text:note-citation">&lt;text:note-citation text:label="FN"&gt;FN&lt;/text:note-citation&gt;</ph><bpt id="2" ctype="x-text:note-body">&lt;text:note-body&gt;</bpt><ph id="3" ctype="x-text:p">[#$4]</ph><ph id="4" ctype="x-text:p">[#$5]</ph><ept id="2">&lt;/text:note-body&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-text:note-citation">&lt;text:note-citation text:label="FN"&gt;FN&lt;/text:note-citation&gt;</ph><bpt id="2" ctype="x-text:note-body">&lt;text:note-body&gt;</bpt><ph id="3" ctype="x-text:p">[#$4]</ph><ph id="4" ctype="x-text:p">[#$5]</ph><ept id="2">&lt;/text:note-body&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-text:note-citation">&lt;text:note-citation text:label="FN"&gt;FN&lt;/text:note-citation&gt;</ph><bpt id="2" ctype="x-text:note-body">&lt;text:note-body&gt;</bpt><ph id="3" ctype="x-text:p">[#$4]</ph><ph id="4" ctype="x-text:p">[#$5]</ph><ept id="2">&lt;/text:note-body&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="8" restype="x-text:p">
+<source xml:lang="en">Paragraph one with a<bpt id="1" ctype="x-text:change-start">&lt;text:change-start text:change-id="ct159826488"&gt;</bpt><ept id="1">&lt;/text:change-start&gt;</ept> <bpt id="2" ctype="x-text:change-end">&lt;text:change-end text:change-id="ct159826488"&gt;</bpt><ept id="2">&lt;/text:change-end&gt;</ept>big footnote: &gt;<ph id="3" ctype="x-text:note">[#$3]</ph>&lt;</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraph one with a<bpt id="1" ctype="x-text:change-start">&lt;text:change-start text:change-id="ct159826488"&gt;</bpt><ept id="1">&lt;/text:change-start&gt;</ept> <bpt id="2" ctype="x-text:change-end">&lt;text:change-end text:change-id="ct159826488"&gt;</bpt><ept id="2">&lt;/text:change-end&gt;</ept>big footnote: &gt;<ph id="3" ctype="x-text:note">[#$3]</ph>&lt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraph one with a<bpt id="1" ctype="x-text:change-start">&lt;text:change-start text:change-id="ct159826488"&gt;</bpt><ept id="1">&lt;/text:change-start&gt;</ept> <bpt id="2" ctype="x-text:change-end">&lt;text:change-end text:change-id="ct159826488"&gt;</bpt><ept id="2">&lt;/text:change-end&gt;</ept>big footnote: &gt;<ph id="3" ctype="x-text:note">[#$3]</ph>&lt;</mrk></target>
+</trans-unit>
+<trans-unit id="9" restype="x-text:p">
+<source xml:lang="en">See: <bpt id="1" ctype="x-text:bookmark-ref">&lt;text:bookmark-ref text:reference-format="text" text:ref-name="__RefHeading__43135167"&gt;</bpt>Document Title<ept id="1">&lt;/text:bookmark-ref&gt;</ept> etc.</source>
+<seg-source><mrk mid="0" mtype="seg">See: <bpt id="1" ctype="x-text:bookmark-ref">&lt;text:bookmark-ref text:reference-format="text" text:ref-name="__RefHeading__43135167"&gt;</bpt>Document Title<ept id="1">&lt;/text:bookmark-ref&gt;</ept> etc.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See: <bpt id="1" ctype="x-text:bookmark-ref">&lt;text:bookmark-ref text:reference-format="text" text:ref-name="__RefHeading__43135167"&gt;</bpt>Document Title<ept id="1">&lt;/text:bookmark-ref&gt;</ept> etc.</mrk></target>
+</trans-unit>
+<trans-unit id="10" restype="x-text:p">
+<source xml:lang="en">Link: <bpt id="1" ctype="x-text:a">&lt;text:a xlink:type="simple" xlink:href="http://okapi.opentag.com/" office:name="name of link"&gt;</bpt>Text for this link<ept id="1">&lt;/text:a&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Link: <bpt id="1" ctype="x-text:a">&lt;text:a xlink:type="simple" xlink:href="http://okapi.opentag.com/" office:name="name of link"&gt;</bpt>Text for this link<ept id="1">&lt;/text:a&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Link: <bpt id="1" ctype="x-text:a">&lt;text:a xlink:type="simple" xlink:href="http://okapi.opentag.com/" office:name="name of link"&gt;</bpt>Text for this link<ept id="1">&lt;/text:a&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="11" restype="x-text:p">
+<source xml:lang="en">Text with revisions: <bpt id="1" ctype="x-text:change">&lt;text:change text:change-id="ct158920880"&gt;</bpt><ept id="1">&lt;/text:change&gt;</ept><bpt id="2" ctype="x-text:change-start">&lt;text:change-start text:change-id="ct157788352"&gt;</bpt><ept id="2">&lt;/text:change-start&gt;</ept>inserted<bpt id="3" ctype="x-text:change-end">&lt;text:change-end text:change-id="ct157788352"&gt;</bpt><ept id="3">&lt;/text:change-end&gt;</ept>.<bpt id="4" ctype="x-text:change-start">&lt;text:change-start text:change-id="ct158638752"&gt;</bpt><ept id="4">&lt;/text:change-start&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Text with revisions: <bpt id="1" ctype="x-text:change">&lt;text:change text:change-id="ct158920880"&gt;</bpt><ept id="1">&lt;/text:change&gt;</ept><bpt id="2" ctype="x-text:change-start">&lt;text:change-start text:change-id="ct157788352"&gt;</bpt><ept id="2">&lt;/text:change-start&gt;</ept>inserted<bpt id="3" ctype="x-text:change-end">&lt;text:change-end text:change-id="ct157788352"&gt;</bpt><ept id="3">&lt;/text:change-end&gt;</ept>.<bpt id="4" ctype="x-text:change-start">&lt;text:change-start text:change-id="ct158638752"&gt;</bpt><ept id="4">&lt;/text:change-start&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text with revisions: <bpt id="1" ctype="x-text:change">&lt;text:change text:change-id="ct158920880"&gt;</bpt><ept id="1">&lt;/text:change&gt;</ept><bpt id="2" ctype="x-text:change-start">&lt;text:change-start text:change-id="ct157788352"&gt;</bpt><ept id="2">&lt;/text:change-start&gt;</ept>inserted<bpt id="3" ctype="x-text:change-end">&lt;text:change-end text:change-id="ct157788352"&gt;</bpt><ept id="3">&lt;/text:change-end&gt;</ept>.<bpt id="4" ctype="x-text:change-start">&lt;text:change-start text:change-id="ct158638752"&gt;</bpt><ept id="4">&lt;/text:change-start&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="13" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:change-start">&lt;text:change-start text:change-id="ct159627120"&gt;</bpt><ept id="1">&lt;/text:change-start&gt;</ept>New footnote text.<bpt id="2" ctype="x-text:change-end">&lt;text:change-end text:change-id="ct159627120"&gt;</bpt><ept id="2">&lt;/text:change-end&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:change-start">&lt;text:change-start text:change-id="ct159627120"&gt;</bpt><ept id="1">&lt;/text:change-start&gt;</ept>New footnote text.<bpt id="2" ctype="x-text:change-end">&lt;text:change-end text:change-id="ct159627120"&gt;</bpt><ept id="2">&lt;/text:change-end&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:change-start">&lt;text:change-start text:change-id="ct159627120"&gt;</bpt><ept id="1">&lt;/text:change-start&gt;</ept>New footnote text.<bpt id="2" ctype="x-text:change-end">&lt;text:change-end text:change-id="ct159627120"&gt;</bpt><ept id="2">&lt;/text:change-end&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="12" restype="x-text:note">
+<source xml:lang="en"><ph id="1" ctype="x-text:note-citation">&lt;text:note-citation&gt;1&lt;/text:note-citation&gt;</ph><bpt id="2" ctype="x-text:note-body">&lt;text:note-body&gt;</bpt><ph id="3" ctype="x-text:p">[#$13]</ph><ept id="2">&lt;/text:note-body&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-text:note-citation">&lt;text:note-citation&gt;1&lt;/text:note-citation&gt;</ph><bpt id="2" ctype="x-text:note-body">&lt;text:note-body&gt;</bpt><ph id="3" ctype="x-text:p">[#$13]</ph><ept id="2">&lt;/text:note-body&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-text:note-citation">&lt;text:note-citation&gt;1&lt;/text:note-citation&gt;</ph><bpt id="2" ctype="x-text:note-body">&lt;text:note-body&gt;</bpt><ph id="3" ctype="x-text:p">[#$13]</ph><ept id="2">&lt;/text:note-body&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="14" restype="x-text:p">
+<source xml:lang="en">New paragraph with new footnote here &gt;<ph id="1" ctype="x-text:note">[#$12]</ph>&lt;<bpt id="2" ctype="x-text:change-end">&lt;text:change-end text:change-id="ct158638752"&gt;</bpt><ept id="2">&lt;/text:change-end&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">New paragraph with new footnote here &gt;<ph id="1" ctype="x-text:note">[#$12]</ph>&lt;<bpt id="2" ctype="x-text:change-end">&lt;text:change-end text:change-id="ct158638752"&gt;</bpt><ept id="2">&lt;/text:change-end&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">New paragraph with new footnote here &gt;<ph id="1" ctype="x-text:note">[#$12]</ph>&lt;<bpt id="2" ctype="x-text:change-end">&lt;text:change-end text:change-id="ct158638752"&gt;</bpt><ept id="2">&lt;/text:change-end&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+<file original="TestDocument04.odt/styles.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/odt/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+</body>
+</file>
+<file original="TestDocument04.odt/meta.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/odt/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+</body>
+</file>
+</xliff>

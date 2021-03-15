@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rref_syscs_get_xplain_schema.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_GET_XPLAIN_SCHEMA system function</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_GET_XPLAIN_SCHEMA system function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_GET_XPLAIN_SCHEMA system function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_GET_XPLAIN_SCHEMA<ept id="1">&lt;/codeph&gt;</ept> function returns the XPLAIN schema for the connection.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_GET_XPLAIN_SCHEMA<ept id="1">&lt;/codeph&gt;</ept> function returns the XPLAIN schema for the connection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_GET_XPLAIN_SCHEMA<ept id="1">&lt;/codeph&gt;</ept> function returns the XPLAIN schema for the connection.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">The default XPLAIN schema is empty, so if the XPLAIN style has not been set, the function returns the empty string. If the XPLAIN schema has been set using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_XPLAIN_SCHEMA<ept id="1">&lt;/codeph&gt;</ept>, the function returns the XPLAIN schema that was set. If the XPLAIN schema is set to a non-empty value, and runtime statistics are being captured, then the runtime statistics will be stored into the SYSXPLAIN_* database tables in that schema for later analysis.</source>
+<seg-source><mrk mid="0" mtype="seg">The default XPLAIN schema is empty, so if the XPLAIN style has not been set, the function returns the empty string.</mrk><mrk mid="1" mtype="seg"> If the XPLAIN schema has been set using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_XPLAIN_SCHEMA<ept id="1">&lt;/codeph&gt;</ept>, the function returns the XPLAIN schema that was set.</mrk><mrk mid="2" mtype="seg"> If the XPLAIN schema is set to a non-empty value, and runtime statistics are being captured, then the runtime statistics will be stored into the SYSXPLAIN_* database tables in that schema for later analysis.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default XPLAIN schema is empty, so if the XPLAIN style has not been set, the function returns the empty string.</mrk><mrk mid="1" mtype="seg"> If the XPLAIN schema has been set using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_XPLAIN_SCHEMA<ept id="1">&lt;/codeph&gt;</ept>, the function returns the XPLAIN schema that was set.</mrk><mrk mid="2" mtype="seg"> If the XPLAIN schema is set to a non-empty value, and runtime statistics are being captured, then the runtime statistics will be stored into the SYSXPLAIN_* database tables in that schema for later analysis.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for additional information.</source>
+<seg-source><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for additional information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for additional information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_GET_XPLAIN_SCHEMA () RETURNS VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_GET_XPLAIN_SCHEMA () RETURNS VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_GET_XPLAIN_SCHEMA () RETURNS VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this function by default. See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information. The database owner can grant access to other users.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this function by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this function by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">To determine the current value of the XPLAIN schema:</source>
+<seg-source><mrk mid="0" mtype="seg">To determine the current value of the XPLAIN schema:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To determine the current value of the XPLAIN schema:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">values syscs_util.syscs_get_xplain_schema();</source>
+<seg-source><mrk mid="0" mtype="seg">values syscs_util.syscs_get_xplain_schema();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">values syscs_util.syscs_get_xplain_schema();</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

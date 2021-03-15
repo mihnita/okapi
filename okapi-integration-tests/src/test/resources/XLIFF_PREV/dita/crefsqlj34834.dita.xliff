@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="crefsqlj34834.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SQL92Identifier</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92Identifier</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92Identifier</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">An <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="1">&lt;/i&gt;</ept> is a dictionary object identifier that conforms to the rules of SQL-92. SQL-92 states that identifiers for dictionary objects are limited to 128 characters and are case-insensitive (unless delimited by double quotes), because they are automatically translated into uppercase by the system. You cannot use reserved words as identifiers for dictionary objects unless they are delimited. If you attempt to use a name longer than 128 characters, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="2">&lt;/i&gt;</ept> X0X11 is raised.</source>
+<seg-source><mrk mid="0" mtype="seg">An <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="1">&lt;/i&gt;</ept> is a dictionary object identifier that conforms to the rules of SQL-92.</mrk><mrk mid="1" mtype="seg"> SQL-92 states that identifiers for dictionary objects are limited to 128 characters and are case-insensitive (unless delimited by double quotes), because they are automatically translated into uppercase by the system.</mrk><mrk mid="2" mtype="seg"> You cannot use reserved words as identifiers for dictionary objects unless they are delimited.</mrk><mrk mid="3" mtype="seg"> If you attempt to use a name longer than 128 characters, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="2">&lt;/i&gt;</ept> X0X11 is raised.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="1">&lt;/i&gt;</ept> is a dictionary object identifier that conforms to the rules of SQL-92.</mrk><mrk mid="1" mtype="seg"> SQL-92 states that identifiers for dictionary objects are limited to 128 characters and are case-insensitive (unless delimited by double quotes), because they are automatically translated into uppercase by the system.</mrk><mrk mid="2" mtype="seg"> You cannot use reserved words as identifiers for dictionary objects unless they are delimited.</mrk><mrk mid="3" mtype="seg"> If you attempt to use a name longer than 128 characters, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="2">&lt;/i&gt;</ept> X0X11 is raised.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> defines keywords beyond those specified by the SQL-92 standard (see <bpt id="2" ctype="x-xref">&lt;xref href="rrefkeywords29722.dita#rrefkeywords29722"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> defines keywords beyond those specified by the SQL-92 standard (see <bpt id="2" ctype="x-xref">&lt;xref href="rrefkeywords29722.dita#rrefkeywords29722"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> defines keywords beyond those specified by the SQL-92 standard (see <bpt id="2" ctype="x-xref">&lt;xref href="rrefkeywords29722.dita#rrefkeywords29722"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- the view name is stored in the -- system catalogs as ANIDENTIFIER<ept id="2">&lt;/ph&gt;</ept> CREATE VIEW AnIdentifier (RECEIVED) AS VALUES 1 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- the view name is stored in the system -- catalogs with case intact<ept id="3">&lt;/ph&gt;</ept> CREATE VIEW "ACaseSensitiveIdentifier" (RECEIVED) AS VALUES 1<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- the view name is stored in the -- system catalogs as ANIDENTIFIER<ept id="2">&lt;/ph&gt;</ept> CREATE VIEW AnIdentifier (RECEIVED) AS VALUES 1 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- the view name is stored in the system -- catalogs with case intact<ept id="3">&lt;/ph&gt;</ept> CREATE VIEW "ACaseSensitiveIdentifier" (RECEIVED) AS VALUES 1<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- the view name is stored in the -- system catalogs as ANIDENTIFIER<ept id="2">&lt;/ph&gt;</ept> CREATE VIEW AnIdentifier (RECEIVED) AS VALUES 1 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- the view name is stored in the system -- catalogs with case intact<ept id="3">&lt;/ph&gt;</ept> CREATE VIEW "ACaseSensitiveIdentifier" (RECEIVED) AS VALUES 1<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">This section describes the rules for using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifiers<ept id="1">&lt;/i&gt;</ept> to represent the following dictionary objects.</source>
+<seg-source><mrk mid="0" mtype="seg">This section describes the rules for using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifiers<ept id="1">&lt;/i&gt;</ept> to represent the following dictionary objects.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This section describes the rules for using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifiers<ept id="1">&lt;/i&gt;</ept> to represent the following dictionary objects.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

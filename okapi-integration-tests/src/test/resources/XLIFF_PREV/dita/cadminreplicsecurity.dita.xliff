@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminreplicsecurity.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Replication and security</source>
+<seg-source><mrk mid="0" mtype="seg">Replication and security</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replication and security</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">If you want to perform replication with the security manager enabled, you must modify the security policy file on both the master and slave systems to allow the master-slave network connection.</source>
+<seg-source><mrk mid="0" mtype="seg">If you want to perform replication with the security manager enabled, you must modify the security policy file on both the master and slave systems to allow the master-slave network connection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you want to perform replication with the security manager enabled, you must modify the security policy file on both the master and slave systems to allow the master-slave network connection.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">replicating databases</source>
+<seg-source><mrk mid="0" mtype="seg">replicating databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">replicating databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">security</source>
+<seg-source><mrk mid="0" mtype="seg">security</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">security</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">database replication</source>
+<seg-source><mrk mid="0" mtype="seg">database replication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">database replication</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">security</source>
+<seg-source><mrk mid="0" mtype="seg">security</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">security</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The section to be modified is the one following this line:</source>
+<seg-source><mrk mid="0" mtype="seg">The section to be modified is the one following this line:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The section to be modified is the one following this line:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">grant codeBase "${derby.install.url}derby.jar"</source>
+<seg-source><mrk mid="0" mtype="seg">grant codeBase "${derby.install.url}derby.jar"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">grant codeBase "${derby.install.url}derby.jar"</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Add the following permission to the policy file on the master system:</source>
+<seg-source><mrk mid="0" mtype="seg">Add the following permission to the policy file on the master system:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add the following permission to the policy file on the master system:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">permission java.net.SocketPermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>slaveHost<ept id="1">&lt;/i&gt;</ept>:<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>slavePort<ept id="2">&lt;/i&gt;</ept>", "connect,resolve";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.net.SocketPermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>slaveHost<ept id="1">&lt;/i&gt;</ept>:<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>slavePort<ept id="2">&lt;/i&gt;</ept>", "connect,resolve";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.net.SocketPermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>slaveHost<ept id="1">&lt;/i&gt;</ept>:<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>slavePort<ept id="2">&lt;/i&gt;</ept>", "connect,resolve";</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Add the following permissions to the policy file on the slave system:</source>
+<seg-source><mrk mid="0" mtype="seg">Add the following permissions to the policy file on the slave system:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add the following permissions to the policy file on the slave system:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">permission java.net.SocketPermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>slaveHost<ept id="1">&lt;/i&gt;</ept>", "accept,resolve"; permission java.net.SocketPermission "localhost:<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>slavePort<ept id="2">&lt;/i&gt;</ept>", "listen";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.net.SocketPermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>slaveHost<ept id="1">&lt;/i&gt;</ept>", "accept,resolve"; permission java.net.SocketPermission "localhost:<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>slavePort<ept id="2">&lt;/i&gt;</ept>", "listen";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.net.SocketPermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>slaveHost<ept id="1">&lt;/i&gt;</ept>", "accept,resolve"; permission java.net.SocketPermission "localhost:<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>slavePort<ept id="2">&lt;/i&gt;</ept>", "listen";</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>slaveHost<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>slavePort<ept id="2">&lt;/i&gt;</ept> are the values you specify for the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>slaveHost=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>slavePort=<bpt id="6" ctype="x-i">&lt;i&gt;</bpt>portValue<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> attributes, which are described in the <bpt id="7" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="7">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>slaveHost<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>slavePort<ept id="2">&lt;/i&gt;</ept> are the values you specify for the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>slaveHost=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>slavePort=<bpt id="6" ctype="x-i">&lt;i&gt;</bpt>portValue<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> attributes, which are described in the <bpt id="7" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="7">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>slaveHost<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>slavePort<ept id="2">&lt;/i&gt;</ept> are the values you specify for the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>slaveHost=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>slavePort=<bpt id="6" ctype="x-i">&lt;i&gt;</bpt>portValue<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> attributes, which are described in the <bpt id="7" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="7">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="tadminnetservbasic.dita#tadminnetservbasic"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details on the security policy file.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="tadminnetservbasic.dita#tadminnetservbasic"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details on the security policy file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="tadminnetservbasic.dita#tadminnetservbasic"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details on the security policy file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Depending on the security mode <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running under, the measures described in the following table are enforced when you specify the replication-related connection URL attributes.</source>
+<seg-source><mrk mid="0" mtype="seg">Depending on the security mode <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running under, the measures described in the following table are enforced when you specify the replication-related connection URL attributes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Depending on the security mode <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running under, the measures described in the following table are enforced when you specify the replication-related connection URL attributes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Replication behavior with <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> security</source>
+<seg-source><mrk mid="0" mtype="seg">Replication behavior with <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> security</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replication behavior with <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> security</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">This table lists the requirements for specifying replication attributes with each of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> security modes.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the requirements for specifying replication attributes with each of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> security modes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the requirements for specifying replication attributes with each of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> security modes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Security Mode</source>
+<seg-source><mrk mid="0" mtype="seg">Security Mode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Security Mode</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Replication Attribute Requirements</source>
+<seg-source><mrk mid="0" mtype="seg">Replication Attribute Requirements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replication Attribute Requirements</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">No security</source>
+<seg-source><mrk mid="0" mtype="seg">No security</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No security</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Anyone may specify the replication attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Anyone may specify the replication attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Anyone may specify the replication attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Authentication is turned on</source>
+<seg-source><mrk mid="0" mtype="seg">Authentication is turned on</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Authentication is turned on</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Normal <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> connection policy: specify valid <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>user=<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>userName<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> and <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>password=<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>userPassword<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/codeph&gt;</ept> attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Normal <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> connection policy: specify valid <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>user=<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>userName<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> and <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>password=<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>userPassword<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/codeph&gt;</ept> attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Normal <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> connection policy: specify valid <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>user=<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>userName<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> and <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>password=<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>userPassword<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/codeph&gt;</ept> attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Authorization is turned on</source>
+<seg-source><mrk mid="0" mtype="seg">Authorization is turned on</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Authorization is turned on</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>userName<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>password=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>userPassword<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> attributes must be valid, and the user must be the owner of the replicated database</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>userName<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>password=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>userPassword<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> attributes must be valid, and the user must be the owner of the replicated database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>user=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>userName<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>password=<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>userPassword<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> attributes must be valid, and the user must be the owner of the replicated database</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

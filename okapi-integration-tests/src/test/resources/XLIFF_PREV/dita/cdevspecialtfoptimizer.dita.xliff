@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevspecialtfoptimizer.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Optimizer support for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table functions</source>
+<seg-source><mrk mid="0" mtype="seg">Optimizer support for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Optimizer support for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">This topic explains how to fine-tune the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> optimizer's decision about where to place a table function in the join order.</source>
+<seg-source><mrk mid="0" mtype="seg">This topic explains how to fine-tune the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> optimizer's decision about where to place a table function in the join order.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This topic explains how to fine-tune the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> optimizer's decision about where to place a table function in the join order.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">functions</source>
+<seg-source><mrk mid="0" mtype="seg">functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">costing table functions</source>
+<seg-source><mrk mid="0" mtype="seg">costing table functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">costing table functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Optimizer</source>
+<seg-source><mrk mid="0" mtype="seg">Optimizer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Optimizer</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">costing table functions</source>
+<seg-source><mrk mid="0" mtype="seg">costing table functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">costing table functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">By default, the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> optimizer makes the following assumptions about a table function:</source>
+<seg-source><mrk mid="0" mtype="seg">By default, the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> optimizer makes the following assumptions about a table function:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default, the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> optimizer makes the following assumptions about a table function:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Expensive<ept id="1">&lt;/b&gt;</ept> - It is expensive to create and loop through the rows of the table function. This makes it likely that the optimizer will place the table function in an outer slot of the join order so that it will not be looped through often.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Expensive<ept id="1">&lt;/b&gt;</ept> - It is expensive to create and loop through the rows of the table function.</mrk><mrk mid="1" mtype="seg"> This makes it likely that the optimizer will place the table function in an outer slot of the join order so that it will not be looped through often.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Expensive<ept id="1">&lt;/b&gt;</ept> - It is expensive to create and loop through the rows of the table function.</mrk><mrk mid="1" mtype="seg"> This makes it likely that the optimizer will place the table function in an outer slot of the join order so that it will not be looped through often.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Repeatable<ept id="1">&lt;/b&gt;</ept> - The table function can be instantiated multiple times with the same results. This is probably true for most table functions. However, some table functions may open read-once streams. If the optimizer knows that a table function is repeatable, then the optimizer can place the table function in an inner slot where the function can be invoked multiple times. If a table function is not repeatable, then the optimizer must either place it in the outermost slot or invoke the function once and store its contents in a temporary table.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Repeatable<ept id="1">&lt;/b&gt;</ept> - The table function can be instantiated multiple times with the same results.</mrk><mrk mid="1" mtype="seg"> This is probably true for most table functions.</mrk><mrk mid="2" mtype="seg"> However, some table functions may open read-once streams.</mrk><mrk mid="3" mtype="seg"> If the optimizer knows that a table function is repeatable, then the optimizer can place the table function in an inner slot where the function can be invoked multiple times.</mrk><mrk mid="4" mtype="seg"> If a table function is not repeatable, then the optimizer must either place it in the outermost slot or invoke the function once and store its contents in a temporary table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Repeatable<ept id="1">&lt;/b&gt;</ept> - The table function can be instantiated multiple times with the same results.</mrk><mrk mid="1" mtype="seg"> This is probably true for most table functions.</mrk><mrk mid="2" mtype="seg"> However, some table functions may open read-once streams.</mrk><mrk mid="3" mtype="seg"> If the optimizer knows that a table function is repeatable, then the optimizer can place the table function in an inner slot where the function can be invoked multiple times.</mrk><mrk mid="4" mtype="seg"> If a table function is not repeatable, then the optimizer must either place it in the outermost slot or invoke the function once and store its contents in a temporary table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The user can override this optimizer behavior by giving the optimizer more information. Here's how to do this:</source>
+<seg-source><mrk mid="0" mtype="seg">The user can override this optimizer behavior by giving the optimizer more information.</mrk><mrk mid="1" mtype="seg"> Here's how to do this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user can override this optimizer behavior by giving the optimizer more information.</mrk><mrk mid="1" mtype="seg"> Here's how to do this:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>No-arg constructor<ept id="1">&lt;/b&gt;</ept> - The table function's class must have a public constructor whose signature has no arguments.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>No-arg constructor<ept id="1">&lt;/b&gt;</ept> - The table function's class must have a public constructor whose signature has no arguments.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>No-arg constructor<ept id="1">&lt;/b&gt;</ept> - The table function's class must have a public constructor whose signature has no arguments.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VTICosting<ept id="1">&lt;/b&gt;</ept> - The class must also implement <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.vti.VTICosting<ept id="2">&lt;/i&gt;</ept>. This involves implementing the following methods as described in <bpt id="3" ctype="x-xref">&lt;xref href="cdevspecialtfopttune.dita#cdevspecialtfopttune"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> and <bpt id="4" ctype="x-xref">&lt;xref href="cdevspecialtfoptexample.dita#cdevspecialtfoptexample"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VTICosting<ept id="1">&lt;/b&gt;</ept> - The class must also implement <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.vti.VTICosting<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This involves implementing the following methods as described in <bpt id="3" ctype="x-xref">&lt;xref href="cdevspecialtfopttune.dita#cdevspecialtfopttune"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> and <bpt id="4" ctype="x-xref">&lt;xref href="cdevspecialtfoptexample.dita#cdevspecialtfoptexample"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VTICosting<ept id="1">&lt;/b&gt;</ept> - The class must also implement <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.vti.VTICosting<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This involves implementing the following methods as described in <bpt id="3" ctype="x-xref">&lt;xref href="cdevspecialtfopttune.dita#cdevspecialtfopttune"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> and <bpt id="4" ctype="x-xref">&lt;xref href="cdevspecialtfoptexample.dita#cdevspecialtfoptexample"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getEstimatedCostPerInstantiation()<ept id="1">&lt;/i&gt;</ept> - This method estimates the cost of invoking the table function and looping through its rows. The returned value adds together two estimates:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getEstimatedCostPerInstantiation()<ept id="1">&lt;/i&gt;</ept> - This method estimates the cost of invoking the table function and looping through its rows.</mrk><mrk mid="1" mtype="seg"> The returned value adds together two estimates:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getEstimatedCostPerInstantiation()<ept id="1">&lt;/i&gt;</ept> - This method estimates the cost of invoking the table function and looping through its rows.</mrk><mrk mid="1" mtype="seg"> The returned value adds together two estimates:</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Empty table - This is the cost of invoking the table function, even if it contains 0 rows. See the description of variable <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>E<ept id="1">&lt;/b&gt;</ept> in <bpt id="2" ctype="x-xref">&lt;xref href="cdevspecialtfopttune.dita#cdevspecialtfopttune"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Empty table - This is the cost of invoking the table function, even if it contains 0 rows.</mrk><mrk mid="1" mtype="seg"> See the description of variable <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>E<ept id="1">&lt;/b&gt;</ept> in <bpt id="2" ctype="x-xref">&lt;xref href="cdevspecialtfopttune.dita#cdevspecialtfopttune"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Empty table - This is the cost of invoking the table function, even if it contains 0 rows.</mrk><mrk mid="1" mtype="seg"> See the description of variable <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>E<ept id="1">&lt;/b&gt;</ept> in <bpt id="2" ctype="x-xref">&lt;xref href="cdevspecialtfopttune.dita#cdevspecialtfopttune"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Scanning - This is the cost of looping through all of the rows returned by the table function. See the calculation of <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>P*N<ept id="1">&lt;/b&gt;</ept> in <bpt id="2" ctype="x-xref">&lt;xref href="cdevspecialtfopttune.dita#cdevspecialtfopttune"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Scanning - This is the cost of looping through all of the rows returned by the table function.</mrk><mrk mid="1" mtype="seg"> See the calculation of <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>P*N<ept id="1">&lt;/b&gt;</ept> in <bpt id="2" ctype="x-xref">&lt;xref href="cdevspecialtfopttune.dita#cdevspecialtfopttune"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scanning - This is the cost of looping through all of the rows returned by the table function.</mrk><mrk mid="1" mtype="seg"> See the calculation of <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>P*N<ept id="1">&lt;/b&gt;</ept> in <bpt id="2" ctype="x-xref">&lt;xref href="cdevspecialtfopttune.dita#cdevspecialtfopttune"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getEstimatedRowCount()<ept id="1">&lt;/i&gt;</ept> - This guesses the number of rows returned by invoking the table function.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getEstimatedRowCount()<ept id="1">&lt;/i&gt;</ept> - This guesses the number of rows returned by invoking the table function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getEstimatedRowCount()<ept id="1">&lt;/i&gt;</ept> - This guesses the number of rows returned by invoking the table function.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>supportsMultipleInstantiations()<ept id="1">&lt;/i&gt;</ept> - This returns false if the table function returns different results when invoked more than once.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>supportsMultipleInstantiations()<ept id="1">&lt;/i&gt;</ept> - This returns false if the table function returns different results when invoked more than once.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>supportsMultipleInstantiations()<ept id="1">&lt;/i&gt;</ept> - This returns false if the table function returns different results when invoked more than once.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

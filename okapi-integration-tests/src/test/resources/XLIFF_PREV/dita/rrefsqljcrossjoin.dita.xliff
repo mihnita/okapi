@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljcrossjoin.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CROSS JOIN operation</source>
+<seg-source><mrk mid="0" mtype="seg">CROSS JOIN operation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CROSS JOIN operation</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">CROSS JOIN operation</source>
+<seg-source><mrk mid="0" mtype="seg">CROSS JOIN operation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CROSS JOIN operation</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">A CROSS JOIN is a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj29840.dita#rrefsqlj29840"&gt;</bpt>JOIN operation<ept id="1">&lt;/xref&gt;</ept> that produces the Cartesian product of two tables. Unlike other JOIN operators, it does not let you specify a join clause. You may, however, specify a WHERE clause in the SELECT statement.</source>
+<seg-source><mrk mid="0" mtype="seg">A CROSS JOIN is a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj29840.dita#rrefsqlj29840"&gt;</bpt>JOIN operation<ept id="1">&lt;/xref&gt;</ept> that produces the Cartesian product of two tables.</mrk><mrk mid="1" mtype="seg"> Unlike other JOIN operators, it does not let you specify a join clause.</mrk><mrk mid="2" mtype="seg"> You may, however, specify a WHERE clause in the SELECT statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A CROSS JOIN is a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj29840.dita#rrefsqlj29840"&gt;</bpt>JOIN operation<ept id="1">&lt;/xref&gt;</ept> that produces the Cartesian product of two tables.</mrk><mrk mid="1" mtype="seg"> Unlike other JOIN operators, it does not let you specify a join clause.</mrk><mrk mid="2" mtype="seg"> You may, however, specify a WHERE clause in the SELECT statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> CROSS JOIN { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqlj33215.dita#rrefsqlj33215"&gt;</bpt>tableViewOrFunctionExpression<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | ( <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ) }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> CROSS JOIN { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqlj33215.dita#rrefsqlj33215"&gt;</bpt>tableViewOrFunctionExpression<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | ( <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ) }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> CROSS JOIN { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqlj33215.dita#rrefsqlj33215"&gt;</bpt>tableViewOrFunctionExpression<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | ( <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ) }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The following SELECT statements are equivalent:</source>
+<seg-source><mrk mid="0" mtype="seg">The following SELECT statements are equivalent:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following SELECT statements are equivalent:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES CROSS JOIN FLIGHTS<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES CROSS JOIN FLIGHTS<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES CROSS JOIN FLIGHTS<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES, FLIGHTS<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES, FLIGHTS<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES, FLIGHTS<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The following SELECT statements are equivalent:</source>
+<seg-source><mrk mid="0" mtype="seg">The following SELECT statements are equivalent:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following SELECT statements are equivalent:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES CROSS JOIN FLIGHTS WHERE CITIES.AIRPORT = FLIGHTS.ORIG_AIRPORT<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES CROSS JOIN FLIGHTS WHERE CITIES.AIRPORT = FLIGHTS.ORIG_AIRPORT<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES CROSS JOIN FLIGHTS WHERE CITIES.AIRPORT = FLIGHTS.ORIG_AIRPORT<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES INNER JOIN FLIGHTS ON CITIES.AIRPORT = FLIGHTS.ORIG_AIRPORT<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES INNER JOIN FLIGHTS ON CITIES.AIRPORT = FLIGHTS.ORIG_AIRPORT<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES INNER JOIN FLIGHTS ON CITIES.AIRPORT = FLIGHTS.ORIG_AIRPORT<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The following example is more complex. The ON clause in this example is associated with the LEFT OUTER JOIN operation. Note that you can use parentheses around a JOIN operation.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example is more complex.</mrk><mrk mid="1" mtype="seg"> The ON clause in this example is associated with the LEFT OUTER JOIN operation.</mrk><mrk mid="2" mtype="seg"> Note that you can use parentheses around a JOIN operation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example is more complex.</mrk><mrk mid="1" mtype="seg"> The ON clause in this example is associated with the LEFT OUTER JOIN operation.</mrk><mrk mid="2" mtype="seg"> Note that you can use parentheses around a JOIN operation.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES LEFT OUTER JOIN (FLIGHTS CROSS JOIN COUNTRIES) ON CITIES.AIRPORT = FLIGHTS.ORIG_AIRPORT WHERE COUNTRIES.COUNTRY_ISO_CODE = 'US'<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES LEFT OUTER JOIN (FLIGHTS CROSS JOIN COUNTRIES) ON CITIES.AIRPORT = FLIGHTS.ORIG_AIRPORT WHERE COUNTRIES.COUNTRY_ISO_CODE = 'US'<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES LEFT OUTER JOIN (FLIGHTS CROSS JOIN COUNTRIES) ON CITIES.AIRPORT = FLIGHTS.ORIG_AIRPORT WHERE COUNTRIES.COUNTRY_ISO_CODE = 'US'<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">A CROSS JOIN operation can be replaced with an INNER JOIN where the join clause always evaluates to true (for example, 1=1). It can also be replaced with a sub-query. So equivalent queries would be:</source>
+<seg-source><mrk mid="0" mtype="seg">A CROSS JOIN operation can be replaced with an INNER JOIN where the join clause always evaluates to true (for example, 1=1).</mrk><mrk mid="1" mtype="seg"> It can also be replaced with a sub-query.</mrk><mrk mid="2" mtype="seg"> So equivalent queries would be:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A CROSS JOIN operation can be replaced with an INNER JOIN where the join clause always evaluates to true (for example, 1=1).</mrk><mrk mid="1" mtype="seg"> It can also be replaced with a sub-query.</mrk><mrk mid="2" mtype="seg"> So equivalent queries would be:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES LEFT OUTER JOIN FLIGHTS INNER JOIN COUNTRIES ON 1=1 ON CITIES.AIRPORT = FLIGHTS.ORIG_AIRPORT WHERE COUNTRIES.COUNTRY_ISO_CODE = 'US'<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES LEFT OUTER JOIN FLIGHTS INNER JOIN COUNTRIES ON 1=1 ON CITIES.AIRPORT = FLIGHTS.ORIG_AIRPORT WHERE COUNTRIES.COUNTRY_ISO_CODE = 'US'<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES LEFT OUTER JOIN FLIGHTS INNER JOIN COUNTRIES ON 1=1 ON CITIES.AIRPORT = FLIGHTS.ORIG_AIRPORT WHERE COUNTRIES.COUNTRY_ISO_CODE = 'US'<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES LEFT OUTER JOIN (SELECT * FROM FLIGHTS, COUNTRIES) S ON CITIES.AIRPORT = S.ORIG_AIRPORT WHERE S.COUNTRY_ISO_CODE = 'US'<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES LEFT OUTER JOIN (SELECT * FROM FLIGHTS, COUNTRIES) S ON CITIES.AIRPORT = S.ORIG_AIRPORT WHERE S.COUNTRY_ISO_CODE = 'US'<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM CITIES LEFT OUTER JOIN (SELECT * FROM FLIGHTS, COUNTRIES) S ON CITIES.AIRPORT = S.ORIG_AIRPORT WHERE S.COUNTRY_ISO_CODE = 'US'<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

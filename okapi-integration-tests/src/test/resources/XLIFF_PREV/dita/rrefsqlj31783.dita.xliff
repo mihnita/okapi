@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj31783.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">FOR UPDATE clause</source>
+<seg-source><mrk mid="0" mtype="seg">FOR UPDATE clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FOR UPDATE clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">FOR UPDATE clause</source>
+<seg-source><mrk mid="0" mtype="seg">FOR UPDATE clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FOR UPDATE clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Cursors</source>
+<seg-source><mrk mid="0" mtype="seg">Cursors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cursors</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Cursors</source>
+<seg-source><mrk mid="0" mtype="seg">Cursors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cursors</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">In-place updates</source>
+<seg-source><mrk mid="0" mtype="seg">In-place updates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In-place updates</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The FOR UPDATE clause is an optional part of a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj41360.dita#rrefsqlj41360"&gt;</bpt>SELECT statement<ept id="1">&lt;/xref&gt;</ept>. Cursors are read-only by default. The FOR UPDATE clause specifies that the cursor should be updatable, and enforces a check during compilation that the SELECT statement meets the requirements for an updatable <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>cursor<ept id="2">&lt;/i&gt;</ept>. For more information about updatability, see <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj41360.dita#rrefsqlj41360/sqlj15384"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The FOR UPDATE clause is an optional part of a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj41360.dita#rrefsqlj41360"&gt;</bpt>SELECT statement<ept id="1">&lt;/xref&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Cursors are read-only by default.</mrk><mrk mid="2" mtype="seg"> The FOR UPDATE clause specifies that the cursor should be updatable, and enforces a check during compilation that the SELECT statement meets the requirements for an updatable <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>cursor<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> For more information about updatability, see <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj41360.dita#rrefsqlj41360/sqlj15384"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The FOR UPDATE clause is an optional part of a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj41360.dita#rrefsqlj41360"&gt;</bpt>SELECT statement<ept id="1">&lt;/xref&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Cursors are read-only by default.</mrk><mrk mid="2" mtype="seg"> The FOR UPDATE clause specifies that the cursor should be updatable, and enforces a check during compilation that the SELECT statement meets the requirements for an updatable <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>cursor<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> For more information about updatability, see <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj41360.dita#rrefsqlj41360/sqlj15384"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>FOR { READ ONLY | FETCH ONLY | UPDATE [ OF <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* ] }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>FOR { READ ONLY | FETCH ONLY | UPDATE [ OF <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* ] }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>FOR { READ ONLY | FETCH ONLY | UPDATE [ OF <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* ] }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>simpleColumnName<ept id="1">&lt;/i&gt;</ept> refers to the names visible for the table specified in the FROM clause of the underlying query.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>simpleColumnName<ept id="1">&lt;/i&gt;</ept> refers to the names visible for the table specified in the FROM clause of the underlying query.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>simpleColumnName<ept id="1">&lt;/i&gt;</ept> refers to the names visible for the table specified in the FROM clause of the underlying query.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Instead of FOR UPDATE, you can specify FOR READ ONLY or its synonym, FOR FETCH ONLY, to indicate that the result set is not updatable.</source>
+<seg-source><mrk mid="0" mtype="seg">Instead of FOR UPDATE, you can specify FOR READ ONLY or its synonym, FOR FETCH ONLY, to indicate that the result set is not updatable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Instead of FOR UPDATE, you can specify FOR READ ONLY or its synonym, FOR FETCH ONLY, to indicate that the result set is not updatable.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The use of the FOR UPDATE clause is not mandatory to obtain an updatable JDBC ResultSet. As long as the statement used to generate the JDBC ResultSet meets the requirements for updatable cursor, it is sufficient for the JDBC Statement that generates the JDBC ResultSet to have concurrency mode <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet.CONCUR_UPDATABLE<ept id="1">&lt;/codeph&gt;</ept> for the ResultSet to be updatable.</source>
+<seg-source><mrk mid="0" mtype="seg">The use of the FOR UPDATE clause is not mandatory to obtain an updatable JDBC ResultSet.</mrk><mrk mid="1" mtype="seg"> As long as the statement used to generate the JDBC ResultSet meets the requirements for updatable cursor, it is sufficient for the JDBC Statement that generates the JDBC ResultSet to have concurrency mode <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet.CONCUR_UPDATABLE<ept id="1">&lt;/codeph&gt;</ept> for the ResultSet to be updatable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The use of the FOR UPDATE clause is not mandatory to obtain an updatable JDBC ResultSet.</mrk><mrk mid="1" mtype="seg"> As long as the statement used to generate the JDBC ResultSet meets the requirements for updatable cursor, it is sufficient for the JDBC Statement that generates the JDBC ResultSet to have concurrency mode <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ResultSet.CONCUR_UPDATABLE<ept id="1">&lt;/codeph&gt;</ept> for the ResultSet to be updatable.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The optimizer is able to use an index even if the column in the index is being updated.</source>
+<seg-source><mrk mid="0" mtype="seg">The optimizer is able to use an index even if the column in the index is being updated.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The optimizer is able to use an index even if the column in the index is being updated.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">For information about how indexes affect performance, see <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For information about how indexes affect performance, see <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For information about how indexes affect performance, see <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT RECEIVED, SOURCE, SUBJECT, NOTE_TEXT FROM SAMP.IN_TRAY FOR UPDATE <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT RECEIVED, SOURCE, SUBJECT, NOTE_TEXT FROM SAMP.IN_TRAY FOR UPDATE <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT RECEIVED, SOURCE, SUBJECT, NOTE_TEXT FROM SAMP.IN_TRAY FOR UPDATE <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

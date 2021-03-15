@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevsetprop824983.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Verifying system properties</source>
+<seg-source><mrk mid="0" mtype="seg">Verifying system properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Verifying system properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You can find out the value of a system property if you set it programmatically. You cannot find out the value of a system property if you set it in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file.</source>
+<seg-source><mrk mid="0" mtype="seg">You can find out the value of a system property if you set it programmatically.</mrk><mrk mid="1" mtype="seg"> You cannot find out the value of a system property if you set it in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can find out the value of a system property if you set it programmatically.</mrk><mrk mid="1" mtype="seg"> You cannot find out the value of a system property if you set it in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">For example, if you set the value of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.storage.pageSize<ept id="1">&lt;/codeph&gt;</ept> system-wide property in your program or on the command line, the following code will retrieve its value from the System Properties object:</source>
+<seg-source><mrk mid="0" mtype="seg">For example, if you set the value of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.storage.pageSize<ept id="1">&lt;/codeph&gt;</ept> system-wide property in your program or on the command line, the following code will retrieve its value from the System Properties object:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, if you set the value of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.storage.pageSize<ept id="1">&lt;/codeph&gt;</ept> system-wide property in your program or on the command line, the following code will retrieve its value from the System Properties object:</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Properties sprops = System.getProperties(); System.out.println("derby.storage.pageSize value: " + sprops.getProperty("derby.storage.pageSize")); <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Properties sprops = System.getProperties(); System.out.println("derby.storage.pageSize value: " + sprops.getProperty("derby.storage.pageSize")); <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Properties sprops = System.getProperties(); System.out.println("derby.storage.pageSize value: " + sprops.getProperty("derby.storage.pageSize")); <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">You can also use Java Management Extensions (JMX) technology to obtain system information, including some settings that correspond to system properties. For details, see "Using Java Management Extensions (JMX) technology" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You can also use Java Management Extensions (JMX) technology to obtain system information, including some settings that correspond to system properties.</mrk><mrk mid="1" mtype="seg"> For details, see "Using Java Management Extensions (JMX) technology" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can also use Java Management Extensions (JMX) technology to obtain system information, including some settings that correspond to system properties.</mrk><mrk mid="1" mtype="seg"> For details, see "Using Java Management Extensions (JMX) technology" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

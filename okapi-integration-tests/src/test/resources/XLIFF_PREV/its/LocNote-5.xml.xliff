@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="LocNote-5.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" xml:space="preserve" its:locNote="Keep the leading spaces!" its:locNoteType="alert">
+<source xml:lang="en">   Variant {0} = {1} ({2})</source>
+<seg-source><mrk mid="0" mtype="seg">   Variant {0} = {1} ({2})</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">   Variant {0} = {1} ({2})</mrk></target>
+<note>Keep the leading spaces!</note>
+</trans-unit>
+<trans-unit id="2" xml:space="preserve" its:locNote="$1 is the original text's date in the format YYYY-MM-DD HH:MM always in UTC" its:locNoteType="description">
+<source xml:lang="en">Translated from English content dated $1 UTC.</source>
+<seg-source><mrk mid="0" mtype="seg">Translated from English content dated $1 UTC.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Translated from English content dated $1 UTC.</mrk></target>
+<note>$1 is the original text's date in the format YYYY-MM-DD HH:MM always in UTC</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

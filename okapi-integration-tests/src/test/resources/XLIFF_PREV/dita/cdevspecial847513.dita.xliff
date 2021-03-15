@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevspecial847513.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Invoking a procedure using the CALL command</source>
+<seg-source><mrk mid="0" mtype="seg">Invoking a procedure using the CALL command</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Invoking a procedure using the CALL command</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">If a procedure uses only IN parameters, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can execute the procedure by using the SQL CALL command. A stored procedure with IN, OUT, or INOUT parameters can be invoked from a client application by using a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>CallableStatement<ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If a procedure uses only IN parameters, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can execute the procedure by using the SQL CALL command.</mrk><mrk mid="1" mtype="seg"> A stored procedure with IN, OUT, or INOUT parameters can be invoked from a client application by using a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>CallableStatement<ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a procedure uses only IN parameters, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can execute the procedure by using the SQL CALL command.</mrk><mrk mid="1" mtype="seg"> A stored procedure with IN, OUT, or INOUT parameters can be invoked from a client application by using a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>CallableStatement<ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Database-side JDBC procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Database-side JDBC procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database-side JDBC procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">invoking with CALL command</source>
+<seg-source><mrk mid="0" mtype="seg">invoking with CALL command</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">invoking with CALL command</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">You can invoke the procedure in an SQL statement such as the following:</source>
+<seg-source><mrk mid="0" mtype="seg">You can invoke the procedure in an SQL statement such as the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can invoke the procedure in an SQL statement such as the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL MYPROC()<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL MYPROC()<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL MYPROC()<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">You can roll back a CALL statement only if no commits or rollbacks occur within the specified procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">You can roll back a CALL statement only if no commits or rollbacks occur within the specified procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can roll back a CALL statement only if no commits or rollbacks occur within the specified procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">You can also use the CALL command to execute a routine that returns a value, but you will not be able to access the value.</source>
+<seg-source><mrk mid="0" mtype="seg">You can also use the CALL command to execute a routine that returns a value, but you will not be able to access the value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can also use the CALL command to execute a routine that returns a value, but you will not be able to access the value.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminssl.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Network encryption and authentication with SSL/TLS</source>
+<seg-source><mrk mid="0" mtype="seg">Network encryption and authentication with SSL/TLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network encryption and authentication with SSL/TLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">By default, all <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> network traffic is unencrypted, with the exception of user names and user passwords, which may be encrypted separately.</source>
+<seg-source><mrk mid="0" mtype="seg">By default, all <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> network traffic is unencrypted, with the exception of user names and user passwords, which may be encrypted separately.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default, all <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> network traffic is unencrypted, with the exception of user names and user passwords, which may be encrypted separately.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SSL</source>
+<seg-source><mrk mid="0" mtype="seg">SSL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSL</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">TLS</source>
+<seg-source><mrk mid="0" mtype="seg">TLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SSL</source>
+<seg-source><mrk mid="0" mtype="seg">SSL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSL</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">TLS</source>
+<seg-source><mrk mid="0" mtype="seg">TLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref
+href="cadminappsclientsecurity.dita#cadminappsclientsecurity"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref
+href="cadminappsclientsecurity.dita#cadminappsclientsecurity"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref
+href="cadminappsclientsecurity.dita#cadminappsclientsecurity"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">There is also no network layer access control mechanism. For deployment scenarios where these are possible security issues, the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server supports network security with Secure Socket Layer/Transport Layer Security (SSL/TLS).</source>
+<seg-source><mrk mid="0" mtype="seg">There is also no network layer access control mechanism.</mrk><mrk mid="1" mtype="seg"> For deployment scenarios where these are possible security issues, the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server supports network security with Secure Socket Layer/Transport Layer Security (SSL/TLS).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There is also no network layer access control mechanism.</mrk><mrk mid="1" mtype="seg"> For deployment scenarios where these are possible security issues, the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server supports network security with Secure Socket Layer/Transport Layer Security (SSL/TLS).</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">With SSL/TLS, the client/server communication protocol is encrypted, and both the client and the server may, independently of each other, require certificate-based authentication of the other part.</source>
+<seg-source><mrk mid="0" mtype="seg">With SSL/TLS, the client/server communication protocol is encrypted, and both the client and the server may, independently of each other, require certificate-based authentication of the other part.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">With SSL/TLS, the client/server communication protocol is encrypted, and both the client and the server may, independently of each other, require certificate-based authentication of the other part.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">It is assumed that the reader is somewhat familiar with SSL, key pairs, and certificates. This documentation is also based on the Java Development Kit (JDK) and its <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>keytool<ept id="1">&lt;/codeph&gt;</ept> application.</source>
+<seg-source><mrk mid="0" mtype="seg">It is assumed that the reader is somewhat familiar with SSL, key pairs, and certificates.</mrk><mrk mid="1" mtype="seg"> This documentation is also based on the Java Development Kit (JDK) and its <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>keytool<ept id="1">&lt;/codeph&gt;</ept> application.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is assumed that the reader is somewhat familiar with SSL, key pairs, and certificates.</mrk><mrk mid="1" mtype="seg"> This documentation is also based on the Java Development Kit (JDK) and its <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>keytool<ept id="1">&lt;/codeph&gt;</ept> application.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">For the remainder of this section, the term <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SSL<ept id="1">&lt;/i&gt;</ept> is used for SSL/TLS, and the term <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>peer<ept id="2">&lt;/i&gt;</ept> is used for the other part of the communication (the server's <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>peer<ept id="3">&lt;/i&gt;</ept> is the client and vice versa).</source>
+<seg-source><mrk mid="0" mtype="seg">For the remainder of this section, the term <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SSL<ept id="1">&lt;/i&gt;</ept> is used for SSL/TLS, and the term <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>peer<ept id="2">&lt;/i&gt;</ept> is used for the other part of the communication (the server's <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>peer<ept id="3">&lt;/i&gt;</ept> is the client and vice versa).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For the remainder of this section, the term <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SSL<ept id="1">&lt;/i&gt;</ept> is used for SSL/TLS, and the term <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>peer<ept id="2">&lt;/i&gt;</ept> is used for the other part of the communication (the server's <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>peer<ept id="3">&lt;/i&gt;</ept> is the client and vice versa).</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">SSL for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> (both for client and for server) operates in three possible modes:</source>
+<seg-source><mrk mid="0" mtype="seg">SSL for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> (both for client and for server) operates in three possible modes:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSL for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> (both for client and for server) operates in three possible modes:</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>off<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>off<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>off<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">The default, no SSL encryption</source>
+<seg-source><mrk mid="0" mtype="seg">The default, no SSL encryption</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default, no SSL encryption</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>basic<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>basic<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>basic<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">SSL encryption, no peer authentication</source>
+<seg-source><mrk mid="0" mtype="seg">SSL encryption, no peer authentication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSL encryption, no peer authentication</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>peerAuthentication<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>peerAuthentication<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>peerAuthentication<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">SSL encryption and peer authentication</source>
+<seg-source><mrk mid="0" mtype="seg">SSL encryption and peer authentication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSL encryption and peer authentication</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Peer authentication may be set on the server, on the client, or on both. Peer authentication means that the other side of the SSL connection is authenticated based on a trusted certificate installed locally.</source>
+<seg-source><mrk mid="0" mtype="seg">Peer authentication may be set on the server, on the client, or on both.</mrk><mrk mid="1" mtype="seg"> Peer authentication means that the other side of the SSL connection is authenticated based on a trusted certificate installed locally.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Peer authentication may be set on the server, on the client, or on both.</mrk><mrk mid="1" mtype="seg"> Peer authentication means that the other side of the SSL connection is authenticated based on a trusted certificate installed locally.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Alternatively, a Certification Authority (CA) certificate may be installed locally and the peer has a certificate signed by that authority. How to achieve this is not described in this document. Consult your Java environment documentation for details on this.</source>
+<seg-source><mrk mid="0" mtype="seg">Alternatively, a Certification Authority (CA) certificate may be installed locally and the peer has a certificate signed by that authority.</mrk><mrk mid="1" mtype="seg"> How to achieve this is not described in this document.</mrk><mrk mid="2" mtype="seg"> Consult your Java environment documentation for details on this.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Alternatively, a Certification Authority (CA) certificate may be installed locally and the peer has a certificate signed by that authority.</mrk><mrk mid="1" mtype="seg"> How to achieve this is not described in this document.</mrk><mrk mid="2" mtype="seg"> Consult your Java environment documentation for details on this.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>If a plaintext client tries to communicate with an SSL server, or if an SSL client tries to communicate with a plaintext server, the plaintext side of the communication will see the SSL communication as noise and report protocol errors.<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>If a plaintext client tries to communicate with an SSL server, or if an SSL client tries to communicate with a plaintext server, the plaintext side of the communication will see the SSL communication as noise and report protocol errors.<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>If a plaintext client tries to communicate with an SSL server, or if an SSL client tries to communicate with a plaintext server, the plaintext side of the communication will see the SSL communication as noise and report protocol errors.<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

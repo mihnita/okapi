@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevtricks39584.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Supplying a parameter only once</source>
+<seg-source><mrk mid="0" mtype="seg">Supplying a parameter only once</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Supplying a parameter only once</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">If you want to supply a parameter value once and use it multiple times within a query, put it in the FROM clause with an appropriate CAST.</source>
+<seg-source><mrk mid="0" mtype="seg">If you want to supply a parameter value once and use it multiple times within a query, put it in the FROM clause with an appropriate CAST.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you want to supply a parameter value once and use it multiple times within a query, put it in the FROM clause with an appropriate CAST.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">VALUES clause</source>
+<seg-source><mrk mid="0" mtype="seg">VALUES clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VALUES clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">power of</source>
+<seg-source><mrk mid="0" mtype="seg">power of</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">power of</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Using a supplied parameter multiple times in a query</source>
+<seg-source><mrk mid="0" mtype="seg">Using a supplied parameter multiple times in a query</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using a supplied parameter multiple times in a query</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SELECT phonebook.* FROM phonebook, (VALUES (CAST(? AS INT), CAST(? AS VARCHAR(255)))) AS Choice(choice, search_string) WHERE search_string = (case when choice = 1 then firstnme when choice=2 then lastname when choice=3 then phonenumber end);</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT phonebook.* FROM phonebook, (VALUES (CAST(? AS INT), CAST(? AS VARCHAR(255)))) AS Choice(choice, search_string) WHERE search_string = (case when choice = 1 then firstnme when choice=2 then lastname when choice=3 then phonenumber end);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT phonebook.* FROM phonebook, (VALUES (CAST(? AS INT), CAST(? AS VARCHAR(255)))) AS Choice(choice, search_string) WHERE search_string = (case when choice = 1 then firstnme when choice=2 then lastname when choice=3 then phonenumber end);</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">This query selects what the second parameter will be compared to based on the value in the first parameter. Putting the parameters in the FROM clause means that they need to be applied only once to the query, and you can give them names so that you can refer to them elsewhere in the query. In the example above, the first parameter is given the name <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>choice<ept id="1">&lt;/i&gt;</ept>, and the second parameter is given the name <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>search_string<ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This query selects what the second parameter will be compared to based on the value in the first parameter.</mrk><mrk mid="1" mtype="seg"> Putting the parameters in the FROM clause means that they need to be applied only once to the query, and you can give them names so that you can refer to them elsewhere in the query.</mrk><mrk mid="2" mtype="seg"> In the example above, the first parameter is given the name <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>choice<ept id="1">&lt;/i&gt;</ept>, and the second parameter is given the name <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>search_string<ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This query selects what the second parameter will be compared to based on the value in the first parameter.</mrk><mrk mid="1" mtype="seg"> Putting the parameters in the FROM clause means that they need to be applied only once to the query, and you can give them names so that you can refer to them elsewhere in the query.</mrk><mrk mid="2" mtype="seg"> In the example above, the first parameter is given the name <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>choice<ept id="1">&lt;/i&gt;</ept>, and the second parameter is given the name <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>search_string<ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

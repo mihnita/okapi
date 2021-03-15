@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj1082953.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Dynamic parameters example</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic parameters example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic parameters example</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>PreparedStatement ps2 = conn.prepareStatement( "UPDATE HotelAvailability SET rooms_available = " + "(rooms_available - ?) WHERE hotel_id = ? " + "AND booking_date BETWEEN ? AND ?"); <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- this sample code sets the values of dynamic parameters -- to be the values of program variables<ept id="2">&lt;/ph&gt;</ept> ps2.setInt(1, numberRooms); ps2.setInt(2, theHotel.hotelId); ps2.setDate(3, arrival); ps2.setDate(4, departure); updateCount = ps2.executeUpdate();<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>PreparedStatement ps2 = conn.prepareStatement( "UPDATE HotelAvailability SET rooms_available = " + "(rooms_available - ?) WHERE hotel_id = ? " + "AND booking_date BETWEEN ? AND ?"); <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- this sample code sets the values of dynamic parameters -- to be the values of program variables<ept id="2">&lt;/ph&gt;</ept> ps2.setInt(1, numberRooms); ps2.setInt(2, theHotel.hotelId); ps2.setDate(3, arrival); ps2.setDate(4, departure); updateCount = ps2.executeUpdate();<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>PreparedStatement ps2 = conn.prepareStatement( "UPDATE HotelAvailability SET rooms_available = " + "(rooms_available - ?) WHERE hotel_id = ? " + "AND booking_date BETWEEN ? AND ?"); <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- this sample code sets the values of dynamic parameters -- to be the values of program variables<ept id="2">&lt;/ph&gt;</ept> ps2.setInt(1, numberRooms); ps2.setInt(2, theHotel.hotelId); ps2.setDate(3, arrival); ps2.setDate(4, departure); updateCount = ps2.executeUpdate();<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminlogfile.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Controlling logging by using the log file</source>
+<seg-source><mrk mid="0" mtype="seg">Controlling logging by using the log file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Controlling logging by using the log file</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The Network Server uses the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept> file to log problems that it encounters. It also logs connections when the property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.logConnections<ept id="2">&lt;/codeph&gt;</ept> is set to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="3">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The Network Server uses the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept> file to log problems that it encounters.</mrk><mrk mid="1" mtype="seg"> It also logs connections when the property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.logConnections<ept id="2">&lt;/codeph&gt;</ept> is set to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="3">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Network Server uses the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept> file to log problems that it encounters.</mrk><mrk mid="1" mtype="seg"> It also logs connections when the property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.logConnections<ept id="2">&lt;/codeph&gt;</ept> is set to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="3">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">derby.infolog.append</source>
+<seg-source><mrk mid="0" mtype="seg">derby.infolog.append</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.infolog.append</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">derby.drda.logConnections</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.logConnections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.logConnections</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">derby.log</source>
+<seg-source><mrk mid="0" mtype="seg">derby.log</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.log</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">and the Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">and the Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and the Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref
+href="radminconfigdb2jdrdalogconnections.dita#radminconfigdb2jdrdalogconnections"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information on this property.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref
+href="radminconfigdb2jdrdalogconnections.dita#radminconfigdb2jdrdalogconnections"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information on this property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref
+href="radminconfigdb2jdrdalogconnections.dita#radminconfigdb2jdrdalogconnections"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information on this property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept> file is created when the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> server is started. The Network Server then records the time and version. If a log file exists, it is overwritten, unless the property <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.infolog.append<ept id="3">&lt;/codeph&gt;</ept> is set to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="4">&lt;/codeph&gt;</ept>.See "derby.infolog.append" in the <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> for information on this property.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept> file is created when the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> server is started.</mrk><mrk mid="1" mtype="seg"> The Network Server then records the time and version.</mrk><mrk mid="2" mtype="seg"> If a log file exists, it is overwritten, unless the property <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.infolog.append<ept id="3">&lt;/codeph&gt;</ept> is set to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="4">&lt;/codeph&gt;</ept>.See "derby.infolog.append" in the <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> for information on this property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept> file is created when the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> server is started.</mrk><mrk mid="1" mtype="seg"> The Network Server then records the time and version.</mrk><mrk mid="2" mtype="seg"> If a log file exists, it is overwritten, unless the property <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.infolog.append<ept id="3">&lt;/codeph&gt;</ept> is set to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="4">&lt;/codeph&gt;</ept>.See "derby.infolog.append" in the <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> for information on this property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">When the Network Server is logging connections, it also logs the Connection Number; this log message is written both to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept> file and to the Network Server console.</source>
+<seg-source><mrk mid="0" mtype="seg">When the Network Server is logging connections, it also logs the Connection Number; this log message is written both to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept> file and to the Network Server console.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the Network Server is logging connections, it also logs the Connection Number; this log message is written both to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept> file and to the Network Server console.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">To turn on connection logging, use the following command (all on one line):</source>
+<seg-source><mrk mid="0" mtype="seg">To turn on connection logging, use the following command (all on one line):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To turn on connection logging, use the following command (all on one line):</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl logconnections on [-h <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="2">&lt;/i&gt;</ept>] [-p <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="3">&lt;/i&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl logconnections on [-h <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="2">&lt;/i&gt;</ept>] [-p <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="3">&lt;/i&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl logconnections on [-h <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="2">&lt;/i&gt;</ept>] [-p <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="3">&lt;/i&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">To turn off connection logging, use the following command (all on one line):</source>
+<seg-source><mrk mid="0" mtype="seg">To turn off connection logging, use the following command (all on one line):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To turn off connection logging, use the following command (all on one line):</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl logconnections off [-h <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="2">&lt;/i&gt;</ept>][-p <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="3">&lt;/i&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl logconnections off [-h <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="2">&lt;/i&gt;</ept>][-p <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="3">&lt;/i&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl logconnections off [-h <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>hostname<ept id="2">&lt;/i&gt;</ept>][-p <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>portnumber<ept id="3">&lt;/i&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for more information about the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="2">&lt;/codeph&gt;</ept> file.</source>
+<seg-source><mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for more information about the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="2">&lt;/codeph&gt;</ept> file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for more information about the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="2">&lt;/codeph&gt;</ept> file.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

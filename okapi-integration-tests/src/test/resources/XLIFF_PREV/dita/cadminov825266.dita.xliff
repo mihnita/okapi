@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminov825266.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server provides multi-user connectivity to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> databases within a single system or over a network.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server provides multi-user connectivity to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> databases within a single system or over a network.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server provides multi-user connectivity to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> databases within a single system or over a network.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">The Network Server uses the standard Distributed Relational Database Architecture (DRDA) protocol to receive and reply to queries from clients. Databases are accessed through the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server by using the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> Network Client driver.</source>
+<seg-source><mrk mid="0" mtype="seg">The Network Server uses the standard Distributed Relational Database Architecture (DRDA) protocol to receive and reply to queries from clients.</mrk><mrk mid="1" mtype="seg"> Databases are accessed through the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server by using the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> Network Client driver.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Network Server uses the standard Distributed Relational Database Architecture (DRDA) protocol to receive and reply to queries from clients.</mrk><mrk mid="1" mtype="seg"> Databases are accessed through the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server by using the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> Network Client driver.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The Network Server is a solution for multiple JVMs that connect to the database, unlike the embedded scenario where only one JVM runs as part of the system. When <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is embedded in a single-JVM application, the embedded JDBC driver calls the local <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> database. When <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> is embedded in a server framework, the server framework's connectivity software provides data to multiple client JDBC applications over a network or the Internet.</source>
+<seg-source><mrk mid="0" mtype="seg">The Network Server is a solution for multiple JVMs that connect to the database, unlike the embedded scenario where only one JVM runs as part of the system.</mrk><mrk mid="1" mtype="seg"> When <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is embedded in a single-JVM application, the embedded JDBC driver calls the local <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> database.</mrk><mrk mid="2" mtype="seg"> When <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> is embedded in a server framework, the server framework's connectivity software provides data to multiple client JDBC applications over a network or the Internet.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Network Server is a solution for multiple JVMs that connect to the database, unlike the embedded scenario where only one JVM runs as part of the system.</mrk><mrk mid="1" mtype="seg"> When <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is embedded in a single-JVM application, the embedded JDBC driver calls the local <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> database.</mrk><mrk mid="2" mtype="seg"> When <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> is embedded in a server framework, the server framework's connectivity software provides data to multiple client JDBC applications over a network or the Internet.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">To run the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server, you need to install the following files:</source>
+<seg-source><mrk mid="0" mtype="seg">To run the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server, you need to install the following files:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To run the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server, you need to install the following files:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">On the server side, install <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="2">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">On the server side, install <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="2">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">On the server side, install <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="2">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">On the client side, install <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyclient.jar<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">On the client side, install <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyclient.jar<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">On the client side, install <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyclient.jar<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">There are several ways to manage the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server, including:</source>
+<seg-source><mrk mid="0" mtype="seg">There are several ways to manage the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server, including:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There are several ways to manage the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server, including:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Through the command line</source>
+<seg-source><mrk mid="0" mtype="seg">Through the command line</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Through the command line</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">By using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>.bat<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>.ksh<ept id="2">&lt;/codeph&gt;</ept> scripts</source>
+<seg-source><mrk mid="0" mtype="seg">By using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>.bat<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>.ksh<ept id="2">&lt;/codeph&gt;</ept> scripts</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By using <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>.bat<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>.ksh<ept id="2">&lt;/codeph&gt;</ept> scripts</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">With your own Java program (written using the Network Server API)</source>
+<seg-source><mrk mid="0" mtype="seg">With your own Java program (written using the Network Server API)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">With your own Java program (written using the Network Server API)</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">By setting Network Server properties</source>
+<seg-source><mrk mid="0" mtype="seg">By setting Network Server properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By setting Network Server properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="cadminapps59125.dita#cadminapps59125"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> explains how to change existing Java applications that currently run against <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> in embedded mode to run against the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> Network Server.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="cadminapps59125.dita#cadminapps59125"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> explains how to change existing Java applications that currently run against <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> in embedded mode to run against the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> Network Server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="cadminapps59125.dita#cadminapps59125"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> explains how to change existing Java applications that currently run against <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> in embedded mode to run against the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> Network Server.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="cadminconfig86869.dita#cadminconfig86869"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> explains how to manage the Network Server by using the command line, including starting and stopping it.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="cadminconfig86869.dita#cadminconfig86869"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> explains how to manage the Network Server by using the command line, including starting and stopping it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="cadminconfig86869.dita#cadminconfig86869"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> explains how to manage the Network Server by using the command line, including starting and stopping it.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="cadminadvtops.dita#cadminadvtops"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> contains advanced topics for <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> Network Server users.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="cadminadvtops.dita#cadminadvtops"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> contains advanced topics for <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> Network Server users.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="cadminadvtops.dita#cadminadvtops"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> contains advanced topics for <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> Network Server users.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Because of the differences in JDBC drivers that are used, you might encounter differences in functionality when running <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> in the Network Server framework as opposed to running it embedded in a user application. Refer to <bpt id="2" ctype="x-xref">&lt;xref href="cadminapps59125.dita#cadminapps59125"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for a complete list of the differences between embedded and Network Server configurations.</source>
+<seg-source><mrk mid="0" mtype="seg">Because of the differences in JDBC drivers that are used, you might encounter differences in functionality when running <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> in the Network Server framework as opposed to running it embedded in a user application.</mrk><mrk mid="1" mtype="seg"> Refer to <bpt id="2" ctype="x-xref">&lt;xref href="cadminapps59125.dita#cadminapps59125"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for a complete list of the differences between embedded and Network Server configurations.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Because of the differences in JDBC drivers that are used, you might encounter differences in functionality when running <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> in the Network Server framework as opposed to running it embedded in a user application.</mrk><mrk mid="1" mtype="seg"> Refer to <bpt id="2" ctype="x-xref">&lt;xref href="cadminapps59125.dita#cadminapps59125"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for a complete list of the differences between embedded and Network Server configurations.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

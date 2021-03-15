@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminconfigdb2jdrdatracedirectory.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.drda.traceDirectory property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.traceDirectory property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.traceDirectory property</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Indicates the location of tracing files.</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates the location of tracing files.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates the location of tracing files.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">derby.drda.traceDirectory property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.traceDirectory property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.traceDirectory property</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Security Considerations</source>
+<seg-source><mrk mid="0" mtype="seg">Security Considerations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Security Considerations</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The Network Server will attempt to create the trace directory (and any parent directories) if they do not exist. This will require that the Java security policy for <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="1">&lt;/codeph&gt;</ept> permits verification of the existence of the named trace directory and all necessary parent directories. For each directory created, the policy must allow</source>
+<seg-source><mrk mid="0" mtype="seg">The Network Server will attempt to create the trace directory (and any parent directories) if they do not exist.</mrk><mrk mid="1" mtype="seg"> This will require that the Java security policy for <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="1">&lt;/codeph&gt;</ept> permits verification of the existence of the named trace directory and all necessary parent directories.</mrk><mrk mid="2" mtype="seg"> For each directory created, the policy must allow</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Network Server will attempt to create the trace directory (and any parent directories) if they do not exist.</mrk><mrk mid="1" mtype="seg"> This will require that the Java security policy for <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="1">&lt;/codeph&gt;</ept> permits verification of the existence of the named trace directory and all necessary parent directories.</mrk><mrk mid="2" mtype="seg"> For each directory created, the policy must allow</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">permission java.io.FilePermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>directory<ept id="1">&lt;/i&gt;</ept>", "read,write";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.io.FilePermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>directory<ept id="1">&lt;/i&gt;</ept>", "read,write";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.io.FilePermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>directory<ept id="1">&lt;/i&gt;</ept>", "read,write";</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">and for the trace directory itself, the policy must allow</source>
+<seg-source><mrk mid="0" mtype="seg">and for the trace directory itself, the policy must allow</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and for the trace directory itself, the policy must allow</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">permission java.io.FilePermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>tracedirectory<ept id="1">&lt;/i&gt;</ept>${/}-", "write";</source>
+<seg-source><mrk mid="0" mtype="seg">permission java.io.FilePermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>tracedirectory<ept id="1">&lt;/i&gt;</ept>${/}-", "write";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permission java.io.FilePermission "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>tracedirectory<ept id="1">&lt;/i&gt;</ept>${/}-", "write";</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="tadminnetservcustom.dita#tadminnetservcustom"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information about customizing the Network Server's security policy.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="tadminnetservcustom.dita#tadminnetservcustom"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information about customizing the Network Server's security policy.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="tadminnetservcustom.dita#tadminnetservcustom"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information about customizing the Network Server's security policy.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">derby.drda.traceDirectory=<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>traceFileDirectory<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.traceDirectory=<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>traceFileDirectory<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.traceDirectory=<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>traceFileDirectory<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">If the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept> property has been set, it is the default. Otherwise, the default is the current directory.</source>
+<seg-source><mrk mid="0" mtype="seg">If the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept> property has been set, it is the default.</mrk><mrk mid="1" mtype="seg"> Otherwise, the default is the current directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept> property has been set, it is the default.</mrk><mrk mid="1" mtype="seg"> Otherwise, the default is the current directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.drda.traceDirectory=c:/<bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>/trace<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.drda.traceDirectory=c:/<bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>/trace<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.drda.traceDirectory=c:/<bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>/trace<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Static or dynamic</source>
+<seg-source><mrk mid="0" mtype="seg">Static or dynamic</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Static or dynamic</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Dynamic. You can change system values by using commands after the Network Server has been started.</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic.</mrk><mrk mid="1" mtype="seg"> You can change system values by using commands after the Network Server has been started.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic.</mrk><mrk mid="1" mtype="seg"> You can change system values by using commands after the Network Server has been started.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

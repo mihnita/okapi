@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminhubbkup67525.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">When the log is in a non-default location</source>
+<seg-source><mrk mid="0" mtype="seg">When the log is in a non-default location</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the log is in a non-default location</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">If you put the database log in a non-default location prior to backing up the database, be aware of the following requirements.</source>
+<seg-source><mrk mid="0" mtype="seg">If you put the database log in a non-default location prior to backing up the database, be aware of the following requirements.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you put the database log in a non-default location prior to backing up the database, be aware of the following requirements.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">If you are using an operating system command to back up the database, you must explicitly copy the log file as well, as shown in the following example:</source>
+<seg-source><mrk mid="0" mtype="seg">If you are using an operating system command to back up the database, you must explicitly copy the log file as well, as shown in the following example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you are using an operating system command to back up the database, you must explicitly copy the log file as well, as shown in the following example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>xcopy d:\mydatabases\sample c:\mybackups\2012-04-01\sample /s /i xcopy h:\janet\tourslog\log c:\mybackups\2012-04-01\sample\log /s /i<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>xcopy d:\mydatabases\sample c:\mybackups\2012-04-01\sample /s /i xcopy h:\janet\tourslog\log c:\mybackups\2012-04-01\sample\log /s /i<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>xcopy d:\mydatabases\sample c:\mybackups\2012-04-01\sample /s /i xcopy h:\janet\tourslog\log c:\mybackups\2012-04-01\sample\log /s /i<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">If you are not using Windows, substitute the appropriate operating system command for copying a directory and all of its contents to a new location.</source>
+<seg-source><mrk mid="0" mtype="seg">If you are not using Windows, substitute the appropriate operating system command for copying a directory and all of its contents to a new location.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you are not using Windows, substitute the appropriate operating system command for copying a directory and all of its contents to a new location.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Edit the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="1">&lt;/codeph&gt;</ept> entry in the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="2">&lt;/codeph&gt;</ept> file of the database backup so that it points to the correct location for the log. In the previous example, the log was moved to the default location for a log, so you can remove the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="3">&lt;/codeph&gt;</ept> entry entirely, or leave the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="4">&lt;/codeph&gt;</ept> entry as is and wait until the database is restored to edit the entry.</source>
+<seg-source><mrk mid="0" mtype="seg">Edit the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="1">&lt;/codeph&gt;</ept> entry in the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="2">&lt;/codeph&gt;</ept> file of the database backup so that it points to the correct location for the log.</mrk><mrk mid="1" mtype="seg"> In the previous example, the log was moved to the default location for a log, so you can remove the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="3">&lt;/codeph&gt;</ept> entry entirely, or leave the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="4">&lt;/codeph&gt;</ept> entry as is and wait until the database is restored to edit the entry.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Edit the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="1">&lt;/codeph&gt;</ept> entry in the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="2">&lt;/codeph&gt;</ept> file of the database backup so that it points to the correct location for the log.</mrk><mrk mid="1" mtype="seg"> In the previous example, the log was moved to the default location for a log, so you can remove the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="3">&lt;/codeph&gt;</ept> entry entirely, or leave the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="4">&lt;/codeph&gt;</ept> entry as is and wait until the database is restored to edit the entry.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="cadminlog98.dita#cadminlog98"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information about the default location of the database log and about putting the log in a non-default location.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="cadminlog98.dita#cadminlog98"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information about the default location of the database log and about putting the log in a non-default location.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="cadminlog98.dita#cadminlog98"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information about the default location of the database log and about putting the log in a non-default location.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

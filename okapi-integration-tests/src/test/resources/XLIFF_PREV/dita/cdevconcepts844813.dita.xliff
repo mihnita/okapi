@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts844813.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Information provided in SQL Exceptions</source>
+<seg-source><mrk mid="0" mtype="seg">Information provided in SQL Exceptions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information provided in SQL Exceptions</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides the message, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLState<ept id="2">&lt;/i&gt;</ept> values, and error codes in SQL exceptions.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides the message, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLState<ept id="2">&lt;/i&gt;</ept> values, and error codes in SQL exceptions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides the message, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLState<ept id="2">&lt;/i&gt;</ept> values, and error codes in SQL exceptions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SQL warnings</source>
+<seg-source><mrk mid="0" mtype="seg">SQL warnings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL warnings</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SQL exceptions</source>
+<seg-source><mrk mid="0" mtype="seg">SQL exceptions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL exceptions</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">chaining</source>
+<seg-source><mrk mid="0" mtype="seg">chaining</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">chaining</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SQL exceptions</source>
+<seg-source><mrk mid="0" mtype="seg">SQL exceptions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL exceptions</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">processing</source>
+<seg-source><mrk mid="0" mtype="seg">processing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">processing</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getSQLState<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>getMessage<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> methods to view the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="6" ctype="x-i">&lt;i&gt;</bpt>SQLState<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> and error messages. Use <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="8" ctype="x-i">&lt;i&gt;</bpt>getErrorCode<ept id="8">&lt;/i&gt;</ept><ept id="7">&lt;/codeph&gt;</ept> to see the error code. The error code defines the severity of the error and is not unique to each exception.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getSQLState<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>getMessage<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> methods to view the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="6" ctype="x-i">&lt;i&gt;</bpt>SQLState<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> and error messages.</mrk><mrk mid="1" mtype="seg"> Use <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="8" ctype="x-i">&lt;i&gt;</bpt>getErrorCode<ept id="8">&lt;/i&gt;</ept><ept id="7">&lt;/codeph&gt;</ept> to see the error code.</mrk><mrk mid="2" mtype="seg"> The error code defines the severity of the error and is not unique to each exception.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getSQLState<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>getMessage<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> methods to view the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="6" ctype="x-i">&lt;i&gt;</bpt>SQLState<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> and error messages.</mrk><mrk mid="1" mtype="seg"> Use <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="8" ctype="x-i">&lt;i&gt;</bpt>getErrorCode<ept id="8">&lt;/i&gt;</ept><ept id="7">&lt;/codeph&gt;</ept> to see the error code.</mrk><mrk mid="2" mtype="seg"> The error code defines the severity of the error and is not unique to each exception.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Severity is not standardized in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>. Applications should not depend on the severity returned from SQL exceptions.</source>
+<seg-source><mrk mid="0" mtype="seg">Severity is not standardized in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Applications should not depend on the severity returned from SQL exceptions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Severity is not standardized in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Applications should not depend on the severity returned from SQL exceptions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Applications should also check for and process <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.SQLWarnings<ept id="1">&lt;/i&gt;</ept>, which are processed in a similar way. <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> issues an <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>SQLWarning<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> if the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="6" ctype="x-i">&lt;i&gt;</bpt>create=true<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> attribute is specified and the database already exists.</source>
+<seg-source><mrk mid="0" mtype="seg">Applications should also check for and process <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.SQLWarnings<ept id="1">&lt;/i&gt;</ept>, which are processed in a similar way.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> issues an <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>SQLWarning<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> if the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="6" ctype="x-i">&lt;i&gt;</bpt>create=true<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> attribute is specified and the database already exists.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Applications should also check for and process <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.SQLWarnings<ept id="1">&lt;/i&gt;</ept>, which are processed in a similar way.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> issues an <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>SQLWarning<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> if the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="6" ctype="x-i">&lt;i&gt;</bpt>create=true<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> attribute is specified and the database already exists.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

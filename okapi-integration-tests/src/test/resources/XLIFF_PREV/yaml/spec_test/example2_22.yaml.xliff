@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="example2_22.yaml" source-language="en" target-language="fr" datatype="x-text/x-yaml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi-integration-tests/common-integration-tests/target/test-classes/yaml/spec_test/okf_yaml@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1" resname="canonical" xml:space="preserve">
+<source xml:lang="en">2001-12-15T02:59:43.1Z</source>
+<seg-source><mrk mid="0" mtype="seg">2001-12-15T02:59:43.1Z</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2001-12-15T02:59:43.1Z</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="iso8601" xml:space="preserve">
+<source xml:lang="en">2001-12-14t21:59:43.10-05:00</source>
+<seg-source><mrk mid="0" mtype="seg">2001-12-14t21:59:43.10-05:00</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2001-12-14t21:59:43.10-05:00</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" resname="spaced" xml:space="preserve">
+<source xml:lang="en">2001-12-14 21:59:43.10 -5</source>
+<seg-source><mrk mid="0" mtype="seg">2001-12-14 21:59:43.10 -5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2001-12-14 21:59:43.10 -5</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="date" xml:space="preserve">
+<source xml:lang="en">2002-12-14</source>
+<seg-source><mrk mid="0" mtype="seg">2002-12-14</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2002-12-14</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

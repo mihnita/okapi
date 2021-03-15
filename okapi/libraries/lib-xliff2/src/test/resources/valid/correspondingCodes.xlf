@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="fr"
+>
+ <!-- Allowed differences between the same inline element in source/target -->
+ <file id="f1">
+  <unit id="1">
+   <originalData>
+    <data id="d1">[b]</data>
+    <data id="d2">[/b]</data>
+    <data id="d3">[b]</data>
+    <data id="d4">[/b]</data>
+    <data id="d5">[BB]</data>
+    <data id="d6">[/BB]</data>
+    <data id="d7">[start]</data>
+    <data id="d8" dir="rtl">[end]</data>
+   </originalData>
+   <segment>
+    <source><pc id='1' equivEnd="abc">text</pc> </source>
+    <target><pc id='1' equivEnd="def">TEXT</pc> </target>
+   </segment>
+   <segment>
+    <source><pc id='2' canDelete="yes">text</pc> </source>
+    <target><pc id='2' canDelete="no">TEXT</pc> </target>
+   </segment>
+   <segment>
+    <source><pc id='3' dispStart="abc">text</pc> </source>
+    <target><pc id='3' dispStart="def">TEXT</pc> </target>
+   </segment>
+   <segment>
+    <source><pc id='4' dispEnd="abc">text</pc> </source>
+    <target><pc id='4' dispEnd="def">TEXT</pc> </target>
+   </segment>
+   <segment>
+    <source><pc id='5' type="fmt" subType="xlf:b">text</pc> </source>
+    <target><pc id='5' type="fmt">TEXT</pc> </target>
+   </segment>
+   <segment>
+    <source><pc id='6' equivStart="abc">text</pc> </source>
+    <target><pc id='6' equivStart="def">TEXT</pc> </target>
+   </segment>
+   <segment>
+    <source><pc id='7' canCopy="yes">text</pc> </source>
+    <target><pc id='7' canCopy="no">TEXT</pc> </target>
+   </segment>
+   <segment>
+    <source><pc id='8' dataRefStart="d1" dataRefEnd="d2">text</pc> </source>
+    <target><pc id='8' dataRefStart="d3" dataRefEnd="d4">TEXT</pc> </target>
+   </segment>
+   <segment>
+    <source><pc id='9' dataRefStart="d1" dataRefEnd="d2">text</pc> </source>
+    <target><pc id='9' dataRefStart="d5" dataRefEnd="d6">TEXT</pc> </target>
+   </segment>
+   <segment>
+    <source><pc id='10' dataRefStart="d1" dataRefEnd="d2">text</pc> </source>
+    <target><pc id='10' dataRefStart="d7" dataRefEnd="d8">TEXT</pc> </target>
+   </segment>
+   <segment>
+    <source><pc id='11' dir="ltr">text</pc> </source>
+    <target><pc id='11' dir="rtl">TEXT</pc> </target>
+   </segment>
+   <segment>
+    <source><ph id='12'/>text </source>
+    <target>TEXT </target> <!-- deleted code -->
+   </segment>
+   <segment>
+    <source>text </source>
+    <target><ph id='added'/>TEXT </target> <!-- added code -->
+   </segment>
+   <segment>
+    <source><mrk id='m1' type='comment' value='abc'>text</mrk> </source>
+    <target><mrk id='m1' type='comment' value='def'>text</mrk> </target>
+   </segment>
+   <segment>
+    <source><mrk id='m2' type='comment' value='abc'>text</mrk> </source>
+    <target>TEXT </target>
+   </segment>
+   <segment>
+    <source>text </source>
+    <target><mrk id='m3added' type='comment' value='def'>TEXT</mrk> </target>
+   </segment>
+  </unit>
+ </file>
+</xliff>

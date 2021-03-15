@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefproperpreallocator.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.language.sequence.preallocator</source>
+<seg-source><mrk mid="0" mtype="seg">derby.language.sequence.preallocator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.language.sequence.preallocator</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">derby.language.sequence.preallocator</source>
+<seg-source><mrk mid="0" mtype="seg">derby.language.sequence.preallocator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.language.sequence.preallocator</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Sequence preallocation</source>
+<seg-source><mrk mid="0" mtype="seg">Sequence preallocation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sequence preallocation</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Identity preallocation</source>
+<seg-source><mrk mid="0" mtype="seg">Identity preallocation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Identity preallocation</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Specifies how many values to preallocate for sequences.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies how many values to preallocate for sequences.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies how many values to preallocate for sequences.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">If the database is shut down in an orderly fashion, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> will not leak unused preallocated values. Instead, any unused values will be thrown away, and the sequence generator will continue where it left off once the database reboots. However, if the database exits unexpectedly, the sequence generator will skip the unused preallocated values when the database comes up again. This will leave a gap between the last NEXT VALUE FOR (issued before the database exited unexpectedly) and the next NEXT VALUE FOR (issued after the database reboots).</source>
+<seg-source><mrk mid="0" mtype="seg">If the database is shut down in an orderly fashion, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> will not leak unused preallocated values.</mrk><mrk mid="1" mtype="seg"> Instead, any unused values will be thrown away, and the sequence generator will continue where it left off once the database reboots.</mrk><mrk mid="2" mtype="seg"> However, if the database exits unexpectedly, the sequence generator will skip the unused preallocated values when the database comes up again.</mrk><mrk mid="3" mtype="seg"> This will leave a gap between the last NEXT VALUE FOR (issued before the database exited unexpectedly) and the next NEXT VALUE FOR (issued after the database reboots).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the database is shut down in an orderly fashion, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> will not leak unused preallocated values.</mrk><mrk mid="1" mtype="seg"> Instead, any unused values will be thrown away, and the sequence generator will continue where it left off once the database reboots.</mrk><mrk mid="2" mtype="seg"> However, if the database exits unexpectedly, the sequence generator will skip the unused preallocated values when the database comes up again.</mrk><mrk mid="3" mtype="seg"> This will leave a gap between the last NEXT VALUE FOR (issued before the database exited unexpectedly) and the next NEXT VALUE FOR (issued after the database reboots).</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.language.sequence.preallocator=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>number<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.language.sequence.preallocator=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>number<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.language.sequence.preallocator=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>number<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">or</source>
+<seg-source><mrk mid="0" mtype="seg">or</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">or</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.language.sequence.preallocator=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>className<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.language.sequence.preallocator=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>className<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.language.sequence.preallocator=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>className<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">If set to a positive number, that is the number of values which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> preallocates for each sequence. A higher value may improve the concurrency of sequences.</source>
+<seg-source><mrk mid="0" mtype="seg">If set to a positive number, that is the number of values which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> preallocates for each sequence.</mrk><mrk mid="1" mtype="seg"> A higher value may improve the concurrency of sequences.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If set to a positive number, that is the number of values which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> preallocates for each sequence.</mrk><mrk mid="1" mtype="seg"> A higher value may improve the concurrency of sequences.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">If set to a class name, that class must implement <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.catalog.SequencePreallocator<ept id="1">&lt;/i&gt;</ept>. The class customizes the size of the preallocation range for each sequence. For more information, see the public API documentation for <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.catalog.SequencePreallocator<ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If set to a class name, that class must implement <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.catalog.SequencePreallocator<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The class customizes the size of the preallocation range for each sequence.</mrk><mrk mid="2" mtype="seg"> For more information, see the public API documentation for <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.catalog.SequencePreallocator<ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If set to a class name, that class must implement <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.catalog.SequencePreallocator<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The class customizes the size of the preallocation range for each sequence.</mrk><mrk mid="2" mtype="seg"> For more information, see the public API documentation for <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.catalog.SequencePreallocator<ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">100</source>
+<seg-source><mrk mid="0" mtype="seg">100</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">100</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> preallocates 100 values for each sequence.</source>
+<seg-source><mrk mid="0" mtype="seg">By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> preallocates 100 values for each sequence.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> preallocates 100 values for each sequence.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.language.sequence.preallocator=125<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.language.sequence.preallocator=125<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.language.sequence.preallocator=125<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Scope</source>
+<seg-source><mrk mid="0" mtype="seg">Scope</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scope</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref
+href="crefproper51399.dita#crefproper51399/rrefproper41229"&gt;</bpt>system-wide<ept id="1">&lt;/xref&gt;</ept>, <bpt id="2" ctype="x-xref">&lt;xref href="crefproper51399.dita#crefproper51399/rrefproper15705"&gt;</bpt>database-wide<ept id="2">&lt;/xref&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref
+href="crefproper51399.dita#crefproper51399/rrefproper41229"&gt;</bpt>system-wide<ept id="1">&lt;/xref&gt;</ept>, <bpt id="2" ctype="x-xref">&lt;xref href="crefproper51399.dita#crefproper51399/rrefproper15705"&gt;</bpt>database-wide<ept id="2">&lt;/xref&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref
+href="crefproper51399.dita#crefproper51399/rrefproper41229"&gt;</bpt>system-wide<ept id="1">&lt;/xref&gt;</ept>, <bpt id="2" ctype="x-xref">&lt;xref href="crefproper51399.dita#crefproper51399/rrefproper15705"&gt;</bpt>database-wide<ept id="2">&lt;/xref&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Dynamic or static</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic or static</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic or static</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">This property is semi-static; changing it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running will not affect sequences which are already being used. However, the new value will be picked up by sequences which weren't being used before the value was changed. In addition, DDL causes the old value to be forgotten. After performing DDL, the new value will be picked up by all sequences.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is semi-static; changing it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running will not affect sequences which are already being used.</mrk><mrk mid="1" mtype="seg"> However, the new value will be picked up by sequences which weren't being used before the value was changed.</mrk><mrk mid="2" mtype="seg"> In addition, DDL causes the old value to be forgotten.</mrk><mrk mid="3" mtype="seg"> After performing DDL, the new value will be picked up by all sequences.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is semi-static; changing it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running will not affect sequences which are already being used.</mrk><mrk mid="1" mtype="seg"> However, the new value will be picked up by sequences which weren't being used before the value was changed.</mrk><mrk mid="2" mtype="seg"> In addition, DDL causes the old value to be forgotten.</mrk><mrk mid="3" mtype="seg"> After performing DDL, the new value will be picked up by all sequences.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

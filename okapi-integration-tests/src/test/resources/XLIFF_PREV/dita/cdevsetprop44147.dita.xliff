@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevsetprop44147.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Making dynamic or static changes to properties</source>
+<seg-source><mrk mid="0" mtype="seg">Making dynamic or static changes to properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Making dynamic or static changes to properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Properties set in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file and on the command line of the application that boots <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> are <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>always<ept id="3">&lt;/i&gt;</ept> static, because <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> reads this file and those parameters only at startup.</source>
+<seg-source><mrk mid="0" mtype="seg">Properties set in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file and on the command line of the application that boots <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> are <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>always<ept id="3">&lt;/i&gt;</ept> static, because <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> reads this file and those parameters only at startup.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Properties set in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file and on the command line of the application that boots <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> are <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>always<ept id="3">&lt;/i&gt;</ept> static, because <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> reads this file and those parameters only at startup.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Only properties set in the following ways have the potential to be dynamic:</source>
+<seg-source><mrk mid="0" mtype="seg">Only properties set in the following ways have the potential to be dynamic:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only properties set in the following ways have the potential to be dynamic:</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">As database-wide properties</source>
+<seg-source><mrk mid="0" mtype="seg">As database-wide properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">As database-wide properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">As system-wide properties via a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="1">&lt;/i&gt;</ept> object in the application in which the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> engine is embedded</source>
+<seg-source><mrk mid="0" mtype="seg">As system-wide properties via a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="1">&lt;/i&gt;</ept> object in the application in which the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> engine is embedded</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">As system-wide properties via a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="1">&lt;/i&gt;</ept> object in the application in which the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> engine is embedded</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">See the "<bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> properties" section of the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for information about specific properties.</source>
+<seg-source><mrk mid="0" mtype="seg">See the "<bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> properties" section of the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for information about specific properties.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See the "<bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> properties" section of the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for information about specific properties.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

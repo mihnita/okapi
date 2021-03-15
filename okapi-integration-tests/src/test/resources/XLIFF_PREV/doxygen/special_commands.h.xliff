@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="special_commands.h" source-language="en" target-language="fr" datatype="x-text/x-doxygen-txt" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/doxygen/target/classes/net/sf/okapi/filters/doxygen/doxygenConfiguration.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1">
+<source xml:lang="en"><ph id="1" ctype="x-addtogroup">\addtogroup mygrp
+</ph>Additional documentation for group 'mygrp'</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-addtogroup">\addtogroup mygrp
+</ph>Additional documentation for group 'mygrp'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-addtogroup">\addtogroup mygrp
+</ph>Additional documentation for group 'mygrp'</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><ph id="1" ctype="x-@{">@{</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-@{">@{</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-@{">@{</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="sg2">
+<trans-unit id="tu3">
+<source xml:lang="en">A function</source>
+<seg-source><mrk mid="0" mtype="seg">A function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A function</mrk></target>
+</trans-unit>
+</group>
+<group id="sg3">
+<trans-unit id="tu4">
+<source xml:lang="en">Another function</source>
+<seg-source><mrk mid="0" mtype="seg">Another function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Another function</mrk></target>
+</trans-unit>
+</group>
+<group id="sg4">
+<trans-unit id="tu5">
+<source xml:lang="en"><ph id="1" ctype="x-@}">@}</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-@}">@}</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-@}">@}</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="sg5">
+<trans-unit id="tu6">
+<source xml:lang="en"><ph id="1" ctype="x-class">\class Test class.h "inc/class.h"
+</ph><ph id="2" ctype="x-brief">\brief</ph> This is a test class.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-class">\class Test class.h "inc/class.h"
+</ph><ph id="2" ctype="x-brief">\brief</ph> This is a test class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-class">\class Test class.h "inc/class.h"
+</ph><ph id="2" ctype="x-brief">\brief</ph> This is a test class.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Some details about the Test class</source>
+<seg-source><mrk mid="0" mtype="seg">Some details about the Test class</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Some details about the Test class</mrk></target>
+</trans-unit>
+</group>
+<group id="sg6">
+<trans-unit id="tu8">
+<source xml:lang="en"><ph id="1" ctype="x-file">\file define.h
+</ph><ph id="2" ctype="x-brief">\brief</ph> testing defines</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-file">\file define.h
+</ph><ph id="2" ctype="x-brief">\brief</ph> testing defines</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-file">\file define.h
+</ph><ph id="2" ctype="x-brief">\brief</ph> testing defines</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">This is to test the documentation of defines.</source>
+<seg-source><mrk mid="0" mtype="seg">This is to test the documentation of defines.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is to test the documentation of defines.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg7">
+<trans-unit id="tu10">
+<source xml:lang="en"><ph id="1" ctype="x-def">\def MAX(x,y)
+</ph>Computes the maximum of <ph id="2" ctype="x-a">\a</ph> x and <ph id="3" ctype="x-a">\a</ph> y.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-def">\def MAX(x,y)
+</ph>Computes the maximum of <ph id="2" ctype="x-a">\a</ph> x and <ph id="3" ctype="x-a">\a</ph> y.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-def">\def MAX(x,y)
+</ph>Computes the maximum of <ph id="2" ctype="x-a">\a</ph> x and <ph id="3" ctype="x-a">\a</ph> y.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg8">
+<trans-unit id="tu11">
+<source xml:lang="en">Computes the absolute value of its argument <ph id="1" ctype="x-a">\a</ph> x.</source>
+<seg-source><mrk mid="0" mtype="seg">Computes the absolute value of its argument <ph id="1" ctype="x-a">\a</ph> x.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Computes the absolute value of its argument <ph id="1" ctype="x-a">\a</ph> x.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg9">
+<trans-unit id="tu12">
+<source xml:lang="en">Computes the minimum of <ph id="1" ctype="x-a">\a</ph> x and <ph id="2" ctype="x-a">\a</ph> y.</source>
+<seg-source><mrk mid="0" mtype="seg">Computes the minimum of <ph id="1" ctype="x-a">\a</ph> x and <ph id="2" ctype="x-a">\a</ph> y.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Computes the minimum of <ph id="1" ctype="x-a">\a</ph> x and <ph id="2" ctype="x-a">\a</ph> y.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg10">
+<trans-unit id="tu13">
+<source xml:lang="en">Another enum, with inline docs</source>
+<seg-source><mrk mid="0" mtype="seg">Another enum, with inline docs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Another enum, with inline docs</mrk></target>
+</trans-unit>
+</group>
+<group id="sg11">
+<trans-unit id="tu14">
+<source xml:lang="en">value 1</source>
+<seg-source><mrk mid="0" mtype="seg">value 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">value 1</mrk></target>
+</trans-unit>
+</group>
+<group id="sg12">
+<trans-unit id="tu15">
+<source xml:lang="en">value 2</source>
+<seg-source><mrk mid="0" mtype="seg">value 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">value 2</mrk></target>
+</trans-unit>
+</group>
+<group id="sg13">
+<trans-unit id="tu16">
+<source xml:lang="en"><ph id="1" ctype="x-class">\class Test
+</ph>The class description.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-class">\class Test
+</ph>The class description.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-class">\class Test
+</ph>The class description.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg14">
+<trans-unit id="tu17">
+<source xml:lang="en"><ph id="1" ctype="x-enum">\enum Test::TEnum
+</ph>A description of the enum type.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-enum">\enum Test::TEnum
+</ph>A description of the enum type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-enum">\enum Test::TEnum
+</ph>A description of the enum type.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg15">
+<trans-unit id="tu18">
+<source xml:lang="en"><ph id="1" ctype="x-var">\var Test::TEnum Test::Val1
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-var">\var Test::TEnum Test::Val1
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-var">\var Test::TEnum Test::Val1
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">The description of the first enum value.</source>
+<seg-source><mrk mid="0" mtype="seg">The description of the first enum value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The description of the first enum value.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg16">
+<trans-unit id="tu20">
+<source xml:lang="en">A Test class. More details about this class.</source>
+<seg-source><mrk mid="0" mtype="seg">A Test class.</mrk><mrk mid="1" mtype="seg"> More details about this class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A Test class.</mrk><mrk mid="1" mtype="seg"> More details about this class.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg17">
+<trans-unit id="tu21">
+<source xml:lang="en">An example member function. More details about this function.</source>
+<seg-source><mrk mid="0" mtype="seg">An example member function.</mrk><mrk mid="1" mtype="seg"> More details about this function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An example member function.</mrk><mrk mid="1" mtype="seg"> More details about this function.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg18">
+<trans-unit id="tu22">
+<source xml:lang="en"><ph id="1" ctype="x-example">\example example_test.cpp
+</ph>This is an example of how to use the Test class. More details about this example.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-example">\example example_test.cpp
+</ph>This is an example of how to use the Test class.</mrk><mrk mid="1" mtype="seg"> More details about this example.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-example">\example example_test.cpp
+</ph>This is an example of how to use the Test class.</mrk><mrk mid="1" mtype="seg"> More details about this example.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg19">
+<trans-unit id="tu23">
+<source xml:lang="en"><ph id="1" ctype="x-file">\file file.h
+</ph>A brief file description. A more elaborated file description.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-file">\file file.h
+</ph>A brief file description.</mrk><mrk mid="1" mtype="seg"> A more elaborated file description.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-file">\file file.h
+</ph>A brief file description.</mrk><mrk mid="1" mtype="seg"> A more elaborated file description.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg20">
+<trans-unit id="tu24">
+<source xml:lang="en">A global integer value. More details about this value.</source>
+<seg-source><mrk mid="0" mtype="seg">A global integer value.</mrk><mrk mid="1" mtype="seg"> More details about this value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A global integer value.</mrk><mrk mid="1" mtype="seg"> More details about this value.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg21">
+<trans-unit id="tu25">
+<source xml:lang="en"><ph id="1" ctype="x-class">\class Test
+</ph><ph id="2" ctype="x-brief">\brief</ph> Test class.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-class">\class Test
+</ph><ph id="2" ctype="x-brief">\brief</ph> Test class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-class">\class Test
+</ph><ph id="2" ctype="x-brief">\brief</ph> Test class.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Details about Test.</source>
+<seg-source><mrk mid="0" mtype="seg">Details about Test.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Details about Test.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg22">
+<trans-unit id="tu27">
+<source xml:lang="en"><ph id="1" ctype="x-fn">\fn const char *Test::member(char c,int n) 
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-fn">\fn const char *Test::member(char c,int n) 
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-fn">\fn const char *Test::member(char c,int n) 
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en"><ph id="1" ctype="x-brief">\brief</ph> A member function.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-brief">\brief</ph> A member function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-brief">\brief</ph> A member function.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en"><ph id="1" ctype="x-param">\param c </ph>a character.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">\param c </ph>a character.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">\param c </ph>a character.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en"><ph id="1" ctype="x-param">\param n </ph>an integer.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">\param n </ph>an integer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">\param n </ph>an integer.</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en"><ph id="1" ctype="x-exception">\exception std::out_of_range </ph>parameter is out of range.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-exception">\exception std::out_of_range </ph>parameter is out of range.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-exception">\exception std::out_of_range </ph>parameter is out of range.</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en"><ph id="1" ctype="x-return">\return</ph> a character pointer.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-return">\return</ph> a character pointer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-return">\return</ph> a character pointer.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg23">
+<trans-unit id="tu33">
+<source xml:lang="en"><ph id="1" ctype="x-headerfile">\headerfile test.h "test.h"
+</ph><ph id="2" ctype="x-headerfile">\headerfile test.h ""
+</ph><ph id="3" ctype="x-headerfile">\headerfile "" 
+
+</ph><ph id="4" ctype="x-headerfile">\headerfile test.h &lt;test.h&gt;
+</ph><ph id="5" ctype="x-headerfile">\headerfile test.h &lt;&gt;
+</ph><ph id="6" ctype="x-headerfile">\headerfile &lt;&gt;
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-headerfile">\headerfile test.h "test.h"
+</ph><ph id="2" ctype="x-headerfile">\headerfile test.h ""
+</ph><ph id="3" ctype="x-headerfile">\headerfile "" 
+
+</ph><ph id="4" ctype="x-headerfile">\headerfile test.h &lt;test.h&gt;
+</ph><ph id="5" ctype="x-headerfile">\headerfile test.h &lt;&gt;
+</ph><ph id="6" ctype="x-headerfile">\headerfile &lt;&gt;
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-headerfile">\headerfile test.h "test.h"
+</ph><ph id="2" ctype="x-headerfile">\headerfile test.h ""
+</ph><ph id="3" ctype="x-headerfile">\headerfile "" 
+
+</ph><ph id="4" ctype="x-headerfile">\headerfile test.h &lt;test.h&gt;
+</ph><ph id="5" ctype="x-headerfile">\headerfile test.h &lt;&gt;
+</ph><ph id="6" ctype="x-headerfile">\headerfile &lt;&gt;
+</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="sg24">
+<trans-unit id="tu34">
+<source xml:lang="en"><ph id="1" ctype="x-mainpage">\mainpage My Personal Index Page
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-mainpage">\mainpage My Personal Index Page
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-mainpage">\mainpage My Personal Index Page
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en"><ph id="1" ctype="x-section">\section intro_sec</ph> Introduction</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-section">\section intro_sec</ph> Introduction</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-section">\section intro_sec</ph> Introduction</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">This is the introduction.</source>
+<seg-source><mrk mid="0" mtype="seg">This is the introduction.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is the introduction.</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en"><ph id="1" ctype="x-section">\section install_sec</ph> Installation</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-section">\section install_sec</ph> Installation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-section">\section install_sec</ph> Installation</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en"><ph id="1" ctype="x-subsection">\subsection step1</ph> Step 1: Opening the box</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-subsection">\subsection step1</ph> Step 1: Opening the box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-subsection">\subsection step1</ph> Step 1: Opening the box</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">etc...</source>
+<seg-source><mrk mid="0" mtype="seg">etc...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">etc...</mrk></target>
+</trans-unit>
+</group>
+<group id="sg25">
+<trans-unit id="tu40">
+<source xml:lang="en"><ph id="1" ctype="x-class">\class Test
+</ph><ph id="2" ctype="x-brief">\brief</ph> A short description.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-class">\class Test
+</ph><ph id="2" ctype="x-brief">\brief</ph> A short description.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-class">\class Test
+</ph><ph id="2" ctype="x-brief">\brief</ph> A short description.</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">More text.</source>
+<seg-source><mrk mid="0" mtype="seg">More text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">More text.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg26">
+<trans-unit id="tu42">
+<source xml:lang="en"><ph id="1" ctype="x-fn">\fn void Test::drawRect(int x,int y,int w,int h)
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-fn">\fn void Test::drawRect(int x,int y,int w,int h)
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-fn">\fn void Test::drawRect(int x,int y,int w,int h)
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">This command draws a rectangle with a left upper corner at ( <ph id="1" ctype="x-a">\a</ph> x , <ph id="2" ctype="x-a">\a</ph> y ), width <ph id="3" ctype="x-a">\a</ph> w and height <ph id="4" ctype="x-a">\a</ph> h.</source>
+<seg-source><mrk mid="0" mtype="seg">This command draws a rectangle with a left upper corner at ( <ph id="1" ctype="x-a">\a</ph> x , <ph id="2" ctype="x-a">\a</ph> y ), width <ph id="3" ctype="x-a">\a</ph> w and height <ph id="4" ctype="x-a">\a</ph> h.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This command draws a rectangle with a left upper corner at ( <ph id="1" ctype="x-a">\a</ph> x , <ph id="2" ctype="x-a">\a</ph> y ), width <ph id="3" ctype="x-a">\a</ph> w and height <ph id="4" ctype="x-a">\a</ph> h.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg27">
+<trans-unit id="tu44">
+<source xml:lang="en"><ph id="1" ctype="x-overload">\overload void Test::drawRect(const Rect &amp;r)
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-overload">\overload void Test::drawRect(const Rect &amp;r)
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-overload">\overload void Test::drawRect(const Rect &amp;r)
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+</group>
+<group id="sg28">
+<trans-unit id="tu46">
+<source xml:lang="en"><ph id="1" ctype="x-page">\page page1</ph> A documentation page</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-page">\page page1</ph> A documentation page</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-page">\page page1</ph> A documentation page</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en"><ph id="1" ctype="x-tableofcontents">\tableofcontents</ph> Leading text.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-tableofcontents">\tableofcontents</ph> Leading text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-tableofcontents">\tableofcontents</ph> Leading text.</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en"><ph id="1" ctype="x-section">\section sec</ph> An example section</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-section">\section sec</ph> An example section</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-section">\section sec</ph> An example section</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">This page contains the subsections <ph id="1" ctype="x-ref">\ref subsection1</ph> and <ph id="2" ctype="x-ref">\ref subsection2</ph>. For more info see page <ph id="3" ctype="x-ref">\ref page2</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">This page contains the subsections <ph id="1" ctype="x-ref">\ref subsection1</ph> and <ph id="2" ctype="x-ref">\ref subsection2</ph>.</mrk><mrk mid="1" mtype="seg"> For more info see page <ph id="3" ctype="x-ref">\ref page2</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This page contains the subsections <ph id="1" ctype="x-ref">\ref subsection1</ph> and <ph id="2" ctype="x-ref">\ref subsection2</ph>.</mrk><mrk mid="1" mtype="seg"> For more info see page <ph id="3" ctype="x-ref">\ref page2</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en"><ph id="1" ctype="x-subsection">\subsection subsection1</ph> The first subsection</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-subsection">\subsection subsection1</ph> The first subsection</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-subsection">\subsection subsection1</ph> The first subsection</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">Text.</source>
+<seg-source><mrk mid="0" mtype="seg">Text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text.</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en"><ph id="1" ctype="x-subsection">\subsection subsection2</ph> The second subsection</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-subsection">\subsection subsection2</ph> The second subsection</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-subsection">\subsection subsection2</ph> The second subsection</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">More text.</source>
+<seg-source><mrk mid="0" mtype="seg">More text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">More text.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg29">
+<trans-unit id="tu54">
+<source xml:lang="en"><ph id="1" ctype="x-page">\page page2</ph> Another page</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-page">\page page2</ph> Another page</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-page">\page page2</ph> Another page</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">Even more info.</source>
+<seg-source><mrk mid="0" mtype="seg">Even more info.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Even more info.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg30">
+<trans-unit id="tu56">
+<source xml:lang="en">A String class.</source>
+<seg-source><mrk mid="0" mtype="seg">A String class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A String class.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg31">
+<trans-unit id="tu57">
+<source xml:lang="en">Compares two strings.</source>
+<seg-source><mrk mid="0" mtype="seg">Compares two strings.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Compares two strings.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg32">
+<trans-unit id="tu58">
+<source xml:lang="en"><ph id="1" ctype="x-relates">\relates String
+</ph>A string debug function.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-relates">\relates String
+</ph>A string debug function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-relates">\relates String
+</ph>A string debug function.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg33">
+<trans-unit id="tu59">
+<source xml:lang="en"><ph id="1" ctype="x-brief">\brief</ph> Pretty nice class.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-brief">\brief</ph> Pretty nice class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-brief">\brief</ph> Pretty nice class.</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en"><ph id="1" ctype="x-details">\details</ph> This class is used to demonstrate a number of section commands.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-details">\details</ph> This class is used to demonstrate a number of section commands.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-details">\details</ph> This class is used to demonstrate a number of section commands.</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en"><ph id="1" ctype="x-author">\author</ph> John Doe</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-author">\author</ph> John Doe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-author">\author</ph> John Doe</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en"><ph id="1" ctype="x-author">\author</ph> Jan Doe</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-author">\author</ph> Jan Doe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-author">\author</ph> Jan Doe</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en"><ph id="1" ctype="x-version">\version</ph> 4.1a</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-version">\version</ph> 4.1a</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-version">\version</ph> 4.1a</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en"><ph id="1" ctype="x-date">\date</ph> 1990-2011</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-date">\date</ph> 1990-2011</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-date">\date</ph> 1990-2011</mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en"><ph id="1" ctype="x-pre">\pre</ph> First initialize the system.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-pre">\pre</ph> First initialize the system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-pre">\pre</ph> First initialize the system.</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en"><ph id="1" ctype="x-bug">\bug</ph> Not all memory is freed when deleting an object of this class.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-bug">\bug</ph> Not all memory is freed when deleting an object of this class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-bug">\bug</ph> Not all memory is freed when deleting an object of this class.</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en"><ph id="1" ctype="x-warning">\warning</ph> Improper use can crash your application</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-warning">\warning</ph> Improper use can crash your application</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-warning">\warning</ph> Improper use can crash your application</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en"><ph id="1" ctype="x-copyright">\copyright</ph> GNU Public License.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-copyright">\copyright</ph> GNU Public License.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-copyright">\copyright</ph> GNU Public License.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg34">
+<trans-unit id="tu69">
+<source xml:lang="en">An interface</source>
+<seg-source><mrk mid="0" mtype="seg">An interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An interface</mrk></target>
+</trans-unit>
+</group>
+<group id="sg35">
+<trans-unit id="tu70">
+<source xml:lang="en">A method</source>
+<seg-source><mrk mid="0" mtype="seg">A method</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A method</mrk></target>
+</trans-unit>
+</group>
+<group id="sg36">
+<trans-unit id="tu71">
+<source xml:lang="en"><ph id="1" ctype="x-cond">@cond TEST
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-cond">@cond TEST
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-cond">@cond TEST
+</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="sg37">
+<trans-unit id="tu72">
+<source xml:lang="en">A method used for testing</source>
+<seg-source><mrk mid="0" mtype="seg">A method used for testing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A method used for testing</mrk></target>
+</trans-unit>
+</group>
+<group id="sg38">
+<trans-unit id="tu73">
+<source xml:lang="en"><ph id="1" ctype="x-endcond">@endcond</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-endcond">@endcond</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-endcond">@endcond</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="sg39">
+<trans-unit id="tu74">
+<source xml:lang="en"><ph id="1" ctype="x-cond">@cond DEV
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-cond">@cond DEV
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-cond">@cond DEV
+</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="sg40">
+<trans-unit id="tu75">
+<source xml:lang="en"><ph id="1" ctype="x-cond">@cond TEST
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-cond">@cond TEST
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-cond">@cond TEST
+</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="sg41">
+<trans-unit id="tu76">
+<source xml:lang="en"><ph id="1" ctype="x-endcond">@endcond</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-endcond">@endcond</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-endcond">@endcond</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="sg42">
+<trans-unit id="tu77">
+<source xml:lang="en"><ph id="1" ctype="x-cond">@cond
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-cond">@cond
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-cond">@cond
+</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="sg43">
+<trans-unit id="tu78">
+<source xml:lang="en">This method is obsolete and does not show up in the documentation.</source>
+<seg-source><mrk mid="0" mtype="seg">This method is obsolete and does not show up in the documentation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This method is obsolete and does not show up in the documentation.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg44">
+<trans-unit id="tu79">
+<source xml:lang="en"><ph id="1" ctype="x-endcond">@endcond</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-endcond">@endcond</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-endcond">@endcond</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="sg45">
+<trans-unit id="tu80">
+<source xml:lang="en"><ph id="1" ctype="x-endcond">@endcond</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-endcond">@endcond</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-endcond">@endcond</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="sg46">
+<trans-unit id="tu81">
+<source xml:lang="en">Unconditionally shown documentation.</source>
+<seg-source><mrk mid="0" mtype="seg">Unconditionally shown documentation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unconditionally shown documentation.</mrk></target>
+</trans-unit>
+<trans-unit id="tu82">
+<source xml:lang="en"><it id="1" ctype="x-if" pos="open">\if Cond1
+  </it>Only included if Cond1 is set. <it id="1" ctype="x-if" pos="close">\endif</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-if" pos="open">\if Cond1
+  </it>Only included if Cond1 is set.</mrk><mrk mid="1" mtype="seg"> <it id="1" ctype="x-if" pos="close">\endif</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-if" pos="open">\if Cond1
+  </it>Only included if Cond1 is set.</mrk><mrk mid="1" mtype="seg"> <it id="1" ctype="x-if" pos="close">\endif</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu83">
+<source xml:lang="en"><it id="1" ctype="x-if" pos="open">\if Cond2
+  </it>Only included if Cond2 is set.</source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-if" pos="open">\if Cond2
+  </it>Only included if Cond2 is set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-if" pos="open">\if Cond2
+  </it>Only included if Cond2 is set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu84">
+<source xml:lang="en"><it id="1" ctype="x-if" pos="open">\if Cond3
+    </it>Only included if Cond2 and Cond3 are set. <it id="1" ctype="x-if" pos="close">\endif</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-if" pos="open">\if Cond3
+    </it>Only included if Cond2 and Cond3 are set.</mrk><mrk mid="1" mtype="seg"> <it id="1" ctype="x-if" pos="close">\endif</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-if" pos="open">\if Cond3
+    </it>Only included if Cond2 and Cond3 are set.</mrk><mrk mid="1" mtype="seg"> <it id="1" ctype="x-if" pos="close">\endif</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu85">
+<source xml:lang="en">More text. <it id="1" ctype="x-if" pos="close">\endif</it></source>
+<seg-source><mrk mid="0" mtype="seg">More text.</mrk><mrk mid="1" mtype="seg"> <it id="1" ctype="x-if" pos="close">\endif</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">More text.</mrk><mrk mid="1" mtype="seg"> <it id="1" ctype="x-if" pos="close">\endif</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu86">
+<source xml:lang="en">Unconditional text.</source>
+<seg-source><mrk mid="0" mtype="seg">Unconditional text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unconditional text.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg47">
+<trans-unit id="tu87">
+<source xml:lang="en">\english This is English. \endenglish \dutch Dit is Nederlands. \enddutch</source>
+<seg-source><mrk mid="0" mtype="seg">\english This is English.</mrk><mrk mid="1" mtype="seg"> \endenglish \dutch Dit is Nederlands.</mrk><mrk mid="2" mtype="seg"> \enddutch</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\english This is English.</mrk><mrk mid="1" mtype="seg"> \endenglish \dutch Dit is Nederlands.</mrk><mrk mid="2" mtype="seg"> \enddutch</mrk></target>
+</trans-unit>
+</group>
+<group id="sg48">
+<trans-unit id="tu88">
+<source xml:lang="en"><ph id="1" ctype="x-class">\class Test
+</ph>Normal text.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-class">\class Test
+</ph>Normal text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-class">\class Test
+</ph>Normal text.</mrk></target>
+</trans-unit>
+<trans-unit id="tu89">
+<source xml:lang="en"><ph id="1" ctype="x-par">\par</ph> User defined paragraph:</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-par">\par</ph> User defined paragraph:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-par">\par</ph> User defined paragraph:</mrk></target>
+</trans-unit>
+<trans-unit id="tu90">
+<source xml:lang="en">Contents of the paragraph.</source>
+<seg-source><mrk mid="0" mtype="seg">Contents of the paragraph.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contents of the paragraph.</mrk></target>
+</trans-unit>
+<trans-unit id="tu91">
+<source xml:lang="en"><ph id="1" ctype="x-par">\par
+</ph>New paragraph under the same heading.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-par">\par
+</ph>New paragraph under the same heading.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-par">\par
+</ph>New paragraph under the same heading.</mrk></target>
+</trans-unit>
+<trans-unit id="tu92">
+<source xml:lang="en"><ph id="1" ctype="x-note">\note</ph> This note consists of two paragraphs. This is the first paragraph.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-note">\note</ph> This note consists of two paragraphs.</mrk><mrk mid="1" mtype="seg"> This is the first paragraph.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-note">\note</ph> This note consists of two paragraphs.</mrk><mrk mid="1" mtype="seg"> This is the first paragraph.</mrk></target>
+</trans-unit>
+<trans-unit id="tu93">
+<source xml:lang="en"><ph id="1" ctype="x-par">\par
+</ph>And this is the second paragraph.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-par">\par
+</ph>And this is the second paragraph.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-par">\par
+</ph>And this is the second paragraph.</mrk></target>
+</trans-unit>
+<trans-unit id="tu94">
+<source xml:lang="en">More normal text.</source>
+<seg-source><mrk mid="0" mtype="seg">More normal text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">More normal text.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg49">
+<trans-unit id="tu95">
+<source xml:lang="en">Copies bytes from a source memory area to a destination memory area, where both areas may not overlap.</source>
+<seg-source><mrk mid="0" mtype="seg">Copies bytes from a source memory area to a destination memory area, where both areas may not overlap.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Copies bytes from a source memory area to a destination memory area, where both areas may not overlap.</mrk></target>
+</trans-unit>
+<trans-unit id="tu96">
+<source xml:lang="en"><ph id="1" ctype="x-param">@param[out] dest </ph>The memory area to copy to.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param[out] dest </ph>The memory area to copy to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param[out] dest </ph>The memory area to copy to.</mrk></target>
+</trans-unit>
+<trans-unit id="tu97">
+<source xml:lang="en"><ph id="1" ctype="x-param">@param[in] src </ph>The memory area to copy from.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param[in] src </ph>The memory area to copy from.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param[in] src </ph>The memory area to copy from.</mrk></target>
+</trans-unit>
+<trans-unit id="tu98">
+<source xml:lang="en"><ph id="1" ctype="x-param">@param[in] n </ph>The number of bytes to copy</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param[in] n </ph>The number of bytes to copy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param[in] n </ph>The number of bytes to copy</mrk></target>
+</trans-unit>
+</group>
+<group id="sg50">
+<trans-unit id="tu99">
+<source xml:lang="en">Sets the position.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the position.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the position.</mrk></target>
+</trans-unit>
+<trans-unit id="tu100">
+<source xml:lang="en"><ph id="1" ctype="x-param">@param x,y,z </ph>Coordinates of the position in 3D space.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param x,y,z </ph>Coordinates of the position in 3D space.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-param">@param x,y,z </ph>Coordinates of the position in 3D space.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg51">
+<trans-unit id="tu101">
+<source xml:lang="en"><ph id="1" ctype="x-xrefitem">\xrefitem todo</ph> "Todo" "Todo List"</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-xrefitem">\xrefitem todo</ph> "Todo" "Todo List"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-xrefitem">\xrefitem todo</ph> "Todo" "Todo List"</mrk></target>
+</trans-unit>
+</group>
+<group id="sg52">
+<trans-unit id="tu102">
+<source xml:lang="en"><ph id="1" ctype="x-mainpage">\mainpage A simple manual
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-mainpage">\mainpage A simple manual
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-mainpage">\mainpage A simple manual
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu103">
+<source xml:lang="en">Some general info.</source>
+<seg-source><mrk mid="0" mtype="seg">Some general info.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Some general info.</mrk></target>
+</trans-unit>
+<trans-unit id="tu104">
+<source xml:lang="en">This manual is divided in the following sections:</source>
+<seg-source><mrk mid="0" mtype="seg">This manual is divided in the following sections:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This manual is divided in the following sections:</mrk></target>
+</trans-unit>
+<trans-unit id="tu105">
+<source xml:lang="en"><ph id="1" ctype="x-subpage">\subpage intro
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-subpage">\subpage intro
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-subpage">\subpage intro
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu106">
+<source xml:lang="en"><ph id="1" ctype="x-subpage">\subpage advanced</ph> "Advanced usage"</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-subpage">\subpage advanced</ph> "Advanced usage"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-subpage">\subpage advanced</ph> "Advanced usage"</mrk></target>
+</trans-unit>
+</group>
+<group id="sg53">
+<trans-unit id="tu107">
+<source xml:lang="en"><ph id="1" ctype="x-page">\page intro</ph> Introduction</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-page">\page intro</ph> Introduction</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-page">\page intro</ph> Introduction</mrk></target>
+</trans-unit>
+<trans-unit id="tu108">
+<source xml:lang="en">This page introduces the user to the topic. Now you can proceed to the <ph id="1" ctype="x-ref">\ref advanced</ph> "advanced section".</source>
+<seg-source><mrk mid="0" mtype="seg">This page introduces the user to the topic.</mrk><mrk mid="1" mtype="seg"> Now you can proceed to the <ph id="1" ctype="x-ref">\ref advanced</ph> "advanced section".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This page introduces the user to the topic.</mrk><mrk mid="1" mtype="seg"> Now you can proceed to the <ph id="1" ctype="x-ref">\ref advanced</ph> "advanced section".</mrk></target>
+</trans-unit>
+</group>
+<group id="sg54">
+<trans-unit id="tu109">
+<source xml:lang="en"><ph id="1" ctype="x-page">\page advanced</ph> Advanced Usage</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-page">\page advanced</ph> Advanced Usage</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-page">\page advanced</ph> Advanced Usage</mrk></target>
+</trans-unit>
+<trans-unit id="tu110">
+<source xml:lang="en">This page is for advanced users. Make sure you have first read <ph id="1" ctype="x-ref">\ref intro</ph> "the introduction".</source>
+<seg-source><mrk mid="0" mtype="seg">This page is for advanced users.</mrk><mrk mid="1" mtype="seg"> Make sure you have first read <ph id="1" ctype="x-ref">\ref intro</ph> "the introduction".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This page is for advanced users.</mrk><mrk mid="1" mtype="seg"> Make sure you have first read <ph id="1" ctype="x-ref">\ref intro</ph> "the introduction".</mrk></target>
+</trans-unit>
+</group>
+<group id="sg55">
+<trans-unit id="tu111">
+<source xml:lang="en">A test class.</source>
+<seg-source><mrk mid="0" mtype="seg">A test class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A test class.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg56">
+<trans-unit id="tu112">
+<source xml:lang="en">a member function</source>
+<seg-source><mrk mid="0" mtype="seg">a member function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a member function</mrk></target>
+</trans-unit>
+</group>
+<group id="sg57">
+<trans-unit id="tu113">
+<source xml:lang="en"><ph id="1" ctype="x-page">\page example</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-page">\page example</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-page">\page example</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu114">
+<source xml:lang="en"><ph id="1" ctype="x-dontinclude">\dontinclude example_test.cpp
+</ph>Our main function starts like this:</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-dontinclude">\dontinclude example_test.cpp
+</ph>Our main function starts like this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-dontinclude">\dontinclude example_test.cpp
+</ph>Our main function starts like this:</mrk></target>
+</trans-unit>
+<trans-unit id="tu115">
+<source xml:lang="en"><ph id="1" ctype="x-skip">\skip main
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-skip">\skip main
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-skip">\skip main
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu116">
+<source xml:lang="en"><ph id="1" ctype="x-until">\until {
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-until">\until {
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-until">\until {
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu117">
+<source xml:lang="en">First we create a object <ph id="1" ctype="x-c">\c</ph> t of the Test class.</source>
+<seg-source><mrk mid="0" mtype="seg">First we create a object <ph id="1" ctype="x-c">\c</ph> t of the Test class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">First we create a object <ph id="1" ctype="x-c">\c</ph> t of the Test class.</mrk></target>
+</trans-unit>
+<trans-unit id="tu118">
+<source xml:lang="en"><ph id="1" ctype="x-skipline">\skipline Test
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-skipline">\skipline Test
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-skipline">\skipline Test
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu119">
+<source xml:lang="en">Then we call the example member function</source>
+<seg-source><mrk mid="0" mtype="seg">Then we call the example member function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Then we call the example member function</mrk></target>
+</trans-unit>
+<trans-unit id="tu120">
+<source xml:lang="en"><ph id="1" ctype="x-line">\line example
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-line">\line example
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-line">\line example
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu121">
+<source xml:lang="en">After that our little test routine ends.</source>
+<seg-source><mrk mid="0" mtype="seg">After that our little test routine ends.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After that our little test routine ends.</mrk></target>
+</trans-unit>
+<trans-unit id="tu122">
+<source xml:lang="en"><ph id="1" ctype="x-line">\line }
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-line">\line }
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-line">\line }
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu123">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+</group>
+<group id="sg58">
+<trans-unit id="tu124">
+<source xml:lang="en"><ph id="1" ctype="x-skipline">\skipline pattern
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-skipline">\skipline pattern
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-skipline">\skipline pattern
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu125">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+</group>
+<group id="sg59">
+<trans-unit id="tu126">
+<source xml:lang="en"><ph id="1" ctype="x-snippet">\snippet snippets/example.cpp Adding a resource
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-snippet">\snippet snippets/example.cpp Adding a resource
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-snippet">\snippet snippets/example.cpp Adding a resource
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu127">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+</group>
+<group id="sg60">
+<trans-unit id="tu128">
+<source xml:lang="en">... the <ph id="1" ctype="x-a">\a</ph> x and <ph id="2" ctype="x-a">\a</ph> y coordinates are used to ...</source>
+<seg-source><mrk mid="0" mtype="seg">...</mrk><mrk mid="1" mtype="seg"> the <ph id="1" ctype="x-a">\a</ph> x and <ph id="2" ctype="x-a">\a</ph> y coordinates are used to ...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">...</mrk><mrk mid="1" mtype="seg"> the <ph id="1" ctype="x-a">\a</ph> x and <ph id="2" ctype="x-a">\a</ph> y coordinates are used to ...</mrk></target>
+</trans-unit>
+</group>
+<group id="sg61">
+<trans-unit id="tu129">
+<source xml:lang="en"><ph id="1" ctype="x-arg">\arg</ph> <ph id="2" ctype="x-c">\c</ph> AlignLeft left alignment.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-arg">\arg</ph> <ph id="2" ctype="x-c">\c</ph> AlignLeft left alignment.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-arg">\arg</ph> <ph id="2" ctype="x-c">\c</ph> AlignLeft left alignment.</mrk></target>
+</trans-unit>
+<trans-unit id="tu130">
+<source xml:lang="en"><ph id="1" ctype="x-arg">\arg</ph> <ph id="2" ctype="x-c">\c</ph> AlignCenter center alignment.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-arg">\arg</ph> <ph id="2" ctype="x-c">\c</ph> AlignCenter center alignment.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-arg">\arg</ph> <ph id="2" ctype="x-c">\c</ph> AlignCenter center alignment.</mrk></target>
+</trans-unit>
+<trans-unit id="tu131">
+<source xml:lang="en"><ph id="1" ctype="x-arg">\arg</ph> <ph id="2" ctype="x-c">\c</ph> AlignRight right alignment</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-arg">\arg</ph> <ph id="2" ctype="x-c">\c</ph> AlignRight right alignment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-arg">\arg</ph> <ph id="2" ctype="x-c">\c</ph> AlignRight right alignment</mrk></target>
+</trans-unit>
+<trans-unit id="tu132">
+<source xml:lang="en">No other types of alignment are supported.</source>
+<seg-source><mrk mid="0" mtype="seg">No other types of alignment are supported.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No other types of alignment are supported.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg62">
+<trans-unit id="tu133">
+<source xml:lang="en">... This function returns <ph id="1" ctype="x-c">\c</ph> void and not <ph id="2" ctype="x-c">\c</ph> int ...</source>
+<seg-source><mrk mid="0" mtype="seg">...</mrk><mrk mid="1" mtype="seg"> This function returns <ph id="1" ctype="x-c">\c</ph> void and not <ph id="2" ctype="x-c">\c</ph> int ...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">...</mrk><mrk mid="1" mtype="seg"> This function returns <ph id="1" ctype="x-c">\c</ph> void and not <ph id="2" ctype="x-c">\c</ph> int ...</mrk></target>
+</trans-unit>
+</group>
+<group id="sg63">
+<trans-unit id="tu134" translate="no">
+<source xml:lang="en"><bpt id="1" ctype="x-code">\code{.py}</bpt>&#13;
+class Python:&#13;
+   pass&#13;
+<ept id="1">\endcode</ept></source>
+<target xml:lang="fr"><bpt id="1" ctype="x-code">\code{.py}</bpt>&#13;
+class Python:&#13;
+   pass&#13;
+<ept id="1">\endcode</ept></target>
+</trans-unit>
+<trans-unit id="tu135" translate="no">
+<source xml:lang="en">&#13;
+&#13;
+<bpt id="1" ctype="x-code">\code{.cpp}</bpt>&#13;
+class Cpp {};&#13;
+<ept id="1">\endcode</ept></source>
+<target xml:lang="fr">&#13;
+&#13;
+<bpt id="1" ctype="x-code">\code{.cpp}</bpt>&#13;
+class Cpp {};&#13;
+<ept id="1">\endcode</ept></target>
+</trans-unit>
+<trans-unit id="tu136">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+</group>
+<group id="sg64">
+<trans-unit id="tu137">
+<source xml:lang="en"><ph id="1" ctype="x-copydoc">@copydoc MyClass::myfunction()</ph> More documentation.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-copydoc">@copydoc MyClass::myfunction()</ph> More documentation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-copydoc">@copydoc MyClass::myfunction()</ph> More documentation.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg65">
+<trans-unit id="tu138">
+<source xml:lang="en"><ph id="1" ctype="x-copydoc">@copydoc MyClass::myfunction(type1,type2)</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-copydoc">@copydoc MyClass::myfunction(type1,type2)</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-copydoc">@copydoc MyClass::myfunction(type1,type2)</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="sg66">
+<trans-unit id="tu139">
+<source xml:lang="en">class B</source>
+<seg-source><mrk mid="0" mtype="seg">class B</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">class B</mrk></target>
+</trans-unit>
+</group>
+<group id="sg67">
+<trans-unit id="tu140">
+<source xml:lang="en">class C</source>
+<seg-source><mrk mid="0" mtype="seg">class C</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">class C</mrk></target>
+</trans-unit>
+</group>
+<group id="sg68">
+<trans-unit id="tu141">
+<source xml:lang="en"><ph id="1" ctype="x-mainpage">\mainpage
+
+</ph>Class relations expressed via an inline dot graph:</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-mainpage">\mainpage
+
+</ph>Class relations expressed via an inline dot graph:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-mainpage">\mainpage
+
+</ph>Class relations expressed via an inline dot graph:</mrk></target>
+</trans-unit>
+<trans-unit id="tu142" translate="no">
+<source xml:lang="en"><bpt id="1" ctype="x-dot">\dot</bpt>&#13;
+digraph example {&#13;
+node [shape=record, fontname=Helvetica, fontsize=10];&#13;
+b [ label="class B" URL="\ref B"];&#13;
+c [ label="class C" URL="\ref C"];&#13;
+b -&gt; c [ arrowhead="open", style="dashed" ];&#13;
+}&#13;
+<ept id="1">\enddot</ept></source>
+<target xml:lang="fr"><bpt id="1" ctype="x-dot">\dot</bpt>&#13;
+digraph example {&#13;
+node [shape=record, fontname=Helvetica, fontsize=10];&#13;
+b [ label="class B" URL="\ref B"];&#13;
+c [ label="class C" URL="\ref C"];&#13;
+b -&gt; c [ arrowhead="open", style="dashed" ];&#13;
+}&#13;
+<ept id="1">\enddot</ept></target>
+</trans-unit>
+<trans-unit id="tu143">
+<source xml:lang="en">Note that the classes in the above graph are clickable (in the HTML output).</source>
+<seg-source><mrk mid="0" mtype="seg">Note that the classes in the above graph are clickable (in the HTML output).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note that the classes in the above graph are clickable (in the HTML output).</mrk></target>
+</trans-unit>
+</group>
+<group id="sg69">
+<trans-unit id="tu144">
+<source xml:lang="en">Sender class. Can be used to send a command to the server. The receiver will acknowledge the command by calling Ack().</source>
+<seg-source><mrk mid="0" mtype="seg">Sender class.</mrk><mrk mid="1" mtype="seg"> Can be used to send a command to the server.</mrk><mrk mid="2" mtype="seg"> The receiver will acknowledge the command by calling Ack().</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sender class.</mrk><mrk mid="1" mtype="seg"> Can be used to send a command to the server.</mrk><mrk mid="2" mtype="seg"> The receiver will acknowledge the command by calling Ack().</mrk></target>
+</trans-unit>
+<trans-unit id="tu145" translate="no">
+<source xml:lang="en"><bpt id="1" ctype="x-msc">\msc</bpt>&#13;
+  Sender,Receiver;&#13;
+  Sender-&gt;Receiver [label="Command()", URL="\ref Receiver::Command()"];&#13;
+  Sender&lt;-Receiver [label="Ack()", URL="\ref Ack()", ID="1"];&#13;
+<ept id="1">\endmsc</ept></source>
+<target xml:lang="fr"><bpt id="1" ctype="x-msc">\msc</bpt>&#13;
+  Sender,Receiver;&#13;
+  Sender-&gt;Receiver [label="Command()", URL="\ref Receiver::Command()"];&#13;
+  Sender&lt;-Receiver [label="Ack()", URL="\ref Ack()", ID="1"];&#13;
+<ept id="1">\endmsc</ept></target>
+</trans-unit>
+<trans-unit id="tu146">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+</group>
+<group id="sg70">
+<trans-unit id="tu147">
+<source xml:lang="en">Acknowledgement from server</source>
+<seg-source><mrk mid="0" mtype="seg">Acknowledgement from server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Acknowledgement from server</mrk></target>
+</trans-unit>
+</group>
+<group id="sg71">
+<trans-unit id="tu148">
+<source xml:lang="en">Receiver class. Can be used to receive and execute commands. After execution of a command, the receiver will send an acknowledgement</source>
+<seg-source><mrk mid="0" mtype="seg">Receiver class.</mrk><mrk mid="1" mtype="seg"> Can be used to receive and execute commands.</mrk><mrk mid="2" mtype="seg"> After execution of a command, the receiver will send an acknowledgement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Receiver class.</mrk><mrk mid="1" mtype="seg"> Can be used to receive and execute commands.</mrk><mrk mid="2" mtype="seg"> After execution of a command, the receiver will send an acknowledgement</mrk></target>
+</trans-unit>
+<trans-unit id="tu149" translate="no">
+<source xml:lang="en"><bpt id="1" ctype="x-msc">\msc</bpt>&#13;
+  Receiver,Sender;&#13;
+  Receiver&lt;-Sender [label="Command()", URL="\ref Command()"];&#13;
+  Receiver-&gt;Sender [label="Ack()", URL="\ref Sender::Ack()", ID="1"];&#13;
+<ept id="1">\endmsc</ept></source>
+<target xml:lang="fr"><bpt id="1" ctype="x-msc">\msc</bpt>&#13;
+  Receiver,Sender;&#13;
+  Receiver&lt;-Sender [label="Command()", URL="\ref Command()"];&#13;
+  Receiver-&gt;Sender [label="Ack()", URL="\ref Sender::Ack()", ID="1"];&#13;
+<ept id="1">\endmsc</ept></target>
+</trans-unit>
+<trans-unit id="tu150">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+</group>
+<group id="sg72">
+<trans-unit id="tu151">
+<source xml:lang="en">Executable a command on the server</source>
+<seg-source><mrk mid="0" mtype="seg">Executable a command on the server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Executable a command on the server</mrk></target>
+</trans-unit>
+</group>
+<group id="sg73">
+<trans-unit id="tu152">
+<source xml:lang="en">... this is a <ph id="1" ctype="x-e">\e</ph> really good example ...</source>
+<seg-source><mrk mid="0" mtype="seg">...</mrk><mrk mid="1" mtype="seg"> this is a <ph id="1" ctype="x-e">\e</ph> really good example ...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">...</mrk><mrk mid="1" mtype="seg"> this is a <ph id="1" ctype="x-e">\e</ph> really good example ...</mrk></target>
+</trans-unit>
+</group>
+<group id="sg74">
+<trans-unit id="tu153">
+<source xml:lang="en">... this is a <ph id="1" ctype="x-em">\em</ph> really good example ...</source>
+<seg-source><mrk mid="0" mtype="seg">...</mrk><mrk mid="1" mtype="seg"> this is a <ph id="1" ctype="x-em">\em</ph> really good example ...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">...</mrk><mrk mid="1" mtype="seg"> this is a <ph id="1" ctype="x-em">\em</ph> really good example ...</mrk></target>
+</trans-unit>
+</group>
+<group id="sg75">
+<trans-unit id="tu154">
+<source xml:lang="en">Here is a snapshot of my new application:</source>
+<seg-source><mrk mid="0" mtype="seg">Here is a snapshot of my new application:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here is a snapshot of my new application:</mrk></target>
+</trans-unit>
+<trans-unit id="tu155">
+<source xml:lang="en"><ph id="1" ctype="image">\image html application.jpg
+</ph><ph id="2" ctype="image">\image latex application.eps</ph> "My application"<ph id="3" ctype="image"> width=10cm</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="image">\image html application.jpg
+</ph><ph id="2" ctype="image">\image latex application.eps</ph> "My application"<ph id="3" ctype="image"> width=10cm</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="image">\image html application.jpg
+</ph><ph id="2" ctype="image">\image latex application.eps</ph> "My application"<ph id="3" ctype="image"> width=10cm</ph></mrk></target>
+</trans-unit>
+</group>
+<group id="sg76">
+<trans-unit id="tu156">
+<source xml:lang="en"><ph id="1" ctype="x-li">\li</ph> <ph id="2" ctype="x-c">\c</ph> AlignLeft left alignment.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-li">\li</ph> <ph id="2" ctype="x-c">\c</ph> AlignLeft left alignment.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-li">\li</ph> <ph id="2" ctype="x-c">\c</ph> AlignLeft left alignment.</mrk></target>
+</trans-unit>
+<trans-unit id="tu157">
+<source xml:lang="en"><ph id="1" ctype="x-li">\li</ph> <ph id="2" ctype="x-c">\c</ph> AlignCenter center alignment.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-li">\li</ph> <ph id="2" ctype="x-c">\c</ph> AlignCenter center alignment.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-li">\li</ph> <ph id="2" ctype="x-c">\c</ph> AlignCenter center alignment.</mrk></target>
+</trans-unit>
+<trans-unit id="tu158">
+<source xml:lang="en"><ph id="1" ctype="x-li">\li</ph> <ph id="2" ctype="x-c">\c</ph> AlignRight right alignment</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-li">\li</ph> <ph id="2" ctype="x-c">\c</ph> AlignRight right alignment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-li">\li</ph> <ph id="2" ctype="x-c">\c</ph> AlignRight right alignment</mrk></target>
+</trans-unit>
+<trans-unit id="tu159">
+<source xml:lang="en">No other types of alignment are supported.</source>
+<seg-source><mrk mid="0" mtype="seg">No other types of alignment are supported.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No other types of alignment are supported.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg77">
+<trans-unit id="tu160">
+<source xml:lang="en">... the <ph id="1" ctype="x-p">\p</ph> x and <ph id="2" ctype="x-p">\p</ph> y coordinates are used to ...</source>
+<seg-source><mrk mid="0" mtype="seg">...</mrk><mrk mid="1" mtype="seg"> the <ph id="1" ctype="x-p">\p</ph> x and <ph id="2" ctype="x-p">\p</ph> y coordinates are used to ...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">...</mrk><mrk mid="1" mtype="seg"> the <ph id="1" ctype="x-p">\p</ph> x and <ph id="2" ctype="x-p">\p</ph> y coordinates are used to ...</mrk></target>
+</trans-unit>
+</group>
+<group id="sg78">
+<trans-unit id="tu161">
+<source xml:lang="en">\~english This is english \~dutch Dit is Nederlands \~german Dieses ist deutsch. \~ output for all languages.</source>
+<seg-source><mrk mid="0" mtype="seg">\~english This is english \~dutch Dit is Nederlands \~german Dieses ist deutsch.</mrk><mrk mid="1" mtype="seg"> \~ output for all languages.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\~english This is english \~dutch Dit is Nederlands \~german Dieses ist deutsch.</mrk><mrk mid="1" mtype="seg"> \~ output for all languages.</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rref_syscs_set_xplain_mode.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_SET_XPLAIN_MODE system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_XPLAIN_MODE system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_XPLAIN_MODE system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">When runtime statistics are being captured, you can control the mode of processing by using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_XPLAIN_MODE<ept id="1">&lt;/codeph&gt;</ept> procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">When runtime statistics are being captured, you can control the mode of processing by using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_XPLAIN_MODE<ept id="1">&lt;/codeph&gt;</ept> procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When runtime statistics are being captured, you can control the mode of processing by using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_XPLAIN_MODE<ept id="1">&lt;/codeph&gt;</ept> procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">When the XPLAIN mode is set to 1, statements are compiled and optimized, but not executed; when the XPLAIN mode is set to 0 (the default), statements are compiled, optimized, and executed normally.</source>
+<seg-source><mrk mid="0" mtype="seg">When the XPLAIN mode is set to 1, statements are compiled and optimized, but not executed; when the XPLAIN mode is set to 0 (the default), statements are compiled, optimized, and executed normally.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the XPLAIN mode is set to 1, statements are compiled and optimized, but not executed; when the XPLAIN mode is set to 0 (the default), statements are compiled, optimized, and executed normally.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The XPLAIN mode only matters when XPLAIN style has been enabled. See the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rref_syscs_set_xplain_schema.dita#rref_syscs_set_xplain_schema"&gt;</bpt>SYSCS_UTIL.SYSCS_SET_XPLAIN_SCHEMA<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> system procedure for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">The XPLAIN mode only matters when XPLAIN style has been enabled.</mrk><mrk mid="1" mtype="seg"> See the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rref_syscs_set_xplain_schema.dita#rref_syscs_set_xplain_schema"&gt;</bpt>SYSCS_UTIL.SYSCS_SET_XPLAIN_SCHEMA<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> system procedure for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The XPLAIN mode only matters when XPLAIN style has been enabled.</mrk><mrk mid="1" mtype="seg"> See the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rref_syscs_set_xplain_schema.dita#rref_syscs_set_xplain_schema"&gt;</bpt>SYSCS_UTIL.SYSCS_SET_XPLAIN_SCHEMA<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> system procedure for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for additional information.</source>
+<seg-source><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for additional information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for additional information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_SET_XPLAIN_MODE(IN SMALLINT NOEXECUTE)</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_XPLAIN_MODE(IN SMALLINT NOEXECUTE)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_XPLAIN_MODE(IN SMALLINT NOEXECUTE)</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default. See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information. The database owner can grant access to other users.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">To let <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> explain a statement without executing it:</source>
+<seg-source><mrk mid="0" mtype="seg">To let <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> explain a statement without executing it:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To let <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> explain a statement without executing it:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">call syscs_util.syscs_set_runtimestatistics(1); call syscs_util.syscs_set_xplain_schema('STATS'); call syscs_util.syscs_set_xplain_mode(1); select country from countries; call syscs_util.syscs_set_runtimestatistics(0); call syscs_util.syscs_set_xplain_schema(''); call syscs_util.syscs_set_xplain_mode(0);</source>
+<seg-source><mrk mid="0" mtype="seg">call syscs_util.syscs_set_runtimestatistics(1); call syscs_util.syscs_set_xplain_schema('STATS'); call syscs_util.syscs_set_xplain_mode(1); select country from countries; call syscs_util.syscs_set_runtimestatistics(0); call syscs_util.syscs_set_xplain_schema(''); call syscs_util.syscs_set_xplain_mode(0);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">call syscs_util.syscs_set_runtimestatistics(1); call syscs_util.syscs_set_xplain_schema('STATS'); call syscs_util.syscs_set_xplain_mode(1); select country from countries; call syscs_util.syscs_set_runtimestatistics(0); call syscs_util.syscs_set_xplain_schema(''); call syscs_util.syscs_set_xplain_mode(0);</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

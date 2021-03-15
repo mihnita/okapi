@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure24458.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Authorization identifiers, user authentication, and user authorization</source>
+<seg-source><mrk mid="0" mtype="seg">Authorization identifiers, user authentication, and user authorization</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Authorization identifiers, user authentication, and user authorization</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">When working with both user authentication and user authorization, you need to understand how user names are treated by each system.</source>
+<seg-source><mrk mid="0" mtype="seg">When working with both user authentication and user authorization, you need to understand how user names are treated by each system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When working with both user authentication and user authorization, you need to understand how user names are treated by each system.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Users</source>
+<seg-source><mrk mid="0" mtype="seg">Users</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Users</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">and schemas</source>
+<seg-source><mrk mid="0" mtype="seg">and schemas</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and schemas</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Schemas</source>
+<seg-source><mrk mid="0" mtype="seg">Schemas</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Schemas</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">and users</source>
+<seg-source><mrk mid="0" mtype="seg">and users</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and users</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">If an external authentication system is used, the conversion of the user's name to an authorization identifier does not happen until <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>after<ept id="1">&lt;/i&gt;</ept> authentication has occurred but <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>before<ept id="2">&lt;/i&gt;</ept> user authorization. Imagine, for example, a user named Fred.</source>
+<seg-source><mrk mid="0" mtype="seg">If an external authentication system is used, the conversion of the user's name to an authorization identifier does not happen until <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>after<ept id="1">&lt;/i&gt;</ept> authentication has occurred but <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>before<ept id="2">&lt;/i&gt;</ept> user authorization.</mrk><mrk mid="1" mtype="seg"> Imagine, for example, a user named Fred.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If an external authentication system is used, the conversion of the user's name to an authorization identifier does not happen until <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>after<ept id="1">&lt;/i&gt;</ept> authentication has occurred but <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>before<ept id="2">&lt;/i&gt;</ept> user authorization.</mrk><mrk mid="1" mtype="seg"> Imagine, for example, a user named Fred.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Within the user authentication system, Fred is known as <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>FRed<ept id="1">&lt;/i&gt;</ept>. Your external user authorization service is case-sensitive, so Fred must always type his name that way.</source>
+<seg-source><mrk mid="0" mtype="seg">Within the user authentication system, Fred is known as <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>FRed<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Your external user authorization service is case-sensitive, so Fred must always type his name that way.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Within the user authentication system, Fred is known as <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>FRed<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Your external user authorization service is case-sensitive, so Fred must always type his name that way.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Connection conn = DriverManager.getConnection( "jdbc:derby:myDB", "FRed", "flintstone");</source>
+<seg-source><mrk mid="0" mtype="seg">Connection conn = DriverManager.getConnection( "jdbc:derby:myDB", "FRed", "flintstone");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connection conn = DriverManager.getConnection( "jdbc:derby:myDB", "FRed", "flintstone");</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Within the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> user authorization system, Fred becomes a case-insensitive authorization identifier. Fred is known as <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>FRED<ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Within the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> user authorization system, Fred becomes a case-insensitive authorization identifier.</mrk><mrk mid="1" mtype="seg"> Fred is known as <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>FRED<ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Within the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> user authorization system, Fred becomes a case-insensitive authorization identifier.</mrk><mrk mid="1" mtype="seg"> Fred is known as <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>FRED<ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Let's take a second example, where Fred has a slightly different name within the user authentication system.</source>
+<seg-source><mrk mid="0" mtype="seg">Let's take a second example, where Fred has a slightly different name within the user authentication system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Let's take a second example, where Fred has a slightly different name within the user authentication system.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Within the user authentication system, Fred is known as <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Fred!<ept id="1">&lt;/i&gt;</ept>. You must now put double quotes around the name, because it is not a valid <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept>. (<bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> knows to remove the double quotes when passing the name to the external authentication system.)</source>
+<seg-source><mrk mid="0" mtype="seg">Within the user authentication system, Fred is known as <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Fred!<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> You must now put double quotes around the name, because it is not a valid <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> (<bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> knows to remove the double quotes when passing the name to the external authentication system.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Within the user authentication system, Fred is known as <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Fred!<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> You must now put double quotes around the name, because it is not a valid <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> (<bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> knows to remove the double quotes when passing the name to the external authentication system.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Connection conn = DriverManager.getConnection( "jdbc:derby:myDB", "\"Fred!\"", "flintstone");</source>
+<seg-source><mrk mid="0" mtype="seg">Connection conn = DriverManager.getConnection( "jdbc:derby:myDB", "\"Fred!\"", "flintstone");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connection conn = DriverManager.getConnection( "jdbc:derby:myDB", "\"Fred!\"", "flintstone");</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Within the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> user authorization system, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Fred<ept id="2">&lt;/i&gt;</ept> becomes a case-sensitive authorization identifier. Fred is known as <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Fred!<ept id="3">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Within the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> user authorization system, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Fred<ept id="2">&lt;/i&gt;</ept> becomes a case-sensitive authorization identifier.</mrk><mrk mid="1" mtype="seg"> Fred is known as <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Fred!<ept id="3">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Within the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> user authorization system, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Fred<ept id="2">&lt;/i&gt;</ept> becomes a case-sensitive authorization identifier.</mrk><mrk mid="1" mtype="seg"> Fred is known as <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Fred!<ept id="3">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">As shown in the first example, your external authentication system may be case-sensitive, whereas the authorization identifier within <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> may not be. If your authentication system allows two distinct users whose names differ by case, delimit all user names within the connection request to make all user names case-sensitive within the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> system. In addition, you must also delimit user names that do not conform to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="3">&lt;/i&gt;</ept> rules with double quotes.</source>
+<seg-source><mrk mid="0" mtype="seg">As shown in the first example, your external authentication system may be case-sensitive, whereas the authorization identifier within <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> may not be.</mrk><mrk mid="1" mtype="seg"> If your authentication system allows two distinct users whose names differ by case, delimit all user names within the connection request to make all user names case-sensitive within the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> system.</mrk><mrk mid="2" mtype="seg"> In addition, you must also delimit user names that do not conform to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="3">&lt;/i&gt;</ept> rules with double quotes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">As shown in the first example, your external authentication system may be case-sensitive, whereas the authorization identifier within <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> may not be.</mrk><mrk mid="1" mtype="seg"> If your authentication system allows two distinct users whose names differ by case, delimit all user names within the connection request to make all user names case-sensitive within the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> system.</mrk><mrk mid="2" mtype="seg"> In addition, you must also delimit user names that do not conform to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="3">&lt;/i&gt;</ept> rules with double quotes.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

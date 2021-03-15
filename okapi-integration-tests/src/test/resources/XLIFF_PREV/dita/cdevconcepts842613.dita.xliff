@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts842613.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Notes on locking</source>
+<seg-source><mrk mid="0" mtype="seg">Notes on locking</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notes on locking</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">In addition to the locks already described, foreign key lookups require briefly held shared locks on the referenced table (row or table, depending on the configuration).</source>
+<seg-source><mrk mid="0" mtype="seg">In addition to the locks already described, foreign key lookups require briefly held shared locks on the referenced table (row or table, depending on the configuration).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In addition to the locks already described, foreign key lookups require briefly held shared locks on the referenced table (row or table, depending on the configuration).</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">The table and examples in this section do not take performance-based lock escalation into account. Remember that the system can choose table-level locking for performance reasons.</source>
+<seg-source><mrk mid="0" mtype="seg">The table and examples in this section do not take performance-based lock escalation into account.</mrk><mrk mid="1" mtype="seg"> Remember that the system can choose table-level locking for performance reasons.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The table and examples in this section do not take performance-based lock escalation into account.</mrk><mrk mid="1" mtype="seg"> Remember that the system can choose table-level locking for performance reasons.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

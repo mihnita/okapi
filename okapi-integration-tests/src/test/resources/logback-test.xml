@@ -1,0 +1,16 @@
+<configuration>
+
+  <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <target>System.err</target>
+    <encoder class="com.mihnita.colorlog.logback.ColorPatternLayoutEncoder">
+      <pattern>%highlight([%level] %logger{36} - %msg) %n</pattern>
+    </encoder>
+  </appender>
+
+  <logger name="net.htmlparser.jericho" level="OFF"/>
+  <logger name="net.sf.okapi.common.pipelinedriver" level="WARN"/>
+
+  <root level="INFO">
+    <appender-ref ref="CONSOLE" />
+  </root>
+</configuration>

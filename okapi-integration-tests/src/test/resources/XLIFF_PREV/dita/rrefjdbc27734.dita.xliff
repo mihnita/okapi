@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbc27734.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">java.sql.Connection interface</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.Connection interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.Connection interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">java.sql.Connection interface</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.Connection interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.Connection interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Connections</source>
+<seg-source><mrk mid="0" mtype="seg">Connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">session-severity exceptions closing</source>
+<seg-source><mrk mid="0" mtype="seg">session-severity exceptions closing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">session-severity exceptions closing</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">system-severity exceptions closing</source>
+<seg-source><mrk mid="0" mtype="seg">system-severity exceptions closing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system-severity exceptions closing</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">A <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="2">&lt;/i&gt;</ept> object is not garbage-collected until all other JDBC objects created from that connection are closed or are themselves garbage-collected. Once the connection is closed, no further JDBC requests can be made against objects created from the connection. Do not explicitly close the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="3">&lt;/i&gt;</ept> object until you no longer need it for executing statements.</source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="2">&lt;/i&gt;</ept> object is not garbage-collected until all other JDBC objects created from that connection are closed or are themselves garbage-collected.</mrk><mrk mid="1" mtype="seg"> Once the connection is closed, no further JDBC requests can be made against objects created from the connection.</mrk><mrk mid="2" mtype="seg"> Do not explicitly close the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="3">&lt;/i&gt;</ept> object until you no longer need it for executing statements.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="2">&lt;/i&gt;</ept> object is not garbage-collected until all other JDBC objects created from that connection are closed or are themselves garbage-collected.</mrk><mrk mid="1" mtype="seg"> Once the connection is closed, no further JDBC requests can be made against objects created from the connection.</mrk><mrk mid="2" mtype="seg"> Do not explicitly close the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="3">&lt;/i&gt;</ept> object until you no longer need it for executing statements.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Connections</source>
+<seg-source><mrk mid="0" mtype="seg">Connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">garbage collection of</source>
+<seg-source><mrk mid="0" mtype="seg">garbage collection of</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">garbage collection of</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> interface extends <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>AutoCloseable<ept id="2">&lt;/i&gt;</ept> in JDK 7 and after. If you declare a connection in a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>try<ept id="3">&lt;/i&gt;</ept>-with-resources statement and there is an error that the code does not catch, the JRE will attempt to close the connection automatically.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> interface extends <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>AutoCloseable<ept id="2">&lt;/i&gt;</ept> in JDK 7 and after.</mrk><mrk mid="1" mtype="seg"> If you declare a connection in a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>try<ept id="3">&lt;/i&gt;</ept>-with-resources statement and there is an error that the code does not catch, the JRE will attempt to close the connection automatically.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> interface extends <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>AutoCloseable<ept id="2">&lt;/i&gt;</ept> in JDK 7 and after.</mrk><mrk mid="1" mtype="seg"> If you declare a connection in a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>try<ept id="3">&lt;/i&gt;</ept>-with-resources statement and there is an error that the code does not catch, the JRE will attempt to close the connection automatically.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Note that a transaction-severity or higher exception causes <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to abort an in-flight transaction. But a statement-severity exception does NOT roll back the transaction. Also note that <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> throws an exception if an attempt is made to close a connection with an in-flight transaction. Suppose now that a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="3">&lt;/i&gt;</ept> is declared in a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>try<ept id="4">&lt;/i&gt;</ept>-with-resources statement, a transaction is in-flight, and an unhandled statement-severity error occurs inside the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>try<ept id="5">&lt;/i&gt;</ept>-with-resources block. In this situation, <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> will raise a follow-on exception as the JRE exits the <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>try<ept id="7">&lt;/i&gt;</ept>-with-resources block. (For details on error severity levels, see <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefproper26985.dita#rrefproper26985"&gt;</bpt><ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept>.)</source>
+<seg-source><mrk mid="0" mtype="seg">Note that a transaction-severity or higher exception causes <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to abort an in-flight transaction.</mrk><mrk mid="1" mtype="seg"> But a statement-severity exception does NOT roll back the transaction.</mrk><mrk mid="2" mtype="seg"> Also note that <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> throws an exception if an attempt is made to close a connection with an in-flight transaction.</mrk><mrk mid="3" mtype="seg"> Suppose now that a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="3">&lt;/i&gt;</ept> is declared in a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>try<ept id="4">&lt;/i&gt;</ept>-with-resources statement, a transaction is in-flight, and an unhandled statement-severity error occurs inside the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>try<ept id="5">&lt;/i&gt;</ept>-with-resources block.</mrk><mrk mid="4" mtype="seg"> In this situation, <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> will raise a follow-on exception as the JRE exits the <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>try<ept id="7">&lt;/i&gt;</ept>-with-resources block.</mrk><mrk mid="5" mtype="seg"> (For details on error severity levels, see <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefproper26985.dita#rrefproper26985"&gt;</bpt><ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept>.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note that a transaction-severity or higher exception causes <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to abort an in-flight transaction.</mrk><mrk mid="1" mtype="seg"> But a statement-severity exception does NOT roll back the transaction.</mrk><mrk mid="2" mtype="seg"> Also note that <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> throws an exception if an attempt is made to close a connection with an in-flight transaction.</mrk><mrk mid="3" mtype="seg"> Suppose now that a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="3">&lt;/i&gt;</ept> is declared in a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>try<ept id="4">&lt;/i&gt;</ept>-with-resources statement, a transaction is in-flight, and an unhandled statement-severity error occurs inside the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>try<ept id="5">&lt;/i&gt;</ept>-with-resources block.</mrk><mrk mid="4" mtype="seg"> In this situation, <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> will raise a follow-on exception as the JRE exits the <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>try<ept id="7">&lt;/i&gt;</ept>-with-resources block.</mrk><mrk mid="5" mtype="seg"> (For details on error severity levels, see <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefproper26985.dita#rrefproper26985"&gt;</bpt><ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept>.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">It is therefore always best to catch errors inside the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>try<ept id="1">&lt;/i&gt;</ept>-with-resources block and to either roll back or commit, as appropriate, to ensure that there is no pending transaction when leaving the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>try<ept id="2">&lt;/i&gt;</ept>-with-resources block. This action also improves application portability, since DBMSs differ in their semantics when trying to close a connection with a pending transaction.</source>
+<seg-source><mrk mid="0" mtype="seg">It is therefore always best to catch errors inside the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>try<ept id="1">&lt;/i&gt;</ept>-with-resources block and to either roll back or commit, as appropriate, to ensure that there is no pending transaction when leaving the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>try<ept id="2">&lt;/i&gt;</ept>-with-resources block.</mrk><mrk mid="1" mtype="seg"> This action also improves application portability, since DBMSs differ in their semantics when trying to close a connection with a pending transaction.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is therefore always best to catch errors inside the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>try<ept id="1">&lt;/i&gt;</ept>-with-resources block and to either roll back or commit, as appropriate, to ensure that there is no pending transaction when leaving the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>try<ept id="2">&lt;/i&gt;</ept>-with-resources block.</mrk><mrk mid="1" mtype="seg"> This action also improves application portability, since DBMSs differ in their semantics when trying to close a connection with a pending transaction.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The following table describes features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> methods that are specific to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table describes features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> methods that are specific to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table describes features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> methods that are specific to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Implementation notes on <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> methods</source>
+<seg-source><mrk mid="0" mtype="seg">Implementation notes on <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> methods</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Implementation notes on <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> methods</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">This table describes the implementation-specific features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> methods, providing the return type and signature for each method.</source>
+<seg-source><mrk mid="0" mtype="seg">This table describes the implementation-specific features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> methods, providing the return type and signature for each method.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table describes the implementation-specific features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> methods, providing the return type and signature for each method.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Returns</source>
+<seg-source><mrk mid="0" mtype="seg">Returns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Signature</source>
+<seg-source><mrk mid="0" mtype="seg">Signature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Signature</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Implementation Notes</source>
+<seg-source><mrk mid="0" mtype="seg">Implementation Notes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Implementation Notes</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>PreparedStatement<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>PreparedStatement<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>PreparedStatement<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>prepareStatement(String sql, int [] columnIndexes)<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>prepareStatement(String sql, int [] columnIndexes)<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>prepareStatement(String sql, int [] columnIndexes)<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Every column index in the array must correlate to an <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj37836.dita#rrefsqlj37836"&gt;</bpt>auto-increment<ept id="1">&lt;/xref&gt;</ept> column within the target table of the INSERT.</source>
+<seg-source><mrk mid="0" mtype="seg">Every column index in the array must correlate to an <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj37836.dita#rrefsqlj37836"&gt;</bpt>auto-increment<ept id="1">&lt;/xref&gt;</ept> column within the target table of the INSERT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Every column index in the array must correlate to an <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj37836.dita#rrefsqlj37836"&gt;</bpt>auto-increment<ept id="1">&lt;/xref&gt;</ept> column within the target table of the INSERT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>PreparedStatement<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>PreparedStatement<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>PreparedStatement<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>prepareStatement(String sql, String [] columnNames)<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>prepareStatement(String sql, String [] columnNames)<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>prepareStatement(String sql, String [] columnNames)<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Every column name in the array must designate an <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj37836.dita#rrefsqlj37836"&gt;</bpt>auto-increment<ept id="1">&lt;/xref&gt;</ept> column within the target table of the INSERT.</source>
+<seg-source><mrk mid="0" mtype="seg">Every column name in the array must designate an <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj37836.dita#rrefsqlj37836"&gt;</bpt>auto-increment<ept id="1">&lt;/xref&gt;</ept> column within the target table of the INSERT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Every column name in the array must designate an <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj37836.dita#rrefsqlj37836"&gt;</bpt>auto-increment<ept id="1">&lt;/xref&gt;</ept> column within the target table of the INSERT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="crefjavstateautogen.dita#crefjavstateautogen"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details on the use of the two forms of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection.prepareStatement<ept id="2">&lt;/i&gt;</ept> method shown in this table.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="crefjavstateautogen.dita#crefjavstateautogen"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details on the use of the two forms of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection.prepareStatement<ept id="2">&lt;/i&gt;</ept> method shown in this table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="crefjavstateautogen.dita#crefjavstateautogen"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details on the use of the two forms of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection.prepareStatement<ept id="2">&lt;/i&gt;</ept> method shown in this table.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

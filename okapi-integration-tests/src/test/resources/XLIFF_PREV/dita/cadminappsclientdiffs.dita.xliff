@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminappsclientdiffs.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Differences between the embedded client and the network client driver</source>
+<seg-source><mrk mid="0" mtype="seg">Differences between the embedded client and the network client driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Differences between the embedded client and the network client driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The following are known differences that exist between the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> embedded driver and the network client driver.</source>
+<seg-source><mrk mid="0" mtype="seg">The following are known differences that exist between the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> embedded driver and the network client driver.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following are known differences that exist between the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> embedded driver and the network client driver.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Network client driver</source>
+<seg-source><mrk mid="0" mtype="seg">Network client driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network client driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">differences with embedded driver</source>
+<seg-source><mrk mid="0" mtype="seg">differences with embedded driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">differences with embedded driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">There may be undocumented differences that have not yet been identified. Some differences with the network client may be changed in future releases to match the embedded driver functionality.</source>
+<seg-source><mrk mid="0" mtype="seg">There may be undocumented differences that have not yet been identified.</mrk><mrk mid="1" mtype="seg"> Some differences with the network client may be changed in future releases to match the embedded driver functionality.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There may be undocumented differences that have not yet been identified.</mrk><mrk mid="1" mtype="seg"> Some differences with the network client may be changed in future releases to match the embedded driver functionality.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Error messages and <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLState<ept id="1">&lt;/codeph&gt;</ept>s can differ between the network client and embedded driver.</source>
+<seg-source><mrk mid="0" mtype="seg">Error messages and <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLState<ept id="1">&lt;/codeph&gt;</ept>s can differ between the network client and embedded driver.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error messages and <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLState<ept id="1">&lt;/codeph&gt;</ept>s can differ between the network client and embedded driver.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Treatment of error situations encountered during batch processing with <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java.sql.Statement<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>java.sql.PreparedStatement<ept id="2">&lt;/codeph&gt;</ept>, and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>java.sql.CallableStatement<ept id="3">&lt;/codeph&gt;</ept> is different. With the embedded driver, processing stops when an error is encountered; with the network client driver, processing continues, but an appropriate value as defined in the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>java.sql.Statement<ept id="4">&lt;/codeph&gt;</ept> API is returned in the resulting update count array.</source>
+<seg-source><mrk mid="0" mtype="seg">Treatment of error situations encountered during batch processing with <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java.sql.Statement<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>java.sql.PreparedStatement<ept id="2">&lt;/codeph&gt;</ept>, and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>java.sql.CallableStatement<ept id="3">&lt;/codeph&gt;</ept> is different.</mrk><mrk mid="1" mtype="seg"> With the embedded driver, processing stops when an error is encountered; with the network client driver, processing continues, but an appropriate value as defined in the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>java.sql.Statement<ept id="4">&lt;/codeph&gt;</ept> API is returned in the resulting update count array.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Treatment of error situations encountered during batch processing with <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java.sql.Statement<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>java.sql.PreparedStatement<ept id="2">&lt;/codeph&gt;</ept>, and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>java.sql.CallableStatement<ept id="3">&lt;/codeph&gt;</ept> is different.</mrk><mrk mid="1" mtype="seg"> With the embedded driver, processing stops when an error is encountered; with the network client driver, processing continues, but an appropriate value as defined in the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>java.sql.Statement<ept id="4">&lt;/codeph&gt;</ept> API is returned in the resulting update count array.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">To use an encrypted user id and password, you need to have the IBM's Java Cryptography Extension (JCE) Version 1.2.1 or later.</source>
+<seg-source><mrk mid="0" mtype="seg">To use an encrypted user id and password, you need to have the IBM's Java Cryptography Extension (JCE) Version 1.2.1 or later.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To use an encrypted user id and password, you need to have the IBM's Java Cryptography Extension (JCE) Version 1.2.1 or later.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

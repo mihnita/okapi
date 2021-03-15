@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rreffuncdegrees.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">DEGREES function</source>
+<seg-source><mrk mid="0" mtype="seg">DEGREES function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DEGREES function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The DEGREES function converts a specified number from radians to degrees.</source>
+<seg-source><mrk mid="0" mtype="seg">The DEGREES function converts a specified number from radians to degrees.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The DEGREES function converts a specified number from radians to degrees.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">DEGREES function</source>
+<seg-source><mrk mid="0" mtype="seg">DEGREES function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DEGREES function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">functions</source>
+<seg-source><mrk mid="0" mtype="seg">functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">DEGREES</source>
+<seg-source><mrk mid="0" mtype="seg">DEGREES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DEGREES</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The specified number is an angle measured in radians, which is converted to an approximately equivalent angle measured in degrees. The specified number must be a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljdoubleprecision.dita#rrefsqljdoubleprecision"&gt;</bpt>DOUBLE PRECISION<ept id="1">&lt;/xref&gt;</ept> number.</source>
+<seg-source><mrk mid="0" mtype="seg">The specified number is an angle measured in radians, which is converted to an approximately equivalent angle measured in degrees.</mrk><mrk mid="1" mtype="seg"> The specified number must be a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljdoubleprecision.dita#rrefsqljdoubleprecision"&gt;</bpt>DOUBLE PRECISION<ept id="1">&lt;/xref&gt;</ept> number.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The specified number is an angle measured in radians, which is converted to an approximately equivalent angle measured in degrees.</mrk><mrk mid="1" mtype="seg"> The specified number must be a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljdoubleprecision.dita#rrefsqljdoubleprecision"&gt;</bpt>DOUBLE PRECISION<ept id="1">&lt;/xref&gt;</ept> number.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The conversion from radians to degrees is not exact. You should not expect DEGREES(ACOS(0.5)) to return exactly 60.0.</source>
+<seg-source><mrk mid="0" mtype="seg">The conversion from radians to degrees is not exact.</mrk><mrk mid="1" mtype="seg"> You should not expect DEGREES(ACOS(0.5)) to return exactly 60.0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The conversion from radians to degrees is not exact.</mrk><mrk mid="1" mtype="seg"> You should not expect DEGREES(ACOS(0.5)) to return exactly 60.0.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The data type of the returned value is a DOUBLE PRECISION number.</source>
+<seg-source><mrk mid="0" mtype="seg">The data type of the returned value is a DOUBLE PRECISION number.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The data type of the returned value is a DOUBLE PRECISION number.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DEGREES ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>number<ept id="2">&lt;/varname&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DEGREES ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>number<ept id="2">&lt;/varname&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DEGREES ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>number<ept id="2">&lt;/varname&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

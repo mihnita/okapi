@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefgetdbpropfunc.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY system function</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY system function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY system function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY<ept id="1">&lt;/codeph&gt;</ept> function fetches the value of the specified property of the database on the current connection.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY<ept id="1">&lt;/codeph&gt;</ept> function fetches the value of the specified property of the database on the current connection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY<ept id="1">&lt;/codeph&gt;</ept> function fetches the value of the specified property of the database on the current connection.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">If the value that was set for the property is invalid, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY<ept id="1">&lt;/codeph&gt;</ept> function returns the invalid value, but <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> uses the default value.</source>
+<seg-source><mrk mid="0" mtype="seg">If the value that was set for the property is invalid, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY<ept id="1">&lt;/codeph&gt;</ept> function returns the invalid value, but <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> uses the default value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the value that was set for the property is invalid, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY<ept id="1">&lt;/codeph&gt;</ept> function returns the invalid value, but <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> uses the default value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">VARCHAR(32672) SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY(IN KEY VARCHAR(128))</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR(32672) SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY(IN KEY VARCHAR(128))</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR(32672) SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY(IN KEY VARCHAR(128))</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">An error will be returned if KEY is null.</source>
+<seg-source><mrk mid="0" mtype="seg">An error will be returned if KEY is null.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An error will be returned if KEY is null.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this function by default. See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information. The database owner can grant access to other users.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this function by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this function by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">SQL example</source>
+<seg-source><mrk mid="0" mtype="seg">SQL example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL example</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Retrieve the value of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.locks.deadlockTimeout<ept id="1">&lt;/codeph&gt;</ept> property:</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the value of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.locks.deadlockTimeout<ept id="1">&lt;/codeph&gt;</ept> property:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the value of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.locks.deadlockTimeout<ept id="1">&lt;/codeph&gt;</ept> property:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">VALUES SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY('derby.locks.deadlockTimeout');</source>
+<seg-source><mrk mid="0" mtype="seg">VALUES SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY('derby.locks.deadlockTimeout');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VALUES SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY('derby.locks.deadlockTimeout');</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="example12.yaml" source-language="en" target-language="fr" datatype="x-text/x-yaml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi-integration-tests/common-integration-tests/target/test-classes/yaml/compactnotation/okf_yaml@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<group id="sg2">
+<group id="sg3">
+<group id="sg4">
+<trans-unit id="tu1" resname="Table(id12, A table)/Row(id111, description = I think; therefore I am.)/size" xml:space="preserve">
+<source xml:lang="en">15</source>
+<seg-source><mrk mid="0" mtype="seg">15</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">15</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="Table(id12, A table)/Row(id111, description = I think; therefore I am.)/ratio" xml:space="preserve">
+<source xml:lang="en">0.125</source>
+<seg-source><mrk mid="0" mtype="seg">0.125</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.125</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg5">
+<group id="sg6">
+<trans-unit id="tu3" resname="Table(id12, A table)/Row(id222)/size" xml:space="preserve">
+<source xml:lang="en">17</source>
+<seg-source><mrk mid="0" mtype="seg">17</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">17</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="Table(id12, A table)/Row(id222)/ratio" xml:space="preserve">
+<source xml:lang="en">0.333</source>
+<seg-source><mrk mid="0" mtype="seg">0.333</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.333</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" resname="Table(id12, A table)/Row(id222)/floatRatio" xml:space="preserve">
+<source xml:lang="en">0.333</source>
+<seg-source><mrk mid="0" mtype="seg">0.333</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.333</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="Table(id12, A table)/Row(id222)/description" xml:space="preserve">
+<source xml:lang="en">We do not need new lines here, just replace them all with spaces</source>
+<seg-source><mrk mid="0" mtype="seg">We do not need new lines here, just replace them all with spaces</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">We do not need new lines here, just replace them all with spaces</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg7">
+<group id="sg8">
+<trans-unit id="tu7" resname="Table(id12, A table)/Row(id333)/size" xml:space="preserve">
+<source xml:lang="en">52</source>
+<seg-source><mrk mid="0" mtype="seg">52</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">52</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" resname="Table(id12, A table)/Row(id333)/ratio" xml:space="preserve">
+<source xml:lang="en">0.88</source>
+<seg-source><mrk mid="0" mtype="seg">0.88</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.88</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" resname="Table(id12, A table)/Row(id333)/floatRatio" xml:space="preserve">
+<source xml:lang="en">0.88</source>
+<seg-source><mrk mid="0" mtype="seg">0.88</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.88</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" resname="Table(id12, A table)/Row(id333)/description" xml:space="preserve">
+<source xml:lang="en">Please preserve all<ph id="1" ctype="lb">
+        </ph>the lines because they may be<ph id="2" ctype="lb">
+        </ph>important, but do not include the last one !!!</source>
+<seg-source><mrk mid="0" mtype="seg">Please preserve all<ph id="1" ctype="lb">
+        </ph>the lines because they may be<ph id="2" ctype="lb">
+        </ph>important, but do not include the last one !!!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Please preserve all<ph id="1" ctype="lb">
+        </ph>the lines because they may be<ph id="2" ctype="lb">
+        </ph>important, but do not include the last one !!!</mrk></target>
+</trans-unit>
+</group>
+</group>
+</group>
+</group>
+</body>
+</file>
+</xliff>

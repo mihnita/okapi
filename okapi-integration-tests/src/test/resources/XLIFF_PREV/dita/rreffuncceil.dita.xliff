@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rreffuncceil.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CEIL or CEILING function</source>
+<seg-source><mrk mid="0" mtype="seg">CEIL or CEILING function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CEIL or CEILING function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The CEIL or CEILING function rounds the specified number up, and returns the smallest number that is greater than or equal to the specified number.</source>
+<seg-source><mrk mid="0" mtype="seg">The CEIL or CEILING function rounds the specified number up, and returns the smallest number that is greater than or equal to the specified number.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The CEIL or CEILING function rounds the specified number up, and returns the smallest number that is greater than or equal to the specified number.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">CEIL function</source>
+<seg-source><mrk mid="0" mtype="seg">CEIL function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CEIL function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">functions</source>
+<seg-source><mrk mid="0" mtype="seg">functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">CEIL</source>
+<seg-source><mrk mid="0" mtype="seg">CEIL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CEIL</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">CEILING function</source>
+<seg-source><mrk mid="0" mtype="seg">CEILING function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CEILING function</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">functions</source>
+<seg-source><mrk mid="0" mtype="seg">functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">CEILING</source>
+<seg-source><mrk mid="0" mtype="seg">CEILING</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CEILING</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The specified number must be a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljdoubleprecision.dita#rrefsqljdoubleprecision"&gt;</bpt>DOUBLE PRECISION<ept id="1">&lt;/xref&gt;</ept> number.</source>
+<seg-source><mrk mid="0" mtype="seg">The specified number must be a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljdoubleprecision.dita#rrefsqljdoubleprecision"&gt;</bpt>DOUBLE PRECISION<ept id="1">&lt;/xref&gt;</ept> number.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The specified number must be a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljdoubleprecision.dita#rrefsqljdoubleprecision"&gt;</bpt>DOUBLE PRECISION<ept id="1">&lt;/xref&gt;</ept> number.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If the specified number is NULL, the returned value is NULL.</source>
+<seg-source><mrk mid="0" mtype="seg">If the specified number is NULL, the returned value is NULL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the specified number is NULL, the returned value is NULL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">If the specified number is equal to a mathematical integer, the returned value is the same as the specified number.</source>
+<seg-source><mrk mid="0" mtype="seg">If the specified number is equal to a mathematical integer, the returned value is the same as the specified number.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the specified number is equal to a mathematical integer, the returned value is the same as the specified number.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">If the specified number is zero (0), the returned value is zero.</source>
+<seg-source><mrk mid="0" mtype="seg">If the specified number is zero (0), the returned value is zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the specified number is zero (0), the returned value is zero.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">If the specified number is less than zero but greater than -1.0, the returned value is zero.</source>
+<seg-source><mrk mid="0" mtype="seg">If the specified number is less than zero but greater than -1.0, the returned value is zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the specified number is less than zero but greater than -1.0, the returned value is zero.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">The returned value is the smallest (closest to negative infinity) double floating-point value that is greater than or equal to the specified number. The returned value is equal to a mathematical integer. The data type of the returned value is a DOUBLE PRECISION number.</source>
+<seg-source><mrk mid="0" mtype="seg">The returned value is the smallest (closest to negative infinity) double floating-point value that is greater than or equal to the specified number.</mrk><mrk mid="1" mtype="seg"> The returned value is equal to a mathematical integer.</mrk><mrk mid="2" mtype="seg"> The data type of the returned value is a DOUBLE PRECISION number.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The returned value is the smallest (closest to negative infinity) double floating-point value that is greater than or equal to the specified number.</mrk><mrk mid="1" mtype="seg"> The returned value is equal to a mathematical integer.</mrk><mrk mid="2" mtype="seg"> The data type of the returned value is a DOUBLE PRECISION number.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CEIL ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>number<ept id="2">&lt;/varname&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CEIL ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>number<ept id="2">&lt;/varname&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CEIL ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>number<ept id="2">&lt;/varname&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CEILING ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>number<ept id="2">&lt;/varname&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CEILING ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>number<ept id="2">&lt;/varname&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CEILING ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>number<ept id="2">&lt;/varname&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

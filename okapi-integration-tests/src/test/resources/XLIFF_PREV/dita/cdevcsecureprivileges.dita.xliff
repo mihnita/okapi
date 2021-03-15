@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecureprivileges.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Privileges on views, triggers, and constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Privileges on views, triggers, and constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Privileges on views, triggers, and constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Views, triggers, and constraints operate with the privileges of the owner of the view, trigger, or constraint.</source>
+<seg-source><mrk mid="0" mtype="seg">Views, triggers, and constraints operate with the privileges of the owner of the view, trigger, or constraint.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Views, triggers, and constraints operate with the privileges of the owner of the view, trigger, or constraint.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">privileges</source>
+<seg-source><mrk mid="0" mtype="seg">privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">on views, triggers, and constraints</source>
+<seg-source><mrk mid="0" mtype="seg">on views, triggers, and constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">on views, triggers, and constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">permissions</source>
+<seg-source><mrk mid="0" mtype="seg">permissions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permissions</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">on views, triggers, and constraints</source>
+<seg-source><mrk mid="0" mtype="seg">on views, triggers, and constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">on views, triggers, and constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">views</source>
+<seg-source><mrk mid="0" mtype="seg">views</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">views</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">privileges on</source>
+<seg-source><mrk mid="0" mtype="seg">privileges on</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">privileges on</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">triggers</source>
+<seg-source><mrk mid="0" mtype="seg">triggers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">triggers</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">privileges on</source>
+<seg-source><mrk mid="0" mtype="seg">privileges on</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">privileges on</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">constraints statement</source>
+<seg-source><mrk mid="0" mtype="seg">constraints statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">constraints statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">privileges on</source>
+<seg-source><mrk mid="0" mtype="seg">privileges on</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">privileges on</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">invoker rights</source>
+<seg-source><mrk mid="0" mtype="seg">invoker rights</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">invoker rights</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">versus definer rights</source>
+<seg-source><mrk mid="0" mtype="seg">versus definer rights</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">versus definer rights</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">definer rights</source>
+<seg-source><mrk mid="0" mtype="seg">definer rights</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">definer rights</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">versus invoker rights</source>
+<seg-source><mrk mid="0" mtype="seg">versus invoker rights</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">versus invoker rights</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">SQL standard authorization mode</source>
+<seg-source><mrk mid="0" mtype="seg">SQL standard authorization mode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL standard authorization mode</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">For example, suppose that user <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="1">&lt;/codeph&gt;</ept> wants to create a view using the following statement:</source>
+<seg-source><mrk mid="0" mtype="seg">For example, suppose that user <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="1">&lt;/codeph&gt;</ept> wants to create a view using the following statement:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, suppose that user <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="1">&lt;/codeph&gt;</ept> wants to create a view using the following statement:</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">CREATE VIEW s.v(vc1,vc2,vc3) AS SELECT t1.c1,t1.c2,f(t1.c3) FROM t1 JOIN t2 ON t1.c1 = t2.c1 WHERE t2.c2 = 5</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE VIEW s.v(vc1,vc2,vc3) AS SELECT t1.c1,t1.c2,f(t1.c3) FROM t1 JOIN t2 ON t1.c1 = t2.c1 WHERE t2.c2 = 5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE VIEW s.v(vc1,vc2,vc3) AS SELECT t1.c1,t1.c2,f(t1.c3) FROM t1 JOIN t2 ON t1.c1 = t2.c1 WHERE t2.c2 = 5</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">User <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="1">&lt;/codeph&gt;</ept> needs the following privileges to create the view:</source>
+<seg-source><mrk mid="0" mtype="seg">User <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="1">&lt;/codeph&gt;</ept> needs the following privileges to create the view:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">User <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="1">&lt;/codeph&gt;</ept> needs the following privileges to create the view:</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Ownership of the schema <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>s<ept id="1">&lt;/codeph&gt;</ept>, so that she can create something in the schema</source>
+<seg-source><mrk mid="0" mtype="seg">Ownership of the schema <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>s<ept id="1">&lt;/codeph&gt;</ept>, so that she can create something in the schema</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ownership of the schema <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>s<ept id="1">&lt;/codeph&gt;</ept>, so that she can create something in the schema</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Ownership of the table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t1<ept id="1">&lt;/codeph&gt;</ept>, so that she can allow others to see columns in the table</source>
+<seg-source><mrk mid="0" mtype="seg">Ownership of the table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t1<ept id="1">&lt;/codeph&gt;</ept>, so that she can allow others to see columns in the table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ownership of the table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t1<ept id="1">&lt;/codeph&gt;</ept>, so that she can allow others to see columns in the table</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">SELECT privilege on column <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t2.c1<ept id="1">&lt;/codeph&gt;</ept> and column <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>t2.c2<ept id="2">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">SELECT privilege on column <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t2.c1<ept id="1">&lt;/codeph&gt;</ept> and column <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>t2.c2<ept id="2">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT privilege on column <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>t2.c1<ept id="1">&lt;/codeph&gt;</ept> and column <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>t2.c2<ept id="2">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">EXECUTE privilege on function <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>f<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">EXECUTE privilege on function <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>f<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EXECUTE privilege on function <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>f<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">When the view is created, only user <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="1">&lt;/codeph&gt;</ept> has the SELECT privilege on it. User <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="2">&lt;/codeph&gt;</ept> can grant the SELECT privilege on any or all of the columns of view <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="3">&lt;/codeph&gt;</ept> to anyone, even to users that do not have the SELECT privilege on <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>t1<ept id="4">&lt;/codeph&gt;</ept> or <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>t2<ept id="5">&lt;/codeph&gt;</ept>, or the EXECUTE privilege on <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>f<ept id="6">&lt;/codeph&gt;</ept>. User <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="7">&lt;/codeph&gt;</ept> then grants the SELECT privilege on view <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="8">&lt;/codeph&gt;</ept> to user <bpt id="9" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="9">&lt;/codeph&gt;</ept>. When user <bpt id="10" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="10">&lt;/codeph&gt;</ept> issues a SELECT statement on the view <bpt id="11" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="11">&lt;/codeph&gt;</ept>, <bpt id="12" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="12">&lt;/ph&gt;</ept> checks to determine if user <bpt id="13" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="13">&lt;/codeph&gt;</ept> has the SELECT privilege on view <bpt id="14" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="14">&lt;/codeph&gt;</ept>. <bpt id="15" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="15">&lt;/ph&gt;</ept> does not check to determine if user <bpt id="16" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="16">&lt;/codeph&gt;</ept> has the SELECT privilege on <bpt id="17" ctype="x-codeph">&lt;codeph&gt;</bpt>t1<ept id="17">&lt;/codeph&gt;</ept> or <bpt id="18" ctype="x-codeph">&lt;codeph&gt;</bpt>t2<ept id="18">&lt;/codeph&gt;</ept>, or the EXECUTE privilege on <bpt id="19" ctype="x-codeph">&lt;codeph&gt;</bpt>f<ept id="19">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">When the view is created, only user <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="1">&lt;/codeph&gt;</ept> has the SELECT privilege on it.</mrk><mrk mid="1" mtype="seg"> User <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="2">&lt;/codeph&gt;</ept> can grant the SELECT privilege on any or all of the columns of view <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="3">&lt;/codeph&gt;</ept> to anyone, even to users that do not have the SELECT privilege on <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>t1<ept id="4">&lt;/codeph&gt;</ept> or <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>t2<ept id="5">&lt;/codeph&gt;</ept>, or the EXECUTE privilege on <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>f<ept id="6">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> User <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="7">&lt;/codeph&gt;</ept> then grants the SELECT privilege on view <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="8">&lt;/codeph&gt;</ept> to user <bpt id="9" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="9">&lt;/codeph&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> When user <bpt id="10" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="10">&lt;/codeph&gt;</ept> issues a SELECT statement on the view <bpt id="11" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="11">&lt;/codeph&gt;</ept>, <bpt id="12" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="12">&lt;/ph&gt;</ept> checks to determine if user <bpt id="13" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="13">&lt;/codeph&gt;</ept> has the SELECT privilege on view <bpt id="14" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="14">&lt;/codeph&gt;</ept>.</mrk><mrk mid="4" mtype="seg"> <bpt id="15" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="15">&lt;/ph&gt;</ept> does not check to determine if user <bpt id="16" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="16">&lt;/codeph&gt;</ept> has the SELECT privilege on <bpt id="17" ctype="x-codeph">&lt;codeph&gt;</bpt>t1<ept id="17">&lt;/codeph&gt;</ept> or <bpt id="18" ctype="x-codeph">&lt;codeph&gt;</bpt>t2<ept id="18">&lt;/codeph&gt;</ept>, or the EXECUTE privilege on <bpt id="19" ctype="x-codeph">&lt;codeph&gt;</bpt>f<ept id="19">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the view is created, only user <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="1">&lt;/codeph&gt;</ept> has the SELECT privilege on it.</mrk><mrk mid="1" mtype="seg"> User <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="2">&lt;/codeph&gt;</ept> can grant the SELECT privilege on any or all of the columns of view <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="3">&lt;/codeph&gt;</ept> to anyone, even to users that do not have the SELECT privilege on <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>t1<ept id="4">&lt;/codeph&gt;</ept> or <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>t2<ept id="5">&lt;/codeph&gt;</ept>, or the EXECUTE privilege on <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>f<ept id="6">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> User <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt>anita<ept id="7">&lt;/codeph&gt;</ept> then grants the SELECT privilege on view <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="8">&lt;/codeph&gt;</ept> to user <bpt id="9" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="9">&lt;/codeph&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> When user <bpt id="10" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="10">&lt;/codeph&gt;</ept> issues a SELECT statement on the view <bpt id="11" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="11">&lt;/codeph&gt;</ept>, <bpt id="12" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="12">&lt;/ph&gt;</ept> checks to determine if user <bpt id="13" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="13">&lt;/codeph&gt;</ept> has the SELECT privilege on view <bpt id="14" ctype="x-codeph">&lt;codeph&gt;</bpt>s.v<ept id="14">&lt;/codeph&gt;</ept>.</mrk><mrk mid="4" mtype="seg"> <bpt id="15" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="15">&lt;/ph&gt;</ept> does not check to determine if user <bpt id="16" ctype="x-codeph">&lt;codeph&gt;</bpt>harry<ept id="16">&lt;/codeph&gt;</ept> has the SELECT privilege on <bpt id="17" ctype="x-codeph">&lt;codeph&gt;</bpt>t1<ept id="17">&lt;/codeph&gt;</ept> or <bpt id="18" ctype="x-codeph">&lt;codeph&gt;</bpt>t2<ept id="18">&lt;/codeph&gt;</ept>, or the EXECUTE privilege on <bpt id="19" ctype="x-codeph">&lt;codeph&gt;</bpt>f<ept id="19">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Privileges on triggers and constraints work the same way as privileges on views. When a view, trigger, or constraint is created, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks that the owner has the required privileges. Other users do not need to have those privileges to perform actions on a view, trigger, or constraint.</source>
+<seg-source><mrk mid="0" mtype="seg">Privileges on triggers and constraints work the same way as privileges on views.</mrk><mrk mid="1" mtype="seg"> When a view, trigger, or constraint is created, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks that the owner has the required privileges.</mrk><mrk mid="2" mtype="seg"> Other users do not need to have those privileges to perform actions on a view, trigger, or constraint.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Privileges on triggers and constraints work the same way as privileges on views.</mrk><mrk mid="1" mtype="seg"> When a view, trigger, or constraint is created, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks that the owner has the required privileges.</mrk><mrk mid="2" mtype="seg"> Other users do not need to have those privileges to perform actions on a view, trigger, or constraint.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">If the required privileges are revoked from the owner of a view, trigger, or constraint, the object is dropped as part of the REVOKE statement.</source>
+<seg-source><mrk mid="0" mtype="seg">If the required privileges are revoked from the owner of a view, trigger, or constraint, the object is dropped as part of the REVOKE statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the required privileges are revoked from the owner of a view, trigger, or constraint, the object is dropped as part of the REVOKE statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Another way of saying that privileges on objects belong to the owner is to call them <bpt id="1" ctype="x-term">&lt;term&gt;</bpt>definer rights<ept id="1">&lt;/term&gt;</ept>, as opposed to <bpt id="2" ctype="x-term">&lt;term&gt;</bpt>invoker rights<ept id="2">&lt;/term&gt;</ept>. This is the terminology used by the SQL standard.</source>
+<seg-source><mrk mid="0" mtype="seg">Another way of saying that privileges on objects belong to the owner is to call them <bpt id="1" ctype="x-term">&lt;term&gt;</bpt>definer rights<ept id="1">&lt;/term&gt;</ept>, as opposed to <bpt id="2" ctype="x-term">&lt;term&gt;</bpt>invoker rights<ept id="2">&lt;/term&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This is the terminology used by the SQL standard.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Another way of saying that privileges on objects belong to the owner is to call them <bpt id="1" ctype="x-term">&lt;term&gt;</bpt>definer rights<ept id="1">&lt;/term&gt;</ept>, as opposed to <bpt id="2" ctype="x-term">&lt;term&gt;</bpt>invoker rights<ept id="2">&lt;/term&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This is the terminology used by the SQL standard.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

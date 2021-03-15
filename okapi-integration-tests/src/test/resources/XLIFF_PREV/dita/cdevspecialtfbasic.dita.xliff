@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevspecialtfbasic.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Overview of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table functions</source>
+<seg-source><mrk mid="0" mtype="seg">Overview of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Overview of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">A <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table function is a method which returns a JDBC <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table function is a method which returns a JDBC <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table function is a method which returns a JDBC <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Functions</source>
+<seg-source><mrk mid="0" mtype="seg">Functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">table function overview</source>
+<seg-source><mrk mid="0" mtype="seg">table function overview</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">table function overview</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Most of the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> methods can be written as stubs which simply raise exceptions. However, the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>-style table function must implement the following <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> methods:</source>
+<seg-source><mrk mid="0" mtype="seg">Most of the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> methods can be written as stubs which simply raise exceptions.</mrk><mrk mid="1" mtype="seg"> However, the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>-style table function must implement the following <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> methods:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Most of the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> methods can be written as stubs which simply raise exceptions.</mrk><mrk mid="1" mtype="seg"> However, the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>-style table function must implement the following <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> methods:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>next()<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>next()<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>next()<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>close()<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>close()<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>close()<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>wasNull()<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>wasNull()<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>wasNull()<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="1">&lt;/i&gt;</ept> - When invoking a <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>-style table function at runtime, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> calls a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="4">&lt;/i&gt;</ept> method on each referenced column. The particular <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="5">&lt;/i&gt;</ept> method is based on the column's data type as declared in the <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>CREATE FUNCTION<ept id="6">&lt;/codeph&gt;</ept> statement. <bpt id="7" ctype="x-xref">&lt;xref href="cdevspecialtfgetxxx.dita#cdevspecialtfgetxxx"&gt;</bpt><ept id="7">&lt;/xref&gt;</ept> explains how <bpt id="8" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="8">&lt;/ph&gt;</ept> selects an appropriate <bpt id="9" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="9">&lt;/i&gt;</ept> method. However, nothing prevents application code from calling other <bpt id="10" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="10">&lt;/i&gt;</ept> methods on the <bpt id="11" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="11">&lt;/i&gt;</ept>. The returned <bpt id="12" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="12">&lt;/i&gt;</ept> needs to implement the <bpt id="13" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="13">&lt;/i&gt;</ept> methods which <bpt id="14" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="14">&lt;/ph&gt;</ept> will call as well as all <bpt id="15" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="15">&lt;/i&gt;</ept> methods which the application will call.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="1">&lt;/i&gt;</ept> - When invoking a <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>-style table function at runtime, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> calls a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="4">&lt;/i&gt;</ept> method on each referenced column.</mrk><mrk mid="1" mtype="seg"> The particular <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="5">&lt;/i&gt;</ept> method is based on the column's data type as declared in the <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>CREATE FUNCTION<ept id="6">&lt;/codeph&gt;</ept> statement.</mrk><mrk mid="2" mtype="seg"> <bpt id="7" ctype="x-xref">&lt;xref href="cdevspecialtfgetxxx.dita#cdevspecialtfgetxxx"&gt;</bpt><ept id="7">&lt;/xref&gt;</ept> explains how <bpt id="8" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="8">&lt;/ph&gt;</ept> selects an appropriate <bpt id="9" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="9">&lt;/i&gt;</ept> method.</mrk><mrk mid="3" mtype="seg"> However, nothing prevents application code from calling other <bpt id="10" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="10">&lt;/i&gt;</ept> methods on the <bpt id="11" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="11">&lt;/i&gt;</ept>.</mrk><mrk mid="4" mtype="seg"> The returned <bpt id="12" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="12">&lt;/i&gt;</ept> needs to implement the <bpt id="13" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="13">&lt;/i&gt;</ept> methods which <bpt id="14" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="14">&lt;/ph&gt;</ept> will call as well as all <bpt id="15" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="15">&lt;/i&gt;</ept> methods which the application will call.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="1">&lt;/i&gt;</ept> - When invoking a <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>-style table function at runtime, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> calls a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="4">&lt;/i&gt;</ept> method on each referenced column.</mrk><mrk mid="1" mtype="seg"> The particular <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="5">&lt;/i&gt;</ept> method is based on the column's data type as declared in the <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>CREATE FUNCTION<ept id="6">&lt;/codeph&gt;</ept> statement.</mrk><mrk mid="2" mtype="seg"> <bpt id="7" ctype="x-xref">&lt;xref href="cdevspecialtfgetxxx.dita#cdevspecialtfgetxxx"&gt;</bpt><ept id="7">&lt;/xref&gt;</ept> explains how <bpt id="8" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="8">&lt;/ph&gt;</ept> selects an appropriate <bpt id="9" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="9">&lt;/i&gt;</ept> method.</mrk><mrk mid="3" mtype="seg"> However, nothing prevents application code from calling other <bpt id="10" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="10">&lt;/i&gt;</ept> methods on the <bpt id="11" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="11">&lt;/i&gt;</ept>.</mrk><mrk mid="4" mtype="seg"> The returned <bpt id="12" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="12">&lt;/i&gt;</ept> needs to implement the <bpt id="13" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="13">&lt;/i&gt;</ept> methods which <bpt id="14" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="14">&lt;/ph&gt;</ept> will call as well as all <bpt id="15" ctype="x-i">&lt;i&gt;</bpt>getXXX()<ept id="15">&lt;/i&gt;</ept> methods which the application will call.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">A <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table function is materialized by a public static method which returns a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept>:</source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table function is materialized by a public static method which returns a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table function is materialized by a public static method which returns a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">public static ResultSet read() {...}</source>
+<seg-source><mrk mid="0" mtype="seg">public static ResultSet read() {...}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">public static ResultSet read() {...}</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The public static method is then bound to a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> function name:</source>
+<seg-source><mrk mid="0" mtype="seg">The public static method is then bound to a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> function name:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The public static method is then bound to a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> function name:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">CREATE FUNCTION externalEmployees () RETURNS TABLE ( employeeId INT, lastName VARCHAR( 50 ), firstName VARCHAR( 50 ), birthday DATE ) LANGUAGE JAVA PARAMETER STYLE DERBY_JDBC_RESULT_SET READS SQL DATA EXTERNAL NAME 'com.example.hrSchema.EmployeeTable.read'</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE FUNCTION externalEmployees () RETURNS TABLE ( employeeId INT, lastName VARCHAR( 50 ), firstName VARCHAR( 50 ), birthday DATE ) LANGUAGE JAVA PARAMETER STYLE DERBY_JDBC_RESULT_SET READS SQL DATA EXTERNAL NAME 'com.example.hrSchema.EmployeeTable.read'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE FUNCTION externalEmployees () RETURNS TABLE ( employeeId INT, lastName VARCHAR( 50 ), firstName VARCHAR( 50 ), birthday DATE ) LANGUAGE JAVA PARAMETER STYLE DERBY_JDBC_RESULT_SET READS SQL DATA EXTERNAL NAME 'com.example.hrSchema.EmployeeTable.read'</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">To invoke a table function, wrap it in a TABLE constructor in the FROM list of a query. Note that the table alias (in this example "s") is a required part of the syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To invoke a table function, wrap it in a TABLE constructor in the FROM list of a query.</mrk><mrk mid="1" mtype="seg"> Note that the table alias (in this example "s") is a required part of the syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To invoke a table function, wrap it in a TABLE constructor in the FROM list of a query.</mrk><mrk mid="1" mtype="seg"> Note that the table alias (in this example "s") is a required part of the syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">INSERT INTO employees SELECT s.* FROM TABLE (externalEmployees() ) s;</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO employees SELECT s.* FROM TABLE (externalEmployees() ) s;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO employees SELECT s.* FROM TABLE (externalEmployees() ) s;</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">With a normal table function, you must select its entire contents. You can, however, write a restricted table function that lets you limit the rows and columns you select. A restricted table function can improve performance greatly. See <bpt id="1" ctype="x-xref">&lt;xref href="cdevspecialtfrestr.dita#cdevspecialtfrestr"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg">With a normal table function, you must select its entire contents.</mrk><mrk mid="1" mtype="seg"> You can, however, write a restricted table function that lets you limit the rows and columns you select.</mrk><mrk mid="2" mtype="seg"> A restricted table function can improve performance greatly.</mrk><mrk mid="3" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cdevspecialtfrestr.dita#cdevspecialtfrestr"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">With a normal table function, you must select its entire contents.</mrk><mrk mid="1" mtype="seg"> You can, however, write a restricted table function that lets you limit the rows and columns you select.</mrk><mrk mid="2" mtype="seg"> A restricted table function can improve performance greatly.</mrk><mrk mid="3" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cdevspecialtfrestr.dita#cdevspecialtfrestr"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

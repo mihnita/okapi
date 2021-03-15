@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="/home/guest/demo/Test.txt" source-language="en-us" datatype="plaintext" target-language="pt-BR">
+    <header>
+      <count-group name="Word Counts">
+        <count count-type="x-WordCount">89</count>
+        <count count-type="x-AdjustedWordCount">71.2</count>
+      </count-group>
+    </header>
+    <body>
+      <group>
+        <context-group>
+          <context context-type="x-TenantName">Test1</context>
+          <context context-type="x-SubtenantName">default</context>
+          <context context-type="x-ProjectName">dev/cluster</context>
+          <context context-type="x-DataSourceName">/home/guest/demo/Test.txt</context>
+        </context-group>
+        <note>group note 1</note>
+        <trans-unit id="654022">
+          <source>The automatic clean up operation for log only copy '<ph id="ph_Placeholder_1" equiv-text="{0}" />\<ph id="ph_Placeholder_2" equiv-text="{1}" />' will not be run because the database has insufficient redundancy. Actual : <ph id="ph_Placeholder_3" equiv-text="{2}" />, Expected : <ph id="ph_Placeholder_4" equiv-text="{3}" /></source>
+          <target state="needs-review-translation" />
+          <alt-trans match-quality="10">
+            <source>The automatic clean up operation for log only copy '<ph id="ph_Placeholder_1" equiv-text="{0}" />\<ph id="ph_Placeholder_2" equiv-text="{1}" />' will not be run because the database has insufficient redundancy. Actual : <ph id="ph_Placeholder_3" equiv-text="{2}" />, Expected : <ph id="ph_Placeholder_4" equiv-text="{3}" /></source>
+            <target>Automático limpar operação log de somente copiar '<ph id="ph_Placeholder_1" equiv-text="{0}" />\<ph id="ph_Placeholder_2" equiv-text="{1}" />' não será executada porque o banco de dados possui redundância suficiente. Real: <ph id="ph_Placeholder_3" equiv-text="{2}" />, valor esperado: <ph id="ph_Placeholder_4" equiv-text="{3}" /></target>
+            <context-group name="InternalAlt">
+              <context context-type="x-Alt">1</context>
+            </context-group>
+            <note>alt trans note 1</note>
+          </alt-trans>
+          <context-group name="Internal1">
+            <context context-type="x-ResourceIdentity">654022</context>
+            <context context-type="x-SourceRevision">1</context>
+          </context-group>
+          <note>trans unit note 1</note>
+        </trans-unit>
+        <trans-unit id="654019">
+          <source>Clean up of log only copy '<ph id="ph_Placeholder_1" equiv-text="{0}" />\<ph id="ph_Placeholder_2" equiv-text="{1}" />' will not be attempted because the variant config setting EnableLogOnlyCopyCleanup is set to false.</source>
+          <target state="needs-review-translation" />
+          <alt-trans match-quality="10">
+            <source>Clean up of log only copy '<ph id="ph_Placeholder_1" equiv-text="{0}" />\<ph id="ph_Placeholder_2" equiv-text="{1}" />' will not be attempted because the variant config setting EnableLogOnlyCopyCleanup is set to false.</source>
+            <target>Limpeza de cópia somente de log '<ph id="ph_Placeholder_1" equiv-text="{0}" />\<ph id="ph_Placeholder_2" equiv-text="{1}" />' não serão aplicados porque o variant config definindo EnableLogOnlyCopyCleanup estiver definido como false.</target>
+          </alt-trans>
+          <context-group name="Internal2">
+            <context context-type="x-ResourceIdentity">654019</context>
+            <context context-type="x-SourceRevision">1</context>
+          </context-group>
+        </trans-unit>
+        <bin-unit id="bu1" mime-type="text/plain">
+          <bin-source>
+            <external-file href="test.txt"/>
+          </bin-source>
+          <context-group>
+            <context context-type="x-BinUnit">bin</context>
+          </context-group>
+          <note>bin unit note 1</note>
+          <trans-unit id="text.txt-1">
+            <source>text &amp; text</source>
+          </trans-unit>
+        </bin-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

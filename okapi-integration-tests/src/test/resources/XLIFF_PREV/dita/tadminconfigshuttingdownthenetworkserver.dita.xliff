@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminconfigshuttingdownthenetworkserver.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Shutting down the Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Shutting down the Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shutting down the Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">To shut down the Network Server, you can invoke a script, a jar file, or a class.</source>
+<seg-source><mrk mid="0" mtype="seg">To shut down the Network Server, you can invoke a script, a jar file, or a class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To shut down the Network Server, you can invoke a script, a jar file, or a class.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Shutting down Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Shutting down Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shutting down Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">from scripts</source>
+<seg-source><mrk mid="0" mtype="seg">from scripts</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">from scripts</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">shutting down</source>
+<seg-source><mrk mid="0" mtype="seg">shutting down</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shutting down</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The scripts to shut down the Network Server are located in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>$<ph id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"/&gt;</ph>/bin<ept id="1">&lt;/codeph&gt;</ept> directory.</source>
+<seg-source><mrk mid="0" mtype="seg">The scripts to shut down the Network Server are located in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>$<ph id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"/&gt;</ph>/bin<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The scripts to shut down the Network Server are located in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>$<ph id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"/&gt;</ph>/bin<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If user authentication is enabled, you must specify a valid <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> user name and password; if the user authentication check fails, you'll see an authentication error and the running server remains intact. Note that <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not yet restrict the shutdown privilege to specific users: the server can be shut down by any user on the server machine who presents valid credentials.</source>
+<seg-source><mrk mid="0" mtype="seg">If user authentication is enabled, you must specify a valid <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> user name and password; if the user authentication check fails, you'll see an authentication error and the running server remains intact.</mrk><mrk mid="1" mtype="seg"> Note that <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not yet restrict the shutdown privilege to specific users: the server can be shut down by any user on the server machine who presents valid credentials.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If user authentication is enabled, you must specify a valid <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> user name and password; if the user authentication check fails, you'll see an authentication error and the running server remains intact.</mrk><mrk mid="1" mtype="seg"> Note that <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not yet restrict the shutdown privilege to specific users: the server can be shut down by any user on the server machine who presents valid credentials.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">To shut down the Network Server by using the scripts provided for Windows systems, use:</source>
+<seg-source><mrk mid="0" mtype="seg">To shut down the Network Server by using the scripts provided for Windows systems, use:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To shut down the Network Server by using the scripts provided for Windows systems, use:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>stopNetworkServer.bat [-h <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="3">&lt;/varname&gt;</ept>] [-p <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="4">&lt;/varname&gt;</ept>] [-user <bpt id="5" ctype="x-varname">&lt;varname&gt;</bpt>username<ept id="5">&lt;/varname&gt;</ept>] [-password <bpt id="6" ctype="x-varname">&lt;varname&gt;</bpt>password<ept id="6">&lt;/varname&gt;</ept>]<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>stopNetworkServer.bat [-h <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="3">&lt;/varname&gt;</ept>] [-p <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="4">&lt;/varname&gt;</ept>] [-user <bpt id="5" ctype="x-varname">&lt;varname&gt;</bpt>username<ept id="5">&lt;/varname&gt;</ept>] [-password <bpt id="6" ctype="x-varname">&lt;varname&gt;</bpt>password<ept id="6">&lt;/varname&gt;</ept>]<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>stopNetworkServer.bat [-h <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="3">&lt;/varname&gt;</ept>] [-p <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="4">&lt;/varname&gt;</ept>] [-user <bpt id="5" ctype="x-varname">&lt;varname&gt;</bpt>username<ept id="5">&lt;/varname&gt;</ept>] [-password <bpt id="6" ctype="x-varname">&lt;varname&gt;</bpt>password<ept id="6">&lt;/varname&gt;</ept>]<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">To shut down the Network Server by using the scripts provided for UNIX systems, use:</source>
+<seg-source><mrk mid="0" mtype="seg">To shut down the Network Server by using the scripts provided for UNIX systems, use:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To shut down the Network Server by using the scripts provided for UNIX systems, use:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>stopNetworkServer [-h <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="3">&lt;/varname&gt;</ept>] [-p <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="4">&lt;/varname&gt;</ept>] [-user <bpt id="5" ctype="x-varname">&lt;varname&gt;</bpt>username<ept id="5">&lt;/varname&gt;</ept>] [-password <bpt id="6" ctype="x-varname">&lt;varname&gt;</bpt>password<ept id="6">&lt;/varname&gt;</ept>]<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>stopNetworkServer [-h <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="3">&lt;/varname&gt;</ept>] [-p <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="4">&lt;/varname&gt;</ept>] [-user <bpt id="5" ctype="x-varname">&lt;varname&gt;</bpt>username<ept id="5">&lt;/varname&gt;</ept>] [-password <bpt id="6" ctype="x-varname">&lt;varname&gt;</bpt>password<ept id="6">&lt;/varname&gt;</ept>]<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>stopNetworkServer [-h <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="3">&lt;/varname&gt;</ept>] [-p <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="4">&lt;/varname&gt;</ept>] [-user <bpt id="5" ctype="x-varname">&lt;varname&gt;</bpt>username<ept id="5">&lt;/varname&gt;</ept>] [-password <bpt id="6" ctype="x-varname">&lt;varname&gt;</bpt>password<ept id="6">&lt;/varname&gt;</ept>]<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

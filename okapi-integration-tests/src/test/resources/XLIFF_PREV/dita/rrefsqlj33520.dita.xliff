@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj33520.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">MIN function</source>
+<seg-source><mrk mid="0" mtype="seg">MIN function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MIN function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">MIN is an aggregate function that evaluates the minimum of an expression over a set of rows.</source>
+<seg-source><mrk mid="0" mtype="seg">MIN is an aggregate function that evaluates the minimum of an expression over a set of rows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MIN is an aggregate function that evaluates the minimum of an expression over a set of rows.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">MIN aggregate function</source>
+<seg-source><mrk mid="0" mtype="seg">MIN aggregate function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MIN aggregate function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33923.dita#rrefsqlj33923"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information about these functions.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33923.dita#rrefsqlj33923"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information about these functions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33923.dita#rrefsqlj33923"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information about these functions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">MIN is allowed only on expressions that evaluate to indexable data types (specifically, those marked with a Y in the second table, "Comparisons allowed by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>", in <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj58560.dita#rrefsqlj58560"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>). This means that MIN cannot be used with expressions that evaluate to BLOB, CLOB, LONG VARCHAR, LONG VARCHAR FOR BIT DATA, XML, or user-defined types.</source>
+<seg-source><mrk mid="0" mtype="seg">MIN is allowed only on expressions that evaluate to indexable data types (specifically, those marked with a Y in the second table, "Comparisons allowed by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>", in <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj58560.dita#rrefsqlj58560"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> This means that MIN cannot be used with expressions that evaluate to BLOB, CLOB, LONG VARCHAR, LONG VARCHAR FOR BIT DATA, XML, or user-defined types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MIN is allowed only on expressions that evaluate to indexable data types (specifically, those marked with a Y in the second table, "Comparisons allowed by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>", in <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj58560.dita#rrefsqlj58560"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> This means that MIN cannot be used with expressions that evaluate to BLOB, CLOB, LONG VARCHAR, LONG VARCHAR FOR BIT DATA, XML, or user-defined types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>MIN ( [ DISTINCT | ALL ] <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>MIN ( [ DISTINCT | ALL ] <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>MIN ( [ DISTINCT | ALL ] <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The DISTINCT and ALL qualifiers eliminate or retain duplicates, but these qualifiers have no effect in a MIN expression. Only one DISTINCT aggregate expression per <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> is allowed. For example, the following query is not allowed:</source>
+<seg-source><mrk mid="0" mtype="seg">The DISTINCT and ALL qualifiers eliminate or retain duplicates, but these qualifiers have no effect in a MIN expression.</mrk><mrk mid="1" mtype="seg"> Only one DISTINCT aggregate expression per <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> is allowed.</mrk><mrk mid="2" mtype="seg"> For example, the following query is not allowed:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The DISTINCT and ALL qualifiers eliminate or retain duplicates, but these qualifiers have no effect in a MIN expression.</mrk><mrk mid="1" mtype="seg"> Only one DISTINCT aggregate expression per <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> is allowed.</mrk><mrk mid="2" mtype="seg"> For example, the following query is not allowed:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT COUNT (DISTINCT flying_time), MIN (DISTINCT miles) FROM Flights<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT COUNT (DISTINCT flying_time), MIN (DISTINCT miles) FROM Flights<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT COUNT (DISTINCT flying_time), MIN (DISTINCT miles) FROM Flights<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="1">&lt;/i&gt;</ept> can contain multiple column references or expressions, but it cannot contain another aggregate or subquery. It must evaluate to a built-in data type. You can therefore call methods that evaluate to built-in data types. (For example, a method that returns a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer<ept id="2">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>int<ept id="3">&lt;/i&gt;</ept> evaluates to an INTEGER.) If an expression evaluates to NULL, the aggregate skips that value.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="1">&lt;/i&gt;</ept> can contain multiple column references or expressions, but it cannot contain another aggregate or subquery.</mrk><mrk mid="1" mtype="seg"> It must evaluate to a built-in data type.</mrk><mrk mid="2" mtype="seg"> You can therefore call methods that evaluate to built-in data types.</mrk><mrk mid="3" mtype="seg"> (For example, a method that returns a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer<ept id="2">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>int<ept id="3">&lt;/i&gt;</ept> evaluates to an INTEGER.) If an expression evaluates to NULL, the aggregate skips that value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="1">&lt;/i&gt;</ept> can contain multiple column references or expressions, but it cannot contain another aggregate or subquery.</mrk><mrk mid="1" mtype="seg"> It must evaluate to a built-in data type.</mrk><mrk mid="2" mtype="seg"> You can therefore call methods that evaluate to built-in data types.</mrk><mrk mid="3" mtype="seg"> (For example, a method that returns a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer<ept id="2">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>int<ept id="3">&lt;/i&gt;</ept> evaluates to an INTEGER.) If an expression evaluates to NULL, the aggregate skips that value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The type's comparison rules determine the minimum value. For CHAR and VARCHAR, the number of blank spaces at the end of the value can affect how MIN is evaluated. For example, if the values 'z' and 'z ' are both stored in a column, you cannot control which one will be returned as the minimum, because blank spaces are ignored for character comparisons.</source>
+<seg-source><mrk mid="0" mtype="seg">The type's comparison rules determine the minimum value.</mrk><mrk mid="1" mtype="seg"> For CHAR and VARCHAR, the number of blank spaces at the end of the value can affect how MIN is evaluated.</mrk><mrk mid="2" mtype="seg"> For example, if the values 'z' and 'z ' are both stored in a column, you cannot control which one will be returned as the minimum, because blank spaces are ignored for character comparisons.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The type's comparison rules determine the minimum value.</mrk><mrk mid="1" mtype="seg"> For CHAR and VARCHAR, the number of blank spaces at the end of the value can affect how MIN is evaluated.</mrk><mrk mid="2" mtype="seg"> For example, if the values 'z' and 'z ' are both stored in a column, you cannot control which one will be returned as the minimum, because blank spaces are ignored for character comparisons.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The resulting data type is the same as the expression on which it operates (it will never overflow).</source>
+<seg-source><mrk mid="0" mtype="seg">The resulting data type is the same as the expression on which it operates (it will never overflow).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The resulting data type is the same as the expression on which it operates (it will never overflow).</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- NOT valid:<ept id="2">&lt;/ph&gt;</ept> SELECT DISTINCT flying_time, MIN(DISTINCT miles) from Flights <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- valid:<ept id="3">&lt;/ph&gt;</ept> SELECT COUNT(DISTINCT flying_time), MIN(DISTINCT miles) from Flights <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- find the earliest date:<ept id="4">&lt;/ph&gt;</ept> SELECT MIN (flight_date) FROM FlightAvailability;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- NOT valid:<ept id="2">&lt;/ph&gt;</ept> SELECT DISTINCT flying_time, MIN(DISTINCT miles) from Flights <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- valid:<ept id="3">&lt;/ph&gt;</ept> SELECT COUNT(DISTINCT flying_time), MIN(DISTINCT miles) from Flights <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- find the earliest date:<ept id="4">&lt;/ph&gt;</ept> SELECT MIN (flight_date) FROM FlightAvailability;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- NOT valid:<ept id="2">&lt;/ph&gt;</ept> SELECT DISTINCT flying_time, MIN(DISTINCT miles) from Flights <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- valid:<ept id="3">&lt;/ph&gt;</ept> SELECT COUNT(DISTINCT flying_time), MIN(DISTINCT miles) from Flights <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- find the earliest date:<ept id="4">&lt;/ph&gt;</ept> SELECT MIN (flight_date) FROM FlightAvailability;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

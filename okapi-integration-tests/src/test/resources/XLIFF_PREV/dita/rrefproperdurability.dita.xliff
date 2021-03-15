@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefproperdurability.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.system.durability</source>
+<seg-source><mrk mid="0" mtype="seg">derby.system.durability</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.system.durability</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">derby.system.durability</source>
+<seg-source><mrk mid="0" mtype="seg">derby.system.durability</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.system.durability</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">This property changes the default durability of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to improve performance at the expense of consistency and durability of the database. The only valid supported case insensitive value is <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>test<ept id="2">&lt;/codeph&gt;</ept>. If this property is set to any value other than <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>test<ept id="3">&lt;/codeph&gt;</ept>, this property setting is ignored. When <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.durability<ept id="4">&lt;/codeph&gt;</ept> is set to <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>test<ept id="5">&lt;/codeph&gt;</ept>, the store system will not force I/O synchronization calls for:</source>
+<seg-source><mrk mid="0" mtype="seg">This property changes the default durability of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to improve performance at the expense of consistency and durability of the database.</mrk><mrk mid="1" mtype="seg"> The only valid supported case insensitive value is <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>test<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> If this property is set to any value other than <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>test<ept id="3">&lt;/codeph&gt;</ept>, this property setting is ignored.</mrk><mrk mid="3" mtype="seg"> When <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.durability<ept id="4">&lt;/codeph&gt;</ept> is set to <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>test<ept id="5">&lt;/codeph&gt;</ept>, the store system will not force I/O synchronization calls for:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property changes the default durability of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> to improve performance at the expense of consistency and durability of the database.</mrk><mrk mid="1" mtype="seg"> The only valid supported case insensitive value is <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>test<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> If this property is set to any value other than <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>test<ept id="3">&lt;/codeph&gt;</ept>, this property setting is ignored.</mrk><mrk mid="3" mtype="seg"> When <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.durability<ept id="4">&lt;/codeph&gt;</ept> is set to <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>test<ept id="5">&lt;/codeph&gt;</ept>, the store system will not force I/O synchronization calls for:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The log file at each commit</source>
+<seg-source><mrk mid="0" mtype="seg">The log file at each commit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The log file at each commit</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The log file before a data page is forced to disk</source>
+<seg-source><mrk mid="0" mtype="seg">The log file before a data page is forced to disk</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The log file before a data page is forced to disk</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Page allocation when a file is grown</source>
+<seg-source><mrk mid="0" mtype="seg">Page allocation when a file is grown</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Page allocation when a file is grown</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Data writes during checkpoints</source>
+<seg-source><mrk mid="0" mtype="seg">Data writes during checkpoints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data writes during checkpoints</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">While performance is improved, note that under these conditions, a commit no longer guarantees that the transaction's modification will survive a system crash or JVM termination, the database may not recover successfully upon restart, a near-full disk at runtime may cause unexpected errors, and the database may be in an inconsistent state.</source>
+<seg-source><mrk mid="0" mtype="seg">While performance is improved, note that under these conditions, a commit no longer guarantees that the transaction's modification will survive a system crash or JVM termination, the database may not recover successfully upon restart, a near-full disk at runtime may cause unexpected errors, and the database may be in an inconsistent state.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">While performance is improved, note that under these conditions, a commit no longer guarantees that the transaction's modification will survive a system crash or JVM termination, the database may not recover successfully upon restart, a near-full disk at runtime may cause unexpected errors, and the database may be in an inconsistent state.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If you boot the database with this property set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>test<ept id="1">&lt;/codeph&gt;</ept>, the following warning message is logged in the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="2">&lt;/codeph&gt;</ept> file:</source>
+<seg-source><mrk mid="0" mtype="seg">If you boot the database with this property set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>test<ept id="1">&lt;/codeph&gt;</ept>, the following warning message is logged in the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="2">&lt;/codeph&gt;</ept> file:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you boot the database with this property set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>test<ept id="1">&lt;/codeph&gt;</ept>, the following warning message is logged in the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="2">&lt;/codeph&gt;</ept> file:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">WARNING: The database is booted with derby.system.durability=test. In this mode, it is possible that database may not be able to recover, committed transactions may be lost, and the database may be in an inconsistent state. Please use this mode only when these consequences are acceptable.</source>
+<seg-source><mrk mid="0" mtype="seg">WARNING: The database is booted with derby.system.durability=test.</mrk><mrk mid="1" mtype="seg"> In this mode, it is possible that database may not be able to recover, committed transactions may be lost, and the database may be in an inconsistent state.</mrk><mrk mid="2" mtype="seg"> Please use this mode only when these consequences are acceptable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WARNING: The database is booted with derby.system.durability=test.</mrk><mrk mid="1" mtype="seg"> In this mode, it is possible that database may not be able to recover, committed transactions may be lost, and the database may be in an inconsistent state.</mrk><mrk mid="2" mtype="seg"> Please use this mode only when these consequences are acceptable.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">A similar message will appear in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept> file if the database was booted with <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.durability=test<ept id="2">&lt;/codeph&gt;</ept> at any time previously.</source>
+<seg-source><mrk mid="0" mtype="seg">A similar message will appear in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept> file if the database was booted with <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.durability=test<ept id="2">&lt;/codeph&gt;</ept> at any time previously.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A similar message will appear in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept> file if the database was booted with <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.durability=test<ept id="2">&lt;/codeph&gt;</ept> at any time previously.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Once the database is booted with <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.durability=test<ept id="1">&lt;/codeph&gt;</ept>, there are no guarantees that the database is consistent.</source>
+<seg-source><mrk mid="0" mtype="seg">Once the database is booted with <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.durability=test<ept id="1">&lt;/codeph&gt;</ept>, there are no guarantees that the database is consistent.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Once the database is booted with <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.durability=test<ept id="1">&lt;/codeph&gt;</ept>, there are no guarantees that the database is consistent.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">This property is ignored by default.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is ignored by default.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is ignored by default.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Supported values</source>
+<seg-source><mrk mid="0" mtype="seg">Supported values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Supported values</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">The only supported value is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>test<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The only supported value is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>test<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The only supported value is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>test<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.system.durability=test<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.system.durability=test<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.system.durability=test<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Since this is a system property, you can set it in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.properties<ept id="1">&lt;/codeph&gt;</ept> file or on the command line of the JVM when starting the application.</source>
+<seg-source><mrk mid="0" mtype="seg">Since this is a system property, you can set it in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.properties<ept id="1">&lt;/codeph&gt;</ept> file or on the command line of the JVM when starting the application.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Since this is a system property, you can set it in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.properties<ept id="1">&lt;/codeph&gt;</ept> file or on the command line of the JVM when starting the application.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">You might enable this property when using <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> as a test database where consistency or recoverability is not an issue.</source>
+<seg-source><mrk mid="0" mtype="seg">You might enable this property when using <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> as a test database where consistency or recoverability is not an issue.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You might enable this property when using <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> as a test database where consistency or recoverability is not an issue.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Dynamic or static</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic or static</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic or static</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

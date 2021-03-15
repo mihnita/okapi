@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefproperlogbuffersize.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.replication.logBufferSize</source>
+<seg-source><mrk mid="0" mtype="seg">derby.replication.logBufferSize</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.replication.logBufferSize</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">derby.replication.logBufferSize</source>
+<seg-source><mrk mid="0" mtype="seg">derby.replication.logBufferSize</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.replication.logBufferSize</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">replication</source>
+<seg-source><mrk mid="0" mtype="seg">replication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">replication</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">specifying log buffer size</source>
+<seg-source><mrk mid="0" mtype="seg">specifying log buffer size</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">specifying log buffer size</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Specifies the size of the replication log buffers in bytes. These buffers store the log on the master side before it is shipped to the slave. There is a total of 10 such buffers. Large buffers increase memory usage but reduce the chance that the buffers will fill up (in turn increasing response time for transactions on the master, as described in the failure situation "The master <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance is not able to send log data to the slave at the same pace as the log is generated" in the topic "Replication failure handling" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the size of the replication log buffers in bytes.</mrk><mrk mid="1" mtype="seg"> These buffers store the log on the master side before it is shipped to the slave.</mrk><mrk mid="2" mtype="seg"> There is a total of 10 such buffers.</mrk><mrk mid="3" mtype="seg"> Large buffers increase memory usage but reduce the chance that the buffers will fill up (in turn increasing response time for transactions on the master, as described in the failure situation "The master <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance is not able to send log data to the slave at the same pace as the log is generated" in the topic "Replication failure handling" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the size of the replication log buffers in bytes.</mrk><mrk mid="1" mtype="seg"> These buffers store the log on the master side before it is shipped to the slave.</mrk><mrk mid="2" mtype="seg"> There is a total of 10 such buffers.</mrk><mrk mid="3" mtype="seg"> Large buffers increase memory usage but reduce the chance that the buffers will fill up (in turn increasing response time for transactions on the master, as described in the failure situation "The master <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> instance is not able to send log data to the slave at the same pace as the log is generated" in the topic "Replication failure handling" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">You can also use the properties <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperminlogshippinginterval.dita#rrefproperminlogshippinginterval"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefpropermaxlogshippinginterval.dita#rrefpropermaxlogshippinginterval"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> to tune the rate at which the log is shipped from the master to the slave.</source>
+<seg-source><mrk mid="0" mtype="seg">You can also use the properties <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperminlogshippinginterval.dita#rrefproperminlogshippinginterval"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefpropermaxlogshippinginterval.dita#rrefpropermaxlogshippinginterval"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> to tune the rate at which the log is shipped from the master to the slave.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can also use the properties <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperminlogshippinginterval.dita#rrefproperminlogshippinginterval"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefpropermaxlogshippinginterval.dita#rrefpropermaxlogshippinginterval"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> to tune the rate at which the log is shipped from the master to the slave.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Minimum value</source>
+<seg-source><mrk mid="0" mtype="seg">Minimum value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Minimum value</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">8192 (8 KB).</source>
+<seg-source><mrk mid="0" mtype="seg">8192 (8 KB).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">8192 (8 KB).</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Maximum value</source>
+<seg-source><mrk mid="0" mtype="seg">Maximum value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Maximum value</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The maximum value is 1048576 (1 MB).</source>
+<seg-source><mrk mid="0" mtype="seg">The maximum value is 1048576 (1 MB).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The maximum value is 1048576 (1 MB).</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">32768 bytes (32KB).</source>
+<seg-source><mrk mid="0" mtype="seg">32768 bytes (32KB).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32768 bytes (32KB).</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.replication.logBufferSize=65536<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.replication.logBufferSize=65536<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.replication.logBufferSize=65536<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Scope</source>
+<seg-source><mrk mid="0" mtype="seg">Scope</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scope</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="crefproper51399.dita#crefproper51399/rrefproper41229"&gt;</bpt>system-wide<ept id="1">&lt;/xref&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="crefproper51399.dita#crefproper51399/rrefproper41229"&gt;</bpt>system-wide<ept id="1">&lt;/xref&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="crefproper51399.dita#crefproper51399/rrefproper41229"&gt;</bpt>system-wide<ept id="1">&lt;/xref&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Dynamic or static</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic or static</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic or static</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

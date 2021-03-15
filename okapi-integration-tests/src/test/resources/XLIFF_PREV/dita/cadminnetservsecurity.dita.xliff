@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminnetservsecurity.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Network Server security</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server security</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server security</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">By default, the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server listens only on the localhost. Clients must use the localhost host name to connect.</source>
+<seg-source><mrk mid="0" mtype="seg">By default, the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server listens only on the localhost.</mrk><mrk mid="1" mtype="seg"> Clients must use the localhost host name to connect.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default, the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server listens only on the localhost.</mrk><mrk mid="1" mtype="seg"> Clients must use the localhost host name to connect.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Network Server security</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server security</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server security</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">and security changes</source>
+<seg-source><mrk mid="0" mtype="seg">and security changes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and security changes</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">By default, clients cannot access the Network Server from another host. To enable connections from other hosts, set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.host<ept id="1">&lt;/codeph&gt;</ept> property, or start the Network Server with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>-h<ept id="2">&lt;/codeph&gt;</ept> option in the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>java org.apache.derby.drda.NetworkServerControl start<ept id="3">&lt;/codeph&gt;</ept> command.</source>
+<seg-source><mrk mid="0" mtype="seg">By default, clients cannot access the Network Server from another host.</mrk><mrk mid="1" mtype="seg"> To enable connections from other hosts, set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.host<ept id="1">&lt;/codeph&gt;</ept> property, or start the Network Server with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>-h<ept id="2">&lt;/codeph&gt;</ept> option in the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>java org.apache.derby.drda.NetworkServerControl start<ept id="3">&lt;/codeph&gt;</ept> command.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default, clients cannot access the Network Server from another host.</mrk><mrk mid="1" mtype="seg"> To enable connections from other hosts, set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.host<ept id="1">&lt;/codeph&gt;</ept> property, or start the Network Server with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>-h<ept id="2">&lt;/codeph&gt;</ept> option in the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>java org.apache.derby.drda.NetworkServerControl start<ept id="3">&lt;/codeph&gt;</ept> command.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">In the following example, the server will listen only on the localhost, and clients cannot access the server from another host:</source>
+<seg-source><mrk mid="0" mtype="seg">In the following example, the server will listen only on the localhost, and clients cannot access the server from another host:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the following example, the server will listen only on the localhost, and clients cannot access the server from another host:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl start<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl start<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl start<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">In the following example, the server runs on the host machine <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sampleserver.example.com<ept id="1">&lt;/codeph&gt;</ept> and also listens for clients from other hosts. Clients must specify the server in the URL or DataSource as <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sampleserver.example.com<ept id="2">&lt;/codeph&gt;</ept>:</source>
+<seg-source><mrk mid="0" mtype="seg">In the following example, the server runs on the host machine <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sampleserver.example.com<ept id="1">&lt;/codeph&gt;</ept> and also listens for clients from other hosts.</mrk><mrk mid="1" mtype="seg"> Clients must specify the server in the URL or DataSource as <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sampleserver.example.com<ept id="2">&lt;/codeph&gt;</ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the following example, the server runs on the host machine <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sampleserver.example.com<ept id="1">&lt;/codeph&gt;</ept> and also listens for clients from other hosts.</mrk><mrk mid="1" mtype="seg"> Clients must specify the server in the URL or DataSource as <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>sampleserver.example.com<ept id="2">&lt;/codeph&gt;</ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl start -h sampleserver.example.com<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl start -h sampleserver.example.com<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl start -h sampleserver.example.com<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">To start the Network Server so that it will listen on all interfaces, start with an IP address of <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>0.0.0.0<ept id="1">&lt;/codeph&gt;</ept>, as shown in the following example:</source>
+<seg-source><mrk mid="0" mtype="seg">To start the Network Server so that it will listen on all interfaces, start with an IP address of <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>0.0.0.0<ept id="1">&lt;/codeph&gt;</ept>, as shown in the following example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To start the Network Server so that it will listen on all interfaces, start with an IP address of <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>0.0.0.0<ept id="1">&lt;/codeph&gt;</ept>, as shown in the following example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl start -h 0.0.0.0<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl start -h 0.0.0.0<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl start -h 0.0.0.0<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">A server that is started with the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>-h 0.0.0.0<ept id="1">&lt;/codeph&gt;</ept> option will listen to client requests that originate from both <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>localhost<ept id="2">&lt;/codeph&gt;</ept> and from other machines on the network.</source>
+<seg-source><mrk mid="0" mtype="seg">A server that is started with the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>-h 0.0.0.0<ept id="1">&lt;/codeph&gt;</ept> option will listen to client requests that originate from both <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>localhost<ept id="2">&lt;/codeph&gt;</ept> and from other machines on the network.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A server that is started with the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>-h 0.0.0.0<ept id="1">&lt;/codeph&gt;</ept> option will listen to client requests that originate from both <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>localhost<ept id="2">&lt;/codeph&gt;</ept> and from other machines on the network.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">However, administrative commands (for example, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.drda.NetworkServerControl shutdown<ept id="1">&lt;/codeph&gt;</ept>) can run only on the host where the server was started, even if the server was started with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>-h<ept id="2">&lt;/codeph&gt;</ept> option.</source>
+<seg-source><mrk mid="0" mtype="seg">However, administrative commands (for example, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.drda.NetworkServerControl shutdown<ept id="1">&lt;/codeph&gt;</ept>) can run only on the host where the server was started, even if the server was started with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>-h<ept id="2">&lt;/codeph&gt;</ept> option.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">However, administrative commands (for example, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.drda.NetworkServerControl shutdown<ept id="1">&lt;/codeph&gt;</ept>) can run only on the host where the server was started, even if the server was started with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>-h<ept id="2">&lt;/codeph&gt;</ept> option.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

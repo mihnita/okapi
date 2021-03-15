@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminconfig813694.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Using the NetworkServerControl API</source>
+<seg-source><mrk mid="0" mtype="seg">Using the NetworkServerControl API</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using the NetworkServerControl API</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You need to create an instance of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl<ept id="1">&lt;/codeph&gt;</ept> class if you are using the API.</source>
+<seg-source><mrk mid="0" mtype="seg">You need to create an instance of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl<ept id="1">&lt;/codeph&gt;</ept> class if you are using the API.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You need to create an instance of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl<ept id="1">&lt;/codeph&gt;</ept> class if you are using the API.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">NetworkServerControl class</source>
+<seg-source><mrk mid="0" mtype="seg">NetworkServerControl class</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NetworkServerControl class</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">NetworkServerControl API</source>
+<seg-source><mrk mid="0" mtype="seg">NetworkServerControl API</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NetworkServerControl API</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">NetworkServerControl class and</source>
+<seg-source><mrk mid="0" mtype="seg">NetworkServerControl class and</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NetworkServerControl class and</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">There are four constructors for this class.</source>
+<seg-source><mrk mid="0" mtype="seg">There are four constructors for this class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There are four constructors for this class.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Before enabling connections from other systems, ensure that you are running under a security manager.</source>
+<seg-source><mrk mid="0" mtype="seg">Before enabling connections from other systems, ensure that you are running under a security manager.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Before enabling connections from other systems, ensure that you are running under a security manager.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl()<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl()<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl()<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">This constructor creates an instance that listens either on the default port (1527) or the port that is set by the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.portNumber<ept id="1">&lt;/codeph&gt;</ept> property. It will also listen on the host set by the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.host<ept id="2">&lt;/codeph&gt;</ept> property or the loopback address if the property is not set. This is the default constructor; it does not allow remote connections. It is equivalent to calling <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl(InetAddress.getByName("localhost"),1527)<ept id="3">&lt;/codeph&gt;</ept> if no properties are set.</source>
+<seg-source><mrk mid="0" mtype="seg">This constructor creates an instance that listens either on the default port (1527) or the port that is set by the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.portNumber<ept id="1">&lt;/codeph&gt;</ept> property.</mrk><mrk mid="1" mtype="seg"> It will also listen on the host set by the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.host<ept id="2">&lt;/codeph&gt;</ept> property or the loopback address if the property is not set.</mrk><mrk mid="2" mtype="seg"> This is the default constructor; it does not allow remote connections.</mrk><mrk mid="3" mtype="seg"> It is equivalent to calling <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl(InetAddress.getByName("localhost"),1527)<ept id="3">&lt;/codeph&gt;</ept> if no properties are set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This constructor creates an instance that listens either on the default port (1527) or the port that is set by the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.portNumber<ept id="1">&lt;/codeph&gt;</ept> property.</mrk><mrk mid="1" mtype="seg"> It will also listen on the host set by the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.host<ept id="2">&lt;/codeph&gt;</ept> property or the loopback address if the property is not set.</mrk><mrk mid="2" mtype="seg"> This is the default constructor; it does not allow remote connections.</mrk><mrk mid="3" mtype="seg"> It is equivalent to calling <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl(InetAddress.getByName("localhost"),1527)<ept id="3">&lt;/codeph&gt;</ept> if no properties are set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl(InetAddress address, int portNumber)<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl(InetAddress address, int portNumber)<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl(InetAddress address, int portNumber)<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">This constructor creates an instance that listens on the specified <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>portNumber<ept id="1">&lt;/codeph&gt;</ept> on the specified address. The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>InetAddress<ept id="2">&lt;/codeph&gt;</ept> will be passed to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ServerSocket<ept id="3">&lt;/codeph&gt;</ept>. NULL is an invalid address value. The following examples show how you might allow the Network Server to accept connections from other hosts:</source>
+<seg-source><mrk mid="0" mtype="seg">This constructor creates an instance that listens on the specified <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>portNumber<ept id="1">&lt;/codeph&gt;</ept> on the specified address.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>InetAddress<ept id="2">&lt;/codeph&gt;</ept> will be passed to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ServerSocket<ept id="3">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> NULL is an invalid address value.</mrk><mrk mid="3" mtype="seg"> The following examples show how you might allow the Network Server to accept connections from other hosts:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This constructor creates an instance that listens on the specified <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>portNumber<ept id="1">&lt;/codeph&gt;</ept> on the specified address.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>InetAddress<ept id="2">&lt;/codeph&gt;</ept> will be passed to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ServerSocket<ept id="3">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> NULL is an invalid address value.</mrk><mrk mid="3" mtype="seg"> The following examples show how you might allow the Network Server to accept connections from other hosts:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">// accepts connections from other hosts on an IPv4 system NetworkServerControl serverControl = new NetworkServerControl(InetAddress.getByName("0.0.0.0"),1527);</source>
+<seg-source><mrk mid="0" mtype="seg">// accepts connections from other hosts on an IPv4 system NetworkServerControl serverControl = new NetworkServerControl(InetAddress.getByName("0.0.0.0"),1527);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">// accepts connections from other hosts on an IPv4 system NetworkServerControl serverControl = new NetworkServerControl(InetAddress.getByName("0.0.0.0"),1527);</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">// accepts connections from other hosts on an IPv6 system NetworkServerControl serverControl = new NetworkServerControl(InetAddress.getByName("::"),1527);</source>
+<seg-source><mrk mid="0" mtype="seg">// accepts connections from other hosts on an IPv6 system NetworkServerControl serverControl = new NetworkServerControl(InetAddress.getByName("::"),1527);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">// accepts connections from other hosts on an IPv6 system NetworkServerControl serverControl = new NetworkServerControl(InetAddress.getByName("::"),1527);</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl(String userName, String password)<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl(String userName, String password)<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl(String userName, String password)<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">If a network server should run with user authentication, certain operations like <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl.shutdown()<ept id="1">&lt;/codeph&gt;</ept> require that you provide user credentials. This constructor creates an instance with user credentials, which are then used for operations that require them. In all other aspects, this constructor behaves like <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl()<ept id="2">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If a network server should run with user authentication, certain operations like <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl.shutdown()<ept id="1">&lt;/codeph&gt;</ept> require that you provide user credentials.</mrk><mrk mid="1" mtype="seg"> This constructor creates an instance with user credentials, which are then used for operations that require them.</mrk><mrk mid="2" mtype="seg"> In all other aspects, this constructor behaves like <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl()<ept id="2">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a network server should run with user authentication, certain operations like <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl.shutdown()<ept id="1">&lt;/codeph&gt;</ept> require that you provide user credentials.</mrk><mrk mid="1" mtype="seg"> This constructor creates an instance with user credentials, which are then used for operations that require them.</mrk><mrk mid="2" mtype="seg"> In all other aspects, this constructor behaves like <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl()<ept id="2">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl(InetAddress address, int portNumber, String userName, String password)<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl(InetAddress address, int portNumber, String userName, String password)<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl(InetAddress address, int portNumber, String userName, String password)<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">This constructor creates an instance with user credentials, which are then used for operations that require them. In all other aspects, this constructor behaves like <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl(InetAddress address, int portNumber)<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This constructor creates an instance with user credentials, which are then used for operations that require them.</mrk><mrk mid="1" mtype="seg"> In all other aspects, this constructor behaves like <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl(InetAddress address, int portNumber)<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This constructor creates an instance with user credentials, which are then used for operations that require them.</mrk><mrk mid="1" mtype="seg"> In all other aspects, this constructor behaves like <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NetworkServerControl(InetAddress address, int portNumber)<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

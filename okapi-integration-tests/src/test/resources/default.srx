@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- LGPL see http://languagetool.cvs.sourceforge.net/viewvc/languagetool/JLanguageTool/src/resource/segment.srx -->
+<srx xmlns="http://www.lisa.org/srx20" xmlns:okpsrx="http://okapi.sf.net/srx-extensions" version="2.0">
+  <header segmentsubflows="yes" cascade="yes">
+    <formathandle type="start" include="no"/>
+    <formathandle type="end" include="yes"/>
+    <formathandle type="isolated" include="no"/>
+    <okpsrx:options oneSegmentIncludesAll="no" trimLeadingWhitespaces="no" trimTrailingWhitespaces="yes"/>
+    <okpsrx:sample language="en" useMappedRules="yes">10-10-2001."</okpsrx:sample>
+    <okpsrx:rangeRule/>
+  </header>
+  <body>
+    <languagerules>
+      <languagerule languagerulename="default">
+        <rule break="yes">
+          <beforebreak>((((0[1-9]|[12][0-9]|3[01])[- /.])(0[1-9]|1[012])[- /.](19|20)\d\d|(19|20)\d\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01]))|((0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.])(19|20)\d\d|(19|20)\d\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])|(19|20)\d\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01]))[:?!.]</beforebreak>
+          <afterbreak/>
+        </rule>
+        <rule break="yes">
+          <beforebreak>\n</beforebreak>
+          <afterbreak/>
+        </rule>
+        <!--example:  January 20, 2011. September 12, 2002. June 21, 2013?  or The year is 2020.-->
+        <rule break="yes">
+          <beforebreak>(((Jan(uary)?)|(Feb(ruary)?)|Mar(ch)?|Apr(il)?|Jun(e)?|Jul(y)?|Aug(ust)?|(Sep(t)?((?&lt;=t)ember)?|Oct|Nov|Dec))|(Y|year(\s+)?))(((,)?(\s+)?)(is(\s)?)?(\d+(,)?(\s+)?(\d+)?[:?.])+)</beforebreak>
+          <afterbreak/>
+        </rule>
+        <rule break="no">
+          <beforebreak>\b(Sun|Mon|Tue|Tues|Wed|Weds|Thu|Thur|Thurs|Fri|Sat|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec|Pr|Pres|ie|Inc|Ltd|Corp|max|min|pp|sel|ed|no|DC|comp|Gen|Ex|Lev|Num|Deut|Josh|Judg|Neh|Esth|Ps|Prov|Eccl|Isa|Jer|Lam|Ezek|Dan|Obad|Hab|Zeph|Hag|Zech|Mal|Matt|Rom|Cor|Gal|Eph|Philip|Col|Thes|Tim|Philem|Heb|Pet|Jn|Rev|Ne|Hel|Morm|Moro|Abr|Sam|Kgs|Chr|US|www|lds|pm|am|No|Mar|pp|e\.?\s*g|i\.?\s*e|no|[Vv]ol|[Rr]col|maj|Lt|[Ff]ig|[Ff]igs|[Vv]iz|[Vv]ols|[Aa]pprox|[Ii]ncl|[Dd]ept|min|max|[Gg]ovt|c\.?\s*f|vs)\.</beforebreak>
+          <afterbreak>\s[^\p{Lu}]</afterbreak>
+        </rule>
+        <rule break="no">
+          <beforebreak>\b(St|Gen|Hon|Dr|Mr|Ms|Mrs|Col|Maj|Brig|Sgt|Capt|Cmnd|Sen|Rev|Rep|Revd|A|B|C|D|Dr|E|F|G|H|I|J|K|L|M|N|O|P|Pr|Pres|Q|R|S|T|U|V|W|X|Y|Z|p|Ibid|comp)\.</beforebreak>
+          <afterbreak>\s</afterbreak>
+        </rule>
+        <rule break="no">
+          <beforebreak>([A-Z]\.){2,}</beforebreak>
+          <afterbreak>\s\p{Lu}</afterbreak>
+        </rule>
+        <rule break="no">
+          <beforebreak>\.\s*\.\s*\.'</beforebreak>
+          <afterbreak/>
+        </rule>
+        <rule break="yes">
+          <beforebreak>\.+</beforebreak>
+          <afterbreak>\s+</afterbreak>
+        </rule>
+      </languagerule>
+      <languagerule languagerulename="cjk">
+        <rule break="yes">
+          <beforebreak>[\u3002\ufe52\uff0e\uff61\u2049\ufe56\uff1f\u203c\u2048\u2762\u2763\ufe57\uff01]+</beforebreak>
+          <afterbreak/>
+        </rule>
+      </languagerule>
+      <languagerule languagerulename="thai">
+        <rule break="yes">
+          <beforebreak>[\u0e01-\u0e5b]{30,}</beforebreak>
+          <afterbreak>\s+</afterbreak>
+        </rule>
+      </languagerule>
+      <languagerule languagerulename="khmer">
+        <rule break="yes">
+          <beforebreak>[\u17D4\u17D5]</beforebreak>
+          <afterbreak>\s+</afterbreak>
+        </rule>
+      </languagerule>
+    </languagerules>
+    <maprules>
+      <languagemap languagepattern="[Jj][Aa].*" languagerulename="cjk"/>
+      <languagemap languagepattern="[Zz][Hh].*" languagerulename="cjk"/>
+      <languagemap languagepattern="[Kk][Oo].*" languagerulename="cjk"/>
+      <languagemap languagepattern="[Tt][Hh].*" languagerulename="thai"/>
+      <languagemap languagepattern="[Kk]([Hh]?)[Mm].*" languagerulename="khmer"/>
+      <languagemap languagepattern=".*" languagerulename="default"/>
+    </maprules>
+  </body>
+</srx>

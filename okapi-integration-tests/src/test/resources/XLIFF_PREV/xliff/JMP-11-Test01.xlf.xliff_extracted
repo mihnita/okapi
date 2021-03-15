@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="GDF.xlf" source-language="en" target-language="fr" datatype="x-plaintext" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M28" tool-company="okapi"></tool></header>
+<body>
+<group id="g1" resname="!Specials-test=&lt;&quot;'&amp;>">
+<trans-unit id="S_XStr_LangCode" xml:space="preserve">
+<source xml:lang="en">en</source>
+<seg-source><mrk mid="0" mtype="seg">en</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">fr</mrk></target>
+<alt-trans origin="SourceDoc"><target xml:lang="de">de</target>
+</alt-trans>
+<note>This language's ISO-639 code</note>
+</trans-unit>
+<trans-unit id="S_XStr_Language" xml:space="preserve">
+<source xml:lang="en">English</source>
+<seg-source><mrk mid="0" mtype="seg">English</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">French</mrk></target>
+<alt-trans origin="SourceDoc"><target xml:lang="de">German</target>
+</alt-trans>
+<note>This language's name in English</note>
+</trans-unit>
+<trans-unit id="S_XStr_LangNative" xml:space="preserve">
+<source xml:lang="en">English</source>
+<seg-source><mrk mid="0" mtype="seg">English</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Français</mrk></target>
+<alt-trans origin="SourceDoc"><target xml:lang="de">Deutsch</target>
+</alt-trans>
+<note>This language's name in its own language</note>
+</trans-unit>
+<trans-unit id="S_XStr_Charset" xml:space="preserve">
+<source xml:lang="en">utf-8</source>
+<seg-source><mrk mid="0" mtype="seg">utf-8</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">utf-8</mrk></target>
+<alt-trans origin="SourceDoc"><target xml:lang="de">utf-8</target>
+</alt-trans>
+</trans-unit>
+</group>
+<group id="g2" resname="LinuxOS">
+<group id="g3" resname="Qt">
+<group id="g4" resname="ActivationDlg.cpp">
+<trans-unit id="S_LinActivationDlg_Verify_proxy_settings_or_connect_xxx" restype="x-misc" xml:space="preserve">
+<source xml:lang="en">Verify proxy settings or connection to internet.&lt;br&gt;</source>
+<seg-source><mrk mid="0" mtype="seg">Verify proxy settings or connection to internet.&lt;br&gt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Vérifiez les paramètres proxy ou la connexion à Internet.&lt;br&gt;</mrk></target>
+<alt-trans origin="SourceDoc"><target xml:lang="de">Prüfen Sie die Proxy-Einstellungen oder die Verbindung zum Internet.&lt;br&gt;</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="S_LinActivationDlg_2__Request_Code__xxx" restype="x-misc" xml:space="preserve">
+<source xml:lang="en">2. Request Code:</source>
+<seg-source><mrk mid="0" mtype="seg">2.</mrk><mrk mid="1" mtype="seg"> Request Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2.</mrk><mrk mid="1" mtype="seg"> Code de requête :</mrk></target>
+<alt-trans origin="SourceDoc"><target xml:lang="de">2. Request-Code:</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="TestAltTrans" restype="x-misc" xml:space="preserve">
+<source xml:lang="en">File</source>
+<seg-source><mrk mid="0" mtype="seg">File</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Fichier</mrk></target>
+<alt-trans origin="SourceDoc"><target xml:lang="de">Datei</target>
+</alt-trans>
+<alt-trans origin="SourceDoc"><target xml:lang="de">Ordner</target>
+</alt-trans>
+<alt-trans origin="SourceDoc"><source xml:lang="en">Open File</source>
+<target xml:lang="fr">Ouvrir le fichier</target>
+</alt-trans>
+<alt-trans origin="SourceDoc"><source xml:lang="en">Open File2</source>
+<target xml:lang="fr">Ouvrir le fichier2</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="S_LinActivationDlg__p_Tech_Support_will_then_supply_xxx" restype="x-misc" xml:space="preserve">
+<source xml:lang="en">&lt;p&gt;3. Operating System Type: &amp;lt Linux&amp;gt &lt;p&gt;&lt;p&gt;Tech Support will then supply a 20 digit Response Code that you will need to type into the empty boxes below. If you have access to e-mail, but don't wish to use Internet Activation, you may send the Request Code to GDF Technical Support at support@gdf.com. Tech Support will reply with the Response Code, which needs to be entered into the edit boxes.&lt;p&gt;</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;p&gt;3.</mrk><mrk mid="1" mtype="seg"> Operating System Type: &amp;lt Linux&amp;gt &lt;p&gt;&lt;p&gt;Tech Support will then supply a 20 digit Response Code that you will need to type into the empty boxes below.</mrk><mrk mid="2" mtype="seg"> If you have access to e-mail, but don't wish to use Internet Activation, you may send the Request Code to GDF Technical Support at support@gdf.com.</mrk><mrk mid="3" mtype="seg"> Tech Support will reply with the Response Code, which needs to be entered into the edit boxes.&lt;p&gt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;p&gt;3.</mrk><mrk mid="1" mtype="seg"> Type de système d'exploitation : &amp;lt Linux&amp;gt &lt;p&gt;&lt;p&gt;L'assistance technique fournit alors un code de réponse à 20 chiffres que vous devez saisir dans les cadres vides qui se trouvent ci-dessous.</mrk><mrk mid="2" mtype="seg"> Si vous avez accès au courrier électronique, mais ne voulez pas utiliser l'activation Internet, vous pouvez envoyer le code de requête à l'adresse de l'assistance technique GDF : support@gdf.com.</mrk><mrk mid="3" mtype="seg"> L'assistance technique répondra avec le code de réponse à saisir dans les boîtes d'édition.&lt;p&gt;</mrk></target>
+<alt-trans origin="SourceDoc"><target xml:lang="de">&lt;p&gt;3. Die Art des Betriebssystems: &amp;lt Linux&amp;gt &lt;p&gt;&lt;p&gt;Der technische Support gibt Ihnen dann einen 20-stelligen Response-Code, den Sie in die folgenden leeren Felder eintragen müssen. Wenn Sie E-Mail-Zugang haben, aber keine Internetaktivierung durchführen möchten, können Sie den Request-Code auch per E-Mail an den technischen Support von GDF schicken: support@gdf.com. Der technische Support schickt Ihnen dann eine Antwort mit dem Response-Code, den Sie in die Felder eintragen müssen.&lt;p&gt;</target>
+</alt-trans>
+</trans-unit>
+</group>
+<group id="g5" resname="testGrp2">
+<trans-unit id="S_Lininstaller_To_preserve_the_GDF_submenu_in_t2_xxx" restype="x-misc" xml:space="preserve">
+<source xml:lang="en">To preserve the GDF submenu in the Gnome Foot-menu
+it is necessary to copy files
+ to standard directories which are root protected.
+Thus, the root password will be required to preserve
+ the GDF submenu in future versions
+ of Gnome.
+
+
+Would you like to preserve the GDF submenu?</source>
+<seg-source><mrk mid="0" mtype="seg">To preserve the GDF submenu in the Gnome Foot-menu</mrk>
+<mrk mid="1" mtype="seg">it is necessary to copy files</mrk>
+<mrk mid="2" mtype="seg"> to standard directories which are root protected.</mrk>
+<mrk mid="3" mtype="seg">Thus, the root password will be required to preserve</mrk>
+<mrk mid="4" mtype="seg"> the GDF submenu in future versions</mrk>
+<mrk mid="5" mtype="seg"> of Gnome.</mrk>
+
+
+<mrk mid="6" mtype="seg">Would you like to preserve the GDF submenu?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pour conserver le sous-menu GDF dans le menu de pied de Gnome,</mrk>
+<mrk mid="1" mtype="seg">il est nécessaire de copier les fichiers dans des répertoires standard qui sont protégés à la racine.</mrk>
+<mrk mid="2" mtype="seg">Par conséquent, le mot de passe racine sera demandé pour conserver</mrk>
+<mrk mid="3" mtype="seg">le sous-menu GDF dans les versions futures de Gnome.</mrk>
+
+
+<mrk mid="4" mtype="seg">Souhaitez-vous conserver le sous-menu GDF ?</mrk></target>
+<alt-trans origin="SourceDoc"><target xml:lang="de">Um das GDF-Untermenü im Gnome-Foot-Menü 
+zu erhalten, müssen die Dateien in
+ Standardverzeichnisse kopiert werden, deren Stammverzeichnis geschützt ist.
+Deshalb ist das Kennwort für das Stammverzeichnis erforderlich, um das GDF-
+Untermenü in zukünftigen Versionen von
+Gnome zu erhalten.
+
+
+Möchten Sie das GDF-Untermenü beibehalten?</target>
+</alt-trans>
+</trans-unit>
+</group>
+</group>
+</group>
+</body>
+</file>
+</xliff>

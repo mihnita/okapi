@@ -1,0 +1,28 @@
+#v1
+extractIsolatedStrings.b=false
+extractAllPairs.b=false
+
+# deprecated should now use extraction rules
+exceptions=
+
+useKeyAsName.b=false
+useFullKeyPath.b=true
+useLeadingSlashOnKeyPath.b=true
+useCodeFinder.b=false
+codeFinderRules.count.i=1
+codeFinderRules.rule0=</?([A-Z0-9a-z]*)\b[^>]*>
+codeFinderRules.sample=&name; <tag></at><tag/> <tag attr='val'> </tag="val">
+codeFinderRules.useAllRulesWhenTesting.b=true
+subfilter=okf_html
+
+# extraction rules (use instead of exceptions)
+extractionRules=/widgets/body.*
+
+# note rules
+noteRules=/widgets/name.*
+
+# id rules (overrides useKeyAsName)
+idRules=/widgets/id.*
+
+# generic metadata
+genericMetaRules=/widgets/image.*

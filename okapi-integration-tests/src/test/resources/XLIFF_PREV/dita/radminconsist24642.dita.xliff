@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminconsist24642.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Sample SYSCS_CHECK_TABLE queries</source>
+<seg-source><mrk mid="0" mtype="seg">Sample SYSCS_CHECK_TABLE queries</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sample SYSCS_CHECK_TABLE queries</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">This section provides examples that illustrate how to use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> function in queries.</source>
+<seg-source><mrk mid="0" mtype="seg">This section provides examples that illustrate how to use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> function in queries.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This section provides examples that illustrate how to use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> function in queries.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Queries</source>
+<seg-source><mrk mid="0" mtype="seg">Queries</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Queries</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Sample</source>
+<seg-source><mrk mid="0" mtype="seg">Sample</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sample</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">To check the consistency of a single table, run a query that is similar to the one shown in the following example:</source>
+<seg-source><mrk mid="0" mtype="seg">To check the consistency of a single table, run a query that is similar to the one shown in the following example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To check the consistency of a single table, run a query that is similar to the one shown in the following example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SYSCS_UTIL.SYSCS_CHECK_TABLE('APP', 'FLIGHTS')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SYSCS_UTIL.SYSCS_CHECK_TABLE('APP', 'FLIGHTS')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SYSCS_UTIL.SYSCS_CHECK_TABLE('APP', 'FLIGHTS')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">To check the consistency of all of the tables in a schema, stopping at the first failure, run a query that is similar to the one shown in the following example:</source>
+<seg-source><mrk mid="0" mtype="seg">To check the consistency of all of the tables in a schema, stopping at the first failure, run a query that is similar to the one shown in the following example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To check the consistency of all of the tables in a schema, stopping at the first failure, run a query that is similar to the one shown in the following example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT tablename, SYSCS_UTIL.SYSCS_CHECK_TABLE( 'SAMP', tablename) FROM sys.sysschemas s, sys.systables t WHERE s.schemaname = 'SAMP' AND s.schemaid = t.schemaid<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT tablename, SYSCS_UTIL.SYSCS_CHECK_TABLE( 'SAMP', tablename) FROM sys.sysschemas s, sys.systables t WHERE s.schemaname = 'SAMP' AND s.schemaid = t.schemaid<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT tablename, SYSCS_UTIL.SYSCS_CHECK_TABLE( 'SAMP', tablename) FROM sys.sysschemas s, sys.systables t WHERE s.schemaname = 'SAMP' AND s.schemaid = t.schemaid<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">To check the consistency of an entire database, stopping at the first failure, run a query that is similar to the one shown in the following example::</source>
+<seg-source><mrk mid="0" mtype="seg">To check the consistency of an entire database, stopping at the first failure, run a query that is similar to the one shown in the following example::</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To check the consistency of an entire database, stopping at the first failure, run a query that is similar to the one shown in the following example::</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT schemaname, tablename, SYSCS_UTIL.SYSCS_CHECK_TABLE(schemaname, tablename) FROM sys.sysschemas s, sys.systables t WHERE s.schemaid = t.schemaid<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT schemaname, tablename, SYSCS_UTIL.SYSCS_CHECK_TABLE(schemaname, tablename) FROM sys.sysschemas s, sys.systables t WHERE s.schemaid = t.schemaid<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT schemaname, tablename, SYSCS_UTIL.SYSCS_CHECK_TABLE(schemaname, tablename) FROM sys.sysschemas s, sys.systables t WHERE s.schemaid = t.schemaid<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

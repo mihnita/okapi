@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefclob.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CLOB data type</source>
+<seg-source><mrk mid="0" mtype="seg">CLOB data type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CLOB data type</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">CLOB data type</source>
+<seg-source><mrk mid="0" mtype="seg">CLOB data type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CLOB data type</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">A CLOB (character large object) value can be up to 2,147,483,647 characters long. A CLOB is used to store unicode character-based data, such as large documents in any character set.</source>
+<seg-source><mrk mid="0" mtype="seg">A CLOB (character large object) value can be up to 2,147,483,647 characters long.</mrk><mrk mid="1" mtype="seg"> A CLOB is used to store unicode character-based data, such as large documents in any character set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A CLOB (character large object) value can be up to 2,147,483,647 characters long.</mrk><mrk mid="1" mtype="seg"> A CLOB is used to store unicode character-based data, such as large documents in any character set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The length is given in number characters for both CLOB, unless one of the suffixes K, M, or G is given, relating to the multiples of 1024, 1024*1024, 1024*1024*1024 respectively.</source>
+<seg-source><mrk mid="0" mtype="seg">The length is given in number characters for both CLOB, unless one of the suffixes K, M, or G is given, relating to the multiples of 1024, 1024*1024, 1024*1024*1024 respectively.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The length is given in number characters for both CLOB, unless one of the suffixes K, M, or G is given, relating to the multiples of 1024, 1024*1024, 1024*1024*1024 respectively.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Length is specified in characters (unicode) for CLOB.</source>
+<seg-source><mrk mid="0" mtype="seg">Length is specified in characters (unicode) for CLOB.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Length is specified in characters (unicode) for CLOB.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{CLOB |CHARACTER LARGE OBJECT} [ ( length [{K |M |G}] ) ]<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{CLOB |CHARACTER LARGE OBJECT} [ ( length [{K |M |G}] ) ]<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{CLOB |CHARACTER LARGE OBJECT} [ ( length [{K |M |G}] ) ]<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">A CLOB without a specified length is defaulted to two giga characters (2,147,483,647).</source>
+<seg-source><mrk mid="0" mtype="seg">A CLOB without a specified length is defaulted to two giga characters (2,147,483,647).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A CLOB without a specified length is defaulted to two giga characters (2,147,483,647).</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Corresponding compile-time Java type</source>
+<seg-source><mrk mid="0" mtype="seg">Corresponding compile-time Java type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Corresponding compile-time Java type</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">JDBC metadata type (java.sql.Types)</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC metadata type (java.sql.Types)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC metadata type (java.sql.Types)</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">CLOB</source>
+<seg-source><mrk mid="0" mtype="seg">CLOB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CLOB</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getClob<ept id="1">&lt;/i&gt;</ept> method on the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet<ept id="2">&lt;/i&gt;</ept> to retrieve a CLOB handle to the underlying data.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getClob<ept id="1">&lt;/i&gt;</ept> method on the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet<ept id="2">&lt;/i&gt;</ept> to retrieve a CLOB handle to the underlying data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getClob<ept id="1">&lt;/i&gt;</ept> method on the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet<ept id="2">&lt;/i&gt;</ept> to retrieve a CLOB handle to the underlying data.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Related information</source>
+<seg-source><mrk mid="0" mtype="seg">Related information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related information</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefjdbc96386.dita#rrefjdbc96386"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefjdbc96386.dita#rrefjdbc96386"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefjdbc96386.dita#rrefjdbc96386"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">String url = "jdbc:derby:clobberyclob;create=true"; Connection conn = DriverManager.getConnection(url); Statement s = conn.createStatement(); s.executeUpdate( "CREATE TABLE documents (id INT, text CLOB)"); // - first, create an input stream InputStream fis = new FileInputStream("asciifile.txt"); PreparedStatement ps = conn.prepareStatement( "INSERT INTO documents VALUES (?, ?)"); ps.setInt(1, 1477); // - set the value of the input parameter to the input stream ps.setAsciiStream(2, fis); ps.execute(); // --- reading the columns back ResultSet rs = s.executeQuery( "SELECT text FROM documents WHERE id = 1477"); while (rs.next()) { Clob aclob = rs.getClob(1); InputStream ip = aclob.getAsciiStream(); for (int c = ip.read(); c != -1; c = ip.read()) { System.out.print((char)c); } ip.close(); } s.close(); ps.close(); rs.close(); conn.close();</source>
+<seg-source><mrk mid="0" mtype="seg">String url = "jdbc:derby:clobberyclob;create=true"; Connection conn = DriverManager.getConnection(url); Statement s = conn.createStatement(); s.executeUpdate( "CREATE TABLE documents (id INT, text CLOB)"); // - first, create an input stream InputStream fis = new FileInputStream("asciifile.txt"); PreparedStatement ps = conn.prepareStatement( "INSERT INTO documents VALUES (?, ?)"); ps.setInt(1, 1477); // - set the value of the input parameter to the input stream ps.setAsciiStream(2, fis); ps.execute(); // --- reading the columns back ResultSet rs = s.executeQuery( "SELECT text FROM documents WHERE id = 1477"); while (rs.next()) { Clob aclob = rs.getClob(1); InputStream ip = aclob.getAsciiStream(); for (int c = ip.read(); c != -1; c = ip.read()) { System.out.print((char)c); } ip.close(); } s.close(); ps.close(); rs.close(); conn.close();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String url = "jdbc:derby:clobberyclob;create=true"; Connection conn = DriverManager.getConnection(url); Statement s = conn.createStatement(); s.executeUpdate( "CREATE TABLE documents (id INT, text CLOB)"); // - first, create an input stream InputStream fis = new FileInputStream("asciifile.txt"); PreparedStatement ps = conn.prepareStatement( "INSERT INTO documents VALUES (?, ?)"); ps.setInt(1, 1477); // - set the value of the input parameter to the input stream ps.setAsciiStream(2, fis); ps.execute(); // --- reading the columns back ResultSet rs = s.executeQuery( "SELECT text FROM documents WHERE id = 1477"); while (rs.next()) { Clob aclob = rs.getClob(1); InputStream ip = aclob.getAsciiStream(); for (int c = ip.read(); c != -1; c = ip.read()) { System.out.print((char)c); } ip.close(); } s.close(); ps.close(); rs.close(); conn.close();</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

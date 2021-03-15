@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefcasenullif.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">NULLIF function</source>
+<seg-source><mrk mid="0" mtype="seg">NULLIF function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NULLIF function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The NULLIF function can be used for conditional expressions in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The NULLIF function can be used for conditional expressions in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The NULLIF function can be used for conditional expressions in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">NULLIF function</source>
+<seg-source><mrk mid="0" mtype="seg">NULLIF function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NULLIF function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>NULLIF ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="3">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>NULLIF ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="3">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>NULLIF ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="3">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The NULLIF function is very similar to the CASE expression. It returns NULL if the two arguments are equal, and it returns the first argument if they are not equal. For example,</source>
+<seg-source><mrk mid="0" mtype="seg">The NULLIF function is very similar to the CASE expression.</mrk><mrk mid="1" mtype="seg"> It returns NULL if the two arguments are equal, and it returns the first argument if they are not equal.</mrk><mrk mid="2" mtype="seg"> For example,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The NULLIF function is very similar to the CASE expression.</mrk><mrk mid="1" mtype="seg"> It returns NULL if the two arguments are equal, and it returns the first argument if they are not equal.</mrk><mrk mid="2" mtype="seg"> For example,</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>NULLIF(V1,V2)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>NULLIF(V1,V2)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>NULLIF(V1,V2)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">is equivalent to the following CASE expression:</source>
+<seg-source><mrk mid="0" mtype="seg">is equivalent to the following CASE expression:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">is equivalent to the following CASE expression:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CASE WHEN V1=V2 THEN NULL ELSE V1 END<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CASE WHEN V1=V2 THEN NULL ELSE V1 END<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CASE WHEN V1=V2 THEN NULL ELSE V1 END<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

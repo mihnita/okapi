@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Inline HTML (Simple).md.tkitMerged" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Here's a simple block:</source>
+<seg-source><mrk mid="0" mtype="seg">Here's a simple block:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here's a simple block:</mrk></target>
+</trans-unit>
+<group id="sd1_ssf1" resname="sub-filter:sd1">
+<trans-unit id="sd1_sf1_tu1" resname="sd1_2" xml:space="preserve">
+<source xml:lang="en">
+	foo
+</source>
+<seg-source>
+<mrk mid="0" mtype="seg">	foo</mrk>
+</seg-source>
+<target xml:lang="fr">
+<mrk mid="0" mtype="seg">	foo</mrk>
+</target>
+</trans-unit>
+</group>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">This should be a code block, though:</source>
+<seg-source><mrk mid="0" mtype="seg">This should be a code block, though:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This should be a code block, though:</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;div&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>foo<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/div&gt;<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;div&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>foo<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/div&gt;<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;div&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>foo<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/div&gt;<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">As should this:</source>
+<seg-source><mrk mid="0" mtype="seg">As should this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">As should this:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;div&gt;foo&lt;/div&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;div&gt;foo&lt;/div&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;div&gt;foo&lt;/div&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Now, nested:</source>
+<seg-source><mrk mid="0" mtype="seg">Now, nested:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Now, nested:</mrk></target>
+</trans-unit>
+<group id="sd1_ssf2" resname="sub-filter:sd1">
+<trans-unit id="sd1_sf2_tu1" resname="sd1_2" xml:space="preserve">
+<source xml:lang="en">
+			foo
+		</source>
+<seg-source>
+<mrk mid="0" mtype="seg">			foo</mrk>
+		</seg-source>
+<target xml:lang="fr">
+<mrk mid="0" mtype="seg">			foo</mrk>
+		</target>
+</trans-unit>
+</group>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">This should just be an HTML comment:</source>
+<seg-source><mrk mid="0" mtype="seg">This should just be an HTML comment:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This should just be an HTML comment:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">Multiline:</source>
+<seg-source><mrk mid="0" mtype="seg">Multiline:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multiline:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">Code block:</source>
+<seg-source><mrk mid="0" mtype="seg">Code block:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code block:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;!-- Comment --&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;!-- Comment --&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;!-- Comment --&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu11" xml:space="preserve">
+<source xml:lang="en">Just plain comment, with trailing spaces on the line:</source>
+<seg-source><mrk mid="0" mtype="seg">Just plain comment, with trailing spaces on the line:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Just plain comment, with trailing spaces on the line:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" xml:space="preserve">
+<source xml:lang="en">Code:</source>
+<seg-source><mrk mid="0" mtype="seg">Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;hr /&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;hr /&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;hr /&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu14" xml:space="preserve">
+<source xml:lang="en">Hr's:</source>
+<seg-source><mrk mid="0" mtype="seg">Hr's:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hr's:</mrk></target>
+</trans-unit>
+<group id="sd1_ssf3" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf4" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf5" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf6" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf7" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf8" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf9" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf10" resname="sub-filter:sd1">
+</group>
+<group id="sd1_ssf11" resname="sub-filter:sd1">
+</group>
+</body>
+</file>
+</xliff>

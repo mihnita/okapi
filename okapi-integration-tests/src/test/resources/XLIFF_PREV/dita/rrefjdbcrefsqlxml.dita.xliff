@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbcrefsqlxml.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">java.sql.SQLXML interface</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.SQLXML interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.SQLXML interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">java.sql.SQLXML interface</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.SQLXML interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.SQLXML interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">In JDBC 4.0, java.sql.SQLXML is the mapping for the SQL XML data type. However, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> defines the XML data type and operators only in the SQL layer. There is no JDBC-side support for the XML data type and operators</source>
+<seg-source><mrk mid="0" mtype="seg">In JDBC 4.0, java.sql.SQLXML is the mapping for the SQL XML data type.</mrk><mrk mid="1" mtype="seg"> However, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> defines the XML data type and operators only in the SQL layer.</mrk><mrk mid="2" mtype="seg"> There is no JDBC-side support for the XML data type and operators</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In JDBC 4.0, java.sql.SQLXML is the mapping for the SQL XML data type.</mrk><mrk mid="1" mtype="seg"> However, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> defines the XML data type and operators only in the SQL layer.</mrk><mrk mid="2" mtype="seg"> There is no JDBC-side support for the XML data type and operators</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">You cannot instantiate a java.sql.SQLXML object in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, or bind directly into an XML value or retrieve an XML value directly from a result set. You must bind and retrieve the XML data as Java strings or character streams by explicitly specifying the XML operators, XMLPARSE and XMLSERIALIZE, as part of your SQL queries.</source>
+<seg-source><mrk mid="0" mtype="seg">You cannot instantiate a java.sql.SQLXML object in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, or bind directly into an XML value or retrieve an XML value directly from a result set.</mrk><mrk mid="1" mtype="seg"> You must bind and retrieve the XML data as Java strings or character streams by explicitly specifying the XML operators, XMLPARSE and XMLSERIALIZE, as part of your SQL queries.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You cannot instantiate a java.sql.SQLXML object in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, or bind directly into an XML value or retrieve an XML value directly from a result set.</mrk><mrk mid="1" mtype="seg"> You must bind and retrieve the XML data as Java strings or character streams by explicitly specifying the XML operators, XMLPARSE and XMLSERIALIZE, as part of your SQL queries.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Additionally, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not provide JDBC metatadata support for the XML data type.</source>
+<seg-source><mrk mid="0" mtype="seg">Additionally, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not provide JDBC metatadata support for the XML data type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Additionally, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not provide JDBC metatadata support for the XML data type.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

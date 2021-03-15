@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rreftimestampfunc.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">TIMESTAMP function</source>
+<seg-source><mrk mid="0" mtype="seg">TIMESTAMP function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMESTAMP function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The TIMESTAMP function returns a timestamp from a value or a pair of values.</source>
+<seg-source><mrk mid="0" mtype="seg">The TIMESTAMP function returns a timestamp from a value or a pair of values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The TIMESTAMP function returns a timestamp from a value or a pair of values.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">functions</source>
+<seg-source><mrk mid="0" mtype="seg">functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">TIMESTAMP</source>
+<seg-source><mrk mid="0" mtype="seg">TIMESTAMP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMESTAMP</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">TIMESTAMP function</source>
+<seg-source><mrk mid="0" mtype="seg">TIMESTAMP function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMESTAMP function</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The rules for the arguments depend on whether the second argument is specified:</source>
+<seg-source><mrk mid="0" mtype="seg">The rules for the arguments depend on whether the second argument is specified:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The rules for the arguments depend on whether the second argument is specified:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">If only one argument is specified: It must be a timestamp, a valid string representation of a timestamp, or a string of length 14 that is not a CLOB, LONG VARCHAR, or XML value. A string of length 14 must be a string of digits that represents a valid date and time in the form <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>yyyyxxddhhmmss<ept id="1">&lt;/i&gt;</ept>, where <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>yyyy<ept id="2">&lt;/i&gt;</ept> is the year, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>xx<ept id="3">&lt;/i&gt;</ept> is the month, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>dd<ept id="4">&lt;/i&gt;</ept> is the day, <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>hh<ept id="5">&lt;/i&gt;</ept> is the hour, <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>mm<ept id="6">&lt;/i&gt;</ept> is the minute, and <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ss<ept id="7">&lt;/i&gt;</ept> is the seconds.</source>
+<seg-source><mrk mid="0" mtype="seg">If only one argument is specified: It must be a timestamp, a valid string representation of a timestamp, or a string of length 14 that is not a CLOB, LONG VARCHAR, or XML value.</mrk><mrk mid="1" mtype="seg"> A string of length 14 must be a string of digits that represents a valid date and time in the form <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>yyyyxxddhhmmss<ept id="1">&lt;/i&gt;</ept>, where <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>yyyy<ept id="2">&lt;/i&gt;</ept> is the year, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>xx<ept id="3">&lt;/i&gt;</ept> is the month, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>dd<ept id="4">&lt;/i&gt;</ept> is the day, <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>hh<ept id="5">&lt;/i&gt;</ept> is the hour, <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>mm<ept id="6">&lt;/i&gt;</ept> is the minute, and <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ss<ept id="7">&lt;/i&gt;</ept> is the seconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If only one argument is specified: It must be a timestamp, a valid string representation of a timestamp, or a string of length 14 that is not a CLOB, LONG VARCHAR, or XML value.</mrk><mrk mid="1" mtype="seg"> A string of length 14 must be a string of digits that represents a valid date and time in the form <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>yyyyxxddhhmmss<ept id="1">&lt;/i&gt;</ept>, where <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>yyyy<ept id="2">&lt;/i&gt;</ept> is the year, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>xx<ept id="3">&lt;/i&gt;</ept> is the month, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>dd<ept id="4">&lt;/i&gt;</ept> is the day, <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>hh<ept id="5">&lt;/i&gt;</ept> is the hour, <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>mm<ept id="6">&lt;/i&gt;</ept> is the minute, and <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ss<ept id="7">&lt;/i&gt;</ept> is the seconds.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If both arguments are specified: The first argument must be a date or a valid string representation of a date and the second argument must be a time or a valid string representation of a time.</source>
+<seg-source><mrk mid="0" mtype="seg">If both arguments are specified: The first argument must be a date or a valid string representation of a date and the second argument must be a time or a valid string representation of a time.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If both arguments are specified: The first argument must be a date or a valid string representation of a date and the second argument must be a time or a valid string representation of a time.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The other rules depend on whether the second argument is specified:</source>
+<seg-source><mrk mid="0" mtype="seg">The other rules depend on whether the second argument is specified:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The other rules depend on whether the second argument is specified:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If both arguments are specified: The result is a timestamp with the date specified by the first argument and the time specified by the second argument. The microsecond part of the timestamp is zero.</source>
+<seg-source><mrk mid="0" mtype="seg">If both arguments are specified: The result is a timestamp with the date specified by the first argument and the time specified by the second argument.</mrk><mrk mid="1" mtype="seg"> The microsecond part of the timestamp is zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If both arguments are specified: The result is a timestamp with the date specified by the first argument and the time specified by the second argument.</mrk><mrk mid="1" mtype="seg"> The microsecond part of the timestamp is zero.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">If only one argument is specified and it is a timestamp: The result is that timestamp.</source>
+<seg-source><mrk mid="0" mtype="seg">If only one argument is specified and it is a timestamp: The result is that timestamp.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If only one argument is specified and it is a timestamp: The result is that timestamp.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">If only one argument is specified and it is a string: The result is the timestamp represented by that string. If the argument is a string of length 14, the timestamp has a microsecond part of zero.</source>
+<seg-source><mrk mid="0" mtype="seg">If only one argument is specified and it is a string: The result is the timestamp represented by that string.</mrk><mrk mid="1" mtype="seg"> If the argument is a string of length 14, the timestamp has a microsecond part of zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If only one argument is specified and it is a string: The result is the timestamp represented by that string.</mrk><mrk mid="1" mtype="seg"> If the argument is a string of length 14, the timestamp has a microsecond part of zero.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>TIMESTAMP ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> [ , <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="3">&lt;/i&gt;</ept> ] )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>TIMESTAMP ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> [ , <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="3">&lt;/i&gt;</ept> ] )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>TIMESTAMP ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> [ , <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="3">&lt;/i&gt;</ept> ] )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">The second column in table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>records_table<ept id="1">&lt;/codeph&gt;</ept> contains dates (such as 1998-12-25) and the third column contains times of day (such as 17:12:30). You can return the timestamp with this statement:</source>
+<seg-source><mrk mid="0" mtype="seg">The second column in table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>records_table<ept id="1">&lt;/codeph&gt;</ept> contains dates (such as 1998-12-25) and the third column contains times of day (such as 17:12:30).</mrk><mrk mid="1" mtype="seg"> You can return the timestamp with this statement:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The second column in table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>records_table<ept id="1">&lt;/codeph&gt;</ept> contains dates (such as 1998-12-25) and the third column contains times of day (such as 17:12:30).</mrk><mrk mid="1" mtype="seg"> You can return the timestamp with this statement:</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT TIMESTAMP(col2, col3) FROM records_table<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT TIMESTAMP(col2, col3) FROM records_table<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT TIMESTAMP(col2, col3) FROM records_table<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">The following clause returns the value <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>1998-12-25-17:12:30.0<ept id="1">&lt;/codeph&gt;</ept>:</source>
+<seg-source><mrk mid="0" mtype="seg">The following clause returns the value <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>1998-12-25-17:12:30.0<ept id="1">&lt;/codeph&gt;</ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following clause returns the value <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>1998-12-25-17:12:30.0<ept id="1">&lt;/codeph&gt;</ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES TIMESTAMP('1998-12-25', '17.12.30'); 1 -------------------------- 1998-12-25 17:12:30.0 <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES TIMESTAMP('1998-12-25', '17.12.30'); 1 -------------------------- 1998-12-25 17:12:30.0 <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES TIMESTAMP('1998-12-25', '17.12.30'); 1 -------------------------- 1998-12-25 17:12:30.0 <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="ImportTest2A.tmx" source-language="en" target-language="fr" datatype="x-application/x-tmx+xml" okp:inputEncoding="UTF-16LE">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" resname="1">
+<source xml:lang="en">The big <bpt id="1" ctype="x-Xpt">&lt;b&gt;</bpt>black<ept id="1">&lt;/b&gt;</ept> <bpt id="2" ctype="x-Xpt">&lt;u&gt;</bpt>cat<ept id="2">&lt;/u&gt;</ept> sleeps.</source>
+<seg-source><mrk mid="0" mtype="seg">The big <bpt id="1" ctype="x-Xpt">&lt;b&gt;</bpt>black<ept id="1">&lt;/b&gt;</ept> <bpt id="2" ctype="x-Xpt">&lt;u&gt;</bpt>cat<ept id="2">&lt;/u&gt;</ept> sleeps.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Le gros <bpt id="2" ctype="x-Xpt">&lt;u&gt;</bpt>chat<ept id="2">&lt;/u&gt;</ept> <bpt id="1" ctype="x-Xpt">&lt;b&gt;</bpt>noir<ept id="1">&lt;/b&gt;</ept> dors.</mrk></target>
+</trans-unit>
+<trans-unit id="2" resname="2">
+<source xml:lang="en">Test for special characters = <bpt id="1" ctype="x-Xpt">&lt;b&gt;</bpt>&lt;<ept id="1">&lt;/b&gt;</ept>=lt, <bpt id="2" ctype="x-Xpt">&lt;b&gt;</bpt>&gt;<ept id="2">&lt;/b&gt;</ept>=gt, <bpt id="3" ctype="x-Xpt">&lt;b&gt;</bpt>&amp;<ept id="3">&lt;/b&gt;</ept>=amp, <bpt id="4" ctype="x-Xpt">&lt;b&gt;</bpt>"<ept id="4">&lt;/b&gt;</ept>=quot.</source>
+<seg-source><mrk mid="0" mtype="seg">Test for special characters = <bpt id="1" ctype="x-Xpt">&lt;b&gt;</bpt>&lt;<ept id="1">&lt;/b&gt;</ept>=lt, <bpt id="2" ctype="x-Xpt">&lt;b&gt;</bpt>&gt;<ept id="2">&lt;/b&gt;</ept>=gt, <bpt id="3" ctype="x-Xpt">&lt;b&gt;</bpt>&amp;<ept id="3">&lt;/b&gt;</ept>=amp, <bpt id="4" ctype="x-Xpt">&lt;b&gt;</bpt>"<ept id="4">&lt;/b&gt;</ept>=quot.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test pour caractères spéciaux = <bpt id="1" ctype="x-Xpt">&lt;b&gt;</bpt>&lt;<ept id="1">&lt;/b&gt;</ept>=lt, <bpt id="2" ctype="x-Xpt">&lt;b&gt;</bpt>&gt;<ept id="2">&lt;/b&gt;</ept>=gt, <bpt id="3" ctype="x-Xpt">&lt;b&gt;</bpt>&amp;<ept id="3">&lt;/b&gt;</ept>=amp, <bpt id="4" ctype="x-Xpt">&lt;b&gt;</bpt>"<ept id="4">&lt;/b&gt;</ept>=quot.</mrk></target>
+</trans-unit>
+<trans-unit id="3" resname="3">
+<source xml:lang="en">Nested formatting = <bpt id="1" ctype="x-Xpt">&lt;b&gt;</bpt><bpt id="2" ctype="x-Xpt">&lt;i&gt;</bpt><bpt id="3" ctype="x-Xpt">&lt;u&gt;</bpt>Bold+Italic+Underlined<ept id="3">&lt;/u&gt;</ept>, Bold+Italic<ept id="2">&lt;/i&gt;</ept>, Bold<ept id="1">&lt;/b&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Nested formatting = <bpt id="1" ctype="x-Xpt">&lt;b&gt;</bpt><bpt id="2" ctype="x-Xpt">&lt;i&gt;</bpt><bpt id="3" ctype="x-Xpt">&lt;u&gt;</bpt>Bold+Italic+Underlined<ept id="3">&lt;/u&gt;</ept>, Bold+Italic<ept id="2">&lt;/i&gt;</ept>, Bold<ept id="1">&lt;/b&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Format en gigogne = <bpt id="1" ctype="x-Xpt">&lt;b&gt;</bpt><bpt id="2" ctype="x-Xpt">&lt;i&gt;</bpt><bpt id="3" ctype="x-Xpt">&lt;u&gt;</bpt>gras+italique+souligné<ept id="3">&lt;/u&gt;</ept>, gras+italique<ept id="2">&lt;/i&gt;</ept>, gras<ept id="1">&lt;/b&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="4" resname="4">
+<source xml:lang="en">First <it id="1" ctype="x-it" pos="open">&lt;b&gt;</it>sentence.</source>
+<seg-source><mrk mid="0" mtype="seg">First <it id="1" ctype="x-it" pos="open">&lt;b&gt;</it>sentence.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Première <bpt id="1" ctype="x-it">&lt;b&gt;</bpt>phrase.</mrk></target>
+</trans-unit>
+<trans-unit id="5" resname="5">
+<source xml:lang="en">Second<it id="1" ctype="x-it" pos="close">&lt;/b&gt;</it> sentence.</source>
+<seg-source><mrk mid="0" mtype="seg">Second<it id="1" ctype="x-it" pos="close">&lt;/b&gt;</it> sentence.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Seconde<ept id="1">&lt;/b&gt;</ept> phrase.</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Picture: <ph id="1" ctype="x-ph">&lt;img src="img.png"/&gt;</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Picture: <ph id="1" ctype="x-ph">&lt;img src="img.png"/&gt;</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Image: <ph id="1" ctype="x-ph">&lt;img src="img.png"/&gt;</ph></mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Some text with <bpt id="1" ctype="x-hi">&lt;hi x="1" type="special-part"&gt;</bpt>a part highlighted<ept id="1">&lt;/hi&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Some text with <bpt id="1" ctype="x-hi">&lt;hi x="1" type="special-part"&gt;</bpt>a part highlighted<ept id="1">&lt;/hi&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Du texte avec <bpt id="1" ctype="x-hi">&lt;hi x="1" type="special-part"&gt;</bpt>une portion délimitée<ept id="1">&lt;/hi&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

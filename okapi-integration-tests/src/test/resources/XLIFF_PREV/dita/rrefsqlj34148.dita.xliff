@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj34148.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">DROP TABLE statement</source>
+<seg-source><mrk mid="0" mtype="seg">DROP TABLE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DROP TABLE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">DROP TABLE statement</source>
+<seg-source><mrk mid="0" mtype="seg">DROP TABLE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DROP TABLE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Tables</source>
+<seg-source><mrk mid="0" mtype="seg">Tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">dropping</source>
+<seg-source><mrk mid="0" mtype="seg">dropping</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dropping</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">DROP TABLE removes the specified table.</source>
+<seg-source><mrk mid="0" mtype="seg">DROP TABLE removes the specified table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DROP TABLE removes the specified table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP TABLE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP TABLE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP TABLE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Statement dependency system</source>
+<seg-source><mrk mid="0" mtype="seg">Statement dependency system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Statement dependency system</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Triggers, constraints (primary, unique, check and references from the table being dropped) and indexes on the table are silently dropped. The existence of an open cursor that references a table being dropped causes the DROP TABLE statement to generate an error, and the table is not dropped.</source>
+<seg-source><mrk mid="0" mtype="seg">Triggers, constraints (primary, unique, check and references from the table being dropped) and indexes on the table are silently dropped.</mrk><mrk mid="1" mtype="seg"> The existence of an open cursor that references a table being dropped causes the DROP TABLE statement to generate an error, and the table is not dropped.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Triggers, constraints (primary, unique, check and references from the table being dropped) and indexes on the table are silently dropped.</mrk><mrk mid="1" mtype="seg"> The existence of an open cursor that references a table being dropped causes the DROP TABLE statement to generate an error, and the table is not dropped.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The DROP TABLE statement will also generate an error if the table is used in a view or trigger.</source>
+<seg-source><mrk mid="0" mtype="seg">The DROP TABLE statement will also generate an error if the table is used in a view or trigger.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The DROP TABLE statement will also generate an error if the table is used in a view or trigger.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Dropping a table invalidates statements that depend on the table. (Invalidating a statement causes it to be recompiled upon the next execution. See <bpt id="1" ctype="x-xref">&lt;xref href="crefsqlj22771.dita#crefsqlj22771"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.)</source>
+<seg-source><mrk mid="0" mtype="seg">Dropping a table invalidates statements that depend on the table.</mrk><mrk mid="1" mtype="seg"> (Invalidating a statement causes it to be recompiled upon the next execution.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="crefsqlj22771.dita#crefsqlj22771"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dropping a table invalidates statements that depend on the table.</mrk><mrk mid="1" mtype="seg"> (Invalidating a statement causes it to be recompiled upon the next execution.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="crefsqlj22771.dita#crefsqlj22771"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.)</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

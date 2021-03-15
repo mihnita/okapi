@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdvlp30653.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database limitations</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database limitations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database limitations</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> databases have a few limitations.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> databases have a few limitations.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> databases have a few limitations.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">limitations</source>
+<seg-source><mrk mid="0" mtype="seg">limitations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">limitations</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Derby databases</source>
+<seg-source><mrk mid="0" mtype="seg">Derby databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Derby databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">indexes</source>
+<seg-source><mrk mid="0" mtype="seg">indexes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indexes</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">limitations</source>
+<seg-source><mrk mid="0" mtype="seg">limitations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">limitations</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Indexes</source>
+<seg-source><mrk mid="0" mtype="seg">Indexes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indexes</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Indexes are not supported for columns defined on CLOB, BLOB, LONG VARCHAR, and XML data types.</source>
+<seg-source><mrk mid="0" mtype="seg">Indexes are not supported for columns defined on CLOB, BLOB, LONG VARCHAR, and XML data types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indexes are not supported for columns defined on CLOB, BLOB, LONG VARCHAR, and XML data types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">If the length of the key columns in an index is larger than half the page size of the index, creating an index on those key columns for the table fails. For existing indexes, an insert of new rows for which the key columns are larger than half of the index page size causes the insert to fail.</source>
+<seg-source><mrk mid="0" mtype="seg">If the length of the key columns in an index is larger than half the page size of the index, creating an index on those key columns for the table fails.</mrk><mrk mid="1" mtype="seg"> For existing indexes, an insert of new rows for which the key columns are larger than half of the index page size causes the insert to fail.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the length of the key columns in an index is larger than half the page size of the index, creating an index on those key columns for the table fails.</mrk><mrk mid="1" mtype="seg"> For existing indexes, an insert of new rows for which the key columns are larger than half of the index page size causes the insert to fail.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Avoid creating indexes on long columns. Create indexes on small columns that provide a quick look-up to larger, unwieldy data in the row. You might not see performance improvements if you index long columns. For information about indexes, see <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Avoid creating indexes on long columns.</mrk><mrk mid="1" mtype="seg"> Create indexes on small columns that provide a quick look-up to larger, unwieldy data in the row.</mrk><mrk mid="2" mtype="seg"> You might not see performance improvements if you index long columns.</mrk><mrk mid="3" mtype="seg"> For information about indexes, see <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Avoid creating indexes on long columns.</mrk><mrk mid="1" mtype="seg"> Create indexes on small columns that provide a quick look-up to larger, unwieldy data in the row.</mrk><mrk mid="2" mtype="seg"> You might not see performance improvements if you index long columns.</mrk><mrk mid="3" mtype="seg"> For information about indexes, see <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">System shutdowns</source>
+<seg-source><mrk mid="0" mtype="seg">System shutdowns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">System shutdowns</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The system shuts down if the database log cannot allocate more disk space.</source>
+<seg-source><mrk mid="0" mtype="seg">The system shuts down if the database log cannot allocate more disk space.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The system shuts down if the database log cannot allocate more disk space.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">A "LogFull" error or some sort of <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>IOException<ept id="1">&lt;/codeph&gt;</ept> occurs in the <bpt id="2" ctype="x-filepath">&lt;filepath&gt;</bpt>derby.log<ept id="2">&lt;/filepath&gt;</ept> file when the system runs out of space. If the system has no more disk space to append to the <bpt id="3" ctype="x-filepath">&lt;filepath&gt;</bpt>derby.log<ept id="3">&lt;/filepath&gt;</ept> file, you might not see the error messages.</source>
+<seg-source><mrk mid="0" mtype="seg">A "LogFull" error or some sort of <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>IOException<ept id="1">&lt;/codeph&gt;</ept> occurs in the <bpt id="2" ctype="x-filepath">&lt;filepath&gt;</bpt>derby.log<ept id="2">&lt;/filepath&gt;</ept> file when the system runs out of space.</mrk><mrk mid="1" mtype="seg"> If the system has no more disk space to append to the <bpt id="3" ctype="x-filepath">&lt;filepath&gt;</bpt>derby.log<ept id="3">&lt;/filepath&gt;</ept> file, you might not see the error messages.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A "LogFull" error or some sort of <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>IOException<ept id="1">&lt;/codeph&gt;</ept> occurs in the <bpt id="2" ctype="x-filepath">&lt;filepath&gt;</bpt>derby.log<ept id="2">&lt;/filepath&gt;</ept> file when the system runs out of space.</mrk><mrk mid="1" mtype="seg"> If the system has no more disk space to append to the <bpt id="3" ctype="x-filepath">&lt;filepath&gt;</bpt>derby.log<ept id="3">&lt;/filepath&gt;</ept> file, you might not see the error messages.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

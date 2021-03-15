@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj40899.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Concatenation operator</source>
+<seg-source><mrk mid="0" mtype="seg">Concatenation operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Concatenation operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The concatenation operator, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>||<ept id="1">&lt;/codeph&gt;</ept>, concatenates its right operand to the end of its left operand. It operates on character or bit expressions.</source>
+<seg-source><mrk mid="0" mtype="seg">The concatenation operator, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>||<ept id="1">&lt;/codeph&gt;</ept>, concatenates its right operand to the end of its left operand.</mrk><mrk mid="1" mtype="seg"> It operates on character or bit expressions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The concatenation operator, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>||<ept id="1">&lt;/codeph&gt;</ept>, concatenates its right operand to the end of its left operand.</mrk><mrk mid="1" mtype="seg"> It operates on character or bit expressions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Concatenation operator</source>
+<seg-source><mrk mid="0" mtype="seg">Concatenation operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Concatenation operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Because all built-in data types are implicitly converted to strings, this function can act on all built-in data types.</source>
+<seg-source><mrk mid="0" mtype="seg">Because all built-in data types are implicitly converted to strings, this function can act on all built-in data types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Because all built-in data types are implicitly converted to strings, this function can act on all built-in data types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> || <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="3">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>bitExpression<ept id="4">&lt;/i&gt;</ept> || <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>bitExpression<ept id="5">&lt;/i&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> || <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="3">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>bitExpression<ept id="4">&lt;/i&gt;</ept> || <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>bitExpression<ept id="5">&lt;/i&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> || <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="3">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>bitExpression<ept id="4">&lt;/i&gt;</ept> || <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>bitExpression<ept id="5">&lt;/i&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">For character strings, if both the left and right operands are of type CHAR, the resulting type is CHAR; otherwise, it is VARCHAR. The normal blank padding/trimming rules for CHAR and VARCHAR apply to the result of this operator.</source>
+<seg-source><mrk mid="0" mtype="seg">For character strings, if both the left and right operands are of type CHAR, the resulting type is CHAR; otherwise, it is VARCHAR.</mrk><mrk mid="1" mtype="seg"> The normal blank padding/trimming rules for CHAR and VARCHAR apply to the result of this operator.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For character strings, if both the left and right operands are of type CHAR, the resulting type is CHAR; otherwise, it is VARCHAR.</mrk><mrk mid="1" mtype="seg"> The normal blank padding/trimming rules for CHAR and VARCHAR apply to the result of this operator.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The length of the resulting string is the sum of the lengths of both operands.</source>
+<seg-source><mrk mid="0" mtype="seg">The length of the resulting string is the sum of the lengths of both operands.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The length of the resulting string is the sum of the lengths of both operands.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">For bit strings, if both the left and the right operands are of type CHAR FOR BIT DATA, the resulting type is CHAR FOR BIT DATA; otherwise, it is VARCHAR FOR BIT DATA.</source>
+<seg-source><mrk mid="0" mtype="seg">For bit strings, if both the left and the right operands are of type CHAR FOR BIT DATA, the resulting type is CHAR FOR BIT DATA; otherwise, it is VARCHAR FOR BIT DATA.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For bit strings, if both the left and the right operands are of type CHAR FOR BIT DATA, the resulting type is CHAR FOR BIT DATA; otherwise, it is VARCHAR FOR BIT DATA.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 'supercalifragilisticexbealidocious(sp?)'<ept id="2">&lt;/ph&gt;</ept> VALUES 'supercalifragilistic' || 'exbealidocious' || '(sp?)' <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- returns NULL<ept id="3">&lt;/ph&gt;</ept> VALUES CAST (null AS VARCHAR(7))|| 'AString' <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- returns '130asdf'<ept id="4">&lt;/ph&gt;</ept> VALUES '130' || 'asdf'<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 'supercalifragilisticexbealidocious(sp?)'<ept id="2">&lt;/ph&gt;</ept> VALUES 'supercalifragilistic' || 'exbealidocious' || '(sp?)' <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- returns NULL<ept id="3">&lt;/ph&gt;</ept> VALUES CAST (null AS VARCHAR(7))|| 'AString' <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- returns '130asdf'<ept id="4">&lt;/ph&gt;</ept> VALUES '130' || 'asdf'<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 'supercalifragilisticexbealidocious(sp?)'<ept id="2">&lt;/ph&gt;</ept> VALUES 'supercalifragilistic' || 'exbealidocious' || '(sp?)' <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- returns NULL<ept id="3">&lt;/ph&gt;</ept> VALUES CAST (null AS VARCHAR(7))|| 'AString' <bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>-- returns '130asdf'<ept id="4">&lt;/ph&gt;</ept> VALUES '130' || 'asdf'<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

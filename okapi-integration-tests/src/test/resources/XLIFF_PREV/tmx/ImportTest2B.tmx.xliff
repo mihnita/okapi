@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="ImportTest2B.tmx" source-language="en" target-language="fr" datatype="x-application/x-tmx+xml" okp:inputEncoding="UTF-16LE">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" resname="1">
+<source xml:lang="en">The big <bpt id="1" ctype="x-Xpt">{\b </bpt>black<ept id="1">}</ept> <bpt id="2" ctype="x-Xpt">{\ul </bpt>cat<ept id="2">}</ept> sleeps.</source>
+<seg-source><mrk mid="0" mtype="seg">The big <bpt id="1" ctype="x-Xpt">{\b </bpt>black<ept id="1">}</ept> <bpt id="2" ctype="x-Xpt">{\ul </bpt>cat<ept id="2">}</ept> sleeps.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Le gros <bpt id="2" ctype="x-Xpt">{\ul </bpt>chat<ept id="2">}</ept> <bpt id="1" ctype="x-Xpt">{\b </bpt>noir<ept id="1">}</ept> dors.</mrk></target>
+</trans-unit>
+<trans-unit id="2" resname="2">
+<source xml:lang="en">Test for special characters = <bpt id="1" ctype="x-Xpt">{\b </bpt>&lt;<ept id="1">}</ept>=lt, <bpt id="2" ctype="x-Xpt">{\b </bpt>&gt;<ept id="2">}</ept>=gt, <bpt id="3" ctype="x-Xpt">{\b </bpt>&amp;<ept id="3">}</ept>=amp, <bpt id="4" ctype="x-Xpt">{\b </bpt>"<ept id="4">}</ept>=quot.</source>
+<seg-source><mrk mid="0" mtype="seg">Test for special characters = <bpt id="1" ctype="x-Xpt">{\b </bpt>&lt;<ept id="1">}</ept>=lt, <bpt id="2" ctype="x-Xpt">{\b </bpt>&gt;<ept id="2">}</ept>=gt, <bpt id="3" ctype="x-Xpt">{\b </bpt>&amp;<ept id="3">}</ept>=amp, <bpt id="4" ctype="x-Xpt">{\b </bpt>"<ept id="4">}</ept>=quot.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test pour caractères spéciaux = <bpt id="1" ctype="x-Xpt">{\b </bpt>&lt;<ept id="1">}</ept>=lt, <bpt id="2" ctype="x-Xpt">{\b </bpt>&gt;<ept id="2">}</ept>=gt, <bpt id="3" ctype="x-Xpt">{\b </bpt>&amp;<ept id="3">}</ept>=amp, <bpt id="4" ctype="x-Xpt">{\b </bpt>"<ept id="4">}</ept>=quot.</mrk></target>
+</trans-unit>
+<trans-unit id="3" resname="3">
+<source xml:lang="en">Nested formatting = <bpt id="1" ctype="x-Xpt">{\b </bpt><bpt id="2" ctype="x-Xpt">{\i </bpt><bpt id="3" ctype="x-Xpt">{\ul </bpt>Bold+Italic+Underlined<ept id="3">}</ept>, Bold+Italic<ept id="2">}</ept>, Bold<ept id="1">}</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Nested formatting = <bpt id="1" ctype="x-Xpt">{\b </bpt><bpt id="2" ctype="x-Xpt">{\i </bpt><bpt id="3" ctype="x-Xpt">{\ul </bpt>Bold+Italic+Underlined<ept id="3">}</ept>, Bold+Italic<ept id="2">}</ept>, Bold<ept id="1">}</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Format en gigogne = <bpt id="1" ctype="x-Xpt">{\b </bpt><bpt id="2" ctype="x-Xpt">{\i </bpt><bpt id="3" ctype="x-Xpt">{\ul </bpt>gras+italique+souligné<ept id="3">}</ept>, gras+italique<ept id="2">}</ept>, gras<ept id="1">}</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="4" resname="4">
+<source xml:lang="en">First <it id="1" ctype="x-it" pos="open">{\b </it>sentence.</source>
+<seg-source><mrk mid="0" mtype="seg">First <it id="1" ctype="x-it" pos="open">{\b </it>sentence.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Première <bpt id="1" ctype="x-it">{\b </bpt>phrase.</mrk></target>
+</trans-unit>
+<trans-unit id="5" resname="5">
+<source xml:lang="en">Second<it id="1" ctype="x-it" pos="close">}</it> sentence.</source>
+<seg-source><mrk mid="0" mtype="seg">Second<it id="1" ctype="x-it" pos="close">}</it> sentence.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Seconde<ept id="1">}</ept> phrase.</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Picture: <ph id="1" ctype="x-ph"></ph></source>
+<seg-source><mrk mid="0" mtype="seg">Picture: <ph id="1" ctype="x-ph"></ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Image: <ph id="1" ctype="x-ph"></ph></mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Some text with <bpt id="1" ctype="x-hi">&lt;hi x="1" type="special-part"&gt;</bpt>a part highlighted<ept id="1">&lt;/hi&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Some text with <bpt id="1" ctype="x-hi">&lt;hi x="1" type="special-part"&gt;</bpt>a part highlighted<ept id="1">&lt;/hi&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Du text avec <bpt id="1" ctype="x-hi">&lt;hi x="1" type="special-part"&gt;</bpt>une portion délimitée<ept id="1">&lt;/hi&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

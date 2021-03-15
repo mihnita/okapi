@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="unknown" source-language="en" target-language="fr" datatype="x-text/x-tex-text" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">An Example Document</source>
+<seg-source><mrk mid="0" mtype="seg">An Example Document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An Example Document</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Leslie Lamport</source>
+<seg-source><mrk mid="0" mtype="seg">Leslie Lamport</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Leslie Lamport</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">             <ph id="1" ctype="x-COMMAND">% End of preamble and beginning of text.</ph><ph id="2" ctype="x-COMMAND">
+</ph><ph id="3" ctype="x-COMMAND">
+</ph><ph id="4" ctype="x-COMMAND">\maketitle  </ph>                  <ph id="5" ctype="x-COMMAND">% Produces the title.</ph><ph id="6" ctype="x-COMMAND">
+</ph><ph id="7" ctype="x-COMMAND">
+</ph>This is an example input file.  Comparing it with<ph id="8" ctype="x-COMMAND">
+</ph>the output it generates can show you how to<ph id="9" ctype="x-COMMAND">
+</ph>produce a simple document of your own.<ph id="10" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">             <ph id="1" ctype="x-COMMAND">% End of preamble and beginning of text.</ph><ph id="2" ctype="x-COMMAND">
+</ph><ph id="3" ctype="x-COMMAND">
+</ph><ph id="4" ctype="x-COMMAND">\maketitle  </ph>                  <ph id="5" ctype="x-COMMAND">% Produces the title.</ph><ph id="6" ctype="x-COMMAND">
+</ph><ph id="7" ctype="x-COMMAND">
+</ph>This is an example input file.</mrk><mrk mid="1" mtype="seg">  Comparing it with<ph id="8" ctype="x-COMMAND">
+</ph>the output it generates can show you how to<ph id="9" ctype="x-COMMAND">
+</ph>produce a simple document of your own.<ph id="10" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">             <ph id="1" ctype="x-COMMAND">% End of preamble and beginning of text.</ph><ph id="2" ctype="x-COMMAND">
+</ph><ph id="3" ctype="x-COMMAND">
+</ph><ph id="4" ctype="x-COMMAND">\maketitle  </ph>                  <ph id="5" ctype="x-COMMAND">% Produces the title.</ph><ph id="6" ctype="x-COMMAND">
+</ph><ph id="7" ctype="x-COMMAND">
+</ph>This is an example input file.</mrk><mrk mid="1" mtype="seg">  Comparing it with<ph id="8" ctype="x-COMMAND">
+</ph>the output it generates can show you how to<ph id="9" ctype="x-COMMAND">
+</ph>produce a simple document of your own.<ph id="10" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Ordinary Text</source>
+<seg-source><mrk mid="0" mtype="seg">Ordinary Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ordinary Text</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">      <ph id="1" ctype="x-COMMAND">% Produces section heading.  Lower-level</ph><ph id="2" ctype="x-COMMAND">
+</ph>                             <ph id="3" ctype="x-COMMAND">% sections are begun with similar </ph><ph id="4" ctype="x-COMMAND">
+</ph>                             <ph id="5" ctype="x-COMMAND">% \subsection and \subsubsection commands.</ph><ph id="6" ctype="x-COMMAND">
+</ph><ph id="7" ctype="x-COMMAND">
+</ph>The ends  of words and sentences are marked <ph id="8" ctype="x-COMMAND">
+</ph>  by   spaces. It  doesn't matter how many <ph id="9" ctype="x-COMMAND">
+</ph>spaces    you type; one is as good as 100.  The<ph id="10" ctype="x-COMMAND">
+</ph>end of   a line counts as a space.<ph id="11" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">      <ph id="1" ctype="x-COMMAND">% Produces section heading.  Lower-level</ph><ph id="2" ctype="x-COMMAND">
+</ph>                             <ph id="3" ctype="x-COMMAND">% sections are begun with similar </ph><ph id="4" ctype="x-COMMAND">
+</ph>                             <ph id="5" ctype="x-COMMAND">% \subsection and \subsubsection commands.</ph><ph id="6" ctype="x-COMMAND">
+</ph><ph id="7" ctype="x-COMMAND">
+</ph>The ends  of words and sentences are marked <ph id="8" ctype="x-COMMAND">
+</ph>  by   spaces.</mrk><mrk mid="1" mtype="seg"> It  doesn't matter how many <ph id="9" ctype="x-COMMAND">
+</ph>spaces    you type; one is as good as 100.</mrk><mrk mid="2" mtype="seg">  The<ph id="10" ctype="x-COMMAND">
+</ph>end of   a line counts as a space.<ph id="11" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">      <ph id="1" ctype="x-COMMAND">% Produces section heading.  Lower-level</ph><ph id="2" ctype="x-COMMAND">
+</ph>                             <ph id="3" ctype="x-COMMAND">% sections are begun with similar </ph><ph id="4" ctype="x-COMMAND">
+</ph>                             <ph id="5" ctype="x-COMMAND">% \subsection and \subsubsection commands.</ph><ph id="6" ctype="x-COMMAND">
+</ph><ph id="7" ctype="x-COMMAND">
+</ph>The ends  of words and sentences are marked <ph id="8" ctype="x-COMMAND">
+</ph>  by   spaces.</mrk><mrk mid="1" mtype="seg"> It  doesn't matter how many <ph id="9" ctype="x-COMMAND">
+</ph>spaces    you type; one is as good as 100.</mrk><mrk mid="2" mtype="seg">  The<ph id="10" ctype="x-COMMAND">
+</ph>end of   a line counts as a space.<ph id="11" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">One   or more   blank lines denote the  end <ph id="1" ctype="x-COMMAND">
+</ph>of  a paragraph.  <ph id="2" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">One   or more   blank lines denote the  end <ph id="1" ctype="x-COMMAND">
+</ph>of  a paragraph.</mrk><mrk mid="1" mtype="seg">  <ph id="2" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">One   or more   blank lines denote the  end <ph id="1" ctype="x-COMMAND">
+</ph>of  a paragraph.</mrk><mrk mid="1" mtype="seg">  <ph id="2" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">Since any number of consecutive spaces are treated<ph id="1" ctype="x-COMMAND">
+</ph>like a single one, the formatting of the input<ph id="2" ctype="x-COMMAND">
+</ph>file makes no difference to<ph id="3" ctype="x-COMMAND">
+</ph>      <ph id="4" ctype="x-COMMAND">\LaTeX,  </ph>               <ph id="5" ctype="x-COMMAND">% The \LaTeX command generates the LaTeX logo.</ph><ph id="6" ctype="x-COMMAND">
+</ph>but it makes a difference to you.  When you use<ph id="7" ctype="x-COMMAND">
+</ph><ph id="8" ctype="x-COMMAND">\LaTeX, </ph>making your input file as easy to read <ph id="9" ctype="x-COMMAND">
+</ph>as possible will be a great help as you write <ph id="10" ctype="x-COMMAND">
+</ph>your document and when you change it.  This sample <ph id="11" ctype="x-COMMAND">
+</ph>file shows how you can add comments to your own input <ph id="12" ctype="x-COMMAND">
+</ph>file.<ph id="13" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Since any number of consecutive spaces are treated<ph id="1" ctype="x-COMMAND">
+</ph>like a single one, the formatting of the input<ph id="2" ctype="x-COMMAND">
+</ph>file makes no difference to<ph id="3" ctype="x-COMMAND">
+</ph>      <ph id="4" ctype="x-COMMAND">\LaTeX,  </ph>               <ph id="5" ctype="x-COMMAND">% The \LaTeX command generates the LaTeX logo.</ph><ph id="6" ctype="x-COMMAND">
+</ph>but it makes a difference to you.</mrk><mrk mid="1" mtype="seg">  When you use<ph id="7" ctype="x-COMMAND">
+</ph><ph id="8" ctype="x-COMMAND">\LaTeX, </ph>making your input file as easy to read <ph id="9" ctype="x-COMMAND">
+</ph>as possible will be a great help as you write <ph id="10" ctype="x-COMMAND">
+</ph>your document and when you change it.</mrk><mrk mid="2" mtype="seg">  This sample <ph id="11" ctype="x-COMMAND">
+</ph>file shows how you can add comments to your own input <ph id="12" ctype="x-COMMAND">
+</ph>file.<ph id="13" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Since any number of consecutive spaces are treated<ph id="1" ctype="x-COMMAND">
+</ph>like a single one, the formatting of the input<ph id="2" ctype="x-COMMAND">
+</ph>file makes no difference to<ph id="3" ctype="x-COMMAND">
+</ph>      <ph id="4" ctype="x-COMMAND">\LaTeX,  </ph>               <ph id="5" ctype="x-COMMAND">% The \LaTeX command generates the LaTeX logo.</ph><ph id="6" ctype="x-COMMAND">
+</ph>but it makes a difference to you.</mrk><mrk mid="1" mtype="seg">  When you use<ph id="7" ctype="x-COMMAND">
+</ph><ph id="8" ctype="x-COMMAND">\LaTeX, </ph>making your input file as easy to read <ph id="9" ctype="x-COMMAND">
+</ph>as possible will be a great help as you write <ph id="10" ctype="x-COMMAND">
+</ph>your document and when you change it.</mrk><mrk mid="2" mtype="seg">  This sample <ph id="11" ctype="x-COMMAND">
+</ph>file shows how you can add comments to your own input <ph id="12" ctype="x-COMMAND">
+</ph>file.<ph id="13" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">Because printing is different from typewriting,<ph id="1" ctype="x-COMMAND">
+</ph>there are a number of things that you have to do<ph id="2" ctype="x-COMMAND">
+</ph>differently when preparing an input file than if<ph id="3" ctype="x-COMMAND">
+</ph>you were just typing the document directly.<ph id="4" ctype="x-COMMAND">
+</ph>Quotation marks like<ph id="5" ctype="x-COMMAND">
+</ph>       ``this'' <ph id="6" ctype="x-COMMAND">
+</ph>have to be handled specially, as do quotes within<ph id="7" ctype="x-COMMAND">
+</ph>quotes:<ph id="8" ctype="x-COMMAND">
+</ph>       ``<ph id="9" ctype="x-COMMAND">\,`this'  </ph>           <ph id="10" ctype="x-COMMAND">% \, separates the double and single quote.</ph><ph id="11" ctype="x-COMMAND">
+</ph>        is what I just <ph id="12" ctype="x-COMMAND">
+</ph>        wrote, not  `that'<ph id="13" ctype="x-COMMAND">\,''.  </ph> <ph id="14" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Because printing is different from typewriting,<ph id="1" ctype="x-COMMAND">
+</ph>there are a number of things that you have to do<ph id="2" ctype="x-COMMAND">
+</ph>differently when preparing an input file than if<ph id="3" ctype="x-COMMAND">
+</ph>you were just typing the document directly.<ph id="4" ctype="x-COMMAND">
+</ph>Quotation marks like<ph id="5" ctype="x-COMMAND">
+</ph>       ``this'' <ph id="6" ctype="x-COMMAND">
+</ph>have to be handled specially, as do quotes within<ph id="7" ctype="x-COMMAND">
+</ph>quotes:<ph id="8" ctype="x-COMMAND">
+</ph>       ``<ph id="9" ctype="x-COMMAND">\,`this'  </ph>           <ph id="10" ctype="x-COMMAND">% \, separates the double and single quote.</ph><ph id="11" ctype="x-COMMAND">
+</ph>        is what I just <ph id="12" ctype="x-COMMAND">
+</ph>        wrote, not  `that'<ph id="13" ctype="x-COMMAND">\,''.  </ph> <ph id="14" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Because printing is different from typewriting,<ph id="1" ctype="x-COMMAND">
+</ph>there are a number of things that you have to do<ph id="2" ctype="x-COMMAND">
+</ph>differently when preparing an input file than if<ph id="3" ctype="x-COMMAND">
+</ph>you were just typing the document directly.<ph id="4" ctype="x-COMMAND">
+</ph>Quotation marks like<ph id="5" ctype="x-COMMAND">
+</ph>       ``this'' <ph id="6" ctype="x-COMMAND">
+</ph>have to be handled specially, as do quotes within<ph id="7" ctype="x-COMMAND">
+</ph>quotes:<ph id="8" ctype="x-COMMAND">
+</ph>       ``<ph id="9" ctype="x-COMMAND">\,`this'  </ph>           <ph id="10" ctype="x-COMMAND">% \, separates the double and single quote.</ph><ph id="11" ctype="x-COMMAND">
+</ph>        is what I just <ph id="12" ctype="x-COMMAND">
+</ph>        wrote, not  `that'<ph id="13" ctype="x-COMMAND">\,''.  </ph> <ph id="14" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">Dashes come in three sizes: an <ph id="1" ctype="x-COMMAND">
+</ph>       intra-word <ph id="2" ctype="x-COMMAND">
+</ph>dash, a medium dash for number ranges like <ph id="3" ctype="x-COMMAND">
+</ph>       1--2, <ph id="4" ctype="x-COMMAND">
+</ph>and a punctuation <ph id="5" ctype="x-COMMAND">
+</ph>       dash---like <ph id="6" ctype="x-COMMAND">
+</ph>this.<ph id="7" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Dashes come in three sizes: an <ph id="1" ctype="x-COMMAND">
+</ph>       intra-word <ph id="2" ctype="x-COMMAND">
+</ph>dash, a medium dash for number ranges like <ph id="3" ctype="x-COMMAND">
+</ph>       1--2, <ph id="4" ctype="x-COMMAND">
+</ph>and a punctuation <ph id="5" ctype="x-COMMAND">
+</ph>       dash---like <ph id="6" ctype="x-COMMAND">
+</ph>this.<ph id="7" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dashes come in three sizes: an <ph id="1" ctype="x-COMMAND">
+</ph>       intra-word <ph id="2" ctype="x-COMMAND">
+</ph>dash, a medium dash for number ranges like <ph id="3" ctype="x-COMMAND">
+</ph>       1--2, <ph id="4" ctype="x-COMMAND">
+</ph>and a punctuation <ph id="5" ctype="x-COMMAND">
+</ph>       dash---like <ph id="6" ctype="x-COMMAND">
+</ph>this.<ph id="7" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en">A sentence-ending space should be larger than the<ph id="1" ctype="x-COMMAND">
+</ph>space between words within a sentence.  You<ph id="2" ctype="x-COMMAND">
+</ph>sometimes have to type special commands in<ph id="3" ctype="x-COMMAND">
+</ph>conjunction with punctuation characters to get<ph id="4" ctype="x-COMMAND">
+</ph>this right, as in the following sentence.<ph id="5" ctype="x-COMMAND">
+</ph>       Gnats, gnus, etc.<ph id="6" ctype="x-COMMAND">\ </ph>all  <ph id="7" ctype="x-COMMAND">% `\ ' makes an inter-word space.</ph><ph id="8" ctype="x-COMMAND">
+</ph>       begin with G<ph id="9" ctype="x-COMMAND">\@.  </ph>        <ph id="10" ctype="x-COMMAND">% \@ marks end-of-sentence punctuation.</ph><ph id="11" ctype="x-COMMAND">
+</ph>You should check the spaces after periods when<ph id="12" ctype="x-COMMAND">
+</ph>reading your output to make sure you haven't<ph id="13" ctype="x-COMMAND">
+</ph>forgotten any special cases.  Generating an<ph id="14" ctype="x-COMMAND">
+</ph>ellipsis<ph id="15" ctype="x-COMMAND">
+</ph>       <ph id="16" ctype="x-COMMAND">\ldots</ph><ph id="17" ctype="x-COMMAND">\  </ph>              <ph id="18" ctype="x-COMMAND">% `\ ' is needed after `\ldots' because TeX </ph><ph id="19" ctype="x-COMMAND">
+</ph>                             <ph id="20" ctype="x-COMMAND">% ignores spaces after command names like \ldots </ph><ph id="21" ctype="x-COMMAND">
+</ph>                             <ph id="22" ctype="x-COMMAND">% made from \ + letters.</ph><ph id="23" ctype="x-COMMAND">
+</ph>                             <ph id="24" ctype="x-COMMAND">%</ph><ph id="25" ctype="x-COMMAND">
+</ph>                             <ph id="26" ctype="x-COMMAND">% Note how a `%' character causes TeX to ignore </ph><ph id="27" ctype="x-COMMAND">
+</ph>                             <ph id="28" ctype="x-COMMAND">% the end of the input line, so these blank lines </ph><ph id="29" ctype="x-COMMAND">
+</ph>                             <ph id="30" ctype="x-COMMAND">% do not start a new paragraph.</ph><ph id="31" ctype="x-COMMAND">
+</ph>                             <ph id="32" ctype="x-COMMAND">%</ph><ph id="33" ctype="x-COMMAND">
+</ph>with the right spacing around the periods requires<ph id="34" ctype="x-COMMAND">
+</ph>a special command.<ph id="35" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">A sentence-ending space should be larger than the<ph id="1" ctype="x-COMMAND">
+</ph>space between words within a sentence.</mrk><mrk mid="1" mtype="seg">  You<ph id="2" ctype="x-COMMAND">
+</ph>sometimes have to type special commands in<ph id="3" ctype="x-COMMAND">
+</ph>conjunction with punctuation characters to get<ph id="4" ctype="x-COMMAND">
+</ph>this right, as in the following sentence.</mrk><mrk mid="2" mtype="seg"><ph id="5" ctype="x-COMMAND">
+</ph>       Gnats, gnus, etc.<ph id="6" ctype="x-COMMAND">\ </ph>all  <ph id="7" ctype="x-COMMAND">% `\ ' makes an inter-word space.</ph><ph id="8" ctype="x-COMMAND">
+</ph>       begin with G<ph id="9" ctype="x-COMMAND">\@.  </ph>        <ph id="10" ctype="x-COMMAND">% \@ marks end-of-sentence punctuation.</ph><ph id="11" ctype="x-COMMAND">
+</ph>You should check the spaces after periods when<ph id="12" ctype="x-COMMAND">
+</ph>reading your output to make sure you haven't<ph id="13" ctype="x-COMMAND">
+</ph>forgotten any special cases.</mrk><mrk mid="3" mtype="seg">  Generating an<ph id="14" ctype="x-COMMAND">
+</ph>ellipsis<ph id="15" ctype="x-COMMAND">
+</ph>       <ph id="16" ctype="x-COMMAND">\ldots</ph><ph id="17" ctype="x-COMMAND">\  </ph>              <ph id="18" ctype="x-COMMAND">% `\ ' is needed after `\ldots' because TeX </ph><ph id="19" ctype="x-COMMAND">
+</ph>                             <ph id="20" ctype="x-COMMAND">% ignores spaces after command names like \ldots </ph><ph id="21" ctype="x-COMMAND">
+</ph>                             <ph id="22" ctype="x-COMMAND">% made from \ + letters.</ph><ph id="23" ctype="x-COMMAND">
+</ph>                             <ph id="24" ctype="x-COMMAND">%</ph><ph id="25" ctype="x-COMMAND">
+</ph>                             <ph id="26" ctype="x-COMMAND">% Note how a `%' character causes TeX to ignore </ph><ph id="27" ctype="x-COMMAND">
+</ph>                             <ph id="28" ctype="x-COMMAND">% the end of the input line, so these blank lines </ph><ph id="29" ctype="x-COMMAND">
+</ph>                             <ph id="30" ctype="x-COMMAND">% do not start a new paragraph.</ph><ph id="31" ctype="x-COMMAND">
+</ph>                             <ph id="32" ctype="x-COMMAND">%</ph><ph id="33" ctype="x-COMMAND">
+</ph>with the right spacing around the periods requires<ph id="34" ctype="x-COMMAND">
+</ph>a special command.<ph id="35" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A sentence-ending space should be larger than the<ph id="1" ctype="x-COMMAND">
+</ph>space between words within a sentence.</mrk><mrk mid="1" mtype="seg">  You<ph id="2" ctype="x-COMMAND">
+</ph>sometimes have to type special commands in<ph id="3" ctype="x-COMMAND">
+</ph>conjunction with punctuation characters to get<ph id="4" ctype="x-COMMAND">
+</ph>this right, as in the following sentence.</mrk><mrk mid="2" mtype="seg"><ph id="5" ctype="x-COMMAND">
+</ph>       Gnats, gnus, etc.<ph id="6" ctype="x-COMMAND">\ </ph>all  <ph id="7" ctype="x-COMMAND">% `\ ' makes an inter-word space.</ph><ph id="8" ctype="x-COMMAND">
+</ph>       begin with G<ph id="9" ctype="x-COMMAND">\@.  </ph>        <ph id="10" ctype="x-COMMAND">% \@ marks end-of-sentence punctuation.</ph><ph id="11" ctype="x-COMMAND">
+</ph>You should check the spaces after periods when<ph id="12" ctype="x-COMMAND">
+</ph>reading your output to make sure you haven't<ph id="13" ctype="x-COMMAND">
+</ph>forgotten any special cases.</mrk><mrk mid="3" mtype="seg">  Generating an<ph id="14" ctype="x-COMMAND">
+</ph>ellipsis<ph id="15" ctype="x-COMMAND">
+</ph>       <ph id="16" ctype="x-COMMAND">\ldots</ph><ph id="17" ctype="x-COMMAND">\  </ph>              <ph id="18" ctype="x-COMMAND">% `\ ' is needed after `\ldots' because TeX </ph><ph id="19" ctype="x-COMMAND">
+</ph>                             <ph id="20" ctype="x-COMMAND">% ignores spaces after command names like \ldots </ph><ph id="21" ctype="x-COMMAND">
+</ph>                             <ph id="22" ctype="x-COMMAND">% made from \ + letters.</ph><ph id="23" ctype="x-COMMAND">
+</ph>                             <ph id="24" ctype="x-COMMAND">%</ph><ph id="25" ctype="x-COMMAND">
+</ph>                             <ph id="26" ctype="x-COMMAND">% Note how a `%' character causes TeX to ignore </ph><ph id="27" ctype="x-COMMAND">
+</ph>                             <ph id="28" ctype="x-COMMAND">% the end of the input line, so these blank lines </ph><ph id="29" ctype="x-COMMAND">
+</ph>                             <ph id="30" ctype="x-COMMAND">% do not start a new paragraph.</ph><ph id="31" ctype="x-COMMAND">
+</ph>                             <ph id="32" ctype="x-COMMAND">%</ph><ph id="33" ctype="x-COMMAND">
+</ph>with the right spacing around the periods requires<ph id="34" ctype="x-COMMAND">
+</ph>a special command.<ph id="35" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu11" xml:space="preserve">
+<source xml:lang="en">interprets some common characters as<ph id="1" ctype="x-COMMAND">
+</ph>commands, so you must type special commands to<ph id="2" ctype="x-COMMAND">
+</ph>generate them.  These characters include the<ph id="3" ctype="x-COMMAND">
+</ph>following:<ph id="4" ctype="x-COMMAND">
+</ph>       <ph id="5" ctype="x-COMMAND">\$ </ph> <ph id="6" ctype="x-COMMAND">\&amp; </ph> \% <ph id="7" ctype="x-COMMAND">\# </ph> <ph id="8" ctype="x-COMMAND">\{ </ph> and <ph id="9" ctype="x-COMMAND">\}</ph>.<ph id="10" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">interprets some common characters as<ph id="1" ctype="x-COMMAND">
+</ph>commands, so you must type special commands to<ph id="2" ctype="x-COMMAND">
+</ph>generate them.</mrk><mrk mid="1" mtype="seg">  These characters include the<ph id="3" ctype="x-COMMAND">
+</ph>following:<ph id="4" ctype="x-COMMAND">
+</ph>       <ph id="5" ctype="x-COMMAND">\$ </ph> <ph id="6" ctype="x-COMMAND">\&amp; </ph> \% <ph id="7" ctype="x-COMMAND">\# </ph> <ph id="8" ctype="x-COMMAND">\{ </ph> and <ph id="9" ctype="x-COMMAND">\}</ph>.<ph id="10" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">interprets some common characters as<ph id="1" ctype="x-COMMAND">
+</ph>commands, so you must type special commands to<ph id="2" ctype="x-COMMAND">
+</ph>generate them.</mrk><mrk mid="1" mtype="seg">  These characters include the<ph id="3" ctype="x-COMMAND">
+</ph>following:<ph id="4" ctype="x-COMMAND">
+</ph>       <ph id="5" ctype="x-COMMAND">\$ </ph> <ph id="6" ctype="x-COMMAND">\&amp; </ph> \% <ph id="7" ctype="x-COMMAND">\# </ph> <ph id="8" ctype="x-COMMAND">\{ </ph> and <ph id="9" ctype="x-COMMAND">\}</ph>.<ph id="10" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu12" xml:space="preserve">
+<source xml:lang="en">In printing, text is usually emphasized with an<ph id="1" ctype="x-COMMAND">
+</ph>       <bpt id="2" ctype="x-COMMAND">\emph{</bpt>italic<ept id="2">}</ept>  <ph id="3" ctype="x-COMMAND">
+</ph>type style.  <ph id="4" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">In printing, text is usually emphasized with an<ph id="1" ctype="x-COMMAND">
+</ph>       <bpt id="2" ctype="x-COMMAND">\emph{</bpt>italic<ept id="2">}</ept>  <ph id="3" ctype="x-COMMAND">
+</ph>type style.</mrk><mrk mid="1" mtype="seg">  <ph id="4" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In printing, text is usually emphasized with an<ph id="1" ctype="x-COMMAND">
+</ph>       <bpt id="2" ctype="x-COMMAND">\emph{</bpt>italic<ept id="2">}</ept>  <ph id="3" ctype="x-COMMAND">
+</ph>type style.</mrk><mrk mid="1" mtype="seg">  <ph id="4" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu13" xml:space="preserve">
+<source xml:lang="en">   A long segment of text can also be emphasized <ph id="1" ctype="x-COMMAND">
+</ph>   in this way.  Text within such a segment can be <ph id="2" ctype="x-COMMAND">
+</ph>   given <bpt id="3" ctype="x-COMMAND">\emph{</bpt>additional<ept id="3">}</ept> emphasis.<ph id="4" ctype="x-COMMAND">
+</ph><ph id="5" ctype="x-COMMAND">\end{em}</ph><ph id="6" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">   A long segment of text can also be emphasized <ph id="1" ctype="x-COMMAND">
+</ph>   in this way.</mrk><mrk mid="1" mtype="seg">  Text within such a segment can be <ph id="2" ctype="x-COMMAND">
+</ph>   given <bpt id="3" ctype="x-COMMAND">\emph{</bpt>additional<ept id="3">}</ept> emphasis.<ph id="4" ctype="x-COMMAND">
+</ph><ph id="5" ctype="x-COMMAND">\end{em}</ph><ph id="6" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">   A long segment of text can also be emphasized <ph id="1" ctype="x-COMMAND">
+</ph>   in this way.</mrk><mrk mid="1" mtype="seg">  Text within such a segment can be <ph id="2" ctype="x-COMMAND">
+</ph>   given <bpt id="3" ctype="x-COMMAND">\emph{</bpt>additional<ept id="3">}</ept> emphasis.<ph id="4" ctype="x-COMMAND">
+</ph><ph id="5" ctype="x-COMMAND">\end{em}</ph><ph id="6" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu14" xml:space="preserve">
+<source xml:lang="en">It is sometimes necessary to prevent <ph id="1" ctype="x-COMMAND">\LaTeX</ph><ph id="2" ctype="x-COMMAND">\ </ph>from<ph id="3" ctype="x-COMMAND">
+</ph>breaking a line where it might otherwise do so.<ph id="4" ctype="x-COMMAND">
+</ph>This may be at a space, as between the ``Mr.''<ph id="5" ctype="x-COMMAND">\ </ph>and<ph id="6" ctype="x-COMMAND">
+</ph>``Jones'' in<ph id="7" ctype="x-COMMAND">
+</ph>       ``Mr.<ph id="8" ctype="x-COMMAND">~</ph>Jones'',        <ph id="9" ctype="x-COMMAND">% ~ produces an unbreakable interword space.</ph><ph id="10" ctype="x-COMMAND">
+</ph>or within a word---especially when the word is a<ph id="11" ctype="x-COMMAND">
+</ph>symbol like<ph id="12" ctype="x-COMMAND">
+</ph>       <bpt id="13" ctype="x-COMMAND">\mbox{</bpt><bpt id="14" ctype="x-COMMAND">\emph{</bpt>itemnum<ept id="14">}</ept><ept id="13">}</ept> <ph id="15" ctype="x-COMMAND">
+</ph>that makes little sense when hyphenated across<ph id="16" ctype="x-COMMAND">
+</ph>lines.<ph id="17" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">It is sometimes necessary to prevent <ph id="1" ctype="x-COMMAND">\LaTeX</ph><ph id="2" ctype="x-COMMAND">\ </ph>from<ph id="3" ctype="x-COMMAND">
+</ph>breaking a line where it might otherwise do so.<ph id="4" ctype="x-COMMAND">
+</ph>This may be at a space, as between the ``Mr.''<ph id="5" ctype="x-COMMAND">\ </ph>and<ph id="6" ctype="x-COMMAND">
+</ph>``Jones'' in<ph id="7" ctype="x-COMMAND">
+</ph>       ``Mr.<ph id="8" ctype="x-COMMAND">~</ph>Jones'',        <ph id="9" ctype="x-COMMAND">% ~ produces an unbreakable interword space.</ph><ph id="10" ctype="x-COMMAND">
+</ph>or within a word---especially when the word is a<ph id="11" ctype="x-COMMAND">
+</ph>symbol like<ph id="12" ctype="x-COMMAND">
+</ph>       <bpt id="13" ctype="x-COMMAND">\mbox{</bpt><bpt id="14" ctype="x-COMMAND">\emph{</bpt>itemnum<ept id="14">}</ept><ept id="13">}</ept> <ph id="15" ctype="x-COMMAND">
+</ph>that makes little sense when hyphenated across<ph id="16" ctype="x-COMMAND">
+</ph>lines.<ph id="17" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is sometimes necessary to prevent <ph id="1" ctype="x-COMMAND">\LaTeX</ph><ph id="2" ctype="x-COMMAND">\ </ph>from<ph id="3" ctype="x-COMMAND">
+</ph>breaking a line where it might otherwise do so.<ph id="4" ctype="x-COMMAND">
+</ph>This may be at a space, as between the ``Mr.''<ph id="5" ctype="x-COMMAND">\ </ph>and<ph id="6" ctype="x-COMMAND">
+</ph>``Jones'' in<ph id="7" ctype="x-COMMAND">
+</ph>       ``Mr.<ph id="8" ctype="x-COMMAND">~</ph>Jones'',        <ph id="9" ctype="x-COMMAND">% ~ produces an unbreakable interword space.</ph><ph id="10" ctype="x-COMMAND">
+</ph>or within a word---especially when the word is a<ph id="11" ctype="x-COMMAND">
+</ph>symbol like<ph id="12" ctype="x-COMMAND">
+</ph>       <bpt id="13" ctype="x-COMMAND">\mbox{</bpt><bpt id="14" ctype="x-COMMAND">\emph{</bpt>itemnum<ept id="14">}</ept><ept id="13">}</ept> <ph id="15" ctype="x-COMMAND">
+</ph>that makes little sense when hyphenated across<ph id="16" ctype="x-COMMAND">
+</ph>lines.<ph id="17" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu15" xml:space="preserve">
+<source xml:lang="en">Footnotes<bpt id="1" ctype="x-COMMAND">\footnote{</bpt>This is an example of a footnote.<ept id="1">}</ept><ph id="2" ctype="x-COMMAND">
+</ph>pose no problem.<ph id="3" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Footnotes<bpt id="1" ctype="x-COMMAND">\footnote{</bpt>This is an example of a footnote.<ept id="1">}</ept><ph id="2" ctype="x-COMMAND">
+</ph>pose no problem.<ph id="3" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Footnotes<bpt id="1" ctype="x-COMMAND">\footnote{</bpt>This is an example of a footnote.<ept id="1">}</ept><ph id="2" ctype="x-COMMAND">
+</ph>pose no problem.<ph id="3" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu16" xml:space="preserve">
+<source xml:lang="en">is good at typesetting mathematical formulas<ph id="1" ctype="x-COMMAND">
+</ph>like<ph id="2" ctype="x-COMMAND">
+</ph>       <ph id="3" ctype="x-COMMAND">\( </ph>x-3y + z = 7 <ph id="4" ctype="x-COMMAND">\) </ph><ph id="5" ctype="x-COMMAND">
+</ph>or<ph id="6" ctype="x-COMMAND">
+</ph>       <ph id="7" ctype="x-COMMAND">\( </ph>a<ph id="8" ctype="x-COMMAND">_</ph><ph id="9" ctype="x-COMMAND">{1}</ph> &gt; x<ph id="10" ctype="x-COMMAND">^</ph><ph id="11" ctype="x-COMMAND">{2n}</ph> + y<ph id="12" ctype="x-COMMAND">^</ph><ph id="13" ctype="x-COMMAND">{2n}</ph> &gt; x' <ph id="14" ctype="x-COMMAND">\)</ph><ph id="15" ctype="x-COMMAND">
+</ph>or  <ph id="16" ctype="x-COMMAND">
+</ph>       <ph id="17" ctype="x-COMMAND">\( </ph><ph id="18" ctype="x-COMMAND">\ip{A}</ph><ph id="19" ctype="x-COMMAND">{B}</ph> = <ph id="20" ctype="x-COMMAND">\sum</ph><ph id="21" ctype="x-COMMAND">_</ph><ph id="22" ctype="x-COMMAND">{i}</ph> a<ph id="23" ctype="x-COMMAND">_</ph><ph id="24" ctype="x-COMMAND">{i}</ph> b<ph id="25" ctype="x-COMMAND">_</ph><ph id="26" ctype="x-COMMAND">{i}</ph> <ph id="27" ctype="x-COMMAND">\).</ph><ph id="28" ctype="x-COMMAND">
+</ph>The spaces you type in a formula are <ph id="29" ctype="x-COMMAND">
+</ph>ignored.  Remember that a letter like<ph id="30" ctype="x-COMMAND">
+</ph>       <ph id="31" ctype="x-COMMAND">$x$</ph>                   <ph id="32" ctype="x-COMMAND">% $ ... $  and  \( ... \)  are equivalent</ph><ph id="33" ctype="x-COMMAND">
+</ph>is a formula when it denotes a mathematical<ph id="34" ctype="x-COMMAND">
+</ph>symbol, and it should be typed as one.<ph id="35" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">is good at typesetting mathematical formulas<ph id="1" ctype="x-COMMAND">
+</ph>like<ph id="2" ctype="x-COMMAND">
+</ph>       <ph id="3" ctype="x-COMMAND">\( </ph>x-3y + z = 7 <ph id="4" ctype="x-COMMAND">\) </ph><ph id="5" ctype="x-COMMAND">
+</ph>or<ph id="6" ctype="x-COMMAND">
+</ph>       <ph id="7" ctype="x-COMMAND">\( </ph>a<ph id="8" ctype="x-COMMAND">_</ph><ph id="9" ctype="x-COMMAND">{1}</ph> &gt; x<ph id="10" ctype="x-COMMAND">^</ph><ph id="11" ctype="x-COMMAND">{2n}</ph> + y<ph id="12" ctype="x-COMMAND">^</ph><ph id="13" ctype="x-COMMAND">{2n}</ph> &gt; x' <ph id="14" ctype="x-COMMAND">\)</ph><ph id="15" ctype="x-COMMAND">
+</ph>or  <ph id="16" ctype="x-COMMAND">
+</ph>       <ph id="17" ctype="x-COMMAND">\( </ph><ph id="18" ctype="x-COMMAND">\ip{A}</ph><ph id="19" ctype="x-COMMAND">{B}</ph> = <ph id="20" ctype="x-COMMAND">\sum</ph><ph id="21" ctype="x-COMMAND">_</ph><ph id="22" ctype="x-COMMAND">{i}</ph> a<ph id="23" ctype="x-COMMAND">_</ph><ph id="24" ctype="x-COMMAND">{i}</ph> b<ph id="25" ctype="x-COMMAND">_</ph><ph id="26" ctype="x-COMMAND">{i}</ph> <ph id="27" ctype="x-COMMAND">\).</ph><ph id="28" ctype="x-COMMAND">
+</ph>The spaces you type in a formula are <ph id="29" ctype="x-COMMAND">
+</ph>ignored.</mrk><mrk mid="1" mtype="seg">  Remember that a letter like<ph id="30" ctype="x-COMMAND">
+</ph>       <ph id="31" ctype="x-COMMAND">$x$</ph>                   <ph id="32" ctype="x-COMMAND">% $ ... $  and  \( ... \)  are equivalent</ph><ph id="33" ctype="x-COMMAND">
+</ph>is a formula when it denotes a mathematical<ph id="34" ctype="x-COMMAND">
+</ph>symbol, and it should be typed as one.<ph id="35" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">is good at typesetting mathematical formulas<ph id="1" ctype="x-COMMAND">
+</ph>like<ph id="2" ctype="x-COMMAND">
+</ph>       <ph id="3" ctype="x-COMMAND">\( </ph>x-3y + z = 7 <ph id="4" ctype="x-COMMAND">\) </ph><ph id="5" ctype="x-COMMAND">
+</ph>or<ph id="6" ctype="x-COMMAND">
+</ph>       <ph id="7" ctype="x-COMMAND">\( </ph>a<ph id="8" ctype="x-COMMAND">_</ph><ph id="9" ctype="x-COMMAND">{1}</ph> &gt; x<ph id="10" ctype="x-COMMAND">^</ph><ph id="11" ctype="x-COMMAND">{2n}</ph> + y<ph id="12" ctype="x-COMMAND">^</ph><ph id="13" ctype="x-COMMAND">{2n}</ph> &gt; x' <ph id="14" ctype="x-COMMAND">\)</ph><ph id="15" ctype="x-COMMAND">
+</ph>or  <ph id="16" ctype="x-COMMAND">
+</ph>       <ph id="17" ctype="x-COMMAND">\( </ph><ph id="18" ctype="x-COMMAND">\ip{A}</ph><ph id="19" ctype="x-COMMAND">{B}</ph> = <ph id="20" ctype="x-COMMAND">\sum</ph><ph id="21" ctype="x-COMMAND">_</ph><ph id="22" ctype="x-COMMAND">{i}</ph> a<ph id="23" ctype="x-COMMAND">_</ph><ph id="24" ctype="x-COMMAND">{i}</ph> b<ph id="25" ctype="x-COMMAND">_</ph><ph id="26" ctype="x-COMMAND">{i}</ph> <ph id="27" ctype="x-COMMAND">\).</ph><ph id="28" ctype="x-COMMAND">
+</ph>The spaces you type in a formula are <ph id="29" ctype="x-COMMAND">
+</ph>ignored.</mrk><mrk mid="1" mtype="seg">  Remember that a letter like<ph id="30" ctype="x-COMMAND">
+</ph>       <ph id="31" ctype="x-COMMAND">$x$</ph>                   <ph id="32" ctype="x-COMMAND">% $ ... $  and  \( ... \)  are equivalent</ph><ph id="33" ctype="x-COMMAND">
+</ph>is a formula when it denotes a mathematical<ph id="34" ctype="x-COMMAND">
+</ph>symbol, and it should be typed as one.<ph id="35" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu17" xml:space="preserve">
+<source xml:lang="en">Displayed Text</source>
+<seg-source><mrk mid="0" mtype="seg">Displayed Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Displayed Text</mrk></target>
+</trans-unit>
+<trans-unit id="tu18" xml:space="preserve">
+<source xml:lang="en">Text is displayed by indenting it from the left<ph id="1" ctype="x-COMMAND">
+</ph>margin.  Quotations are commonly displayed.  There<ph id="2" ctype="x-COMMAND">
+</ph>are short quotations<ph id="3" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Text is displayed by indenting it from the left<ph id="1" ctype="x-COMMAND">
+</ph>margin.</mrk><mrk mid="1" mtype="seg">  Quotations are commonly displayed.</mrk><mrk mid="2" mtype="seg">  There<ph id="2" ctype="x-COMMAND">
+</ph>are short quotations<ph id="3" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text is displayed by indenting it from the left<ph id="1" ctype="x-COMMAND">
+</ph>margin.</mrk><mrk mid="1" mtype="seg">  Quotations are commonly displayed.</mrk><mrk mid="2" mtype="seg">  There<ph id="2" ctype="x-COMMAND">
+</ph>are short quotations<ph id="3" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu19" xml:space="preserve">
+<source xml:lang="en">   This is a short quotation.  It consists of a <ph id="1" ctype="x-COMMAND">
+</ph>   single paragraph of text.  See how it is formatted.<ph id="2" ctype="x-COMMAND">
+</ph><ph id="3" ctype="x-COMMAND">\end{quote}</ph><ph id="4" ctype="x-COMMAND">
+</ph>and longer ones.<ph id="5" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">   This is a short quotation.</mrk><mrk mid="1" mtype="seg">  It consists of a <ph id="1" ctype="x-COMMAND">
+</ph>   single paragraph of text.</mrk><mrk mid="2" mtype="seg">  See how it is formatted.<ph id="2" ctype="x-COMMAND">
+</ph><ph id="3" ctype="x-COMMAND">\end{quote}</ph><ph id="4" ctype="x-COMMAND">
+</ph>and longer ones.<ph id="5" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">   This is a short quotation.</mrk><mrk mid="1" mtype="seg">  It consists of a <ph id="1" ctype="x-COMMAND">
+</ph>   single paragraph of text.</mrk><mrk mid="2" mtype="seg">  See how it is formatted.<ph id="2" ctype="x-COMMAND">
+</ph><ph id="3" ctype="x-COMMAND">\end{quote}</ph><ph id="4" ctype="x-COMMAND">
+</ph>and longer ones.<ph id="5" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu20" xml:space="preserve">
+<source xml:lang="en">   This is a longer quotation.  It consists of two<ph id="1" ctype="x-COMMAND">
+</ph>   paragraphs of text, neither of which are<ph id="2" ctype="x-COMMAND">
+</ph>   particularly interesting.<ph id="3" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">   This is a longer quotation.</mrk><mrk mid="1" mtype="seg">  It consists of two<ph id="1" ctype="x-COMMAND">
+</ph>   paragraphs of text, neither of which are<ph id="2" ctype="x-COMMAND">
+</ph>   particularly interesting.<ph id="3" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">   This is a longer quotation.</mrk><mrk mid="1" mtype="seg">  It consists of two<ph id="1" ctype="x-COMMAND">
+</ph>   paragraphs of text, neither of which are<ph id="2" ctype="x-COMMAND">
+</ph>   particularly interesting.<ph id="3" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu21" xml:space="preserve">
+<source xml:lang="en">   This is the second paragraph of the quotation.  It<ph id="1" ctype="x-COMMAND">
+</ph>   is just as dull as the first paragraph.<ph id="2" ctype="x-COMMAND">
+</ph><ph id="3" ctype="x-COMMAND">\end{quotation}</ph><ph id="4" ctype="x-COMMAND">
+</ph>Another frequently-displayed structure is a list.<ph id="5" ctype="x-COMMAND">
+</ph>The following is an example of an <bpt id="6" ctype="x-COMMAND">\emph{</bpt>itemized<ept id="6">}</ept><ph id="7" ctype="x-COMMAND">
+</ph>list.<ph id="8" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">   This is the second paragraph of the quotation.</mrk><mrk mid="1" mtype="seg">  It<ph id="1" ctype="x-COMMAND">
+</ph>   is just as dull as the first paragraph.<ph id="2" ctype="x-COMMAND">
+</ph><ph id="3" ctype="x-COMMAND">\end{quotation}</ph><ph id="4" ctype="x-COMMAND">
+</ph>Another frequently-displayed structure is a list.<ph id="5" ctype="x-COMMAND">
+</ph>The following is an example of an <bpt id="6" ctype="x-COMMAND">\emph{</bpt>itemized<ept id="6">}</ept><ph id="7" ctype="x-COMMAND">
+</ph>list.<ph id="8" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">   This is the second paragraph of the quotation.</mrk><mrk mid="1" mtype="seg">  It<ph id="1" ctype="x-COMMAND">
+</ph>   is just as dull as the first paragraph.<ph id="2" ctype="x-COMMAND">
+</ph><ph id="3" ctype="x-COMMAND">\end{quotation}</ph><ph id="4" ctype="x-COMMAND">
+</ph>Another frequently-displayed structure is a list.<ph id="5" ctype="x-COMMAND">
+</ph>The following is an example of an <bpt id="6" ctype="x-COMMAND">\emph{</bpt>itemized<ept id="6">}</ept><ph id="7" ctype="x-COMMAND">
+</ph>list.<ph id="8" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu22" xml:space="preserve">
+<source xml:lang="en">   <ph id="1" ctype="x-COMMAND">\item </ph>This is the first item of an itemized list.<ph id="2" ctype="x-COMMAND">
+</ph>         Each item in the list is marked with a ``tick''.<ph id="3" ctype="x-COMMAND">
+</ph>         You don't have to worry about what kind of tick<ph id="4" ctype="x-COMMAND">
+</ph>         mark is used.<ph id="5" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">   <ph id="1" ctype="x-COMMAND">\item </ph>This is the first item of an itemized list.</mrk><mrk mid="1" mtype="seg"><ph id="2" ctype="x-COMMAND">
+</ph>         Each item in the list is marked with a ``tick''.</mrk><mrk mid="2" mtype="seg"><ph id="3" ctype="x-COMMAND">
+</ph>         You don't have to worry about what kind of tick<ph id="4" ctype="x-COMMAND">
+</ph>         mark is used.<ph id="5" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">   <ph id="1" ctype="x-COMMAND">\item </ph>This is the first item of an itemized list.</mrk><mrk mid="1" mtype="seg"><ph id="2" ctype="x-COMMAND">
+</ph>         Each item in the list is marked with a ``tick''.</mrk><mrk mid="2" mtype="seg"><ph id="3" ctype="x-COMMAND">
+</ph>         You don't have to worry about what kind of tick<ph id="4" ctype="x-COMMAND">
+</ph>         mark is used.<ph id="5" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu23" xml:space="preserve">
+<source xml:lang="en">   <ph id="1" ctype="x-COMMAND">\item </ph>This is the second item of the list.  It<ph id="2" ctype="x-COMMAND">
+</ph>         contains another list nested inside it.  The inner<ph id="3" ctype="x-COMMAND">
+</ph>         list is an <bpt id="4" ctype="x-COMMAND">\emph{</bpt>enumerated<ept id="4">}</ept> list.<ph id="5" ctype="x-COMMAND">
+</ph>         </source>
+<seg-source><mrk mid="0" mtype="seg">   <ph id="1" ctype="x-COMMAND">\item </ph>This is the second item of the list.</mrk><mrk mid="1" mtype="seg">  It<ph id="2" ctype="x-COMMAND">
+</ph>         contains another list nested inside it.</mrk><mrk mid="2" mtype="seg">  The inner<ph id="3" ctype="x-COMMAND">
+</ph>         list is an <bpt id="4" ctype="x-COMMAND">\emph{</bpt>enumerated<ept id="4">}</ept> list.</mrk><mrk mid="3" mtype="seg"><ph id="5" ctype="x-COMMAND">
+</ph></mrk>         </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">   <ph id="1" ctype="x-COMMAND">\item </ph>This is the second item of the list.</mrk><mrk mid="1" mtype="seg">  It<ph id="2" ctype="x-COMMAND">
+</ph>         contains another list nested inside it.</mrk><mrk mid="2" mtype="seg">  The inner<ph id="3" ctype="x-COMMAND">
+</ph>         list is an <bpt id="4" ctype="x-COMMAND">\emph{</bpt>enumerated<ept id="4">}</ept> list.</mrk><mrk mid="3" mtype="seg"><ph id="5" ctype="x-COMMAND">
+</ph></mrk>         </target>
+</trans-unit>
+<trans-unit id="tu24" xml:space="preserve">
+<source xml:lang="en">            <ph id="1" ctype="x-COMMAND">\item </ph>This is the first item of an enumerated <ph id="2" ctype="x-COMMAND">
+</ph>                  list that is nested within the itemized list.<ph id="3" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">            <ph id="1" ctype="x-COMMAND">\item </ph>This is the first item of an enumerated <ph id="2" ctype="x-COMMAND">
+</ph>                  list that is nested within the itemized list.<ph id="3" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">            <ph id="1" ctype="x-COMMAND">\item </ph>This is the first item of an enumerated <ph id="2" ctype="x-COMMAND">
+</ph>                  list that is nested within the itemized list.<ph id="3" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu25" xml:space="preserve">
+<source xml:lang="en">            <ph id="1" ctype="x-COMMAND">\item </ph>This is the second item of the inner list.  <ph id="2" ctype="x-COMMAND">
+</ph>                  <ph id="3" ctype="x-COMMAND">\LaTeX</ph><ph id="4" ctype="x-COMMAND">\ </ph>allows you to nest lists deeper than <ph id="5" ctype="x-COMMAND">
+</ph>                  you really should.<ph id="6" ctype="x-COMMAND">
+</ph>         <ph id="7" ctype="x-COMMAND">\end{enumerate}</ph><ph id="8" ctype="x-COMMAND">
+</ph>         This is the rest of the second item of the outer<ph id="9" ctype="x-COMMAND">
+</ph>         list.  It is no more interesting than any other<ph id="10" ctype="x-COMMAND">
+</ph>         part of the item.<ph id="11" ctype="x-COMMAND">
+</ph>   <ph id="12" ctype="x-COMMAND">\item </ph>This is the third item of the list.<ph id="13" ctype="x-COMMAND">
+</ph><ph id="14" ctype="x-COMMAND">\end{itemize}</ph><ph id="15" ctype="x-COMMAND">
+</ph>You can even display poetry.<ph id="16" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">            <ph id="1" ctype="x-COMMAND">\item </ph>This is the second item of the inner list.</mrk><mrk mid="1" mtype="seg">  <ph id="2" ctype="x-COMMAND">
+</ph>                  <ph id="3" ctype="x-COMMAND">\LaTeX</ph><ph id="4" ctype="x-COMMAND">\ </ph>allows you to nest lists deeper than <ph id="5" ctype="x-COMMAND">
+</ph>                  you really should.</mrk><mrk mid="2" mtype="seg"><ph id="6" ctype="x-COMMAND">
+</ph>         <ph id="7" ctype="x-COMMAND">\end{enumerate}</ph><ph id="8" ctype="x-COMMAND">
+</ph>         This is the rest of the second item of the outer<ph id="9" ctype="x-COMMAND">
+</ph>         list.</mrk><mrk mid="3" mtype="seg">  It is no more interesting than any other<ph id="10" ctype="x-COMMAND">
+</ph>         part of the item.</mrk><mrk mid="4" mtype="seg"><ph id="11" ctype="x-COMMAND">
+</ph>   <ph id="12" ctype="x-COMMAND">\item </ph>This is the third item of the list.<ph id="13" ctype="x-COMMAND">
+</ph><ph id="14" ctype="x-COMMAND">\end{itemize}</ph><ph id="15" ctype="x-COMMAND">
+</ph>You can even display poetry.<ph id="16" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">            <ph id="1" ctype="x-COMMAND">\item </ph>This is the second item of the inner list.</mrk><mrk mid="1" mtype="seg">  <ph id="2" ctype="x-COMMAND">
+</ph>                  <ph id="3" ctype="x-COMMAND">\LaTeX</ph><ph id="4" ctype="x-COMMAND">\ </ph>allows you to nest lists deeper than <ph id="5" ctype="x-COMMAND">
+</ph>                  you really should.</mrk><mrk mid="2" mtype="seg"><ph id="6" ctype="x-COMMAND">
+</ph>         <ph id="7" ctype="x-COMMAND">\end{enumerate}</ph><ph id="8" ctype="x-COMMAND">
+</ph>         This is the rest of the second item of the outer<ph id="9" ctype="x-COMMAND">
+</ph>         list.</mrk><mrk mid="3" mtype="seg">  It is no more interesting than any other<ph id="10" ctype="x-COMMAND">
+</ph>         part of the item.</mrk><mrk mid="4" mtype="seg"><ph id="11" ctype="x-COMMAND">
+</ph>   <ph id="12" ctype="x-COMMAND">\item </ph>This is the third item of the list.<ph id="13" ctype="x-COMMAND">
+</ph><ph id="14" ctype="x-COMMAND">\end{itemize}</ph><ph id="15" ctype="x-COMMAND">
+</ph>You can even display poetry.<ph id="16" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu26" xml:space="preserve">
+<source xml:lang="en">   There is an environment <ph id="1" ctype="x-COMMAND">
+</ph>    for verse <ph id="2" ctype="x-COMMAND">\\ </ph>             <ph id="3" ctype="x-COMMAND">% The \\ command separates lines</ph><ph id="4" ctype="x-COMMAND">
+</ph>   Whose features some poets <ph id="5" ctype="x-COMMAND">% within a stanza.</ph><ph id="6" ctype="x-COMMAND">
+</ph>   will curse.   <ph id="7" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">   There is an environment <ph id="1" ctype="x-COMMAND">
+</ph>    for verse <ph id="2" ctype="x-COMMAND">\\ </ph>             <ph id="3" ctype="x-COMMAND">% The \\ command separates lines</ph><ph id="4" ctype="x-COMMAND">
+</ph>   Whose features some poets <ph id="5" ctype="x-COMMAND">% within a stanza.</ph><ph id="6" ctype="x-COMMAND">
+</ph>   will curse.</mrk><mrk mid="1" mtype="seg">   <ph id="7" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">   There is an environment <ph id="1" ctype="x-COMMAND">
+</ph>    for verse <ph id="2" ctype="x-COMMAND">\\ </ph>             <ph id="3" ctype="x-COMMAND">% The \\ command separates lines</ph><ph id="4" ctype="x-COMMAND">
+</ph>   Whose features some poets <ph id="5" ctype="x-COMMAND">% within a stanza.</ph><ph id="6" ctype="x-COMMAND">
+</ph>   will curse.</mrk><mrk mid="1" mtype="seg">   <ph id="7" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu27" xml:space="preserve">
+<source xml:lang="en">                             <ph id="1" ctype="x-COMMAND">% One or more blank lines separate stanzas.</ph><ph id="2" ctype="x-COMMAND">
+</ph><ph id="3" ctype="x-COMMAND">
+</ph>   For instead of making<ph id="4" ctype="x-COMMAND">\\</ph><ph id="5" ctype="x-COMMAND">
+</ph>   Them do <bpt id="6" ctype="x-COMMAND">\emph{</bpt>all<ept id="6">}</ept> line breaking, <ph id="7" ctype="x-COMMAND">\\</ph><ph id="8" ctype="x-COMMAND">
+</ph>   It allows them to put too many words on a line when they'd rather be <ph id="9" ctype="x-COMMAND">
+</ph>   forced to be terse.<ph id="10" ctype="x-COMMAND">
+</ph><ph id="11" ctype="x-COMMAND">\end{verse}</ph><ph id="12" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">                             <ph id="1" ctype="x-COMMAND">% One or more blank lines separate stanzas.</ph><ph id="2" ctype="x-COMMAND">
+</ph><ph id="3" ctype="x-COMMAND">
+</ph>   For instead of making<ph id="4" ctype="x-COMMAND">\\</ph><ph id="5" ctype="x-COMMAND">
+</ph>   Them do <bpt id="6" ctype="x-COMMAND">\emph{</bpt>all<ept id="6">}</ept> line breaking, <ph id="7" ctype="x-COMMAND">\\</ph><ph id="8" ctype="x-COMMAND">
+</ph>   It allows them to put too many words on a line when they'd rather be <ph id="9" ctype="x-COMMAND">
+</ph>   forced to be terse.<ph id="10" ctype="x-COMMAND">
+</ph><ph id="11" ctype="x-COMMAND">\end{verse}</ph><ph id="12" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">                             <ph id="1" ctype="x-COMMAND">% One or more blank lines separate stanzas.</ph><ph id="2" ctype="x-COMMAND">
+</ph><ph id="3" ctype="x-COMMAND">
+</ph>   For instead of making<ph id="4" ctype="x-COMMAND">\\</ph><ph id="5" ctype="x-COMMAND">
+</ph>   Them do <bpt id="6" ctype="x-COMMAND">\emph{</bpt>all<ept id="6">}</ept> line breaking, <ph id="7" ctype="x-COMMAND">\\</ph><ph id="8" ctype="x-COMMAND">
+</ph>   It allows them to put too many words on a line when they'd rather be <ph id="9" ctype="x-COMMAND">
+</ph>   forced to be terse.<ph id="10" ctype="x-COMMAND">
+</ph><ph id="11" ctype="x-COMMAND">\end{verse}</ph><ph id="12" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu28" xml:space="preserve">
+<source xml:lang="en">Mathematical formulas may also be displayed.  A<ph id="1" ctype="x-COMMAND">
+</ph>displayed formula <ph id="2" ctype="x-COMMAND">
+</ph>is <ph id="3" ctype="x-COMMAND">
+</ph>one-line long; multiline<ph id="4" ctype="x-COMMAND">
+</ph>formulas require special formatting instructions.<ph id="5" ctype="x-COMMAND">
+</ph>   <ph id="6" ctype="x-COMMAND">\[  \ip{\Gamma}{\psi'} = x'' + y^{2} + z_{i}^{n}\]</ph><ph id="7" ctype="x-COMMAND">
+</ph>Don't start a paragraph with a displayed equation,<ph id="8" ctype="x-COMMAND">
+</ph>nor make one a paragraph by itself.<ph id="9" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Mathematical formulas may also be displayed.</mrk><mrk mid="1" mtype="seg">  A<ph id="1" ctype="x-COMMAND">
+</ph>displayed formula <ph id="2" ctype="x-COMMAND">
+</ph>is <ph id="3" ctype="x-COMMAND">
+</ph>one-line long; multiline<ph id="4" ctype="x-COMMAND">
+</ph>formulas require special formatting instructions.</mrk><mrk mid="2" mtype="seg"><ph id="5" ctype="x-COMMAND">
+</ph>   <ph id="6" ctype="x-COMMAND">\[  \ip{\Gamma}{\psi'} = x'' + y^{2} + z_{i}^{n}\]</ph><ph id="7" ctype="x-COMMAND">
+</ph>Don't start a paragraph with a displayed equation,<ph id="8" ctype="x-COMMAND">
+</ph>nor make one a paragraph by itself.<ph id="9" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mathematical formulas may also be displayed.</mrk><mrk mid="1" mtype="seg">  A<ph id="1" ctype="x-COMMAND">
+</ph>displayed formula <ph id="2" ctype="x-COMMAND">
+</ph>is <ph id="3" ctype="x-COMMAND">
+</ph>one-line long; multiline<ph id="4" ctype="x-COMMAND">
+</ph>formulas require special formatting instructions.</mrk><mrk mid="2" mtype="seg"><ph id="5" ctype="x-COMMAND">
+</ph>   <ph id="6" ctype="x-COMMAND">\[  \ip{\Gamma}{\psi'} = x'' + y^{2} + z_{i}^{n}\]</ph><ph id="7" ctype="x-COMMAND">
+</ph>Don't start a paragraph with a displayed equation,<ph id="8" ctype="x-COMMAND">
+</ph>nor make one a paragraph by itself.<ph id="9" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure10983.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Notes on the Derby security features</source>
+<seg-source><mrk mid="0" mtype="seg">Notes on the Derby security features</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notes on the Derby security features</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> security model has some basic limitations.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> security model has some basic limitations.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> security model has some basic limitations.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">security features</source>
+<seg-source><mrk mid="0" mtype="seg">security features</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">security features</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">limitations</source>
+<seg-source><mrk mid="0" mtype="seg">limitations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">limitations</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">You can use database properties to specify what users can and cannot access your database. However, if someone gets physical access to your database (for example, if they are able to copy it onto their own disk), they can subvert all other security mechanisms given enough time and skill. Your best <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> defense against this possibility is to encrypt the data (which also encrypts the database properties). However, if the encryption can be broken, the data is vulnerable.</source>
+<seg-source><mrk mid="0" mtype="seg">You can use database properties to specify what users can and cannot access your database.</mrk><mrk mid="1" mtype="seg"> However, if someone gets physical access to your database (for example, if they are able to copy it onto their own disk), they can subvert all other security mechanisms given enough time and skill.</mrk><mrk mid="2" mtype="seg"> Your best <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> defense against this possibility is to encrypt the data (which also encrypts the database properties).</mrk><mrk mid="3" mtype="seg"> However, if the encryption can be broken, the data is vulnerable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use database properties to specify what users can and cannot access your database.</mrk><mrk mid="1" mtype="seg"> However, if someone gets physical access to your database (for example, if they are able to copy it onto their own disk), they can subvert all other security mechanisms given enough time and skill.</mrk><mrk mid="2" mtype="seg"> Your best <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> defense against this possibility is to encrypt the data (which also encrypts the database properties).</mrk><mrk mid="3" mtype="seg"> However, if the encryption can be broken, the data is vulnerable.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">There are no authorization checks for system-wide operations. Anyone who can authenticate at the system level can shut down the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine and restore databases. Your best <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> defense here is to limit the number of users who can authenticate at the system level. This is easy to do with NATIVE authentication: put only one superuser in the system-wide credentials database, and store the database-specific users in their respective databases. With LDAP authentication, you can do this by using different LDAP servers for system-wide and database-specific authentication.</source>
+<seg-source><mrk mid="0" mtype="seg">There are no authorization checks for system-wide operations.</mrk><mrk mid="1" mtype="seg"> Anyone who can authenticate at the system level can shut down the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine and restore databases.</mrk><mrk mid="2" mtype="seg"> Your best <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> defense here is to limit the number of users who can authenticate at the system level.</mrk><mrk mid="3" mtype="seg"> This is easy to do with NATIVE authentication: put only one superuser in the system-wide credentials database, and store the database-specific users in their respective databases.</mrk><mrk mid="4" mtype="seg"> With LDAP authentication, you can do this by using different LDAP servers for system-wide and database-specific authentication.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There are no authorization checks for system-wide operations.</mrk><mrk mid="1" mtype="seg"> Anyone who can authenticate at the system level can shut down the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> engine and restore databases.</mrk><mrk mid="2" mtype="seg"> Your best <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> defense here is to limit the number of users who can authenticate at the system level.</mrk><mrk mid="3" mtype="seg"> This is easy to do with NATIVE authentication: put only one superuser in the system-wide credentials database, and store the database-specific users in their respective databases.</mrk><mrk mid="4" mtype="seg"> With LDAP authentication, you can do this by using different LDAP servers for system-wide and database-specific authentication.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

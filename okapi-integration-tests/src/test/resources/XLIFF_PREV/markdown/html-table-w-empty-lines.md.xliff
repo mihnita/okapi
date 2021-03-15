@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="html-table-w-empty-lines.md" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sd1_ssf1" resname="sub-filter:sd1">
+<trans-unit id="sd1_sf1_tu1" resname="sd1_2" restype="x-td" xml:space="preserve">
+<source xml:lang="en">
+    This cell has</source>
+<seg-source>
+<mrk mid="0" mtype="seg">    This cell has</mrk></seg-source>
+<target xml:lang="fr">
+<mrk mid="0" mtype="seg">    This cell has</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">an empty line.
+</source>
+<seg-source><mrk mid="0" mtype="seg">an empty line.</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an empty line.</mrk>
+</target>
+</trans-unit>
+<group id="sd1_ssf2" resname="sub-filter:sd1">
+</group>
+</body>
+</file>
+</xliff>

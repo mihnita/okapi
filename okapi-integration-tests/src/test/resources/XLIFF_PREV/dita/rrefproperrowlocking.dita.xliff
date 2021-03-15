@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefproperrowlocking.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.storage.rowLocking</source>
+<seg-source><mrk mid="0" mtype="seg">derby.storage.rowLocking</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.storage.rowLocking</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">derby.storage.rowLocking</source>
+<seg-source><mrk mid="0" mtype="seg">derby.storage.rowLocking</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.storage.rowLocking</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">databases</source>
+<seg-source><mrk mid="0" mtype="seg">databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">configuring row-level locking</source>
+<seg-source><mrk mid="0" mtype="seg">configuring row-level locking</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring row-level locking</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">databases</source>
+<seg-source><mrk mid="0" mtype="seg">databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">configuring table-level locking</source>
+<seg-source><mrk mid="0" mtype="seg">configuring table-level locking</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring table-level locking</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">lock granularity</source>
+<seg-source><mrk mid="0" mtype="seg">lock granularity</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lock granularity</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">configuring</source>
+<seg-source><mrk mid="0" mtype="seg">configuring</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If set to true, enables row-level locking. When you disable row-level locking, you use table-level locking.</source>
+<seg-source><mrk mid="0" mtype="seg">If set to true, enables row-level locking.</mrk><mrk mid="1" mtype="seg"> When you disable row-level locking, you use table-level locking.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If set to true, enables row-level locking.</mrk><mrk mid="1" mtype="seg"> When you disable row-level locking, you use table-level locking.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Row-level locking uses more system resources but allows greater concurrency, which works better in multi-user systems. Table-level locking works best with single-user applications or read-only applications.</source>
+<seg-source><mrk mid="0" mtype="seg">Row-level locking uses more system resources but allows greater concurrency, which works better in multi-user systems.</mrk><mrk mid="1" mtype="seg"> Table-level locking works best with single-user applications or read-only applications.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Row-level locking uses more system resources but allows greater concurrency, which works better in multi-user systems.</mrk><mrk mid="1" mtype="seg"> Table-level locking works best with single-user applications or read-only applications.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">If you use row-level locking (the default), the system decides whether to use table-level locking or row-level locking for each table in each DML statement. In certain situations, the system might choose to escalate the locking scheme from row-level locking to table-level locking to improve performance.</source>
+<seg-source><mrk mid="0" mtype="seg">If you use row-level locking (the default), the system decides whether to use table-level locking or row-level locking for each table in each DML statement.</mrk><mrk mid="1" mtype="seg"> In certain situations, the system might choose to escalate the locking scheme from row-level locking to table-level locking to improve performance.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you use row-level locking (the default), the system decides whether to use table-level locking or row-level locking for each table in each DML statement.</mrk><mrk mid="1" mtype="seg"> In certain situations, the system might choose to escalate the locking scheme from row-level locking to table-level locking to improve performance.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">For more information about locking, see "Locking and performance" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, and "Locking, concurrency, and isolation" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information about locking, see "Locking and performance" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, and "Locking, concurrency, and isolation" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information about locking, see "Locking and performance" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, and "Locking, concurrency, and isolation" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- system-wide property<ept id="2">&lt;/ph&gt;</ept> derby.storage.rowLocking=false<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- system-wide property<ept id="2">&lt;/ph&gt;</ept> derby.storage.rowLocking=false<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- system-wide property<ept id="2">&lt;/ph&gt;</ept> derby.storage.rowLocking=false<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- database-level property<ept id="2">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.storage.rowLocking', 'false')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- database-level property<ept id="2">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.storage.rowLocking', 'false')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- database-level property<ept id="2">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.storage.rowLocking', 'false')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Dynamic or static</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic or static</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic or static</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

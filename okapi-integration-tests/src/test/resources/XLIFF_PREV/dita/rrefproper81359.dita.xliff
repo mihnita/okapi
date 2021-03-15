@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefproper81359.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.storage.pageCacheSize</source>
+<seg-source><mrk mid="0" mtype="seg">derby.storage.pageCacheSize</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.storage.pageCacheSize</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">derby.storage.pageCacheSize</source>
+<seg-source><mrk mid="0" mtype="seg">derby.storage.pageCacheSize</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.storage.pageCacheSize</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Page cache size</source>
+<seg-source><mrk mid="0" mtype="seg">Page cache size</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Page cache size</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">configuring</source>
+<seg-source><mrk mid="0" mtype="seg">configuring</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Defines the size, in number of pages, of the data page cache in the database (data pages kept in memory).</source>
+<seg-source><mrk mid="0" mtype="seg">Defines the size, in number of pages, of the data page cache in the database (data pages kept in memory).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Defines the size, in number of pages, of the data page cache in the database (data pages kept in memory).</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The actual amount of memory the page cache will use depends on the following:</source>
+<seg-source><mrk mid="0" mtype="seg">The actual amount of memory the page cache will use depends on the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The actual amount of memory the page cache will use depends on the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The size of the cache, configured with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.storage.pageCacheSize<ept id="1">&lt;/i&gt;</ept> property.</source>
+<seg-source><mrk mid="0" mtype="seg">The size of the cache, configured with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.storage.pageCacheSize<ept id="1">&lt;/i&gt;</ept> property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The size of the cache, configured with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.storage.pageCacheSize<ept id="1">&lt;/i&gt;</ept> property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The size of the pages, configured with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper40688.dita#rrefproper40688"&gt;</bpt>derby.storage.pageSize<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> property. <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> automatically tunes for the database page size. If you have long columns, the default page size for the table is set to 32768 bytes. Otherwise, the default is 4096 bytes.</source>
+<seg-source><mrk mid="0" mtype="seg">The size of the pages, configured with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper40688.dita#rrefproper40688"&gt;</bpt>derby.storage.pageSize<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> property.</mrk><mrk mid="1" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> automatically tunes for the database page size.</mrk><mrk mid="2" mtype="seg"> If you have long columns, the default page size for the table is set to 32768 bytes.</mrk><mrk mid="3" mtype="seg"> Otherwise, the default is 4096 bytes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The size of the pages, configured with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper40688.dita#rrefproper40688"&gt;</bpt>derby.storage.pageSize<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> property.</mrk><mrk mid="1" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> automatically tunes for the database page size.</mrk><mrk mid="2" mtype="seg"> If you have long columns, the default page size for the table is set to 32768 bytes.</mrk><mrk mid="3" mtype="seg"> Otherwise, the default is 4096 bytes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Overhead, which varies with JVMs.</source>
+<seg-source><mrk mid="0" mtype="seg">Overhead, which varies with JVMs.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Overhead, which varies with JVMs.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">When increasing the size of the page cache, you typically have to allow more memory for the Java heap when starting the embedding application (taking into consideration, of course, the memory needs of the embedding application as well). For example, using the default page size of 4K, a page cache size of 2000 pages will require at least 8 MB of memory (and probably more, given the overhead).</source>
+<seg-source><mrk mid="0" mtype="seg">When increasing the size of the page cache, you typically have to allow more memory for the Java heap when starting the embedding application (taking into consideration, of course, the memory needs of the embedding application as well).</mrk><mrk mid="1" mtype="seg"> For example, using the default page size of 4K, a page cache size of 2000 pages will require at least 8 MB of memory (and probably more, given the overhead).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When increasing the size of the page cache, you typically have to allow more memory for the Java heap when starting the embedding application (taking into consideration, of course, the memory needs of the embedding application as well).</mrk><mrk mid="1" mtype="seg"> For example, using the default page size of 4K, a page cache size of 2000 pages will require at least 8 MB of memory (and probably more, given the overhead).</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The minimum value is 40 pages. If you specify a lower value, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the default value.</source>
+<seg-source><mrk mid="0" mtype="seg">The minimum value is 40 pages.</mrk><mrk mid="1" mtype="seg"> If you specify a lower value, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the default value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The minimum value is 40 pages.</mrk><mrk mid="1" mtype="seg"> If you specify a lower value, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the default value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">1000 pages.</source>
+<seg-source><mrk mid="0" mtype="seg">1000 pages.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1000 pages.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.storage.pageCacheSize=160<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.storage.pageCacheSize=160<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.storage.pageCacheSize=160<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Dynamic or static</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic or static</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic or static</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

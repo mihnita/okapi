@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Test03.po" source-language="en" target-language="fr" datatype="x-application/x-gettext" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="o3" restype="x-gettext-plurals">
+<trans-unit id="1" resname="P608645E9-0" approved="yes" xml:space="preserve">
+<source xml:lang="en">untranslated-singular</source>
+<seg-source><mrk mid="0" mtype="seg">untranslated-singular</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">translated-singular with à=agrave</mrk></target>
+</trans-unit>
+<trans-unit id="2" resname="P608645E9-1" approved="yes" xml:space="preserve">
+<source xml:lang="en">untranslated-plural</source>
+<seg-source><mrk mid="0" mtype="seg">untranslated-plural</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">translated-plural</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="3" resname="P553A74CC" xml:space="preserve">
+<source xml:lang="en">Simple text string.</source>
+<seg-source><mrk mid="0" mtype="seg">Simple text string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simple text string.</mrk></target>
+</trans-unit>
+<trans-unit id="4" resname="P384E3B6" xml:space="preserve">
+<source xml:lang="en">Cannot find file '<ph id="1" ctype="x-regxph" equiv-text="%s">%s</ph>' (tried <ph id="2" ctype="x-regxph" equiv-text="%d">%d</ph> times)<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Cannot find file '<ph id="1" ctype="x-regxph" equiv-text="%s">%s</ph>' (tried <ph id="2" ctype="x-regxph" equiv-text="%d">%d</ph> times)<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cannot find file '<ph id="1" ctype="x-regxph" equiv-text="%s">%s</ph>' (tried <ph id="2" ctype="x-regxph" equiv-text="%d">%d</ph> times)<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="5" resname="N87965A77" approved="yes" xml:space="preserve">
+<source xml:lang="en">String in the default source language</source>
+<seg-source><mrk mid="0" mtype="seg">String in the default source language</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Traduction pour 'String in the default source language'</mrk></target>
+<note>automatic-comments</note>
+<note from="translator">translator-comments</note>
+</trans-unit>
+<trans-unit id="6" resname="P6FB754CC" xml:space="preserve">
+<source xml:lang="en">Test inline codes: [<ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph>] [<ph id="2" ctype="x-regxph" equiv-text="%*.*f">%*.*f</ph>] %% [<ph id="3" ctype="x-regxph" equiv-text="%E">%E</ph>] [<ph id="4" ctype="x-regxph" equiv-text="%-s">%-s</ph>]</source>
+<seg-source><mrk mid="0" mtype="seg">Test inline codes: [<ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph>] [<ph id="2" ctype="x-regxph" equiv-text="%*.*f">%*.*f</ph>] %% [<ph id="3" ctype="x-regxph" equiv-text="%E">%E</ph>] [<ph id="4" ctype="x-regxph" equiv-text="%-s">%-s</ph>]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test inline codes: [<ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph>] [<ph id="2" ctype="x-regxph" equiv-text="%*.*f">%*.*f</ph>] %% [<ph id="3" ctype="x-regxph" equiv-text="%E">%E</ph>] [<ph id="4" ctype="x-regxph" equiv-text="%-s">%-s</ph>]</mrk></target>
+</trans-unit>
+<group id="o5" resname="TheDomain1" restype="x-gettext-domain">
+<trans-unit id="7" resname="P2DB1A8E7" approved="yes" xml:space="preserve">
+<source xml:lang="en">String 1 in domain 'TheDomain1'</source>
+<seg-source><mrk mid="0" mtype="seg">String 1 in domain 'TheDomain1'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String 1 in domain 'TheDomain1'</mrk></target>
+</trans-unit>
+</group>
+<group id="o7" resname="TheDomain2" restype="x-gettext-domain">
+<trans-unit id="8" resname="P6AD16D25" approved="yes" xml:space="preserve">
+<source xml:lang="en">String 1 in domain 'TheDomain2'</source>
+<seg-source><mrk mid="0" mtype="seg">String 1 in domain 'TheDomain2'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String 1 in domain 'TheDomain2'</mrk></target>
+</trans-unit>
+<trans-unit id="9" resname="P6921215A" xml:space="preserve">
+<source xml:lang="en">Example 1: Line 1<ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph>Line 2<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>Line 3</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1: Line 1<ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph>Line 2<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>Line 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1: Line 1<ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph>Line 2<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>Line 3</mrk></target>
+</trans-unit>
+<trans-unit id="10" resname="NED516E5B" xml:space="preserve">
+<source xml:lang="en">Example 2: Line 1<ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph>Line 2<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>Line 3</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2: Line 1<ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph>Line 2<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>Line 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2: Line 1<ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph>Line 2<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>Line 3</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

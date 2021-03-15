@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefexportselectionproclobs.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE<ept id="1">&lt;/codeph&gt;</ept> system procedure to export the result of a SELECT statement to a main export file, and place the LOB data into a separate export file. A reference to the location of the LOB data is placed in the LOB column in the main export file.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE<ept id="1">&lt;/codeph&gt;</ept> system procedure to export the result of a SELECT statement to a main export file, and place the LOB data into a separate export file.</mrk><mrk mid="1" mtype="seg"> A reference to the location of the LOB data is placed in the LOB column in the main export file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE<ept id="1">&lt;/codeph&gt;</ept> system procedure to export the result of a SELECT statement to a main export file, and place the LOB data into a separate export file.</mrk><mrk mid="1" mtype="seg"> A reference to the location of the LOB data is placed in the LOB column in the main export file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">system procedures</source>
+<seg-source><mrk mid="0" mtype="seg">system procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">system procedures</source>
+<seg-source><mrk mid="0" mtype="seg">system procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">For security concerns, and to avoid accidental file damage, this EXPORT procedure does not export data into an existing file. You must specify a filename in the EXPORT procedure that does not exist. When you run the procedure the file is created and the data is exported into the new file.</source>
+<seg-source><mrk mid="0" mtype="seg">For security concerns, and to avoid accidental file damage, this EXPORT procedure does not export data into an existing file.</mrk><mrk mid="1" mtype="seg"> You must specify a filename in the EXPORT procedure that does not exist.</mrk><mrk mid="2" mtype="seg"> When you run the procedure the file is created and the data is exported into the new file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For security concerns, and to avoid accidental file damage, this EXPORT procedure does not export data into an existing file.</mrk><mrk mid="1" mtype="seg"> You must specify a filename in the EXPORT procedure that does not exist.</mrk><mrk mid="2" mtype="seg"> When you run the procedure the file is created and the data is exported into the new file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The data is exported using a delimited file format.</source>
+<seg-source><mrk mid="0" mtype="seg">The data is exported using a delimited file format.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The data is exported using a delimited file format.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues a COMMIT or a ROLLBACK statement after each import and export procedure is run (a COMMIT if the procedure completes successfully, a ROLLBACK if it fails). For this reason, you should issue either a COMMIT or ROLLBACK statement to complete all transactions and release all table-level locks before you invoke an import or export procedure.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues a COMMIT or a ROLLBACK statement after each import and export procedure is run (a COMMIT if the procedure completes successfully, a ROLLBACK if it fails).</mrk><mrk mid="1" mtype="seg"> For this reason, you should issue either a COMMIT or ROLLBACK statement to complete all transactions and release all table-level locks before you invoke an import or export procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues a COMMIT or a ROLLBACK statement after each import and export procedure is run (a COMMIT if the procedure completes successfully, a ROLLBACK if it fails).</mrk><mrk mid="1" mtype="seg"> For this reason, you should issue either a COMMIT or ROLLBACK statement to complete all transactions and release all table-level locks before you invoke an import or export procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">For more information on using this procedure, see the section "Importing and exporting data" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information on using this procedure, see the section "Importing and exporting data" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information on using this procedure, see the section "Importing and exporting data" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE ( IN SELECTSTATEMENT VARCHAR(32672), IN FILENAME VARCHAR(32672), IN COLUMNDELIMITER CHAR(1), IN CHARACTERDELIMITER CHAR(1), IN CODESET VARCHAR(128) IN LOBSFILENAME VARCHAR(32672) )</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE ( IN SELECTSTATEMENT VARCHAR(32672), IN FILENAME VARCHAR(32672), IN COLUMNDELIMITER CHAR(1), IN CHARACTERDELIMITER CHAR(1), IN CODESET VARCHAR(128) IN LOBSFILENAME VARCHAR(32672) )</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE ( IN SELECTSTATEMENT VARCHAR(32672), IN FILENAME VARCHAR(32672), IN COLUMNDELIMITER CHAR(1), IN CHARACTERDELIMITER CHAR(1), IN CODESET VARCHAR(128) IN LOBSFILENAME VARCHAR(32672) )</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">When you run this procedure, the column data is written to the main export file in a delimited data file format.</source>
+<seg-source><mrk mid="0" mtype="seg">When you run this procedure, the column data is written to the main export file in a delimited data file format.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you run this procedure, the column data is written to the main export file in a delimited data file format.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">SELECTSTATEMENT</source>
+<seg-source><mrk mid="0" mtype="seg">SELECTSTATEMENT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECTSTATEMENT</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Specifies the SELECT statement query that returns the data to be exported. Specifying a NULL value will result in an error. The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>SELECTSTATEMENT<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a VARCHAR (32672) data type.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the SELECT statement query that returns the data to be exported.</mrk><mrk mid="1" mtype="seg"> Specifying a NULL value will result in an error.</mrk><mrk mid="2" mtype="seg"> The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>SELECTSTATEMENT<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a VARCHAR (32672) data type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the SELECT statement query that returns the data to be exported.</mrk><mrk mid="1" mtype="seg"> Specifying a NULL value will result in an error.</mrk><mrk mid="2" mtype="seg"> The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>SELECTSTATEMENT<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a VARCHAR (32672) data type.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">FILENAME</source>
+<seg-source><mrk mid="0" mtype="seg">FILENAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FILENAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Specifies the name of a new file to which the data is to be exported. If the path is omitted, the current working directory is used. If the name of a file that already exists is specified, the export procedure returns an error. The specified location of the file should refer to the server-side location if you are using the Network Server. Specifying a NULL value results in an error. The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>FILENAME<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a VARCHAR (32672) data type.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the name of a new file to which the data is to be exported.</mrk><mrk mid="1" mtype="seg"> If the path is omitted, the current working directory is used.</mrk><mrk mid="2" mtype="seg"> If the name of a file that already exists is specified, the export procedure returns an error.</mrk><mrk mid="3" mtype="seg"> The specified location of the file should refer to the server-side location if you are using the Network Server.</mrk><mrk mid="4" mtype="seg"> Specifying a NULL value results in an error.</mrk><mrk mid="5" mtype="seg"> The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>FILENAME<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a VARCHAR (32672) data type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the name of a new file to which the data is to be exported.</mrk><mrk mid="1" mtype="seg"> If the path is omitted, the current working directory is used.</mrk><mrk mid="2" mtype="seg"> If the name of a file that already exists is specified, the export procedure returns an error.</mrk><mrk mid="3" mtype="seg"> The specified location of the file should refer to the server-side location if you are using the Network Server.</mrk><mrk mid="4" mtype="seg"> Specifying a NULL value results in an error.</mrk><mrk mid="5" mtype="seg"> The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>FILENAME<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a VARCHAR (32672) data type.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">COLUMNDELIMITER</source>
+<seg-source><mrk mid="0" mtype="seg">COLUMNDELIMITER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COLUMNDELIMITER</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Specifies a column delimiter. The specified character is used in place of a comma to signify the end of a column. You can specify a NULL value to use the default value of a comma. The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>COLUMNDELIMITER<ept id="1">&lt;/parmname&gt;</ept> parameter must be a CHAR (1) data type.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies a column delimiter.</mrk><mrk mid="1" mtype="seg"> The specified character is used in place of a comma to signify the end of a column.</mrk><mrk mid="2" mtype="seg"> You can specify a NULL value to use the default value of a comma.</mrk><mrk mid="3" mtype="seg"> The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>COLUMNDELIMITER<ept id="1">&lt;/parmname&gt;</ept> parameter must be a CHAR (1) data type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies a column delimiter.</mrk><mrk mid="1" mtype="seg"> The specified character is used in place of a comma to signify the end of a column.</mrk><mrk mid="2" mtype="seg"> You can specify a NULL value to use the default value of a comma.</mrk><mrk mid="3" mtype="seg"> The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>COLUMNDELIMITER<ept id="1">&lt;/parmname&gt;</ept> parameter must be a CHAR (1) data type.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">CHARACTERDELIMITER</source>
+<seg-source><mrk mid="0" mtype="seg">CHARACTERDELIMITER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHARACTERDELIMITER</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Specifies a character delimiter. The specified character is used in place of double quotation marks to enclose a character string. You can specify a NULL value to use the default value of a double quotation mark. The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>CHARACTERDELIMITER<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a CHAR (1) data type.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies a character delimiter.</mrk><mrk mid="1" mtype="seg"> The specified character is used in place of double quotation marks to enclose a character string.</mrk><mrk mid="2" mtype="seg"> You can specify a NULL value to use the default value of a double quotation mark.</mrk><mrk mid="3" mtype="seg"> The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>CHARACTERDELIMITER<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a CHAR (1) data type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies a character delimiter.</mrk><mrk mid="1" mtype="seg"> The specified character is used in place of double quotation marks to enclose a character string.</mrk><mrk mid="2" mtype="seg"> You can specify a NULL value to use the default value of a double quotation mark.</mrk><mrk mid="3" mtype="seg"> The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>CHARACTERDELIMITER<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a CHAR (1) data type.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">CODESET</source>
+<seg-source><mrk mid="0" mtype="seg">CODESET</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CODESET</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Specifies the code set of the data in the export file. The code set name should be one of the Java-supported character encoding sets. Data is converted from the database code page to the specified code page before writing to the file. You can specify a NULL value to write the data in the same code page as the JVM in which it is being executed. The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>CODESET<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a VARCHAR (128) data type.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the code set of the data in the export file.</mrk><mrk mid="1" mtype="seg"> The code set name should be one of the Java-supported character encoding sets.</mrk><mrk mid="2" mtype="seg"> Data is converted from the database code page to the specified code page before writing to the file.</mrk><mrk mid="3" mtype="seg"> You can specify a NULL value to write the data in the same code page as the JVM in which it is being executed.</mrk><mrk mid="4" mtype="seg"> The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>CODESET<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a VARCHAR (128) data type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the code set of the data in the export file.</mrk><mrk mid="1" mtype="seg"> The code set name should be one of the Java-supported character encoding sets.</mrk><mrk mid="2" mtype="seg"> Data is converted from the database code page to the specified code page before writing to the file.</mrk><mrk mid="3" mtype="seg"> You can specify a NULL value to write the data in the same code page as the JVM in which it is being executed.</mrk><mrk mid="4" mtype="seg"> The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>CODESET<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a VARCHAR (128) data type.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">LOBSFILENAME</source>
+<seg-source><mrk mid="0" mtype="seg">LOBSFILENAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOBSFILENAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Specifies the file that the large object data is exported to. If the path is omitted, the lob file is created in the same directory as the main export file. If you specify the name of an existing file, the export utility overwrites the contents of the file. The data is not appended to the file. If you are using the Network Server, the file should be in a server-side location. Specifying a NULL value results in an error. The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>LOBSFILENAME<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a VARCHAR (32672) data type.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the file that the large object data is exported to.</mrk><mrk mid="1" mtype="seg"> If the path is omitted, the lob file is created in the same directory as the main export file.</mrk><mrk mid="2" mtype="seg"> If you specify the name of an existing file, the export utility overwrites the contents of the file.</mrk><mrk mid="3" mtype="seg"> The data is not appended to the file.</mrk><mrk mid="4" mtype="seg"> If you are using the Network Server, the file should be in a server-side location.</mrk><mrk mid="5" mtype="seg"> Specifying a NULL value results in an error.</mrk><mrk mid="6" mtype="seg"> The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>LOBSFILENAME<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a VARCHAR (32672) data type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the file that the large object data is exported to.</mrk><mrk mid="1" mtype="seg"> If the path is omitted, the lob file is created in the same directory as the main export file.</mrk><mrk mid="2" mtype="seg"> If you specify the name of an existing file, the export utility overwrites the contents of the file.</mrk><mrk mid="3" mtype="seg"> The data is not appended to the file.</mrk><mrk mid="4" mtype="seg"> If you are using the Network Server, the file should be in a server-side location.</mrk><mrk mid="5" mtype="seg"> Specifying a NULL value results in an error.</mrk><mrk mid="6" mtype="seg"> The <bpt id="1" ctype="x-parmname">&lt;parmname&gt;</bpt>LOBSFILENAME<ept id="1">&lt;/parmname&gt;</ept> parameter takes an input argument that is a VARCHAR (32672) data type.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default. See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information. The database owner can grant access to other users. The user must also have SELECT privileges on the table.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk><mrk mid="3" mtype="seg"> The user must also have SELECT privileges on the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk><mrk mid="3" mtype="seg"> The user must also have SELECT privileges on the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Example exporting data from a query using a separate export file for the LOB data</source>
+<seg-source><mrk mid="0" mtype="seg">Example exporting data from a query using a separate export file for the LOB data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example exporting data from a query using a separate export file for the LOB data</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">The following example shows how to export employee data in department 20 from the STAFF table in a sample database to the main file <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="1">&lt;/codeph&gt;</ept> and the lob data to the file <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>pictures.dat<ept id="2">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example shows how to export employee data in department 20 from the STAFF table in a sample database to the main file <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="1">&lt;/codeph&gt;</ept> and the lob data to the file <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>pictures.dat<ept id="2">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example shows how to export employee data in department 20 from the STAFF table in a sample database to the main file <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="1">&lt;/codeph&gt;</ept> and the lob data to the file <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>pictures.dat<ept id="2">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE( 'SELECT * FROM STAFF WHERE dept=20', 'c:\data\staff.del', ',' ,'"', 'UTF-8','c:\data\pictures.dat');</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE( 'SELECT * FROM STAFF WHERE dept=20', 'c:\data\staff.del', ',' ,'"', 'UTF-8','c:\data\pictures.dat');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE( 'SELECT * FROM STAFF WHERE dept=20', 'c:\data\staff.del', ',' ,'"', 'UTF-8','c:\data\pictures.dat');</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

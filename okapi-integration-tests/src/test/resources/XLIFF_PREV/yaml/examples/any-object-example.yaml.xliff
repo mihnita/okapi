@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="any-object-example.yaml" source-language="en" target-language="fr" datatype="x-text/x-yaml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi-integration-tests/common-integration-tests/target/test-classes/yaml/examples/okf_yaml@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<group id="sg2">
+<trans-unit id="tu1" resname="none" xml:space="preserve">
+<source xml:lang="en">~</source>
+<seg-source><mrk mid="0" mtype="seg">~</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">~</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="none" xml:space="preserve">
+<source xml:lang="en">null</source>
+<seg-source><mrk mid="0" mtype="seg">null</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">null</mrk></target>
+</trans-unit>
+</group>
+<group id="sg3">
+<trans-unit id="tu3" resname="bool" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="bool" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" resname="bool" xml:space="preserve">
+<source xml:lang="en">on</source>
+<seg-source><mrk mid="0" mtype="seg">on</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">on</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="bool" xml:space="preserve">
+<source xml:lang="en">off</source>
+<seg-source><mrk mid="0" mtype="seg">off</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">off</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu7" resname="int" xml:space="preserve">
+<source xml:lang="en">42</source>
+<seg-source><mrk mid="0" mtype="seg">42</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">42</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" resname="float" xml:space="preserve">
+<source xml:lang="en">3.14159</source>
+<seg-source><mrk mid="0" mtype="seg">3.14159</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3.14159</mrk></target>
+</trans-unit>
+<group id="sg4">
+<trans-unit id="tu9" resname="list" xml:space="preserve">
+<source xml:lang="en">LITE</source>
+<seg-source><mrk mid="0" mtype="seg">LITE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LITE</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" resname="list" xml:space="preserve">
+<source xml:lang="en">RES_ACID</source>
+<seg-source><mrk mid="0" mtype="seg">RES_ACID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RES_ACID</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" resname="list" xml:space="preserve">
+<source xml:lang="en">SUS_DEXT</source>
+<seg-source><mrk mid="0" mtype="seg">SUS_DEXT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SUS_DEXT</mrk></target>
+</trans-unit>
+</group>
+<group id="sg5">
+<trans-unit id="tu12" resname="dict/hp" xml:space="preserve">
+<source xml:lang="en">13</source>
+<seg-source><mrk mid="0" mtype="seg">13</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">13</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" resname="dict/sp" xml:space="preserve">
+<source xml:lang="en">5</source>
+<seg-source><mrk mid="0" mtype="seg">5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">5</mrk></target>
+</trans-unit>
+</group>
+</group>
+</body>
+</file>
+</xliff>

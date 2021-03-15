@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevspecial93497.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Aborting statements and transactions</source>
+<seg-source><mrk mid="0" mtype="seg">Aborting statements and transactions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Aborting statements and transactions</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You might want a trigger action to be able to abort the triggering statement or even the entire transaction.</source>
+<seg-source><mrk mid="0" mtype="seg">You might want a trigger action to be able to abort the triggering statement or even the entire transaction.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You might want a trigger action to be able to abort the triggering statement or even the entire transaction.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Triggers that use the current connection are not permitted to commit or roll back the connection, so how do you do that? The answer is: have the trigger throw an exception, which is by default a statement-level exception (which rolls back the statement). The application-side code that contains the statement that caused the trigger to fire can then roll back the entire connection if desired. Programming triggers in this respect is no different from programming any database-side JDBC method.</source>
+<seg-source><mrk mid="0" mtype="seg">Triggers that use the current connection are not permitted to commit or roll back the connection, so how do you do that? The answer is: have the trigger throw an exception, which is by default a statement-level exception (which rolls back the statement).</mrk><mrk mid="1" mtype="seg"> The application-side code that contains the statement that caused the trigger to fire can then roll back the entire connection if desired.</mrk><mrk mid="2" mtype="seg"> Programming triggers in this respect is no different from programming any database-side JDBC method.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Triggers that use the current connection are not permitted to commit or roll back the connection, so how do you do that? The answer is: have the trigger throw an exception, which is by default a statement-level exception (which rolls back the statement).</mrk><mrk mid="1" mtype="seg"> The application-side code that contains the statement that caused the trigger to fire can then roll back the entire connection if desired.</mrk><mrk mid="2" mtype="seg"> Programming triggers in this respect is no different from programming any database-side JDBC method.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

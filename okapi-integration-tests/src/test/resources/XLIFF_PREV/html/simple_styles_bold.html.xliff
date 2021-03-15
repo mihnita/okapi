@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="simple_styles_bold.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/html/target/classes/net/sf/okapi/filters/html/nonwellformedConfiguration.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" restype="x-title">
+<source xml:lang="en">Your Page Title</source>
+<seg-source><mrk mid="0" mtype="seg">Your Page Title</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Your Page Title</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" restype="x-h3">
+<source xml:lang="en">fox</source>
+<seg-source><mrk mid="0" mtype="seg">fox</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">fox</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">The quick brown <bpt id="1" ctype="bold">&lt;b&gt;</bpt>fox<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">The quick brown <bpt id="1" ctype="bold">&lt;b&gt;</bpt>fox<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The quick brown <bpt id="1" ctype="bold">&lt;b&gt;</bpt>fox<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu4" restype="x-h4">
+<source xml:lang="en">dog</source>
+<seg-source><mrk mid="0" mtype="seg">dog</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dog</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">jumps over the lazy <bpt id="1" ctype="bold">&lt;b&gt;</bpt>dog<ept id="1">&lt;/b&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">jumps over the lazy <bpt id="1" ctype="bold">&lt;b&gt;</bpt>dog<ept id="1">&lt;/b&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jumps over the lazy <bpt id="1" ctype="bold">&lt;b&gt;</bpt>dog<ept id="1">&lt;/b&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

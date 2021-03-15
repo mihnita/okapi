@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts19173.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Transactions</source>
+<seg-source><mrk mid="0" mtype="seg">Transactions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transactions</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>transaction<ept id="1">&lt;/i&gt;</ept> is a set of one or more SQL statements that make up a logical unit of work that you can either commit or roll back and that will be recovered in the event of a system failure.</source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>transaction<ept id="1">&lt;/i&gt;</ept> is a set of one or more SQL statements that make up a logical unit of work that you can either commit or roll back and that will be recovered in the event of a system failure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>transaction<ept id="1">&lt;/i&gt;</ept> is a set of one or more SQL statements that make up a logical unit of work that you can either commit or roll back and that will be recovered in the event of a system failure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Transactions</source>
+<seg-source><mrk mid="0" mtype="seg">Transactions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transactions</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">definition</source>
+<seg-source><mrk mid="0" mtype="seg">definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">All the statements in the transaction are <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>atomic<ept id="1">&lt;/i&gt;</ept>. A transaction is associated with a single <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> object (and database). A transaction cannot span <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Connections<ept id="4">&lt;/i&gt;</ept> (or databases).</source>
+<seg-source><mrk mid="0" mtype="seg">All the statements in the transaction are <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>atomic<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> A transaction is associated with a single <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> object (and database).</mrk><mrk mid="2" mtype="seg"> A transaction cannot span <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Connections<ept id="4">&lt;/i&gt;</ept> (or databases).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All the statements in the transaction are <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>atomic<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> A transaction is associated with a single <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> object (and database).</mrk><mrk mid="2" mtype="seg"> A transaction cannot span <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Connections<ept id="4">&lt;/i&gt;</ept> (or databases).</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> permits schema and data manipulation statements (DML) to be intermixed within a single transaction. If you create a table in one transaction, you can also insert into it in that same transaction. A schema manipulation statement (DDL) is not automatically committed when it is performed, but participates in the transaction within which it is issued. Because DDL requires exclusive locks on system tables, keep transactions that involve DDL short.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> permits schema and data manipulation statements (DML) to be intermixed within a single transaction.</mrk><mrk mid="1" mtype="seg"> If you create a table in one transaction, you can also insert into it in that same transaction.</mrk><mrk mid="2" mtype="seg"> A schema manipulation statement (DDL) is not automatically committed when it is performed, but participates in the transaction within which it is issued.</mrk><mrk mid="3" mtype="seg"> Because DDL requires exclusive locks on system tables, keep transactions that involve DDL short.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> permits schema and data manipulation statements (DML) to be intermixed within a single transaction.</mrk><mrk mid="1" mtype="seg"> If you create a table in one transaction, you can also insert into it in that same transaction.</mrk><mrk mid="2" mtype="seg"> A schema manipulation statement (DDL) is not automatically committed when it is performed, but participates in the transaction within which it is issued.</mrk><mrk mid="3" mtype="seg"> Because DDL requires exclusive locks on system tables, keep transactions that involve DDL short.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

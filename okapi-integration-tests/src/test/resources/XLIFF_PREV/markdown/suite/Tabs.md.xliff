@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Tabs.md.tkitMerged" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">this is a list item
+indented with tabs</source>
+<seg-source><mrk mid="0" mtype="seg">this is a list item</mrk>
+<mrk mid="1" mtype="seg">indented with tabs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">this is a list item</mrk>
+<mrk mid="1" mtype="seg">indented with tabs</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">this is a list item
+indented with spaces</source>
+<seg-source><mrk mid="0" mtype="seg">this is a list item</mrk>
+<mrk mid="1" mtype="seg">indented with spaces</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">this is a list item</mrk>
+<mrk mid="1" mtype="seg">indented with spaces</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Code:</source>
+<seg-source><mrk mid="0" mtype="seg">Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code:</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>this code block is indented by one tab<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>this code block is indented by one tab<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>this code block is indented by one tab<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">And:</source>
+<seg-source><mrk mid="0" mtype="seg">And:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">And:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>this code block is indented by two tabs<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>this code block is indented by two tabs<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>this code block is indented by two tabs<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">And:</source>
+<seg-source><mrk mid="0" mtype="seg">And:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">And:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>+	this is an example list item<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>indented with tabs<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>+   this is an example list item<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>indented with spaces<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>+	this is an example list item<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>indented with tabs<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>+   this is an example list item<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>indented with spaces<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>+	this is an example list item<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>indented with tabs<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>+   this is an example list item<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>indented with spaces<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Test03.mif" source-language="en" target-language="fr" datatype="x-application/vnd.mif" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="1" restype="x-variables">
+<trans-unit id="1" xml:space="preserve">
+<source xml:lang="en">,</source>
+<seg-source><mrk mid="0" mtype="seg">,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,</mrk></target>
+</trans-unit>
+<trans-unit id="2" xml:space="preserve">
+<source xml:lang="en">/<ph id="2" ctype="x-regxph" equiv-text="&lt;$daynum>">&lt;$daynum\&gt;</ph>/</source>
+<seg-source><mrk mid="0" mtype="seg">/<ph id="2" ctype="x-regxph" equiv-text="&lt;$daynum>">&lt;$daynum\&gt;</ph>/</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/<ph id="2" ctype="x-regxph" equiv-text="&lt;$daynum>">&lt;$daynum\&gt;</ph>/</mrk></target>
+</trans-unit>
+<trans-unit id="3" xml:space="preserve">
+<source xml:lang="en">, <ph id="3" ctype="x-regxph" equiv-text="&lt;$year>">&lt;$year\&gt;</ph> <ph id="4" ctype="x-regxph" equiv-text="&lt;$hour>">&lt;$hour\&gt;</ph>:</source>
+<seg-source><mrk mid="0" mtype="seg">, <ph id="3" ctype="x-regxph" equiv-text="&lt;$year>">&lt;$year\&gt;</ph> <ph id="4" ctype="x-regxph" equiv-text="&lt;$hour>">&lt;$hour\&gt;</ph>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, <ph id="3" ctype="x-regxph" equiv-text="&lt;$year>">&lt;$year\&gt;</ph> <ph id="4" ctype="x-regxph" equiv-text="&lt;$hour>">&lt;$hour\&gt;</ph>:</mrk></target>
+</trans-unit>
+<trans-unit id="4" xml:space="preserve">
+<source xml:lang="en">/<ph id="2" ctype="x-regxph" equiv-text="&lt;$daynum>">&lt;$daynum\&gt;</ph>/</source>
+<seg-source><mrk mid="0" mtype="seg">/<ph id="2" ctype="x-regxph" equiv-text="&lt;$daynum>">&lt;$daynum\&gt;</ph>/</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/<ph id="2" ctype="x-regxph" equiv-text="&lt;$daynum>">&lt;$daynum\&gt;</ph>/</mrk></target>
+</trans-unit>
+<trans-unit id="5" xml:space="preserve">
+<source xml:lang="en">,</source>
+<seg-source><mrk mid="0" mtype="seg">,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,</mrk></target>
+</trans-unit>
+<trans-unit id="6" xml:space="preserve">
+<source xml:lang="en">/<ph id="2" ctype="x-regxph" equiv-text="&lt;$daynum>">&lt;$daynum\&gt;</ph>/</source>
+<seg-source><mrk mid="0" mtype="seg">/<ph id="2" ctype="x-regxph" equiv-text="&lt;$daynum>">&lt;$daynum\&gt;</ph>/</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/<ph id="2" ctype="x-regxph" equiv-text="&lt;$daynum>">&lt;$daynum\&gt;</ph>/</mrk></target>
+</trans-unit>
+<trans-unit id="7" xml:space="preserve">
+<source xml:lang="en"> (Continued)</source>
+<seg-source><mrk mid="0" mtype="seg"> (Continued)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> (Continued)</mrk></target>
+</trans-unit>
+<trans-unit id="8" xml:space="preserve">
+<source xml:lang="en"> (Sheet <ph id="1" ctype="x-regxph" equiv-text="&lt;$tblsheetnum>">&lt;$tblsheetnum\&gt;</ph> of <ph id="2" ctype="x-regxph" equiv-text="&lt;$tblsheetcount>">&lt;$tblsheetcount\&gt;</ph>)</source>
+<seg-source><mrk mid="0" mtype="seg"> (Sheet <ph id="1" ctype="x-regxph" equiv-text="&lt;$tblsheetnum>">&lt;$tblsheetnum\&gt;</ph> of <ph id="2" ctype="x-regxph" equiv-text="&lt;$tblsheetcount>">&lt;$tblsheetcount\&gt;</ph>)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> (Sheet <ph id="1" ctype="x-regxph" equiv-text="&lt;$tblsheetnum>">&lt;$tblsheetnum\&gt;</ph> of <ph id="2" ctype="x-regxph" equiv-text="&lt;$tblsheetcount>">&lt;$tblsheetcount\&gt;</ph>)</mrk></target>
+</trans-unit>
+</group>
+<group id="3" restype="table">
+<trans-unit id="9" xml:space="preserve">
+<source xml:lang="en">Headings Table</source>
+<seg-source><mrk mid="0" mtype="seg">Headings Table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Headings Table</mrk></target>
+</trans-unit>
+<group id="4" restype="row">
+<group id="5" restype="cell">
+<trans-unit id="10" xml:space="preserve">
+<source xml:lang="en">Heading Level</source>
+<seg-source><mrk mid="0" mtype="seg">Heading Level</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Heading Level</mrk></target>
+</trans-unit>
+</group>
+<group id="7" restype="cell">
+<trans-unit id="11" xml:space="preserve">
+<source xml:lang="en">Paragraph Format</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraph Format</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraph Format</mrk></target>
+</trans-unit>
+</group>
+<group id="9" restype="cell">
+<trans-unit id="12" xml:space="preserve">
+<source xml:lang="en">Comments</source>
+<seg-source><mrk mid="0" mtype="seg">Comments</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Comments</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="12" restype="row">
+<group id="13" restype="cell">
+<trans-unit id="13" xml:space="preserve">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+</group>
+<group id="15" restype="cell">
+<trans-unit id="14" xml:space="preserve">
+<source xml:lang="en">Title</source>
+<seg-source><mrk mid="0" mtype="seg">Title</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title</mrk></target>
+</trans-unit>
+</group>
+<group id="17" restype="cell">
+</group>
+</group>
+<group id="20" restype="row">
+<group id="21" restype="cell">
+<trans-unit id="15" xml:space="preserve">
+<source xml:lang="en">2</source>
+<seg-source><mrk mid="0" mtype="seg">2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2</mrk></target>
+</trans-unit>
+</group>
+<group id="23" restype="cell">
+<trans-unit id="16" xml:space="preserve">
+<source xml:lang="en">Heading1</source>
+<seg-source><mrk mid="0" mtype="seg">Heading1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Heading1</mrk></target>
+</trans-unit>
+</group>
+<group id="25" restype="cell">
+</group>
+</group>
+<group id="28" restype="row">
+<group id="29" restype="cell">
+<trans-unit id="17" xml:space="preserve">
+<source xml:lang="en">3</source>
+<seg-source><mrk mid="0" mtype="seg">3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3</mrk></target>
+</trans-unit>
+</group>
+<group id="31" restype="cell">
+<trans-unit id="18" xml:space="preserve">
+<source xml:lang="en">Heading2</source>
+<seg-source><mrk mid="0" mtype="seg">Heading2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Heading2</mrk></target>
+</trans-unit>
+</group>
+<group id="33" restype="cell">
+</group>
+</group>
+<group id="36" restype="row">
+<group id="37" restype="cell">
+<trans-unit id="19" xml:space="preserve">
+<source xml:lang="en">4</source>
+<seg-source><mrk mid="0" mtype="seg">4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4</mrk></target>
+</trans-unit>
+</group>
+<group id="39" restype="cell">
+<trans-unit id="20" xml:space="preserve">
+<source xml:lang="en">HeadingRunIn</source>
+<seg-source><mrk mid="0" mtype="seg">HeadingRunIn</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HeadingRunIn</mrk></target>
+</trans-unit>
+</group>
+<group id="41" restype="cell">
+</group>
+</group>
+<group id="44" restype="row">
+<group id="45" restype="cell">
+<trans-unit id="21" xml:space="preserve">
+<source xml:lang="en">4</source>
+<seg-source><mrk mid="0" mtype="seg">4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4</mrk></target>
+</trans-unit>
+</group>
+<group id="47" restype="cell">
+<trans-unit id="22" xml:space="preserve">
+<source xml:lang="en">TableTitle</source>
+<seg-source><mrk mid="0" mtype="seg">TableTitle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TableTitle</mrk></target>
+</trans-unit>
+</group>
+<group id="49" restype="cell">
+</group>
+</group>
+</group>
+<trans-unit id="23" xml:space="preserve">
+<source xml:lang="en">Text in the MASTER PAGE.</source>
+<seg-source><mrk mid="0" mtype="seg">Text in the MASTER PAGE.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text in the MASTER PAGE.</mrk></target>
+</trans-unit>
+<trans-unit id="24" xml:space="preserve">
+<source xml:lang="en">This is page 1</source>
+<seg-source><mrk mid="0" mtype="seg">This is page 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is page 1</mrk></target>
+</trans-unit>
+<trans-unit id="25" xml:space="preserve">
+<source xml:lang="en">And this is the text of the body in page 1.</source>
+<seg-source><mrk mid="0" mtype="seg">And this is the text of the body in page 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">And this is the text of the body in page 1.</mrk></target>
+</trans-unit>
+<trans-unit id="26" xml:space="preserve">
+<source xml:lang="en">Japanese text: <ph id="1" ctype="x-font">'&gt;
+   &lt;Font 
+    &lt;FTag `'&gt;
+    &lt;FPlatformName `W.Meiryo.R.400'&gt;
+    &lt;FFamily `Meiryo'&gt;
+    &lt;FEncoding `JISX0208.ShiftJIS'&gt;
+    &lt;FLanguage Japanese&gt;
+    &lt;FLocked No&gt;
+   &gt; # end of Font
+   &lt;String `</ph>日本語<ph id="2" ctype="x-font">'&gt;
+   &lt;Font 
+    &lt;FTag `'&gt;
+    &lt;FLocked No&gt;
+   &gt; # end of Font
+   &lt;String `</ph> and <ph id="3" ctype="x-font">'&gt;
+   &lt;Font 
+    &lt;FTag `'&gt;
+    &lt;FPlatformName `W.Lucida Sans Unicode.R.400'&gt;
+    &lt;FFamily `Lucida Sans Unicode'&gt;
+    &lt;FEncoding `FrameRoman'&gt;
+    &lt;FLocked No&gt;
+   &gt; # end of Font
+   &lt;String `</ph>É=E-acute.</source>
+<seg-source><mrk mid="0" mtype="seg">Japanese text: <ph id="1" ctype="x-font">'&gt;
+   &lt;Font 
+    &lt;FTag `'&gt;
+    &lt;FPlatformName `W.Meiryo.R.400'&gt;
+    &lt;FFamily `Meiryo'&gt;
+    &lt;FEncoding `JISX0208.ShiftJIS'&gt;
+    &lt;FLanguage Japanese&gt;
+    &lt;FLocked No&gt;
+   &gt; # end of Font
+   &lt;String `</ph>日本語<ph id="2" ctype="x-font">'&gt;
+   &lt;Font 
+    &lt;FTag `'&gt;
+    &lt;FLocked No&gt;
+   &gt; # end of Font
+   &lt;String `</ph> and <ph id="3" ctype="x-font">'&gt;
+   &lt;Font 
+    &lt;FTag `'&gt;
+    &lt;FPlatformName `W.Lucida Sans Unicode.R.400'&gt;
+    &lt;FFamily `Lucida Sans Unicode'&gt;
+    &lt;FEncoding `FrameRoman'&gt;
+    &lt;FLocked No&gt;
+   &gt; # end of Font
+   &lt;String `</ph>É=E-acute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Japanese text: <ph id="1" ctype="x-font">'&gt;
+   &lt;Font 
+    &lt;FTag `'&gt;
+    &lt;FPlatformName `W.Meiryo.R.400'&gt;
+    &lt;FFamily `Meiryo'&gt;
+    &lt;FEncoding `JISX0208.ShiftJIS'&gt;
+    &lt;FLanguage Japanese&gt;
+    &lt;FLocked No&gt;
+   &gt; # end of Font
+   &lt;String `</ph>日本語<ph id="2" ctype="x-font">'&gt;
+   &lt;Font 
+    &lt;FTag `'&gt;
+    &lt;FLocked No&gt;
+   &gt; # end of Font
+   &lt;String `</ph> and <ph id="3" ctype="x-font">'&gt;
+   &lt;Font 
+    &lt;FTag `'&gt;
+    &lt;FPlatformName `W.Lucida Sans Unicode.R.400'&gt;
+    &lt;FFamily `Lucida Sans Unicode'&gt;
+    &lt;FEncoding `FrameRoman'&gt;
+    &lt;FLocked No&gt;
+   &gt; # end of Font
+   &lt;String `</ph>É=E-acute.</mrk></target>
+</trans-unit>
+<trans-unit id="27" xml:space="preserve">
+<source xml:lang="en">Feminine ordinal=<ph id="1" ctype="x-font">'&gt;
+   &lt;Font 
+    &lt;FTag `'&gt;
+    &lt;FPlatformName `W.Lucida Sans Unicode.R.400'&gt;
+    &lt;FFamily `Lucida Sans Unicode'&gt;
+    &lt;FEncoding `FrameRoman'&gt;
+    &lt;FSize  11.5 pt&gt;
+    &lt;FLocked No&gt;
+   &gt; # end of Font
+   &lt;String `</ph>ª</source>
+<seg-source><mrk mid="0" mtype="seg">Feminine ordinal=<ph id="1" ctype="x-font">'&gt;
+   &lt;Font 
+    &lt;FTag `'&gt;
+    &lt;FPlatformName `W.Lucida Sans Unicode.R.400'&gt;
+    &lt;FFamily `Lucida Sans Unicode'&gt;
+    &lt;FEncoding `FrameRoman'&gt;
+    &lt;FSize  11.5 pt&gt;
+    &lt;FLocked No&gt;
+   &gt; # end of Font
+   &lt;String `</ph>ª</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feminine ordinal=<ph id="1" ctype="x-font">'&gt;
+   &lt;Font 
+    &lt;FTag `'&gt;
+    &lt;FPlatformName `W.Lucida Sans Unicode.R.400'&gt;
+    &lt;FFamily `Lucida Sans Unicode'&gt;
+    &lt;FEncoding `FrameRoman'&gt;
+    &lt;FSize  11.5 pt&gt;
+    &lt;FLocked No&gt;
+   &gt; # end of Font
+   &lt;String `</ph>ª</mrk></target>
+</trans-unit>
+<trans-unit id="28" xml:space="preserve">
+<source xml:lang="en">This is a text in the second page.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a text in the second page.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a text in the second page.</mrk></target>
+</trans-unit>
+<trans-unit id="29" xml:space="preserve">
+<source xml:lang="en">With an image: </source>
+<seg-source><mrk mid="0" mtype="seg">With an image:</mrk> </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">With an image:</mrk> </target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbc32052.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">java.sql.Driver interface</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.Driver interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.Driver interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">java.sql.Driver interface</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.Driver interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.Driver interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">JDBC driver</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">loading</source>
+<seg-source><mrk mid="0" mtype="seg">loading</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">loading</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">jdbc.drivers system property</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc.drivers system property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc.drivers system property</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">using to load driver</source>
+<seg-source><mrk mid="0" mtype="seg">using to load driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">using to load driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The class that loads <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s local JDBC driver is the class <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.EmbeddedDriver<ept id="2">&lt;/i&gt;</ept>. The class that loads <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>'s network client driver is the class <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.ClientDriver<ept id="4">&lt;/i&gt;</ept>. Listed below are some of the ways to create instances of these classes. Do not use the classes directly through the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Driver<ept id="5">&lt;/i&gt;</ept> interface. Use the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>DriverManager<ept id="6">&lt;/i&gt;</ept> class to create connections.</source>
+<seg-source><mrk mid="0" mtype="seg">The class that loads <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s local JDBC driver is the class <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.EmbeddedDriver<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The class that loads <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>'s network client driver is the class <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.ClientDriver<ept id="4">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> Listed below are some of the ways to create instances of these classes.</mrk><mrk mid="3" mtype="seg"> Do not use the classes directly through the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Driver<ept id="5">&lt;/i&gt;</ept> interface.</mrk><mrk mid="4" mtype="seg"> Use the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>DriverManager<ept id="6">&lt;/i&gt;</ept> class to create connections.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The class that loads <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s local JDBC driver is the class <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.EmbeddedDriver<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The class that loads <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>'s network client driver is the class <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.ClientDriver<ept id="4">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> Listed below are some of the ways to create instances of these classes.</mrk><mrk mid="3" mtype="seg"> Do not use the classes directly through the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Driver<ept id="5">&lt;/i&gt;</ept> interface.</mrk><mrk mid="4" mtype="seg"> Use the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>DriverManager<ept id="6">&lt;/i&gt;</ept> class to create connections.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If your application runs on JDK 6 or higher, you do not need to do any of the following. The driver will load automatically when your application asks for its first connection.</source>
+<seg-source><mrk mid="0" mtype="seg">If your application runs on JDK 6 or higher, you do not need to do any of the following.</mrk><mrk mid="1" mtype="seg"> The driver will load automatically when your application asks for its first connection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If your application runs on JDK 6 or higher, you do not need to do any of the following.</mrk><mrk mid="1" mtype="seg"> The driver will load automatically when your application asks for its first connection.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" resname="jdbc10841-id" xml:space="preserve">
+<source xml:lang="en">Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+Class.forName("org.apache.derby.jdbc.ClientDriver");</source>
+<seg-source><mrk mid="0" mtype="seg">Class.forName("org.apache.derby.jdbc.EmbeddedDriver");</mrk>
+<mrk mid="1" mtype="seg">Class.forName("org.apache.derby.jdbc.ClientDriver");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Class.forName("org.apache.derby.jdbc.EmbeddedDriver");</mrk>
+<mrk mid="1" mtype="seg">Class.forName("org.apache.derby.jdbc.ClientDriver");</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The recommended way to load the driver class.</source>
+<seg-source><mrk mid="0" mtype="seg">The recommended way to load the driver class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The recommended way to load the driver class.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">With the embedded driver, if your application shuts down Derby or calls the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager.deregisterDriver<ept id="1">&lt;/i&gt;</ept> method, and you then want to reload the driver, call the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Class.forName().newInstance()<ept id="2">&lt;/i&gt;</ept> method to do so:</source>
+<seg-source><mrk mid="0" mtype="seg">With the embedded driver, if your application shuts down Derby or calls the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager.deregisterDriver<ept id="1">&lt;/i&gt;</ept> method, and you then want to reload the driver, call the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Class.forName().newInstance()<ept id="2">&lt;/i&gt;</ept> method to do so:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">With the embedded driver, if your application shuts down Derby or calls the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager.deregisterDriver<ept id="1">&lt;/i&gt;</ept> method, and you then want to reload the driver, call the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Class.forName().newInstance()<ept id="2">&lt;/i&gt;</ept> method to do so:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" xml:space="preserve">
+<source xml:lang="en">Class.forName("org.apache.derby.jdbc.EmbeddedDriver").newInstance();</source>
+<seg-source><mrk mid="0" mtype="seg">Class.forName("org.apache.derby.jdbc.EmbeddedDriver").newInstance();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Class.forName("org.apache.derby.jdbc.EmbeddedDriver").newInstance();</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" xml:space="preserve">
+<source xml:lang="en">new org.apache.derby.jdbc.EmbeddedDriver();
+new org.apache.derby.jdbc.ClientDriver();</source>
+<seg-source><mrk mid="0" mtype="seg">new org.apache.derby.jdbc.EmbeddedDriver();</mrk>
+<mrk mid="1" mtype="seg">new org.apache.derby.jdbc.ClientDriver();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">new org.apache.derby.jdbc.EmbeddedDriver();</mrk>
+<mrk mid="1" mtype="seg">new org.apache.derby.jdbc.ClientDriver();</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Same as using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Class.forName()<ept id="1">&lt;/i&gt;</ept>, except that it requires the class to be found when the code is compiled.</source>
+<seg-source><mrk mid="0" mtype="seg">Same as using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Class.forName()<ept id="1">&lt;/i&gt;</ept>, except that it requires the class to be found when the code is compiled.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Same as using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Class.forName()<ept id="1">&lt;/i&gt;</ept>, except that it requires the class to be found when the code is compiled.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15" xml:space="preserve">
+<source xml:lang="en">Class c = org.apache.derby.jdbc.EmbeddedDriver.class;
+Class c = org.apache.derby.jdbc.ClientDriver.class;</source>
+<seg-source><mrk mid="0" mtype="seg">Class c = org.apache.derby.jdbc.EmbeddedDriver.class;</mrk>
+<mrk mid="1" mtype="seg">Class c = org.apache.derby.jdbc.ClientDriver.class;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Class c = org.apache.derby.jdbc.EmbeddedDriver.class;</mrk>
+<mrk mid="1" mtype="seg">Class c = org.apache.derby.jdbc.ClientDriver.class;</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">This is also the same as using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Class.forName()<ept id="1">&lt;/i&gt;</ept>, except that it requires the class to be found when the code is compiled. The pseudo-static field <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>class<ept id="2">&lt;/i&gt;</ept> evaluates to the class that is named.</source>
+<seg-source><mrk mid="0" mtype="seg">This is also the same as using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Class.forName()<ept id="1">&lt;/i&gt;</ept>, except that it requires the class to be found when the code is compiled.</mrk><mrk mid="1" mtype="seg"> The pseudo-static field <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>class<ept id="2">&lt;/i&gt;</ept> evaluates to the class that is named.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is also the same as using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Class.forName()<ept id="1">&lt;/i&gt;</ept>, except that it requires the class to be found when the code is compiled.</mrk><mrk mid="1" mtype="seg"> The pseudo-static field <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>class<ept id="2">&lt;/i&gt;</ept> evaluates to the class that is named.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Setting the system property jdbc.drivers<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Setting the system property jdbc.drivers<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Setting the system property jdbc.drivers<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">To set a system property, you alter the invocation command line or the system properties within your application. It is not possible to alter system properties within an applet.</source>
+<seg-source><mrk mid="0" mtype="seg">To set a system property, you alter the invocation command line or the system properties within your application.</mrk><mrk mid="1" mtype="seg"> It is not possible to alter system properties within an applet.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To set a system property, you alter the invocation command line or the system properties within your application.</mrk><mrk mid="1" mtype="seg"> It is not possible to alter system properties within an applet.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">java -Djdbc.drivers=org.apache.derby.jdbc.EmbeddedDriver applicationClass java -Djdbc.drivers=org.apache.derby.jdbc.ClientDriver applicationClass</source>
+<seg-source><mrk mid="0" mtype="seg">java -Djdbc.drivers=org.apache.derby.jdbc.EmbeddedDriver applicationClass java -Djdbc.drivers=org.apache.derby.jdbc.ClientDriver applicationClass</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java -Djdbc.drivers=org.apache.derby.jdbc.EmbeddedDriver applicationClass java -Djdbc.drivers=org.apache.derby.jdbc.ClientDriver applicationClass</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">The actual driver that gets registered in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager<ept id="1">&lt;/i&gt;</ept> to handle the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:<ept id="2">&lt;/i&gt;</ept> protocol is not the class <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.EmbeddedDriver<ept id="3">&lt;/i&gt;</ept> or <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.ClientDriver<ept id="4">&lt;/i&gt;</ept>; that class simply detects the type of <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> driver needed and then causes the appropriate <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> driver to be loaded.</source>
+<seg-source><mrk mid="0" mtype="seg">The actual driver that gets registered in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager<ept id="1">&lt;/i&gt;</ept> to handle the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:<ept id="2">&lt;/i&gt;</ept> protocol is not the class <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.EmbeddedDriver<ept id="3">&lt;/i&gt;</ept> or <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.ClientDriver<ept id="4">&lt;/i&gt;</ept>; that class simply detects the type of <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> driver needed and then causes the appropriate <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> driver to be loaded.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The actual driver that gets registered in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager<ept id="1">&lt;/i&gt;</ept> to handle the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:<ept id="2">&lt;/i&gt;</ept> protocol is not the class <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.EmbeddedDriver<ept id="3">&lt;/i&gt;</ept> or <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.ClientDriver<ept id="4">&lt;/i&gt;</ept>; that class simply detects the type of <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> driver needed and then causes the appropriate <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> driver to be loaded.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">The only supported way to connect to a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system through the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:<ept id="2">&lt;/i&gt;</ept> protocol is using the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>DriverManager<ept id="3">&lt;/i&gt;</ept> to obtain a driver (<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>java.sql.Driver<ept id="4">&lt;/i&gt;</ept>) or connection (<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection<ept id="5">&lt;/i&gt;</ept>) through the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>getDriver<ept id="6">&lt;/i&gt;</ept> and <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>getConnection<ept id="7">&lt;/i&gt;</ept> method calls.</source>
+<seg-source><mrk mid="0" mtype="seg">The only supported way to connect to a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system through the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:<ept id="2">&lt;/i&gt;</ept> protocol is using the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>DriverManager<ept id="3">&lt;/i&gt;</ept> to obtain a driver (<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>java.sql.Driver<ept id="4">&lt;/i&gt;</ept>) or connection (<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection<ept id="5">&lt;/i&gt;</ept>) through the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>getDriver<ept id="6">&lt;/i&gt;</ept> and <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>getConnection<ept id="7">&lt;/i&gt;</ept> method calls.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The only supported way to connect to a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system through the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:<ept id="2">&lt;/i&gt;</ept> protocol is using the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>DriverManager<ept id="3">&lt;/i&gt;</ept> to obtain a driver (<bpt id="4" ctype="x-i">&lt;i&gt;</bpt>java.sql.Driver<ept id="4">&lt;/i&gt;</ept>) or connection (<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection<ept id="5">&lt;/i&gt;</ept>) through the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>getDriver<ept id="6">&lt;/i&gt;</ept> and <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>getConnection<ept id="7">&lt;/i&gt;</ept> method calls.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

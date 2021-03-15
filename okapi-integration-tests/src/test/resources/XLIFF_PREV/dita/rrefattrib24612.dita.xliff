@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefattrib24612.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Setting attributes for the database connection URL</source>
+<seg-source><mrk mid="0" mtype="seg">Setting attributes for the database connection URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Setting attributes for the database connection URL</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> allows you to supply a list of attributes to its database connection URL, which is a JDBC feature.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> allows you to supply a list of attributes to its database connection URL, which is a JDBC feature.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> allows you to supply a list of attributes to its database connection URL, which is a JDBC feature.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">The attributes are specific to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The attributes are specific to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The attributes are specific to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">You typically set attributes in a semicolon-separated list following the protocol and subprotocol (and, in some cases, the subsubprotocol). For information on how you set attributes, see <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefjdbc10889.dita#rrefjdbc10889"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>. This section provides reference information only.</source>
+<seg-source><mrk mid="0" mtype="seg">You typically set attributes in a semicolon-separated list following the protocol and subprotocol (and, in some cases, the subsubprotocol).</mrk><mrk mid="1" mtype="seg"> For information on how you set attributes, see <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefjdbc10889.dita#rrefjdbc10889"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> This section provides reference information only.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You typically set attributes in a semicolon-separated list following the protocol and subprotocol (and, in some cases, the subsubprotocol).</mrk><mrk mid="1" mtype="seg"> For information on how you set attributes, see <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefjdbc10889.dita#rrefjdbc10889"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> This section provides reference information only.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection<ept id="1">&lt;/i&gt;</ept> method can take both a connection URL and a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="2">&lt;/i&gt;</ept> object as arguments. If you specify any attributes both on the connection URL and in a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="3">&lt;/i&gt;</ept> object, the attributes on the connection URL override the attributes in the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="4">&lt;/i&gt;</ept> object.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection<ept id="1">&lt;/i&gt;</ept> method can take both a connection URL and a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="2">&lt;/i&gt;</ept> object as arguments.</mrk><mrk mid="1" mtype="seg"> If you specify any attributes both on the connection URL and in a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="3">&lt;/i&gt;</ept> object, the attributes on the connection URL override the attributes in the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="4">&lt;/i&gt;</ept> object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection<ept id="1">&lt;/i&gt;</ept> method can take both a connection URL and a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="2">&lt;/i&gt;</ept> object as arguments.</mrk><mrk mid="1" mtype="seg"> If you specify any attributes both on the connection URL and in a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="3">&lt;/i&gt;</ept> object, the attributes on the connection URL override the attributes in the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="4">&lt;/i&gt;</ept> object.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Attributes are not parsed for correctness. If you pass in an incorrect attribute or corresponding value, it is simply ignored.</source>
+<seg-source><mrk mid="0" mtype="seg">Attributes are not parsed for correctness.</mrk><mrk mid="1" mtype="seg"> If you pass in an incorrect attribute or corresponding value, it is simply ignored.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attributes are not parsed for correctness.</mrk><mrk mid="1" mtype="seg"> If you pass in an incorrect attribute or corresponding value, it is simply ignored.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

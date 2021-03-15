@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="html-cdata-sample.md.tkitMerged" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Here comes a <bpt id="1" ctype="x-cdata">&lt;![CDATA[</bpt>CDATA section that includes symbols like &gt; and &amp; and &lt;<ept id="1">]]&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Here comes a <bpt id="1" ctype="x-cdata">&lt;![CDATA[</bpt>CDATA section that includes symbols like &gt; and &amp; and &lt;<ept id="1">]]&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here comes a <bpt id="1" ctype="x-cdata">&lt;![CDATA[</bpt>CDATA section that includes symbols like &gt; and &amp; and &lt;<ept id="1">]]&gt;</ept>.</mrk></target>
+</trans-unit>
+<group id="sd1_ssf1" resname="sub-filter:sd1">
+<trans-unit id="sd1_sf1_tu1" resname="sd1_1" restype="x-cdata" xml:space="preserve">
+<source xml:lang="en">
+function matchwo(a,b)
+{
+  if (a &lt; b &amp;&amp; a &lt; 0) then {
+    return 1;
+
+  } else {
+
+    return 0;
+  }
+}
+</source>
+<seg-source>
+<mrk mid="0" mtype="seg">function matchwo(a,b)</mrk>
+<mrk mid="1" mtype="seg">{</mrk>
+<mrk mid="2" mtype="seg">  if (a &lt; b &amp;&amp; a &lt; 0) then {</mrk>
+<mrk mid="3" mtype="seg">    return 1;</mrk>
+
+<mrk mid="4" mtype="seg">  } else {</mrk>
+
+<mrk mid="5" mtype="seg">    return 0;</mrk>
+<mrk mid="6" mtype="seg">  }</mrk>
+<mrk mid="7" mtype="seg">}</mrk>
+</seg-source>
+<target xml:lang="fr">
+<mrk mid="0" mtype="seg">function matchwo(a,b)</mrk>
+<mrk mid="1" mtype="seg">{</mrk>
+<mrk mid="2" mtype="seg">  if (a &lt; b &amp;&amp; a &lt; 0) then {</mrk>
+<mrk mid="3" mtype="seg">    return 1;</mrk>
+
+<mrk mid="4" mtype="seg">  } else {</mrk>
+
+<mrk mid="5" mtype="seg">    return 0;</mrk>
+<mrk mid="6" mtype="seg">  }</mrk>
+<mrk mid="7" mtype="seg">}</mrk>
+</target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

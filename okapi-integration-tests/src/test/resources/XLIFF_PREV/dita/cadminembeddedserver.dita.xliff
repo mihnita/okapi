@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminembeddedserver.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">How to start an embedded server from an application</source>
+<seg-source><mrk mid="0" mtype="seg">How to start an embedded server from an application</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">How to start an embedded server from an application</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">In one thread, the embedding application starts the local JDBC driver for its own access.</source>
+<seg-source><mrk mid="0" mtype="seg">In one thread, the embedding application starts the local JDBC driver for its own access.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In one thread, the embedding application starts the local JDBC driver for its own access.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">/* If you are running on JDK 6 or higher, you do not need to invoke Class.forName(). In that environment, the EmbeddedDriver loads automatically. */ Class.forName("org.apache.derby.jdbc.EmbeddedDriver"); Connection conn = DriverManager.getConnection( "jdbc:derby:sample");</source>
+<seg-source><mrk mid="0" mtype="seg">/* If you are running on JDK 6 or higher, you do not need to invoke Class.forName().</mrk><mrk mid="1" mtype="seg"> In that environment, the EmbeddedDriver loads automatically.</mrk><mrk mid="2" mtype="seg"> */ Class.forName("org.apache.derby.jdbc.EmbeddedDriver"); Connection conn = DriverManager.getConnection( "jdbc:derby:sample");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/* If you are running on JDK 6 or higher, you do not need to invoke Class.forName().</mrk><mrk mid="1" mtype="seg"> In that environment, the EmbeddedDriver loads automatically.</mrk><mrk mid="2" mtype="seg"> */ Class.forName("org.apache.derby.jdbc.EmbeddedDriver"); Connection conn = DriverManager.getConnection( "jdbc:derby:sample");</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">In another thread, the same application starts the server framework to allow remote access. Starting the server framework from within the application allows both the server and the application to run in the same JVM.</source>
+<seg-source><mrk mid="0" mtype="seg">In another thread, the same application starts the server framework to allow remote access.</mrk><mrk mid="1" mtype="seg"> Starting the server framework from within the application allows both the server and the application to run in the same JVM.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In another thread, the same application starts the server framework to allow remote access.</mrk><mrk mid="1" mtype="seg"> Starting the server framework from within the application allows both the server and the application to run in the same JVM.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

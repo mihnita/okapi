@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="crefproper51399.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Scope of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> properties</source>
+<seg-source><mrk mid="0" mtype="seg">Scope of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scope of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">A property in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> belongs to one or more of these scopes:</source>
+<seg-source><mrk mid="0" mtype="seg">A property in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> belongs to one or more of these scopes:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A property in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> belongs to one or more of these scopes:</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>system-wide<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>system-wide<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>system-wide<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">System-wide properties apply to an entire system, including all its databases and tables if applicable.</source>
+<seg-source><mrk mid="0" mtype="seg">System-wide properties apply to an entire system, including all its databases and tables if applicable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">System-wide properties apply to an entire system, including all its databases and tables if applicable.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Set programmatically</source>
+<seg-source><mrk mid="0" mtype="seg">Set programmatically</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set programmatically</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">System-wide properties set programmatically have precedence over database-wide properties and system-wide properties set in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file.</source>
+<seg-source><mrk mid="0" mtype="seg">System-wide properties set programmatically have precedence over database-wide properties and system-wide properties set in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">System-wide properties set programmatically have precedence over database-wide properties and system-wide properties set in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Set in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file</source>
+<seg-source><mrk mid="0" mtype="seg">Set in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file is an optional file that can be created to set properties at the system level when the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> driver is loaded. <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> looks for this file in the directory defined by the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="4">&lt;/i&gt;</ept> property. Any property except <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="5">&lt;/i&gt;</ept> can be set by including it in the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="6">&lt;/i&gt;</ept> file.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file is an optional file that can be created to set properties at the system level when the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> driver is loaded.</mrk><mrk mid="1" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> looks for this file in the directory defined by the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="4">&lt;/i&gt;</ept> property.</mrk><mrk mid="2" mtype="seg"> Any property except <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="5">&lt;/i&gt;</ept> can be set by including it in the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="6">&lt;/i&gt;</ept> file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file is an optional file that can be created to set properties at the system level when the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> driver is loaded.</mrk><mrk mid="1" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> looks for this file in the directory defined by the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="4">&lt;/i&gt;</ept> property.</mrk><mrk mid="2" mtype="seg"> Any property except <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="5">&lt;/i&gt;</ept> can be set by including it in the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="6">&lt;/i&gt;</ept> file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>database-wide<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>database-wide<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>database-wide<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">A database-wide property is stored in a database and is valid for that specific database only.</source>
+<seg-source><mrk mid="0" mtype="seg">A database-wide property is stored in a database and is valid for that specific database only.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A database-wide property is stored in a database and is valid for that specific database only.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Database-wide properties are stored in the database and are simpler and safer for deployment. System-wide properties can be more practical during the development process.</source>
+<seg-source><mrk mid="0" mtype="seg">Database-wide properties are stored in the database and are simpler and safer for deployment.</mrk><mrk mid="1" mtype="seg"> System-wide properties can be more practical during the development process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database-wide properties are stored in the database and are simpler and safer for deployment.</mrk><mrk mid="1" mtype="seg"> System-wide properties can be more practical during the development process.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">For more information about scopes, precedence, and persistence, see "Properties overview" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information about scopes, precedence, and persistence, see "Properties overview" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information about scopes, precedence, and persistence, see "Properties overview" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

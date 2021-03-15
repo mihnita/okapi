@@ -1,0 +1,48 @@
+<?xml version="1.0"?> 
+<project name="okapi-lib" default="all" basedir="."> 
+
+	<import file="shared_macros.xml"/>
+
+ 	<property name="tmp" value="tmp"/>
+	<property name="dist" value="dist_plugins"/>
+	<property name="distName" value="okapiTradosUtilities-${okapi.version}" />
+
+	<!-- Initialization -->
+	<target name="init">
+
+		<delete dir="${dist}" includeEmptyDirs="true" failonerror="false" />
+		<mkdir dir="${dist}"/>
+
+		<copy todir="${dist}" file="data/okapi-plugins/pluginsDeployment.xml" overwrite="true"/>
+		<replace file="${dist}/pluginsDeployment.xml" token="@version@" value="${okapi.version}" encoding="utf-8"/>
+
+	</target>
+	
+	<!-- Make the zip files -->
+	<target name="makeZips"> 
+
+		<!-- ============== okapi-steps-tradosutils -->
+		<delete dir="${tmp}" includeEmptyDirs="true" failonerror="false" />
+		<mkdir dir="${tmp}"/>
+
+		<property name="jacobJar" value="jacob-${jacob.version}.jar"/>
+
+		<copyDepend
+			cdMvnGroupId="net/sf/okapi/steps"
+			cdMvnArtifactId="okapi-step-tradosutils"
+			cdMvnVersion="${okapi.version}"
+			cdTrgDir="${tmp}"/>
+
+		<copy todir="${tmp}" file="${mavenStore}/net/sf/jacob-project/jacob/${jacob.version}/${jacobJar}"/>
+		<copy todir="${tmp}" file="data/okapi-plugins/jacob-${jacob.version}-x86.dll" overwrite="true"/>
+		<copy todir="${tmp}" file="data/okapi-plugins/jacob-${jacob.version}-x64.dll" overwrite="true"/>
+		<zip destfile="${dist}/${distName}.zip" basedir="${tmp}"/>
+
+		<!-- Cleanup -->
+		<delete dir="${tmp}" includeEmptyDirs="true" failonerror="false" />
+
+	</target>
+	
+	<target name="all" depends="init, makeZips"/>
+
+</project>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsyscsdiagerrorlogreader.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_DIAG.ERROR_LOG_READER diagnostic table function</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_DIAG.ERROR_LOG_READER diagnostic table function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_DIAG.ERROR_LOG_READER diagnostic table function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">diagnostic table functions</source>
+<seg-source><mrk mid="0" mtype="seg">diagnostic table functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">diagnostic table functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SYSCS_DIAG.ERROR_LOG_READER</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_DIAG.ERROR_LOG_READER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_DIAG.ERROR_LOG_READER</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SYSCS_DIAG.ERROR_LOG_READER diagnostic table function</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_DIAG.ERROR_LOG_READER diagnostic table function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_DIAG.ERROR_LOG_READER diagnostic table function</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The SYSCS_DIAG.ERROR_LOG_READER diagnostic table function contains all the useful SQL statements that are in the <bpt id="1" ctype="x-filepath">&lt;filepath&gt;</bpt>derby.log<ept id="1">&lt;/filepath&gt;</ept> file or a log file that you specify.</source>
+<seg-source><mrk mid="0" mtype="seg">The SYSCS_DIAG.ERROR_LOG_READER diagnostic table function contains all the useful SQL statements that are in the <bpt id="1" ctype="x-filepath">&lt;filepath&gt;</bpt>derby.log<ept id="1">&lt;/filepath&gt;</ept> file or a log file that you specify.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SYSCS_DIAG.ERROR_LOG_READER diagnostic table function contains all the useful SQL statements that are in the <bpt id="1" ctype="x-filepath">&lt;filepath&gt;</bpt>derby.log<ept id="1">&lt;/filepath&gt;</ept> file or a log file that you specify.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">One use of this diagnostic table function is to determine the active transactions and the SQL statements in those transactions at a given point in time. For example, if a deadlock or lock timeout occurred, you can find the timestamp (timestampConstant) in the error log.</source>
+<seg-source><mrk mid="0" mtype="seg">One use of this diagnostic table function is to determine the active transactions and the SQL statements in those transactions at a given point in time.</mrk><mrk mid="1" mtype="seg"> For example, if a deadlock or lock timeout occurred, you can find the timestamp (timestampConstant) in the error log.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">One use of this diagnostic table function is to determine the active transactions and the SQL statements in those transactions at a given point in time.</mrk><mrk mid="1" mtype="seg"> For example, if a deadlock or lock timeout occurred, you can find the timestamp (timestampConstant) in the error log.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">For a database for which authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can access this diagnostic table function.</source>
+<seg-source><mrk mid="0" mtype="seg">For a database for which authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can access this diagnostic table function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For a database for which authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can access this diagnostic table function.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">To access the SYSCS_DIAG.ERROR_LOG_READER diagnostic table function, you must use the SQL table function syntax.</source>
+<seg-source><mrk mid="0" mtype="seg">To access the SYSCS_DIAG.ERROR_LOG_READER diagnostic table function, you must use the SQL table function syntax.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To access the SYSCS_DIAG.ERROR_LOG_READER diagnostic table function, you must use the SQL table function syntax.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">For example:</source>
+<seg-source><mrk mid="0" mtype="seg">For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">SELECT * FROM TABLE (SYSCS_DIAG.ERROR_LOG_READER()) AS T1</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT * FROM TABLE (SYSCS_DIAG.ERROR_LOG_READER()) AS T1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT * FROM TABLE (SYSCS_DIAG.ERROR_LOG_READER()) AS T1</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">where T1 is a user-specified table name that is any valid identifier.</source>
+<seg-source><mrk mid="0" mtype="seg">where T1 is a user-specified table name that is any valid identifier.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">where T1 is a user-specified table name that is any valid identifier.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">You can specify a log file name as an optional argument to the SYSCS_DIAG.ERROR_LOG_READER diagnostic table function. When you specify a log file name, the file name must be an expression whose data type maps to a Java string.</source>
+<seg-source><mrk mid="0" mtype="seg">You can specify a log file name as an optional argument to the SYSCS_DIAG.ERROR_LOG_READER diagnostic table function.</mrk><mrk mid="1" mtype="seg"> When you specify a log file name, the file name must be an expression whose data type maps to a Java string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can specify a log file name as an optional argument to the SYSCS_DIAG.ERROR_LOG_READER diagnostic table function.</mrk><mrk mid="1" mtype="seg"> When you specify a log file name, the file name must be an expression whose data type maps to a Java string.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">For example:</source>
+<seg-source><mrk mid="0" mtype="seg">For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">SELECT * FROM TABLE (SYSCS_DIAG.ERROR_LOG_READER('myderbyerrors.log')) AS T1</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT * FROM TABLE (SYSCS_DIAG.ERROR_LOG_READER('myderbyerrors.log')) AS T1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT * FROM TABLE (SYSCS_DIAG.ERROR_LOG_READER('myderbyerrors.log')) AS T1</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> log files contain only boot, shutdown, and error messages. See the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefproper26985.dita#rrefproper26985"&gt;</bpt>derby.stream.error.logSeverityLevel<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> property and the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefproper43517.dita#rrefproper43517"&gt;</bpt>derby.language.logStatementText<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/codeph&gt;</ept> property for instructions on how to print more information to <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> log files. You can then query that information by using the SYSCS_DIAG.ERROR_LOG_READER diagnostic table function.</source>
+<seg-source><mrk mid="0" mtype="seg">By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> log files contain only boot, shutdown, and error messages.</mrk><mrk mid="1" mtype="seg"> See the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefproper26985.dita#rrefproper26985"&gt;</bpt>derby.stream.error.logSeverityLevel<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> property and the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefproper43517.dita#rrefproper43517"&gt;</bpt>derby.language.logStatementText<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/codeph&gt;</ept> property for instructions on how to print more information to <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> log files.</mrk><mrk mid="2" mtype="seg"> You can then query that information by using the SYSCS_DIAG.ERROR_LOG_READER diagnostic table function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> log files contain only boot, shutdown, and error messages.</mrk><mrk mid="1" mtype="seg"> See the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefproper26985.dita#rrefproper26985"&gt;</bpt>derby.stream.error.logSeverityLevel<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> property and the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefproper43517.dita#rrefproper43517"&gt;</bpt>derby.language.logStatementText<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/codeph&gt;</ept> property for instructions on how to print more information to <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> log files.</mrk><mrk mid="2" mtype="seg"> You can then query that information by using the SYSCS_DIAG.ERROR_LOG_READER diagnostic table function.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">The returned table has the columns shown in the following table.</source>
+<seg-source><mrk mid="0" mtype="seg">The returned table has the columns shown in the following table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The returned table has the columns shown in the following table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Columns returned by the SYSCS_DIAG.ERROR_LOG_READER table function</source>
+<seg-source><mrk mid="0" mtype="seg">Columns returned by the SYSCS_DIAG.ERROR_LOG_READER table function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Columns returned by the SYSCS_DIAG.ERROR_LOG_READER table function</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">For the columns returned by the SYSCS_DIAG.ERROR_LOG_READER table function, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</source>
+<seg-source><mrk mid="0" mtype="seg">For the columns returned by the SYSCS_DIAG.ERROR_LOG_READER table function, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For the columns returned by the SYSCS_DIAG.ERROR_LOG_READER table function, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Column Name</source>
+<seg-source><mrk mid="0" mtype="seg">Column Name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column Name</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Length</source>
+<seg-source><mrk mid="0" mtype="seg">Length</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Length</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Nullable</source>
+<seg-source><mrk mid="0" mtype="seg">Nullable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nullable</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Contents</source>
+<seg-source><mrk mid="0" mtype="seg">Contents</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contents</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">TS</source>
+<seg-source><mrk mid="0" mtype="seg">TS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TS</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">26</source>
+<seg-source><mrk mid="0" mtype="seg">26</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">26</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">The timestamp of the statement.</source>
+<seg-source><mrk mid="0" mtype="seg">The timestamp of the statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The timestamp of the statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">THREADID</source>
+<seg-source><mrk mid="0" mtype="seg">THREADID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">THREADID</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">40</source>
+<seg-source><mrk mid="0" mtype="seg">40</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">40</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">The thread name.</source>
+<seg-source><mrk mid="0" mtype="seg">The thread name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The thread name.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">XID</source>
+<seg-source><mrk mid="0" mtype="seg">XID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XID</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">15</source>
+<seg-source><mrk mid="0" mtype="seg">15</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">15</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">The transaction ID.</source>
+<seg-source><mrk mid="0" mtype="seg">The transaction ID.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The transaction ID.</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">LCCID</source>
+<seg-source><mrk mid="0" mtype="seg">LCCID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LCCID</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">15</source>
+<seg-source><mrk mid="0" mtype="seg">15</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">15</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">The connection ID.</source>
+<seg-source><mrk mid="0" mtype="seg">The connection ID.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The connection ID.</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">DATABASE</source>
+<seg-source><mrk mid="0" mtype="seg">DATABASE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DATABASE</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">128</source>
+<seg-source><mrk mid="0" mtype="seg">128</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">128</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">The database name.</source>
+<seg-source><mrk mid="0" mtype="seg">The database name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The database name.</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">DRDAID</source>
+<seg-source><mrk mid="0" mtype="seg">DRDAID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DRDAID</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">50</source>
+<seg-source><mrk mid="0" mtype="seg">50</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">50</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">The DRDA ID for network server session.</source>
+<seg-source><mrk mid="0" mtype="seg">The DRDA ID for network server session.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The DRDA ID for network server session.</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">LOGTEXT</source>
+<seg-source><mrk mid="0" mtype="seg">LOGTEXT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOGTEXT</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">LONG VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">LONG VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LONG VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">32,700</source>
+<seg-source><mrk mid="0" mtype="seg">32,700</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,700</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">The text of the statement or commit or rollback.</source>
+<seg-source><mrk mid="0" mtype="seg">The text of the statement or commit or rollback.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The text of the statement or commit or rollback.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecuresqlauthupgrade.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Upgrading an old database to use SQL standard authorization</source>
+<seg-source><mrk mid="0" mtype="seg">Upgrading an old database to use SQL standard authorization</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Upgrading an old database to use SQL standard authorization</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">An old, unprotected database can be shielded with authentication and SQL authorization later on.</source>
+<seg-source><mrk mid="0" mtype="seg">An old, unprotected database can be shielded with authentication and SQL authorization later on.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An old, unprotected database can be shielded with authentication and SQL authorization later on.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">upgrade</source>
+<seg-source><mrk mid="0" mtype="seg">upgrade</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">upgrade</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SQL standard authorization mode</source>
+<seg-source><mrk mid="0" mtype="seg">SQL standard authorization mode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL standard authorization mode</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Upgrading Authentication and Authorization</source>
+<seg-source><mrk mid="0" mtype="seg">Upgrading Authentication and Authorization</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Upgrading Authentication and Authorization</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">To protect a single-user database and convert it to a shared, multi-user database, simply enable authentication and SQL authorization. To do this, first turn on user authentication as described in the section on <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure42374.dita#cdevcsecure42374"&gt;</bpt>Working with user authentication<ept id="1">&lt;/xref&gt;</ept>. Make sure that you supply login credentials for the database owner. In most single-user databases, the database owner is APP. However, the database owner could be some other user if the original database creation URL specified a user name--see the section on <bpt id="2" ctype="x-xref">&lt;xref href="cdevcsecureDbOwner.dita#cdevcsecureDbOwner"&gt;</bpt>Database owner<ept id="2">&lt;/xref&gt;</ept>. If you are unsure about who owns the database, run the following query:</source>
+<seg-source><mrk mid="0" mtype="seg">To protect a single-user database and convert it to a shared, multi-user database, simply enable authentication and SQL authorization.</mrk><mrk mid="1" mtype="seg"> To do this, first turn on user authentication as described in the section on <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure42374.dita#cdevcsecure42374"&gt;</bpt>Working with user authentication<ept id="1">&lt;/xref&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> Make sure that you supply login credentials for the database owner.</mrk><mrk mid="3" mtype="seg"> In most single-user databases, the database owner is APP.</mrk><mrk mid="4" mtype="seg"> However, the database owner could be some other user if the original database creation URL specified a user name--see the section on <bpt id="2" ctype="x-xref">&lt;xref href="cdevcsecureDbOwner.dita#cdevcsecureDbOwner"&gt;</bpt>Database owner<ept id="2">&lt;/xref&gt;</ept>.</mrk><mrk mid="5" mtype="seg"> If you are unsure about who owns the database, run the following query:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To protect a single-user database and convert it to a shared, multi-user database, simply enable authentication and SQL authorization.</mrk><mrk mid="1" mtype="seg"> To do this, first turn on user authentication as described in the section on <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure42374.dita#cdevcsecure42374"&gt;</bpt>Working with user authentication<ept id="1">&lt;/xref&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> Make sure that you supply login credentials for the database owner.</mrk><mrk mid="3" mtype="seg"> In most single-user databases, the database owner is APP.</mrk><mrk mid="4" mtype="seg"> However, the database owner could be some other user if the original database creation URL specified a user name--see the section on <bpt id="2" ctype="x-xref">&lt;xref href="cdevcsecureDbOwner.dita#cdevcsecureDbOwner"&gt;</bpt>Database owner<ept id="2">&lt;/xref&gt;</ept>.</mrk><mrk mid="5" mtype="seg"> If you are unsure about who owns the database, run the following query:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">select authorizationid from sys.sysschemas where schemaname = 'SYS'</source>
+<seg-source><mrk mid="0" mtype="seg">select authorizationid from sys.sysschemas where schemaname = 'SYS'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">select authorizationid from sys.sysschemas where schemaname = 'SYS'</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">After enabling user authentication, turn on SQL authorization. To do this, connect to the database as the database owner and issue the following command:</source>
+<seg-source><mrk mid="0" mtype="seg">After enabling user authentication, turn on SQL authorization.</mrk><mrk mid="1" mtype="seg"> To do this, connect to the database as the database owner and issue the following command:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After enabling user authentication, turn on SQL authorization.</mrk><mrk mid="1" mtype="seg"> To do this, connect to the database as the database owner and issue the following command:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">call syscs_util.syscs_set_database_property( 'derby.database.sqlAuthorization', 'true' )</source>
+<seg-source><mrk mid="0" mtype="seg">call syscs_util.syscs_set_database_property( 'derby.database.sqlAuthorization', 'true' )</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">call syscs_util.syscs_set_database_property( 'derby.database.sqlAuthorization', 'true' )</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Now shutdown the database to activate the new value of <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept>. The next time you boot the database, it will be protected by authentication and SQL authorization.</source>
+<seg-source><mrk mid="0" mtype="seg">Now shutdown the database to activate the new value of <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The next time you boot the database, it will be protected by authentication and SQL authorization.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Now shutdown the database to activate the new value of <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The next time you boot the database, it will be protected by authentication and SQL authorization.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Behavior of Upgraded Databases</source>
+<seg-source><mrk mid="0" mtype="seg">Behavior of Upgraded Databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Behavior of Upgraded Databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">You will notice the following behavior changes in your upgraded database:</source>
+<seg-source><mrk mid="0" mtype="seg">You will notice the following behavior changes in your upgraded database:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You will notice the following behavior changes in your upgraded database:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Data<ept id="1">&lt;/b&gt;</ept> - Users can access data in their own schemas. However, users cannot access data in schemas owned by other users. In particular, other users cannot access data in schemas belonging to the database owner. The database owner may need to GRANT access to that data.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Data<ept id="1">&lt;/b&gt;</ept> - Users can access data in their own schemas.</mrk><mrk mid="1" mtype="seg"> However, users cannot access data in schemas owned by other users.</mrk><mrk mid="2" mtype="seg"> In particular, other users cannot access data in schemas belonging to the database owner.</mrk><mrk mid="3" mtype="seg"> The database owner may need to GRANT access to that data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Data<ept id="1">&lt;/b&gt;</ept> - Users can access data in their own schemas.</mrk><mrk mid="1" mtype="seg"> However, users cannot access data in schemas owned by other users.</mrk><mrk mid="2" mtype="seg"> In particular, other users cannot access data in schemas belonging to the database owner.</mrk><mrk mid="3" mtype="seg"> The database owner may need to GRANT access to that data.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Database Maintenance<ept id="1">&lt;/b&gt;</ept> - In a single-user database, anyone can run maintenance procedures to backup/restore and import/export data. In the upgraded, multi-user database, only the database owner can perform these sensitive operations.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Database Maintenance<ept id="1">&lt;/b&gt;</ept> - In a single-user database, anyone can run maintenance procedures to backup/restore and import/export data.</mrk><mrk mid="1" mtype="seg"> In the upgraded, multi-user database, only the database owner can perform these sensitive operations.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Database Maintenance<ept id="1">&lt;/b&gt;</ept> - In a single-user database, anyone can run maintenance procedures to backup/restore and import/export data.</mrk><mrk mid="1" mtype="seg"> In the upgraded, multi-user database, only the database owner can perform these sensitive operations.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

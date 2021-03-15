@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:of="http://okapiframework.org" xmlns:ofe="okapi-framework:xliff-extensions"
+       xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:m="http://www.memsource.com/mxlf/2.0"
+       version="1.2" m:version="2.3" m:level="1">
+    <file datatype="x-test" original="file.ext" source-language="en" target-language="fr">
+        <header>
+            <m:in-ctx-preview-skel><![CDATA[<p>CDATA in header</p>]]></m:in-ctx-preview-skel>
+        </header>
+        <body>
+            <trans-unit id="1">
+                <source>t1.&lt;p&gt;CDATA in source &amp; &amp;amp;&lt;/p&gt;.t3</source>
+                <target xml:lang="fr">t1.&lt;p&gt;CDATA in target &amp; &amp;amp;&lt;/p&gt;.t3</target>
+                <alt-trans match-quality="50" ofe:engine="abc" ofe:matchType="FUZZY" origin="orig">
+                    <source>alt source <bpt id="1">{</bpt>t1 &lt;p&gt;CDATA in alt source &amp; &amp;amp;&lt;/p&gt;<ept id="1">}</ept></source>
+                    <target>alt target <mrk mtype="term"><bpt id="1">{</bpt>t1 &lt;p&gt;CDATA in alt target &amp; &amp;amp;&lt;/p&gt;<ept id="1">}</ept></mrk></target>
+                </alt-trans>
+                <of:extra-data><![CDATA[<p>CDATA in unsegmented trans-unit</p>]]></of:extra-data>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

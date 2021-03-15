@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rref_xplain_tables.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">XPLAIN style tables</source>
+<seg-source><mrk mid="0" mtype="seg">XPLAIN style tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XPLAIN style tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> optionally creates database tables to hold statistics information captured using XPLAIN style. You can have zero, one, or many sets of these tables; each set of tables is stored in a separate schema. The schema which is used for capturing statement execution information is specified using the <bpt id="2" ctype="x-xref">&lt;xref href="rref_syscs_set_xplain_schema.dita#rref_syscs_set_xplain_schema"&gt;</bpt>SYSCS_UTIL.SYSCS_SET_XPLAIN_SCHEMA<ept id="2">&lt;/xref&gt;</ept> system procedure</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> optionally creates database tables to hold statistics information captured using XPLAIN style.</mrk><mrk mid="1" mtype="seg"> You can have zero, one, or many sets of these tables; each set of tables is stored in a separate schema.</mrk><mrk mid="2" mtype="seg"> The schema which is used for capturing statement execution information is specified using the <bpt id="2" ctype="x-xref">&lt;xref href="rref_syscs_set_xplain_schema.dita#rref_syscs_set_xplain_schema"&gt;</bpt>SYSCS_UTIL.SYSCS_SET_XPLAIN_SCHEMA<ept id="2">&lt;/xref&gt;</ept> system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> optionally creates database tables to hold statistics information captured using XPLAIN style.</mrk><mrk mid="1" mtype="seg"> You can have zero, one, or many sets of these tables; each set of tables is stored in a separate schema.</mrk><mrk mid="2" mtype="seg"> The schema which is used for capturing statement execution information is specified using the <bpt id="2" ctype="x-xref">&lt;xref href="rref_syscs_set_xplain_schema.dita#rref_syscs_set_xplain_schema"&gt;</bpt>SYSCS_UTIL.SYSCS_SET_XPLAIN_SCHEMA<ept id="2">&lt;/xref&gt;</ept> system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">You can query these tables to analyze the behavior of statement execution.</source>
+<seg-source><mrk mid="0" mtype="seg">You can query these tables to analyze the behavior of statement execution.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can query these tables to analyze the behavior of statement execution.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">All of the above system tables reside in the schema which you specified. Because this is not the default schema, qualify all queries accessing the system tables with the schema name.</source>
+<seg-source><mrk mid="0" mtype="seg">All of the above system tables reside in the schema which you specified.</mrk><mrk mid="1" mtype="seg"> Because this is not the default schema, qualify all queries accessing the system tables with the schema name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All of the above system tables reside in the schema which you specified.</mrk><mrk mid="1" mtype="seg"> Because this is not the default schema, qualify all queries accessing the system tables with the schema name.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">You can create the schema and tables ahead of time if you wish, but usually it is easier to let <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> automatically create the schema and the tables for you. You can capture multiple sets of data into the same tables, or you can specify a different schema each time.</source>
+<seg-source><mrk mid="0" mtype="seg">You can create the schema and tables ahead of time if you wish, but usually it is easier to let <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> automatically create the schema and the tables for you.</mrk><mrk mid="1" mtype="seg"> You can capture multiple sets of data into the same tables, or you can specify a different schema each time.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can create the schema and tables ahead of time if you wish, but usually it is easier to let <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> automatically create the schema and the tables for you.</mrk><mrk mid="1" mtype="seg"> You can capture multiple sets of data into the same tables, or you can specify a different schema each time.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">See "Working with RunTimeStatistics" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for additional information.</source>
+<seg-source><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for additional information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for additional information.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="F:/Curriculum/HTML/Source/ExcludeIncludeTest.html" source-language="en-us" target-language="es-es" datatype="x-sdlfilterframework2" okp:inputEncoding="utf-8" okp:configId="/D:/Projects/OpenSource/okapiframework/okapi-integration-tests/target/test-classes/xliff/sdlxliff/okf_xliff-sdl@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="582ace2a-526e-4c20-8c43-588297237f74" translate="no">
+<source xml:lang="en-us"><ph id="0" ctype="x-empty">&lt;html&gt;</ph></source>
+<target xml:lang="es-es"><ph id="0" ctype="x-empty">&lt;html&gt;</ph></target>
+</trans-unit>
+<group id="g1">
+<trans-unit id="b7d3ae64-4e9e-4252-95cd-9c01c30f9560" translate="no">
+<source xml:lang="en-us"><ph id="1" ctype="x-empty">&lt;head&gt;</ph></source>
+<target xml:lang="es-es"><ph id="1" ctype="x-empty">&lt;head&gt;</ph></target>
+</trans-unit>
+</group>
+<group id="g2">
+<trans-unit id="df9aae9e-228d-4abe-bbf3-fd99b66bcc1e" translate="no">
+<source xml:lang="en-us"><ph id="2" ctype="x-empty">&lt;/head&gt;</ph></source>
+<target xml:lang="es-es"><ph id="2" ctype="x-empty">&lt;/head&gt;</ph></target>
+</trans-unit>
+</group>
+<group id="g3">
+<trans-unit id="656fa0ae-2981-4d84-9306-a8c1cfc9957a" translate="no">
+<source xml:lang="en-us"></source>
+<target xml:lang="es-es"></target>
+</trans-unit>
+<trans-unit id="4dffbc0e-058b-4a69-baef-3beada142dd2">
+<source xml:lang="en-us"><it id="3" ctype="x-empty" pos="open">&lt;exclude&gt;</it>Text should be excluded 1. <it id="4" ctype="x-empty" pos="open">&lt;include&gt;</it>Text should be included. <it id="4" ctype="x-empty" pos="close">&lt;/include&gt;</it><bpt id="4" ctype="x-empty">&lt;include&gt;</bpt><bpt id="5" ctype="x-empty">&lt;b&gt;</bpt><bpt id="6" ctype="x-empty">&lt;exclude&gt;</bpt>More excluded text <ept id="6">&lt;/exclude&gt;</ept><ept id="5">&lt;/b&gt;</ept><ept id="4">&lt;/include&gt;</ept> Text should be excluded 2.<it id="3" ctype="x-empty" pos="close">&lt;/exclude&gt;</it></source>
+<seg-source><it id="3" ctype="x-empty" pos="open">&lt;exclude&gt;</it><mrk mid="1" mtype="seg">Text should be excluded 1.</mrk> <it id="4" ctype="x-empty" pos="open">&lt;include&gt;</it><mrk mid="2" mtype="seg">Text should be included.</mrk> <it id="4" ctype="x-empty" pos="close">&lt;/include&gt;</it><mrk mid="3" mtype="seg"><bpt id="4" ctype="x-empty">&lt;include&gt;</bpt><bpt id="5" ctype="x-empty">&lt;b&gt;</bpt><bpt id="6" ctype="x-empty">&lt;exclude&gt;</bpt>More excluded text <ept id="6">&lt;/exclude&gt;</ept><ept id="5">&lt;/b&gt;</ept><ept id="4">&lt;/include&gt;</ept> Text should be excluded 2.</mrk><it id="3" ctype="x-empty" pos="close">&lt;/exclude&gt;</it></seg-source>
+<target xml:lang="es-es"><it id="3" ctype="x-empty" pos="open">&lt;exclude&gt;</it><mrk mid="1" mtype="seg">Text should be excluded 1.</mrk> <it id="4" ctype="x-empty" pos="open">&lt;include&gt;</it><mrk mid="2" mtype="seg">Text should be included.</mrk> <it id="4" ctype="x-empty" pos="close">&lt;/include&gt;</it><mrk mid="3" mtype="seg"><bpt id="4" ctype="x-empty">&lt;include&gt;</bpt><bpt id="5" ctype="x-empty">&lt;b&gt;</bpt><bpt id="6" ctype="x-empty">&lt;exclude&gt;</bpt>More excluded text <ept id="6">&lt;/exclude&gt;</ept><ept id="5">&lt;/b&gt;</ept><ept id="4">&lt;/include&gt;</ept> Text should be excluded 2.</mrk><it id="3" ctype="x-empty" pos="close">&lt;/exclude&gt;</it></target>
+</trans-unit>
+<trans-unit id="4e32206f-e102-4100-b352-238c190c75ed" translate="no">
+<source xml:lang="en-us"><ph id="7" ctype="x-empty">&lt;/html&gt;</ph></source>
+<target xml:lang="es-es"><ph id="7" ctype="x-empty">&lt;/html&gt;</ph></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

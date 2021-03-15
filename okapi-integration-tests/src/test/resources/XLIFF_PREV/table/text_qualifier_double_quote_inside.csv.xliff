@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="text_qualifier_double_quote_inside.csv" source-language="en" target-language="fr" datatype="x-text/csv" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/table/target/classes/net/sf/okapi/filters/table/okf_table_csv.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="2" restype="row">
+<trans-unit id="1">
+<source xml:lang="en">one<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>two</source>
+<seg-source><mrk mid="0" mtype="seg">one<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>two</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">one<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>two</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">three<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>four</source>
+<seg-source><mrk mid="0" mtype="seg">three<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>four</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">three<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>four</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">five<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>six</source>
+<seg-source><mrk mid="0" mtype="seg">five<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>six</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">five<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>six</mrk></target>
+</trans-unit>
+</group>
+<group id="4" restype="row">
+<trans-unit id="4">
+<source xml:lang="en">seven<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>eight</source>
+<seg-source><mrk mid="0" mtype="seg">seven<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>eight</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">seven<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>eight</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">nine<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>ten</source>
+<seg-source><mrk mid="0" mtype="seg">nine<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>ten</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">nine<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>ten</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">eleven<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>twelve</source>
+<seg-source><mrk mid="0" mtype="seg">eleven<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>twelve</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">eleven<ph id="1" ctype="x-CSV_text_qualifier">"</ph><ph id="2" ctype="x-CSV_text_qualifier">"</ph>twelve</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

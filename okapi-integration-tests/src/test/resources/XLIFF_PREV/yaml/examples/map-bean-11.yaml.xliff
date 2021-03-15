@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="map-bean-11.yaml" source-language="en" target-language="fr" datatype="x-text/x-yaml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi-integration-tests/common-integration-tests/target/test-classes/yaml/examples/okf_yaml@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<group id="sg2">
+<trans-unit id="tu1" resname="data/aaa" xml:space="preserve">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="data/bbb" xml:space="preserve">
+<source xml:lang="en">2</source>
+<seg-source><mrk mid="0" mtype="seg">2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2</mrk></target>
+</trans-unit>
+</group>
+<group id="sg3">
+<group id="sg4">
+<trans-unit id="tu3" resname="developers/team1/name" xml:space="preserve">
+<source xml:lang="en">Fred</source>
+<seg-source><mrk mid="0" mtype="seg">Fred</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Fred</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="developers/team1/role" xml:space="preserve">
+<source xml:lang="en">creator</source>
+<seg-source><mrk mid="0" mtype="seg">creator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">creator</mrk></target>
+</trans-unit>
+</group>
+<group id="sg5">
+<trans-unit id="tu5" resname="developers/team2/name" xml:space="preserve">
+<source xml:lang="en">John</source>
+<seg-source><mrk mid="0" mtype="seg">John</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">John</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="developers/team2/role" xml:space="preserve">
+<source xml:lang="en">committer</source>
+<seg-source><mrk mid="0" mtype="seg">committer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">committer</mrk></target>
+</trans-unit>
+</group>
+<group id="sg6">
+<trans-unit id="tu7" resname="developers/team3/name" xml:space="preserve">
+<source xml:lang="en">Bill</source>
+<seg-source><mrk mid="0" mtype="seg">Bill</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bill</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" resname="developers/team3/role" xml:space="preserve">
+<source xml:lang="en">head</source>
+<seg-source><mrk mid="0" mtype="seg">head</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">head</mrk></target>
+</trans-unit>
+</group>
+</group>
+<trans-unit id="tu9" resname="name" xml:space="preserve">
+<source xml:lang="en">Bean123</source>
+<seg-source><mrk mid="0" mtype="seg">Bean123</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bean123</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

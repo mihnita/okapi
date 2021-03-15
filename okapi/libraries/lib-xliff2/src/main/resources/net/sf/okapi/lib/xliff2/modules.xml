@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<modules>
+ <!--
+ Definition of where in the core, modules elements and attributes are allowed.
+ -->
+ <location name="file">
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}fs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}subFs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}storageRestriction"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeRestriction"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeInfo"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeInfoRef"/>
+  <element   name="{urn:oasis:names:tc:xliff:changetracking:2.0}changeTrack"/>
+  <element   name="{urn:oasis:names:tc:xliff:metadata:2.0}metadata"/>
+  <element   name="{urn:oasis:names:tc:xliff:resourcedata:2.0}resourceData" />
+  <element   name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}profiles"/>
+  <element   name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}data"/>
+  <element   name="{urn:oasis:names:tc:xliff:validation:2.0}validation"/>
+ </location>
+ <location name="group">
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}fs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}subFs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}storageRestriction"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeRestriction"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeInfo"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeInfoRef"/>
+  <element   name="{urn:oasis:names:tc:xliff:changetracking:2.0}changeTrack"/>
+  <element   name="{urn:oasis:names:tc:xliff:metadata:2.0}metadata"/>
+  <element   name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}data"/>
+  <element   name="{urn:oasis:names:tc:xliff:validation:2.0}validation"/>
+ </location>
+ <location name="unit">
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}fs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}subFs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}storageRestriction"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeRestriction"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeInfo"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeInfoRef"/>
+  <element   name="{urn:oasis:names:tc:xliff:changetracking:2.0}changeTrack"/>
+  <element   name="{urn:oasis:names:tc:xliff:matches:2.0}matches"/>
+  <element   name="{urn:oasis:names:tc:xliff:glossary:2.0}glossary"/>
+  <element   name="{urn:oasis:names:tc:xliff:metadata:2.0}metadata"/>
+  <element   name="{urn:oasis:names:tc:xliff:resourcedata:2.0}resourceData"/>
+  <element   name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}data"/>
+  <element   name="{urn:oasis:names:tc:xliff:validation:2.0}validation"/>
+ </location>
+ <location name="note">
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}fs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}subFs"/>
+ </location>
+ <location name="ph">
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}fs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}subFs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}equivStorage"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeInfo"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeInfoRef"/>
+ </location>
+ <location name="pc">
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}fs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}subFs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}storageRestriction"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeRestriction"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}equivStorage"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeInfo"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeInfoRef"/>
+ </location>
+ <location name="sc">
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}fs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}subFs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}storageRestriction"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeRestriction"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}equivStorage"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeInfo"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeInfoRef"/>
+ </location>
+ <location name="ec">
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}fs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}subFs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}equivStorage"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeInfo"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeInfoRef"/>
+ </location>
+ <location name="mrk">
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}fs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}subFs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}storageRestriction"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeRestriction"/>
+ </location>
+ <location name="sm">
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}fs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:fs:2.0}subFs"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}storageRestriction"/>
+  <attribute name="{urn:oasis:names:tc:xliff:sizerestriction:2.0}sizeRestriction"/>
+ </location>
+ <location name="mtc:match">
+  <element   name="{urn:oasis:names:tc:xliff:metadata:2.0}metadata"/>
+ </location>
+</modules>

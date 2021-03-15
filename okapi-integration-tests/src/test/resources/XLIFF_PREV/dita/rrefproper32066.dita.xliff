@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefproper32066.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.system.home</source>
+<seg-source><mrk mid="0" mtype="seg">derby.system.home</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.system.home</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">derby.system.home</source>
+<seg-source><mrk mid="0" mtype="seg">derby.system.home</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.system.home</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Specifies the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system directory, which is the directory that contains subdirectories holding databases that you create and the text file <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system directory, which is the directory that contains subdirectories holding databases that you create and the text file <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system directory, which is the directory that contains subdirectories holding databases that you create and the text file <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">If the system directory that you specify with <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="1">&lt;/i&gt;</ept> does not exist at startup, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> creates the directory automatically.</source>
+<seg-source><mrk mid="0" mtype="seg">If the system directory that you specify with <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="1">&lt;/i&gt;</ept> does not exist at startup, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> creates the directory automatically.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the system directory that you specify with <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="1">&lt;/i&gt;</ept> does not exist at startup, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> creates the directory automatically.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Current directory (the value of the JVM system property <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>user.dir<ept id="1">&lt;/i&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">Current directory (the value of the JVM system property <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>user.dir<ept id="1">&lt;/i&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Current directory (the value of the JVM system property <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>user.dir<ept id="1">&lt;/i&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If you do not explicitly set the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="1">&lt;/i&gt;</ept> property when starting <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, the default is the directory in which <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> was started.</source>
+<seg-source><mrk mid="0" mtype="seg">If you do not explicitly set the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="1">&lt;/i&gt;</ept> property when starting <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, the default is the directory in which <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> was started.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you do not explicitly set the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="1">&lt;/i&gt;</ept> property when starting <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, the default is the directory in which <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> was started.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">You should always explicitly set the value of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You should always explicitly set the value of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You should always explicitly set the value of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-Dderby.system.home=C:\<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productlowercase"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-Dderby.system.home=C:\<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productlowercase"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-Dderby.system.home=C:\<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productlowercase"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Dynamic or static</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic or static</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic or static</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

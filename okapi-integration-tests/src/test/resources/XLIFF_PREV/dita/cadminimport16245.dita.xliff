@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminimport16245.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Importing and exporting data</source>
+<seg-source><mrk mid="0" mtype="seg">Importing and exporting data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Importing and exporting data</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You can import and export large amounts of data between files and the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database. Instead of having to use INSERT and SELECT statements, you can use <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> system procedures to import data directly from files into tables and to export data from tables into files.</source>
+<seg-source><mrk mid="0" mtype="seg">You can import and export large amounts of data between files and the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database.</mrk><mrk mid="1" mtype="seg"> Instead of having to use INSERT and SELECT statements, you can use <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> system procedures to import data directly from files into tables and to export data from tables into files.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can import and export large amounts of data between files and the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database.</mrk><mrk mid="1" mtype="seg"> Instead of having to use INSERT and SELECT statements, you can use <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> system procedures to import data directly from files into tables and to export data from tables into files.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">bulk import and export</source>
+<seg-source><mrk mid="0" mtype="seg">bulk import and export</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bulk import and export</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">overview</source>
+<seg-source><mrk mid="0" mtype="seg">overview</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">overview</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">import procedures</source>
+<seg-source><mrk mid="0" mtype="seg">import procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">import procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">overview</source>
+<seg-source><mrk mid="0" mtype="seg">overview</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">overview</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">export procedures</source>
+<seg-source><mrk mid="0" mtype="seg">export procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">export procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">overview</source>
+<seg-source><mrk mid="0" mtype="seg">overview</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">overview</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">system procedures</source>
+<seg-source><mrk mid="0" mtype="seg">system procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">import and export, overview</source>
+<seg-source><mrk mid="0" mtype="seg">import and export, overview</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">import and export, overview</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system procedures import and export data in delimited data file format.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system procedures import and export data in delimited data file format.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system procedures import and export data in delimited data file format.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Use the export system procedures to write data from a database to one or more files that are stored outside of the database. You can use a procedure to export data from a table into a file or export data from a SELECT statement result into a file.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the export system procedures to write data from a database to one or more files that are stored outside of the database.</mrk><mrk mid="1" mtype="seg"> You can use a procedure to export data from a table into a file or export data from a SELECT statement result into a file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the export system procedures to write data from a database to one or more files that are stored outside of the database.</mrk><mrk mid="1" mtype="seg"> You can use a procedure to export data from a table into a file or export data from a SELECT statement result into a file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Use the import system procedures to import data from a file into a table. If the target table already contains data, you can replace or append to the existing data.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the import system procedures to import data from a file into a table.</mrk><mrk mid="1" mtype="seg"> If the target table already contains data, you can replace or append to the existing data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the import system procedures to import data from a file into a table.</mrk><mrk mid="1" mtype="seg"> If the target table already contains data, you can replace or append to the existing data.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

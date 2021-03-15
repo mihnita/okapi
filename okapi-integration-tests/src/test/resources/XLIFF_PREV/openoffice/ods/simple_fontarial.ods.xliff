@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="simple_fontarial.ods/meta.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/ods/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+</body>
+</file>
+<file original="simple_fontarial.ods/content.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/ods/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" restype="x-table:name">
+<source xml:lang="en">Sheet1</source>
+<seg-source><mrk mid="0" mtype="seg">Sheet1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sheet1</mrk></target>
+</trans-unit>
+<trans-unit id="2" restype="x-text:p">
+<source xml:lang="en">One</source>
+<seg-source><mrk mid="0" mtype="seg">One</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">One</mrk></target>
+</trans-unit>
+<trans-unit id="3" restype="x-text:p">
+<source xml:lang="en">Two</source>
+<seg-source><mrk mid="0" mtype="seg">Two</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Two</mrk></target>
+</trans-unit>
+<trans-unit id="4" restype="x-text:p">
+<source xml:lang="en">Three</source>
+<seg-source><mrk mid="0" mtype="seg">Three</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Three</mrk></target>
+</trans-unit>
+<trans-unit id="5" restype="x-text:p">
+<source xml:lang="en">Two</source>
+<seg-source><mrk mid="0" mtype="seg">Two</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Two</mrk></target>
+</trans-unit>
+<trans-unit id="6" restype="x-text:p">
+<source xml:lang="en">Four</source>
+<seg-source><mrk mid="0" mtype="seg">Four</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Four</mrk></target>
+</trans-unit>
+<trans-unit id="7" restype="x-text:p">
+<source xml:lang="en">Five</source>
+<seg-source><mrk mid="0" mtype="seg">Five</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Five</mrk></target>
+</trans-unit>
+<trans-unit id="8" restype="x-text:p">
+<source xml:lang="en">Three</source>
+<seg-source><mrk mid="0" mtype="seg">Three</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Three</mrk></target>
+</trans-unit>
+<trans-unit id="9" restype="x-text:p">
+<source xml:lang="en">Five</source>
+<seg-source><mrk mid="0" mtype="seg">Five</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Five</mrk></target>
+</trans-unit>
+<trans-unit id="10" restype="x-text:p">
+<source xml:lang="en">Six</source>
+<seg-source><mrk mid="0" mtype="seg">Six</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Six</mrk></target>
+</trans-unit>
+<trans-unit id="11" restype="x-table:name">
+<source xml:lang="en">Sheet2</source>
+<seg-source><mrk mid="0" mtype="seg">Sheet2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sheet2</mrk></target>
+</trans-unit>
+<trans-unit id="12" restype="x-table:name">
+<source xml:lang="en">Sheet3</source>
+<seg-source><mrk mid="0" mtype="seg">Sheet3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sheet3</mrk></target>
+</trans-unit>
+</body>
+</file>
+<file original="simple_fontarial.ods/styles.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/ods/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:sheet-name">&lt;text:sheet-name&gt;</bpt>???<ept id="1">&lt;/text:sheet-name&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:sheet-name">&lt;text:sheet-name&gt;</bpt>???<ept id="1">&lt;/text:sheet-name&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:sheet-name">&lt;text:sheet-name&gt;</bpt>???<ept id="1">&lt;/text:sheet-name&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="2" restype="x-text:p">
+<source xml:lang="en">Page <ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;1&lt;/text:page-number&gt;</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Page <ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;1&lt;/text:page-number&gt;</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Page <ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;1&lt;/text:page-number&gt;</ph></mrk></target>
+</trans-unit>
+<trans-unit id="3" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:sheet-name">&lt;text:sheet-name&gt;</bpt>???<ept id="1">&lt;/text:sheet-name&gt;</ept> (<ph id="2" ctype="x-text:title">&lt;text:title&gt;???&lt;/text:title&gt;</ph>)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:sheet-name">&lt;text:sheet-name&gt;</bpt>???<ept id="1">&lt;/text:sheet-name&gt;</ept> (<ph id="2" ctype="x-text:title">&lt;text:title&gt;???&lt;/text:title&gt;</ph>)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:sheet-name">&lt;text:sheet-name&gt;</bpt>???<ept id="1">&lt;/text:sheet-name&gt;</ept> (<ph id="2" ctype="x-text:title">&lt;text:title&gt;???&lt;/text:title&gt;</ph>)</mrk></target>
+</trans-unit>
+<trans-unit id="4" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:date">&lt;text:date style:data-style-name="N2" text:date-value="2011-11-09"&gt;</bpt>11/09/2011<ept id="1">&lt;/text:date&gt;</ept>, <bpt id="2" ctype="x-text:time">&lt;text:time&gt;</bpt>13:10:05<ept id="2">&lt;/text:time&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:date">&lt;text:date style:data-style-name="N2" text:date-value="2011-11-09"&gt;</bpt>11/09/2011<ept id="1">&lt;/text:date&gt;</ept>, <bpt id="2" ctype="x-text:time">&lt;text:time&gt;</bpt>13:10:05<ept id="2">&lt;/text:time&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:date">&lt;text:date style:data-style-name="N2" text:date-value="2011-11-09"&gt;</bpt>11/09/2011<ept id="1">&lt;/text:date&gt;</ept>, <bpt id="2" ctype="x-text:time">&lt;text:time&gt;</bpt>13:10:05<ept id="2">&lt;/text:time&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="5" restype="x-text:p">
+<source xml:lang="en">Page <ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;1&lt;/text:page-number&gt;</ph> / <ph id="2" ctype="x-text:page-count">&lt;text:page-count&gt;99&lt;/text:page-count&gt;</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Page <ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;1&lt;/text:page-number&gt;</ph> / <ph id="2" ctype="x-text:page-count">&lt;text:page-count&gt;99&lt;/text:page-count&gt;</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Page <ph id="1" ctype="x-text:page-number">&lt;text:page-number&gt;1&lt;/text:page-number&gt;</ph> / <ph id="2" ctype="x-text:page-count">&lt;text:page-count&gt;99&lt;/text:page-count&gt;</ph></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

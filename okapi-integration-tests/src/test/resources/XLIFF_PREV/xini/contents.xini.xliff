@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="contents.xini" source-language="" target-language="fr" datatype="x-text/x-xini">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="1" resname="test1.xml" restype="x-page">
+<group id="2" restype="x-element">
+<group id="3" restype="x-fields">
+<group id="4" restype="x-field">
+<trans-unit id="5">
+<source xml:lang=""><it id="1" ctype="x-sph-ph" pos="open"></it>Test!</source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-sph-ph" pos="open"></it>Test!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-sph-ph" pos="open"></it>Test!</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang=""><it id="1" ctype="x-eph-ph" pos="close"></it><ph id="2" ctype="x-ph"></ph></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-eph-ph" pos="close"></it><ph id="2" ctype="x-ph"></ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-eph-ph" pos="close"></it><ph id="2" ctype="x-ph"></ph></mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="">Test.</source>
+<seg-source><mrk mid="0" mtype="seg">Test.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test.</mrk></target>
+</trans-unit>
+</group>
+</group>
+</group>
+</group>
+</body>
+</file>
+</xliff>

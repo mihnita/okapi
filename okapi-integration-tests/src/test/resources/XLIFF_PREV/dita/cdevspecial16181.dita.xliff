@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevspecial16181.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Database-side JDBC routines using non-nested connections</source>
+<seg-source><mrk mid="0" mtype="seg">Database-side JDBC routines using non-nested connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database-side JDBC routines using non-nested connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">A database-side JDBC routine can create a new connection instead of using a nested connection. Statements executed in the routine will be part of a different transaction, and so can issue commits and rollbacks.</source>
+<seg-source><mrk mid="0" mtype="seg">A database-side JDBC routine can create a new connection instead of using a nested connection.</mrk><mrk mid="1" mtype="seg"> Statements executed in the routine will be part of a different transaction, and so can issue commits and rollbacks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A database-side JDBC routine can create a new connection instead of using a nested connection.</mrk><mrk mid="1" mtype="seg"> Statements executed in the routine will be part of a different transaction, and so can issue commits and rollbacks.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Database-side JDBC routines</source>
+<seg-source><mrk mid="0" mtype="seg">Database-side JDBC routines</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database-side JDBC routines</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">using non-nested connections</source>
+<seg-source><mrk mid="0" mtype="seg">using non-nested connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">using non-nested connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Such a routine can connect to a database different from the one to which the parent SQL statement that called it is connected. The routine does not use the same transaction or <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept>. It establishes a new <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="2">&lt;/i&gt;</ept> and transaction.</source>
+<seg-source><mrk mid="0" mtype="seg">Such a routine can connect to a database different from the one to which the parent SQL statement that called it is connected.</mrk><mrk mid="1" mtype="seg"> The routine does not use the same transaction or <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> It establishes a new <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="2">&lt;/i&gt;</ept> and transaction.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Such a routine can connect to a database different from the one to which the parent SQL statement that called it is connected.</mrk><mrk mid="1" mtype="seg"> The routine does not use the same transaction or <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> It establishes a new <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="2">&lt;/i&gt;</ept> and transaction.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">If database-side JDBC routines do not use nested connections, this means that they are operating outside of the normal DBMS transaction control, so it is not good practice to use them indiscriminately.</source>
+<seg-source><mrk mid="0" mtype="seg">If database-side JDBC routines do not use nested connections, this means that they are operating outside of the normal DBMS transaction control, so it is not good practice to use them indiscriminately.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If database-side JDBC routines do not use nested connections, this means that they are operating outside of the normal DBMS transaction control, so it is not good practice to use them indiscriminately.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

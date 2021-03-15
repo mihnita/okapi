@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminimportdefaultformat.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">File format for input and output</source>
+<seg-source><mrk mid="0" mtype="seg">File format for input and output</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File format for input and output</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">There are specific requirements for the format of the input and output files when you import and export data.</source>
+<seg-source><mrk mid="0" mtype="seg">There are specific requirements for the format of the input and output files when you import and export data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There are specific requirements for the format of the input and output files when you import and export data.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">import and export procedures</source>
+<seg-source><mrk mid="0" mtype="seg">import and export procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">import and export procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">input and output file format</source>
+<seg-source><mrk mid="0" mtype="seg">input and output file format</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">input and output file format</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">importing data</source>
+<seg-source><mrk mid="0" mtype="seg">importing data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">importing data</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">required file format</source>
+<seg-source><mrk mid="0" mtype="seg">required file format</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">required file format</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">exporting data</source>
+<seg-source><mrk mid="0" mtype="seg">exporting data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">exporting data</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">required file format</source>
+<seg-source><mrk mid="0" mtype="seg">required file format</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">required file format</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">system procedures</source>
+<seg-source><mrk mid="0" mtype="seg">system procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">import using</source>
+<seg-source><mrk mid="0" mtype="seg">import using</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">import using</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The default file format is a delimited text file with the following characteristics:</source>
+<seg-source><mrk mid="0" mtype="seg">The default file format is a delimited text file with the following characteristics:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default file format is a delimited text file with the following characteristics:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Rows are separated by a newline</source>
+<seg-source><mrk mid="0" mtype="seg">Rows are separated by a newline</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Rows are separated by a newline</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Fields are separated by a comma (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>,<ept id="1">&lt;/codeph&gt;</ept>)</source>
+<seg-source><mrk mid="0" mtype="seg">Fields are separated by a comma (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>,<ept id="1">&lt;/codeph&gt;</ept>)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Fields are separated by a comma (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>,<ept id="1">&lt;/codeph&gt;</ept>)</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Character-based fields are delimited with double quotes (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>"<ept id="1">&lt;/codeph&gt;</ept>)</source>
+<seg-source><mrk mid="0" mtype="seg">Character-based fields are delimited with double quotes (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>"<ept id="1">&lt;/codeph&gt;</ept>)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Character-based fields are delimited with double quotes (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>"<ept id="1">&lt;/codeph&gt;</ept>)</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Before you perform import or export operations, you must ensure that the chosen delimiter character is not contained in the data to be imported or exported. If you chose a delimiter character that is part of the data to be imported or exported, unexpected errors might occur. The following restrictions apply to column and character delimiters:</source>
+<seg-source><mrk mid="0" mtype="seg">Before you perform import or export operations, you must ensure that the chosen delimiter character is not contained in the data to be imported or exported.</mrk><mrk mid="1" mtype="seg"> If you chose a delimiter character that is part of the data to be imported or exported, unexpected errors might occur.</mrk><mrk mid="2" mtype="seg"> The following restrictions apply to column and character delimiters:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Before you perform import or export operations, you must ensure that the chosen delimiter character is not contained in the data to be imported or exported.</mrk><mrk mid="1" mtype="seg"> If you chose a delimiter character that is part of the data to be imported or exported, unexpected errors might occur.</mrk><mrk mid="2" mtype="seg"> The following restrictions apply to column and character delimiters:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Delimiters are mutually exclusive</source>
+<seg-source><mrk mid="0" mtype="seg">Delimiters are mutually exclusive</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delimiters are mutually exclusive</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">A delimiter cannot be a line-feed character, a carriage return, or a blank space</source>
+<seg-source><mrk mid="0" mtype="seg">A delimiter cannot be a line-feed character, a carriage return, or a blank space</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A delimiter cannot be a line-feed character, a carriage return, or a blank space</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">The default decimal point (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>.<ept id="1">&lt;/codeph&gt;</ept>) cannot be a character delimiter</source>
+<seg-source><mrk mid="0" mtype="seg">The default decimal point (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>.<ept id="1">&lt;/codeph&gt;</ept>) cannot be a character delimiter</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default decimal point (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>.<ept id="1">&lt;/codeph&gt;</ept>) cannot be a character delimiter</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Delimiters cannot be hexadecimal characters (0-9, a-f, A-F).</source>
+<seg-source><mrk mid="0" mtype="seg">Delimiters cannot be hexadecimal characters (0-9, a-f, A-F).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delimiters cannot be hexadecimal characters (0-9, a-f, A-F).</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">The record delimiter is assumed to be a newline character. The record delimiter should not be used as any other delimiter.</source>
+<seg-source><mrk mid="0" mtype="seg">The record delimiter is assumed to be a newline character.</mrk><mrk mid="1" mtype="seg"> The record delimiter should not be used as any other delimiter.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The record delimiter is assumed to be a newline character.</mrk><mrk mid="1" mtype="seg"> The record delimiter should not be used as any other delimiter.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Character delimiters are permitted with the character-based fields (CHAR, VARCHAR, and LONG VARCHAR) of a file during import. Any pair of character delimiters found between the enclosing character delimiters is imported into the database. For example, suppose that you have the following character string:</source>
+<seg-source><mrk mid="0" mtype="seg">Character delimiters are permitted with the character-based fields (CHAR, VARCHAR, and LONG VARCHAR) of a file during import.</mrk><mrk mid="1" mtype="seg"> Any pair of character delimiters found between the enclosing character delimiters is imported into the database.</mrk><mrk mid="2" mtype="seg"> For example, suppose that you have the following character string:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Character delimiters are permitted with the character-based fields (CHAR, VARCHAR, and LONG VARCHAR) of a file during import.</mrk><mrk mid="1" mtype="seg"> Any pair of character delimiters found between the enclosing character delimiters is imported into the database.</mrk><mrk mid="2" mtype="seg"> For example, suppose that you have the following character string:</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">"What a ""great"" day!"</source>
+<seg-source><mrk mid="0" mtype="seg">"What a ""great"" day!"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"What a ""great"" day!"</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">The preceding character string gets imported into the database as:</source>
+<seg-source><mrk mid="0" mtype="seg">The preceding character string gets imported into the database as:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The preceding character string gets imported into the database as:</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">What a "great" day!</source>
+<seg-source><mrk mid="0" mtype="seg">What a "great" day!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">What a "great" day!</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">During export, the rule applies in reverse. For example, suppose you have the following character string:</source>
+<seg-source><mrk mid="0" mtype="seg">During export, the rule applies in reverse.</mrk><mrk mid="1" mtype="seg"> For example, suppose you have the following character string:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">During export, the rule applies in reverse.</mrk><mrk mid="1" mtype="seg"> For example, suppose you have the following character string:</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">"The boot has a 3" heel."</source>
+<seg-source><mrk mid="0" mtype="seg">"The boot has a 3" heel."</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"The boot has a 3" heel."</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">The preceding character string gets exported to a file as:</source>
+<seg-source><mrk mid="0" mtype="seg">The preceding character string gets exported to a file as:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The preceding character string gets exported to a file as:</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">"The boot has a 3""heel."</source>
+<seg-source><mrk mid="0" mtype="seg">"The boot has a 3""heel."</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"The boot has a 3""heel."</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">The following example file shows four rows and four columns in the default file format:</source>
+<seg-source><mrk mid="0" mtype="seg">The following example file shows four rows and four columns in the default file format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example file shows four rows and four columns in the default file format:</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">1,abc,22,def 22,,,"a is a zero-length string, b is null" 13,"hello",454,"world" 4,b and c are both null,,</source>
+<seg-source><mrk mid="0" mtype="seg">1,abc,22,def 22,,,"a is a zero-length string, b is null" 13,"hello",454,"world" 4,b and c are both null,,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1,abc,22,def 22,,,"a is a zero-length string, b is null" 13,"hello",454,"world" 4,b and c are both null,,</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">The export procedure outputs the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">The export procedure outputs the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The export procedure outputs the following values:</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">1,"abc",22,"def" 22,,,"a is a zero-length string, b is null" 13,"hello",454,"world" 4,"b and c are both null",,</source>
+<seg-source><mrk mid="0" mtype="seg">1,"abc",22,"def" 22,,,"a is a zero-length string, b is null" 13,"hello",454,"world" 4,"b and c are both null",,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1,"abc",22,"def" 22,,,"a is a zero-length string, b is null" 13,"hello",454,"world" 4,"b and c are both null",,</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

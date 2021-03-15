@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Stories/Story_ucd.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="P4FC5F379-tu1" xml:space="preserve">
+<source xml:lang="en">This is a paragraph with a first line-break<ph id="1" ctype="x-lb-forced;">&lt;content-1/&gt;</ph>second line</source>
+<seg-source><mrk mid="0" mtype="seg">This is a paragraph with a first line-break<ph id="1" ctype="x-lb-forced;">&lt;content-1/&gt;</ph>second line</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a paragraph with a first line-break<ph id="1" ctype="x-lb-forced;">&lt;content-1/&gt;</ph>second line</mrk></target>
+</trans-unit>
+<trans-unit id="P4FC5F379-tu2" xml:space="preserve">
+<source xml:lang="en">Second paragraph.</source>
+<seg-source><mrk mid="0" mtype="seg">Second paragraph.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Second paragraph.</mrk></target>
+</trans-unit>
+<trans-unit id="P4FC5F379-tu3" xml:space="preserve">
+<source xml:lang="en">Third with<ph id="1" ctype="x-lb-discretionary;">&lt;content-1/&gt;</ph> discretionary line-break.</source>
+<seg-source><mrk mid="0" mtype="seg">Third with<ph id="1" ctype="x-lb-discretionary;">&lt;content-1/&gt;</ph> discretionary line-break.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Third with<ph id="1" ctype="x-lb-discretionary;">&lt;content-1/&gt;</ph> discretionary line-break.</mrk></target>
+</trans-unit>
+<trans-unit id="P4FC5F379-tu4" xml:space="preserve">
+<source xml:lang="en">Fourth with <ph id="1" ctype="x-auto-page-number;">&lt;content-1/&gt;</ph>=page number</source>
+<seg-source><mrk mid="0" mtype="seg">Fourth with <ph id="1" ctype="x-auto-page-number;">&lt;content-1/&gt;</ph>=page number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Fourth with <ph id="1" ctype="x-auto-page-number;">&lt;content-1/&gt;</ph>=page number</mrk></target>
+</trans-unit>
+<trans-unit id="P4FC5F379-tu5" xml:space="preserve">
+<source xml:lang="en">Fifth with <ph id="1" ctype="x-hyphen-discretionary;">&lt;content-1/&gt;</ph>discretionnary<ph id="2" ctype="x-hyphen-discretionary;">&lt;content-2/&gt;</ph>hyphen and non<ph id="3" ctype="x-hyphen-nb;">&lt;content-3/&gt;</ph>breaking one.</source>
+<seg-source><mrk mid="0" mtype="seg">Fifth with <ph id="1" ctype="x-hyphen-discretionary;">&lt;content-1/&gt;</ph>discretionnary<ph id="2" ctype="x-hyphen-discretionary;">&lt;content-2/&gt;</ph>hyphen and non<ph id="3" ctype="x-hyphen-nb;">&lt;content-3/&gt;</ph>breaking one.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Fifth with <ph id="1" ctype="x-hyphen-discretionary;">&lt;content-1/&gt;</ph>discretionnary<ph id="2" ctype="x-hyphen-discretionary;">&lt;content-2/&gt;</ph>hyphen and non<ph id="3" ctype="x-hyphen-nb;">&lt;content-3/&gt;</ph>breaking one.</mrk></target>
+</trans-unit>
+<trans-unit id="P4FC5F379-tu6" xml:space="preserve">
+<source xml:lang="en">Normal nbsp= , fixed-width nbsp=<ph id="1" ctype="x-nbsp-fixed-width;">&lt;content-1/&gt;</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Normal nbsp= , fixed-width nbsp=<ph id="1" ctype="x-nbsp-fixed-width;">&lt;content-1/&gt;</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Normal nbsp= , fixed-width nbsp=<ph id="1" ctype="x-nbsp-fixed-width;">&lt;content-1/&gt;</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="P4FC5F379-tu7" xml:space="preserve">
+<source xml:lang="en">Hair space=<ph id="1" ctype="x-sp-hair;">&lt;content-1/&gt;</ph>, sixth space=<ph id="2" ctype="x-sp-sixth;">&lt;content-2/&gt;</ph>, thin=<ph id="3" ctype="x-sp-thin;">&lt;content-3/&gt;</ph>, quarter=<ph id="4" ctype="x-sp-quarter;">&lt;content-4/&gt;</ph>, third=<ph id="5" ctype="x-sp-third;">&lt;content-5/&gt;</ph>, punctuation space=<ph id="6" ctype="x-sp-punctuation;">&lt;content-6/&gt;</ph>, figure=<ph id="7" ctype="x-sp-figure;">&lt;content-7/&gt;</ph>, flush space=<ph id="8" ctype="x-sp-flush;">&lt;content-8/&gt;</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Hair space=<ph id="1" ctype="x-sp-hair;">&lt;content-1/&gt;</ph>, sixth space=<ph id="2" ctype="x-sp-sixth;">&lt;content-2/&gt;</ph>, thin=<ph id="3" ctype="x-sp-thin;">&lt;content-3/&gt;</ph>, quarter=<ph id="4" ctype="x-sp-quarter;">&lt;content-4/&gt;</ph>, third=<ph id="5" ctype="x-sp-third;">&lt;content-5/&gt;</ph>, punctuation space=<ph id="6" ctype="x-sp-punctuation;">&lt;content-6/&gt;</ph>, figure=<ph id="7" ctype="x-sp-figure;">&lt;content-7/&gt;</ph>, flush space=<ph id="8" ctype="x-sp-flush;">&lt;content-8/&gt;</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hair space=<ph id="1" ctype="x-sp-hair;">&lt;content-1/&gt;</ph>, sixth space=<ph id="2" ctype="x-sp-sixth;">&lt;content-2/&gt;</ph>, thin=<ph id="3" ctype="x-sp-thin;">&lt;content-3/&gt;</ph>, quarter=<ph id="4" ctype="x-sp-quarter;">&lt;content-4/&gt;</ph>, third=<ph id="5" ctype="x-sp-third;">&lt;content-5/&gt;</ph>, punctuation space=<ph id="6" ctype="x-sp-punctuation;">&lt;content-6/&gt;</ph>, figure=<ph id="7" ctype="x-sp-figure;">&lt;content-7/&gt;</ph>, flush space=<ph id="8" ctype="x-sp-flush;">&lt;content-8/&gt;</ph>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

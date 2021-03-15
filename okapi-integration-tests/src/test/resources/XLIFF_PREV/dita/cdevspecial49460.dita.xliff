@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevspecial49460.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Triggers and exceptions</source>
+<seg-source><mrk mid="0" mtype="seg">Triggers and exceptions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Triggers and exceptions</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Exceptions raised by triggers have a statement severity; they roll back the statement that caused the trigger to fire.</source>
+<seg-source><mrk mid="0" mtype="seg">Exceptions raised by triggers have a statement severity; they roll back the statement that caused the trigger to fire.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exceptions raised by triggers have a statement severity; they roll back the statement that caused the trigger to fire.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Triggers</source>
+<seg-source><mrk mid="0" mtype="seg">Triggers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Triggers</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">and exceptions</source>
+<seg-source><mrk mid="0" mtype="seg">and exceptions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and exceptions</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Triggers</source>
+<seg-source><mrk mid="0" mtype="seg">Triggers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Triggers</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">automatic rollback of trigger actions</source>
+<seg-source><mrk mid="0" mtype="seg">automatic rollback of trigger actions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">automatic rollback of trigger actions</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">This rule applies to nested triggers (triggers that are fired by other triggers). If a trigger action raises an exception (and it is not caught), the transaction on the current connection is rolled back to the point before the triggering event. For example, suppose Trigger A causes Trigger B to fire. If Trigger B throws an exception, the current connection is rolled back to the point before the statement in Trigger A that caused Trigger B to fire. Trigger A is then free to catch the exception thrown by Trigger B and continue with its work. If Trigger A does not throw an exception, the statement that caused Trigger A, as well as any work done in Trigger A, continues until the transaction in the current connection is either committed or rolled back. However, if Trigger A does not catch the exception from Trigger B, it is as if Trigger A had thrown the exception. In that case, the statement that caused Trigger A to fire is rolled back, along with any work done by both of the triggers.</source>
+<seg-source><mrk mid="0" mtype="seg">This rule applies to nested triggers (triggers that are fired by other triggers).</mrk><mrk mid="1" mtype="seg"> If a trigger action raises an exception (and it is not caught), the transaction on the current connection is rolled back to the point before the triggering event.</mrk><mrk mid="2" mtype="seg"> For example, suppose Trigger A causes Trigger B to fire.</mrk><mrk mid="3" mtype="seg"> If Trigger B throws an exception, the current connection is rolled back to the point before the statement in Trigger A that caused Trigger B to fire.</mrk><mrk mid="4" mtype="seg"> Trigger A is then free to catch the exception thrown by Trigger B and continue with its work.</mrk><mrk mid="5" mtype="seg"> If Trigger A does not throw an exception, the statement that caused Trigger A, as well as any work done in Trigger A, continues until the transaction in the current connection is either committed or rolled back.</mrk><mrk mid="6" mtype="seg"> However, if Trigger A does not catch the exception from Trigger B, it is as if Trigger A had thrown the exception.</mrk><mrk mid="7" mtype="seg"> In that case, the statement that caused Trigger A to fire is rolled back, along with any work done by both of the triggers.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This rule applies to nested triggers (triggers that are fired by other triggers).</mrk><mrk mid="1" mtype="seg"> If a trigger action raises an exception (and it is not caught), the transaction on the current connection is rolled back to the point before the triggering event.</mrk><mrk mid="2" mtype="seg"> For example, suppose Trigger A causes Trigger B to fire.</mrk><mrk mid="3" mtype="seg"> If Trigger B throws an exception, the current connection is rolled back to the point before the statement in Trigger A that caused Trigger B to fire.</mrk><mrk mid="4" mtype="seg"> Trigger A is then free to catch the exception thrown by Trigger B and continue with its work.</mrk><mrk mid="5" mtype="seg"> If Trigger A does not throw an exception, the statement that caused Trigger A, as well as any work done in Trigger A, continues until the transaction in the current connection is either committed or rolled back.</mrk><mrk mid="6" mtype="seg"> However, if Trigger A does not catch the exception from Trigger B, it is as if Trigger A had thrown the exception.</mrk><mrk mid="7" mtype="seg"> In that case, the statement that caused Trigger A to fire is rolled back, along with any work done by both of the triggers.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

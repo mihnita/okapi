@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Stories/Story_uc2.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="P4D055C47-tu1" xml:space="preserve">
+<source xml:lang="en">This is a first sentence.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a first sentence.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a first sentence.</mrk></target>
+</trans-unit>
+<trans-unit id="P4D055C47-tu2" xml:space="preserve">
+<source xml:lang="en">And a second line in that same paragraph.<ph id="1" ctype="x-lb-forced;">&lt;content-1/&gt;</ph>and a third one after Ctrl+Enter</source>
+<seg-source><mrk mid="0" mtype="seg">And a second line in that same paragraph.<ph id="1" ctype="x-lb-forced;">&lt;content-1/&gt;</ph>and a third one after Ctrl+Enter</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">And a second line in that same paragraph.<ph id="1" ctype="x-lb-forced;">&lt;content-1/&gt;</ph>and a third one after Ctrl+Enter</mrk></target>
+</trans-unit>
+<trans-unit id="P4D055C47-tu4" xml:space="preserve">
+<source xml:lang="en">\=bs, &amp;=amp, &lt;=lt, “=quot, ^=caret</source>
+<seg-source><mrk mid="0" mtype="seg">\=bs, &amp;=amp, &lt;=lt, “=quot, ^=caret</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\=bs, &amp;=amp, &lt;=lt, “=quot, ^=caret</mrk></target>
+</trans-unit>
+<trans-unit id="P4D055C47-tu6" xml:space="preserve">
+<source xml:lang="en">Text in <bpt id="1" ctype="x-empty">&lt;content-1&gt;</bpt>a different font<ept id="1">&lt;/content-1&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Text in <bpt id="1" ctype="x-empty">&lt;content-1&gt;</bpt>a different font<ept id="1">&lt;/content-1&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text in <bpt id="1" ctype="x-empty">&lt;content-1&gt;</bpt>a different font<ept id="1">&lt;/content-1&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+<file original="Stories/Story_uf4.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="P52401526-tu1" xml:space="preserve">
+<source xml:lang="en">Text before the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Text before the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text before the table.</mrk></target>
+</trans-unit>
+<trans-unit id="P52401526-tu2" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-table-ref;">&lt;content-NCF494F15-rg1-1/&gt;</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-table-ref;">&lt;content-NCF494F15-rg1-1/&gt;</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-table-ref;">&lt;content-NCF494F15-rg1-1/&gt;</ph></mrk></target>
+</trans-unit>
+<trans-unit id="P52401526-tu3" xml:space="preserve">
+<source xml:lang="en">Text after the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Text after the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text after the table.</mrk></target>
+</trans-unit>
+<trans-unit id="P52401526-tu5" xml:space="preserve">
+<source xml:lang="en">Before the note <ph id="1" ctype="x-note-ref;">&lt;content-1/&gt;</ph> and after it.</source>
+<seg-source><mrk mid="0" mtype="seg">Before the note <ph id="1" ctype="x-note-ref;">&lt;content-1/&gt;</ph> and after it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Before the note <ph id="1" ctype="x-note-ref;">&lt;content-1/&gt;</ph> and after it.</mrk></target>
+</trans-unit>
+<trans-unit id="P52401526-tu7" xml:space="preserve">
+<source xml:lang="en">Variables: <ph id="1" ctype="x-empty">&lt;content-1/&gt;</ph>=filename. 	=tab, <ph id="2" ctype="x-auto-page-number;">&lt;content-2/&gt;</ph>=curPageNum, “=dlq and ”=drq.</source>
+<seg-source><mrk mid="0" mtype="seg">Variables: <ph id="1" ctype="x-empty">&lt;content-1/&gt;</ph>=filename.</mrk><mrk mid="1" mtype="seg"> 	=tab, <ph id="2" ctype="x-auto-page-number;">&lt;content-2/&gt;</ph>=curPageNum, “=dlq and ”=drq.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Variables: <ph id="1" ctype="x-empty">&lt;content-1/&gt;</ph>=filename.</mrk><mrk mid="1" mtype="seg"> 	=tab, <ph id="2" ctype="x-auto-page-number;">&lt;content-2/&gt;</ph>=curPageNum, “=dlq and ”=drq.</mrk></target>
+</trans-unit>
+<trans-unit id="P52401526-tu9" xml:space="preserve">
+<source xml:lang="en"> text</source>
+<seg-source><mrk mid="0" mtype="seg"> text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> text</mrk></target>
+</trans-unit>
+<group id="NCF494F15-rg1">
+<group id="NEF6AA7FB-Cell1">
+<trans-unit id="P23F0A8AE-tu1" xml:space="preserve">
+<source xml:lang="en">Cell 1</source>
+<seg-source><mrk mid="0" mtype="seg">Cell 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cell 1</mrk></target>
+</trans-unit>
+</group>
+<group id="NEF6AA7FB-Cell2">
+<trans-unit id="P23F0A8AF-tu1" xml:space="preserve">
+<source xml:lang="en">Cell 2</source>
+<seg-source><mrk mid="0" mtype="seg">Cell 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cell 2</mrk></target>
+</trans-unit>
+</group>
+<group id="NEF6AA7FB-Cell3">
+</group>
+<group id="NEF6AA7FB-Cell4">
+</group>
+<group id="NEF6AA7FB-Cell5">
+</group>
+<group id="NEF6AA7FB-Cell6">
+</group>
+<group id="NEF6AA7FB-Cell7">
+</group>
+<group id="NEF6AA7FB-Cell8">
+</group>
+<group id="NEF6AA7FB-Cell9">
+</group>
+<group id="NEF6AA7FB-Cell10">
+</group>
+<group id="NEF6AA7FB-Cell11">
+</group>
+<group id="NEF6AA7FB-Cell12">
+</group>
+<group id="NEF6AA7FB-Cell13">
+</group>
+<group id="NEF6AA7FB-Cell14">
+</group>
+<group id="NEF6AA7FB-Cell15">
+</group>
+<group id="NEF6AA7FB-Cell16">
+<trans-unit id="P5A246D48-tu1" xml:space="preserve">
+<source xml:lang="en">Last cell.</source>
+<seg-source><mrk mid="0" mtype="seg">Last cell.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Last cell.</mrk></target>
+</trans-unit>
+<trans-unit id="P5A246D48-tu2" xml:space="preserve">
+<source xml:lang="en">Second line of last cell.</source>
+<seg-source><mrk mid="0" mtype="seg">Second line of last cell.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Second line of last cell.</mrk></target>
+</trans-unit>
+</group>
+</group>
+</body>
+</file>
+</xliff>

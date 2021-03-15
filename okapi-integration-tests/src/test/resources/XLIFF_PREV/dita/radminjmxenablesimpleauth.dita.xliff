@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminjmxenablesimpleauth.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Simple authorization using an access file</source>
+<seg-source><mrk mid="0" mtype="seg">Simple authorization using an access file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simple authorization using an access file</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Some JVMs support a simple access file system for controlling JMX access.</source>
+<seg-source><mrk mid="0" mtype="seg">Some JVMs support a simple access file system for controlling JMX access.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Some JVMs support a simple access file system for controlling JMX access.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Java Management Extensions (JMX) technology</source>
+<seg-source><mrk mid="0" mtype="seg">Java Management Extensions (JMX) technology</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Java Management Extensions (JMX) technology</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">JMX</source>
+<seg-source><mrk mid="0" mtype="seg">JMX</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JMX</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">simple authorization using an access file</source>
+<seg-source><mrk mid="0" mtype="seg">simple authorization using an access file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">simple authorization using an access file</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">An access file is formatted the same way as password files (described in <bpt id="1" ctype="x-xref">&lt;xref href="radminjmxenablepwd.dita#radminjmxenablepwd"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>), and associates roles with an access level. Valid access levels are <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>readonly<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>readwrite<ept id="3">&lt;/codeph&gt;</ept>:</source>
+<seg-source><mrk mid="0" mtype="seg">An access file is formatted the same way as password files (described in <bpt id="1" ctype="x-xref">&lt;xref href="radminjmxenablepwd.dita#radminjmxenablepwd"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>), and associates roles with an access level.</mrk><mrk mid="1" mtype="seg"> Valid access levels are <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>readonly<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>readwrite<ept id="3">&lt;/codeph&gt;</ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An access file is formatted the same way as password files (described in <bpt id="1" ctype="x-xref">&lt;xref href="radminjmxenablepwd.dita#radminjmxenablepwd"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>), and associates roles with an access level.</mrk><mrk mid="1" mtype="seg"> Valid access levels are <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>readonly<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>readwrite<ept id="3">&lt;/codeph&gt;</ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>readonly<ept id="1">&lt;/codeph&gt;</ept> level only allows the JMX client to read an MBean's attributes and receive notifications.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>readonly<ept id="1">&lt;/codeph&gt;</ept> level only allows the JMX client to read an MBean's attributes and receive notifications.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>readonly<ept id="1">&lt;/codeph&gt;</ept> level only allows the JMX client to read an MBean's attributes and receive notifications.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>readwrite<ept id="1">&lt;/codeph&gt;</ept> level also allows setting attributes, invoking operations, and creating and removing MBeans.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>readwrite<ept id="1">&lt;/codeph&gt;</ept> level also allows setting attributes, invoking operations, and creating and removing MBeans.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>readwrite<ept id="1">&lt;/codeph&gt;</ept> level also allows setting attributes, invoking operations, and creating and removing MBeans.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">To use an access file for JMX authorization, specify the name of the access file using a system property upon JVM startup:</source>
+<seg-source><mrk mid="0" mtype="seg">To use an access file for JMX authorization, specify the name of the access file using a system property upon JVM startup:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To use an access file for JMX authorization, specify the name of the access file using a system property upon JVM startup:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">-Dcom.sun.management.jmxremote.access.file=jmxremote.access</source>
+<seg-source><mrk mid="0" mtype="seg">-Dcom.sun.management.jmxremote.access.file=jmxremote.access</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-Dcom.sun.management.jmxremote.access.file=jmxremote.access</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The contents of such an access file may look like this:</source>
+<seg-source><mrk mid="0" mtype="seg">The contents of such an access file may look like this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The contents of such an access file may look like this:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">monitorRole readonly controlRole readwrite</source>
+<seg-source><mrk mid="0" mtype="seg">monitorRole readonly controlRole readwrite</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">monitorRole readonly controlRole readwrite</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">For more information, see "Monitoring and Management Using JMX Technology" at <bpt id="1" ctype="x-xref">&lt;xref format="html"
+href="http://docs.oracle.com/javase/7/docs/technotes/guides/management/agent.html"
+scope="external"&gt;</bpt>http://docs.oracle.com/javase/7/docs/technotes/guides/management/agent.html <ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information, see "Monitoring and Management Using JMX Technology" at <bpt id="1" ctype="x-xref">&lt;xref format="html"
+href="http://docs.oracle.com/javase/7/docs/technotes/guides/management/agent.html"
+scope="external"&gt;</bpt>http://docs.oracle.com/javase/7/docs/technotes/guides/management/agent.html <ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information, see "Monitoring and Management Using JMX Technology" at <bpt id="1" ctype="x-xref">&lt;xref format="html"
+href="http://docs.oracle.com/javase/7/docs/technotes/guides/management/agent.html"
+scope="external"&gt;</bpt>http://docs.oracle.com/javase/7/docs/technotes/guides/management/agent.html <ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="crefsqlj1003454.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Rules for SQL92 identifiers</source>
+<seg-source><mrk mid="0" mtype="seg">Rules for SQL92 identifiers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Rules for SQL92 identifiers</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">SQL92Identifiers</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92Identifiers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92Identifiers</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">rules for</source>
+<seg-source><mrk mid="0" mtype="seg">rules for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">rules for</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Ordinary identifiers are identifiers not surrounded by double quotation marks. Delimited identifiers are identifiers surrounded by double quotation marks.</source>
+<seg-source><mrk mid="0" mtype="seg">Ordinary identifiers are identifiers not surrounded by double quotation marks.</mrk><mrk mid="1" mtype="seg"> Delimited identifiers are identifiers surrounded by double quotation marks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ordinary identifiers are identifiers not surrounded by double quotation marks.</mrk><mrk mid="1" mtype="seg"> Delimited identifiers are identifiers surrounded by double quotation marks.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">An ordinary identifier must begin with a letter and contain only letters, underscore characters (_), and digits. The permitted letters and digits include all Unicode letters and digits, but <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not attempt to ensure that the characters in identifiers are valid in the database's locale.</source>
+<seg-source><mrk mid="0" mtype="seg">An ordinary identifier must begin with a letter and contain only letters, underscore characters (_), and digits.</mrk><mrk mid="1" mtype="seg"> The permitted letters and digits include all Unicode letters and digits, but <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not attempt to ensure that the characters in identifiers are valid in the database's locale.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An ordinary identifier must begin with a letter and contain only letters, underscore characters (_), and digits.</mrk><mrk mid="1" mtype="seg"> The permitted letters and digits include all Unicode letters and digits, but <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not attempt to ensure that the characters in identifiers are valid in the database's locale.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">delimited identifiers</source>
+<seg-source><mrk mid="0" mtype="seg">delimited identifiers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">delimited identifiers</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">definition</source>
+<seg-source><mrk mid="0" mtype="seg">definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">A delimited identifier can contain any characters within the double quotation marks. The enclosing double quotation marks are not part of the identifier; they serve only to mark its beginning and end. Spaces at the end of a delimited identifier are insignificant (truncated). <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> translates two consecutive double quotation marks within a delimited identifier as one double quotation mark-that is, the "translated" double quotation mark becomes a character in the delimited identifier.</source>
+<seg-source><mrk mid="0" mtype="seg">A delimited identifier can contain any characters within the double quotation marks.</mrk><mrk mid="1" mtype="seg"> The enclosing double quotation marks are not part of the identifier; they serve only to mark its beginning and end.</mrk><mrk mid="2" mtype="seg"> Spaces at the end of a delimited identifier are insignificant (truncated).</mrk><mrk mid="3" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> translates two consecutive double quotation marks within a delimited identifier as one double quotation mark-that is, the "translated" double quotation mark becomes a character in the delimited identifier.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A delimited identifier can contain any characters within the double quotation marks.</mrk><mrk mid="1" mtype="seg"> The enclosing double quotation marks are not part of the identifier; they serve only to mark its beginning and end.</mrk><mrk mid="2" mtype="seg"> Spaces at the end of a delimited identifier are insignificant (truncated).</mrk><mrk mid="3" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> translates two consecutive double quotation marks within a delimited identifier as one double quotation mark-that is, the "translated" double quotation mark becomes a character in the delimited identifier.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Periods within delimited identifiers are not separators but are part of the identifier (the name of the dictionary object being represented).</source>
+<seg-source><mrk mid="0" mtype="seg">Periods within delimited identifiers are not separators but are part of the identifier (the name of the dictionary object being represented).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Periods within delimited identifiers are not separators but are part of the identifier (the name of the dictionary object being represented).</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">So, in the following example:</source>
+<seg-source><mrk mid="0" mtype="seg">So, in the following example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">So, in the following example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>"A.B"<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>"A.B"<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>"A.B"<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">is a dictionary object, while</source>
+<seg-source><mrk mid="0" mtype="seg">is a dictionary object, while</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">is a dictionary object, while</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>"A"."B"<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>"A"."B"<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>"A"."B"<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">is a dictionary object qualified by another dictionary object (such as a column named "B" within the table "A").</source>
+<seg-source><mrk mid="0" mtype="seg">is a dictionary object qualified by another dictionary object (such as a column named "B" within the table "A").</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">is a dictionary object qualified by another dictionary object (such as a column named "B" within the table "A").</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

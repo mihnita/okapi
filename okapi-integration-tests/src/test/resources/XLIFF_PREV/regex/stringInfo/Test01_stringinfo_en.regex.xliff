@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Test01_stringinfo_en.regex" source-language="en" target-language="fr" datatype="x-text/plain" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi-integration-tests/target/test-classes/regex/stringInfo/okf_regex@StringInfo.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" resname="IdNumber1Action" xml:space="preserve">
+<source xml:lang="en">Text to extract, var1=<ph id="1" ctype="x-regxph" equiv-text="#!{varName1}">#!{varName1}</ph>.<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>List:<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="6" ctype="x-regxph" equiv-text="#![PG 0 1]">#![PG 0 1]</ph>·<ph id="7" ctype="x-regxph" equiv-text="\t">\t</ph>Bullet item one.<ph id="8" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="9" ctype="x-regxph" equiv-text="\n">\n</ph>·<ph id="10" ctype="x-regxph" equiv-text="\t">\t</ph>Bullet item two.</source>
+<seg-source><mrk mid="0" mtype="seg">Text to extract, var1=<ph id="1" ctype="x-regxph" equiv-text="#!{varName1}">#!{varName1}</ph>.<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>List:<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="6" ctype="x-regxph" equiv-text="#![PG 0 1]">#![PG 0 1]</ph>·<ph id="7" ctype="x-regxph" equiv-text="\t">\t</ph>Bullet item one.<ph id="8" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="9" ctype="x-regxph" equiv-text="\n">\n</ph>·<ph id="10" ctype="x-regxph" equiv-text="\t">\t</ph>Bullet item two.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text to extract, var1=<ph id="1" ctype="x-regxph" equiv-text="#!{varName1}">#!{varName1}</ph>.<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>List:<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="6" ctype="x-regxph" equiv-text="#![PG 0 1]">#![PG 0 1]</ph>·<ph id="7" ctype="x-regxph" equiv-text="\t">\t</ph>Bullet item one.<ph id="8" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="9" ctype="x-regxph" equiv-text="\n">\n</ph>·<ph id="10" ctype="x-regxph" equiv-text="\t">\t</ph>Bullet item two.</mrk></target>
+</trans-unit>
+<trans-unit id="2" resname="TextToTranslate2" xml:space="preserve">
+<source xml:lang="en">á=aacute, Translatable text 2</source>
+<seg-source><mrk mid="0" mtype="seg">á=aacute, Translatable text 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">á=aacute, Translatable text 2</mrk></target>
+</trans-unit>
+<trans-unit id="3" resname="TextToTranslate3" xml:space="preserve">
+<source xml:lang="en">Translatable text 3</source>
+<seg-source><mrk mid="0" mtype="seg">Translatable text 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Translatable text 3</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

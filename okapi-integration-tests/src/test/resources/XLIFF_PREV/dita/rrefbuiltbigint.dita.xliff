@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefbuiltbigint.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">BIGINT function</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The BIGINT function returns a 64-bit integer representation of a number or character string in the form of an integer constant.</source>
+<seg-source><mrk mid="0" mtype="seg">The BIGINT function returns a 64-bit integer representation of a number or character string in the form of an integer constant.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The BIGINT function returns a 64-bit integer representation of a number or character string in the form of an integer constant.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">BIGINT function</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>BIGINT ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> | <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>numericExpression<ept id="3">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>BIGINT ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> | <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>numericExpression<ept id="3">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>BIGINT ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> | <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>numericExpression<ept id="3">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">An expression that returns a character string value of length not greater than the maximum length of a character constant. Leading and trailing blanks are eliminated and the resulting string must conform to the rules for forming an SQL integer constant. The character string cannot be a long string. If the argument is a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept>, the result is the same number that would occur if the corresponding integer constant were assigned to a big integer column or variable.</source>
+<seg-source><mrk mid="0" mtype="seg">An expression that returns a character string value of length not greater than the maximum length of a character constant.</mrk><mrk mid="1" mtype="seg"> Leading and trailing blanks are eliminated and the resulting string must conform to the rules for forming an SQL integer constant.</mrk><mrk mid="2" mtype="seg"> The character string cannot be a long string.</mrk><mrk mid="3" mtype="seg"> If the argument is a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept>, the result is the same number that would occur if the corresponding integer constant were assigned to a big integer column or variable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An expression that returns a character string value of length not greater than the maximum length of a character constant.</mrk><mrk mid="1" mtype="seg"> Leading and trailing blanks are eliminated and the resulting string must conform to the rules for forming an SQL integer constant.</mrk><mrk mid="2" mtype="seg"> The character string cannot be a long string.</mrk><mrk mid="3" mtype="seg"> If the argument is a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept>, the result is the same number that would occur if the corresponding integer constant were assigned to a big integer column or variable.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>numericExpression<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>numericExpression<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>numericExpression<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">An expression that returns a value of any built-in numeric data type. If the argument is a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>numericExpression<ept id="1">&lt;/i&gt;</ept>, the result is the same number that would occur if the argument were assigned to a big integer column or variable. If the whole part of the argument is not within the range of integers, an error occurs. The decimal part of the argument is truncated if present.</source>
+<seg-source><mrk mid="0" mtype="seg">An expression that returns a value of any built-in numeric data type.</mrk><mrk mid="1" mtype="seg"> If the argument is a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>numericExpression<ept id="1">&lt;/i&gt;</ept>, the result is the same number that would occur if the argument were assigned to a big integer column or variable.</mrk><mrk mid="2" mtype="seg"> If the whole part of the argument is not within the range of integers, an error occurs.</mrk><mrk mid="3" mtype="seg"> The decimal part of the argument is truncated if present.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An expression that returns a value of any built-in numeric data type.</mrk><mrk mid="1" mtype="seg"> If the argument is a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>numericExpression<ept id="1">&lt;/i&gt;</ept>, the result is the same number that would occur if the argument were assigned to a big integer column or variable.</mrk><mrk mid="2" mtype="seg"> If the whole part of the argument is not within the range of integers, an error occurs.</mrk><mrk mid="3" mtype="seg"> The decimal part of the argument is truncated if present.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The result of the function is a big integer. If the argument can be null, the result can be null; if the argument is null, the result is the null value.</source>
+<seg-source><mrk mid="0" mtype="seg">The result of the function is a big integer.</mrk><mrk mid="1" mtype="seg"> If the argument can be null, the result can be null; if the argument is null, the result is the null value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The result of the function is a big integer.</mrk><mrk mid="1" mtype="seg"> If the argument can be null, the result can be null; if the argument is null, the result is the null value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Using the EMPLOYEE table, select the EMPNO column in big integer form for further processing in the application:</source>
+<seg-source><mrk mid="0" mtype="seg">Using the EMPLOYEE table, select the EMPNO column in big integer form for further processing in the application:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using the EMPLOYEE table, select the EMPNO column in big integer form for further processing in the application:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT BIGINT (EMPNO) FROM EMPLOYEE<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT BIGINT (EMPNO) FROM EMPLOYEE<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT BIGINT (EMPNO) FROM EMPLOYEE<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

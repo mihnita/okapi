@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="folded_literal_examples.yml" source-language="en" target-language="fr" datatype="x-text/x-yaml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1" resname="test" xml:space="preserve">
+<source xml:lang="en">Single ending newline</source>
+<seg-source><mrk mid="0" mtype="seg">Single ending newline</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Single ending newline</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="brief" xml:space="preserve">
+<source xml:lang="en">A pipe character, <ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph>followed by an indented block of text is treated as a literal<ph id="2" ctype="lb">
+    
+    
+    
+    </ph>block, in which newlines are preserved throughout the block, including the final newline.</source>
+<seg-source><mrk mid="0" mtype="seg">A pipe character, <ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph>followed by an indented block of text is treated as a literal<ph id="2" ctype="lb">
+    
+    
+    
+    </ph>block, in which newlines are preserved throughout the block, including the final newline.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A pipe character, <ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph>followed by an indented block of text is treated as a literal<ph id="2" ctype="lb">
+    
+    
+    
+    </ph>block, in which newlines are preserved throughout the block, including the final newline.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" resname="yaml" xml:space="preserve">
+<source xml:lang="en">---<ph id="1" ctype="lb">
+    </ph>this: |<ph id="2" ctype="lb">
+        </ph>Foo<ph id="3" ctype="lb">
+        </ph>Bar</source>
+<seg-source><mrk mid="0" mtype="seg">---<ph id="1" ctype="lb">
+    </ph>this: |<ph id="2" ctype="lb">
+        </ph>Foo<ph id="3" ctype="lb">
+        </ph>Bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">---<ph id="1" ctype="lb">
+    </ph>this: |<ph id="2" ctype="lb">
+        </ph>Foo<ph id="3" ctype="lb">
+        </ph>Bar</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="ruby" xml:space="preserve">
+<source xml:lang="en">{ 'this' =&gt; "Foo<ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph>Bar<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>" }</source>
+<seg-source><mrk mid="0" mtype="seg">{ 'this' =&gt; "Foo<ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph>Bar<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>" }</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">{ 'this' =&gt; "Foo<ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph>Bar<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>" }</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" resname="python" xml:space="preserve">
+<source xml:lang="en">[ <ph id="1" ctype="lb">
+        </ph>{ 'this': "Foo<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>Bar<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>" }<ph id="4" ctype="lb">
+    </ph>]</source>
+<seg-source><mrk mid="0" mtype="seg">[ <ph id="1" ctype="lb">
+        </ph>{ 'this': "Foo<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>Bar<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>" }<ph id="4" ctype="lb">
+    </ph>]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[ <ph id="1" ctype="lb">
+        </ph>{ 'this': "Foo<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>Bar<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>" }<ph id="4" ctype="lb">
+    </ph>]</mrk></target>
+</trans-unit>
+</group>
+<group id="sg2">
+<trans-unit id="tu6" resname="test" xml:space="preserve">
+<source xml:lang="en">The '+' indicator</source>
+<seg-source><mrk mid="0" mtype="seg">The '+' indicator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The '+' indicator</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" resname="brief" xml:space="preserve">
+<source xml:lang="en">The '+' indicator says to keep newlines at the end of text blocks.</source>
+<seg-source><mrk mid="0" mtype="seg">The '+' indicator says to keep newlines at the end of text blocks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The '+' indicator says to keep newlines at the end of text blocks.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" resname="yaml" xml:space="preserve">
+<source xml:lang="en">normal: |<ph id="1" ctype="lb">
+      </ph>extra new lines not kept<ph id="2" ctype="lb">
+
+    </ph>preserving: |+<ph id="3" ctype="lb">
+      </ph>extra new lines are kept<ph id="4" ctype="lb">
+
+
+    </ph>dummy: value</source>
+<seg-source><mrk mid="0" mtype="seg">normal: |<ph id="1" ctype="lb">
+      </ph>extra new lines not kept<ph id="2" ctype="lb">
+
+    </ph>preserving: |+<ph id="3" ctype="lb">
+      </ph>extra new lines are kept<ph id="4" ctype="lb">
+
+
+    </ph>dummy: value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">normal: |<ph id="1" ctype="lb">
+      </ph>extra new lines not kept<ph id="2" ctype="lb">
+
+    </ph>preserving: |+<ph id="3" ctype="lb">
+      </ph>extra new lines are kept<ph id="4" ctype="lb">
+
+
+    </ph>dummy: value</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" resname="ruby" xml:space="preserve">
+<source xml:lang="en">{<ph id="1" ctype="lb">
+        </ph>'normal' =&gt; "extra new lines not kept<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="3" ctype="lb">
+        </ph>'preserving' =&gt; "extra new lines are kept<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="6" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="7" ctype="lb">
+        </ph>'dummy' =&gt; 'value'<ph id="8" ctype="lb">
+    </ph>}</source>
+<seg-source><mrk mid="0" mtype="seg">{<ph id="1" ctype="lb">
+        </ph>'normal' =&gt; "extra new lines not kept<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="3" ctype="lb">
+        </ph>'preserving' =&gt; "extra new lines are kept<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="6" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="7" ctype="lb">
+        </ph>'dummy' =&gt; 'value'<ph id="8" ctype="lb">
+    </ph>}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">{<ph id="1" ctype="lb">
+        </ph>'normal' =&gt; "extra new lines not kept<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="3" ctype="lb">
+        </ph>'preserving' =&gt; "extra new lines are kept<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="6" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="7" ctype="lb">
+        </ph>'dummy' =&gt; 'value'<ph id="8" ctype="lb">
+    </ph>}</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" resname="python" xml:space="preserve">
+<source xml:lang="en">[ {<ph id="1" ctype="lb">
+        </ph>'normal': "extra new lines not kept<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="3" ctype="lb">
+        </ph>'preserving': "extra new lines are kept<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="6" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="7" ctype="lb">
+        </ph>'dummy': 'value'<ph id="8" ctype="lb">
+    </ph>} ]</source>
+<seg-source><mrk mid="0" mtype="seg">[ {<ph id="1" ctype="lb">
+        </ph>'normal': "extra new lines not kept<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="3" ctype="lb">
+        </ph>'preserving': "extra new lines are kept<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="6" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="7" ctype="lb">
+        </ph>'dummy': 'value'<ph id="8" ctype="lb">
+    </ph>} ]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[ {<ph id="1" ctype="lb">
+        </ph>'normal': "extra new lines not kept<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="3" ctype="lb">
+        </ph>'preserving': "extra new lines are kept<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="6" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="7" ctype="lb">
+        </ph>'dummy': 'value'<ph id="8" ctype="lb">
+    </ph>} ]</mrk></target>
+</trans-unit>
+</group>
+<group id="sg3">
+<trans-unit id="tu11" resname="test" xml:space="preserve">
+<source xml:lang="en">Three trailing newlines in literals</source>
+<seg-source><mrk mid="0" mtype="seg">Three trailing newlines in literals</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Three trailing newlines in literals</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" resname="brief" xml:space="preserve">
+<source xml:lang="en">To give you more control over how space is preserved in text blocks, YAML has the keep '+' and chomp '-' indicators. The keep indicator will preserve all ending newlines, while the chomp indicator will strip all ending newlines.</source>
+<seg-source><mrk mid="0" mtype="seg">To give you more control over how space is preserved in text blocks, YAML has the keep '+' and chomp '-' indicators.</mrk><mrk mid="1" mtype="seg"> The keep indicator will preserve all ending newlines, while the chomp indicator will strip all ending newlines.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To give you more control over how space is preserved in text blocks, YAML has the keep '+' and chomp '-' indicators.</mrk><mrk mid="1" mtype="seg"> The keep indicator will preserve all ending newlines, while the chomp indicator will strip all ending newlines.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" resname="yaml" xml:space="preserve">
+<source xml:lang="en">clipped: |<ph id="1" ctype="lb">
+        </ph>This has one newline.<ph id="2" ctype="lb">
+
+
+
+    </ph>same as "clipped" above: "This has one newline.<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>"<ph id="4" ctype="lb">
+
+    </ph>stripped: |-<ph id="5" ctype="lb">
+        </ph>This has no newline.<ph id="6" ctype="lb">
+
+
+
+    </ph>same as "stripped" above: "This has no newline."<ph id="7" ctype="lb">
+
+    </ph>kept: |+<ph id="8" ctype="lb">
+        </ph>This has four newlines.<ph id="9" ctype="lb">
+
+
+
+    </ph>same as "kept" above: "This has four newlines.<ph id="10" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="11" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="12" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="13" ctype="x-regxph" equiv-text="\n">\n</ph>"</source>
+<seg-source><mrk mid="0" mtype="seg">clipped: |<ph id="1" ctype="lb">
+        </ph>This has one newline.<ph id="2" ctype="lb">
+
+
+
+    </ph>same as "clipped" above: "This has one newline.<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>"<ph id="4" ctype="lb">
+
+    </ph>stripped: |-<ph id="5" ctype="lb">
+        </ph>This has no newline.<ph id="6" ctype="lb">
+
+
+
+    </ph>same as "stripped" above: "This has no newline."<ph id="7" ctype="lb">
+
+    </ph>kept: |+<ph id="8" ctype="lb">
+        </ph>This has four newlines.<ph id="9" ctype="lb">
+
+
+
+    </ph>same as "kept" above: "This has four newlines.<ph id="10" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="11" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="12" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="13" ctype="x-regxph" equiv-text="\n">\n</ph>"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">clipped: |<ph id="1" ctype="lb">
+        </ph>This has one newline.<ph id="2" ctype="lb">
+
+
+
+    </ph>same as "clipped" above: "This has one newline.<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>"<ph id="4" ctype="lb">
+
+    </ph>stripped: |-<ph id="5" ctype="lb">
+        </ph>This has no newline.<ph id="6" ctype="lb">
+
+
+
+    </ph>same as "stripped" above: "This has no newline."<ph id="7" ctype="lb">
+
+    </ph>kept: |+<ph id="8" ctype="lb">
+        </ph>This has four newlines.<ph id="9" ctype="lb">
+
+
+
+    </ph>same as "kept" above: "This has four newlines.<ph id="10" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="11" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="12" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="13" ctype="x-regxph" equiv-text="\n">\n</ph>"</mrk></target>
+</trans-unit>
+<trans-unit id="tu14" resname="ruby" xml:space="preserve">
+<source xml:lang="en">{ <ph id="1" ctype="lb">
+      </ph>'clipped' =&gt; "This has one newline.<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="3" ctype="lb">
+      </ph>'same as "clipped" above' =&gt; "This has one newline.<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="5" ctype="lb">
+      </ph>'stripped' =&gt; 'This has no newline.',<ph id="6" ctype="lb">
+      </ph>'same as "stripped" above' =&gt; 'This has no newline.',<ph id="7" ctype="lb">
+      </ph>'kept' =&gt; "This has four newlines.<ph id="8" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="9" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="10" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="11" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="12" ctype="lb">
+      </ph>'same as "kept" above' =&gt; "This has four newlines.<ph id="13" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="14" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="15" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="16" ctype="x-regxph" equiv-text="\n">\n</ph>"<ph id="17" ctype="lb">
+    </ph>}</source>
+<seg-source><mrk mid="0" mtype="seg">{ <ph id="1" ctype="lb">
+      </ph>'clipped' =&gt; "This has one newline.<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="3" ctype="lb">
+      </ph>'same as "clipped" above' =&gt; "This has one newline.<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="5" ctype="lb">
+      </ph>'stripped' =&gt; 'This has no newline.',<ph id="6" ctype="lb">
+      </ph>'same as "stripped" above' =&gt; 'This has no newline.',<ph id="7" ctype="lb">
+      </ph>'kept' =&gt; "This has four newlines.<ph id="8" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="9" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="10" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="11" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="12" ctype="lb">
+      </ph>'same as "kept" above' =&gt; "This has four newlines.<ph id="13" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="14" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="15" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="16" ctype="x-regxph" equiv-text="\n">\n</ph>"<ph id="17" ctype="lb">
+    </ph>}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">{ <ph id="1" ctype="lb">
+      </ph>'clipped' =&gt; "This has one newline.<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="3" ctype="lb">
+      </ph>'same as "clipped" above' =&gt; "This has one newline.<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="5" ctype="lb">
+      </ph>'stripped' =&gt; 'This has no newline.',<ph id="6" ctype="lb">
+      </ph>'same as "stripped" above' =&gt; 'This has no newline.',<ph id="7" ctype="lb">
+      </ph>'kept' =&gt; "This has four newlines.<ph id="8" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="9" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="10" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="11" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="12" ctype="lb">
+      </ph>'same as "kept" above' =&gt; "This has four newlines.<ph id="13" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="14" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="15" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="16" ctype="x-regxph" equiv-text="\n">\n</ph>"<ph id="17" ctype="lb">
+    </ph>}</mrk></target>
+</trans-unit>
+<trans-unit id="tu15" resname="not_yet_in_python" xml:space="preserve">
+<source xml:lang="en">[<ph id="1" ctype="lb">
+    </ph>{ <ph id="2" ctype="lb">
+      </ph>'clipped': "This has one newline.<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="4" ctype="lb">
+      </ph>'same as "clipped" above': "This has one newline.<ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="6" ctype="lb">
+      </ph>'stripped': 'This has no newline.',<ph id="7" ctype="lb">
+      </ph>'same as "stripped" above': 'This has no newline.',<ph id="8" ctype="lb">
+      </ph>'kept': "This has four newlines.<ph id="9" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="10" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="11" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="12" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="13" ctype="lb">
+      </ph>'same as "kept" above': "This has four newlines.<ph id="14" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="15" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="16" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="17" ctype="x-regxph" equiv-text="\n">\n</ph>"<ph id="18" ctype="lb">
+    </ph>}<ph id="19" ctype="lb">
+    </ph>]</source>
+<seg-source><mrk mid="0" mtype="seg">[<ph id="1" ctype="lb">
+    </ph>{ <ph id="2" ctype="lb">
+      </ph>'clipped': "This has one newline.<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="4" ctype="lb">
+      </ph>'same as "clipped" above': "This has one newline.<ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="6" ctype="lb">
+      </ph>'stripped': 'This has no newline.',<ph id="7" ctype="lb">
+      </ph>'same as "stripped" above': 'This has no newline.',<ph id="8" ctype="lb">
+      </ph>'kept': "This has four newlines.<ph id="9" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="10" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="11" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="12" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="13" ctype="lb">
+      </ph>'same as "kept" above': "This has four newlines.<ph id="14" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="15" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="16" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="17" ctype="x-regxph" equiv-text="\n">\n</ph>"<ph id="18" ctype="lb">
+    </ph>}<ph id="19" ctype="lb">
+    </ph>]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[<ph id="1" ctype="lb">
+    </ph>{ <ph id="2" ctype="lb">
+      </ph>'clipped': "This has one newline.<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="4" ctype="lb">
+      </ph>'same as "clipped" above': "This has one newline.<ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="6" ctype="lb">
+      </ph>'stripped': 'This has no newline.',<ph id="7" ctype="lb">
+      </ph>'same as "stripped" above': 'This has no newline.',<ph id="8" ctype="lb">
+      </ph>'kept': "This has four newlines.<ph id="9" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="10" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="11" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="12" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="13" ctype="lb">
+      </ph>'same as "kept" above': "This has four newlines.<ph id="14" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="15" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="16" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="17" ctype="x-regxph" equiv-text="\n">\n</ph>"<ph id="18" ctype="lb">
+    </ph>}<ph id="19" ctype="lb">
+    </ph>]</mrk></target>
+</trans-unit>
+</group>
+<group id="sg4">
+<trans-unit id="tu16" resname="test" xml:space="preserve">
+<source xml:lang="en">Extra trailing newlines with spaces</source>
+<seg-source><mrk mid="0" mtype="seg">Extra trailing newlines with spaces</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Extra trailing newlines with spaces</mrk></target>
+</trans-unit>
+<trans-unit id="tu17" resname="brief" xml:space="preserve">
+<source xml:lang="en">Normally, only a single newline is kept from the end of a literal block, unless the keep '+' character is used in combination<ph id="1" ctype="lb">
+    
+    
+    
+    </ph>with the pipe.  The following example will preserve all ending whitespace since the last line of both literal blocks contains spaces which extend past the indentation level.</source>
+<seg-source><mrk mid="0" mtype="seg">Normally, only a single newline is kept from the end of a literal block, unless the keep '+' character is used in combination<ph id="1" ctype="lb">
+    
+    
+    
+    </ph>with the pipe.</mrk><mrk mid="1" mtype="seg">  The following example will preserve all ending whitespace since the last line of both literal blocks contains spaces which extend past the indentation level.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Normally, only a single newline is kept from the end of a literal block, unless the keep '+' character is used in combination<ph id="1" ctype="lb">
+    
+    
+    
+    </ph>with the pipe.</mrk><mrk mid="1" mtype="seg">  The following example will preserve all ending whitespace since the last line of both literal blocks contains spaces which extend past the indentation level.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18" resname="yaml" xml:space="preserve">
+<source xml:lang="en">---<ph id="1" ctype="lb">
+    </ph>this: |<ph id="2" ctype="lb">
+        </ph>Foo<ph id="3" ctype="lb">
+
+          
+    </ph>kept: |+<ph id="4" ctype="lb">
+        </ph>Foo</source>
+<seg-source><mrk mid="0" mtype="seg">---<ph id="1" ctype="lb">
+    </ph>this: |<ph id="2" ctype="lb">
+        </ph>Foo<ph id="3" ctype="lb">
+
+          
+    </ph>kept: |+<ph id="4" ctype="lb">
+        </ph>Foo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">---<ph id="1" ctype="lb">
+    </ph>this: |<ph id="2" ctype="lb">
+        </ph>Foo<ph id="3" ctype="lb">
+
+          
+    </ph>kept: |+<ph id="4" ctype="lb">
+        </ph>Foo</mrk></target>
+</trans-unit>
+<trans-unit id="tu19" resname="ruby" xml:space="preserve">
+<source xml:lang="en">{ 'this' =&gt; "Foo<ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>  <ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>", <ph id="4" ctype="lb">
+      </ph>'kept' =&gt; "Foo<ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="6" ctype="x-regxph" equiv-text="\n">\n</ph>  <ph id="7" ctype="x-regxph" equiv-text="\n">\n</ph>" }</source>
+<seg-source><mrk mid="0" mtype="seg">{ 'this' =&gt; "Foo<ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>  <ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>", <ph id="4" ctype="lb">
+      </ph>'kept' =&gt; "Foo<ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="6" ctype="x-regxph" equiv-text="\n">\n</ph>  <ph id="7" ctype="x-regxph" equiv-text="\n">\n</ph>" }</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">{ 'this' =&gt; "Foo<ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>  <ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>", <ph id="4" ctype="lb">
+      </ph>'kept' =&gt; "Foo<ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="6" ctype="x-regxph" equiv-text="\n">\n</ph>  <ph id="7" ctype="x-regxph" equiv-text="\n">\n</ph>" }</mrk></target>
+</trans-unit>
+</group>
+<group id="sg5">
+<trans-unit id="tu20" resname="test" xml:space="preserve">
+<source xml:lang="en">Folded Block in a Sequence</source>
+<seg-source><mrk mid="0" mtype="seg">Folded Block in a Sequence</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Folded Block in a Sequence</mrk></target>
+</trans-unit>
+<trans-unit id="tu21" resname="brief" xml:space="preserve">
+<source xml:lang="en">A greater-then character, followed by an indented block of text is treated as a folded block, in which lines of text separated by a single newline are concatenated as a single line.</source>
+<seg-source><mrk mid="0" mtype="seg">A greater-then character, followed by an indented block of text is treated as a folded block, in which lines of text separated by a single newline are concatenated as a single line.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A greater-then character, followed by an indented block of text is treated as a folded block, in which lines of text separated by a single newline are concatenated as a single line.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22" resname="yaml" xml:space="preserve">
+<source xml:lang="en">---<ph id="1" ctype="lb">
+    </ph>- apple<ph id="2" ctype="lb">
+    </ph>- banana<ph id="3" ctype="lb">
+    </ph>- &gt;<ph id="4" ctype="lb">
+        </ph>can't you see<ph id="5" ctype="lb">
+        </ph>the beauty of yaml?<ph id="6" ctype="lb">
+        </ph>hmm<ph id="7" ctype="lb">
+    </ph>- dog</source>
+<seg-source><mrk mid="0" mtype="seg">---<ph id="1" ctype="lb">
+    </ph>- apple<ph id="2" ctype="lb">
+    </ph>- banana<ph id="3" ctype="lb">
+    </ph>- &gt;<ph id="4" ctype="lb">
+        </ph>can't you see<ph id="5" ctype="lb">
+        </ph>the beauty of yaml?<ph id="6" ctype="lb">
+        </ph>hmm<ph id="7" ctype="lb">
+    </ph>- dog</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">---<ph id="1" ctype="lb">
+    </ph>- apple<ph id="2" ctype="lb">
+    </ph>- banana<ph id="3" ctype="lb">
+    </ph>- &gt;<ph id="4" ctype="lb">
+        </ph>can't you see<ph id="5" ctype="lb">
+        </ph>the beauty of yaml?<ph id="6" ctype="lb">
+        </ph>hmm<ph id="7" ctype="lb">
+    </ph>- dog</mrk></target>
+</trans-unit>
+<trans-unit id="tu23" resname="python" xml:space="preserve">
+<source xml:lang="en">[<ph id="1" ctype="lb">
+        </ph>[<ph id="2" ctype="lb">
+            </ph>'apple', <ph id="3" ctype="lb">
+            </ph>'banana', <ph id="4" ctype="lb">
+            </ph>"can't you see the beauty of yaml? hmm<ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="6" ctype="lb">
+            </ph>'dog'<ph id="7" ctype="lb">
+        </ph>]<ph id="8" ctype="lb">
+    </ph>]</source>
+<seg-source><mrk mid="0" mtype="seg">[<ph id="1" ctype="lb">
+        </ph>[<ph id="2" ctype="lb">
+            </ph>'apple', <ph id="3" ctype="lb">
+            </ph>'banana', <ph id="4" ctype="lb">
+            </ph>"can't you see the beauty of yaml? hmm<ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="6" ctype="lb">
+            </ph>'dog'<ph id="7" ctype="lb">
+        </ph>]<ph id="8" ctype="lb">
+    </ph>]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[<ph id="1" ctype="lb">
+        </ph>[<ph id="2" ctype="lb">
+            </ph>'apple', <ph id="3" ctype="lb">
+            </ph>'banana', <ph id="4" ctype="lb">
+            </ph>"can't you see the beauty of yaml? hmm<ph id="5" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="6" ctype="lb">
+            </ph>'dog'<ph id="7" ctype="lb">
+        </ph>]<ph id="8" ctype="lb">
+    </ph>]</mrk></target>
+</trans-unit>
+<trans-unit id="tu24" resname="ruby" xml:space="preserve">
+<source xml:lang="en">[<ph id="1" ctype="lb">
+        </ph>'apple', <ph id="2" ctype="lb">
+        </ph>'banana', <ph id="3" ctype="lb">
+        </ph>"can't you see the beauty of yaml? hmm<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="5" ctype="lb">
+        </ph>'dog'<ph id="6" ctype="lb">
+    </ph>]</source>
+<seg-source><mrk mid="0" mtype="seg">[<ph id="1" ctype="lb">
+        </ph>'apple', <ph id="2" ctype="lb">
+        </ph>'banana', <ph id="3" ctype="lb">
+        </ph>"can't you see the beauty of yaml? hmm<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="5" ctype="lb">
+        </ph>'dog'<ph id="6" ctype="lb">
+    </ph>]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[<ph id="1" ctype="lb">
+        </ph>'apple', <ph id="2" ctype="lb">
+        </ph>'banana', <ph id="3" ctype="lb">
+        </ph>"can't you see the beauty of yaml? hmm<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="5" ctype="lb">
+        </ph>'dog'<ph id="6" ctype="lb">
+    </ph>]</mrk></target>
+</trans-unit>
+</group>
+<group id="sg6">
+<trans-unit id="tu25" resname="test" xml:space="preserve">
+<source xml:lang="en">Folded Block as a Mapping Value</source>
+<seg-source><mrk mid="0" mtype="seg">Folded Block as a Mapping Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Folded Block as a Mapping Value</mrk></target>
+</trans-unit>
+<trans-unit id="tu26" resname="brief" xml:space="preserve">
+<source xml:lang="en">Both literal and folded blocks can be used in collections, as values in a  sequence or a mapping.</source>
+<seg-source><mrk mid="0" mtype="seg">Both literal and folded blocks can be used in collections, as values in a  sequence or a mapping.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Both literal and folded blocks can be used in collections, as values in a  sequence or a mapping.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27" resname="yaml" xml:space="preserve">
+<source xml:lang="en">--- <ph id="1" ctype="lb">
+    </ph>quote: &gt;<ph id="2" ctype="lb">
+        </ph>Mark McGwire's<ph id="3" ctype="lb">
+        </ph>year was crippled<ph id="4" ctype="lb">
+        </ph>by a knee injury.<ph id="5" ctype="lb">
+    </ph>source: espn</source>
+<seg-source><mrk mid="0" mtype="seg">--- <ph id="1" ctype="lb">
+    </ph>quote: &gt;<ph id="2" ctype="lb">
+        </ph>Mark McGwire's<ph id="3" ctype="lb">
+        </ph>year was crippled<ph id="4" ctype="lb">
+        </ph>by a knee injury.<ph id="5" ctype="lb">
+    </ph>source: espn</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--- <ph id="1" ctype="lb">
+    </ph>quote: &gt;<ph id="2" ctype="lb">
+        </ph>Mark McGwire's<ph id="3" ctype="lb">
+        </ph>year was crippled<ph id="4" ctype="lb">
+        </ph>by a knee injury.<ph id="5" ctype="lb">
+    </ph>source: espn</mrk></target>
+</trans-unit>
+<trans-unit id="tu28" resname="python" xml:space="preserve">
+<source xml:lang="en">[<ph id="1" ctype="lb">
+        </ph>{ <ph id="2" ctype="lb">
+            </ph>'quote': "Mark McGwire's year was crippled by a knee injury.<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="4" ctype="lb">
+            </ph>'source': 'espn'<ph id="5" ctype="lb">
+        </ph>}<ph id="6" ctype="lb">
+    </ph>]</source>
+<seg-source><mrk mid="0" mtype="seg">[<ph id="1" ctype="lb">
+        </ph>{ <ph id="2" ctype="lb">
+            </ph>'quote': "Mark McGwire's year was crippled by a knee injury.<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="4" ctype="lb">
+            </ph>'source': 'espn'<ph id="5" ctype="lb">
+        </ph>}<ph id="6" ctype="lb">
+    </ph>]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[<ph id="1" ctype="lb">
+        </ph>{ <ph id="2" ctype="lb">
+            </ph>'quote': "Mark McGwire's year was crippled by a knee injury.<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="4" ctype="lb">
+            </ph>'source': 'espn'<ph id="5" ctype="lb">
+        </ph>}<ph id="6" ctype="lb">
+    </ph>]</mrk></target>
+</trans-unit>
+<trans-unit id="tu29" resname="ruby" xml:space="preserve">
+<source xml:lang="en">{ <ph id="1" ctype="lb">
+        </ph>'quote' =&gt; "Mark McGwire's year was crippled by a knee injury.<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="3" ctype="lb">
+        </ph>'source' =&gt; 'espn'<ph id="4" ctype="lb">
+    </ph>}</source>
+<seg-source><mrk mid="0" mtype="seg">{ <ph id="1" ctype="lb">
+        </ph>'quote' =&gt; "Mark McGwire's year was crippled by a knee injury.<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="3" ctype="lb">
+        </ph>'source' =&gt; 'espn'<ph id="4" ctype="lb">
+    </ph>}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">{ <ph id="1" ctype="lb">
+        </ph>'quote' =&gt; "Mark McGwire's year was crippled by a knee injury.<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="3" ctype="lb">
+        </ph>'source' =&gt; 'espn'<ph id="4" ctype="lb">
+    </ph>}</mrk></target>
+</trans-unit>
+</group>
+<group id="sg7">
+<trans-unit id="tu30" resname="test" xml:space="preserve">
+<source xml:lang="en">Three trailing newlines in folded blocks</source>
+<seg-source><mrk mid="0" mtype="seg">Three trailing newlines in folded blocks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Three trailing newlines in folded blocks</mrk></target>
+</trans-unit>
+<trans-unit id="tu31" resname="brief" xml:space="preserve">
+<source xml:lang="en">The keep and chomp indicators can also be applied to folded blocks.</source>
+<seg-source><mrk mid="0" mtype="seg">The keep and chomp indicators can also be applied to folded blocks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The keep and chomp indicators can also be applied to folded blocks.</mrk></target>
+</trans-unit>
+<trans-unit id="tu32" resname="yaml" xml:space="preserve">
+<source xml:lang="en">clipped: &gt;<ph id="1" ctype="lb">
+        </ph>This has one newline.<ph id="2" ctype="lb">
+
+
+
+    </ph>same as "clipped" above: "This has one newline.<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>"<ph id="4" ctype="lb">
+
+    </ph>stripped: &gt;-<ph id="5" ctype="lb">
+        </ph>This has no newline.<ph id="6" ctype="lb">
+
+
+
+    </ph>same as "stripped" above: "This has no newline."<ph id="7" ctype="lb">
+
+    </ph>kept: &gt;+<ph id="8" ctype="lb">
+        </ph>This has four newlines.<ph id="9" ctype="lb">
+
+
+
+    </ph>same as "kept" above: "This has four newlines.<ph id="10" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="11" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="12" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="13" ctype="x-regxph" equiv-text="\n">\n</ph>"</source>
+<seg-source><mrk mid="0" mtype="seg">clipped: &gt;<ph id="1" ctype="lb">
+        </ph>This has one newline.<ph id="2" ctype="lb">
+
+
+
+    </ph>same as "clipped" above: "This has one newline.<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>"<ph id="4" ctype="lb">
+
+    </ph>stripped: &gt;-<ph id="5" ctype="lb">
+        </ph>This has no newline.<ph id="6" ctype="lb">
+
+
+
+    </ph>same as "stripped" above: "This has no newline."<ph id="7" ctype="lb">
+
+    </ph>kept: &gt;+<ph id="8" ctype="lb">
+        </ph>This has four newlines.<ph id="9" ctype="lb">
+
+
+
+    </ph>same as "kept" above: "This has four newlines.<ph id="10" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="11" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="12" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="13" ctype="x-regxph" equiv-text="\n">\n</ph>"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">clipped: &gt;<ph id="1" ctype="lb">
+        </ph>This has one newline.<ph id="2" ctype="lb">
+
+
+
+    </ph>same as "clipped" above: "This has one newline.<ph id="3" ctype="x-regxph" equiv-text="\n">\n</ph>"<ph id="4" ctype="lb">
+
+    </ph>stripped: &gt;-<ph id="5" ctype="lb">
+        </ph>This has no newline.<ph id="6" ctype="lb">
+
+
+
+    </ph>same as "stripped" above: "This has no newline."<ph id="7" ctype="lb">
+
+    </ph>kept: &gt;+<ph id="8" ctype="lb">
+        </ph>This has four newlines.<ph id="9" ctype="lb">
+
+
+
+    </ph>same as "kept" above: "This has four newlines.<ph id="10" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="11" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="12" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="13" ctype="x-regxph" equiv-text="\n">\n</ph>"</mrk></target>
+</trans-unit>
+<trans-unit id="tu33" resname="ruby" xml:space="preserve">
+<source xml:lang="en">{ <ph id="1" ctype="lb">
+      </ph>'clipped' =&gt; "This has one newline.<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="3" ctype="lb">
+      </ph>'same as "clipped" above' =&gt; "This has one newline.<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="5" ctype="lb">
+      </ph>'stripped' =&gt; 'This has no newline.',<ph id="6" ctype="lb">
+      </ph>'same as "stripped" above' =&gt; 'This has no newline.',<ph id="7" ctype="lb">
+      </ph>'kept' =&gt; "This has four newlines.<ph id="8" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="9" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="10" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="11" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="12" ctype="lb">
+      </ph>'same as "kept" above' =&gt; "This has four newlines.<ph id="13" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="14" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="15" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="16" ctype="x-regxph" equiv-text="\n">\n</ph>"<ph id="17" ctype="lb">
+    </ph>}</source>
+<seg-source><mrk mid="0" mtype="seg">{ <ph id="1" ctype="lb">
+      </ph>'clipped' =&gt; "This has one newline.<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="3" ctype="lb">
+      </ph>'same as "clipped" above' =&gt; "This has one newline.<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="5" ctype="lb">
+      </ph>'stripped' =&gt; 'This has no newline.',<ph id="6" ctype="lb">
+      </ph>'same as "stripped" above' =&gt; 'This has no newline.',<ph id="7" ctype="lb">
+      </ph>'kept' =&gt; "This has four newlines.<ph id="8" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="9" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="10" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="11" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="12" ctype="lb">
+      </ph>'same as "kept" above' =&gt; "This has four newlines.<ph id="13" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="14" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="15" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="16" ctype="x-regxph" equiv-text="\n">\n</ph>"<ph id="17" ctype="lb">
+    </ph>}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">{ <ph id="1" ctype="lb">
+      </ph>'clipped' =&gt; "This has one newline.<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="3" ctype="lb">
+      </ph>'same as "clipped" above' =&gt; "This has one newline.<ph id="4" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="5" ctype="lb">
+      </ph>'stripped' =&gt; 'This has no newline.',<ph id="6" ctype="lb">
+      </ph>'same as "stripped" above' =&gt; 'This has no newline.',<ph id="7" ctype="lb">
+      </ph>'kept' =&gt; "This has four newlines.<ph id="8" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="9" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="10" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="11" ctype="x-regxph" equiv-text="\n">\n</ph>",<ph id="12" ctype="lb">
+      </ph>'same as "kept" above' =&gt; "This has four newlines.<ph id="13" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="14" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="15" ctype="x-regxph" equiv-text="\n">\n</ph><ph id="16" ctype="x-regxph" equiv-text="\n">\n</ph>"<ph id="17" ctype="lb">
+    </ph>}</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

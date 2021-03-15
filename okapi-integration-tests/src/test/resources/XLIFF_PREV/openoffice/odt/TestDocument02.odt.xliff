@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="TestDocument02.odt/content.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/odt/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" restype="x-text:h">
+<source xml:lang="en">Heading 1</source>
+<seg-source><mrk mid="0" mtype="seg">Heading 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Heading 1</mrk></target>
+</trans-unit>
+<trans-unit id="2" restype="x-text:h">
+<source xml:lang="en">Heading 2</source>
+<seg-source><mrk mid="0" mtype="seg">Heading 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Heading 2</mrk></target>
+</trans-unit>
+<trans-unit id="3" restype="x-text:h">
+<source xml:lang="en">Heading 3</source>
+<seg-source><mrk mid="0" mtype="seg">Heading 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Heading 3</mrk></target>
+</trans-unit>
+<trans-unit id="4" restype="x-text:p">
+<source xml:lang="en">Text body</source>
+<seg-source><mrk mid="0" mtype="seg">Text body</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text body</mrk></target>
+</trans-unit>
+<trans-unit id="5" restype="x-text:p">
+<source xml:lang="en">Paragraph with an inserted script: <bpt id="1" ctype="x-text:script">&lt;text:script script:language="JavaScript"&gt;</bpt>Text of the script in any language.<ept id="1">&lt;/text:script&gt;</ept> and text after.</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraph with an inserted script: <bpt id="1" ctype="x-text:script">&lt;text:script script:language="JavaScript"&gt;</bpt>Text of the script in any language.<ept id="1">&lt;/text:script&gt;</ept></mrk><mrk mid="1" mtype="seg"> and text after.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraph with an inserted script: <bpt id="1" ctype="x-text:script">&lt;text:script script:language="JavaScript"&gt;</bpt>Text of the script in any language.<ept id="1">&lt;/text:script&gt;</ept></mrk><mrk mid="1" mtype="seg"> and text after.</mrk></target>
+</trans-unit>
+<trans-unit id="6" restype="x-text:p">
+<source xml:lang="en">Non-breaking space= , non-breaking hyphen=‑, optional hyphen=­.</source>
+<seg-source><mrk mid="0" mtype="seg">Non-breaking space= , non-breaking hyphen=‑, optional hyphen=­.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Non-breaking space= , non-breaking hyphen=‑, optional hyphen=­.</mrk></target>
+</trans-unit>
+<trans-unit id="7" restype="x-text:p">
+<source xml:lang="en">Before page break</source>
+<seg-source><mrk mid="0" mtype="seg">Before page break</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Before page break</mrk></target>
+</trans-unit>
+<trans-unit id="8" restype="x-text:p">
+<source xml:lang="en">After page break</source>
+<seg-source><mrk mid="0" mtype="seg">After page break</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After page break</mrk></target>
+</trans-unit>
+<trans-unit id="9" restype="x-text:p">
+<source xml:lang="en">Before line break<ph id="1" ctype="lb">&lt;text:line-break/&gt;</ph>After line break.</source>
+<seg-source><mrk mid="0" mtype="seg">Before line break<ph id="1" ctype="lb">&lt;text:line-break/&gt;</ph>After line break.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Before line break<ph id="1" ctype="lb">&lt;text:line-break/&gt;</ph>After line break.</mrk></target>
+</trans-unit>
+<trans-unit id="10" restype="x-text:p">
+<source xml:lang="en">Before column break</source>
+<seg-source><mrk mid="0" mtype="seg">Before column break</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Before column break</mrk></target>
+</trans-unit>
+<trans-unit id="11" restype="x-text:p">
+<source xml:lang="en">After column break.</source>
+<seg-source><mrk mid="0" mtype="seg">After column break.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After column break.</mrk></target>
+</trans-unit>
+<trans-unit id="12" restype="x-text:p">
+<source xml:lang="en">Section that is password-protected.</source>
+<seg-source><mrk mid="0" mtype="seg">Section that is password-protected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Section that is password-protected.</mrk></target>
+</trans-unit>
+<trans-unit id="13" restype="x-text:p">
+<source xml:lang="en">Section that is just protected.</source>
+<seg-source><mrk mid="0" mtype="seg">Section that is just protected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Section that is just protected.</mrk></target>
+</trans-unit>
+<trans-unit id="14" restype="x-text:p">
+<source xml:lang="en">Section with normal text.</source>
+<seg-source><mrk mid="0" mtype="seg">Section with normal text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Section with normal text.</mrk></target>
+</trans-unit>
+</body>
+</file>
+<file original="TestDocument02.odt/styles.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/odt/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+</body>
+</file>
+<file original="TestDocument02.odt/meta.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/odt/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+</body>
+</file>
+</xliff>

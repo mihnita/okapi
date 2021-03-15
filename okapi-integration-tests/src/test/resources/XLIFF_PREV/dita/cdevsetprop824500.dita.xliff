@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevsetprop824500.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Persistence of properties</source>
+<seg-source><mrk mid="0" mtype="seg">Persistence of properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Persistence of properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">A database-wide property always has persistence. That is, its value is stored in the database.</source>
+<seg-source><mrk mid="0" mtype="seg">A database-wide property always has persistence.</mrk><mrk mid="1" mtype="seg"> That is, its value is stored in the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A database-wide property always has persistence.</mrk><mrk mid="1" mtype="seg"> That is, its value is stored in the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Properties</source>
+<seg-source><mrk mid="0" mtype="seg">Properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">persistence of</source>
+<seg-source><mrk mid="0" mtype="seg">persistence of</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">persistence of</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Typically, a database-wide property is in effect until you explicitly change the property or until you set a system-wide property with precedence over database-wide properties (see <ph id="1" ctype="x-xref">&lt;xref href="cdevsetprop23308.dita#cdevsetprop23308"/&gt;</ph>).</source>
+<seg-source><mrk mid="0" mtype="seg">Typically, a database-wide property is in effect until you explicitly change the property or until you set a system-wide property with precedence over database-wide properties (see <ph id="1" ctype="x-xref">&lt;xref href="cdevsetprop23308.dita#cdevsetprop23308"/&gt;</ph>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Typically, a database-wide property is in effect until you explicitly change the property or until you set a system-wide property with precedence over database-wide properties (see <ph id="1" ctype="x-xref">&lt;xref href="cdevsetprop23308.dita#cdevsetprop23308"/&gt;</ph>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">To disable or turn off a database-wide property setting, set its value to null. This has the effect of removing the property from the list of database properties and restoring the system property setting, if there is one (and if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.database.propertiesOnly<ept id="1">&lt;/i&gt;</ept> has not been set; see <bpt id="2" ctype="x-xref">&lt;xref href="cdevsetprop824533.dita#cdevsetprop824533"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">To disable or turn off a database-wide property setting, set its value to null.</mrk><mrk mid="1" mtype="seg"> This has the effect of removing the property from the list of database properties and restoring the system property setting, if there is one (and if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.database.propertiesOnly<ept id="1">&lt;/i&gt;</ept> has not been set; see <bpt id="2" ctype="x-xref">&lt;xref href="cdevsetprop824533.dita#cdevsetprop824533"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To disable or turn off a database-wide property setting, set its value to null.</mrk><mrk mid="1" mtype="seg"> This has the effect of removing the property from the list of database properties and restoring the system property setting, if there is one (and if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.database.propertiesOnly<ept id="1">&lt;/i&gt;</ept> has not been set; see <bpt id="2" ctype="x-xref">&lt;xref href="cdevsetprop824533.dita#cdevsetprop824533"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">A system-wide property might have persistence, depending on how you set it. If you set it programmatically, it persists only for the duration of the JVM of the application that set it. If you set it in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file, a property persists until:</source>
+<seg-source><mrk mid="0" mtype="seg">A system-wide property might have persistence, depending on how you set it.</mrk><mrk mid="1" mtype="seg"> If you set it programmatically, it persists only for the duration of the JVM of the application that set it.</mrk><mrk mid="2" mtype="seg"> If you set it in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file, a property persists until:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A system-wide property might have persistence, depending on how you set it.</mrk><mrk mid="1" mtype="seg"> If you set it programmatically, it persists only for the duration of the JVM of the application that set it.</mrk><mrk mid="2" mtype="seg"> If you set it in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file, a property persists until:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">That value is changed and the system is rebooted</source>
+<seg-source><mrk mid="0" mtype="seg">That value is changed and the system is rebooted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">That value is changed and the system is rebooted</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The file is removed from the system and the system is rebooted</source>
+<seg-source><mrk mid="0" mtype="seg">The file is removed from the system and the system is rebooted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The file is removed from the system and the system is rebooted</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The database is booted outside of that system</source>
+<seg-source><mrk mid="0" mtype="seg">The database is booted outside of that system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The database is booted outside of that system</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

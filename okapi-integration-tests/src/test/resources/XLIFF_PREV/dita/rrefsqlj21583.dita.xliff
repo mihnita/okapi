@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj21583.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">FROM clause</source>
+<seg-source><mrk mid="0" mtype="seg">FROM clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FROM clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">FROM clause</source>
+<seg-source><mrk mid="0" mtype="seg">FROM clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FROM clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">The FROM clause is a mandatory clause in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept>.<ept id="1">&lt;/i&gt;</ept> It specifies the tables (<bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept>) from which the other clauses of the query can access columns for use in expressions.</source>
+<seg-source><mrk mid="0" mtype="seg">The FROM clause is a mandatory clause in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept>.<ept id="1">&lt;/i&gt;</ept></mrk><mrk mid="1" mtype="seg"> It specifies the tables (<bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept>) from which the other clauses of the query can access columns for use in expressions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The FROM clause is a mandatory clause in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept>.<ept id="1">&lt;/i&gt;</ept></mrk><mrk mid="1" mtype="seg"> It specifies the tables (<bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept>) from which the other clauses of the query can access columns for use in expressions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>FROM <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>tableExpression<ept id="2">&lt;/i&gt;</ept> [ , <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>tableExpression<ept id="3">&lt;/i&gt;</ept> ]*<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>FROM <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>tableExpression<ept id="2">&lt;/i&gt;</ept> [ , <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>tableExpression<ept id="3">&lt;/i&gt;</ept> ]*<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>FROM <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>tableExpression<ept id="2">&lt;/i&gt;</ept> [ , <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>tableExpression<ept id="3">&lt;/i&gt;</ept> ]*<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it>SELECT Cities.city_id FROM Cities WHERE city_id &lt; 5 <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- other types of tableExpressions<ept id="2">&lt;/ph&gt;</ept> SELECT TABLENAME, ISINDEX FROM SYS.SYSTABLES T, SYS.SYSCONGLOMERATES C WHERE T.TABLEID = C.TABLEID ORDER BY TABLENAME, ISINDEX <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- force the join order<ept id="3">&lt;/ph&gt;</ept> SELECT * FROM Flights, FlightAvailability WHERE FlightAvailability.flight_id = Flights.flight_id AND FlightAvailability.segment_number = Flights.segment_number AND Flights.flight_id &lt; 'AA1115' <it id="4" ctype="x-ph" pos="open">&lt;ph&gt;</it>-- a tableExpression can be a join operation. Therefore -- you can have multiple join operations in a FROM clause<it id="4" ctype="x-ph" pos="close">&lt;/ph&gt;</it> SELECT COUNTRIES.COUNTRY, CITIES.CITY_NAME, FLIGHTS.DEST_AIRPORT FROM COUNTRIES LEFT OUTER JOIN CITIES ON COUNTRIES.COUNTRY_ISO_CODE = CITIES.COUNTRY_ISO_CODE LEFT OUTER JOIN FLIGHTS ON Cities.AIRPORT = FLIGHTS.DEST_AIRPORT<it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it>SELECT Cities.city_id FROM Cities WHERE city_id &lt; 5 <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- other types of tableExpressions<ept id="2">&lt;/ph&gt;</ept> SELECT TABLENAME, ISINDEX FROM SYS.SYSTABLES T, SYS.SYSCONGLOMERATES C WHERE T.TABLEID = C.TABLEID ORDER BY TABLENAME, ISINDEX <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- force the join order<ept id="3">&lt;/ph&gt;</ept> SELECT * FROM Flights, FlightAvailability WHERE FlightAvailability.flight_id = Flights.flight_id AND FlightAvailability.segment_number = Flights.segment_number AND Flights.flight_id &lt; 'AA1115' <it id="4" ctype="x-ph" pos="open">&lt;ph&gt;</it>-- a tableExpression can be a join operation.</mrk><mrk mid="1" mtype="seg"> Therefore -- you can have multiple join operations in a FROM clause<it id="4" ctype="x-ph" pos="close">&lt;/ph&gt;</it> SELECT COUNTRIES.COUNTRY, CITIES.CITY_NAME, FLIGHTS.DEST_AIRPORT FROM COUNTRIES LEFT OUTER JOIN CITIES ON COUNTRIES.COUNTRY_ISO_CODE = CITIES.COUNTRY_ISO_CODE LEFT OUTER JOIN FLIGHTS ON Cities.AIRPORT = FLIGHTS.DEST_AIRPORT<it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it>SELECT Cities.city_id FROM Cities WHERE city_id &lt; 5 <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- other types of tableExpressions<ept id="2">&lt;/ph&gt;</ept> SELECT TABLENAME, ISINDEX FROM SYS.SYSTABLES T, SYS.SYSCONGLOMERATES C WHERE T.TABLEID = C.TABLEID ORDER BY TABLENAME, ISINDEX <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- force the join order<ept id="3">&lt;/ph&gt;</ept> SELECT * FROM Flights, FlightAvailability WHERE FlightAvailability.flight_id = Flights.flight_id AND FlightAvailability.segment_number = Flights.segment_number AND Flights.flight_id &lt; 'AA1115' <it id="4" ctype="x-ph" pos="open">&lt;ph&gt;</it>-- a tableExpression can be a join operation.</mrk><mrk mid="1" mtype="seg"> Therefore -- you can have multiple join operations in a FROM clause<it id="4" ctype="x-ph" pos="close">&lt;/ph&gt;</it> SELECT COUNTRIES.COUNTRY, CITIES.CITY_NAME, FLIGHTS.DEST_AIRPORT FROM COUNTRIES LEFT OUTER JOIN CITIES ON COUNTRIES.COUNTRY_ISO_CODE = CITIES.COUNTRY_ISO_CODE LEFT OUTER JOIN FLIGHTS ON Cities.AIRPORT = FLIGHTS.DEST_AIRPORT<it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

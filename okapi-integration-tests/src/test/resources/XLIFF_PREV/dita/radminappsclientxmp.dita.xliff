@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminappsclientxmp.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Network client driver examples</source>
+<seg-source><mrk mid="0" mtype="seg">Network client driver examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network client driver examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The following examples specify the user and password URL attributes.</source>
+<seg-source><mrk mid="0" mtype="seg">The following examples specify the user and password URL attributes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following examples specify the user and password URL attributes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">To enable user authentication, you must either use NATIVE authentication or explicitly set the property <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.connection.requireAuthentication<ept id="1">&lt;/codeph&gt;</ept> to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="2">&lt;/codeph&gt;</ept>. Otherwise, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> does not require a user name and password. For details on how to enable user authentication, see "Working with user authentication" in the <ph id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"/&gt;</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">To enable user authentication, you must either use NATIVE authentication or explicitly set the property <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.connection.requireAuthentication<ept id="1">&lt;/codeph&gt;</ept> to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Otherwise, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> does not require a user name and password.</mrk><mrk mid="2" mtype="seg"> For details on how to enable user authentication, see "Working with user authentication" in the <ph id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"/&gt;</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To enable user authentication, you must either use NATIVE authentication or explicitly set the property <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.connection.requireAuthentication<ept id="1">&lt;/codeph&gt;</ept> to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>true<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Otherwise, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> does not require a user name and password.</mrk><mrk mid="2" mtype="seg"> For details on how to enable user authentication, see "Working with user authentication" in the <ph id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"/&gt;</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">For a multi-user product, you would typically specify authentication for the system in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.properties<ept id="1">&lt;/codeph&gt;</ept> file for your server, since it is in a trusted environment. The following property setting specifies NATIVE authentication:</source>
+<seg-source><mrk mid="0" mtype="seg">For a multi-user product, you would typically specify authentication for the system in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.properties<ept id="1">&lt;/codeph&gt;</ept> file for your server, since it is in a trusted environment.</mrk><mrk mid="1" mtype="seg"> The following property setting specifies NATIVE authentication:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For a multi-user product, you would typically specify authentication for the system in the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.properties<ept id="1">&lt;/codeph&gt;</ept> file for your server, since it is in a trusted environment.</mrk><mrk mid="1" mtype="seg"> The following property setting specifies NATIVE authentication:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">derby.authentication.provider=NATIVE:myCredentialsDB:LOCAL</source>
+<seg-source><mrk mid="0" mtype="seg">derby.authentication.provider=NATIVE:myCredentialsDB:LOCAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.authentication.provider=NATIVE:myCredentialsDB:LOCAL</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">It is strongly recommended that production systems rely on NATIVE authentication, an external directory service such as LDAP, or a user-defined class for authentication. It is also strongly recommended that production systems protect network connections with SSL/TLS.</source>
+<seg-source><mrk mid="0" mtype="seg">It is strongly recommended that production systems rely on NATIVE authentication, an external directory service such as LDAP, or a user-defined class for authentication.</mrk><mrk mid="1" mtype="seg"> It is also strongly recommended that production systems protect network connections with SSL/TLS.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is strongly recommended that production systems rely on NATIVE authentication, an external directory service such as LDAP, or a user-defined class for authentication.</mrk><mrk mid="1" mtype="seg"> It is also strongly recommended that production systems protect network connections with SSL/TLS.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The following example connects to the default server name localhost on the default port, 1527, and to the database sample.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example connects to the default server name localhost on the default port, 1527, and to the database sample.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example connects to the default server name localhost on the default port, 1527, and to the database sample.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">jdbc:derby://localhost:1527/sample;user=judy;password=no12see</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby://localhost:1527/sample;user=judy;password=no12see</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby://localhost:1527/sample;user=judy;password=no12see</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The following example specifies both <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> and Network Client driver attributes:</source>
+<seg-source><mrk mid="0" mtype="seg">The following example specifies both <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> and Network Client driver attributes:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example specifies both <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> and Network Client driver attributes:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">jdbc:derby://localhost:1527/sample;create=true;user=judy;password=no12see</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby://localhost:1527/sample;create=true;user=judy;password=no12see</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby://localhost:1527/sample;create=true;user=judy;password=no12see</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">This example connects to the default server name <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>localhost<ept id="1">&lt;/codeph&gt;</ept> on the default port, 1527, and includes the path in the database name portion of the URL.</source>
+<seg-source><mrk mid="0" mtype="seg">This example connects to the default server name <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>localhost<ept id="1">&lt;/codeph&gt;</ept> on the default port, 1527, and includes the path in the database name portion of the URL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This example connects to the default server name <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>localhost<ept id="1">&lt;/codeph&gt;</ept> on the default port, 1527, and includes the path in the database name portion of the URL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">jdbc:derby://localhost:1527/c:/my-db-dir/my-db-name;user=judy; password=no12see</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby://localhost:1527/c:/my-db-dir/my-db-name;user=judy; password=no12see</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby://localhost:1527/c:/my-db-dir/my-db-name;user=judy; password=no12see</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">For a programming example that shows how to connect to the server using NATIVE authentication, see "NATIVE authentication and SQL authorization example" in the <ph id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"/&gt;</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">For a programming example that shows how to connect to the server using NATIVE authentication, see "NATIVE authentication and SQL authorization example" in the <ph id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"/&gt;</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For a programming example that shows how to connect to the server using NATIVE authentication, see "NATIVE authentication and SQL authorization example" in the <ph id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"/&gt;</ph>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

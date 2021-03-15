@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefattribnewbootpw.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">newBootPassword=newPassword attribute</source>
+<seg-source><mrk mid="0" mtype="seg">newBootPassword=newPassword attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">newBootPassword=newPassword attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">newBootPassword=newPassword attribute</source>
+<seg-source><mrk mid="0" mtype="seg">newBootPassword=newPassword attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">newBootPassword=newPassword attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">encrypting databases</source>
+<seg-source><mrk mid="0" mtype="seg">encrypting databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">encrypting databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">new boot password</source>
+<seg-source><mrk mid="0" mtype="seg">new boot password</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">new boot password</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">databases</source>
+<seg-source><mrk mid="0" mtype="seg">databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">attributes, new boot password</source>
+<seg-source><mrk mid="0" mtype="seg">attributes, new boot password</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">attributes, new boot password</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">attributes</source>
+<seg-source><mrk mid="0" mtype="seg">attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">newBootPassword</source>
+<seg-source><mrk mid="0" mtype="seg">newBootPassword</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">newBootPassword</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Specifies a new boot password for an encrypted database. A new encryption key is generated internally by the engine and the key is protected using the new boot password. The newly generated encryption key encrypts the database, including the existing data. For more information about this attribute, see "Encrypting databases with a new boot password" in the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies a new boot password for an encrypted database.</mrk><mrk mid="1" mtype="seg"> A new encryption key is generated internally by the engine and the key is protected using the new boot password.</mrk><mrk mid="2" mtype="seg"> The newly generated encryption key encrypts the database, including the existing data.</mrk><mrk mid="3" mtype="seg"> For more information about this attribute, see "Encrypting databases with a new boot password" in the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies a new boot password for an encrypted database.</mrk><mrk mid="1" mtype="seg"> A new encryption key is generated internally by the engine and the key is protected using the new boot password.</mrk><mrk mid="2" mtype="seg"> The newly generated encryption key encrypts the database, including the existing data.</mrk><mrk mid="3" mtype="seg"> For more information about this attribute, see "Encrypting databases with a new boot password" in the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Combining with other attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Combining with other attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Combining with other attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>newBootPassword=newPassword<ept id="1">&lt;/i&gt;</ept> attribute must be combined with the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefattrib42100.dita#rrefattrib42100"&gt;</bpt>bootPassword=key<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> attribute.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>newBootPassword=newPassword<ept id="1">&lt;/i&gt;</ept> attribute must be combined with the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefattrib42100.dita#rrefattrib42100"&gt;</bpt>bootPassword=key<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> attribute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>newBootPassword=newPassword<ept id="1">&lt;/i&gt;</ept> attribute must be combined with the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefattrib42100.dita#rrefattrib42100"&gt;</bpt>bootPassword=key<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> attribute.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">You cannot change the encryption provider or the encryption algorithm when you use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>newBootPassword=newPassword<ept id="1">&lt;/i&gt;</ept> attribute.</source>
+<seg-source><mrk mid="0" mtype="seg">You cannot change the encryption provider or the encryption algorithm when you use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>newBootPassword=newPassword<ept id="1">&lt;/i&gt;</ept> attribute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You cannot change the encryption provider or the encryption algorithm when you use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>newBootPassword=newPassword<ept id="1">&lt;/i&gt;</ept> attribute.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">For an existing encrypted database for which authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can perform reencryption. Please see "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">For an existing encrypted database for which authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can perform reencryption.</mrk><mrk mid="1" mtype="seg"> Please see "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For an existing encrypted database for which authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can perform reencryption.</mrk><mrk mid="1" mtype="seg"> Please see "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">After you change the boot password, be sure to check for <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLWarning<ept id="1">&lt;/i&gt;</ept>s. The change succeeded only if there were no <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLWarning<ept id="2">&lt;/i&gt;</ept>s or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="3">&lt;/i&gt;</ept>s.</source>
+<seg-source><mrk mid="0" mtype="seg">After you change the boot password, be sure to check for <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLWarning<ept id="1">&lt;/i&gt;</ept>s.</mrk><mrk mid="1" mtype="seg"> The change succeeded only if there were no <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLWarning<ept id="2">&lt;/i&gt;</ept>s or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="3">&lt;/i&gt;</ept>s.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After you change the boot password, be sure to check for <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLWarning<ept id="1">&lt;/i&gt;</ept>s.</mrk><mrk mid="1" mtype="seg"> The change succeeded only if there were no <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLWarning<ept id="2">&lt;/i&gt;</ept>s or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="3">&lt;/i&gt;</ept>s.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- specify a new boot password for a database<ept id="2">&lt;/ph&gt;</ept> jdbc:derby:salesdb;bootPassword=abc1234xyz;newBootPassword=new1234xyz<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- specify a new boot password for a database<ept id="2">&lt;/ph&gt;</ept> jdbc:derby:salesdb;bootPassword=abc1234xyz;newBootPassword=new1234xyz<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- specify a new boot password for a database<ept id="2">&lt;/ph&gt;</ept> jdbc:derby:salesdb;bootPassword=abc1234xyz;newBootPassword=new1234xyz<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

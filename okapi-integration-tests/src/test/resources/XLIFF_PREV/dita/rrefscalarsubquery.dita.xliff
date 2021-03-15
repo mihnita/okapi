@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefscalarsubquery.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">scalarSubquery</source>
+<seg-source><mrk mid="0" mtype="seg">scalarSubquery</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">scalarSubquery</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">scalarSubquery</source>
+<seg-source><mrk mid="0" mtype="seg">scalarSubquery</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">scalarSubquery</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">You can place a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>scalarSubquery<ept id="1">&lt;/i&gt;</ept> anywhere an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> is permitted. A <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>scalarSubquery<ept id="3">&lt;/i&gt;</ept> turns a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> result into a scalar value because it returns only a single row and column value.</source>
+<seg-source><mrk mid="0" mtype="seg">You can place a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>scalarSubquery<ept id="1">&lt;/i&gt;</ept> anywhere an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> is permitted.</mrk><mrk mid="1" mtype="seg"> A <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>scalarSubquery<ept id="3">&lt;/i&gt;</ept> turns a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> result into a scalar value because it returns only a single row and column value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can place a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>scalarSubquery<ept id="1">&lt;/i&gt;</ept> anywhere an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> is permitted.</mrk><mrk mid="1" mtype="seg"> A <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>scalarSubquery<ept id="3">&lt;/i&gt;</ept> turns a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> result into a scalar value because it returns only a single row and column value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The query must evaluate to a single row with a single column.</source>
+<seg-source><mrk mid="0" mtype="seg">The query must evaluate to a single row with a single column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The query must evaluate to a single row with a single column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Expression subquery</source>
+<seg-source><mrk mid="0" mtype="seg">Expression subquery</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Expression subquery</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Sometimes also called an expression subquery.</source>
+<seg-source><mrk mid="0" mtype="seg">Sometimes also called an expression subquery.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sometimes also called an expression subquery.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj21571.dita#rrefsqlj21571"&gt;</bpt>query<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqlj13658.dita#rrefsqlj13658"&gt;</bpt>ORDER BY clause<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ] [ <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt>result offset clause<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ] [ <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt>fetch first clause<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> ] )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj21571.dita#rrefsqlj21571"&gt;</bpt>query<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqlj13658.dita#rrefsqlj13658"&gt;</bpt>ORDER BY clause<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ] [ <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt>result offset clause<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ] [ <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt>fetch first clause<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> ] )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj21571.dita#rrefsqlj21571"&gt;</bpt>query<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqlj13658.dita#rrefsqlj13658"&gt;</bpt>ORDER BY clause<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ] [ <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt>result offset clause<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ] [ <bpt id="8" ctype="x-i">&lt;i&gt;</bpt><bpt id="9" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt>fetch first clause<ept id="9">&lt;/xref&gt;</ept><ept id="8">&lt;/i&gt;</ept> ] )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- avg always returns a single value, so the subquery is -- a scalarSubquery<ept id="2">&lt;/ph&gt;</ept> SELECT NAME, COMM FROM STAFF WHERE EXISTS (SELECT AVG(BONUS + 800) FROM EMPLOYEE WHERE COMM &lt; 5000 AND EMPLOYEE.LASTNAME = UPPER(STAFF.NAME) ) <it id="3" ctype="x-ph" pos="open">&lt;ph&gt;</it>-- Introduce a way of "generating" new data values, -- using a query which selects from a VALUES clause (which is an -- alternate form of a fullselect). -- This query shows how a table can be derived called "X" having -- 2 columns "R1" and "R2" and 1 row of data. SELECT R1,R2 FROM (VALUES('GROUP 1','GROUP 2')) AS X(R1,R2)<it id="3" ctype="x-ph" pos="close">&lt;/ph&gt;</it> <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- avg always returns a single value, so the subquery is -- a scalarSubquery<ept id="2">&lt;/ph&gt;</ept> SELECT NAME, COMM FROM STAFF WHERE EXISTS (SELECT AVG(BONUS + 800) FROM EMPLOYEE WHERE COMM &lt; 5000 AND EMPLOYEE.LASTNAME = UPPER(STAFF.NAME) ) <it id="3" ctype="x-ph" pos="open">&lt;ph&gt;</it>-- Introduce a way of "generating" new data values, -- using a query which selects from a VALUES clause (which is an -- alternate form of a fullselect).</mrk><mrk mid="1" mtype="seg"> -- This query shows how a table can be derived called "X" having -- 2 columns "R1" and "R2" and 1 row of data.</mrk><mrk mid="2" mtype="seg"> SELECT R1,R2 FROM (VALUES('GROUP 1','GROUP 2')) AS X(R1,R2)<it id="3" ctype="x-ph" pos="close">&lt;/ph&gt;</it> <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- avg always returns a single value, so the subquery is -- a scalarSubquery<ept id="2">&lt;/ph&gt;</ept> SELECT NAME, COMM FROM STAFF WHERE EXISTS (SELECT AVG(BONUS + 800) FROM EMPLOYEE WHERE COMM &lt; 5000 AND EMPLOYEE.LASTNAME = UPPER(STAFF.NAME) ) <it id="3" ctype="x-ph" pos="open">&lt;ph&gt;</it>-- Introduce a way of "generating" new data values, -- using a query which selects from a VALUES clause (which is an -- alternate form of a fullselect).</mrk><mrk mid="1" mtype="seg"> -- This query shows how a table can be derived called "X" having -- 2 columns "R1" and "R2" and 1 row of data.</mrk><mrk mid="2" mtype="seg"> SELECT R1,R2 FROM (VALUES('GROUP 1','GROUP 2')) AS X(R1,R2)<it id="3" ctype="x-ph" pos="close">&lt;/ph&gt;</it> <it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

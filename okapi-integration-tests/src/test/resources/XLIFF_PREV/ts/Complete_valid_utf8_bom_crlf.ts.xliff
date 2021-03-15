@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Complete_valid_utf8_bom_crlf.ts" source-language="en-us" target-language="fr-fr" datatype="x-application/x-ts" okp:inputEncoding="utf-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="o3" resname="context name 1">
+<group id="o4" resname="context name 2">
+<trans-unit id="1" resname="1" xml:space="preserve">
+<source xml:lang="en-us">hello <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>world</source>
+<seg-source><mrk mid="0" mtype="seg">hello <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>world</mrk></seg-source>
+<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">hejsan <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>varlden</mrk></target>
+<note from="translator">old hello translator comment</note>
+</trans-unit>
+<trans-unit id="2" resname="3" approved="yes" xml:space="preserve">
+<source xml:lang="en-us">hello <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>world</source>
+<seg-source><mrk mid="0" mtype="seg">hello <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>world</mrk></seg-source>
+<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">hejsan <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>varlden</mrk></target>
+<note from="translator">old hello translator comment</note>
+</trans-unit>
+<trans-unit id="3" resname="4" xml:space="preserve">
+<source xml:lang="en-us">hello <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>world</source>
+<seg-source><mrk mid="0" mtype="seg">hello <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>world</mrk></seg-source>
+<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">hello <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>world</mrk></target>
+<note from="translator">old hello translator comment</note>
+</trans-unit>
+<trans-unit id="4" resname="8" xml:space="preserve">
+<source xml:lang="en-us">hello <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>world</source>
+<seg-source><mrk mid="0" mtype="seg">hello <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>world</mrk></seg-source>
+<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">hello <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>world</mrk></target>
+<note from="translator">old hello translator comment</note>
+</trans-unit>
+<group id="o9" resname="9">
+<trans-unit id="5" xml:space="preserve">
+<source xml:lang="en-us">hello <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>world</source>
+<seg-source><mrk mid="0" mtype="seg">hello <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>world</mrk></seg-source>
+<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Numerus<ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph> 1</mrk></target>
+</trans-unit>
+<trans-unit id="6" xml:space="preserve">
+<source xml:lang="en-us">hello <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>world</source>
+<seg-source><mrk mid="0" mtype="seg">hello <ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph>world</mrk></seg-source>
+<target xml:lang="fr-fr"><mrk mid="0" mtype="seg">Numerus<ph id="1" ctype="x-byte">&lt;byte value="79"/&gt;</ph> 2</mrk></target>
+</trans-unit>
+</group>
+</group>
+</group>
+</body>
+</file>
+</xliff>

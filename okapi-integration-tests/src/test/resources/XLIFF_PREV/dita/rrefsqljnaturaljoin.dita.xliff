@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljnaturaljoin.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">NATURAL JOIN operation</source>
+<seg-source><mrk mid="0" mtype="seg">NATURAL JOIN operation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NATURAL JOIN operation</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">NATURAL JOIN operation</source>
+<seg-source><mrk mid="0" mtype="seg">NATURAL JOIN operation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NATURAL JOIN operation</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">A NATURAL JOIN is a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj29840.dita#rrefsqlj29840"&gt;</bpt> JOIN operation<ept id="1">&lt;/xref&gt;</ept> that creates an implicit join clause for you based on the common columns in the two tables being joined. Common columns are columns that have the same name in both tables.</source>
+<seg-source><mrk mid="0" mtype="seg">A NATURAL JOIN is a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj29840.dita#rrefsqlj29840"&gt;</bpt> JOIN operation<ept id="1">&lt;/xref&gt;</ept> that creates an implicit join clause for you based on the common columns in the two tables being joined.</mrk><mrk mid="1" mtype="seg"> Common columns are columns that have the same name in both tables.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A NATURAL JOIN is a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj29840.dita#rrefsqlj29840"&gt;</bpt> JOIN operation<ept id="1">&lt;/xref&gt;</ept> that creates an implicit join clause for you based on the common columns in the two tables being joined.</mrk><mrk mid="1" mtype="seg"> Common columns are columns that have the same name in both tables.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">A NATURAL JOIN can be an INNER join, a LEFT OUTER join, or a RIGHT OUTER join. The default is INNER join.</source>
+<seg-source><mrk mid="0" mtype="seg">A NATURAL JOIN can be an INNER join, a LEFT OUTER join, or a RIGHT OUTER join.</mrk><mrk mid="1" mtype="seg"> The default is INNER join.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A NATURAL JOIN can be an INNER join, a LEFT OUTER join, or a RIGHT OUTER join.</mrk><mrk mid="1" mtype="seg"> The default is INNER join.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">If the SELECT statement in which the NATURAL JOIN operation appears has an asterisk (*) in the select list, the asterisk will be expanded to the following list of columns (in this order):</source>
+<seg-source><mrk mid="0" mtype="seg">If the SELECT statement in which the NATURAL JOIN operation appears has an asterisk (*) in the select list, the asterisk will be expanded to the following list of columns (in this order):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the SELECT statement in which the NATURAL JOIN operation appears has an asterisk (*) in the select list, the asterisk will be expanded to the following list of columns (in this order):</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">All the common columns</source>
+<seg-source><mrk mid="0" mtype="seg">All the common columns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All the common columns</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Every column in the first (left) table that is not a common column</source>
+<seg-source><mrk mid="0" mtype="seg">Every column in the first (left) table that is not a common column</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Every column in the first (left) table that is not a common column</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Every column in the second (right) table that is not a common column</source>
+<seg-source><mrk mid="0" mtype="seg">Every column in the second (right) table that is not a common column</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Every column in the second (right) table that is not a common column</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">An asterisk qualified by a table name (for example, COUNTRIES.*) will be expanded to every column of that table that is not a common column.</source>
+<seg-source><mrk mid="0" mtype="seg">An asterisk qualified by a table name (for example, COUNTRIES.*) will be expanded to every column of that table that is not a common column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An asterisk qualified by a table name (for example, COUNTRIES.*) will be expanded to every column of that table that is not a common column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If a common column is referenced without being qualified by a table name, the column reference points to the column in the first (left) table if the join is an INNER JOIN or a LEFT OUTER JOIN. If it is a RIGHT OUTER JOIN, unqualified references to a common column point to the column in the second (right) table.</source>
+<seg-source><mrk mid="0" mtype="seg">If a common column is referenced without being qualified by a table name, the column reference points to the column in the first (left) table if the join is an INNER JOIN or a LEFT OUTER JOIN.</mrk><mrk mid="1" mtype="seg"> If it is a RIGHT OUTER JOIN, unqualified references to a common column point to the column in the second (right) table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a common column is referenced without being qualified by a table name, the column reference points to the column in the first (left) table if the join is an INNER JOIN or a LEFT OUTER JOIN.</mrk><mrk mid="1" mtype="seg"> If it is a RIGHT OUTER JOIN, unqualified references to a common column point to the column in the second (right) table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> NATURAL [ { LEFT | RIGHT } [ OUTER ] | INNER ] JOIN { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqlj33215.dita#rrefsqlj33215"&gt;</bpt>tableViewOrFunctionExpression<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | ( <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ) }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> NATURAL [ { LEFT | RIGHT } [ OUTER ] | INNER ] JOIN { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqlj33215.dita#rrefsqlj33215"&gt;</bpt>tableViewOrFunctionExpression<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | ( <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ) }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> NATURAL [ { LEFT | RIGHT } [ OUTER ] | INNER ] JOIN { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqlj33215.dita#rrefsqlj33215"&gt;</bpt>tableViewOrFunctionExpression<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | ( <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rreftableexpression.dita#rreftableexpression"&gt;</bpt>tableExpression<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ) }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">If the tables COUNTRIES and CITIES have two common columns named COUNTRY and COUNTRY_ISO_CODE, the following two SELECT statements are equivalent:</source>
+<seg-source><mrk mid="0" mtype="seg">If the tables COUNTRIES and CITIES have two common columns named COUNTRY and COUNTRY_ISO_CODE, the following two SELECT statements are equivalent:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the tables COUNTRIES and CITIES have two common columns named COUNTRY and COUNTRY_ISO_CODE, the following two SELECT statements are equivalent:</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM COUNTRIES NATURAL JOIN CITIES<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM COUNTRIES NATURAL JOIN CITIES<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM COUNTRIES NATURAL JOIN CITIES<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM COUNTRIES JOIN CITIES USING (COUNTRY, COUNTRY_ISO_CODE)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM COUNTRIES JOIN CITIES USING (COUNTRY, COUNTRY_ISO_CODE)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM COUNTRIES JOIN CITIES USING (COUNTRY, COUNTRY_ISO_CODE)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">The following example is similar to the one above, but it also preserves unmatched rows from the first (left) table:</source>
+<seg-source><mrk mid="0" mtype="seg">The following example is similar to the one above, but it also preserves unmatched rows from the first (left) table:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example is similar to the one above, but it also preserves unmatched rows from the first (left) table:</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM COUNTRIES NATURAL LEFT JOIN CITIES<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM COUNTRIES NATURAL LEFT JOIN CITIES<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM COUNTRIES NATURAL LEFT JOIN CITIES<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

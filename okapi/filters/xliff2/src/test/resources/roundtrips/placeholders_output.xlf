@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="de">
+ <file id="f1" original="some_file.txt">
+   <unit id="1">
+    <originalData>
+    <data id="d1">&lt;b></data>
+    <data id="d2">&lt;/b></data>
+    </originalData>
+    <segment>
+     <source><ph id="1" canCopy="no" canDelete="no" disp="&lt;b>" dataRef="d1"/>Hello<ph id="2" canCopy="no" canDelete="no" disp="&lt;/b>" dataRef="d2"/> there.</source>
+    </segment>
+    <segment>
+     <source><pc id="7" dispStart="&lt;b>" dispEnd="&lt;/b>" dataRefEnd="d2" dataRefStart="d1">Hello</pc> there.</source>
+    </segment>
+   </unit>
+  <unit id="2">
+   <segment>
+    <source>Some text &lt;b>without&lt;/b> placeholders!</source>
+   </segment>
+  </unit>
+ </file>
+</xliff>

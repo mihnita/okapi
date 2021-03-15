@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj32714.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">VARCHAR FOR BIT DATA data type</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR FOR BIT DATA data type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR FOR BIT DATA data type</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">VARCHAR FOR BIT DATA type</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR FOR BIT DATA type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR FOR BIT DATA type</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">The VARCHAR FOR BIT DATA type allows you to store binary strings less than or equal to a specified length. It is useful for unstructured data where character strings are not appropriate (e.g., images).</source>
+<seg-source><mrk mid="0" mtype="seg">The VARCHAR FOR BIT DATA type allows you to store binary strings less than or equal to a specified length.</mrk><mrk mid="1" mtype="seg"> It is useful for unstructured data where character strings are not appropriate (e.g., images).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The VARCHAR FOR BIT DATA type allows you to store binary strings less than or equal to a specified length.</mrk><mrk mid="1" mtype="seg"> It is useful for unstructured data where character strings are not appropriate (e.g., images).</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ VARCHAR | CHAR VARYING | CHARACTER VARYING } (<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>length<ept id="2">&lt;/i&gt;</ept>) FOR BIT DATA <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ VARCHAR | CHAR VARYING | CHARACTER VARYING } (<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>length<ept id="2">&lt;/i&gt;</ept>) FOR BIT DATA <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ VARCHAR | CHAR VARYING | CHARACTER VARYING } (<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>length<ept id="2">&lt;/i&gt;</ept>) FOR BIT DATA <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>length<ept id="1">&lt;/i
+&gt;</ept> is an unsigned integer literal designating the length in bytes.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>length<ept id="1">&lt;/i
+&gt;</ept> is an unsigned integer literal designating the length in bytes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>length<ept id="1">&lt;/i
+&gt;</ept> is an unsigned integer literal designating the length in bytes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Unlike the case for the CHAR FOR BIT DATA type, there is no default <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>length<ept id="1">&lt;/i&gt;</ept> for a VARCHAR FOR BIT DATA type. The maximum size of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>length<ept id="2">&lt;/i&gt;</ept> value is 32,672 bytes.</source>
+<seg-source><mrk mid="0" mtype="seg">Unlike the case for the CHAR FOR BIT DATA type, there is no default <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>length<ept id="1">&lt;/i&gt;</ept> for a VARCHAR FOR BIT DATA type.</mrk><mrk mid="1" mtype="seg"> The maximum size of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>length<ept id="2">&lt;/i&gt;</ept> value is 32,672 bytes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unlike the case for the CHAR FOR BIT DATA type, there is no default <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>length<ept id="1">&lt;/i&gt;</ept> for a VARCHAR FOR BIT DATA type.</mrk><mrk mid="1" mtype="seg"> The maximum size of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>length<ept id="2">&lt;/i&gt;</ept> value is 32,672 bytes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">JDBC metadata type (java.sql.Types)</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC metadata type (java.sql.Types)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC metadata type (java.sql.Types)</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">VARBINARY</source>
+<seg-source><mrk mid="0" mtype="seg">VARBINARY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARBINARY</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Byte strings</source>
+<seg-source><mrk mid="0" mtype="seg">Byte strings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Byte strings</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">variable-length</source>
+<seg-source><mrk mid="0" mtype="seg">variable-length</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">variable-length</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">VARCHAR FOR BIT DATA stores variable-length byte strings. Unlike CHAR FOR BIT DATA values, VARCHAR FOR BIT DATA values are not padded out to the target length.</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR FOR BIT DATA stores variable-length byte strings.</mrk><mrk mid="1" mtype="seg"> Unlike CHAR FOR BIT DATA values, VARCHAR FOR BIT DATA values are not padded out to the target length.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR FOR BIT DATA stores variable-length byte strings.</mrk><mrk mid="1" mtype="seg"> Unlike CHAR FOR BIT DATA values, VARCHAR FOR BIT DATA values are not padded out to the target length.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">An operation on a VARCHAR FOR BIT DATA and a CHAR FOR BIT DATA value (e.g., a concatenation) yields a VARCHAR FOR BIT DATA value.</source>
+<seg-source><mrk mid="0" mtype="seg">An operation on a VARCHAR FOR BIT DATA and a CHAR FOR BIT DATA value (e.g., a concatenation) yields a VARCHAR FOR BIT DATA value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An operation on a VARCHAR FOR BIT DATA and a CHAR FOR BIT DATA value (e.g., a concatenation) yields a VARCHAR FOR BIT DATA value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">The type of a byte literal is always a VARCHAR FOR BIT DATA, not a CHAR FOR BIT DATA.</source>
+<seg-source><mrk mid="0" mtype="seg">The type of a byte literal is always a VARCHAR FOR BIT DATA, not a CHAR FOR BIT DATA.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The type of a byte literal is always a VARCHAR FOR BIT DATA, not a CHAR FOR BIT DATA.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

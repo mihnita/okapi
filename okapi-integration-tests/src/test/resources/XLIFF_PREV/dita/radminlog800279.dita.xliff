@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminlog800279.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Example of moving a log manually</source>
+<seg-source><mrk mid="0" mtype="seg">Example of moving a log manually</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example of moving a log manually</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">If you want to move the log to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>g:/bigdisk/tourslog<ept id="1">&lt;/codeph&gt;</ept>, move the log with operating system commands.</source>
+<seg-source><mrk mid="0" mtype="seg">If you want to move the log to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>g:/bigdisk/tourslog<ept id="1">&lt;/codeph&gt;</ept>, move the log with operating system commands.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you want to move the log to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>g:/bigdisk/tourslog<ept id="1">&lt;/codeph&gt;</ept>, move the log with operating system commands.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">For example, you could use the following command:</source>
+<seg-source><mrk mid="0" mtype="seg">For example, you could use the following command:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, you could use the following command:</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>move h:\janets\tourslog\log\*.* g:\bigdisk\tourslog\log<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>move h:\janets\tourslog\log\*.* g:\bigdisk\tourslog\log<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>move h:\janets\tourslog\log\*.* g:\bigdisk\tourslog\log<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Then, alter the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="1">&lt;/codeph&gt;</ept> entry in <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="2">&lt;/codeph&gt;</ept> to read as follows:</source>
+<seg-source><mrk mid="0" mtype="seg">Then, alter the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="1">&lt;/codeph&gt;</ept> entry in <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="2">&lt;/codeph&gt;</ept> to read as follows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Then, alter the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="1">&lt;/codeph&gt;</ept> entry in <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="2">&lt;/codeph&gt;</ept> to read as follows:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">logDevice=g:/bigdisk/toursLog</source>
+<seg-source><mrk mid="0" mtype="seg">logDevice=g:/bigdisk/toursLog</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">logDevice=g:/bigdisk/toursLog</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">You can use either a single forward slash or double back slashes for a path separator.</source>
+<seg-source><mrk mid="0" mtype="seg">You can use either a single forward slash or double back slashes for a path separator.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use either a single forward slash or double back slashes for a path separator.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If you later want to move the log back to its default location (in this case, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>d:\mydatabases\toursDB\log<ept id="1">&lt;/codeph&gt;</ept>), move the log manually as follows:</source>
+<seg-source><mrk mid="0" mtype="seg">If you later want to move the log back to its default location (in this case, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>d:\mydatabases\toursDB\log<ept id="1">&lt;/codeph&gt;</ept>), move the log manually as follows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you later want to move the log back to its default location (in this case, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>d:\mydatabases\toursDB\log<ept id="1">&lt;/codeph&gt;</ept>), move the log manually as follows:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>move g:\bigdisk\tourslog\log\*.* d:\mydatabases\toursDB\log<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>move g:\bigdisk\tourslog\log\*.* d:\mydatabases\toursDB\log<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>move g:\bigdisk\tourslog\log\*.* d:\mydatabases\toursDB\log<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Then, delete the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="1">&lt;/codeph&gt;</ept> entry from <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="2">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Then, delete the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="1">&lt;/codeph&gt;</ept> entry from <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="2">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Then, delete the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="1">&lt;/codeph&gt;</ept> entry from <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="2">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">This example uses commands that are specific to the Windows operating system. Use commands appropriate to your operating system to copy a directory and all of its contents to a new location.</source>
+<seg-source><mrk mid="0" mtype="seg">This example uses commands that are specific to the Windows operating system.</mrk><mrk mid="1" mtype="seg"> Use commands appropriate to your operating system to copy a directory and all of its contents to a new location.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This example uses commands that are specific to the Windows operating system.</mrk><mrk mid="1" mtype="seg"> Use commands appropriate to your operating system to copy a directory and all of its contents to a new location.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdvlp25820.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Database pages</source>
+<seg-source><mrk mid="0" mtype="seg">Database pages</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database pages</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> tables and indexes, known as conglomerates, consist of two or more pages.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> tables and indexes, known as conglomerates, consist of two or more pages.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> tables and indexes, known as conglomerates, consist of two or more pages.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Database pages</source>
+<seg-source><mrk mid="0" mtype="seg">Database pages</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database pages</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">description</source>
+<seg-source><mrk mid="0" mtype="seg">description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">description</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">A page is a unit of storage whose size is configurable on a system-wide, database-wide, or conglomerate-specific basis. By default, a conglomerate grows one page at a time until eight pages of user data (or nine pages of total disk use, which includes one page of internal information) have been allocated. (You can configure this behavior; see "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.storage.initialPages<ept id="1">&lt;/i&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.) After that, it grows eight pages at a time.</source>
+<seg-source><mrk mid="0" mtype="seg">A page is a unit of storage whose size is configurable on a system-wide, database-wide, or conglomerate-specific basis.</mrk><mrk mid="1" mtype="seg"> By default, a conglomerate grows one page at a time until eight pages of user data (or nine pages of total disk use, which includes one page of internal information) have been allocated.</mrk><mrk mid="2" mtype="seg"> (You can configure this behavior; see "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.storage.initialPages<ept id="1">&lt;/i&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.) After that, it grows eight pages at a time.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A page is a unit of storage whose size is configurable on a system-wide, database-wide, or conglomerate-specific basis.</mrk><mrk mid="1" mtype="seg"> By default, a conglomerate grows one page at a time until eight pages of user data (or nine pages of total disk use, which includes one page of internal information) have been allocated.</mrk><mrk mid="2" mtype="seg"> (You can configure this behavior; see "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.storage.initialPages<ept id="1">&lt;/i&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.) After that, it grows eight pages at a time.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The size of a row or column is not limited by the page size. Rows or columns that are longer than the table's page size are automatically wrapped to overflow pages.</source>
+<seg-source><mrk mid="0" mtype="seg">The size of a row or column is not limited by the page size.</mrk><mrk mid="1" mtype="seg"> Rows or columns that are longer than the table's page size are automatically wrapped to overflow pages.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The size of a row or column is not limited by the page size.</mrk><mrk mid="1" mtype="seg"> Rows or columns that are longer than the table's page size are automatically wrapped to overflow pages.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

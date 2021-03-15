@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="conrefs.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Product specific entities</source>
+<seg-source><mrk mid="0" mtype="seg">Product specific entities</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Product specific entities</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Naming convention: <bpt id="1" ctype="x-userinput">&lt;userinput&gt;</bpt><bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>abb<ept id="2">&lt;/varname&gt;</ept><ept id="1">&lt;/userinput&gt;</ept> (abbreviation for product) followed by <bpt id="3" ctype="x-userinput">&lt;userinput&gt;</bpt>l<ept id="3">&lt;/userinput&gt;</ept> (long version) or <bpt id="4" ctype="x-userinput">&lt;userinput&gt;</bpt>s<ept id="4">&lt;/userinput&gt;</ept> (short version), followed by <bpt id="5" ctype="x-userinput">&lt;userinput&gt;</bpt>t<ept id="5">&lt;/userinput&gt;</ept> if the reference is pre-marked with trademarks.</source>
+<seg-source><mrk mid="0" mtype="seg">Naming convention: <bpt id="1" ctype="x-userinput">&lt;userinput&gt;</bpt><bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>abb<ept id="2">&lt;/varname&gt;</ept><ept id="1">&lt;/userinput&gt;</ept> (abbreviation for product) followed by <bpt id="3" ctype="x-userinput">&lt;userinput&gt;</bpt>l<ept id="3">&lt;/userinput&gt;</ept> (long version) or <bpt id="4" ctype="x-userinput">&lt;userinput&gt;</bpt>s<ept id="4">&lt;/userinput&gt;</ept> (short version), followed by <bpt id="5" ctype="x-userinput">&lt;userinput&gt;</bpt>t<ept id="5">&lt;/userinput&gt;</ept> if the reference is pre-marked with trademarks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Naming convention: <bpt id="1" ctype="x-userinput">&lt;userinput&gt;</bpt><bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>abb<ept id="2">&lt;/varname&gt;</ept><ept id="1">&lt;/userinput&gt;</ept> (abbreviation for product) followed by <bpt id="3" ctype="x-userinput">&lt;userinput&gt;</bpt>l<ept id="3">&lt;/userinput&gt;</ept> (long version) or <bpt id="4" ctype="x-userinput">&lt;userinput&gt;</bpt>s<ept id="4">&lt;/userinput&gt;</ept> (short version), followed by <bpt id="5" ctype="x-userinput">&lt;userinput&gt;</bpt>t<ept id="5">&lt;/userinput&gt;</ept> if the reference is pre-marked with trademarks.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" resname="productshortname-id">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">[#$dp6]</bpt>Derby<ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp6]</bpt>Derby<ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp6]</bpt>Derby<ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="productlongname-id">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">[#$dp8]</bpt>Apache Derby<ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp8]</bpt>Apache Derby<ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp8]</bpt>Apache Derby<ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu5" resname="productinstallname-id">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">[#$dp10]</bpt>Derby_10<ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp10]</bpt>Derby_10<ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp10]</bpt>Derby_10<ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="productinstallpath-id">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">[#$dp12]</bpt>DERBY_HOME<ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp12]</bpt>DERBY_HOME<ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp12]</bpt>DERBY_HOME<ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu7" resname="productlowercase-id">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">[#$dp14]</bpt>derby<ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp14]</bpt>derby<ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp14]</bpt>derby<ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Version and release numbers</source>
+<seg-source><mrk mid="0" mtype="seg">Version and release numbers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Version and release numbers</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" resname="fullversionnumber-id">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">[#$dp19]</bpt>Version @RELEASE_ID_SHORT@<ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp19]</bpt>Version @RELEASE_ID_SHORT@<ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp19]</bpt>Version @RELEASE_ID_SHORT@<ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10" resname="shortversionnumber-id">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">[#$dp21]</bpt>@RELEASE_ID_SHORT@<ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp21]</bpt>@RELEASE_ID_SHORT@<ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp21]</bpt>@RELEASE_ID_SHORT@<ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Publications</source>
+<seg-source><mrk mid="0" mtype="seg">Publications</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Publications</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Naming convention: <bpt id="1" ctype="x-userinput">&lt;userinput&gt;</bpt>cit<bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>ABB<ept id="2">&lt;/varname&gt;</ept><ept id="1">&lt;/userinput&gt;</ept>, where <bpt id="3" ctype="x-userinput">&lt;userinput&gt;</bpt>cit<ept id="3">&lt;/userinput&gt;</ept> is the indicator that the conref is to a publication title and <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>ABB<ept id="4">&lt;/varname&gt;</ept> is the abbreviation for the publication (say, 2-6 characters).</source>
+<seg-source><mrk mid="0" mtype="seg">Naming convention: <bpt id="1" ctype="x-userinput">&lt;userinput&gt;</bpt>cit<bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>ABB<ept id="2">&lt;/varname&gt;</ept><ept id="1">&lt;/userinput&gt;</ept>, where <bpt id="3" ctype="x-userinput">&lt;userinput&gt;</bpt>cit<ept id="3">&lt;/userinput&gt;</ept> is the indicator that the conref is to a publication title and <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>ABB<ept id="4">&lt;/varname&gt;</ept> is the abbreviation for the publication (say, 2-6 characters).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Naming convention: <bpt id="1" ctype="x-userinput">&lt;userinput&gt;</bpt>cit<bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>ABB<ept id="2">&lt;/varname&gt;</ept><ept id="1">&lt;/userinput&gt;</ept>, where <bpt id="3" ctype="x-userinput">&lt;userinput&gt;</bpt>cit<ept id="3">&lt;/userinput&gt;</ept> is the indicator that the conref is to a publication title and <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>ABB<ept id="4">&lt;/varname&gt;</ept> is the abbreviation for the publication (say, 2-6 characters).</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">We can't use the "correct" DITA cite tag because the IDD wrapper can't handle it.</source>
+<seg-source><mrk mid="0" mtype="seg">We can't use the "correct" DITA cite tag because the IDD wrapper can't handle it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">We can't use the "correct" DITA cite tag because the IDD wrapper can't handle it.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14" resname="citdevelop-id">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">[#$dp28]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Derby Developer's Guide<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp28]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Derby Developer's Guide<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp28]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Derby Developer's Guide<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu15" resname="citadmin-id">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">[#$dp30]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Derby Server and Administration Guide<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp30]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Derby Server and Administration Guide<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp30]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Derby Server and Administration Guide<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16" resname="citref-id">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">[#$dp32]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Derby Reference Manual<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp32]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Derby Reference Manual<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp32]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Derby Reference Manual<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17" resname="citutilities-id">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">[#$dp34]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Derby Tools and Utilities Guide<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp34]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Derby Tools and Utilities Guide<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp34]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Derby Tools and Utilities Guide<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18" resname="citgetstart-id">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">[#$dp36]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Getting Started with Derby<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp36]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Getting Started with Derby<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp36]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Getting Started with Derby<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu19" resname="cittuning-id">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">[#$dp38]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Tuning Derby<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp38]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Tuning Derby<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp38]</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Tuning Derby<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Paths</source>
+<seg-source><mrk mid="0" mtype="seg">Paths</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paths</mrk></target>
+</trans-unit>
+<trans-unit id="tu21" resname="pathdownload-id">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">[#$dp43]</bpt>http://db.apache.org/derby/derby_downloads.html<ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp43]</bpt>http://db.apache.org/derby/derby_downloads.html<ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp43]</bpt>http://db.apache.org/derby/derby_downloads.html<ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu22" resname="pathsource-id">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">[#$dp45]</bpt>http://db.apache.org/derby/dev/derby_source.html<ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp45]</bpt>http://db.apache.org/derby/dev/derby_source.html<ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">[#$dp45]</bpt>http://db.apache.org/derby/dev/derby_source.html<ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

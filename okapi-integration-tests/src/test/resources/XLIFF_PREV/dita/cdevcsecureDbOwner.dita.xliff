@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecureDbOwner.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Database owner</source>
+<seg-source><mrk mid="0" mtype="seg">Database owner</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database owner</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The term <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>database owner<ept id="1">&lt;/i&gt;</ept> refers to the current authorization identifier when the database is created, that is, the user creating the database. If you use NATIVE authentication, or if you manually enable or plan to enable SQL authorization, controlling the identity of the database owner becomes important.</source>
+<seg-source><mrk mid="0" mtype="seg">The term <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>database owner<ept id="1">&lt;/i&gt;</ept> refers to the current authorization identifier when the database is created, that is, the user creating the database.</mrk><mrk mid="1" mtype="seg"> If you use NATIVE authentication, or if you manually enable or plan to enable SQL authorization, controlling the identity of the database owner becomes important.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The term <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>database owner<ept id="1">&lt;/i&gt;</ept> refers to the current authorization identifier when the database is created, that is, the user creating the database.</mrk><mrk mid="1" mtype="seg"> If you use NATIVE authentication, or if you manually enable or plan to enable SQL authorization, controlling the identity of the database owner becomes important.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">database owner</source>
+<seg-source><mrk mid="0" mtype="seg">database owner</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">database owner</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">database owner</source>
+<seg-source><mrk mid="0" mtype="seg">database owner</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">database owner</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">powers</source>
+<seg-source><mrk mid="0" mtype="seg">powers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">powers</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">database owner</source>
+<seg-source><mrk mid="0" mtype="seg">database owner</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">database owner</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">permissions</source>
+<seg-source><mrk mid="0" mtype="seg">permissions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permissions</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">When a database is created, the database owner of that database gets implicitly set to the authorization identifier used in the connect operation which creates the database, for example by supplying the URL attribute "user". Note that this applies even if authentication is not (yet) enabled. In SQL, the built-in functions USER and the equivalent CURRENT_USER return the current authorization identifier.</source>
+<seg-source><mrk mid="0" mtype="seg">When a database is created, the database owner of that database gets implicitly set to the authorization identifier used in the connect operation which creates the database, for example by supplying the URL attribute "user".</mrk><mrk mid="1" mtype="seg"> Note that this applies even if authentication is not (yet) enabled.</mrk><mrk mid="2" mtype="seg"> In SQL, the built-in functions USER and the equivalent CURRENT_USER return the current authorization identifier.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a database is created, the database owner of that database gets implicitly set to the authorization identifier used in the connect operation which creates the database, for example by supplying the URL attribute "user".</mrk><mrk mid="1" mtype="seg"> Note that this applies even if authentication is not (yet) enabled.</mrk><mrk mid="2" mtype="seg"> In SQL, the built-in functions USER and the equivalent CURRENT_USER return the current authorization identifier.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">If the database is created <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>without<ept id="1">&lt;/i&gt;</ept> supplying a user (only possible if authentication is not enabled), the database owner gets set to the default authorization identifier, "APP", which is also the name of the default schema, see the section "SET SCHEMA statement" in the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If the database is created <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>without<ept id="1">&lt;/i&gt;</ept> supplying a user (only possible if authentication is not enabled), the database owner gets set to the default authorization identifier, "APP", which is also the name of the default schema, see the section "SET SCHEMA statement" in the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the database is created <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>without<ept id="1">&lt;/i&gt;</ept> supplying a user (only possible if authentication is not enabled), the database owner gets set to the default authorization identifier, "APP", which is also the name of the default schema, see the section "SET SCHEMA statement" in the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The database owner has automatic SQL level permissions when SQL authorization is enabled, see more about this in <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure36595.dita#cdevcsecure36595"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The database owner has automatic SQL level permissions when SQL authorization is enabled, see more about this in <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure36595.dita#cdevcsecure36595"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The database owner has automatic SQL level permissions when SQL authorization is enabled, see more about this in <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure36595.dita#cdevcsecure36595"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">To further enhance security, when <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>both<ept id="1">&lt;/i&gt;</ept> <bpt id="2" ctype="x-xref">&lt;xref href="cdevcsecure36127.dita#cdevcsecure36127"&gt;</bpt>authentication<ept id="2">&lt;/xref&gt;</ept> and SQL authorization are enabled for a database, Derby restricts some special powers to the database owner: only the database owner is allowed to <bpt id="3" ctype="x-xref">&lt;xref href="tdevdvlp40464.dita#tdevdvlp40464"&gt;</bpt>shut down<ept id="3">&lt;/xref&gt;</ept> the database, to <bpt id="4" ctype="x-xref">&lt;xref href="tdevcsecureunencrypteddb.dita#tdevcsecureunencrypteddb"&gt;</bpt>encrypt<ept id="4">&lt;/xref&gt;</ept> or <bpt id="5" ctype="x-xref">&lt;xref href="tdevcsecurenewkeyoverview.dita#tdevcsecurenewkeyoverview"&gt;</bpt>reencrypt<ept id="5">&lt;/xref&gt;</ept> the database or to perform a <bpt id="6" ctype="x-xref">&lt;xref href="tdevupgradedb.dita#tdevupgradedb"&gt;</bpt>full upgrade<ept id="6">&lt;/xref&gt;</ept> of it. These powers can not be delegated.</source>
+<seg-source><mrk mid="0" mtype="seg">To further enhance security, when <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>both<ept id="1">&lt;/i&gt;</ept> <bpt id="2" ctype="x-xref">&lt;xref href="cdevcsecure36127.dita#cdevcsecure36127"&gt;</bpt>authentication<ept id="2">&lt;/xref&gt;</ept> and SQL authorization are enabled for a database, Derby restricts some special powers to the database owner: only the database owner is allowed to <bpt id="3" ctype="x-xref">&lt;xref href="tdevdvlp40464.dita#tdevdvlp40464"&gt;</bpt>shut down<ept id="3">&lt;/xref&gt;</ept> the database, to <bpt id="4" ctype="x-xref">&lt;xref href="tdevcsecureunencrypteddb.dita#tdevcsecureunencrypteddb"&gt;</bpt>encrypt<ept id="4">&lt;/xref&gt;</ept> or <bpt id="5" ctype="x-xref">&lt;xref href="tdevcsecurenewkeyoverview.dita#tdevcsecurenewkeyoverview"&gt;</bpt>reencrypt<ept id="5">&lt;/xref&gt;</ept> the database or to perform a <bpt id="6" ctype="x-xref">&lt;xref href="tdevupgradedb.dita#tdevupgradedb"&gt;</bpt>full upgrade<ept id="6">&lt;/xref&gt;</ept> of it.</mrk><mrk mid="1" mtype="seg"> These powers can not be delegated.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To further enhance security, when <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>both<ept id="1">&lt;/i&gt;</ept> <bpt id="2" ctype="x-xref">&lt;xref href="cdevcsecure36127.dita#cdevcsecure36127"&gt;</bpt>authentication<ept id="2">&lt;/xref&gt;</ept> and SQL authorization are enabled for a database, Derby restricts some special powers to the database owner: only the database owner is allowed to <bpt id="3" ctype="x-xref">&lt;xref href="tdevdvlp40464.dita#tdevdvlp40464"&gt;</bpt>shut down<ept id="3">&lt;/xref&gt;</ept> the database, to <bpt id="4" ctype="x-xref">&lt;xref href="tdevcsecureunencrypteddb.dita#tdevcsecureunencrypteddb"&gt;</bpt>encrypt<ept id="4">&lt;/xref&gt;</ept> or <bpt id="5" ctype="x-xref">&lt;xref href="tdevcsecurenewkeyoverview.dita#tdevcsecurenewkeyoverview"&gt;</bpt>reencrypt<ept id="5">&lt;/xref&gt;</ept> the database or to perform a <bpt id="6" ctype="x-xref">&lt;xref href="tdevupgradedb.dita#tdevupgradedb"&gt;</bpt>full upgrade<ept id="6">&lt;/xref&gt;</ept> of it.</mrk><mrk mid="1" mtype="seg"> These powers can not be delegated.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">There is currently no way of changing the database owner once the database is created. This means that if you plan to run with SQL authorization enabled, you should make sure to create the database as the user you want to be the owner.</source>
+<seg-source><mrk mid="0" mtype="seg">There is currently no way of changing the database owner once the database is created.</mrk><mrk mid="1" mtype="seg"> This means that if you plan to run with SQL authorization enabled, you should make sure to create the database as the user you want to be the owner.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There is currently no way of changing the database owner once the database is created.</mrk><mrk mid="1" mtype="seg"> This means that if you plan to run with SQL authorization enabled, you should make sure to create the database as the user you want to be the owner.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rreftableexpression.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">tableExpression</source>
+<seg-source><mrk mid="0" mtype="seg">tableExpression</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tableExpression</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">tableExpression</source>
+<seg-source><mrk mid="0" mtype="seg">tableExpression</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tableExpression</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>tableExpression<ept id="1">&lt;/i&gt;</ept> specifies a table, view, or function in a <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj21583.dita#rrefsqlj21583"&gt;</bpt>FROM clause<ept id="2">&lt;/xref&gt;</ept>. It is the source from which a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> selects a result.</source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>tableExpression<ept id="1">&lt;/i&gt;</ept> specifies a table, view, or function in a <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj21583.dita#rrefsqlj21583"&gt;</bpt>FROM clause<ept id="2">&lt;/xref&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> It is the source from which a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> selects a result.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>tableExpression<ept id="1">&lt;/i&gt;</ept> specifies a table, view, or function in a <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj21583.dita#rrefsqlj21583"&gt;</bpt>FROM clause<ept id="2">&lt;/xref&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> It is the source from which a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> selects a result.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">A correlation name can be applied to a table in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>tableExpression<ept id="1">&lt;/i&gt;</ept> so that its columns can be qualified with that name. If you do not supply a correlation name, the table name qualifies the column name. When you give a table a correlation name, you cannot use the table name to qualify columns. You must use the correlation name when qualifying column names.</source>
+<seg-source><mrk mid="0" mtype="seg">A correlation name can be applied to a table in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>tableExpression<ept id="1">&lt;/i&gt;</ept> so that its columns can be qualified with that name.</mrk><mrk mid="1" mtype="seg"> If you do not supply a correlation name, the table name qualifies the column name.</mrk><mrk mid="2" mtype="seg"> When you give a table a correlation name, you cannot use the table name to qualify columns.</mrk><mrk mid="3" mtype="seg"> You must use the correlation name when qualifying column names.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A correlation name can be applied to a table in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>tableExpression<ept id="1">&lt;/i&gt;</ept> so that its columns can be qualified with that name.</mrk><mrk mid="1" mtype="seg"> If you do not supply a correlation name, the table name qualifies the column name.</mrk><mrk mid="2" mtype="seg"> When you give a table a correlation name, you cannot use the table name to qualify columns.</mrk><mrk mid="3" mtype="seg"> You must use the correlation name when qualifying column names.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">No two items in the FROM clause can have the same correlation name, and no correlation name can be the same as an unqualified table name specified in that FROM clause.</source>
+<seg-source><mrk mid="0" mtype="seg">No two items in the FROM clause can have the same correlation name, and no correlation name can be the same as an unqualified table name specified in that FROM clause.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No two items in the FROM clause can have the same correlation name, and no correlation name can be the same as an unqualified table name specified in that FROM clause.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">In addition, you can give the columns of the table new names in the AS clause. Some situations in which this is useful:</source>
+<seg-source><mrk mid="0" mtype="seg">In addition, you can give the columns of the table new names in the AS clause.</mrk><mrk mid="1" mtype="seg"> Some situations in which this is useful:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In addition, you can give the columns of the table new names in the AS clause.</mrk><mrk mid="1" mtype="seg"> Some situations in which this is useful:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">When a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj11277.dita#rrefsqlj11277"&gt;</bpt>VALUES expression<ept id="1">&lt;/xref&gt;</ept> is used as a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftablesubquery.dita#rreftablesubquery"&gt;</bpt>tableSubquery<ept id="3">&lt;/xref&gt;</ept>,<ept id="2">&lt;/i&gt;</ept> since there is no other way to name the columns of a <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqlj11277.dita#rrefsqlj11277"&gt;</bpt>VALUES expression<ept id="4">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">When a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj11277.dita#rrefsqlj11277"&gt;</bpt>VALUES expression<ept id="1">&lt;/xref&gt;</ept> is used as a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftablesubquery.dita#rreftablesubquery"&gt;</bpt>tableSubquery<ept id="3">&lt;/xref&gt;</ept>,<ept id="2">&lt;/i&gt;</ept> since there is no other way to name the columns of a <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqlj11277.dita#rrefsqlj11277"&gt;</bpt>VALUES expression<ept id="4">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj11277.dita#rrefsqlj11277"&gt;</bpt>VALUES expression<ept id="1">&lt;/xref&gt;</ept> is used as a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftablesubquery.dita#rreftablesubquery"&gt;</bpt>tableSubquery<ept id="3">&lt;/xref&gt;</ept>,<ept id="2">&lt;/i&gt;</ept> since there is no other way to name the columns of a <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqlj11277.dita#rrefsqlj11277"&gt;</bpt>VALUES expression<ept id="4">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">When column names would otherwise be the same as those of columns in other tables; renaming them means you don't have to qualify them.</source>
+<seg-source><mrk mid="0" mtype="seg">When column names would otherwise be the same as those of columns in other tables; renaming them means you don't have to qualify them.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When column names would otherwise be the same as those of columns in other tables; renaming them means you don't have to qualify them.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>query<ept id="1">&lt;/i&gt;</ept> in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftablesubquery.dita#rreftablesubquery"&gt;</bpt>tableSubquery<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> appearing in a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>fromItem<ept id="4">&lt;/i&gt;</ept> can contain multiple columns and return multiple rows.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>query<ept id="1">&lt;/i&gt;</ept> in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftablesubquery.dita#rreftablesubquery"&gt;</bpt>tableSubquery<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> appearing in a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>fromItem<ept id="4">&lt;/i&gt;</ept> can contain multiple columns and return multiple rows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>query<ept id="1">&lt;/i&gt;</ept> in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftablesubquery.dita#rreftablesubquery"&gt;</bpt>tableSubquery<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> appearing in a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>fromItem<ept id="4">&lt;/i&gt;</ept> can contain multiple columns and return multiple rows.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">For information about the optimizer overrides you can specify, see <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For information about the optimizer overrides you can specify, see <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For information about the optimizer overrides you can specify, see <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj33215.dita#rrefsqlj33215"&gt;</bpt>tableViewOrFunctionExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqlj29840.dita#rrefsqlj29840"&gt;</bpt>joinOperation<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj33215.dita#rrefsqlj33215"&gt;</bpt>tableViewOrFunctionExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqlj29840.dita#rrefsqlj29840"&gt;</bpt>joinOperation<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj33215.dita#rrefsqlj33215"&gt;</bpt>tableViewOrFunctionExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsqlj29840.dita#rrefsqlj29840"&gt;</bpt>joinOperation<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- SELECT from a JOIN expression <ept id="2">&lt;/ph&gt;</ept> SELECT E.EMPNO, E.LASTNAME, M.EMPNO, M.LASTNAME FROM EMPLOYEE E LEFT OUTER JOIN DEPARTMENT INNER JOIN EMPLOYEE M ON MGRNO = M.EMPNO ON E.WORKDEPT = DEPTNO <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- SELECT from a JOIN expression <ept id="2">&lt;/ph&gt;</ept> SELECT E.EMPNO, E.LASTNAME, M.EMPNO, M.LASTNAME FROM EMPLOYEE E LEFT OUTER JOIN DEPARTMENT INNER JOIN EMPLOYEE M ON MGRNO = M.EMPNO ON E.WORKDEPT = DEPTNO <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- SELECT from a JOIN expression <ept id="2">&lt;/ph&gt;</ept> SELECT E.EMPNO, E.LASTNAME, M.EMPNO, M.LASTNAME FROM EMPLOYEE E LEFT OUTER JOIN DEPARTMENT INNER JOIN EMPLOYEE M ON MGRNO = M.EMPNO ON E.WORKDEPT = DEPTNO <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

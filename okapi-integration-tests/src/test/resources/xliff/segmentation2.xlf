@@ -1,0 +1,52 @@
+<xliff version='1.2'
+       xmlns='urn:oasis:names:tc:xliff:document:1.2'>
+	   
+<file original='hello.txt' source-language='en' target-language='fr'
+       datatype='plaintext'>
+	   
+<body>
+
+<trans-unit id= "1">
+<source>First sentence.Second sentence.</source>
+<seg-source>
+<mrk mtype="seg" mid="1">First sentence.</mrk>
+<mrk mtype="seg" mid="2">Second sentence.</mrk>
+</seg-source>
+<target>
+<mrk mtype="seg" mid="1">Translated first sentence.</mrk>
+<mrk mtype="seg" mid="2">Translated second sentence.</mrk>
+</target>
+</trans-unit>
+
+<trans-unit id= "2">
+<source>First sentence.Second sentence.</source>
+<seg-source>
+<mrk mtype="seg" mid="1">First sentence.</mrk>
+<mrk mtype="seg" mid="2">Second sentence.</mrk>
+</seg-source>
+<alt-trans mid="2" match-quality="75%">
+<source>The second sentence.</source>
+<target>The translated second sentence.</target>
+</alt-trans>
+</trans-unit>
+
+<trans-unit id="3">
+<source>The second sentence.</source>
+<alt-trans match-quality="50%">
+<source>First sentence. Second sentence.</source>
+<seg-source>
+<mrk mtype="seg" mid="1">First sentence.</mrk>
+<mrk mtype="seg" mid="2">Second sentence.</mrk>
+</seg-source>
+<target>
+<mrk mtype="seg" mid="1">Translated first sentence.</mrk>
+<mrk mtype="seg" mid="2">Translated second sentence.</mrk>
+</target>
+</alt-trans>
+</trans-unit> 
+
+</body>
+
+</file>
+
+</xliff>

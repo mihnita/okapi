@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbcjavasqlsavepoint.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">java.sql.Savepoint interface</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.Savepoint interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.Savepoint interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">java.sql.Savepoint</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.Savepoint</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.Savepoint</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Savepoints (JDBC)</source>
+<seg-source><mrk mid="0" mtype="seg">Savepoints (JDBC)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Savepoints (JDBC)</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Savepoints</source>
+<seg-source><mrk mid="0" mtype="seg">Savepoints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Savepoints</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">setting and rollong back</source>
+<seg-source><mrk mid="0" mtype="seg">setting and rollong back</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setting and rollong back</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Savepoint<ept id="1">&lt;/i&gt;</ept> interface contains methods to set, release, or roll back a transaction to designated savepoints. Once a savepoint has been set, the transaction can be rolled back to that savepoint without affecting preceding work. Savepoints provide finer-grained control of transactions by marking intermediate points within a transaction.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Savepoint<ept id="1">&lt;/i&gt;</ept> interface contains methods to set, release, or roll back a transaction to designated savepoints.</mrk><mrk mid="1" mtype="seg"> Once a savepoint has been set, the transaction can be rolled back to that savepoint without affecting preceding work.</mrk><mrk mid="2" mtype="seg"> Savepoints provide finer-grained control of transactions by marking intermediate points within a transaction.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Savepoint<ept id="1">&lt;/i&gt;</ept> interface contains methods to set, release, or roll back a transaction to designated savepoints.</mrk><mrk mid="1" mtype="seg"> Once a savepoint has been set, the transaction can be rolled back to that savepoint without affecting preceding work.</mrk><mrk mid="2" mtype="seg"> Savepoints provide finer-grained control of transactions by marking intermediate points within a transaction.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support savepoints within a trigger.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support savepoints within a trigger.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support savepoints within a trigger.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not release locks as part of the rollback to savepoint.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not release locks as part of the rollback to savepoint.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not release locks as part of the rollback to savepoint.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">For more information on using savepoints, see the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information on using savepoints, see the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information on using savepoints, see the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

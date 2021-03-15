@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj41207.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">VARCHAR data type</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR data type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR data type</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">VARCHAR data type</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR data type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR data type</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">VARCHAR provides for variable-length storage of strings.</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR provides for variable-length storage of strings.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR provides for variable-length storage of strings.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ VARCHAR | CHAR VARYING | CHARACTER VARYING }(<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>length<ept id="2">&lt;/i&gt;</ept>) <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ VARCHAR | CHAR VARYING | CHARACTER VARYING }(<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>length<ept id="2">&lt;/i&gt;</ept>) <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ VARCHAR | CHAR VARYING | CHARACTER VARYING }(<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>length<ept id="2">&lt;/i&gt;</ept>) <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>length<ept id="1">&lt;/i&gt;</ept> is an unsigned integer constant. The maximum length for a VARCHAR string is 32,672 characters.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>length<ept id="1">&lt;/i&gt;</ept> is an unsigned integer constant.</mrk><mrk mid="1" mtype="seg"> The maximum length for a VARCHAR string is 32,672 characters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>length<ept id="1">&lt;/i&gt;</ept> is an unsigned integer constant.</mrk><mrk mid="1" mtype="seg"> The maximum length for a VARCHAR string is 32,672 characters.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Corresponding compile-time Java type</source>
+<seg-source><mrk mid="0" mtype="seg">Corresponding compile-time Java type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Corresponding compile-time Java type</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.String<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.String<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.String<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">JDBC metadata type (java.sql.Types)</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC metadata type (java.sql.Types)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC metadata type (java.sql.Types)</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not pad a VARCHAR value whose length is less than specified. <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> truncates spaces from a string value when a length greater than the VARCHAR expected is provided. Characters other than spaces are not truncated, and instead cause an exception to be raised. When <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj23075.dita#rrefsqlj23075"&gt;</bpt>comparison boolean operators<ept id="3">&lt;/xref&gt;</ept> are applied to VARCHARs, the lengths of the operands are not altered, and spaces at the end of the values are ignored.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not pad a VARCHAR value whose length is less than specified.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> truncates spaces from a string value when a length greater than the VARCHAR expected is provided.</mrk><mrk mid="2" mtype="seg"> Characters other than spaces are not truncated, and instead cause an exception to be raised.</mrk><mrk mid="3" mtype="seg"> When <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj23075.dita#rrefsqlj23075"&gt;</bpt>comparison boolean operators<ept id="3">&lt;/xref&gt;</ept> are applied to VARCHARs, the lengths of the operands are not altered, and spaces at the end of the values are ignored.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not pad a VARCHAR value whose length is less than specified.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> truncates spaces from a string value when a length greater than the VARCHAR expected is provided.</mrk><mrk mid="2" mtype="seg"> Characters other than spaces are not truncated, and instead cause an exception to be raised.</mrk><mrk mid="3" mtype="seg"> When <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj23075.dita#rrefsqlj23075"&gt;</bpt>comparison boolean operators<ept id="3">&lt;/xref&gt;</ept> are applied to VARCHARs, the lengths of the operands are not altered, and spaces at the end of the values are ignored.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">When CHARs and VARCHARs are mixed in expressions, the shorter value is padded with spaces to the length of the longer value.</source>
+<seg-source><mrk mid="0" mtype="seg">When CHARs and VARCHARs are mixed in expressions, the shorter value is padded with spaces to the length of the longer value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When CHARs and VARCHARs are mixed in expressions, the shorter value is padded with spaces to the length of the longer value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The type of a string constant is CHAR, not VARCHAR.</source>
+<seg-source><mrk mid="0" mtype="seg">The type of a string constant is CHAR, not VARCHAR.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The type of a string constant is CHAR, not VARCHAR.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">If you use a VARCHAR as a key column of an index, limit the maximum size of the VARCHAR to no more than half the page size to prevent inserts from failing. See "Page size and key size" in <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj20937.dita#rrefsqlj20937"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg">If you use a VARCHAR as a key column of an index, limit the maximum size of the VARCHAR to no more than half the page size to prevent inserts from failing.</mrk><mrk mid="1" mtype="seg"> See "Page size and key size" in <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj20937.dita#rrefsqlj20937"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you use a VARCHAR as a key column of an index, limit the maximum size of the VARCHAR to no more than half the page size to prevent inserts from failing.</mrk><mrk mid="1" mtype="seg"> See "Page size and key size" in <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj20937.dita#rrefsqlj20937"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

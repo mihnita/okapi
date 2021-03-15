@@ -1,0 +1,308 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Releasing Okapi</title>
+
+<style>
+  body { font-family: sans-serif }
+  h2 {
+    border-top: 1px #808080 solid;
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+  li { padding: .2em 0px; }
+  /* Inline pieces of code */
+  code { color: #800000; }
+  /* Blocks of text, but ignores line breaks
+   * Mostly things that can be copy-pasted "as is" in command line.
+   */
+  .codeBlock, .codeLine {
+    background-color: #dddddd;
+    font-family: Consolas, 'Source Code Pro', monospace;
+    font-size: 90%;
+    padding: 1em;
+  }
+  /* Think <pre><code>...</code></pre> */
+  .codeBlock {
+    padding: 0px 1em 1em 1em;
+    white-space: pre;
+  }
+  .warn::before {
+    content: 'Warning: ';
+    font-weight: bold;
+  }
+  .warn { color:  red; }
+</style>
+
+<script>
+  function init() {
+    var oldVersion = '1.42.0';
+    var newVersion = '1.43.0';
+
+    var content = document.getElementById('body');
+    var textContent = content.innerHTML;
+    var userAgent = "User-agent header sent: " + navigator.userAgent;
+    if (userAgent.toLowerCase().includes('windows')) {
+      textContent = textContent.replace(new RegExp('\\$OKAPI_ROOT', 'g'), '%OKAPI_ROOT%');
+      textContent = textContent.replace(new RegExp('\\$USER_KEY', 'g'), '%USER_KEY%');
+    }
+    textContent = textContent.replace(new RegExp('\\${OLD_VER}', 'g'), oldVersion);
+    textContent = textContent.replace(new RegExp('\\${NEW_VER}', 'g'), newVersion);
+    console.log("fooBar");
+    content.innerHTML = textContent;
+  }
+</script>
+
+</head>
+<body onload="init()" id="body">
+
+<h1>Release XLIFF Toolkit first!</h1>
+
+<p>The GitLab CI automatically builds and publishes to maven when a push to <code>master</code> is detected.</p>
+<p>Since Okapi depends on the XLIFF Toolkit (for xliff 2), it means that the release version of toolkit should be available for the Okapi release builds to pass.</p>
+
+<h1>Releasing Okapi</h1>
+
+<h2>Keep track of the changes between release in the Changes Log</h2>
+
+<p>in <code>$OKAPI_ROOT/deployment/shared/changes.html</code></p>
+
+<h2>Make sure all unit tests pass</h2>
+
+<p>Do a full rebuild of the Maven build:</p>
+
+<p class="codeBlock">
+cd $OKAPI_ROOT
+mvn clean install
+</p>
+
+<h2>Make sure platform-specific dependencies are downloaded:</h2>
+
+<p class="codeLine">mvn dependency:resolve -f okapi-ui/swt/core-ui/pom.xml -PWIN_SWT -PWIN_64_SWT -PCOCOA_64_SWT -PLinux_x86_swt -PLinux_x86_64_swt</p>
+
+<h2>Make sure the following files have the proper version and release numbers for this release:</h2>
+
+<p>All the <code>pom.xml</code> files. For example from <code>${OLD_VER}-SNAPSHOT</code> to <code>${OLD_VER}</code>:</p>
+
+<ul>
+  <li><code>cd $OKAPI_ROOT</code></li>
+  <li>Search if the are any existing <code>&lt;version&gt;${OLD_VER}&lt;/version&gt;</code>.
+      If there are you'll need to remember them and change them back manually when moving
+      to <code>M${NEW_VER}-SNAPSHOT</code>.<br>
+      <p class="codeLine">grep -r --include=pom.xml "version&gt;${OLD_VER}&lt;" .</p>
+  </li>
+  <li>Search all pom files for <code>&lt;version&gt;${OLD_VER}-SNAPSHOT&lt;/version&gt;</code> and replace by
+      <code>&lt;version&gt;${OLD_VER}&lt;/version&gt;</code>.<br>
+      <p class="codeLine">find . -name pom.xml -type f -exec sed -i 
+            -e 's/version&gt;${OLD_VER}-SNAPSHOT&lt;/version&gt;${OLD_VER}&lt;/g' {} \;</p>
+  </li>
+  <li><code>$OKAPI_ROOT/deployment/shared/release.properties</code> has also version numbers</li>
+  <li>The Change Log (<code>$OKAPI_ROOT/deployment/shared/changes.html</code>) has its titles set
+      with the proper versions</li>
+</ul>
+
+<h2>Consider reformatting all <code>pom.xml</code> files</h2>
+
+<p class="codeBlock">
+mvn com.github.ekryd.sortpom:sortpom-maven-plugin:sort -Dsort.createBackupFile=false -Dsort.keepBlankLines -Dsort.predefinedSortOrder=recommended_2008_06
+</p>
+
+<h2>Rebuild all</h2>
+
+<p>Make sure you build with <span style="color:red">Java 8</span>,
+  and use the <span style="color:red">with_sources</span>
+  and <span style="color:red">with_javadoc</span> profiles!</p>
+
+<p class="codeBlock">
+mvn clean
+mvn install -P with_sources,with_javadoc
+
+mvn dependency:resolve -f okapi-ui/swt/core-ui/pom.xml -PWIN_SWT -PWIN_64_SWT -PCOCOA_64_SWT -PLinux_x86_swt -PLinux_x86_64_swt
+
+ant clean -f deployment/maven
+ant -f deployment/maven
+
+mvn clean -f applications/integration-tests
+mvn verify -f applications/integration-tests
+</p>
+
+<p>This will re-compile, tests, and create the packages.
+Then rebuild all distributions for all platforms.
+Then run the integration tests for the applications</p>
+
+<p><strong>NOTE:</strong> If you are not using the default local maven repository you will need to
+   update the <code>mavenStore</code> property in <code>build_okapi_apps.xml</code></p>
+
+<h2>If you have <code>$OKAPI_ROOT/deployment/privateTests</code></h2>
+
+<p>Go there and run the tests with non-sharable material</p>
+
+<h2>Test under different platforms</h2>
+
+<p>Try covering Windows, Mac OS, and Linux.</p>
+
+<h2>Upload the zip files to Bintray at https://bintray.com/okapi/Distribution</h2>
+
+<p class="warn">You will need a user and password to Bintray, and approval to publish to Okapi.</p>
+
+<p>The files from the previous step are in <code>$OKAPI_ROOT/deployment/maven/done</code></p>
+
+<p>You can use <code>curl</code> to upload the files directly
+   (and create the proper folders at the same time).<br>
+From <code>$OKAPI_ROOT/deployment/maven/done</code> run
+</p>
+
+<p class="codeBlock">
+Linux or Mac OS:
+    export USER_KEY=<i>&lt;bitbucket_user>:&lt;bitbucket_key></i>
+Windows:
+    set USER_KEY=<i>&lt;bitbucket_user>:&lt;bitbucket_key></i>
+
+curl -k -T okapi-apps_win32-x86_${OLD_VER}.zip         -u$USER_KEY https://api.bintray.com/content/okapi/Distribution/Okapi_Applications/M${OLD_VER}/okapi-apps_win32-x86_${OLD_VER}.zip
+curl -k -T okapi-apps_win32-x86_64_${OLD_VER}.zip      -u$USER_KEY https://api.bintray.com/content/okapi/Distribution/Okapi_Applications/M${OLD_VER}/okapi-apps_win32-x86_64_${OLD_VER}.zip
+
+curl -k -T okapi-apps_gtk2-linux-x86_${OLD_VER}.zip    -u$USER_KEY https://api.bintray.com/content/okapi/Distribution/Okapi_Applications/M${OLD_VER}/okapi-apps_gtk2-linux-x86_${OLD_VER}.zip
+curl -k -T okapi-apps_gtk2-linux-x86_64_${OLD_VER}.zip -u$USER_KEY https://api.bintray.com/content/okapi/Distribution/Okapi_Applications/M${OLD_VER}/okapi-apps_gtk2-linux-x86_64_${OLD_VER}.zip
+
+curl -k -T okapi-lib_all-platforms_${OLD_VER}.zip      -u$USER_KEY https://api.bintray.com/content/okapi/Distribution/Okapi_Lib/M${OLD_VER}/okapi-lib_all-platforms_${OLD_VER}.zip
+</p>
+
+<p>Once the files are uploaded, you need to go to Bintray and publish them,
+   and set the short descriptions.</p>
+
+<h2>Make sure all files of the Web site are updated (<code>$OKAPI_ROOT/website</code>)</h2>
+
+<p>e.g. the <code>update.html</code> file needs the latest version info
+Build the Web site: </p>
+
+<p class="codeBlock">
+ant -f deployment/website
+</p>
+
+<p>And update the actual Web site with the result of the build (which is in:
+   <code>$OKAPI_ROOT/deployment/website/dist</code>):</p>
+
+<blockquote>
+  <strong>Host:</strong> ftp.opentag.com<br>
+  <strong>Username:</strong> same as for the shared documents<br>
+  <strong>Password:</strong> same as for the shared documents<br>
+  <strong>Start directory:</strong> okapi
+</blockquote>
+
+<p class="warn">You will need a user and password to opentag.com.</p>
+
+<p>The structure in the okapi directory is the same as in trunk/website
+(but there are additional directories in the okapi web site directory).<br>
+Note that most of the time only the javadoc and the HTML files at the root will change.</p>
+
+<ul>
+  <li>Upload the files in: <code>$OKAPI_ROOT\deployment\maven\dist_plugins</code>
+      to the <code>plugins</code> directory of the web site
+      (and remove old versions if needed)
+  </li>
+</ul>
+
+<h2>Commit all changed files, and tag</h2>
+
+<p>Make sure the <code>master</code> branch of the source code is updated to this
+   <code>dev</code> latest version.<br>
+   This revision is the one for this release.
+</p>
+
+<p>Git commit all:</p>
+
+<p class="codeBlock">
+git add -A
+git commit -m "The ${OLD_VER} release"
+</p>
+
+<p class="codeBlock">
+git checkout master
+git merge dev
+</p>
+
+<p>Then create a tag for the release and push:</p>
+<p class="codeBlock">
+git tag v${OLD_VER}
+git push origin v${OLD_VER}
+</p>
+
+<p>GitLab CI will kick in, build and publish a release for the <code>${OLD_VER}</code> tag.</p>
+
+<h2>Switch to the <code>dev</code> branch</h2>
+
+<ul>
+  <li>Update the versions numbers in the files for the next version</li>
+  <li>All the <code>pom.xml</code> files (<code>&lt;version&gt;</code> and
+      <code>&lt;okapi.version&gt;</code>)</li>
+  <li><code>$OKAPI_ROOT/deployment/shared/release.properties</code></li>
+  <li><code>$OKAPI_ROOT/deployment/shared/changes.html</code>
+    (make the Changes Log ready for next set of changes)</li>
+  <li>Rebuild all. Make sure tests pass.</li>
+  <li>Commit all changed files.</li>
+  <li>Make sure <code>dev</code> branch is up-to-date</li>
+</ul>
+
+<p>Now any new build will be a snapshot of the next release</p>
+
+<h2>Update the Main Page in the OkapiWiki to reflect the new latest release</h2>
+
+<p><a href="http://www.opentag.com/okapi/wiki/index.php?title=Main_Page">http://www.opentag.com/okapi/wiki/index.php?title=Main_Page</a></p>
+<p class="warn">You will need a wiki account and admin/bureaucrat rights.</p>
+
+<h2>Update the Wikipedia Okapi Framework page</h2>
+
+<p>Here: <a href="https://en.wikipedia.org/wiki/Okapi_Framework">https://en.wikipedia.org/wiki/Okapi_Framework</a></p>
+
+<p>You don't need an account for this, just select the “Edit” tab.</p>
+
+<h2>Bitbucket Issues: create <code>M${OLD_VER}</code> milestone and <code>M${NEW_VER}</code> version</h2>
+
+<ul>
+  <li><a href="https://bitbucket.org/okapiframework/okapi/admin/issues/versions">https://bitbucket.org/okapiframework/okapi/admin/issues/versions</a></li>
+  <li><a href="https://bitbucket.org/okapiframework/okapi/admin/issues/milestones">https://bitbucket.org/okapiframework/okapi/admin/issues/milestones</a></li>
+</ul>
+
+<h2>Publish the maven artifacts to Maven Central</h2>
+
+<p>Wait until the <a href="https://gitlab.com/okapiframework/okapi/-/pipelines">GitLab CI build</a> finshes (and of course it is all green :-).</p>
+
+<p>Then go to <a href="https://oss.sonatype.org">Sonatype OSS</a>) and <strong>"Log In"</strong> (top-right).</p>
+
+<p>On the left side, under the <strong>"Build Promotion"</strong> section, click <strong>"Staging Repositories"</strong>.</p>
+
+<p>Find the result of the build in the table and check that it is the correct one (normally there is only one entry there).<br>
+Will be named something like netsfokapi-1234 (the number changes), profile: net.sf.okapi, status: closed, description: net.sf.okapi:build-okapi-superpom:${OLD_VER}<br>
+Also check the time stamp (the <strong>"Updated"</strong> column).</p>
+
+<p>Check the checkbox next to it and click the <strong>"Release"</strong> button above (at the top of the table).</p>
+
+<p>It will take a while, then the entry will disapear from Sonatype.<br>
+You should be able to check that the artifacts are published at
+<a href="https://repo1.maven.org/maven2/net/sf/okapi/okapi-core/${OLD_VER}/">https://repo1.maven.org/maven2/net/sf/okapi/okapi-core/${OLD_VER}/</a><br>
+But it will take a while until it shows in searches under <a href="https://search.maven.org">https://search.maven.org</a>
+and <a href="https://mvnrepository.com">https://mvnrepository.com</a>.<br>
+That's because updating the search indexes can take several hours.
+</p>
+
+<h2>Post notifications that a new release is available.</h2>
+
+<p>Send an email to okapi-users@googlegroups.com, and an announcement on Twitter.<br>
+The tweet has a link to the Google Group anouncement, so you need to do that first.</p>
+
+<p>Here you can see examples of <a href="https://groups.google.com/g/okapi-users/c/b0u8rxVr7o8">Google groups</a>
+and <a href="https://twitter.com/OkapiFramework/status/1287161777772404736">Twitter</a> notifications.</p>
+
+<p class="warn">You will need the password for the Twitter account.</p>
+<p class="warn">You will need a Yahoo email and membership to the okapitools groups. That membership requires approval.</p>
+
+<h2>Post-Okapi releases</h2>
+
+<ul>
+  <li>Ping Aaron for a signed Mac release</li>
+  <li>Release the OmegaT plugin</li>
+  <li>Ping Chase to release Longhorn</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsyscsdiagerrormessages.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_DIAG.ERROR_MESSAGES diagnostic table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_DIAG.ERROR_MESSAGES diagnostic table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_DIAG.ERROR_MESSAGES diagnostic table</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">diagnostic tables</source>
+<seg-source><mrk mid="0" mtype="seg">diagnostic tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">diagnostic tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SYSCS_DIAG.ERROR_MESSAGES</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_DIAG.ERROR_MESSAGES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_DIAG.ERROR_MESSAGES</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SYSCS_DIAG.ERROR_MESSAGES diagnostic table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_DIAG.ERROR_MESSAGES diagnostic table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_DIAG.ERROR_MESSAGES diagnostic table</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The SYSCS_DIAG.ERROR_MESSAGES diagnostic table shows all of the SQLStates, locale-sensitive error messages, and exception severities for a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database. You can reference the SYSCS_DIAG.ERROR_MESSAGES diagnostic table directly in a statement.</source>
+<seg-source><mrk mid="0" mtype="seg">The SYSCS_DIAG.ERROR_MESSAGES diagnostic table shows all of the SQLStates, locale-sensitive error messages, and exception severities for a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database.</mrk><mrk mid="1" mtype="seg"> You can reference the SYSCS_DIAG.ERROR_MESSAGES diagnostic table directly in a statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SYSCS_DIAG.ERROR_MESSAGES diagnostic table shows all of the SQLStates, locale-sensitive error messages, and exception severities for a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database.</mrk><mrk mid="1" mtype="seg"> You can reference the SYSCS_DIAG.ERROR_MESSAGES diagnostic table directly in a statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">For example:</source>
+<seg-source><mrk mid="0" mtype="seg">For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SELECT * FROM SYSCS_DIAG.ERROR_MESSAGES</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT * FROM SYSCS_DIAG.ERROR_MESSAGES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT * FROM SYSCS_DIAG.ERROR_MESSAGES</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">All users can access this diagnostic table, whether or not the database has authentication and SQL authorization enabled.</source>
+<seg-source><mrk mid="0" mtype="seg">All users can access this diagnostic table, whether or not the database has authentication and SQL authorization enabled.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All users can access this diagnostic table, whether or not the database has authentication and SQL authorization enabled.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The table has the columns shown in the following table.</source>
+<seg-source><mrk mid="0" mtype="seg">The table has the columns shown in the following table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The table has the columns shown in the following table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Columns in the SYSCS_DIAG.ERROR_MESSAGES table</source>
+<seg-source><mrk mid="0" mtype="seg">Columns in the SYSCS_DIAG.ERROR_MESSAGES table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Columns in the SYSCS_DIAG.ERROR_MESSAGES table</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">For the columns in the SYSCS_DIAG.ERROR_MESSAGES table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</source>
+<seg-source><mrk mid="0" mtype="seg">For the columns in the SYSCS_DIAG.ERROR_MESSAGES table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For the columns in the SYSCS_DIAG.ERROR_MESSAGES table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Column Name</source>
+<seg-source><mrk mid="0" mtype="seg">Column Name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column Name</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Length</source>
+<seg-source><mrk mid="0" mtype="seg">Length</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Length</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Nullable</source>
+<seg-source><mrk mid="0" mtype="seg">Nullable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nullable</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Contents</source>
+<seg-source><mrk mid="0" mtype="seg">Contents</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contents</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">SQL_STATE</source>
+<seg-source><mrk mid="0" mtype="seg">SQL_STATE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL_STATE</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">5</source>
+<seg-source><mrk mid="0" mtype="seg">5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">5</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLState<ept id="1">&lt;/i&gt;</ept> of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="2">&lt;/i&gt;</ept> (that is, the value returned by <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQLException.getSQLState()<ept id="3">&lt;/i&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLState<ept id="1">&lt;/i&gt;</ept> of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="2">&lt;/i&gt;</ept> (that is, the value returned by <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQLException.getSQLState()<ept id="3">&lt;/i&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLState<ept id="1">&lt;/i&gt;</ept> of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="2">&lt;/i&gt;</ept> (that is, the value returned by <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQLException.getSQLState()<ept id="3">&lt;/i&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">MESSAGE</source>
+<seg-source><mrk mid="0" mtype="seg">MESSAGE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MESSAGE</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">32672</source>
+<seg-source><mrk mid="0" mtype="seg">32672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32672</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">The error message (that is, the value returned by <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLException.getMessage()<ept id="1">&lt;/i&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">The error message (that is, the value returned by <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLException.getMessage()<ept id="1">&lt;/i&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The error message (that is, the value returned by <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLException.getMessage()<ept id="1">&lt;/i&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">SEVERITY</source>
+<seg-source><mrk mid="0" mtype="seg">SEVERITY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SEVERITY</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> code for the severity (that is, the value returned by <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLException.getErrorCode()<ept id="2">&lt;/i&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> code for the severity (that is, the value returned by <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLException.getErrorCode()<ept id="2">&lt;/i&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> code for the severity (that is, the value returned by <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLException.getErrorCode()<ept id="2">&lt;/i&gt;</ept>).</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevsetprop11561.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Changing the system-wide properties programmatically</source>
+<seg-source><mrk mid="0" mtype="seg">Changing the system-wide properties programmatically</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Changing the system-wide properties programmatically</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You can set properties programmatically -- either in application code before booting the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> driver or as a command-line option to the Java Virtual Machine (JVM) when booting the application that starts up <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You can set properties programmatically -- either in application code before booting the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> driver or as a command-line option to the Java Virtual Machine (JVM) when booting the application that starts up <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can set properties programmatically -- either in application code before booting the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> driver or as a command-line option to the Java Virtual Machine (JVM) when booting the application that starts up <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">system properties</source>
+<seg-source><mrk mid="0" mtype="seg">system properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">setting on command line</source>
+<seg-source><mrk mid="0" mtype="seg">setting on command line</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setting on command line</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">properties</source>
+<seg-source><mrk mid="0" mtype="seg">properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">setting using a Properties object</source>
+<seg-source><mrk mid="0" mtype="seg">setting using a Properties object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setting using a Properties object</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">system properties</source>
+<seg-source><mrk mid="0" mtype="seg">system properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">setting in a Properties object</source>
+<seg-source><mrk mid="0" mtype="seg">setting in a Properties object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setting in a Properties object</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">When you set properties programmatically, these properties persist only for the duration of the application. Properties set programmatically are not written to the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file or made persistent in any other way by <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">When you set properties programmatically, these properties persist only for the duration of the application.</mrk><mrk mid="1" mtype="seg"> Properties set programmatically are not written to the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file or made persistent in any other way by <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you set properties programmatically, these properties persist only for the duration of the application.</mrk><mrk mid="1" mtype="seg"> Properties set programmatically are not written to the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.properties<ept id="1">&lt;/i&gt;</ept> file or made persistent in any other way by <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Setting properties programmatically works only for the application that starts up <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>; for example, for an application in an embedded environment or for the application server that starts up a server product. It does not work for client applications connecting to a server that is running.</source>
+<seg-source><mrk mid="0" mtype="seg">Setting properties programmatically works only for the application that starts up <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>; for example, for an application in an embedded environment or for the application server that starts up a server product.</mrk><mrk mid="1" mtype="seg"> It does not work for client applications connecting to a server that is running.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Setting properties programmatically works only for the application that starts up <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>; for example, for an application in an embedded environment or for the application server that starts up a server product.</mrk><mrk mid="1" mtype="seg"> It does not work for client applications connecting to a server that is running.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">You can set properties programmatically in the following ways:</source>
+<seg-source><mrk mid="0" mtype="seg">You can set properties programmatically in the following ways:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can set properties programmatically in the following ways:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="cdevsetprop11561.dita#cdevsetprop11561/comparam"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="cdevsetprop11561.dita#cdevsetprop11561/comparam"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="cdevsetprop11561.dita#cdevsetprop11561/comparam"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="cdevsetprop11561.dita#cdevsetprop11561/propobj"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="cdevsetprop11561.dita#cdevsetprop11561/propobj"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="cdevsetprop11561.dita#cdevsetprop11561/propobj"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">As a parameter to the JVM command line</source>
+<seg-source><mrk mid="0" mtype="seg">As a parameter to the JVM command line</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">As a parameter to the JVM command line</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">You can set system-wide properties as parameters to the JVM command line when you start up the application or framework in which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is embedded. To do so, you typically use the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>-D<ept id="2">&lt;/i&gt;</ept> option. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">You can set system-wide properties as parameters to the JVM command line when you start up the application or framework in which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is embedded.</mrk><mrk mid="1" mtype="seg"> To do so, you typically use the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>-D<ept id="2">&lt;/i&gt;</ept> option.</mrk><mrk mid="2" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can set system-wide properties as parameters to the JVM command line when you start up the application or framework in which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is embedded.</mrk><mrk mid="1" mtype="seg"> To do so, you typically use the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>-D<ept id="2">&lt;/i&gt;</ept> option.</mrk><mrk mid="2" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Dderby.system.home=C:\home\<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>\ -Dderby.storage.pageSize=8192 JDBCTest<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Dderby.system.home=C:\home\<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>\ -Dderby.storage.pageSize=8192 JDBCTest<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Dderby.system.home=C:\home\<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>\ -Dderby.storage.pageSize=8192 JDBCTest<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Using a Properties object within an application or statement</source>
+<seg-source><mrk mid="0" mtype="seg">Using a Properties object within an application or statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using a Properties object within an application or statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">In embedded mode, your application runs in the same JVM as <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, so you can also set system properties within an application using a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="2">&lt;/i&gt;</ept> object before loading the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> JDBC driver. The following example sets <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="4">&lt;/i&gt;</ept> on Windows.</source>
+<seg-source><mrk mid="0" mtype="seg">In embedded mode, your application runs in the same JVM as <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, so you can also set system properties within an application using a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="2">&lt;/i&gt;</ept> object before loading the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> JDBC driver.</mrk><mrk mid="1" mtype="seg"> The following example sets <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="4">&lt;/i&gt;</ept> on Windows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In embedded mode, your application runs in the same JVM as <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, so you can also set system properties within an application using a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="2">&lt;/i&gt;</ept> object before loading the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> JDBC driver.</mrk><mrk mid="1" mtype="seg"> The following example sets <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="4">&lt;/i&gt;</ept> on Windows.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Properties p = System.getProperties(); p.setProperty("derby.system.home", "C:\databases\sample");<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Properties p = System.getProperties(); p.setProperty("derby.system.home", "C:\databases\sample");<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Properties p = System.getProperties(); p.setProperty("derby.system.home", "C:\databases\sample");<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">If you pass in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="1">&lt;/i&gt;</ept> object as an argument to the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection<ept id="2">&lt;/i&gt;</ept> call when connecting to a database, those properties are used as database connection URL attributes, not as properties of the type discussed in this section. For more information, see <bpt id="3" ctype="x-xref">&lt;xref href="cdevdvlp34964.dita#cdevdvlp34964"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> and <bpt id="4" ctype="x-xref">&lt;xref href="cdevdvlp51654.dita#cdevdvlp51654"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept> as well as the <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If you pass in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="1">&lt;/i&gt;</ept> object as an argument to the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection<ept id="2">&lt;/i&gt;</ept> call when connecting to a database, those properties are used as database connection URL attributes, not as properties of the type discussed in this section.</mrk><mrk mid="1" mtype="seg"> For more information, see <bpt id="3" ctype="x-xref">&lt;xref href="cdevdvlp34964.dita#cdevdvlp34964"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> and <bpt id="4" ctype="x-xref">&lt;xref href="cdevdvlp51654.dita#cdevdvlp51654"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept> as well as the <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you pass in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="1">&lt;/i&gt;</ept> object as an argument to the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection<ept id="2">&lt;/i&gt;</ept> call when connecting to a database, those properties are used as database connection URL attributes, not as properties of the type discussed in this section.</mrk><mrk mid="1" mtype="seg"> For more information, see <bpt id="3" ctype="x-xref">&lt;xref href="cdevdvlp34964.dita#cdevdvlp34964"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> and <bpt id="4" ctype="x-xref">&lt;xref href="cdevdvlp51654.dita#cdevdvlp51654"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept> as well as the <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

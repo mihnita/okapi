@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts50894.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Debugging deadlocks</source>
+<seg-source><mrk mid="0" mtype="seg">Debugging deadlocks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Debugging deadlocks</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">If deadlocks occur frequently in your multi-user system with a particular application, you might need to do some debugging.</source>
+<seg-source><mrk mid="0" mtype="seg">If deadlocks occur frequently in your multi-user system with a particular application, you might need to do some debugging.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If deadlocks occur frequently in your multi-user system with a particular application, you might need to do some debugging.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides the SYSCS_DIAG.LOCK_TABLE diagnostic table to help you debug deadlocks. This diagnostic table shows all of the locks that are currently held in the <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> database. You can reference the SYSCS_DIAG.LOCK_TABLE diagnostic table directly in a statement.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides the SYSCS_DIAG.LOCK_TABLE diagnostic table to help you debug deadlocks.</mrk><mrk mid="1" mtype="seg"> This diagnostic table shows all of the locks that are currently held in the <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> database.</mrk><mrk mid="2" mtype="seg"> You can reference the SYSCS_DIAG.LOCK_TABLE diagnostic table directly in a statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides the SYSCS_DIAG.LOCK_TABLE diagnostic table to help you debug deadlocks.</mrk><mrk mid="1" mtype="seg"> This diagnostic table shows all of the locks that are currently held in the <bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> database.</mrk><mrk mid="2" mtype="seg"> You can reference the SYSCS_DIAG.LOCK_TABLE diagnostic table directly in a statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">For example:</source>
+<seg-source><mrk mid="0" mtype="seg">For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SELECT * FROM SYSCS_DIAG.LOCK_TABLE</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT * FROM SYSCS_DIAG.LOCK_TABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT * FROM SYSCS_DIAG.LOCK_TABLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">When the SYSCS_DIAG.LOCK_TABLE diagnostic table is referenced in a statement, a snapshot of the lock table is taken.</source>
+<seg-source><mrk mid="0" mtype="seg">When the SYSCS_DIAG.LOCK_TABLE diagnostic table is referenced in a statement, a snapshot of the lock table is taken.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the SYSCS_DIAG.LOCK_TABLE diagnostic table is referenced in a statement, a snapshot of the lock table is taken.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">For more information about how to use this table, see "SYSCS_DIAG.LOCK_TABLE diagnostic table" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information about how to use this table, see "SYSCS_DIAG.LOCK_TABLE diagnostic table" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information about how to use this table, see "SYSCS_DIAG.LOCK_TABLE diagnostic table" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">You can also set the property <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTrace<ept id="1">&lt;/i&gt;</ept> to dump additional information to the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.log<ept id="2">&lt;/i&gt;</ept> file about any deadlocks that occur on your system. See <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for more information on this property. Also see "Monitoring deadlocks" in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You can also set the property <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTrace<ept id="1">&lt;/i&gt;</ept> to dump additional information to the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.log<ept id="2">&lt;/i&gt;</ept> file about any deadlocks that occur on your system.</mrk><mrk mid="1" mtype="seg"> See <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for more information on this property.</mrk><mrk mid="2" mtype="seg"> Also see "Monitoring deadlocks" in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can also set the property <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTrace<ept id="1">&lt;/i&gt;</ept> to dump additional information to the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.log<ept id="2">&lt;/i&gt;</ept> file about any deadlocks that occur on your system.</mrk><mrk mid="1" mtype="seg"> See <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for more information on this property.</mrk><mrk mid="2" mtype="seg"> Also see "Monitoring deadlocks" in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Additional general information about diagnosing locking problems can be found in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Wiki at <bpt id="2" ctype="x-xref">&lt;xref format="html"
+        href="http://wiki.apache.org/db-derby/LockDebugging" scope="external"&gt;</bpt> http://wiki.apache.org/db-derby/LockDebugging<ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Additional general information about diagnosing locking problems can be found in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Wiki at <bpt id="2" ctype="x-xref">&lt;xref format="html"
+        href="http://wiki.apache.org/db-derby/LockDebugging" scope="external"&gt;</bpt> http://wiki.apache.org/db-derby/LockDebugging<ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Additional general information about diagnosing locking problems can be found in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Wiki at <bpt id="2" ctype="x-xref">&lt;xref format="html"
+        href="http://wiki.apache.org/db-derby/LockDebugging" scope="external"&gt;</bpt> http://wiki.apache.org/db-derby/LockDebugging<ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

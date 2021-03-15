@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="TYPO3" source-language="en" target-language="de" datatype="x-database" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="123">
+<trans-unit id="1" resname="$key" maxwidth="50" size-unit="pixel" restype="heading">
+<source xml:lang="en">I am a headline</source>
+<seg-source><mrk mid="0" mtype="seg">I am a headline</mrk></seg-source>
+<target xml:lang="de"><mrk mid="0" mtype="seg">Ich bin eine Überschrift</mrk></target>
+</trans-unit>
+<trans-unit id="2" resname="$key" restype="string">
+<source xml:lang="en">This is my source text to be translated.</source>
+<seg-source><mrk mid="0" mtype="seg">This is my source text to be translated.</mrk></seg-source>
+<target xml:lang="de"><mrk mid="0" mtype="seg">Dies ist der übersetzte Text.</mrk></target>
+</trans-unit>
+<trans-unit id="3" resname="$key" restype="string">
+<source xml:lang="en">This is a sentence with a <bpt id="1" ctype="bold"></bpt>bold<ept id="1"></ept>word.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a sentence with a <bpt id="1" ctype="bold"></bpt>bold<ept id="1"></ept>word.</mrk></seg-source>
+<target xml:lang="de"><mrk mid="0" mtype="seg">Dies ist ein Satz mit einem <bpt id="1" ctype="bold"></bpt>fettgedruckten Wort<ept id="1"></ept></mrk></target>
+</trans-unit>
+<trans-unit id="4" resname="$key" restype="string">
+<source xml:lang="en">This is a sentence with a &lt;b&gt;bold&lt;/b&gt;word.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a sentence with a &lt;b&gt;bold&lt;/b&gt;word.</mrk></seg-source>
+<target xml:lang="de"><mrk mid="0" mtype="seg">Dies ist ein Satz mit einem &lt;bold&gt;fettgedruckten&lt;/bold&gt; Wort.</mrk></target>
+</trans-unit>
+<trans-unit id="5" resname="$key" restype="string">
+<source xml:lang="en">--empty--</source>
+<seg-source><mrk mid="0" mtype="seg">--empty--</mrk></seg-source>
+<target xml:lang="de"><mrk mid="0" mtype="seg">--empty--</mrk></target>
+</trans-unit>
+<trans-unit id="6" resname="$key" maxwidth="12" size-unit="pixel" restype="menuitem">
+<source xml:lang="en">Menu entry</source>
+<seg-source><mrk mid="0" mtype="seg">Menu entry</mrk></seg-source>
+<target xml:lang="de"><mrk mid="0" mtype="seg">Menu entry</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

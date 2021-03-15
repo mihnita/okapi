@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj23075.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Boolean expressions</source>
+<seg-source><mrk mid="0" mtype="seg">Boolean expressions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Boolean expressions</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Boolean expressions</source>
+<seg-source><mrk mid="0" mtype="seg">Boolean expressions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Boolean expressions</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Boolean operators</source>
+<seg-source><mrk mid="0" mtype="seg">Boolean operators</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Boolean operators</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">part of WHERE clause</source>
+<seg-source><mrk mid="0" mtype="seg">part of WHERE clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">part of WHERE clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">AND boolean operator</source>
+<seg-source><mrk mid="0" mtype="seg">AND boolean operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AND boolean operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">OR boolean operator</source>
+<seg-source><mrk mid="0" mtype="seg">OR boolean operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OR boolean operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">NOT boolean operator</source>
+<seg-source><mrk mid="0" mtype="seg">NOT boolean operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NOT boolean operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Comparison boolean operators</source>
+<seg-source><mrk mid="0" mtype="seg">Comparison boolean operators</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Comparison boolean operators</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">IS NULL boolean operator</source>
+<seg-source><mrk mid="0" mtype="seg">IS NULL boolean operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IS NULL boolean operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">IS NOT NULL boolean operator</source>
+<seg-source><mrk mid="0" mtype="seg">IS NOT NULL boolean operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IS NOT NULL boolean operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">LIKE boolean operator</source>
+<seg-source><mrk mid="0" mtype="seg">LIKE boolean operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LIKE boolean operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">LIKE</source>
+<seg-source><mrk mid="0" mtype="seg">LIKE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LIKE</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">escape character for</source>
+<seg-source><mrk mid="0" mtype="seg">escape character for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">escape character for</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">BETWEEN boolean operator</source>
+<seg-source><mrk mid="0" mtype="seg">BETWEEN boolean operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BETWEEN boolean operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">IN boolean operator</source>
+<seg-source><mrk mid="0" mtype="seg">IN boolean operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IN boolean operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">EXISTS boolean operator</source>
+<seg-source><mrk mid="0" mtype="seg">EXISTS boolean operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EXISTS boolean operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Quantified comparison boolean operator</source>
+<seg-source><mrk mid="0" mtype="seg">Quantified comparison boolean operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Quantified comparison boolean operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Boolean expressions are expressions that result in boolean values. Most of the expressions listed in the table <ph id="1" ctype="x-xref">&lt;xref href="rrefsqlj19433.dita#rrefsqlj19433/sqlj18370"/&gt;</ph> can result in boolean values.</source>
+<seg-source><mrk mid="0" mtype="seg">Boolean expressions are expressions that result in boolean values.</mrk><mrk mid="1" mtype="seg"> Most of the expressions listed in the table <ph id="1" ctype="x-xref">&lt;xref href="rrefsqlj19433.dita#rrefsqlj19433/sqlj18370"/&gt;</ph> can result in boolean values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Boolean expressions are expressions that result in boolean values.</mrk><mrk mid="1" mtype="seg"> Most of the expressions listed in the table <ph id="1" ctype="x-xref">&lt;xref href="rrefsqlj19433.dita#rrefsqlj19433/sqlj18370"/&gt;</ph> can result in boolean values.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Boolean expressions are allowed in the following clauses and operations:</source>
+<seg-source><mrk mid="0" mtype="seg">Boolean expressions are allowed in the following clauses and operations:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Boolean expressions are allowed in the following clauses and operations:</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33602.dita#rrefsqlj33602"&gt;</bpt>WHERE clause<ept id="1">&lt;/xref&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33602.dita#rrefsqlj33602"&gt;</bpt>WHERE clause<ept id="1">&lt;/xref&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33602.dita#rrefsqlj33602"&gt;</bpt>WHERE clause<ept id="1">&lt;/xref&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Check constraints (boolean expressions in check constraints have limitations; see <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj13590.dita#rrefsqlj13590"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details)</source>
+<seg-source><mrk mid="0" mtype="seg">Check constraints (boolean expressions in check constraints have limitations; see <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj13590.dita#rrefsqlj13590"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check constraints (boolean expressions in check constraints have limitations; see <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj13590.dita#rrefsqlj13590"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details)</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="rrefcase.dita#rrefcase"&gt;</bpt>CASE expression<ept id="1">&lt;/xref&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefcase.dita#rrefcase"&gt;</bpt>CASE expression<ept id="1">&lt;/xref&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefcase.dita#rrefcase"&gt;</bpt>CASE expression<ept id="1">&lt;/xref&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj14854.dita#rrefsqlj14854"&gt;</bpt>HAVING clause<ept id="1">&lt;/xref&gt;</ept> (with restrictions)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj14854.dita#rrefsqlj14854"&gt;</bpt>HAVING clause<ept id="1">&lt;/xref&gt;</ept> (with restrictions)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj14854.dita#rrefsqlj14854"&gt;</bpt>HAVING clause<ept id="1">&lt;/xref&gt;</ept> (with restrictions)</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">ON clauses of <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj35034.dita#rrefsqlj35034"&gt;</bpt>INNER JOIN<ept id="1">&lt;/xref&gt;</ept>, <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj18922.dita#rrefsqlj18922"&gt;</bpt>LEFT OUTER JOIN<ept id="2">&lt;/xref&gt;</ept>, and <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj57522.dita#rrefsqlj57522"&gt;</bpt>RIGHT OUTER JOIN<ept id="3">&lt;/xref&gt;</ept> operations</source>
+<seg-source><mrk mid="0" mtype="seg">ON clauses of <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj35034.dita#rrefsqlj35034"&gt;</bpt>INNER JOIN<ept id="1">&lt;/xref&gt;</ept>, <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj18922.dita#rrefsqlj18922"&gt;</bpt>LEFT OUTER JOIN<ept id="2">&lt;/xref&gt;</ept>, and <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj57522.dita#rrefsqlj57522"&gt;</bpt>RIGHT OUTER JOIN<ept id="3">&lt;/xref&gt;</ept> operations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ON clauses of <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj35034.dita#rrefsqlj35034"&gt;</bpt>INNER JOIN<ept id="1">&lt;/xref&gt;</ept>, <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj18922.dita#rrefsqlj18922"&gt;</bpt>LEFT OUTER JOIN<ept id="2">&lt;/xref&gt;</ept>, and <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj57522.dita#rrefsqlj57522"&gt;</bpt>RIGHT OUTER JOIN<ept id="3">&lt;/xref&gt;</ept> operations</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">A boolean expression can include a boolean operator or operators. These operators are listed in the following table.</source>
+<seg-source><mrk mid="0" mtype="seg">A boolean expression can include a boolean operator or operators.</mrk><mrk mid="1" mtype="seg"> These operators are listed in the following table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A boolean expression can include a boolean operator or operators.</mrk><mrk mid="1" mtype="seg"> These operators are listed in the following table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">SQL boolean operators</source>
+<seg-source><mrk mid="0" mtype="seg">SQL boolean operators</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL boolean operators</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">This table lists, describes, and provides the syntax for the SQL boolean operators.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists, describes, and provides the syntax for the SQL boolean operators.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists, describes, and provides the syntax for the SQL boolean operators.</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Operator</source>
+<seg-source><mrk mid="0" mtype="seg">Operator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Operator</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">Explanation and Example</source>
+<seg-source><mrk mid="0" mtype="seg">Explanation and Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Explanation and Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">AND, OR, NOT</source>
+<seg-source><mrk mid="0" mtype="seg">AND, OR, NOT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AND, OR, NOT</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">Evaluate any operand(s) that are boolean expressions</source>
+<seg-source><mrk mid="0" mtype="seg">Evaluate any operand(s) that are boolean expressions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Evaluate any operand(s) that are boolean expressions</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>(orig_airport = 'SFO') OR (dest_airport = 'GRU') <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt> -- returns true<ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>(orig_airport = 'SFO') OR (dest_airport = 'GRU') <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt> -- returns true<ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>(orig_airport = 'SFO') OR (dest_airport = 'GRU') <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt> -- returns true<ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="2">&lt;/i&gt;</ept> AND <bpt id="3" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="3">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="4">&lt;/i&gt;</ept> OR <bpt id="5" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="5">&lt;/i&gt;</ept> | NOT <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="6">&lt;/i&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="2">&lt;/i&gt;</ept> AND <bpt id="3" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="3">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="4">&lt;/i&gt;</ept> OR <bpt id="5" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="5">&lt;/i&gt;</ept> | NOT <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="6">&lt;/i&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="2">&lt;/i&gt;</ept> AND <bpt id="3" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="3">&lt;/i&gt;</ept> | <bpt id="4" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="4">&lt;/i&gt;</ept> OR <bpt id="5" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="5">&lt;/i&gt;</ept> | NOT <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="6">&lt;/i&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">Comparisons</source>
+<seg-source><mrk mid="0" mtype="seg">Comparisons</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Comparisons</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">&lt;, =, &gt;, &lt;=, &gt;=, &lt;&gt; are applicable to all of the built-in types.</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;, =, &gt;, &lt;=, &gt;=, &lt;&gt; are applicable to all of the built-in types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;, =, &gt;, &lt;=, &gt;=, &lt;&gt; are applicable to all of the built-in types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DATE('1998-02-26') &lt; DATE('1998-03-01') <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns true<ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DATE('1998-02-26') &lt; DATE('1998-03-01') <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns true<ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DATE('1998-02-26') &lt; DATE('1998-03-01') <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns true<ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> also accepts the != operator, which is not included in the SQL standard.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> also accepts the != operator, which is not included in the SQL standard.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> also accepts the != operator, which is not included in the SQL standard.</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> { &lt; | = | &gt; | &lt;= | &gt;= | &lt;&gt; } <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="3">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> { &lt; | = | &gt; | &lt;= | &gt;= | &lt;&gt; } <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="3">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> { &lt; | = | &gt; | &lt;= | &gt;= | &lt;&gt; } <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="3">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">IS NULL, IS NOT NULL</source>
+<seg-source><mrk mid="0" mtype="seg">IS NULL, IS NOT NULL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IS NULL, IS NOT NULL</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">Test whether the result of an expression is null or not.</source>
+<seg-source><mrk mid="0" mtype="seg">Test whether the result of an expression is null or not.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test whether the result of an expression is null or not.</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE MiddleName IS NULL<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE MiddleName IS NULL<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE MiddleName IS NULL<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> IS [ NOT ] NULL<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> IS [ NOT ] NULL<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> IS [ NOT ] NULL<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">LIKE</source>
+<seg-source><mrk mid="0" mtype="seg">LIKE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LIKE</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">Attempts to match a character expression to a character pattern, which is a character string that includes one or more wildcards.</source>
+<seg-source><mrk mid="0" mtype="seg">Attempts to match a character expression to a character pattern, which is a character string that includes one or more wildcards.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attempts to match a character expression to a character pattern, which is a character string that includes one or more wildcards.</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">% matches any number (zero or more) of characters in the corresponding position in first character expression.</source>
+<seg-source><mrk mid="0" mtype="seg">% matches any number (zero or more) of characters in the corresponding position in first character expression.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">% matches any number (zero or more) of characters in the corresponding position in first character expression.</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">_ matches one character in the corresponding position in the character expression.</source>
+<seg-source><mrk mid="0" mtype="seg">_ matches one character in the corresponding position in the character expression.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_ matches one character in the corresponding position in the character expression.</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">Any other character matches only that character in the corresponding position in the character expression.</source>
+<seg-source><mrk mid="0" mtype="seg">Any other character matches only that character in the corresponding position in the character expression.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Any other character matches only that character in the corresponding position in the character expression.</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>city LIKE 'Sant_'<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>city LIKE 'Sant_'<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>city LIKE 'Sant_'<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">To treat % or _ as constant characters, escape the character with an optional escape character, which you specify with the ESCAPE clause.</source>
+<seg-source><mrk mid="0" mtype="seg">To treat % or _ as constant characters, escape the character with an optional escape character, which you specify with the ESCAPE clause.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To treat % or _ as constant characters, escape the character with an optional escape character, which you specify with the ESCAPE clause.</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT a FROM tabA WHERE a LIKE '%=_' ESCAPE '='<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT a FROM tabA WHERE a LIKE '%=_' ESCAPE '='<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT a FROM tabA WHERE a LIKE '%=_' ESCAPE '='<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">When LIKE comparisons are used, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> compares one character at a time for non-metacharacters. This is different than the way <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> processes = comparisons. The comparisons with the = operator compare the entire character string on left side of the = operator with the entire character string on the right side of the = operator. For more information, see "Character-based collation in <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>" in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">When LIKE comparisons are used, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> compares one character at a time for non-metacharacters.</mrk><mrk mid="1" mtype="seg"> This is different than the way <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> processes = comparisons.</mrk><mrk mid="2" mtype="seg"> The comparisons with the = operator compare the entire character string on left side of the = operator with the entire character string on the right side of the = operator.</mrk><mrk mid="3" mtype="seg"> For more information, see "Character-based collation in <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>" in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When LIKE comparisons are used, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> compares one character at a time for non-metacharacters.</mrk><mrk mid="1" mtype="seg"> This is different than the way <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> processes = comparisons.</mrk><mrk mid="2" mtype="seg"> The comparisons with the = operator compare the entire character string on left side of the = operator with the entire character string on the right side of the = operator.</mrk><mrk mid="3" mtype="seg"> For more information, see "Character-based collation in <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>" in the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-b">&lt;b&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/b&gt;</ept> [ NOT ] LIKE <bpt id="4" ctype="x-b">&lt;b&gt;</bpt><bpt id="5" ctype="x-i">&lt;i&gt;</bpt> characterExpression WithWildCard<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/b&gt;</ept> [ ESCAPE '<bpt id="6" ctype="x-b">&lt;b&gt;</bpt><bpt id="7" ctype="x-i">&lt;i&gt;</bpt>escapeCharacter<ept id="7">&lt;/i&gt;</ept><ept id="6">&lt;/b&gt;</ept>']<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-b">&lt;b&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/b&gt;</ept> [ NOT ] LIKE <bpt id="4" ctype="x-b">&lt;b&gt;</bpt><bpt id="5" ctype="x-i">&lt;i&gt;</bpt> characterExpression WithWildCard<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/b&gt;</ept> [ ESCAPE '<bpt id="6" ctype="x-b">&lt;b&gt;</bpt><bpt id="7" ctype="x-i">&lt;i&gt;</bpt>escapeCharacter<ept id="7">&lt;/i&gt;</ept><ept id="6">&lt;/b&gt;</ept>']<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-b">&lt;b&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/b&gt;</ept> [ NOT ] LIKE <bpt id="4" ctype="x-b">&lt;b&gt;</bpt><bpt id="5" ctype="x-i">&lt;i&gt;</bpt> characterExpression WithWildCard<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/b&gt;</ept> [ ESCAPE '<bpt id="6" ctype="x-b">&lt;b&gt;</bpt><bpt id="7" ctype="x-i">&lt;i&gt;</bpt>escapeCharacter<ept id="7">&lt;/i&gt;</ept><ept id="6">&lt;/b&gt;</ept>']<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">BETWEEN</source>
+<seg-source><mrk mid="0" mtype="seg">BETWEEN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BETWEEN</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">Tests whether the first operand is between the second and third operands. The second operand must be less than the third operand. Applicable only to types to which &lt;= and &gt;= can be applied.</source>
+<seg-source><mrk mid="0" mtype="seg">Tests whether the first operand is between the second and third operands.</mrk><mrk mid="1" mtype="seg"> The second operand must be less than the third operand.</mrk><mrk mid="2" mtype="seg"> Applicable only to types to which &lt;= and &gt;= can be applied.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tests whether the first operand is between the second and third operands.</mrk><mrk mid="1" mtype="seg"> The second operand must be less than the third operand.</mrk><mrk mid="2" mtype="seg"> Applicable only to types to which &lt;= and &gt;= can be applied.</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE booking_date BETWEEN DATE('1998-02-26') AND DATE('1998-03-01')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE booking_date BETWEEN DATE('1998-02-26') AND DATE('1998-03-01')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE booking_date BETWEEN DATE('1998-02-26') AND DATE('1998-03-01')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> [ NOT ] BETWEEN <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="3">&lt;/i&gt;</ept> AND <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> [ NOT ] BETWEEN <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="3">&lt;/i&gt;</ept> AND <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> [ NOT ] BETWEEN <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="3">&lt;/i&gt;</ept> AND <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">IN</source>
+<seg-source><mrk mid="0" mtype="seg">IN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IN</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">Operates on table subquery or list of values. Returns TRUE if the left expression's value is in the result of the table subquery or in the list of values. Table subquery can return multiple rows but must return a single column.</source>
+<seg-source><mrk mid="0" mtype="seg">Operates on table subquery or list of values.</mrk><mrk mid="1" mtype="seg"> Returns TRUE if the left expression's value is in the result of the table subquery or in the list of values.</mrk><mrk mid="2" mtype="seg"> Table subquery can return multiple rows but must return a single column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Operates on table subquery or list of values.</mrk><mrk mid="1" mtype="seg"> Returns TRUE if the left expression's value is in the result of the table subquery or in the list of values.</mrk><mrk mid="2" mtype="seg"> Table subquery can return multiple rows but must return a single column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE booking_date NOT IN (SELECT booking_date FROM HotelBookings WHERE rooms_available = 0)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE booking_date NOT IN (SELECT booking_date FROM HotelBookings WHERE rooms_available = 0)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE booking_date NOT IN (SELECT booking_date FROM HotelBookings WHERE rooms_available = 0)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="2">&lt;/i&gt;</ept> [ NOT ] IN <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rreftablesubquery.dita#rreftablesubquery"&gt;</bpt>tableSubquery<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> | <bpt id="5" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="5">&lt;/i&gt;</ept> [ NOT ] IN ( <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="6">&lt;/i&gt;</ept> [, <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="7">&lt;/i&gt;</ept> ]* ) }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="2">&lt;/i&gt;</ept> [ NOT ] IN <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rreftablesubquery.dita#rreftablesubquery"&gt;</bpt>tableSubquery<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> | <bpt id="5" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="5">&lt;/i&gt;</ept> [ NOT ] IN ( <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="6">&lt;/i&gt;</ept> [, <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="7">&lt;/i&gt;</ept> ]* ) }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="2">&lt;/i&gt;</ept> [ NOT ] IN <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rreftablesubquery.dita#rreftablesubquery"&gt;</bpt>tableSubquery<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> | <bpt id="5" ctype="x-i">&lt;i&gt;</bpt> expression<ept id="5">&lt;/i&gt;</ept> [ NOT ] IN ( <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="6">&lt;/i&gt;</ept> [, <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="7">&lt;/i&gt;</ept> ]* ) }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">EXISTS</source>
+<seg-source><mrk mid="0" mtype="seg">EXISTS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EXISTS</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">Operates on a table subquery. Returns TRUE if the table subquery returns any rows, and FALSE if it returns no rows. A table subquery can return multiple columns and rows.</source>
+<seg-source><mrk mid="0" mtype="seg">Operates on a table subquery.</mrk><mrk mid="1" mtype="seg"> Returns TRUE if the table subquery returns any rows, and FALSE if it returns no rows.</mrk><mrk mid="2" mtype="seg"> A table subquery can return multiple columns and rows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Operates on a table subquery.</mrk><mrk mid="1" mtype="seg"> Returns TRUE if the table subquery returns any rows, and FALSE if it returns no rows.</mrk><mrk mid="2" mtype="seg"> A table subquery can return multiple columns and rows.</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE EXISTS (SELECT * FROM Flights WHERE dest_airport = 'SFO' AND orig_airport = 'GRU')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE EXISTS (SELECT * FROM Flights WHERE dest_airport = 'SFO' AND orig_airport = 'GRU')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE EXISTS (SELECT * FROM Flights WHERE dest_airport = 'SFO' AND orig_airport = 'GRU')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>[NOT] EXISTS <bpt id="2" ctype="x-b">&lt;b&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rreftablesubquery.dita#rreftablesubquery"&gt;</bpt>tableSubquery<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/b&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>[NOT] EXISTS <bpt id="2" ctype="x-b">&lt;b&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rreftablesubquery.dita#rreftablesubquery"&gt;</bpt>tableSubquery<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/b&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>[NOT] EXISTS <bpt id="2" ctype="x-b">&lt;b&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rreftablesubquery.dita#rreftablesubquery"&gt;</bpt>tableSubquery<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/b&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">Quantified comparison</source>
+<seg-source><mrk mid="0" mtype="seg">Quantified comparison</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Quantified comparison</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">A quantified comparison is a comparison operator (&lt;, =, &gt;, &lt;=, &gt;=, &lt;&gt;) with ALL or ANY or SOME applied.</source>
+<seg-source><mrk mid="0" mtype="seg">A quantified comparison is a comparison operator (&lt;, =, &gt;, &lt;=, &gt;=, &lt;&gt;) with ALL or ANY or SOME applied.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A quantified comparison is a comparison operator (&lt;, =, &gt;, &lt;=, &gt;=, &lt;&gt;) with ALL or ANY or SOME applied.</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">Operates on table subqueries, which can return multiple rows but must return a single column.</source>
+<seg-source><mrk mid="0" mtype="seg">Operates on table subqueries, which can return multiple rows but must return a single column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Operates on table subqueries, which can return multiple rows but must return a single column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en">If ALL is used, the comparison must be true for all values returned by the table subquery. If ANY or SOME is used, the comparison must be true for at least one value of the table subquery. ANY and SOME are equivalent.</source>
+<seg-source><mrk mid="0" mtype="seg">If ALL is used, the comparison must be true for all values returned by the table subquery.</mrk><mrk mid="1" mtype="seg"> If ANY or SOME is used, the comparison must be true for at least one value of the table subquery.</mrk><mrk mid="2" mtype="seg"> ANY and SOME are equivalent.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If ALL is used, the comparison must be true for all values returned by the table subquery.</mrk><mrk mid="1" mtype="seg"> If ANY or SOME is used, the comparison must be true for at least one value of the table subquery.</mrk><mrk mid="2" mtype="seg"> ANY and SOME are equivalent.</mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE normal_rate &lt; ALL (SELECT budget/550 FROM Groups) <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE normal_rate &lt; ALL (SELECT budget/550 FROM Groups) <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE normal_rate &lt; ALL (SELECT budget/550 FROM Groups) <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>comparisonOperator<ept id="3">&lt;/i&gt;</ept> { ALL | ANY | SOME } <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rreftablesubquery.dita#rreftablesubquery"&gt;</bpt>tableSubquery<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>comparisonOperator<ept id="3">&lt;/i&gt;</ept> { ALL | ANY | SOME } <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rreftablesubquery.dita#rreftablesubquery"&gt;</bpt>tableSubquery<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>comparisonOperator<ept id="3">&lt;/i&gt;</ept> { ALL | ANY | SOME } <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rreftablesubquery.dita#rreftablesubquery"&gt;</bpt>tableSubquery<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

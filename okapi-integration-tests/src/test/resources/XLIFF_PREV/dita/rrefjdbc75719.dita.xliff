@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbc75719.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CallableStatements and INOUT parameters</source>
+<seg-source><mrk mid="0" mtype="seg">CallableStatements and INOUT parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CallableStatements and INOUT parameters</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">java.sql.CallableStatement</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.CallableStatement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.CallableStatement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">and INOUT parameters</source>
+<seg-source><mrk mid="0" mtype="seg">and INOUT parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and INOUT parameters</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">INOUT parameters map to an <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>array<ept id="1">&lt;/i&gt;</ept> of the parameter type in the Java programming language. (The method must take an array as its parameter.) This conforms to the recommendations of the SQL standard.</source>
+<seg-source><mrk mid="0" mtype="seg">INOUT parameters map to an <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>array<ept id="1">&lt;/i&gt;</ept> of the parameter type in the Java programming language.</mrk><mrk mid="1" mtype="seg"> (The method must take an array as its parameter.) This conforms to the recommendations of the SQL standard.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INOUT parameters map to an <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>array<ept id="1">&lt;/i&gt;</ept> of the parameter type in the Java programming language.</mrk><mrk mid="1" mtype="seg"> (The method must take an array as its parameter.) This conforms to the recommendations of the SQL standard.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Given the following example:</source>
+<seg-source><mrk mid="0" mtype="seg">Given the following example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Given the following example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CallableStatement call = conn.prepareCall( "{CALL doubleMyInt(?)}"); <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>// for inout parameters, it is good practice to // register the outparameter before setting the input value<ept id="2">&lt;/ph&gt;</ept> call.registerOutParameter(1, Types.INTEGER); call.setInt(1,10); call.execute(); int retval = call.getInt(1);<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CallableStatement call = conn.prepareCall( "{CALL doubleMyInt(?)}"); <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>// for inout parameters, it is good practice to // register the outparameter before setting the input value<ept id="2">&lt;/ph&gt;</ept> call.registerOutParameter(1, Types.INTEGER); call.setInt(1,10); call.execute(); int retval = call.getInt(1);<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CallableStatement call = conn.prepareCall( "{CALL doubleMyInt(?)}"); <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>// for inout parameters, it is good practice to // register the outparameter before setting the input value<ept id="2">&lt;/ph&gt;</ept> call.registerOutParameter(1, Types.INTEGER); call.setInt(1,10); call.execute(); int retval = call.getInt(1);<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>doubleIt<ept id="1">&lt;/i&gt;</ept> should take a one-dimensional array of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ints<ept id="2">&lt;/codeph&gt;</ept>. Here is sample source code for that method:</source>
+<seg-source><mrk mid="0" mtype="seg">The method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>doubleIt<ept id="1">&lt;/i&gt;</ept> should take a one-dimensional array of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ints<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Here is sample source code for that method:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>doubleIt<ept id="1">&lt;/i&gt;</ept> should take a one-dimensional array of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ints<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Here is sample source code for that method:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>public static void doubleMyInt(int[] i) { i[0] *=2; <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>/* <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> returns the first element of the array.*/<ept id="2">&lt;/ph&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>public static void doubleMyInt(int[] i) { i[0] *=2; <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>/* <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> returns the first element of the array.*/<ept id="2">&lt;/ph&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>public static void doubleMyInt(int[] i) { i[0] *=2; <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>/* <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> returns the first element of the array.*/<ept id="2">&lt;/ph&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The return value is <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>not<ept id="1">&lt;/i&gt;</ept> wrapped in an array even though the parameter to the method is.</source>
+<seg-source><mrk mid="0" mtype="seg">The return value is <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>not<ept id="1">&lt;/i&gt;</ept> wrapped in an array even though the parameter to the method is.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The return value is <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>not<ept id="1">&lt;/i&gt;</ept> wrapped in an array even though the parameter to the method is.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The following table shows the parameter array types and return types that correspond to JDBC types.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table shows the parameter array types and return types that correspond to JDBC types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table shows the parameter array types and return types that correspond to JDBC types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">INOUT parameter type correspondence</source>
+<seg-source><mrk mid="0" mtype="seg">INOUT parameter type correspondence</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INOUT parameter type correspondence</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">This table lists the JDBC data types and provides the parameter array type and return type for each.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the JDBC data types and provides the parameter array type and return type for each.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the JDBC data types and provides the parameter array type and return type for each.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">JDBC Type</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Array Type for Method Parameter</source>
+<seg-source><mrk mid="0" mtype="seg">Array Type for Method Parameter</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Array Type for Method Parameter</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Value and Return Type</source>
+<seg-source><mrk mid="0" mtype="seg">Value and Return Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Value and Return Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">BINARY</source>
+<seg-source><mrk mid="0" mtype="seg">BINARY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BINARY</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[][]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[][]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[][]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">BLOB</source>
+<seg-source><mrk mid="0" mtype="seg">BLOB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BLOB</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">BOOLEAN</source>
+<seg-source><mrk mid="0" mtype="seg">BOOLEAN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BOOLEAN</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">CLOB</source>
+<seg-source><mrk mid="0" mtype="seg">CLOB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CLOB</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">DATE</source>
+<seg-source><mrk mid="0" mtype="seg">DATE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DATE</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Date[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Date[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Date[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Date<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Date<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Date<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">DOUBLE</source>
+<seg-source><mrk mid="0" mtype="seg">DOUBLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DOUBLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">FLOAT</source>
+<seg-source><mrk mid="0" mtype="seg">FLOAT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FLOAT</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>int[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>int[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>int[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>int<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>int<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>int<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">LONGVARBINARY</source>
+<seg-source><mrk mid="0" mtype="seg">LONGVARBINARY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LONGVARBINARY</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[][]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[][]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[][]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">REAL</source>
+<seg-source><mrk mid="0" mtype="seg">REAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REAL</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>float[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>float[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>float[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>float<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>float<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>float<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">SMALLINT</source>
+<seg-source><mrk mid="0" mtype="seg">SMALLINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SMALLINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>short[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>short[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>short[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>short<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>short<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>short<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">TIME</source>
+<seg-source><mrk mid="0" mtype="seg">TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Time[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Time[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Time[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Time<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Time<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Time<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">TIMESTAMP</source>
+<seg-source><mrk mid="0" mtype="seg">TIMESTAMP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMESTAMP</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Timestamp[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Timestamp[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Timestamp[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Timestamp<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Timestamp<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Timestamp<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">VARBINARY</source>
+<seg-source><mrk mid="0" mtype="seg">VARBINARY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARBINARY</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[][]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[][]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[][]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">OTHER</source>
+<seg-source><mrk mid="0" mtype="seg">OTHER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OTHER</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>yourType[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>yourType[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>yourType[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>yourType<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>yourType<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>yourType<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en">JAVA_OBJECT</source>
+<seg-source><mrk mid="0" mtype="seg">JAVA_OBJECT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JAVA_OBJECT</mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>yourType[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>yourType[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>yourType[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>yourType<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>yourType<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>yourType<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">Register the output type of the parameter before executing the call. For INOUT parameters, it is good practice to register the output parameter before setting its input value.</source>
+<seg-source><mrk mid="0" mtype="seg">Register the output type of the parameter before executing the call.</mrk><mrk mid="1" mtype="seg"> For INOUT parameters, it is good practice to register the output parameter before setting its input value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register the output type of the parameter before executing the call.</mrk><mrk mid="1" mtype="seg"> For INOUT parameters, it is good practice to register the output parameter before setting its input value.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

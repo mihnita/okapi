@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="example4.md" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">An exhibit of Markdown</source>
+<seg-source><mrk mid="0" mtype="seg">An exhibit of Markdown</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An exhibit of Markdown</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">This note demonstrates some of what <bpt id="1" ctype="link">[</bpt>Markdown<ept id="1">]</ept><bpt id="2" ctype="link">[</bpt><ept id="2">1</ept><it id="3" ctype="link" pos="close">]</it> is capable of doing.</source>
+<seg-source><mrk mid="0" mtype="seg">This note demonstrates some of what <bpt id="1" ctype="link">[</bpt>Markdown<ept id="1">]</ept><bpt id="2" ctype="link">[</bpt><ept id="2">1</ept><it id="3" ctype="link" pos="close">]</it> is capable of doing.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This note demonstrates some of what <bpt id="1" ctype="link">[</bpt>Markdown<ept id="1">]</ept><bpt id="2" ctype="link">[</bpt><ept id="2">1</ept><it id="3" ctype="link" pos="close">]</it> is capable of doing.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en"><it id="1" ctype="italic" pos="open">*</it>Note: Feel free to play with this page. Unlike regular notes, this doesn't automatically save itself.<it id="1" ctype="italic" pos="close">*</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="italic" pos="open">*</it>Note: Feel free to play with this page.</mrk><mrk mid="1" mtype="seg"> Unlike regular notes, this doesn't automatically save itself.<it id="1" ctype="italic" pos="close">*</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="italic" pos="open">*</it>Note: Feel free to play with this page.</mrk><mrk mid="1" mtype="seg"> Unlike regular notes, this doesn't automatically save itself.<it id="1" ctype="italic" pos="close">*</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Basic formatting</source>
+<seg-source><mrk mid="0" mtype="seg">Basic formatting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Basic formatting</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraphs can be written like so.</mrk><mrk mid="1" mtype="seg"> A paragraph is the basic block of Markdown.</mrk><mrk mid="2" mtype="seg"> A paragraph is what text will turn into when there is no reason it should become anything else.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraphs can be written like so.</mrk><mrk mid="1" mtype="seg"> A paragraph is the basic block of Markdown.</mrk><mrk mid="2" mtype="seg"> A paragraph is what text will turn into when there is no reason it should become anything else.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Paragraphs must be separated by a blank line. Basic formatting of <bpt id="1" ctype="italic">*</bpt>italics<ept id="1">*</ept> and <bpt id="2" ctype="bold">**</bpt>bold<ept id="2">**</ept> is supported. This <bpt id="3" ctype="italic">*</bpt>can be <bpt id="4" ctype="bold">**</bpt>nested<ept id="4">**</ept> like<ept id="3">*</ept> so.</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraphs must be separated by a blank line.</mrk><mrk mid="1" mtype="seg"> Basic formatting of <bpt id="1" ctype="italic">*</bpt>italics<ept id="1">*</ept> and <bpt id="2" ctype="bold">**</bpt>bold<ept id="2">**</ept> is supported.</mrk><mrk mid="2" mtype="seg"> This <bpt id="3" ctype="italic">*</bpt>can be <bpt id="4" ctype="bold">**</bpt>nested<ept id="4">**</ept> like<ept id="3">*</ept> so.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraphs must be separated by a blank line.</mrk><mrk mid="1" mtype="seg"> Basic formatting of <bpt id="1" ctype="italic">*</bpt>italics<ept id="1">*</ept> and <bpt id="2" ctype="bold">**</bpt>bold<ept id="2">**</ept> is supported.</mrk><mrk mid="2" mtype="seg"> This <bpt id="3" ctype="italic">*</bpt>can be <bpt id="4" ctype="bold">**</bpt>nested<ept id="4">**</ept> like<ept id="3">*</ept> so.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">Lists</source>
+<seg-source><mrk mid="0" mtype="seg">Lists</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Lists</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">Ordered list</source>
+<seg-source><mrk mid="0" mtype="seg">Ordered list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ordered list</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">Item 1</source>
+<seg-source><mrk mid="0" mtype="seg">Item 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 1</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en">A second item</source>
+<seg-source><mrk mid="0" mtype="seg">A second item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A second item</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" xml:space="preserve">
+<source xml:lang="en">Number 3</source>
+<seg-source><mrk mid="0" mtype="seg">Number 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number 3</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" xml:space="preserve">
+<source xml:lang="en">Ⅳ</source>
+<seg-source><mrk mid="0" mtype="seg">Ⅳ</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ⅳ</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="italic">*</bpt>Note: the fourth item uses the Unicode character for <bpt id="2" ctype="link">[</bpt>Roman numeral four<ept id="2">]</ept><bpt id="3" ctype="link">[</bpt><ept id="3">2</ept><it id="4" ctype="link" pos="close">]</it>.<ept id="1">*</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="italic">*</bpt>Note: the fourth item uses the Unicode character for <bpt id="2" ctype="link">[</bpt>Roman numeral four<ept id="2">]</ept><bpt id="3" ctype="link">[</bpt><ept id="3">2</ept><it id="4" ctype="link" pos="close">]</it>.<ept id="1">*</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="italic">*</bpt>Note: the fourth item uses the Unicode character for <bpt id="2" ctype="link">[</bpt>Roman numeral four<ept id="2">]</ept><bpt id="3" ctype="link">[</bpt><ept id="3">2</ept><it id="4" ctype="link" pos="close">]</it>.<ept id="1">*</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14" xml:space="preserve">
+<source xml:lang="en">Unordered list</source>
+<seg-source><mrk mid="0" mtype="seg">Unordered list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unordered list</mrk></target>
+</trans-unit>
+<trans-unit id="tu15" xml:space="preserve">
+<source xml:lang="en">An item</source>
+<seg-source><mrk mid="0" mtype="seg">An item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An item</mrk></target>
+</trans-unit>
+<trans-unit id="tu16" xml:space="preserve">
+<source xml:lang="en">Another item</source>
+<seg-source><mrk mid="0" mtype="seg">Another item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Another item</mrk></target>
+</trans-unit>
+<trans-unit id="tu17" xml:space="preserve">
+<source xml:lang="en">Yet another item</source>
+<seg-source><mrk mid="0" mtype="seg">Yet another item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yet another item</mrk></target>
+</trans-unit>
+<trans-unit id="tu18" xml:space="preserve">
+<source xml:lang="en">And there's more...</source>
+<seg-source><mrk mid="0" mtype="seg">And there's more...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">And there's more...</mrk></target>
+</trans-unit>
+<trans-unit id="tu19" xml:space="preserve">
+<source xml:lang="en">Paragraph modifiers</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraph modifiers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraph modifiers</mrk></target>
+</trans-unit>
+<trans-unit id="tu20" xml:space="preserve">
+<source xml:lang="en">Code block</source>
+<seg-source><mrk mid="0" mtype="seg">Code block</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code block</mrk></target>
+</trans-unit>
+<trans-unit id="tu21" xml:space="preserve">
+<source xml:lang="en">Code blocks are very useful for developers and other people who look at code or other things that are written in plain text. As you can see, it uses a fixed-width font.
+</source>
+<seg-source><mrk mid="0" mtype="seg">Code blocks are very useful for developers and other people who look at code or other things that are written in plain text.</mrk><mrk mid="1" mtype="seg"> As you can see, it uses a fixed-width font.</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code blocks are very useful for developers and other people who look at code or other things that are written in plain text.</mrk><mrk mid="1" mtype="seg"> As you can see, it uses a fixed-width font.</mrk>
+</target>
+</trans-unit>
+<trans-unit id="tu22" xml:space="preserve">
+<source xml:lang="en">You can also make <bpt id="1" ctype="x-CODE">`</bpt>inline code<ept id="1">`</ept> to add code into other things.</source>
+<seg-source><mrk mid="0" mtype="seg">You can also make <bpt id="1" ctype="x-CODE">`</bpt>inline code<ept id="1">`</ept> to add code into other things.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can also make <bpt id="1" ctype="x-CODE">`</bpt>inline code<ept id="1">`</ept> to add code into other things.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23" xml:space="preserve">
+<source xml:lang="en">Quote</source>
+<seg-source><mrk mid="0" mtype="seg">Quote</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Quote</mrk></target>
+</trans-unit>
+<trans-unit id="tu24" xml:space="preserve">
+<source xml:lang="en">Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.</source>
+<seg-source><mrk mid="0" mtype="seg">Here is a quote.</mrk><mrk mid="1" mtype="seg"> What this is should be self explanatory.</mrk><mrk mid="2" mtype="seg"> Quotes are automatically indented when they are used.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here is a quote.</mrk><mrk mid="1" mtype="seg"> What this is should be self explanatory.</mrk><mrk mid="2" mtype="seg"> Quotes are automatically indented when they are used.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25" xml:space="preserve">
+<source xml:lang="en">Headings</source>
+<seg-source><mrk mid="0" mtype="seg">Headings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Headings</mrk></target>
+</trans-unit>
+<trans-unit id="tu26" xml:space="preserve">
+<source xml:lang="en">There are six levels of headings. They correspond with the six levels of HTML headings. You've probably noticed them already in the page. Each level down uses one more hash character.</source>
+<seg-source><mrk mid="0" mtype="seg">There are six levels of headings.</mrk><mrk mid="1" mtype="seg"> They correspond with the six levels of HTML headings.</mrk><mrk mid="2" mtype="seg"> You've probably noticed them already in the page.</mrk><mrk mid="3" mtype="seg"> Each level down uses one more hash character.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There are six levels of headings.</mrk><mrk mid="1" mtype="seg"> They correspond with the six levels of HTML headings.</mrk><mrk mid="2" mtype="seg"> You've probably noticed them already in the page.</mrk><mrk mid="3" mtype="seg"> Each level down uses one more hash character.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27" xml:space="preserve">
+<source xml:lang="en">Headings <bpt id="1" ctype="italic">*</bpt>can<ept id="1">*</ept> also contain <bpt id="2" ctype="bold">**</bpt>formatting<ept id="2">**</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Headings <bpt id="1" ctype="italic">*</bpt>can<ept id="1">*</ept> also contain <bpt id="2" ctype="bold">**</bpt>formatting<ept id="2">**</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Headings <bpt id="1" ctype="italic">*</bpt>can<ept id="1">*</ept> also contain <bpt id="2" ctype="bold">**</bpt>formatting<ept id="2">**</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu28" xml:space="preserve">
+<source xml:lang="en">They can even contain <bpt id="1" ctype="x-CODE">`</bpt>inline code<ept id="1">`</ept></source>
+<seg-source><mrk mid="0" mtype="seg">They can even contain <bpt id="1" ctype="x-CODE">`</bpt>inline code<ept id="1">`</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">They can even contain <bpt id="1" ctype="x-CODE">`</bpt>inline code<ept id="1">`</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu29" xml:space="preserve">
+<source xml:lang="en">Of course, demonstrating what headings look like messes up the structure of the page.</source>
+<seg-source><mrk mid="0" mtype="seg">Of course, demonstrating what headings look like messes up the structure of the page.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Of course, demonstrating what headings look like messes up the structure of the page.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30" xml:space="preserve">
+<source xml:lang="en">I don't recommend using more than three or four levels of headings here, because, when you're smallest heading isn't too small, and you're largest heading isn't too big, and you want each size up to look noticeably larger and more important, there there are only so many sizes that you can use.</source>
+<seg-source><mrk mid="0" mtype="seg">I don't recommend using more than three or four levels of headings here, because, when you're smallest heading isn't too small, and you're largest heading isn't too big, and you want each size up to look noticeably larger and more important, there there are only so many sizes that you can use.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">I don't recommend using more than three or four levels of headings here, because, when you're smallest heading isn't too small, and you're largest heading isn't too big, and you want each size up to look noticeably larger and more important, there there are only so many sizes that you can use.</mrk></target>
+</trans-unit>
+<trans-unit id="tu31" xml:space="preserve">
+<source xml:lang="en">URLs</source>
+<seg-source><mrk mid="0" mtype="seg">URLs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">URLs</mrk></target>
+</trans-unit>
+<trans-unit id="tu32" xml:space="preserve">
+<source xml:lang="en">URLs can be made in a handful of ways:</source>
+<seg-source><mrk mid="0" mtype="seg">URLs can be made in a handful of ways:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">URLs can be made in a handful of ways:</mrk></target>
+</trans-unit>
+<trans-unit id="tu33" xml:space="preserve">
+<source xml:lang="en">A named link to <bpt id="1" ctype="link">[</bpt>MarkItDown<ept id="1">]</ept><bpt id="2" ctype="link">[</bpt><ept id="2">3</ept><it id="4" ctype="link" pos="close">]</it>. The easiest way to do these is to select what you want to make a link and hit <bpt id="3" ctype="x-CODE">`</bpt>Ctrl+L<ept id="3">`</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">A named link to <bpt id="1" ctype="link">[</bpt>MarkItDown<ept id="1">]</ept><bpt id="2" ctype="link">[</bpt><ept id="2">3</ept><it id="4" ctype="link" pos="close">]</it>.</mrk><mrk mid="1" mtype="seg"> The easiest way to do these is to select what you want to make a link and hit <bpt id="3" ctype="x-CODE">`</bpt>Ctrl+L<ept id="3">`</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A named link to <bpt id="1" ctype="link">[</bpt>MarkItDown<ept id="1">]</ept><bpt id="2" ctype="link">[</bpt><ept id="2">3</ept><it id="4" ctype="link" pos="close">]</it>.</mrk><mrk mid="1" mtype="seg"> The easiest way to do these is to select what you want to make a link and hit <bpt id="3" ctype="x-CODE">`</bpt>Ctrl+L<ept id="3">`</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34" xml:space="preserve">
+<source xml:lang="en">Another named link to <bpt id="1" ctype="link">[</bpt>MarkItDown<ept id="1">](http://www.markitdown.net/)</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Another named link to <bpt id="1" ctype="link">[</bpt>MarkItDown<ept id="1">](http://www.markitdown.net/)</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Another named link to <bpt id="1" ctype="link">[</bpt>MarkItDown<ept id="1">](http://www.markitdown.net/)</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu35" xml:space="preserve">
+<source xml:lang="en">Sometimes you just want a URL like <ph id="1" ctype="x-AUTO_LINK">&lt;http://www.markitdown.net/&gt;</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Sometimes you just want a URL like <ph id="1" ctype="x-AUTO_LINK">&lt;http://www.markitdown.net/&gt;</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sometimes you just want a URL like <ph id="1" ctype="x-AUTO_LINK">&lt;http://www.markitdown.net/&gt;</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu36" xml:space="preserve">
+<source xml:lang="en">Horizontal rule</source>
+<seg-source><mrk mid="0" mtype="seg">Horizontal rule</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Horizontal rule</mrk></target>
+</trans-unit>
+<trans-unit id="tu37" xml:space="preserve">
+<source xml:lang="en">A horizontal rule is a line that goes across the middle of the page.</source>
+<seg-source><mrk mid="0" mtype="seg">A horizontal rule is a line that goes across the middle of the page.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A horizontal rule is a line that goes across the middle of the page.</mrk></target>
+</trans-unit>
+<trans-unit id="tu38" xml:space="preserve">
+<source xml:lang="en">It's sometimes handy for breaking things up.</source>
+<seg-source><mrk mid="0" mtype="seg">It's sometimes handy for breaking things up.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It's sometimes handy for breaking things up.</mrk></target>
+</trans-unit>
+<trans-unit id="tu39" xml:space="preserve">
+<source xml:lang="en">Images</source>
+<seg-source><mrk mid="0" mtype="seg">Images</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Images</mrk></target>
+</trans-unit>
+<trans-unit id="tu40" xml:space="preserve">
+<source xml:lang="en">Markdown can also contain images. I'll need to add something here sometime.</source>
+<seg-source><mrk mid="0" mtype="seg">Markdown can also contain images.</mrk><mrk mid="1" mtype="seg"> I'll need to add something here sometime.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Markdown can also contain images.</mrk><mrk mid="1" mtype="seg"> I'll need to add something here sometime.</mrk></target>
+</trans-unit>
+<trans-unit id="tu41" xml:space="preserve">
+<source xml:lang="en">Finally</source>
+<seg-source><mrk mid="0" mtype="seg">Finally</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Finally</mrk></target>
+</trans-unit>
+<trans-unit id="tu42" xml:space="preserve">
+<source xml:lang="en">There's actually a lot more to Markdown than this. See the official <bpt id="1" ctype="link">[</bpt>introduction<ept id="1">]</ept><bpt id="2" ctype="link">[</bpt><ept id="2">4</ept><it id="5" ctype="link" pos="close">]</it> and <bpt id="3" ctype="link">[</bpt>syntax<ept id="3">]</ept><bpt id="4" ctype="link">[</bpt><ept id="4">5</ept><it id="6" ctype="link" pos="close">]</it> for more information. However, be aware that this is not using the official implementation, and this might work subtly differently in some of the little things.</source>
+<seg-source><mrk mid="0" mtype="seg">There's actually a lot more to Markdown than this.</mrk><mrk mid="1" mtype="seg"> See the official <bpt id="1" ctype="link">[</bpt>introduction<ept id="1">]</ept><bpt id="2" ctype="link">[</bpt><ept id="2">4</ept><it id="5" ctype="link" pos="close">]</it> and <bpt id="3" ctype="link">[</bpt>syntax<ept id="3">]</ept><bpt id="4" ctype="link">[</bpt><ept id="4">5</ept><it id="6" ctype="link" pos="close">]</it> for more information.</mrk><mrk mid="2" mtype="seg"> However, be aware that this is not using the official implementation, and this might work subtly differently in some of the little things.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There's actually a lot more to Markdown than this.</mrk><mrk mid="1" mtype="seg"> See the official <bpt id="1" ctype="link">[</bpt>introduction<ept id="1">]</ept><bpt id="2" ctype="link">[</bpt><ept id="2">4</ept><it id="5" ctype="link" pos="close">]</it> and <bpt id="3" ctype="link">[</bpt>syntax<ept id="3">]</ept><bpt id="4" ctype="link">[</bpt><ept id="4">5</ept><it id="6" ctype="link" pos="close">]</it> for more information.</mrk><mrk mid="2" mtype="seg"> However, be aware that this is not using the official implementation, and this might work subtly differently in some of the little things.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

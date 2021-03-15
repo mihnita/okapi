@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+<project name="okapi-lib" default="all" basedir=".">
+
+	<import file="shared_macros.xml"/>
+
+	<property name="dist" value="dist_common"/>
+	<property name="distName" value="okapi-lib_all-platforms_${okapi.version}" />
+
+	<property name="javadoc.file" value="${dist}\lib\okapi-lib-${okapi.version}-javadoc.jar" />
+
+	<macrodef name="getOkapiArtifacts">
+		<sequential>
+			<copyDependAndLicense
+				cdMvnGroupId="net/sf/okapi"
+				cdMvnArtifactId="okapi-lib"
+				cdMvnVersion="${okapi.version}"
+				cdLicense="okapi-*"/>
+		</sequential>
+	</macrodef>
+
+	<macrodef name="getOtherArtifacts">
+		<sequential>
+			<copyDependAndLicense
+				cdMvnGroupId="com/wutka"
+				cdMvnArtifactId="dtdparser"
+				cdMvnVersion="${com.wutka.dtdparser.version}"
+				cdLicense="dtdparser-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="net/htmlparser/jericho"
+				cdMvnArtifactId="jericho-html"
+				cdMvnVersion="${net.htmlparser.jericho.jericho-html.version}"
+				cdLicense="jericho-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="org/yaml"
+				cdMvnArtifactId="snakeyaml"
+				cdMvnVersion="${org.yaml.snakeyaml.version}"
+				cdLicense="snakeyaml-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/h2database"
+				cdMvnArtifactId="h2"
+				cdMvnVersion="${com.h2database.h2.version}"
+				cdLicense="h2-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/googlecode/json-simple"
+				cdMvnArtifactId="json-simple"
+				cdMvnVersion="${com.googlecode.json-simple.json-simple.version}"
+				cdLicense="json-simple-*"/>
+
+			<copyDepend
+				cdMvnGroupId="commons-discovery"
+				cdMvnArtifactId="commons-discovery"
+				cdMvnVersion="${commons-discovery.commons-discovery.version}"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="commons-logging"
+				cdMvnArtifactId="commons-logging"
+				cdMvnVersion="${commons-logging.commons-logging.version}"
+				cdLicense="commons-*"/>
+
+			<copyDepend
+				cdMvnGroupId="org/apache/axis"
+				cdMvnArtifactId="axis"
+				cdMvnVersion="${org.apache.axis.version}"/>
+
+			<copyDepend
+				cdMvnGroupId="org/apache/axis"
+				cdMvnArtifactId="axis-jaxrpc"
+				cdMvnVersion="${org.apache.axis.version}"/>
+
+			<copyDepend
+				cdMvnGroupId="org/apache/axis"
+				cdMvnArtifactId="axis-saaj"
+				cdMvnVersion="${org.apache.axis.version}"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="axis"
+				cdMvnArtifactId="axis-wsdl4j"
+				cdMvnVersion="${axis.axis-wsdl4j.version}"
+				cdLicense="axis-*"/>
+
+			<copyDepend
+				cdMvnGroupId="org/apache/lucene"
+				cdMvnArtifactId="lucene-core"
+				cdMvnVersion="${org.apache.lucene.version}"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/ibm/icu"
+				cdMvnArtifactId="icu4j"
+				cdMvnVersion="${com.ibm.icu.icu4j.version}"
+				cdLicense="icu4j-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="net/sf/trove4j"
+				cdMvnArtifactId="trove4j"
+				cdMvnVersion="${net.sf.trove4j.trove4j.version}"
+				cdLicense="trove4j-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="org/apache/commons"
+				cdMvnArtifactId="commons-exec"
+				cdMvnVersion="${org.apache.commons.commons-exec.version}"
+				cdLicense="commons-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/fasterxml/woodstox"
+				cdMvnArtifactId="woodstox-core"
+				cdMvnVersion="${com.fasterxml.woodstox.woodstox-core.version}"
+				cdLicense="woodstox-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/vladsch/flexmark"
+				cdMvnArtifactId="flexmark"
+				cdMvnVersion="${com.vladsch.flexmark.version}"
+				cdLicense="flexmark-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/vladsch/flexmark"
+				cdMvnArtifactId="flexmark-ext-gfm-strikethrough"
+				cdMvnVersion="${com.vladsch.flexmark.version}"
+				cdLicense="flexmark-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/vladsch/flexmark"
+				cdMvnArtifactId="flexmark-ext-tables"
+				cdMvnVersion="${com.vladsch.flexmark.version}"
+				cdLicense="flexmark-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/vladsch/flexmark"
+				cdMvnArtifactId="flexmark-ext-yaml-front-matter"
+				cdMvnVersion="${com.vladsch.flexmark.version}"
+				cdLicense="flexmark-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/vladsch/flexmark"
+				cdMvnArtifactId="flexmark-util-ast"
+				cdMvnVersion="${com.vladsch.flexmark.version}"
+				cdLicense="flexmark-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/vladsch/flexmark"
+				cdMvnArtifactId="flexmark-util-builder"
+				cdMvnVersion="${com.vladsch.flexmark.version}"
+				cdLicense="flexmark-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/vladsch/flexmark"
+				cdMvnArtifactId="flexmark-util-collection"
+				cdMvnVersion="${com.vladsch.flexmark.version}"
+				cdLicense="flexmark-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/vladsch/flexmark"
+				cdMvnArtifactId="flexmark-util-data"
+				cdMvnVersion="${com.vladsch.flexmark.version}"
+				cdLicense="flexmark-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/vladsch/flexmark"
+				cdMvnArtifactId="flexmark-util-dependency"
+				cdMvnVersion="${com.vladsch.flexmark.version}"
+				cdLicense="flexmark-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/vladsch/flexmark"
+				cdMvnArtifactId="flexmark-util-format"
+				cdMvnVersion="${com.vladsch.flexmark.version}"
+				cdLicense="flexmark-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/vladsch/flexmark"
+				cdMvnArtifactId="flexmark-util-misc"
+				cdMvnVersion="${com.vladsch.flexmark.version}"
+				cdLicense="flexmark-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/vladsch/flexmark"
+				cdMvnArtifactId="flexmark-util-sequence"
+				cdMvnVersion="${com.vladsch.flexmark.version}"
+				cdLicense="flexmark-*"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/vladsch/flexmark"
+				cdMvnArtifactId="flexmark-util-visitor"
+				cdMvnVersion="${com.vladsch.flexmark.version}"
+				cdLicense="flexmark-*"/>
+
+			<copyDepend
+				cdMvnGroupId="org/codehaus/woodstox"
+				cdMvnArtifactId="stax2-api"
+				cdMvnVersion="${org.codehaus.woodstox.stax2-api.version}"/>
+
+			<copyDepend
+				cdMvnGroupId="org/apache/httpcomponents"
+				cdMvnArtifactId="httpclient"
+				cdMvnVersion="${org.apache.httpcomponents.client.version}"/>
+
+			<copyDepend
+				cdMvnGroupId="org/apache/httpcomponents"
+				cdMvnArtifactId="httpcore"
+				cdMvnVersion="${org.apache.httpcomponents.core.version}"/>
+
+			<copyDepend
+				cdMvnGroupId="org/apache/httpcomponents"
+				cdMvnArtifactId="httpmime"
+				cdMvnVersion="${org.apache.httpcomponents.mime.version}"/>
+
+			<copyDepend
+				cdMvnGroupId="nu/validator/htmlparser"
+				cdMvnArtifactId="htmlparser"
+				cdMvnVersion="${nu.validator.htmlparser.htmlparser.version}"/>
+
+			<copyDepend
+				cdMvnGroupId="org/apache/pdfbox"
+				cdMvnArtifactId="pdfbox"
+				cdMvnVersion="${org.apache.pdfbox.version}"/>
+		
+			<copyDepend
+				cdMvnGroupId="org/apache/pdfbox"
+				cdMvnArtifactId="fontbox"
+				cdMvnVersion="${org.apache.pdfbox.version}"/>
+
+			<copyDependAndLicense
+				cdMvnGroupId="com/twelvemonkeys/common"
+				cdMvnArtifactId="common-io"
+				cdMvnVersion="${com.twelvemonkeys.common.version}"
+				cdLicense="twelvemonkeys-*"/>
+
+			<copyDepend
+				cdMvnGroupId="com/twelvemonkeys/common"
+				cdMvnArtifactId="common-lang"
+				cdMvnVersion="${com.twelvemonkeys.common.version}"/>
+
+			<copyDepend
+				cdMvnGroupId="org/apache/commons"
+				cdMvnArtifactId="commons-csv"
+				cdMvnVersion="${org.apache.commons-csv.version}"/>
+		
+			<copyDependAndLicense
+				cdMvnGroupId="com/fasterxml/jackson/core"
+				cdMvnArtifactId="jackson-core"
+				cdMvnVersion="${com.fasterxml.jackson.version}"
+				cdLicense="jackson-license.html"/>
+
+			<copyDepend
+				cdMvnGroupId="com/fasterxml/jackson/core"
+				cdMvnArtifactId="jackson-databind"
+				cdMvnVersion="${com.fasterxml.jackson.version}"/>
+
+			<copyDepend
+				cdMvnGroupId="com/fasterxml/jackson/core"
+				cdMvnArtifactId="jackson-annotations"
+				cdMvnVersion="${com.fasterxml.jackson.version}"/>
+			
+			<copyDepend
+				cdMvnGroupId="org/incava"
+				cdMvnArtifactId="java-diff"
+				cdMvnVersion="${org.incava.java-diff.version}"/>
+			
+
+		<!-- This is the logging part -->
+			<copyDepend
+				cdMvnGroupId="org/slf4j"
+				cdMvnArtifactId="slf4j-api"
+				cdMvnVersion="${org.slf4j.version}"/>
+
+			<copyDepend
+				cdMvnGroupId="org/slf4j"
+				cdMvnArtifactId="slf4j-jdk14"
+				cdMvnVersion="${org.slf4j.version}"/>
+
+		</sequential>
+	</macrodef>
+
+	<!-- Make the okapi-lib jar -->
+	<target name="okapiLib">
+
+		<getOkapiArtifacts />
+		<getOtherArtifacts />
+
+		<!-- Create the sources jar -->
+		<copyDepend
+			cdMvnGroupId="net/sf/okapi"
+			cdMvnArtifactId="okapi-lib"
+			cdMvnVersion="${okapi.version}"
+			cdMvnClassifier="-sources"
+			cdFailOnError="false"/>
+
+		<!-- Create directory for dropins -->
+		<mkdir dir="${dist}/dropins"/>
+
+		<!-- Copy examples -->
+		<copy todir="${dist}/examples">
+			<fileset dir="../../okapi/examples/java">
+				<exclude name="**/.*"/>
+				<exclude name="**/.*/**"/>
+				<exclude name="**/target/**"/>
+			</fileset>
+			<fileset dir="../../okapi/filters/markdown/target/examples"/>
+		</copy>
+		<!-- Delete normal pom file -->
+		<delete file="${dist}/examples/pom.xml" quiet="true"/>
+		<!-- And replace it with the one for deployment -->
+		<move file="${dist}/examples/pomForDeployment.xml" tofile="${dist}/examples/pom.xml"/>
+
+		<replace file="${dist}/examples/pom.xml" token="@version@" value="${okapi.version}" encoding="utf-8"/>
+		<replace file="${dist}/examples/build_examples.bat" token="@version@" value="${okapi.version}"/>
+		<replace file="${dist}/examples/build_examples.sh" token="@version@" value="${okapi.version}" encoding="utf-8"/>
+		<replace file="${dist}/examples/run_examples.bat" token="@version@" value="${okapi.version}"/>
+		<replace file="${dist}/examples/run_examples.sh" token="@version@" value="${okapi.version}" encoding="utf-8"/>
+
+		<!-- Copy config -->
+		<copy todir="${dist}/config">
+			<fileset dir="../shared/config">
+			</fileset>
+		</copy>
+
+		<!-- locaweb -->
+		<copy todir="${dist}/localweb/devguide">
+			<fileset dir="../../website/devguide">
+				<exclude name="**/_*"/>
+				<exclude name="**/.*"/>
+			</fileset>
+		</copy>
+		<copy todir="${dist}/localweb" file="../../website/okapi.css"/>
+
+		<!-- javadoc files -->
+		<copyDepend
+			cdMvnGroupId="net/sf/okapi"
+			cdMvnArtifactId="okapi-lib"
+			cdMvnVersion="${okapi.version}"
+			cdMvnClassifier="-javadoc"
+			cdFailOnError="false"/>
+		<unzip dest="${dist}/localweb/javadoc" overwrite="true">
+			<fileset dir=".">
+				<include name="${javadoc.file}"/>
+			</fileset>
+		</unzip>
+		<delete file="${javadoc.file}" quiet="true"/>
+		<delete dir="${dist}/localweb/javadoc/META-INF/" includeEmptyDirs="true" failonerror="false" />
+
+	</target>
+
+	<!-- Make Tikal -->
+	<target name="tikal">
+
+		<copyDepend
+			cdMvnGroupId="net/sf/okapi"
+			cdMvnArtifactId="okapi-application-tikal"
+			cdMvnVersion="${okapi.version}"/>
+
+		<!-- Copy batch/shell -->
+		<copy todir="${dist}">
+			<fileset dir="data/okapi-lib" includes="**/tikal*"/>
+			<fileset dir="data/okapi-lib" includes="**/startTikal*"/>
+			<fileset dir="data/okapi-lib" includes="**/itstest*"/>
+		</copy>
+		<chmod perm="755" dir="${dist}" includes="**/*.sh" />
+
+		<!-- Update ITSTest jar path -->
+		<replace file="${dist}/itstest.bat" token="@version@" value="${okapi.version}"/>
+
+		<!-- Update and copy change log and readme -->
+		<copy todir="${dist}" file="../shared/changes.html"/>
+		<replace file="${dist}/changes.html" token="@date@" value="${TODAY}" encoding="utf-8"/>
+		<copy todir="${dist}" file="data/okapi-lib/readme.html"/>
+		<replace file="${dist}/readme.html" token="@version@" value="${okapi.version}" encoding="utf-8"/>
+		<replace file="${dist}/readme.html" token="@date@" value="${TODAY}" encoding="utf-8"/>
+
+	</target>
+
+	<target name="zip">
+		<zip destfile="${done}/${distName}.zip">
+			<zipfileset filemode="755" dir="${dist}">
+				<include name="**/*.sh"/>
+			</zipfileset>
+			<zipfileset dir="${dist}">
+				<exclude name="**/*.sh"/>
+			</zipfileset>
+		</zip>
+	</target>
+
+	<target name="all" depends="shared.init, okapiLib, tikal, zip, shared.chkDocSrc"/>
+
+</project>
+

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="de">
+ <file id="f1" original="some_file.txt">
+   <unit id="1">
+    <originalData>
+    <data id="d1">&lt;b></data>
+    <data id="d2">&lt;/b></data>
+    </originalData>
+    <segment>
+     <source xml:space="preserve">How is <ph id="1" canCopy="no" canDelete="no" disp="&lt;b>" dataRef="d1"/>your<ph id="2" canCopy="no" canDelete="no" disp="&lt;/b>" dataRef="d2"/> day?</source>
+     <target xml:space="preserve">Wie geht <ph id="1" canCopy="no" canDelete="no" disp="&lt;b>" dataRef="d1"/>es<ph id="2" canCopy="no" canDelete="no" disp="&lt;/b>" dataRef="d2"/> Heute?</target>
+    </segment>
+   </unit>
+  <unit id="2">
+   <originalData>
+    <data id="d1">&lt;span class="emphasis"></data>
+    <data id="d2">&lt;/span></data>
+    <data id="d3">&lt;img src="icon.svg"/></data>
+    <data id="d4">&lt;img src="some_icon2.svg"/></data>
+   </originalData>
+   <segment>
+    <source xml:space="preserve">Frodo</source>
+    <target xml:space="preserve">Frodo</target>
+   </segment>
+   <ignorable>
+    <source xml:space="preserve">: </source>
+    <target xml:space="preserve">: </target>
+   </ignorable>
+   <segment>
+    <source xml:space="preserve">I wish the <pc id="1" dispStart="&lt;span class=&quot;emphasis&quot;>" dispEnd="&lt;/span>" dataRefEnd="d2" dataRefStart="d1">Ring</pc> had never come to me.</source>
+    <target xml:space="preserve">Ich wünschte, der <pc id="1" dispStart="&lt;span class=&quot;emphasis&quot;>" dispEnd="&lt;/span>" dataRefEnd="d2" dataRefStart="d1">Ring</pc> wäre nie zu mir gekommen.</target>
+   </segment>
+   <ignorable>
+    <source xml:space="preserve"> </source>
+<target xml:space="preserve"> </target>
+   </ignorable>
+   <segment>
+    <source xml:space="preserve">I wish <ph id="stringedIdOne" disp="&lt;img src=&quot;icon.svg&quot;/>" dataRef="d3"/>none of this had happened.<ph id="stringedIdTwo" disp="&lt;img src=&quot;some_icon2.svg&quot;/>" dataRef="d4"/></source>
+    <target xml:space="preserve">Ich <ph id="stringedIdOne" disp="&lt;img src=&quot;icon.svg&quot;/>" dataRef="d3"/>wünschte, nichts<ph id="stringedIdTwo" disp="&lt;img src=&quot;some_icon2.svg&quot;/>" dataRef="d4"/> davon wäre passiert.</target>
+   </segment>
+  </unit>
+  <unit id="3">
+   <originalData>
+    <data id="d1">&lt;span class="emphasis"></data>
+    <data id="d2">&lt;/span></data>
+   </originalData>
+  <segment>
+   <source xml:space="preserve">Gandalf</source>
+   <target xml:space="preserve">Gandalf</target>
+  </segment>
+   <ignorable>
+    <source xml:space="preserve">: </source>
+<target xml:space="preserve">: </target>
+   </ignorable>
+   <segment>
+    <source xml:space="preserve">So do all who live to see such times, but that is not for them to decide.</source>
+    <target xml:space="preserve">So machen es alle, die solche Zeiten erleben, aber das ist nicht für sie zu entscheiden.</target>
+   </segment>
+   <ignorable>
+    <source xml:space="preserve"> </source>
+<target xml:space="preserve"> </target>
+   </ignorable>
+   <segment>
+    <source xml:space="preserve">All we have to decide is <pc id="4" dispStart="&lt;span class=&quot;emphasis&quot;>" dispEnd="&lt;/span>" dataRefEnd="d2" dataRefStart="d1">what to do with the time that is given to us</pc>.</source>
+    <target xml:space="preserve">Wir müssen uns nur entscheiden, <pc id="4" dispStart="&lt;span class=&quot;emphasis&quot;>" dispEnd="&lt;/span>" dataRefEnd="d2" dataRefStart="d1">was wir mit der uns zur Verfügung gestellten Zeit anfangen sollen</pc>.</target>
+   </segment>
+  </unit>
+ </file>
+</xliff>

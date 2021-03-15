@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminconsist38781.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Sample SYSCS_CHECK_TABLE error messages</source>
+<seg-source><mrk mid="0" mtype="seg">Sample SYSCS_CHECK_TABLE error messages</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sample SYSCS_CHECK_TABLE error messages</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">This section provides examples of error messages that the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> function can return.</source>
+<seg-source><mrk mid="0" mtype="seg">This section provides examples of error messages that the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> function can return.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This section provides examples of error messages that the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> function can return.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SYSCS_CHECK_TABLE error messages</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_CHECK_TABLE error messages</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_CHECK_TABLE error messages</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">If the row counts of the base table and an index differ, error message X0Y55 is issued:</source>
+<seg-source><mrk mid="0" mtype="seg">If the row counts of the base table and an index differ, error message X0Y55 is issued:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the row counts of the base table and an index differ, error message X0Y55 is issued:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">ERROR X0Y55: The number of rows in the base table does not match the number of rows in at least 1 of the indexes on the table. Index 'T1_I' on table 'APP.T1' has 4 rows, but the base table has 5 rows. The suggested corrective action is to recreate the index.</source>
+<seg-source><mrk mid="0" mtype="seg">ERROR X0Y55:</mrk><mrk mid="1" mtype="seg"> The number of rows in the base table does not match the number of rows in at least 1 of the indexes on the table.</mrk><mrk mid="2" mtype="seg"> Index 'T1_I' on table 'APP.T1' has 4 rows, but the base table has 5 rows.</mrk><mrk mid="3" mtype="seg"> The suggested corrective action is to recreate the index.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ERROR X0Y55:</mrk><mrk mid="1" mtype="seg"> The number of rows in the base table does not match the number of rows in at least 1 of the indexes on the table.</mrk><mrk mid="2" mtype="seg"> Index 'T1_I' on table 'APP.T1' has 4 rows, but the base table has 5 rows.</mrk><mrk mid="3" mtype="seg"> The suggested corrective action is to recreate the index.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">If the index refers to a row that does not exist in the base table, error message X0X62 is issued:</source>
+<seg-source><mrk mid="0" mtype="seg">If the index refers to a row that does not exist in the base table, error message X0X62 is issued:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the index refers to a row that does not exist in the base table, error message X0X62 is issued:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">ERROR X0X62: Inconsistency found between table 'APP.T1' and index 'T1_I'. Error when trying to retrieve row location '(1,6)' from the table. The full index key,including the row location, is '{ 1, (1,6) }'. The suggested corrective action is to recreate the index.</source>
+<seg-source><mrk mid="0" mtype="seg">ERROR X0X62: Inconsistency found between table 'APP.T1' and index 'T1_I'.</mrk><mrk mid="1" mtype="seg"> Error when trying to retrieve row location '(1,6)' from the table.</mrk><mrk mid="2" mtype="seg"> The full index key,including the row location, is '{ 1, (1,6) }'.</mrk><mrk mid="3" mtype="seg"> The suggested corrective action is to recreate the index.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ERROR X0X62: Inconsistency found between table 'APP.T1' and index 'T1_I'.</mrk><mrk mid="1" mtype="seg"> Error when trying to retrieve row location '(1,6)' from the table.</mrk><mrk mid="2" mtype="seg"> The full index key,including the row location, is '{ 1, (1,6) }'.</mrk><mrk mid="3" mtype="seg"> The suggested corrective action is to recreate the index.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If a key column value differs between the base table and the index, error message X0X61 is issued:</source>
+<seg-source><mrk mid="0" mtype="seg">If a key column value differs between the base table and the index, error message X0X61 is issued:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a key column value differs between the base table and the index, error message X0X61 is issued:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">ERROR X0X61: The values for column 'C10' in index 'T1_C10' and table 'APP.T1' do not match for row location (1,7). The value in the index is '2 2 ', while the value in the base table is 'NULL'. The full index key, including the row location, is '{ 2 2 , (1,7) }'. The suggested corrective action is to recreate the index.</source>
+<seg-source><mrk mid="0" mtype="seg">ERROR X0X61: The values for column 'C10' in index 'T1_C10' and table 'APP.T1' do not match for row location (1,7).</mrk><mrk mid="1" mtype="seg"> The value in the index is '2 2 ', while the value in the base table is 'NULL'.</mrk><mrk mid="2" mtype="seg"> The full index key, including the row location, is '{ 2 2 , (1,7) }'.</mrk><mrk mid="3" mtype="seg"> The suggested corrective action is to recreate the index.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ERROR X0X61: The values for column 'C10' in index 'T1_C10' and table 'APP.T1' do not match for row location (1,7).</mrk><mrk mid="1" mtype="seg"> The value in the index is '2 2 ', while the value in the base table is 'NULL'.</mrk><mrk mid="2" mtype="seg"> The full index key, including the row location, is '{ 2 2 , (1,7) }'.</mrk><mrk mid="3" mtype="seg"> The suggested corrective action is to recreate the index.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

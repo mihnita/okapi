@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbcjsr169.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">JDBC Package for Connected Device Configuration/Foundation Profile (JSR 169)</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC Package for Connected Device Configuration/Foundation Profile (JSR 169)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC Package for Connected Device Configuration/Foundation Profile (JSR 169)</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">JSR 169 features</source>
+<seg-source><mrk mid="0" mtype="seg">JSR 169 features</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JSR 169 features</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">support for</source>
+<seg-source><mrk mid="0" mtype="seg">support for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">support for</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the JDBC API defined for the Connected Device Configuration/Foundation Profile, also known as JSR 169. The features supported are a subset of the JDBC 3.0 specification. Support for JSR 169 is limited to the embedded driver. <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not support using the Network Server under JSR 169.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the JDBC API defined for the Connected Device Configuration/Foundation Profile, also known as JSR 169.</mrk><mrk mid="1" mtype="seg"> The features supported are a subset of the JDBC 3.0 specification.</mrk><mrk mid="2" mtype="seg"> Support for JSR 169 is limited to the embedded driver.</mrk><mrk mid="3" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not support using the Network Server under JSR 169.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the JDBC API defined for the Connected Device Configuration/Foundation Profile, also known as JSR 169.</mrk><mrk mid="1" mtype="seg"> The features supported are a subset of the JDBC 3.0 specification.</mrk><mrk mid="2" mtype="seg"> Support for JSR 169 is limited to the embedded driver.</mrk><mrk mid="3" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not support using the Network Server under JSR 169.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">To obtain a connection using JSR 169, use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.EmbeddedSimpleDataSource<ept id="1">&lt;/codeph&gt;</ept> class. This class is identical in implementation to the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.EmbeddedDataSource<ept id="2">&lt;/codeph&gt;</ept> class. See the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for information on using the properties of the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.EmbeddedDataSource<ept id="4">&lt;/codeph&gt;</ept> class.</source>
+<seg-source><mrk mid="0" mtype="seg">To obtain a connection using JSR 169, use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.EmbeddedSimpleDataSource<ept id="1">&lt;/codeph&gt;</ept> class.</mrk><mrk mid="1" mtype="seg"> This class is identical in implementation to the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.EmbeddedDataSource<ept id="2">&lt;/codeph&gt;</ept> class.</mrk><mrk mid="2" mtype="seg"> See the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for information on using the properties of the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.EmbeddedDataSource<ept id="4">&lt;/codeph&gt;</ept> class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To obtain a connection using JSR 169, use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.EmbeddedSimpleDataSource<ept id="1">&lt;/codeph&gt;</ept> class.</mrk><mrk mid="1" mtype="seg"> This class is identical in implementation to the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.EmbeddedDataSource<ept id="2">&lt;/codeph&gt;</ept> class.</mrk><mrk mid="2" mtype="seg"> See the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for information on using the properties of the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.EmbeddedDataSource<ept id="4">&lt;/codeph&gt;</ept> class.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">JSR 169 and its <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implementation have the following limitations:</source>
+<seg-source><mrk mid="0" mtype="seg">JSR 169 and its <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implementation have the following limitations:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JSR 169 and its <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implementation have the following limitations:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Applications must get and set <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DECIMAL<ept id="1">&lt;/codeph&gt;</ept> values using alternate JDBC <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>getXXX<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>setXXX<ept id="3">&lt;/codeph&gt;</ept> methods, such as <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>getString()<ept id="4">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>setString()<ept id="5">&lt;/codeph&gt;</ept>. Any alternate method that works against a DECIMAL type with JDBC 3.0 will work in JSR 169.</source>
+<seg-source><mrk mid="0" mtype="seg">Applications must get and set <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DECIMAL<ept id="1">&lt;/codeph&gt;</ept> values using alternate JDBC <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>getXXX<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>setXXX<ept id="3">&lt;/codeph&gt;</ept> methods, such as <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>getString()<ept id="4">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>setString()<ept id="5">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Any alternate method that works against a DECIMAL type with JDBC 3.0 will work in JSR 169.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Applications must get and set <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DECIMAL<ept id="1">&lt;/codeph&gt;</ept> values using alternate JDBC <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>getXXX<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>setXXX<ept id="3">&lt;/codeph&gt;</ept> methods, such as <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>getString()<ept id="4">&lt;/codeph&gt;</ept> and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>setString()<ept id="5">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> Any alternate method that works against a DECIMAL type with JDBC 3.0 will work in JSR 169.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The XML data type is not supported, but an application can retrieve, update, query, or otherwise access an XML data value if it has classes for a JAXP parser and for Xalan in the classpath. <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues an error if either the parser or Xalan is not found. In some situations, you may need to take steps to place the parser and Xalan in your classpath. See "XML data types and operators" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg">The XML data type is not supported, but an application can retrieve, update, query, or otherwise access an XML data value if it has classes for a JAXP parser and for Xalan in the classpath.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues an error if either the parser or Xalan is not found.</mrk><mrk mid="2" mtype="seg"> In some situations, you may need to take steps to place the parser and Xalan in your classpath.</mrk><mrk mid="3" mtype="seg"> See "XML data types and operators" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The XML data type is not supported, but an application can retrieve, update, query, or otherwise access an XML data value if it has classes for a JAXP parser and for Xalan in the classpath.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues an error if either the parser or Xalan is not found.</mrk><mrk mid="2" mtype="seg"> In some situations, you may need to take steps to place the parser and Xalan in your classpath.</mrk><mrk mid="3" mtype="seg"> See "XML data types and operators" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">JSR 169 and its <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implementation do not support the following:</source>
+<seg-source><mrk mid="0" mtype="seg">JSR 169 and its <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implementation do not support the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JSR 169 and its <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implementation do not support the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Java functions and procedures that use server-side JDBC, that is, routines declared with <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CONTAINS SQL<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>READS SQL DATA<ept id="2">&lt;/codeph&gt;</ept>, or <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>MODIFIES SQL DATA<ept id="3">&lt;/codeph&gt;</ept> clauses</source>
+<seg-source><mrk mid="0" mtype="seg">Java functions and procedures that use server-side JDBC, that is, routines declared with <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CONTAINS SQL<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>READS SQL DATA<ept id="2">&lt;/codeph&gt;</ept>, or <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>MODIFIES SQL DATA<ept id="3">&lt;/codeph&gt;</ept> clauses</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Java functions and procedures that use server-side JDBC, that is, routines declared with <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CONTAINS SQL<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>READS SQL DATA<ept id="2">&lt;/codeph&gt;</ept>, or <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>MODIFIES SQL DATA<ept id="3">&lt;/codeph&gt;</ept> clauses</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager<ept id="1">&lt;/codeph&gt;</ept> interface (this means that you cannot use the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager.getConnection<ept id="2">&lt;/codeph&gt;</ept> method to obtain a connection but must use the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.EmbeddedSimpleDataSource<ept id="3">&lt;/codeph&gt;</ept> class instead)</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager<ept id="1">&lt;/codeph&gt;</ept> interface (this means that you cannot use the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager.getConnection<ept id="2">&lt;/codeph&gt;</ept> method to obtain a connection but must use the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.EmbeddedSimpleDataSource<ept id="3">&lt;/codeph&gt;</ept> class instead)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager<ept id="1">&lt;/codeph&gt;</ept> interface (this means that you cannot use the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager.getConnection<ept id="2">&lt;/codeph&gt;</ept> method to obtain a connection but must use the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.EmbeddedSimpleDataSource<ept id="3">&lt;/codeph&gt;</ept> class instead)</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The standard URL used to obtain a connection, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>jdbc:default:connection<ept id="1">&lt;/codeph&gt;</ept> (a runtime error may occur if the routine tries to obtain a connection using <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>jdbc:default:connection<ept id="2">&lt;/codeph&gt;</ept>)</source>
+<seg-source><mrk mid="0" mtype="seg">The standard URL used to obtain a connection, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>jdbc:default:connection<ept id="1">&lt;/codeph&gt;</ept> (a runtime error may occur if the routine tries to obtain a connection using <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>jdbc:default:connection<ept id="2">&lt;/codeph&gt;</ept>)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The standard URL used to obtain a connection, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>jdbc:default:connection<ept id="1">&lt;/codeph&gt;</ept> (a runtime error may occur if the routine tries to obtain a connection using <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>jdbc:default:connection<ept id="2">&lt;/codeph&gt;</ept>)</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Diagnostic tables</source>
+<seg-source><mrk mid="0" mtype="seg">Diagnostic tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Diagnostic tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Triggers</source>
+<seg-source><mrk mid="0" mtype="seg">Triggers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Triggers</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Encrypted databases</source>
+<seg-source><mrk mid="0" mtype="seg">Encrypted databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encrypted databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Non-blocking I/O</source>
+<seg-source><mrk mid="0" mtype="seg">Non-blocking I/O</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Non-blocking I/O</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Java EE resource manager support, including distributed transactions</source>
+<seg-source><mrk mid="0" mtype="seg">Java EE resource manager support, including distributed transactions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Java EE resource manager support, including distributed transactions</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Principal-based security</source>
+<seg-source><mrk mid="0" mtype="seg">Principal-based security</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Principal-based security</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">LDAP-based authentication</source>
+<seg-source><mrk mid="0" mtype="seg">LDAP-based authentication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LDAP-based authentication</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">SSL/TLS encryption</source>
+<seg-source><mrk mid="0" mtype="seg">SSL/TLS encryption</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSL/TLS encryption</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Replication</source>
+<seg-source><mrk mid="0" mtype="seg">Replication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replication</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">User-defined aggregates</source>
+<seg-source><mrk mid="0" mtype="seg">User-defined aggregates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">User-defined aggregates</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Varargs routines</source>
+<seg-source><mrk mid="0" mtype="seg">Varargs routines</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Varargs routines</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljcreateaggregate.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CREATE DERBY AGGREGATE statement</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE DERBY AGGREGATE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE DERBY AGGREGATE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">CREATE DERBY AGGREGATE statement</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE DERBY AGGREGATE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE DERBY AGGREGATE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SQL statements</source>
+<seg-source><mrk mid="0" mtype="seg">SQL statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">CREATE DERBY AGGREGATE</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE DERBY AGGREGATE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE DERBY AGGREGATE</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">user-defined aggregates</source>
+<seg-source><mrk mid="0" mtype="seg">user-defined aggregates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user-defined aggregates</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">creating</source>
+<seg-source><mrk mid="0" mtype="seg">creating</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">creating</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">aggregates</source>
+<seg-source><mrk mid="0" mtype="seg">aggregates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">aggregates</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">user-defined</source>
+<seg-source><mrk mid="0" mtype="seg">user-defined</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user-defined</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The CREATE DERBY AGGREGATE statement creates a user-defined aggregate (UDA). A UDA is a custom aggregate operator.</source>
+<seg-source><mrk mid="0" mtype="seg">The CREATE DERBY AGGREGATE statement creates a user-defined aggregate (UDA).</mrk><mrk mid="1" mtype="seg"> A UDA is a custom aggregate operator.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The CREATE DERBY AGGREGATE statement creates a user-defined aggregate (UDA).</mrk><mrk mid="1" mtype="seg"> A UDA is a custom aggregate operator.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE DERBY AGGREGATE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefaggregatename.dita#rrefaggregatename"&gt;</bpt>aggregateName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FOR <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>valueDataType<ept id="4">&lt;/i&gt;</ept> [ RETURNS <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>returnDataType<ept id="5">&lt;/i&gt;</ept> ] <bpt id="6" ctype="x-xref">&lt;xref href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt>EXTERNAL NAME<ept id="6">&lt;/xref&gt;</ept> <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="7">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE DERBY AGGREGATE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefaggregatename.dita#rrefaggregatename"&gt;</bpt>aggregateName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FOR <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>valueDataType<ept id="4">&lt;/i&gt;</ept> [ RETURNS <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>returnDataType<ept id="5">&lt;/i&gt;</ept> ] <bpt id="6" ctype="x-xref">&lt;xref href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt>EXTERNAL NAME<ept id="6">&lt;/xref&gt;</ept> <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="7">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE DERBY AGGREGATE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefaggregatename.dita#rrefaggregatename"&gt;</bpt>aggregateName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FOR <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>valueDataType<ept id="4">&lt;/i&gt;</ept> [ RETURNS <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>returnDataType<ept id="5">&lt;/i&gt;</ept> ] <bpt id="6" ctype="x-xref">&lt;xref href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt>EXTERNAL NAME<ept id="6">&lt;/xref&gt;</ept> <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="7">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The aggregate name is composed of an optional <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="3">&lt;/i&gt;</ept>. If a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>schemaName<ept id="4">&lt;/i&gt;</ept> is not provided, the current schema is the default schema. If a qualified aggregate name is specified, the schema name cannot begin with SYS.</source>
+<seg-source><mrk mid="0" mtype="seg">The aggregate name is composed of an optional <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> If a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>schemaName<ept id="4">&lt;/i&gt;</ept> is not provided, the current schema is the default schema.</mrk><mrk mid="2" mtype="seg"> If a qualified aggregate name is specified, the schema name cannot begin with SYS.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The aggregate name is composed of an optional <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> If a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>schemaName<ept id="4">&lt;/i&gt;</ept> is not provided, the current schema is the default schema.</mrk><mrk mid="2" mtype="seg"> If a qualified aggregate name is specified, the schema name cannot begin with SYS.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">In general, UDAs live in the same namespace as one-argument user-defined functions (see <bpt id="1" ctype="x-xref">&lt;xref href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>). A schema-qualified UDA name may not be the schema-qualified name of a one-argument user-defined function.</source>
+<seg-source><mrk mid="0" mtype="seg">In general, UDAs live in the same namespace as one-argument user-defined functions (see <bpt id="1" ctype="x-xref">&lt;xref href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> A schema-qualified UDA name may not be the schema-qualified name of a one-argument user-defined function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In general, UDAs live in the same namespace as one-argument user-defined functions (see <bpt id="1" ctype="x-xref">&lt;xref href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> A schema-qualified UDA name may not be the schema-qualified name of a one-argument user-defined function.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">An unqualified UDA name (that is, the UDA name without its schema name) may not be the name of an aggregate defined in part 2 of the SQL Standard, section 10.9:</source>
+<seg-source><mrk mid="0" mtype="seg">An unqualified UDA name (that is, the UDA name without its schema name) may not be the name of an aggregate defined in part 2 of the SQL Standard, section 10.9:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An unqualified UDA name (that is, the UDA name without its schema name) may not be the name of an aggregate defined in part 2 of the SQL Standard, section 10.9:</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">ANY AVG COLLECT COUNT EVERY FUSION INTERSECTION MAX MIN SOME STDDEV_POP STDDEV_SAMP SUM VAR_POP VAR_SAMP</source>
+<seg-source><mrk mid="0" mtype="seg">ANY AVG COLLECT COUNT EVERY FUSION INTERSECTION MAX MIN SOME STDDEV_POP STDDEV_SAMP SUM VAR_POP VAR_SAMP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ANY AVG COLLECT COUNT EVERY FUSION INTERSECTION MAX MIN SOME STDDEV_POP STDDEV_SAMP SUM VAR_POP VAR_SAMP</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">In addition, an unqualified UDA name may not be the name of any of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> built-in functions which take one argument.</source>
+<seg-source><mrk mid="0" mtype="seg">In addition, an unqualified UDA name may not be the name of any of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> built-in functions which take one argument.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In addition, an unqualified UDA name may not be the name of any of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> built-in functions which take one argument.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>valueDataType<ept id="1">&lt;/i&gt;</ept> can be any valid nullable <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> data type except for XML, including user-defined types.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>valueDataType<ept id="1">&lt;/i&gt;</ept> can be any valid nullable <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> data type except for XML, including user-defined types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>valueDataType<ept id="1">&lt;/i&gt;</ept> can be any valid nullable <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> data type except for XML, including user-defined types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>returnDataType<ept id="1">&lt;/i&gt;</ept> can be any valid nullable <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> data type except for XML. If the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>returnDataType<ept id="3">&lt;/i&gt;</ept> is omitted, it defaults to be the same as <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>valueDataType<ept id="4">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>returnDataType<ept id="1">&lt;/i&gt;</ept> can be any valid nullable <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> data type except for XML.</mrk><mrk mid="1" mtype="seg"> If the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>returnDataType<ept id="3">&lt;/i&gt;</ept> is omitted, it defaults to be the same as <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>valueDataType<ept id="4">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>returnDataType<ept id="1">&lt;/i&gt;</ept> can be any valid nullable <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> data type except for XML.</mrk><mrk mid="1" mtype="seg"> If the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>returnDataType<ept id="3">&lt;/i&gt;</ept> is omitted, it defaults to be the same as <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>valueDataType<ept id="4">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="1">&lt;/i&gt;</ept> specified by the <bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> is the full name of a Java class which implements the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.agg.Aggregator<ept id="3">&lt;/i&gt;</ept> interface. That contract is not checked until a statement is compiled which invokes the UDA.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="1">&lt;/i&gt;</ept> specified by the <bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> is the full name of a Java class which implements the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.agg.Aggregator<ept id="3">&lt;/i&gt;</ept> interface.</mrk><mrk mid="1" mtype="seg"> That contract is not checked until a statement is compiled which invokes the UDA.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="1">&lt;/i&gt;</ept> specified by the <bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> is the full name of a Java class which implements the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.agg.Aggregator<ept id="3">&lt;/i&gt;</ept> interface.</mrk><mrk mid="1" mtype="seg"> That contract is not checked until a statement is compiled which invokes the UDA.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.agg.Aggregator<ept id="1">&lt;/i&gt;</ept> interface extends <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.io.Serializable<ept id="2">&lt;/i&gt;</ept>, so you must make sure that all of the state of your UDA is serializable. A UDA may be serialized to disk when it performs grouped aggregation over a large number of groups. That is, intermediate results may be serialized to disk for a query like the following:</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.agg.Aggregator<ept id="1">&lt;/i&gt;</ept> interface extends <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.io.Serializable<ept id="2">&lt;/i&gt;</ept>, so you must make sure that all of the state of your UDA is serializable.</mrk><mrk mid="1" mtype="seg"> A UDA may be serialized to disk when it performs grouped aggregation over a large number of groups.</mrk><mrk mid="2" mtype="seg"> That is, intermediate results may be serialized to disk for a query like the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.agg.Aggregator<ept id="1">&lt;/i&gt;</ept> interface extends <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.io.Serializable<ept id="2">&lt;/i&gt;</ept>, so you must make sure that all of the state of your UDA is serializable.</mrk><mrk mid="1" mtype="seg"> A UDA may be serialized to disk when it performs grouped aggregation over a large number of groups.</mrk><mrk mid="2" mtype="seg"> That is, intermediate results may be serialized to disk for a query like the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">SELECT a, myAggregate( b ) FROM myTable GROUP BY a</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT a, myAggregate( b ) FROM myTable GROUP BY a</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT a, myAggregate( b ) FROM myTable GROUP BY a</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">The serialization will fail if the UDA contains non-serializable fields.</source>
+<seg-source><mrk mid="0" mtype="seg">The serialization will fail if the UDA contains non-serializable fields.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The serialization will fail if the UDA contains non-serializable fields.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">The owner of the schema where the UDA lives automatically gains the USAGE privilege on the UDA and can grant this privilege to other users and roles. Only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> and the owner of the UDA can grant these USAGE privileges. The USAGE privilege cannot be revoked from the schema owner. See <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> and <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">The owner of the schema where the UDA lives automatically gains the USAGE privilege on the UDA and can grant this privilege to other users and roles.</mrk><mrk mid="1" mtype="seg"> Only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> and the owner of the UDA can grant these USAGE privileges.</mrk><mrk mid="2" mtype="seg"> The USAGE privilege cannot be revoked from the schema owner.</mrk><mrk mid="3" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> and <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The owner of the schema where the UDA lives automatically gains the USAGE privilege on the UDA and can grant this privilege to other users and roles.</mrk><mrk mid="1" mtype="seg"> Only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> and the owner of the UDA can grant these USAGE privileges.</mrk><mrk mid="2" mtype="seg"> The USAGE privilege cannot be revoked from the schema owner.</mrk><mrk mid="3" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> and <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE DERBY AGGREGATE mode FOR INT EXTERNAL NAME 'com.example.myapp.aggs.Mode'; CREATE DERBY AGGREGATE types.maxPrice FOR PRICE EXTERNAL NAME 'com.example.myapp.types.PriceMaxer'; CREATE DERBY AGGREGATE types.avgLength FOR VECTOR RETURNS DOUBLE EXTERNAL NAME 'com.example.myapp.types.VectorLength';<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE DERBY AGGREGATE mode FOR INT EXTERNAL NAME 'com.example.myapp.aggs.Mode'; CREATE DERBY AGGREGATE types.maxPrice FOR PRICE EXTERNAL NAME 'com.example.myapp.types.PriceMaxer'; CREATE DERBY AGGREGATE types.avgLength FOR VECTOR RETURNS DOUBLE EXTERNAL NAME 'com.example.myapp.types.VectorLength';<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE DERBY AGGREGATE mode FOR INT EXTERNAL NAME 'com.example.myapp.aggs.Mode'; CREATE DERBY AGGREGATE types.maxPrice FOR PRICE EXTERNAL NAME 'com.example.myapp.types.PriceMaxer'; CREATE DERBY AGGREGATE types.avgLength FOR VECTOR RETURNS DOUBLE EXTERNAL NAME 'com.example.myapp.types.VectorLength';<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">See "Programming user-defined aggregates" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for more details about creating and using user-defined aggregates.</source>
+<seg-source><mrk mid="0" mtype="seg">See "Programming user-defined aggregates" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for more details about creating and using user-defined aggregates.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See "Programming user-defined aggregates" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for more details about creating and using user-defined aggregates.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

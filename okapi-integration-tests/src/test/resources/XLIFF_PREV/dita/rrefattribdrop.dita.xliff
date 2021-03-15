@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefattribdrop.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">drop=true attribute</source>
+<seg-source><mrk mid="0" mtype="seg">drop=true attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">drop=true attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">drop=true database connection URL attribute</source>
+<seg-source><mrk mid="0" mtype="seg">drop=true database connection URL attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">drop=true database connection URL attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">in-memory databases</source>
+<seg-source><mrk mid="0" mtype="seg">in-memory databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">in-memory databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">removing</source>
+<seg-source><mrk mid="0" mtype="seg">removing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">removing</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">databases</source>
+<seg-source><mrk mid="0" mtype="seg">databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">removing in-memory</source>
+<seg-source><mrk mid="0" mtype="seg">removing in-memory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">removing in-memory</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Removes the in-memory database specified within the database connection URL. Generates the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="1">&lt;/i&gt;</ept> 08006 if successful. If the database does not exist, generates an error reporting that the database could not be found.</source>
+<seg-source><mrk mid="0" mtype="seg">Removes the in-memory database specified within the database connection URL.</mrk><mrk mid="1" mtype="seg"> Generates the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="1">&lt;/i&gt;</ept> 08006 if successful.</mrk><mrk mid="2" mtype="seg"> If the database does not exist, generates an error reporting that the database could not be found.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Removes the in-memory database specified within the database connection URL.</mrk><mrk mid="1" mtype="seg"> Generates the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="1">&lt;/i&gt;</ept> 08006 if successful.</mrk><mrk mid="2" mtype="seg"> If the database does not exist, generates an error reporting that the database could not be found.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">For a database for which authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can drop that database.</source>
+<seg-source><mrk mid="0" mtype="seg">For a database for which authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can drop that database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For a database for which authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can drop that database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">It is not necessary to shut down the database before dropping it.</source>
+<seg-source><mrk mid="0" mtype="seg">It is not necessary to shut down the database before dropping it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is not necessary to shut down the database before dropping it.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">If you specify this attribute with a database that is not an in-memory database, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> generates the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="2">&lt;/i&gt;</ept> XBM0I.</source>
+<seg-source><mrk mid="0" mtype="seg">If you specify this attribute with a database that is not an in-memory database, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> generates the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="2">&lt;/i&gt;</ept> XBM0I.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you specify this attribute with a database that is not an in-memory database, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> generates the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="2">&lt;/i&gt;</ept> XBM0I.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Combining with other attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Combining with other attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Combining with other attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">If authentication is turned on, you must specify this attribute in conjunction with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefattrib10035.dita#rrefattrib10035"&gt;</bpt>user=userName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref
+href="rrefattrib42686.dita#rrefattrib42686"&gt;</bpt>password=userPassword<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> attributes. If both authentication and SQL authorization are turned on, the user must be the database owner.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication is turned on, you must specify this attribute in conjunction with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefattrib10035.dita#rrefattrib10035"&gt;</bpt>user=userName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref
+href="rrefattrib42686.dita#rrefattrib42686"&gt;</bpt>password=userPassword<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> attributes.</mrk><mrk mid="1" mtype="seg"> If both authentication and SQL authorization are turned on, the user must be the database owner.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication is turned on, you must specify this attribute in conjunction with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefattrib10035.dita#rrefattrib10035"&gt;</bpt>user=userName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref
+href="rrefattrib42686.dita#rrefattrib42686"&gt;</bpt>password=userPassword<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept> attributes.</mrk><mrk mid="1" mtype="seg"> If both authentication and SQL authorization are turned on, the user must be the database owner.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- drop an in-memory database using the embedded driver<ept id="2">&lt;/ph&gt;</ept> jdbc:derby:memory:myInMemDB;drop=true <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- drop an in-memory database using the Network Server<ept id="3">&lt;/ph&gt;</ept> jdbc:derby://localhost:1527/memory:myInMemDB;drop=true<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- drop an in-memory database using the embedded driver<ept id="2">&lt;/ph&gt;</ept> jdbc:derby:memory:myInMemDB;drop=true <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- drop an in-memory database using the Network Server<ept id="3">&lt;/ph&gt;</ept> jdbc:derby://localhost:1527/memory:myInMemDB;drop=true<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- drop an in-memory database using the embedded driver<ept id="2">&lt;/ph&gt;</ept> jdbc:derby:memory:myInMemDB;drop=true <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- drop an in-memory database using the Network Server<ept id="3">&lt;/ph&gt;</ept> jdbc:derby://localhost:1527/memory:myInMemDB;drop=true<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

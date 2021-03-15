@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefproperrollingfile.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.stream.error.style</source>
+<seg-source><mrk mid="0" mtype="seg">derby.stream.error.style</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.stream.error.style</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">derby.stream.error.style</source>
+<seg-source><mrk mid="0" mtype="seg">derby.stream.error.style</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.stream.error.style</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Error log</source>
+<seg-source><mrk mid="0" mtype="seg">Error log</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error log</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">rolling over</source>
+<seg-source><mrk mid="0" mtype="seg">rolling over</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">rolling over</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Specifies that the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> log file should be rolled over when it reaches a certain size.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies that the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> log file should be rolled over when it reaches a certain size.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies that the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> log file should be rolled over when it reaches a certain size.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">If you set this property to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>rollingFile<ept id="1">&lt;/codeph&gt;</ept> (the only supported value), <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> by default creates up to 10 rolling files named <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby-0.log<ept id="3">&lt;/i&gt;</ept>, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby-1.log<ept id="4">&lt;/i&gt;</ept>, and so on, up to <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>derby-9.log<ept id="5">&lt;/i&gt;</ept>, each with a maximum length of 1,024,000 bytes.</source>
+<seg-source><mrk mid="0" mtype="seg">If you set this property to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>rollingFile<ept id="1">&lt;/codeph&gt;</ept> (the only supported value), <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> by default creates up to 10 rolling files named <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby-0.log<ept id="3">&lt;/i&gt;</ept>, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby-1.log<ept id="4">&lt;/i&gt;</ept>, and so on, up to <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>derby-9.log<ept id="5">&lt;/i&gt;</ept>, each with a maximum length of 1,024,000 bytes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you set this property to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>rollingFile<ept id="1">&lt;/codeph&gt;</ept> (the only supported value), <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> by default creates up to 10 rolling files named <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby-0.log<ept id="3">&lt;/i&gt;</ept>, <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby-1.log<ept id="4">&lt;/i&gt;</ept>, and so on, up to <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>derby-9.log<ept id="5">&lt;/i&gt;</ept>, each with a maximum length of 1,024,000 bytes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">You can override any of these defaults by setting one or more of the following properties:</source>
+<seg-source><mrk mid="0" mtype="seg">You can override any of these defaults by setting one or more of the following properties:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can override any of these defaults by setting one or more of the following properties:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperrollingfilecount.dita#rrefproperrollingfilecount"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperrollingfilecount.dita#rrefproperrollingfilecount"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperrollingfilecount.dita#rrefproperrollingfilecount"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperrollingfilelimit.dita#rrefproperrollingfilelimit"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperrollingfilelimit.dita#rrefproperrollingfilelimit"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperrollingfilelimit.dita#rrefproperrollingfilelimit"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperrollingfilepattern.dita#rrefproperrollingfilepattern"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperrollingfilepattern.dita#rrefproperrollingfilepattern"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproperrollingfilepattern.dita#rrefproperrollingfilepattern"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">If you set this property, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper33027.dita#rrefproper33027"&gt;</bpt>derby.stream.error.field<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefproper18151.dita#rrefproper18151"&gt;</bpt>derby.stream.error.file<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept>, and <bpt id="5" ctype="x-i">&lt;i&gt;</bpt><bpt id="6" ctype="x-xref">&lt;xref href="rrefproper35028.dita#rrefproper35028"&gt;</bpt>derby.stream.error.method<ept id="6">&lt;/xref&gt;</ept><ept id="5">&lt;/i&gt;</ept> properties are ignored.</source>
+<seg-source><mrk mid="0" mtype="seg">If you set this property, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper33027.dita#rrefproper33027"&gt;</bpt>derby.stream.error.field<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefproper18151.dita#rrefproper18151"&gt;</bpt>derby.stream.error.file<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept>, and <bpt id="5" ctype="x-i">&lt;i&gt;</bpt><bpt id="6" ctype="x-xref">&lt;xref href="rrefproper35028.dita#rrefproper35028"&gt;</bpt>derby.stream.error.method<ept id="6">&lt;/xref&gt;</ept><ept id="5">&lt;/i&gt;</ept> properties are ignored.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you set this property, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper33027.dita#rrefproper33027"&gt;</bpt>derby.stream.error.field<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefproper18151.dita#rrefproper18151"&gt;</bpt>derby.stream.error.file<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept>, and <bpt id="5" ctype="x-i">&lt;i&gt;</bpt><bpt id="6" ctype="x-xref">&lt;xref href="rrefproper35028.dita#rrefproper35028"&gt;</bpt>derby.stream.error.method<ept id="6">&lt;/xref&gt;</ept><ept id="5">&lt;/i&gt;</ept> properties are ignored.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">This property works in accordance with the setting of the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper13217.dita#rrefproper13217"&gt;</bpt>derby.infolog.append<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> property. If <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.infolog.append<ept id="3">&lt;/i&gt;</ept> is not set or is set to false, any existing log files will be rolled over and a new log file will be created when the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> engine is started. If <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>derby.infolog.append<ept id="5">&lt;/i&gt;</ept> is set to true, the latest existing log file, if any, will be appended to.</source>
+<seg-source><mrk mid="0" mtype="seg">This property works in accordance with the setting of the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper13217.dita#rrefproper13217"&gt;</bpt>derby.infolog.append<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> property.</mrk><mrk mid="1" mtype="seg"> If <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.infolog.append<ept id="3">&lt;/i&gt;</ept> is not set or is set to false, any existing log files will be rolled over and a new log file will be created when the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> engine is started.</mrk><mrk mid="2" mtype="seg"> If <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>derby.infolog.append<ept id="5">&lt;/i&gt;</ept> is set to true, the latest existing log file, if any, will be appended to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property works in accordance with the setting of the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper13217.dita#rrefproper13217"&gt;</bpt>derby.infolog.append<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> property.</mrk><mrk mid="1" mtype="seg"> If <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.infolog.append<ept id="3">&lt;/i&gt;</ept> is not set or is set to false, any existing log files will be rolled over and a new log file will be created when the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> engine is started.</mrk><mrk mid="2" mtype="seg"> If <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>derby.infolog.append<ept id="5">&lt;/i&gt;</ept> is set to true, the latest existing log file, if any, will be appended to.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.stream.error.style=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>style<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.stream.error.style=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>style<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.stream.error.style=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>style<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Not set.</source>
+<seg-source><mrk mid="0" mtype="seg">Not set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Not set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.stream.error.style=rollingFile<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.stream.error.style=rollingFile<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.stream.error.style=rollingFile<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Scope</source>
+<seg-source><mrk mid="0" mtype="seg">Scope</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scope</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="crefproper51399.dita#crefproper51399/rrefproper41229"&gt;</bpt>system-wide<ept id="1">&lt;/xref&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="crefproper51399.dita#crefproper51399/rrefproper41229"&gt;</bpt>system-wide<ept id="1">&lt;/xref&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="crefproper51399.dita#crefproper51399/rrefproper41229"&gt;</bpt>system-wide<ept id="1">&lt;/xref&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Dynamic or static</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic or static</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic or static</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is static; if you change it while <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is running, the change does not take effect until you reboot.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

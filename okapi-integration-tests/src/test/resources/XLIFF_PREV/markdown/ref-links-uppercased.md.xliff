@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="ref-links-uppercased.md" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">HERE, <bpt id="1" ctype="link">[</bpt>THIS TEXT IS SHOWN THUS SHOULD BE EXTRACTED<ept id="1">]</ept></source>
+<seg-source><mrk mid="0" mtype="seg">HERE, <bpt id="1" ctype="link">[</bpt>THIS TEXT IS SHOWN THUS SHOULD BE EXTRACTED<ept id="1">]</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HERE, <bpt id="1" ctype="link">[</bpt>THIS TEXT IS SHOWN THUS SHOULD BE EXTRACTED<ept id="1">]</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">THIS TEXT IS SHOWN THUS SHOULD BE EXTRACTED</source>
+<seg-source><mrk mid="0" mtype="seg">THIS TEXT IS SHOWN THUS SHOULD BE EXTRACTED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">THIS TEXT IS SHOWN THUS SHOULD BE EXTRACTED</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[</bpt>I'M A REFERENCE-STYLE LINK - <bpt id="2" ctype="italic">*</bpt>TRANSLATABLE<ept id="2">*</ept><ept id="1">]</ept><bpt id="3" ctype="link">[</bpt><ept id="3">Arbitrary case-insensitive reference text-should not be extracted</ept><it id="4" ctype="link" pos="close">]</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>I'M A REFERENCE-STYLE LINK - <bpt id="2" ctype="italic">*</bpt>TRANSLATABLE<ept id="2">*</ept><ept id="1">]</ept><bpt id="3" ctype="link">[</bpt><ept id="3">Arbitrary case-insensitive reference text-should not be extracted</ept><it id="4" ctype="link" pos="close">]</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[</bpt>I'M A REFERENCE-STYLE LINK - <bpt id="2" ctype="italic">*</bpt>TRANSLATABLE<ept id="2">*</ept><ept id="1">]</ept><bpt id="3" ctype="link">[</bpt><ept id="3">Arbitrary case-insensitive reference text-should not be extracted</ept><it id="4" ctype="link" pos="close">]</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-IMAGE_REF">![]</ph><ph id="2" ctype="x-IMAGE_REF">[</ph><ph id="3" ctype="x-IMAGE_REF">Invisible reference text should not be extracted</ph><ph id="4" ctype="x-IMAGE_REF">]</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-IMAGE_REF">![]</ph><ph id="2" ctype="x-IMAGE_REF">[</ph><ph id="3" ctype="x-IMAGE_REF">Invisible reference text should not be extracted</ph><ph id="4" ctype="x-IMAGE_REF">]</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-IMAGE_REF">![]</ph><ph id="2" ctype="x-IMAGE_REF">[</ph><ph id="3" ctype="x-IMAGE_REF">Invisible reference text should not be extracted</ph><ph id="4" ctype="x-IMAGE_REF">]</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-IMAGE_REF">![</ph>TRANSLATABLE ALT TEXT<ph id="2" ctype="x-IMAGE_REF">]</ph><ph id="3" ctype="x-IMAGE_REF">[</ph><ph id="4" ctype="x-IMAGE_REF">Invisible reference text should not be extracted</ph><ph id="5" ctype="x-IMAGE_REF">]</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-IMAGE_REF">![</ph>TRANSLATABLE ALT TEXT<ph id="2" ctype="x-IMAGE_REF">]</ph><ph id="3" ctype="x-IMAGE_REF">[</ph><ph id="4" ctype="x-IMAGE_REF">Invisible reference text should not be extracted</ph><ph id="5" ctype="x-IMAGE_REF">]</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-IMAGE_REF">![</ph>TRANSLATABLE ALT TEXT<ph id="2" ctype="x-IMAGE_REF">]</ph><ph id="3" ctype="x-IMAGE_REF">[</ph><ph id="4" ctype="x-IMAGE_REF">Invisible reference text should not be extracted</ph><ph id="5" ctype="x-IMAGE_REF">]</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">TITLE TEXT SHOULD BE EXTRACTED</source>
+<seg-source><mrk mid="0" mtype="seg">TITLE TEXT SHOULD BE EXTRACTED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TITLE TEXT SHOULD BE EXTRACTED</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

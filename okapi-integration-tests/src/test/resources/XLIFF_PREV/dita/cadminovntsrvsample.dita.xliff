@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminovntsrvsample.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Network Server sample programs for embedded and client connections</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server sample programs for embedded and client connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server sample programs for embedded and client connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">This <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server sample program demonstrates how to obtain an embedded connection and client connections to the same database by using the Network Server. This program shows how to use either the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager<ept id="2">&lt;/codeph&gt;</ept> or a DataSource to obtain client connections.</source>
+<seg-source><mrk mid="0" mtype="seg">This <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server sample program demonstrates how to obtain an embedded connection and client connections to the same database by using the Network Server.</mrk><mrk mid="1" mtype="seg"> This program shows how to use either the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager<ept id="2">&lt;/codeph&gt;</ept> or a DataSource to obtain client connections.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server sample program demonstrates how to obtain an embedded connection and client connections to the same database by using the Network Server.</mrk><mrk mid="1" mtype="seg"> This program shows how to use either the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>DriverManager<ept id="2">&lt;/codeph&gt;</ept> or a DataSource to obtain client connections.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">sample programs for embedded and client connections</source>
+<seg-source><mrk mid="0" mtype="seg">sample programs for embedded and client connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sample programs for embedded and client connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">For a database to be consistent, only one JVM can access it at a time. The embedded driver is loaded when the Network Server is started. The JVM that starts the Network Server can obtain an embedded connection to the same database that the Network Server is accessing to serve clients from other JVMs. This solution provides the performance benefits of the embedded driver and also allows client connections from other JVMs to connect to the same database.</source>
+<seg-source><mrk mid="0" mtype="seg">For a database to be consistent, only one JVM can access it at a time.</mrk><mrk mid="1" mtype="seg"> The embedded driver is loaded when the Network Server is started.</mrk><mrk mid="2" mtype="seg"> The JVM that starts the Network Server can obtain an embedded connection to the same database that the Network Server is accessing to serve clients from other JVMs.</mrk><mrk mid="3" mtype="seg"> This solution provides the performance benefits of the embedded driver and also allows client connections from other JVMs to connect to the same database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For a database to be consistent, only one JVM can access it at a time.</mrk><mrk mid="1" mtype="seg"> The embedded driver is loaded when the Network Server is started.</mrk><mrk mid="2" mtype="seg"> The JVM that starts the Network Server can obtain an embedded connection to the same database that the Network Server is accessing to serve clients from other JVMs.</mrk><mrk mid="3" mtype="seg"> This solution provides the performance benefits of the embedded driver and also allows client connections from other JVMs to connect to the same database.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

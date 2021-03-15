@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Test04.po" source-language="en" target-language="fr" datatype="x-application/x-gettext" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="o3" restype="x-gettext-plurals">
+<trans-unit id="1" resname="P627C0B44-0" approved="yes" xml:space="preserve">
+<source xml:lang="en">test 1 untranslated-singular</source>
+<seg-source><mrk mid="0" mtype="seg">test 1 untranslated-singular</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">test 1 translated-singular with à=agrave</mrk></target>
+</trans-unit>
+<trans-unit id="2" resname="P627C0B44-1" approved="yes" xml:space="preserve">
+<source xml:lang="en">test 1 untranslated-plural</source>
+<seg-source><mrk mid="0" mtype="seg">test 1 untranslated-plural</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">test 1 translated-plural</mrk></target>
+</trans-unit>
+</group>
+<group id="o5" resname="TheDomain1" restype="x-gettext-domain">
+<group id="o6" restype="x-gettext-plurals">
+<trans-unit id="3" resname="P7EFAAD95-0" xml:space="preserve">
+<source xml:lang="en">test 2 untranslated-singular</source>
+<seg-source><mrk mid="0" mtype="seg">test 2 untranslated-singular</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">test 2 untranslated-singular</mrk></target>
+</trans-unit>
+<trans-unit id="4" resname="P7EFAAD95-1" xml:space="preserve">
+<source xml:lang="en">test 2 untranslated-plural</source>
+<seg-source><mrk mid="0" mtype="seg">test 2 untranslated-plural</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">test 2 untranslated-plural</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="o9" resname="The" restype="x-gettext-domain">
+<group id="o10" restype="x-gettext-plurals">
+<trans-unit id="5" resname="P4D812E0B-0" xml:space="preserve">
+<source xml:lang="en">test 3 untranslated-singular</source>
+<seg-source><mrk mid="0" mtype="seg">test 3 untranslated-singular</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">test 3 untranslated-singular</mrk></target>
+</trans-unit>
+<trans-unit id="6" resname="P4D812E0B-1" xml:space="preserve">
+<source xml:lang="en">test 3 untranslated-plural</source>
+<seg-source><mrk mid="0" mtype="seg">test 3 untranslated-plural</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">test 3 untranslated-plural</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="7" resname="P1B1BE0F7" xml:space="preserve">
+<source xml:lang="en">ID test in line 1<ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph>line 2<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>line 3</source>
+<seg-source><mrk mid="0" mtype="seg">ID test in line 1<ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph>line 2<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>line 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ID test in line 1<ph id="1" ctype="x-regxph" equiv-text="\n">\n</ph>line 2<ph id="2" ctype="x-regxph" equiv-text="\n">\n</ph>line 3</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

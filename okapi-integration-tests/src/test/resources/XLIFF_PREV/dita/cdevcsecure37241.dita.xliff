@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure37241.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Users and authorization identifiers</source>
+<seg-source><mrk mid="0" mtype="seg">Users and authorization identifiers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Users and authorization identifiers</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">User names within the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system are known as <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>authorization identifiers<ept id="2">&lt;/i&gt;</ept>. The authorization identifier is a string that represents the name of the user, if one was provided in the connection request.</source>
+<seg-source><mrk mid="0" mtype="seg">User names within the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system are known as <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>authorization identifiers<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The authorization identifier is a string that represents the name of the user, if one was provided in the connection request.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">User names within the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system are known as <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>authorization identifiers<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The authorization identifier is a string that represents the name of the user, if one was provided in the connection request.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Authorization identifiers</source>
+<seg-source><mrk mid="0" mtype="seg">Authorization identifiers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Authorization identifiers</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">For example, the built-in function CURRENT_USER returns the authorization identifier for the current user.</source>
+<seg-source><mrk mid="0" mtype="seg">For example, the built-in function CURRENT_USER returns the authorization identifier for the current user.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, the built-in function CURRENT_USER returns the authorization identifier for the current user.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Once the authorization identifier is passed to the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, it becomes an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="2">&lt;/i&gt;</ept>. <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifiers<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept>-the kind of identifiers that represent database objects such as tables and columns-are case-insensitive (they are converted to all caps) unless delimited with double quotes, are limited to 128 characters, and have other limitations.</source>
+<seg-source><mrk mid="0" mtype="seg">Once the authorization identifier is passed to the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, it becomes an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifiers<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept>-the kind of identifiers that represent database objects such as tables and columns-are case-insensitive (they are converted to all caps) unless delimited with double quotes, are limited to 128 characters, and have other limitations.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Once the authorization identifier is passed to the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, it becomes an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="2">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifiers<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept>-the kind of identifiers that represent database objects such as tables and columns-are case-insensitive (they are converted to all caps) unless delimited with double quotes, are limited to 128 characters, and have other limitations.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">User names must be valid authorization identifiers even if user authentication is turned off, and even if all users are allowed access to all databases.</source>
+<seg-source><mrk mid="0" mtype="seg">User names must be valid authorization identifiers even if user authentication is turned off, and even if all users are allowed access to all databases.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">User names must be valid authorization identifiers even if user authentication is turned off, and even if all users are allowed access to all databases.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">For more information about <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifiers<ept id="1">&lt;/i&gt;</ept>, see the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information about <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifiers<ept id="1">&lt;/i&gt;</ept>, see the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information about <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifiers<ept id="1">&lt;/i&gt;</ept>, see the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

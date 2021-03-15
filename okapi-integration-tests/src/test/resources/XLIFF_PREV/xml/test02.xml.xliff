@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="test02.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Trans: ø=o-slash; Ą=A-ogonek, ＡＢＣ=ABC-fulwidth</source>
+<seg-source><mrk mid="0" mtype="seg">Trans: ø=o-slash; Ą=A-ogonek, ＡＢＣ=ABC-fulwidth</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Trans: ø=o-slash; Ą=A-ogonek, ＡＢＣ=ABC-fulwidth</mrk></target>
+</trans-unit>
+<trans-unit id="2" restype="x-alt">
+<source xml:lang="en">Value Added Tax Form</source>
+<seg-source><mrk mid="0" mtype="seg">Value Added Tax Form</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Value Added Tax Form</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">To start click <bpt id="1" ctype="x-ins">&lt;ins&gt;</bpt>the <bpt id="2" ctype="x-ui">&lt;ui&gt;</bpt>Begin<ept id="2">&lt;/ui&gt;</ept> button<ept id="1">&lt;/ins&gt;</ept><bpt id="3" ctype="x-del">&lt;del&gt;</bpt><ph id="4"> the icon </ph><ph id="5" ctype="x-imgRef">&lt;imgRef alt="Start" file="btnStart.png"/&gt;</ph><ept id="3">&lt;/del&gt;</ept> and fill the form labeled with the following icon: <ph id="6" ctype="x-imgRef">&lt;imgRef alt="[#$2]" file="vat.png"/&gt;</ph> </source>
+<seg-source><mrk mid="0" mtype="seg">To start click <bpt id="1" ctype="x-ins">&lt;ins&gt;</bpt>the <bpt id="2" ctype="x-ui">&lt;ui&gt;</bpt>Begin<ept id="2">&lt;/ui&gt;</ept> button<ept id="1">&lt;/ins&gt;</ept><bpt id="3" ctype="x-del">&lt;del&gt;</bpt><ph id="4"> the icon </ph><ph id="5" ctype="x-imgRef">&lt;imgRef alt="Start" file="btnStart.png"/&gt;</ph><ept id="3">&lt;/del&gt;</ept> and fill the form labeled with the following icon: <ph id="6" ctype="x-imgRef">&lt;imgRef alt="[#$2]" file="vat.png"/&gt;</ph></mrk> </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To start click <bpt id="1" ctype="x-ins">&lt;ins&gt;</bpt>the <bpt id="2" ctype="x-ui">&lt;ui&gt;</bpt>Begin<ept id="2">&lt;/ui&gt;</ept> button<ept id="1">&lt;/ins&gt;</ept><bpt id="3" ctype="x-del">&lt;del&gt;</bpt><ph id="4"> the icon </ph><ph id="5" ctype="x-imgRef">&lt;imgRef alt="Start" file="btnStart.png"/&gt;</ph><ept id="3">&lt;/del&gt;</ept> and fill the form labeled with the following icon: <ph id="6" ctype="x-imgRef">&lt;imgRef alt="[#$2]" file="vat.png"/&gt;</ph></mrk> </target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">&amp;=amp, &lt;=lt, &amp;#xAAA;=not-a-ncr.</source>
+<seg-source><mrk mid="0" mtype="seg">&amp;=amp, &lt;=lt, &amp;#xAAA;=not-a-ncr.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&amp;=amp, &lt;=lt, &amp;#xAAA;=not-a-ncr.</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Before comment <ph id="1">&lt;!--comment xyz  --&gt;</ph> and after.</source>
+<seg-source><mrk mid="0" mtype="seg">Before comment <ph id="1">&lt;!--comment xyz  --&gt;</ph> and after.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Before comment <ph id="1">&lt;!--comment xyz  --&gt;</ph> and after.</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Before PI <ph id="1">&lt;?abc attr="value"  ?&gt;</ph> and after.</source>
+<seg-source><mrk mid="0" mtype="seg">Before PI <ph id="1">&lt;?abc attr="value"  ?&gt;</ph> and after.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Before PI <ph id="1">&lt;?abc attr="value"  ?&gt;</ph> and after.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

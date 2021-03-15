@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="unknown" source-language="en" target-language="fr" datatype="x-text/x-tex-text" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">  Это вводный абзац в начале документа.<ph id="1" ctype="x-COMMAND">
+</ph><ph id="2" ctype="x-COMMAND">\end{abstract}</ph><ph id="3" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">  Это вводный абзац в начале документа.<ph id="1" ctype="x-COMMAND">
+</ph><ph id="2" ctype="x-COMMAND">\end{abstract}</ph><ph id="3" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">  Это вводный абзац в начале документа.<ph id="1" ctype="x-COMMAND">
+</ph><ph id="2" ctype="x-COMMAND">\end{abstract}</ph><ph id="3" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Предисловие</source>
+<seg-source><mrk mid="0" mtype="seg">Предисловие</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Предисловие</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en"> Этот текст будет на русском языке. Это демонстрация того, что символы кириллицы<ph id="1" ctype="x-COMMAND">
+</ph> в сгенерированном документе (Compile to PDF) отображаются правильно.<ph id="2" ctype="x-COMMAND">
+</ph> Для этого Вы должны установить нужный  язык (russian) <ph id="3" ctype="x-COMMAND">
+</ph>и необходимую кодировку шрифта (T2A).<ph id="4" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"> Этот текст будет на русском языке.</mrk><mrk mid="1" mtype="seg"> Это демонстрация того, что символы кириллицы<ph id="1" ctype="x-COMMAND">
+</ph> в сгенерированном документе (Compile to PDF) отображаются правильно.</mrk><mrk mid="2" mtype="seg"><ph id="2" ctype="x-COMMAND">
+</ph> Для этого Вы должны установить нужный  язык (russian) <ph id="3" ctype="x-COMMAND">
+</ph>и необходимую кодировку шрифта (T2A).<ph id="4" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> Этот текст будет на русском языке.</mrk><mrk mid="1" mtype="seg"> Это демонстрация того, что символы кириллицы<ph id="1" ctype="x-COMMAND">
+</ph> в сгенерированном документе (Compile to PDF) отображаются правильно.</mrk><mrk mid="2" mtype="seg"><ph id="2" ctype="x-COMMAND">
+</ph> Для этого Вы должны установить нужный  язык (russian) <ph id="3" ctype="x-COMMAND">
+</ph>и необходимую кодировку шрифта (T2A).<ph id="4" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Математические формулы</source>
+<seg-source><mrk mid="0" mtype="seg">Математические формулы</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Математические формулы</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">Кириллические символы также могут быть использованы в математическом режиме.<ph id="1" ctype="x-COMMAND">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Кириллические символы также могут быть использованы в математическом режиме.<ph id="1" ctype="x-COMMAND">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Кириллические символы также могут быть использованы в математическом режиме.<ph id="1" ctype="x-COMMAND">
+</ph></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

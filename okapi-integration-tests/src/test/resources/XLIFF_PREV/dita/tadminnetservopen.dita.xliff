@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminnetservopen.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Running the Network Server without a security policy</source>
+<seg-source><mrk mid="0" mtype="seg">Running the Network Server without a security policy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running the Network Server without a security policy</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You may override the Network Server's impulse to install a security manager if, for some reason, you need to run your application outside Java's security protections.</source>
+<seg-source><mrk mid="0" mtype="seg">You may override the Network Server's impulse to install a security manager if, for some reason, you need to run your application outside Java's security protections.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You may override the Network Server's impulse to install a security manager if, for some reason, you need to run your application outside Java's security protections.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">no security manager</source>
+<seg-source><mrk mid="0" mtype="seg">no security manager</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no security manager</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">You incur a severe security risk by opening up the server to all clients without limiting access via user authentication and a security policy.</source>
+<seg-source><mrk mid="0" mtype="seg">You incur a severe security risk by opening up the server to all clients without limiting access via user authentication and a security policy.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You incur a severe security risk by opening up the server to all clients without limiting access via user authentication and a security policy.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>-noSecurityManager<ept id="1">&lt;/codeph&gt;</ept> option to force the Network Server to come up without a security manager. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>-noSecurityManager<ept id="1">&lt;/codeph&gt;</ept> option to force the Network Server to come up without a security manager.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>-noSecurityManager<ept id="1">&lt;/codeph&gt;</ept> option to force the Network Server to come up without a security manager.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl start \ -h localhost -noSecurityManager<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl start \ -h localhost -noSecurityManager<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl start \ -h localhost -noSecurityManager<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

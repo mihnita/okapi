@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="example2_28.yaml" source-language="en" target-language="fr" datatype="x-text/x-yaml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi-integration-tests/common-integration-tests/target/test-classes/yaml/spec_test/okf_yaml@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1" resname="Time" xml:space="preserve">
+<source xml:lang="en">2001-11-23 15:01:42 -5</source>
+<seg-source><mrk mid="0" mtype="seg">2001-11-23 15:01:42 -5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2001-11-23 15:01:42 -5</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="User" xml:space="preserve">
+<source xml:lang="en">ed</source>
+<seg-source><mrk mid="0" mtype="seg">ed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ed</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" resname="Warning" xml:space="preserve">
+<source xml:lang="en">This is an error message for the log file</source>
+<seg-source><mrk mid="0" mtype="seg">This is an error message for the log file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is an error message for the log file</mrk></target>
+</trans-unit>
+</group>
+<group id="sg2">
+<trans-unit id="tu4" resname="Time" xml:space="preserve">
+<source xml:lang="en">2001-11-23 15:02:31 -5</source>
+<seg-source><mrk mid="0" mtype="seg">2001-11-23 15:02:31 -5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2001-11-23 15:02:31 -5</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" resname="User" xml:space="preserve">
+<source xml:lang="en">ed</source>
+<seg-source><mrk mid="0" mtype="seg">ed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ed</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="Warning" xml:space="preserve">
+<source xml:lang="en">A slightly different error message.</source>
+<seg-source><mrk mid="0" mtype="seg">A slightly different error message.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A slightly different error message.</mrk></target>
+</trans-unit>
+</group>
+<group id="sg3">
+<trans-unit id="tu7" resname="Date" xml:space="preserve">
+<source xml:lang="en">2001-11-23 15:03:17 -5</source>
+<seg-source><mrk mid="0" mtype="seg">2001-11-23 15:03:17 -5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2001-11-23 15:03:17 -5</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" resname="User" xml:space="preserve">
+<source xml:lang="en">ed</source>
+<seg-source><mrk mid="0" mtype="seg">ed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ed</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" resname="Fatal" xml:space="preserve">
+<source xml:lang="en">Unknown variable "bar"</source>
+<seg-source><mrk mid="0" mtype="seg">Unknown variable "bar"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unknown variable "bar"</mrk></target>
+</trans-unit>
+<group id="sg4">
+<group id="sg5">
+<trans-unit id="tu10" resname="Stack/file" xml:space="preserve">
+<source xml:lang="en">TopClass.py</source>
+<seg-source><mrk mid="0" mtype="seg">TopClass.py</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TopClass.py</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" resname="Stack/line" xml:space="preserve">
+<source xml:lang="en">23</source>
+<seg-source><mrk mid="0" mtype="seg">23</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">23</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" resname="Stack/code" xml:space="preserve">
+<source xml:lang="en">x = MoreObject("345\n")</source>
+<seg-source><mrk mid="0" mtype="seg">x = MoreObject("345\n")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x = MoreObject("345\n")</mrk></target>
+</trans-unit>
+</group>
+<group id="sg6">
+<trans-unit id="tu13" resname="Stack/file" xml:space="preserve">
+<source xml:lang="en">MoreClass.py</source>
+<seg-source><mrk mid="0" mtype="seg">MoreClass.py</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MoreClass.py</mrk></target>
+</trans-unit>
+<trans-unit id="tu14" resname="Stack/line" xml:space="preserve">
+<source xml:lang="en">58</source>
+<seg-source><mrk mid="0" mtype="seg">58</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">58</mrk></target>
+</trans-unit>
+<trans-unit id="tu15" resname="Stack/code" xml:space="preserve">
+<source xml:lang="en">foo = bar</source>
+<seg-source><mrk mid="0" mtype="seg">foo = bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">foo = bar</mrk></target>
+</trans-unit>
+</group>
+</group>
+</group>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefstorejarinstall.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SQLJ.INSTALL_JAR system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SQLJ.INSTALL_JAR system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLJ.INSTALL_JAR system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.INSTALL_JAR<ept id="1">&lt;/codeph&gt;</ept> system procedure stores a jar file in a database.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.INSTALL_JAR<ept id="1">&lt;/codeph&gt;</ept> system procedure stores a jar file in a database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SQLJ.INSTALL_JAR<ept id="1">&lt;/codeph&gt;</ept> system procedure stores a jar file in a database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SQLJ.INSTALL_JAR system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SQLJ.INSTALL_JAR system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLJ.INSTALL_JAR system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">system procedures</source>
+<seg-source><mrk mid="0" mtype="seg">system procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SQLJ.INSTALL_JAR</source>
+<seg-source><mrk mid="0" mtype="seg">SQLJ.INSTALL_JAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLJ.INSTALL_JAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">jar files</source>
+<seg-source><mrk mid="0" mtype="seg">jar files</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jar files</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">storing in databases</source>
+<seg-source><mrk mid="0" mtype="seg">storing in databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">storing in databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">SQLJ.INSTALL_JAR(IN JAR_FILE_PATH_OR_URL VARCHAR(32672), IN QUALIFIED_JAR_NAME VARCHAR(32672), IN DEPLOY INTEGER)</source>
+<seg-source><mrk mid="0" mtype="seg">SQLJ.INSTALL_JAR(IN JAR_FILE_PATH_OR_URL VARCHAR(32672), IN QUALIFIED_JAR_NAME VARCHAR(32672), IN DEPLOY INTEGER)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLJ.INSTALL_JAR(IN JAR_FILE_PATH_OR_URL VARCHAR(32672), IN QUALIFIED_JAR_NAME VARCHAR(32672), IN DEPLOY INTEGER)</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">JAR_FILE_PATH_OR_URL</source>
+<seg-source><mrk mid="0" mtype="seg">JAR_FILE_PATH_OR_URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JAR_FILE_PATH_OR_URL</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The path or URL of the jar file to add. A path includes both the directory and the file name (unless the file is in the current directory, in which case the directory is optional). For example:</source>
+<seg-source><mrk mid="0" mtype="seg">The path or URL of the jar file to add.</mrk><mrk mid="1" mtype="seg"> A path includes both the directory and the file name (unless the file is in the current directory, in which case the directory is optional).</mrk><mrk mid="2" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The path or URL of the jar file to add.</mrk><mrk mid="1" mtype="seg"> A path includes both the directory and the file name (unless the file is in the current directory, in which case the directory is optional).</mrk><mrk mid="2" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">d:/todays_build/tours.jar</source>
+<seg-source><mrk mid="0" mtype="seg">d:/todays_build/tours.jar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">d:/todays_build/tours.jar</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">QUALIFIED_JAR_NAME</source>
+<seg-source><mrk mid="0" mtype="seg">QUALIFIED_JAR_NAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">QUALIFIED_JAR_NAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> name of the jar file, qualified by the schema name. Two examples:</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> name of the jar file, qualified by the schema name.</mrk><mrk mid="1" mtype="seg"> Two examples:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> name of the jar file, qualified by the schema name.</mrk><mrk mid="1" mtype="seg"> Two examples:</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">MYSCHEMA.Sample1</source>
+<seg-source><mrk mid="0" mtype="seg">MYSCHEMA.Sample1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MYSCHEMA.Sample1</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">-- a delimited identifier MYSCHEMA."Sample2"</source>
+<seg-source><mrk mid="0" mtype="seg">-- a delimited identifier MYSCHEMA."Sample2"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-- a delimited identifier MYSCHEMA."Sample2"</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">DEPLOY</source>
+<seg-source><mrk mid="0" mtype="seg">DEPLOY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DEPLOY</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">If set to 1, indicates the existence of an SQLJ deployment descriptor file. <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> ignores this argument, so it is normally set to 0.</source>
+<seg-source><mrk mid="0" mtype="seg">If set to 1, indicates the existence of an SQLJ deployment descriptor file.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> ignores this argument, so it is normally set to 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If set to 1, indicates the existence of an SQLJ deployment descriptor file.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> ignores this argument, so it is normally set to 0.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default. See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information. The database owner can grant access to other users.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">SQL examples</source>
+<seg-source><mrk mid="0" mtype="seg">SQL examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- SQL statement -- install jar from current directory<ept id="1">&lt;/b&gt;</ept> CALL SQLJ.INSTALL_JAR('tours.jar', 'APP.Sample1', 0) <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- SQL statement -- install jar using full path<ept id="2">&lt;/b&gt;</ept> CALL SQLJ.INSTALL_JAR('c:\myjarfiles\tours.jar', 'APP.Sample1', 0) <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>-- SQL statement -- install jar from remote location<ept id="3">&lt;/b&gt;</ept> CALL SQLJ.INSTALL_JAR('http://www.example.com/tours.jar', 'APP.Sample2', 0) <bpt id="4" ctype="x-b">&lt;b&gt;</bpt>-- SQL statement -- install jar using a quoted identifier for the -- <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> jar name<ept id="4">&lt;/b&gt;</ept> CALL SQLJ.INSTALL_JAR('tours.jar', 'APP."Sample3"', 0)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- SQL statement -- install jar from current directory<ept id="1">&lt;/b&gt;</ept> CALL SQLJ.INSTALL_JAR('tours.jar', 'APP.Sample1', 0) <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- SQL statement -- install jar using full path<ept id="2">&lt;/b&gt;</ept> CALL SQLJ.INSTALL_JAR('c:\myjarfiles\tours.jar', 'APP.Sample1', 0) <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>-- SQL statement -- install jar from remote location<ept id="3">&lt;/b&gt;</ept> CALL SQLJ.INSTALL_JAR('http://www.example.com/tours.jar', 'APP.Sample2', 0) <bpt id="4" ctype="x-b">&lt;b&gt;</bpt>-- SQL statement -- install jar using a quoted identifier for the -- <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> jar name<ept id="4">&lt;/b&gt;</ept> CALL SQLJ.INSTALL_JAR('tours.jar', 'APP."Sample3"', 0)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- SQL statement -- install jar from current directory<ept id="1">&lt;/b&gt;</ept> CALL SQLJ.INSTALL_JAR('tours.jar', 'APP.Sample1', 0) <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- SQL statement -- install jar using full path<ept id="2">&lt;/b&gt;</ept> CALL SQLJ.INSTALL_JAR('c:\myjarfiles\tours.jar', 'APP.Sample1', 0) <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>-- SQL statement -- install jar from remote location<ept id="3">&lt;/b&gt;</ept> CALL SQLJ.INSTALL_JAR('http://www.example.com/tours.jar', 'APP.Sample2', 0) <bpt id="4" ctype="x-b">&lt;b&gt;</bpt>-- SQL statement -- install jar using a quoted identifier for the -- <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> jar name<ept id="4">&lt;/b&gt;</ept> CALL SQLJ.INSTALL_JAR('tours.jar', 'APP."Sample3"', 0)</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

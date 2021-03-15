@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminjmxenablenoauth.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Enabling remote JMX with no authentication or SSL</source>
+<seg-source><mrk mid="0" mtype="seg">Enabling remote JMX with no authentication or SSL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enabling remote JMX with no authentication or SSL</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The following simple example starts the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server on the command line with <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>insecure<ept id="2">&lt;/i&gt;</ept> remote JMX management and monitoring enabled, using an Oracle JDK 6 or later JVM.</source>
+<seg-source><mrk mid="0" mtype="seg">The following simple example starts the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server on the command line with <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>insecure<ept id="2">&lt;/i&gt;</ept> remote JMX management and monitoring enabled, using an Oracle JDK 6 or later JVM.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following simple example starts the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server on the command line with <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>insecure<ept id="2">&lt;/i&gt;</ept> remote JMX management and monitoring enabled, using an Oracle JDK 6 or later JVM.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Java Management Extensions (JMX) technology</source>
+<seg-source><mrk mid="0" mtype="seg">Java Management Extensions (JMX) technology</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Java Management Extensions (JMX) technology</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">JMX</source>
+<seg-source><mrk mid="0" mtype="seg">JMX</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JMX</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">enabling without authentication</source>
+<seg-source><mrk mid="0" mtype="seg">enabling without authentication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">enabling without authentication</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Password authentication over SSL is enabled by default, but here these security features are disabled, to keep the example simple.</source>
+<seg-source><mrk mid="0" mtype="seg">Password authentication over SSL is enabled by default, but here these security features are disabled, to keep the example simple.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Password authentication over SSL is enabled by default, but here these security features are disabled, to keep the example simple.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">It is not recommended to disable authentication or SSL in production environments.</source>
+<seg-source><mrk mid="0" mtype="seg">It is not recommended to disable authentication or SSL in production environments.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is not recommended to disable authentication or SSL in production environments.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Dcom.sun.management.jmxremote.port=9999 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -jar $DERBY_HOME/lib/derbyrun.jar server start<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Dcom.sun.management.jmxremote.port=9999 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -jar $DERBY_HOME/lib/derbyrun.jar server start<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Dcom.sun.management.jmxremote.port=9999 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -jar $DERBY_HOME/lib/derbyrun.jar server start<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">When you start the Network Server from the command line, it automatically installs a security manager using a basic default security policy, unless you specify the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>-noSecurityManager<ept id="1">&lt;/codeph&gt;</ept> option. You may need to customize this policy to make it suit your needs. See <bpt id="2" ctype="x-xref">&lt;xref href="radminjmxenablepolicy.dita#radminjmxenablepolicy"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg">When you start the Network Server from the command line, it automatically installs a security manager using a basic default security policy, unless you specify the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>-noSecurityManager<ept id="1">&lt;/codeph&gt;</ept> option.</mrk><mrk mid="1" mtype="seg"> You may need to customize this policy to make it suit your needs.</mrk><mrk mid="2" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="radminjmxenablepolicy.dita#radminjmxenablepolicy"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you start the Network Server from the command line, it automatically installs a security manager using a basic default security policy, unless you specify the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>-noSecurityManager<ept id="1">&lt;/codeph&gt;</ept> option.</mrk><mrk mid="1" mtype="seg"> You may need to customize this policy to make it suit your needs.</mrk><mrk mid="2" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="radminjmxenablepolicy.dita#radminjmxenablepolicy"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for details.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

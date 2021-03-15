@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj36146.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Scale for decimal arithmetic</source>
+<seg-source><mrk mid="0" mtype="seg">Scale for decimal arithmetic</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scale for decimal arithmetic</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Precision</source>
+<seg-source><mrk mid="0" mtype="seg">Precision</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Precision</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">of decimal arithmetic expressions</source>
+<seg-source><mrk mid="0" mtype="seg">of decimal arithmetic expressions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">of decimal arithmetic expressions</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Scale</source>
+<seg-source><mrk mid="0" mtype="seg">Scale</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scale</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">of decimal arithmetic expressions</source>
+<seg-source><mrk mid="0" mtype="seg">of decimal arithmetic expressions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">of decimal arithmetic expressions</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SQL statements can involve arithmetic expressions that use decimal data types of different <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>precision<ept id="1">&lt;/i&gt;</ept>s (the total number of digits, both to the left and to the right of the decimal point) and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>scale<ept id="2">&lt;/i&gt;</ept>s (the number of digits of the fractional component). The precision and scale of the resulting decimal type depend on the precision and scale of the operands.</source>
+<seg-source><mrk mid="0" mtype="seg">SQL statements can involve arithmetic expressions that use decimal data types of different <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>precision<ept id="1">&lt;/i&gt;</ept>s (the total number of digits, both to the left and to the right of the decimal point) and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>scale<ept id="2">&lt;/i&gt;</ept>s (the number of digits of the fractional component).</mrk><mrk mid="1" mtype="seg"> The precision and scale of the resulting decimal type depend on the precision and scale of the operands.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL statements can involve arithmetic expressions that use decimal data types of different <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>precision<ept id="1">&lt;/i&gt;</ept>s (the total number of digits, both to the left and to the right of the decimal point) and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>scale<ept id="2">&lt;/i&gt;</ept>s (the number of digits of the fractional component).</mrk><mrk mid="1" mtype="seg"> The precision and scale of the resulting decimal type depend on the precision and scale of the operands.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Given an arithmetic expression that involves two decimal operands:</source>
+<seg-source><mrk mid="0" mtype="seg">Given an arithmetic expression that involves two decimal operands:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Given an arithmetic expression that involves two decimal operands:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>lp<ept id="1">&lt;/i&gt;</ept> stands for the precision of the left operand</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>lp<ept id="1">&lt;/i&gt;</ept> stands for the precision of the left operand</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>lp<ept id="1">&lt;/i&gt;</ept> stands for the precision of the left operand</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rp<ept id="1">&lt;/i&gt;</ept> stands for the precision of the right operand</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rp<ept id="1">&lt;/i&gt;</ept> stands for the precision of the right operand</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rp<ept id="1">&lt;/i&gt;</ept> stands for the precision of the right operand</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ls<ept id="1">&lt;/i&gt;</ept> stands for the scale of the left operand</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ls<ept id="1">&lt;/i&gt;</ept> stands for the scale of the left operand</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ls<ept id="1">&lt;/i&gt;</ept> stands for the scale of the left operand</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rs<ept id="1">&lt;/i&gt;</ept> stands for the scale of the right operand</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rs<ept id="1">&lt;/i&gt;</ept> stands for the scale of the right operand</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rs<ept id="1">&lt;/i&gt;</ept> stands for the scale of the right operand</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Use the following formulas to determine the scale of the resulting data type for the following kinds of arithmetical expressions:</source>
+<seg-source><mrk mid="0" mtype="seg">Use the following formulas to determine the scale of the resulting data type for the following kinds of arithmetical expressions:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the following formulas to determine the scale of the resulting data type for the following kinds of arithmetical expressions:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>multiplication<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>multiplication<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>multiplication<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">ls + rs</source>
+<seg-source><mrk mid="0" mtype="seg">ls + rs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ls + rs</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>division<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>division<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>division<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">31 - lp + ls - rs</source>
+<seg-source><mrk mid="0" mtype="seg">31 - lp + ls - rs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">31 - lp + ls - rs</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>AVG()<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>AVG()<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>AVG()<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">max(max(ls, rs), 4)</source>
+<seg-source><mrk mid="0" mtype="seg">max(max(ls, rs), 4)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">max(max(ls, rs), 4)</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>all others<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>all others<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>all others<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">max(ls, rs)</source>
+<seg-source><mrk mid="0" mtype="seg">max(ls, rs)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">max(ls, rs)</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">For example, the scale of the resulting data type of the following expression is 27:</source>
+<seg-source><mrk mid="0" mtype="seg">For example, the scale of the resulting data type of the following expression is 27:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, the scale of the resulting data type of the following expression is 27:</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">11.0/1111.33 <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>// 31 - 3 + 1 - 2 = 27 <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">11.0/1111.33 <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>// 31 - 3 + 1 - 2 = 27 <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">11.0/1111.33 <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>// 31 - 3 + 1 - 2 = 27 <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Use the following formulas to determine the precision of the resulting data type for the following kinds of arithmetical expressions:</source>
+<seg-source><mrk mid="0" mtype="seg">Use the following formulas to determine the precision of the resulting data type for the following kinds of arithmetical expressions:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the following formulas to determine the precision of the resulting data type for the following kinds of arithmetical expressions:</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>multiplication<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>multiplication<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>multiplication<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">lp + rp</source>
+<seg-source><mrk mid="0" mtype="seg">lp + rp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lp + rp</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>addition<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>addition<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>addition<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">2 * (p - s) + s</source>
+<seg-source><mrk mid="0" mtype="seg">2 * (p - s) + s</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2 * (p - s) + s</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>division<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>division<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>division<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">lp - ls + rp + max(ls + rp - rs + 1, 4)</source>
+<seg-source><mrk mid="0" mtype="seg">lp - ls + rp + max(ls + rp - rs + 1, 4)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lp - ls + rp + max(ls + rp - rs + 1, 4)</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>all others<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>all others<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>all others<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">max(lp - ls, rp - rs) + 1 + max(ls, rs)</source>
+<seg-source><mrk mid="0" mtype="seg">max(lp - ls, rp - rs) + 1 + max(ls, rs)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">max(lp - ls, rp - rs) + 1 + max(ls, rs)</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

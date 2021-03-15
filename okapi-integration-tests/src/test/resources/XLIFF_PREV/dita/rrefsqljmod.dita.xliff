@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljmod.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">MOD function</source>
+<seg-source><mrk mid="0" mtype="seg">MOD function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MOD function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The MOD function returns the remainder (modulus) of argument 1 divided by argument 2. The result is negative only if argument 1 is negative.</source>
+<seg-source><mrk mid="0" mtype="seg">The MOD function returns the remainder (modulus) of argument 1 divided by argument 2.</mrk><mrk mid="1" mtype="seg"> The result is negative only if argument 1 is negative.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The MOD function returns the remainder (modulus) of argument 1 divided by argument 2.</mrk><mrk mid="1" mtype="seg"> The result is negative only if argument 1 is negative.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">MOD function</source>
+<seg-source><mrk mid="0" mtype="seg">MOD function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MOD function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>MOD ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>integerExpression<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>integerExpression<ept id="3">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>MOD ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>integerExpression<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>integerExpression<ept id="3">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>MOD ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>integerExpression<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>integerExpression<ept id="3">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The result of the function is:</source>
+<seg-source><mrk mid="0" mtype="seg">The result of the function is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The result of the function is:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SMALLINT if both arguments are SMALLINT.</source>
+<seg-source><mrk mid="0" mtype="seg">SMALLINT if both arguments are SMALLINT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SMALLINT if both arguments are SMALLINT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">INTEGER if one argument is INTEGER and the other is INTEGER or SMALLINT.</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER if one argument is INTEGER and the other is INTEGER or SMALLINT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER if one argument is INTEGER and the other is INTEGER or SMALLINT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">BIGINT if one integer is BIGINT and the other argument is BIGINT, INTEGER, or SMALLINT.</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT if one integer is BIGINT and the other argument is BIGINT, INTEGER, or SMALLINT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT if one integer is BIGINT and the other argument is BIGINT, INTEGER, or SMALLINT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The result can be null; if any argument is null, the result is the null value.</source>
+<seg-source><mrk mid="0" mtype="seg">The result can be null; if any argument is null, the result is the null value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The result can be null; if any argument is null, the result is the null value.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

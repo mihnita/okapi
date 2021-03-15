@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+    <!-- Should not produce any text units -->
+    <Field />
+
+    <!-- Text units 1-3: don't run subfilter on contents of 'Field' -->
+    <Field>&lt;p&gt;This &amp;bull; bullet is not in an attribute.&lt;/p&gt;</Field>
+    <Field>&lt;p&gt;This &amp;reg; reg mark is not in an attribute.&lt;/p&gt;</Field>
+    <Field>&lt;p&gt;This &amp;amp; ampersand is not in an attribute.&lt;/p&gt;</Field>
+    
+    <!-- Text units 4-6: run subfilter on contents of 'Foo' -->
+    <Foo>&lt;p&gt;This &amp;bull; bullet is not in an attribute.&lt;/p&gt;</Foo>
+    <Foo>&lt;p&gt;This &amp;reg; reg mark is not in an attribute.&lt;/p&gt;</Foo>
+    <Foo>&lt;p&gt;This &amp;amp; ampersand is not in an attribute.&lt;/p&gt;</Foo>
+
+    <!-- Text units 7-9: run subfilter on attributes 'Value1', 'Value2', and 'Value3',
+    regardless of the element name -->
+    <Field Value1="&lt;p&gt;This contains &amp;copy; a copyright in an attribute.&lt;/p&gt;" />
+    <Foo Value2="&lt;p&gt;This contains &amp;frac14; a fraction in an attribute.&lt;/p&gt;" />
+    <Bar Value3="&lt;p&gt;This contains &amp;bull; a bullet in an attribute.&lt;/p&gt;" />
+    
+    <!-- Text units 10-11: run subfilter on attribute 'Value1', but not the content of 'Field'  -->
+    <Field Value1="&lt;p&gt;This contains &amp;divide a divide sign in an attribute.&lt;/p&gt;">
+        &lt;p&gt;This &amp;reg; will be a text unit but be ignored by the subfilter.&lt;/p&gt;</Field>
+    
+    <!-- Text units 12-15: run subfilter on multiple translatable attributes in a single start tag -->
+    <Field
+      Value1="&lt;p&gt;This &amp;reg; is the first of four attributes.&lt;/p&gt;"
+      Value2="&lt;p&gt;This &amp;bull; is the second of four attributes.&lt;/p&gt;"
+      Value3="&lt;p&gt;This &amp;amp; is the third of four attributes.&lt;/p&gt;"
+      Value4="&lt;p&gt;This &amp;divide; is the fourth of four attributes.&lt;/p&gt;"
+    />
+    
+    <!-- Should not produce any text units -->
+    <Field NValue1="&lt;p&gt;unused&lt;/p&gt;" />
+    <Field NValue1="&lt;p&gt;unused&lt;/p&gt;" NValue2="&lt;p&gt;unused&lt;/p&gt;" NValue3="&lt;p&gt;unused&lt;/p&gt;" />
+    
+    <!-- Text units 16-18: subfilter only attributes with names 'Value1', 'Value2', and 'Value3' -->
+    <Field
+        Value1="&lt;p&gt;This &amp;reg; is the first of three attributes.&lt;/p&gt;"
+        NValue1="unused"
+        NValue2="unused"
+        Value2="&lt;p&gt;This &amp;bull; is the second of three attributes.&lt;/p&gt;"
+        NValue3="unused"
+        Value3="&lt;p&gt;This &amp;amp; is the third of three attributes.&lt;/p&gt;"
+        NValue4="unused"
+    />
+    
+    <!-- Text units 19-20: subfilter the attribute 'Value1' and the content of 'Foo' -->
+    <Foo Value1="&lt;p&gt;This contains &amp;copy; a copyright in an attribute...&lt;/p&gt;" NValue1="unused">
+        &lt;p&gt;...and this contains &amp;copy; a copyright not in an attribute.&lt;/p&gt;</Foo>
+
+</xml>

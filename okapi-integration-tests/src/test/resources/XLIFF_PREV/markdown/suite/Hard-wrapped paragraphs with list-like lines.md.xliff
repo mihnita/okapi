@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Hard-wrapped paragraphs with list-like lines.md.tkitMerged" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">In Markdown 1.0.0 and earlier. Version
+8. This line turns into a list item.
+Because a hard-wrapped line in the
+middle of a paragraph looked like a
+list item.</source>
+<seg-source><mrk mid="0" mtype="seg">In Markdown 1.0.0 and earlier.</mrk><mrk mid="1" mtype="seg"> Version</mrk>
+<mrk mid="2" mtype="seg">8.</mrk><mrk mid="3" mtype="seg"> This line turns into a list item.</mrk>
+<mrk mid="4" mtype="seg">Because a hard-wrapped line in the</mrk>
+<mrk mid="5" mtype="seg">middle of a paragraph looked like a</mrk>
+<mrk mid="6" mtype="seg">list item.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In Markdown 1.0.0 and earlier.</mrk><mrk mid="1" mtype="seg"> Version</mrk>
+<mrk mid="2" mtype="seg">8.</mrk><mrk mid="3" mtype="seg"> This line turns into a list item.</mrk>
+<mrk mid="4" mtype="seg">Because a hard-wrapped line in the</mrk>
+<mrk mid="5" mtype="seg">middle of a paragraph looked like a</mrk>
+<mrk mid="6" mtype="seg">list item.</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Here's one with a bullet.</source>
+<seg-source><mrk mid="0" mtype="seg">Here's one with a bullet.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here's one with a bullet.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">criminey.</source>
+<seg-source><mrk mid="0" mtype="seg">criminey.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">criminey.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

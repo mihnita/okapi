@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="test" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M28" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" translate="no">
+<source xml:lang="en">Text not to translate</source>
+<target xml:lang="fr">Text not to translate</target>
+</trans-unit>
+<trans-unit id="2" approved="yes">
+<source xml:lang="en">Paragraph.</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraph.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraphe (approved translation)</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Text to translate.</source>
+<seg-source><mrk mid="0" mtype="seg">Text to translate.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text to translate.</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Other text to translate.</source>
+<seg-source><mrk mid="0" mtype="seg">Other text to translate.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Other text to translate.</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Text to translate with PI</source>
+<seg-source><mrk mid="0" mtype="seg">Text to translate with PI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text to translate with PI</mrk></target>
+</trans-unit>
+<trans-unit id="6" resname="ID1">
+<source xml:lang="en">Text to translate for ID1</source>
+<seg-source><mrk mid="0" mtype="seg">Text to translate for ID1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text to translate for ID1</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Text with <bpt id="1" ctype="x-Xpt">&lt;code&gt;</bpt>code<ept id="1">&lt;/code&gt;</ept> and <bpt id="2" ctype="x-Xpt">&lt;b&gt;</bpt>bold<ept id="2">&lt;/b&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Text with <bpt id="1" ctype="x-Xpt">&lt;code&gt;</bpt>code<ept id="1">&lt;/code&gt;</ept> and <bpt id="2" ctype="x-Xpt">&lt;b&gt;</bpt>bold<ept id="2">&lt;/b&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text with <bpt id="1" ctype="x-Xpt">&lt;code&gt;</bpt>code<ept id="1">&lt;/code&gt;</ept> and <bpt id="2" ctype="x-Xpt">&lt;b&gt;</bpt>bold<ept id="2">&lt;/b&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Text of the footnote</source>
+<seg-source><mrk mid="0" mtype="seg">Text of the footnote</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text of the footnote</mrk></target>
+</trans-unit>
+<trans-unit id="9" resname="OtherID">
+<source xml:lang="en">Text with a footnote<ph id="1" ctype="x-ph">&lt;fn&gt;[$SF1$]&lt;/fn&gt;</ph> and more text</source>
+<seg-source><mrk mid="0" mtype="seg">Text with a footnote<ph id="1" ctype="x-ph">&lt;fn&gt;[$SF1$]&lt;/fn&gt;</ph> and more text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text with a footnote<ph id="1" ctype="x-ph">&lt;fn&gt;[$SF1$]&lt;/fn&gt;</ph> and more text</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Text with <bpt id="2" ctype="x-Xpt">&lt;xd:rmk&gt;</bpt><ph id="1" ctype="x-ph">XDoc info non-translatable</ph><ept id="2">&lt;/xd:rmk&gt;</ept> and more text.</source>
+<seg-source><mrk mid="0" mtype="seg">Text with <bpt id="2" ctype="x-Xpt">&lt;xd:rmk&gt;</bpt><ph id="1" ctype="x-ph">XDoc info non-translatable</ph><ept id="2">&lt;/xd:rmk&gt;</ept> and more text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text with <bpt id="2" ctype="x-Xpt">&lt;xd:rmk&gt;</bpt><ph id="1" ctype="x-ph">XDoc info non-translatable</ph><ept id="2">&lt;/xd:rmk&gt;</ept> and more text.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Text number four</source>
+<seg-source><mrk mid="0" mtype="seg">Text number four</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text number four</mrk></target>
+<alt-trans origin="SourceDoc"><source xml:lang="en">The text number four.</source>
+<target xml:lang="fr">Le texte numéro quatre.</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"><ph id="1" ctype="x-ph">CODE</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-ph">CODE</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-ph">CODE</ph></mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure31493.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Specifying an alternate encryption provider</source>
+<seg-source><mrk mid="0" mtype="seg">Specifying an alternate encryption provider</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifying an alternate encryption provider</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You can specify an alternate provider when you create the database with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>encryptionProvider=providerName<ept id="1">&lt;/i&gt;</ept> attribute.</source>
+<seg-source><mrk mid="0" mtype="seg">You can specify an alternate provider when you create the database with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>encryptionProvider=providerName<ept id="1">&lt;/i&gt;</ept> attribute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can specify an alternate provider when you create the database with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>encryptionProvider=providerName<ept id="1">&lt;/i&gt;</ept> attribute.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Encryption providers</source>
+<seg-source><mrk mid="0" mtype="seg">Encryption providers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encryption providers</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">configuring</source>
+<seg-source><mrk mid="0" mtype="seg">configuring</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">You must specify the full package and class name of the provider, and you must also add the libraries to the application's classpath.</source>
+<seg-source><mrk mid="0" mtype="seg">You must specify the full package and class name of the provider, and you must also add the libraries to the application's classpath.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You must specify the full package and class name of the provider, and you must also add the libraries to the application's classpath.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- using the the provider library bcprov-jdk15on-147.jar -- available from www.bouncycastle.org<ept id="1">&lt;/b&gt;</ept> jdbc:derby:encryptedDB3;create=true;dataEncryption=true; bootPassword=clo760uds2caPe; encryptionProvider=org.bouncycastle.jce.provider.BouncyCastleProvider; encryptionAlgorithm=DES/CBC/NoPadding <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- using a provider available from -- http://jce.iaik.tugraz.at/sic/Download<ept id="2">&lt;/b&gt;</ept> jdbc:derby:encryptedDB3;create=true;dataEncryption=true; bootPassword=clo760uds2caPe; encryptionProvider=iaik.security.provider.IAIK; encryptionAlgorithm=DES/CBC/NoPadding</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- using the the provider library bcprov-jdk15on-147.jar -- available from www.bouncycastle.org<ept id="1">&lt;/b&gt;</ept> jdbc:derby:encryptedDB3;create=true;dataEncryption=true; bootPassword=clo760uds2caPe; encryptionProvider=org.bouncycastle.jce.provider.BouncyCastleProvider; encryptionAlgorithm=DES/CBC/NoPadding <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- using a provider available from -- http://jce.iaik.tugraz.at/sic/Download<ept id="2">&lt;/b&gt;</ept> jdbc:derby:encryptedDB3;create=true;dataEncryption=true; bootPassword=clo760uds2caPe; encryptionProvider=iaik.security.provider.IAIK; encryptionAlgorithm=DES/CBC/NoPadding</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- using the the provider library bcprov-jdk15on-147.jar -- available from www.bouncycastle.org<ept id="1">&lt;/b&gt;</ept> jdbc:derby:encryptedDB3;create=true;dataEncryption=true; bootPassword=clo760uds2caPe; encryptionProvider=org.bouncycastle.jce.provider.BouncyCastleProvider; encryptionAlgorithm=DES/CBC/NoPadding <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- using a provider available from -- http://jce.iaik.tugraz.at/sic/Download<ept id="2">&lt;/b&gt;</ept> jdbc:derby:encryptedDB3;create=true;dataEncryption=true; bootPassword=clo760uds2caPe; encryptionProvider=iaik.security.provider.IAIK; encryptionAlgorithm=DES/CBC/NoPadding</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

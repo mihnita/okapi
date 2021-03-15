@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure866716.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Creating a boot password</source>
+<seg-source><mrk mid="0" mtype="seg">Creating a boot password</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creating a boot password</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">When you encrypt a database you usually specify a boot password, which is an alphanumeric string used to generate the encryption key. (You can also specify an encryption key directly.)</source>
+<seg-source><mrk mid="0" mtype="seg">When you encrypt a database you usually specify a boot password, which is an alphanumeric string used to generate the encryption key.</mrk><mrk mid="1" mtype="seg"> (You can also specify an encryption key directly.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you encrypt a database you usually specify a boot password, which is an alphanumeric string used to generate the encryption key.</mrk><mrk mid="1" mtype="seg"> (You can also specify an encryption key directly.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">The length of the encryption key depends on the algorithm used:</source>
+<seg-source><mrk mid="0" mtype="seg">The length of the encryption key depends on the algorithm used:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The length of the encryption key depends on the algorithm used:</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">AES (128, 192, and 256 bits)</source>
+<seg-source><mrk mid="0" mtype="seg">AES (128, 192, and 256 bits)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AES (128, 192, and 256 bits)</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">DES (the default) (56 bits)</source>
+<seg-source><mrk mid="0" mtype="seg">DES (the default) (56 bits)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DES (the default) (56 bits)</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">DESede (168 bits)</source>
+<seg-source><mrk mid="0" mtype="seg">DESede (168 bits)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DESede (168 bits)</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">All other algorithms (128 bits)</source>
+<seg-source><mrk mid="0" mtype="seg">All other algorithms (128 bits)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All other algorithms (128 bits)</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The boot password should have at least as many characters as number of bytes in the encryption key (56 bits=8 bytes, 168 bits=24 bytes, 128 bits=16 bytes). The minimum number of characters for the boot password allowed by <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is eight.</source>
+<seg-source><mrk mid="0" mtype="seg">The boot password should have at least as many characters as number of bytes in the encryption key (56 bits=8 bytes, 168 bits=24 bytes, 128 bits=16 bytes).</mrk><mrk mid="1" mtype="seg"> The minimum number of characters for the boot password allowed by <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is eight.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The boot password should have at least as many characters as number of bytes in the encryption key (56 bits=8 bytes, 168 bits=24 bytes, 128 bits=16 bytes).</mrk><mrk mid="1" mtype="seg"> The minimum number of characters for the boot password allowed by <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> is eight.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">It is a good idea not to use words that would be easily guessed, such as a login name or simple words or numbers. A boot password, like any password, should be a mix of numbers and uppercase and lowercase letters.</source>
+<seg-source><mrk mid="0" mtype="seg">It is a good idea not to use words that would be easily guessed, such as a login name or simple words or numbers.</mrk><mrk mid="1" mtype="seg"> A boot password, like any password, should be a mix of numbers and uppercase and lowercase letters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is a good idea not to use words that would be easily guessed, such as a login name or simple words or numbers.</mrk><mrk mid="1" mtype="seg"> A boot password, like any password, should be a mix of numbers and uppercase and lowercase letters.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">You turn on and configure encryption and specify the corresponding boot password on the connection URL for a database when you create it:</source>
+<seg-source><mrk mid="0" mtype="seg">You turn on and configure encryption and specify the corresponding boot password on the connection URL for a database when you create it:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You turn on and configure encryption and specify the corresponding boot password on the connection URL for a database when you create it:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">jdbc:derby:encryptionDB1;create=true;dataEncryption=true; bootPassword=clo760uds2caPe</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:encryptionDB1;create=true;dataEncryption=true; bootPassword=clo760uds2caPe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:encryptionDB1;create=true;dataEncryption=true; bootPassword=clo760uds2caPe</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">If you lose the boot password and the database is not currently booted, you will not be able to connect to the database anymore. (If you know the current boot password, you can change it. See <bpt id="1" ctype="x-xref">&lt;xref href="tdevcsecurenewkeyoverview.dita"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.)</source>
+<seg-source><mrk mid="0" mtype="seg">If you lose the boot password and the database is not currently booted, you will not be able to connect to the database anymore.</mrk><mrk mid="1" mtype="seg"> (If you know the current boot password, you can change it.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="tdevcsecurenewkeyoverview.dita"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you lose the boot password and the database is not currently booted, you will not be able to connect to the database anymore.</mrk><mrk mid="1" mtype="seg"> (If you know the current boot password, you can change it.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="tdevcsecurenewkeyoverview.dita"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.)</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

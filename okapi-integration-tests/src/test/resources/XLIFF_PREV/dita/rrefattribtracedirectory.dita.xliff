@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefattribtracedirectory.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">traceDirectory=path attribute</source>
+<seg-source><mrk mid="0" mtype="seg">traceDirectory=path attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">traceDirectory=path attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">traceDirectory=path database connection URL attribute</source>
+<seg-source><mrk mid="0" mtype="seg">traceDirectory=path database connection URL attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">traceDirectory=path database connection URL attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Specifies a directory to which the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Client will send JDBC trace information. If the program or session has multiple connections, the Network Client creates a separate file for each connection. By default, the files are named <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>_driver_0<ept id="2">&lt;/codeph&gt;</ept>, <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>_driver_1<ept id="3">&lt;/codeph&gt;</ept>, and so on. Use the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefattribtracefile.dita#rrefattribtracefile"&gt;</bpt>traceFile=path<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> attribute to specify a file name for the trace file.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies a directory to which the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Client will send JDBC trace information.</mrk><mrk mid="1" mtype="seg"> If the program or session has multiple connections, the Network Client creates a separate file for each connection.</mrk><mrk mid="2" mtype="seg"> By default, the files are named <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>_driver_0<ept id="2">&lt;/codeph&gt;</ept>, <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>_driver_1<ept id="3">&lt;/codeph&gt;</ept>, and so on.</mrk><mrk mid="3" mtype="seg"> Use the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefattribtracefile.dita#rrefattribtracefile"&gt;</bpt>traceFile=path<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> attribute to specify a file name for the trace file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies a directory to which the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Client will send JDBC trace information.</mrk><mrk mid="1" mtype="seg"> If the program or session has multiple connections, the Network Client creates a separate file for each connection.</mrk><mrk mid="2" mtype="seg"> By default, the files are named <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>_driver_0<ept id="2">&lt;/codeph&gt;</ept>, <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>_driver_1<ept id="3">&lt;/codeph&gt;</ept>, and so on.</mrk><mrk mid="3" mtype="seg"> Use the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefattribtracefile.dita#rrefattribtracefile"&gt;</bpt>traceFile=path<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> attribute to specify a file name for the trace file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">If the directory does not exist, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues an error message. If you do not specify an absolute path name, the directory is assumed to be relative to the current directory.</source>
+<seg-source><mrk mid="0" mtype="seg">If the directory does not exist, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues an error message.</mrk><mrk mid="1" mtype="seg"> If you do not specify an absolute path name, the directory is assumed to be relative to the current directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the directory does not exist, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues an error message.</mrk><mrk mid="1" mtype="seg"> If you do not specify an absolute path name, the directory is assumed to be relative to the current directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">For more information about tracing, see "Network client tracing" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>. See <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>traceFile=path<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefattribtracefileappend.dita#rrefattribtracefileappend"&gt;</bpt>traceFileAppend=true<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept>, and <bpt id="5" ctype="x-i">&lt;i&gt;</bpt><bpt id="6" ctype="x-xref">&lt;xref href="rrefattribtracelevel.dita#rrefattribtracelevel"&gt;</bpt>traceLevel=value<ept id="6">&lt;/xref&gt;</ept><ept id="5">&lt;/i&gt;</ept> for other attributes related to tracing.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information about tracing, see "Network client tracing" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> See <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>traceFile=path<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefattribtracefileappend.dita#rrefattribtracefileappend"&gt;</bpt>traceFileAppend=true<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept>, and <bpt id="5" ctype="x-i">&lt;i&gt;</bpt><bpt id="6" ctype="x-xref">&lt;xref href="rrefattribtracelevel.dita#rrefattribtracelevel"&gt;</bpt>traceLevel=value<ept id="6">&lt;/xref&gt;</ept><ept id="5">&lt;/i&gt;</ept> for other attributes related to tracing.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information about tracing, see "Network client tracing" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> See <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>traceFile=path<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt><bpt id="4" ctype="x-xref">&lt;xref href="rrefattribtracefileappend.dita#rrefattribtracefileappend"&gt;</bpt>traceFileAppend=true<ept id="4">&lt;/xref&gt;</ept><ept id="3">&lt;/i&gt;</ept>, and <bpt id="5" ctype="x-i">&lt;i&gt;</bpt><bpt id="6" ctype="x-xref">&lt;xref href="rrefattribtracelevel.dita#rrefattribtracelevel"&gt;</bpt>traceLevel=value<ept id="6">&lt;/xref&gt;</ept><ept id="5">&lt;/i&gt;</ept> for other attributes related to tracing.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Combining with other attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Combining with other attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Combining with other attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">You can combine this attribute with other attributes.</source>
+<seg-source><mrk mid="0" mtype="seg">You can combine this attribute with other attributes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can combine this attribute with other attributes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- enable tracing on an existing database that will have multiple connections jdbc:derby://localhost:1527/mydb;traceDirectory=/home/mydir/mydbtracedir -- specify a trace file name within the directory jdbc:derby://localhost:1527/mydb;traceDirectory=/home/mydir/mydbtracedir;traceFile=trace.out -- append to the default trace file jdbc:derby://localhost:1527/mydb;traceDirectory=/home/mydir/mydbtracedir;traceFileAppend=true <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- enable tracing on an existing database that will have multiple connections jdbc:derby://localhost:1527/mydb;traceDirectory=/home/mydir/mydbtracedir -- specify a trace file name within the directory jdbc:derby://localhost:1527/mydb;traceDirectory=/home/mydir/mydbtracedir;traceFile=trace.out -- append to the default trace file jdbc:derby://localhost:1527/mydb;traceDirectory=/home/mydir/mydbtracedir;traceFileAppend=true <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- enable tracing on an existing database that will have multiple connections jdbc:derby://localhost:1527/mydb;traceDirectory=/home/mydir/mydbtracedir -- specify a trace file name within the directory jdbc:derby://localhost:1527/mydb;traceDirectory=/home/mydir/mydbtracedir;traceFile=trace.out -- append to the default trace file jdbc:derby://localhost:1527/mydb;traceDirectory=/home/mydir/mydbtracedir;traceFileAppend=true <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj61998.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">LOCATE function</source>
+<seg-source><mrk mid="0" mtype="seg">LOCATE function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOCATE function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The LOCATE function is used to search for a string within another string. If the desired string is found, LOCATE returns the index at which it is found. If the desired string is not found, LOCATE returns 0.</source>
+<seg-source><mrk mid="0" mtype="seg">The LOCATE function is used to search for a string within another string.</mrk><mrk mid="1" mtype="seg"> If the desired string is found, LOCATE returns the index at which it is found.</mrk><mrk mid="2" mtype="seg"> If the desired string is not found, LOCATE returns 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The LOCATE function is used to search for a string within another string.</mrk><mrk mid="1" mtype="seg"> If the desired string is found, LOCATE returns the index at which it is found.</mrk><mrk mid="2" mtype="seg"> If the desired string is not found, LOCATE returns 0.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">LOCATE function</source>
+<seg-source><mrk mid="0" mtype="seg">LOCATE function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOCATE function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>LOCATE ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="3">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="4">&lt;/i&gt;</ept> ] )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>LOCATE ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="3">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="4">&lt;/i&gt;</ept> ] )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>LOCATE ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept>, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="3">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="4">&lt;/i&gt;</ept> ] )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">There are two required arguments to the LOCATE function, and a third optional argument.</source>
+<seg-source><mrk mid="0" mtype="seg">There are two required arguments to the LOCATE function, and a third optional argument.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There are two required arguments to the LOCATE function, and a third optional argument.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The first <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept> specifies the string to search <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>for<ept id="2">&lt;/b&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The first <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept> specifies the string to search <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>for<ept id="2">&lt;/b&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The first <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept> specifies the string to search <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>for<ept id="2">&lt;/b&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The second <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept> specifies the string <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>in which<ept id="2">&lt;/b&gt;</ept> to search.</source>
+<seg-source><mrk mid="0" mtype="seg">The second <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept> specifies the string <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>in which<ept id="2">&lt;/b&gt;</ept> to search.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The second <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept> specifies the string <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>in which<ept id="2">&lt;/b&gt;</ept> to search.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The third argument is the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="1">&lt;/i&gt;</ept>, which specifies the position in the second argument at which the search is to start. If the third argument is not provided, the LOCATE function starts its search at the beginning of the second argument.</source>
+<seg-source><mrk mid="0" mtype="seg">The third argument is the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="1">&lt;/i&gt;</ept>, which specifies the position in the second argument at which the search is to start.</mrk><mrk mid="1" mtype="seg"> If the third argument is not provided, the LOCATE function starts its search at the beginning of the second argument.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The third argument is the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>startPosition<ept id="1">&lt;/i&gt;</ept>, which specifies the position in the second argument at which the search is to start.</mrk><mrk mid="1" mtype="seg"> If the third argument is not provided, the LOCATE function starts its search at the beginning of the second argument.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The return type for LOCATE is an integer. The LOCATE function returns an integer indicating the index position within the second argument at which the first argument was first located. Index positions start with 1. If the first argument is not found in the second argument, LOCATE returns 0. If the first argument is an empty string (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>''<ept id="1">&lt;/codeph&gt;</ept>), LOCATE returns the value of the third argument (or 1 if it was not provided), even if the second argument is also an empty string. If a NULL value is passed for either of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> arguments, NULL is returned.</source>
+<seg-source><mrk mid="0" mtype="seg">The return type for LOCATE is an integer.</mrk><mrk mid="1" mtype="seg"> The LOCATE function returns an integer indicating the index position within the second argument at which the first argument was first located.</mrk><mrk mid="2" mtype="seg"> Index positions start with 1.</mrk><mrk mid="3" mtype="seg"> If the first argument is not found in the second argument, LOCATE returns 0.</mrk><mrk mid="4" mtype="seg"> If the first argument is an empty string (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>''<ept id="1">&lt;/codeph&gt;</ept>), LOCATE returns the value of the third argument (or 1 if it was not provided), even if the second argument is also an empty string.</mrk><mrk mid="5" mtype="seg"> If a NULL value is passed for either of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> arguments, NULL is returned.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The return type for LOCATE is an integer.</mrk><mrk mid="1" mtype="seg"> The LOCATE function returns an integer indicating the index position within the second argument at which the first argument was first located.</mrk><mrk mid="2" mtype="seg"> Index positions start with 1.</mrk><mrk mid="3" mtype="seg"> If the first argument is not found in the second argument, LOCATE returns 0.</mrk><mrk mid="4" mtype="seg"> If the first argument is an empty string (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>''<ept id="1">&lt;/codeph&gt;</ept>), LOCATE returns the value of the third argument (or 1 if it was not provided), even if the second argument is also an empty string.</mrk><mrk mid="5" mtype="seg"> If a NULL value is passed for either of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> arguments, NULL is returned.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 2, since 'love' is found at index position 2:<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('love', 'clover')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 2, since 'love' is found at index position 2:<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('love', 'clover')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 2, since 'love' is found at index position 2:<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('love', 'clover')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 0, since 'stove' is not found in 'clover':<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('stove', 'clover')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 0, since 'stove' is not found in 'clover':<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('stove', 'clover')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 0, since 'stove' is not found in 'clover':<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('stove', 'clover')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 5 (note the start position is 4):<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('iss', 'Mississippi', 4)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 5 (note the start position is 4):<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('iss', 'Mississippi', 4)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 5 (note the start position is 4):<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('iss', 'Mississippi', 4)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 1, because the empty string is a special case:<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('', 'ABC')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 1, because the empty string is a special case:<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('', 'ABC')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 1, because the empty string is a special case:<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('', 'ABC')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 0, because 'AAA' is not found in '':<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('AAA', '')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 0, because 'AAA' is not found in '':<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('AAA', '')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 0, because 'AAA' is not found in '':<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('AAA', '')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 3<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('', '', 3)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 3<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('', '', 3)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- returns 3<ept id="2">&lt;/ph&gt;</ept> VALUES LOCATE('', '', 3)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

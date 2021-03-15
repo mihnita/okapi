@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjavsqlrssc.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">ResultSets and streaming columns</source>
+<seg-source><mrk mid="0" mtype="seg">ResultSets and streaming columns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ResultSets and streaming columns</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">getXXXStream requests</source>
+<seg-source><mrk mid="0" mtype="seg">getXXXStream requests</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">getXXXStream requests</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Streaming columns</source>
+<seg-source><mrk mid="0" mtype="seg">Streaming columns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Streaming columns</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">retrieving from ResultSets using getXXXStream methods</source>
+<seg-source><mrk mid="0" mtype="seg">retrieving from ResultSets using getXXXStream methods</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">retrieving from ResultSets using getXXXStream methods</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">If the underlying object is itself an <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>OutputStream<ept id="1">&lt;/i&gt;</ept> class, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getBinaryStream<ept id="2">&lt;/i&gt;</ept> returns the object directly.</source>
+<seg-source><mrk mid="0" mtype="seg">If the underlying object is itself an <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>OutputStream<ept id="1">&lt;/i&gt;</ept> class, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getBinaryStream<ept id="2">&lt;/i&gt;</ept> returns the object directly.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the underlying object is itself an <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>OutputStream<ept id="1">&lt;/i&gt;</ept> class, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getBinaryStream<ept id="2">&lt;/i&gt;</ept> returns the object directly.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">getAsciiStream</source>
+<seg-source><mrk mid="0" mtype="seg">getAsciiStream</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">getAsciiStream</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">getCharacterStream</source>
+<seg-source><mrk mid="0" mtype="seg">getCharacterStream</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">getCharacterStream</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">getBinaryStream</source>
+<seg-source><mrk mid="0" mtype="seg">getBinaryStream</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">getBinaryStream</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">To get a field from the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> using streaming columns, you can use the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getXXXStream<ept id="2">&lt;/i&gt;</ept> methods if the type supports it. See <bpt id="3" ctype="x-xref">&lt;xref href="rrefjavsqlprst.dita#rrefjavsqlprst/jdbc25312"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> for a list of types that support the various streams. (See also <bpt id="4" ctype="x-xref">&lt;xref href="rrefjdbc20377.dita#rrefjdbc20377/jdbc31241"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>.)</source>
+<seg-source><mrk mid="0" mtype="seg">To get a field from the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> using streaming columns, you can use the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getXXXStream<ept id="2">&lt;/i&gt;</ept> methods if the type supports it.</mrk><mrk mid="1" mtype="seg"> See <bpt id="3" ctype="x-xref">&lt;xref href="rrefjavsqlprst.dita#rrefjavsqlprst/jdbc25312"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> for a list of types that support the various streams.</mrk><mrk mid="2" mtype="seg"> (See also <bpt id="4" ctype="x-xref">&lt;xref href="rrefjdbc20377.dita#rrefjdbc20377/jdbc31241"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To get a field from the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> using streaming columns, you can use the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getXXXStream<ept id="2">&lt;/i&gt;</ept> methods if the type supports it.</mrk><mrk mid="1" mtype="seg"> See <bpt id="3" ctype="x-xref">&lt;xref href="rrefjavsqlprst.dita#rrefjavsqlprst/jdbc25312"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept> for a list of types that support the various streams.</mrk><mrk mid="2" mtype="seg"> (See also <bpt id="4" ctype="x-xref">&lt;xref href="rrefjdbc20377.dita#rrefjdbc20377/jdbc31241"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">You can retrieve data from one of the supported data type columns as a stream, whether or not it was stored as a stream.</source>
+<seg-source><mrk mid="0" mtype="seg">You can retrieve data from one of the supported data type columns as a stream, whether or not it was stored as a stream.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can retrieve data from one of the supported data type columns as a stream, whether or not it was stored as a stream.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The following code fragment shows how a user can retrieve a LONG VARCHAR column as a stream:</source>
+<seg-source><mrk mid="0" mtype="seg">The following code fragment shows how a user can retrieve a LONG VARCHAR column as a stream:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following code fragment shows how a user can retrieve a LONG VARCHAR column as a stream:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>// retrieve data as a stream<ept id="1">&lt;/b&gt;</ept> ResultSet rs = s.executeQuery("SELECT b FROM atable"); while (rs.next()) { <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>// use a java.io.Reader to get the data<ept id="2">&lt;/b&gt;</ept> java.io.Reader ip = rs.getCharacterStream(1); <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>// process the stream--this is just a generic way to // print the data<ept id="3">&lt;/b&gt;</ept> char[] buff = new char[128]; int size; while ((size = ip.read(buff)) != -1) { String chunk = new String(buff, 0, size); System.out.print(chunk); } } rs.close(); s.close(); conn.commit();</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>// retrieve data as a stream<ept id="1">&lt;/b&gt;</ept> ResultSet rs = s.executeQuery("SELECT b FROM atable"); while (rs.next()) { <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>// use a java.io.Reader to get the data<ept id="2">&lt;/b&gt;</ept> java.io.Reader ip = rs.getCharacterStream(1); <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>// process the stream--this is just a generic way to // print the data<ept id="3">&lt;/b&gt;</ept> char[] buff = new char[128]; int size; while ((size = ip.read(buff)) != -1) { String chunk = new String(buff, 0, size); System.out.print(chunk); } } rs.close(); s.close(); conn.commit();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>// retrieve data as a stream<ept id="1">&lt;/b&gt;</ept> ResultSet rs = s.executeQuery("SELECT b FROM atable"); while (rs.next()) { <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>// use a java.io.Reader to get the data<ept id="2">&lt;/b&gt;</ept> java.io.Reader ip = rs.getCharacterStream(1); <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>// process the stream--this is just a generic way to // print the data<ept id="3">&lt;/b&gt;</ept> char[] buff = new char[128]; int size; while ((size = ip.read(buff)) != -1) { String chunk = new String(buff, 0, size); System.out.print(chunk); } } rs.close(); s.close(); conn.commit();</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

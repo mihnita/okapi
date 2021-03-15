@@ -1,0 +1,138 @@
+#
+# The test stage is needed for Dependency-Scanning
+#
+# The verification stage jobs:
+#  - verification:jdk8
+#  - verification:jdk11
+#
+# The deployment stage jobs:
+#  - snapshot
+#  - release
+#
+# The integration_tests stage jobs:
+#  - integration_tests:
+#
+# Normally, on pushing to the code repository the "verification" job is run.
+#
+# If a branch is a "snapshot branch", then the "snapshot" job is run.
+# If a branch is a "tag", then the "release" job is run.
+#
+# If any of the jobs fails, no other consequential job is run.
+#
+
+# Problem:
+#   WARNING: /root/.m2/repository/: no matching files
+# Answer:
+#   "That is because cache only works for files and folders INSIDE your project."
+#   "This is poorly documented on the GitLab website IMHO."
+#   https://stackoverflow.com/questions/53953122/gitlab-ci-cache-no-matching-files
+
+stages:
+  - test
+  - verification
+  - deployment
+  - integration_tests
+
+include:
+  - template: Dependency-Scanning.gitlab-ci.yml
+
+variables:
+  CI_GITLAB_PATH: "ci/gitlab"
+  CI_SCRIPTS_PATH: "${CI_GITLAB_PATH}/scripts"
+  DOCKER_DRIVER: "overlay2"
+  GIT_DEPTH: "3"
+  # Tried
+  #   MAVEN_LOCAL_REPO: $CI_PROJECT_DIR/.m2/repository
+  # and reusing it in MAVEN_OPTS, and for ant
+  # It does not work; it is a 4 years old bug, still not fixed:
+  #   https://gitlab.com/gitlab-org/gitlab-runner/-/issues/1809
+  MAVEN_OPTS: "-Dhttps.protocols=TLSv1.2 -Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=WARN -Djava.awt.headless=true"
+  MAVEN_CLI_OPTS: "--settings ${CI_GITLAB_PATH}/.m2/settings.xml --batch-mode --errors --show-version --fail-at-end -DinstallAtEnd=true -DdeployAtEnd=true"
+  SNAPSHOTS_BRANCH: "dev"
+  RELEASE_BRANCH: "master"
+#  CI_DEBUG_TRACE: "true" # WARNING: all secret variables will be exposed to a job output!
+
+default:
+  image: registry.gitlab.com/okapiframework/okapi
+  cache:
+    paths:
+      - .m2/repository
+    policy: pull
+
+# stage: verification
+
+verification:jdk8:
+  stage: verification
+  cache:
+    paths:
+      - .m2/repository
+    policy: pull-push
+  before_script:
+    - ${CI_SCRIPTS_PATH}/before-job.sh
+  after_script:
+    - ${CI_SCRIPTS_PATH}/after-job.sh
+  script:
+    - date
+    - mvn clean install ${MAVEN_CLI_OPTS} --update-snapshots
+    - mvn dependency:resolve ${MAVEN_CLI_OPTS} -f okapi-ui/swt/core-ui/pom.xml -PWIN_SWT -PWIN_64_SWT -PCOCOA_64_SWT -PLinux_x86_swt -PLinux_x86_64_swt
+    - ant -DmavenStore=$CI_PROJECT_DIR/.m2/repository -f deployment/maven
+    - mvn clean integration-test ${MAVEN_CLI_OPTS} -f applications/integration-tests/pom.xml
+    - touch ${CI_GITLAB_PATH}/${CI_JOB_NAME}-passed
+  artifacts:
+    expire_in: 1 week
+    expose_as: 'Snapshot binaries'
+    paths:
+      - deployment/maven/done
+
+verification:jdk11:
+  image: registry.gitlab.com/okapiframework/okapi:openjdk_11_0_4
+  stage: verification
+  variables:
+    MAVEN_CLI_OPTS: "-Dmaven.compiler.source=11 -Dmaven.compiler.target=11 --batch-mode --errors --show-version --fail-at-end"
+  script:
+    - date
+    - mvn clean install ${MAVEN_CLI_OPTS} --update-snapshots
+    - mvn dependency:resolve ${MAVEN_CLI_OPTS} -f okapi-ui/swt/core-ui/pom.xml -PWIN_SWT -PWIN_64_SWT -PCOCOA_64_SWT -PLinux_x86_swt -PLinux_x86_64_swt
+    - ant -DmavenStore=$CI_PROJECT_DIR/.m2/repository -f deployment/maven
+    - mvn clean integration-test ${MAVEN_CLI_OPTS} -f applications/integration-tests/pom.xml
+
+# stage: deployment
+
+.deployment:
+  stage: deployment
+  before_script:
+    - ${CI_SCRIPTS_PATH}/before-job.sh
+    - ${CI_SCRIPTS_PATH}/gpg-import.sh
+  after_script:
+    - ${CI_SCRIPTS_PATH}/after-job.sh
+  script:
+    - mvn deploy ${MAVEN_CLI_OPTS} -DskipTests --activate-profiles sonatype_deploy,with_javadoc,with_sources,gpg_sign #--quiet
+    - touch ${CI_GITLAB_PATH}/${CI_JOB_NAME}-passed
+
+snapshot:
+  extends: .deployment
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $SNAPSHOTS_BRANCH
+
+release:
+  extends: .deployment
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $RELEASE_BRANCH || $CI_COMMIT_TAG
+
+# stage: integration_tests
+
+integration_tests:
+  stage: integration_tests
+  before_script:
+    - ${CI_SCRIPTS_PATH}/before-job.sh
+  after_script:
+    - ${CI_SCRIPTS_PATH}/after-job.sh
+  script:
+    - mvn verify ${MAVEN_CLI_OPTS} --quiet -f okapi-integration-tests/pom.xml
+    - touch ${CI_GITLAB_PATH}/${CI_JOB_NAME}-passed
+  rules:
+    - if: $FORCE_INTEGRATION_TESTS
+    - if: $CI_COMMIT_REF_NAME == $SNAPSHOTS_BRANCH && $CI_PIPELINE_SOURCE == "schedule"
+    - if: $CI_COMMIT_REF_NAME == $SNAPSHOTS_BRANCH
+      changes:
+        - okapi-integration-tests/**/*

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljrenametablestatement.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">RENAME TABLE statement</source>
+<seg-source><mrk mid="0" mtype="seg">RENAME TABLE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RENAME TABLE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">RENAME TABLE statement</source>
+<seg-source><mrk mid="0" mtype="seg">RENAME TABLE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RENAME TABLE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SQL statements</source>
+<seg-source><mrk mid="0" mtype="seg">SQL statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">RENAME TABLE</source>
+<seg-source><mrk mid="0" mtype="seg">RENAME TABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RENAME TABLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">tables</source>
+<seg-source><mrk mid="0" mtype="seg">tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">renaming</source>
+<seg-source><mrk mid="0" mtype="seg">renaming</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">renaming</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">RENAME TABLE allows you to rename an existing table in any schema (except the schema <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS<ept id="1">&lt;/i&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">RENAME TABLE allows you to rename an existing table in any schema (except the schema <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS<ept id="1">&lt;/i&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RENAME TABLE allows you to rename an existing table in any schema (except the schema <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS<ept id="1">&lt;/i&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">To rename a table, you must either be the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> or the table owner.</source>
+<seg-source><mrk mid="0" mtype="seg">To rename a table, you must either be the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> or the table owner.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To rename a table, you must either be the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> or the table owner.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>RENAME TABLE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefnewtablename.dita#rrefnewtablename"&gt;</bpt>newTableName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>RENAME TABLE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefnewtablename.dita#rrefnewtablename"&gt;</bpt>newTableName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>RENAME TABLE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> TO <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefnewtablename.dita#rrefnewtablename"&gt;</bpt>newTableName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">If there is a view or foreign key that references the table, attempts to rename it will generate an error. In addition, if there are any check constraints or triggers on the table, attempts to rename it will also generate an error.</source>
+<seg-source><mrk mid="0" mtype="seg">If there is a view or foreign key that references the table, attempts to rename it will generate an error.</mrk><mrk mid="1" mtype="seg"> In addition, if there are any check constraints or triggers on the table, attempts to rename it will also generate an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If there is a view or foreign key that references the table, attempts to rename it will generate an error.</mrk><mrk mid="1" mtype="seg"> In addition, if there are any check constraints or triggers on the table, attempts to rename it will also generate an error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>RENAME TABLE SAMP.EMP_ACT TO EMPLOYEE_ACT<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>RENAME TABLE SAMP.EMP_ACT TO EMPLOYEE_ACT<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>RENAME TABLE SAMP.EMP_ACT TO EMPLOYEE_ACT<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj81859.dita#rrefsqlj81859"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj81859.dita#rrefsqlj81859"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj81859.dita#rrefsqlj81859"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Statement dependency system</source>
+<seg-source><mrk mid="0" mtype="seg">Statement dependency system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Statement dependency system</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">The RENAME TABLE statement is not allowed if there are any open cursors that reference the table that is being altered.</source>
+<seg-source><mrk mid="0" mtype="seg">The RENAME TABLE statement is not allowed if there are any open cursors that reference the table that is being altered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The RENAME TABLE statement is not allowed if there are any open cursors that reference the table that is being altered.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

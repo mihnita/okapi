@@ -1,0 +1,37 @@
+<?xml version="1.0"?> 
+<project name="build_all" default="all" basedir="."> 
+
+	<property name="launch4j.folder" value="launch4j"/>
+
+	<target name="getLaunch4j">
+		<!-- Delete all old distributions -->
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${launch4j.folder}"/>
+		</delete>
+		<!-- Make new ones -->
+		<mkdir dir="${launch4j.folder}"/>
+
+		<get src="https://sourceforge.net/projects/launch4j/files/launch4j-3/3.12/launch4j-3.12-win32.zip/download"
+				dest="${launch4j.folder}/launch4j.zip"/>
+		<unzip overwrite="true"
+				src="${launch4j.folder}/launch4j.zip"
+				dest="${launch4j.folder}" />
+	</target>
+
+	<target name="all" depends="getLaunch4j">
+
+		<ant antfile="build_winexe.xml">
+			<property name="appname" value="tikal"/>
+		</ant>
+		<ant antfile="build_winexe.xml">
+			<property name="appname" value="checkmate"/>
+		</ant>
+		<ant antfile="build_winexe.xml">
+			<property name="appname" value="rainbow"/>
+		</ant>
+		<ant antfile="build_winexe.xml">
+			<property name="appname" value="ratel"/>
+		</ant>
+	</target>
+	
+</project>

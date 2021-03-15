@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefdropfunctionstatement.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">DROP FUNCTION statement</source>
+<seg-source><mrk mid="0" mtype="seg">DROP FUNCTION statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DROP FUNCTION statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP FUNCTION <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreffunctionname.dita#rreffunctionname"&gt;</bpt>functionName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP FUNCTION <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreffunctionname.dita#rreffunctionname"&gt;</bpt>functionName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP FUNCTION <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rreffunctionname.dita#rreffunctionname"&gt;</bpt>functionName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Identifies the particular function to be dropped, and is valid only if there is exactly one function instance with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>functionName<ept id="1">&lt;/i&gt;</ept> in the schema. The identified function can have any number of parameters defined for it.</source>
+<seg-source><mrk mid="0" mtype="seg">Identifies the particular function to be dropped, and is valid only if there is exactly one function instance with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>functionName<ept id="1">&lt;/i&gt;</ept> in the schema.</mrk><mrk mid="1" mtype="seg"> The identified function can have any number of parameters defined for it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Identifies the particular function to be dropped, and is valid only if there is exactly one function instance with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>functionName<ept id="1">&lt;/i&gt;</ept> in the schema.</mrk><mrk mid="1" mtype="seg"> The identified function can have any number of parameters defined for it.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">An error will occur in any of the following circumstances:</source>
+<seg-source><mrk mid="0" mtype="seg">An error will occur in any of the following circumstances:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An error will occur in any of the following circumstances:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">If no function with the indicated name exists in the named or implied schema (the error is SQLSTATE 42704)</source>
+<seg-source><mrk mid="0" mtype="seg">If no function with the indicated name exists in the named or implied schema (the error is SQLSTATE 42704)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If no function with the indicated name exists in the named or implied schema (the error is SQLSTATE 42704)</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">If there is more than one specific instance of the function in the named or implied schema</source>
+<seg-source><mrk mid="0" mtype="seg">If there is more than one specific instance of the function in the named or implied schema</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If there is more than one specific instance of the function in the named or implied schema</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If you try to drop a user-defined function that is invoked in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqljgenerationclause.dita#rrefsqljgenerationclause"&gt;</bpt>generationClause<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> of a generated column</source>
+<seg-source><mrk mid="0" mtype="seg">If you try to drop a user-defined function that is invoked in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqljgenerationclause.dita#rrefsqljgenerationclause"&gt;</bpt>generationClause<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> of a generated column</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you try to drop a user-defined function that is invoked in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqljgenerationclause.dita#rrefsqljgenerationclause"&gt;</bpt>generationClause<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> of a generated column</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">If you try to drop a user-defined function that is invoked in a view or trigger</source>
+<seg-source><mrk mid="0" mtype="seg">If you try to drop a user-defined function that is invoked in a view or trigger</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you try to drop a user-defined function that is invoked in a view or trigger</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Markdown Documentation - Basics.md.tkitMerged" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Markdown: Basics</source>
+<seg-source><mrk mid="0" mtype="seg">Markdown: Basics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Markdown: Basics</mrk></target>
+</trans-unit>
+<group id="sd1_ssf1" resname="sub-filter:sd1">
+<trans-unit id="sd1_sf1_tu2" resname="sd1_2" restype="x-title" xml:space="preserve">
+<source xml:lang="en">Markdown Project Page</source>
+<seg-source><mrk mid="0" mtype="seg">Markdown Project Page</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Markdown Project Page</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf1_tu1" resname="sd1_4" restype="x-li" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[#$sd1_sf1_dp2]</bpt>Main<ept id="1">&lt;/a&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[#$sd1_sf1_dp2]</bpt>Main<ept id="1">&lt;/a&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[#$sd1_sf1_dp2]</bpt>Main<ept id="1">&lt;/a&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf1_tu4" resname="sd1_7" restype="x-title" xml:space="preserve">
+<source xml:lang="en">Markdown Basics</source>
+<seg-source><mrk mid="0" mtype="seg">Markdown Basics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Markdown Basics</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf1_tu3" resname="sd1_8" restype="x-li" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">&lt;a class="selected" [#$sd1_sf1_tu4]&gt;</bpt>Basics<ept id="1">&lt;/a&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">&lt;a class="selected" [#$sd1_sf1_tu4]&gt;</bpt>Basics<ept id="1">&lt;/a&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">&lt;a class="selected" [#$sd1_sf1_tu4]&gt;</bpt>Basics<ept id="1">&lt;/a&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf1_tu6" resname="sd1_11" restype="x-title" xml:space="preserve">
+<source xml:lang="en">Markdown Syntax Documentation</source>
+<seg-source><mrk mid="0" mtype="seg">Markdown Syntax Documentation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Markdown Syntax Documentation</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf1_tu5" resname="sd1_13" restype="x-li" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[#$sd1_sf1_dp7]</bpt>Syntax<ept id="1">&lt;/a&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[#$sd1_sf1_dp7]</bpt>Syntax<ept id="1">&lt;/a&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[#$sd1_sf1_dp7]</bpt>Syntax<ept id="1">&lt;/a&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf1_tu8" resname="sd1_16" restype="x-title" xml:space="preserve">
+<source xml:lang="en">Pricing and License Information</source>
+<seg-source><mrk mid="0" mtype="seg">Pricing and License Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pricing and License Information</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf1_tu7" resname="sd1_18" restype="x-li" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[#$sd1_sf1_dp10]</bpt>License<ept id="1">&lt;/a&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[#$sd1_sf1_dp10]</bpt>License<ept id="1">&lt;/a&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[#$sd1_sf1_dp10]</bpt>License<ept id="1">&lt;/a&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf1_tu10" resname="sd1_21" restype="x-title" xml:space="preserve">
+<source xml:lang="en">Online Markdown Web Form</source>
+<seg-source><mrk mid="0" mtype="seg">Online Markdown Web Form</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Online Markdown Web Form</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf1_tu9" resname="sd1_23" restype="x-li" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="link">[#$sd1_sf1_dp13]</bpt>Dingus<ept id="1">&lt;/a&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[#$sd1_sf1_dp13]</bpt>Dingus<ept id="1">&lt;/a&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">[#$sd1_sf1_dp13]</bpt>Dingus<ept id="1">&lt;/a&gt;</ept></mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Getting the Gist of Markdown's Formatting Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Getting the Gist of Markdown's Formatting Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Getting the Gist of Markdown's Formatting Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">This page offers a brief overview of what it's like to use Markdown.
+The <ph id="1" ctype="x-LINK_REF">[</ph>syntax page<ph id="2" ctype="x-LINK_REF">]</ph> <ph id="3" ctype="x-LINK_REF">[</ph>s<ph id="4" ctype="x-LINK_REF">]</ph> provides complete, detailed documentation for
+every feature, but Markdown should be very easy to pick up simply by
+looking at a few examples of it in action. The examples on this page
+are written in a before/after style, showing example syntax and the
+HTML output produced by Markdown.</source>
+<seg-source><mrk mid="0" mtype="seg">This page offers a brief overview of what it's like to use Markdown.</mrk>
+<mrk mid="1" mtype="seg">The <ph id="1" ctype="x-LINK_REF">[</ph>syntax page<ph id="2" ctype="x-LINK_REF">]</ph> <ph id="3" ctype="x-LINK_REF">[</ph>s<ph id="4" ctype="x-LINK_REF">]</ph> provides complete, detailed documentation for</mrk>
+<mrk mid="2" mtype="seg">every feature, but Markdown should be very easy to pick up simply by</mrk>
+<mrk mid="3" mtype="seg">looking at a few examples of it in action.</mrk><mrk mid="4" mtype="seg"> The examples on this page</mrk>
+<mrk mid="5" mtype="seg">are written in a before/after style, showing example syntax and the</mrk>
+<mrk mid="6" mtype="seg">HTML output produced by Markdown.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This page offers a brief overview of what it's like to use Markdown.</mrk>
+<mrk mid="1" mtype="seg">The <ph id="1" ctype="x-LINK_REF">[</ph>syntax page<ph id="2" ctype="x-LINK_REF">]</ph> <ph id="3" ctype="x-LINK_REF">[</ph>s<ph id="4" ctype="x-LINK_REF">]</ph> provides complete, detailed documentation for</mrk>
+<mrk mid="2" mtype="seg">every feature, but Markdown should be very easy to pick up simply by</mrk>
+<mrk mid="3" mtype="seg">looking at a few examples of it in action.</mrk><mrk mid="4" mtype="seg"> The examples on this page</mrk>
+<mrk mid="5" mtype="seg">are written in a before/after style, showing example syntax and the</mrk>
+<mrk mid="6" mtype="seg">HTML output produced by Markdown.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">It's also helpful to simply try Markdown out; the <ph id="1" ctype="x-LINK_REF">[</ph>Dingus<ph id="2" ctype="x-LINK_REF">]</ph> <ph id="3" ctype="x-LINK_REF">[</ph>d<ph id="4" ctype="x-LINK_REF">]</ph> is a
+web application that allows you type your own Markdown-formatted text
+and translate it to XHTML.</source>
+<seg-source><mrk mid="0" mtype="seg">It's also helpful to simply try Markdown out; the <ph id="1" ctype="x-LINK_REF">[</ph>Dingus<ph id="2" ctype="x-LINK_REF">]</ph> <ph id="3" ctype="x-LINK_REF">[</ph>d<ph id="4" ctype="x-LINK_REF">]</ph> is a</mrk>
+<mrk mid="1" mtype="seg">web application that allows you type your own Markdown-formatted text</mrk>
+<mrk mid="2" mtype="seg">and translate it to XHTML.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It's also helpful to simply try Markdown out; the <ph id="1" ctype="x-LINK_REF">[</ph>Dingus<ph id="2" ctype="x-LINK_REF">]</ph> <ph id="3" ctype="x-LINK_REF">[</ph>d<ph id="4" ctype="x-LINK_REF">]</ph> is a</mrk>
+<mrk mid="1" mtype="seg">web application that allows you type your own Markdown-formatted text</mrk>
+<mrk mid="2" mtype="seg">and translate it to XHTML.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Note:<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> This document is itself written using Markdown; you
+can <ph id="3" ctype="x-LINK_REF">[</ph>see the source for it by adding '.text' to the URL<ph id="4" ctype="x-LINK_REF">]</ph> <ph id="5" ctype="x-LINK_REF">[</ph>src<ph id="6" ctype="x-LINK_REF">]</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Note:<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> This document is itself written using Markdown; you</mrk>
+<mrk mid="1" mtype="seg">can <ph id="3" ctype="x-LINK_REF">[</ph>see the source for it by adding '.text' to the URL<ph id="4" ctype="x-LINK_REF">]</ph> <ph id="5" ctype="x-LINK_REF">[</ph>src<ph id="6" ctype="x-LINK_REF">]</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Note:<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> This document is itself written using Markdown; you</mrk>
+<mrk mid="1" mtype="seg">can <ph id="3" ctype="x-LINK_REF">[</ph>see the source for it by adding '.text' to the URL<ph id="4" ctype="x-LINK_REF">]</ph> <ph id="5" ctype="x-LINK_REF">[</ph>src<ph id="6" ctype="x-LINK_REF">]</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">s</source>
+<seg-source><mrk mid="0" mtype="seg">s</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">s</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">Markdown Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Markdown Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Markdown Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">d</source>
+<seg-source><mrk mid="0" mtype="seg">d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">d</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">Markdown Dingus</source>
+<seg-source><mrk mid="0" mtype="seg">Markdown Dingus</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Markdown Dingus</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en">src</source>
+<seg-source><mrk mid="0" mtype="seg">src</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">src</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" xml:space="preserve">
+<source xml:lang="en">Paragraphs, Headers, Blockquotes</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraphs, Headers, Blockquotes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraphs, Headers, Blockquotes</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" xml:space="preserve">
+<source xml:lang="en">A paragraph is simply one or more consecutive lines of text, separated
+by one or more blank lines. (A blank line is any line that looks like a
+blank line -- a line containing nothing spaces or tabs is considered
+blank.) Normal paragraphs should not be intended with spaces or tabs.</source>
+<seg-source><mrk mid="0" mtype="seg">A paragraph is simply one or more consecutive lines of text, separated</mrk>
+<mrk mid="1" mtype="seg">by one or more blank lines.</mrk><mrk mid="2" mtype="seg"> (A blank line is any line that looks like a</mrk>
+<mrk mid="3" mtype="seg">blank line -- a line containing nothing spaces or tabs is considered</mrk>
+<mrk mid="4" mtype="seg">blank.) Normal paragraphs should not be intended with spaces or tabs.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A paragraph is simply one or more consecutive lines of text, separated</mrk>
+<mrk mid="1" mtype="seg">by one or more blank lines.</mrk><mrk mid="2" mtype="seg"> (A blank line is any line that looks like a</mrk>
+<mrk mid="3" mtype="seg">blank line -- a line containing nothing spaces or tabs is considered</mrk>
+<mrk mid="4" mtype="seg">blank.) Normal paragraphs should not be intended with spaces or tabs.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" xml:space="preserve">
+<source xml:lang="en">Markdown offers two styles of headers: <ph id="1" ctype="x-EMPHASIS">*</ph>Setext<ph id="2" ctype="x-EMPHASIS">*</ph> and <ph id="3" ctype="x-EMPHASIS">*</ph>atx<ph id="4" ctype="x-EMPHASIS">*</ph>.
+Setext-style headers for <ph id="5" ctype="x-CODE">`</ph>&lt;h1&gt;<ph id="6" ctype="x-CODE">`</ph> and <ph id="7" ctype="x-CODE">`</ph>&lt;h2&gt;<ph id="8" ctype="x-CODE">`</ph> are created by
+"underlining" with equal signs (<ph id="9" ctype="x-CODE">`</ph>=<ph id="10" ctype="x-CODE">`</ph>) and hyphens (<ph id="11" ctype="x-CODE">`</ph>-<ph id="12" ctype="x-CODE">`</ph>), respectively.
+To create an atx-style header, you put 1-6 hash marks (<ph id="13" ctype="x-CODE">`</ph>#<ph id="14" ctype="x-CODE">`</ph>) at the
+beginning of the line -- the number of hashes equals the resulting
+HTML header level.</source>
+<seg-source><mrk mid="0" mtype="seg">Markdown offers two styles of headers: <ph id="1" ctype="x-EMPHASIS">*</ph>Setext<ph id="2" ctype="x-EMPHASIS">*</ph> and <ph id="3" ctype="x-EMPHASIS">*</ph>atx<ph id="4" ctype="x-EMPHASIS">*</ph>.</mrk>
+<mrk mid="1" mtype="seg">Setext-style headers for <ph id="5" ctype="x-CODE">`</ph>&lt;h1&gt;<ph id="6" ctype="x-CODE">`</ph> and <ph id="7" ctype="x-CODE">`</ph>&lt;h2&gt;<ph id="8" ctype="x-CODE">`</ph> are created by</mrk>
+<mrk mid="2" mtype="seg">"underlining" with equal signs (<ph id="9" ctype="x-CODE">`</ph>=<ph id="10" ctype="x-CODE">`</ph>) and hyphens (<ph id="11" ctype="x-CODE">`</ph>-<ph id="12" ctype="x-CODE">`</ph>), respectively.</mrk>
+<mrk mid="3" mtype="seg">To create an atx-style header, you put 1-6 hash marks (<ph id="13" ctype="x-CODE">`</ph>#<ph id="14" ctype="x-CODE">`</ph>) at the</mrk>
+<mrk mid="4" mtype="seg">beginning of the line -- the number of hashes equals the resulting</mrk>
+<mrk mid="5" mtype="seg">HTML header level.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Markdown offers two styles of headers: <ph id="1" ctype="x-EMPHASIS">*</ph>Setext<ph id="2" ctype="x-EMPHASIS">*</ph> and <ph id="3" ctype="x-EMPHASIS">*</ph>atx<ph id="4" ctype="x-EMPHASIS">*</ph>.</mrk>
+<mrk mid="1" mtype="seg">Setext-style headers for <ph id="5" ctype="x-CODE">`</ph>&lt;h1&gt;<ph id="6" ctype="x-CODE">`</ph> and <ph id="7" ctype="x-CODE">`</ph>&lt;h2&gt;<ph id="8" ctype="x-CODE">`</ph> are created by</mrk>
+<mrk mid="2" mtype="seg">"underlining" with equal signs (<ph id="9" ctype="x-CODE">`</ph>=<ph id="10" ctype="x-CODE">`</ph>) and hyphens (<ph id="11" ctype="x-CODE">`</ph>-<ph id="12" ctype="x-CODE">`</ph>), respectively.</mrk>
+<mrk mid="3" mtype="seg">To create an atx-style header, you put 1-6 hash marks (<ph id="13" ctype="x-CODE">`</ph>#<ph id="14" ctype="x-CODE">`</ph>) at the</mrk>
+<mrk mid="4" mtype="seg">beginning of the line -- the number of hashes equals the resulting</mrk>
+<mrk mid="5" mtype="seg">HTML header level.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14" xml:space="preserve">
+<source xml:lang="en">Blockquotes are indicated using email-style '<ph id="1" ctype="x-CODE">`</ph>&gt;<ph id="2" ctype="x-CODE">`</ph>' angle brackets.</source>
+<seg-source><mrk mid="0" mtype="seg">Blockquotes are indicated using email-style '<ph id="1" ctype="x-CODE">`</ph>&gt;<ph id="2" ctype="x-CODE">`</ph>' angle brackets.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Blockquotes are indicated using email-style '<ph id="1" ctype="x-CODE">`</ph>&gt;<ph id="2" ctype="x-CODE">`</ph>' angle brackets.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15" xml:space="preserve">
+<source xml:lang="en">Markdown:</source>
+<seg-source><mrk mid="0" mtype="seg">Markdown:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Markdown:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>A First Level Header<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>====================<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>A Second Level Header<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>---------------------<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="13" ctype="x-INDENTED_CODE_BLOCK">    </ph>Now is the time for all good men to come to<ph id="14" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="15" ctype="x-INDENTED_CODE_BLOCK">    </ph>the aid of their country. This is just a<ph id="16" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="17" ctype="x-INDENTED_CODE_BLOCK">    </ph>regular paragraph.<ph id="18" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="19" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="20" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="21" ctype="x-INDENTED_CODE_BLOCK">    </ph>The quick brown fox jumped over the lazy<ph id="22" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="23" ctype="x-INDENTED_CODE_BLOCK">    </ph>dog's back.<ph id="24" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="25" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="26" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="27" ctype="x-INDENTED_CODE_BLOCK">    </ph>### Header 3<ph id="28" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="29" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="30" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="31" ctype="x-INDENTED_CODE_BLOCK">    </ph>&gt; This is a blockquote.<ph id="32" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="33" ctype="x-INDENTED_CODE_BLOCK">    </ph>&gt;<ph id="34" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="35" ctype="x-INDENTED_CODE_BLOCK">    </ph>&gt; This is the second paragraph in the blockquote.<ph id="36" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="37" ctype="x-INDENTED_CODE_BLOCK">    </ph>&gt;<ph id="38" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="39" ctype="x-INDENTED_CODE_BLOCK">    </ph>&gt; ## This is an H2 in a blockquote<ph id="40" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>A First Level Header<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>====================<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>A Second Level Header<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>---------------------<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="13" ctype="x-INDENTED_CODE_BLOCK">    </ph>Now is the time for all good men to come to<ph id="14" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="15" ctype="x-INDENTED_CODE_BLOCK">    </ph>the aid of their country.</mrk><mrk mid="1" mtype="seg"> This is just a<ph id="16" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="17" ctype="x-INDENTED_CODE_BLOCK">    </ph>regular paragraph.<ph id="18" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="19" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="20" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="21" ctype="x-INDENTED_CODE_BLOCK">    </ph>The quick brown fox jumped over the lazy<ph id="22" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="23" ctype="x-INDENTED_CODE_BLOCK">    </ph>dog's back.<ph id="24" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="25" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="26" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="27" ctype="x-INDENTED_CODE_BLOCK">    </ph>### Header 3<ph id="28" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="29" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="30" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="31" ctype="x-INDENTED_CODE_BLOCK">    </ph>&gt; This is a blockquote.<ph id="32" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="33" ctype="x-INDENTED_CODE_BLOCK">    </ph>&gt;<ph id="34" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="35" ctype="x-INDENTED_CODE_BLOCK">    </ph>&gt; This is the second paragraph in the blockquote.<ph id="36" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="37" ctype="x-INDENTED_CODE_BLOCK">    </ph>&gt;<ph id="38" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="39" ctype="x-INDENTED_CODE_BLOCK">    </ph>&gt; ## This is an H2 in a blockquote<ph id="40" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>A First Level Header<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>====================<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>A Second Level Header<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>---------------------<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="13" ctype="x-INDENTED_CODE_BLOCK">    </ph>Now is the time for all good men to come to<ph id="14" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="15" ctype="x-INDENTED_CODE_BLOCK">    </ph>the aid of their country.</mrk><mrk mid="1" mtype="seg"> This is just a<ph id="16" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="17" ctype="x-INDENTED_CODE_BLOCK">    </ph>regular paragraph.<ph id="18" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="19" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="20" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="21" ctype="x-INDENTED_CODE_BLOCK">    </ph>The quick brown fox jumped over the lazy<ph id="22" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="23" ctype="x-INDENTED_CODE_BLOCK">    </ph>dog's back.<ph id="24" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="25" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="26" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="27" ctype="x-INDENTED_CODE_BLOCK">    </ph>### Header 3<ph id="28" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="29" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="30" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="31" ctype="x-INDENTED_CODE_BLOCK">    </ph>&gt; This is a blockquote.<ph id="32" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="33" ctype="x-INDENTED_CODE_BLOCK">    </ph>&gt;<ph id="34" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="35" ctype="x-INDENTED_CODE_BLOCK">    </ph>&gt; This is the second paragraph in the blockquote.<ph id="36" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="37" ctype="x-INDENTED_CODE_BLOCK">    </ph>&gt;<ph id="38" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="39" ctype="x-INDENTED_CODE_BLOCK">    </ph>&gt; ## This is an H2 in a blockquote<ph id="40" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu17" xml:space="preserve">
+<source xml:lang="en">Output:</source>
+<seg-source><mrk mid="0" mtype="seg">Output:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Output:</mrk></target>
+</trans-unit>
+<trans-unit id="tu18" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;h1&gt;A First Level Header&lt;/h1&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;h2&gt;A Second Level Header&lt;/h2&gt;<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;Now is the time for all good men to come to<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph>the aid of their country. This is just a<ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="13" ctype="x-INDENTED_CODE_BLOCK">    </ph>regular paragraph.&lt;/p&gt;<ph id="14" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="15" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="16" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="17" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;The quick brown fox jumped over the lazy<ph id="18" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="19" ctype="x-INDENTED_CODE_BLOCK">    </ph>dog's back.&lt;/p&gt;<ph id="20" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="21" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="22" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="23" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;h3&gt;Header 3&lt;/h3&gt;<ph id="24" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="25" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="26" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="27" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;blockquote&gt;<ph id="28" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="29" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;This is a blockquote.&lt;/p&gt;<ph id="30" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="31" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="32" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="33" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;This is the second paragraph in the blockquote.&lt;/p&gt;<ph id="34" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="35" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="36" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="37" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;h2&gt;This is an H2 in a blockquote&lt;/h2&gt;<ph id="38" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="39" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/blockquote&gt;<ph id="40" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;h1&gt;A First Level Header&lt;/h1&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;h2&gt;A Second Level Header&lt;/h2&gt;<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;Now is the time for all good men to come to<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph>the aid of their country.</mrk><mrk mid="1" mtype="seg"> This is just a<ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="13" ctype="x-INDENTED_CODE_BLOCK">    </ph>regular paragraph.&lt;/p&gt;<ph id="14" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="15" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="16" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="17" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;The quick brown fox jumped over the lazy<ph id="18" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="19" ctype="x-INDENTED_CODE_BLOCK">    </ph>dog's back.&lt;/p&gt;<ph id="20" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="21" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="22" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="23" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;h3&gt;Header 3&lt;/h3&gt;<ph id="24" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="25" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="26" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="27" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;blockquote&gt;<ph id="28" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="29" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;This is a blockquote.&lt;/p&gt;<ph id="30" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="31" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="32" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="33" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;This is the second paragraph in the blockquote.&lt;/p&gt;<ph id="34" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="35" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="36" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="37" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;h2&gt;This is an H2 in a blockquote&lt;/h2&gt;<ph id="38" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="39" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/blockquote&gt;<ph id="40" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;h1&gt;A First Level Header&lt;/h1&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;h2&gt;A Second Level Header&lt;/h2&gt;<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;Now is the time for all good men to come to<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph>the aid of their country.</mrk><mrk mid="1" mtype="seg"> This is just a<ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="13" ctype="x-INDENTED_CODE_BLOCK">    </ph>regular paragraph.&lt;/p&gt;<ph id="14" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="15" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="16" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="17" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;The quick brown fox jumped over the lazy<ph id="18" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="19" ctype="x-INDENTED_CODE_BLOCK">    </ph>dog's back.&lt;/p&gt;<ph id="20" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="21" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="22" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="23" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;h3&gt;Header 3&lt;/h3&gt;<ph id="24" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="25" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="26" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="27" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;blockquote&gt;<ph id="28" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="29" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;This is a blockquote.&lt;/p&gt;<ph id="30" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="31" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="32" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="33" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;This is the second paragraph in the blockquote.&lt;/p&gt;<ph id="34" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="35" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="36" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="37" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;h2&gt;This is an H2 in a blockquote&lt;/h2&gt;<ph id="38" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="39" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/blockquote&gt;<ph id="40" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu19" xml:space="preserve">
+<source xml:lang="en">Phrase Emphasis</source>
+<seg-source><mrk mid="0" mtype="seg">Phrase Emphasis</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Phrase Emphasis</mrk></target>
+</trans-unit>
+<trans-unit id="tu20" xml:space="preserve">
+<source xml:lang="en">Markdown uses asterisks and underscores to indicate spans of emphasis.</source>
+<seg-source><mrk mid="0" mtype="seg">Markdown uses asterisks and underscores to indicate spans of emphasis.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Markdown uses asterisks and underscores to indicate spans of emphasis.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21" xml:space="preserve">
+<source xml:lang="en">Markdown:</source>
+<seg-source><mrk mid="0" mtype="seg">Markdown:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Markdown:</mrk></target>
+</trans-unit>
+<trans-unit id="tu22" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>Some of these words *are emphasized*.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>Some of these words _are emphasized also_.<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>Use two asterisks for **strong emphasis**.<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>Or, if you prefer, __use two underscores instead__.<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>Some of these words *are emphasized*.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>Some of these words _are emphasized also_.<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>Use two asterisks for **strong emphasis**.<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>Or, if you prefer, __use two underscores instead__.<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>Some of these words *are emphasized*.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>Some of these words _are emphasized also_.<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>Use two asterisks for **strong emphasis**.<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>Or, if you prefer, __use two underscores instead__.<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu23" xml:space="preserve">
+<source xml:lang="en">Output:</source>
+<seg-source><mrk mid="0" mtype="seg">Output:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Output:</mrk></target>
+</trans-unit>
+<trans-unit id="tu24" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;Some of these words &lt;em&gt;are emphasized&lt;/em&gt;.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>Some of these words &lt;em&gt;are emphasized also&lt;/em&gt;.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;Use two asterisks for &lt;strong&gt;strong emphasis&lt;/strong&gt;.<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>Or, if you prefer, &lt;strong&gt;use two underscores instead&lt;/strong&gt;.&lt;/p&gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;Some of these words &lt;em&gt;are emphasized&lt;/em&gt;.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>Some of these words &lt;em&gt;are emphasized also&lt;/em&gt;.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;Use two asterisks for &lt;strong&gt;strong emphasis&lt;/strong&gt;.<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>Or, if you prefer, &lt;strong&gt;use two underscores instead&lt;/strong&gt;.&lt;/p&gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;Some of these words &lt;em&gt;are emphasized&lt;/em&gt;.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>Some of these words &lt;em&gt;are emphasized also&lt;/em&gt;.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;Use two asterisks for &lt;strong&gt;strong emphasis&lt;/strong&gt;.<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>Or, if you prefer, &lt;strong&gt;use two underscores instead&lt;/strong&gt;.&lt;/p&gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu25" xml:space="preserve">
+<source xml:lang="en">Lists</source>
+<seg-source><mrk mid="0" mtype="seg">Lists</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Lists</mrk></target>
+</trans-unit>
+<trans-unit id="tu26" xml:space="preserve">
+<source xml:lang="en">Unordered (bulleted) lists use asterisks, pluses, and hyphens (<ph id="1" ctype="x-CODE">`</ph>*<ph id="2" ctype="x-CODE">`</ph>,
+<ph id="3" ctype="x-CODE">`</ph>+<ph id="4" ctype="x-CODE">`</ph>, and <ph id="5" ctype="x-CODE">`</ph>-<ph id="6" ctype="x-CODE">`</ph>) as list markers. These three markers are
+interchangable; this:</source>
+<seg-source><mrk mid="0" mtype="seg">Unordered (bulleted) lists use asterisks, pluses, and hyphens (<ph id="1" ctype="x-CODE">`</ph>*<ph id="2" ctype="x-CODE">`</ph>,</mrk>
+<mrk mid="1" mtype="seg"><ph id="3" ctype="x-CODE">`</ph>+<ph id="4" ctype="x-CODE">`</ph>, and <ph id="5" ctype="x-CODE">`</ph>-<ph id="6" ctype="x-CODE">`</ph>) as list markers.</mrk><mrk mid="2" mtype="seg"> These three markers are</mrk>
+<mrk mid="3" mtype="seg">interchangable; this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unordered (bulleted) lists use asterisks, pluses, and hyphens (<ph id="1" ctype="x-CODE">`</ph>*<ph id="2" ctype="x-CODE">`</ph>,</mrk>
+<mrk mid="1" mtype="seg"><ph id="3" ctype="x-CODE">`</ph>+<ph id="4" ctype="x-CODE">`</ph>, and <ph id="5" ctype="x-CODE">`</ph>-<ph id="6" ctype="x-CODE">`</ph>) as list markers.</mrk><mrk mid="2" mtype="seg"> These three markers are</mrk>
+<mrk mid="3" mtype="seg">interchangable; this:</mrk></target>
+</trans-unit>
+<trans-unit id="tu27" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>*   Candy.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>*   Gum.<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>*   Booze.<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>*   Candy.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>*   Gum.<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>*   Booze.<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>*   Candy.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>*   Gum.<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>*   Booze.<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu28" xml:space="preserve">
+<source xml:lang="en">this:</source>
+<seg-source><mrk mid="0" mtype="seg">this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">this:</mrk></target>
+</trans-unit>
+<trans-unit id="tu29" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>+   Candy.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>+   Gum.<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>+   Booze.<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>+   Candy.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>+   Gum.<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>+   Booze.<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>+   Candy.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>+   Gum.<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>+   Booze.<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu30" xml:space="preserve">
+<source xml:lang="en">and this:</source>
+<seg-source><mrk mid="0" mtype="seg">and this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and this:</mrk></target>
+</trans-unit>
+<trans-unit id="tu31" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>-   Candy.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>-   Gum.<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>-   Booze.<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>-   Candy.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>-   Gum.<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>-   Booze.<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>-   Candy.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>-   Gum.<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>-   Booze.<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu32" xml:space="preserve">
+<source xml:lang="en">all produce the same output:</source>
+<seg-source><mrk mid="0" mtype="seg">all produce the same output:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">all produce the same output:</mrk></target>
+</trans-unit>
+<trans-unit id="tu33" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;ul&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Candy.&lt;/li&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Gum.&lt;/li&gt;<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Booze.&lt;/li&gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/ul&gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;ul&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Candy.&lt;/li&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Gum.&lt;/li&gt;<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Booze.&lt;/li&gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/ul&gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;ul&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Candy.&lt;/li&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Gum.&lt;/li&gt;<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Booze.&lt;/li&gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/ul&gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu34" xml:space="preserve">
+<source xml:lang="en">Ordered (numbered) lists use regular numbers, followed by periods, as
+list markers:</source>
+<seg-source><mrk mid="0" mtype="seg">Ordered (numbered) lists use regular numbers, followed by periods, as</mrk>
+<mrk mid="1" mtype="seg">list markers:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ordered (numbered) lists use regular numbers, followed by periods, as</mrk>
+<mrk mid="1" mtype="seg">list markers:</mrk></target>
+</trans-unit>
+<trans-unit id="tu35" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>1.  Red<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>2.  Green<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>3.  Blue<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>1.</mrk><mrk mid="1" mtype="seg">  Red<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>2.</mrk><mrk mid="2" mtype="seg">  Green<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>3.</mrk><mrk mid="3" mtype="seg">  Blue<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>1.</mrk><mrk mid="1" mtype="seg">  Red<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>2.</mrk><mrk mid="2" mtype="seg">  Green<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>3.</mrk><mrk mid="3" mtype="seg">  Blue<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu36" xml:space="preserve">
+<source xml:lang="en">Output:</source>
+<seg-source><mrk mid="0" mtype="seg">Output:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Output:</mrk></target>
+</trans-unit>
+<trans-unit id="tu37" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;ol&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Red&lt;/li&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Green&lt;/li&gt;<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Blue&lt;/li&gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/ol&gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;ol&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Red&lt;/li&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Green&lt;/li&gt;<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Blue&lt;/li&gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/ol&gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;ol&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Red&lt;/li&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Green&lt;/li&gt;<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;Blue&lt;/li&gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/ol&gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu38" xml:space="preserve">
+<source xml:lang="en">If you put blank lines between items, you'll get <ph id="1" ctype="x-CODE">`</ph>&lt;p&gt;<ph id="2" ctype="x-CODE">`</ph> tags for the
+list item text. You can create multi-paragraph list items by indenting
+the paragraphs by 4 spaces or 1 tab:</source>
+<seg-source><mrk mid="0" mtype="seg">If you put blank lines between items, you'll get <ph id="1" ctype="x-CODE">`</ph>&lt;p&gt;<ph id="2" ctype="x-CODE">`</ph> tags for the</mrk>
+<mrk mid="1" mtype="seg">list item text.</mrk><mrk mid="2" mtype="seg"> You can create multi-paragraph list items by indenting</mrk>
+<mrk mid="3" mtype="seg">the paragraphs by 4 spaces or 1 tab:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you put blank lines between items, you'll get <ph id="1" ctype="x-CODE">`</ph>&lt;p&gt;<ph id="2" ctype="x-CODE">`</ph> tags for the</mrk>
+<mrk mid="1" mtype="seg">list item text.</mrk><mrk mid="2" mtype="seg"> You can create multi-paragraph list items by indenting</mrk>
+<mrk mid="3" mtype="seg">the paragraphs by 4 spaces or 1 tab:</mrk></target>
+</trans-unit>
+<trans-unit id="tu39" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>*   A list item.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>With multiple paragraphs.<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>*   Another item in the list.<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>*   A list item.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>With multiple paragraphs.<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>*   Another item in the list.<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>*   A list item.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>With multiple paragraphs.<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>*   Another item in the list.<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu40" xml:space="preserve">
+<source xml:lang="en">Output:</source>
+<seg-source><mrk mid="0" mtype="seg">Output:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Output:</mrk></target>
+</trans-unit>
+<trans-unit id="tu41" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;ul&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;&lt;p&gt;A list item.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;With multiple paragraphs.&lt;/p&gt;&lt;/li&gt;<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;&lt;p&gt;Another item in the list.&lt;/p&gt;&lt;/li&gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/ul&gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;ul&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;&lt;p&gt;A list item.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;With multiple paragraphs.&lt;/p&gt;&lt;/li&gt;<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;&lt;p&gt;Another item in the list.&lt;/p&gt;&lt;/li&gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/ul&gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;ul&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;&lt;p&gt;A list item.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;With multiple paragraphs.&lt;/p&gt;&lt;/li&gt;<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;li&gt;&lt;p&gt;Another item in the list.&lt;/p&gt;&lt;/li&gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/ul&gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu42" xml:space="preserve">
+<source xml:lang="en">Links</source>
+<seg-source><mrk mid="0" mtype="seg">Links</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Links</mrk></target>
+</trans-unit>
+<trans-unit id="tu43" xml:space="preserve">
+<source xml:lang="en">Markdown supports two styles for creating links: <ph id="1" ctype="x-EMPHASIS">*</ph>inline<ph id="2" ctype="x-EMPHASIS">*</ph> and
+<ph id="3" ctype="x-EMPHASIS">*</ph>reference<ph id="4" ctype="x-EMPHASIS">*</ph>. With both styles, you use square brackets to delimit the
+text you want to turn into a link.</source>
+<seg-source><mrk mid="0" mtype="seg">Markdown supports two styles for creating links: <ph id="1" ctype="x-EMPHASIS">*</ph>inline<ph id="2" ctype="x-EMPHASIS">*</ph> and</mrk>
+<mrk mid="1" mtype="seg"><ph id="3" ctype="x-EMPHASIS">*</ph>reference<ph id="4" ctype="x-EMPHASIS">*</ph>.</mrk><mrk mid="2" mtype="seg"> With both styles, you use square brackets to delimit the</mrk>
+<mrk mid="3" mtype="seg">text you want to turn into a link.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Markdown supports two styles for creating links: <ph id="1" ctype="x-EMPHASIS">*</ph>inline<ph id="2" ctype="x-EMPHASIS">*</ph> and</mrk>
+<mrk mid="1" mtype="seg"><ph id="3" ctype="x-EMPHASIS">*</ph>reference<ph id="4" ctype="x-EMPHASIS">*</ph>.</mrk><mrk mid="2" mtype="seg"> With both styles, you use square brackets to delimit the</mrk>
+<mrk mid="3" mtype="seg">text you want to turn into a link.</mrk></target>
+</trans-unit>
+<trans-unit id="tu44" xml:space="preserve">
+<source xml:lang="en">Inline-style links use parentheses immediately after the link text.
+For example:</source>
+<seg-source><mrk mid="0" mtype="seg">Inline-style links use parentheses immediately after the link text.</mrk>
+<mrk mid="1" mtype="seg">For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inline-style links use parentheses immediately after the link text.</mrk>
+<mrk mid="1" mtype="seg">For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu45" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>This is an [example link](http://example.com/).<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>This is an [example link](http://example.com/).<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>This is an [example link](http://example.com/).<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu46" xml:space="preserve">
+<source xml:lang="en">Output:</source>
+<seg-source><mrk mid="0" mtype="seg">Output:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Output:</mrk></target>
+</trans-unit>
+<trans-unit id="tu47" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;This is an &lt;a href="http://example.com/"&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>example link&lt;/a&gt;.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;This is an &lt;a href="http://example.com/"&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>example link&lt;/a&gt;.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;This is an &lt;a href="http://example.com/"&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>example link&lt;/a&gt;.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu48" xml:space="preserve">
+<source xml:lang="en">Optionally, you may include a title attribute in the parentheses:</source>
+<seg-source><mrk mid="0" mtype="seg">Optionally, you may include a title attribute in the parentheses:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Optionally, you may include a title attribute in the parentheses:</mrk></target>
+</trans-unit>
+<trans-unit id="tu49" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>This is an [example link](http://example.com/ "With a Title").<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>This is an [example link](http://example.com/ "With a Title").<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>This is an [example link](http://example.com/ "With a Title").<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu50" xml:space="preserve">
+<source xml:lang="en">Output:</source>
+<seg-source><mrk mid="0" mtype="seg">Output:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Output:</mrk></target>
+</trans-unit>
+<trans-unit id="tu51" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;This is an &lt;a href="http://example.com/" title="With a Title"&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>example link&lt;/a&gt;.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;This is an &lt;a href="http://example.com/" title="With a Title"&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>example link&lt;/a&gt;.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;This is an &lt;a href="http://example.com/" title="With a Title"&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>example link&lt;/a&gt;.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu52" xml:space="preserve">
+<source xml:lang="en">Reference-style links allow you to refer to your links by names, which
+you define elsewhere in your document:</source>
+<seg-source><mrk mid="0" mtype="seg">Reference-style links allow you to refer to your links by names, which</mrk>
+<mrk mid="1" mtype="seg">you define elsewhere in your document:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reference-style links allow you to refer to your links by names, which</mrk>
+<mrk mid="1" mtype="seg">you define elsewhere in your document:</mrk></target>
+</trans-unit>
+<trans-unit id="tu53" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>I get 10 times more traffic from [Google][1] than from<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>[Yahoo][2] or [MSN][3].<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>[1]: http://google.com/        "Google"<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>[2]: http://search.yahoo.com/  "Yahoo Search"<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph>[3]: http://search.msn.com/    "MSN Search"<ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>I get 10 times more traffic from [Google][1] than from<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>[Yahoo][2] or [MSN][3].<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>[1]: http://google.com/        "Google"<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>[2]: http://search.yahoo.com/  "Yahoo Search"<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph>[3]: http://search.msn.com/    "MSN Search"<ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>I get 10 times more traffic from [Google][1] than from<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>[Yahoo][2] or [MSN][3].<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>[1]: http://google.com/        "Google"<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>[2]: http://search.yahoo.com/  "Yahoo Search"<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph>[3]: http://search.msn.com/    "MSN Search"<ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu54" xml:space="preserve">
+<source xml:lang="en">Output:</source>
+<seg-source><mrk mid="0" mtype="seg">Output:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Output:</mrk></target>
+</trans-unit>
+<trans-unit id="tu55" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;I get 10 times more traffic from &lt;a href="http://google.com/"<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>title="Google"&gt;Google&lt;/a&gt; than from &lt;a href="http://search.yahoo.com/"<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>title="Yahoo Search"&gt;Yahoo&lt;/a&gt; or &lt;a href="http://search.msn.com/"<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>title="MSN Search"&gt;MSN&lt;/a&gt;.&lt;/p&gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;I get 10 times more traffic from &lt;a href="http://google.com/"<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>title="Google"&gt;Google&lt;/a&gt; than from &lt;a href="http://search.yahoo.com/"<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>title="Yahoo Search"&gt;Yahoo&lt;/a&gt; or &lt;a href="http://search.msn.com/"<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>title="MSN Search"&gt;MSN&lt;/a&gt;.&lt;/p&gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;I get 10 times more traffic from &lt;a href="http://google.com/"<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>title="Google"&gt;Google&lt;/a&gt; than from &lt;a href="http://search.yahoo.com/"<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>title="Yahoo Search"&gt;Yahoo&lt;/a&gt; or &lt;a href="http://search.msn.com/"<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>title="MSN Search"&gt;MSN&lt;/a&gt;.&lt;/p&gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu56" xml:space="preserve">
+<source xml:lang="en">The title attribute is optional. Link names may contain letters,
+numbers and spaces, but are <ph id="1" ctype="x-EMPHASIS">*</ph>not<ph id="2" ctype="x-EMPHASIS">*</ph> case sensitive:</source>
+<seg-source><mrk mid="0" mtype="seg">The title attribute is optional.</mrk><mrk mid="1" mtype="seg"> Link names may contain letters,</mrk>
+<mrk mid="2" mtype="seg">numbers and spaces, but are <ph id="1" ctype="x-EMPHASIS">*</ph>not<ph id="2" ctype="x-EMPHASIS">*</ph> case sensitive:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The title attribute is optional.</mrk><mrk mid="1" mtype="seg"> Link names may contain letters,</mrk>
+<mrk mid="2" mtype="seg">numbers and spaces, but are <ph id="1" ctype="x-EMPHASIS">*</ph>not<ph id="2" ctype="x-EMPHASIS">*</ph> case sensitive:</mrk></target>
+</trans-unit>
+<trans-unit id="tu57" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>I start my morning with a cup of coffee and<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>[The New York Times][NY Times].<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>[ny times]: http://www.nytimes.com/<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>I start my morning with a cup of coffee and<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>[The New York Times][NY Times].<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>[ny times]: http://www.nytimes.com/<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>I start my morning with a cup of coffee and<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>[The New York Times][NY Times].<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>[ny times]: http://www.nytimes.com/<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu58" xml:space="preserve">
+<source xml:lang="en">Output:</source>
+<seg-source><mrk mid="0" mtype="seg">Output:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Output:</mrk></target>
+</trans-unit>
+<trans-unit id="tu59" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;I start my morning with a cup of coffee and<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;a href="http://www.nytimes.com/"&gt;The New York Times&lt;/a&gt;.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;I start my morning with a cup of coffee and<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;a href="http://www.nytimes.com/"&gt;The New York Times&lt;/a&gt;.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;I start my morning with a cup of coffee and<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;a href="http://www.nytimes.com/"&gt;The New York Times&lt;/a&gt;.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu60" xml:space="preserve">
+<source xml:lang="en">Images</source>
+<seg-source><mrk mid="0" mtype="seg">Images</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Images</mrk></target>
+</trans-unit>
+<trans-unit id="tu61" xml:space="preserve">
+<source xml:lang="en">Image syntax is very much like link syntax.</source>
+<seg-source><mrk mid="0" mtype="seg">Image syntax is very much like link syntax.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Image syntax is very much like link syntax.</mrk></target>
+</trans-unit>
+<trans-unit id="tu62" xml:space="preserve">
+<source xml:lang="en">Inline (titles are optional):</source>
+<seg-source><mrk mid="0" mtype="seg">Inline (titles are optional):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inline (titles are optional):</mrk></target>
+</trans-unit>
+<trans-unit id="tu63" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>![alt text](/path/to/img.jpg "Title")<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>![alt text](/path/to/img.jpg "Title")<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>![alt text](/path/to/img.jpg "Title")<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu64" xml:space="preserve">
+<source xml:lang="en">Reference-style:</source>
+<seg-source><mrk mid="0" mtype="seg">Reference-style:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reference-style:</mrk></target>
+</trans-unit>
+<trans-unit id="tu65" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>![alt text][id]<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>[id]: /path/to/img.jpg "Title"<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>![alt text][id]<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>[id]: /path/to/img.jpg "Title"<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>![alt text][id]<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>[id]: /path/to/img.jpg "Title"<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu66" xml:space="preserve">
+<source xml:lang="en">Both of the above examples produce the same output:</source>
+<seg-source><mrk mid="0" mtype="seg">Both of the above examples produce the same output:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Both of the above examples produce the same output:</mrk></target>
+</trans-unit>
+<trans-unit id="tu67" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;img src="/path/to/img.jpg" alt="alt text" title="Title" /&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;img src="/path/to/img.jpg" alt="alt text" title="Title" /&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;img src="/path/to/img.jpg" alt="alt text" title="Title" /&gt;<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu68" xml:space="preserve">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="tu69" xml:space="preserve">
+<source xml:lang="en">In a regular paragraph, you can create code span by wrapping text in
+backtick quotes. Any ampersands (<ph id="1" ctype="x-CODE">`</ph>&amp;<ph id="2" ctype="x-CODE">`</ph>) and angle brackets (<ph id="3" ctype="x-CODE">`</ph>&lt;<ph id="4" ctype="x-CODE">`</ph> or
+<ph id="5" ctype="x-CODE">`</ph>&gt;<ph id="6" ctype="x-CODE">`</ph>) will automatically be translated into HTML entities. This makes
+it easy to use Markdown to write about HTML example code:</source>
+<seg-source><mrk mid="0" mtype="seg">In a regular paragraph, you can create code span by wrapping text in</mrk>
+<mrk mid="1" mtype="seg">backtick quotes.</mrk><mrk mid="2" mtype="seg"> Any ampersands (<ph id="1" ctype="x-CODE">`</ph>&amp;<ph id="2" ctype="x-CODE">`</ph>) and angle brackets (<ph id="3" ctype="x-CODE">`</ph>&lt;<ph id="4" ctype="x-CODE">`</ph> or</mrk>
+<mrk mid="3" mtype="seg"><ph id="5" ctype="x-CODE">`</ph>&gt;<ph id="6" ctype="x-CODE">`</ph>) will automatically be translated into HTML entities.</mrk><mrk mid="4" mtype="seg"> This makes</mrk>
+<mrk mid="5" mtype="seg">it easy to use Markdown to write about HTML example code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In a regular paragraph, you can create code span by wrapping text in</mrk>
+<mrk mid="1" mtype="seg">backtick quotes.</mrk><mrk mid="2" mtype="seg"> Any ampersands (<ph id="1" ctype="x-CODE">`</ph>&amp;<ph id="2" ctype="x-CODE">`</ph>) and angle brackets (<ph id="3" ctype="x-CODE">`</ph>&lt;<ph id="4" ctype="x-CODE">`</ph> or</mrk>
+<mrk mid="3" mtype="seg"><ph id="5" ctype="x-CODE">`</ph>&gt;<ph id="6" ctype="x-CODE">`</ph>) will automatically be translated into HTML entities.</mrk><mrk mid="4" mtype="seg"> This makes</mrk>
+<mrk mid="5" mtype="seg">it easy to use Markdown to write about HTML example code:</mrk></target>
+</trans-unit>
+<trans-unit id="tu70" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>I strongly recommend against using any `&lt;blink&gt;` tags.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>I wish SmartyPants used named entities like `&amp;mdash;`<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>instead of decimal-encoded entites like `&amp;#8212;`.<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>I strongly recommend against using any `&lt;blink&gt;` tags.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>I wish SmartyPants used named entities like `&amp;mdash;`<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>instead of decimal-encoded entites like `&amp;#8212;`.<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>I strongly recommend against using any `&lt;blink&gt;` tags.<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph>I wish SmartyPants used named entities like `&amp;mdash;`<ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>instead of decimal-encoded entites like `&amp;#8212;`.<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu71" xml:space="preserve">
+<source xml:lang="en">Output:</source>
+<seg-source><mrk mid="0" mtype="seg">Output:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Output:</mrk></target>
+</trans-unit>
+<trans-unit id="tu72" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;I strongly recommend against using any<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;code&gt;&amp;lt;blink&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;I wish SmartyPants used named entities like<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;code&gt;&amp;amp;mdash;&lt;/code&gt; instead of decimal-encoded<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph>entites like &lt;code&gt;&amp;amp;#8212;&lt;/code&gt;.&lt;/p&gt;<ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;I strongly recommend against using any<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;code&gt;&amp;lt;blink&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;I wish SmartyPants used named entities like<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;code&gt;&amp;amp;mdash;&lt;/code&gt; instead of decimal-encoded<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph>entites like &lt;code&gt;&amp;amp;#8212;&lt;/code&gt;.&lt;/p&gt;<ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;I strongly recommend against using any<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;code&gt;&amp;lt;blink&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;I wish SmartyPants used named entities like<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;code&gt;&amp;amp;mdash;&lt;/code&gt; instead of decimal-encoded<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph>entites like &lt;code&gt;&amp;amp;#8212;&lt;/code&gt;.&lt;/p&gt;<ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu73" xml:space="preserve">
+<source xml:lang="en">To specify an entire block of pre-formatted code, indent every line of
+the block by 4 spaces or 1 tab. Just like with code spans, <ph id="1" ctype="x-CODE">`</ph>&amp;<ph id="2" ctype="x-CODE">`</ph>, <ph id="3" ctype="x-CODE">`</ph>&lt;<ph id="4" ctype="x-CODE">`</ph>,
+and <ph id="5" ctype="x-CODE">`</ph>&gt;<ph id="6" ctype="x-CODE">`</ph> characters will be escaped automatically.</source>
+<seg-source><mrk mid="0" mtype="seg">To specify an entire block of pre-formatted code, indent every line of</mrk>
+<mrk mid="1" mtype="seg">the block by 4 spaces or 1 tab.</mrk><mrk mid="2" mtype="seg"> Just like with code spans, <ph id="1" ctype="x-CODE">`</ph>&amp;<ph id="2" ctype="x-CODE">`</ph>, <ph id="3" ctype="x-CODE">`</ph>&lt;<ph id="4" ctype="x-CODE">`</ph>,</mrk>
+<mrk mid="3" mtype="seg">and <ph id="5" ctype="x-CODE">`</ph>&gt;<ph id="6" ctype="x-CODE">`</ph> characters will be escaped automatically.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To specify an entire block of pre-formatted code, indent every line of</mrk>
+<mrk mid="1" mtype="seg">the block by 4 spaces or 1 tab.</mrk><mrk mid="2" mtype="seg"> Just like with code spans, <ph id="1" ctype="x-CODE">`</ph>&amp;<ph id="2" ctype="x-CODE">`</ph>, <ph id="3" ctype="x-CODE">`</ph>&lt;<ph id="4" ctype="x-CODE">`</ph>,</mrk>
+<mrk mid="3" mtype="seg">and <ph id="5" ctype="x-CODE">`</ph>&gt;<ph id="6" ctype="x-CODE">`</ph> characters will be escaped automatically.</mrk></target>
+</trans-unit>
+<trans-unit id="tu74" xml:space="preserve">
+<source xml:lang="en">Markdown:</source>
+<seg-source><mrk mid="0" mtype="seg">Markdown:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Markdown:</mrk></target>
+</trans-unit>
+<trans-unit id="tu75" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>If you want your page to validate under XHTML 1.0 Strict,<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>you've got to put paragraph tags in your blockquotes:<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;blockquote&gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;For example.&lt;/p&gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/blockquote&gt;<ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>If you want your page to validate under XHTML 1.0 Strict,<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>you've got to put paragraph tags in your blockquotes:<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;blockquote&gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;For example.&lt;/p&gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/blockquote&gt;<ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>If you want your page to validate under XHTML 1.0 Strict,<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>you've got to put paragraph tags in your blockquotes:<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;blockquote&gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;For example.&lt;/p&gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/blockquote&gt;<ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu76" xml:space="preserve">
+<source xml:lang="en">Output:</source>
+<seg-source><mrk mid="0" mtype="seg">Output:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Output:</mrk></target>
+</trans-unit>
+<trans-unit id="tu77" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;If you want your page to validate under XHTML 1.0 Strict,<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>you've got to put paragraph tags in your blockquotes:&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;pre&gt;&lt;code&gt;&amp;lt;blockquote&amp;gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&amp;lt;p&amp;gt;For example.&amp;lt;/p&amp;gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph>&amp;lt;/blockquote&amp;gt;<ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="13" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/code&gt;&lt;/pre&gt;<ph id="14" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;If you want your page to validate under XHTML 1.0 Strict,<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>you've got to put paragraph tags in your blockquotes:&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;pre&gt;&lt;code&gt;&amp;lt;blockquote&amp;gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&amp;lt;p&amp;gt;For example.&amp;lt;/p&amp;gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph>&amp;lt;/blockquote&amp;gt;<ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="13" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/code&gt;&lt;/pre&gt;<ph id="14" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;p&gt;If you want your page to validate under XHTML 1.0 Strict,<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="3" ctype="x-INDENTED_CODE_BLOCK">    </ph>you've got to put paragraph tags in your blockquotes:&lt;/p&gt;<ph id="4" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="5" ctype="x-INDENTED_CODE_BLOCK">    </ph><ph id="6" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="7" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;pre&gt;&lt;code&gt;&amp;lt;blockquote&amp;gt;<ph id="8" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="9" ctype="x-INDENTED_CODE_BLOCK">    </ph>&amp;lt;p&amp;gt;For example.&amp;lt;/p&amp;gt;<ph id="10" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="11" ctype="x-INDENTED_CODE_BLOCK">    </ph>&amp;lt;/blockquote&amp;gt;<ph id="12" ctype="x-SOFT_LINE_BREAK">
+</ph><ph id="13" ctype="x-INDENTED_CODE_BLOCK">    </ph>&lt;/code&gt;&lt;/pre&gt;<ph id="14" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

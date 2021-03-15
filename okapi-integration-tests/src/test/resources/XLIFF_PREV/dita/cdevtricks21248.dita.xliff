@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevtricks21248.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Defining an identity column</source>
+<seg-source><mrk mid="0" mtype="seg">Defining an identity column</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Defining an identity column</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">An identity column is a column that stores numbers that increment by one with each insertion. Identity columns are sometimes called autoincrement columns.</source>
+<seg-source><mrk mid="0" mtype="seg">An identity column is a column that stores numbers that increment by one with each insertion.</mrk><mrk mid="1" mtype="seg"> Identity columns are sometimes called autoincrement columns.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An identity column is a column that stores numbers that increment by one with each insertion.</mrk><mrk mid="1" mtype="seg"> Identity columns are sometimes called autoincrement columns.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Identity column</source>
+<seg-source><mrk mid="0" mtype="seg">Identity column</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Identity column</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">defining</source>
+<seg-source><mrk mid="0" mtype="seg">defining</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">defining</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Identity column</source>
+<seg-source><mrk mid="0" mtype="seg">Identity column</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Identity column</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">definition</source>
+<seg-source><mrk mid="0" mtype="seg">definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides autoincrement as a built-in feature; see CREATE TABLE statement in the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides autoincrement as a built-in feature; see CREATE TABLE statement in the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides autoincrement as a built-in feature; see CREATE TABLE statement in the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Below is an example that shows how to use an identity column to create the MAP_ID column of the MAPS table in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>toursDB database<ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Below is an example that shows how to use an identity column to create the MAP_ID column of the MAPS table in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>toursDB database<ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Below is an example that shows how to use an identity column to create the MAP_ID column of the MAPS table in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>toursDB database<ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">CREATE TABLE MAPS ( MAP_ID INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1), MAP_NAME VARCHAR(24) NOT NULL, REGION VARCHAR(26), AREA DECIMAL(8,4) NOT NULL, PHOTO_FORMAT VARCHAR(26) NOT NULL, PICTURE BLOB(102400), UNIQUE (MAP_ID, MAP_NAME) )</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE TABLE MAPS ( MAP_ID INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1), MAP_NAME VARCHAR(24) NOT NULL, REGION VARCHAR(26), AREA DECIMAL(8,4) NOT NULL, PHOTO_FORMAT VARCHAR(26) NOT NULL, PICTURE BLOB(102400), UNIQUE (MAP_ID, MAP_NAME) )</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE TABLE MAPS ( MAP_ID INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1), MAP_NAME VARCHAR(24) NOT NULL, REGION VARCHAR(26), AREA DECIMAL(8,4) NOT NULL, PHOTO_FORMAT VARCHAR(26) NOT NULL, PICTURE BLOB(102400), UNIQUE (MAP_ID, MAP_NAME) )</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

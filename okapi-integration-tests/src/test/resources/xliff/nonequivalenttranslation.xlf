@@ -1,0 +1,35 @@
+<xliff version='1.2'
+       xmlns='urn:oasis:names:tc:xliff:document:1.2'>
+	   
+<file original='hello.txt' source-language='en' target-language='pl'
+       datatype='plaintext'>
+	   
+<body>
+
+<trans-unit id="t1">
+<source>Constrained text for limited</source>
+<target>Tekst angielski dla</target>
+</trans-unit>
+
+<trans-unit id="t2">
+<source>display for English</source>
+<target>ograniczonego pola</target>
+</trans-unit>
+
+<trans-unit id="t3"> 
+<source>Constrained text for limited</source>
+<target equiv-trans="no">Tekst angielski dla</target>
+<note>This is the first part of a non equivalent translation.</note>
+</trans-unit>
+
+<trans-unit id="t4">
+<source>display for English</source>
+<target equiv-trans="no">ograniczonego pola</target>
+<note>This is the second part of a non equivalent translation.</note>
+</trans-unit>  
+
+</body>
+
+</file>
+
+</xliff>

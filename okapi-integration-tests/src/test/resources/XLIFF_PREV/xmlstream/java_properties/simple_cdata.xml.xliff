@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="simple_cdata.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi-integration-tests/common-integration-tests/target/test-classes/xmlstream/java_properties/okf_xmlstream@javaproperties.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" resname="x1-key" restype="x-entry">
+<source xml:lang="en">About</source>
+<seg-source><mrk mid="0" mtype="seg">About</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">About</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="x2-key" restype="x-entry">
+<source xml:lang="en">Testing</source>
+<seg-source><mrk mid="0" mtype="seg">Testing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Testing</mrk></target>
+</trans-unit>
+<group id="tu3_ssf1" resname="sub-filter:x3-key">
+<trans-unit id="tu3_tu1" resname="x3-key_1">
+<source xml:lang="en"><bpt id="1" ctype="bold">&lt;b&gt;</bpt>Test<ept id="1">&lt;/b&gt;</ept> with some <bpt id="2" ctype="underlined">&lt;u&gt;</bpt>HTML<ept id="2">&lt;/u&gt;</ept> <bpt id="3" ctype="italic">&lt;i&gt;</bpt>tags<ept id="3">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="bold">&lt;b&gt;</bpt>Test<ept id="1">&lt;/b&gt;</ept> with some <bpt id="2" ctype="underlined">&lt;u&gt;</bpt>HTML<ept id="2">&lt;/u&gt;</ept> <bpt id="3" ctype="italic">&lt;i&gt;</bpt>tags<ept id="3">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="bold">&lt;b&gt;</bpt>Test<ept id="1">&lt;/b&gt;</ept> with some <bpt id="2" ctype="underlined">&lt;u&gt;</bpt>HTML<ept id="2">&lt;/u&gt;</ept> <bpt id="3" ctype="italic">&lt;i&gt;</bpt>tags<ept id="3">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu3" resname="x3-key" restype="x-entry">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

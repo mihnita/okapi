@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="twwdactivity2.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Activity 2: Run SQL using the client driver</source>
+<seg-source><mrk mid="0" mtype="seg">Activity 2: Run SQL using the client driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Activity 2: Run SQL using the client driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">This activity uses <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> within a client/server configuration by using the Network Server. The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> tool is the client application that connects to the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> Network Server. In this activity, you create a database called <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>seconddb<ept id="4">&lt;/codeph&gt;</ept> and run some basic SQL statements.</source>
+<seg-source><mrk mid="0" mtype="seg">This activity uses <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> within a client/server configuration by using the Network Server.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> tool is the client application that connects to the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> Network Server.</mrk><mrk mid="2" mtype="seg"> In this activity, you create a database called <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>seconddb<ept id="4">&lt;/codeph&gt;</ept> and run some basic SQL statements.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This activity uses <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> within a client/server configuration by using the Network Server.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> tool is the client application that connects to the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> Network Server.</mrk><mrk mid="2" mtype="seg"> In this activity, you create a database called <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>seconddb<ept id="4">&lt;/codeph&gt;</ept> and run some basic SQL statements.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Client driver</source>
+<seg-source><mrk mid="0" mtype="seg">Client driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Client driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">tutorial</source>
+<seg-source><mrk mid="0" mtype="seg">tutorial</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tutorial</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">client driver</source>
+<seg-source><mrk mid="0" mtype="seg">client driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">client driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">This activity assumes that you know how to open a command shell and change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</source>
+<seg-source><mrk mid="0" mtype="seg">This activity assumes that you know how to open a command shell and change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This activity assumes that you know how to open a command shell and change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">You use two command windows (referred to as Shell-1 and Shell-2) in this activity. You use Shell-1 to start the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server and display Network Server messages. You use Shell-2 to establish a client connection to the Network Server using <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> and then perform some basic SQL operations.</source>
+<seg-source><mrk mid="0" mtype="seg">You use two command windows (referred to as Shell-1 and Shell-2) in this activity.</mrk><mrk mid="1" mtype="seg"> You use Shell-1 to start the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server and display Network Server messages.</mrk><mrk mid="2" mtype="seg"> You use Shell-2 to establish a client connection to the Network Server using <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> and then perform some basic SQL operations.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You use two command windows (referred to as Shell-1 and Shell-2) in this activity.</mrk><mrk mid="1" mtype="seg"> You use Shell-1 to start the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server and display Network Server messages.</mrk><mrk mid="2" mtype="seg"> You use Shell-2 to establish a client connection to the Network Server using <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> and then perform some basic SQL operations.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Open a command window (Shell-1) and change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</source>
+<seg-source><mrk mid="0" mtype="seg">Open a command window (Shell-1) and change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a command window (Shell-1) and change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Start the Network Server, as shown in the following table.</source>
+<seg-source><mrk mid="0" mtype="seg">Start the Network Server, as shown in the following table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start the Network Server, as shown in the following table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Command to start the Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Command to start the Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command to start the Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">This table lists the commands to start the Network Server on UNIX and Windows systems.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the commands to start the Network Server on UNIX and Windows systems.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the commands to start the Network Server on UNIX and Windows systems.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Operating System</source>
+<seg-source><mrk mid="0" mtype="seg">Operating System</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Operating System</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Command</source>
+<seg-source><mrk mid="0" mtype="seg">Command</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">UNIX (Korn Shell)</source>
+<seg-source><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar server start<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Thu Sep 13 16:45:36 EDT 2012 : Security manager installed using the Basic server security policy. Thu Sep 13 16:45:37 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) started and ready to accept connections on port 1527<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar server start<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Thu Sep 13 16:45:</mrk><mrk mid="1" mtype="seg">36 EDT 2012 : Security manager installed using the Basic server security policy.</mrk><mrk mid="2" mtype="seg"> Thu Sep 13 16:45:</mrk><mrk mid="3" mtype="seg">37 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) started and ready to accept connections on port 1527<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar server start<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Thu Sep 13 16:45:</mrk><mrk mid="1" mtype="seg">36 EDT 2012 : Security manager installed using the Basic server security policy.</mrk><mrk mid="2" mtype="seg"> Thu Sep 13 16:45:</mrk><mrk mid="3" mtype="seg">37 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) started and ready to accept connections on port 1527<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Windows</source>
+<seg-source><mrk mid="0" mtype="seg">Windows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Windows</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar server start<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Thu Sep 13 16:45:36 EDT 2012 : Security manager installed using the Basic server security policy. Thu Sep 13 16:45:37 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) started and ready to accept connections on port 1527<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar server start<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Thu Sep 13 16:45:</mrk><mrk mid="1" mtype="seg">36 EDT 2012 : Security manager installed using the Basic server security policy.</mrk><mrk mid="2" mtype="seg"> Thu Sep 13 16:45:</mrk><mrk mid="3" mtype="seg">37 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) started and ready to accept connections on port 1527<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar server start<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Thu Sep 13 16:45:</mrk><mrk mid="1" mtype="seg">36 EDT 2012 : Security manager installed using the Basic server security policy.</mrk><mrk mid="2" mtype="seg"> Thu Sep 13 16:45:</mrk><mrk mid="3" mtype="seg">37 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) started and ready to accept connections on port 1527<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">A Network Server startup message appears in the Shell-1 command window.</source>
+<seg-source><mrk mid="0" mtype="seg">A Network Server startup message appears in the Shell-1 command window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A Network Server startup message appears in the Shell-1 command window.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Open another command window (Shell-2). Change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</source>
+<seg-source><mrk mid="0" mtype="seg">Open another command window (Shell-2).</mrk><mrk mid="1" mtype="seg"> Change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open another command window (Shell-2).</mrk><mrk mid="1" mtype="seg"> Change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Start <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Start <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">If you included the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBY_HOME/bin<ept id="1">&lt;/codeph&gt;</ept> directory in your PATH environment variable, type:</source>
+<seg-source><mrk mid="0" mtype="seg">If you included the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBY_HOME/bin<ept id="1">&lt;/codeph&gt;</ept> directory in your PATH environment variable, type:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you included the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBY_HOME/bin<ept id="1">&lt;/codeph&gt;</ept> directory in your PATH environment variable, type:</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">ij</source>
+<seg-source><mrk mid="0" mtype="seg">ij</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ij</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Otherwise, you can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java<ept id="1">&lt;/codeph&gt;</ept> command to start the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> tool, as shown in the following table.</source>
+<seg-source><mrk mid="0" mtype="seg">Otherwise, you can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java<ept id="1">&lt;/codeph&gt;</ept> command to start the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> tool, as shown in the following table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Otherwise, you can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java<ept id="1">&lt;/codeph&gt;</ept> command to start the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> tool, as shown in the following table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Command to start the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> tool</source>
+<seg-source><mrk mid="0" mtype="seg">Command to start the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> tool</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command to start the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> tool</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">This table lists the commands to start the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> tool on UNIX and Windows systems.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the commands to start the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> tool on UNIX and Windows systems.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the commands to start the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> tool on UNIX and Windows systems.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">Operating System</source>
+<seg-source><mrk mid="0" mtype="seg">Operating System</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Operating System</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Command</source>
+<seg-source><mrk mid="0" mtype="seg">Command</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">UNIX (Korn Shell)</source>
+<seg-source><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar ij<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ij version @RELEASE_ID_SHORT@<ept id="3">&lt;/systemoutput&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar ij<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ij version @RELEASE_ID_SHORT@<ept id="3">&lt;/systemoutput&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar ij<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ij version @RELEASE_ID_SHORT@<ept id="3">&lt;/systemoutput&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">Windows</source>
+<seg-source><mrk mid="0" mtype="seg">Windows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Windows</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar ij<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ij version @RELEASE_ID_SHORT@<ept id="3">&lt;/systemoutput&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar ij<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ij version @RELEASE_ID_SHORT@<ept id="3">&lt;/systemoutput&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar ij<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ij version @RELEASE_ID_SHORT@<ept id="3">&lt;/systemoutput&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">You will enter all subsequent commands from the network client, so you will type the commands in the Shell-2 command window.</source>
+<seg-source><mrk mid="0" mtype="seg">You will enter all subsequent commands from the network client, so you will type the commands in the Shell-2 command window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You will enter all subsequent commands from the network client, so you will type the commands in the Shell-2 command window.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">Create and open a connection to the database using the client driver.</source>
+<seg-source><mrk mid="0" mtype="seg">Create and open a connection to the database using the client driver.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create and open a connection to the database using the client driver.</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>CONNECT 'jdbc:derby://localhost:1527/seconddb;create=true'; <ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>CONNECT 'jdbc:derby://localhost:1527/seconddb;create=true'; <ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>CONNECT 'jdbc:derby://localhost:1527/seconddb;create=true'; <ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">A client connection URL contains a hostname and a port number. For example: <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>//localhost:1527/<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">A client connection URL contains a hostname and a port number.</mrk><mrk mid="1" mtype="seg"> For example: <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>//localhost:1527/<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A client connection URL contains a hostname and a port number.</mrk><mrk mid="1" mtype="seg"> For example: <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>//localhost:1527/<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">Create a table with two columns (ID and NAME) using the following SQL statement:</source>
+<seg-source><mrk mid="0" mtype="seg">Create a table with two columns (ID and NAME) using the following SQL statement:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a table with two columns (ID and NAME) using the following SQL statement:</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>CREATE TABLE SECONDTABLE (ID INT PRIMARY KEY, NAME VARCHAR(14));<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>0 rows inserted/updated/deleted <ept id="3">&lt;/systemoutput&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>CREATE TABLE SECONDTABLE (ID INT PRIMARY KEY, NAME VARCHAR(14));<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>0 rows inserted/updated/deleted <ept id="3">&lt;/systemoutput&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>CREATE TABLE SECONDTABLE (ID INT PRIMARY KEY, NAME VARCHAR(14));<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>0 rows inserted/updated/deleted <ept id="3">&lt;/systemoutput&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">Insert three records into the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Insert three records into the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert three records into the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>INSERT INTO SECONDTABLE VALUES (100,'ONE HUNDRED'),(200,'TWO HUNDRED'),(300,'THREE HUNDRED');<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>3 rows inserted/updated/deleted <ept id="3">&lt;/systemoutput&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>INSERT INTO SECONDTABLE VALUES (100,'ONE HUNDRED'),(200,'TWO HUNDRED'),(300,'THREE HUNDRED');<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>3 rows inserted/updated/deleted <ept id="3">&lt;/systemoutput&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>INSERT INTO SECONDTABLE VALUES (100,'ONE HUNDRED'),(200,'TWO HUNDRED'),(300,'THREE HUNDRED');<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>3 rows inserted/updated/deleted <ept id="3">&lt;/systemoutput&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">Select all of the records in the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Select all of the records in the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select all of the records in the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>SELECT * FROM SECONDTABLE;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ID |NAME ------------------------ 100 |ONE HUNDRED 200 |TWO HUNDRED 300 |THREE HUNDRED 3 rows selected<ept id="3">&lt;/systemoutput&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>SELECT * FROM SECONDTABLE;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ID |NAME ------------------------ 100 |ONE HUNDRED 200 |TWO HUNDRED 300 |THREE HUNDRED 3 rows selected<ept id="3">&lt;/systemoutput&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>SELECT * FROM SECONDTABLE;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ID |NAME ------------------------ 100 |ONE HUNDRED 200 |TWO HUNDRED 300 |THREE HUNDRED 3 rows selected<ept id="3">&lt;/systemoutput&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">Select a subset of records from the table by specifying a <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WHERE<ept id="1">&lt;/codeph&gt;</ept> clause.</source>
+<seg-source><mrk mid="0" mtype="seg">Select a subset of records from the table by specifying a <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WHERE<ept id="1">&lt;/codeph&gt;</ept> clause.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select a subset of records from the table by specifying a <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WHERE<ept id="1">&lt;/codeph&gt;</ept> clause.</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>SELECT * FROM SECONDTABLE WHERE ID=200;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ID |NAME ------------------------ 200 |TWO HUNDRED 1 row selected<ept id="3">&lt;/systemoutput&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>SELECT * FROM SECONDTABLE WHERE ID=200;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ID |NAME ------------------------ 200 |TWO HUNDRED 1 row selected<ept id="3">&lt;/systemoutput&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>SELECT * FROM SECONDTABLE WHERE ID=200;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ID |NAME ------------------------ 200 |TWO HUNDRED 1 row selected<ept id="3">&lt;/systemoutput&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">Exit <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Exit <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>exit;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>exit;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>exit;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">Shut down the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server, as shown in the following table.</source>
+<seg-source><mrk mid="0" mtype="seg">Shut down the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server, as shown in the following table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shut down the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server, as shown in the following table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">Command to shut down the Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Command to shut down the Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command to shut down the Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">This table lists the commands to shut down the Network Server on UNIX and Windows systems.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the commands to shut down the Network Server on UNIX and Windows systems.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the commands to shut down the Network Server on UNIX and Windows systems.</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">Operating System</source>
+<seg-source><mrk mid="0" mtype="seg">Operating System</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Operating System</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">Command</source>
+<seg-source><mrk mid="0" mtype="seg">Command</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">UNIX (Korn Shell)</source>
+<seg-source><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar server shutdown<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Thu Sep 13 16:50:37 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) shutdown<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar server shutdown<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Thu Sep 13 16:50:</mrk><mrk mid="1" mtype="seg">37 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) shutdown<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar server shutdown<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Thu Sep 13 16:50:</mrk><mrk mid="1" mtype="seg">37 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) shutdown<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">Windows</source>
+<seg-source><mrk mid="0" mtype="seg">Windows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Windows</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar server shutdown<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Thu Sep 13 16:50:37 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) shutdown<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar server shutdown<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Thu Sep 13 16:50:</mrk><mrk mid="1" mtype="seg">37 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) shutdown<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar server shutdown<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Thu Sep 13 16:50:</mrk><mrk mid="1" mtype="seg">37 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) shutdown<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">The server shutdown confirmation appears in both command windows.</source>
+<seg-source><mrk mid="0" mtype="seg">The server shutdown confirmation appears in both command windows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The server shutdown confirmation appears in both command windows.</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Activity notes<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Activity notes<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Activity notes<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">The client connection URL contains network information (hostname and portnumber) not found in the URL for an embedded connection. This information tells the client driver the location of the Network Server. The client driver sends requests to and receives responses from the Network Server.</source>
+<seg-source><mrk mid="0" mtype="seg">The client connection URL contains network information (hostname and portnumber) not found in the URL for an embedded connection.</mrk><mrk mid="1" mtype="seg"> This information tells the client driver the location of the Network Server.</mrk><mrk mid="2" mtype="seg"> The client driver sends requests to and receives responses from the Network Server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The client connection URL contains network information (hostname and portnumber) not found in the URL for an embedded connection.</mrk><mrk mid="1" mtype="seg"> This information tells the client driver the location of the Network Server.</mrk><mrk mid="2" mtype="seg"> The client driver sends requests to and receives responses from the Network Server.</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">In this activity the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database engine is embedded in the Network Server and returns data to the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> client (a client/server configuration). In contrast, establishing a connection using an embedded URL (one without <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>//localhost:1527/<ept id="3">&lt;/codeph&gt;</ept>) would have caused the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> engine to be embedded in the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="5">&lt;/codeph&gt;</ept> application (an embedded configuration).</source>
+<seg-source><mrk mid="0" mtype="seg">In this activity the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database engine is embedded in the Network Server and returns data to the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> client (a client/server configuration).</mrk><mrk mid="1" mtype="seg"> In contrast, establishing a connection using an embedded URL (one without <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>//localhost:1527/<ept id="3">&lt;/codeph&gt;</ept>) would have caused the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> engine to be embedded in the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="5">&lt;/codeph&gt;</ept> application (an embedded configuration).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In this activity the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database engine is embedded in the Network Server and returns data to the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> client (a client/server configuration).</mrk><mrk mid="1" mtype="seg"> In contrast, establishing a connection using an embedded URL (one without <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>//localhost:1527/<ept id="3">&lt;/codeph&gt;</ept>) would have caused the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> engine to be embedded in the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="5">&lt;/codeph&gt;</ept> application (an embedded configuration).</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">In this configuration, multiple client programs can connect to the Network Server and access the database simultaneously. (This activity does not demonstrate this capability.)</source>
+<seg-source><mrk mid="0" mtype="seg">In this configuration, multiple client programs can connect to the Network Server and access the database simultaneously.</mrk><mrk mid="1" mtype="seg"> (This activity does not demonstrate this capability.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In this configuration, multiple client programs can connect to the Network Server and access the database simultaneously.</mrk><mrk mid="1" mtype="seg"> (This activity does not demonstrate this capability.)</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

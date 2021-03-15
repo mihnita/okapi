@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="direct-links.md" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Please visit <bpt id="1" ctype="link">[</bpt>this <bpt id="2" ctype="italic">*</bpt>really<ept id="2">*</ept> <bpt id="3" ctype="bold">**</bpt>remarkable<ept id="3">**</ept> site<ept id="1">](http://www.google.com "</ept>This is title text<it id="4" ctype="link" pos="close">")</it> and let me know what you think.</source>
+<seg-source><mrk mid="0" mtype="seg">Please visit <bpt id="1" ctype="link">[</bpt>this <bpt id="2" ctype="italic">*</bpt>really<ept id="2">*</ept> <bpt id="3" ctype="bold">**</bpt>remarkable<ept id="3">**</ept> site<ept id="1">](http://www.google.com "</ept>This is title text<it id="4" ctype="link" pos="close">")</it> and let me know what you think.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Please visit <bpt id="1" ctype="link">[</bpt>this <bpt id="2" ctype="italic">*</bpt>really<ept id="2">*</ept> <bpt id="3" ctype="bold">**</bpt>remarkable<ept id="3">**</ept> site<ept id="1">](http://www.google.com "</ept>This is title text<it id="4" ctype="link" pos="close">")</it> and let me know what you think.</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">He gave me a <ph id="1" ctype="x-IMAGE">![</ph>thumbs up<ph id="2" ctype="x-IMAGE">](https://cdn2.iconfinder.com/data/icons/font-awesome/1792/thumbs-up-32.png "</ph>Thubms up image<ph id="3" ctype="x-IMAGE">")</ph> to my suggestion.</source>
+<seg-source><mrk mid="0" mtype="seg">He gave me a <ph id="1" ctype="x-IMAGE">![</ph>thumbs up<ph id="2" ctype="x-IMAGE">](https://cdn2.iconfinder.com/data/icons/font-awesome/1792/thumbs-up-32.png "</ph>Thubms up image<ph id="3" ctype="x-IMAGE">")</ph> to my suggestion.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">He gave me a <ph id="1" ctype="x-IMAGE">![</ph>thumbs up<ph id="2" ctype="x-IMAGE">](https://cdn2.iconfinder.com/data/icons/font-awesome/1792/thumbs-up-32.png "</ph>Thubms up image<ph id="3" ctype="x-IMAGE">")</ph> to my suggestion.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj33602.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">WHERE clause</source>
+<seg-source><mrk mid="0" mtype="seg">WHERE clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WHERE clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">WHERE clause</source>
+<seg-source><mrk mid="0" mtype="seg">WHERE clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WHERE clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">A WHERE clause is an optional part of a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept>,<ept id="1">&lt;/i&gt;</ept> <bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqlj35981.dita#rrefsqlj35981"&gt;</bpt>DELETE statement<ept id="3">&lt;/xref&gt;</ept>, or <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqlj26498.dita#rrefsqlj26498"&gt;</bpt>UPDATE statement<ept id="4">&lt;/xref&gt;</ept>. The WHERE clause lets you select rows based on a boolean expression. Only rows for which the expression evaluates to TRUE are returned in the result, or, in the case of a DELETE statement, deleted, or, in the case of an UPDATE statement, updated.</source>
+<seg-source><mrk mid="0" mtype="seg">A WHERE clause is an optional part of a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept>,<ept id="1">&lt;/i&gt;</ept> <bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqlj35981.dita#rrefsqlj35981"&gt;</bpt>DELETE statement<ept id="3">&lt;/xref&gt;</ept>, or <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqlj26498.dita#rrefsqlj26498"&gt;</bpt>UPDATE statement<ept id="4">&lt;/xref&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The WHERE clause lets you select rows based on a boolean expression.</mrk><mrk mid="2" mtype="seg"> Only rows for which the expression evaluates to TRUE are returned in the result, or, in the case of a DELETE statement, deleted, or, in the case of an UPDATE statement, updated.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A WHERE clause is an optional part of a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept>,<ept id="1">&lt;/i&gt;</ept> <bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqlj35981.dita#rrefsqlj35981"&gt;</bpt>DELETE statement<ept id="3">&lt;/xref&gt;</ept>, or <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqlj26498.dita#rrefsqlj26498"&gt;</bpt>UPDATE statement<ept id="4">&lt;/xref&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The WHERE clause lets you select rows based on a boolean expression.</mrk><mrk mid="2" mtype="seg"> Only rows for which the expression evaluates to TRUE are returned in the result, or, in the case of a DELETE statement, deleted, or, in the case of an UPDATE statement, updated.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqlj23075.dita#rrefsqlj23075"&gt;</bpt>booleanExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqlj23075.dita#rrefsqlj23075"&gt;</bpt>booleanExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>WHERE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefsqlj23075.dita#rrefsqlj23075"&gt;</bpt>booleanExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">WHERE clause</source>
+<seg-source><mrk mid="0" mtype="seg">WHERE clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WHERE clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SQL extensions to</source>
+<seg-source><mrk mid="0" mtype="seg">SQL extensions to</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL extensions to</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Boolean expressions are allowed in the WHERE clause. Most of the general expressions listed in <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj19433.dita#rrefsqlj19433/sqlj18370"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> can result in a boolean value.</source>
+<seg-source><mrk mid="0" mtype="seg">Boolean expressions are allowed in the WHERE clause.</mrk><mrk mid="1" mtype="seg"> Most of the general expressions listed in <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj19433.dita#rrefsqlj19433/sqlj18370"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> can result in a boolean value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Boolean expressions are allowed in the WHERE clause.</mrk><mrk mid="1" mtype="seg"> Most of the general expressions listed in <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj19433.dita#rrefsqlj19433/sqlj18370"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> can result in a boolean value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">In addition, there are the more common boolean expressions. Specific boolean operators, listed in <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqlj23075.dita#rrefsqlj23075/sqlj34517"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>, take one or more operands; the expressions return a boolean value.</source>
+<seg-source><mrk mid="0" mtype="seg">In addition, there are the more common boolean expressions.</mrk><mrk mid="1" mtype="seg"> Specific boolean operators, listed in <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqlj23075.dita#rrefsqlj23075/sqlj34517"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>, take one or more operands; the expressions return a boolean value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In addition, there are the more common boolean expressions.</mrk><mrk mid="1" mtype="seg"> Specific boolean operators, listed in <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqlj23075.dita#rrefsqlj23075/sqlj34517"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>, take one or more operands; the expressions return a boolean value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- find the flights where no business-class seats have -- been booked<ept id="2">&lt;/ph&gt;</ept> SELECT * FROM FlightAvailability WHERE business_seats_taken IS NULL OR business_seats_taken = 0 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- Join the EMP_ACT and EMPLOYEE tables -- select all the columns from the EMP_ACT table and -- add the employee's surname (LASTNAME) from the EMPLOYEE table -- to each row of the result.<ept id="3">&lt;/ph&gt;</ept> SELECT SAMP.EMP_ACT.*, LASTNAME FROM SAMP.EMP_ACT, SAMP.EMPLOYEE WHERE EMP_ACT.EMPNO = EMPLOYEE.EMPNO <it id="4" ctype="x-ph" pos="open">&lt;ph&gt;</it>-- Determine the employee number and salary of sales representatives -- along with the average salary and head count of their departments. -- This query must first create a new-column-name specified in the AS clause -- which is outside the fullselect (DINFO) -- in order to get the AVGSALARY and EMPCOUNT columns, -- as well as the DEPTNO column that is used in the WHERE clause<it id="4" ctype="x-ph" pos="close">&lt;/ph&gt;</it> SELECT THIS_EMP.EMPNO, THIS_EMP.SALARY, DINFO.AVGSALARY, DINFO.EMPCOUNT FROM EMPLOYEE THIS_EMP, (SELECT OTHERS.WORKDEPT AS DEPTNO, AVG(OTHERS.SALARY) AS AVGSALARY, COUNT(*) AS EMPCOUNT FROM EMPLOYEE OTHERS GROUP BY OTHERS.WORKDEPT )AS DINFO WHERE THIS_EMP.JOB = 'SALESREP' AND THIS_EMP.WORKDEPT = DINFO.DEPTNO<it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- find the flights where no business-class seats have -- been booked<ept id="2">&lt;/ph&gt;</ept> SELECT * FROM FlightAvailability WHERE business_seats_taken IS NULL OR business_seats_taken = 0 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- Join the EMP_ACT and EMPLOYEE tables -- select all the columns from the EMP_ACT table and -- add the employee's surname (LASTNAME) from the EMPLOYEE table -- to each row of the result.<ept id="3">&lt;/ph&gt;</ept></mrk><mrk mid="1" mtype="seg"> SELECT SAMP.EMP_ACT.*, LASTNAME FROM SAMP.EMP_ACT, SAMP.EMPLOYEE WHERE EMP_ACT.EMPNO = EMPLOYEE.EMPNO <it id="4" ctype="x-ph" pos="open">&lt;ph&gt;</it>-- Determine the employee number and salary of sales representatives -- along with the average salary and head count of their departments.</mrk><mrk mid="2" mtype="seg"> -- This query must first create a new-column-name specified in the AS clause -- which is outside the fullselect (DINFO) -- in order to get the AVGSALARY and EMPCOUNT columns, -- as well as the DEPTNO column that is used in the WHERE clause<it id="4" ctype="x-ph" pos="close">&lt;/ph&gt;</it> SELECT THIS_EMP.EMPNO, THIS_EMP.SALARY, DINFO.AVGSALARY, DINFO.EMPCOUNT FROM EMPLOYEE THIS_EMP, (SELECT OTHERS.WORKDEPT AS DEPTNO, AVG(OTHERS.SALARY) AS AVGSALARY, COUNT(*) AS EMPCOUNT FROM EMPLOYEE OTHERS GROUP BY OTHERS.WORKDEPT )AS DINFO WHERE THIS_EMP.JOB = 'SALESREP' AND THIS_EMP.WORKDEPT = DINFO.DEPTNO<it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- find the flights where no business-class seats have -- been booked<ept id="2">&lt;/ph&gt;</ept> SELECT * FROM FlightAvailability WHERE business_seats_taken IS NULL OR business_seats_taken = 0 <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- Join the EMP_ACT and EMPLOYEE tables -- select all the columns from the EMP_ACT table and -- add the employee's surname (LASTNAME) from the EMPLOYEE table -- to each row of the result.<ept id="3">&lt;/ph&gt;</ept></mrk><mrk mid="1" mtype="seg"> SELECT SAMP.EMP_ACT.*, LASTNAME FROM SAMP.EMP_ACT, SAMP.EMPLOYEE WHERE EMP_ACT.EMPNO = EMPLOYEE.EMPNO <it id="4" ctype="x-ph" pos="open">&lt;ph&gt;</it>-- Determine the employee number and salary of sales representatives -- along with the average salary and head count of their departments.</mrk><mrk mid="2" mtype="seg"> -- This query must first create a new-column-name specified in the AS clause -- which is outside the fullselect (DINFO) -- in order to get the AVGSALARY and EMPCOUNT columns, -- as well as the DEPTNO column that is used in the WHERE clause<it id="4" ctype="x-ph" pos="close">&lt;/ph&gt;</it> SELECT THIS_EMP.EMPNO, THIS_EMP.SALARY, DINFO.AVGSALARY, DINFO.EMPCOUNT FROM EMPLOYEE THIS_EMP, (SELECT OTHERS.WORKDEPT AS DEPTNO, AVG(OTHERS.SALARY) AS AVGSALARY, COUNT(*) AS EMPCOUNT FROM EMPLOYEE OTHERS GROUP BY OTHERS.WORKDEPT )AS DINFO WHERE THIS_EMP.JOB = 'SALESREP' AND THIS_EMP.WORKDEPT = DINFO.DEPTNO<it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="twwdactivity4.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Activity 4: Create and run a JDBC program using the client driver and Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Activity 4: Create and run a JDBC program using the client driver and Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Activity 4: Create and run a JDBC program using the client driver and Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">This activity demonstrates the ease with which a program that embeds <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can be modified for a client/server implementation that uses the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> Network Server.</source>
+<seg-source><mrk mid="0" mtype="seg">This activity demonstrates the ease with which a program that embeds <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can be modified for a client/server implementation that uses the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> Network Server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This activity demonstrates the ease with which a program that embeds <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can be modified for a client/server implementation that uses the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> Network Server.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">WwdClient.java program</source>
+<seg-source><mrk mid="0" mtype="seg">WwdClient.java program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WwdClient.java program</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">org.apache.derby.jdbc.ClientDriver</source>
+<seg-source><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDriver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">org.apache.derby.jdbc.ClientDriver</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">This activity assumes you have performed the preceding activities and have a working directory called <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept>, and have copies of the program files from the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>$<bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>/demo/programs/workingwithderby/<ept id="2">&lt;/codeph&gt;</ept> directory. A basic knowledge of the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="4">&lt;/codeph&gt;</ept> program and experience starting and connecting to the Network Server are helpful. You will need to use a text editor to create the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="5">&lt;/codeph&gt;</ept> program.</source>
+<seg-source><mrk mid="0" mtype="seg">This activity assumes you have performed the preceding activities and have a working directory called <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept>, and have copies of the program files from the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>$<bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>/demo/programs/workingwithderby/<ept id="2">&lt;/codeph&gt;</ept> directory.</mrk><mrk mid="1" mtype="seg"> A basic knowledge of the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="4">&lt;/codeph&gt;</ept> program and experience starting and connecting to the Network Server are helpful.</mrk><mrk mid="2" mtype="seg"> You will need to use a text editor to create the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="5">&lt;/codeph&gt;</ept> program.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This activity assumes you have performed the preceding activities and have a working directory called <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept>, and have copies of the program files from the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>$<bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>/demo/programs/workingwithderby/<ept id="2">&lt;/codeph&gt;</ept> directory.</mrk><mrk mid="1" mtype="seg"> A basic knowledge of the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="4">&lt;/codeph&gt;</ept> program and experience starting and connecting to the Network Server are helpful.</mrk><mrk mid="2" mtype="seg"> You will need to use a text editor to create the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="5">&lt;/codeph&gt;</ept> program.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">As a convenience, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>workingwithderby<ept id="1">&lt;/codeph&gt;</ept> directory contains a program, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClientExample.java<ept id="2">&lt;/codeph&gt;</ept>, which has already been edited in the appropriate manner. You can use this program directly as it is, or you can compare the contents of this program to the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="3">&lt;/codeph&gt;</ept> program that you will construct in this activity, to see how the changes are made.</source>
+<seg-source><mrk mid="0" mtype="seg">As a convenience, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>workingwithderby<ept id="1">&lt;/codeph&gt;</ept> directory contains a program, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClientExample.java<ept id="2">&lt;/codeph&gt;</ept>, which has already been edited in the appropriate manner.</mrk><mrk mid="1" mtype="seg"> You can use this program directly as it is, or you can compare the contents of this program to the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="3">&lt;/codeph&gt;</ept> program that you will construct in this activity, to see how the changes are made.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">As a convenience, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>workingwithderby<ept id="1">&lt;/codeph&gt;</ept> directory contains a program, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClientExample.java<ept id="2">&lt;/codeph&gt;</ept>, which has already been edited in the appropriate manner.</mrk><mrk mid="1" mtype="seg"> You can use this program directly as it is, or you can compare the contents of this program to the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="3">&lt;/codeph&gt;</ept> program that you will construct in this activity, to see how the changes are made.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">You will create a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> client program, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="2">&lt;/codeph&gt;</ept>, by changing a few lines of the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="3">&lt;/codeph&gt;</ept> program. You can run the client program in multiple command shells, allowing simultaneous update from two or more sources.</source>
+<seg-source><mrk mid="0" mtype="seg">You will create a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> client program, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="2">&lt;/codeph&gt;</ept>, by changing a few lines of the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="3">&lt;/codeph&gt;</ept> program.</mrk><mrk mid="1" mtype="seg"> You can run the client program in multiple command shells, allowing simultaneous update from two or more sources.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You will create a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> client program, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="2">&lt;/codeph&gt;</ept>, by changing a few lines of the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="3">&lt;/codeph&gt;</ept> program.</mrk><mrk mid="1" mtype="seg"> You can run the client program in multiple command shells, allowing simultaneous update from two or more sources.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">You use two command windows (Server-Shell and Client-Shell) in this activity. You use the Server-Shell to start the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server and display Network Server messages. You use the Client-Shell to edit, compile and run the newly created <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="2">&lt;/codeph&gt;</ept> program. You set the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>CLASSPATH<ept id="3">&lt;/codeph&gt;</ept> environment variable in the Client-Shell to support the client JDBC program.</source>
+<seg-source><mrk mid="0" mtype="seg">You use two command windows (Server-Shell and Client-Shell) in this activity.</mrk><mrk mid="1" mtype="seg"> You use the Server-Shell to start the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server and display Network Server messages.</mrk><mrk mid="2" mtype="seg"> You use the Client-Shell to edit, compile and run the newly created <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="2">&lt;/codeph&gt;</ept> program.</mrk><mrk mid="3" mtype="seg"> You set the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>CLASSPATH<ept id="3">&lt;/codeph&gt;</ept> environment variable in the Client-Shell to support the client JDBC program.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You use two command windows (Server-Shell and Client-Shell) in this activity.</mrk><mrk mid="1" mtype="seg"> You use the Server-Shell to start the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server and display Network Server messages.</mrk><mrk mid="2" mtype="seg"> You use the Client-Shell to edit, compile and run the newly created <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="2">&lt;/codeph&gt;</ept> program.</mrk><mrk mid="3" mtype="seg"> You set the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>CLASSPATH<ept id="3">&lt;/codeph&gt;</ept> environment variable in the Client-Shell to support the client JDBC program.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Create the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient<ept id="1">&lt;/codeph&gt;</ept> program using the following steps:</source>
+<seg-source><mrk mid="0" mtype="seg">Create the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient<ept id="1">&lt;/codeph&gt;</ept> program using the following steps:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient<ept id="1">&lt;/codeph&gt;</ept> program using the following steps:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Open a command window (Client-Shell).</source>
+<seg-source><mrk mid="0" mtype="seg">Open a command window (Client-Shell).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a command window (Client-Shell).</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</source>
+<seg-source><mrk mid="0" mtype="seg">Change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Make a copy of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="1">&lt;/codeph&gt;</ept> program called <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="2">&lt;/codeph&gt;</ept>, as shown in the following table.</source>
+<seg-source><mrk mid="0" mtype="seg">Make a copy of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="1">&lt;/codeph&gt;</ept> program called <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="2">&lt;/codeph&gt;</ept>, as shown in the following table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Make a copy of the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="1">&lt;/codeph&gt;</ept> program called <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="2">&lt;/codeph&gt;</ept>, as shown in the following table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Command to copy the program</source>
+<seg-source><mrk mid="0" mtype="seg">Command to copy the program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command to copy the program</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">This table lists the commands to copy the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="1">&lt;/codeph&gt;</ept> program on UNIX and Windows systems.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the commands to copy the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="1">&lt;/codeph&gt;</ept> program on UNIX and Windows systems.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the commands to copy the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="1">&lt;/codeph&gt;</ept> program on UNIX and Windows systems.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Operating System</source>
+<seg-source><mrk mid="0" mtype="seg">Operating System</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Operating System</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Command</source>
+<seg-source><mrk mid="0" mtype="seg">Command</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">UNIX (Korn Shell)</source>
+<seg-source><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>cp WwdEmbedded.java WwdClient.java<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>cp WwdEmbedded.java WwdClient.java<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>cp WwdEmbedded.java WwdClient.java<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Windows</source>
+<seg-source><mrk mid="0" mtype="seg">Windows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Windows</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>copy WwdEmbedded.java WwdClient.java<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>copy WwdEmbedded.java WwdClient.java<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>copy WwdEmbedded.java WwdClient.java<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Open the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="1">&lt;/codeph&gt;</ept> file in a text editor and update the class name to reflect the new file name:</source>
+<seg-source><mrk mid="0" mtype="seg">Open the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="1">&lt;/codeph&gt;</ept> file in a text editor and update the class name to reflect the new file name:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="1">&lt;/codeph&gt;</ept> file in a text editor and update the class name to reflect the new file name:</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Original declaration<ept id="1">&lt;/b&gt;</ept> public class WwdEmbedded <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>New declaration<ept id="2">&lt;/b&gt;</ept> public class <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>WwdClient<ept id="3">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Original declaration<ept id="1">&lt;/b&gt;</ept> public class WwdEmbedded <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>New declaration<ept id="2">&lt;/b&gt;</ept> public class <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>WwdClient<ept id="3">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Original declaration<ept id="1">&lt;/b&gt;</ept> public class WwdEmbedded <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>New declaration<ept id="2">&lt;/b&gt;</ept> public class <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>WwdClient<ept id="3">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Edit the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>DEFINE VARIABLES SECTION<ept id="1">&lt;/cite&gt;</ept> of the program so that the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>driver<ept id="2">&lt;/codeph&gt;</ept> variable contains the name of the <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> client driver class and the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionURL<ept id="4">&lt;/codeph&gt;</ept> variable contains the hostname and port number of the Network Server.</source>
+<seg-source><mrk mid="0" mtype="seg">Edit the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>DEFINE VARIABLES SECTION<ept id="1">&lt;/cite&gt;</ept> of the program so that the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>driver<ept id="2">&lt;/codeph&gt;</ept> variable contains the name of the <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> client driver class and the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionURL<ept id="4">&lt;/codeph&gt;</ept> variable contains the hostname and port number of the Network Server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Edit the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt>DEFINE VARIABLES SECTION<ept id="1">&lt;/cite&gt;</ept> of the program so that the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>driver<ept id="2">&lt;/codeph&gt;</ept> variable contains the name of the <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> client driver class and the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>connectionURL<ept id="4">&lt;/codeph&gt;</ept> variable contains the hostname and port number of the Network Server.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Original definitions<ept id="1">&lt;/b&gt;</ept> String driver = "org.apache.derby.jdbc.EmbeddedDriver"; String dbName="jdbcDemoDB"; String connectionURL = "jdbc:derby:" + dbName + ";create=true"; <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>New definitions<ept id="2">&lt;/b&gt;</ept> String driver = <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>"org.apache.derby.jdbc.ClientDriver"<ept id="3">&lt;/b&gt;</ept>; ... String connectionURL = <bpt id="4" ctype="x-b">&lt;b&gt;</bpt>"jdbc:derby://localhost:1527/"<ept id="4">&lt;/b&gt;</ept> + dbName + ";create=true";</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Original definitions<ept id="1">&lt;/b&gt;</ept> String driver = "org.apache.derby.jdbc.EmbeddedDriver"; String dbName="jdbcDemoDB"; String connectionURL = "jdbc:derby:" + dbName + ";create=true"; <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>New definitions<ept id="2">&lt;/b&gt;</ept> String driver = <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>"org.apache.derby.jdbc.ClientDriver"<ept id="3">&lt;/b&gt;</ept>; ...</mrk><mrk mid="1" mtype="seg"> String connectionURL = <bpt id="4" ctype="x-b">&lt;b&gt;</bpt>"jdbc:derby://localhost:1527/"<ept id="4">&lt;/b&gt;</ept> + dbName + ";create=true";</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Original definitions<ept id="1">&lt;/b&gt;</ept> String driver = "org.apache.derby.jdbc.EmbeddedDriver"; String dbName="jdbcDemoDB"; String connectionURL = "jdbc:derby:" + dbName + ";create=true"; <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>New definitions<ept id="2">&lt;/b&gt;</ept> String driver = <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>"org.apache.derby.jdbc.ClientDriver"<ept id="3">&lt;/b&gt;</ept>; ...</mrk><mrk mid="1" mtype="seg"> String connectionURL = <bpt id="4" ctype="x-b">&lt;b&gt;</bpt>"jdbc:derby://localhost:1527/"<ept id="4">&lt;/b&gt;</ept> + dbName + ";create=true";</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Compile the application.</source>
+<seg-source><mrk mid="0" mtype="seg">Compile the application.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Compile the application.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>javac WwdClient.java<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>javac WwdClient.java<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>javac WwdClient.java<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">A command prompt appears if the compilation is successful. The binary file <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.class<ept id="1">&lt;/codeph&gt;</ept> is created. If an error message appears, modify the line indicated so that it is identical to the example. (As noted above, you can compare the contents of your <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="2">&lt;/codeph&gt;</ept> against the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClientExample.java<ept id="3">&lt;/codeph&gt;</ept> program provided in the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>workingwithderby<ept id="4">&lt;/codeph&gt;</ept> directory to verify that your editing was performed successfully.)</source>
+<seg-source><mrk mid="0" mtype="seg">A command prompt appears if the compilation is successful.</mrk><mrk mid="1" mtype="seg"> The binary file <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.class<ept id="1">&lt;/codeph&gt;</ept> is created.</mrk><mrk mid="2" mtype="seg"> If an error message appears, modify the line indicated so that it is identical to the example.</mrk><mrk mid="3" mtype="seg"> (As noted above, you can compare the contents of your <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="2">&lt;/codeph&gt;</ept> against the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClientExample.java<ept id="3">&lt;/codeph&gt;</ept> program provided in the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>workingwithderby<ept id="4">&lt;/codeph&gt;</ept> directory to verify that your editing was performed successfully.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A command prompt appears if the compilation is successful.</mrk><mrk mid="1" mtype="seg"> The binary file <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.class<ept id="1">&lt;/codeph&gt;</ept> is created.</mrk><mrk mid="2" mtype="seg"> If an error message appears, modify the line indicated so that it is identical to the example.</mrk><mrk mid="3" mtype="seg"> (As noted above, you can compare the contents of your <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClient.java<ept id="2">&lt;/codeph&gt;</ept> against the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdClientExample.java<ept id="3">&lt;/codeph&gt;</ept> program provided in the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>workingwithderby<ept id="4">&lt;/codeph&gt;</ept> directory to verify that your editing was performed successfully.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Set up the client/server environment using the following steps:</source>
+<seg-source><mrk mid="0" mtype="seg">Set up the client/server environment using the following steps:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set up the client/server environment using the following steps:</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">Open a command window (Server-Shell).</source>
+<seg-source><mrk mid="0" mtype="seg">Open a command window (Server-Shell).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a command window (Server-Shell).</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">Change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</source>
+<seg-source><mrk mid="0" mtype="seg">Change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">Start the Network Server, as shown in the following table.</source>
+<seg-source><mrk mid="0" mtype="seg">Start the Network Server, as shown in the following table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start the Network Server, as shown in the following table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">Command to start the Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Command to start the Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command to start the Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">This table lists the commands to start the Network Server on UNIX and Windows systems.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the commands to start the Network Server on UNIX and Windows systems.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the commands to start the Network Server on UNIX and Windows systems.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">Operating System</source>
+<seg-source><mrk mid="0" mtype="seg">Operating System</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Operating System</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">Command</source>
+<seg-source><mrk mid="0" mtype="seg">Command</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">UNIX (Korn Shell)</source>
+<seg-source><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar server start<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> Fri Sep 14 09:55:23 EDT 2012 : Security manager installed using the Basic server security policy. Fri Sep 14 09:55:24 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) started and ready to accept connections on port 1527</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar server start<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> Fri Sep 14 09:55:</mrk><mrk mid="1" mtype="seg">23 EDT 2012 : Security manager installed using the Basic server security policy.</mrk><mrk mid="2" mtype="seg"> Fri Sep 14 09:55:</mrk><mrk mid="3" mtype="seg">24 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) started and ready to accept connections on port 1527</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar server start<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> Fri Sep 14 09:55:</mrk><mrk mid="1" mtype="seg">23 EDT 2012 : Security manager installed using the Basic server security policy.</mrk><mrk mid="2" mtype="seg"> Fri Sep 14 09:55:</mrk><mrk mid="3" mtype="seg">24 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) started and ready to accept connections on port 1527</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">Windows</source>
+<seg-source><mrk mid="0" mtype="seg">Windows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Windows</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar server start<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> Fri Sep 14 09:55:23 EDT 2012 : Security manager installed using the Basic server security policy. Fri Sep 14 09:55:24 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) started and ready to accept connections on port 1527</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar server start<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> Fri Sep 14 09:55:</mrk><mrk mid="1" mtype="seg">23 EDT 2012 : Security manager installed using the Basic server security policy.</mrk><mrk mid="2" mtype="seg"> Fri Sep 14 09:55:</mrk><mrk mid="3" mtype="seg">24 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) started and ready to accept connections on port 1527</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar server start<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> Fri Sep 14 09:55:</mrk><mrk mid="1" mtype="seg">23 EDT 2012 : Security manager installed using the Basic server security policy.</mrk><mrk mid="2" mtype="seg"> Fri Sep 14 09:55:</mrk><mrk mid="3" mtype="seg">24 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) started and ready to accept connections on port 1527</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">Run the client program using the following steps:</source>
+<seg-source><mrk mid="0" mtype="seg">Run the client program using the following steps:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run the client program using the following steps:</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">Return to the Client-Shell window.</source>
+<seg-source><mrk mid="0" mtype="seg">Return to the Client-Shell window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return to the Client-Shell window.</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">Set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CLASSPATH<ept id="1">&lt;/codeph&gt;</ept> environment variable to include the location of the file <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyclient.jar<ept id="2">&lt;/codeph&gt;</ept> (not <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="3">&lt;/codeph&gt;</ept> as in the embedded example), as shown in the following table.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CLASSPATH<ept id="1">&lt;/codeph&gt;</ept> environment variable to include the location of the file <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyclient.jar<ept id="2">&lt;/codeph&gt;</ept> (not <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="3">&lt;/codeph&gt;</ept> as in the embedded example), as shown in the following table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CLASSPATH<ept id="1">&lt;/codeph&gt;</ept> environment variable to include the location of the file <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyclient.jar<ept id="2">&lt;/codeph&gt;</ept> (not <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="3">&lt;/codeph&gt;</ept> as in the embedded example), as shown in the following table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">Command to set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CLASSPATH<ept id="1">&lt;/codeph&gt;</ept> environment variable</source>
+<seg-source><mrk mid="0" mtype="seg">Command to set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CLASSPATH<ept id="1">&lt;/codeph&gt;</ept> environment variable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command to set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CLASSPATH<ept id="1">&lt;/codeph&gt;</ept> environment variable</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">This table lists the commands to set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CLASSPATH<ept id="1">&lt;/codeph&gt;</ept> environment variable on UNIX and Windows systems.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the commands to set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CLASSPATH<ept id="1">&lt;/codeph&gt;</ept> environment variable on UNIX and Windows systems.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the commands to set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CLASSPATH<ept id="1">&lt;/codeph&gt;</ept> environment variable on UNIX and Windows systems.</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">Operating System</source>
+<seg-source><mrk mid="0" mtype="seg">Operating System</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Operating System</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">Command</source>
+<seg-source><mrk mid="0" mtype="seg">Command</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">UNIX (Korn Shell)</source>
+<seg-source><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>export CLASSPATH=$DERBY_HOME/lib/derbyclient.jar:.<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>export CLASSPATH=$DERBY_HOME/lib/derbyclient.jar:.<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>export CLASSPATH=$DERBY_HOME/lib/derbyclient.jar:.<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">Windows</source>
+<seg-source><mrk mid="0" mtype="seg">Windows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Windows</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>set CLASSPATH=%DERBY_HOME%\lib\derbyclient.jar;.<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>set CLASSPATH=%DERBY_HOME%\lib\derbyclient.jar;.<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>set CLASSPATH=%DERBY_HOME%\lib\derbyclient.jar;.<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">Include the dot (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>.<ept id="1">&lt;/codeph&gt;</ept>) at the end of the command so that your current working directory is included in the classpath.</source>
+<seg-source><mrk mid="0" mtype="seg">Include the dot (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>.<ept id="1">&lt;/codeph&gt;</ept>) at the end of the command so that your current working directory is included in the classpath.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Include the dot (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>.<ept id="1">&lt;/codeph&gt;</ept>) at the end of the command so that your current working directory is included in the classpath.</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">Run the program:</source>
+<seg-source><mrk mid="0" mtype="seg">Run the program:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run the program:</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java WwdClient<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>org.apache.derby.jdbc.ClientDriver loaded. Connected to database jdbcDemoDB Enter wish-list item (enter exit to end):<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it> <bpt id="4" ctype="x-b">&lt;b&gt;</bpt><bpt id="5" ctype="x-userinput">&lt;userinput&gt;</bpt>a sunny day<ept id="5">&lt;/userinput&gt;</ept><ept id="4">&lt;/b&gt;</ept> <bpt id="6" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt> __________________________________________________ On 2012-09-14 09:46:37.77 I wished for a peppermint stick On 2012-09-14 09:46:51.654 I wished for a long vacation On 2012-09-14 09:56:36.6 I wished for a sunny day __________________________________________________ Enter wish-list item (enter exit to end):<ept id="6">&lt;/systemoutput&gt;</ept> <bpt id="7" ctype="x-b">&lt;b&gt;</bpt><bpt id="8" ctype="x-userinput">&lt;userinput&gt;</bpt>a new car<ept id="8">&lt;/userinput&gt;</ept><ept id="7">&lt;/b&gt;</ept> <bpt id="9" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt> __________________________________________________ On 2012-09-14 09:46:37.77 I wished for a peppermint stick On 2012-09-14 09:46:51.654 I wished for a long vacation On 2012-09-14 09:56:36.6 I wished for a sunny day On 2012-09-14 09:56:48.367 I wished for a new car __________________________________________________ Enter wish-list item (enter exit to end):<ept id="9">&lt;/systemoutput&gt;</ept> <bpt id="10" ctype="x-b">&lt;b&gt;</bpt><bpt id="11" ctype="x-userinput">&lt;userinput&gt;</bpt>exit<ept id="11">&lt;/userinput&gt;</ept><ept id="10">&lt;/b&gt;</ept> <bpt id="12" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>Closed connection Getting Started With Derby JDBC program ending.<ept id="12">&lt;/systemoutput&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java WwdClient<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>org.apache.derby.jdbc.ClientDriver loaded.</mrk><mrk mid="1" mtype="seg"> Connected to database jdbcDemoDB Enter wish-list item (enter exit to end):<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it> <bpt id="4" ctype="x-b">&lt;b&gt;</bpt><bpt id="5" ctype="x-userinput">&lt;userinput&gt;</bpt>a sunny day<ept id="5">&lt;/userinput&gt;</ept><ept id="4">&lt;/b&gt;</ept> <bpt id="6" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt> __________________________________________________ On 2012-09-14 09:46:37.77 I wished for a peppermint stick On 2012-09-14 09:46:51.654 I wished for a long vacation On 2012-09-14 09:56:36.6 I wished for a sunny day __________________________________________________ Enter wish-list item (enter exit to end):<ept id="6">&lt;/systemoutput&gt;</ept> <bpt id="7" ctype="x-b">&lt;b&gt;</bpt><bpt id="8" ctype="x-userinput">&lt;userinput&gt;</bpt>a new car<ept id="8">&lt;/userinput&gt;</ept><ept id="7">&lt;/b&gt;</ept> <bpt id="9" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt> __________________________________________________ On 2012-09-14 09:46:37.77 I wished for a peppermint stick On 2012-09-14 09:46:51.654 I wished for a long vacation On 2012-09-14 09:56:36.6 I wished for a sunny day On 2012-09-14 09:56:48.367 I wished for a new car __________________________________________________ Enter wish-list item (enter exit to end):<ept id="9">&lt;/systemoutput&gt;</ept> <bpt id="10" ctype="x-b">&lt;b&gt;</bpt><bpt id="11" ctype="x-userinput">&lt;userinput&gt;</bpt>exit<ept id="11">&lt;/userinput&gt;</ept><ept id="10">&lt;/b&gt;</ept> <bpt id="12" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>Closed connection Getting Started With Derby JDBC program ending.<ept id="12">&lt;/systemoutput&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java WwdClient<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>org.apache.derby.jdbc.ClientDriver loaded.</mrk><mrk mid="1" mtype="seg"> Connected to database jdbcDemoDB Enter wish-list item (enter exit to end):<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it> <bpt id="4" ctype="x-b">&lt;b&gt;</bpt><bpt id="5" ctype="x-userinput">&lt;userinput&gt;</bpt>a sunny day<ept id="5">&lt;/userinput&gt;</ept><ept id="4">&lt;/b&gt;</ept> <bpt id="6" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt> __________________________________________________ On 2012-09-14 09:46:37.77 I wished for a peppermint stick On 2012-09-14 09:46:51.654 I wished for a long vacation On 2012-09-14 09:56:36.6 I wished for a sunny day __________________________________________________ Enter wish-list item (enter exit to end):<ept id="6">&lt;/systemoutput&gt;</ept> <bpt id="7" ctype="x-b">&lt;b&gt;</bpt><bpt id="8" ctype="x-userinput">&lt;userinput&gt;</bpt>a new car<ept id="8">&lt;/userinput&gt;</ept><ept id="7">&lt;/b&gt;</ept> <bpt id="9" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt> __________________________________________________ On 2012-09-14 09:46:37.77 I wished for a peppermint stick On 2012-09-14 09:46:51.654 I wished for a long vacation On 2012-09-14 09:56:36.6 I wished for a sunny day On 2012-09-14 09:56:48.367 I wished for a new car __________________________________________________ Enter wish-list item (enter exit to end):<ept id="9">&lt;/systemoutput&gt;</ept> <bpt id="10" ctype="x-b">&lt;b&gt;</bpt><bpt id="11" ctype="x-userinput">&lt;userinput&gt;</bpt>exit<ept id="11">&lt;/userinput&gt;</ept><ept id="10">&lt;/b&gt;</ept> <bpt id="12" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>Closed connection Getting Started With Derby JDBC program ending.<ept id="12">&lt;/systemoutput&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">Shut down the Network Server, as shown in the following table.</source>
+<seg-source><mrk mid="0" mtype="seg">Shut down the Network Server, as shown in the following table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shut down the Network Server, as shown in the following table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">Command to shut down the Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Command to shut down the Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command to shut down the Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">This table lists the commands to shut down the Network Server on UNIX and Windows systems.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the commands to shut down the Network Server on UNIX and Windows systems.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the commands to shut down the Network Server on UNIX and Windows systems.</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">Operating System</source>
+<seg-source><mrk mid="0" mtype="seg">Operating System</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Operating System</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">Command</source>
+<seg-source><mrk mid="0" mtype="seg">Command</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">UNIX (Korn Shell)</source>
+<seg-source><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar server shutdown<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Fri Sep 14 09:58:12 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) shutdown<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar server shutdown<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Fri Sep 14 09:58:</mrk><mrk mid="1" mtype="seg">12 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) shutdown<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar server shutdown<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Fri Sep 14 09:58:</mrk><mrk mid="1" mtype="seg">12 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) shutdown<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">Windows</source>
+<seg-source><mrk mid="0" mtype="seg">Windows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Windows</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar server shutdown<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Fri Sep 14 09:58:12 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) shutdown<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar server shutdown<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Fri Sep 14 09:58:</mrk><mrk mid="1" mtype="seg">12 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) shutdown<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar server shutdown<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>Fri Sep 14 09:58:</mrk><mrk mid="1" mtype="seg">12 EDT 2012 : Apache Derby Network Server - 10.10.0.0 - (1384314) shutdown<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">The server shutdown confirmation appears in both command windows.</source>
+<seg-source><mrk mid="0" mtype="seg">The server shutdown confirmation appears in both command windows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The server shutdown confirmation appears in both command windows.</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Activity notes<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Activity notes<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Activity notes<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en">In a client/server environment, the client program is often used from other computers on the network. Whenever a system accepts connections from other computers, there is a chance of abuse. To maintain security, the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server defaults to accepting connections only from clients running on the local machine (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>localhost<ept id="2">&lt;/codeph&gt;</ept>). Before this or any other <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> client program can access the Network Server from another machine, additional steps should be taken to secure the Network Server environment. Once secured, the Network Server can be safely configured to accept connections from other machines. Refer to the "Network Server security" and "Running the Network Server under the security manager" sections of the <bpt id="4" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept><ept id="4">&lt;/cite&gt;</ept> for important information on securing the Network Server and enabling network connections.</source>
+<seg-source><mrk mid="0" mtype="seg">In a client/server environment, the client program is often used from other computers on the network.</mrk><mrk mid="1" mtype="seg"> Whenever a system accepts connections from other computers, there is a chance of abuse.</mrk><mrk mid="2" mtype="seg"> To maintain security, the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server defaults to accepting connections only from clients running on the local machine (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>localhost<ept id="2">&lt;/codeph&gt;</ept>).</mrk><mrk mid="3" mtype="seg"> Before this or any other <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> client program can access the Network Server from another machine, additional steps should be taken to secure the Network Server environment.</mrk><mrk mid="4" mtype="seg"> Once secured, the Network Server can be safely configured to accept connections from other machines.</mrk><mrk mid="5" mtype="seg"> Refer to the "Network Server security" and "Running the Network Server under the security manager" sections of the <bpt id="4" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept><ept id="4">&lt;/cite&gt;</ept> for important information on securing the Network Server and enabling network connections.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In a client/server environment, the client program is often used from other computers on the network.</mrk><mrk mid="1" mtype="seg"> Whenever a system accepts connections from other computers, there is a chance of abuse.</mrk><mrk mid="2" mtype="seg"> To maintain security, the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server defaults to accepting connections only from clients running on the local machine (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>localhost<ept id="2">&lt;/codeph&gt;</ept>).</mrk><mrk mid="3" mtype="seg"> Before this or any other <bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> client program can access the Network Server from another machine, additional steps should be taken to secure the Network Server environment.</mrk><mrk mid="4" mtype="seg"> Once secured, the Network Server can be safely configured to accept connections from other machines.</mrk><mrk mid="5" mtype="seg"> Refer to the "Network Server security" and "Running the Network Server under the security manager" sections of the <bpt id="4" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept><ept id="4">&lt;/cite&gt;</ept> for important information on securing the Network Server and enabling network connections.</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">With the Network Server started, you can run the client program simultaneously in multiple windows. To demonstrate this, open two command windows and perform the substeps of the "Run the client program" step in each window. Both clients will operate without a problem. In contrast, it would not be possible for a program that uses the embedded driver (for example, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="1">&lt;/codeph&gt;</ept>) to access the database until the database or the Network Server is shut down.</source>
+<seg-source><mrk mid="0" mtype="seg">With the Network Server started, you can run the client program simultaneously in multiple windows.</mrk><mrk mid="1" mtype="seg"> To demonstrate this, open two command windows and perform the substeps of the "Run the client program" step in each window.</mrk><mrk mid="2" mtype="seg"> Both clients will operate without a problem.</mrk><mrk mid="3" mtype="seg"> In contrast, it would not be possible for a program that uses the embedded driver (for example, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="1">&lt;/codeph&gt;</ept>) to access the database until the database or the Network Server is shut down.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">With the Network Server started, you can run the client program simultaneously in multiple windows.</mrk><mrk mid="1" mtype="seg"> To demonstrate this, open two command windows and perform the substeps of the "Run the client program" step in each window.</mrk><mrk mid="2" mtype="seg"> Both clients will operate without a problem.</mrk><mrk mid="3" mtype="seg"> In contrast, it would not be possible for a program that uses the embedded driver (for example, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>WwdEmbedded.java<ept id="1">&lt;/codeph&gt;</ept>) to access the database until the database or the Network Server is shut down.</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">You may have noticed that the client program does not shut down the database. This is because the database is a shared resource in a client/server environment and, in most cases, should be shut down only when the Network Server is shut down. If multiple clients are accessing the database and one client shuts down the database, the remaining clients will encounter a failure the next time they attempt an SQL command.</source>
+<seg-source><mrk mid="0" mtype="seg">You may have noticed that the client program does not shut down the database.</mrk><mrk mid="1" mtype="seg"> This is because the database is a shared resource in a client/server environment and, in most cases, should be shut down only when the Network Server is shut down.</mrk><mrk mid="2" mtype="seg"> If multiple clients are accessing the database and one client shuts down the database, the remaining clients will encounter a failure the next time they attempt an SQL command.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You may have noticed that the client program does not shut down the database.</mrk><mrk mid="1" mtype="seg"> This is because the database is a shared resource in a client/server environment and, in most cases, should be shut down only when the Network Server is shut down.</mrk><mrk mid="2" mtype="seg"> If multiple clients are accessing the database and one client shuts down the database, the remaining clients will encounter a failure the next time they attempt an SQL command.</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s two architectures have caused confusion for some new <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> users, who mistakenly think that embedded is a single-user configuration. This is not true. The embedded driver supports multiple simultaneous connections, performs locking, and provides performance, integrity, and recoverability. Any application that uses the embedded driver can open multiple <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> connections and then provide a means for multiple users to interact with the database on each connection. The <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> Network Server is an example of such an application.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s two architectures have caused confusion for some new <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> users, who mistakenly think that embedded is a single-user configuration.</mrk><mrk mid="1" mtype="seg"> This is not true.</mrk><mrk mid="2" mtype="seg"> The embedded driver supports multiple simultaneous connections, performs locking, and provides performance, integrity, and recoverability.</mrk><mrk mid="3" mtype="seg"> Any application that uses the embedded driver can open multiple <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> connections and then provide a means for multiple users to interact with the database on each connection.</mrk><mrk mid="4" mtype="seg"> The <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> Network Server is an example of such an application.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s two architectures have caused confusion for some new <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> users, who mistakenly think that embedded is a single-user configuration.</mrk><mrk mid="1" mtype="seg"> This is not true.</mrk><mrk mid="2" mtype="seg"> The embedded driver supports multiple simultaneous connections, performs locking, and provides performance, integrity, and recoverability.</mrk><mrk mid="3" mtype="seg"> Any application that uses the embedded driver can open multiple <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> connections and then provide a means for multiple users to interact with the database on each connection.</mrk><mrk mid="4" mtype="seg"> The <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> Network Server is an example of such an application.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

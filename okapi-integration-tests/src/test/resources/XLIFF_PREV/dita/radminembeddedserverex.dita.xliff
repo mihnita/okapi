@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminembeddedserverex.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Embedded server example</source>
+<seg-source><mrk mid="0" mtype="seg">Embedded server example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Embedded server example</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You can start the Network Server in another thread automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> starts by setting the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.startNetworkServer<ept id="2">&lt;/codeph&gt;</ept> property, or you can start it by using a program.</source>
+<seg-source><mrk mid="0" mtype="seg">You can start the Network Server in another thread automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> starts by setting the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.startNetworkServer<ept id="2">&lt;/codeph&gt;</ept> property, or you can start it by using a program.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can start the Network Server in another thread automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> starts by setting the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.startNetworkServer<ept id="2">&lt;/codeph&gt;</ept> property, or you can start it by using a program.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Embedded server example</source>
+<seg-source><mrk mid="0" mtype="seg">Embedded server example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Embedded server example</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref
+href="tadminconfigsettingnetwrokserverproperties.dita#tadminconfigsettingnetwrokserverproperties"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details on this property.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref
+href="tadminconfigsettingnetwrokserverproperties.dita#tadminconfigsettingnetwrokserverproperties"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details on this property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref
+href="tadminconfigsettingnetwrokserverproperties.dita#tadminconfigsettingnetwrokserverproperties"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details on this property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The following example shows how to start the Network Server by using a program:</source>
+<seg-source><mrk mid="0" mtype="seg">The following example shows how to start the Network Server by using a program:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example shows how to start the Network Server by using a program:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">import org.apache.derby.drda.NetworkServerControl; import java.net.InetAddress; NetworkServerControl server = new NetworkServerControl (InetAddress.getByName("localhost"),1527); server.start(null);</source>
+<seg-source><mrk mid="0" mtype="seg">import org.apache.derby.drda.NetworkServerControl; import java.net.InetAddress; NetworkServerControl server = new NetworkServerControl (InetAddress.getByName("localhost"),1527); server.start(null);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">import org.apache.derby.drda.NetworkServerControl; import java.net.InetAddress; NetworkServerControl server = new NetworkServerControl (InetAddress.getByName("localhost"),1527); server.start(null);</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The program that starts the Network Server can access the database by using either the embedded driver or the Network Client driver. The server framework's attempt to boot the local JDBC driver is ignored because it has already been booted within the application's JVM. The server framework simply accesses the instance of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> that is already booted. There is no conflict between the application and the server framework.</source>
+<seg-source><mrk mid="0" mtype="seg">The program that starts the Network Server can access the database by using either the embedded driver or the Network Client driver.</mrk><mrk mid="1" mtype="seg"> The server framework's attempt to boot the local JDBC driver is ignored because it has already been booted within the application's JVM.</mrk><mrk mid="2" mtype="seg"> The server framework simply accesses the instance of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> that is already booted.</mrk><mrk mid="3" mtype="seg"> There is no conflict between the application and the server framework.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The program that starts the Network Server can access the database by using either the embedded driver or the Network Client driver.</mrk><mrk mid="1" mtype="seg"> The server framework's attempt to boot the local JDBC driver is ignored because it has already been booted within the application's JVM.</mrk><mrk mid="2" mtype="seg"> The server framework simply accesses the instance of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> that is already booted.</mrk><mrk mid="3" mtype="seg"> There is no conflict between the application and the server framework.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The remote client can then connect through the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> client driver:</source>
+<seg-source><mrk mid="0" mtype="seg">The remote client can then connect through the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> client driver:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The remote client can then connect through the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> client driver:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">String nsURL="jdbc:derby://localhost:1527/sample"; java.util.Properties props = new java.util.Properties(); props.setProperty("user","usr"); props.setProperty("password","pwd"); /* If you are running on JDK 6 or higher, you do not need to invoke Class.forName(). In that environment, the ClientDriver loads automatically. */ Class.forName("org.apache.derby.jdbc.ClientDriver"); Connection conn = DriverManager.getConnection(nsURL, props); /*interact with <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>*/ Statement s = conn.createStatement(); ResultSet rs = s.executeQuery( "SELECT * FROM HotelBookings");</source>
+<seg-source><mrk mid="0" mtype="seg">String nsURL="jdbc:derby://localhost:1527/sample"; java.util.Properties props = new java.util.Properties(); props.setProperty("user","usr"); props.setProperty("password","pwd"); /* If you are running on JDK 6 or higher, you do not need to invoke Class.forName().</mrk><mrk mid="1" mtype="seg"> In that environment, the ClientDriver loads automatically.</mrk><mrk mid="2" mtype="seg"> */ Class.forName("org.apache.derby.jdbc.ClientDriver"); Connection conn = DriverManager.getConnection(nsURL, props); /*interact with <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>*/ Statement s = conn.createStatement(); ResultSet rs = s.executeQuery( "SELECT * FROM HotelBookings");</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String nsURL="jdbc:derby://localhost:1527/sample"; java.util.Properties props = new java.util.Properties(); props.setProperty("user","usr"); props.setProperty("password","pwd"); /* If you are running on JDK 6 or higher, you do not need to invoke Class.forName().</mrk><mrk mid="1" mtype="seg"> In that environment, the ClientDriver loads automatically.</mrk><mrk mid="2" mtype="seg"> */ Class.forName("org.apache.derby.jdbc.ClientDriver"); Connection conn = DriverManager.getConnection(nsURL, props); /*interact with <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>*/ Statement s = conn.createStatement(); ResultSet rs = s.executeQuery( "SELECT * FROM HotelBookings");</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

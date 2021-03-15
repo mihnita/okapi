@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="crefjavbclobnot.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Notes on mapping of java.sql.Blob and java.sql.Clob interfaces</source>
+<seg-source><mrk mid="0" mtype="seg">Notes on mapping of java.sql.Blob and java.sql.Clob interfaces</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notes on mapping of java.sql.Blob and java.sql.Clob interfaces</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The usual <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> locking mechanisms (shared locks) prevent other transactions from updating or deleting the database item to which the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="2">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="3">&lt;/i&gt;</ept> object is a pointer. However, in some cases, <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>'s instantaneous lock mechanisms could allow a period of time in which the column underlying the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="5">&lt;/i&gt;</ept> or <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="6">&lt;/i&gt;</ept> is unprotected. A subsequent call to <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>getBlob/getClob<ept id="7">&lt;/i&gt;</ept>, or to a <bpt id="8" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="8">&lt;/i&gt;</ept>/<bpt id="9" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="9">&lt;/i&gt;</ept>method, could cause undefined behavior.</source>
+<seg-source><mrk mid="0" mtype="seg">The usual <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> locking mechanisms (shared locks) prevent other transactions from updating or deleting the database item to which the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="2">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="3">&lt;/i&gt;</ept> object is a pointer.</mrk><mrk mid="1" mtype="seg"> However, in some cases, <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>'s instantaneous lock mechanisms could allow a period of time in which the column underlying the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="5">&lt;/i&gt;</ept> or <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="6">&lt;/i&gt;</ept> is unprotected.</mrk><mrk mid="2" mtype="seg"> A subsequent call to <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>getBlob/getClob<ept id="7">&lt;/i&gt;</ept>, or to a <bpt id="8" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="8">&lt;/i&gt;</ept>/<bpt id="9" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="9">&lt;/i&gt;</ept>method, could cause undefined behavior.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The usual <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> locking mechanisms (shared locks) prevent other transactions from updating or deleting the database item to which the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="2">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="3">&lt;/i&gt;</ept> object is a pointer.</mrk><mrk mid="1" mtype="seg"> However, in some cases, <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>'s instantaneous lock mechanisms could allow a period of time in which the column underlying the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="5">&lt;/i&gt;</ept> or <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="6">&lt;/i&gt;</ept> is unprotected.</mrk><mrk mid="2" mtype="seg"> A subsequent call to <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>getBlob/getClob<ept id="7">&lt;/i&gt;</ept>, or to a <bpt id="8" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="8">&lt;/i&gt;</ept>/<bpt id="9" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="9">&lt;/i&gt;</ept>method, could cause undefined behavior.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Furthermore, there is nothing to prevent the transaction that holds the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept>/<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="2">&lt;/i&gt;</ept> (as opposed to another transaction) from updating the underlying row. (The same problem exists with the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>getXXXStream<ept id="3">&lt;/i&gt;</ept> methods.) Program applications to prevent updates to the underlying object while a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="4">&lt;/i&gt;</ept>/<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="5">&lt;/i&gt;</ept> is open on it; failing to do this could result in undefined behavior.</source>
+<seg-source><mrk mid="0" mtype="seg">Furthermore, there is nothing to prevent the transaction that holds the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept>/<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="2">&lt;/i&gt;</ept> (as opposed to another transaction) from updating the underlying row.</mrk><mrk mid="1" mtype="seg"> (The same problem exists with the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>getXXXStream<ept id="3">&lt;/i&gt;</ept> methods.) Program applications to prevent updates to the underlying object while a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="4">&lt;/i&gt;</ept>/<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="5">&lt;/i&gt;</ept> is open on it; failing to do this could result in undefined behavior.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Furthermore, there is nothing to prevent the transaction that holds the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept>/<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="2">&lt;/i&gt;</ept> (as opposed to another transaction) from updating the underlying row.</mrk><mrk mid="1" mtype="seg"> (The same problem exists with the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>getXXXStream<ept id="3">&lt;/i&gt;</ept> methods.) Program applications to prevent updates to the underlying object while a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="4">&lt;/i&gt;</ept>/<bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="5">&lt;/i&gt;</ept> is open on it; failing to do this could result in undefined behavior.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Do not call more than one of the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet getXXX<ept id="1">&lt;/i&gt;</ept> methods on the same column if one of the methods is one of the following:</source>
+<seg-source><mrk mid="0" mtype="seg">Do not call more than one of the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet getXXX<ept id="1">&lt;/i&gt;</ept> methods on the same column if one of the methods is one of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Do not call more than one of the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet getXXX<ept id="1">&lt;/i&gt;</ept> methods on the same column if one of the methods is one of the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getBlob<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getBlob<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getBlob<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getClob<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getClob<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getClob<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getAsciiStream<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getAsciiStream<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getAsciiStream<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getBinaryStream<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getBinaryStream<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getBinaryStream<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getCharacterStream<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getCharacterStream<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getCharacterStream<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">These methods share the same underlying stream; calling more than one of these methods on the same column could result in undefined behavior. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">These methods share the same underlying stream; calling more than one of these methods on the same column could result in undefined behavior.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">These methods share the same underlying stream; calling more than one of these methods on the same column could result in undefined behavior.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">ResultSet rs = s.executeQuery("SELECT text FROM CLOBS WHERE i = 1"); while (rs.next()) { aclob = rs.getClob(1); ip = rs.getAsciiStream(1); }</source>
+<seg-source><mrk mid="0" mtype="seg">ResultSet rs = s.executeQuery("SELECT text FROM CLOBS WHERE i = 1"); while (rs.next()) { aclob = rs.getClob(1); ip = rs.getAsciiStream(1); }</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ResultSet rs = s.executeQuery("SELECT text FROM CLOBS WHERE i = 1"); while (rs.next()) { aclob = rs.getClob(1); ip = rs.getAsciiStream(1); }</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The streams that handle long-columns are not thread safe. This means that if a user chooses to open multiple threads and access the stream from each thread, the resulting behavior is undefined.</source>
+<seg-source><mrk mid="0" mtype="seg">The streams that handle long-columns are not thread safe.</mrk><mrk mid="1" mtype="seg"> This means that if a user chooses to open multiple threads and access the stream from each thread, the resulting behavior is undefined.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The streams that handle long-columns are not thread safe.</mrk><mrk mid="1" mtype="seg"> This means that if a user chooses to open multiple threads and access the stream from each thread, the resulting behavior is undefined.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Clobs are not locale-sensitive.</source>
+<seg-source><mrk mid="0" mtype="seg">Clobs are not locale-sensitive.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Clobs are not locale-sensitive.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdvlp40350.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Conventions for specifying the database path</source>
+<seg-source><mrk mid="0" mtype="seg">Conventions for specifying the database path</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Conventions for specifying the database path</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">When you access databases from the file system (instead of from the classpath or a jar file), any path that is not absolute is interpreted as relative to the system directory.</source>
+<seg-source><mrk mid="0" mtype="seg">When you access databases from the file system (instead of from the classpath or a jar file), any path that is not absolute is interpreted as relative to the system directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you access databases from the file system (instead of from the classpath or a jar file), any path that is not absolute is interpreted as relative to the system directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Databases</source>
+<seg-source><mrk mid="0" mtype="seg">Databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">convention for specifying connection path when outside system</source>
+<seg-source><mrk mid="0" mtype="seg">convention for specifying connection path when outside system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">convention for specifying connection path when outside system</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">directory subsubprotocol</source>
+<seg-source><mrk mid="0" mtype="seg">directory subsubprotocol</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">directory subsubprotocol</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The path must do one of the following:</source>
+<seg-source><mrk mid="0" mtype="seg">The path must do one of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The path must do one of the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">refer to a previously created <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database</source>
+<seg-source><mrk mid="0" mtype="seg">refer to a previously created <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">refer to a previously created <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">specify the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>create=true<ept id="1">&lt;/i&gt;</ept> attribute</source>
+<seg-source><mrk mid="0" mtype="seg">specify the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>create=true<ept id="1">&lt;/i&gt;</ept> attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">specify the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>create=true<ept id="1">&lt;/i&gt;</ept> attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The path separator in the connection URL is / (forward slash), as in the standard <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>file:// <ept id="1">&lt;/i&gt;</ept>URL protocol.</source>
+<seg-source><mrk mid="0" mtype="seg">The path separator in the connection URL is / (forward slash), as in the standard <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>file:// <ept id="1">&lt;/i&gt;</ept>URL protocol.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The path separator in the connection URL is / (forward slash), as in the standard <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>file:// <ept id="1">&lt;/i&gt;</ept>URL protocol.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">You can specify only databases that are local to the machine on which the JVM is running. NFS file systems on UNIX and remote shared files on Windows (//<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>machine/directory<ept id="1">&lt;/i&gt;</ept>) are not guaranteed to work. Using <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="2">&lt;/i&gt;</ept> and forward slashes is recommended practice for platform independent applications.</source>
+<seg-source><mrk mid="0" mtype="seg">You can specify only databases that are local to the machine on which the JVM is running.</mrk><mrk mid="1" mtype="seg"> NFS file systems on UNIX and remote shared files on Windows (//<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>machine/directory<ept id="1">&lt;/i&gt;</ept>) are not guaranteed to work.</mrk><mrk mid="2" mtype="seg"> Using <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="2">&lt;/i&gt;</ept> and forward slashes is recommended practice for platform independent applications.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can specify only databases that are local to the machine on which the JVM is running.</mrk><mrk mid="1" mtype="seg"> NFS file systems on UNIX and remote shared files on Windows (//<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>machine/directory<ept id="1">&lt;/i&gt;</ept>) are not guaranteed to work.</mrk><mrk mid="2" mtype="seg"> Using <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.system.home<ept id="2">&lt;/i&gt;</ept> and forward slashes is recommended practice for platform independent applications.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">If two different database name values, relative or absolute, refer to the same actual directory, they are considered equivalent. This means that connections to a database through its absolute path and its relative path are connections to the same database. Within <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, the name of the database is defined by the canonical path of its directory from <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt>java.io.File.getCanonicalPath<ept id="2">&lt;/cite&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If two different database name values, relative or absolute, refer to the same actual directory, they are considered equivalent.</mrk><mrk mid="1" mtype="seg"> This means that connections to a database through its absolute path and its relative path are connections to the same database.</mrk><mrk mid="2" mtype="seg"> Within <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, the name of the database is defined by the canonical path of its directory from <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt>java.io.File.getCanonicalPath<ept id="2">&lt;/cite&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If two different database name values, relative or absolute, refer to the same actual directory, they are considered equivalent.</mrk><mrk mid="1" mtype="seg"> This means that connections to a database through its absolute path and its relative path are connections to the same database.</mrk><mrk mid="2" mtype="seg"> Within <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, the name of the database is defined by the canonical path of its directory from <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt>java.io.File.getCanonicalPath<ept id="2">&lt;/cite&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> automatically creates any intermediate directory that does not already exist when creating a new database. If it cannot create the intermediate directory, the database creation fails.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> automatically creates any intermediate directory that does not already exist when creating a new database.</mrk><mrk mid="1" mtype="seg"> If it cannot create the intermediate directory, the database creation fails.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> automatically creates any intermediate directory that does not already exist when creating a new database.</mrk><mrk mid="1" mtype="seg"> If it cannot create the intermediate directory, the database creation fails.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

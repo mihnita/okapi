@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsetuseraccess.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_SET_USER_ACCESS system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_USER_ACCESS system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_USER_ACCESS system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_USER_ACCESS<ept id="1">&lt;/codeph&gt;</ept> system procedure sets the connection access permission for the user specified.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_USER_ACCESS<ept id="1">&lt;/codeph&gt;</ept> system procedure sets the connection access permission for the user specified.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_USER_ACCESS<ept id="1">&lt;/codeph&gt;</ept> system procedure sets the connection access permission for the user specified.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_SET_USER_ACCESS (USERNAME VARCHAR(128), CONNECTION_PERMISSION VARCHAR(128))</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_USER_ACCESS (USERNAME VARCHAR(128), CONNECTION_PERMISSION VARCHAR(128))</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_USER_ACCESS (USERNAME VARCHAR(128), CONNECTION_PERMISSION VARCHAR(128))</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">USERNAME</source>
+<seg-source><mrk mid="0" mtype="seg">USERNAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">USERNAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">An input argument of type VARCHAR(128) that specifies the user ID in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database.</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the user ID in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the user ID in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">CONNECTION_PERMISSION</source>
+<seg-source><mrk mid="0" mtype="seg">CONNECTION_PERMISSION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CONNECTION_PERMISSION</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Valid values for CONNECTION_PERMISSION are:</source>
+<seg-source><mrk mid="0" mtype="seg">Valid values for CONNECTION_PERMISSION are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Valid values for CONNECTION_PERMISSION are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">FULLACCESS</source>
+<seg-source><mrk mid="0" mtype="seg">FULLACCESS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FULLACCESS</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Adds the user to the list of users with full access to the database. The value for the database property is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper25025.dita#rrefproper25025"&gt;</bpt>derby.database.fullAccessUsers<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Adds the user to the list of users with full access to the database.</mrk><mrk mid="1" mtype="seg"> The value for the database property is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper25025.dita#rrefproper25025"&gt;</bpt>derby.database.fullAccessUsers<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adds the user to the list of users with full access to the database.</mrk><mrk mid="1" mtype="seg"> The value for the database property is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper25025.dita#rrefproper25025"&gt;</bpt>derby.database.fullAccessUsers<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">READONLYACCESS</source>
+<seg-source><mrk mid="0" mtype="seg">READONLYACCESS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">READONLYACCESS</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Adds the user to the list of users with read-only access to the database. The value for the database property is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper39325.dita#rrefproper39325"&gt;</bpt>derby.database.readOnlyAccessUsers<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Adds the user to the list of users with read-only access to the database.</mrk><mrk mid="1" mtype="seg"> The value for the database property is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper39325.dita#rrefproper39325"&gt;</bpt>derby.database.readOnlyAccessUsers<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adds the user to the list of users with read-only access to the database.</mrk><mrk mid="1" mtype="seg"> The value for the database property is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper39325.dita#rrefproper39325"&gt;</bpt>derby.database.readOnlyAccessUsers<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">null</source>
+<seg-source><mrk mid="0" mtype="seg">null</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">null</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Removes the user from the list of permissions, reverting the user to the default permission. You must specify <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>null<ept id="1">&lt;/codeph&gt;</ept> without the quotation marks.</source>
+<seg-source><mrk mid="0" mtype="seg">Removes the user from the list of permissions, reverting the user to the default permission.</mrk><mrk mid="1" mtype="seg"> You must specify <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>null<ept id="1">&lt;/codeph&gt;</ept> without the quotation marks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Removes the user from the list of permissions, reverting the user to the default permission.</mrk><mrk mid="1" mtype="seg"> You must specify <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>null<ept id="1">&lt;/codeph&gt;</ept> without the quotation marks.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default. See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information. The database owner can grant access to other users.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_SET_USER_ACCESS ('BRUNNER', 'READONLYACCESS')</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_USER_ACCESS ('BRUNNER', 'READONLYACCESS')</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_USER_ACCESS ('BRUNNER', 'READONLYACCESS')</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">To remove the user from the list of permissions, you specify the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>null<ept id="1">&lt;/codeph&gt;</ept> value without the quotation marks. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">To remove the user from the list of permissions, you specify the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>null<ept id="1">&lt;/codeph&gt;</ept> value without the quotation marks.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To remove the user from the list of permissions, you specify the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>null<ept id="1">&lt;/codeph&gt;</ept> value without the quotation marks.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_SET_USER_ACCESS ('ISABEL', null)</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_USER_ACCESS ('ISABEL', null)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_USER_ACCESS ('ISABEL', null)</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

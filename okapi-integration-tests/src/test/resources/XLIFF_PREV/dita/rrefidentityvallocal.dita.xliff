@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefidentityvallocal.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">IDENTITY_VAL_LOCAL function</source>
+<seg-source><mrk mid="0" mtype="seg">IDENTITY_VAL_LOCAL function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDENTITY_VAL_LOCAL function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The IDENTITY_VAL_LOCAL function is a non-deterministic function that returns the most recently assigned value of an identity column for a connection, where the assignment occurred as a result of a single row INSERT statement using a VALUES clause.</source>
+<seg-source><mrk mid="0" mtype="seg">The IDENTITY_VAL_LOCAL function is a non-deterministic function that returns the most recently assigned value of an identity column for a connection, where the assignment occurred as a result of a single row INSERT statement using a VALUES clause.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The IDENTITY_VAL_LOCAL function is a non-deterministic function that returns the most recently assigned value of an identity column for a connection, where the assignment occurred as a result of a single row INSERT statement using a VALUES clause.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>IDENTITY_VAL_LOCAL ( )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>IDENTITY_VAL_LOCAL ( )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>IDENTITY_VAL_LOCAL ( )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The IDENTITY_VAL_LOCAL function has no input parameters. The result is a DECIMAL (31,0), regardless of the actual data type of the corresponding identity column.</source>
+<seg-source><mrk mid="0" mtype="seg">The IDENTITY_VAL_LOCAL function has no input parameters.</mrk><mrk mid="1" mtype="seg"> The result is a DECIMAL (31,0), regardless of the actual data type of the corresponding identity column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The IDENTITY_VAL_LOCAL function has no input parameters.</mrk><mrk mid="1" mtype="seg"> The result is a DECIMAL (31,0), regardless of the actual data type of the corresponding identity column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The value returned by the IDENTITY_VAL_LOCAL function, for a connection, is the value assigned to the identity column of the table identified in the most recent single row INSERT statement. The INSERT statement must contain a VALUES clause on a table containing an identity column. The function returns a null value when a single row INSERT statement with a VALUES clause has not been issued for a table containing an identity column.</source>
+<seg-source><mrk mid="0" mtype="seg">The value returned by the IDENTITY_VAL_LOCAL function, for a connection, is the value assigned to the identity column of the table identified in the most recent single row INSERT statement.</mrk><mrk mid="1" mtype="seg"> The INSERT statement must contain a VALUES clause on a table containing an identity column.</mrk><mrk mid="2" mtype="seg"> The function returns a null value when a single row INSERT statement with a VALUES clause has not been issued for a table containing an identity column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The value returned by the IDENTITY_VAL_LOCAL function, for a connection, is the value assigned to the identity column of the table identified in the most recent single row INSERT statement.</mrk><mrk mid="1" mtype="seg"> The INSERT statement must contain a VALUES clause on a table containing an identity column.</mrk><mrk mid="2" mtype="seg"> The function returns a null value when a single row INSERT statement with a VALUES clause has not been issued for a table containing an identity column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The result of the function is not affected by the following:</source>
+<seg-source><mrk mid="0" mtype="seg">The result of the function is not affected by the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The result of the function is not affected by the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">A single row INSERT statement with a VALUES clause for a table without an identity column</source>
+<seg-source><mrk mid="0" mtype="seg">A single row INSERT statement with a VALUES clause for a table without an identity column</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A single row INSERT statement with a VALUES clause for a table without an identity column</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">A multiple row INSERT statement with a VALUES clause</source>
+<seg-source><mrk mid="0" mtype="seg">A multiple row INSERT statement with a VALUES clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A multiple row INSERT statement with a VALUES clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">An INSERT statement with a fullselect</source>
+<seg-source><mrk mid="0" mtype="seg">An INSERT statement with a fullselect</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An INSERT statement with a fullselect</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">If a table with an identity column has an INSERT trigger defined that inserts into another table with another identity column, then the IDENTITY_VAL_LOCAL function will return the generated value for the statement table, and not for the table modified by the trigger.</source>
+<seg-source><mrk mid="0" mtype="seg">If a table with an identity column has an INSERT trigger defined that inserts into another table with another identity column, then the IDENTITY_VAL_LOCAL function will return the generated value for the statement table, and not for the table modified by the trigger.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a table with an identity column has an INSERT trigger defined that inserts into another table with another identity column, then the IDENTITY_VAL_LOCAL function will return the generated value for the statement table, and not for the table modified by the trigger.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>ij&gt; create table t1(c1 int generated always as identity, c2 int); 0 rows inserted/updated/deleted ij&gt; insert into t1(c2) values (8); 1 row inserted/updated/deleted ij&gt; values IDENTITY_VAL_LOCAL(); 1 ------------------------------- 1 1 row selected ij&gt; select IDENTITY_VAL_LOCAL()+1, IDENTITY_VAL_LOCAL()-1 from t1; 1 |2 ------------------------------------------------------------------- 2 |0 1 row selected ij&gt; insert into t1(c2) values (IDENTITY_VAL_LOCAL()); 1 row inserted/updated/deleted ij&gt; select * from t1; C1 |C2 ------------------------------- 1 |8 2 |1 2 rows selected ij&gt; values IDENTITY_VAL_LOCAL(); 1 ------------------------------- 2 1 row selected ij&gt; insert into t1(c2) values (8), (9); 2 rows inserted/updated/deleted ij&gt; -- multi-values insert, return value of the function should not change values IDENTITY_VAL_LOCAL(); 1 ------------------------------- 2 1 row selected ij&gt; select * from t1; C1 |C2 ------------------------------- 1 |8 2 |1 3 |8 4 |9 4 rows selected ij&gt; insert into t1(c2) select c1 from t1; 4 rows inserted/updated/deleted -- insert with sub-select, return value should not change ij&gt; values IDENTITY_VAL_LOCAL(); 1 ------------------------------- 2 1 row selected ij&gt; select * from t1; C1 |C2 ------------------------------- 1 |8 2 |1 3 |8 4 |9 5 |1 6 |2 7 |3 8 |4 8 rows selected<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>ij&gt; create table t1(c1 int generated always as identity, c2 int); 0 rows inserted/updated/deleted ij&gt; insert into t1(c2) values (8); 1 row inserted/updated/deleted ij&gt; values IDENTITY_VAL_LOCAL(); 1 ------------------------------- 1 1 row selected ij&gt; select IDENTITY_VAL_LOCAL()+1, IDENTITY_VAL_LOCAL()-1 from t1; 1 |2 ------------------------------------------------------------------- 2 |0 1 row selected ij&gt; insert into t1(c2) values (IDENTITY_VAL_LOCAL()); 1 row inserted/updated/deleted ij&gt; select * from t1; C1 |C2 ------------------------------- 1 |8 2 |1 2 rows selected ij&gt; values IDENTITY_VAL_LOCAL(); 1 ------------------------------- 2 1 row selected ij&gt; insert into t1(c2) values (8), (9); 2 rows inserted/updated/deleted ij&gt; -- multi-values insert, return value of the function should not change values IDENTITY_VAL_LOCAL(); 1 ------------------------------- 2 1 row selected ij&gt; select * from t1; C1 |C2 ------------------------------- 1 |8 2 |1 3 |8 4 |9 4 rows selected ij&gt; insert into t1(c2) select c1 from t1; 4 rows inserted/updated/deleted -- insert with sub-select, return value should not change ij&gt; values IDENTITY_VAL_LOCAL(); 1 ------------------------------- 2 1 row selected ij&gt; select * from t1; C1 |C2 ------------------------------- 1 |8 2 |1 3 |8 4 |9 5 |1 6 |2 7 |3 8 |4 8 rows selected<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>ij&gt; create table t1(c1 int generated always as identity, c2 int); 0 rows inserted/updated/deleted ij&gt; insert into t1(c2) values (8); 1 row inserted/updated/deleted ij&gt; values IDENTITY_VAL_LOCAL(); 1 ------------------------------- 1 1 row selected ij&gt; select IDENTITY_VAL_LOCAL()+1, IDENTITY_VAL_LOCAL()-1 from t1; 1 |2 ------------------------------------------------------------------- 2 |0 1 row selected ij&gt; insert into t1(c2) values (IDENTITY_VAL_LOCAL()); 1 row inserted/updated/deleted ij&gt; select * from t1; C1 |C2 ------------------------------- 1 |8 2 |1 2 rows selected ij&gt; values IDENTITY_VAL_LOCAL(); 1 ------------------------------- 2 1 row selected ij&gt; insert into t1(c2) values (8), (9); 2 rows inserted/updated/deleted ij&gt; -- multi-values insert, return value of the function should not change values IDENTITY_VAL_LOCAL(); 1 ------------------------------- 2 1 row selected ij&gt; select * from t1; C1 |C2 ------------------------------- 1 |8 2 |1 3 |8 4 |9 4 rows selected ij&gt; insert into t1(c2) select c1 from t1; 4 rows inserted/updated/deleted -- insert with sub-select, return value should not change ij&gt; values IDENTITY_VAL_LOCAL(); 1 ------------------------------- 2 1 row selected ij&gt; select * from t1; C1 |C2 ------------------------------- 1 |8 2 |1 3 |8 4 |9 5 |1 6 |2 7 |3 8 |4 8 rows selected<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

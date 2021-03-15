@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljargmatching.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Argument matching</source>
+<seg-source><mrk mid="0" mtype="seg">Argument matching</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Argument matching</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Argument matching</source>
+<seg-source><mrk mid="0" mtype="seg">Argument matching</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Argument matching</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">CREATE FUNCTION</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE FUNCTION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE FUNCTION</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">CREATE PROCEDURE</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE PROCEDURE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE PROCEDURE</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">When you declare a function or procedure using CREATE FUNCTION/PROCEDURE, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not verify whether a matching Java method exists. Instead, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for a matching method only when you invoke the function or procedure in a later SQL statement. At that time, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> searches for a public, static method having the class and method name declared in the EXTERNAL NAME clause of the earlier CREATE FUNCTION/PROCEDURE statement. Furthermore, the Java types of the method's arguments and return value must match the SQL types declared in the CREATE FUNCTION/PROCEDURE statement. The following may happen:</source>
+<seg-source><mrk mid="0" mtype="seg">When you declare a function or procedure using CREATE FUNCTION/PROCEDURE, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not verify whether a matching Java method exists.</mrk><mrk mid="1" mtype="seg"> Instead, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for a matching method only when you invoke the function or procedure in a later SQL statement.</mrk><mrk mid="2" mtype="seg"> At that time, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> searches for a public, static method having the class and method name declared in the EXTERNAL NAME clause of the earlier CREATE FUNCTION/PROCEDURE statement.</mrk><mrk mid="3" mtype="seg"> Furthermore, the Java types of the method's arguments and return value must match the SQL types declared in the CREATE FUNCTION/PROCEDURE statement.</mrk><mrk mid="4" mtype="seg"> The following may happen:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you declare a function or procedure using CREATE FUNCTION/PROCEDURE, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not verify whether a matching Java method exists.</mrk><mrk mid="1" mtype="seg"> Instead, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for a matching method only when you invoke the function or procedure in a later SQL statement.</mrk><mrk mid="2" mtype="seg"> At that time, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> searches for a public, static method having the class and method name declared in the EXTERNAL NAME clause of the earlier CREATE FUNCTION/PROCEDURE statement.</mrk><mrk mid="3" mtype="seg"> Furthermore, the Java types of the method's arguments and return value must match the SQL types declared in the CREATE FUNCTION/PROCEDURE statement.</mrk><mrk mid="4" mtype="seg"> The following may happen:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Success<ept id="1">&lt;/b&gt;</ept> - If exactly one Java method matches, then <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> invokes it.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Success<ept id="1">&lt;/b&gt;</ept> - If exactly one Java method matches, then <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> invokes it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Success<ept id="1">&lt;/b&gt;</ept> - If exactly one Java method matches, then <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> invokes it.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Ambiguity<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> raises an error if more than one method matches.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Ambiguity<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> raises an error if more than one method matches.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Ambiguity<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> raises an error if more than one method matches.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Failure<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> also raises an error if no method matches.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Failure<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> also raises an error if no method matches.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Failure<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> also raises an error if no method matches.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">A procedure or function that takes varargs must resolve to a varargs Java method.</source>
+<seg-source><mrk mid="0" mtype="seg">A procedure or function that takes varargs must resolve to a varargs Java method.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A procedure or function that takes varargs must resolve to a varargs Java method.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">In mapping SQL data types to Java data types, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> considers the following kinds of matches:</source>
+<seg-source><mrk mid="0" mtype="seg">In mapping SQL data types to Java data types, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> considers the following kinds of matches:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In mapping SQL data types to Java data types, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> considers the following kinds of matches:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Primitive match<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for a primitive Java type corresponding to the SQL type. For instance, SQL INTEGER matches Java <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>int<ept id="3">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Primitive match<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for a primitive Java type corresponding to the SQL type.</mrk><mrk mid="1" mtype="seg"> For instance, SQL INTEGER matches Java <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>int<ept id="3">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Primitive match<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for a primitive Java type corresponding to the SQL type.</mrk><mrk mid="1" mtype="seg"> For instance, SQL INTEGER matches Java <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>int<ept id="3">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Wrapper match<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for a wrapper class in the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.lang<ept id="3">&lt;/i&gt;</ept> or <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>java.sql<ept id="4">&lt;/i&gt;</ept> packages corresponding to the SQL type. For instance, SQL INTEGER matches <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer<ept id="5">&lt;/i&gt;</ept>. For a user-defined type (UDT), <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> looks for the UDT's external name class.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Wrapper match<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for a wrapper class in the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.lang<ept id="3">&lt;/i&gt;</ept> or <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>java.sql<ept id="4">&lt;/i&gt;</ept> packages corresponding to the SQL type.</mrk><mrk mid="1" mtype="seg"> For instance, SQL INTEGER matches <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer<ept id="5">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> For a user-defined type (UDT), <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> looks for the UDT's external name class.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Wrapper match<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for a wrapper class in the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.lang<ept id="3">&lt;/i&gt;</ept> or <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>java.sql<ept id="4">&lt;/i&gt;</ept> packages corresponding to the SQL type.</mrk><mrk mid="1" mtype="seg"> For instance, SQL INTEGER matches <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer<ept id="5">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> For a user-defined type (UDT), <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept> looks for the UDT's external name class.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Array match<ept id="1">&lt;/b&gt;</ept> - For OUT and INOUT procedure arguments, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for an array of the corresponding primitive or wrapper type. For instance, an OUT procedure argument of type SQL INTEGER matches <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>int[]<ept id="3">&lt;/i&gt;</ept> and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Integer[]<ept id="4">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Array match<ept id="1">&lt;/b&gt;</ept> - For OUT and INOUT procedure arguments, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for an array of the corresponding primitive or wrapper type.</mrk><mrk mid="1" mtype="seg"> For instance, an OUT procedure argument of type SQL INTEGER matches <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>int[]<ept id="3">&lt;/i&gt;</ept> and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Integer[]<ept id="4">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Array match<ept id="1">&lt;/b&gt;</ept> - For OUT and INOUT procedure arguments, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for an array of the corresponding primitive or wrapper type.</mrk><mrk mid="1" mtype="seg"> For instance, an OUT procedure argument of type SQL INTEGER matches <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>int[]<ept id="3">&lt;/i&gt;</ept> and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Integer[]<ept id="4">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>ResultSet match<ept id="1">&lt;/b&gt;</ept> - If a procedure is declared to return <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>n<ept id="2">&lt;/i&gt;</ept> RESULT SETS, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> looks for a method whose last <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>n<ept id="4">&lt;/i&gt;</ept> arguments are of type <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet[]<ept id="5">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>ResultSet match<ept id="1">&lt;/b&gt;</ept> - If a procedure is declared to return <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>n<ept id="2">&lt;/i&gt;</ept> RESULT SETS, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> looks for a method whose last <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>n<ept id="4">&lt;/i&gt;</ept> arguments are of type <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet[]<ept id="5">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>ResultSet match<ept id="1">&lt;/b&gt;</ept> - If a procedure is declared to return <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>n<ept id="2">&lt;/i&gt;</ept> RESULT SETS, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> looks for a method whose last <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>n<ept id="4">&lt;/i&gt;</ept> arguments are of type <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet[]<ept id="5">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> resolves function and procedure invocations as follows:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> resolves function and procedure invocations as follows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> resolves function and procedure invocations as follows:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Function<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for a method whose argument and return types are <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>primitive match<ept id="3">&lt;/i&gt;</ept>es or <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>wrapper match<ept id="4">&lt;/i&gt;</ept>es for the function's SQL arguments and return value.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Function<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for a method whose argument and return types are <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>primitive match<ept id="3">&lt;/i&gt;</ept>es or <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>wrapper match<ept id="4">&lt;/i&gt;</ept>es for the function's SQL arguments and return value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Function<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for a method whose argument and return types are <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>primitive match<ept id="3">&lt;/i&gt;</ept>es or <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>wrapper match<ept id="4">&lt;/i&gt;</ept>es for the function's SQL arguments and return value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Procedure<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for a method which returns void and whose argument types match as follows:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Procedure<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for a method which returns void and whose argument types match as follows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Procedure<ept id="1">&lt;/b&gt;</ept> - <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> looks for a method which returns void and whose argument types match as follows:</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>IN<ept id="1">&lt;/i&gt;</ept> - Method arguments are <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>primitive match<ept id="2">&lt;/i&gt;</ept>es or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>wrapper match<ept id="3">&lt;/i&gt;</ept>es for the procedure's IN arguments.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>IN<ept id="1">&lt;/i&gt;</ept> - Method arguments are <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>primitive match<ept id="2">&lt;/i&gt;</ept>es or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>wrapper match<ept id="3">&lt;/i&gt;</ept>es for the procedure's IN arguments.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>IN<ept id="1">&lt;/i&gt;</ept> - Method arguments are <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>primitive match<ept id="2">&lt;/i&gt;</ept>es or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>wrapper match<ept id="3">&lt;/i&gt;</ept>es for the procedure's IN arguments.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>OUT and INOUT<ept id="1">&lt;/i&gt;</ept> - Method arguments are <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>array match<ept id="2">&lt;/i&gt;</ept>es for the procedure's OUT and INOUT arguments.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>OUT and INOUT<ept id="1">&lt;/i&gt;</ept> - Method arguments are <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>array match<ept id="2">&lt;/i&gt;</ept>es for the procedure's OUT and INOUT arguments.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>OUT and INOUT<ept id="1">&lt;/i&gt;</ept> - Method arguments are <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>array match<ept id="2">&lt;/i&gt;</ept>es for the procedure's OUT and INOUT arguments.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">In addition, if the procedure returns <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>n<ept id="1">&lt;/i&gt;</ept> RESULT SETS, then the last <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>n<ept id="2">&lt;/i&gt;</ept> arguments of the Java method must be of type <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet[]<ept id="3">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">In addition, if the procedure returns <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>n<ept id="1">&lt;/i&gt;</ept> RESULT SETS, then the last <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>n<ept id="2">&lt;/i&gt;</ept> arguments of the Java method must be of type <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet[]<ept id="3">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In addition, if the procedure returns <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>n<ept id="1">&lt;/i&gt;</ept> RESULT SETS, then the last <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>n<ept id="2">&lt;/i&gt;</ept> arguments of the Java method must be of type <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet[]<ept id="3">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides a tool, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SignatureChecker<ept id="2">&lt;/codeph&gt;</ept>, which can identify any SQL functions or procedures in a database that do not follow these argument matching rules. See the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citutilities"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides a tool, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SignatureChecker<ept id="2">&lt;/codeph&gt;</ept>, which can identify any SQL functions or procedures in a database that do not follow these argument matching rules.</mrk><mrk mid="1" mtype="seg"> See the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citutilities"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides a tool, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SignatureChecker<ept id="2">&lt;/codeph&gt;</ept>, which can identify any SQL functions or procedures in a database that do not follow these argument matching rules.</mrk><mrk mid="1" mtype="seg"> See the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citutilities"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> for details.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Example of argument matching</source>
+<seg-source><mrk mid="0" mtype="seg">Example of argument matching</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example of argument matching</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">The following function...</source>
+<seg-source><mrk mid="0" mtype="seg">The following function...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following function...</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> CREATE FUNCTION TO_DEGREES ( RADIANS DOUBLE ) RETURNS DOUBLE PARAMETER STYLE JAVA NO SQL LANGUAGE JAVA EXTERNAL NAME 'example.MathUtils.toDegrees' <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> CREATE FUNCTION TO_DEGREES ( RADIANS DOUBLE ) RETURNS DOUBLE PARAMETER STYLE JAVA NO SQL LANGUAGE JAVA EXTERNAL NAME 'example.MathUtils.toDegrees' <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> CREATE FUNCTION TO_DEGREES ( RADIANS DOUBLE ) RETURNS DOUBLE PARAMETER STYLE JAVA NO SQL LANGUAGE JAVA EXTERNAL NAME 'example.MathUtils.toDegrees' <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">...would match all of the following methods:</source>
+<seg-source><mrk mid="0" mtype="seg">...would match all of the following methods:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">...would match all of the following methods:</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> public static double toDegrees( double arg ) {...} public static Double toDegrees( double arg ) {...} public static double toDegrees( Double arg ) {...} public static Double toDegrees( Double arg ) {...} <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> public static double toDegrees( double arg ) {...} public static Double toDegrees( double arg ) {...} public static double toDegrees( Double arg ) {...} public static Double toDegrees( Double arg ) {...} <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> public static double toDegrees( double arg ) {...} public static Double toDegrees( double arg ) {...} public static double toDegrees( Double arg ) {...} public static Double toDegrees( Double arg ) {...} <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">Note that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> would raise an exception if it found more than one matching method.</source>
+<seg-source><mrk mid="0" mtype="seg">Note that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> would raise an exception if it found more than one matching method.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> would raise an exception if it found more than one matching method.</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Mapping SQL data types to Java data types</source>
+<seg-source><mrk mid="0" mtype="seg">Mapping SQL data types to Java data types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mapping SQL data types to Java data types</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">The following table shows how <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> maps specific SQL data types to Java data types.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table shows how <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> maps specific SQL data types to Java data types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table shows how <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> maps specific SQL data types to Java data types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">SQL and Java type correspondence</source>
+<seg-source><mrk mid="0" mtype="seg">SQL and Java type correspondence</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL and Java type correspondence</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">This table lists the SQL datatypes and shows how <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> maps them to Java primitive and wrapper types.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the SQL datatypes and shows how <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> maps them to Java primitive and wrapper types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the SQL datatypes and shows how <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> maps them to Java primitive and wrapper types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">SQL Type</source>
+<seg-source><mrk mid="0" mtype="seg">SQL Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">Primitive Match</source>
+<seg-source><mrk mid="0" mtype="seg">Primitive Match</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Primitive Match</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">Wrapper Match</source>
+<seg-source><mrk mid="0" mtype="seg">Wrapper Match</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wrapper Match</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">BOOLEAN</source>
+<seg-source><mrk mid="0" mtype="seg">BOOLEAN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BOOLEAN</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>boolean<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Boolean<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Boolean<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Boolean<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">SMALLINT</source>
+<seg-source><mrk mid="0" mtype="seg">SMALLINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SMALLINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>short<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>short<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>short<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>int<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>int<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>int<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Long<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Long<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Long<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">DECIMAL</source>
+<seg-source><mrk mid="0" mtype="seg">DECIMAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DECIMAL</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.math.BigDecimal<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.math.BigDecimal<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.math.BigDecimal<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">NUMERIC</source>
+<seg-source><mrk mid="0" mtype="seg">NUMERIC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NUMERIC</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.math.BigDecimal<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.math.BigDecimal<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.math.BigDecimal<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">REAL</source>
+<seg-source><mrk mid="0" mtype="seg">REAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REAL</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>float<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>float<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>float<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Float<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Float<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Float<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">DOUBLE</source>
+<seg-source><mrk mid="0" mtype="seg">DOUBLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DOUBLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Double<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Double<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Double<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">FLOAT</source>
+<seg-source><mrk mid="0" mtype="seg">FLOAT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FLOAT</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>double<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Double<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Double<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Double<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.String<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.String<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.String<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.String<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.String<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.String<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">LONG VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">LONG VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LONG VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.String<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.String<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.String<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en">CHAR FOR BIT DATA</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR FOR BIT DATA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR FOR BIT DATA</mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu74">
+<source xml:lang="en">VARCHAR FOR BIT DATA</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR FOR BIT DATA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR FOR BIT DATA</mrk></target>
+</trans-unit>
+<trans-unit id="tu75">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu76">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu77">
+<source xml:lang="en">LONG VARCHAR FOR BIT DATA</source>
+<seg-source><mrk mid="0" mtype="seg">LONG VARCHAR FOR BIT DATA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LONG VARCHAR FOR BIT DATA</mrk></target>
+</trans-unit>
+<trans-unit id="tu78">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu79">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu80">
+<source xml:lang="en">CLOB</source>
+<seg-source><mrk mid="0" mtype="seg">CLOB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CLOB</mrk></target>
+</trans-unit>
+<trans-unit id="tu81">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu82">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu83">
+<source xml:lang="en">BLOB</source>
+<seg-source><mrk mid="0" mtype="seg">BLOB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BLOB</mrk></target>
+</trans-unit>
+<trans-unit id="tu84">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu85">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu86">
+<source xml:lang="en">DATE</source>
+<seg-source><mrk mid="0" mtype="seg">DATE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DATE</mrk></target>
+</trans-unit>
+<trans-unit id="tu87">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu88">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Date<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Date<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Date<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu89">
+<source xml:lang="en">TIME</source>
+<seg-source><mrk mid="0" mtype="seg">TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu90">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu91">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Time<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Time<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Time<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu92">
+<source xml:lang="en">TIMESTAMP</source>
+<seg-source><mrk mid="0" mtype="seg">TIMESTAMP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMESTAMP</mrk></target>
+</trans-unit>
+<trans-unit id="tu93">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu94">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Timestamp<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Timestamp<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Timestamp<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu95">
+<source xml:lang="en">XML</source>
+<seg-source><mrk mid="0" mtype="seg">XML</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XML</mrk></target>
+</trans-unit>
+<trans-unit id="tu96">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu97">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu98">
+<source xml:lang="en">User-defined type</source>
+<seg-source><mrk mid="0" mtype="seg">User-defined type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">User-defined type</mrk></target>
+</trans-unit>
+<trans-unit id="tu99">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu100">
+<source xml:lang="en">Underlying Java class</source>
+<seg-source><mrk mid="0" mtype="seg">Underlying Java class</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Underlying Java class</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

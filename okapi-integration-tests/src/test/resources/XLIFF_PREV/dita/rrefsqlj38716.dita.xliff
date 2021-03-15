@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj38716.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">COUNT function</source>
+<seg-source><mrk mid="0" mtype="seg">COUNT function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COUNT function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">COUNT is an aggregate function that counts the number of rows accessed in an expression. COUNT is allowed on all types of expressions.</source>
+<seg-source><mrk mid="0" mtype="seg">COUNT is an aggregate function that counts the number of rows accessed in an expression.</mrk><mrk mid="1" mtype="seg"> COUNT is allowed on all types of expressions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COUNT is an aggregate function that counts the number of rows accessed in an expression.</mrk><mrk mid="1" mtype="seg"> COUNT is allowed on all types of expressions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">COUNT aggregate function</source>
+<seg-source><mrk mid="0" mtype="seg">COUNT aggregate function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COUNT aggregate function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">DISTINCT</source>
+<seg-source><mrk mid="0" mtype="seg">DISTINCT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DISTINCT</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">qualifier in COUNT aggregate function</source>
+<seg-source><mrk mid="0" mtype="seg">qualifier in COUNT aggregate function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">qualifier in COUNT aggregate function</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33923.dita#rrefsqlj33923"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information about these functions.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33923.dita#rrefsqlj33923"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information about these functions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33923.dita#rrefsqlj33923"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information about these functions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>COUNT ( [ DISTINCT | ALL ] <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> ) <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>COUNT ( [ DISTINCT | ALL ] <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> ) <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>COUNT ( [ DISTINCT | ALL ] <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> ) <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The DISTINCT qualifier eliminates duplicates. The ALL qualifier retains duplicates. ALL is assumed if neither ALL nor DISTINCT is specified. For example, if a column contains the values 1, 1, 1, 1, and 2, COUNT(col) returns a greater value than COUNT(DISTINCT col).</source>
+<seg-source><mrk mid="0" mtype="seg">The DISTINCT qualifier eliminates duplicates.</mrk><mrk mid="1" mtype="seg"> The ALL qualifier retains duplicates.</mrk><mrk mid="2" mtype="seg"> ALL is assumed if neither ALL nor DISTINCT is specified.</mrk><mrk mid="3" mtype="seg"> For example, if a column contains the values 1, 1, 1, 1, and 2, COUNT(col) returns a greater value than COUNT(DISTINCT col).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The DISTINCT qualifier eliminates duplicates.</mrk><mrk mid="1" mtype="seg"> The ALL qualifier retains duplicates.</mrk><mrk mid="2" mtype="seg"> ALL is assumed if neither ALL nor DISTINCT is specified.</mrk><mrk mid="3" mtype="seg"> For example, if a column contains the values 1, 1, 1, 1, and 2, COUNT(col) returns a greater value than COUNT(DISTINCT col).</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Only one DISTINCT aggregate expression per <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> is allowed. For example, the following query is not allowed:</source>
+<seg-source><mrk mid="0" mtype="seg">Only one DISTINCT aggregate expression per <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> is allowed.</mrk><mrk mid="1" mtype="seg"> For example, the following query is not allowed:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only one DISTINCT aggregate expression per <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> is allowed.</mrk><mrk mid="1" mtype="seg"> For example, the following query is not allowed:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- query not allowed<ept id="2">&lt;/ph&gt;</ept> SELECT COUNT (DISTINCT flying_time), SUM (DISTINCT miles) FROM Flights<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- query not allowed<ept id="2">&lt;/ph&gt;</ept> SELECT COUNT (DISTINCT flying_time), SUM (DISTINCT miles) FROM Flights<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- query not allowed<ept id="2">&lt;/ph&gt;</ept> SELECT COUNT (DISTINCT flying_time), SUM (DISTINCT miles) FROM Flights<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">An <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="1">&lt;/i&gt;</ept> can contain multiple column references or expressions, but it cannot contain another aggregate or subquery. If an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> evaluates to NULL, the aggregate is not processed for that value.</source>
+<seg-source><mrk mid="0" mtype="seg">An <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="1">&lt;/i&gt;</ept> can contain multiple column references or expressions, but it cannot contain another aggregate or subquery.</mrk><mrk mid="1" mtype="seg"> If an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> evaluates to NULL, the aggregate is not processed for that value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="1">&lt;/i&gt;</ept> can contain multiple column references or expressions, but it cannot contain another aggregate or subquery.</mrk><mrk mid="1" mtype="seg"> If an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> evaluates to NULL, the aggregate is not processed for that value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The resulting data type of COUNT is <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj10696.dita#rrefsqlj10696"&gt;</bpt>INTEGER<ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The resulting data type of COUNT is <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj10696.dita#rrefsqlj10696"&gt;</bpt>INTEGER<ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The resulting data type of COUNT is <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj10696.dita#rrefsqlj10696"&gt;</bpt>INTEGER<ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- Count the number of countries in each region, -- show only regions that have at least 2<ept id="2">&lt;/ph&gt;</ept> SELECT COUNT (country), region FROM Countries GROUP BY region HAVING COUNT (country) &gt; 1<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- Count the number of countries in each region, -- show only regions that have at least 2<ept id="2">&lt;/ph&gt;</ept> SELECT COUNT (country), region FROM Countries GROUP BY region HAVING COUNT (country) &gt; 1<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- Count the number of countries in each region, -- show only regions that have at least 2<ept id="2">&lt;/ph&gt;</ept> SELECT COUNT (country), region FROM Countries GROUP BY region HAVING COUNT (country) &gt; 1<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

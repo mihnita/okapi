@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rreffuncrownumber.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">ROW_NUMBER function</source>
+<seg-source><mrk mid="0" mtype="seg">ROW_NUMBER function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ROW_NUMBER function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The ROW_NUMBER function returns the row number over a named or unnamed window specification.</source>
+<seg-source><mrk mid="0" mtype="seg">The ROW_NUMBER function returns the row number over a named or unnamed window specification.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The ROW_NUMBER function returns the row number over a named or unnamed window specification.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">ROW_NUMBER function</source>
+<seg-source><mrk mid="0" mtype="seg">ROW_NUMBER function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ROW_NUMBER function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">functions</source>
+<seg-source><mrk mid="0" mtype="seg">functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">ROW_NUMBER</source>
+<seg-source><mrk mid="0" mtype="seg">ROW_NUMBER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ROW_NUMBER</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">LIMIT</source>
+<seg-source><mrk mid="0" mtype="seg">LIMIT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LIMIT</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The ROW_NUMBER function does not take any arguments, and for each row over the window it returns an ever increasing BIGINT. It is normally used to limit the number of rows returned for a query. A <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt>result offset or fetch first clause<ept id="1">&lt;/xref&gt;</ept> can be a more efficient way to perform this task.</source>
+<seg-source><mrk mid="0" mtype="seg">The ROW_NUMBER function does not take any arguments, and for each row over the window it returns an ever increasing BIGINT.</mrk><mrk mid="1" mtype="seg"> It is normally used to limit the number of rows returned for a query.</mrk><mrk mid="2" mtype="seg"> A <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt>result offset or fetch first clause<ept id="1">&lt;/xref&gt;</ept> can be a more efficient way to perform this task.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The ROW_NUMBER function does not take any arguments, and for each row over the window it returns an ever increasing BIGINT.</mrk><mrk mid="1" mtype="seg"> It is normally used to limit the number of rows returned for a query.</mrk><mrk mid="2" mtype="seg"> A <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt>result offset or fetch first clause<ept id="1">&lt;/xref&gt;</ept> can be a more efficient way to perform this task.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The data type of the returned value is BIGINT.</source>
+<seg-source><mrk mid="0" mtype="seg">The data type of the returned value is BIGINT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The data type of the returned value is BIGINT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>ROW_NUMBER ( ) OVER [ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>windowSpecification<ept id="2">&lt;/i&gt;</ept> | <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>windowName<ept id="3">&lt;/i&gt;</ept> ]<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>ROW_NUMBER ( ) OVER [ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>windowSpecification<ept id="2">&lt;/i&gt;</ept> | <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>windowName<ept id="3">&lt;/i&gt;</ept> ]<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>ROW_NUMBER ( ) OVER [ <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>windowSpecification<ept id="2">&lt;/i&gt;</ept> | <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>windowName<ept id="3">&lt;/i&gt;</ept> ]<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Currently, the only valid <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>windowSpecification<ept id="1">&lt;/i&gt;</ept> is an empty pair of parentheses (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>()<ept id="2">&lt;/codeph&gt;</ept>), which indicates that the function is evaluated over the entire result set.</source>
+<seg-source><mrk mid="0" mtype="seg">Currently, the only valid <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>windowSpecification<ept id="1">&lt;/i&gt;</ept> is an empty pair of parentheses (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>()<ept id="2">&lt;/codeph&gt;</ept>), which indicates that the function is evaluated over the entire result set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Currently, the only valid <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>windowSpecification<ept id="1">&lt;/i&gt;</ept> is an empty pair of parentheses (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>()<ept id="2">&lt;/codeph&gt;</ept>), which indicates that the function is evaluated over the entire result set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">If you choose to use a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljwindow.dita#rrefsqljwindow"&gt;</bpt>WINDOW clause<ept id="1">&lt;/xref&gt;</ept> in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> to specify a window, you must specify a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>windowName<ept id="4">&lt;/i&gt;</ept> to refer to it.</source>
+<seg-source><mrk mid="0" mtype="seg">If you choose to use a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljwindow.dita#rrefsqljwindow"&gt;</bpt>WINDOW clause<ept id="1">&lt;/xref&gt;</ept> in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> to specify a window, you must specify a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>windowName<ept id="4">&lt;/i&gt;</ept> to refer to it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you choose to use a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljwindow.dita#rrefsqljwindow"&gt;</bpt>WINDOW clause<ept id="1">&lt;/xref&gt;</ept> in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> to specify a window, you must specify a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>windowName<ept id="4">&lt;/i&gt;</ept> to refer to it.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">To limit the number of rows returned from a query to the first 10 rows of table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>T<ept id="1">&lt;/codeph&gt;</ept>, use the following query:</source>
+<seg-source><mrk mid="0" mtype="seg">To limit the number of rows returned from a query to the first 10 rows of table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>T<ept id="1">&lt;/codeph&gt;</ept>, use the following query:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To limit the number of rows returned from a query to the first 10 rows of table <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>T<ept id="1">&lt;/codeph&gt;</ept>, use the following query:</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM ( SELECT ROW_NUMBER() OVER () AS R, T.* FROM T ) AS TR WHERE R &lt;= 10;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM ( SELECT ROW_NUMBER() OVER () AS R, T.* FROM T ) AS TR WHERE R &lt;= 10;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM ( SELECT ROW_NUMBER() OVER () AS R, T.* FROM T ) AS TR WHERE R &lt;= 10;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">To display the result of a query using a window name in a WINDOW clause:</source>
+<seg-source><mrk mid="0" mtype="seg">To display the result of a query using a window name in a WINDOW clause:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To display the result of a query using a window name in a WINDOW clause:</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT ROW_NUMBER() OVER R, B, SUM(A) FROM T5 GROUP BY B WINDOW R AS ()<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT ROW_NUMBER() OVER R, B, SUM(A) FROM T5 GROUP BY B WINDOW R AS ()<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT ROW_NUMBER() OVER R, B, SUM(A) FROM T5 GROUP BY B WINDOW R AS ()<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

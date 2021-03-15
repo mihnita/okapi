@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="issue149-losing-directives-2.yaml" source-language="en" target-language="fr" datatype="x-text/x-yaml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/solidstate/code/okapi-integration-tests/target/test-classes/yaml/issues/okf_yaml@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1" resname="property1" xml:space="preserve">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="property2" xml:space="preserve">
+<source xml:lang="en">aaa</source>
+<seg-source><mrk mid="0" mtype="seg">aaa</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">aaa</mrk></target>
+</trans-unit>
+</group>
+<group id="sg2">
+<trans-unit id="tu3" resname="property1" xml:space="preserve">
+<source xml:lang="en">3</source>
+<seg-source><mrk mid="0" mtype="seg">3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="property2" xml:space="preserve">
+<source xml:lang="en">bbb</source>
+<seg-source><mrk mid="0" mtype="seg">bbb</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bbb</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

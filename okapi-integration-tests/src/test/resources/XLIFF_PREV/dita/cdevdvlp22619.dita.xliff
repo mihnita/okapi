@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdvlp22619.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Working with database threads in an embedded environment</source>
+<seg-source><mrk mid="0" mtype="seg">Working with database threads in an embedded environment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Working with database threads in an embedded environment</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">As a rule, do not use <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Thread.interrupt()<ept id="1">&lt;/i&gt;</ept> calls to signal possibly waiting threads that are also accessing a database, because <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> may catch the interrupt and close the connection to the database. Use <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>wait<ept id="3">&lt;/i&gt;</ept> and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>notify<ept id="4">&lt;/i&gt;</ept> calls instead.</source>
+<seg-source><mrk mid="0" mtype="seg">As a rule, do not use <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Thread.interrupt()<ept id="1">&lt;/i&gt;</ept> calls to signal possibly waiting threads that are also accessing a database, because <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> may catch the interrupt and close the connection to the database.</mrk><mrk mid="1" mtype="seg"> Use <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>wait<ept id="3">&lt;/i&gt;</ept> and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>notify<ept id="4">&lt;/i&gt;</ept> calls instead.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">As a rule, do not use <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Thread.interrupt()<ept id="1">&lt;/i&gt;</ept> calls to signal possibly waiting threads that are also accessing a database, because <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> may catch the interrupt and close the connection to the database.</mrk><mrk mid="1" mtype="seg"> Use <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>wait<ept id="3">&lt;/i&gt;</ept> and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>notify<ept id="4">&lt;/i&gt;</ept> calls instead.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">threads</source>
+<seg-source><mrk mid="0" mtype="seg">threads</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">threads</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">interrupt calls</source>
+<seg-source><mrk mid="0" mtype="seg">interrupt calls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">interrupt calls</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">notifying</source>
+<seg-source><mrk mid="0" mtype="seg">notifying</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">notifying</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">interrupt calls</source>
+<seg-source><mrk mid="0" mtype="seg">interrupt calls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">interrupt calls</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">caught by Derby</source>
+<seg-source><mrk mid="0" mtype="seg">caught by Derby</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">caught by Derby</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">There are also special considerations when working with more than one database thread in an application, as described in <bpt id="1" ctype="x-xref">&lt;xref href="cdevconcepts23499.dita#cdevconcepts23499"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">There are also special considerations when working with more than one database thread in an application, as described in <bpt id="1" ctype="x-xref">&lt;xref href="cdevconcepts23499.dita#cdevconcepts23499"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There are also special considerations when working with more than one database thread in an application, as described in <bpt id="1" ctype="x-xref">&lt;xref href="cdevconcepts23499.dita#cdevconcepts23499"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">When queries, batches, and statements that wait for database locks run longer than expected, you can use interrupts to stop them. If you do, the connection will be closed and an exception will be thrown.</source>
+<seg-source><mrk mid="0" mtype="seg">When queries, batches, and statements that wait for database locks run longer than expected, you can use interrupts to stop them.</mrk><mrk mid="1" mtype="seg"> If you do, the connection will be closed and an exception will be thrown.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When queries, batches, and statements that wait for database locks run longer than expected, you can use interrupts to stop them.</mrk><mrk mid="1" mtype="seg"> If you do, the connection will be closed and an exception will be thrown.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If you design an application whose database threads may see interrupts, you should plan for the following behavior:</source>
+<seg-source><mrk mid="0" mtype="seg">If you design an application whose database threads may see interrupts, you should plan for the following behavior:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you design an application whose database threads may see interrupts, you should plan for the following behavior:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">If a thread is interrupted and the interrupt status flag is not cleared before entering a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> JDBC call, or if the thread is interrupted while inside a <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> JDBC call, the connection that is experiencing the interrupt will be terminated in the following situations:</source>
+<seg-source><mrk mid="0" mtype="seg">If a thread is interrupted and the interrupt status flag is not cleared before entering a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> JDBC call, or if the thread is interrupted while inside a <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> JDBC call, the connection that is experiencing the interrupt will be terminated in the following situations:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a thread is interrupted and the interrupt status flag is not cleared before entering a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> JDBC call, or if the thread is interrupted while inside a <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> JDBC call, the connection that is experiencing the interrupt will be terminated in the following situations:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">If a query fetches rows from a database table after the interrupt has occurred</source>
+<seg-source><mrk mid="0" mtype="seg">If a query fetches rows from a database table after the interrupt has occurred</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a query fetches rows from a database table after the interrupt has occurred</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">If the execution of a new element in a batched statement is attempted after the interrupt has occurred</source>
+<seg-source><mrk mid="0" mtype="seg">If the execution of a new element in a batched statement is attempted after the interrupt has occurred</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the execution of a new element in a batched statement is attempted after the interrupt has occurred</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">If an interrupt is received while a transaction is waiting for a lock</source>
+<seg-source><mrk mid="0" mtype="seg">If an interrupt is received while a transaction is waiting for a lock</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If an interrupt is received while a transaction is waiting for a lock</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">If the connection is terminated, the application thread will experience the following consequences:</source>
+<seg-source><mrk mid="0" mtype="seg">If the connection is terminated, the application thread will experience the following consequences:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the connection is terminated, the application thread will experience the following consequences:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">The JDBC call will raise an <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="1">&lt;/i&gt;</ept> with state "08000" ("Connection closed by unknown interrupt").</source>
+<seg-source><mrk mid="0" mtype="seg">The JDBC call will raise an <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="1">&lt;/i&gt;</ept> with state "08000" ("Connection closed by unknown interrupt").</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The JDBC call will raise an <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="1">&lt;/i&gt;</ept> with state "08000" ("Connection closed by unknown interrupt").</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Outstanding transactional work on that connection will be rolled back, and all of its locks will be released.</source>
+<seg-source><mrk mid="0" mtype="seg">Outstanding transactional work on that connection will be rolled back, and all of its locks will be released.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Outstanding transactional work on that connection will be rolled back, and all of its locks will be released.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">The connection cannot be used to execute any further JDBC calls.</source>
+<seg-source><mrk mid="0" mtype="seg">The connection cannot be used to execute any further JDBC calls.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The connection cannot be used to execute any further JDBC calls.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">On return from the JDBC call, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Thread.isInterrupted()<ept id="1">&lt;/i&gt;</ept> method of the thread will return <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>true<ept id="2">&lt;/i&gt;</ept>, whether or not an exception terminating the connection was thrown. That is, even if <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> does not heed an interrupt, the flag will remain set on exit from the JDBC call.</source>
+<seg-source><mrk mid="0" mtype="seg">On return from the JDBC call, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Thread.isInterrupted()<ept id="1">&lt;/i&gt;</ept> method of the thread will return <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>true<ept id="2">&lt;/i&gt;</ept>, whether or not an exception terminating the connection was thrown.</mrk><mrk mid="1" mtype="seg"> That is, even if <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> does not heed an interrupt, the flag will remain set on exit from the JDBC call.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">On return from the JDBC call, the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Thread.isInterrupted()<ept id="1">&lt;/i&gt;</ept> method of the thread will return <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>true<ept id="2">&lt;/i&gt;</ept>, whether or not an exception terminating the connection was thrown.</mrk><mrk mid="1" mtype="seg"> That is, even if <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> does not heed an interrupt, the flag will remain set on exit from the JDBC call.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">All other connections will remain open. This includes other connections which the interrupted thread may be using. These connections will remain open at least until the thread tries to use one of its other connections. If the thead has neglected to clear its interrupted status flag, this connection is also subject to termination as described above.</source>
+<seg-source><mrk mid="0" mtype="seg">All other connections will remain open.</mrk><mrk mid="1" mtype="seg"> This includes other connections which the interrupted thread may be using.</mrk><mrk mid="2" mtype="seg"> These connections will remain open at least until the thread tries to use one of its other connections.</mrk><mrk mid="3" mtype="seg"> If the thead has neglected to clear its interrupted status flag, this connection is also subject to termination as described above.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All other connections will remain open.</mrk><mrk mid="1" mtype="seg"> This includes other connections which the interrupted thread may be using.</mrk><mrk mid="2" mtype="seg"> These connections will remain open at least until the thread tries to use one of its other connections.</mrk><mrk mid="3" mtype="seg"> If the thead has neglected to clear its interrupted status flag, this connection is also subject to termination as described above.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">The application should normally be prepared to catch the 08000 exceptions, discard the dead connection, clear the interrupted status of the thread, and then restart the transaction in a new connection.</source>
+<seg-source><mrk mid="0" mtype="seg">The application should normally be prepared to catch the 08000 exceptions, discard the dead connection, clear the interrupted status of the thread, and then restart the transaction in a new connection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The application should normally be prepared to catch the 08000 exceptions, discard the dead connection, clear the interrupted status of the thread, and then restart the transaction in a new connection.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

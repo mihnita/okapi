@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="hello.txt" source-language="en" target-language="de" datatype="x-plaintext" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M28" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="t1">
+<source xml:lang="en">The German acronym v.</source>
+<seg-source><mrk mid="0" mtype="seg">The German acronym v.</mrk></seg-source>
+<target xml:lang="de"><mrk mid="0" mtype="seg">Niemiecki skr�t v.</mrk><mrk mid="1" mtype="seg"> OT oznacza g�rna pozycje silnika.</mrk></target>
+<note>This segment should be grouped with the next segment.</note>
+</trans-unit>
+<trans-unit id="t2">
+<source xml:lang="en">OT signifies the top dead center position for an engine.</source>
+<seg-source><mrk mid="0" mtype="seg">OT signifies the top dead center position for an engine.</mrk></seg-source>
+<target xml:lang="de"><mrk mid="0" mtype="seg">OT signifies the top dead center position for an engine.</mrk></target>
+<note>The previous segment should be grouped with this segment.</note>
+</trans-unit>
+<group id="g1">
+<trans-unit id="t3">
+<source xml:lang="en">The German acronym v.</source>
+<seg-source><mrk mid="0" mtype="seg">The German acronym v.</mrk></seg-source>
+<target xml:lang="de"><mrk mid="0" mtype="seg">Niemiecki skr�t v.</mrk><mrk mid="1" mtype="seg"> OT oznacza g�rna pozycje silnika.</mrk></target>
+</trans-unit>
+<trans-unit id="t4">
+<source xml:lang="en">OT signifies the top dead center position for an engine.</source>
+<seg-source><mrk mid="0" mtype="seg">OT signifies the top dead center position for an engine.</mrk></seg-source>
+<target xml:lang="de"><mrk mid="0" mtype="seg">OT signifies the top dead center position for an engine.</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

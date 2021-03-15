@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" 
+       xmlns:mtc="urn:oasis:names:tc:xliff:matches:2.0"
+       xmlns:its="http://www.w3.org/2005/11/its" its:version="2.0"
+       version="2.0" srcLang="en" trgLang="fr">
+<file id="f1" its:annotatorsRef="mt-confidence|MTServices-XYZ">
+ <unit id="u1">
+  <mtc:matches>
+   <!-- Score provided by MTServices-XYZ -->
+   <mtc:match ref="#m1" matchQuality="89.82">
+    <source>Text</source>
+    <target >Texte</target>
+   </mtc:match>
+   <!-- Score provided by MTProvider-ABC -->
+   <mtc:match ref="#m1" matchQuality="67.8"
+              its:annotatorsRef="mt-confidence|MTProvider-ABC">
+    <source>Text</source>
+    <target >Texte</target>
+   </mtc:match>
+   <!-- Score provided by MTProvider-JKL -->
+   <mtc:match ref="#m1" matchQuality="65"
+             its:annotatorsRef="mt-confidence|MTProvider-JKL">
+    <source>Text</source>
+    <target >texte</target>
+   </mtc:match>
+   <!-- Score provided by MTServices-XYZ -->
+   <mtc:match ref="#m1" matchQuality="89.82">
+    <source>Some text</source>
+    <target>Du texte</target>
+   </mtc:match>
+  </mtc:matches>
+  <segment>
+   <source><mrk id='m1' type='mtc:match'>Text</mrk></source>
+  </segment>
+ </unit>
+ <unit id="u2">
+  <segment>
+   <source>Some text.</source>
+   <target><mrk id="m1" type="its:any"
+    its:mtConfidence="0.8982"
+    its:annotatorsRef="mt-confidence|MTServices-XYZ">Du texte</mrk></target>
+  </segment>
+ </unit>
+</file>
+</xliff>

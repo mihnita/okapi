@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecure876908.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Guest access to search for DNs</source>
+<seg-source><mrk mid="0" mtype="seg">Guest access to search for DNs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Guest access to search for DNs</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">In an LDAP system, users are hierarchically organized in the directory as a set of entries. An <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>entry<ept id="1">&lt;/i&gt;</ept> is a set of name-attribute pairs identified by a unique name, called a DN (distinguished name).</source>
+<seg-source><mrk mid="0" mtype="seg">In an LDAP system, users are hierarchically organized in the directory as a set of entries.</mrk><mrk mid="1" mtype="seg"> An <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>entry<ept id="1">&lt;/i&gt;</ept> is a set of name-attribute pairs identified by a unique name, called a DN (distinguished name).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In an LDAP system, users are hierarchically organized in the directory as a set of entries.</mrk><mrk mid="1" mtype="seg"> An <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>entry<ept id="1">&lt;/i&gt;</ept> is a set of name-attribute pairs identified by a unique name, called a DN (distinguished name).</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">An entry is unambiguously identified by a DN, which is the concatenation of selected attributes from each entry in the tree along a path leading from the root down to the named entry, ordered from right to left. For example, a DN for a user might look like this:</source>
+<seg-source><mrk mid="0" mtype="seg">An entry is unambiguously identified by a DN, which is the concatenation of selected attributes from each entry in the tree along a path leading from the root down to the named entry, ordered from right to left.</mrk><mrk mid="1" mtype="seg"> For example, a DN for a user might look like this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An entry is unambiguously identified by a DN, which is the concatenation of selected attributes from each entry in the tree along a path leading from the root down to the named entry, ordered from right to left.</mrk><mrk mid="1" mtype="seg"> For example, a DN for a user might look like this:</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">cn=mary,ou=People,o=example.com uid=mary,ou=People,o=example.com</source>
+<seg-source><mrk mid="0" mtype="seg">cn=mary,ou=People,o=example.com uid=mary,ou=People,o=example.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cn=mary,ou=People,o=example.com uid=mary,ou=People,o=example.com</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The allowable entries for the name are defined by the entry's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>objectClass<ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The allowable entries for the name are defined by the entry's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>objectClass<ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The allowable entries for the name are defined by the entry's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>objectClass<ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">An LDAP client can bind to the directory (successfully log in) if it provides a user ID and password. The user ID must be a DN, the fully qualified list of names and attributes. This means that the user must provide a very long name.</source>
+<seg-source><mrk mid="0" mtype="seg">An LDAP client can bind to the directory (successfully log in) if it provides a user ID and password.</mrk><mrk mid="1" mtype="seg"> The user ID must be a DN, the fully qualified list of names and attributes.</mrk><mrk mid="2" mtype="seg"> This means that the user must provide a very long name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An LDAP client can bind to the directory (successfully log in) if it provides a user ID and password.</mrk><mrk mid="1" mtype="seg"> The user ID must be a DN, the fully qualified list of names and attributes.</mrk><mrk mid="2" mtype="seg"> This means that the user must provide a very long name.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Typically, the user knows only a simple user name (e.g., the first part of the DN above, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>mary<ept id="1">&lt;/i&gt;</ept>). With <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, you do not need the full DN, because an LDAP client (<bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>) can go to the directory first as a guest or even an anonymous user, search for the full DN, then rebind to the directory using the full DN (and thus authenticate the user).</source>
+<seg-source><mrk mid="0" mtype="seg">Typically, the user knows only a simple user name (e.g., the first part of the DN above, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>mary<ept id="1">&lt;/i&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> With <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, you do not need the full DN, because an LDAP client (<bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>) can go to the directory first as a guest or even an anonymous user, search for the full DN, then rebind to the directory using the full DN (and thus authenticate the user).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Typically, the user knows only a simple user name (e.g., the first part of the DN above, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>mary<ept id="1">&lt;/i&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> With <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, you do not need the full DN, because an LDAP client (<bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>) can go to the directory first as a guest or even an anonymous user, search for the full DN, then rebind to the directory using the full DN (and thus authenticate the user).</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> typically initiates a search for a full DN before binding to the directory using the full DN for user authentication. <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not initiate a search in the following cases:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> typically initiates a search for a full DN before binding to the directory using the full DN for user authentication.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not initiate a search in the following cases:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> typically initiates a search for a full DN before binding to the directory using the full DN for user authentication.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not initiate a search in the following cases:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">You have set <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchFilter<ept id="1">&lt;/i&gt;</ept> to <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.user<ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You have set <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchFilter<ept id="1">&lt;/i&gt;</ept> to <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.user<ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You have set <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchFilter<ept id="1">&lt;/i&gt;</ept> to <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.user<ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">A user DN has been cached locally for the specific user with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.user.UserName<ept id="1">&lt;/i&gt;</ept> property.</source>
+<seg-source><mrk mid="0" mtype="seg">A user DN has been cached locally for the specific user with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.user.UserName<ept id="1">&lt;/i&gt;</ept> property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A user DN has been cached locally for the specific user with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.user.UserName<ept id="1">&lt;/i&gt;</ept> property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">For more information, see "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchFilter<ept id="1">&lt;/i&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information, see "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchFilter<ept id="1">&lt;/i&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information, see "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchFilter<ept id="1">&lt;/i&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Some systems permit anonymous searches; other require a user DN and password. You can specify a user's DN and password for the search with the properties listed below. In addition, you can limit the scope of the search by specifying a filter (definition of the object class for the user) and a base (directory from which to begin the search) with the properties listed below.</source>
+<seg-source><mrk mid="0" mtype="seg">Some systems permit anonymous searches; other require a user DN and password.</mrk><mrk mid="1" mtype="seg"> You can specify a user's DN and password for the search with the properties listed below.</mrk><mrk mid="2" mtype="seg"> In addition, you can limit the scope of the search by specifying a filter (definition of the object class for the user) and a base (directory from which to begin the search) with the properties listed below.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Some systems permit anonymous searches; other require a user DN and password.</mrk><mrk mid="1" mtype="seg"> You can specify a user's DN and password for the search with the properties listed below.</mrk><mrk mid="2" mtype="seg"> In addition, you can limit the scope of the search by specifying a filter (definition of the object class for the user) and a base (directory from which to begin the search) with the properties listed below.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchAuthDN (optional)<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchAuthDN (optional)<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchAuthDN (optional)<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Specifies the DN with which to bind (authenticate) to the server when searching for user DNs. This parameter is optional if anonymous access is supported by your server. If specified, this value must be a DN recognized by the directory service, and it must also have the authority to search for the entries.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the DN with which to bind (authenticate) to the server when searching for user DNs.</mrk><mrk mid="1" mtype="seg"> This parameter is optional if anonymous access is supported by your server.</mrk><mrk mid="2" mtype="seg"> If specified, this value must be a DN recognized by the directory service, and it must also have the authority to search for the entries.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the DN with which to bind (authenticate) to the server when searching for user DNs.</mrk><mrk mid="1" mtype="seg"> This parameter is optional if anonymous access is supported by your server.</mrk><mrk mid="2" mtype="seg"> If specified, this value must be a DN recognized by the directory service, and it must also have the authority to search for the entries.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">If not set, it defaults to an anonymous search using the root DN specified by the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchBase<ept id="1">&lt;/i&gt;</ept> property. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">If not set, it defaults to an anonymous search using the root DN specified by the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchBase<ept id="1">&lt;/i&gt;</ept> property.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If not set, it defaults to an anonymous search using the root DN specified by the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchBase<ept id="1">&lt;/i&gt;</ept> property.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">uid=guest,o=example.com</source>
+<seg-source><mrk mid="0" mtype="seg">uid=guest,o=example.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">uid=guest,o=example.com</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchAuthPW (optional)<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchAuthPW (optional)<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchAuthPW (optional)<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Specifies the password to use for the guest user configured above to bind to the directory service when looking up the DN. If not set, it defaults to an anonymous search using the root DN specified by the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchBase<ept id="1">&lt;/i&gt;</ept> property.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the password to use for the guest user configured above to bind to the directory service when looking up the DN.</mrk><mrk mid="1" mtype="seg"> If not set, it defaults to an anonymous search using the root DN specified by the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchBase<ept id="1">&lt;/i&gt;</ept> property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the password to use for the guest user configured above to bind to the directory service when looking up the DN.</mrk><mrk mid="1" mtype="seg"> If not set, it defaults to an anonymous search using the root DN specified by the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchBase<ept id="1">&lt;/i&gt;</ept> property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">myPassword</source>
+<seg-source><mrk mid="0" mtype="seg">myPassword</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">myPassword</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchBase (optional)<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchBase (optional)<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchBase (optional)<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Specifies the root DN of the point in your hierarchy from which to begin a guest search for the user's DN. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the root DN of the point in your hierarchy from which to begin a guest search for the user's DN.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the root DN of the point in your hierarchy from which to begin a guest search for the user's DN.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">ou=people,o=example.com</source>
+<seg-source><mrk mid="0" mtype="seg">ou=people,o=example.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ou=people,o=example.com</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">When using Netscape Directory Server, set this property to the root DN, the special entry to which access control does not apply (optional).</source>
+<seg-source><mrk mid="0" mtype="seg">When using Netscape Directory Server, set this property to the root DN, the special entry to which access control does not apply (optional).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When using Netscape Directory Server, set this property to the root DN, the special entry to which access control does not apply (optional).</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">To narrow the search, you can specify a user's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>objectClass<ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">To narrow the search, you can specify a user's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>objectClass<ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To narrow the search, you can specify a user's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>objectClass<ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchFilter (optional)<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchFilter (optional)<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchFilter (optional)<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Set <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchFilter<ept id="1">&lt;/i&gt;</ept> to a logical expression that specifies what constitutes a user for your LDAP directory service. The default value of this property is <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>objectClass=inetOrgPerson<ept id="2">&lt;/codeph&gt;</ept>. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">Set <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchFilter<ept id="1">&lt;/i&gt;</ept> to a logical expression that specifies what constitutes a user for your LDAP directory service.</mrk><mrk mid="1" mtype="seg"> The default value of this property is <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>objectClass=inetOrgPerson<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.authentication.ldap.searchFilter<ept id="1">&lt;/i&gt;</ept> to a logical expression that specifies what constitutes a user for your LDAP directory service.</mrk><mrk mid="1" mtype="seg"> The default value of this property is <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>objectClass=inetOrgPerson<ept id="2">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">objectClass=person</source>
+<seg-source><mrk mid="0" mtype="seg">objectClass=person</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">objectClass=person</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details on all these properties.</source>
+<seg-source><mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details on all these properties.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details on all these properties.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

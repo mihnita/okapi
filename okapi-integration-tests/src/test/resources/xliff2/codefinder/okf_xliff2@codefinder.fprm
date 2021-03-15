@@ -1,0 +1,12 @@
+#v1
+maxValidation.b=true
+mergeAsParagraph.b=false
+simplifyTags.b=false
+useCodeFinder.b=true
+codeFinderRules.count.i=4
+codeFinderRules.rule0=\{[^}]*?\}
+codeFinderRules.rule1=\[[^]]*?\]
+codeFinderRules.rule2=%(([-0+#]?)[-0+#]?)((\d\$)?)(([\d\*]*)(\.[\d\*]*)?)[dioxXucsfeEgGpn@]
+codeFinderRules.rule3=\$[a-zA-Z_-]+
+codeFinderRules.sample=[….]$0a${….}$0a$%@$0a$%s$0a$%1$s$0a$%2$s$0a$%d$0a$%1$d$0a$%2$d$0a$%u$0a$%1$@$0a$%2$@$0a$%3$@$0a$%4$@$0a$%1$s$0a$%2$s$0a$%3$s$0a$%d$0a$%c$0a$$privacy$0a$%3$d$0a$%4$d$0a$%5$d$0a$%6$d$0a$%3$d$0a$%4$d$0a$%5$d$0a$%6$d$0a$%4$s$0a$%5$s$0a$%6$s$0a$%5$@$0a$%6$@
+codeFinderRules.useAllRulesWhenTesting.b=true

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminconfig815357.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Shutting down by using the API</source>
+<seg-source><mrk mid="0" mtype="seg">Shutting down by using the API</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shutting down by using the API</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You can use the NetworkServerControl API to shut down the Network Server from within a Java application.</source>
+<seg-source><mrk mid="0" mtype="seg">You can use the NetworkServerControl API to shut down the Network Server from within a Java application.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use the NetworkServerControl API to shut down the Network Server from within a Java application.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">shutting down using the API</source>
+<seg-source><mrk mid="0" mtype="seg">shutting down using the API</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shutting down using the API</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The name of the method that you use to shut down the Network Server is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown()<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the method that you use to shut down the Network Server is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown()<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the method that you use to shut down the Network Server is <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>shutdown()<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">For example, the following command shuts down the Network Server running on the current machine using the default port number (1527):</source>
+<seg-source><mrk mid="0" mtype="seg">For example, the following command shuts down the Network Server running on the current machine using the default port number (1527):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, the following command shuts down the Network Server running on the current machine using the default port number (1527):</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">NetworkServerControl server = new NetworkServerControl(); server.shutdown();</source>
+<seg-source><mrk mid="0" mtype="seg">NetworkServerControl server = new NetworkServerControl(); server.shutdown();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NetworkServerControl server = new NetworkServerControl(); server.shutdown();</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">To shut down a server running with user authentication, you need to use a NetworkServerControl instance created with user credentials:</source>
+<seg-source><mrk mid="0" mtype="seg">To shut down a server running with user authentication, you need to use a NetworkServerControl instance created with user credentials:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To shut down a server running with user authentication, you need to use a NetworkServerControl instance created with user credentials:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">NetworkServerControl server = new NetworkServerControl(username, password); server.shutdown();</source>
+<seg-source><mrk mid="0" mtype="seg">NetworkServerControl server = new NetworkServerControl(username, password); server.shutdown();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NetworkServerControl server = new NetworkServerControl(username, password); server.shutdown();</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefimportproc.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_IMPORT_TABLE system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_IMPORT_TABLE system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_IMPORT_TABLE system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_IMPORT_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure imports data from an input file into all of the columns of a table. If the table receiving the imported data already contains data, you can either replace or append to the existing data.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_IMPORT_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure imports data from an input file into all of the columns of a table.</mrk><mrk mid="1" mtype="seg"> If the table receiving the imported data already contains data, you can either replace or append to the existing data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_IMPORT_TABLE<ept id="1">&lt;/codeph&gt;</ept> system procedure imports data from an input file into all of the columns of a table.</mrk><mrk mid="1" mtype="seg"> If the table receiving the imported data already contains data, you can either replace or append to the existing data.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues a COMMIT or a ROLLBACK statement after each import and export procedure is run (a COMMIT if the procedure completes successfully, a ROLLBACK if it fails). For this reason, you should issue either a COMMIT or ROLLBACK statement to complete all transactions and release all table-level locks before you invoke an import or export procedure.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues a COMMIT or a ROLLBACK statement after each import and export procedure is run (a COMMIT if the procedure completes successfully, a ROLLBACK if it fails).</mrk><mrk mid="1" mtype="seg"> For this reason, you should issue either a COMMIT or ROLLBACK statement to complete all transactions and release all table-level locks before you invoke an import or export procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues a COMMIT or a ROLLBACK statement after each import and export procedure is run (a COMMIT if the procedure completes successfully, a ROLLBACK if it fails).</mrk><mrk mid="1" mtype="seg"> For this reason, you should issue either a COMMIT or ROLLBACK statement to complete all transactions and release all table-level locks before you invoke an import or export procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">For more information on using this procedure, see the section "Importing and exporting data" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information on using this procedure, see the section "Importing and exporting data" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information on using this procedure, see the section "Importing and exporting data" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_IMPORT_TABLE (IN SCHEMANAME VARCHAR(128), IN TABLENAME VARCHAR(128), IN FILENAME VARCHAR(32672), IN COLUMNDELIMITER CHAR(1), IN CHARACTERDELIMITER CHAR(1), IN CODESET VARCHAR(128), IN REPLACE SMALLINT)</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_IMPORT_TABLE (IN SCHEMANAME VARCHAR(128), IN TABLENAME VARCHAR(128), IN FILENAME VARCHAR(32672), IN COLUMNDELIMITER CHAR(1), IN CHARACTERDELIMITER CHAR(1), IN CODESET VARCHAR(128), IN REPLACE SMALLINT)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_IMPORT_TABLE (IN SCHEMANAME VARCHAR(128), IN TABLENAME VARCHAR(128), IN FILENAME VARCHAR(32672), IN COLUMNDELIMITER CHAR(1), IN CHARACTERDELIMITER CHAR(1), IN CODESET VARCHAR(128), IN REPLACE SMALLINT)</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">No result is returned from the procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">No result is returned from the procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No result is returned from the procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">SCHEMANAME</source>
+<seg-source><mrk mid="0" mtype="seg">SCHEMANAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SCHEMANAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">An input argument of type VARCHAR(128) that specifies the schema of the table. Passing a NULL value will use the default schema name.</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the schema of the table.</mrk><mrk mid="1" mtype="seg"> Passing a NULL value will use the default schema name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the schema of the table.</mrk><mrk mid="1" mtype="seg"> Passing a NULL value will use the default schema name.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">TABLENAME</source>
+<seg-source><mrk mid="0" mtype="seg">TABLENAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TABLENAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">An input argument of type VARCHAR (128) that specifies the table name of the table into which the data is to be imported. This table cannot be a system table or a declared temporary table. Passing a null will result in an error.</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type VARCHAR (128) that specifies the table name of the table into which the data is to be imported.</mrk><mrk mid="1" mtype="seg"> This table cannot be a system table or a declared temporary table.</mrk><mrk mid="2" mtype="seg"> Passing a null will result in an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type VARCHAR (128) that specifies the table name of the table into which the data is to be imported.</mrk><mrk mid="1" mtype="seg"> This table cannot be a system table or a declared temporary table.</mrk><mrk mid="2" mtype="seg"> Passing a null will result in an error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">FILENAME</source>
+<seg-source><mrk mid="0" mtype="seg">FILENAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FILENAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">An input argument of type VARCHAR(32672) that specifies the file that contains the data to be imported. If you do not specify a path, the current working directory is used. Passing a NULL value will result in an error.</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type VARCHAR(32672) that specifies the file that contains the data to be imported.</mrk><mrk mid="1" mtype="seg"> If you do not specify a path, the current working directory is used.</mrk><mrk mid="2" mtype="seg"> Passing a NULL value will result in an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type VARCHAR(32672) that specifies the file that contains the data to be imported.</mrk><mrk mid="1" mtype="seg"> If you do not specify a path, the current working directory is used.</mrk><mrk mid="2" mtype="seg"> Passing a NULL value will result in an error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">COLUMNDELIMITER</source>
+<seg-source><mrk mid="0" mtype="seg">COLUMNDELIMITER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COLUMNDELIMITER</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">An input argument of type CHAR(1) that specifies a column delimiter. The specified character is used in place of a comma to signal the end of a column. Passing a NULL value will use the default value; the default value is a comma (,).</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type CHAR(1) that specifies a column delimiter.</mrk><mrk mid="1" mtype="seg"> The specified character is used in place of a comma to signal the end of a column.</mrk><mrk mid="2" mtype="seg"> Passing a NULL value will use the default value; the default value is a comma (,).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type CHAR(1) that specifies a column delimiter.</mrk><mrk mid="1" mtype="seg"> The specified character is used in place of a comma to signal the end of a column.</mrk><mrk mid="2" mtype="seg"> Passing a NULL value will use the default value; the default value is a comma (,).</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">CHARACTERDELIMITER</source>
+<seg-source><mrk mid="0" mtype="seg">CHARACTERDELIMITER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHARACTERDELIMITER</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">An input argument of type CHAR(1) that specifies a character delimiter. The specified character is used in place of double quotation marks to enclose a character string. Passing a NULL value will use the default value; the default value is a double quotation mark (").</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type CHAR(1) that specifies a character delimiter.</mrk><mrk mid="1" mtype="seg"> The specified character is used in place of double quotation marks to enclose a character string.</mrk><mrk mid="2" mtype="seg"> Passing a NULL value will use the default value; the default value is a double quotation mark (").</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type CHAR(1) that specifies a character delimiter.</mrk><mrk mid="1" mtype="seg"> The specified character is used in place of double quotation marks to enclose a character string.</mrk><mrk mid="2" mtype="seg"> Passing a NULL value will use the default value; the default value is a double quotation mark (").</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">CODESET</source>
+<seg-source><mrk mid="0" mtype="seg">CODESET</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CODESET</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">An input argument of type VARCHAR(128) that specifies the code set of the data in the input file. The name of the code set should be one of the Java-supported character encodings. Data is converted from the specified code set to the database code set (utf-8). Passing a NULL value will interpret the data file in the same code set as the JVM in which it is being executed.</source>
+<seg-source><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the code set of the data in the input file.</mrk><mrk mid="1" mtype="seg"> The name of the code set should be one of the Java-supported character encodings.</mrk><mrk mid="2" mtype="seg"> Data is converted from the specified code set to the database code set (utf-8).</mrk><mrk mid="3" mtype="seg"> Passing a NULL value will interpret the data file in the same code set as the JVM in which it is being executed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An input argument of type VARCHAR(128) that specifies the code set of the data in the input file.</mrk><mrk mid="1" mtype="seg"> The name of the code set should be one of the Java-supported character encodings.</mrk><mrk mid="2" mtype="seg"> Data is converted from the specified code set to the database code set (utf-8).</mrk><mrk mid="3" mtype="seg"> Passing a NULL value will interpret the data file in the same code set as the JVM in which it is being executed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">REPLACE</source>
+<seg-source><mrk mid="0" mtype="seg">REPLACE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REPLACE</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">A input argument of type SMALLINT. A non-zero value will run in REPLACE mode, while a value of zero will run in INSERT mode. REPLACE mode deletes all existing data from the table by truncating the data object, and inserts the imported data. The table definition and the index definitions are not changed. INSERT mode adds the imported data to the table without changing the existing table data. Passing a NULL will result in an error.</source>
+<seg-source><mrk mid="0" mtype="seg">A input argument of type SMALLINT.</mrk><mrk mid="1" mtype="seg"> A non-zero value will run in REPLACE mode, while a value of zero will run in INSERT mode.</mrk><mrk mid="2" mtype="seg"> REPLACE mode deletes all existing data from the table by truncating the data object, and inserts the imported data.</mrk><mrk mid="3" mtype="seg"> The table definition and the index definitions are not changed.</mrk><mrk mid="4" mtype="seg"> INSERT mode adds the imported data to the table without changing the existing table data.</mrk><mrk mid="5" mtype="seg"> Passing a NULL will result in an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A input argument of type SMALLINT.</mrk><mrk mid="1" mtype="seg"> A non-zero value will run in REPLACE mode, while a value of zero will run in INSERT mode.</mrk><mrk mid="2" mtype="seg"> REPLACE mode deletes all existing data from the table by truncating the data object, and inserts the imported data.</mrk><mrk mid="3" mtype="seg"> The table definition and the index definitions are not changed.</mrk><mrk mid="4" mtype="seg"> INSERT mode adds the imported data to the table without changing the existing table data.</mrk><mrk mid="5" mtype="seg"> Passing a NULL will result in an error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">If you create a schema, table, or column name as a non-delimited identifier, you must pass the name to the import procedure using all uppercase characters. If you created a schema, table, or column name as a delimited identifier, you must pass the name to the import procedure using the same case that was used when it was created.</source>
+<seg-source><mrk mid="0" mtype="seg">If you create a schema, table, or column name as a non-delimited identifier, you must pass the name to the import procedure using all uppercase characters.</mrk><mrk mid="1" mtype="seg"> If you created a schema, table, or column name as a delimited identifier, you must pass the name to the import procedure using the same case that was used when it was created.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you create a schema, table, or column name as a non-delimited identifier, you must pass the name to the import procedure using all uppercase characters.</mrk><mrk mid="1" mtype="seg"> If you created a schema, table, or column name as a delimited identifier, you must pass the name to the import procedure using the same case that was used when it was created.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default. See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information. The database owner can grant access to other users. The user must also have INSERT privileges on the table.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk><mrk mid="3" mtype="seg"> The user must also have INSERT privileges on the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk><mrk mid="3" mtype="seg"> The user must also have INSERT privileges on the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">The following example imports data into the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>STAFF<ept id="1">&lt;/codeph&gt;</ept> table from a delimited data file called <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="2">&lt;/codeph&gt;</ept> with the percentage character (%) as the string delimiter, and a semicolon (;) as the column delimiter:</source>
+<seg-source><mrk mid="0" mtype="seg">The following example imports data into the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>STAFF<ept id="1">&lt;/codeph&gt;</ept> table from a delimited data file called <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="2">&lt;/codeph&gt;</ept> with the percentage character (%) as the string delimiter, and a semicolon (;) as the column delimiter:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example imports data into the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>STAFF<ept id="1">&lt;/codeph&gt;</ept> table from a delimited data file called <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="2">&lt;/codeph&gt;</ept> with the percentage character (%) as the string delimiter, and a semicolon (;) as the column delimiter:</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE (null, 'STAFF', 'c:/output/myfile.del', ';', '%', null,0);</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE (null, 'STAFF', 'c:/output/myfile.del', ';', '%', null,0);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE (null, 'STAFF', 'c:/output/myfile.del', ';', '%', null,0);</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

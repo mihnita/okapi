@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts28436.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Deadlocks</source>
+<seg-source><mrk mid="0" mtype="seg">Deadlocks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Deadlocks</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">In a database, a deadlock is a situation in which two or more transactions are waiting for one another to give up locks.</source>
+<seg-source><mrk mid="0" mtype="seg">In a database, a deadlock is a situation in which two or more transactions are waiting for one another to give up locks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In a database, a deadlock is a situation in which two or more transactions are waiting for one another to give up locks.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">deadlocks</source>
+<seg-source><mrk mid="0" mtype="seg">deadlocks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">deadlocks</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">description</source>
+<seg-source><mrk mid="0" mtype="seg">description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">description</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">For example, Transaction A might hold a lock on some rows in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Accounts<ept id="1">&lt;/i&gt;</ept> table and needs to update some rows in the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Orders<ept id="2">&lt;/i&gt;</ept> table to finish. Transaction B holds locks on those very rows in the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Orders<ept id="3">&lt;/i&gt;</ept> table but needs to update the rows in the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Accounts<ept id="4">&lt;/i&gt;</ept> table held by Transaction A. Transaction A cannot complete its transaction because of the lock on <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>Orders<ept id="5">&lt;/i&gt;</ept>. Transaction B cannot complete its transaction because of the lock on <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>Accounts<ept id="6">&lt;/i&gt;</ept>. All activity comes to a halt and remains at a standstill forever unless the DBMS detects the deadlock and aborts one of the transactions. The following figure shows this situation.</source>
+<seg-source><mrk mid="0" mtype="seg">For example, Transaction A might hold a lock on some rows in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Accounts<ept id="1">&lt;/i&gt;</ept> table and needs to update some rows in the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Orders<ept id="2">&lt;/i&gt;</ept> table to finish.</mrk><mrk mid="1" mtype="seg"> Transaction B holds locks on those very rows in the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Orders<ept id="3">&lt;/i&gt;</ept> table but needs to update the rows in the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Accounts<ept id="4">&lt;/i&gt;</ept> table held by Transaction A. Transaction A cannot complete its transaction because of the lock on <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>Orders<ept id="5">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> Transaction B cannot complete its transaction because of the lock on <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>Accounts<ept id="6">&lt;/i&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> All activity comes to a halt and remains at a standstill forever unless the DBMS detects the deadlock and aborts one of the transactions.</mrk><mrk mid="4" mtype="seg"> The following figure shows this situation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, Transaction A might hold a lock on some rows in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Accounts<ept id="1">&lt;/i&gt;</ept> table and needs to update some rows in the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Orders<ept id="2">&lt;/i&gt;</ept> table to finish.</mrk><mrk mid="1" mtype="seg"> Transaction B holds locks on those very rows in the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Orders<ept id="3">&lt;/i&gt;</ept> table but needs to update the rows in the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Accounts<ept id="4">&lt;/i&gt;</ept> table held by Transaction A. Transaction A cannot complete its transaction because of the lock on <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>Orders<ept id="5">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> Transaction B cannot complete its transaction because of the lock on <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>Accounts<ept id="6">&lt;/i&gt;</ept>.</mrk><mrk mid="3" mtype="seg"> All activity comes to a halt and remains at a standstill forever unless the DBMS detects the deadlock and aborts one of the transactions.</mrk><mrk mid="4" mtype="seg"> The following figure shows this situation.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">A deadlock where two transactions are waiting for one another to give up locks</source>
+<seg-source><mrk mid="0" mtype="seg">A deadlock where two transactions are waiting for one another to give up locks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A deadlock where two transactions are waiting for one another to give up locks</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><it id="1" ctype="x-alt" pos="open">&lt;alt&gt;</it>This figure depicts a deadlock. Transaction A has a lock on the Accounts table and needs a lock on the Orders table to finish the transaction. Transaction B has a lock on the Orders table and needs a lock on the Accounts table to finish the transaction.<it id="1" ctype="x-alt" pos="close">&lt;/alt&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-alt" pos="open">&lt;alt&gt;</it>This figure depicts a deadlock.</mrk><mrk mid="1" mtype="seg"> Transaction A has a lock on the Accounts table and needs a lock on the Orders table to finish the transaction.</mrk><mrk mid="2" mtype="seg"> Transaction B has a lock on the Orders table and needs a lock on the Accounts table to finish the transaction.<it id="1" ctype="x-alt" pos="close">&lt;/alt&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-alt" pos="open">&lt;alt&gt;</it>This figure depicts a deadlock.</mrk><mrk mid="1" mtype="seg"> Transaction A has a lock on the Accounts table and needs a lock on the Orders table to finish the transaction.</mrk><mrk mid="2" mtype="seg"> Transaction B has a lock on the Orders table and needs a lock on the Accounts table to finish the transaction.<it id="1" ctype="x-alt" pos="close">&lt;/alt&gt;</it></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj38831.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS<ept id="1">&lt;/codeph&gt;</ept> system procedure turns a connection's runtime statistics on or off.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS<ept id="1">&lt;/codeph&gt;</ept> system procedure turns a connection's runtime statistics on or off.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS<ept id="1">&lt;/codeph&gt;</ept> system procedure turns a connection's runtime statistics on or off.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">By default, the runtime statistics are turned off. When the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimestatistics<ept id="1">&lt;/codeph&gt;</ept> attribute is turned on, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> maintains information about the execution plan for each statement executed within the connection (except for COMMIT) until the attribute is turned off. To turn the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimestatistics<ept id="3">&lt;/codeph&gt;</ept> attribute off, call the procedure with an argument of zero. To turn the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimestatistics<ept id="4">&lt;/codeph&gt;</ept> on, call the procedure with any non-zero argument.</source>
+<seg-source><mrk mid="0" mtype="seg">By default, the runtime statistics are turned off.</mrk><mrk mid="1" mtype="seg"> When the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimestatistics<ept id="1">&lt;/codeph&gt;</ept> attribute is turned on, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> maintains information about the execution plan for each statement executed within the connection (except for COMMIT) until the attribute is turned off.</mrk><mrk mid="2" mtype="seg"> To turn the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimestatistics<ept id="3">&lt;/codeph&gt;</ept> attribute off, call the procedure with an argument of zero.</mrk><mrk mid="3" mtype="seg"> To turn the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimestatistics<ept id="4">&lt;/codeph&gt;</ept> on, call the procedure with any non-zero argument.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default, the runtime statistics are turned off.</mrk><mrk mid="1" mtype="seg"> When the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimestatistics<ept id="1">&lt;/codeph&gt;</ept> attribute is turned on, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> maintains information about the execution plan for each statement executed within the connection (except for COMMIT) until the attribute is turned off.</mrk><mrk mid="2" mtype="seg"> To turn the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimestatistics<ept id="3">&lt;/codeph&gt;</ept> attribute off, call the procedure with an argument of zero.</mrk><mrk mid="3" mtype="seg"> To turn the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>runtimestatistics<ept id="4">&lt;/codeph&gt;</ept> on, call the procedure with any non-zero argument.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">For statements that do not return rows, the object is created when all internal processing has completed before returning to the client program. For statements that return rows, the object is created when the first <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>next()<ept id="1">&lt;/codeph&gt;</ept> call returns 0 rows or if a <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>close()<ept id="2">&lt;/codeph&gt;</ept> call is encountered, whichever comes first.</source>
+<seg-source><mrk mid="0" mtype="seg">For statements that do not return rows, the object is created when all internal processing has completed before returning to the client program.</mrk><mrk mid="1" mtype="seg"> For statements that return rows, the object is created when the first <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>next()<ept id="1">&lt;/codeph&gt;</ept> call returns 0 rows or if a <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>close()<ept id="2">&lt;/codeph&gt;</ept> call is encountered, whichever comes first.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For statements that do not return rows, the object is created when all internal processing has completed before returning to the client program.</mrk><mrk mid="1" mtype="seg"> For statements that return rows, the object is created when the first <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>next()<ept id="1">&lt;/codeph&gt;</ept> call returns 0 rows or if a <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>close()<ept id="2">&lt;/codeph&gt;</ept> call is encountered, whichever comes first.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS(IN SMALLINT ENABLE)</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS(IN SMALLINT ENABLE)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS(IN SMALLINT ENABLE)</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">By default, all users have execute privileges on this procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">By default, all users have execute privileges on this procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default, all users have execute privileges on this procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">-- establish a connection -- turn on RUNTIMESTATISTIC for connection: <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS(1);<ept id="1">&lt;/b&gt;</ept> -- execute complex query here -- step through the result sets -- access runtime statistics information: <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS(0);<ept id="2">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">-- establish a connection -- turn on RUNTIMESTATISTIC for connection: <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS(1);<ept id="1">&lt;/b&gt;</ept> -- execute complex query here -- step through the result sets -- access runtime statistics information: <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS(0);<ept id="2">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-- establish a connection -- turn on RUNTIMESTATISTIC for connection: <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS(1);<ept id="1">&lt;/b&gt;</ept> -- execute complex query here -- step through the result sets -- access runtime statistics information: <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS(0);<ept id="2">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

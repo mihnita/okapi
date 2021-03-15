@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecuree.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Configuring security for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Configuring security for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Configuring security for <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can be deployed in a number of ways and in a number of different environments, ranging from a single-user deployment for small-scale development and testing to a multi-user deployment of a large database. For all but the smallest deployments, however, it is essential to make the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> system secure.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can be deployed in a number of ways and in a number of different environments, ranging from a single-user deployment for small-scale development and testing to a multi-user deployment of a large database.</mrk><mrk mid="1" mtype="seg"> For all but the smallest deployments, however, it is essential to make the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> system secure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can be deployed in a number of ways and in a number of different environments, ranging from a single-user deployment for small-scale development and testing to a multi-user deployment of a large database.</mrk><mrk mid="1" mtype="seg"> For all but the smallest deployments, however, it is essential to make the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> system secure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">user authentication</source>
+<seg-source><mrk mid="0" mtype="seg">user authentication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user authentication</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">definition</source>
+<seg-source><mrk mid="0" mtype="seg">definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">authentication</source>
+<seg-source><mrk mid="0" mtype="seg">authentication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">authentication</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">definition</source>
+<seg-source><mrk mid="0" mtype="seg">definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">disk encryption</source>
+<seg-source><mrk mid="0" mtype="seg">disk encryption</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">disk encryption</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">definition</source>
+<seg-source><mrk mid="0" mtype="seg">definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">encrypting databases</source>
+<seg-source><mrk mid="0" mtype="seg">encrypting databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">encrypting databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">definition</source>
+<seg-source><mrk mid="0" mtype="seg">definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">To secure a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database or databases, take the following steps.</source>
+<seg-source><mrk mid="0" mtype="seg">To secure a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database or databases, take the following steps.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To secure a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database or databases, take the following steps.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Understand the concept of identity in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Understand the concept of identity in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Understand the concept of identity in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecureidentity.dita#cdevcsecureidentity"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecureidentity.dita#cdevcsecureidentity"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecureidentity.dita#cdevcsecureidentity"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Understand the basic tasks involved in configuring security in a client-server environment or an embedded environment.</source>
+<seg-source><mrk mid="0" mtype="seg">Understand the basic tasks involved in configuring security in a client-server environment or an embedded environment.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Understand the basic tasks involved in configuring security in a client-server environment or an embedded environment.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure12392.dita#cdevcsecure12392"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure12392.dita#cdevcsecure12392"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure12392.dita#cdevcsecure12392"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Configure <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>authentication<ept id="1">&lt;/i&gt;</ept> by setting up users and passwords.</source>
+<seg-source><mrk mid="0" mtype="seg">Configure <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>authentication<ept id="1">&lt;/i&gt;</ept> by setting up users and passwords.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Configure <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>authentication<ept id="1">&lt;/i&gt;</ept> by setting up users and passwords.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Authentication determines whether someone is a legal user. It establishes a user's identity. <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> verifies user names and passwords before permitting access to the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> system.</source>
+<seg-source><mrk mid="0" mtype="seg">Authentication determines whether someone is a legal user.</mrk><mrk mid="1" mtype="seg"> It establishes a user's identity.</mrk><mrk mid="2" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> verifies user names and passwords before permitting access to the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Authentication determines whether someone is a legal user.</mrk><mrk mid="1" mtype="seg"> It establishes a user's identity.</mrk><mrk mid="2" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> verifies user names and passwords before permitting access to the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> system.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">For more information about authentication, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure42374.dita#cdevcsecure42374"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information about authentication, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure42374.dita#cdevcsecure42374"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information about authentication, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure42374.dita#cdevcsecure42374"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Configure <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>user authorization<ept id="1">&lt;/i&gt;</ept> for the system.</source>
+<seg-source><mrk mid="0" mtype="seg">Configure <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>user authorization<ept id="1">&lt;/i&gt;</ept> for the system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Configure <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>user authorization<ept id="1">&lt;/i&gt;</ept> for the system.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Authorization determines what operations can be performed by a user's <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> identity. Authorization grants users or roles permission to read a database or to write to a database.</source>
+<seg-source><mrk mid="0" mtype="seg">Authorization determines what operations can be performed by a user's <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> identity.</mrk><mrk mid="1" mtype="seg"> Authorization grants users or roles permission to read a database or to write to a database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Authorization determines what operations can be performed by a user's <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> identity.</mrk><mrk mid="1" mtype="seg"> Authorization grants users or roles permission to read a database or to write to a database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">For more information about authorization, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure36595.dita#cdevcsecure36595"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information about authorization, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure36595.dita#cdevcsecure36595"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information about authorization, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure36595.dita#cdevcsecure36595"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Encrypt your databases.</source>
+<seg-source><mrk mid="0" mtype="seg">Encrypt your databases.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encrypt your databases.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides ways to encrypt data stored on disk.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides ways to encrypt data stored on disk.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> provides ways to encrypt data stored on disk.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">For more information about encryption, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure24366.dita#cdevcsecure24366"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information about encryption, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure24366.dita#cdevcsecure24366"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information about encryption, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure24366.dita#cdevcsecure24366"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Sign any jar files that you use in your databases.</source>
+<seg-source><mrk mid="0" mtype="seg">Sign any jar files that you use in your databases.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sign any jar files that you use in your databases.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> validates certificates for classes loaded from signed jar files.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> validates certificates for classes loaded from signed jar files.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> validates certificates for classes loaded from signed jar files.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">For more information about using signed jar files, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure90988.dita#cdevcsecure90988"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information about using signed jar files, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure90988.dita#cdevcsecure90988"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information about using signed jar files, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure90988.dita#cdevcsecure90988"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Encrypt network traffic with SSL/TLS.</source>
+<seg-source><mrk mid="0" mtype="seg">Encrypt network traffic with SSL/TLS.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encrypt network traffic with SSL/TLS.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">SSL/TLS certificate authentication is also supported. See "Network encryption and authentication with SSL/TLS" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg">SSL/TLS certificate authentication is also supported.</mrk><mrk mid="1" mtype="seg"> See "Network encryption and authentication with SSL/TLS" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSL/TLS certificate authentication is also supported.</mrk><mrk mid="1" mtype="seg"> See "Network encryption and authentication with SSL/TLS" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">Customize the default security policy.</source>
+<seg-source><mrk mid="0" mtype="seg">Customize the default security policy.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Customize the default security policy.</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">For details, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcbabejdfj.dita#cdevcbabejdfj"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>, and see "Running the Network Server under the security manager" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For details, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcbabejdfj.dita#cdevcbabejdfj"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>, and see "Running the Network Server under the security manager" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For details, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevcbabejdfj.dita#cdevcbabejdfj"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>, and see "Running the Network Server under the security manager" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">If necessary, restrict database file access to the operating system account that started the JVM.</source>
+<seg-source><mrk mid="0" mtype="seg">If necessary, restrict database file access to the operating system account that started the JVM.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If necessary, restrict database file access to the operating system account that started the JVM.</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">For details, see "Controlling database file access" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For details, see "Controlling database file access" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For details, see "Controlling database file access" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">The section "Derby Network Server advanced topics" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has more information on security issues. The <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> describes many security-related properties and system procedures, as well as such statements as GRANT, REVOKE, CREATE ROLE, DROP ROLE, CREATE PROCEDURE, and CREATE FUNCTION.</source>
+<seg-source><mrk mid="0" mtype="seg">The section "Derby Network Server advanced topics" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has more information on security issues.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> describes many security-related properties and system procedures, as well as such statements as GRANT, REVOKE, CREATE ROLE, DROP ROLE, CREATE PROCEDURE, and CREATE FUNCTION.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The section "Derby Network Server advanced topics" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has more information on security issues.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> describes many security-related properties and system procedures, as well as such statements as GRANT, REVOKE, CREATE ROLE, DROP ROLE, CREATE PROCEDURE, and CREATE FUNCTION.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts29416.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Using auto-commit</source>
+<seg-source><mrk mid="0" mtype="seg">Using auto-commit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using auto-commit</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">A new connection to a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database is in auto-commit mode by default, as specified by the JDBC standard.</source>
+<seg-source><mrk mid="0" mtype="seg">A new connection to a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database is in auto-commit mode by default, as specified by the JDBC standard.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A new connection to a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database is in auto-commit mode by default, as specified by the JDBC standard.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Auto-commit</source>
+<seg-source><mrk mid="0" mtype="seg">Auto-commit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Auto-commit</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">using</source>
+<seg-source><mrk mid="0" mtype="seg">using</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">using</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Auto-commit mode means that when a statement is completed, the method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>commit<ept id="1">&lt;/i&gt;</ept> is called on that statement automatically. Auto-commit in effect makes every SQL statement a transaction. The commit occurs when the statement completes or the next statement is executed, whichever comes first. In the case of a statement returning a forward only <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept>, the statement completes when the last row of the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="5" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/codeph&gt;</ept> has been retrieved or the <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="7">&lt;/i&gt;</ept><ept id="6">&lt;/codeph&gt;</ept> has been closed explicitly. In the case of a statement returning a scrollable <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="9" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="9">&lt;/i&gt;</ept><ept id="8">&lt;/codeph&gt;</ept>, the statement completes only when the <bpt id="10" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="11" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="11">&lt;/i&gt;</ept><ept id="10">&lt;/codeph&gt;</ept> has been closed explicitly.</source>
+<seg-source><mrk mid="0" mtype="seg">Auto-commit mode means that when a statement is completed, the method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>commit<ept id="1">&lt;/i&gt;</ept> is called on that statement automatically.</mrk><mrk mid="1" mtype="seg"> Auto-commit in effect makes every SQL statement a transaction.</mrk><mrk mid="2" mtype="seg"> The commit occurs when the statement completes or the next statement is executed, whichever comes first.</mrk><mrk mid="3" mtype="seg"> In the case of a statement returning a forward only <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept>, the statement completes when the last row of the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="5" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/codeph&gt;</ept> has been retrieved or the <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="7">&lt;/i&gt;</ept><ept id="6">&lt;/codeph&gt;</ept> has been closed explicitly.</mrk><mrk mid="4" mtype="seg"> In the case of a statement returning a scrollable <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="9" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="9">&lt;/i&gt;</ept><ept id="8">&lt;/codeph&gt;</ept>, the statement completes only when the <bpt id="10" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="11" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="11">&lt;/i&gt;</ept><ept id="10">&lt;/codeph&gt;</ept> has been closed explicitly.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Auto-commit mode means that when a statement is completed, the method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>commit<ept id="1">&lt;/i&gt;</ept> is called on that statement automatically.</mrk><mrk mid="1" mtype="seg"> Auto-commit in effect makes every SQL statement a transaction.</mrk><mrk mid="2" mtype="seg"> The commit occurs when the statement completes or the next statement is executed, whichever comes first.</mrk><mrk mid="3" mtype="seg"> In the case of a statement returning a forward only <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept>, the statement completes when the last row of the <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="5" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/codeph&gt;</ept> has been retrieved or the <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="7">&lt;/i&gt;</ept><ept id="6">&lt;/codeph&gt;</ept> has been closed explicitly.</mrk><mrk mid="4" mtype="seg"> In the case of a statement returning a scrollable <bpt id="8" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="9" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="9">&lt;/i&gt;</ept><ept id="8">&lt;/codeph&gt;</ept>, the statement completes only when the <bpt id="10" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="11" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="11">&lt;/i&gt;</ept><ept id="10">&lt;/codeph&gt;</ept> has been closed explicitly.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Some applications might prefer to work with <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> in auto-commit mode; some might prefer to work with auto-commit turned off. You should be aware of the implications of using either model.</source>
+<seg-source><mrk mid="0" mtype="seg">Some applications might prefer to work with <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> in auto-commit mode; some might prefer to work with auto-commit turned off.</mrk><mrk mid="1" mtype="seg"> You should be aware of the implications of using either model.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Some applications might prefer to work with <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> in auto-commit mode; some might prefer to work with auto-commit turned off.</mrk><mrk mid="1" mtype="seg"> You should be aware of the implications of using either model.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">You should be aware of the following when you use auto-commit:</source>
+<seg-source><mrk mid="0" mtype="seg">You should be aware of the following when you use auto-commit:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You should be aware of the following when you use auto-commit:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Cursors<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Cursors<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Cursors<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">You cannot use auto-commit if you do any positioned updates or deletes (that is, an update or delete statement with a WHERE CURRENT OF clause) on cursors which have the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet.CLOSE_CURSORS_AT_COMMIT<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> holdability value set.</source>
+<seg-source><mrk mid="0" mtype="seg">You cannot use auto-commit if you do any positioned updates or deletes (that is, an update or delete statement with a WHERE CURRENT OF clause) on cursors which have the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet.CLOSE_CURSORS_AT_COMMIT<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> holdability value set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You cannot use auto-commit if you do any positioned updates or deletes (that is, an update or delete statement with a WHERE CURRENT OF clause) on cursors which have the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet.CLOSE_CURSORS_AT_COMMIT<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> holdability value set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Auto-commit automatically closes cursors that are explicitly opened with the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet.CLOSE_CURSORS_AT_COMMIT<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> value, when you do any in-place updates or deletes.</source>
+<seg-source><mrk mid="0" mtype="seg">Auto-commit automatically closes cursors that are explicitly opened with the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet.CLOSE_CURSORS_AT_COMMIT<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> value, when you do any in-place updates or deletes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Auto-commit automatically closes cursors that are explicitly opened with the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet.CLOSE_CURSORS_AT_COMMIT<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> value, when you do any in-place updates or deletes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">An updatable cursor declared to be held across commit (this is the default value) can execute updates and issue multiple commits before closing the cursor. After an explicit or implicit commit, a holdable forward-only cursor must be repositioned with a call to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>next<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> method before it can accessed again. In this state, the only other valid operation besides calling <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>next<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> is calling <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="6" ctype="x-i">&lt;i&gt;</bpt>close<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">An updatable cursor declared to be held across commit (this is the default value) can execute updates and issue multiple commits before closing the cursor.</mrk><mrk mid="1" mtype="seg"> After an explicit or implicit commit, a holdable forward-only cursor must be repositioned with a call to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>next<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> method before it can accessed again.</mrk><mrk mid="2" mtype="seg"> In this state, the only other valid operation besides calling <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>next<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> is calling <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="6" ctype="x-i">&lt;i&gt;</bpt>close<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An updatable cursor declared to be held across commit (this is the default value) can execute updates and issue multiple commits before closing the cursor.</mrk><mrk mid="1" mtype="seg"> After an explicit or implicit commit, a holdable forward-only cursor must be repositioned with a call to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>next<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> method before it can accessed again.</mrk><mrk mid="2" mtype="seg"> In this state, the only other valid operation besides calling <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>next<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> is calling <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="6" ctype="x-i">&lt;i&gt;</bpt>close<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Database-side JDBC routines (routines using nested connections)<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Database-side JDBC routines (routines using nested connections)<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Database-side JDBC routines (routines using nested connections)<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">You cannot execute functions within SQL statements if those functions perform a commit or rollback on the current connection. Since in auto-commit mode all SQL statements are implicitly committed, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> turns off auto-commit during execution of database-side routines and turns it back on when the statement completes.</source>
+<seg-source><mrk mid="0" mtype="seg">You cannot execute functions within SQL statements if those functions perform a commit or rollback on the current connection.</mrk><mrk mid="1" mtype="seg"> Since in auto-commit mode all SQL statements are implicitly committed, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> turns off auto-commit during execution of database-side routines and turns it back on when the statement completes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You cannot execute functions within SQL statements if those functions perform a commit or rollback on the current connection.</mrk><mrk mid="1" mtype="seg"> Since in auto-commit mode all SQL statements are implicitly committed, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> turns off auto-commit during execution of database-side routines and turns it back on when the statement completes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Routines that use nested connections are not permitted to turn auto-commit on or off.</source>
+<seg-source><mrk mid="0" mtype="seg">Routines that use nested connections are not permitted to turn auto-commit on or off.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Routines that use nested connections are not permitted to turn auto-commit on or off.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Table-level locking and the SERIALIZABLE isolation level<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Table-level locking and the SERIALIZABLE isolation level<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Table-level locking and the SERIALIZABLE isolation level<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">When an application uses table-level locking and the SERIALIZABLE isolation level, all statements that access tables hold at least shared table locks. Shared locks prevent other transactions that update data from accessing the table. A transaction holds a lock on a table until the transaction commits. <it id="1" ctype="x-i" pos="open">&lt;i&gt;</it>So even a SELECT statement holds a shared lock on a table until its connection commits and a new transaction begins. <it id="1" ctype="x-i" pos="close">&lt;/i&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg">When an application uses table-level locking and the SERIALIZABLE isolation level, all statements that access tables hold at least shared table locks.</mrk><mrk mid="1" mtype="seg"> Shared locks prevent other transactions that update data from accessing the table.</mrk><mrk mid="2" mtype="seg"> A transaction holds a lock on a table until the transaction commits.</mrk><mrk mid="3" mtype="seg"> <it id="1" ctype="x-i" pos="open">&lt;i&gt;</it>So even a SELECT statement holds a shared lock on a table until its connection commits and a new transaction begins.</mrk><mrk mid="4" mtype="seg"> <it id="1" ctype="x-i" pos="close">&lt;/i&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When an application uses table-level locking and the SERIALIZABLE isolation level, all statements that access tables hold at least shared table locks.</mrk><mrk mid="1" mtype="seg"> Shared locks prevent other transactions that update data from accessing the table.</mrk><mrk mid="2" mtype="seg"> A transaction holds a lock on a table until the transaction commits.</mrk><mrk mid="3" mtype="seg"> <it id="1" ctype="x-i" pos="open">&lt;i&gt;</it>So even a SELECT statement holds a shared lock on a table until its connection commits and a new transaction begins.</mrk><mrk mid="4" mtype="seg"> <it id="1" ctype="x-i" pos="close">&lt;/i&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">The following table summarizes how applications behave with auto-commit on or off.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table summarizes how applications behave with auto-commit on or off.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table summarizes how applications behave with auto-commit on or off.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Application behavior with auto-commit on or off</source>
+<seg-source><mrk mid="0" mtype="seg">Application behavior with auto-commit on or off</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Application behavior with auto-commit on or off</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">This table lists several kinds of applicaton behavior and shows what happens with auto-commit on and with auto-commit off.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists several kinds of applicaton behavior and shows what happens with auto-commit on and with auto-commit off.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists several kinds of applicaton behavior and shows what happens with auto-commit on and with auto-commit off.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Topic</source>
+<seg-source><mrk mid="0" mtype="seg">Topic</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Topic</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Auto-Commit On</source>
+<seg-source><mrk mid="0" mtype="seg">Auto-Commit On</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Auto-Commit On</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Auto-Commit Off</source>
+<seg-source><mrk mid="0" mtype="seg">Auto-Commit Off</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Auto-Commit Off</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Transactions</source>
+<seg-source><mrk mid="0" mtype="seg">Transactions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transactions</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Each statement is a separate transaction.</source>
+<seg-source><mrk mid="0" mtype="seg">Each statement is a separate transaction.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Each statement is a separate transaction.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Commit() or rollback() completes a transaction.</source>
+<seg-source><mrk mid="0" mtype="seg">Commit() or rollback() completes a transaction.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Commit() or rollback() completes a transaction.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Database-side JDBC routines (routines that use nested connections)</source>
+<seg-source><mrk mid="0" mtype="seg">Database-side JDBC routines (routines that use nested connections)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database-side JDBC routines (routines that use nested connections)</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">Auto-commit is turned off.</source>
+<seg-source><mrk mid="0" mtype="seg">Auto-commit is turned off.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Auto-commit is turned off.</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Works (no explicit commits or rollbacks are allowed).</source>
+<seg-source><mrk mid="0" mtype="seg">Works (no explicit commits or rollbacks are allowed).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Works (no explicit commits or rollbacks are allowed).</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">Updatable cursors</source>
+<seg-source><mrk mid="0" mtype="seg">Updatable cursors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Updatable cursors</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">Works for holdable cursors; does not work for non-holdable cursors.</source>
+<seg-source><mrk mid="0" mtype="seg">Works for holdable cursors; does not work for non-holdable cursors.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Works for holdable cursors; does not work for non-holdable cursors.</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">Works.</source>
+<seg-source><mrk mid="0" mtype="seg">Works.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Works.</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">Multiple connections accessing the same data</source>
+<seg-source><mrk mid="0" mtype="seg">Multiple connections accessing the same data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multiple connections accessing the same data</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">Works.</source>
+<seg-source><mrk mid="0" mtype="seg">Works.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Works.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">Works. Lower concurrency when applications use SERIALIZABLE isolation mode and table-level locking.</source>
+<seg-source><mrk mid="0" mtype="seg">Works.</mrk><mrk mid="1" mtype="seg"> Lower concurrency when applications use SERIALIZABLE isolation mode and table-level locking.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Works.</mrk><mrk mid="1" mtype="seg"> Lower concurrency when applications use SERIALIZABLE isolation mode and table-level locking.</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">Updatable ResultSets</source>
+<seg-source><mrk mid="0" mtype="seg">Updatable ResultSets</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Updatable ResultSets</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">Works.</source>
+<seg-source><mrk mid="0" mtype="seg">Works.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Works.</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">Works.</source>
+<seg-source><mrk mid="0" mtype="seg">Works.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Works.</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">Savepoints</source>
+<seg-source><mrk mid="0" mtype="seg">Savepoints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Savepoints</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">Does not work.</source>
+<seg-source><mrk mid="0" mtype="seg">Does not work.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Does not work.</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">Works.</source>
+<seg-source><mrk mid="0" mtype="seg">Works.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Works.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

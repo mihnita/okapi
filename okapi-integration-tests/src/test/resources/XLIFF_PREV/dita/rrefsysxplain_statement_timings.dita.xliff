@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsysxplain_statement_timings.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSXPLAIN_STATEMENT_TIMINGS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENT_TIMINGS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENT_TIMINGS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The SYSXPLAIN_STATEMENT_TIMINGS table captures information about statement timings which occurred during statements that were executed using RUNTIMESTATISTICS with XPLAIN style.</source>
+<seg-source><mrk mid="0" mtype="seg">The SYSXPLAIN_STATEMENT_TIMINGS table captures information about statement timings which occurred during statements that were executed using RUNTIMESTATISTICS with XPLAIN style.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SYSXPLAIN_STATEMENT_TIMINGS table captures information about statement timings which occurred during statements that were executed using RUNTIMESTATISTICS with XPLAIN style.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">system tables</source>
+<seg-source><mrk mid="0" mtype="seg">system tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SYSXPLAIN_STATEMENT_TIMINGS</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENT_TIMINGS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENT_TIMINGS</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">XPLAIN style statistics</source>
+<seg-source><mrk mid="0" mtype="seg">XPLAIN style statistics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XPLAIN style statistics</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SYSXPLAIN_STATEMENT_TIMINGS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENT_TIMINGS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENT_TIMINGS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SYSXPLAIN_STATEMENT_TIMINGS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENT_TIMINGS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENT_TIMINGS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on how to configure this. Note in particular that you must call SYSCS_UTIL.SYSCS_SET_STATISTICS_TIMING(1) to enable timing information to be captured. Rows in this table are typically joined with rows in SYSXPLAIN_STATEMENTS and SYSXPLAIN_RESULTSETS during analysis. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on how to configure this.</mrk><mrk mid="1" mtype="seg"> Note in particular that you must call SYSCS_UTIL.SYSCS_SET_STATISTICS_TIMING(1) to enable timing information to be captured.</mrk><mrk mid="2" mtype="seg"> Rows in this table are typically joined with rows in SYSXPLAIN_STATEMENTS and SYSXPLAIN_RESULTSETS during analysis.</mrk><mrk mid="3" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on how to configure this.</mrk><mrk mid="1" mtype="seg"> Note in particular that you must call SYSCS_UTIL.SYSCS_SET_STATISTICS_TIMING(1) to enable timing information to be captured.</mrk><mrk mid="2" mtype="seg"> Rows in this table are typically joined with rows in SYSXPLAIN_STATEMENTS and SYSXPLAIN_RESULTSETS during analysis.</mrk><mrk mid="3" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">select s.stmt_text, st.execute_time from my_stats.sysxplain_statements s, my_stats.sysxplain_statement_timings st where s.timing_id = st.timing_id order by st.execute_time desc</source>
+<seg-source><mrk mid="0" mtype="seg">select s.stmt_text, st.execute_time from my_stats.sysxplain_statements s, my_stats.sysxplain_statement_timings st where s.timing_id = st.timing_id order by st.execute_time desc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">select s.stmt_text, st.execute_time from my_stats.sysxplain_statements s, my_stats.sysxplain_statement_timings st where s.timing_id = st.timing_id order by st.execute_time desc</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Rows in this table are added automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has been configured appropriately. The rows remain in the table until you delete them or drop the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Rows in this table are added automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has been configured appropriately.</mrk><mrk mid="1" mtype="seg"> The rows remain in the table until you delete them or drop the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Rows in this table are added automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has been configured appropriately.</mrk><mrk mid="1" mtype="seg"> The rows remain in the table until you delete them or drop the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The following table shows the contents of the SYSXPLAIN_STATEMENT_TIMINGS system table.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table shows the contents of the SYSXPLAIN_STATEMENT_TIMINGS system table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table shows the contents of the SYSXPLAIN_STATEMENT_TIMINGS system table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">SYSXPLAIN_STATEMENT_TIMINGS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENT_TIMINGS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_STATEMENT_TIMINGS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">For each column in the SYSXPLAIN_STATEMENT_TIMINGS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</source>
+<seg-source><mrk mid="0" mtype="seg">For each column in the SYSXPLAIN_STATEMENT_TIMINGS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For each column in the SYSXPLAIN_STATEMENT_TIMINGS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Column Name</source>
+<seg-source><mrk mid="0" mtype="seg">Column Name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column Name</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Length</source>
+<seg-source><mrk mid="0" mtype="seg">Length</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Length</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Nullable</source>
+<seg-source><mrk mid="0" mtype="seg">Nullable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nullable</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Contents</source>
+<seg-source><mrk mid="0" mtype="seg">Contents</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contents</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">TIMING_ID</source>
+<seg-source><mrk mid="0" mtype="seg">TIMING_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMING_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">36</source>
+<seg-source><mrk mid="0" mtype="seg">36</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">36</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">A unique identifier for this particular row. This column can be used to join with the TIMING_ID column in SYSXPLAIN_STATEMENTS to match statement timings with their corresponding statements.</source>
+<seg-source><mrk mid="0" mtype="seg">A unique identifier for this particular row.</mrk><mrk mid="1" mtype="seg"> This column can be used to join with the TIMING_ID column in SYSXPLAIN_STATEMENTS to match statement timings with their corresponding statements.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A unique identifier for this particular row.</mrk><mrk mid="1" mtype="seg"> This column can be used to join with the TIMING_ID column in SYSXPLAIN_STATEMENTS to match statement timings with their corresponding statements.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">PARSE_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">PARSE_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PARSE_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to parse this statement.</source>
+<seg-source><mrk mid="0" mtype="seg">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to parse this statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to parse this statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">BIND_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">BIND_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIND_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to bind this statement. Binding a statement is the process of resolving table and column references in the statement against the table and column definitions in the system catalogs.</source>
+<seg-source><mrk mid="0" mtype="seg">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to bind this statement.</mrk><mrk mid="1" mtype="seg"> Binding a statement is the process of resolving table and column references in the statement against the table and column definitions in the system catalogs.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to bind this statement.</mrk><mrk mid="1" mtype="seg"> Binding a statement is the process of resolving table and column references in the statement against the table and column definitions in the system catalogs.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">OPTIMIZE_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">OPTIMIZE_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OPTIMIZE_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to optimize this statement. During optimization, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> considers the various possible execution plans that could be used for the statement, and chooses the one it thinks will be best.</source>
+<seg-source><mrk mid="0" mtype="seg">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to optimize this statement.</mrk><mrk mid="1" mtype="seg"> During optimization, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> considers the various possible execution plans that could be used for the statement, and chooses the one it thinks will be best.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to optimize this statement.</mrk><mrk mid="1" mtype="seg"> During optimization, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> considers the various possible execution plans that could be used for the statement, and chooses the one it thinks will be best.</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">GENERATE_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">GENERATE_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GENERATE_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to generate code for this statement.</source>
+<seg-source><mrk mid="0" mtype="seg">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to generate code for this statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to generate code for this statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">COMPILE_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">COMPILE_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COMPILE_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to compile this statement. Overall statement time is divided into compile time and execute time, and the compile time is further sub-divided into parse, bind, optimize, and generate time.</source>
+<seg-source><mrk mid="0" mtype="seg">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to compile this statement.</mrk><mrk mid="1" mtype="seg"> Overall statement time is divided into compile time and execute time, and the compile time is further sub-divided into parse, bind, optimize, and generate time.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to compile this statement.</mrk><mrk mid="1" mtype="seg"> Overall statement time is divided into compile time and execute time, and the compile time is further sub-divided into parse, bind, optimize, and generate time.</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">EXECUTE_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">EXECUTE_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EXECUTE_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">20</source>
+<seg-source><mrk mid="0" mtype="seg">20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">20</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to execute this statement.</source>
+<seg-source><mrk mid="0" mtype="seg">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to execute this statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time in milliseconds that <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> took to execute this statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">BEGIN_COMP_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">BEGIN_COMP_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BEGIN_COMP_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">TIMESTAMP</source>
+<seg-source><mrk mid="0" mtype="seg">TIMESTAMP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMESTAMP</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">29</source>
+<seg-source><mrk mid="0" mtype="seg">29</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">29</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">The time at which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> began to compile this statement.</source>
+<seg-source><mrk mid="0" mtype="seg">The time at which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> began to compile this statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time at which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> began to compile this statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">END_COMP_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">END_COMP_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">END_COMP_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">TIMESTAMP</source>
+<seg-source><mrk mid="0" mtype="seg">TIMESTAMP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMESTAMP</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">29</source>
+<seg-source><mrk mid="0" mtype="seg">29</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">29</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">The time at which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> finished compiling this statement.</source>
+<seg-source><mrk mid="0" mtype="seg">The time at which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> finished compiling this statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time at which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> finished compiling this statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en">BEGIN_EXE_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">BEGIN_EXE_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BEGIN_EXE_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en">TIMESTAMP</source>
+<seg-source><mrk mid="0" mtype="seg">TIMESTAMP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMESTAMP</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">29</source>
+<seg-source><mrk mid="0" mtype="seg">29</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">29</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">The time at which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> began to execute this statement.</source>
+<seg-source><mrk mid="0" mtype="seg">The time at which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> began to execute this statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time at which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> began to execute this statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en">END_EXE_TIME</source>
+<seg-source><mrk mid="0" mtype="seg">END_EXE_TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">END_EXE_TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en">TIMESTAMP</source>
+<seg-source><mrk mid="0" mtype="seg">TIMESTAMP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMESTAMP</mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en">29</source>
+<seg-source><mrk mid="0" mtype="seg">29</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">29</mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en">The time at which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> finished executing this statement.</source>
+<seg-source><mrk mid="0" mtype="seg">The time at which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> finished executing this statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time at which <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> finished executing this statement.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

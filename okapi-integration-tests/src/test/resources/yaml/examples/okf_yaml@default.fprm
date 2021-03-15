@@ -1,0 +1,12 @@
+#v1
+extractIsolatedStrings.b=false
+extractAllPairs.b=true
+exceptions=
+useKeyAsName.b=true
+useFullKeyPath.b=true
+useCodeFinder.b=true
+codeFinderRules.count.i=1
+codeFinderRules.rule0=</?([A-Z0-9a-z]*)\b[^>]*>
+codeFinderRules.sample=&name; <tag></at><tag/> <tag attr='val'> </tag="val">
+codeFinderRules.useAllRulesWhenTesting.b=true
+subfilter=

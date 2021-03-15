@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljrenamecolumnstatement.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">RENAME COLUMN statement</source>
+<seg-source><mrk mid="0" mtype="seg">RENAME COLUMN statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RENAME COLUMN statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">RENAME COLUMN statement</source>
+<seg-source><mrk mid="0" mtype="seg">RENAME COLUMN statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RENAME COLUMN statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SQL statements</source>
+<seg-source><mrk mid="0" mtype="seg">SQL statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">RENAME COLUMN</source>
+<seg-source><mrk mid="0" mtype="seg">RENAME COLUMN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RENAME COLUMN</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">columns</source>
+<seg-source><mrk mid="0" mtype="seg">columns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">columns</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">renaming</source>
+<seg-source><mrk mid="0" mtype="seg">renaming</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">renaming</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Use the RENAME COLUMN statement to rename a column in a table.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the RENAME COLUMN statement to rename a column in a table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the RENAME COLUMN statement to rename a column in a table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The RENAME COLUMN statement allows you to rename an existing column in an existing table in any schema (except the schema <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS<ept id="1">&lt;/i&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">The RENAME COLUMN statement allows you to rename an existing column in an existing table in any schema (except the schema <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS<ept id="1">&lt;/i&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The RENAME COLUMN statement allows you to rename an existing column in an existing table in any schema (except the schema <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS<ept id="1">&lt;/i&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">To rename a column, you must either be the database owner or the table owner.</source>
+<seg-source><mrk mid="0" mtype="seg">To rename a column, you must either be the database owner or the table owner.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To rename a column, you must either be the database owner or the table owner.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Other types of table alterations are possible; see <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj81859.dita#rrefsqlj81859"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">Other types of table alterations are possible; see <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj81859.dita#rrefsqlj81859"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Other types of table alterations are possible; see <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj81859.dita#rrefsqlj81859"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>RENAME COLUMN <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftablename.dita"&gt;</bpt>tableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept>.<bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsimplecolumnname.dita"&gt;</bpt>simpleColumnName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> TO <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefsimplecolumnname.dita"&gt;</bpt>simpleColumnName<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>RENAME COLUMN <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftablename.dita"&gt;</bpt>tableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept>.<bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsimplecolumnname.dita"&gt;</bpt>simpleColumnName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> TO <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefsimplecolumnname.dita"&gt;</bpt>simpleColumnName<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>RENAME COLUMN <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rreftablename.dita"&gt;</bpt>tableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept>.<bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefsimplecolumnname.dita"&gt;</bpt>simpleColumnName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> TO <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefsimplecolumnname.dita"&gt;</bpt>simpleColumnName<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">To rename the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>manager<ept id="1">&lt;/i&gt;</ept> column in table <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>employee<ept id="2">&lt;/i&gt;</ept> to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>supervisor<ept id="3">&lt;/i&gt;</ept>, use the following syntax:</source>
+<seg-source><mrk mid="0" mtype="seg">To rename the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>manager<ept id="1">&lt;/i&gt;</ept> column in table <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>employee<ept id="2">&lt;/i&gt;</ept> to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>supervisor<ept id="3">&lt;/i&gt;</ept>, use the following syntax:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To rename the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>manager<ept id="1">&lt;/i&gt;</ept> column in table <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>employee<ept id="2">&lt;/i&gt;</ept> to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>supervisor<ept id="3">&lt;/i&gt;</ept>, use the following syntax:</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>RENAME COLUMN EMPLOYEE.MANAGER TO SUPERVISOR<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>RENAME COLUMN EMPLOYEE.MANAGER TO SUPERVISOR<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>RENAME COLUMN EMPLOYEE.MANAGER TO SUPERVISOR<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">You can combine ALTER TABLE and RENAME COLUMN to modify a column's data type. To change column <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>c1<ept id="1">&lt;/i&gt;</ept> of table <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>t<ept id="2">&lt;/i&gt;</ept> to the new data type <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>NEWTYPE<ept id="3">&lt;/i&gt;</ept>:</source>
+<seg-source><mrk mid="0" mtype="seg">You can combine ALTER TABLE and RENAME COLUMN to modify a column's data type.</mrk><mrk mid="1" mtype="seg"> To change column <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>c1<ept id="1">&lt;/i&gt;</ept> of table <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>t<ept id="2">&lt;/i&gt;</ept> to the new data type <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>NEWTYPE<ept id="3">&lt;/i&gt;</ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can combine ALTER TABLE and RENAME COLUMN to modify a column's data type.</mrk><mrk mid="1" mtype="seg"> To change column <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>c1<ept id="1">&lt;/i&gt;</ept> of table <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>t<ept id="2">&lt;/i&gt;</ept> to the new data type <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>NEWTYPE<ept id="3">&lt;/i&gt;</ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> ALTER TABLE t ADD COLUMN c1_newtype NEWTYPE UPDATE t SET c1_newtype = c1 ALTER TABLE t DROP COLUMN c1 RENAME COLUMN t.c1_newtype TO c1 <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> ALTER TABLE t ADD COLUMN c1_newtype NEWTYPE UPDATE t SET c1_newtype = c1 ALTER TABLE t DROP COLUMN c1 RENAME COLUMN t.c1_newtype TO c1 <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> ALTER TABLE t ADD COLUMN c1_newtype NEWTYPE UPDATE t SET c1_newtype = c1 ALTER TABLE t DROP COLUMN c1 RENAME COLUMN t.c1_newtype TO c1 <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Usage notes</source>
+<seg-source><mrk mid="0" mtype="seg">Usage notes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Usage notes</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">If a view, trigger, check constraint, foreign key constraint, or <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqljgenerationclause.dita#rrefsqljgenerationclause"&gt;</bpt>generationClause<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> of a generated column references the column, an attempt to rename it will generate an error.</source>
+<seg-source><mrk mid="0" mtype="seg">If a view, trigger, check constraint, foreign key constraint, or <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqljgenerationclause.dita#rrefsqljgenerationclause"&gt;</bpt>generationClause<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> of a generated column references the column, an attempt to rename it will generate an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a view, trigger, check constraint, foreign key constraint, or <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqljgenerationclause.dita#rrefsqljgenerationclause"&gt;</bpt>generationClause<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> of a generated column references the column, an attempt to rename it will generate an error.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">The RENAME COLUMN statement is not allowed if there are any open cursors that reference the column that is being altered.</source>
+<seg-source><mrk mid="0" mtype="seg">The RENAME COLUMN statement is not allowed if there are any open cursors that reference the column that is being altered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The RENAME COLUMN statement is not allowed if there are any open cursors that reference the column that is being altered.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">If there is an index defined on the column, the column can still be renamed; the index is automatically updated to refer to the column by its new name</source>
+<seg-source><mrk mid="0" mtype="seg">If there is an index defined on the column, the column can still be renamed; the index is automatically updated to refer to the column by its new name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If there is an index defined on the column, the column can still be renamed; the index is automatically updated to refer to the column by its new name</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

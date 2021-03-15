@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj31648.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">DROP SCHEMA statement</source>
+<seg-source><mrk mid="0" mtype="seg">DROP SCHEMA statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DROP SCHEMA statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">DROP SCHEMA statement</source>
+<seg-source><mrk mid="0" mtype="seg">DROP SCHEMA statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DROP SCHEMA statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Schemas</source>
+<seg-source><mrk mid="0" mtype="seg">Schemas</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Schemas</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">dropping</source>
+<seg-source><mrk mid="0" mtype="seg">dropping</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dropping</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The DROP SCHEMA statement drops a schema. The target schema must be empty for the drop to succeed.</source>
+<seg-source><mrk mid="0" mtype="seg">The DROP SCHEMA statement drops a schema.</mrk><mrk mid="1" mtype="seg"> The target schema must be empty for the drop to succeed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The DROP SCHEMA statement drops a schema.</mrk><mrk mid="1" mtype="seg"> The target schema must be empty for the drop to succeed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Neither the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>APP<ept id="1">&lt;/i&gt;</ept> schema (the default user schema) nor the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SYS<ept id="2">&lt;/i&gt;</ept> schema can be dropped.</source>
+<seg-source><mrk mid="0" mtype="seg">Neither the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>APP<ept id="1">&lt;/i&gt;</ept> schema (the default user schema) nor the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SYS<ept id="2">&lt;/i&gt;</ept> schema can be dropped.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Neither the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>APP<ept id="1">&lt;/i&gt;</ept> schema (the default user schema) nor the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SYS<ept id="2">&lt;/i&gt;</ept> schema can be dropped.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP SCHEMA <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP SCHEMA <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP SCHEMA <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> RESTRICT<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The RESTRICT keyword enforces the rule that no objects can be defined in the specified schema for the schema to be deleted from the database. The RESTRICT keyword is required.</source>
+<seg-source><mrk mid="0" mtype="seg">The RESTRICT keyword enforces the rule that no objects can be defined in the specified schema for the schema to be deleted from the database.</mrk><mrk mid="1" mtype="seg"> The RESTRICT keyword is required.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The RESTRICT keyword enforces the rule that no objects can be defined in the specified schema for the schema to be deleted from the database.</mrk><mrk mid="1" mtype="seg"> The RESTRICT keyword is required.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- Drop the SAMP schema -- The SAMP schema may only be deleted from the database -- if no objects are defined in the SAMP schema.<ept id="2">&lt;/ph&gt;</ept> DROP SCHEMA SAMP RESTRICT<it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- Drop the SAMP schema -- The SAMP schema may only be deleted from the database -- if no objects are defined in the SAMP schema.<ept id="2">&lt;/ph&gt;</ept></mrk><mrk mid="1" mtype="seg"> DROP SCHEMA SAMP RESTRICT<it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- Drop the SAMP schema -- The SAMP schema may only be deleted from the database -- if no objects are defined in the SAMP schema.<ept id="2">&lt;/ph&gt;</ept></mrk><mrk mid="1" mtype="seg"> DROP SCHEMA SAMP RESTRICT<it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcollationexamples.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Examples of case-sensitive and case-insensitive string sorting</source>
+<seg-source><mrk mid="0" mtype="seg">Examples of case-sensitive and case-insensitive string sorting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples of case-sensitive and case-insensitive string sorting</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">These examples show the results of sorts on databases created with various collation and locale attributes.</source>
+<seg-source><mrk mid="0" mtype="seg">These examples show the results of sorts on databases created with various collation and locale attributes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">These examples show the results of sorts on databases created with various collation and locale attributes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">collation</source>
+<seg-source><mrk mid="0" mtype="seg">collation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">collation</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">examples</source>
+<seg-source><mrk mid="0" mtype="seg">examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">locale-based collation</source>
+<seg-source><mrk mid="0" mtype="seg">locale-based collation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">locale-based collation</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">examples</source>
+<seg-source><mrk mid="0" mtype="seg">examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">connection URL attributes</source>
+<seg-source><mrk mid="0" mtype="seg">connection URL attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">connection URL attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">examples of locale-based collation</source>
+<seg-source><mrk mid="0" mtype="seg">examples of locale-based collation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">examples of locale-based collation</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">With Unicode codepoint collation (UCS_BASIC), the default if you do not specify either <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>collation=collation<ept id="1">&lt;/i&gt;</ept> or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>territory=ll_CC<ept id="2">&lt;/i&gt;</ept>, the numeric values of the Unicode encoding of the characters are used directly for ordering. For example, the FRUIT table contains the NAME column that uses the VARCHAR(20) data type. The contents of the NAME column are:</source>
+<seg-source><mrk mid="0" mtype="seg">With Unicode codepoint collation (UCS_BASIC), the default if you do not specify either <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>collation=collation<ept id="1">&lt;/i&gt;</ept> or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>territory=ll_CC<ept id="2">&lt;/i&gt;</ept>, the numeric values of the Unicode encoding of the characters are used directly for ordering.</mrk><mrk mid="1" mtype="seg"> For example, the FRUIT table contains the NAME column that uses the VARCHAR(20) data type.</mrk><mrk mid="2" mtype="seg"> The contents of the NAME column are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">With Unicode codepoint collation (UCS_BASIC), the default if you do not specify either <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>collation=collation<ept id="1">&lt;/i&gt;</ept> or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>territory=ll_CC<ept id="2">&lt;/i&gt;</ept>, the numeric values of the Unicode encoding of the characters are used directly for ordering.</mrk><mrk mid="1" mtype="seg"> For example, the FRUIT table contains the NAME column that uses the VARCHAR(20) data type.</mrk><mrk mid="2" mtype="seg"> The contents of the NAME column are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">orange</source>
+<seg-source><mrk mid="0" mtype="seg">orange</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">orange</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">apple</source>
+<seg-source><mrk mid="0" mtype="seg">apple</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">apple</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Banana</source>
+<seg-source><mrk mid="0" mtype="seg">Banana</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Banana</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Pineapple</source>
+<seg-source><mrk mid="0" mtype="seg">Pineapple</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pineapple</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Grape</source>
+<seg-source><mrk mid="0" mtype="seg">Grape</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Grape</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">UCS_BASIC collation sorts all uppercase letters before lowercase letters. The statement <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SELECT * FROM FRUIT ORDER BY NAME<ept id="1">&lt;/codeph&gt;</ept> returns the following:</source>
+<seg-source><mrk mid="0" mtype="seg">UCS_BASIC collation sorts all uppercase letters before lowercase letters.</mrk><mrk mid="1" mtype="seg"> The statement <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SELECT * FROM FRUIT ORDER BY NAME<ept id="1">&lt;/codeph&gt;</ept> returns the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UCS_BASIC collation sorts all uppercase letters before lowercase letters.</mrk><mrk mid="1" mtype="seg"> The statement <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SELECT * FROM FRUIT ORDER BY NAME<ept id="1">&lt;/codeph&gt;</ept> returns the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Banana</source>
+<seg-source><mrk mid="0" mtype="seg">Banana</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Banana</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Grape</source>
+<seg-source><mrk mid="0" mtype="seg">Grape</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Grape</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Pineapple</source>
+<seg-source><mrk mid="0" mtype="seg">Pineapple</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pineapple</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">apple</source>
+<seg-source><mrk mid="0" mtype="seg">apple</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">apple</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">orange</source>
+<seg-source><mrk mid="0" mtype="seg">orange</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">orange</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">The above result also appears if you specify <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>territory=ll_CC<ept id="1">&lt;/i&gt;</ept> but do not specify <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>collation=collation<ept id="2">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The above result also appears if you specify <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>territory=ll_CC<ept id="1">&lt;/i&gt;</ept> but do not specify <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>collation=collation<ept id="2">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The above result also appears if you specify <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>territory=ll_CC<ept id="1">&lt;/i&gt;</ept> but do not specify <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>collation=collation<ept id="2">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">If the database is created with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>territory=ll_CC<ept id="1">&lt;/i&gt;</ept> attribute set to <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>en_US<ept id="2">&lt;/i&gt;</ept> (English language, United States country code) and the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>collation=collation<ept id="3">&lt;/i&gt;</ept> attribute set to TERRITORY_BASED, the statement <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SELECT * FROM FRUIT ORDER BY NAME<ept id="4">&lt;/codeph&gt;</ept> returns:</source>
+<seg-source><mrk mid="0" mtype="seg">If the database is created with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>territory=ll_CC<ept id="1">&lt;/i&gt;</ept> attribute set to <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>en_US<ept id="2">&lt;/i&gt;</ept> (English language, United States country code) and the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>collation=collation<ept id="3">&lt;/i&gt;</ept> attribute set to TERRITORY_BASED, the statement <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SELECT * FROM FRUIT ORDER BY NAME<ept id="4">&lt;/codeph&gt;</ept> returns:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the database is created with the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>territory=ll_CC<ept id="1">&lt;/i&gt;</ept> attribute set to <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>en_US<ept id="2">&lt;/i&gt;</ept> (English language, United States country code) and the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>collation=collation<ept id="3">&lt;/i&gt;</ept> attribute set to TERRITORY_BASED, the statement <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>SELECT * FROM FRUIT ORDER BY NAME<ept id="4">&lt;/codeph&gt;</ept> returns:</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">apple</source>
+<seg-source><mrk mid="0" mtype="seg">apple</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">apple</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Banana</source>
+<seg-source><mrk mid="0" mtype="seg">Banana</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Banana</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Grape</source>
+<seg-source><mrk mid="0" mtype="seg">Grape</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Grape</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">orange</source>
+<seg-source><mrk mid="0" mtype="seg">orange</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">orange</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">Pineapple</source>
+<seg-source><mrk mid="0" mtype="seg">Pineapple</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pineapple</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">The collation set for the database also impacts comparison operators on character data types. For example, the statement <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SELECT * FROM FRUIT WHERE NAME &gt; 'Banana' ORDER BY NAME<ept id="1">&lt;/codeph&gt;</ept> returns:</source>
+<seg-source><mrk mid="0" mtype="seg">The collation set for the database also impacts comparison operators on character data types.</mrk><mrk mid="1" mtype="seg"> For example, the statement <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SELECT * FROM FRUIT WHERE NAME &gt; 'Banana' ORDER BY NAME<ept id="1">&lt;/codeph&gt;</ept> returns:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The collation set for the database also impacts comparison operators on character data types.</mrk><mrk mid="1" mtype="seg"> For example, the statement <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SELECT * FROM FRUIT WHERE NAME &gt; 'Banana' ORDER BY NAME<ept id="1">&lt;/codeph&gt;</ept> returns:</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">UCS_BASIC collation</source>
+<seg-source><mrk mid="0" mtype="seg">UCS_BASIC collation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UCS_BASIC collation</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">Locale-based collation</source>
+<seg-source><mrk mid="0" mtype="seg">Locale-based collation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Locale-based collation</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">Grape</source>
+<seg-source><mrk mid="0" mtype="seg">Grape</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Grape</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">Grape</source>
+<seg-source><mrk mid="0" mtype="seg">Grape</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Grape</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">Pineapple</source>
+<seg-source><mrk mid="0" mtype="seg">Pineapple</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pineapple</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">orange</source>
+<seg-source><mrk mid="0" mtype="seg">orange</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">orange</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">apple</source>
+<seg-source><mrk mid="0" mtype="seg">apple</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">apple</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">Pineapple</source>
+<seg-source><mrk mid="0" mtype="seg">Pineapple</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pineapple</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">orange</source>
+<seg-source><mrk mid="0" mtype="seg">orange</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">orange</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en"> </source>
+<seg-source><mrk mid="0" mtype="seg"> </mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> </mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">For information on creating case-insensitive databases, see <bpt id="1" ctype="x-xref">&lt;xref href="tdevdvlpcaseinscoll.dita#tdevdvlpcaseinscoll"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For information on creating case-insensitive databases, see <bpt id="1" ctype="x-xref">&lt;xref href="tdevdvlpcaseinscoll.dita#tdevdvlpcaseinscoll"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For information on creating case-insensitive databases, see <bpt id="1" ctype="x-xref">&lt;xref href="tdevdvlpcaseinscoll.dita#tdevdvlpcaseinscoll"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

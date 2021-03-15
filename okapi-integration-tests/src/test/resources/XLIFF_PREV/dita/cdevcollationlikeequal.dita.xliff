@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcollationlikeequal.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Differences between LIKE and equal (=) comparisons</source>
+<seg-source><mrk mid="0" mtype="seg">Differences between LIKE and equal (=) comparisons</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Differences between LIKE and equal (=) comparisons</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">When you use locale-based collation, the comparisons can return different results when you use the LIKE and equal (=) operators.</source>
+<seg-source><mrk mid="0" mtype="seg">When you use locale-based collation, the comparisons can return different results when you use the LIKE and equal (=) operators.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you use locale-based collation, the comparisons can return different results when you use the LIKE and equal (=) operators.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">collation</source>
+<seg-source><mrk mid="0" mtype="seg">collation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">collation</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">LIKE and equal (=) comparisons</source>
+<seg-source><mrk mid="0" mtype="seg">LIKE and equal (=) comparisons</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LIKE and equal (=) comparisons</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">LIKE comparisons</source>
+<seg-source><mrk mid="0" mtype="seg">LIKE comparisons</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LIKE comparisons</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">collation and</source>
+<seg-source><mrk mid="0" mtype="seg">collation and</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">collation and</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">equal (=) comparisons</source>
+<seg-source><mrk mid="0" mtype="seg">equal (=) comparisons</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">equal (=) comparisons</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">collation and</source>
+<seg-source><mrk mid="0" mtype="seg">collation and</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">collation and</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">For example, suppose that the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database is set to use a locale where the character 'z' has the same collation elements as 'xy'. Consider the following two WHERE clauses:</source>
+<seg-source><mrk mid="0" mtype="seg">For example, suppose that the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database is set to use a locale where the character 'z' has the same collation elements as 'xy'.</mrk><mrk mid="1" mtype="seg"> Consider the following two WHERE clauses:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, suppose that the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database is set to use a locale where the character 'z' has the same collation elements as 'xy'.</mrk><mrk mid="1" mtype="seg"> Consider the following two WHERE clauses:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">WHERE 'zcb' = 'xycb'</source>
+<seg-source><mrk mid="0" mtype="seg">WHERE 'zcb' = 'xycb'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WHERE 'zcb' = 'xycb'</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">WHERE 'zcb' LIKE 'xy_b'</source>
+<seg-source><mrk mid="0" mtype="seg">WHERE 'zcb' LIKE 'xy_b'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WHERE 'zcb' LIKE 'xy_b'</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">For WHERE clause 1, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> returns TRUE, because the collation elements for the entire string 'zcb' will match the collation elements of the entire string 'xycb'.</source>
+<seg-source><mrk mid="0" mtype="seg">For WHERE clause 1, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> returns TRUE, because the collation elements for the entire string 'zcb' will match the collation elements of the entire string 'xycb'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For WHERE clause 1, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> returns TRUE, because the collation elements for the entire string 'zcb' will match the collation elements of the entire string 'xycb'.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">For WHERE clause 2, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> returns FALSE, because the collation element for the character 'z' does not match the collation element for the character 'x'. In addition, when a metacharacter such as an underscore is used with the LIKE operator, the metacharacter counts for one character in the string value. A clause such as <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WHERE 'xycb' LIKE '_cb'<ept id="2">&lt;/codeph&gt;</ept> returns FALSE, because 'x' is compared to the metacharacter '_' and 'y' does not match 'c'.</source>
+<seg-source><mrk mid="0" mtype="seg">For WHERE clause 2, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> returns FALSE, because the collation element for the character 'z' does not match the collation element for the character 'x'.</mrk><mrk mid="1" mtype="seg"> In addition, when a metacharacter such as an underscore is used with the LIKE operator, the metacharacter counts for one character in the string value.</mrk><mrk mid="2" mtype="seg"> A clause such as <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WHERE 'xycb' LIKE '_cb'<ept id="2">&lt;/codeph&gt;</ept> returns FALSE, because 'x' is compared to the metacharacter '_' and 'y' does not match 'c'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For WHERE clause 2, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> returns FALSE, because the collation element for the character 'z' does not match the collation element for the character 'x'.</mrk><mrk mid="1" mtype="seg"> In addition, when a metacharacter such as an underscore is used with the LIKE operator, the metacharacter counts for one character in the string value.</mrk><mrk mid="2" mtype="seg"> A clause such as <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>WHERE 'xycb' LIKE '_cb'<ept id="2">&lt;/codeph&gt;</ept> returns FALSE, because 'x' is compared to the metacharacter '_' and 'y' does not match 'c'.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

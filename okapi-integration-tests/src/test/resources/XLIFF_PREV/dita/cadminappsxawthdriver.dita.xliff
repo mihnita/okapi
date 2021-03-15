@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminappsxawthdriver.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Using XA with the network client driver</source>
+<seg-source><mrk mid="0" mtype="seg">Using XA with the network client driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using XA with the network client driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You can access XA support for the Network Server by using the network client driver's XA DataSource interface.</source>
+<seg-source><mrk mid="0" mtype="seg">You can access XA support for the Network Server by using the network client driver's XA DataSource interface.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can access XA support for the Network Server by using the network client driver's XA DataSource interface.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">XA</source>
+<seg-source><mrk mid="0" mtype="seg">XA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XA</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Using with the network client driver</source>
+<seg-source><mrk mid="0" mtype="seg">Using with the network client driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using with the network client driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">You can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.ClientXADataSource<ept id="1">&lt;/codeph&gt;</ept> class on Java SE 5 and above (except Java SE 8 Compact Profiles), in applications that call JDBC 3 or JDBC 4.0 methods. You can use the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.ClientXADataSource40<ept id="2">&lt;/codeph&gt;</ept> class on Java SE 6 and above (except Java SE 8 Compact Profiles), in applications that call JDBC 4.1 or JDBC 4.2 methods. You must use the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.BasicClientXADataSource40<ept id="3">&lt;/codeph&gt;</ept> class on Java SE 8 Compact Profile 2 or 3.</source>
+<seg-source><mrk mid="0" mtype="seg">You can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.ClientXADataSource<ept id="1">&lt;/codeph&gt;</ept> class on Java SE 5 and above (except Java SE 8 Compact Profiles), in applications that call JDBC 3 or JDBC 4.0 methods.</mrk><mrk mid="1" mtype="seg"> You can use the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.ClientXADataSource40<ept id="2">&lt;/codeph&gt;</ept> class on Java SE 6 and above (except Java SE 8 Compact Profiles), in applications that call JDBC 4.1 or JDBC 4.2 methods.</mrk><mrk mid="2" mtype="seg"> You must use the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.BasicClientXADataSource40<ept id="3">&lt;/codeph&gt;</ept> class on Java SE 8 Compact Profile 2 or 3.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.ClientXADataSource<ept id="1">&lt;/codeph&gt;</ept> class on Java SE 5 and above (except Java SE 8 Compact Profiles), in applications that call JDBC 3 or JDBC 4.0 methods.</mrk><mrk mid="1" mtype="seg"> You can use the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.ClientXADataSource40<ept id="2">&lt;/codeph&gt;</ept> class on Java SE 6 and above (except Java SE 8 Compact Profiles), in applications that call JDBC 4.1 or JDBC 4.2 methods.</mrk><mrk mid="2" mtype="seg"> You must use the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>org.apache.derby.jdbc.BasicClientXADataSource40<ept id="3">&lt;/codeph&gt;</ept> class on Java SE 8 Compact Profile 2 or 3.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">If your client is running on the Java SE 6 platform or higher, all connection objects returned from the DataSource will be JDBC 4 connection objects, whether or not you are using a DataSource whose name ends in "40".</source>
+<seg-source><mrk mid="0" mtype="seg">If your client is running on the Java SE 6 platform or higher, all connection objects returned from the DataSource will be JDBC 4 connection objects, whether or not you are using a DataSource whose name ends in "40".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If your client is running on the Java SE 6 platform or higher, all connection objects returned from the DataSource will be JDBC 4 connection objects, whether or not you are using a DataSource whose name ends in "40".</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The following example illustrates how to obtain an XA connection with the network client driver:</source>
+<seg-source><mrk mid="0" mtype="seg">The following example illustrates how to obtain an XA connection with the network client driver:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example illustrates how to obtain an XA connection with the network client driver:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">import org.apache.derby.jdbc.ClientXADataSource; import javax.sql.XAConnection; ... XAConnection xaConnection = null; Connection conn = null; ClientXADataSource ds = new ClientXADataSource(); ds.setDatabaseName ("sample"); ds.setCreateDatabase("create"); ds.setServerName("localhost"); ds.setPortNumber(1527); xaConnection = ds.getXAConnection("auser", "shhhh"); conn = xaConnection.getConnection();</source>
+<seg-source><mrk mid="0" mtype="seg">import org.apache.derby.jdbc.ClientXADataSource; import javax.sql.XAConnection; ...</mrk><mrk mid="1" mtype="seg"> XAConnection xaConnection = null; Connection conn = null; ClientXADataSource ds = new ClientXADataSource(); ds.setDatabaseName ("sample"); ds.setCreateDatabase("create"); ds.setServerName("localhost"); ds.setPortNumber(1527); xaConnection = ds.getXAConnection("auser", "shhhh"); conn = xaConnection.getConnection();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">import org.apache.derby.jdbc.ClientXADataSource; import javax.sql.XAConnection; ...</mrk><mrk mid="1" mtype="seg"> XAConnection xaConnection = null; Connection conn = null; ClientXADataSource ds = new ClientXADataSource(); ds.setDatabaseName ("sample"); ds.setCreateDatabase("create"); ds.setServerName("localhost"); ds.setPortNumber(1527); xaConnection = ds.getXAConnection("auser", "shhhh"); conn = xaConnection.getConnection();</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefdeclaretemptable.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">DECLARE GLOBAL TEMPORARY TABLE statement</source>
+<seg-source><mrk mid="0" mtype="seg">DECLARE GLOBAL TEMPORARY TABLE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DECLARE GLOBAL TEMPORARY TABLE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">DECLARE GLOBAL TEMPORARY TABLE statement</source>
+<seg-source><mrk mid="0" mtype="seg">DECLARE GLOBAL TEMPORARY TABLE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DECLARE GLOBAL TEMPORARY TABLE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">tables</source>
+<seg-source><mrk mid="0" mtype="seg">tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">temporary</source>
+<seg-source><mrk mid="0" mtype="seg">temporary</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">temporary</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SQL statements</source>
+<seg-source><mrk mid="0" mtype="seg">SQL statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">DECLARE GLOBAL TEMPORARY TABLE</source>
+<seg-source><mrk mid="0" mtype="seg">DECLARE GLOBAL TEMPORARY TABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DECLARE GLOBAL TEMPORARY TABLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The DECLARE GLOBAL TEMPORARY TABLE statement defines a temporary table for the current connection.</source>
+<seg-source><mrk mid="0" mtype="seg">The DECLARE GLOBAL TEMPORARY TABLE statement defines a temporary table for the current connection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The DECLARE GLOBAL TEMPORARY TABLE statement defines a temporary table for the current connection.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">These tables do not reside in the system catalogs and are not persistent. Temporary tables exist only during the connection that declared them and cannot be referenced outside of that connection. When the connection closes, the rows of the table are deleted, and the in-memory description of the temporary table is dropped.</source>
+<seg-source><mrk mid="0" mtype="seg">These tables do not reside in the system catalogs and are not persistent.</mrk><mrk mid="1" mtype="seg"> Temporary tables exist only during the connection that declared them and cannot be referenced outside of that connection.</mrk><mrk mid="2" mtype="seg"> When the connection closes, the rows of the table are deleted, and the in-memory description of the temporary table is dropped.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">These tables do not reside in the system catalogs and are not persistent.</mrk><mrk mid="1" mtype="seg"> Temporary tables exist only during the connection that declared them and cannot be referenced outside of that connection.</mrk><mrk mid="2" mtype="seg"> When the connection closes, the rows of the table are deleted, and the in-memory description of the temporary table is dropped.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Temporary tables are useful when:</source>
+<seg-source><mrk mid="0" mtype="seg">Temporary tables are useful when:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Temporary tables are useful when:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The table structure is not known before using an application.</source>
+<seg-source><mrk mid="0" mtype="seg">The table structure is not known before using an application.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The table structure is not known before using an application.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Other users do not need the same table structure.</source>
+<seg-source><mrk mid="0" mtype="seg">Other users do not need the same table structure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Other users do not need the same table structure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Data in the temporary table is needed while using the application.</source>
+<seg-source><mrk mid="0" mtype="seg">Data in the temporary table is needed while using the application.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data in the temporary table is needed while using the application.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The table can be declared and dropped without holding the locks on the system catalog.</source>
+<seg-source><mrk mid="0" mtype="seg">The table can be declared and dropped without holding the locks on the system catalog.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The table can be declared and dropped without holding the locks on the system catalog.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DECLARE GLOBAL TEMPORARY TABLE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefdeclaretemptable.dita#rrefdeclaretemptable/tempcoltablename"&gt;</bpt>tempTableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefdeclaretemptable.dita#rrefdeclaretemptable/tempcolcolumndef"&gt;</bpt>columnDefinition<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> [ , <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefdeclaretemptable.dita#rrefdeclaretemptable/tempcolcolumndef"&gt;</bpt>columnDefinition<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ]* } [ ON COMMIT { DELETE | PRESERVE } ROWS ] NOT LOGGED [ ON ROLLBACK DELETE ROWS ] <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DECLARE GLOBAL TEMPORARY TABLE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefdeclaretemptable.dita#rrefdeclaretemptable/tempcoltablename"&gt;</bpt>tempTableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefdeclaretemptable.dita#rrefdeclaretemptable/tempcolcolumndef"&gt;</bpt>columnDefinition<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> [ , <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefdeclaretemptable.dita#rrefdeclaretemptable/tempcolcolumndef"&gt;</bpt>columnDefinition<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ]* } [ ON COMMIT { DELETE | PRESERVE } ROWS ] NOT LOGGED [ ON ROLLBACK DELETE ROWS ] <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DECLARE GLOBAL TEMPORARY TABLE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefdeclaretemptable.dita#rrefdeclaretemptable/tempcoltablename"&gt;</bpt>tempTableName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefdeclaretemptable.dita#rrefdeclaretemptable/tempcolcolumndef"&gt;</bpt>columnDefinition<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> [ , <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref
+href="rrefdeclaretemptable.dita#rrefdeclaretemptable/tempcolcolumndef"&gt;</bpt>columnDefinition<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> ]* } [ ON COMMIT { DELETE | PRESERVE } ROWS ] NOT LOGGED [ ON ROLLBACK DELETE ROWS ] <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">tempTableName</source>
+<seg-source><mrk mid="0" mtype="seg">tempTableName</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tempTableName</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Names the temporary table. If a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref 
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> other than SESSION is specified, an error will occur (SQLSTATE 428EK). If the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>schemaName<ept id="3">&lt;/i&gt;</ept> is not specified, SESSION is assigned. Multiple connections can define declared global temporary tables with the same name because each connection has its own unique table descriptor for it.</source>
+<seg-source><mrk mid="0" mtype="seg">Names the temporary table.</mrk><mrk mid="1" mtype="seg"> If a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref 
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> other than SESSION is specified, an error will occur (SQLSTATE 428EK).</mrk><mrk mid="2" mtype="seg"> If the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>schemaName<ept id="3">&lt;/i&gt;</ept> is not specified, SESSION is assigned.</mrk><mrk mid="3" mtype="seg"> Multiple connections can define declared global temporary tables with the same name because each connection has its own unique table descriptor for it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Names the temporary table.</mrk><mrk mid="1" mtype="seg"> If a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref 
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> other than SESSION is specified, an error will occur (SQLSTATE 428EK).</mrk><mrk mid="2" mtype="seg"> If the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>schemaName<ept id="3">&lt;/i&gt;</ept> is not specified, SESSION is assigned.</mrk><mrk mid="3" mtype="seg"> Multiple connections can define declared global temporary tables with the same name because each connection has its own unique table descriptor for it.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Using SESSION as the schema name of a physical table will not cause an error, but is discouraged. The SESSION schema name should be reserved for the temporary table schema.</source>
+<seg-source><mrk mid="0" mtype="seg">Using SESSION as the schema name of a physical table will not cause an error, but is discouraged.</mrk><mrk mid="1" mtype="seg"> The SESSION schema name should be reserved for the temporary table schema.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using SESSION as the schema name of a physical table will not cause an error, but is discouraged.</mrk><mrk mid="1" mtype="seg"> The SESSION schema name should be reserved for the temporary table schema.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">columnDefinition</source>
+<seg-source><mrk mid="0" mtype="seg">columnDefinition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">columnDefinition</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">See <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqlj30540.dita#rrefsqlj30540"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> for CREATE TABLE for more information on <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>columnDefinition<ept id="3">&lt;/i&gt;</ept>. DECLARE GLOBAL TEMPORARY TABLE does not allow <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>generatedColumnSpec<ept id="4">&lt;/i&gt;</ept> in the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>columnDefinition<ept id="5">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqlj30540.dita#rrefsqlj30540"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> for CREATE TABLE for more information on <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>columnDefinition<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> DECLARE GLOBAL TEMPORARY TABLE does not allow <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>generatedColumnSpec<ept id="4">&lt;/i&gt;</ept> in the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>columnDefinition<ept id="5">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqlj30540.dita#rrefsqlj30540"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> for CREATE TABLE for more information on <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>columnDefinition<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> DECLARE GLOBAL TEMPORARY TABLE does not allow <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>generatedColumnSpec<ept id="4">&lt;/i&gt;</ept> in the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>columnDefinition<ept id="5">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Data type</source>
+<seg-source><mrk mid="0" mtype="seg">Data type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data type</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Supported data types are:</source>
+<seg-source><mrk mid="0" mtype="seg">Supported data types are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Supported data types are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">DATE</source>
+<seg-source><mrk mid="0" mtype="seg">DATE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DATE</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">DECIMAL</source>
+<seg-source><mrk mid="0" mtype="seg">DECIMAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DECIMAL</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">DOUBLE</source>
+<seg-source><mrk mid="0" mtype="seg">DOUBLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DOUBLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">DOUBLE PRECISION</source>
+<seg-source><mrk mid="0" mtype="seg">DOUBLE PRECISION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DOUBLE PRECISION</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">FLOAT</source>
+<seg-source><mrk mid="0" mtype="seg">FLOAT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FLOAT</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">NUMERIC</source>
+<seg-source><mrk mid="0" mtype="seg">NUMERIC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NUMERIC</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">REAL</source>
+<seg-source><mrk mid="0" mtype="seg">REAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REAL</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">SMALLINT</source>
+<seg-source><mrk mid="0" mtype="seg">SMALLINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SMALLINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">TIME</source>
+<seg-source><mrk mid="0" mtype="seg">TIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">TIMESTAMP</source>
+<seg-source><mrk mid="0" mtype="seg">TIMESTAMP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMESTAMP</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">ON COMMIT</source>
+<seg-source><mrk mid="0" mtype="seg">ON COMMIT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ON COMMIT</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">Specifies the action taken on the global temporary table when a COMMIT operation is performed.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the action taken on the global temporary table when a COMMIT operation is performed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the action taken on the global temporary table when a COMMIT operation is performed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">DELETE ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">DELETE ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DELETE ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">All rows of the table will be deleted if no hold-able cursor is open on the table. This is the default value for ON COMMIT. If you specify ON ROLLBACK DELETE ROWS, this will delete all the rows in the table only if the temporary table was used. ON COMMIT DELETE ROWS will delete the rows in the table even if the table was not used (if the table does not have hold-able cursors open on it).</source>
+<seg-source><mrk mid="0" mtype="seg">All rows of the table will be deleted if no hold-able cursor is open on the table.</mrk><mrk mid="1" mtype="seg"> This is the default value for ON COMMIT.</mrk><mrk mid="2" mtype="seg"> If you specify ON ROLLBACK DELETE ROWS, this will delete all the rows in the table only if the temporary table was used.</mrk><mrk mid="3" mtype="seg"> ON COMMIT DELETE ROWS will delete the rows in the table even if the table was not used (if the table does not have hold-able cursors open on it).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All rows of the table will be deleted if no hold-able cursor is open on the table.</mrk><mrk mid="1" mtype="seg"> This is the default value for ON COMMIT.</mrk><mrk mid="2" mtype="seg"> If you specify ON ROLLBACK DELETE ROWS, this will delete all the rows in the table only if the temporary table was used.</mrk><mrk mid="3" mtype="seg"> ON COMMIT DELETE ROWS will delete the rows in the table even if the table was not used (if the table does not have hold-able cursors open on it).</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">PRESERVE ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">PRESERVE ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PRESERVE ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">The rows of the table will be preserved.</source>
+<seg-source><mrk mid="0" mtype="seg">The rows of the table will be preserved.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The rows of the table will be preserved.</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">NOT LOGGED</source>
+<seg-source><mrk mid="0" mtype="seg">NOT LOGGED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NOT LOGGED</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">Specifies the action taken on the global temporary table when a rollback operation is performed. When a ROLLBACK (or ROLLBACK TO SAVEPOINT) operation is performed, if the table was created in the unit of work (or savepoint), the table will be dropped. If the table was dropped in the unit of work (or savepoint), the table will be restored with no rows.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the action taken on the global temporary table when a rollback operation is performed.</mrk><mrk mid="1" mtype="seg"> When a ROLLBACK (or ROLLBACK TO SAVEPOINT) operation is performed, if the table was created in the unit of work (or savepoint), the table will be dropped.</mrk><mrk mid="2" mtype="seg"> If the table was dropped in the unit of work (or savepoint), the table will be restored with no rows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the action taken on the global temporary table when a rollback operation is performed.</mrk><mrk mid="1" mtype="seg"> When a ROLLBACK (or ROLLBACK TO SAVEPOINT) operation is performed, if the table was created in the unit of work (or savepoint), the table will be dropped.</mrk><mrk mid="2" mtype="seg"> If the table was dropped in the unit of work (or savepoint), the table will be restored with no rows.</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">ON ROLLBACK DELETE ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">ON ROLLBACK DELETE ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ON ROLLBACK DELETE ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">This is the default value for NOT LOGGED. NOT LOGGED [ON ROLLBACK DELETE ROWS ]] specifies the action that is to be taken on the global temporary table when a ROLLBACK or (ROLLBACK TO SAVEPOINT) operation is performed. If the table data has been changed, all the rows will be deleted.</source>
+<seg-source><mrk mid="0" mtype="seg">This is the default value for NOT LOGGED.</mrk><mrk mid="1" mtype="seg"> NOT LOGGED [ON ROLLBACK DELETE ROWS ]] specifies the action that is to be taken on the global temporary table when a ROLLBACK or (ROLLBACK TO SAVEPOINT) operation is performed.</mrk><mrk mid="2" mtype="seg"> If the table data has been changed, all the rows will be deleted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is the default value for NOT LOGGED.</mrk><mrk mid="1" mtype="seg"> NOT LOGGED [ON ROLLBACK DELETE ROWS ]] specifies the action that is to be taken on the global temporary table when a ROLLBACK or (ROLLBACK TO SAVEPOINT) operation is performed.</mrk><mrk mid="2" mtype="seg"> If the table data has been changed, all the rows will be deleted.</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>set schema myapp; create table t1(c11 int, c12 date); declare global temporary table SESSION.t1(c11 int) not logged;<ept id="1">&lt;/b&gt;</ept> -- The SESSION qualification is redundant here because temporary -- tables can only exist in the SESSION schema. <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>declare global temporary table t2(c21 int) not logged;<ept id="2">&lt;/b&gt;</ept> -- The temporary table is not qualified here with SESSION because temporary -- tables can only exist in the SESSION schema. <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>insert into SESSION.t1 values (1); <ept id="3">&lt;/b&gt;</ept> -- SESSION qualification is mandatory here if you want to use -- the temporary table, because the current schema is "myapp." <bpt id="4" ctype="x-b">&lt;b&gt;</bpt>select * from t1;<ept id="4">&lt;/b&gt;</ept> -- This select statement is referencing the "myapp.t1" physical -- table since the table was not qualified by SESSION.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>set schema myapp; create table t1(c11 int, c12 date); declare global temporary table SESSION.t1(c11 int) not logged;<ept id="1">&lt;/b&gt;</ept> -- The SESSION qualification is redundant here because temporary -- tables can only exist in the SESSION schema.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>declare global temporary table t2(c21 int) not logged;<ept id="2">&lt;/b&gt;</ept> -- The temporary table is not qualified here with SESSION because temporary -- tables can only exist in the SESSION schema.</mrk><mrk mid="2" mtype="seg"> <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>insert into SESSION.t1 values (1); <ept id="3">&lt;/b&gt;</ept> -- SESSION qualification is mandatory here if you want to use -- the temporary table, because the current schema is "myapp." <bpt id="4" ctype="x-b">&lt;b&gt;</bpt>select * from t1;<ept id="4">&lt;/b&gt;</ept> -- This select statement is referencing the "myapp.t1" physical -- table since the table was not qualified by SESSION.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>set schema myapp; create table t1(c11 int, c12 date); declare global temporary table SESSION.t1(c11 int) not logged;<ept id="1">&lt;/b&gt;</ept> -- The SESSION qualification is redundant here because temporary -- tables can only exist in the SESSION schema.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>declare global temporary table t2(c21 int) not logged;<ept id="2">&lt;/b&gt;</ept> -- The temporary table is not qualified here with SESSION because temporary -- tables can only exist in the SESSION schema.</mrk><mrk mid="2" mtype="seg"> <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>insert into SESSION.t1 values (1); <ept id="3">&lt;/b&gt;</ept> -- SESSION qualification is mandatory here if you want to use -- the temporary table, because the current schema is "myapp." <bpt id="4" ctype="x-b">&lt;b&gt;</bpt>select * from t1;<ept id="4">&lt;/b&gt;</ept> -- This select statement is referencing the "myapp.t1" physical -- table since the table was not qualified by SESSION.</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">Temporary tables can be declared only in the SESSION schema. You should never declare a physical schema with the SESSION name.</source>
+<seg-source><mrk mid="0" mtype="seg">Temporary tables can be declared only in the SESSION schema.</mrk><mrk mid="1" mtype="seg"> You should never declare a physical schema with the SESSION name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Temporary tables can be declared only in the SESSION schema.</mrk><mrk mid="1" mtype="seg"> You should never declare a physical schema with the SESSION name.</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">The following is a list of DB2 UDB DECLARE GLOBAL TEMPORARY TABLE functions that are not supported by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>:</source>
+<seg-source><mrk mid="0" mtype="seg">The following is a list of DB2 UDB DECLARE GLOBAL TEMPORARY TABLE functions that are not supported by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following is a list of DB2 UDB DECLARE GLOBAL TEMPORARY TABLE functions that are not supported by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">IDENTITY column-options</source>
+<seg-source><mrk mid="0" mtype="seg">IDENTITY column-options</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDENTITY column-options</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">IDENTITY attribute in copy-options</source>
+<seg-source><mrk mid="0" mtype="seg">IDENTITY attribute in copy-options</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDENTITY attribute in copy-options</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">AS (fullselect) DEFINITION ONLY</source>
+<seg-source><mrk mid="0" mtype="seg">AS (fullselect) DEFINITION ONLY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AS (fullselect) DEFINITION ONLY</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">NOT LOGGED ON ROLLBACK PRESERVE ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">NOT LOGGED ON ROLLBACK PRESERVE ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NOT LOGGED ON ROLLBACK PRESERVE ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">IN tablespace-name</source>
+<seg-source><mrk mid="0" mtype="seg">IN tablespace-name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IN tablespace-name</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">PARTITIONING KEY</source>
+<seg-source><mrk mid="0" mtype="seg">PARTITIONING KEY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PARTITIONING KEY</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">WITH REPLACE</source>
+<seg-source><mrk mid="0" mtype="seg">WITH REPLACE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WITH REPLACE</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">Restrictions on declared global temporary tables</source>
+<seg-source><mrk mid="0" mtype="seg">Restrictions on declared global temporary tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Restrictions on declared global temporary tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support the following features on temporary tables. Some of these features are specific to temporary tables and some are specific to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support the following features on temporary tables.</mrk><mrk mid="1" mtype="seg"> Some of these features are specific to temporary tables and some are specific to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not support the following features on temporary tables.</mrk><mrk mid="1" mtype="seg"> Some of these features are specific to temporary tables and some are specific to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">Temporary tables cannot be specified in the following statements:</source>
+<seg-source><mrk mid="0" mtype="seg">Temporary tables cannot be specified in the following statements:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Temporary tables cannot be specified in the following statements:</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">ALTER TABLE</source>
+<seg-source><mrk mid="0" mtype="seg">ALTER TABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ALTER TABLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">CREATE INDEX</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE INDEX</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE INDEX</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">CREATE SYNONYM</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE SYNONYM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE SYNONYM</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en">CREATE TRIGGER</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE TRIGGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE TRIGGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en">CREATE VIEW</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE VIEW</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE VIEW</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">GRANT</source>
+<seg-source><mrk mid="0" mtype="seg">GRANT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GRANT</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">LOCK TABLE</source>
+<seg-source><mrk mid="0" mtype="seg">LOCK TABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOCK TABLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">RENAME</source>
+<seg-source><mrk mid="0" mtype="seg">RENAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RENAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en">REVOKE</source>
+<seg-source><mrk mid="0" mtype="seg">REVOKE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REVOKE</mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en">You cannot use the following features with temporary tables:</source>
+<seg-source><mrk mid="0" mtype="seg">You cannot use the following features with temporary tables:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You cannot use the following features with temporary tables:</mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en">Synonyms, triggers and views on SESSION schema tables (including physical tables and temporary tables)</source>
+<seg-source><mrk mid="0" mtype="seg">Synonyms, triggers and views on SESSION schema tables (including physical tables and temporary tables)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Synonyms, triggers and views on SESSION schema tables (including physical tables and temporary tables)</mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en">Caching statements that reference SESSION schema tables and views</source>
+<seg-source><mrk mid="0" mtype="seg">Caching statements that reference SESSION schema tables and views</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Caching statements that reference SESSION schema tables and views</mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en">Temporary tables cannot be specified in referential constraints and primary keys</source>
+<seg-source><mrk mid="0" mtype="seg">Temporary tables cannot be specified in referential constraints and primary keys</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Temporary tables cannot be specified in referential constraints and primary keys</mrk></target>
+</trans-unit>
+<trans-unit id="tu74">
+<source xml:lang="en">Temporary tables cannot be referenced in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>triggeredSQLStatement<ept id="1">&lt;/i&gt;</ept> or in a WHEN clause</source>
+<seg-source><mrk mid="0" mtype="seg">Temporary tables cannot be referenced in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>triggeredSQLStatement<ept id="1">&lt;/i&gt;</ept> or in a WHEN clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Temporary tables cannot be referenced in a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>triggeredSQLStatement<ept id="1">&lt;/i&gt;</ept> or in a WHEN clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu75">
+<source xml:lang="en">Check constraints on columns</source>
+<seg-source><mrk mid="0" mtype="seg">Check constraints on columns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check constraints on columns</mrk></target>
+</trans-unit>
+<trans-unit id="tu76">
+<source xml:lang="en">Generated-column-spec</source>
+<seg-source><mrk mid="0" mtype="seg">Generated-column-spec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Generated-column-spec</mrk></target>
+</trans-unit>
+<trans-unit id="tu77">
+<source xml:lang="en">Importing into temporary tables</source>
+<seg-source><mrk mid="0" mtype="seg">Importing into temporary tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Importing into temporary tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu78">
+<source xml:lang="en">If a statement that performs an insert, update, or delete to the temporary table encounters an error, all the rows of the temporary table are deleted.</source>
+<seg-source><mrk mid="0" mtype="seg">If a statement that performs an insert, update, or delete to the temporary table encounters an error, all the rows of the temporary table are deleted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a statement that performs an insert, update, or delete to the temporary table encounters an error, all the rows of the temporary table are deleted.</mrk></target>
+</trans-unit>
+<trans-unit id="tu79">
+<source xml:lang="en">The following data types cannot be used with Declared Global Temporary Tables:</source>
+<seg-source><mrk mid="0" mtype="seg">The following data types cannot be used with Declared Global Temporary Tables:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following data types cannot be used with Declared Global Temporary Tables:</mrk></target>
+</trans-unit>
+<trans-unit id="tu80">
+<source xml:lang="en">BLOB</source>
+<seg-source><mrk mid="0" mtype="seg">BLOB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BLOB</mrk></target>
+</trans-unit>
+<trans-unit id="tu81">
+<source xml:lang="en">CHAR FOR BIT DATA</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR FOR BIT DATA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR FOR BIT DATA</mrk></target>
+</trans-unit>
+<trans-unit id="tu82">
+<source xml:lang="en">CLOB</source>
+<seg-source><mrk mid="0" mtype="seg">CLOB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CLOB</mrk></target>
+</trans-unit>
+<trans-unit id="tu83">
+<source xml:lang="en">LONG VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">LONG VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LONG VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu84">
+<source xml:lang="en">LONG VARCHAR FOR BIT DATA</source>
+<seg-source><mrk mid="0" mtype="seg">LONG VARCHAR FOR BIT DATA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LONG VARCHAR FOR BIT DATA</mrk></target>
+</trans-unit>
+<trans-unit id="tu85">
+<source xml:lang="en">VARCHAR FOR BIT DATA</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR FOR BIT DATA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR FOR BIT DATA</mrk></target>
+</trans-unit>
+<trans-unit id="tu86">
+<source xml:lang="en">XML</source>
+<seg-source><mrk mid="0" mtype="seg">XML</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XML</mrk></target>
+</trans-unit>
+<trans-unit id="tu87">
+<source xml:lang="en">Global temporary tables can be used in XA transactions, but can be declared and accessed only within the scope of a single XA transaction. <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can support access to the table only until one of the following methods of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>javax.transaction.xa.XAResource<ept id="2">&lt;/i&gt;</ept> interface is called:</source>
+<seg-source><mrk mid="0" mtype="seg">Global temporary tables can be used in XA transactions, but can be declared and accessed only within the scope of a single XA transaction.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can support access to the table only until one of the following methods of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>javax.transaction.xa.XAResource<ept id="2">&lt;/i&gt;</ept> interface is called:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Global temporary tables can be used in XA transactions, but can be declared and accessed only within the scope of a single XA transaction.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> can support access to the table only until one of the following methods of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>javax.transaction.xa.XAResource<ept id="2">&lt;/i&gt;</ept> interface is called:</mrk></target>
+</trans-unit>
+<trans-unit id="tu88">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>XAResource.end<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>XAResource.end<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>XAResource.end<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu89">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>XAresource.prepare<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>XAresource.prepare<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>XAresource.prepare<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu90">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>XAResource.commit<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>XAResource.commit<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>XAResource.commit<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu91">
+<source xml:lang="en">When the XA transaction commits or aborts, the temporary table is dropped.</source>
+<seg-source><mrk mid="0" mtype="seg">When the XA transaction commits or aborts, the temporary table is dropped.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the XA transaction commits or aborts, the temporary table is dropped.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

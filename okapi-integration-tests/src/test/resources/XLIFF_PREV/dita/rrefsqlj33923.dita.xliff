@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj33923.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Aggregates (set functions)</source>
+<seg-source><mrk mid="0" mtype="seg">Aggregates (set functions)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Aggregates (set functions)</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">This section describes aggregates (also described as <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>set functions<ept id="1">&lt;/i&gt;</ept> in ANSI SQL-92 and as <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>column functions<ept id="2">&lt;/i&gt;</ept> in some database literature).</source>
+<seg-source><mrk mid="0" mtype="seg">This section describes aggregates (also described as <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>set functions<ept id="1">&lt;/i&gt;</ept> in ANSI SQL-92 and as <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>column functions<ept id="2">&lt;/i&gt;</ept> in some database literature).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This section describes aggregates (also described as <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>set functions<ept id="1">&lt;/i&gt;</ept> in ANSI SQL-92 and as <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>column functions<ept id="2">&lt;/i&gt;</ept> in some database literature).</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Aggregates</source>
+<seg-source><mrk mid="0" mtype="seg">Aggregates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Aggregates</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">and data types</source>
+<seg-source><mrk mid="0" mtype="seg">and data types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and data types</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Aggregates</source>
+<seg-source><mrk mid="0" mtype="seg">Aggregates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Aggregates</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">requirements for</source>
+<seg-source><mrk mid="0" mtype="seg">requirements for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">requirements for</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Aggregates provide a means of evaluating an expression over a set of rows. Whereas the other built-in functions operate on a single expression, aggregates operate on a set of values and reduce them to a single scalar value. Built-in aggregates can calculate the minimum, maximum, sum, count, and average of an expression over a set of values as well as count rows.</source>
+<seg-source><mrk mid="0" mtype="seg">Aggregates provide a means of evaluating an expression over a set of rows.</mrk><mrk mid="1" mtype="seg"> Whereas the other built-in functions operate on a single expression, aggregates operate on a set of values and reduce them to a single scalar value.</mrk><mrk mid="2" mtype="seg"> Built-in aggregates can calculate the minimum, maximum, sum, count, and average of an expression over a set of values as well as count rows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Aggregates provide a means of evaluating an expression over a set of rows.</mrk><mrk mid="1" mtype="seg"> Whereas the other built-in functions operate on a single expression, aggregates operate on a set of values and reduce them to a single scalar value.</mrk><mrk mid="2" mtype="seg"> Built-in aggregates can calculate the minimum, maximum, sum, count, and average of an expression over a set of values as well as count rows.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">In addition to the built-in aggregates, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> allows you to create custom aggregate operators, called user-defined aggregates (UDAs). For information on creating and removing UDAs, see <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljcreateaggregate.dita#rrefsqljcreateaggregate"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> and <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqljdropaggregate.dita#rrefsqljdropaggregate"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>. See <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept> and <bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke"&gt;</bpt><ept id="5">&lt;/xref&gt;</ept> for information on usage privileges for UDAs.</source>
+<seg-source><mrk mid="0" mtype="seg">In addition to the built-in aggregates, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> allows you to create custom aggregate operators, called user-defined aggregates (UDAs).</mrk><mrk mid="1" mtype="seg"> For information on creating and removing UDAs, see <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljcreateaggregate.dita#rrefsqljcreateaggregate"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> and <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqljdropaggregate.dita#rrefsqljdropaggregate"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> See <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept> and <bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke"&gt;</bpt><ept id="5">&lt;/xref&gt;</ept> for information on usage privileges for UDAs.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In addition to the built-in aggregates, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> allows you to create custom aggregate operators, called user-defined aggregates (UDAs).</mrk><mrk mid="1" mtype="seg"> For information on creating and removing UDAs, see <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqljcreateaggregate.dita#rrefsqljcreateaggregate"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> and <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqljdropaggregate.dita#rrefsqljdropaggregate"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> See <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqljgrant.dita#rrefsqljgrant"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept> and <bpt id="5" ctype="x-xref">&lt;xref href="rrefsqljrevoke.dita#rrefsqljrevoke"&gt;</bpt><ept id="5">&lt;/xref&gt;</ept> for information on usage privileges for UDAs.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">For information on writing the Java classes that implement UDAs, see "Programming user-defined aggregates" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For information on writing the Java classes that implement UDAs, see "Programming user-defined aggregates" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For information on writing the Java classes that implement UDAs, see "Programming user-defined aggregates" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The built-in aggregates can operate on expressions that evaluate to the data types shown in the following table.</source>
+<seg-source><mrk mid="0" mtype="seg">The built-in aggregates can operate on expressions that evaluate to the data types shown in the following table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The built-in aggregates can operate on expressions that evaluate to the data types shown in the following table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Permitted data types for built-in aggregates</source>
+<seg-source><mrk mid="0" mtype="seg">Permitted data types for built-in aggregates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Permitted data types for built-in aggregates</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">This table lists the data types that are valid for each of the built-in aggregates.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the data types that are valid for each of the built-in aggregates.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the data types that are valid for each of the built-in aggregates.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Function Name</source>
+<seg-source><mrk mid="0" mtype="seg">Function Name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function Name</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Permitted Data Types</source>
+<seg-source><mrk mid="0" mtype="seg">Permitted Data Types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Permitted Data Types</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj38716.dita#rrefsqlj38716"&gt;</bpt>COUNT<ept id="1">&lt;/xref&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj38716.dita#rrefsqlj38716"&gt;</bpt>COUNT<ept id="1">&lt;/xref&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj38716.dita#rrefsqlj38716"&gt;</bpt>COUNT<ept id="1">&lt;/xref&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">All types</source>
+<seg-source><mrk mid="0" mtype="seg">All types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All types</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33520.dita#rrefsqlj33520"&gt;</bpt>MIN<ept id="1">&lt;/xref&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33520.dita#rrefsqlj33520"&gt;</bpt>MIN<ept id="1">&lt;/xref&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33520.dita#rrefsqlj33520"&gt;</bpt>MIN<ept id="1">&lt;/xref&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Data types that can be indexed</source>
+<seg-source><mrk mid="0" mtype="seg">Data types that can be indexed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data types that can be indexed</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj27781.dita#rrefsqlj27781"&gt;</bpt>MAX<ept id="1">&lt;/xref&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj27781.dita#rrefsqlj27781"&gt;</bpt>MAX<ept id="1">&lt;/xref&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj27781.dita#rrefsqlj27781"&gt;</bpt>MAX<ept id="1">&lt;/xref&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Data types that can be indexed</source>
+<seg-source><mrk mid="0" mtype="seg">Data types that can be indexed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data types that can be indexed</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj32693.dita#rrefsqlj32693"&gt;</bpt>AVG<ept id="1">&lt;/xref&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj32693.dita#rrefsqlj32693"&gt;</bpt>AVG<ept id="1">&lt;/xref&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj32693.dita#rrefsqlj32693"&gt;</bpt>AVG<ept id="1">&lt;/xref&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Numeric built-in data types</source>
+<seg-source><mrk mid="0" mtype="seg">Numeric built-in data types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Numeric built-in data types</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj13083.dita#rrefsqlj13083"&gt;</bpt>SUM<ept id="1">&lt;/xref&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj13083.dita#rrefsqlj13083"&gt;</bpt>SUM<ept id="1">&lt;/xref&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj13083.dita#rrefsqlj13083"&gt;</bpt>SUM<ept id="1">&lt;/xref&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Numeric built-in data types</source>
+<seg-source><mrk mid="0" mtype="seg">Numeric built-in data types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Numeric built-in data types</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Aggregates are permitted only in the following:</source>
+<seg-source><mrk mid="0" mtype="seg">Aggregates are permitted only in the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Aggregates are permitted only in the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>selectItem<ept id="1">&lt;/i&gt;</ept> in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="3">&lt;/xref&gt;</ept>.<ept id="2">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>selectItem<ept id="1">&lt;/i&gt;</ept> in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="3">&lt;/xref&gt;</ept>.<ept id="2">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>selectItem<ept id="1">&lt;/i&gt;</ept> in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="3">&lt;/xref&gt;</ept>.<ept id="2">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">A <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj14854.dita#rrefsqlj14854"&gt;</bpt>HAVING clause<ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj14854.dita#rrefsqlj14854"&gt;</bpt>HAVING clause<ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj14854.dita#rrefsqlj14854"&gt;</bpt>HAVING clause<ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">An <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj13658.dita#rrefsqlj13658"&gt;</bpt>ORDER BY clause<ept id="1">&lt;/xref&gt;</ept> (using an alias name) if the aggregate appears in the result of the relevant query block. That is, an alias for an aggregate is permitted in an <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj13658.dita#rrefsqlj13658"&gt;</bpt>ORDER BY clause<ept id="2">&lt;/xref&gt;</ept> if and only if the aggregate appears in a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>selectItem<ept id="3">&lt;/i&gt;</ept> in a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="5">&lt;/xref&gt;</ept>.<ept id="4">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">An <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj13658.dita#rrefsqlj13658"&gt;</bpt>ORDER BY clause<ept id="1">&lt;/xref&gt;</ept> (using an alias name) if the aggregate appears in the result of the relevant query block.</mrk><mrk mid="1" mtype="seg"> That is, an alias for an aggregate is permitted in an <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj13658.dita#rrefsqlj13658"&gt;</bpt>ORDER BY clause<ept id="2">&lt;/xref&gt;</ept> if and only if the aggregate appears in a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>selectItem<ept id="3">&lt;/i&gt;</ept> in a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="5">&lt;/xref&gt;</ept>.<ept id="4">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj13658.dita#rrefsqlj13658"&gt;</bpt>ORDER BY clause<ept id="1">&lt;/xref&gt;</ept> (using an alias name) if the aggregate appears in the result of the relevant query block.</mrk><mrk mid="1" mtype="seg"> That is, an alias for an aggregate is permitted in an <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj13658.dita#rrefsqlj13658"&gt;</bpt>ORDER BY clause<ept id="2">&lt;/xref&gt;</ept> if and only if the aggregate appears in a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>selectItem<ept id="3">&lt;/i&gt;</ept> in a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="5">&lt;/xref&gt;</ept>.<ept id="4">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">All expressions in <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>selectItems<ept id="1">&lt;/i&gt;</ept> in the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> must be either aggregates or grouped columns (see <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqlj32654.dita#rrefsqlj32654"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>). (The same is true if there is a HAVING clause without a GROUP BY clause.) This is because the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="5">&lt;/i&gt;</ept> of a <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> must be either a scalar (single value) or a vector (multiple values), but not a mixture of both. (Aggregates evaluate to a scalar value, and the reference to a column can evaluate to a vector.) For example, the following query mixes scalar and vector values and thus is not valid:</source>
+<seg-source><mrk mid="0" mtype="seg">All expressions in <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>selectItems<ept id="1">&lt;/i&gt;</ept> in the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> must be either aggregates or grouped columns (see <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqlj32654.dita#rrefsqlj32654"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> (The same is true if there is a HAVING clause without a GROUP BY clause.) This is because the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="5">&lt;/i&gt;</ept> of a <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> must be either a scalar (single value) or a vector (multiple values), but not a mixture of both.</mrk><mrk mid="2" mtype="seg"> (Aggregates evaluate to a scalar value, and the reference to a column can evaluate to a vector.) For example, the following query mixes scalar and vector values and thus is not valid:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All expressions in <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>selectItems<ept id="1">&lt;/i&gt;</ept> in the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> must be either aggregates or grouped columns (see <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqlj32654.dita#rrefsqlj32654"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> (The same is true if there is a HAVING clause without a GROUP BY clause.) This is because the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="5">&lt;/i&gt;</ept> of a <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> must be either a scalar (single value) or a vector (multiple values), but not a mixture of both.</mrk><mrk mid="2" mtype="seg"> (Aggregates evaluate to a scalar value, and the reference to a column can evaluate to a vector.) For example, the following query mixes scalar and vector values and thus is not valid:</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- not valid<ept id="2">&lt;/ph&gt;</ept> SELECT MIN(flying_time), flight_id FROM Flights<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- not valid<ept id="2">&lt;/ph&gt;</ept> SELECT MIN(flying_time), flight_id FROM Flights<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- not valid<ept id="2">&lt;/ph&gt;</ept> SELECT MIN(flying_time), flight_id FROM Flights<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">Aggregates are not allowed on outer references (correlations). This means that if a subquery contains an aggregate, that aggregate cannot evaluate an expression that includes a reference to a column in the outer query block. For example, the following query is not valid because SUM operates on a column from the outer query:</source>
+<seg-source><mrk mid="0" mtype="seg">Aggregates are not allowed on outer references (correlations).</mrk><mrk mid="1" mtype="seg"> This means that if a subquery contains an aggregate, that aggregate cannot evaluate an expression that includes a reference to a column in the outer query block.</mrk><mrk mid="2" mtype="seg"> For example, the following query is not valid because SUM operates on a column from the outer query:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Aggregates are not allowed on outer references (correlations).</mrk><mrk mid="1" mtype="seg"> This means that if a subquery contains an aggregate, that aggregate cannot evaluate an expression that includes a reference to a column in the outer query block.</mrk><mrk mid="2" mtype="seg"> For example, the following query is not valid because SUM operates on a column from the outer query:</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT c1 FROM t1 GROUP BY c1 HAVING c2 &gt; (SELECT t2.x FROM t2 WHERE t2.y = SUM(t1.c3)) <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT c1 FROM t1 GROUP BY c1 HAVING c2 &gt; (SELECT t2.x FROM t2 WHERE t2.y = SUM(t1.c3)) <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT c1 FROM t1 GROUP BY c1 HAVING c2 &gt; (SELECT t2.x FROM t2 WHERE t2.y = SUM(t1.c3)) <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">A cursor declared on a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> that includes an aggregate in the outer query block is not updatable.</source>
+<seg-source><mrk mid="0" mtype="seg">A cursor declared on a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> that includes an aggregate in the outer query block is not updatable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A cursor declared on a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> that includes an aggregate in the outer query block is not updatable.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

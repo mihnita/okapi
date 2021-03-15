@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>net.sf.okapi</groupId>
+    <artifactId>build-okapi-ui</artifactId>
+    <version>1.42.0-SNAPSHOT</version>
+  </parent>
+  <groupId>net.sf.okapi.testutilities</groupId>
+  <artifactId>build-test-utilities</artifactId>
+  <packaging>pom</packaging>
+  <name>Okapi Testing utilities</name>
+  <modules>
+    <module>ui-harness</module>
+  </modules>
+</project>

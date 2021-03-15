@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj20204.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Storing values of one numeric data type in columns of another numeric data type</source>
+<seg-source><mrk mid="0" mtype="seg">Storing values of one numeric data type in columns of another numeric data type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Storing values of one numeric data type in columns of another numeric data type</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">An attempt to put a floating-point type of a larger storage size into a location of a smaller size fails only if the value cannot be stored in the smaller-size location. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">An attempt to put a floating-point type of a larger storage size into a location of a smaller size fails only if the value cannot be stored in the smaller-size location.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An attempt to put a floating-point type of a larger storage size into a location of a smaller size fails only if the value cannot be stored in the smaller-size location.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>create table mytable (r REAL, d DOUBLE PRECISION, i INTEGER, de DECIMAL);<ept id="1">&lt;/b&gt;</ept> 0 rows inserted/updated/deleted <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO mytable (r, d) values (3.4028236E38, 3.4028235E38);<ept id="2">&lt;/b&gt;</ept> ERROR 22003: The resulting value is outside the range for the data type REAL.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>create table mytable (r REAL, d DOUBLE PRECISION, i INTEGER, de DECIMAL);<ept id="1">&lt;/b&gt;</ept> 0 rows inserted/updated/deleted <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO mytable (r, d) values (3.4028236E38, 3.4028235E38);<ept id="2">&lt;/b&gt;</ept> ERROR 22003: The resulting value is outside the range for the data type REAL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>create table mytable (r REAL, d DOUBLE PRECISION, i INTEGER, de DECIMAL);<ept id="1">&lt;/b&gt;</ept> 0 rows inserted/updated/deleted <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO mytable (r, d) values (3.4028236E38, 3.4028235E38);<ept id="2">&lt;/b&gt;</ept> ERROR 22003: The resulting value is outside the range for the data type REAL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">You can store a floating point type in an INTEGER column; the fractional part of the number is truncated. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">You can store a floating point type in an INTEGER column; the fractional part of the number is truncated.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can store a floating point type in an INTEGER column; the fractional part of the number is truncated.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>INSERT INTO mytable (i) VALUES (1.09e0);<ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept> 1 row inserted/updated/deleted <bpt id="3" ctype="x-b">&lt;b&gt;</bpt><bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>SELECT i FROM mytable;<ept id="4">&lt;/ph&gt;</ept><ept id="3">&lt;/b&gt;</ept> I --------------- 1</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>INSERT INTO mytable (i) VALUES (1.09e0);<ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept> 1 row inserted/updated/deleted <bpt id="3" ctype="x-b">&lt;b&gt;</bpt><bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>SELECT i FROM mytable;<ept id="4">&lt;/ph&gt;</ept><ept id="3">&lt;/b&gt;</ept> I --------------- 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>INSERT INTO mytable (i) VALUES (1.09e0);<ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept> 1 row inserted/updated/deleted <bpt id="3" ctype="x-b">&lt;b&gt;</bpt><bpt id="4" ctype="x-ph">&lt;ph&gt;</bpt>SELECT i FROM mytable;<ept id="4">&lt;/ph&gt;</ept><ept id="3">&lt;/b&gt;</ept> I --------------- 1</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Integer types can always be placed successfully in approximate numeric values, although with the possible loss of some precision.</source>
+<seg-source><mrk mid="0" mtype="seg">Integer types can always be placed successfully in approximate numeric values, although with the possible loss of some precision.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Integer types can always be placed successfully in approximate numeric values, although with the possible loss of some precision.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Integers can be stored in decimals if the DECIMAL precision is large enough for the value. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">Integers can be stored in decimals if the DECIMAL precision is large enough for the value.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Integers can be stored in decimals if the DECIMAL precision is large enough for the value.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>INSERT INTO mytable (de) VALUES (55555555556666666666);<ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept> ERROR 22003: The resulting value is outside the range for the data type DECIMAL/NUMERIC(5,2).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>INSERT INTO mytable (de) VALUES (55555555556666666666);<ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept> ERROR 22003: The resulting value is outside the range for the data type DECIMAL/NUMERIC(5,2).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>INSERT INTO mytable (de) VALUES (55555555556666666666);<ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept> ERROR 22003: The resulting value is outside the range for the data type DECIMAL/NUMERIC(5,2).</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">An attempt to put an integer value of a larger storage size into a location of a smaller size fails if the value cannot be stored in the smaller-size location. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">An attempt to put an integer value of a larger storage size into a location of a smaller size fails if the value cannot be stored in the smaller-size location.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An attempt to put an integer value of a larger storage size into a location of a smaller size fails if the value cannot be stored in the smaller-size location.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>INSERT INTO mytable (i) VALUES 2147483648;<ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept> ERROR 22003: The resulting value is outside the range for the data type INTEGER.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>INSERT INTO mytable (i) VALUES 2147483648;<ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept> ERROR 22003: The resulting value is outside the range for the data type INTEGER.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>INSERT INTO mytable (i) VALUES 2147483648;<ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/b&gt;</ept> ERROR 22003: The resulting value is outside the range for the data type INTEGER.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">When truncating trailing digits from a NUMERIC value, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> rounds down.</source>
+<seg-source><mrk mid="0" mtype="seg">When truncating trailing digits from a NUMERIC value, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> rounds down.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When truncating trailing digits from a NUMERIC value, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> rounds down.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

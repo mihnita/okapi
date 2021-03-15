@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevstart39409.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Configuring file descriptors</source>
+<seg-source><mrk mid="0" mtype="seg">Configuring file descriptors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Configuring file descriptors</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> databases create one file per table or index. Some operating systems limit the number of files an application can open at one time.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> databases create one file per table or index.</mrk><mrk mid="1" mtype="seg"> Some operating systems limit the number of files an application can open at one time.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> databases create one file per table or index.</mrk><mrk mid="1" mtype="seg"> Some operating systems limit the number of files an application can open at one time.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">File descriptors</source>
+<seg-source><mrk mid="0" mtype="seg">File descriptors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File descriptors</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">configuring to run Derby</source>
+<seg-source><mrk mid="0" mtype="seg">configuring to run Derby</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring to run Derby</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">IOExceptions</source>
+<seg-source><mrk mid="0" mtype="seg">IOExceptions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IOExceptions</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">indicating need to relax file descriptors limit</source>
+<seg-source><mrk mid="0" mtype="seg">indicating need to relax file descriptors limit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicating need to relax file descriptors limit</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">If the default is a low number, such as 64, you might run into unexpected <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>IOExceptions<ept id="1">&lt;/i&gt;</ept> (wrapped in <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept>). If your operating system lets you configure the number of file descriptors, set this number to a higher value.</source>
+<seg-source><mrk mid="0" mtype="seg">If the default is a low number, such as 64, you might run into unexpected <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>IOExceptions<ept id="1">&lt;/i&gt;</ept> (wrapped in <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> If your operating system lets you configure the number of file descriptors, set this number to a higher value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the default is a low number, such as 64, you might run into unexpected <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>IOExceptions<ept id="1">&lt;/i&gt;</ept> (wrapped in <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> If your operating system lets you configure the number of file descriptors, set this number to a higher value.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

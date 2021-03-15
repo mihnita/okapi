@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="AllCasesTest.po" source-language="en" target-language="fr" datatype="x-application/x-gettext" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" resname="P3E36B801" approved="yes" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%1s">%1s</ph> <ph id="2" ctype="x-regxph" equiv-text="%2s">%2s</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%1s">%1s</ph> <ph id="2" ctype="x-regxph" equiv-text="%2s">%2s</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%1s">%1s</ph> <ph id="2" ctype="x-regxph" equiv-text="%2s">%2s</ph></mrk></target>
+</trans-unit>
+<trans-unit id="2" resname="N93745AA6" approved="yes" xml:space="preserve">
+<source xml:lang="en">Text with an approved translation <ph id="1" ctype="x-regxph" equiv-text="%s">%s</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Text with an approved translation <ph id="1" ctype="x-regxph" equiv-text="%s">%s</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Texte avec une traducion approuvée <ph id="1" ctype="x-regxph" equiv-text="%s">%s</ph></mrk></target>
+</trans-unit>
+<trans-unit id="3" resname="P2FB90C53" xml:space="preserve">
+<source xml:lang="en">Text with non-approved translation <ph id="1" ctype="x-regxph" equiv-text="%s">%s</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Text with non-approved translation <ph id="1" ctype="x-regxph" equiv-text="%s">%s</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text avec une traduction non-approuvée <ph id="1" ctype="x-regxph" equiv-text="%s">%s</ph></mrk></target>
+</trans-unit>
+<trans-unit id="4" resname="NCDA4D8A8" approved="yes" xml:space="preserve">
+<source xml:lang="en">First sentence. Second sentence with <ph id="1" ctype="x-regxph" equiv-text="%s">%s</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">First sentence.</mrk><mrk mid="1" mtype="seg"> Second sentence with <ph id="1" ctype="x-regxph" equiv-text="%s">%s</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Deuxième phrase d'abord avec <ph id="1" ctype="x-regxph" equiv-text="%s">%s</ph>.</mrk><mrk mid="1" mtype="seg"> Puis la première.</mrk></target>
+</trans-unit>
+<trans-unit id="5" resname="ND00CDCC1" xml:space="preserve">
+<source xml:lang="en">Text 2 with non-approved translation <ph id="1" ctype="x-regxph" equiv-text="%s">%s</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Text 2 with non-approved translation <ph id="1" ctype="x-regxph" equiv-text="%s">%s</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text 2 avec une traduction non-approuvée <ph id="1" ctype="x-regxph" equiv-text="%s">%s</ph></mrk></target>
+<note>Developer comment for this entry</note>
+</trans-unit>
+<trans-unit id="6" resname="P24749192" xml:space="preserve">
+<source xml:lang="en">Text without translation</source>
+<seg-source><mrk mid="0" mtype="seg">Text without translation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text without translation</mrk></target>
+<note>Developer comment</note>
+<note from="translator">Comments from a translator about this text</note>
+</trans-unit>
+<trans-unit id="7" resname="N8F2BAB8B" approved="yes" xml:space="preserve">
+<source xml:lang="en">Special chars: \"=quot, &amp;=amp, &lt;=lt, &gt;=gt, '=apos, Ą=U+0104</source>
+<seg-source><mrk mid="0" mtype="seg">Special chars: \"=quot, &amp;=amp, &lt;=lt, &gt;=gt, '=apos, Ą=U+0104</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Characters spéciaux : \"=quot, &amp;=amp, &lt;=lt, &gt;=gt, '=apos, Ą=U+0104</mrk></target>
+</trans-unit>
+<group id="o3" restype="x-gettext-plurals">
+<trans-unit id="8" resname="N90CD1911-0" approved="yes" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> file</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> fichier</mrk></target>
+</trans-unit>
+<trans-unit id="9" resname="N90CD1911-1" approved="yes" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> files</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> files</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> fichiers</mrk></target>
+</trans-unit>
+</group>
+<group id="o5" restype="x-gettext-plurals">
+<trans-unit id="10" resname="N8C072106-0" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> file left to delete</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> file left to delete</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encore <ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> fichier à détruire</mrk></target>
+</trans-unit>
+<trans-unit id="11" resname="N8C072106-1" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> files left to delete</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> files left to delete</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encore <ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> fichiers à détruire</mrk></target>
+</trans-unit>
+</group>
+<group id="o7" restype="x-gettext-plurals">
+<trans-unit id="12" resname="P68A1DB2F-0" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> directory left</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> directory left</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> directory left</mrk></target>
+</trans-unit>
+<trans-unit id="13" resname="P68A1DB2F-1" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> directories left</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> directories left</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%d">%d</ph> directories left</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="14" resname="P5437ECD7" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-regxph" equiv-text="%1s">%1s</ph> <ph id="2" ctype="x-regxph" equiv-text="%2s">%2s</ph> <ph id="3" ctype="x-regxph" equiv-text="%3d">%3d</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%1s">%1s</ph> <ph id="2" ctype="x-regxph" equiv-text="%2s">%2s</ph> <ph id="3" ctype="x-regxph" equiv-text="%3d">%3d</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-regxph" equiv-text="%1s">%1s</ph> <ph id="2" ctype="x-regxph" equiv-text="%2s">%2s</ph> <ph id="3" ctype="x-regxph" equiv-text="%3d">%3d</ph></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

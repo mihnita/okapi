@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefdropstatsproc.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_DROP_STATISTICS system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DROP_STATISTICS system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DROP_STATISTICS system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The SYSCS_UTIL.SYSCS_DROP_STATISTICS system procedure drops all existing cardinality statistics for the index that you specify or for all of the indexes on a table.</source>
+<seg-source><mrk mid="0" mtype="seg">The SYSCS_UTIL.SYSCS_DROP_STATISTICS system procedure drops all existing cardinality statistics for the index that you specify or for all of the indexes on a table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SYSCS_UTIL.SYSCS_DROP_STATISTICS system procedure drops all existing cardinality statistics for the index that you specify or for all of the indexes on a table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">system procedures</source>
+<seg-source><mrk mid="0" mtype="seg">system procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_DROP_STATISTICS</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DROP_STATISTICS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DROP_STATISTICS</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_DROP_STATISTICS system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DROP_STATISTICS system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DROP_STATISTICS system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">cardinality statistics</source>
+<seg-source><mrk mid="0" mtype="seg">cardinality statistics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cardinality statistics</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_DROP_STATISTICS system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DROP_STATISTICS system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DROP_STATISTICS system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">statistics</source>
+<seg-source><mrk mid="0" mtype="seg">statistics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">statistics</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_DROP_STATISTICS system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DROP_STATISTICS system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DROP_STATISTICS system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">You may want to drop the statistics if you are no longer using them or if they become incorrect for some reason. You can call the <bpt id="1" ctype="x-xref">&lt;xref href="rrefupdatestatsproc.dita#rrefupdatestatsproc"&gt;</bpt>SYSCS_UTIL.SYSCS_UPDATE_STATISTICS<ept id="1">&lt;/xref&gt;</ept> or <bpt id="2" ctype="x-xref">&lt;xref href="rrefaltertablecompress.dita#rrefaltertablecompress"&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="2">&lt;/xref&gt;</ept> system procedure to recreate them, or you can wait for automatic statistics generation to begin again.</source>
+<seg-source><mrk mid="0" mtype="seg">You may want to drop the statistics if you are no longer using them or if they become incorrect for some reason.</mrk><mrk mid="1" mtype="seg"> You can call the <bpt id="1" ctype="x-xref">&lt;xref href="rrefupdatestatsproc.dita#rrefupdatestatsproc"&gt;</bpt>SYSCS_UTIL.SYSCS_UPDATE_STATISTICS<ept id="1">&lt;/xref&gt;</ept> or <bpt id="2" ctype="x-xref">&lt;xref href="rrefaltertablecompress.dita#rrefaltertablecompress"&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="2">&lt;/xref&gt;</ept> system procedure to recreate them, or you can wait for automatic statistics generation to begin again.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You may want to drop the statistics if you are no longer using them or if they become incorrect for some reason.</mrk><mrk mid="1" mtype="seg"> You can call the <bpt id="1" ctype="x-xref">&lt;xref href="rrefupdatestatsproc.dita#rrefupdatestatsproc"&gt;</bpt>SYSCS_UTIL.SYSCS_UPDATE_STATISTICS<ept id="1">&lt;/xref&gt;</ept> or <bpt id="2" ctype="x-xref">&lt;xref href="rrefaltertablecompress.dita#rrefaltertablecompress"&gt;</bpt>SYSCS_UTIL.SYSCS_COMPRESS_TABLE<ept id="2">&lt;/xref&gt;</ept> system procedure to recreate them, or you can wait for automatic statistics generation to begin again.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">For more information on cardinality statistics, see "Working with cardinality statistics" in the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> guide.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information on cardinality statistics, see "Working with cardinality statistics" in the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> guide.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information on cardinality statistics, see "Working with cardinality statistics" in the <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> guide.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_DROP_STATISTICS(IN SCHEMANAME VARCHAR(128), IN TABLENAME VARCHAR(128), IN INDEXNAME VARCHAR(128))</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DROP_STATISTICS(IN SCHEMANAME VARCHAR(128), IN TABLENAME VARCHAR(128), IN INDEXNAME VARCHAR(128))</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_DROP_STATISTICS(IN SCHEMANAME VARCHAR(128), IN TABLENAME VARCHAR(128), IN INDEXNAME VARCHAR(128))</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">You can specify <bpt id="1" ctype="x-userinput">&lt;userinput&gt;</bpt>null<ept id="1">&lt;/userinput&gt;</ept> for the INDEXNAME to drop all existing statistics.</source>
+<seg-source><mrk mid="0" mtype="seg">You can specify <bpt id="1" ctype="x-userinput">&lt;userinput&gt;</bpt>null<ept id="1">&lt;/userinput&gt;</ept> for the INDEXNAME to drop all existing statistics.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can specify <bpt id="1" ctype="x-userinput">&lt;userinput&gt;</bpt>null<ept id="1">&lt;/userinput&gt;</ept> for the INDEXNAME to drop all existing statistics.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">If authentication and SQL authorization are both enabled, all users have execute privileges on this procedure. However, in order for the procedure to run successfully on a given table, the user must be the owner of either the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database<ept id="1">&lt;/xref&gt;</ept> or the schema in which the table resides. See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, all users have execute privileges on this procedure.</mrk><mrk mid="1" mtype="seg"> However, in order for the procedure to run successfully on a given table, the user must be the owner of either the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database<ept id="1">&lt;/xref&gt;</ept> or the schema in which the table resides.</mrk><mrk mid="2" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, all users have execute privileges on this procedure.</mrk><mrk mid="1" mtype="seg"> However, in order for the procedure to run successfully on a given table, the user must be the owner of either the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database<ept id="1">&lt;/xref&gt;</ept> or the schema in which the table resides.</mrk><mrk mid="2" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">In the following example, the system procedure drops statistics for the index PAY_DESC on the SAMP.EMPLOYEE table:</source>
+<seg-source><mrk mid="0" mtype="seg">In the following example, the system procedure drops statistics for the index PAY_DESC on the SAMP.EMPLOYEE table:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the following example, the system procedure drops statistics for the index PAY_DESC on the SAMP.EMPLOYEE table:</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_DROP_STATISTICS('SAMP','EMPLOYEE','PAY_DESC');</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_DROP_STATISTICS('SAMP','EMPLOYEE','PAY_DESC');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_DROP_STATISTICS('SAMP','EMPLOYEE','PAY_DESC');</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">In the following example, <bpt id="1" ctype="x-userinput">&lt;userinput&gt;</bpt>null<ept id="1">&lt;/userinput&gt;</ept> is specified instead of an index name. For all of the indexes on the EMPLOYEE table in the SAMP schema, the existing statistics are dropped.</source>
+<seg-source><mrk mid="0" mtype="seg">In the following example, <bpt id="1" ctype="x-userinput">&lt;userinput&gt;</bpt>null<ept id="1">&lt;/userinput&gt;</ept> is specified instead of an index name.</mrk><mrk mid="1" mtype="seg"> For all of the indexes on the EMPLOYEE table in the SAMP schema, the existing statistics are dropped.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the following example, <bpt id="1" ctype="x-userinput">&lt;userinput&gt;</bpt>null<ept id="1">&lt;/userinput&gt;</ept> is specified instead of an index name.</mrk><mrk mid="1" mtype="seg"> For all of the indexes on the EMPLOYEE table in the SAMP schema, the existing statistics are dropped.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_DROP_STATISTICS('SAMP', 'EMPLOYEE', null);</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_DROP_STATISTICS('SAMP', 'EMPLOYEE', null);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_DROP_STATISTICS('SAMP', 'EMPLOYEE', null);</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

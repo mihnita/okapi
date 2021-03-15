@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbclimit.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">JDBC escape syntax for limit/offset clauses</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC escape syntax for limit/offset clauses</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC escape syntax for limit/offset clauses</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">LIMIT (JDBC escape keyword)</source>
+<seg-source><mrk mid="0" mtype="seg">LIMIT (JDBC escape keyword)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LIMIT (JDBC escape keyword)</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">OFFSET (JDBC escape keyword)</source>
+<seg-source><mrk mid="0" mtype="seg">OFFSET (JDBC escape keyword)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OFFSET (JDBC escape keyword)</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The LIMIT escape clause can occur in a query at the point where an OFFSET/FETCH FIRST clause can appear. See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">The LIMIT escape clause can occur in a query at the point where an OFFSET/FETCH FIRST clause can appear.</mrk><mrk mid="1" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The LIMIT escape clause can occur in a query at the point where an OFFSET/FETCH FIRST clause can appear.</mrk><mrk mid="1" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljoffsetfetch.dita#rrefsqljoffsetfetch"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ LIMIT <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>rowCount<ept id="2">&lt;/i&gt;</ept> [ OFFSET <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>startRow<ept id="3">&lt;/i&gt;</ept> ] }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ LIMIT <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>rowCount<ept id="2">&lt;/i&gt;</ept> [ OFFSET <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>startRow<ept id="3">&lt;/i&gt;</ept> ] }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>{ LIMIT <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>rowCount<ept id="2">&lt;/i&gt;</ept> [ OFFSET <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>startRow<ept id="3">&lt;/i&gt;</ept> ] }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rowCount<ept id="1">&lt;/i&gt;</ept> is a non-negative integer that specifies the number of rows to return. If <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>rowCount<ept id="2">&lt;/i&gt;</ept> is 0, all rows from <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>startRow<ept id="3">&lt;/i&gt;</ept> forward are returned.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rowCount<ept id="1">&lt;/i&gt;</ept> is a non-negative integer that specifies the number of rows to return.</mrk><mrk mid="1" mtype="seg"> If <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>rowCount<ept id="2">&lt;/i&gt;</ept> is 0, all rows from <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>startRow<ept id="3">&lt;/i&gt;</ept> forward are returned.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>rowCount<ept id="1">&lt;/i&gt;</ept> is a non-negative integer that specifies the number of rows to return.</mrk><mrk mid="1" mtype="seg"> If <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>rowCount<ept id="2">&lt;/i&gt;</ept> is 0, all rows from <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>startRow<ept id="3">&lt;/i&gt;</ept> forward are returned.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>startRow<ept id="1">&lt;/i&gt;</ept> is a non-negative number that specifies the number of rows to skip before returning results.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>startRow<ept id="1">&lt;/i&gt;</ept> is a non-negative number that specifies the number of rows to skip before returning results.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>startRow<ept id="1">&lt;/i&gt;</ept> is a non-negative number that specifies the number of rows to skip before returning results.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Equivalent to</source>
+<seg-source><mrk mid="0" mtype="seg">Equivalent to</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Equivalent to</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>OFFSET <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>startRow<ept id="2">&lt;/i&gt;</ept> FETCH NEXT <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>rowCount<ept id="3">&lt;/i&gt;</ept> ROWS ONLY<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>OFFSET <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>startRow<ept id="2">&lt;/i&gt;</ept> FETCH NEXT <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>rowCount<ept id="3">&lt;/i&gt;</ept> ROWS ONLY<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>OFFSET <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>startRow<ept id="2">&lt;/i&gt;</ept> FETCH NEXT <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>rowCount<ept id="3">&lt;/i&gt;</ept> ROWS ONLY<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- return the first two rows of sorted table t<ept id="2">&lt;/ph&gt;</ept> SELECT * FROM t ORDER BY a { LIMIT 2 } <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- return two rows of sorted table t, starting with the eleventh row<ept id="3">&lt;/ph&gt;</ept> SELECT * FROM t ORDER BY a { LIMIT 2 OFFSET 10 }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- return the first two rows of sorted table t<ept id="2">&lt;/ph&gt;</ept> SELECT * FROM t ORDER BY a { LIMIT 2 } <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- return two rows of sorted table t, starting with the eleventh row<ept id="3">&lt;/ph&gt;</ept> SELECT * FROM t ORDER BY a { LIMIT 2 OFFSET 10 }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- return the first two rows of sorted table t<ept id="2">&lt;/ph&gt;</ept> SELECT * FROM t ORDER BY a { LIMIT 2 } <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- return two rows of sorted table t, starting with the eleventh row<ept id="3">&lt;/ph&gt;</ept> SELECT * FROM t ORDER BY a { LIMIT 2 OFFSET 10 }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Test02_allseg.html.ttx" source-language="en" target-language="fr" datatype="x-application/x-ttx+xml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-ph">&lt;%@ page language="</ph>java<ph id="2" ctype="x-ph">" %&gt;</ph><ph id="3" ctype="x-ph">&lt;%@ taglib uri="</ph>/WEB-INF/struts-i18n.tld<ph id="4" ctype="x-ph">" prefix="</ph>i18n<ph id="5" ctype="x-ph">" %&gt;</ph> <ph id="6" ctype="x-ph">&lt;?xml-stylesheet href="standardstyle.css" title="Standard Stylesheet" type="text/css"?&gt;</ph>
+</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-ph">&lt;%@ page language="</ph>java<ph id="2" ctype="x-ph">" %&gt;</ph><ph id="3" ctype="x-ph">&lt;%@ taglib uri="</ph>/WEB-INF/struts-i18n.tld<ph id="4" ctype="x-ph">" prefix="</ph>i18n<ph id="5" ctype="x-ph">" %&gt;</ph> <ph id="6" ctype="x-ph">&lt;?xml-stylesheet href="standardstyle.css" title="Standard Stylesheet" type="text/css"?&gt;</ph></mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-ph">&lt;%@ page language="</ph>java<ph id="2" ctype="x-ph">" %&gt;</ph><ph id="3" ctype="x-ph">&lt;%@ taglib uri="</ph>/WEB-INF/struts-i18n.tld<ph id="4" ctype="x-ph">" prefix="</ph>i18n<ph id="5" ctype="x-ph">" %&gt;</ph> <ph id="6" ctype="x-ph">&lt;?xml-stylesheet href="standardstyle.css" title="Standard Stylesheet" type="text/css"?&gt;</ph></mrk>
+</target>
+<alt-trans mid="0" match-quality="100" origin="manual" okp:matchType="EXACT"><target xml:lang="fr"><ph id="1" ctype="x-ph">&lt;%@ page language="</ph>java<ph id="2" ctype="x-ph">" %&gt;</ph><ph id="3" ctype="x-ph">&lt;%@ taglib uri="</ph>/WEB-INF/struts-i18n.tld<ph id="4" ctype="x-ph">" prefix="</ph>i18n<ph id="5" ctype="x-ph">" %&gt;</ph> <ph id="6" ctype="x-ph">&lt;?xml-stylesheet href="standardstyle.css" title="Standard Stylesheet" type="text/css"?&gt;</ph></target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="2" xml:space="preserve">
+<source xml:lang="en">Jericho HTML Parser Test Document</source>
+<seg-source><mrk mid="0" mtype="seg">Jericho HTML Parser Test Document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Document test du filtre HTML Jericho</mrk></target>
+<alt-trans mid="0" match-quality="100" origin="manual" okp:matchType="EXACT"><target xml:lang="fr">Document test du filtre HTML Jericho</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="3" xml:space="preserve">
+<source xml:lang="en">Test HTML Document<ph id="1" ctype="x-df-e"></ph></source>
+<seg-source><mrk mid="0" mtype="seg">Test HTML Document</mrk><ph id="1" ctype="x-df-e"></ph></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Document HTML de test</mrk><ph id="1" ctype="x-df-e"></ph></target>
+<alt-trans mid="0" match-quality="100" origin="manual" okp:matchType="EXACT"><target xml:lang="fr">Document HTML de test</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="4" xml:space="preserve">
+<source xml:lang="en">This document contains many elements with optional end tags, server-side tags and some common illegal HTML constructs to demonstrate how they are interpreted by the parser. <ph id="1" ctype="x-ph">&lt;br&gt;</ph><ph id="2" ctype="x-ph">&lt;br&gt;</ph>
+ </source>
+<seg-source><mrk mid="0" mtype="seg">This document contains many elements with optional end tags, server-side tags and some common illegal HTML constructs to demonstrate how they are interpreted by the parser.</mrk> <ph id="1" ctype="x-ph">&lt;br&gt;</ph><ph id="2" ctype="x-ph">&lt;br&gt;</ph>
+ </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This document contains many elements with optional end tags, server-side tags and some common illegal HTML constructs to demonstrate how they are interpreted by the parser.</mrk> <ph id="1" ctype="x-ph">&lt;br&gt;</ph><ph id="2" ctype="x-ph">&lt;br&gt;</ph>
+ </target>
+</trans-unit>
+<trans-unit id="5" xml:space="preserve">
+<source xml:lang="en">Table Example</source>
+<seg-source><mrk mid="0" mtype="seg">Table Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Table Example</mrk></target>
+</trans-unit>
+<trans-unit id="6" xml:space="preserve">
+<source xml:lang="en">First Column</source>
+<seg-source><mrk mid="0" mtype="seg">First Column</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">First Column</mrk></target>
+</trans-unit>
+<trans-unit id="7" xml:space="preserve">
+<source xml:lang="en">Second Column
+  </source>
+<seg-source><mrk mid="0" mtype="seg">Second Column</mrk>
+  </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Second Column</mrk>
+  </target>
+</trans-unit>
+<trans-unit id="8" xml:space="preserve">
+<source xml:lang="en">Cell 1</source>
+<seg-source><mrk mid="0" mtype="seg">Cell 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cell 1</mrk></target>
+</trans-unit>
+<trans-unit id="9" xml:space="preserve">
+<source xml:lang="en">This is a table within the table</source>
+<seg-source><mrk mid="0" mtype="seg">This is a table within the table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a table within the table</mrk></target>
+</trans-unit>
+<trans-unit id="10" xml:space="preserve">
+<source xml:lang="en">Second row of inner table</source>
+<seg-source><mrk mid="0" mtype="seg">Second row of inner table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Second row of inner table</mrk></target>
+</trans-unit>
+<trans-unit id="11" xml:space="preserve">
+<source xml:lang="en">Third row of inner table
+    </source>
+<seg-source><mrk mid="0" mtype="seg">Third row of inner table</mrk>
+    </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Third row of inner table</mrk>
+    </target>
+</trans-unit>
+<trans-unit id="12" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-ph">&lt;br&gt;</ph> Note that the parser does not consider this text to be a part of the paragraph started before the table because according to the HTML specification a TABLE, being a block-level element, must terminate the P element. See the documentation in HTMLElementName.P for more information, including instructions on how to make this parser compatible with the default behaviour of all major browsers in HTML transitional mode.
+</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-ph">&lt;br&gt;</ph> Note that the parser does not consider this text to be a part of the paragraph started before the table because according to the HTML specification a TABLE, being a block-level element, must terminate the P element.</mrk> <mrk mid="1" mtype="seg">See the documentation in HTMLElementName.P for more information, including instructions on how to make this parser compatible with the default behaviour of all major browsers in HTML transitional mode.</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-ph">&lt;br&gt;</ph> Note that the parser does not consider this text to be a part of the paragraph started before the table because according to the HTML specification a TABLE, being a block-level element, must terminate the P element.</mrk> <mrk mid="1" mtype="seg">See the documentation in HTMLElementName.P for more information, including instructions on how to make this parser compatible with the default behaviour of all major browsers in HTML transitional mode.</mrk>
+</target>
+</trans-unit>
+<trans-unit id="13" xml:space="preserve">
+<source xml:lang="en">The following text demonstrates the use of a CDATA section which has limited browser compatability</source>
+<seg-source><mrk mid="0" mtype="seg">The following text demonstrates the use of a CDATA section which has limited browser compatability</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following text demonstrates the use of a CDATA section which has limited browser compatability</mrk></target>
+</trans-unit>
+<trans-unit id="14" xml:space="preserve">
+<source xml:lang="en">&lt;an&gt; example of &lt;sgml&gt; markup that is not &lt;painful&gt; to write with &lt; and such.
+
+</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;an&gt; example of &lt;sgml&gt; markup that is not &lt;painful&gt; to write with &lt; and such.</mrk>
+
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;an&gt; example of &lt;sgml&gt; markup that is not &lt;painful&gt; to write with &lt; and such.</mrk>
+
+</target>
+</trans-unit>
+<trans-unit id="15" xml:space="preserve">
+<source xml:lang="en">Baseball</source>
+<seg-source><mrk mid="0" mtype="seg">Baseball</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Baseball</mrk></target>
+</trans-unit>
+<trans-unit id="16" xml:space="preserve">
+<source xml:lang="en">Cricket</source>
+<seg-source><mrk mid="0" mtype="seg">Cricket</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cricket</mrk></target>
+</trans-unit>
+<trans-unit id="17" xml:space="preserve">
+<source xml:lang="en">AFL</source>
+<seg-source><mrk mid="0" mtype="seg">AFL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AFL</mrk></target>
+</trans-unit>
+<trans-unit id="18" xml:space="preserve">
+<source xml:lang="en">Soccer</source>
+<seg-source><mrk mid="0" mtype="seg">Soccer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Soccer</mrk></target>
+</trans-unit>
+<trans-unit id="19" xml:space="preserve">
+<source xml:lang="en">This is <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-b">&lt;b&gt;</bpt>preformatted<ph id="3" ctype="x-df-e"></ph><ept id="2">&lt;/b&gt;</ept> text
+whose formatting should not be altered.<ph id="4" ctype="x-df-e"></ph></source>
+<seg-source><mrk mid="0" mtype="seg">This is <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-b">&lt;b&gt;</bpt>preformatted<ph id="3" ctype="x-df-e"></ph><ept id="2">&lt;/b&gt;</ept> text</mrk>
+<mrk mid="1" mtype="seg">whose formatting should not be altered.</mrk><ph id="4" ctype="x-df-e"></ph></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-b">&lt;b&gt;</bpt>preformatted<ph id="3" ctype="x-df-e"></ph><ept id="2">&lt;/b&gt;</ept> text</mrk>
+<mrk mid="1" mtype="seg">whose formatting should not be altered.</mrk><ph id="4" ctype="x-df-e"></ph></target>
+</trans-unit>
+<trans-unit id="20" xml:space="preserve">
+<source xml:lang="en">&lt;p&gt;This paragraph is written using client side script.</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;p&gt;This paragraph is written using client side script.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;p&gt;This paragraph is written using client side script.</mrk></target>
+</trans-unit>
+<trans-unit id="21" xml:space="preserve">
+<source xml:lang="en">The P element is only ignored by the parser if a full sequential parse is performed, which ignores any non-server tags inside SCRIPT elements.&lt;/p&gt;</source>
+<seg-source><mrk mid="0" mtype="seg">The P element is only ignored by the parser if a full sequential parse is performed, which ignores any non-server tags inside SCRIPT elements.&lt;/p&gt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The P element is only ignored by the parser if a full sequential parse is performed, which ignores any non-server tags inside SCRIPT elements.&lt;/p&gt;</mrk></target>
+</trans-unit>
+<trans-unit id="22" xml:space="preserve">
+<source xml:lang="en">&lt;p&gt;This P element is ignored by the parser in parse-on-demand mode because of the enclosing CDATA section.&lt;/p&gt;</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;p&gt;This P element is ignored by the parser in parse-on-demand mode because of the enclosing CDATA section.&lt;/p&gt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;p&gt;This P element is ignored by the parser in parse-on-demand mode because of the enclosing CDATA section.&lt;/p&gt;</mrk></target>
+</trans-unit>
+<trans-unit id="23" xml:space="preserve">
+<source xml:lang="en">&lt;p&gt;Both the P element and the CDATA section are ignored by the parser during a full sequental parse, which automatically treats script element content as CDATA.&lt;/p&gt;</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;p&gt;Both the P element and the CDATA section are ignored by the parser during a full sequental parse, which automatically treats script element content as CDATA.&lt;/p&gt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;p&gt;Both the P element and the CDATA section are ignored by the parser during a full sequental parse, which automatically treats script element content as CDATA.&lt;/p&gt;</mrk></target>
+</trans-unit>
+<trans-unit id="24" xml:space="preserve">
+<source xml:lang="en">This paragraph contains a comment. <ph id="1" ctype="x-ph">&lt;!-- &lt;p&gt;This paragraph is commented out&lt;/p&gt; --&gt;</ph> This text is a continuation of the paragraph before the one that is commented out.
+</source>
+<seg-source><mrk mid="0" mtype="seg">This paragraph contains a comment.</mrk> <mrk mid="1" mtype="seg"><ph id="1" ctype="x-ph">&lt;!-- &lt;p&gt;This paragraph is commented out&lt;/p&gt; --&gt;</ph> This text is a continuation of the paragraph before the one that is commented out.</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This paragraph contains a comment.</mrk> <mrk mid="1" mtype="seg"><ph id="1" ctype="x-ph">&lt;!-- &lt;p&gt;This paragraph is commented out&lt;/p&gt; --&gt;</ph> This text is a continuation of the paragraph before the one that is commented out.</mrk>
+</target>
+</trans-unit>
+<trans-unit id="25" xml:space="preserve">
+<source xml:lang="en">item 1
+ </source>
+<seg-source><mrk mid="0" mtype="seg">item 1</mrk>
+ </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item 1</mrk>
+ </target>
+</trans-unit>
+<trans-unit id="26" xml:space="preserve">
+<source xml:lang="en">item 2
+  </source>
+<seg-source><mrk mid="0" mtype="seg">item 2</mrk>
+  </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item 2</mrk>
+  </target>
+</trans-unit>
+<trans-unit id="27" xml:space="preserve">
+<source xml:lang="en">subitem 1</source>
+<seg-source><mrk mid="0" mtype="seg">subitem 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">subitem 1</mrk></target>
+</trans-unit>
+<trans-unit id="28" xml:space="preserve">
+<source xml:lang="en">subitem 2
+  </source>
+<seg-source><mrk mid="0" mtype="seg">subitem 2</mrk>
+  </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">subitem 2</mrk>
+  </target>
+<alt-trans mid="0" match-quality="100" origin="manual" okp:matchType="EXACT"><target xml:lang="fr">subitem 2</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="29" xml:space="preserve">
+<source xml:lang="en">item 3</source>
+<seg-source><mrk mid="0" mtype="seg">item 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item 3</mrk></target>
+<alt-trans mid="0" match-quality="100" origin="manual" okp:matchType="EXACT"><target xml:lang="fr">item 3</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="30" xml:space="preserve">
+<source xml:lang="en">item 4
+  </source>
+<seg-source><mrk mid="0" mtype="seg">item 4</mrk>
+  </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item 4</mrk>
+  </target>
+<alt-trans mid="0" match-quality="100" origin="manual" okp:matchType="EXACT"><target xml:lang="fr">item 4</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="31" xml:space="preserve">
+<source xml:lang="en">Ordered list within an unordered list
+   </source>
+<seg-source><mrk mid="0" mtype="seg">Ordered list within an unordered list</mrk>
+   </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ordered list within an unordered list</mrk>
+   </target>
+</trans-unit>
+<trans-unit id="32" xml:space="preserve">
+<source xml:lang="en">Second item of ordered list
+  </source>
+<seg-source><mrk mid="0" mtype="seg">Second item of ordered list</mrk>
+  </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Second item of ordered list</mrk>
+  </target>
+</trans-unit>
+<trans-unit id="33" xml:space="preserve">
+<source xml:lang="en">paragraph <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>within a list item<ph id="3" ctype="x-df-e"></ph><ept id="2">&lt;/i&gt;</ept>
+</source>
+<seg-source><mrk mid="0" mtype="seg">paragraph <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>within a list item<ph id="3" ctype="x-df-e"></ph><ept id="2">&lt;/i&gt;</ept></mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">paragraph <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>within a list item<ph id="3" ctype="x-df-e"></ph><ept id="2">&lt;/i&gt;</ept></mrk>
+</target>
+</trans-unit>
+<trans-unit id="34" xml:space="preserve">
+<source xml:lang="en">This text <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-u">&lt;u&gt;</bpt>contains <ph id="3" ctype="x-df-e"></ph><ph id="4" ctype="x-df-s"></ph><bpt id="5" ctype="x-b">&lt;b&gt;</bpt>incorrectly<ph id="6" ctype="x-df-e"></ph><ph id="7" ctype="x-df-s"></ph><it id="8" ctype="x-i" pos="open">&lt;i&gt;</it> nested<ph id="9" ctype="x-df-e"></ph><ept id="2">&lt;/u&gt;</ept> formatting tags<ept id="5">&lt;/b&gt;</ept> which is
+</source>
+<seg-source><mrk mid="0" mtype="seg">This text <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-u">&lt;u&gt;</bpt>contains <ph id="3" ctype="x-df-e"></ph><ph id="4" ctype="x-df-s"></ph><bpt id="5" ctype="x-b">&lt;b&gt;</bpt>incorrectly<ph id="6" ctype="x-df-e"></ph><ph id="7" ctype="x-df-s"></ph><it id="8" ctype="x-i" pos="open">&lt;i&gt;</it> nested<ph id="9" ctype="x-df-e"></ph><ept id="2">&lt;/u&gt;</ept> formatting tags<ept id="5">&lt;/b&gt;</ept> which is</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This text <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-u">&lt;u&gt;</bpt>contains <ph id="3" ctype="x-df-e"></ph><ph id="4" ctype="x-df-s"></ph><bpt id="5" ctype="x-b">&lt;b&gt;</bpt>incorrectly<ph id="6" ctype="x-df-e"></ph><ph id="7" ctype="x-df-s"></ph><it id="8" ctype="x-i" pos="open">&lt;i&gt;</it> nested<ph id="9" ctype="x-df-e"></ph><ept id="2">&lt;/u&gt;</ept> formatting tags<ept id="5">&lt;/b&gt;</ept> which is</mrk>
+</target>
+</trans-unit>
+<trans-unit id="35" xml:space="preserve">
+<source xml:lang="en">quite commonly generated<it id="1" ctype="x-i" pos="close">&lt;/i&gt;</it> by HTML editors.
+</source>
+<seg-source><mrk mid="0" mtype="seg">quite commonly generated<it id="1" ctype="x-i" pos="close">&lt;/i&gt;</it> by HTML editors.</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">quite commonly generated<it id="1" ctype="x-i" pos="close">&lt;/i&gt;</it> by HTML editors.</mrk>
+</target>
+</trans-unit>
+<trans-unit id="36" xml:space="preserve">
+<source xml:lang="en">This section demonstrates the consequences of illegally nesting block-level elements inside inline-level elements, which is a very common situation caused by the misuse of FONT elements by <ph id="1" ctype="x-df-s"></ph><it id="2" ctype="x-FONT" pos="open">&lt;FONT face=Arial size=2&gt;</it>HTML editors.<ph id="3" ctype="x-df-e"></ph><ph id="4" ctype="x-df-s"></ph>
+</source>
+<seg-source><mrk mid="0" mtype="seg">This section demonstrates the consequences of illegally nesting block-level elements inside inline-level elements, which is a very common situation caused by the misuse of FONT elements by <ph id="1" ctype="x-df-s"></ph><it id="2" ctype="x-FONT" pos="open">&lt;FONT face=Arial size=2&gt;</it>HTML editors.<ph id="3" ctype="x-df-e"></ph></mrk><ph id="4" ctype="x-df-s"></ph>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This section demonstrates the consequences of illegally nesting block-level elements inside inline-level elements, which is a very common situation caused by the misuse of FONT elements by <ph id="1" ctype="x-df-s"></ph><it id="2" ctype="x-FONT" pos="open">&lt;FONT face=Arial size=2&gt;</it>HTML editors.<ph id="3" ctype="x-df-e"></ph></mrk><ph id="4" ctype="x-df-s"></ph>
+</target>
+</trans-unit>
+<trans-unit id="37" xml:space="preserve">
+<source xml:lang="en">This paragraph starts inside the Arial FONT element.<ph id="1" ctype="x-df-s"></ph><it id="4" ctype="x-FONT" pos="close">&lt;/FONT&gt;</it><ph id="2" ctype="x-df-e"></ph><ph id="3" ctype="x-df-e"></ph> This text occurs after the Arial FONT end tag, but is still considered to be part of the same paragraph.
+</source>
+<seg-source><mrk mid="0" mtype="seg">This paragraph starts inside the Arial FONT element.<ph id="1" ctype="x-df-s"></ph><it id="4" ctype="x-FONT" pos="close">&lt;/FONT&gt;</it><ph id="2" ctype="x-df-e"></ph></mrk><ph id="3" ctype="x-df-e"></ph> <mrk mid="1" mtype="seg">This text occurs after the Arial FONT end tag, but is still considered to be part of the same paragraph.</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This paragraph starts inside the Arial FONT element.<ph id="1" ctype="x-df-s"></ph><it id="4" ctype="x-FONT" pos="close">&lt;/FONT&gt;</it><ph id="2" ctype="x-df-e"></ph></mrk><ph id="3" ctype="x-df-e"></ph> <mrk mid="1" mtype="seg">This text occurs after the Arial FONT end tag, but is still considered to be part of the same paragraph.</mrk>
+</target>
+</trans-unit>
+<trans-unit id="38" xml:space="preserve">
+<source xml:lang="en">This entire list is surrounded</source>
+<seg-source><mrk mid="0" mtype="seg">This entire list is surrounded</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This entire list is surrounded</mrk></target>
+</trans-unit>
+<trans-unit id="39" xml:space="preserve">
+<source xml:lang="en">by an Arial font element.</source>
+<seg-source><mrk mid="0" mtype="seg">by an Arial font element.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">by an Arial font element.</mrk></target>
+</trans-unit>
+<trans-unit id="40" xml:space="preserve">
+<source xml:lang="en">This tooltip contains
+a line feed</source>
+<seg-source><mrk mid="0" mtype="seg">This tooltip contains</mrk>
+<mrk mid="1" mtype="seg">a line feed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This tooltip contains</mrk>
+<mrk mid="1" mtype="seg">a line feed</mrk></target>
+</trans-unit>
+<trans-unit id="41" xml:space="preserve">
+<source xml:lang="en">Limitations when dealing with tags located inside other tags<ph id="1" ctype="x-df-e"></ph></source>
+<seg-source><mrk mid="0" mtype="seg">Limitations when dealing with tags located inside other tags</mrk><ph id="1" ctype="x-df-e"></ph></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Limitations when dealing with tags located inside other tags</mrk><ph id="1" ctype="x-df-e"></ph></target>
+</trans-unit>
+<trans-unit id="42" xml:space="preserve">
+<source xml:lang="en">This section demonstrates the limitation of the library in distinguishing whether a tag is located inside another tag without a full sequential parse. When a full sequential parse hasn't been performed, the H2 element in the following button's onclick attribute erroneously terminates the current paragraph, and is also returned by tag search methods. See parsing rule 2(i) in the documentation of the <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-code">&lt;code&gt;</bpt>Tag<ph id="3" ctype="x-df-e"></ph><ept id="2">&lt;/code&gt;</ept> class for an explanation.<ph id="4" ctype="x-ph">&lt;br/&gt;</ph>
+ </source>
+<seg-source><mrk mid="0" mtype="seg">This section demonstrates the limitation of the library in distinguishing whether a tag is located inside another tag without a full sequential parse.</mrk> <mrk mid="1" mtype="seg">When a full sequential parse hasn't been performed, the H2 element in the following button's onclick attribute erroneously terminates the current paragraph, and is also returned by tag search methods.</mrk> <mrk mid="2" mtype="seg">See parsing rule 2(i) in the documentation of the <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-code">&lt;code&gt;</bpt>Tag<ph id="3" ctype="x-df-e"></ph><ept id="2">&lt;/code&gt;</ept> class for an explanation.<ph id="4" ctype="x-ph">&lt;br/&gt;</ph></mrk>
+ </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This section demonstrates the limitation of the library in distinguishing whether a tag is located inside another tag without a full sequential parse.</mrk> <mrk mid="1" mtype="seg">When a full sequential parse hasn't been performed, the H2 element in the following button's onclick attribute erroneously terminates the current paragraph, and is also returned by tag search methods.</mrk> <mrk mid="2" mtype="seg">See parsing rule 2(i) in the documentation of the <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-code">&lt;code&gt;</bpt>Tag<ph id="3" ctype="x-df-e"></ph><ept id="2">&lt;/code&gt;</ept> class for an explanation.<ph id="4" ctype="x-ph">&lt;br/&gt;</ph></mrk>
+ </target>
+</trans-unit>
+<trans-unit id="43" xml:space="preserve">
+<source xml:lang="en">Click here to execute script</source>
+<seg-source><mrk mid="0" mtype="seg">Click here to execute script</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Click here to execute script</mrk></target>
+</trans-unit>
+<trans-unit id="44" xml:space="preserve">
+<source xml:lang="en">simply writes some text using document.write</source>
+<seg-source><mrk mid="0" mtype="seg">simply writes some text using document.write</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">simply writes some text using document.write</mrk></target>
+</trans-unit>
+<trans-unit id="45" xml:space="preserve">
+<source xml:lang="en">This <ph id="1" ctype="x-ph">&lt;a href=http://www.htmlparser.net/&gt;</ph>anchor element<it id="5" ctype="x-a" pos="close">&lt;/a&gt;</it> demonstrates that a tag ending in <ph id="2" ctype="x-df-s"></ph><bpt id="3" ctype="x-code">&lt;code&gt;</bpt>/&gt;<ph id="4" ctype="x-df-e"></ph><ept id="3">&lt;/code&gt;</ept> is not considered an empty element tag if it has a name that requires an end tag.  In this case the final '/' is included in the href attribute value instead of being interpreted as the end of the tag.
+</source>
+<seg-source><mrk mid="0" mtype="seg">This <ph id="1" ctype="x-ph">&lt;a href=http://www.htmlparser.net/&gt;</ph>anchor element<it id="5" ctype="x-a" pos="close">&lt;/a&gt;</it> demonstrates that a tag ending in <ph id="2" ctype="x-df-s"></ph><bpt id="3" ctype="x-code">&lt;code&gt;</bpt>/&gt;<ph id="4" ctype="x-df-e"></ph><ept id="3">&lt;/code&gt;</ept> is not considered an empty element tag if it has a name that requires an end tag.</mrk>  <mrk mid="1" mtype="seg">In this case the final '/' is included in the href attribute value instead of being interpreted as the end of the tag.</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This <ph id="1" ctype="x-ph">&lt;a href=http://www.htmlparser.net/&gt;</ph>anchor element<it id="5" ctype="x-a" pos="close">&lt;/a&gt;</it> demonstrates that a tag ending in <ph id="2" ctype="x-df-s"></ph><bpt id="3" ctype="x-code">&lt;code&gt;</bpt>/&gt;<ph id="4" ctype="x-df-e"></ph><ept id="3">&lt;/code&gt;</ept> is not considered an empty element tag if it has a name that requires an end tag.</mrk>  <mrk mid="1" mtype="seg">In this case the final '/' is included in the href attribute value instead of being interpreted as the end of the tag.</mrk>
+</target>
+</trans-unit>
+<trans-unit id="46" xml:space="preserve">
+<source xml:lang="en">The same goes for tags that have an optional end tag like this paragraph, which has a grey background despite the fact that the p element is syntactically an empty element tag.</source>
+<seg-source><mrk mid="0" mtype="seg">The same goes for tags that have an optional end tag like this paragraph, which has a grey background despite the fact that the p element is syntactically an empty element tag.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The same goes for tags that have an optional end tag like this paragraph, which has a grey background despite the fact that the p element is syntactically an empty element tag.</mrk></target>
+</trans-unit>
+<trans-unit id="47" xml:space="preserve">
+<source xml:lang="en">Microsoft Conditional Comments<ph id="1" ctype="x-df-e"></ph></source>
+<seg-source><mrk mid="0" mtype="seg">Microsoft Conditional Comments</mrk><ph id="1" ctype="x-df-e"></ph></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Microsoft Conditional Comments</mrk><ph id="1" ctype="x-df-e"></ph></target>
+</trans-unit>
+<trans-unit id="48" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-ph">&lt;!--[if IE]&gt;&lt;p&gt;This paragraph is inside a &lt;b&gt;downlevel-hidden conditional comment&lt;/b&gt; which only appears in IE as it evaluates the content inside a valid HTML comment.&lt;/p&gt;&lt;![endif]--&gt;</ph> <it id="2" ctype="x-![if_!IE]&gt;&lt;p>This_paragraph_is_inside_a_&lt;b>&lt;u>non-validating&lt;/u>_downlevel-revealed_conditional_comment&lt;/b>_which_only_appears_in_browsers_other_than_IE_because_they_ignore_the_invalid_tags_surrounding_it.&lt;/p>&lt;![" pos="open">&lt;![if !IE]&gt;&lt;p&gt;This paragraph is inside a &lt;b&gt;&lt;u&gt;non-validating&lt;/u&gt; downlevel-revealed conditional comment&lt;/b&gt; which only appears in browsers other than IE because they ignore the invalid tags surrounding it.&lt;/p&gt;&lt;![</it>endif]&gt; <ph id="3" ctype="x-ph">&lt;!--[if !(IE 5)]&gt;&lt;!--&gt;</ph></source>
+<seg-source><ph id="1" ctype="x-ph">&lt;!--[if IE]&gt;&lt;p&gt;This paragraph is inside a &lt;b&gt;downlevel-hidden conditional comment&lt;/b&gt; which only appears in IE as it evaluates the content inside a valid HTML comment.&lt;/p&gt;&lt;![endif]--&gt;</ph> <it id="2" ctype="x-![if_!IE]&gt;&lt;p>This_paragraph_is_inside_a_&lt;b>&lt;u>non-validating&lt;/u>_downlevel-revealed_conditional_comment&lt;/b>_which_only_appears_in_browsers_other_than_IE_because_they_ignore_the_invalid_tags_surrounding_it.&lt;/p>&lt;![" pos="open">&lt;![if !IE]&gt;&lt;p&gt;This paragraph is inside a &lt;b&gt;&lt;u&gt;non-validating&lt;/u&gt; downlevel-revealed conditional comment&lt;/b&gt; which only appears in browsers other than IE because they ignore the invalid tags surrounding it.&lt;/p&gt;&lt;![</it><mrk mid="1" mtype="seg">endif]&gt;</mrk> <ph id="3" ctype="x-ph">&lt;!--[if !(IE 5)]&gt;&lt;!--&gt;</ph></seg-source>
+<target xml:lang="fr"><ph id="1" ctype="x-ph">&lt;!--[if IE]&gt;&lt;p&gt;This paragraph is inside a &lt;b&gt;downlevel-hidden conditional comment&lt;/b&gt; which only appears in IE as it evaluates the content inside a valid HTML comment.&lt;/p&gt;&lt;![endif]--&gt;</ph> <it id="2" ctype="x-![if_!IE]&gt;&lt;p>This_paragraph_is_inside_a_&lt;b>&lt;u>non-validating&lt;/u>_downlevel-revealed_conditional_comment&lt;/b>_which_only_appears_in_browsers_other_than_IE_because_they_ignore_the_invalid_tags_surrounding_it.&lt;/p>&lt;![" pos="open">&lt;![if !IE]&gt;&lt;p&gt;This paragraph is inside a &lt;b&gt;&lt;u&gt;non-validating&lt;/u&gt; downlevel-revealed conditional comment&lt;/b&gt; which only appears in browsers other than IE because they ignore the invalid tags surrounding it.&lt;/p&gt;&lt;![</it><mrk mid="1" mtype="seg">endif]&gt;</mrk> <ph id="3" ctype="x-ph">&lt;!--[if !(IE 5)]&gt;&lt;!--&gt;</ph></target>
+</trans-unit>
+<trans-unit id="49" xml:space="preserve">
+<source xml:lang="en">This is an example of a <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-b">&lt;b&gt;</bpt><ph id="3" ctype="x-df-e"></ph><ph id="4" ctype="x-df-s"></ph><bpt id="5" ctype="x-u">&lt;u&gt;</bpt>validating<ph id="6" ctype="x-df-e"></ph><ph id="7" ctype="x-df-s"></ph><ept id="5">&lt;/u&gt;</ept> downlevel-revealed conditional comment<ph id="8" ctype="x-df-e"></ph><ept id="2">&lt;/b&gt;</ept>, which hides the invalid conditional tags inside HTML comments.  This form must be used if the condition can be true in some IE browsers.</source>
+<seg-source><mrk mid="0" mtype="seg">This is an example of a <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-b">&lt;b&gt;</bpt><ph id="3" ctype="x-df-e"></ph><ph id="4" ctype="x-df-s"></ph><bpt id="5" ctype="x-u">&lt;u&gt;</bpt>validating<ph id="6" ctype="x-df-e"></ph><ph id="7" ctype="x-df-s"></ph><ept id="5">&lt;/u&gt;</ept> downlevel-revealed conditional comment<ph id="8" ctype="x-df-e"></ph><ept id="2">&lt;/b&gt;</ept>, which hides the invalid conditional tags inside HTML comments.</mrk>  <mrk mid="1" mtype="seg">This form must be used if the condition can be true in some IE browsers.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is an example of a <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-b">&lt;b&gt;</bpt><ph id="3" ctype="x-df-e"></ph><ph id="4" ctype="x-df-s"></ph><bpt id="5" ctype="x-u">&lt;u&gt;</bpt>validating<ph id="6" ctype="x-df-e"></ph><ph id="7" ctype="x-df-s"></ph><ept id="5">&lt;/u&gt;</ept> downlevel-revealed conditional comment<ph id="8" ctype="x-df-e"></ph><ept id="2">&lt;/b&gt;</ept>, which hides the invalid conditional tags inside HTML comments.</mrk>  <mrk mid="1" mtype="seg">This form must be used if the condition can be true in some IE browsers.</mrk></target>
+</trans-unit>
+<trans-unit id="50" xml:space="preserve">
+<source xml:lang="en">This is an example of a slightly simplified validating downlevel-revealed conditional comment that can be used only for the condition !IE (to display in any browser except IE).</source>
+<seg-source><mrk mid="0" mtype="seg">This is an example of a slightly simplified validating downlevel-revealed conditional comment that can be used only for the condition !IE (to display in any browser except IE).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is an example of a slightly simplified validating downlevel-revealed conditional comment that can be used only for the condition !IE (to display in any browser except IE).</mrk></target>
+</trans-unit>
+<trans-unit id="51" xml:space="preserve">
+<source xml:lang="en">This demonstrates <ph id="1" ctype="x-ph">&lt;!--[true]&gt;&lt;!--&gt;</ph>the use of<ph id="2" ctype="x-ph">&lt;!--&lt;![endif]--&gt;</ph> <ph id="3" ctype="x-df-s"></ph><bpt id="4" ctype="x-b">&lt;b&gt;</bpt>nested<ph id="5" ctype="x-df-e"></ph><ept id="4">&lt;/b&gt;</ept> downlevel-revealed conditional comments.</source>
+<seg-source><mrk mid="0" mtype="seg">This demonstrates <ph id="1" ctype="x-ph">&lt;!--[true]&gt;&lt;!--&gt;</ph>the use of<ph id="2" ctype="x-ph">&lt;!--&lt;![endif]--&gt;</ph> <ph id="3" ctype="x-df-s"></ph><bpt id="4" ctype="x-b">&lt;b&gt;</bpt>nested<ph id="5" ctype="x-df-e"></ph><ept id="4">&lt;/b&gt;</ept> downlevel-revealed conditional comments.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This demonstrates <ph id="1" ctype="x-ph">&lt;!--[true]&gt;&lt;!--&gt;</ph>the use of<ph id="2" ctype="x-ph">&lt;!--&lt;![endif]--&gt;</ph> <ph id="3" ctype="x-df-s"></ph><bpt id="4" ctype="x-b">&lt;b&gt;</bpt>nested<ph id="5" ctype="x-df-e"></ph><ept id="4">&lt;/b&gt;</ept> downlevel-revealed conditional comments.</mrk></target>
+</trans-unit>
+<trans-unit id="52" xml:space="preserve">
+<source xml:lang="en">Microsoft pseudo-HTML generated by Word<ph id="1" ctype="x-df-e"></ph></source>
+<seg-source><mrk mid="0" mtype="seg">Microsoft pseudo-HTML generated by Word</mrk><ph id="1" ctype="x-df-e"></ph></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Microsoft pseudo-HTML generated by Word</mrk><ph id="1" ctype="x-df-e"></ph></target>
+</trans-unit>
+<trans-unit id="53" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="x-span">&lt;span lang=EN-AU style='font-size:10.0pt;font-family:Arial'&gt;</bpt>This section was generated by MS-Word and contains messy and invalid HTML.<ph id="2" ctype="x-df-s"></ph><bpt id="3" ctype="x-b">&lt;b
+style='mso-bidi-font-weight:normal'&gt;</bpt><ph id="4" ctype="x-ph">&lt;br style='mso-special-character:line-break'&gt;</ph> <it id="5" ctype="x-![if_!supportLineBreakNewLine]&gt;&lt;br_style=&apos;mso-special-character:line-break&apos;>_&lt;![" pos="open">&lt;![if !supportLineBreakNewLine]&gt;&lt;br style='mso-special-character:line-break'&gt;
+&lt;![</it>endif]&gt;<ph id="6" ctype="x-df-e"></ph><ept id="3">&lt;/b&gt;</ept><bpt id="7" ctype="x-o:p">&lt;o:p&gt;</bpt><ept id="7">&lt;/o:p&gt;</ept><ept id="1">&lt;/span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span lang=EN-AU style='font-size:10.0pt;font-family:Arial'&gt;</bpt>This section was generated by MS-Word and contains messy and invalid HTML.<ph id="2" ctype="x-df-s"></ph><bpt id="3" ctype="x-b">&lt;b
+style='mso-bidi-font-weight:normal'&gt;</bpt><ph id="4" ctype="x-ph">&lt;br style='mso-special-character:line-break'&gt;</ph> <it id="5" ctype="x-![if_!supportLineBreakNewLine]&gt;&lt;br_style=&apos;mso-special-character:line-break&apos;>_&lt;![" pos="open">&lt;![if !supportLineBreakNewLine]&gt;&lt;br style='mso-special-character:line-break'&gt;
+&lt;![</it>endif]&gt;<ph id="6" ctype="x-df-e"></ph><ept id="3">&lt;/b&gt;</ept><bpt id="7" ctype="x-o:p">&lt;o:p&gt;</bpt><ept id="7">&lt;/o:p&gt;</ept><ept id="1">&lt;/span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-span">&lt;span lang=EN-AU style='font-size:10.0pt;font-family:Arial'&gt;</bpt>This section was generated by MS-Word and contains messy and invalid HTML.<ph id="2" ctype="x-df-s"></ph><bpt id="3" ctype="x-b">&lt;b
+style='mso-bidi-font-weight:normal'&gt;</bpt><ph id="4" ctype="x-ph">&lt;br style='mso-special-character:line-break'&gt;</ph> <it id="5" ctype="x-![if_!supportLineBreakNewLine]&gt;&lt;br_style=&apos;mso-special-character:line-break&apos;>_&lt;![" pos="open">&lt;![if !supportLineBreakNewLine]&gt;&lt;br style='mso-special-character:line-break'&gt;
+&lt;![</it>endif]&gt;<ph id="6" ctype="x-df-e"></ph><ept id="3">&lt;/b&gt;</ept><bpt id="7" ctype="x-o:p">&lt;o:p&gt;</bpt><ept id="7">&lt;/o:p&gt;</ept><ept id="1">&lt;/span&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="54" xml:space="preserve">
+<source xml:lang="en">Server Tag Examples:<ph id="1" ctype="x-df-e"></ph></source>
+<seg-source><mrk mid="0" mtype="seg">Server Tag Examples:</mrk><ph id="1" ctype="x-df-e"></ph></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Server Tag Examples:</mrk><ph id="1" ctype="x-df-e"></ph></target>
+</trans-unit>
+<trans-unit id="55" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-ph">&lt;?php echo '&lt;p&gt;</ph>This paragraph is ignored during a full sequential parse</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-ph">&lt;?php echo '&lt;p&gt;</ph>This paragraph is ignored during a full sequential parse</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-ph">&lt;?php echo '&lt;p&gt;</ph>This paragraph is ignored during a full sequential parse</mrk></target>
+</trans-unit>
+<trans-unit id="56" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-ph">&lt;%= $variable %&gt;</ph> <ph id="2" ctype="x-ph">&lt;%=var%&gt;</ph> <ph id="3" ctype="x-ph">&lt;%abc=def%&gt;</ph> <ph id="4" ctype="x-ph">&lt;%
+	for (int i=0; i&lt;10; i++) {
+		document.write("</ph>This is indented server code<ph id="5" ctype="x-ph">");
+	}
+%&gt;</ph> <ph id="6" ctype="x-ph">&lt;%@ include file="</ph>relativeFragment.jsp<ph id="7" ctype="x-ph">" %&gt;</ph>
+</source>
+<seg-source><ph id="1" ctype="x-ph">&lt;%= $variable %&gt;</ph> <ph id="2" ctype="x-ph">&lt;%=var%&gt;</ph> <ph id="3" ctype="x-ph">&lt;%abc=def%&gt;</ph> <mrk mid="1" mtype="seg"><ph id="4" ctype="x-ph">&lt;%
+	for (int i=0; i&lt;10; i++) {
+		document.write("</ph>This is indented server code<ph id="5" ctype="x-ph">");
+	}
+%&gt;</ph> <ph id="6" ctype="x-ph">&lt;%@ include file="</ph>relativeFragment.jsp<ph id="7" ctype="x-ph">" %&gt;</ph></mrk>
+</seg-source>
+<target xml:lang="fr"><ph id="1" ctype="x-ph">&lt;%= $variable %&gt;</ph> <ph id="2" ctype="x-ph">&lt;%=var%&gt;</ph> <ph id="3" ctype="x-ph">&lt;%abc=def%&gt;</ph> <mrk mid="1" mtype="seg"><ph id="4" ctype="x-ph">&lt;%
+	for (int i=0; i&lt;10; i++) {
+		document.write("</ph>This is indented server code<ph id="5" ctype="x-ph">");
+	}
+%&gt;</ph> <ph id="6" ctype="x-ph">&lt;%@ include file="</ph>relativeFragment.jsp<ph id="7" ctype="x-ph">" %&gt;</ph></mrk>
+</target>
+</trans-unit>
+<trans-unit id="57" xml:space="preserve">
+<source xml:lang="en">This paragraph has a dynamic id attribute</source>
+<seg-source><mrk mid="0" mtype="seg">This paragraph has a dynamic id attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This paragraph has a dynamic id attribute</mrk></target>
+</trans-unit>
+<trans-unit id="58" xml:space="preserve">
+<source xml:lang="en">These checkboxes have dynamic code determining whether they are checked:
+</source>
+<seg-source><mrk mid="0" mtype="seg">These checkboxes have dynamic code determining whether they are checked:</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">These checkboxes have dynamic code determining whether they are checked:</mrk>
+</target>
+</trans-unit>
+<trans-unit id="59" xml:space="preserve">
+<source xml:lang="en">The following is Mason server code sampled from the <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-a">&lt;a target="_blank" href="http://www.masonbook.com/book/chapter-2.mhtml#CHP-2-SECT-3.4.9"&gt;</bpt>Mason book, chapter 2, section 3.4.9<ph id="3" ctype="x-df-e"></ph><ept id="2">&lt;/a&gt;</ept>:
+</source>
+<seg-source><mrk mid="0" mtype="seg">The following is Mason server code sampled from the <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-a">&lt;a target="_blank" href="http://www.masonbook.com/book/chapter-2.mhtml#CHP-2-SECT-3.4.9"&gt;</bpt>Mason book, chapter 2, section 3.4.9<ph id="3" ctype="x-df-e"></ph><ept id="2">&lt;/a&gt;</ept>:</mrk>
+</seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following is Mason server code sampled from the <ph id="1" ctype="x-df-s"></ph><bpt id="2" ctype="x-a">&lt;a target="_blank" href="http://www.masonbook.com/book/chapter-2.mhtml#CHP-2-SECT-3.4.9"&gt;</bpt>Mason book, chapter 2, section 3.4.9<ph id="3" ctype="x-df-e"></ph><ept id="2">&lt;/a&gt;</ept>:</mrk>
+</target>
+</trans-unit>
+<trans-unit id="60" xml:space="preserve">
+<source xml:lang="en">&lt;&amp; menu &amp;&gt;
+
+&lt;&amp;| /i18n/itext, lang =&gt; $lang &amp;&gt; %# The bits in here will be available from $m-&gt;content in the /i18/text <it id="1" ctype="x-en" pos="open">&lt;en&gt;</it>Hello, <ph id="2" ctype="x-ph">&lt;% $name %&gt;</ph>.  These words are in English.<it id="1" ctype="x-en" pos="close">&lt;/en&gt;</it> <bpt id="3" ctype="x-fr">&lt;fr&gt;</bpt>Bonjour, <ph id="4" ctype="x-ph">&lt;% $name %&gt;</ph>, ces mots sont franE&lt;#xC3&gt;E&lt;#xA7&gt;ais.<ept id="3">&lt;/fr&gt;</ept> <bpt id="5" ctype="x-pig">&lt;pig&gt;</bpt>Ellohay <ph id="6" ctype="x-ph">&lt;% substr($name,2) . substr($name,0,1) . 'ay' %&gt;</ph>, esethay ordsway areyay inyay Igpay Atinlay.<ept id="5">&lt;/pig&gt;</ept> &lt;/&amp;&gt;
+
+<ph id="7" ctype="x-ph">&lt;%def .make_a_link&gt;
+ &lt;a target="_blank" href="&lt;% $url %&gt;</ph>"&gt;<ph id="8" ctype="x-ph">&lt;% $text %&gt;</ph><it id="9" ctype="x-a" pos="close">&lt;/a&gt;</it> &lt;%args&gt; $path %query =&gt; ( ) $text &lt;/%args&gt; &lt;%init&gt; my $url = ... ... &lt;/%init&gt; &lt;/%def&gt;
+
+&lt;*abc def="ghi"&gt; This is an example of an element from a hypothetical server language whose tag formats have not been registered with the TagTypeRegister class &lt;/*abc&gt; &lt;/html&gt;</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;&amp; menu &amp;&gt;</mrk>
+
+<mrk mid="1" mtype="seg">&lt;&amp;| /i18n/itext, lang =&gt; $lang &amp;&gt; %# The bits in here will be available from $m-&gt;content in the /i18/text <it id="1" ctype="x-en" pos="open">&lt;en&gt;</it>Hello, <ph id="2" ctype="x-ph">&lt;% $name %&gt;</ph>.</mrk>  <mrk mid="2" mtype="seg">These words are in English.<it id="1" ctype="x-en" pos="close">&lt;/en&gt;</it></mrk> <mrk mid="3" mtype="seg"><bpt id="3" ctype="x-fr">&lt;fr&gt;</bpt>Bonjour, <ph id="4" ctype="x-ph">&lt;% $name %&gt;</ph>, ces mots sont franE&lt;#xC3&gt;E&lt;#xA7&gt;ais.<ept id="3">&lt;/fr&gt;</ept></mrk> <mrk mid="4" mtype="seg"><bpt id="5" ctype="x-pig">&lt;pig&gt;</bpt>Ellohay <ph id="6" ctype="x-ph">&lt;% substr($name,2) . substr($name,0,1) . 'ay' %&gt;</ph>, esethay ordsway areyay inyay Igpay Atinlay.<ept id="5">&lt;/pig&gt;</ept></mrk> &lt;/&amp;&gt;
+
+<mrk mid="5" mtype="seg"><ph id="7" ctype="x-ph">&lt;%def .make_a_link&gt;
+ &lt;a target="_blank" href="&lt;% $url %&gt;</ph>"&gt;<ph id="8" ctype="x-ph">&lt;% $text %&gt;</ph><it id="9" ctype="x-a" pos="close">&lt;/a&gt;</it> &lt;%args&gt; $path %query =&gt; ( ) $text &lt;/%args&gt; &lt;%init&gt; my $url = ...</mrk> ... <mrk mid="6" mtype="seg">&lt;/%init&gt; &lt;/%def&gt;</mrk>
+
+<mrk mid="7" mtype="seg">&lt;*abc def="ghi"&gt; This is an example of an element from a hypothetical server language whose tag formats have not been registered with the TagTypeRegister class &lt;/*abc&gt; &lt;/html&gt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;&amp; menu &amp;&gt;</mrk>
+
+<mrk mid="1" mtype="seg">&lt;&amp;| /i18n/itext, lang =&gt; $lang &amp;&gt; %# The bits in here will be available from $m-&gt;content in the /i18/text <it id="1" ctype="x-en" pos="open">&lt;en&gt;</it>Hello, <ph id="2" ctype="x-ph">&lt;% $name %&gt;</ph>.</mrk>  <mrk mid="2" mtype="seg">These words are in English.<it id="1" ctype="x-en" pos="close">&lt;/en&gt;</it></mrk> <mrk mid="3" mtype="seg"><bpt id="3" ctype="x-fr">&lt;fr&gt;</bpt>Bonjour, <ph id="4" ctype="x-ph">&lt;% $name %&gt;</ph>, ces mots sont franE&lt;#xC3&gt;E&lt;#xA7&gt;ais.<ept id="3">&lt;/fr&gt;</ept></mrk> <mrk mid="4" mtype="seg"><bpt id="5" ctype="x-pig">&lt;pig&gt;</bpt>Ellohay <ph id="6" ctype="x-ph">&lt;% substr($name,2) . substr($name,0,1) . 'ay' %&gt;</ph>, esethay ordsway areyay inyay Igpay Atinlay.<ept id="5">&lt;/pig&gt;</ept></mrk> &lt;/&amp;&gt;
+
+<mrk mid="5" mtype="seg"><ph id="7" ctype="x-ph">&lt;%def .make_a_link&gt;
+ &lt;a target="_blank" href="&lt;% $url %&gt;</ph>"&gt;<ph id="8" ctype="x-ph">&lt;% $text %&gt;</ph><it id="9" ctype="x-a" pos="close">&lt;/a&gt;</it> &lt;%args&gt; $path %query =&gt; ( ) $text &lt;/%args&gt; &lt;%init&gt; my $url = ...</mrk> ... <mrk mid="6" mtype="seg">&lt;/%init&gt; &lt;/%def&gt;</mrk>
+
+<mrk mid="7" mtype="seg">&lt;*abc def="ghi"&gt; This is an example of an element from a hypothetical server language whose tag formats have not been registered with the TagTypeRegister class &lt;/*abc&gt; &lt;/html&gt;</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

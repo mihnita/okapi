@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminconfig815768.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Obtaining system information by using the command line</source>
+<seg-source><mrk mid="0" mtype="seg">Obtaining system information by using the command line</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Obtaining system information by using the command line</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">To run <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sysinfo<ept id="1">&lt;/codeph&gt;</ept> from the command line, use a command like one of the following while the Network Server is running.</source>
+<seg-source><mrk mid="0" mtype="seg">To run <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sysinfo<ept id="1">&lt;/codeph&gt;</ept> from the command line, use a command like one of the following while the Network Server is running.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To run <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sysinfo<ept id="1">&lt;/codeph&gt;</ept> from the command line, use a command like one of the following while the Network Server is running.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -jar $<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>/lib/derbyrun.jar server sysinfo [-h <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="3">&lt;/varname&gt;</ept>][-p <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="4">&lt;/varname&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -jar $<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>/lib/derbyrun.jar server sysinfo [-h <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="3">&lt;/varname&gt;</ept>][-p <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="4">&lt;/varname&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -jar $<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>/lib/derbyrun.jar server sysinfo [-h <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="3">&lt;/varname&gt;</ept>][-p <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="4">&lt;/varname&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl sysinfo [-h <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="2">&lt;/varname&gt;</ept>][-p <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="3">&lt;/varname&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl sysinfo [-h <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="2">&lt;/varname&gt;</ept>][-p <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="3">&lt;/varname&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.drda.NetworkServerControl sysinfo [-h <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>hostname<ept id="2">&lt;/varname&gt;</ept>][-p <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>portnumber<ept id="3">&lt;/varname&gt;</ept>]<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Administrative commands such as <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sysinfo<ept id="1">&lt;/codeph&gt;</ept> can only execute on the host where the server was started, even if the server was started with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>-h<ept id="2">&lt;/codeph&gt;</ept> option.</source>
+<seg-source><mrk mid="0" mtype="seg">Administrative commands such as <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sysinfo<ept id="1">&lt;/codeph&gt;</ept> can only execute on the host where the server was started, even if the server was started with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>-h<ept id="2">&lt;/codeph&gt;</ept> option.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Administrative commands such as <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sysinfo<ept id="1">&lt;/codeph&gt;</ept> can only execute on the host where the server was started, even if the server was started with the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>-h<ept id="2">&lt;/codeph&gt;</ept> option.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljcreatesynonym.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CREATE SYNONYM statement</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE SYNONYM statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE SYNONYM statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">CREATE SYNONYM statement</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE SYNONYM statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE SYNONYM statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Synonyms</source>
+<seg-source><mrk mid="0" mtype="seg">Synonyms</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Synonyms</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">creating</source>
+<seg-source><mrk mid="0" mtype="seg">creating</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">creating</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Use the CREATE SYNONYM statement to provide an alternate name for a table or a view that is present in the same schema or another schema. You can also create synonyms for other synonyms, resulting in nested synonyms. A synonym can be used instead of the original qualified table or view name in SELECT, INSERT, UPDATE, DELETE or LOCK TABLE statements. You can create a synonym for a table or a view that doesn't exist, but the target table or view must be present before the synonym can be used.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the CREATE SYNONYM statement to provide an alternate name for a table or a view that is present in the same schema or another schema.</mrk><mrk mid="1" mtype="seg"> You can also create synonyms for other synonyms, resulting in nested synonyms.</mrk><mrk mid="2" mtype="seg"> A synonym can be used instead of the original qualified table or view name in SELECT, INSERT, UPDATE, DELETE or LOCK TABLE statements.</mrk><mrk mid="3" mtype="seg"> You can create a synonym for a table or a view that doesn't exist, but the target table or view must be present before the synonym can be used.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the CREATE SYNONYM statement to provide an alternate name for a table or a view that is present in the same schema or another schema.</mrk><mrk mid="1" mtype="seg"> You can also create synonyms for other synonyms, resulting in nested synonyms.</mrk><mrk mid="2" mtype="seg"> A synonym can be used instead of the original qualified table or view name in SELECT, INSERT, UPDATE, DELETE or LOCK TABLE statements.</mrk><mrk mid="3" mtype="seg"> You can create a synonym for a table or a view that doesn't exist, but the target table or view must be present before the synonym can be used.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Synonyms share the same namespace as tables or views. You cannot create a synonym with the same name as a table that already exists in the same schema. Similarly, you cannot create a table or view with a name that matches a synonym already present.</source>
+<seg-source><mrk mid="0" mtype="seg">Synonyms share the same namespace as tables or views.</mrk><mrk mid="1" mtype="seg"> You cannot create a synonym with the same name as a table that already exists in the same schema.</mrk><mrk mid="2" mtype="seg"> Similarly, you cannot create a table or view with a name that matches a synonym already present.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Synonyms share the same namespace as tables or views.</mrk><mrk mid="1" mtype="seg"> You cannot create a synonym with the same name as a table that already exists in the same schema.</mrk><mrk mid="2" mtype="seg"> Similarly, you cannot create a table or view with a name that matches a synonym already present.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">A synonym can be defined for a table/view that does not exist when you create the synonym. If the table or view doesn't exist, you will receive a warning message (SQLSTATE 01522). The referenced object must be present when you use a synonym in a DML statement.</source>
+<seg-source><mrk mid="0" mtype="seg">A synonym can be defined for a table/view that does not exist when you create the synonym.</mrk><mrk mid="1" mtype="seg"> If the table or view doesn't exist, you will receive a warning message (SQLSTATE 01522).</mrk><mrk mid="2" mtype="seg"> The referenced object must be present when you use a synonym in a DML statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A synonym can be defined for a table/view that does not exist when you create the synonym.</mrk><mrk mid="1" mtype="seg"> If the table or view doesn't exist, you will receive a warning message (SQLSTATE 01522).</mrk><mrk mid="2" mtype="seg"> The referenced object must be present when you use a synonym in a DML statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">You can create a nested synonym (a synonym for another synonym), but any attempt to create a synonym that results in a circular reference will return an error message (SQLSTATE 42916).</source>
+<seg-source><mrk mid="0" mtype="seg">You can create a nested synonym (a synonym for another synonym), but any attempt to create a synonym that results in a circular reference will return an error message (SQLSTATE 42916).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can create a nested synonym (a synonym for another synonym), but any attempt to create a synonym that results in a circular reference will return an error message (SQLSTATE 42916).</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Synonyms cannot be defined in system schemas. All schemas starting with 'SYS' are considered system schemas and are reserved by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Synonyms cannot be defined in system schemas.</mrk><mrk mid="1" mtype="seg"> All schemas starting with 'SYS' are considered system schemas and are reserved by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Synonyms cannot be defined in system schemas.</mrk><mrk mid="1" mtype="seg"> All schemas starting with 'SYS' are considered system schemas and are reserved by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">A synonym cannot be defined on a temporary table. Attempting to define a synonym on a temporary table will return an error message (SQLSTATE XCL51).</source>
+<seg-source><mrk mid="0" mtype="seg">A synonym cannot be defined on a temporary table.</mrk><mrk mid="1" mtype="seg"> Attempting to define a synonym on a temporary table will return an error message (SQLSTATE XCL51).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A synonym cannot be defined on a temporary table.</mrk><mrk mid="1" mtype="seg"> Attempting to define a synonym on a temporary table will return an error message (SQLSTATE XCL51).</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE SYNONYM <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsynonymname.dita#rrefsynonymname"&gt;</bpt>synonymName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FOR { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefviewname.dita#rrefviewname"&gt;</bpt>viewName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE SYNONYM <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsynonymname.dita#rrefsynonymname"&gt;</bpt>synonymName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FOR { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefviewname.dita#rrefviewname"&gt;</bpt>viewName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE SYNONYM <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefsynonymname.dita#rrefsynonymname"&gt;</bpt>synonymName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> FOR { <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefviewname.dita#rrefviewname"&gt;</bpt>viewName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> | <bpt id="6" ctype="x-i">&lt;i&gt;</bpt><bpt id="7" ctype="x-xref">&lt;xref href="rreftablename.dita#rreftablename"&gt;</bpt>tableName<ept id="7">&lt;/xref&gt;</ept><ept id="6">&lt;/i&gt;</ept> }<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>synonymName<ept id="1">&lt;/i&gt;</ept> in the statement represents the synonym name you are giving the target table or view, while the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>viewName<ept id="2">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>tableName<ept id="3">&lt;/i&gt;</ept> represents the original name of the target table or view.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>synonymName<ept id="1">&lt;/i&gt;</ept> in the statement represents the synonym name you are giving the target table or view, while the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>viewName<ept id="2">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>tableName<ept id="3">&lt;/i&gt;</ept> represents the original name of the target table or view.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>synonymName<ept id="1">&lt;/i&gt;</ept> in the statement represents the synonym name you are giving the target table or view, while the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>viewName<ept id="2">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>tableName<ept id="3">&lt;/i&gt;</ept> represents the original name of the target table or view.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE SYNONYM SAMP.T1 FOR SAMP.TABLEWITHLONGNAME<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE SYNONYM SAMP.T1 FOR SAMP.TABLEWITHLONGNAME<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE SYNONYM SAMP.T1 FOR SAMP.TABLEWITHLONGNAME<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj42324.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CURRENT_USER function</source>
+<seg-source><mrk mid="0" mtype="seg">CURRENT_USER function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CURRENT_USER function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">When used outside stored routines, the CURRENT_USER, USER, and SESSION_USER functions all return the authorization identifier of the user that created the SQL session.</source>
+<seg-source><mrk mid="0" mtype="seg">When used outside stored routines, the CURRENT_USER, USER, and SESSION_USER functions all return the authorization identifier of the user that created the SQL session.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When used outside stored routines, the CURRENT_USER, USER, and SESSION_USER functions all return the authorization identifier of the user that created the SQL session.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">CURRENT_USER function</source>
+<seg-source><mrk mid="0" mtype="seg">CURRENT_USER function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CURRENT_USER function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj42476.dita#rrefsqlj42476"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> and <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj25228.dita#rrefsqlj25228"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for details on those functions.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj42476.dita#rrefsqlj42476"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> and <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj25228.dita#rrefsqlj25228"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for details on those functions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj42476.dita#rrefsqlj42476"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> and <bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj25228.dita#rrefsqlj25228"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for details on those functions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SESSION_USER also always returns this value when used within stored routines.</source>
+<seg-source><mrk mid="0" mtype="seg">SESSION_USER also always returns this value when used within stored routines.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SESSION_USER also always returns this value when used within stored routines.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">If used within a stored routine created with EXTERNAL SECURITY DEFINER, however, CURRENT_USER and USER return the authorization identifier of the user that owns the schema of the routine. This is usually the creating user, although the database owner could be the creator as well.</source>
+<seg-source><mrk mid="0" mtype="seg">If used within a stored routine created with EXTERNAL SECURITY DEFINER, however, CURRENT_USER and USER return the authorization identifier of the user that owns the schema of the routine.</mrk><mrk mid="1" mtype="seg"> This is usually the creating user, although the database owner could be the creator as well.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If used within a stored routine created with EXTERNAL SECURITY DEFINER, however, CURRENT_USER and USER return the authorization identifier of the user that owns the schema of the routine.</mrk><mrk mid="1" mtype="seg"> This is usually the creating user, although the database owner could be the creator as well.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">For information about definer's and invoker's rights, see <bpt id="1" ctype="x-xref">&lt;xref href="rrefcreateprocedurestatement.dita#rrefcreateprocedurestatement"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> or <bpt id="2" ctype="x-xref">&lt;xref href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For information about definer's and invoker's rights, see <bpt id="1" ctype="x-xref">&lt;xref href="rrefcreateprocedurestatement.dita#rrefcreateprocedurestatement"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> or <bpt id="2" ctype="x-xref">&lt;xref href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For information about definer's and invoker's rights, see <bpt id="1" ctype="x-xref">&lt;xref href="rrefcreateprocedurestatement.dita#rrefcreateprocedurestatement"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> or <bpt id="2" ctype="x-xref">&lt;xref href="rrefcreatefunctionstatement.dita#rrefcreatefunctionstatement"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">These functions return a string of up to 128 characters.</source>
+<seg-source><mrk mid="0" mtype="seg">These functions return a string of up to 128 characters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">These functions return a string of up to 128 characters.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CURRENT_USER<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CURRENT_USER<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CURRENT_USER<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES CURRENT_USER<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES CURRENT_USER<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES CURRENT_USER<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

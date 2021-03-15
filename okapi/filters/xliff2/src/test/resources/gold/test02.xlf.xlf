@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+    <file original="myfile" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8">
+        <body>
+            <trans-unit id="tu1" resname="unit1" restype="x-z:typeu">
+                <source xml:lang="en">Sample segment. Segment's content.</source>
+                <seg-source><mrk mid="1" mtype="seg">Sample segment.</mrk> <mrk mid="2" mtype="seg">Segment's content.</mrk></seg-source>
+                <target xml:lang="fr"><mrk mid="1" mtype="seg">Exemple de segment.</mrk><mrk mid="2" mtype="seg">Contenu du segment.</mrk></target>
+                <context-group><context context-type="x-documentation">Some extended documentation text</context><context context-type="x-keywords">doc1, doc2, doc3</context><context context-type="x-keywords.1.0">keyword1, keyword2, keyword2</context><context context-type="x-keywords.1.1">keyword0_1, keyword1_2, keyword2_2</context></context-group>
+            </trans-unit>
+            <group id="g1" resname="group1" restype="x-z:typeg">
+                <context-group><context context-type="x-description">group level metadata</context></context-group>
+                <note annotates="source" priority="2">Text of note-g1</note>
+                <trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Bolded text</source>
+                    <seg-source><mrk mid="1" mtype="seg">Bolded text</mrk></seg-source>
+                    <target xml:lang="fr"><mrk mid="1" mtype="seg">Bolded text</mrk></target>
+</trans-unit>
+                <trans-unit id="tu3end" xml:space="preserve">
+<source xml:lang="en">Extra stuff</source>
+                    <seg-source><mrk mid="1" mtype="seg">Extra stuff</mrk></seg-source>
+                    <target xml:lang="fr"><mrk mid="1" mtype="seg">Extra stuff</mrk></target>
+                    <context-group><context context-type="x-key">01d35857-b9bd-4835-8db1-40febcdcc8e9</context><context context-type="x-value">See: &lt;a href ="https://wikipedia.com"&gt;Wikipedia&lt;/a&gt;</context></context-group>
+</trans-unit>
+                <trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en"><g id="49">special text</g> and more
+    <x id="50"/>.</source>
+                    <seg-source><mrk mid="s1" mtype="seg"><g id="49">special text</g> and more
+                        <x id="50"/>.</mrk></seg-source>
+                    <target xml:lang="fr"><mrk mid="s1" mtype="seg"><g id="49">special text</g> and more
+                        <x id="50"/>.</mrk></target>
+</trans-unit>
+            </group>
+        </body>
+    </file>
+</xliff>

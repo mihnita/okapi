@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevspecial41728.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Database-side JDBC routines and SQLExceptions</source>
+<seg-source><mrk mid="0" mtype="seg">Database-side JDBC routines and SQLExceptions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database-side JDBC routines and SQLExceptions</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">It is possible to code database-side routines, like application-side methods, to catch <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="1">&lt;/i&gt;</ept>. SQLExceptions that are caught within a routine are hidden from the calling application code.</source>
+<seg-source><mrk mid="0" mtype="seg">It is possible to code database-side routines, like application-side methods, to catch <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> SQLExceptions that are caught within a routine are hidden from the calling application code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is possible to code database-side routines, like application-side methods, to catch <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> SQLExceptions that are caught within a routine are hidden from the calling application code.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SQLExceptions</source>
+<seg-source><mrk mid="0" mtype="seg">SQLExceptions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLExceptions</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">importance of not catching within database-side routines</source>
+<seg-source><mrk mid="0" mtype="seg">importance of not catching within database-side routines</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">importance of not catching within database-side routines</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Database-side JDBC routines</source>
+<seg-source><mrk mid="0" mtype="seg">Database-side JDBC routines</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database-side JDBC routines</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">and SQLExceptions</source>
+<seg-source><mrk mid="0" mtype="seg">and SQLExceptions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and SQLExceptions</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">When such <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="1">&lt;/i&gt;</ept> are of transaction severity (such as deadlocks), this "hiding" of the exception causes unexpected problems.</source>
+<seg-source><mrk mid="0" mtype="seg">When such <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="1">&lt;/i&gt;</ept> are of transaction severity (such as deadlocks), this "hiding" of the exception causes unexpected problems.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When such <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="1">&lt;/i&gt;</ept> are of transaction severity (such as deadlocks), this "hiding" of the exception causes unexpected problems.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">This is because errors of transaction severity roll back work already done by a transaction (not just the piece executed by the called method) and silently begin a new transaction. When the method execution is complete, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> detects that the outer statement was invalidated by a deadlock and rolls back any work done<bpt id="2" ctype="x-i">&lt;i&gt;</bpt> in the new transaction<ept id="2">&lt;/i&gt;</ept> as well. This is the expected behavior, because all the statements in between explicit commits should be treated atomically; the new transaction implicitly begun by <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>'s rollback was not intended by the application designer.</source>
+<seg-source><mrk mid="0" mtype="seg">This is because errors of transaction severity roll back work already done by a transaction (not just the piece executed by the called method) and silently begin a new transaction.</mrk><mrk mid="1" mtype="seg"> When the method execution is complete, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> detects that the outer statement was invalidated by a deadlock and rolls back any work done<bpt id="2" ctype="x-i">&lt;i&gt;</bpt> in the new transaction<ept id="2">&lt;/i&gt;</ept> as well.</mrk><mrk mid="2" mtype="seg"> This is the expected behavior, because all the statements in between explicit commits should be treated atomically; the new transaction implicitly begun by <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>'s rollback was not intended by the application designer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is because errors of transaction severity roll back work already done by a transaction (not just the piece executed by the called method) and silently begin a new transaction.</mrk><mrk mid="1" mtype="seg"> When the method execution is complete, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> detects that the outer statement was invalidated by a deadlock and rolls back any work done<bpt id="2" ctype="x-i">&lt;i&gt;</bpt> in the new transaction<ept id="2">&lt;/i&gt;</ept> as well.</mrk><mrk mid="2" mtype="seg"> This is the expected behavior, because all the statements in between explicit commits should be treated atomically; the new transaction implicitly begun by <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>'s rollback was not intended by the application designer.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">However, this is not the same behavior that would happen if the method were invoked in the application. In that situation, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> would roll back the work done by the transaction and silently begin a new transaction. Work in the new transaction would not be rolled back when the method returned. However, coding the application in that way means that the transaction did not end where you expected it to and is probably a programming mistake. Coding in this manner is not recommended.</source>
+<seg-source><mrk mid="0" mtype="seg">However, this is not the same behavior that would happen if the method were invoked in the application.</mrk><mrk mid="1" mtype="seg"> In that situation, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> would roll back the work done by the transaction and silently begin a new transaction.</mrk><mrk mid="2" mtype="seg"> Work in the new transaction would not be rolled back when the method returned.</mrk><mrk mid="3" mtype="seg"> However, coding the application in that way means that the transaction did not end where you expected it to and is probably a programming mistake.</mrk><mrk mid="4" mtype="seg"> Coding in this manner is not recommended.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">However, this is not the same behavior that would happen if the method were invoked in the application.</mrk><mrk mid="1" mtype="seg"> In that situation, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> would roll back the work done by the transaction and silently begin a new transaction.</mrk><mrk mid="2" mtype="seg"> Work in the new transaction would not be rolled back when the method returned.</mrk><mrk mid="3" mtype="seg"> However, coding the application in that way means that the transaction did not end where you expected it to and is probably a programming mistake.</mrk><mrk mid="4" mtype="seg"> Coding in this manner is not recommended.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">A method that catches a deadlock exception and then continues is probably making a mistake. Errors of transaction severity should be caught not by nested code, but only by the outermost application code. That is the only way to ensure that transactions begin and end where you expect them to.</source>
+<seg-source><mrk mid="0" mtype="seg">A method that catches a deadlock exception and then continues is probably making a mistake.</mrk><mrk mid="1" mtype="seg"> Errors of transaction severity should be caught not by nested code, but only by the outermost application code.</mrk><mrk mid="2" mtype="seg"> That is the only way to ensure that transactions begin and end where you expect them to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A method that catches a deadlock exception and then continues is probably making a mistake.</mrk><mrk mid="1" mtype="seg"> Errors of transaction severity should be caught not by nested code, but only by the outermost application code.</mrk><mrk mid="2" mtype="seg"> That is the only way to ensure that transactions begin and end where you expect them to.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Not all database vendors handle nested deadlocks the same way. For this and other reasons, it is not possible to write portable SQL-invoking methods. However, it is possible to write SQL-invoking methods that behave identically <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>regardless of whether you invoke them in the application or as a routine in the database<ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Not all database vendors handle nested deadlocks the same way.</mrk><mrk mid="1" mtype="seg"> For this and other reasons, it is not possible to write portable SQL-invoking methods.</mrk><mrk mid="2" mtype="seg"> However, it is possible to write SQL-invoking methods that behave identically <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>regardless of whether you invoke them in the application or as a routine in the database<ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Not all database vendors handle nested deadlocks the same way.</mrk><mrk mid="1" mtype="seg"> For this and other reasons, it is not possible to write portable SQL-invoking methods.</mrk><mrk mid="2" mtype="seg"> However, it is possible to write SQL-invoking methods that behave identically <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>regardless of whether you invoke them in the application or as a routine in the database<ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">In order to ensure identical application- and database-side handling of nested errors, code try-catch blocks to check for the severity of exceptions as follows:</source>
+<seg-source><mrk mid="0" mtype="seg">In order to ensure identical application- and database-side handling of nested errors, code try-catch blocks to check for the severity of exceptions as follows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In order to ensure identical application- and database-side handling of nested errors, code try-catch blocks to check for the severity of exceptions as follows:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">try { preparedStatement.execute(); } catch (SQLException se ) { String SQLState = se.getSQLState(); if ( SQLState.equals( "23505" ) ) { correctDuplicateKey(); } else if ( SQLState.equals( "22003" ) ) { correctArithmeticOverflow(); } else { throw se; } }</source>
+<seg-source><mrk mid="0" mtype="seg">try { preparedStatement.execute(); } catch (SQLException se ) { String SQLState = se.getSQLState(); if ( SQLState.equals( "23505" ) ) { correctDuplicateKey(); } else if ( SQLState.equals( "22003" ) ) { correctArithmeticOverflow(); } else { throw se; } }</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">try { preparedStatement.execute(); } catch (SQLException se ) { String SQLState = se.getSQLState(); if ( SQLState.equals( "23505" ) ) { correctDuplicateKey(); } else if ( SQLState.equals( "22003" ) ) { correctArithmeticOverflow(); } else { throw se; } }</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Of course, users also have the choice of not wrapping SQL statements in try-catch blocks within methods. In that case, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="1">&lt;/i&gt;</ept> are caught higher up in their applications, which is the desired behavior.</source>
+<seg-source><mrk mid="0" mtype="seg">Of course, users also have the choice of not wrapping SQL statements in try-catch blocks within methods.</mrk><mrk mid="1" mtype="seg"> In that case, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="1">&lt;/i&gt;</ept> are caught higher up in their applications, which is the desired behavior.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Of course, users also have the choice of not wrapping SQL statements in try-catch blocks within methods.</mrk><mrk mid="1" mtype="seg"> In that case, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="1">&lt;/i&gt;</ept> are caught higher up in their applications, which is the desired behavior.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

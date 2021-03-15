@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminovnsrundemo.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Running the NsSample sample program</source>
+<seg-source><mrk mid="0" mtype="seg">Running the NsSample sample program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running the NsSample sample program</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">To run the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> program, follow these steps.</source>
+<seg-source><mrk mid="0" mtype="seg">To run the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> program, follow these steps.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To run the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> program, follow these steps.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Open a command prompt and change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>%<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>%\demo\<ept id="1">&lt;/codeph&gt;</ept> directory, where <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>%<bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>%<ept id="3">&lt;/codeph&gt;</ept> is the directory where you installed <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Open a command prompt and change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>%<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>%\demo\<ept id="1">&lt;/codeph&gt;</ept> directory, where <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>%<bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>%<ept id="3">&lt;/codeph&gt;</ept> is the directory where you installed <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a command prompt and change to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>%<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>%\demo\<ept id="1">&lt;/codeph&gt;</ept> directory, where <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>%<bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>%<ept id="3">&lt;/codeph&gt;</ept> is the directory where you installed <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Set the CLASSPATH to the current directory ("."), and also include the following jar files in order to use the Network Server and the network client driver:</source>
+<seg-source><mrk mid="0" mtype="seg">Set the CLASSPATH to the current directory ("."), and also include the following jar files in order to use the Network Server and the network client driver:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the CLASSPATH to the current directory ("."), and also include the following jar files in order to use the Network Server and the network client driver:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbynet.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The Network Server jar file. It must be in your CLASSPATH to use any of the Network Server functions.</source>
+<seg-source><mrk mid="0" mtype="seg">The Network Server jar file.</mrk><mrk mid="1" mtype="seg"> It must be in your CLASSPATH to use any of the Network Server functions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Network Server jar file.</mrk><mrk mid="1" mtype="seg"> It must be in your CLASSPATH to use any of the Network Server functions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyclient.jar<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyclient.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbyclient.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">This jar file must be in your CLASSPATH to use the Network Client driver.</source>
+<seg-source><mrk mid="0" mtype="seg">This jar file must be in your CLASSPATH to use the Network Client driver.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This jar file must be in your CLASSPATH to use the Network Client driver.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database engine jar file.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database engine jar file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database engine jar file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbytools.jar<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbytools.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derbytools.jar<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> tools jar file.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> tools jar file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> tools jar file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Test the CLASSPATH settings by running the following Java command:</source>
+<seg-source><mrk mid="0" mtype="seg">Test the CLASSPATH settings by running the following Java command:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test the CLASSPATH settings by running the following Java command:</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.tools.sysinfo<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.tools.sysinfo<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java org.apache.derby.tools.sysinfo<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">This command shows the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> jar files that are in the classpath as well as their respective versions.</source>
+<seg-source><mrk mid="0" mtype="seg">This command shows the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> jar files that are in the classpath as well as their respective versions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This command shows the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> jar files that are in the classpath as well as their respective versions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">After you set up your environment correctly, run the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> program from the same directory:</source>
+<seg-source><mrk mid="0" mtype="seg">After you set up your environment correctly, run the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> program from the same directory:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After you set up your environment correctly, run the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> program from the same directory:</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java nserverdemo.NsSample<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java nserverdemo.NsSample<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java nserverdemo.NsSample<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">If the program runs successfully, you will receive output similar to the following:</source>
+<seg-source><mrk mid="0" mtype="seg">If the program runs successfully, you will receive output similar to the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the program runs successfully, you will receive output similar to the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server created Server is ready to accept connections on port 1621. Connection number: 1. [NsSample] <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> Network Server started. [NsSample] Sample <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> Network Server program demo starting. Please wait ..................... Connection number: 2. [NsSampleWork] Begin creating table - SAMPLETBL and necessary indexes. [NsSampleClientThread] Thread id - 1; started. [NsSampleWork] Thread id - 1; requests database connection, dbUrl =jdbc:derby:NSSampledb; [NsSampleClientThread] Thread id - 2; started. [NsSampleWork] Thread id - 2; requests database connection, dbUrl =jdbc:derby://localhost:1621/ NSSampledb;deferPrepares=true; Connection number: 3. [NsSampleWork] Thread id - 1 selected 1 row [313,Derby36 ,1.7686243E23,9620] [NsSampleWork] Thread id - 1 selected 1 row [313,Derby36 ,1.7686243E23,9620] [NsSampleWork] Thread id - 1; deleted 1 row with t_key = 9620 [NsSampleWork] Thread id - 1 selected 1 row [700,Derby34 ,8.7620301E9,9547] [NsSampleWork] Thread id - 1 selected 1 row [700,Derby34 ,8.7620301E9,9547] [NsSampleWork] Thread id - 2 selected 1 row [700,Derby34 ,8.7620301E9,9547] [NsSampleWork] Thread id - 2 selected 1 row [700,Derby34 ,8.7620301E9,9547] [NsSampleWork] Thread id - 1; inserted 1 row. [NsSampleWork] Thread id - 1 selected 1 row [52,Derby34 ,8.7620301E9,9547] [NsSampleWork] Thread id - 2; updated 1 row with t_key = 9547 [NsSampleWork] Thread id - 1; deleted 1 row with t_key = 9547 [NsSampleWork] Thread id - 2 selected 1 row [617,Derby31 ,773.83636,9321] [NsSampleWork] Thread id - 2 selected 1 row [617,Derby31 ,773.83636,9321] [NsSampleWork] Thread id - 2 selected 1 row [617,Derby31 ,773.83636,9321] [NsSampleWork] Thread id - 2 selected 1 row [617,Derby31 ,773.83636,9321] [NsSampleWork] Thread id - 1; inserted 1 row. [NsSampleWork] Thread id - 2; deleted 1 row with t_key = 9321 [NsSampleWork] Thread id - 1; deleted 1 row with t_key = 8707 [NsSampleWork] Thread id - 1; closed connection to the database. [NsSampleClientThread] Thread id - 1; finished all tasks. [NsSampleWork] Thread id - 2; deleted 1 row with t_key = 8490 [NsSampleWork] Thread id - 2; closed connection to the database. [NsSampleClientThread] Thread id - 2; finished all tasks. [NsSample] Shutting down Network Server. Connection number: 4. Shutdown successful.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server created Server is ready to accept connections on port 1621.</mrk><mrk mid="1" mtype="seg"> Connection number: 1.</mrk><mrk mid="2" mtype="seg"> [NsSample] <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> Network Server started.</mrk><mrk mid="3" mtype="seg"> [NsSample] Sample <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> Network Server program demo starting.</mrk><mrk mid="4" mtype="seg"> Please wait .....................</mrk><mrk mid="5" mtype="seg"> Connection number: 2.</mrk><mrk mid="6" mtype="seg"> [NsSampleWork] Begin creating table - SAMPLETBL and necessary indexes.</mrk><mrk mid="7" mtype="seg"> [NsSampleClientThread] Thread id - 1; started.</mrk><mrk mid="8" mtype="seg"> [NsSampleWork] Thread id - 1; requests database connection, dbUrl =jdbc:derby:NSSampledb; [NsSampleClientThread] Thread id - 2; started.</mrk><mrk mid="9" mtype="seg"> [NsSampleWork] Thread id - 2; requests database connection, dbUrl =jdbc:derby://localhost:1621/ NSSampledb;deferPrepares=true; Connection number: 3.</mrk><mrk mid="10" mtype="seg"> [NsSampleWork] Thread id - 1 selected 1 row [313,Derby36 ,1.7686243E23,9620] [NsSampleWork] Thread id - 1 selected 1 row [313,Derby36 ,1.7686243E23,9620] [NsSampleWork] Thread id - 1; deleted 1 row with t_key = 9620 [NsSampleWork] Thread id - 1 selected 1 row [700,Derby34 ,8.7620301E9,9547] [NsSampleWork] Thread id - 1 selected 1 row [700,Derby34 ,8.7620301E9,9547] [NsSampleWork] Thread id - 2 selected 1 row [700,Derby34 ,8.7620301E9,9547] [NsSampleWork] Thread id - 2 selected 1 row [700,Derby34 ,8.7620301E9,9547] [NsSampleWork] Thread id - 1; inserted 1 row.</mrk><mrk mid="11" mtype="seg"> [NsSampleWork] Thread id - 1 selected 1 row [52,Derby34 ,8.7620301E9,9547] [NsSampleWork] Thread id - 2; updated 1 row with t_key = 9547 [NsSampleWork] Thread id - 1; deleted 1 row with t_key = 9547 [NsSampleWork] Thread id - 2 selected 1 row [617,Derby31 ,773.83636,9321] [NsSampleWork] Thread id - 2 selected 1 row [617,Derby31 ,773.83636,9321] [NsSampleWork] Thread id - 2 selected 1 row [617,Derby31 ,773.83636,9321] [NsSampleWork] Thread id - 2 selected 1 row [617,Derby31 ,773.83636,9321] [NsSampleWork] Thread id - 1; inserted 1 row.</mrk><mrk mid="12" mtype="seg"> [NsSampleWork] Thread id - 2; deleted 1 row with t_key = 9321 [NsSampleWork] Thread id - 1; deleted 1 row with t_key = 8707 [NsSampleWork] Thread id - 1; closed connection to the database.</mrk><mrk mid="13" mtype="seg"> [NsSampleClientThread] Thread id - 1; finished all tasks.</mrk><mrk mid="14" mtype="seg"> [NsSampleWork] Thread id - 2; deleted 1 row with t_key = 8490 [NsSampleWork] Thread id - 2; closed connection to the database.</mrk><mrk mid="15" mtype="seg"> [NsSampleClientThread] Thread id - 2; finished all tasks.</mrk><mrk mid="16" mtype="seg"> [NsSample] Shutting down Network Server.</mrk><mrk mid="17" mtype="seg"> Connection number: 4.</mrk><mrk mid="18" mtype="seg"> Shutdown successful.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server created Server is ready to accept connections on port 1621.</mrk><mrk mid="1" mtype="seg"> Connection number: 1.</mrk><mrk mid="2" mtype="seg"> [NsSample] <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> Network Server started.</mrk><mrk mid="3" mtype="seg"> [NsSample] Sample <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> Network Server program demo starting.</mrk><mrk mid="4" mtype="seg"> Please wait .....................</mrk><mrk mid="5" mtype="seg"> Connection number: 2.</mrk><mrk mid="6" mtype="seg"> [NsSampleWork] Begin creating table - SAMPLETBL and necessary indexes.</mrk><mrk mid="7" mtype="seg"> [NsSampleClientThread] Thread id - 1; started.</mrk><mrk mid="8" mtype="seg"> [NsSampleWork] Thread id - 1; requests database connection, dbUrl =jdbc:derby:NSSampledb; [NsSampleClientThread] Thread id - 2; started.</mrk><mrk mid="9" mtype="seg"> [NsSampleWork] Thread id - 2; requests database connection, dbUrl =jdbc:derby://localhost:1621/ NSSampledb;deferPrepares=true; Connection number: 3.</mrk><mrk mid="10" mtype="seg"> [NsSampleWork] Thread id - 1 selected 1 row [313,Derby36 ,1.7686243E23,9620] [NsSampleWork] Thread id - 1 selected 1 row [313,Derby36 ,1.7686243E23,9620] [NsSampleWork] Thread id - 1; deleted 1 row with t_key = 9620 [NsSampleWork] Thread id - 1 selected 1 row [700,Derby34 ,8.7620301E9,9547] [NsSampleWork] Thread id - 1 selected 1 row [700,Derby34 ,8.7620301E9,9547] [NsSampleWork] Thread id - 2 selected 1 row [700,Derby34 ,8.7620301E9,9547] [NsSampleWork] Thread id - 2 selected 1 row [700,Derby34 ,8.7620301E9,9547] [NsSampleWork] Thread id - 1; inserted 1 row.</mrk><mrk mid="11" mtype="seg"> [NsSampleWork] Thread id - 1 selected 1 row [52,Derby34 ,8.7620301E9,9547] [NsSampleWork] Thread id - 2; updated 1 row with t_key = 9547 [NsSampleWork] Thread id - 1; deleted 1 row with t_key = 9547 [NsSampleWork] Thread id - 2 selected 1 row [617,Derby31 ,773.83636,9321] [NsSampleWork] Thread id - 2 selected 1 row [617,Derby31 ,773.83636,9321] [NsSampleWork] Thread id - 2 selected 1 row [617,Derby31 ,773.83636,9321] [NsSampleWork] Thread id - 2 selected 1 row [617,Derby31 ,773.83636,9321] [NsSampleWork] Thread id - 1; inserted 1 row.</mrk><mrk mid="12" mtype="seg"> [NsSampleWork] Thread id - 2; deleted 1 row with t_key = 9321 [NsSampleWork] Thread id - 1; deleted 1 row with t_key = 8707 [NsSampleWork] Thread id - 1; closed connection to the database.</mrk><mrk mid="13" mtype="seg"> [NsSampleClientThread] Thread id - 1; finished all tasks.</mrk><mrk mid="14" mtype="seg"> [NsSampleWork] Thread id - 2; deleted 1 row with t_key = 8490 [NsSampleWork] Thread id - 2; closed connection to the database.</mrk><mrk mid="15" mtype="seg"> [NsSampleClientThread] Thread id - 2; finished all tasks.</mrk><mrk mid="16" mtype="seg"> [NsSample] Shutting down Network Server.</mrk><mrk mid="17" mtype="seg"> Connection number: 4.</mrk><mrk mid="18" mtype="seg"> Shutdown successful.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Running the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> program also creates the following new directory and file:</source>
+<seg-source><mrk mid="0" mtype="seg">Running the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> program also creates the following new directory and file:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NsSample<ept id="1">&lt;/codeph&gt;</ept> program also creates the following new directory and file:</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NSSampledb<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NSSampledb<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NSSampledb<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">This directory makes up the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NSSampledb<ept id="1">&lt;/codeph&gt;</ept> database.</source>
+<seg-source><mrk mid="0" mtype="seg">This directory makes up the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NSSampledb<ept id="1">&lt;/codeph&gt;</ept> database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This directory makes up the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>NSSampledb<ept id="1">&lt;/codeph&gt;</ept> database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">This log file contains <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> progress and error messages.</source>
+<seg-source><mrk mid="0" mtype="seg">This log file contains <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> progress and error messages.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This log file contains <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> progress and error messages.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

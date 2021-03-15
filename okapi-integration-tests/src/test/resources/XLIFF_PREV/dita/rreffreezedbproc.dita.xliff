@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rreffreezedbproc.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_FREEZE_DATABASE system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_FREEZE_DATABASE system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_FREEZE_DATABASE system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_FREEZE_DATABASE<ept id="1">&lt;/codeph&gt;</ept> system procedure temporarily freezes the database for backup.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_FREEZE_DATABASE<ept id="1">&lt;/codeph&gt;</ept> system procedure temporarily freezes the database for backup.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_FREEZE_DATABASE<ept id="1">&lt;/codeph&gt;</ept> system procedure temporarily freezes the database for backup.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">See "Using operating system commands with the freeze and unfreeze system procedures to perform an online backup" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for more information on using this procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">See "Using operating system commands with the freeze and unfreeze system procedures to perform an online backup" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for more information on using this procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See "Using operating system commands with the freeze and unfreeze system procedures to perform an online backup" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for more information on using this procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_FREEZE_DATABASE()</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_FREEZE_DATABASE()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_FREEZE_DATABASE()</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">No result set is returned by this procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">No result set is returned by this procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No result set is returned by this procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default. See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information. The database owner can grant access to other users.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">String backupdirectory = "c:/mybackups/" + JCalendar.getToday(); CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_FREEZE_DATABASE()"); cs.execute(); cs.close(); // user supplied code to take full backup of "backupdirectory" // now unfreeze the database once backup has completed: CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_UNFREEZE_DATABASE()"); cs.execute(); cs.close();</source>
+<seg-source><mrk mid="0" mtype="seg">String backupdirectory = "c:/mybackups/" + JCalendar.getToday(); CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_FREEZE_DATABASE()"); cs.execute(); cs.close(); // user supplied code to take full backup of "backupdirectory" // now unfreeze the database once backup has completed: CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_UNFREEZE_DATABASE()"); cs.execute(); cs.close();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String backupdirectory = "c:/mybackups/" + JCalendar.getToday(); CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_FREEZE_DATABASE()"); cs.execute(); cs.close(); // user supplied code to take full backup of "backupdirectory" // now unfreeze the database once backup has completed: CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_UNFREEZE_DATABASE()"); cs.execute(); cs.close();</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

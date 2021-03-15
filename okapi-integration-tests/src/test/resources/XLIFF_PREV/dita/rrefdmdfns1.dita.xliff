@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefdmdfns1.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">java.sql.DatabaseMetaData.getBestRowIdentifier method</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.DatabaseMetaData.getBestRowIdentifier method</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.DatabaseMetaData.getBestRowIdentifier method</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">java.sql.DatabaseMetaData.getBestRowIdentifier method</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.DatabaseMetaData.getBestRowIdentifier method</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.DatabaseMetaData.getBestRowIdentifier method</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">methods</source>
+<seg-source><mrk mid="0" mtype="seg">methods</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">methods</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">java.sql.DatabaseMetaData.getBestRowIdentifier</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.DatabaseMetaData.getBestRowIdentifier</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.DatabaseMetaData.getBestRowIdentifier</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.DatabaseMetaData.getBestRowIdentifier<ept id="1">&lt;/i&gt;</ept> method looks for identifiers in a specific order. This order might not return a unique row.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.DatabaseMetaData.getBestRowIdentifier<ept id="1">&lt;/i&gt;</ept> method looks for identifiers in a specific order.</mrk><mrk mid="1" mtype="seg"> This order might not return a unique row.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.DatabaseMetaData.getBestRowIdentifier<ept id="1">&lt;/i&gt;</ept> method looks for identifiers in a specific order.</mrk><mrk mid="1" mtype="seg"> This order might not return a unique row.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.DatabaseMetaData.getBestRowIdentifier<ept id="1">&lt;/i&gt;</ept> method looks for identifiers in the following order:</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.DatabaseMetaData.getBestRowIdentifier<ept id="1">&lt;/i&gt;</ept> method looks for identifiers in the following order:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.DatabaseMetaData.getBestRowIdentifier<ept id="1">&lt;/i&gt;</ept> method looks for identifiers in the following order:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">A primary key on the table</source>
+<seg-source><mrk mid="0" mtype="seg">A primary key on the table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A primary key on the table</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">A unique constraint or unique index on the table</source>
+<seg-source><mrk mid="0" mtype="seg">A unique constraint or unique index on the table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A unique constraint or unique index on the table</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">All of the columns in the table</source>
+<seg-source><mrk mid="0" mtype="seg">All of the columns in the table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All of the columns in the table</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.DatabaseMetaData.getBestRowIdentifier<ept id="1">&lt;/i&gt;</ept> method does not find a primary key, unique constraint, or unique index, the method must look for identifiers in all of the columns in the table. When the method looks for identifiers this way, the method will always find a set of columns that identify a row. However, a unique row might not be identified if there are duplicate rows in the table.</source>
+<seg-source><mrk mid="0" mtype="seg">If the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.DatabaseMetaData.getBestRowIdentifier<ept id="1">&lt;/i&gt;</ept> method does not find a primary key, unique constraint, or unique index, the method must look for identifiers in all of the columns in the table.</mrk><mrk mid="1" mtype="seg"> When the method looks for identifiers this way, the method will always find a set of columns that identify a row.</mrk><mrk mid="2" mtype="seg"> However, a unique row might not be identified if there are duplicate rows in the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.DatabaseMetaData.getBestRowIdentifier<ept id="1">&lt;/i&gt;</ept> method does not find a primary key, unique constraint, or unique index, the method must look for identifiers in all of the columns in the table.</mrk><mrk mid="1" mtype="seg"> When the method looks for identifiers this way, the method will always find a set of columns that identify a row.</mrk><mrk mid="2" mtype="seg"> However, a unique row might not be identified if there are duplicate rows in the table.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

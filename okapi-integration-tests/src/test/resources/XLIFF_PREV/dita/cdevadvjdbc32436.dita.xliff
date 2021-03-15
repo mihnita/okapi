@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevadvjdbc32436.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Using Derby with IDEs</source>
+<seg-source><mrk mid="0" mtype="seg">Using Derby with IDEs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using Derby with IDEs</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">When you use an integrated development environment (IDE) to develop an embedded <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> application, you might need to run <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> within a server framework.</source>
+<seg-source><mrk mid="0" mtype="seg">When you use an integrated development environment (IDE) to develop an embedded <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> application, you might need to run <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> within a server framework.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you use an integrated development environment (IDE) to develop an embedded <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> application, you might need to run <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> within a server framework.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">IDEs</source>
+<seg-source><mrk mid="0" mtype="seg">IDEs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDEs</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">using Derby with</source>
+<seg-source><mrk mid="0" mtype="seg">using Derby with</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">using Derby with</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">and need to use server framework</source>
+<seg-source><mrk mid="0" mtype="seg">and need to use server framework</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and need to use server framework</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">This is because an IDE might try connecting to the database from two different JVMs, whereas only a single JVM instance should connect to a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database at one time (multiple connections from the same JVM are allowed).</source>
+<seg-source><mrk mid="0" mtype="seg">This is because an IDE might try connecting to the database from two different JVMs, whereas only a single JVM instance should connect to a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database at one time (multiple connections from the same JVM are allowed).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is because an IDE might try connecting to the database from two different JVMs, whereas only a single JVM instance should connect to a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database at one time (multiple connections from the same JVM are allowed).</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">An "embedded <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> application" is one which runs in the same JVM as the application. Such an application uses the embedded <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> driver (<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.EmbeddedDriver<ept id="3">&lt;/i&gt;</ept>) and connection URL (<bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="5" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:databaseName<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/codeph&gt;</ept>). If you use this driver name or connection URL from the IDE, when the IDE tries to open a second connection to the same database with the embedded <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept>, the attempt fails. Two JVMs cannot connect to the same database in embedded mode.</source>
+<seg-source><mrk mid="0" mtype="seg">An "embedded <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> application" is one which runs in the same JVM as the application.</mrk><mrk mid="1" mtype="seg"> Such an application uses the embedded <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> driver (<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.EmbeddedDriver<ept id="3">&lt;/i&gt;</ept>) and connection URL (<bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="5" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:databaseName<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/codeph&gt;</ept>).</mrk><mrk mid="2" mtype="seg"> If you use this driver name or connection URL from the IDE, when the IDE tries to open a second connection to the same database with the embedded <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept>, the attempt fails.</mrk><mrk mid="3" mtype="seg"> Two JVMs cannot connect to the same database in embedded mode.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An "embedded <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> application" is one which runs in the same JVM as the application.</mrk><mrk mid="1" mtype="seg"> Such an application uses the embedded <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> driver (<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>org.apache.derby.jdbc.EmbeddedDriver<ept id="3">&lt;/i&gt;</ept>) and connection URL (<bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="5" ctype="x-i">&lt;i&gt;</bpt>jdbc:derby:databaseName<ept id="5">&lt;/i&gt;</ept><ept id="4">&lt;/codeph&gt;</ept>).</mrk><mrk mid="2" mtype="seg"> If you use this driver name or connection URL from the IDE, when the IDE tries to open a second connection to the same database with the embedded <bpt id="6" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="6">&lt;/ph&gt;</ept>, the attempt fails.</mrk><mrk mid="3" mtype="seg"> Two JVMs cannot connect to the same database in embedded mode.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevspecialtfopttune.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Measuring the cost of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table functions</source>
+<seg-source><mrk mid="0" mtype="seg">Measuring the cost of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Measuring the cost of <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">This topic shows how to measure the cost of a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table function.</source>
+<seg-source><mrk mid="0" mtype="seg">This topic shows how to measure the cost of a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This topic shows how to measure the cost of a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>-style table function.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Functions</source>
+<seg-source><mrk mid="0" mtype="seg">Functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">calculating table function costs</source>
+<seg-source><mrk mid="0" mtype="seg">calculating table function costs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">calculating table function costs</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Optimizer</source>
+<seg-source><mrk mid="0" mtype="seg">Optimizer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Optimizer</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">calculating table function costs</source>
+<seg-source><mrk mid="0" mtype="seg">calculating table function costs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">calculating table function costs</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The following formula describes how to estimate the value returned by <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>VTICosting.getEstimatedCostPerInstantiation()<ept id="1">&lt;/i&gt;</ept>:</source>
+<seg-source><mrk mid="0" mtype="seg">The following formula describes how to estimate the value returned by <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>VTICosting.getEstimatedCostPerInstantiation()<ept id="1">&lt;/i&gt;</ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following formula describes how to estimate the value returned by <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>VTICosting.getEstimatedCostPerInstantiation()<ept id="1">&lt;/i&gt;</ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> C = I * A <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> C = I * A <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> C = I * A <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">where</source>
+<seg-source><mrk mid="0" mtype="seg">where</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">where</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>C<ept id="1">&lt;/b&gt;</ept> = The estimated <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>C<ept id="2">&lt;/b&gt;</ept>ost for creating and running the table function. That is, the value returned by <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>VTICosting.getEstimatedCostPerInstantiation()<ept id="3">&lt;/i&gt;</ept>. In general, <bpt id="4" ctype="x-b">&lt;b&gt;</bpt>C<ept id="4">&lt;/b&gt;</ept>ost is a measure of time in milliseconds.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>C<ept id="1">&lt;/b&gt;</ept> = The estimated <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>C<ept id="2">&lt;/b&gt;</ept>ost for creating and running the table function.</mrk><mrk mid="1" mtype="seg"> That is, the value returned by <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>VTICosting.getEstimatedCostPerInstantiation()<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> In general, <bpt id="4" ctype="x-b">&lt;b&gt;</bpt>C<ept id="4">&lt;/b&gt;</ept>ost is a measure of time in milliseconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>C<ept id="1">&lt;/b&gt;</ept> = The estimated <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>C<ept id="2">&lt;/b&gt;</ept>ost for creating and running the table function.</mrk><mrk mid="1" mtype="seg"> That is, the value returned by <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>VTICosting.getEstimatedCostPerInstantiation()<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> In general, <bpt id="4" ctype="x-b">&lt;b&gt;</bpt>C<ept id="4">&lt;/b&gt;</ept>ost is a measure of time in milliseconds.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>I<ept id="1">&lt;/b&gt;</ept> = The optimizer's <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>I<ept id="2">&lt;/b&gt;</ept>mprecision. A measure of how skewed the optimizer's estimates tend to be in your particular environment. See below for instructions on how to estimate this <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>I<ept id="3">&lt;/b&gt;</ept>mprecision.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>I<ept id="1">&lt;/b&gt;</ept> = The optimizer's <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>I<ept id="2">&lt;/b&gt;</ept>mprecision.</mrk><mrk mid="1" mtype="seg"> A measure of how skewed the optimizer's estimates tend to be in your particular environment.</mrk><mrk mid="2" mtype="seg"> See below for instructions on how to estimate this <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>I<ept id="3">&lt;/b&gt;</ept>mprecision.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>I<ept id="1">&lt;/b&gt;</ept> = The optimizer's <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>I<ept id="2">&lt;/b&gt;</ept>mprecision.</mrk><mrk mid="1" mtype="seg"> A measure of how skewed the optimizer's estimates tend to be in your particular environment.</mrk><mrk mid="2" mtype="seg"> See below for instructions on how to estimate this <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>I<ept id="3">&lt;/b&gt;</ept>mprecision.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>A<ept id="1">&lt;/b&gt;</ept> = The <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>A<ept id="2">&lt;/b&gt;</ept>ctual time in milliseconds which it takes to create and run this table function.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>A<ept id="1">&lt;/b&gt;</ept> = The <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>A<ept id="2">&lt;/b&gt;</ept>ctual time in milliseconds which it takes to create and run this table function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>A<ept id="1">&lt;/b&gt;</ept> = The <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>A<ept id="2">&lt;/b&gt;</ept>ctual time in milliseconds which it takes to create and run this table function.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Calculating the optimizer's imprecision</source>
+<seg-source><mrk mid="0" mtype="seg">Calculating the optimizer's imprecision</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calculating the optimizer's imprecision</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">We treat optimizer <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>I<ept id="1">&lt;/b&gt;</ept>mprecision as a constant across the runtime environment. The following formula describes it:</source>
+<seg-source><mrk mid="0" mtype="seg">We treat optimizer <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>I<ept id="1">&lt;/b&gt;</ept>mprecision as a constant across the runtime environment.</mrk><mrk mid="1" mtype="seg"> The following formula describes it:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">We treat optimizer <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>I<ept id="1">&lt;/b&gt;</ept>mprecision as a constant across the runtime environment.</mrk><mrk mid="1" mtype="seg"> The following formula describes it:</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> I = O / T <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> I = O / T <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> I = O / T <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">where</source>
+<seg-source><mrk mid="0" mtype="seg">where</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">where</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>O<ept id="1">&lt;/b&gt;</ept> = The <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>O<ept id="2">&lt;/b&gt;</ept>ptimizer's estimated cost for a plan.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>O<ept id="1">&lt;/b&gt;</ept> = The <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>O<ept id="2">&lt;/b&gt;</ept>ptimizer's estimated cost for a plan.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>O<ept id="1">&lt;/b&gt;</ept> = The <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>O<ept id="2">&lt;/b&gt;</ept>ptimizer's estimated cost for a plan.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>T<ept id="1">&lt;/b&gt;</ept> = The <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>T<ept id="2">&lt;/b&gt;</ept>otal runtime in milliseconds for the plan.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>T<ept id="1">&lt;/b&gt;</ept> = The <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>T<ept id="2">&lt;/b&gt;</ept>otal runtime in milliseconds for the plan.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>T<ept id="1">&lt;/b&gt;</ept> = The <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>T<ept id="2">&lt;/b&gt;</ept>otal runtime in milliseconds for the plan.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">To estimate these values, turn on <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> statistics collection and run the following experiment several times, averaging the results:</source>
+<seg-source><mrk mid="0" mtype="seg">To estimate these values, turn on <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> statistics collection and run the following experiment several times, averaging the results:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To estimate these values, turn on <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> statistics collection and run the following experiment several times, averaging the results:</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Select<ept id="1">&lt;/b&gt;</ept> = Select all of the rows from a big table.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Select<ept id="1">&lt;/b&gt;</ept> = Select all of the rows from a big table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Select<ept id="1">&lt;/b&gt;</ept> = Select all of the rows from a big table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Record<ept id="1">&lt;/b&gt;</ept> = In the statistics output, look for the ResultSet which represents the table scan. That scan has a field labelled "optimizer estimated cost". That's <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>O<ept id="2">&lt;/b&gt;</ept>. Now look for the fields in that ResultSet's statistics labelled "constructor time", "open time", "next time", and "close time". Add up all of those fields. That total is <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>T<ept id="3">&lt;/b&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Record<ept id="1">&lt;/b&gt;</ept> = In the statistics output, look for the ResultSet which represents the table scan.</mrk><mrk mid="1" mtype="seg"> That scan has a field labelled "optimizer estimated cost".</mrk><mrk mid="2" mtype="seg"> That's <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>O<ept id="2">&lt;/b&gt;</ept>. Now look for the fields in that ResultSet's statistics labelled "constructor time", "open time", "next time", and "close time".</mrk><mrk mid="3" mtype="seg"> Add up all of those fields.</mrk><mrk mid="4" mtype="seg"> That total is <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>T<ept id="3">&lt;/b&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Record<ept id="1">&lt;/b&gt;</ept> = In the statistics output, look for the ResultSet which represents the table scan.</mrk><mrk mid="1" mtype="seg"> That scan has a field labelled "optimizer estimated cost".</mrk><mrk mid="2" mtype="seg"> That's <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>O<ept id="2">&lt;/b&gt;</ept>. Now look for the fields in that ResultSet's statistics labelled "constructor time", "open time", "next time", and "close time".</mrk><mrk mid="3" mtype="seg"> Add up all of those fields.</mrk><mrk mid="4" mtype="seg"> That total is <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>T<ept id="3">&lt;/b&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">For example:</source>
+<seg-source><mrk mid="0" mtype="seg">For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">MAXIMUMDISPLAYWIDTH 7000; CALL SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS(1); CALL SYSCS_UTIL.SYSCS_SET_STATISTICS_TIMING(1); select * from T; values SYSCS_UTIL.SYSCS_GET_RUNTIMESTATISTICS();</source>
+<seg-source><mrk mid="0" mtype="seg">MAXIMUMDISPLAYWIDTH 7000; CALL SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS(1); CALL SYSCS_UTIL.SYSCS_SET_STATISTICS_TIMING(1); select * from T; values SYSCS_UTIL.SYSCS_GET_RUNTIMESTATISTICS();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MAXIMUMDISPLAYWIDTH 7000; CALL SYSCS_UTIL.SYSCS_SET_RUNTIMESTATISTICS(1); CALL SYSCS_UTIL.SYSCS_SET_STATISTICS_TIMING(1); select * from T; values SYSCS_UTIL.SYSCS_GET_RUNTIMESTATISTICS();</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Calculating the actual runtime cost of a table function</source>
+<seg-source><mrk mid="0" mtype="seg">Calculating the actual runtime cost of a table function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calculating the actual runtime cost of a table function</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">The following formula explains how to compute the <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>A<ept id="1">&lt;/b&gt;</ept>ctual runtime cost for the table function:</source>
+<seg-source><mrk mid="0" mtype="seg">The following formula explains how to compute the <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>A<ept id="1">&lt;/b&gt;</ept>ctual runtime cost for the table function:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following formula explains how to compute the <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>A<ept id="1">&lt;/b&gt;</ept>ctual runtime cost for the table function:</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> A = ( P * N ) + E <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> A = ( P * N ) + E <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> A = ( P * N ) + E <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">where</source>
+<seg-source><mrk mid="0" mtype="seg">where</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">where</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>P<ept id="1">&lt;/b&gt;</ept> = The runtime spent <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>P<ept id="2">&lt;/b&gt;</ept>er row (in milliseconds).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>P<ept id="1">&lt;/b&gt;</ept> = The runtime spent <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>P<ept id="2">&lt;/b&gt;</ept>er row (in milliseconds).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>P<ept id="1">&lt;/b&gt;</ept> = The runtime spent <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>P<ept id="2">&lt;/b&gt;</ept>er row (in milliseconds).</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>N<ept id="1">&lt;/b&gt;</ept> = The <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>N<ept id="2">&lt;/b&gt;</ept>umber of rows in the table function.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>N<ept id="1">&lt;/b&gt;</ept> = The <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>N<ept id="2">&lt;/b&gt;</ept>umber of rows in the table function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>N<ept id="1">&lt;/b&gt;</ept> = The <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>N<ept id="2">&lt;/b&gt;</ept>umber of rows in the table function.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>E<ept id="1">&lt;/b&gt;</ept> = The time spent creating an <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>E<ept id="2">&lt;/b&gt;</ept>mpty instance of the table function which has no rows in it. Usually, <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>P * N<ept id="3">&lt;/b&gt;</ept> dwarfs <bpt id="4" ctype="x-b">&lt;b&gt;</bpt>E<ept id="4">&lt;/b&gt;</ept>. That is, the table function instantiation cost is very small compared to the actual cost of looping through the rows. However, for some table functions, <bpt id="5" ctype="x-b">&lt;b&gt;</bpt>E<ept id="5">&lt;/b&gt;</ept> may be significant and may dominate the table function's cost when <bpt id="6" ctype="x-b">&lt;b&gt;</bpt>N<ept id="6">&lt;/b&gt;</ept> is small.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>E<ept id="1">&lt;/b&gt;</ept> = The time spent creating an <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>E<ept id="2">&lt;/b&gt;</ept>mpty instance of the table function which has no rows in it.</mrk><mrk mid="1" mtype="seg"> Usually, <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>P * N<ept id="3">&lt;/b&gt;</ept> dwarfs <bpt id="4" ctype="x-b">&lt;b&gt;</bpt>E<ept id="4">&lt;/b&gt;</ept>. That is, the table function instantiation cost is very small compared to the actual cost of looping through the rows.</mrk><mrk mid="2" mtype="seg"> However, for some table functions, <bpt id="5" ctype="x-b">&lt;b&gt;</bpt>E<ept id="5">&lt;/b&gt;</ept> may be significant and may dominate the table function's cost when <bpt id="6" ctype="x-b">&lt;b&gt;</bpt>N<ept id="6">&lt;/b&gt;</ept> is small.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>E<ept id="1">&lt;/b&gt;</ept> = The time spent creating an <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>E<ept id="2">&lt;/b&gt;</ept>mpty instance of the table function which has no rows in it.</mrk><mrk mid="1" mtype="seg"> Usually, <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>P * N<ept id="3">&lt;/b&gt;</ept> dwarfs <bpt id="4" ctype="x-b">&lt;b&gt;</bpt>E<ept id="4">&lt;/b&gt;</ept>. That is, the table function instantiation cost is very small compared to the actual cost of looping through the rows.</mrk><mrk mid="2" mtype="seg"> However, for some table functions, <bpt id="5" ctype="x-b">&lt;b&gt;</bpt>E<ept id="5">&lt;/b&gt;</ept> may be significant and may dominate the table function's cost when <bpt id="6" ctype="x-b">&lt;b&gt;</bpt>N<ept id="6">&lt;/b&gt;</ept> is small.</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">You may know that <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>E<ept id="1">&lt;/b&gt;</ept> is basically 0. If so, you can skip this step. Otherwise, to estimate <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>E<ept id="2">&lt;/b&gt;</ept>, turn on <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> statistics collection and run the following experiment several times, averaging the results:</source>
+<seg-source><mrk mid="0" mtype="seg">You may know that <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>E<ept id="1">&lt;/b&gt;</ept> is basically 0.</mrk><mrk mid="1" mtype="seg"> If so, you can skip this step.</mrk><mrk mid="2" mtype="seg"> Otherwise, to estimate <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>E<ept id="2">&lt;/b&gt;</ept>, turn on <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> statistics collection and run the following experiment several times, averaging the results:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You may know that <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>E<ept id="1">&lt;/b&gt;</ept> is basically 0.</mrk><mrk mid="1" mtype="seg"> If so, you can skip this step.</mrk><mrk mid="2" mtype="seg"> Otherwise, to estimate <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>E<ept id="2">&lt;/b&gt;</ept>, turn on <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> statistics collection and run the following experiment several times, averaging the results:</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Short-circuit<ept id="1">&lt;/b&gt;</ept> = Short-circuit the next() method of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> returned by your <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>-style table function so that it returns <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>false<ept id="4">&lt;/i&gt;</ept> the first time it is called. This makes it appear that the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="5">&lt;/i&gt;</ept> has no rows.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Short-circuit<ept id="1">&lt;/b&gt;</ept> = Short-circuit the next() method of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> returned by your <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>-style table function so that it returns <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>false<ept id="4">&lt;/i&gt;</ept> the first time it is called.</mrk><mrk mid="1" mtype="seg"> This makes it appear that the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="5">&lt;/i&gt;</ept> has no rows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Short-circuit<ept id="1">&lt;/b&gt;</ept> = Short-circuit the next() method of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> returned by your <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept>-style table function so that it returns <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>false<ept id="4">&lt;/i&gt;</ept> the first time it is called.</mrk><mrk mid="1" mtype="seg"> This makes it appear that the <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="5">&lt;/i&gt;</ept> has no rows.</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Select<ept id="1">&lt;/b&gt;</ept> = Select all of the rows from the table function.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Select<ept id="1">&lt;/b&gt;</ept> = Select all of the rows from the table function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Select<ept id="1">&lt;/b&gt;</ept> = Select all of the rows from the table function.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Record<ept id="1">&lt;/b&gt;</ept> = In the statistics output, look for the VTIResultSet which represents the table function scan. Add up the values of the fields in that VTIResultSet's statistics labelled "constructor time", "open time", "next time", and "close time". That total is <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>E<ept id="2">&lt;/b&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Record<ept id="1">&lt;/b&gt;</ept> = In the statistics output, look for the VTIResultSet which represents the table function scan.</mrk><mrk mid="1" mtype="seg"> Add up the values of the fields in that VTIResultSet's statistics labelled "constructor time", "open time", "next time", and "close time".</mrk><mrk mid="2" mtype="seg"> That total is <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>E<ept id="2">&lt;/b&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Record<ept id="1">&lt;/b&gt;</ept> = In the statistics output, look for the VTIResultSet which represents the table function scan.</mrk><mrk mid="1" mtype="seg"> Add up the values of the fields in that VTIResultSet's statistics labelled "constructor time", "open time", "next time", and "close time".</mrk><mrk mid="2" mtype="seg"> That total is <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>E<ept id="2">&lt;/b&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">To estimate <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>P<ept id="1">&lt;/b&gt;</ept>, turn on <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> statistics collection and run the following experiment several times, averaging the results:</source>
+<seg-source><mrk mid="0" mtype="seg">To estimate <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>P<ept id="1">&lt;/b&gt;</ept>, turn on <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> statistics collection and run the following experiment several times, averaging the results:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To estimate <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>P<ept id="1">&lt;/b&gt;</ept>, turn on <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> statistics collection and run the following experiment several times, averaging the results:</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Select<ept id="1">&lt;/b&gt;</ept> = Select all of the rows from the table function.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Select<ept id="1">&lt;/b&gt;</ept> = Select all of the rows from the table function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Select<ept id="1">&lt;/b&gt;</ept> = Select all of the rows from the table function.</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Record<ept id="1">&lt;/b&gt;</ept> = In the statistics output, look for the VTIResultSet which represents the table function scan. Add up the values of the fields in that VTIResultSet's statistics labelled "constructor time", "open time", "next time", and "close time". Subtract <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>E<ept id="2">&lt;/b&gt;</ept> from the result. Now divide by the value of the field "Rows seen". The result is <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>P<ept id="3">&lt;/b&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Record<ept id="1">&lt;/b&gt;</ept> = In the statistics output, look for the VTIResultSet which represents the table function scan.</mrk><mrk mid="1" mtype="seg"> Add up the values of the fields in that VTIResultSet's statistics labelled "constructor time", "open time", "next time", and "close time".</mrk><mrk mid="2" mtype="seg"> Subtract <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>E<ept id="2">&lt;/b&gt;</ept> from the result.</mrk><mrk mid="3" mtype="seg"> Now divide by the value of the field "Rows seen".</mrk><mrk mid="4" mtype="seg"> The result is <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>P<ept id="3">&lt;/b&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Record<ept id="1">&lt;/b&gt;</ept> = In the statistics output, look for the VTIResultSet which represents the table function scan.</mrk><mrk mid="1" mtype="seg"> Add up the values of the fields in that VTIResultSet's statistics labelled "constructor time", "open time", "next time", and "close time".</mrk><mrk mid="2" mtype="seg"> Subtract <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>E<ept id="2">&lt;/b&gt;</ept> from the result.</mrk><mrk mid="3" mtype="seg"> Now divide by the value of the field "Rows seen".</mrk><mrk mid="4" mtype="seg"> The result is <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>P<ept id="3">&lt;/b&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">Computing the value returned by <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getEstimatedCostPerInstantiation()<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Computing the value returned by <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getEstimatedCostPerInstantiation()<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Computing the value returned by <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getEstimatedCostPerInstantiation()<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">Putting all of this together, the following formula describes the value returned by your table function's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>VTICosting.getEstimatedCostPerInstantiation()<ept id="1">&lt;/i&gt;</ept> method.</source>
+<seg-source><mrk mid="0" mtype="seg">Putting all of this together, the following formula describes the value returned by your table function's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>VTICosting.getEstimatedCostPerInstantiation()<ept id="1">&lt;/i&gt;</ept> method.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Putting all of this together, the following formula describes the value returned by your table function's <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>VTICosting.getEstimatedCostPerInstantiation()<ept id="1">&lt;/i&gt;</ept> method.</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> C = O/T * [ ( P * N ) + E ] <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> C = O/T * [ ( P * N ) + E ] <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt> C = O/T * [ ( P * N ) + E ] <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

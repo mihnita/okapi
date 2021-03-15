@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefproper34037.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.storage.tempDirectory</source>
+<seg-source><mrk mid="0" mtype="seg">derby.storage.tempDirectory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.storage.tempDirectory</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">derby.storage.tempDirectory</source>
+<seg-source><mrk mid="0" mtype="seg">derby.storage.tempDirectory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.storage.tempDirectory</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">tmp directory</source>
+<seg-source><mrk mid="0" mtype="seg">tmp directory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tmp directory</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">setting location for</source>
+<seg-source><mrk mid="0" mtype="seg">setting location for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setting location for</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Function</source>
+<seg-source><mrk mid="0" mtype="seg">Function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Defines the location on disk for temporary file space needed by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for performing large sorts and deferred deletes and updates. (Temporary files are automatically deleted after use, and are removed when the database restarts after a crash.) The temporary directory named by this property will be created if it does not exist, but will not be deleted when the system shuts down. The path name specified by this property must have file separators that are appropriate to the current operating system.</source>
+<seg-source><mrk mid="0" mtype="seg">Defines the location on disk for temporary file space needed by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for performing large sorts and deferred deletes and updates.</mrk><mrk mid="1" mtype="seg"> (Temporary files are automatically deleted after use, and are removed when the database restarts after a crash.) The temporary directory named by this property will be created if it does not exist, but will not be deleted when the system shuts down.</mrk><mrk mid="2" mtype="seg"> The path name specified by this property must have file separators that are appropriate to the current operating system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Defines the location on disk for temporary file space needed by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for performing large sorts and deferred deletes and updates.</mrk><mrk mid="1" mtype="seg"> (Temporary files are automatically deleted after use, and are removed when the database restarts after a crash.) The temporary directory named by this property will be created if it does not exist, but will not be deleted when the system shuts down.</mrk><mrk mid="2" mtype="seg"> The path name specified by this property must have file separators that are appropriate to the current operating system.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">This property allows databases located on read-only media to write temporary files to a writable location. If this property is not set, databases located on read-only media might get an error like the following:</source>
+<seg-source><mrk mid="0" mtype="seg">This property allows databases located on read-only media to write temporary files to a writable location.</mrk><mrk mid="1" mtype="seg"> If this property is not set, databases located on read-only media might get an error like the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property allows databases located on read-only media to write temporary files to a writable location.</mrk><mrk mid="1" mtype="seg"> If this property is not set, databases located on read-only media might get an error like the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">ERROR XSDF1: Exception during creation of file c:\databases\db\tmp\T887256591756.tmp for container ERROR XJ001: Java exception: 'a:\databases\db\tmp\T887256591756.tmp: java.io.IOException'.</source>
+<seg-source><mrk mid="0" mtype="seg">ERROR XSDF1: Exception during creation of file c:\databases\db\tmp\T887256591756.tmp for container ERROR XJ001: Java exception: 'a:\databases\db\tmp\T887256591756.tmp: java.io.IOException'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ERROR XSDF1: Exception during creation of file c:\databases\db\tmp\T887256591756.tmp for container ERROR XJ001: Java exception: 'a:\databases\db\tmp\T887256591756.tmp: java.io.IOException'.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">This property moves the temporary directories for all databases being used by the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system. <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> makes temporary directories for each database under the directory referenced by this property. For example, if the property is set as follows:</source>
+<seg-source><mrk mid="0" mtype="seg">This property moves the temporary directories for all databases being used by the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> makes temporary directories for each database under the directory referenced by this property.</mrk><mrk mid="2" mtype="seg"> For example, if the property is set as follows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property moves the temporary directories for all databases being used by the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system.</mrk><mrk mid="1" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> makes temporary directories for each database under the directory referenced by this property.</mrk><mrk mid="2" mtype="seg"> For example, if the property is set as follows:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.storage.tempDirectory=C:/Temp/dbtemp<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.storage.tempDirectory=C:/Temp/dbtemp<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.storage.tempDirectory=C:/Temp/dbtemp<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">the temporary directories for the databases in <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>C:\databases\db1<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>C:\databases\db2<ept id="2">&lt;/i&gt;</ept> will be in <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>C:\Temp\dbtemp\db1<ept id="3">&lt;/i&gt;</ept> and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>C:\Temp\dbtemp\db2<ept id="4">&lt;/i&gt;</ept>, respectively.</source>
+<seg-source><mrk mid="0" mtype="seg">the temporary directories for the databases in <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>C:\databases\db1<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>C:\databases\db2<ept id="2">&lt;/i&gt;</ept> will be in <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>C:\Temp\dbtemp\db1<ept id="3">&lt;/i&gt;</ept> and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>C:\Temp\dbtemp\db2<ept id="4">&lt;/i&gt;</ept>, respectively.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the temporary directories for the databases in <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>C:\databases\db1<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>C:\databases\db2<ept id="2">&lt;/i&gt;</ept> will be in <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>C:\Temp\dbtemp\db1<ept id="3">&lt;/i&gt;</ept> and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>C:\Temp\dbtemp\db2<ept id="4">&lt;/i&gt;</ept>, respectively.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The temporary files of two databases running concurrently with the same name (for example, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>C:\databases\db1<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>E:\databases\db1<ept id="2">&lt;/i&gt;</ept>) will conflict with each other if the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.storage.tempDirectory<ept id="3">&lt;/i&gt;</ept> property is set. This will cause incorrect results, so users are advised to give databases unique names.</source>
+<seg-source><mrk mid="0" mtype="seg">The temporary files of two databases running concurrently with the same name (for example, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>C:\databases\db1<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>E:\databases\db1<ept id="2">&lt;/i&gt;</ept>) will conflict with each other if the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.storage.tempDirectory<ept id="3">&lt;/i&gt;</ept> property is set.</mrk><mrk mid="1" mtype="seg"> This will cause incorrect results, so users are advised to give databases unique names.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The temporary files of two databases running concurrently with the same name (for example, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>C:\databases\db1<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>E:\databases\db1<ept id="2">&lt;/i&gt;</ept>) will conflict with each other if the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>derby.storage.tempDirectory<ept id="3">&lt;/i&gt;</ept> property is set.</mrk><mrk mid="1" mtype="seg"> This will cause incorrect results, so users are advised to give databases unique names.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">A subdirectory named <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>tmp<ept id="1">&lt;/i&gt;</ept> under the database directory.</source>
+<seg-source><mrk mid="0" mtype="seg">A subdirectory named <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>tmp<ept id="1">&lt;/i&gt;</ept> under the database directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A subdirectory named <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>tmp<ept id="1">&lt;/i&gt;</ept> under the database directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">For example, if the database <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>db1<ept id="1">&lt;/i&gt;</ept> is stored in <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>C:\databases\db1<ept id="2">&lt;/i&gt;</ept>, the temporary files are created in <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>C:\databases\db1\tmp<ept id="3">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For example, if the database <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>db1<ept id="1">&lt;/i&gt;</ept> is stored in <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>C:\databases\db1<ept id="2">&lt;/i&gt;</ept>, the temporary files are created in <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>C:\databases\db1\tmp<ept id="3">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, if the database <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>db1<ept id="1">&lt;/i&gt;</ept> is stored in <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>C:\databases\db1<ept id="2">&lt;/i&gt;</ept>, the temporary files are created in <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>C:\databases\db1\tmp<ept id="3">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- system-wide property<ept id="2">&lt;/ph&gt;</ept> derby.storage.tempDirectory=c:/Temp/dbtemp <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- database-wide property<ept id="3">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.storage.tempDirectory', 'c:/Temp/dbtemp')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- system-wide property<ept id="2">&lt;/ph&gt;</ept> derby.storage.tempDirectory=c:/Temp/dbtemp <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- database-wide property<ept id="3">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.storage.tempDirectory', 'c:/Temp/dbtemp')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- system-wide property<ept id="2">&lt;/ph&gt;</ept> derby.storage.tempDirectory=c:/Temp/dbtemp <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>-- database-wide property<ept id="3">&lt;/ph&gt;</ept> CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.storage.tempDirectory', 'c:/Temp/dbtemp')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Dynamic or static</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic or static</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic or static</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">This property is static; you must restart <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for a change to take effect.</source>
+<seg-source><mrk mid="0" mtype="seg">This property is static; you must restart <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for a change to take effect.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property is static; you must restart <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for a change to take effect.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

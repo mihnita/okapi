@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj59893.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">DROP INDEX statement</source>
+<seg-source><mrk mid="0" mtype="seg">DROP INDEX statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DROP INDEX statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">DROP INDEX statement</source>
+<seg-source><mrk mid="0" mtype="seg">DROP INDEX statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DROP INDEX statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">DROP INDEX removes the specified index.</source>
+<seg-source><mrk mid="0" mtype="seg">DROP INDEX removes the specified index.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DROP INDEX removes the specified index.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP INDEX <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefindexname.dita#rrefindexname"&gt;</bpt>indexName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP INDEX <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefindexname.dita#rrefindexname"&gt;</bpt>indexName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP INDEX <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref href="rrefindexname.dita#rrefindexname"&gt;</bpt>indexName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP INDEX OrigIndex DROP INDEX DestIndex<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP INDEX OrigIndex DROP INDEX DestIndex<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP INDEX OrigIndex DROP INDEX DestIndex<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Statement dependency system</source>
+<seg-source><mrk mid="0" mtype="seg">Statement dependency system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Statement dependency system</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">If there is an open cursor on the table from which the index is dropped, the DROP INDEX statement generates an error and does not drop the index. Otherwise, statements that depend on the index's table are invalidated.</source>
+<seg-source><mrk mid="0" mtype="seg">If there is an open cursor on the table from which the index is dropped, the DROP INDEX statement generates an error and does not drop the index.</mrk><mrk mid="1" mtype="seg"> Otherwise, statements that depend on the index's table are invalidated.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If there is an open cursor on the table from which the index is dropped, the DROP INDEX statement generates an error and does not drop the index.</mrk><mrk mid="1" mtype="seg"> Otherwise, statements that depend on the index's table are invalidated.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

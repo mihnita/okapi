@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Test02.html.txml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" xml:space="preserve">
+<source xml:lang="en">Text in bold and italics</source>
+<seg-source><mrk mid="1" mtype="seg">Text in bold and italics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="1" mtype="seg">Text in bold and italics</mrk></target>
+</trans-unit>
+<trans-unit id="2" xml:space="preserve">
+<source xml:lang="en">Text in <ph id="1" ctype="x-ph">&lt;b&gt;</ph>bold<ph id="2" ctype="x-ph">&lt;/b&gt;</ph> and <ph id="3" ctype="x-ph">&lt;i&gt;</ph>italics<ph id="4" ctype="x-ph">&lt;/i&gt;</ph>.</source>
+<seg-source><mrk mid="1" mtype="seg">Text in <ph id="1" ctype="x-ph">&lt;b&gt;</ph>bold<ph id="2" ctype="x-ph">&lt;/b&gt;</ph> and <ph id="3" ctype="x-ph">&lt;i&gt;</ph>italics<ph id="4" ctype="x-ph">&lt;/i&gt;</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="1" mtype="seg">Texte en <ph id="1" ctype="x-ph">&lt;b&gt;</ph> gras <ph id="2" ctype="x-ph">&lt;/b&gt;</ph> et <ph id="3" ctype="x-ph">&lt;i&gt;</ph> italiques <ph id="4" ctype="x-ph">&lt;/i&gt;</ph> .</mrk></target>
+<alt-trans mid="1" match-quality="95" origin="SourceDoc" okp:matchType="MT"><source xml:lang="en">Text in <ph id="1" ctype="x-ph">&lt;b&gt;</ph>bold<ph id="2" ctype="x-ph">&lt;/b&gt;</ph> and <ph id="3" ctype="x-ph">&lt;i&gt;</ph>italics<ph id="4" ctype="x-ph">&lt;/i&gt;</ph>.</source>
+<target xml:lang="fr">Texte en <ph id="1" ctype="x-ph">&lt;b&gt;</ph> gras <ph id="2" ctype="x-ph">&lt;/b&gt;</ph> et <ph id="3" ctype="x-ph">&lt;i&gt;</ph> italiques <ph id="4" ctype="x-ph">&lt;/i&gt;</ph> .</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="3" xml:space="preserve">
+<source xml:lang="en">First sentence. Second sentence.</source>
+<seg-source><mrk mid="1" mtype="seg">First sentence.</mrk> <mrk mid="2" mtype="seg">Second sentence.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="1" mtype="seg">First sentence.</mrk> <mrk mid="2" mtype="seg">Second sentence.</mrk></target>
+</trans-unit>
+<trans-unit id="4" xml:space="preserve">
+<source xml:lang="en">Pre-formatted</source>
+<seg-source><mrk mid="1" mtype="seg">Pre-formatted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="1" mtype="seg">Pre-formatted</mrk></target>
+</trans-unit>
+<trans-unit id="5" xml:space="preserve">
+<source xml:lang="en">text on two lines</source>
+<seg-source><mrk mid="1" mtype="seg">text on two lines</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="1" mtype="seg">texte sur deux lignes</mrk></target>
+<alt-trans mid="1" match-quality="95" origin="SourceDoc" okp:matchType="MT"><source xml:lang="en">text on two lines</source>
+<target xml:lang="fr">texte sur deux lignes</target>
+</alt-trans>
+</trans-unit>
+<trans-unit id="6" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-ph">&amp;amp;</ph>=amp, <ph id="2" ctype="x-ph">&amp;lt;=lt, &amp;gt;</ph>=gt, <ph id="3" ctype="x-ph">&amp;quot;</ph>=quot, '=apos, etc.</source>
+<seg-source><mrk mid="1" mtype="seg"><ph id="1" ctype="x-ph">&amp;amp;</ph>=amp, <ph id="2" ctype="x-ph">&amp;lt;=lt, &amp;gt;</ph>=gt, <ph id="3" ctype="x-ph">&amp;quot;</ph>=quot, '=apos, etc.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="1" mtype="seg"><ph id="1" ctype="x-ph">&amp;amp;</ph>=amp, <ph id="2" ctype="x-ph">&amp;lt;=lt, &amp;gt;</ph>=gt, <ph id="3" ctype="x-ph">&amp;quot;</ph>=quot, '=apos, etc.</mrk></target>
+</trans-unit>
+<trans-unit id="7" xml:space="preserve">
+<source xml:lang="en">image: <ph id="1" ctype="x-ph">&lt;img src="test.png" alt="&lt;sub subId="1"&gt;&lt;/sub&gt;"&gt;</ph>.</source>
+<seg-source><mrk mid="1" mtype="seg">image:</mrk> <ph id="1" ctype="x-ph">&lt;img src="test.png" alt="&lt;sub subId="1"&gt;&lt;/sub&gt;"&gt;</ph><mrk mid="2" mtype="seg">.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="1" mtype="seg">image :</mrk> <ph id="1" ctype="x-ph">&lt;img src="test.png" alt="&lt;sub subId="1"&gt;&lt;/sub&gt;"&gt;</ph><mrk mid="2" mtype="seg">.</mrk></target>
+</trans-unit>
+<trans-unit id="8" xml:space="preserve">
+<source xml:lang="en">Text of the alt attribute</source>
+<seg-source><mrk mid="1" mtype="seg">Text of the alt attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="1" mtype="seg">Text of the alt attribute</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

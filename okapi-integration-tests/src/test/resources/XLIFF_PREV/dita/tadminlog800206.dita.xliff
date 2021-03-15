@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="tadminlog800206.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Using the logDevice=logDirectoryPath attribute</source>
+<seg-source><mrk mid="0" mtype="seg">Using the logDevice=logDirectoryPath attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using the logDevice=logDirectoryPath attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">To specify a non-default location for the log directory, set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>logDirectoryPath<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> attribute on the database connection URL.</source>
+<seg-source><mrk mid="0" mtype="seg">To specify a non-default location for the log directory, set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>logDirectoryPath<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> attribute on the database connection URL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To specify a non-default location for the log directory, set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>logDirectoryPath<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> attribute on the database connection URL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">logDevice</source>
+<seg-source><mrk mid="0" mtype="seg">logDevice</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">logDevice</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">service.properties file</source>
+<seg-source><mrk mid="0" mtype="seg">service.properties file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">service.properties file</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">setting logDevice in</source>
+<seg-source><mrk mid="0" mtype="seg">setting logDevice in</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setting logDevice in</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">This attribute is meaningful when you are creating a database or when you are restoring a database using roll-forward recovery. You can specify <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>logDirectoryPath<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> as either an absolute path or as a path that is relative to the directory where the JVM is executed.</source>
+<seg-source><mrk mid="0" mtype="seg">This attribute is meaningful when you are creating a database or when you are restoring a database using roll-forward recovery.</mrk><mrk mid="1" mtype="seg"> You can specify <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>logDirectoryPath<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> as either an absolute path or as a path that is relative to the directory where the JVM is executed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This attribute is meaningful when you are creating a database or when you are restoring a database using roll-forward recovery.</mrk><mrk mid="1" mtype="seg"> You can specify <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>logDirectoryPath<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> as either an absolute path or as a path that is relative to the directory where the JVM is executed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Setting <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>logDirectoryPath<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> on the database connection URL when you create the database adds an entry to the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="3">&lt;/codeph&gt;</ept> file. If you ever move the log manually, you will need to alter the entry in <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="4">&lt;/codeph&gt;</ept>. If you move the log back to the default location, remove the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="5">&lt;/codeph&gt;</ept> entry from the <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="6">&lt;/codeph&gt;</ept> file.</source>
+<seg-source><mrk mid="0" mtype="seg">Setting <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>logDirectoryPath<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> on the database connection URL when you create the database adds an entry to the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="3">&lt;/codeph&gt;</ept> file.</mrk><mrk mid="1" mtype="seg"> If you ever move the log manually, you will need to alter the entry in <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="4">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> If you move the log back to the default location, remove the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="5">&lt;/codeph&gt;</ept> entry from the <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="6">&lt;/codeph&gt;</ept> file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Setting <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>logDirectoryPath<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> on the database connection URL when you create the database adds an entry to the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="3">&lt;/codeph&gt;</ept> file.</mrk><mrk mid="1" mtype="seg"> If you ever move the log manually, you will need to alter the entry in <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="4">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> If you move the log back to the default location, remove the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice<ept id="5">&lt;/codeph&gt;</ept> entry from the <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>service.properties<ept id="6">&lt;/codeph&gt;</ept> file.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">To check the log location for an existing database, you can retrieve the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>logDirectoryPath<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> attribute as a database property by using the following statement:</source>
+<seg-source><mrk mid="0" mtype="seg">To check the log location for an existing database, you can retrieve the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>logDirectoryPath<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> attribute as a database property by using the following statement:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To check the log location for an existing database, you can retrieve the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logDevice=<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>logDirectoryPath<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> attribute as a database property by using the following statement:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY('logDevice')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY('logDevice')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>VALUES SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY('logDevice')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">For more information, see <bpt id="1" ctype="x-xref">&lt;xref href="cadminrollforward.dita#cadminrollforward"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> in this manual and "logDevice=logDirectoryPath attribute" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information, see <bpt id="1" ctype="x-xref">&lt;xref href="cadminrollforward.dita#cadminrollforward"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> in this manual and "logDevice=logDirectoryPath attribute" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information, see <bpt id="1" ctype="x-xref">&lt;xref href="cadminrollforward.dita#cadminrollforward"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> in this manual and "logDevice=logDirectoryPath attribute" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

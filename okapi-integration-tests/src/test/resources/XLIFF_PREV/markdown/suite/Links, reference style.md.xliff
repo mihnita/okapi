@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="Links, reference style.md.tkitMerged" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Foo <ph id="1" ctype="x-LINK_REF">[</ph>bar<ph id="2" ctype="x-LINK_REF">]</ph> <ph id="3" ctype="x-LINK_REF">[</ph>1<ph id="4" ctype="x-LINK_REF">]</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Foo <ph id="1" ctype="x-LINK_REF">[</ph>bar<ph id="2" ctype="x-LINK_REF">]</ph> <ph id="3" ctype="x-LINK_REF">[</ph>1<ph id="4" ctype="x-LINK_REF">]</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Foo <ph id="1" ctype="x-LINK_REF">[</ph>bar<ph id="2" ctype="x-LINK_REF">]</ph> <ph id="3" ctype="x-LINK_REF">[</ph>1<ph id="4" ctype="x-LINK_REF">]</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">Foo <ph id="1" ctype="x-LINK_REF">[</ph>bar<ph id="2" ctype="x-LINK_REF">]</ph><ph id="3" ctype="x-LINK_REF">[</ph>bar<ph id="4" ctype="x-LINK_REF">]</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Foo <ph id="1" ctype="x-LINK_REF">[</ph>bar<ph id="2" ctype="x-LINK_REF">]</ph><ph id="3" ctype="x-LINK_REF">[</ph>bar<ph id="4" ctype="x-LINK_REF">]</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Foo <ph id="1" ctype="x-LINK_REF">[</ph>bar<ph id="2" ctype="x-LINK_REF">]</ph><ph id="3" ctype="x-LINK_REF">[</ph>bar<ph id="4" ctype="x-LINK_REF">]</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">Foo <ph id="1" ctype="x-LINK_REF">[</ph>bar<ph id="2" ctype="x-LINK_REF">]</ph>
+<ph id="3" ctype="x-LINK_REF">[</ph>1<ph id="4" ctype="x-LINK_REF">]</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Foo <ph id="1" ctype="x-LINK_REF">[</ph>bar<ph id="2" ctype="x-LINK_REF">]</ph></mrk>
+<mrk mid="1" mtype="seg"><ph id="3" ctype="x-LINK_REF">[</ph>1<ph id="4" ctype="x-LINK_REF">]</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Foo <ph id="1" ctype="x-LINK_REF">[</ph>bar<ph id="2" ctype="x-LINK_REF">]</ph></mrk>
+<mrk mid="1" mtype="seg"><ph id="3" ctype="x-LINK_REF">[</ph>1<ph id="4" ctype="x-LINK_REF">]</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">Title</source>
+<seg-source><mrk mid="0" mtype="seg">Title</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">With [embedded <ph id="1" ctype="x-LINK_REF">[</ph>brackets<ph id="2" ctype="x-LINK_REF">]</ph>] <ph id="3" ctype="x-LINK_REF">[</ph>b<ph id="4" ctype="x-LINK_REF">]</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">With [embedded <ph id="1" ctype="x-LINK_REF">[</ph>brackets<ph id="2" ctype="x-LINK_REF">]</ph>] <ph id="3" ctype="x-LINK_REF">[</ph>b<ph id="4" ctype="x-LINK_REF">]</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">With [embedded <ph id="1" ctype="x-LINK_REF">[</ph>brackets<ph id="2" ctype="x-LINK_REF">]</ph>] <ph id="3" ctype="x-LINK_REF">[</ph>b<ph id="4" ctype="x-LINK_REF">]</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">Indented <ph id="1" ctype="x-LINK_REF">[</ph>once<ph id="2" ctype="x-LINK_REF">]</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Indented <ph id="1" ctype="x-LINK_REF">[</ph>once<ph id="2" ctype="x-LINK_REF">]</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indented <ph id="1" ctype="x-LINK_REF">[</ph>once<ph id="2" ctype="x-LINK_REF">]</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en">Indented <ph id="1" ctype="x-LINK_REF">[</ph>twice<ph id="2" ctype="x-LINK_REF">]</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Indented <ph id="1" ctype="x-LINK_REF">[</ph>twice<ph id="2" ctype="x-LINK_REF">]</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indented <ph id="1" ctype="x-LINK_REF">[</ph>twice<ph id="2" ctype="x-LINK_REF">]</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">Indented <ph id="1" ctype="x-LINK_REF">[</ph>thrice<ph id="2" ctype="x-LINK_REF">]</ph>.</source>
+<seg-source><mrk mid="0" mtype="seg">Indented <ph id="1" ctype="x-LINK_REF">[</ph>thrice<ph id="2" ctype="x-LINK_REF">]</ph>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indented <ph id="1" ctype="x-LINK_REF">[</ph>thrice<ph id="2" ctype="x-LINK_REF">]</ph>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en">Indented <ph id="1" ctype="x-LINK_REF">[</ph>four<ph id="2" ctype="x-LINK_REF">]</ph> times.</source>
+<seg-source><mrk mid="0" mtype="seg">Indented <ph id="1" ctype="x-LINK_REF">[</ph>four<ph id="2" ctype="x-LINK_REF">]</ph> times.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indented <ph id="1" ctype="x-LINK_REF">[</ph>four<ph id="2" ctype="x-LINK_REF">]</ph> times.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" xml:space="preserve">
+<source xml:lang="en">once</source>
+<seg-source><mrk mid="0" mtype="seg">once</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">once</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" xml:space="preserve">
+<source xml:lang="en">twice</source>
+<seg-source><mrk mid="0" mtype="seg">twice</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">twice</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" xml:space="preserve">
+<source xml:lang="en">thrice</source>
+<seg-source><mrk mid="0" mtype="seg">thrice</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">thrice</mrk></target>
+</trans-unit>
+<trans-unit id="tu14" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>[four]: /url<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>[four]: /url<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-INDENTED_CODE_BLOCK">    </ph>[four]: /url<ph id="2" ctype="x-SOFT_LINE_BREAK">
+</ph></mrk></target>
+</trans-unit>
+<trans-unit id="tu15" xml:space="preserve">
+<source xml:lang="en">b</source>
+<seg-source><mrk mid="0" mtype="seg">b</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">b</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

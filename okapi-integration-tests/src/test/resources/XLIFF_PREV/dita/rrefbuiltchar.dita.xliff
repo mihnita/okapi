@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefbuiltchar.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CHAR function</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The CHAR function returns a fixed-length character string representation.</source>
+<seg-source><mrk mid="0" mtype="seg">The CHAR function returns a fixed-length character string representation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The CHAR function returns a fixed-length character string representation.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">CHAR function</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The representations are:</source>
+<seg-source><mrk mid="0" mtype="seg">The representations are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The representations are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">A character string, if the first argument is any type of character string.</source>
+<seg-source><mrk mid="0" mtype="seg">A character string, if the first argument is any type of character string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A character string, if the first argument is any type of character string.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">A datetime value, if the first argument is a date, time, or timestamp.</source>
+<seg-source><mrk mid="0" mtype="seg">A datetime value, if the first argument is a date, time, or timestamp.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A datetime value, if the first argument is a date, time, or timestamp.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">A decimal number, if the first argument is a decimal number.</source>
+<seg-source><mrk mid="0" mtype="seg">A decimal number, if the first argument is a decimal number.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A decimal number, if the first argument is a decimal number.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">A double-precision floating-point number, if the first argument is a DOUBLE or REAL.</source>
+<seg-source><mrk mid="0" mtype="seg">A double-precision floating-point number, if the first argument is a DOUBLE or REAL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A double-precision floating-point number, if the first argument is a DOUBLE or REAL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">An integer number, if the first argument is a SMALLINT, INTEGER, or BIGINT.</source>
+<seg-source><mrk mid="0" mtype="seg">An integer number, if the first argument is a SMALLINT, INTEGER, or BIGINT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An integer number, if the first argument is a SMALLINT, INTEGER, or BIGINT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The first argument must be of a built-in data type. The result of the CHAR function is a fixed-length character string. If the first argument can be null, the result can be null. If the first argument is null, the result is the null value. The first argument cannot be an XML value. To convert an XML value to a CHAR of a specified length, you must use the SQL/XML serialization operator XMLSERIALIZE.</source>
+<seg-source><mrk mid="0" mtype="seg">The first argument must be of a built-in data type.</mrk><mrk mid="1" mtype="seg"> The result of the CHAR function is a fixed-length character string.</mrk><mrk mid="2" mtype="seg"> If the first argument can be null, the result can be null.</mrk><mrk mid="3" mtype="seg"> If the first argument is null, the result is the null value.</mrk><mrk mid="4" mtype="seg"> The first argument cannot be an XML value.</mrk><mrk mid="5" mtype="seg"> To convert an XML value to a CHAR of a specified length, you must use the SQL/XML serialization operator XMLSERIALIZE.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The first argument must be of a built-in data type.</mrk><mrk mid="1" mtype="seg"> The result of the CHAR function is a fixed-length character string.</mrk><mrk mid="2" mtype="seg"> If the first argument can be null, the result can be null.</mrk><mrk mid="3" mtype="seg"> If the first argument is null, the result is the null value.</mrk><mrk mid="4" mtype="seg"> The first argument cannot be an XML value.</mrk><mrk mid="5" mtype="seg"> To convert an XML value to a CHAR of a specified length, you must use the SQL/XML serialization operator XMLSERIALIZE.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Character to character syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Character to character syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Character to character syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CHAR ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> [ , <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>integer<ept id="3">&lt;/i&gt;</ept> ] )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CHAR ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> [ , <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>integer<ept id="3">&lt;/i&gt;</ept> ] )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CHAR ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> [ , <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>integer<ept id="3">&lt;/i&gt;</ept> ] )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">An expression that returns a value that is CHAR, VARCHAR, LONG VARCHAR, or CLOB data type.</source>
+<seg-source><mrk mid="0" mtype="seg">An expression that returns a value that is CHAR, VARCHAR, LONG VARCHAR, or CLOB data type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An expression that returns a value that is CHAR, VARCHAR, LONG VARCHAR, or CLOB data type.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>integer<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>integer<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>integer<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">The length attribute for the resulting fixed length character string. The value must be between 0 and 254.</source>
+<seg-source><mrk mid="0" mtype="seg">The length attribute for the resulting fixed length character string.</mrk><mrk mid="1" mtype="seg"> The value must be between 0 and 254.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The length attribute for the resulting fixed length character string.</mrk><mrk mid="1" mtype="seg"> The value must be between 0 and 254.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">If the length of the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept> is less than the length attribute of the result, the result is padded with blanks up to the length of the result. If the length of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> is greater than the length attribute of the result, truncation is performed. A warning is returned unless the truncated characters were all blanks and the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="3">&lt;/i&gt;</ept> was not a long string (LONG VARCHAR or CLOB).</source>
+<seg-source><mrk mid="0" mtype="seg">If the length of the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept> is less than the length attribute of the result, the result is padded with blanks up to the length of the result.</mrk><mrk mid="1" mtype="seg"> If the length of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> is greater than the length attribute of the result, truncation is performed.</mrk><mrk mid="2" mtype="seg"> A warning is returned unless the truncated characters were all blanks and the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="3">&lt;/i&gt;</ept> was not a long string (LONG VARCHAR or CLOB).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the length of the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="1">&lt;/i&gt;</ept> is less than the length attribute of the result, the result is padded with blanks up to the length of the result.</mrk><mrk mid="1" mtype="seg"> If the length of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="2">&lt;/i&gt;</ept> is greater than the length attribute of the result, truncation is performed.</mrk><mrk mid="2" mtype="seg"> A warning is returned unless the truncated characters were all blanks and the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>characterExpression<ept id="3">&lt;/i&gt;</ept> was not a long string (LONG VARCHAR or CLOB).</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Integer to character syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Integer to character syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Integer to character syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CHAR ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>integerExpression<ept id="2">&lt;/i&gt;</ept> ) <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CHAR ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>integerExpression<ept id="2">&lt;/i&gt;</ept> ) <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CHAR ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>integerExpression<ept id="2">&lt;/i&gt;</ept> ) <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>integerExpression<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>integerExpression<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>integerExpression<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">An expression that returns a value that is an integer data type (either SMALLINT, INTEGER, or BIGINT).</source>
+<seg-source><mrk mid="0" mtype="seg">An expression that returns a value that is an integer data type (either SMALLINT, INTEGER, or BIGINT).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An expression that returns a value that is an integer data type (either SMALLINT, INTEGER, or BIGINT).</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">The result is the character string representation of the argument in the form of an SQL integer constant. The result consists of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>n<ept id="1">&lt;/i&gt;</ept> characters that are the significant digits that represent the value of the argument with a preceding minus sign if the argument is negative. The result is left justified.</source>
+<seg-source><mrk mid="0" mtype="seg">The result is the character string representation of the argument in the form of an SQL integer constant.</mrk><mrk mid="1" mtype="seg"> The result consists of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>n<ept id="1">&lt;/i&gt;</ept> characters that are the significant digits that represent the value of the argument with a preceding minus sign if the argument is negative.</mrk><mrk mid="2" mtype="seg"> The result is left justified.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The result is the character string representation of the argument in the form of an SQL integer constant.</mrk><mrk mid="1" mtype="seg"> The result consists of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>n<ept id="1">&lt;/i&gt;</ept> characters that are the significant digits that represent the value of the argument with a preceding minus sign if the argument is negative.</mrk><mrk mid="2" mtype="seg"> The result is left justified.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">If the first argument is a SMALLINT: The length of the result is 6. If the number of characters in the result is less than 6, then the result is padded on the right with blanks to length 6.</source>
+<seg-source><mrk mid="0" mtype="seg">If the first argument is a SMALLINT: The length of the result is 6.</mrk><mrk mid="1" mtype="seg"> If the number of characters in the result is less than 6, then the result is padded on the right with blanks to length 6.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the first argument is a SMALLINT: The length of the result is 6.</mrk><mrk mid="1" mtype="seg"> If the number of characters in the result is less than 6, then the result is padded on the right with blanks to length 6.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">If the first argument is an INTEGER: The length of the result is 11. If the number of characters in the result is less than 11, then the result is padded on the right with blanks to length 11.</source>
+<seg-source><mrk mid="0" mtype="seg">If the first argument is an INTEGER: The length of the result is 11.</mrk><mrk mid="1" mtype="seg"> If the number of characters in the result is less than 11, then the result is padded on the right with blanks to length 11.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the first argument is an INTEGER: The length of the result is 11.</mrk><mrk mid="1" mtype="seg"> If the number of characters in the result is less than 11, then the result is padded on the right with blanks to length 11.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">If the first argument is a BIGINT: The length of the result is 20. If the number of characters in the result is less than 20, then the result is padded on the right with blanks to length 20.</source>
+<seg-source><mrk mid="0" mtype="seg">If the first argument is a BIGINT: The length of the result is 20.</mrk><mrk mid="1" mtype="seg"> If the number of characters in the result is less than 20, then the result is padded on the right with blanks to length 20.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the first argument is a BIGINT: The length of the result is 20.</mrk><mrk mid="1" mtype="seg"> If the number of characters in the result is less than 20, then the result is padded on the right with blanks to length 20.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Datetime to character syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Datetime to character syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Datetime to character syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CHAR ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>datetimeExpression<ept id="2">&lt;/i&gt;</ept> ) <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CHAR ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>datetimeExpression<ept id="2">&lt;/i&gt;</ept> ) <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CHAR ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>datetimeExpression<ept id="2">&lt;/i&gt;</ept> ) <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>datetimeExpression<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>datetimeExpression<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>datetimeExpression<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">An expression that is one of the following three data types:</source>
+<seg-source><mrk mid="0" mtype="seg">An expression that is one of the following three data types:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An expression that is one of the following three data types:</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">DATE: The result is the character representation of the date. The length of the result is 10.</source>
+<seg-source><mrk mid="0" mtype="seg">DATE: The result is the character representation of the date.</mrk><mrk mid="1" mtype="seg"> The length of the result is 10.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DATE: The result is the character representation of the date.</mrk><mrk mid="1" mtype="seg"> The length of the result is 10.</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">TIME: The result is the character representation of the time. The length of the result is 8.</source>
+<seg-source><mrk mid="0" mtype="seg">TIME: The result is the character representation of the time.</mrk><mrk mid="1" mtype="seg"> The length of the result is 8.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIME: The result is the character representation of the time.</mrk><mrk mid="1" mtype="seg"> The length of the result is 8.</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">TIMESTAMP: The result is the character string representation of the timestamp. The length of the result is 26.</source>
+<seg-source><mrk mid="0" mtype="seg">TIMESTAMP: The result is the character string representation of the timestamp.</mrk><mrk mid="1" mtype="seg"> The length of the result is 26.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIMESTAMP: The result is the character string representation of the timestamp.</mrk><mrk mid="1" mtype="seg"> The length of the result is 26.</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">Decimal to character</source>
+<seg-source><mrk mid="0" mtype="seg">Decimal to character</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Decimal to character</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CHAR ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>decimalExpression<ept id="2">&lt;/i&gt;</ept> ) <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CHAR ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>decimalExpression<ept id="2">&lt;/i&gt;</ept> ) <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CHAR ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>decimalExpression<ept id="2">&lt;/i&gt;</ept> ) <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>decimalExpression<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>decimalExpression<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>decimalExpression<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">An expression that returns a value that is a decimal data type.</source>
+<seg-source><mrk mid="0" mtype="seg">An expression that returns a value that is a decimal data type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An expression that returns a value that is a decimal data type.</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">Floating point to character syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Floating point to character syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Floating point to character syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CHAR ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>floatingPointExpression<ept id="2">&lt;/i&gt;</ept> ) <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CHAR ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>floatingPointExpression<ept id="2">&lt;/i&gt;</ept> ) <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CHAR ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>floatingPointExpression<ept id="2">&lt;/i&gt;</ept> ) <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>floatingPointExpression<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>floatingPointExpression<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>floatingPointExpression<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">An expression that returns a value that is a floating-point data type (DOUBLE or REAL).</source>
+<seg-source><mrk mid="0" mtype="seg">An expression that returns a value that is a floating-point data type (DOUBLE or REAL).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An expression that returns a value that is a floating-point data type (DOUBLE or REAL).</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">Use the CHAR function to return the values for EDLEVEL (defined as smallint) as a fixed length character string:</source>
+<seg-source><mrk mid="0" mtype="seg">Use the CHAR function to return the values for EDLEVEL (defined as smallint) as a fixed length character string:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the CHAR function to return the values for EDLEVEL (defined as smallint) as a fixed length character string:</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT CHAR(EDLEVEL) FROM EMPLOYEE<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT CHAR(EDLEVEL) FROM EMPLOYEE<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT CHAR(EDLEVEL) FROM EMPLOYEE<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">An EDLEVEL of 18 would be returned as the CHAR(6) value '18    ' (18 followed by four blanks).</source>
+<seg-source><mrk mid="0" mtype="seg">An EDLEVEL of 18 would be returned as the CHAR(6) value '18    ' (18 followed by four blanks).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An EDLEVEL of 18 would be returned as the CHAR(6) value '18    ' (18 followed by four blanks).</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

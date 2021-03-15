@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminservlet98430.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Managing the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server remotely by using the servlet interface</source>
+<seg-source><mrk mid="0" mtype="seg">Managing the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server remotely by using the servlet interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Managing the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server remotely by using the servlet interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You can use the servlet interface to manage the Network Server remotely. To use the servlet interface, the servlet must be registered with an Application Server, and <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept> must be known to the Application Server.</source>
+<seg-source><mrk mid="0" mtype="seg">You can use the servlet interface to manage the Network Server remotely.</mrk><mrk mid="1" mtype="seg"> To use the servlet interface, the servlet must be registered with an Application Server, and <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept> must be known to the Application Server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use the servlet interface to manage the Network Server remotely.</mrk><mrk mid="1" mtype="seg"> To use the servlet interface, the servlet must be registered with an Application Server, and <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept> must be known to the Application Server.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">The servlet interface is suitable only for testing purposes. It should not be used in production.</source>
+<seg-source><mrk mid="0" mtype="seg">The servlet interface is suitable only for testing purposes.</mrk><mrk mid="1" mtype="seg"> It should not be used in production.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The servlet interface is suitable only for testing purposes.</mrk><mrk mid="1" mtype="seg"> It should not be used in production.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">A web application archive (WAR) file for the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.war<ept id="2">&lt;/codeph&gt;</ept>, is available in <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>$<bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>/lib<ept id="3">&lt;/codeph&gt;</ept>. This file registers the Network Server's servlet at the relative path <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>/derbynet<ept id="5">&lt;/codeph&gt;</ept>. See the documentation for your Application Server for instructions on how to install it.</source>
+<seg-source><mrk mid="0" mtype="seg">A web application archive (WAR) file for the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.war<ept id="2">&lt;/codeph&gt;</ept>, is available in <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>$<bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>/lib<ept id="3">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This file registers the Network Server's servlet at the relative path <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>/derbynet<ept id="5">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> See the documentation for your Application Server for instructions on how to install it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A web application archive (WAR) file for the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> Network Server, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.war<ept id="2">&lt;/codeph&gt;</ept>, is available in <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>$<bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productinstallpath"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept>/lib<ept id="3">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This file registers the Network Server's servlet at the relative path <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>/derbynet<ept id="5">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> See the documentation for your Application Server for instructions on how to install it.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">For example, if <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.war<ept id="1">&lt;/codeph&gt;</ept> is installed in WebSphere Application Server with a context root of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby<ept id="2">&lt;/codeph&gt;</ept>, the URL of the server is:</source>
+<seg-source><mrk mid="0" mtype="seg">For example, if <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.war<ept id="1">&lt;/codeph&gt;</ept> is installed in WebSphere Application Server with a context root of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby<ept id="2">&lt;/codeph&gt;</ept>, the URL of the server is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, if <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.war<ept id="1">&lt;/codeph&gt;</ept> is installed in WebSphere Application Server with a context root of <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby<ept id="2">&lt;/codeph&gt;</ept>, the URL of the server is:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">http://&lt;server&gt;[:port]/derby/derbynet</source>
+<seg-source><mrk mid="0" mtype="seg">http://&lt;server&gt;[:port]/derby/derbynet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://&lt;server&gt;[:port]/derby/derbynet</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" restype="x-othertype">
+<source xml:lang="en">Notes</source>
+<seg-source><mrk mid="0" mtype="seg">Notes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notes</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">A servlet engine is not part of the Network Server.</source>
+<seg-source><mrk mid="0" mtype="seg">A servlet engine is not part of the Network Server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A servlet engine is not part of the Network Server.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">When the Network Server is started by the servlet interface, shutting down the Application Server also shuts the Network Server down, since both run in the same JVM.</source>
+<seg-source><mrk mid="0" mtype="seg">When the Network Server is started by the servlet interface, shutting down the Application Server also shuts the Network Server down, since both run in the same JVM.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the Network Server is started by the servlet interface, shutting down the Application Server also shuts the Network Server down, since both run in the same JVM.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The servlet takes the following optional configuration parameters:</source>
+<seg-source><mrk mid="0" mtype="seg">The servlet takes the following optional configuration parameters:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The servlet takes the following optional configuration parameters:</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">host</source>
+<seg-source><mrk mid="0" mtype="seg">host</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">host</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Specifies the host name to be used by the Network Server. See the Security Considerations section below.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the host name to be used by the Network Server.</mrk><mrk mid="1" mtype="seg"> See the Security Considerations section below.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the host name to be used by the Network Server.</mrk><mrk mid="1" mtype="seg"> See the Security Considerations section below.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">portNumber</source>
+<seg-source><mrk mid="0" mtype="seg">portNumber</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">portNumber</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Specifies the port number to be used by the Network Server.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the port number to be used by the Network Server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the port number to be used by the Network Server.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">startNetworkServerOnInit</source>
+<seg-source><mrk mid="0" mtype="seg">startNetworkServerOnInit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">startNetworkServerOnInit</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Specifies that the Network Server is to be started when the servlet is initialized.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies that the Network Server is to be started when the servlet is initialized.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies that the Network Server is to be started when the servlet is initialized.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">tracingDirectory</source>
+<seg-source><mrk mid="0" mtype="seg">tracingDirectory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tracingDirectory</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Specifies the location for trace files. If the tracing directory is not specified, the traces are placed in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the location for trace files.</mrk><mrk mid="1" mtype="seg"> If the tracing directory is not specified, the traces are placed in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the location for trace files.</mrk><mrk mid="1" mtype="seg"> If the tracing directory is not specified, the traces are placed in <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.system.home<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Security Considerations</source>
+<seg-source><mrk mid="0" mtype="seg">Security Considerations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Security Considerations</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">For general security considerations for the Network Server, see <bpt id="1" ctype="x-xref">&lt;xref href="cadminnetservsecurity.dita"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For general security considerations for the Network Server, see <bpt id="1" ctype="x-xref">&lt;xref href="cadminnetservsecurity.dita"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For general security considerations for the Network Server, see <bpt id="1" ctype="x-xref">&lt;xref href="cadminnetservsecurity.dita"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>host<ept id="1">&lt;/codeph&gt;</ept> parameter allows configuration of the host name that will be used for the listening socket for network connections. By default, the Network Server will listen to requests only on the loopback address, which means that it will only accept connections from the local host. Changing this value could expose the server to external connections, which raises security concerns, so before using the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>host<ept id="2">&lt;/codeph&gt;</ept> parameter, you should run under the Java security manager and enable user authentication.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>host<ept id="1">&lt;/codeph&gt;</ept> parameter allows configuration of the host name that will be used for the listening socket for network connections.</mrk><mrk mid="1" mtype="seg"> By default, the Network Server will listen to requests only on the loopback address, which means that it will only accept connections from the local host.</mrk><mrk mid="2" mtype="seg"> Changing this value could expose the server to external connections, which raises security concerns, so before using the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>host<ept id="2">&lt;/codeph&gt;</ept> parameter, you should run under the Java security manager and enable user authentication.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>host<ept id="1">&lt;/codeph&gt;</ept> parameter allows configuration of the host name that will be used for the listening socket for network connections.</mrk><mrk mid="1" mtype="seg"> By default, the Network Server will listen to requests only on the loopback address, which means that it will only accept connections from the local host.</mrk><mrk mid="2" mtype="seg"> Changing this value could expose the server to external connections, which raises security concerns, so before using the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>host<ept id="2">&lt;/codeph&gt;</ept> parameter, you should run under the Java security manager and enable user authentication.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">This section describes the servlet pages.</source>
+<seg-source><mrk mid="0" mtype="seg">This section describes the servlet pages.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This section describes the servlet pages.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

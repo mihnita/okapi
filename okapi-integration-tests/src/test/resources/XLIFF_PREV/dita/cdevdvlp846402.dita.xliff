@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdvlp846402.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Connecting to databases outside the system directory</source>
+<seg-source><mrk mid="0" mtype="seg">Connecting to databases outside the system directory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connecting to databases outside the system directory</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You can also connect to databases in other directories (including subdirectories of the system directory) by specifying a relative or absolute path name to identify the database. The way you specify an absolute path is defined by the host operating system.</source>
+<seg-source><mrk mid="0" mtype="seg">You can also connect to databases in other directories (including subdirectories of the system directory) by specifying a relative or absolute path name to identify the database.</mrk><mrk mid="1" mtype="seg"> The way you specify an absolute path is defined by the host operating system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can also connect to databases in other directories (including subdirectories of the system directory) by specifying a relative or absolute path name to identify the database.</mrk><mrk mid="1" mtype="seg"> The way you specify an absolute path is defined by the host operating system.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">databases</source>
+<seg-source><mrk mid="0" mtype="seg">databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">connecting to outside system</source>
+<seg-source><mrk mid="0" mtype="seg">connecting to outside system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">connecting to outside system</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Using the connection URL as described here, you can connect to databases in more than one directory at a time.</source>
+<seg-source><mrk mid="0" mtype="seg">Using the connection URL as described here, you can connect to databases in more than one directory at a time.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using the connection URL as described here, you can connect to databases in more than one directory at a time.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Two examples:</source>
+<seg-source><mrk mid="0" mtype="seg">Two examples:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Two examples:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">jdbc:derby:../otherDirectory/myDB jdbc:<bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productlowercase"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>:c:/otherDirectory/myDB</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:../otherDirectory/myDB jdbc:<bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productlowercase"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>:c:/otherDirectory/myDB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:../otherDirectory/myDB jdbc:<bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productlowercase"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>:c:/otherDirectory/myDB</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Once connected, such a database becomes a part of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, even though it is not in the system directory. This means that it takes on the system-wide properties of the system and no other instance of <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> should access that database. It is recommended that you connect to databases only in the system directory.</source>
+<seg-source><mrk mid="0" mtype="seg">Once connected, such a database becomes a part of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, even though it is not in the system directory.</mrk><mrk mid="1" mtype="seg"> This means that it takes on the system-wide properties of the system and no other instance of <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> should access that database.</mrk><mrk mid="2" mtype="seg"> It is recommended that you connect to databases only in the system directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Once connected, such a database becomes a part of the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system, even though it is not in the system directory.</mrk><mrk mid="1" mtype="seg"> This means that it takes on the system-wide properties of the system and no other instance of <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> should access that database.</mrk><mrk mid="2" mtype="seg"> It is recommended that you connect to databases only in the system directory.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

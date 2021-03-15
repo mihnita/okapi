@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="sample_html_combo.md.tkitMerged" source-language="en" target-language="fr" datatype="x-text/x-markdown" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">A simple ordered list</source>
+<seg-source><mrk mid="0" mtype="seg">A simple ordered list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A simple ordered list</mrk></target>
+</trans-unit>
+<group id="sd1_ssf1" resname="sub-filter:sd1">
+<trans-unit id="sd1_sf1_tu1" resname="sd1_2" restype="x-li" xml:space="preserve">
+<source xml:lang="en">Ordered list item 1</source>
+<seg-source><mrk mid="0" mtype="seg">Ordered list item 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ordered list item 1</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf1_tu2" resname="sd1_5" restype="x-li" xml:space="preserve">
+<source xml:lang="en">Ordered list item 2</source>
+<seg-source><mrk mid="0" mtype="seg">Ordered list item 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ordered list item 2</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu2" xml:space="preserve">
+<source xml:lang="en">A simple unordered list</source>
+<seg-source><mrk mid="0" mtype="seg">A simple unordered list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A simple unordered list</mrk></target>
+</trans-unit>
+<group id="sd1_ssf2" resname="sub-filter:sd1">
+<trans-unit id="sd1_sf2_tu1" resname="sd1_2" restype="x-li" xml:space="preserve">
+<source xml:lang="en">Unordered list item 1</source>
+<seg-source><mrk mid="0" mtype="seg">Unordered list item 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unordered list item 1</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf2_tu2" resname="sd1_5" restype="x-li" xml:space="preserve">
+<source xml:lang="en">Unordered list item 2</source>
+<seg-source><mrk mid="0" mtype="seg">Unordered list item 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unordered list item 2</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu3" xml:space="preserve">
+<source xml:lang="en">A math block</source>
+<seg-source><mrk mid="0" mtype="seg">A math block</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A math block</mrk></target>
+</trans-unit>
+<group id="sd1_ssf3" resname="sub-filter:sd1">
+</group>
+<trans-unit id="tu4" xml:space="preserve">
+<source xml:lang="en">Math blocks in an unordered list</source>
+<seg-source><mrk mid="0" mtype="seg">Math blocks in an unordered list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Math blocks in an unordered list</mrk></target>
+</trans-unit>
+<group id="sd1_ssf4" resname="sub-filter:sd1">
+<trans-unit id="sd1_sf4_tu1" resname="sd1_2" restype="x-li" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="sd1_sf4_tu2" resname="sd1_4" xml:space="preserve">
+<source xml:lang="en">is the magnetic field intensity</source>
+<seg-source><mrk mid="0" mtype="seg">is the magnetic field intensity</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">is the magnetic field intensity</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf4_tu3" resname="sd1_7" restype="x-li" xml:space="preserve">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="sd1_sf4_tu4" resname="sd1_9" xml:space="preserve">
+<source xml:lang="en">is the conduction current density</source>
+<seg-source><mrk mid="0" mtype="seg">is the conduction current density</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">is the conduction current density</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu5" xml:space="preserve">
+<source xml:lang="en">A math block in single line (unsupported)</source>
+<seg-source><mrk mid="0" mtype="seg">A math block in single line (unsupported)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A math block in single line (unsupported)</mrk></target>
+</trans-unit>
+<group id="sd1_ssf5" resname="sub-filter:sd1">
+</group>
+<trans-unit id="tu6" xml:space="preserve">
+<source xml:lang="en">Alt attribute in IMG tag</source>
+<seg-source><mrk mid="0" mtype="seg">Alt attribute in IMG tag</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Alt attribute in IMG tag</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" xml:space="preserve">
+<source xml:lang="en">With valid image URL</source>
+<seg-source><mrk mid="0" mtype="seg">With valid image URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">With valid image URL</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf6_tu2" resname="sd1_1" restype="x-alt" xml:space="preserve">
+<source xml:lang="en">Spartan logo</source>
+<seg-source><mrk mid="0" mtype="seg">Spartan logo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Spartan logo</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="image">[#$sd1_sf6_dp1]</ph> is here to help you.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="image">[#$sd1_sf6_dp1]</ph> is here to help you.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="image">[#$sd1_sf6_dp1]</ph> is here to help you.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" xml:space="preserve">
+<source xml:lang="en">WIth invalid image URL</source>
+<seg-source><mrk mid="0" mtype="seg">WIth invalid image URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WIth invalid image URL</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf7_tu2" resname="sd1_1" restype="x-alt" xml:space="preserve">
+<source xml:lang="en">Spartan Software</source>
+<seg-source><mrk mid="0" mtype="seg">Spartan Software</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Spartan Software</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="image">[#$sd1_sf7_dp1]</ph> is here to help you.</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="image">[#$sd1_sf7_dp1]</ph> is here to help you.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="image">[#$sd1_sf7_dp1]</ph> is here to help you.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" xml:space="preserve">
+<source xml:lang="en">Title attribute in A tag</source>
+<seg-source><mrk mid="0" mtype="seg">Title attribute in A tag</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title attribute in A tag</mrk></target>
+</trans-unit>
+<trans-unit id="sd1_sf8_tu2" resname="sd1_1" restype="x-title" xml:space="preserve">
+<source xml:lang="en">Spartan logo</source>
+<seg-source><mrk mid="0" mtype="seg">Spartan logo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Spartan logo</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" xml:space="preserve">
+<source xml:lang="en"><ph id="1" ctype="x-link">[#$sd1_sf8_dp1]</ph>Spartan Software Inc.<ph id="2" ctype="x-link">&lt;/a&gt;</ph> is here to help you!</source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-link">[#$sd1_sf8_dp1]</ph>Spartan Software Inc.<ph id="2" ctype="x-link">&lt;/a&gt;</ph> is here to help you!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-link">[#$sd1_sf8_dp1]</ph>Spartan Software Inc.<ph id="2" ctype="x-link">&lt;/a&gt;</ph> is here to help you!</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="TestDocument05.odt/content.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/odt/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" restype="x-text:h">
+<source xml:lang="en">Text of Heading 1</source>
+<seg-source><mrk mid="0" mtype="seg">Text of Heading 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text of Heading 1</mrk></target>
+</trans-unit>
+<trans-unit id="2" restype="x-text:p">
+<source xml:lang="en">Pre-formetted text paragraph1</source>
+<seg-source><mrk mid="0" mtype="seg">Pre-formetted text paragraph1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pre-formetted text paragraph1</mrk></target>
+</trans-unit>
+<trans-unit id="3" restype="x-text:p">
+<source xml:lang="en">Line 1<ph id="1" ctype="lb">&lt;text:line-break/&gt;</ph>Line 2 [     ]=5spaces<ph id="2" ctype="lb">&lt;text:line-break/&gt;</ph>Line 3</source>
+<seg-source><mrk mid="0" mtype="seg">Line 1<ph id="1" ctype="lb">&lt;text:line-break/&gt;</ph>Line 2 [     ]=5spaces<ph id="2" ctype="lb">&lt;text:line-break/&gt;</ph>Line 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Line 1<ph id="1" ctype="lb">&lt;text:line-break/&gt;</ph>Line 2 [     ]=5spaces<ph id="2" ctype="lb">&lt;text:line-break/&gt;</ph>Line 3</mrk></target>
+</trans-unit>
+<trans-unit id="4" restype="x-text:p">
+<source xml:lang="en">Cell1</source>
+<seg-source><mrk mid="0" mtype="seg">Cell1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cell1</mrk></target>
+</trans-unit>
+<trans-unit id="5" restype="x-text:p">
+<source xml:lang="en">Cell2</source>
+<seg-source><mrk mid="0" mtype="seg">Cell2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cell2</mrk></target>
+</trans-unit>
+<trans-unit id="6" restype="x-text:p">
+<source xml:lang="en">Cell3</source>
+<seg-source><mrk mid="0" mtype="seg">Cell3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cell3</mrk></target>
+</trans-unit>
+<trans-unit id="7" restype="x-text:p">
+<source xml:lang="en">Cell4</source>
+<seg-source><mrk mid="0" mtype="seg">Cell4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cell4</mrk></target>
+</trans-unit>
+<trans-unit id="8" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-draw:frame">&lt;draw:frame draw:style-name="fr2" draw:name="graphics1" text:anchor-type="paragraph" svg:x="0.0016in" svg:y="0.0008in" svg:width="4in" style:rel-width="100%" svg:height="3in" style:rel-height="scale" draw:z-index="1"&gt;</bpt><bpt id="2" ctype="x-draw:image">&lt;draw:image xlink:href="Pictures/10000000000004000000030054DAA5FA.jpg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"&gt;</bpt><ept id="2">&lt;/draw:image&gt;</ept><bpt id="3" ctype="x-svg:title">&lt;svg:title&gt;</bpt>Alternative text for the image<ept id="3">&lt;/svg:title&gt;</ept><ept id="1">&lt;/draw:frame&gt;</ept>Illustration <bpt id="4" ctype="x-text:sequence">&lt;text:sequence text:ref-name="refIllustration0" text:name="Illustration" text:formula="ooow:Illustration+1" style:num-format="1"&gt;</bpt>1<ept id="4">&lt;/text:sequence&gt;</ept>: Text of the caption</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-draw:frame">&lt;draw:frame draw:style-name="fr2" draw:name="graphics1" text:anchor-type="paragraph" svg:x="0.0016in" svg:y="0.0008in" svg:width="4in" style:rel-width="100%" svg:height="3in" style:rel-height="scale" draw:z-index="1"&gt;</bpt><bpt id="2" ctype="x-draw:image">&lt;draw:image xlink:href="Pictures/10000000000004000000030054DAA5FA.jpg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"&gt;</bpt><ept id="2">&lt;/draw:image&gt;</ept><bpt id="3" ctype="x-svg:title">&lt;svg:title&gt;</bpt>Alternative text for the image<ept id="3">&lt;/svg:title&gt;</ept><ept id="1">&lt;/draw:frame&gt;</ept>Illustration <bpt id="4" ctype="x-text:sequence">&lt;text:sequence text:ref-name="refIllustration0" text:name="Illustration" text:formula="ooow:Illustration+1" style:num-format="1"&gt;</bpt>1<ept id="4">&lt;/text:sequence&gt;</ept>: Text of the caption</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-draw:frame">&lt;draw:frame draw:style-name="fr2" draw:name="graphics1" text:anchor-type="paragraph" svg:x="0.0016in" svg:y="0.0008in" svg:width="4in" style:rel-width="100%" svg:height="3in" style:rel-height="scale" draw:z-index="1"&gt;</bpt><bpt id="2" ctype="x-draw:image">&lt;draw:image xlink:href="Pictures/10000000000004000000030054DAA5FA.jpg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"&gt;</bpt><ept id="2">&lt;/draw:image&gt;</ept><bpt id="3" ctype="x-svg:title">&lt;svg:title&gt;</bpt>Alternative text for the image<ept id="3">&lt;/svg:title&gt;</ept><ept id="1">&lt;/draw:frame&gt;</ept>Illustration <bpt id="4" ctype="x-text:sequence">&lt;text:sequence text:ref-name="refIllustration0" text:name="Illustration" text:formula="ooow:Illustration+1" style:num-format="1"&gt;</bpt>1<ept id="4">&lt;/text:sequence&gt;</ept>: Text of the caption</mrk></target>
+</trans-unit>
+<trans-unit id="9" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-draw:frame">&lt;draw:frame draw:style-name="fr1" draw:name="Frame1" text:anchor-type="paragraph" svg:x="1.4626in" svg:y="0in" svg:width="4in" draw:z-index="0"&gt;</bpt><bpt id="2" ctype="x-draw:text-box">&lt;draw:text-box fo:min-height="3in"&gt;</bpt><ph id="3" ctype="x-text:p">[#$8]</ph><ept id="2">&lt;/draw:text-box&gt;</ept><ept id="1">&lt;/draw:frame&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-draw:frame">&lt;draw:frame draw:style-name="fr1" draw:name="Frame1" text:anchor-type="paragraph" svg:x="1.4626in" svg:y="0in" svg:width="4in" draw:z-index="0"&gt;</bpt><bpt id="2" ctype="x-draw:text-box">&lt;draw:text-box fo:min-height="3in"&gt;</bpt><ph id="3" ctype="x-text:p">[#$8]</ph><ept id="2">&lt;/draw:text-box&gt;</ept><ept id="1">&lt;/draw:frame&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-draw:frame">&lt;draw:frame draw:style-name="fr1" draw:name="Frame1" text:anchor-type="paragraph" svg:x="1.4626in" svg:y="0in" svg:width="4in" draw:z-index="0"&gt;</bpt><bpt id="2" ctype="x-draw:text-box">&lt;draw:text-box fo:min-height="3in"&gt;</bpt><ph id="3" ctype="x-text:p">[#$8]</ph><ept id="2">&lt;/draw:text-box&gt;</ept><ept id="1">&lt;/draw:frame&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="11" restype="x-text:p">
+<source xml:lang="en">Text of the footnote.</source>
+<seg-source><mrk mid="0" mtype="seg">Text of the footnote.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text of the footnote.</mrk></target>
+</trans-unit>
+<trans-unit id="10" restype="x-text:note">
+<source xml:lang="en"><ph id="1" ctype="x-text:note-citation">&lt;text:note-citation&gt;1&lt;/text:note-citation&gt;</ph><bpt id="2" ctype="x-text:note-body">&lt;text:note-body&gt;</bpt><ph id="3" ctype="x-text:p">[#$11]</ph><ept id="2">&lt;/text:note-body&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-text:note-citation">&lt;text:note-citation&gt;1&lt;/text:note-citation&gt;</ph><bpt id="2" ctype="x-text:note-body">&lt;text:note-body&gt;</bpt><ph id="3" ctype="x-text:p">[#$11]</ph><ept id="2">&lt;/text:note-body&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-text:note-citation">&lt;text:note-citation&gt;1&lt;/text:note-citation&gt;</ph><bpt id="2" ctype="x-text:note-body">&lt;text:note-body&gt;</bpt><ph id="3" ctype="x-text:p">[#$11]</ph><ept id="2">&lt;/text:note-body&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="12" restype="x-text:p">
+<source xml:lang="en">Text with footnote here&gt;<ph id="1" ctype="x-text:note">[#$10]</ph>&lt;</source>
+<seg-source><mrk mid="0" mtype="seg">Text with footnote here&gt;<ph id="1" ctype="x-text:note">[#$10]</ph>&lt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text with footnote here&gt;<ph id="1" ctype="x-text:note">[#$10]</ph>&lt;</mrk></target>
+</trans-unit>
+<trans-unit id="13" restype="x-text:p">
+<source xml:lang="en">TESTgraph in special style.</source>
+<seg-source><mrk mid="0" mtype="seg">TESTgraph in special style.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TESTgraph in special style.</mrk></target>
+</trans-unit>
+<trans-unit id="14" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:a">&lt;text:a xlink:type="simple" xlink:href="http://okapi.opentag.com/" office:name="Name of Hyperlink"&gt;</bpt>Text with the character<ept id="1">&lt;/text:a&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:a">&lt;text:a xlink:type="simple" xlink:href="http://okapi.opentag.com/" office:name="Name of Hyperlink"&gt;</bpt>Text with the character<ept id="1">&lt;/text:a&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:a">&lt;text:a xlink:type="simple" xlink:href="http://okapi.opentag.com/" office:name="Name of Hyperlink"&gt;</bpt>Text with the character<ept id="1">&lt;/text:a&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+<file original="TestDocument05.odt/styles.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/odt/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+</body>
+</file>
+<file original="TestDocument05.odt/meta.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/odt/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+</body>
+</file>
+</xliff>

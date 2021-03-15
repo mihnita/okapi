@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="big_config.yml" source-language="en" target-language="fr" datatype="x-text/x-yaml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1" resname="ops-name-color" xml:space="preserve">
+<source xml:lang="en">4</source>
+<seg-source><mrk mid="0" mtype="seg">4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="nickname-prefix" xml:space="preserve">
+<source xml:lang="en">~</source>
+<seg-source><mrk mid="0" mtype="seg">~</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">~</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" resname="max-nick-length" xml:space="preserve">
+<source xml:lang="en">15</source>
+<seg-source><mrk mid="0" mtype="seg">15</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">15</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="change-displayname" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" resname="teleport-safety" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="teleport-cooldown" xml:space="preserve">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" resname="teleport-delay" xml:space="preserve">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" resname="teleport-invulnerability" xml:space="preserve">
+<source xml:lang="en">4</source>
+<seg-source><mrk mid="0" mtype="seg">4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" resname="heal-cooldown" xml:space="preserve">
+<source xml:lang="en">60</source>
+<seg-source><mrk mid="0" mtype="seg">60</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">60</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" resname="item-spawn-blacklist" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" resname="permission-based-item-spawn" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" resname="spawnmob-limit" xml:space="preserve">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" resname="warn-on-smite" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<group id="sg2">
+<trans-unit id="tu14" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">msg</source>
+<seg-source><mrk mid="0" mtype="seg">msg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">msg</mrk></target>
+</trans-unit>
+<trans-unit id="tu15" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">w</source>
+<seg-source><mrk mid="0" mtype="seg">w</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">w</mrk></target>
+</trans-unit>
+<trans-unit id="tu16" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">r</source>
+<seg-source><mrk mid="0" mtype="seg">r</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">r</mrk></target>
+</trans-unit>
+<trans-unit id="tu17" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">mail</source>
+<seg-source><mrk mid="0" mtype="seg">mail</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mail</mrk></target>
+</trans-unit>
+<trans-unit id="tu18" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">m</source>
+<seg-source><mrk mid="0" mtype="seg">m</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">m</mrk></target>
+</trans-unit>
+<trans-unit id="tu19" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">t</source>
+<seg-source><mrk mid="0" mtype="seg">t</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">t</mrk></target>
+</trans-unit>
+<trans-unit id="tu20" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">whisper</source>
+<seg-source><mrk mid="0" mtype="seg">whisper</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">whisper</mrk></target>
+</trans-unit>
+<trans-unit id="tu21" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">emsg</source>
+<seg-source><mrk mid="0" mtype="seg">emsg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">emsg</mrk></target>
+</trans-unit>
+<trans-unit id="tu22" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">tell</source>
+<seg-source><mrk mid="0" mtype="seg">tell</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tell</mrk></target>
+</trans-unit>
+<trans-unit id="tu23" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">er</source>
+<seg-source><mrk mid="0" mtype="seg">er</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">er</mrk></target>
+</trans-unit>
+<trans-unit id="tu24" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">reply</source>
+<seg-source><mrk mid="0" mtype="seg">reply</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">reply</mrk></target>
+</trans-unit>
+<trans-unit id="tu25" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">ereply</source>
+<seg-source><mrk mid="0" mtype="seg">ereply</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ereply</mrk></target>
+</trans-unit>
+<trans-unit id="tu26" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">email</source>
+<seg-source><mrk mid="0" mtype="seg">email</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">email</mrk></target>
+</trans-unit>
+<trans-unit id="tu27" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">action</source>
+<seg-source><mrk mid="0" mtype="seg">action</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">action</mrk></target>
+</trans-unit>
+<trans-unit id="tu28" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">describe</source>
+<seg-source><mrk mid="0" mtype="seg">describe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">describe</mrk></target>
+</trans-unit>
+<trans-unit id="tu29" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">eme</source>
+<seg-source><mrk mid="0" mtype="seg">eme</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">eme</mrk></target>
+</trans-unit>
+<trans-unit id="tu30" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">eaction</source>
+<seg-source><mrk mid="0" mtype="seg">eaction</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">eaction</mrk></target>
+</trans-unit>
+<trans-unit id="tu31" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">edescribe</source>
+<seg-source><mrk mid="0" mtype="seg">edescribe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">edescribe</mrk></target>
+</trans-unit>
+<trans-unit id="tu32" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">etell</source>
+<seg-source><mrk mid="0" mtype="seg">etell</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">etell</mrk></target>
+</trans-unit>
+<trans-unit id="tu33" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">ewhisper</source>
+<seg-source><mrk mid="0" mtype="seg">ewhisper</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ewhisper</mrk></target>
+</trans-unit>
+<trans-unit id="tu34" resname="socialspy-commands" xml:space="preserve">
+<source xml:lang="en">pm</source>
+<seg-source><mrk mid="0" mtype="seg">pm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">pm</mrk></target>
+</trans-unit>
+</group>
+<group id="sg3">
+<trans-unit id="tu35" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">afk</source>
+<seg-source><mrk mid="0" mtype="seg">afk</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">afk</mrk></target>
+</trans-unit>
+<trans-unit id="tu36" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">afk.auto</source>
+<seg-source><mrk mid="0" mtype="seg">afk.auto</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">afk.auto</mrk></target>
+</trans-unit>
+<trans-unit id="tu37" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">back</source>
+<seg-source><mrk mid="0" mtype="seg">back</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">back</mrk></target>
+</trans-unit>
+<trans-unit id="tu38" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">back.ondeath</source>
+<seg-source><mrk mid="0" mtype="seg">back.ondeath</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">back.ondeath</mrk></target>
+</trans-unit>
+<trans-unit id="tu39" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">balance</source>
+<seg-source><mrk mid="0" mtype="seg">balance</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">balance</mrk></target>
+</trans-unit>
+<trans-unit id="tu40" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">balance.others</source>
+<seg-source><mrk mid="0" mtype="seg">balance.others</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">balance.others</mrk></target>
+</trans-unit>
+<trans-unit id="tu41" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">balancetop</source>
+<seg-source><mrk mid="0" mtype="seg">balancetop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">balancetop</mrk></target>
+</trans-unit>
+<trans-unit id="tu42" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">build</source>
+<seg-source><mrk mid="0" mtype="seg">build</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">build</mrk></target>
+</trans-unit>
+<trans-unit id="tu43" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">chat.color</source>
+<seg-source><mrk mid="0" mtype="seg">chat.color</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">chat.color</mrk></target>
+</trans-unit>
+<trans-unit id="tu44" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">chat.format</source>
+<seg-source><mrk mid="0" mtype="seg">chat.format</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">chat.format</mrk></target>
+</trans-unit>
+<trans-unit id="tu45" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">chat.shout</source>
+<seg-source><mrk mid="0" mtype="seg">chat.shout</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">chat.shout</mrk></target>
+</trans-unit>
+<trans-unit id="tu46" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">chat.question</source>
+<seg-source><mrk mid="0" mtype="seg">chat.question</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">chat.question</mrk></target>
+</trans-unit>
+<trans-unit id="tu47" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">clearinventory</source>
+<seg-source><mrk mid="0" mtype="seg">clearinventory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">clearinventory</mrk></target>
+</trans-unit>
+<trans-unit id="tu48" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">compass</source>
+<seg-source><mrk mid="0" mtype="seg">compass</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">compass</mrk></target>
+</trans-unit>
+<trans-unit id="tu49" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">depth</source>
+<seg-source><mrk mid="0" mtype="seg">depth</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">depth</mrk></target>
+</trans-unit>
+<trans-unit id="tu50" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">delhome</source>
+<seg-source><mrk mid="0" mtype="seg">delhome</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">delhome</mrk></target>
+</trans-unit>
+<trans-unit id="tu51" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">getpos</source>
+<seg-source><mrk mid="0" mtype="seg">getpos</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">getpos</mrk></target>
+</trans-unit>
+<trans-unit id="tu52" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">geoip.show</source>
+<seg-source><mrk mid="0" mtype="seg">geoip.show</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">geoip.show</mrk></target>
+</trans-unit>
+<trans-unit id="tu53" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">help</source>
+<seg-source><mrk mid="0" mtype="seg">help</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">help</mrk></target>
+</trans-unit>
+<trans-unit id="tu54" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">helpop</source>
+<seg-source><mrk mid="0" mtype="seg">helpop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">helpop</mrk></target>
+</trans-unit>
+<trans-unit id="tu55" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">home</source>
+<seg-source><mrk mid="0" mtype="seg">home</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">home</mrk></target>
+</trans-unit>
+<trans-unit id="tu56" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">home.others</source>
+<seg-source><mrk mid="0" mtype="seg">home.others</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">home.others</mrk></target>
+</trans-unit>
+<trans-unit id="tu57" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">ignore</source>
+<seg-source><mrk mid="0" mtype="seg">ignore</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ignore</mrk></target>
+</trans-unit>
+<trans-unit id="tu58" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">info</source>
+<seg-source><mrk mid="0" mtype="seg">info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">info</mrk></target>
+</trans-unit>
+<trans-unit id="tu59" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">itemdb</source>
+<seg-source><mrk mid="0" mtype="seg">itemdb</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">itemdb</mrk></target>
+</trans-unit>
+<trans-unit id="tu60" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">kit</source>
+<seg-source><mrk mid="0" mtype="seg">kit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">kit</mrk></target>
+</trans-unit>
+<trans-unit id="tu61" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">kits.tools</source>
+<seg-source><mrk mid="0" mtype="seg">kits.tools</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">kits.tools</mrk></target>
+</trans-unit>
+<trans-unit id="tu62" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">list</source>
+<seg-source><mrk mid="0" mtype="seg">list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">list</mrk></target>
+</trans-unit>
+<trans-unit id="tu63" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">mail</source>
+<seg-source><mrk mid="0" mtype="seg">mail</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mail</mrk></target>
+</trans-unit>
+<trans-unit id="tu64" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">mail.send</source>
+<seg-source><mrk mid="0" mtype="seg">mail.send</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mail.send</mrk></target>
+</trans-unit>
+<trans-unit id="tu65" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">me</source>
+<seg-source><mrk mid="0" mtype="seg">me</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">me</mrk></target>
+</trans-unit>
+<trans-unit id="tu66" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">motd</source>
+<seg-source><mrk mid="0" mtype="seg">motd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">motd</mrk></target>
+</trans-unit>
+<trans-unit id="tu67" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">msg</source>
+<seg-source><mrk mid="0" mtype="seg">msg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">msg</mrk></target>
+</trans-unit>
+<trans-unit id="tu68" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">msg.color</source>
+<seg-source><mrk mid="0" mtype="seg">msg.color</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">msg.color</mrk></target>
+</trans-unit>
+<trans-unit id="tu69" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">nick</source>
+<seg-source><mrk mid="0" mtype="seg">nick</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">nick</mrk></target>
+</trans-unit>
+<trans-unit id="tu70" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">near</source>
+<seg-source><mrk mid="0" mtype="seg">near</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">near</mrk></target>
+</trans-unit>
+<trans-unit id="tu71" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">pay</source>
+<seg-source><mrk mid="0" mtype="seg">pay</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">pay</mrk></target>
+</trans-unit>
+<trans-unit id="tu72" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">ping</source>
+<seg-source><mrk mid="0" mtype="seg">ping</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ping</mrk></target>
+</trans-unit>
+<trans-unit id="tu73" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">protect</source>
+<seg-source><mrk mid="0" mtype="seg">protect</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">protect</mrk></target>
+</trans-unit>
+<trans-unit id="tu74" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">r</source>
+<seg-source><mrk mid="0" mtype="seg">r</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">r</mrk></target>
+</trans-unit>
+<trans-unit id="tu75" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">rules</source>
+<seg-source><mrk mid="0" mtype="seg">rules</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">rules</mrk></target>
+</trans-unit>
+<trans-unit id="tu76" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">realname</source>
+<seg-source><mrk mid="0" mtype="seg">realname</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">realname</mrk></target>
+</trans-unit>
+<trans-unit id="tu77" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">seen</source>
+<seg-source><mrk mid="0" mtype="seg">seen</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">seen</mrk></target>
+</trans-unit>
+<trans-unit id="tu78" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">sell</source>
+<seg-source><mrk mid="0" mtype="seg">sell</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sell</mrk></target>
+</trans-unit>
+<trans-unit id="tu79" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">sethome</source>
+<seg-source><mrk mid="0" mtype="seg">sethome</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sethome</mrk></target>
+</trans-unit>
+<trans-unit id="tu80" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">setxmpp</source>
+<seg-source><mrk mid="0" mtype="seg">setxmpp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setxmpp</mrk></target>
+</trans-unit>
+<trans-unit id="tu81" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.create.protection</source>
+<seg-source><mrk mid="0" mtype="seg">signs.create.protection</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.create.protection</mrk></target>
+</trans-unit>
+<trans-unit id="tu82" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.create.trade</source>
+<seg-source><mrk mid="0" mtype="seg">signs.create.trade</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.create.trade</mrk></target>
+</trans-unit>
+<trans-unit id="tu83" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.break.protection</source>
+<seg-source><mrk mid="0" mtype="seg">signs.break.protection</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.break.protection</mrk></target>
+</trans-unit>
+<trans-unit id="tu84" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.break.trade</source>
+<seg-source><mrk mid="0" mtype="seg">signs.break.trade</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.break.trade</mrk></target>
+</trans-unit>
+<trans-unit id="tu85" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.balance</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.balance</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.balance</mrk></target>
+</trans-unit>
+<trans-unit id="tu86" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.buy</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.buy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.buy</mrk></target>
+</trans-unit>
+<trans-unit id="tu87" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.disposal</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.disposal</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.disposal</mrk></target>
+</trans-unit>
+<trans-unit id="tu88" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.enchant</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.enchant</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.enchant</mrk></target>
+</trans-unit>
+<trans-unit id="tu89" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.free</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.free</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.free</mrk></target>
+</trans-unit>
+<trans-unit id="tu90" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.gamemode</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.gamemode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.gamemode</mrk></target>
+</trans-unit>
+<trans-unit id="tu91" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.heal</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.heal</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.heal</mrk></target>
+</trans-unit>
+<trans-unit id="tu92" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.info</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.info</mrk></target>
+</trans-unit>
+<trans-unit id="tu93" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.kit</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.kit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.kit</mrk></target>
+</trans-unit>
+<trans-unit id="tu94" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.mail</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.mail</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.mail</mrk></target>
+</trans-unit>
+<trans-unit id="tu95" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.protection</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.protection</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.protection</mrk></target>
+</trans-unit>
+<trans-unit id="tu96" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.repair</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.repair</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.repair</mrk></target>
+</trans-unit>
+<trans-unit id="tu97" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.sell</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.sell</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.sell</mrk></target>
+</trans-unit>
+<trans-unit id="tu98" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.time</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.time</mrk></target>
+</trans-unit>
+<trans-unit id="tu99" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.trade</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.trade</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.trade</mrk></target>
+</trans-unit>
+<trans-unit id="tu100" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.warp</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.warp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.warp</mrk></target>
+</trans-unit>
+<trans-unit id="tu101" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">signs.use.weather</source>
+<seg-source><mrk mid="0" mtype="seg">signs.use.weather</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">signs.use.weather</mrk></target>
+</trans-unit>
+<trans-unit id="tu102" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">spawn</source>
+<seg-source><mrk mid="0" mtype="seg">spawn</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">spawn</mrk></target>
+</trans-unit>
+<trans-unit id="tu103" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">suicide</source>
+<seg-source><mrk mid="0" mtype="seg">suicide</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">suicide</mrk></target>
+</trans-unit>
+<trans-unit id="tu104" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">time</source>
+<seg-source><mrk mid="0" mtype="seg">time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">time</mrk></target>
+</trans-unit>
+<trans-unit id="tu105" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">tpa</source>
+<seg-source><mrk mid="0" mtype="seg">tpa</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tpa</mrk></target>
+</trans-unit>
+<trans-unit id="tu106" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">tpaccept</source>
+<seg-source><mrk mid="0" mtype="seg">tpaccept</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tpaccept</mrk></target>
+</trans-unit>
+<trans-unit id="tu107" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">tpahere</source>
+<seg-source><mrk mid="0" mtype="seg">tpahere</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tpahere</mrk></target>
+</trans-unit>
+<trans-unit id="tu108" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">tpdeny</source>
+<seg-source><mrk mid="0" mtype="seg">tpdeny</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tpdeny</mrk></target>
+</trans-unit>
+<trans-unit id="tu109" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">warp</source>
+<seg-source><mrk mid="0" mtype="seg">warp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">warp</mrk></target>
+</trans-unit>
+<trans-unit id="tu110" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">warp.list</source>
+<seg-source><mrk mid="0" mtype="seg">warp.list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">warp.list</mrk></target>
+</trans-unit>
+<trans-unit id="tu111" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">world</source>
+<seg-source><mrk mid="0" mtype="seg">world</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">world</mrk></target>
+</trans-unit>
+<trans-unit id="tu112" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">worth</source>
+<seg-source><mrk mid="0" mtype="seg">worth</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">worth</mrk></target>
+</trans-unit>
+<trans-unit id="tu113" resname="player-commands" xml:space="preserve">
+<source xml:lang="en">xmpp</source>
+<seg-source><mrk mid="0" mtype="seg">xmpp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">xmpp</mrk></target>
+</trans-unit>
+</group>
+<group id="sg4">
+<group id="sg5">
+<trans-unit id="tu114" resname="kits/tools/delay" xml:space="preserve">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<group id="sg6">
+<trans-unit id="tu115" resname="kits/tools/items" xml:space="preserve">
+<source xml:lang="en">272 1</source>
+<seg-source><mrk mid="0" mtype="seg">272 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">272 1</mrk></target>
+</trans-unit>
+<trans-unit id="tu116" resname="kits/tools/items" xml:space="preserve">
+<source xml:lang="en">273 1</source>
+<seg-source><mrk mid="0" mtype="seg">273 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">273 1</mrk></target>
+</trans-unit>
+<trans-unit id="tu117" resname="kits/tools/items" xml:space="preserve">
+<source xml:lang="en">274 1</source>
+<seg-source><mrk mid="0" mtype="seg">274 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">274 1</mrk></target>
+</trans-unit>
+<trans-unit id="tu118" resname="kits/tools/items" xml:space="preserve">
+<source xml:lang="en">275 1</source>
+<seg-source><mrk mid="0" mtype="seg">275 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">275 1</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg7">
+<trans-unit id="tu119" resname="kits/dtools/delay" xml:space="preserve">
+<source xml:lang="en">600</source>
+<seg-source><mrk mid="0" mtype="seg">600</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">600</mrk></target>
+</trans-unit>
+<group id="sg8">
+<trans-unit id="tu120" resname="kits/dtools/items" xml:space="preserve">
+<source xml:lang="en">278 1 efficiency:1 durability:1 fortune:1 name:&amp;4Gigadrill lore:The_drill_that_&amp;npierces|the_heavens</source>
+<seg-source><mrk mid="0" mtype="seg">278 1 efficiency:1 durability:1 fortune:1 name:&amp;4Gigadrill lore:The_drill_that_&amp;npierces|the_heavens</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">278 1 efficiency:1 durability:1 fortune:1 name:&amp;4Gigadrill lore:The_drill_that_&amp;npierces|the_heavens</mrk></target>
+</trans-unit>
+<trans-unit id="tu121" resname="kits/dtools/items" xml:space="preserve">
+<source xml:lang="en">277 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole</source>
+<seg-source><mrk mid="0" mtype="seg">277 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">277 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole</mrk></target>
+</trans-unit>
+<trans-unit id="tu122" resname="kits/dtools/items" xml:space="preserve">
+<source xml:lang="en">298 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day</source>
+<seg-source><mrk mid="0" mtype="seg">298 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">298 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day</mrk></target>
+</trans-unit>
+<trans-unit id="tu123" resname="kits/dtools/items" xml:space="preserve">
+<source xml:lang="en">279:780 1</source>
+<seg-source><mrk mid="0" mtype="seg">279:780 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">279:780 1</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg9">
+<trans-unit id="tu124" resname="kits/notch/delay" xml:space="preserve">
+<source xml:lang="en">6000</source>
+<seg-source><mrk mid="0" mtype="seg">6000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">6000</mrk></target>
+</trans-unit>
+<group id="sg10">
+<trans-unit id="tu125" resname="kits/notch/items" xml:space="preserve">
+<source xml:lang="en">397:3 1 player:Notch</source>
+<seg-source><mrk mid="0" mtype="seg">397:3 1 player:Notch</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">397:3 1 player:Notch</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg11">
+<trans-unit id="tu126" resname="kits/color/delay" xml:space="preserve">
+<source xml:lang="en">6000</source>
+<seg-source><mrk mid="0" mtype="seg">6000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">6000</mrk></target>
+</trans-unit>
+<group id="sg12">
+<trans-unit id="tu127" resname="kits/color/items" xml:space="preserve">
+<source xml:lang="en">387 1 title:&amp;4Book_&amp;9o_&amp;6Colors author:KHobbits lore:Ingame_color_codes book:Colors</source>
+<seg-source><mrk mid="0" mtype="seg">387 1 title:&amp;4Book_&amp;9o_&amp;6Colors author:KHobbits lore:Ingame_color_codes book:Colors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">387 1 title:&amp;4Book_&amp;9o_&amp;6Colors author:KHobbits lore:Ingame_color_codes book:Colors</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg13">
+<trans-unit id="tu128" resname="kits/firework/delay" xml:space="preserve">
+<source xml:lang="en">6000</source>
+<seg-source><mrk mid="0" mtype="seg">6000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">6000</mrk></target>
+</trans-unit>
+<group id="sg14">
+<trans-unit id="tu129" resname="kits/firework/items" xml:space="preserve">
+<source xml:lang="en">401 1 name:Angry_Creeper color:red fade:green type:creeper power:1</source>
+<seg-source><mrk mid="0" mtype="seg">401 1 name:Angry_Creeper color:red fade:green type:creeper power:1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">401 1 name:Angry_Creeper color:red fade:green type:creeper power:1</mrk></target>
+</trans-unit>
+<trans-unit id="tu130" resname="kits/firework/items" xml:space="preserve">
+<source xml:lang="en">401 1 name:StarryNight color:yellow,orange fade:blue type:star effect:trail,twinkle power:1</source>
+<seg-source><mrk mid="0" mtype="seg">401 1 name:StarryNight color:yellow,orange fade:blue type:star effect:trail,twinkle power:1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">401 1 name:StarryNight color:yellow,orange fade:blue type:star effect:trail,twinkle power:1</mrk></target>
+</trans-unit>
+<trans-unit id="tu131" resname="kits/firework/items" xml:space="preserve">
+<source xml:lang="en">401 2 name:SolarWind color:yellow,orange fade:red shape:large effect:twinkle color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink shape:star effect:trail power:1</source>
+<seg-source><mrk mid="0" mtype="seg">401 2 name:SolarWind color:yellow,orange fade:red shape:large effect:twinkle color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink shape:star effect:trail power:1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">401 2 name:SolarWind color:yellow,orange fade:red shape:large effect:twinkle color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink shape:star effect:trail power:1</mrk></target>
+</trans-unit>
+</group>
+</group>
+</group>
+<trans-unit id="tu132" resname="sign-use-per-second" xml:space="preserve">
+<source xml:lang="en">4</source>
+<seg-source><mrk mid="0" mtype="seg">4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4</mrk></target>
+</trans-unit>
+<group id="sg15">
+<trans-unit id="tu133" resname="backup/interval" xml:space="preserve">
+<source xml:lang="en">30</source>
+<seg-source><mrk mid="0" mtype="seg">30</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">30</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu134" resname="per-warp-permission" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<group id="sg16">
+<trans-unit id="tu135" resname="list/Admins" xml:space="preserve">
+<source xml:lang="en">owner admin</source>
+<seg-source><mrk mid="0" mtype="seg">owner admin</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">owner admin</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu136" resname="debug" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu137" resname="remove-god-on-disconnect" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu138" resname="auto-afk" xml:space="preserve">
+<source xml:lang="en">300</source>
+<seg-source><mrk mid="0" mtype="seg">300</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">300</mrk></target>
+</trans-unit>
+<trans-unit id="tu139" resname="auto-afk-kick" xml:space="preserve">
+<source xml:lang="en">-1</source>
+<seg-source><mrk mid="0" mtype="seg">-1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1</mrk></target>
+</trans-unit>
+<trans-unit id="tu140" resname="freeze-afk-players" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu141" resname="disable-item-pickup-while-afk" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu142" resname="cancel-afk-on-interact" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu143" resname="cancel-afk-on-move" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu144" resname="death-messages" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu145" resname="allow-silent-join-quit" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu146" resname="custom-join-message" xml:space="preserve">
+<source xml:lang="en">none</source>
+<seg-source><mrk mid="0" mtype="seg">none</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">none</mrk></target>
+</trans-unit>
+<trans-unit id="tu147" resname="custom-quit-message" xml:space="preserve">
+<source xml:lang="en">none</source>
+<seg-source><mrk mid="0" mtype="seg">none</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">none</mrk></target>
+</trans-unit>
+<trans-unit id="tu148" resname="no-god-in-worlds" xml:space="preserve">
+<source xml:lang="en">null</source>
+<seg-source><mrk mid="0" mtype="seg">null</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">null</mrk></target>
+</trans-unit>
+<trans-unit id="tu149" resname="world-teleport-permissions" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu150" resname="default-stack-size" xml:space="preserve">
+<source xml:lang="en">-1</source>
+<seg-source><mrk mid="0" mtype="seg">-1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1</mrk></target>
+</trans-unit>
+<trans-unit id="tu151" resname="oversized-stacksize" xml:space="preserve">
+<source xml:lang="en">64</source>
+<seg-source><mrk mid="0" mtype="seg">64</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">64</mrk></target>
+</trans-unit>
+<trans-unit id="tu152" resname="repair-enchanted" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu153" resname="unsafe-enchantments" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu154" resname="register-back-in-listener" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu155" resname="login-attack-delay" xml:space="preserve">
+<source xml:lang="en">5</source>
+<seg-source><mrk mid="0" mtype="seg">5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">5</mrk></target>
+</trans-unit>
+<trans-unit id="tu156" resname="max-fly-speed" xml:space="preserve">
+<source xml:lang="en">0.8</source>
+<seg-source><mrk mid="0" mtype="seg">0.8</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.8</mrk></target>
+</trans-unit>
+<trans-unit id="tu157" resname="max-walk-speed" xml:space="preserve">
+<source xml:lang="en">0.8</source>
+<seg-source><mrk mid="0" mtype="seg">0.8</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.8</mrk></target>
+</trans-unit>
+<trans-unit id="tu158" resname="mails-per-minute" xml:space="preserve">
+<source xml:lang="en">1000</source>
+<seg-source><mrk mid="0" mtype="seg">1000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1000</mrk></target>
+</trans-unit>
+<trans-unit id="tu159" resname="max-tempban-time" xml:space="preserve">
+<source xml:lang="en">-1</source>
+<seg-source><mrk mid="0" mtype="seg">-1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1</mrk></target>
+</trans-unit>
+<trans-unit id="tu160" resname="update-bed-at-daytime" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu161" resname="world-home-permissions" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<group id="sg17">
+<trans-unit id="tu162" resname="sethome-multiple/default" xml:space="preserve">
+<source xml:lang="en">3</source>
+<seg-source><mrk mid="0" mtype="seg">3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3</mrk></target>
+</trans-unit>
+<trans-unit id="tu163" resname="sethome-multiple/vip" xml:space="preserve">
+<source xml:lang="en">5</source>
+<seg-source><mrk mid="0" mtype="seg">5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">5</mrk></target>
+</trans-unit>
+<trans-unit id="tu164" resname="sethome-multiple/staff" xml:space="preserve">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu165" resname="tpa-accept-cancellation" xml:space="preserve">
+<source xml:lang="en">120</source>
+<seg-source><mrk mid="0" mtype="seg">120</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">120</mrk></target>
+</trans-unit>
+<trans-unit id="tu166" resname="starting-balance" xml:space="preserve">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+</trans-unit>
+<trans-unit id="tu167" resname="command-costs" xml:space="preserve">
+<source xml:lang="en">null</source>
+<seg-source><mrk mid="0" mtype="seg">null</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">null</mrk></target>
+</trans-unit>
+<trans-unit id="tu168" resname="currency-symbol" xml:space="preserve">
+<source xml:lang="en">$</source>
+<seg-source><mrk mid="0" mtype="seg">$</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$</mrk></target>
+</trans-unit>
+<trans-unit id="tu169" resname="max-money" xml:space="preserve">
+<source xml:lang="en">10000000000000</source>
+<seg-source><mrk mid="0" mtype="seg">10000000000000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10000000000000</mrk></target>
+</trans-unit>
+<trans-unit id="tu170" resname="min-money" xml:space="preserve">
+<source xml:lang="en">-10000</source>
+<seg-source><mrk mid="0" mtype="seg">-10000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-10000</mrk></target>
+</trans-unit>
+<trans-unit id="tu171" resname="economy-log-enabled" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu172" resname="non-ess-in-help" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu173" resname="hide-permissionless-help" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<group id="sg18">
+<trans-unit id="tu174" resname="chat/radius" xml:space="preserve">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+</trans-unit>
+<trans-unit id="tu175" resname="chat/format" xml:space="preserve">
+<source xml:lang="en">&lt;{DISPLAYNAME}&gt; {MESSAGE}</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;{DISPLAYNAME}&gt; {MESSAGE}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;{DISPLAYNAME}&gt; {MESSAGE}</mrk></target>
+</trans-unit>
+<trans-unit id="tu176" resname="chat/group-formats" xml:space="preserve">
+<source xml:lang="en">null</source>
+<seg-source><mrk mid="0" mtype="seg">null</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">null</mrk></target>
+</trans-unit>
+</group>
+<group id="sg19">
+<group id="sg20">
+<trans-unit id="tu177" resname="protect/prevent/lava-flow" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu178" resname="protect/prevent/water-flow" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu179" resname="protect/prevent/water-bucket-flow" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu180" resname="protect/prevent/fire-spread" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu181" resname="protect/prevent/lava-fire-spread" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu182" resname="protect/prevent/flint-fire" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu183" resname="protect/prevent/lightning-fire-spread" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu184" resname="protect/prevent/portal-creation" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu185" resname="protect/prevent/tnt-explosion" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu186" resname="protect/prevent/tnt-playerdamage" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu187" resname="protect/prevent/tnt-minecart-explosion" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu188" resname="protect/prevent/tnt-minecart-playerdamage" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu189" resname="protect/prevent/fireball-explosion" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu190" resname="protect/prevent/fireball-fire" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu191" resname="protect/prevent/fireball-playerdamage" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu192" resname="protect/prevent/witherskull-explosion" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu193" resname="protect/prevent/witherskull-playerdamage" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu194" resname="protect/prevent/wither-spawnexplosion" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu195" resname="protect/prevent/wither-blockreplace" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu196" resname="protect/prevent/creeper-explosion" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu197" resname="protect/prevent/creeper-playerdamage" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu198" resname="protect/prevent/creeper-blockdamage" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu199" resname="protect/prevent/enderdragon-blockdamage" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu200" resname="protect/prevent/enderman-pickup" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu201" resname="protect/prevent/villager-death" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu202" resname="protect/prevent/entitytarget" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<group id="sg21">
+<trans-unit id="tu203" resname="protect/prevent/spawn/creeper" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu204" resname="protect/prevent/spawn/skeleton" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu205" resname="protect/prevent/spawn/spider" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu206" resname="protect/prevent/spawn/giant" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu207" resname="protect/prevent/spawn/zombie" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu208" resname="protect/prevent/spawn/slime" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu209" resname="protect/prevent/spawn/ghast" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu210" resname="protect/prevent/spawn/pig_zombie" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu211" resname="protect/prevent/spawn/enderman" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu212" resname="protect/prevent/spawn/cave_spider" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu213" resname="protect/prevent/spawn/silverfish" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu214" resname="protect/prevent/spawn/blaze" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu215" resname="protect/prevent/spawn/magma_cube" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu216" resname="protect/prevent/spawn/ender_dragon" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu217" resname="protect/prevent/spawn/pig" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu218" resname="protect/prevent/spawn/sheep" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu219" resname="protect/prevent/spawn/cow" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu220" resname="protect/prevent/spawn/chicken" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu221" resname="protect/prevent/spawn/squid" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu222" resname="protect/prevent/spawn/wolf" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu223" resname="protect/prevent/spawn/mushroom_cow" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu224" resname="protect/prevent/spawn/snowman" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu225" resname="protect/prevent/spawn/ocelot" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu226" resname="protect/prevent/spawn/iron_golem" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu227" resname="protect/prevent/spawn/villager" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu228" resname="protect/prevent/spawn/wither" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu229" resname="protect/prevent/spawn/bat" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu230" resname="protect/prevent/spawn/witch" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu231" resname="protect/prevent/spawn/horse" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg22">
+<trans-unit id="tu232" resname="protect/creeper/max-height" xml:space="preserve">
+<source xml:lang="en">-1</source>
+<seg-source><mrk mid="0" mtype="seg">-1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1</mrk></target>
+</trans-unit>
+</group>
+<group id="sg23">
+<trans-unit id="tu233" resname="protect/disable/fall" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu234" resname="protect/disable/pvp" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu235" resname="protect/disable/drown" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu236" resname="protect/disable/suffocate" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu237" resname="protect/disable/lavadmg" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu238" resname="protect/disable/projectiles" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu239" resname="protect/disable/contactdmg" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu240" resname="protect/disable/firedmg" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu241" resname="protect/disable/lightning" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu242" resname="protect/disable/wither" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<group id="sg24">
+<trans-unit id="tu243" resname="protect/disable/weather/storm" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu244" resname="protect/disable/weather/thunder" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu245" resname="protect/disable/weather/lightning" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu246" resname="protect/disable/build" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu247" resname="protect/disable/use" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu248" resname="protect/disable/warn-on-build-disallow" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+</group>
+<group id="sg25">
+<trans-unit id="tu249" resname="protect/alert/on-placement" xml:space="preserve">
+<source xml:lang="en">10,11,46,327</source>
+<seg-source><mrk mid="0" mtype="seg">10,11,46,327</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10,11,46,327</mrk></target>
+</trans-unit>
+<trans-unit id="tu250" resname="protect/alert/on-use" xml:space="preserve">
+<source xml:lang="en">327</source>
+<seg-source><mrk mid="0" mtype="seg">327</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">327</mrk></target>
+</trans-unit>
+<trans-unit id="tu251" resname="protect/alert/on-break" xml:space="preserve">
+<source xml:lang="en">null</source>
+<seg-source><mrk mid="0" mtype="seg">null</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">null</mrk></target>
+</trans-unit>
+</group>
+<group id="sg26">
+<trans-unit id="tu252" resname="protect/blacklist/placement" xml:space="preserve">
+<source xml:lang="en">10,11,46,327</source>
+<seg-source><mrk mid="0" mtype="seg">10,11,46,327</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10,11,46,327</mrk></target>
+</trans-unit>
+<trans-unit id="tu253" resname="protect/blacklist/usage" xml:space="preserve">
+<source xml:lang="en">327</source>
+<seg-source><mrk mid="0" mtype="seg">327</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">327</mrk></target>
+</trans-unit>
+<trans-unit id="tu254" resname="protect/blacklist/break" xml:space="preserve">
+<source xml:lang="en">null</source>
+<seg-source><mrk mid="0" mtype="seg">null</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">null</mrk></target>
+</trans-unit>
+<trans-unit id="tu255" resname="protect/blacklist/piston" xml:space="preserve">
+<source xml:lang="en">null</source>
+<seg-source><mrk mid="0" mtype="seg">null</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">null</mrk></target>
+</trans-unit>
+<trans-unit id="tu256" resname="protect/blacklist/dispenser" xml:space="preserve">
+<source xml:lang="en">null</source>
+<seg-source><mrk mid="0" mtype="seg">null</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">null</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg27">
+<trans-unit id="tu257" resname="newbies/announce-format" xml:space="preserve">
+<source xml:lang="en">&amp;dWelcome {DISPLAYNAME}&amp;d to the server!</source>
+<seg-source><mrk mid="0" mtype="seg">&amp;dWelcome {DISPLAYNAME}&amp;d to the server!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&amp;dWelcome {DISPLAYNAME}&amp;d to the server!</mrk></target>
+</trans-unit>
+<trans-unit id="tu258" resname="newbies/spawnpoint" xml:space="preserve">
+<source xml:lang="en">newbies</source>
+<seg-source><mrk mid="0" mtype="seg">newbies</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">newbies</mrk></target>
+</trans-unit>
+<trans-unit id="tu259" resname="newbies/kit" xml:space="preserve">
+<source xml:lang="en">tools</source>
+<seg-source><mrk mid="0" mtype="seg">tools</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tools</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu260" resname="respawn-listener-priority" xml:space="preserve">
+<source xml:lang="en">high</source>
+<seg-source><mrk mid="0" mtype="seg">high</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">high</mrk></target>
+</trans-unit>
+<trans-unit id="tu261" resname="respawn-at-home" xml:space="preserve">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

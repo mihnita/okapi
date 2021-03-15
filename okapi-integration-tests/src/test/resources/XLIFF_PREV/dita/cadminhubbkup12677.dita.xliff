@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminhubbkup12677.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Offline backups</source>
+<seg-source><mrk mid="0" mtype="seg">Offline backups</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Offline backups</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">To perform an offline backup of a database, use operating system commands to copy the database directory.</source>
+<seg-source><mrk mid="0" mtype="seg">To perform an offline backup of a database, use operating system commands to copy the database directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To perform an offline backup of a database, use operating system commands to copy the database directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">You must shut down the database before you perform an offline backup.</source>
+<seg-source><mrk mid="0" mtype="seg">You must shut down the database before you perform an offline backup.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You must shut down the database before you perform an offline backup.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">For example, on Windows systems, the following operating system command backs up a (closed) database that is named <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sample<ept id="1">&lt;/codeph&gt;</ept> and that is located in <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>d:\mydatabases<ept id="2">&lt;/codeph&gt;</ept> by copying it to the directory <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>c:\mybackups\2012-04-01<ept id="3">&lt;/codeph&gt;</ept>:</source>
+<seg-source><mrk mid="0" mtype="seg">For example, on Windows systems, the following operating system command backs up a (closed) database that is named <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sample<ept id="1">&lt;/codeph&gt;</ept> and that is located in <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>d:\mydatabases<ept id="2">&lt;/codeph&gt;</ept> by copying it to the directory <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>c:\mybackups\2012-04-01<ept id="3">&lt;/codeph&gt;</ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, on Windows systems, the following operating system command backs up a (closed) database that is named <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>sample<ept id="1">&lt;/codeph&gt;</ept> and that is located in <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>d:\mydatabases<ept id="2">&lt;/codeph&gt;</ept> by copying it to the directory <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>c:\mybackups\2012-04-01<ept id="3">&lt;/codeph&gt;</ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>xcopy d:\mydatabases\sample c:\mybackups\2012-04-01\sample /s /i<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>xcopy d:\mydatabases\sample c:\mybackups\2012-04-01\sample /s /i<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>xcopy d:\mydatabases\sample c:\mybackups\2012-04-01\sample /s /i<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">If you are not using Windows, substitute the appropriate operating system command for copying a directory and all contents to a new location.</source>
+<seg-source><mrk mid="0" mtype="seg">If you are not using Windows, substitute the appropriate operating system command for copying a directory and all contents to a new location.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you are not using Windows, substitute the appropriate operating system command for copying a directory and all contents to a new location.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">On Windows systems, do not attempt to update a database while it is being backed up in this way. Attempting to update a database during an offline backup will generate a <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java.io.IOException<ept id="1">&lt;/codeph&gt;</ept>. Using online backups prevents this from occurring.</source>
+<seg-source><mrk mid="0" mtype="seg">On Windows systems, do not attempt to update a database while it is being backed up in this way.</mrk><mrk mid="1" mtype="seg"> Attempting to update a database during an offline backup will generate a <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java.io.IOException<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> Using online backups prevents this from occurring.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">On Windows systems, do not attempt to update a database while it is being backed up in this way.</mrk><mrk mid="1" mtype="seg"> Attempting to update a database during an offline backup will generate a <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java.io.IOException<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> Using online backups prevents this from occurring.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">For large systems, shutting down the database might not be convenient. To back up a database without having to shut it down, you can use an online backup.</source>
+<seg-source><mrk mid="0" mtype="seg">For large systems, shutting down the database might not be convenient.</mrk><mrk mid="1" mtype="seg"> To back up a database without having to shut it down, you can use an online backup.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For large systems, shutting down the database might not be convenient.</mrk><mrk mid="1" mtype="seg"> To back up a database without having to shut it down, you can use an online backup.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">After you back up a database, make sure the backup copy is not corrupt. To do this, run the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> system function on all the tables in the backup copy. Do not discard the previous backup until you have verified the consistency of the current one. See <bpt id="2" ctype="x-xref">&lt;xref href="cadminconsist01.dita#cadminconsist01"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">After you back up a database, make sure the backup copy is not corrupt.</mrk><mrk mid="1" mtype="seg"> To do this, run the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> system function on all the tables in the backup copy.</mrk><mrk mid="2" mtype="seg"> Do not discard the previous backup until you have verified the consistency of the current one.</mrk><mrk mid="3" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="cadminconsist01.dita#cadminconsist01"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After you back up a database, make sure the backup copy is not corrupt.</mrk><mrk mid="1" mtype="seg"> To do this, run the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> system function on all the tables in the backup copy.</mrk><mrk mid="2" mtype="seg"> Do not discard the previous backup until you have verified the consistency of the current one.</mrk><mrk mid="3" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="cadminconsist01.dita#cadminconsist01"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

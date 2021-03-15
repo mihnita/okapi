@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdeploy12748.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Code your applications</source>
+<seg-source><mrk mid="0" mtype="seg">Code your applications</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code your applications</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">In your applications, you load the classes either by indirectly referencing them in the code or by directly using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Class.forName<ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">In your applications, you load the classes either by indirectly referencing them in the code or by directly using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Class.forName<ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In your applications, you load the classes either by indirectly referencing them in the code or by directly using <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Class.forName<ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">You load resources the way you normally would, using the standard <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Class.getResourceAsStream<ept id="1">&lt;/i&gt;</ept>, a mechanism that allows an application to access resources defined in the classpath without knowing where or how they are stored.</source>
+<seg-source><mrk mid="0" mtype="seg">You load resources the way you normally would, using the standard <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Class.getResourceAsStream<ept id="1">&lt;/i&gt;</ept>, a mechanism that allows an application to access resources defined in the classpath without knowing where or how they are stored.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You load resources the way you normally would, using the standard <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Class.getResourceAsStream<ept id="1">&lt;/i&gt;</ept>, a mechanism that allows an application to access resources defined in the classpath without knowing where or how they are stored.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">You do not need to make any changes to the way code interacts with <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> and its JDBC driver. An application can safely attempt to boot <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, even though it is already running, without any errors. Applications connect to <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> in the usual manner.</source>
+<seg-source><mrk mid="0" mtype="seg">You do not need to make any changes to the way code interacts with <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> and its JDBC driver.</mrk><mrk mid="1" mtype="seg"> An application can safely attempt to boot <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, even though it is already running, without any errors.</mrk><mrk mid="2" mtype="seg"> Applications connect to <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> in the usual manner.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You do not need to make any changes to the way code interacts with <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> and its JDBC driver.</mrk><mrk mid="1" mtype="seg"> An application can safely attempt to boot <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, even though it is already running, without any errors.</mrk><mrk mid="2" mtype="seg"> Applications connect to <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> in the usual manner.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getResource<ept id="1">&lt;/i&gt;</ept> is not supported.</source>
+<seg-source><mrk mid="0" mtype="seg">The method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getResource<ept id="1">&lt;/i&gt;</ept> is not supported.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The method <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getResource<ept id="1">&lt;/i&gt;</ept> is not supported.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdeploy21645.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Enable database class loading with a property</source>
+<seg-source><mrk mid="0" mtype="seg">Enable database class loading with a property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enable database class loading with a property</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Once you have added one or more jar files to a database, you must set the database jar classpath by including the jar file or files in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.database.classpath<ept id="1">&lt;/i&gt;</ept> property to enable <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> to load classes from the jar files.</source>
+<seg-source><mrk mid="0" mtype="seg">Once you have added one or more jar files to a database, you must set the database jar classpath by including the jar file or files in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.database.classpath<ept id="1">&lt;/i&gt;</ept> property to enable <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> to load classes from the jar files.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Once you have added one or more jar files to a database, you must set the database jar classpath by including the jar file or files in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.database.classpath<ept id="1">&lt;/i&gt;</ept> property to enable <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> to load classes from the jar files.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">This property, which behaves like a classpath, specifies the jar files to be searched for classes and resources and the order in which they are searched. If <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not find a needed class stored in the database, it can retrieve the class from the user's classpath. (<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> first looks in the user's classpath before looking in the database.)</source>
+<seg-source><mrk mid="0" mtype="seg">This property, which behaves like a classpath, specifies the jar files to be searched for classes and resources and the order in which they are searched.</mrk><mrk mid="1" mtype="seg"> If <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not find a needed class stored in the database, it can retrieve the class from the user's classpath.</mrk><mrk mid="2" mtype="seg"> (<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> first looks in the user's classpath before looking in the database.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This property, which behaves like a classpath, specifies the jar files to be searched for classes and resources and the order in which they are searched.</mrk><mrk mid="1" mtype="seg"> If <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does not find a needed class stored in the database, it can retrieve the class from the user's classpath.</mrk><mrk mid="2" mtype="seg"> (<bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> first looks in the user's classpath before looking in the database.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Separate jar files with a colon (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>:<ept id="1">&lt;/codeph&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">Separate jar files with a colon (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>:<ept id="1">&lt;/codeph&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Separate jar files with a colon (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>:<ept id="1">&lt;/codeph&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Use fully qualified identifiers for the jar files (schema name and jar name).</source>
+<seg-source><mrk mid="0" mtype="seg">Use fully qualified identifiers for the jar files (schema name and jar name).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use fully qualified identifiers for the jar files (schema name and jar name).</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Set the property as a database-level property for the database.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the property as a database-level property for the database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the property as a database-level property for the database.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Example:</source>
+<seg-source><mrk mid="0" mtype="seg">Example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.classpath', 'APP.ToursLogic:APP.ACCOUNTINGLOGIC')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.classpath', 'APP.ToursLogic:APP.ACCOUNTINGLOGIC')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY( 'derby.database.classpath', 'APP.ToursLogic:APP.ACCOUNTINGLOGIC')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">See "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.database.classpath<ept id="1">&lt;/i&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information about the property.</source>
+<seg-source><mrk mid="0" mtype="seg">See "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.database.classpath<ept id="1">&lt;/i&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information about the property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See "<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.database.classpath<ept id="1">&lt;/i&gt;</ept>" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information about the property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s class loader looks first in the user's classpath for any needed classes, and then in the database. To ensure class loading with the database class loader, remove classes from the classpath.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s class loader looks first in the user's classpath for any needed classes, and then in the database.</mrk><mrk mid="1" mtype="seg"> To ensure class loading with the database class loader, remove classes from the classpath.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>'s class loader looks first in the user's classpath for any needed classes, and then in the database.</mrk><mrk mid="1" mtype="seg"> To ensure class loading with the database class loader, remove classes from the classpath.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

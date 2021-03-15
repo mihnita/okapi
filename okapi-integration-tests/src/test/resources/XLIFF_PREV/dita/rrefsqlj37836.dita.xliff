@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj37836.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">generatedColumnSpec</source>
+<seg-source><mrk mid="0" mtype="seg">generatedColumnSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">generatedColumnSpec</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Identity column attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Identity column attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Identity column attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">generatedColumnSpec</source>
+<seg-source><mrk mid="0" mtype="seg">generatedColumnSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">generatedColumnSpec</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>[ GENERATED { ALWAYS | BY DEFAULT } AS IDENTITY [ ( START WITH <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>integerConstant<ept id="2">&lt;/i&gt;</ept> [ , INCREMENT BY <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>integerConstant<ept id="3">&lt;/i&gt;</ept> ] ) ] ] ] <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>[ GENERATED { ALWAYS | BY DEFAULT } AS IDENTITY [ ( START WITH <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>integerConstant<ept id="2">&lt;/i&gt;</ept> [ , INCREMENT BY <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>integerConstant<ept id="3">&lt;/i&gt;</ept> ] ) ] ] ] <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>[ GENERATED { ALWAYS | BY DEFAULT } AS IDENTITY [ ( START WITH <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>integerConstant<ept id="2">&lt;/i&gt;</ept> [ , INCREMENT BY <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>integerConstant<ept id="3">&lt;/i&gt;</ept> ] ) ] ] ] <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Identity column attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Identity column attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Identity column attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">A table can have at most one identity column.</source>
+<seg-source><mrk mid="0" mtype="seg">A table can have at most one identity column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A table can have at most one identity column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">For SMALLINT, INT, and BIGINT columns with identity attributes, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> automatically assigns increasing integer values to the column. Identity column attributes behave like other defaults in that when an insert statement does not specify a value for the column, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> automatically provides the value. However, the value is not a constant; <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> automatically increments the default value at insertion time.</source>
+<seg-source><mrk mid="0" mtype="seg">For SMALLINT, INT, and BIGINT columns with identity attributes, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> automatically assigns increasing integer values to the column.</mrk><mrk mid="1" mtype="seg"> Identity column attributes behave like other defaults in that when an insert statement does not specify a value for the column, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> automatically provides the value.</mrk><mrk mid="2" mtype="seg"> However, the value is not a constant; <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> automatically increments the default value at insertion time.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For SMALLINT, INT, and BIGINT columns with identity attributes, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> automatically assigns increasing integer values to the column.</mrk><mrk mid="1" mtype="seg"> Identity column attributes behave like other defaults in that when an insert statement does not specify a value for the column, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> automatically provides the value.</mrk><mrk mid="2" mtype="seg"> However, the value is not a constant; <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> automatically increments the default value at insertion time.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The IDENTITY keyword can only be specified if the data type associated with the column is one of the following exact integer types.</source>
+<seg-source><mrk mid="0" mtype="seg">The IDENTITY keyword can only be specified if the data type associated with the column is one of the following exact integer types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The IDENTITY keyword can only be specified if the data type associated with the column is one of the following exact integer types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">SMALLINT</source>
+<seg-source><mrk mid="0" mtype="seg">SMALLINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SMALLINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">INT</source>
+<seg-source><mrk mid="0" mtype="seg">INT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INT</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">There are two kinds of identity columns in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>: those which are GENERATED ALWAYS and those which are GENERATED BY DEFAULT.</source>
+<seg-source><mrk mid="0" mtype="seg">There are two kinds of identity columns in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>: those which are GENERATED ALWAYS and those which are GENERATED BY DEFAULT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There are two kinds of identity columns in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>: those which are GENERATED ALWAYS and those which are GENERATED BY DEFAULT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">GENERATED ALWAYS</source>
+<seg-source><mrk mid="0" mtype="seg">GENERATED ALWAYS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GENERATED ALWAYS</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">An identity column that is GENERATED ALWAYS will increment the default value on every insertion and will store the incremented value into the column. Unlike other defaults, you cannot insert a value directly into or update an identity column that is GENERATED ALWAYS. Instead, either specify the DEFAULT keyword when inserting into the identity column, or leave the identity column out of the insertion column list altogether. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">An identity column that is GENERATED ALWAYS will increment the default value on every insertion and will store the incremented value into the column.</mrk><mrk mid="1" mtype="seg"> Unlike other defaults, you cannot insert a value directly into or update an identity column that is GENERATED ALWAYS.</mrk><mrk mid="2" mtype="seg"> Instead, either specify the DEFAULT keyword when inserting into the identity column, or leave the identity column out of the insertion column list altogether.</mrk><mrk mid="3" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An identity column that is GENERATED ALWAYS will increment the default value on every insertion and will store the incremented value into the column.</mrk><mrk mid="1" mtype="seg"> Unlike other defaults, you cannot insert a value directly into or update an identity column that is GENERATED ALWAYS.</mrk><mrk mid="2" mtype="seg"> Instead, either specify the DEFAULT keyword when inserting into the identity column, or leave the identity column out of the insertion column list altogether.</mrk><mrk mid="3" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">create table greetings (i int generated always as identity, ch char(50)); insert into greetings values (DEFAULT, 'hello'); insert into greetings(ch) values ('bonjour');</source>
+<seg-source><mrk mid="0" mtype="seg">create table greetings (i int generated always as identity, ch char(50)); insert into greetings values (DEFAULT, 'hello'); insert into greetings(ch) values ('bonjour');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create table greetings (i int generated always as identity, ch char(50)); insert into greetings values (DEFAULT, 'hello'); insert into greetings(ch) values ('bonjour');</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Automatically generated values in a GENERATED ALWAYS identity column are unique. Creating an identity column does not create an index on the column.</source>
+<seg-source><mrk mid="0" mtype="seg">Automatically generated values in a GENERATED ALWAYS identity column are unique.</mrk><mrk mid="1" mtype="seg"> Creating an identity column does not create an index on the column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Automatically generated values in a GENERATED ALWAYS identity column are unique.</mrk><mrk mid="1" mtype="seg"> Creating an identity column does not create an index on the column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">GENERATED BY DEFAULT</source>
+<seg-source><mrk mid="0" mtype="seg">GENERATED BY DEFAULT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GENERATED BY DEFAULT</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">An identity column that is GENERATED BY DEFAULT will only increment and use the default value on insertions when no explicit value is given. Unlike GENERATED ALWAYS columns, you can specify a particular value in an insertion statement to be used instead of the generated default value.</source>
+<seg-source><mrk mid="0" mtype="seg">An identity column that is GENERATED BY DEFAULT will only increment and use the default value on insertions when no explicit value is given.</mrk><mrk mid="1" mtype="seg"> Unlike GENERATED ALWAYS columns, you can specify a particular value in an insertion statement to be used instead of the generated default value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An identity column that is GENERATED BY DEFAULT will only increment and use the default value on insertions when no explicit value is given.</mrk><mrk mid="1" mtype="seg"> Unlike GENERATED ALWAYS columns, you can specify a particular value in an insertion statement to be used instead of the generated default value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">To use the generated default, either specify the DEFAULT keyword when inserting into the identity column, or just leave the identity column out of the insertion column list. To specify a value, included it in the insertion statement. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">To use the generated default, either specify the DEFAULT keyword when inserting into the identity column, or just leave the identity column out of the insertion column list.</mrk><mrk mid="1" mtype="seg"> To specify a value, included it in the insertion statement.</mrk><mrk mid="2" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To use the generated default, either specify the DEFAULT keyword when inserting into the identity column, or just leave the identity column out of the insertion column list.</mrk><mrk mid="1" mtype="seg"> To specify a value, included it in the insertion statement.</mrk><mrk mid="2" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">create table greetings (i int generated by default as identity, ch char(50)); <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- specify value "1":<ept id="1">&lt;/b&gt;</ept> insert into greetings values (1, 'hi'); <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- use generated default<ept id="2">&lt;/b&gt;</ept> insert into greetings values (DEFAULT, 'salut'); <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>-- use generated default<ept id="3">&lt;/b&gt;</ept> insert into greetings(ch) values ('bonjour');</source>
+<seg-source><mrk mid="0" mtype="seg">create table greetings (i int generated by default as identity, ch char(50)); <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- specify value "1":<ept id="1">&lt;/b&gt;</ept> insert into greetings values (1, 'hi'); <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- use generated default<ept id="2">&lt;/b&gt;</ept> insert into greetings values (DEFAULT, 'salut'); <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>-- use generated default<ept id="3">&lt;/b&gt;</ept> insert into greetings(ch) values ('bonjour');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create table greetings (i int generated by default as identity, ch char(50)); <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- specify value "1":<ept id="1">&lt;/b&gt;</ept> insert into greetings values (1, 'hi'); <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>-- use generated default<ept id="2">&lt;/b&gt;</ept> insert into greetings values (DEFAULT, 'salut'); <bpt id="3" ctype="x-b">&lt;b&gt;</bpt>-- use generated default<ept id="3">&lt;/b&gt;</ept> insert into greetings(ch) values ('bonjour');</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">Note that unlike a GENERATED ALWAYS column, a GENERATED BY DEFAULT column does not guarantee uniqueness. Thus, in the above example, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>hi<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>salut<ept id="2">&lt;/codeph&gt;</ept> rows will both have an identity value of "1", because the generated column starts at "1" and the user-specified value was also "1". To prevent duplication, especially when loading or importing data, create the table using the START WITH value which corresponds to the first identity value that the system should assign. To check for this condition and disallow it, you can use a primary key or unique constraint on the GENERATED BY DEFAULT identity column.</source>
+<seg-source><mrk mid="0" mtype="seg">Note that unlike a GENERATED ALWAYS column, a GENERATED BY DEFAULT column does not guarantee uniqueness.</mrk><mrk mid="1" mtype="seg"> Thus, in the above example, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>hi<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>salut<ept id="2">&lt;/codeph&gt;</ept> rows will both have an identity value of "1", because the generated column starts at "1" and the user-specified value was also "1".</mrk><mrk mid="2" mtype="seg"> To prevent duplication, especially when loading or importing data, create the table using the START WITH value which corresponds to the first identity value that the system should assign.</mrk><mrk mid="3" mtype="seg"> To check for this condition and disallow it, you can use a primary key or unique constraint on the GENERATED BY DEFAULT identity column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note that unlike a GENERATED ALWAYS column, a GENERATED BY DEFAULT column does not guarantee uniqueness.</mrk><mrk mid="1" mtype="seg"> Thus, in the above example, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>hi<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>salut<ept id="2">&lt;/codeph&gt;</ept> rows will both have an identity value of "1", because the generated column starts at "1" and the user-specified value was also "1".</mrk><mrk mid="2" mtype="seg"> To prevent duplication, especially when loading or importing data, create the table using the START WITH value which corresponds to the first identity value that the system should assign.</mrk><mrk mid="3" mtype="seg"> To check for this condition and disallow it, you can use a primary key or unique constraint on the GENERATED BY DEFAULT identity column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">By default, the initial value of an identity column is 1, and the amount of the increment is 1. You can specify non-default values for both the initial value and the interval amount when you define the column with the key words START WITH and INCREMENT BY. And if you specify a negative number for the increment value, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>decrements<ept id="2">&lt;/i&gt;</ept> the value with each insert. If this value is positive, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> increments the value with each insert. A value of 0 raises a statement exception.</source>
+<seg-source><mrk mid="0" mtype="seg">By default, the initial value of an identity column is 1, and the amount of the increment is 1.</mrk><mrk mid="1" mtype="seg"> You can specify non-default values for both the initial value and the interval amount when you define the column with the key words START WITH and INCREMENT BY.</mrk><mrk mid="2" mtype="seg"> And if you specify a negative number for the increment value, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>decrements<ept id="2">&lt;/i&gt;</ept> the value with each insert.</mrk><mrk mid="3" mtype="seg"> If this value is positive, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> increments the value with each insert.</mrk><mrk mid="4" mtype="seg"> A value of 0 raises a statement exception.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default, the initial value of an identity column is 1, and the amount of the increment is 1.</mrk><mrk mid="1" mtype="seg"> You can specify non-default values for both the initial value and the interval amount when you define the column with the key words START WITH and INCREMENT BY.</mrk><mrk mid="2" mtype="seg"> And if you specify a negative number for the increment value, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>decrements<ept id="2">&lt;/i&gt;</ept> the value with each insert.</mrk><mrk mid="3" mtype="seg"> If this value is positive, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> increments the value with each insert.</mrk><mrk mid="4" mtype="seg"> A value of 0 raises a statement exception.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">The maximum and minimum values allowed in identity columns are determined by the data type of the column. Attempting to insert a value outside the range of values supported by the data type raises an exception. The following table shows the supported ranges.</source>
+<seg-source><mrk mid="0" mtype="seg">The maximum and minimum values allowed in identity columns are determined by the data type of the column.</mrk><mrk mid="1" mtype="seg"> Attempting to insert a value outside the range of values supported by the data type raises an exception.</mrk><mrk mid="2" mtype="seg"> The following table shows the supported ranges.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The maximum and minimum values allowed in identity columns are determined by the data type of the column.</mrk><mrk mid="1" mtype="seg"> Attempting to insert a value outside the range of values supported by the data type raises an exception.</mrk><mrk mid="2" mtype="seg"> The following table shows the supported ranges.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Maximum and minimum values for columns with generated column specs</source>
+<seg-source><mrk mid="0" mtype="seg">Maximum and minimum values for columns with generated column specs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Maximum and minimum values for columns with generated column specs</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">This table lists the maximum and minimum values for each data type for columns with generated column specs.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the maximum and minimum values for each data type for columns with generated column specs.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the maximum and minimum values for each data type for columns with generated column specs.</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Data Type</source>
+<seg-source><mrk mid="0" mtype="seg">Data Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">Maximum Value</source>
+<seg-source><mrk mid="0" mtype="seg">Maximum Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Maximum Value</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Minimum Value</source>
+<seg-source><mrk mid="0" mtype="seg">Minimum Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Minimum Value</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">SMALLINT</source>
+<seg-source><mrk mid="0" mtype="seg">SMALLINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SMALLINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">32767 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Short.MAX_VALUE<ept id="1">&lt;/i&gt;</ept>)</source>
+<seg-source><mrk mid="0" mtype="seg">32767 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Short.MAX_VALUE<ept id="1">&lt;/i&gt;</ept>)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32767 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Short.MAX_VALUE<ept id="1">&lt;/i&gt;</ept>)</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">-32768 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Short.MIN_VALUE<ept id="1">&lt;/i&gt;</ept>)</source>
+<seg-source><mrk mid="0" mtype="seg">-32768 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Short.MIN_VALUE<ept id="1">&lt;/i&gt;</ept>)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-32768 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Short.MIN_VALUE<ept id="1">&lt;/i&gt;</ept>)</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">INT</source>
+<seg-source><mrk mid="0" mtype="seg">INT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INT</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">2147483647 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer.MAX_VALUE<ept id="1">&lt;/i&gt;</ept>)</source>
+<seg-source><mrk mid="0" mtype="seg">2147483647 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer.MAX_VALUE<ept id="1">&lt;/i&gt;</ept>)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2147483647 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer.MAX_VALUE<ept id="1">&lt;/i&gt;</ept>)</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">-2147483648 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer.MIN_VALUE<ept id="1">&lt;/i&gt;</ept>)</source>
+<seg-source><mrk mid="0" mtype="seg">-2147483648 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer.MIN_VALUE<ept id="1">&lt;/i&gt;</ept>)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-2147483648 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Integer.MIN_VALUE<ept id="1">&lt;/i&gt;</ept>)</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">BIGINT</source>
+<seg-source><mrk mid="0" mtype="seg">BIGINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BIGINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">9223372036854775807 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Long.MAX_VALUE<ept id="1">&lt;/i&gt;</ept>)</source>
+<seg-source><mrk mid="0" mtype="seg">9223372036854775807 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Long.MAX_VALUE<ept id="1">&lt;/i&gt;</ept>)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">9223372036854775807 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Long.MAX_VALUE<ept id="1">&lt;/i&gt;</ept>)</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">-9223372036854775808 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Long.MIN_VALUE<ept id="1">&lt;/i&gt;</ept>)</source>
+<seg-source><mrk mid="0" mtype="seg">-9223372036854775808 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Long.MIN_VALUE<ept id="1">&lt;/i&gt;</ept>)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-9223372036854775808 (<bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.lang.Long.MIN_VALUE<ept id="1">&lt;/i&gt;</ept>)</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">Automatically generated values in an identity column are unique. Use a primary key or unique constraint on a column to guarantee uniqueness. Creating an identity column <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>does not<ept id="1">&lt;/i&gt;</ept> create an index on the column.</source>
+<seg-source><mrk mid="0" mtype="seg">Automatically generated values in an identity column are unique.</mrk><mrk mid="1" mtype="seg"> Use a primary key or unique constraint on a column to guarantee uniqueness.</mrk><mrk mid="2" mtype="seg"> Creating an identity column <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>does not<ept id="1">&lt;/i&gt;</ept> create an index on the column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Automatically generated values in an identity column are unique.</mrk><mrk mid="1" mtype="seg"> Use a primary key or unique constraint on a column to guarantee uniqueness.</mrk><mrk mid="2" mtype="seg"> Creating an identity column <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>does not<ept id="1">&lt;/i&gt;</ept> create an index on the column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>IDENTITY_VAL_LOCAL<ept id="1">&lt;/codeph&gt;</ept> function is a non-deterministic function that returns the most recently assigned value for an identity column. See <bpt id="2" ctype="x-xref">&lt;xref href="rrefidentityvallocal.dita#rrefidentityvallocal"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>IDENTITY_VAL_LOCAL<ept id="1">&lt;/codeph&gt;</ept> function is a non-deterministic function that returns the most recently assigned value for an identity column.</mrk><mrk mid="1" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="rrefidentityvallocal.dita#rrefidentityvallocal"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>IDENTITY_VAL_LOCAL<ept id="1">&lt;/codeph&gt;</ept> function is a non-deterministic function that returns the most recently assigned value for an identity column.</mrk><mrk mid="1" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="rrefidentityvallocal.dita#rrefidentityvallocal"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">Specify the schema, table, and column name using the same case as those names are stored in the system tables--that is, all upper case unless you used delimited identifiers when creating those database objects.</source>
+<seg-source><mrk mid="0" mtype="seg">Specify the schema, table, and column name using the same case as those names are stored in the system tables--that is, all upper case unless you used delimited identifiers when creating those database objects.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specify the schema, table, and column name using the same case as those names are stored in the system tables--that is, all upper case unless you used delimited identifiers when creating those database objects.</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> keeps track of the last increment value for a column in a cache. It also stores the value of what the next increment value will be for the column on disk in the AUTOINCREMENTVALUE column of the <bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsistabs22441.dita#rrefsistabs22441"&gt;</bpt>SYS.SYSCOLUMNS system table<ept id="2">&lt;/xref&gt;</ept>. Rolling back a transaction does not undo this value, and thus rolled-back transactions can leave "gaps" in the values automatically inserted into an identity column. <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> behaves this way to avoid locking a row in SYS.SYSCOLUMNS for the duration of a transaction and keeping concurrency high.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> keeps track of the last increment value for a column in a cache.</mrk><mrk mid="1" mtype="seg"> It also stores the value of what the next increment value will be for the column on disk in the AUTOINCREMENTVALUE column of the <bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsistabs22441.dita#rrefsistabs22441"&gt;</bpt>SYS.SYSCOLUMNS system table<ept id="2">&lt;/xref&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> Rolling back a transaction does not undo this value, and thus rolled-back transactions can leave "gaps" in the values automatically inserted into an identity column.</mrk><mrk mid="3" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> behaves this way to avoid locking a row in SYS.SYSCOLUMNS for the duration of a transaction and keeping concurrency high.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> keeps track of the last increment value for a column in a cache.</mrk><mrk mid="1" mtype="seg"> It also stores the value of what the next increment value will be for the column on disk in the AUTOINCREMENTVALUE column of the <bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsistabs22441.dita#rrefsistabs22441"&gt;</bpt>SYS.SYSCOLUMNS system table<ept id="2">&lt;/xref&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> Rolling back a transaction does not undo this value, and thus rolled-back transactions can leave "gaps" in the values automatically inserted into an identity column.</mrk><mrk mid="3" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> behaves this way to avoid locking a row in SYS.SYSCOLUMNS for the duration of a transaction and keeping concurrency high.</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">Identity columns</source>
+<seg-source><mrk mid="0" mtype="seg">Identity columns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Identity columns</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">and triggers</source>
+<seg-source><mrk mid="0" mtype="seg">and triggers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and triggers</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">When an insert happens within a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>triggeredSQLStatement<ept id="1">&lt;/i&gt;</ept>, the value inserted by the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>triggeredSQLStatement<ept id="2">&lt;/i&gt;</ept> into the identity column is available from <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ConnectionInfo<ept id="3">&lt;/i&gt;</ept> only within the trigger code. The trigger code is also able to see the value inserted by the statement that caused the trigger to fire. However, the statement that caused the trigger to fire is not able to see the value inserted by the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>triggeredSQLStatement<ept id="4">&lt;/i&gt;</ept> into the identity column. Likewise, triggers can be nested (or recursive). An SQL statement can cause trigger T1 to fire. T1 in turn executes an SQL statement that causes trigger T2 to fire. If both T1 and T2 insert rows into a table that cause <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> to insert into an identity column, trigger T1 cannot see the value caused by T2's insert, but T2 can see the value caused by T1's insert. Each nesting level can see increment values generated by itself and previous nesting levels, all the way to the top-level SQL statement that initiated the recursive triggers. You can only have 16 levels of trigger recursion.</source>
+<seg-source><mrk mid="0" mtype="seg">When an insert happens within a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>triggeredSQLStatement<ept id="1">&lt;/i&gt;</ept>, the value inserted by the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>triggeredSQLStatement<ept id="2">&lt;/i&gt;</ept> into the identity column is available from <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ConnectionInfo<ept id="3">&lt;/i&gt;</ept> only within the trigger code.</mrk><mrk mid="1" mtype="seg"> The trigger code is also able to see the value inserted by the statement that caused the trigger to fire.</mrk><mrk mid="2" mtype="seg"> However, the statement that caused the trigger to fire is not able to see the value inserted by the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>triggeredSQLStatement<ept id="4">&lt;/i&gt;</ept> into the identity column.</mrk><mrk mid="3" mtype="seg"> Likewise, triggers can be nested (or recursive).</mrk><mrk mid="4" mtype="seg"> An SQL statement can cause trigger T1 to fire.</mrk><mrk mid="5" mtype="seg"> T1 in turn executes an SQL statement that causes trigger T2 to fire.</mrk><mrk mid="6" mtype="seg"> If both T1 and T2 insert rows into a table that cause <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> to insert into an identity column, trigger T1 cannot see the value caused by T2's insert, but T2 can see the value caused by T1's insert.</mrk><mrk mid="7" mtype="seg"> Each nesting level can see increment values generated by itself and previous nesting levels, all the way to the top-level SQL statement that initiated the recursive triggers.</mrk><mrk mid="8" mtype="seg"> You can only have 16 levels of trigger recursion.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When an insert happens within a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>triggeredSQLStatement<ept id="1">&lt;/i&gt;</ept>, the value inserted by the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>triggeredSQLStatement<ept id="2">&lt;/i&gt;</ept> into the identity column is available from <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ConnectionInfo<ept id="3">&lt;/i&gt;</ept> only within the trigger code.</mrk><mrk mid="1" mtype="seg"> The trigger code is also able to see the value inserted by the statement that caused the trigger to fire.</mrk><mrk mid="2" mtype="seg"> However, the statement that caused the trigger to fire is not able to see the value inserted by the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>triggeredSQLStatement<ept id="4">&lt;/i&gt;</ept> into the identity column.</mrk><mrk mid="3" mtype="seg"> Likewise, triggers can be nested (or recursive).</mrk><mrk mid="4" mtype="seg"> An SQL statement can cause trigger T1 to fire.</mrk><mrk mid="5" mtype="seg"> T1 in turn executes an SQL statement that causes trigger T2 to fire.</mrk><mrk mid="6" mtype="seg"> If both T1 and T2 insert rows into a table that cause <bpt id="5" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="5">&lt;/ph&gt;</ept> to insert into an identity column, trigger T1 cannot see the value caused by T2's insert, but T2 can see the value caused by T1's insert.</mrk><mrk mid="7" mtype="seg"> Each nesting level can see increment values generated by itself and previous nesting levels, all the way to the top-level SQL statement that initiated the recursive triggers.</mrk><mrk mid="8" mtype="seg"> You can only have 16 levels of trigger recursion.</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">create table greetings (i int generated by default as identity (START WITH 2, INCREMENT BY 1), ch char(50)); -- specify value "1": insert into greetings values (1, 'hi'); -- use generated default insert into greetings values (DEFAULT, 'salut'); -- use generated default insert into greetings(ch) values ('bonjour');</source>
+<seg-source><mrk mid="0" mtype="seg">create table greetings (i int generated by default as identity (START WITH 2, INCREMENT BY 1), ch char(50)); -- specify value "1": insert into greetings values (1, 'hi'); -- use generated default insert into greetings values (DEFAULT, 'salut'); -- use generated default insert into greetings(ch) values ('bonjour');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create table greetings (i int generated by default as identity (START WITH 2, INCREMENT BY 1), ch char(50)); -- specify value "1": insert into greetings values (1, 'hi'); -- use generated default insert into greetings values (DEFAULT, 'salut'); -- use generated default insert into greetings(ch) values ('bonjour');</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsistabssystableperms.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSTABLEPERMS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSTABLEPERMS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSTABLEPERMS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The SYSTABLEPERMS table stores the table permissions that have been granted but not revoked.</source>
+<seg-source><mrk mid="0" mtype="seg">The SYSTABLEPERMS table stores the table permissions that have been granted but not revoked.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SYSTABLEPERMS table stores the table permissions that have been granted but not revoked.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">system tables</source>
+<seg-source><mrk mid="0" mtype="seg">system tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SYSTABLEPERMS</source>
+<seg-source><mrk mid="0" mtype="seg">SYSTABLEPERMS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSTABLEPERMS</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">permissions</source>
+<seg-source><mrk mid="0" mtype="seg">permissions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">permissions</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SYSTABLEPERMS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSTABLEPERMS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSTABLEPERMS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SYSTABLEPERMS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSTABLEPERMS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSTABLEPERMS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">All of the permissions for one (GRANTEE, TABLEID, GRANTOR) combination are specified in a single row in the SYSTABLEPERMS table. The keys for the SYSTABLEPERMS table are:</source>
+<seg-source><mrk mid="0" mtype="seg">All of the permissions for one (GRANTEE, TABLEID, GRANTOR) combination are specified in a single row in the SYSTABLEPERMS table.</mrk><mrk mid="1" mtype="seg"> The keys for the SYSTABLEPERMS table are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All of the permissions for one (GRANTEE, TABLEID, GRANTOR) combination are specified in a single row in the SYSTABLEPERMS table.</mrk><mrk mid="1" mtype="seg"> The keys for the SYSTABLEPERMS table are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Primary key (GRANTEE, TABLEID, GRANTOR)</source>
+<seg-source><mrk mid="0" mtype="seg">Primary key (GRANTEE, TABLEID, GRANTOR)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Primary key (GRANTEE, TABLEID, GRANTOR)</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Unique key (TABLEPERMSID)</source>
+<seg-source><mrk mid="0" mtype="seg">Unique key (TABLEPERMSID)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unique key (TABLEPERMSID)</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Foreign key (TABLEID references SYS.SYSTABLES)</source>
+<seg-source><mrk mid="0" mtype="seg">Foreign key (TABLEID references SYS.SYSTABLES)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Foreign key (TABLEID references SYS.SYSTABLES)</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The following table shows the contents of the SYSTABLEPERMS system table.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table shows the contents of the SYSTABLEPERMS system table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table shows the contents of the SYSTABLEPERMS system table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">SYSTABLEPERMS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSTABLEPERMS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSTABLEPERMS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">For each column in the SYSTABLEPERMS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</source>
+<seg-source><mrk mid="0" mtype="seg">For each column in the SYSTABLEPERMS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For each column in the SYSTABLEPERMS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Column Name</source>
+<seg-source><mrk mid="0" mtype="seg">Column Name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column Name</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Length</source>
+<seg-source><mrk mid="0" mtype="seg">Length</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Length</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Nullable</source>
+<seg-source><mrk mid="0" mtype="seg">Nullable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nullable</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Contents</source>
+<seg-source><mrk mid="0" mtype="seg">Contents</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contents</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">TABLEPERMSID</source>
+<seg-source><mrk mid="0" mtype="seg">TABLEPERMSID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TABLEPERMSID</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">36</source>
+<seg-source><mrk mid="0" mtype="seg">36</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">36</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Used by the dependency manager to track the dependency of a view, trigger, or constraint on the table level permissions</source>
+<seg-source><mrk mid="0" mtype="seg">Used by the dependency manager to track the dependency of a view, trigger, or constraint on the table level permissions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Used by the dependency manager to track the dependency of a view, trigger, or constraint on the table level permissions</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">GRANTEE</source>
+<seg-source><mrk mid="0" mtype="seg">GRANTEE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GRANTEE</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">128</source>
+<seg-source><mrk mid="0" mtype="seg">128</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">128</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">The authorization ID of the user or role to which the privilege is granted</source>
+<seg-source><mrk mid="0" mtype="seg">The authorization ID of the user or role to which the privilege is granted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The authorization ID of the user or role to which the privilege is granted</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">GRANTOR</source>
+<seg-source><mrk mid="0" mtype="seg">GRANTOR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GRANTOR</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">128</source>
+<seg-source><mrk mid="0" mtype="seg">128</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">128</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">The authorization ID of the user who granted the privilege. Privileges can be granted only by the object owner</source>
+<seg-source><mrk mid="0" mtype="seg">The authorization ID of the user who granted the privilege.</mrk><mrk mid="1" mtype="seg"> Privileges can be granted only by the object owner</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The authorization ID of the user who granted the privilege.</mrk><mrk mid="1" mtype="seg"> Privileges can be granted only by the object owner</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">TABLEID</source>
+<seg-source><mrk mid="0" mtype="seg">TABLEID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TABLEID</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">36</source>
+<seg-source><mrk mid="0" mtype="seg">36</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">36</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">The unique identifier for the table on which the permissions have been granted</source>
+<seg-source><mrk mid="0" mtype="seg">The unique identifier for the table on which the permissions have been granted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The unique identifier for the table on which the permissions have been granted</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">SELECTPRIV</source>
+<seg-source><mrk mid="0" mtype="seg">SELECTPRIV</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECTPRIV</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">Specifies if the SELECT permission is granted. The valid values are:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies if the SELECT permission is granted.</mrk><mrk mid="1" mtype="seg"> The valid values are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies if the SELECT permission is granted.</mrk><mrk mid="1" mtype="seg"> The valid values are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu45" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)
+<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)
+<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)</mrk>
+<mrk mid="1" mtype="seg"><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)</mrk>
+<mrk mid="2" mtype="seg"><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)</mrk>
+<mrk mid="1" mtype="seg"><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)</mrk>
+<mrk mid="2" mtype="seg"><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">DELETEPRIV</source>
+<seg-source><mrk mid="0" mtype="seg">DELETEPRIV</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DELETEPRIV</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">Specifies if the DELETE permission is granted. The valid values are:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies if the DELETE permission is granted.</mrk><mrk mid="1" mtype="seg"> The valid values are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies if the DELETE permission is granted.</mrk><mrk mid="1" mtype="seg"> The valid values are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu51" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)
+<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)
+<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)</mrk>
+<mrk mid="1" mtype="seg"><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)</mrk>
+<mrk mid="2" mtype="seg"><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)</mrk>
+<mrk mid="1" mtype="seg"><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)</mrk>
+<mrk mid="2" mtype="seg"><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">INSERTPRIV</source>
+<seg-source><mrk mid="0" mtype="seg">INSERTPRIV</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERTPRIV</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">Specifies if the INSERT permission is granted. The valid values are:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies if the INSERT permission is granted.</mrk><mrk mid="1" mtype="seg"> The valid values are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies if the INSERT permission is granted.</mrk><mrk mid="1" mtype="seg"> The valid values are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu57" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)
+<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)
+<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)</mrk>
+<mrk mid="1" mtype="seg"><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)</mrk>
+<mrk mid="2" mtype="seg"><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)</mrk>
+<mrk mid="1" mtype="seg"><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)</mrk>
+<mrk mid="2" mtype="seg"><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">UPDATEPRIV</source>
+<seg-source><mrk mid="0" mtype="seg">UPDATEPRIV</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UPDATEPRIV</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">Specifies if the UPDATE permission is granted. The valid values are:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies if the UPDATE permission is granted.</mrk><mrk mid="1" mtype="seg"> The valid values are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies if the UPDATE permission is granted.</mrk><mrk mid="1" mtype="seg"> The valid values are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu63" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)
+<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)
+<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)</mrk>
+<mrk mid="1" mtype="seg"><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)</mrk>
+<mrk mid="2" mtype="seg"><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)</mrk>
+<mrk mid="1" mtype="seg"><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)</mrk>
+<mrk mid="2" mtype="seg"><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en">REFERENCESPRIV</source>
+<seg-source><mrk mid="0" mtype="seg">REFERENCESPRIV</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REFERENCESPRIV</mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">Specifies if the REFERENCE permission is granted. The valid values are:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies if the REFERENCE permission is granted.</mrk><mrk mid="1" mtype="seg"> The valid values are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies if the REFERENCE permission is granted.</mrk><mrk mid="1" mtype="seg"> The valid values are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu69" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)
+<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)
+<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)</mrk>
+<mrk mid="1" mtype="seg"><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)</mrk>
+<mrk mid="2" mtype="seg"><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)</mrk>
+<mrk mid="1" mtype="seg"><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)</mrk>
+<mrk mid="2" mtype="seg"><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en">TRIGGERPRIV</source>
+<seg-source><mrk mid="0" mtype="seg">TRIGGERPRIV</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TRIGGERPRIV</mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu74">
+<source xml:lang="en">Specifies if the TRIGGER permission is granted. The valid values are:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies if the TRIGGER permission is granted.</mrk><mrk mid="1" mtype="seg"> The valid values are:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies if the TRIGGER permission is granted.</mrk><mrk mid="1" mtype="seg"> The valid values are:</mrk></target>
+</trans-unit>
+<trans-unit id="tu75" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)
+<bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)
+<bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)</mrk>
+<mrk mid="1" mtype="seg"><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)</mrk>
+<mrk mid="2" mtype="seg"><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'y'<ept id="1">&lt;/i&gt;</ept> (non-grantable privilege)</mrk>
+<mrk mid="1" mtype="seg"><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'Y'<ept id="2">&lt;/i&gt;</ept> (grantable privilege)</mrk>
+<mrk mid="2" mtype="seg"><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'N'<ept id="3">&lt;/i&gt;</ept> (no privilege)</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

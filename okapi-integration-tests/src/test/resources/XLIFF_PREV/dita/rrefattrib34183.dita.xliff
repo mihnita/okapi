@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefattrib34183.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Creating a connection without specifying attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Creating a connection without specifying attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creating a connection without specifying attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Attributes to database connection URL</source>
+<seg-source><mrk mid="0" mtype="seg">Attributes to database connection URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attributes to database connection URL</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">If no attributes are specified, you must specify a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>databaseName.<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">If no attributes are specified, you must specify a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>databaseName.<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If no attributes are specified, you must specify a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>databaseName.<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> opens a connection to an existing database with that name in the current system directory. If the database does not exist, the connection attempt returns an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="2">&lt;/i&gt;</ept> indicating that the database cannot be found.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> opens a connection to an existing database with that name in the current system directory.</mrk><mrk mid="1" mtype="seg"> If the database does not exist, the connection attempt returns an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="2">&lt;/i&gt;</ept> indicating that the database cannot be found.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> opens a connection to an existing database with that name in the current system directory.</mrk><mrk mid="1" mtype="seg"> If the database does not exist, the connection attempt returns an <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLException<ept id="2">&lt;/i&gt;</ept> indicating that the database cannot be found.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">jdbc:derby:mydb</source>
+<seg-source><mrk mid="0" mtype="seg">jdbc:derby:mydb</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">jdbc:derby:mydb</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

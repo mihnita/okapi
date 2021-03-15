@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljcreatetype.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CREATE TYPE statement</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE TYPE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE TYPE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">CREATE TYPE statement</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE TYPE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE TYPE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SQL statements</source>
+<seg-source><mrk mid="0" mtype="seg">SQL statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">CREATE TYPE</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE TYPE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE TYPE</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">user-defined types</source>
+<seg-source><mrk mid="0" mtype="seg">user-defined types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user-defined types</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">creating</source>
+<seg-source><mrk mid="0" mtype="seg">creating</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">creating</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">data types</source>
+<seg-source><mrk mid="0" mtype="seg">data types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">data types</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">user-defined</source>
+<seg-source><mrk mid="0" mtype="seg">user-defined</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user-defined</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">The CREATE TYPE statement creates a user-defined type (UDT). A UDT is a serializable Java class whose instances are stored in columns. The class, specified by the <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>, must implement the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.io.Serializable<ept id="2">&lt;/i&gt;</ept> interface.</source>
+<seg-source><mrk mid="0" mtype="seg">The CREATE TYPE statement creates a user-defined type (UDT).</mrk><mrk mid="1" mtype="seg"> A UDT is a serializable Java class whose instances are stored in columns.</mrk><mrk mid="2" mtype="seg"> The class, specified by the <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>, must implement the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.io.Serializable<ept id="2">&lt;/i&gt;</ept> interface.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The CREATE TYPE statement creates a user-defined type (UDT).</mrk><mrk mid="1" mtype="seg"> A UDT is a serializable Java class whose instances are stored in columns.</mrk><mrk mid="2" mtype="seg"> The class, specified by the <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>, must implement the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.io.Serializable<ept id="2">&lt;/i&gt;</ept> interface.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TYPE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rreftypename.dita#rreftypename"&gt;</bpt>typeName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt>EXTERNAL NAME<ept id="4">&lt;/xref&gt;</ept> <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="5">&lt;/i&gt;</ept> LANGUAGE JAVA<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TYPE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rreftypename.dita#rreftypename"&gt;</bpt>typeName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt>EXTERNAL NAME<ept id="4">&lt;/xref&gt;</ept> <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="5">&lt;/i&gt;</ept> LANGUAGE JAVA<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TYPE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rreftypename.dita#rreftypename"&gt;</bpt>typeName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> <bpt id="4" ctype="x-xref">&lt;xref href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt>EXTERNAL NAME<ept id="4">&lt;/xref&gt;</ept> <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>singleQuotedString<ept id="5">&lt;/i&gt;</ept> LANGUAGE JAVA<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The type name is composed of an optional <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="3">&lt;/i&gt;</ept>. If a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>schemaName<ept id="4">&lt;/i&gt;</ept> is not provided, the current schema is the default schema. If a qualified type name is specified, the schema name cannot begin with SYS.</source>
+<seg-source><mrk mid="0" mtype="seg">The type name is composed of an optional <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> If a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>schemaName<ept id="4">&lt;/i&gt;</ept> is not provided, the current schema is the default schema.</mrk><mrk mid="2" mtype="seg"> If a qualified type name is specified, the schema name cannot begin with SYS.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The type name is composed of an optional <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefschemaname.dita#rrefschemaname"&gt;</bpt>schemaName<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> and a <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>SQL92Identifier<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> If a <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>schemaName<ept id="4">&lt;/i&gt;</ept> is not provided, the current schema is the default schema.</mrk><mrk mid="2" mtype="seg"> If a qualified type name is specified, the schema name cannot begin with SYS.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">If the Java class specified by the <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> does not implement <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.io.Serializable<ept id="2">&lt;/i&gt;</ept>, or if it is not public and visible on the classpath, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> raises an exception when preparing statements which refer to the UDT.</source>
+<seg-source><mrk mid="0" mtype="seg">If the Java class specified by the <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> does not implement <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.io.Serializable<ept id="2">&lt;/i&gt;</ept>, or if it is not public and visible on the classpath, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> raises an exception when preparing statements which refer to the UDT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the Java class specified by the <bpt id="1" ctype="x-xref">&lt;xref
+href="rrefsqljexternalname.dita#rrefsqljexternalname"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> does not implement <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.io.Serializable<ept id="2">&lt;/i&gt;</ept>, or if it is not public and visible on the classpath, <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> raises an exception when preparing statements which refer to the UDT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">A UDT cannot be cast explicitly to any other type, and no other type can be cast to a UDT.</source>
+<seg-source><mrk mid="0" mtype="seg">A UDT cannot be cast explicitly to any other type, and no other type can be cast to a UDT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A UDT cannot be cast explicitly to any other type, and no other type can be cast to a UDT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">A UDT has no ordering. This means that you cannot compare and sort UDTs. You cannot use them in expressions involving the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>&lt;<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>=<ept id="2">&lt;/codeph&gt;</ept>, <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>&gt;<ept id="3">&lt;/codeph&gt;</ept>, IN, BETWEEN, and LIKE operators. You cannot use UDTs in aggregates, DISTINCT expressions, and GROUP/ORDER BY clauses. You cannot build indexes on them.</source>
+<seg-source><mrk mid="0" mtype="seg">A UDT has no ordering.</mrk><mrk mid="1" mtype="seg"> This means that you cannot compare and sort UDTs.</mrk><mrk mid="2" mtype="seg"> You cannot use them in expressions involving the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>&lt;<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>=<ept id="2">&lt;/codeph&gt;</ept>, <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>&gt;<ept id="3">&lt;/codeph&gt;</ept>, IN, BETWEEN, and LIKE operators.</mrk><mrk mid="3" mtype="seg"> You cannot use UDTs in aggregates, DISTINCT expressions, and GROUP/ORDER BY clauses.</mrk><mrk mid="4" mtype="seg"> You cannot build indexes on them.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A UDT has no ordering.</mrk><mrk mid="1" mtype="seg"> This means that you cannot compare and sort UDTs.</mrk><mrk mid="2" mtype="seg"> You cannot use them in expressions involving the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>&lt;<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>=<ept id="2">&lt;/codeph&gt;</ept>, <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>&gt;<ept id="3">&lt;/codeph&gt;</ept>, IN, BETWEEN, and LIKE operators.</mrk><mrk mid="3" mtype="seg"> You cannot use UDTs in aggregates, DISTINCT expressions, and GROUP/ORDER BY clauses.</mrk><mrk mid="4" mtype="seg"> You cannot build indexes on them.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">You can use subtypes in UDTs. That is, if you use the CREATE TYPE statement to bind a class named C to a UDT, you can populate that UDT value with an instance of any subclass of C.</source>
+<seg-source><mrk mid="0" mtype="seg">You can use subtypes in UDTs.</mrk><mrk mid="1" mtype="seg"> That is, if you use the CREATE TYPE statement to bind a class named C to a UDT, you can populate that UDT value with an instance of any subclass of C.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use subtypes in UDTs.</mrk><mrk mid="1" mtype="seg"> That is, if you use the CREATE TYPE statement to bind a class named C to a UDT, you can populate that UDT value with an instance of any subclass of C.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TYPE price EXTERNAL NAME 'com.example.types.Price' LANGUAGE JAVA<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TYPE price EXTERNAL NAME 'com.example.types.Price' LANGUAGE JAVA<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TYPE price EXTERNAL NAME 'com.example.types.Price' LANGUAGE JAVA<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Using user-defined types</source>
+<seg-source><mrk mid="0" mtype="seg">Using user-defined types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using user-defined types</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">You can create tables and views with columns that have UDTs. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">You can create tables and views with columns that have UDTs.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can create tables and views with columns that have UDTs.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TABLE order ( orderID INT GENERATED ALWAYS AS IDENTITY, customerID INT REFERENCES customer( customerID ), totalPrice typeSchema.price );<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TABLE order ( orderID INT GENERATED ALWAYS AS IDENTITY, customerID INT REFERENCES customer( customerID ), totalPrice typeSchema.price );<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE TABLE order ( orderID INT GENERATED ALWAYS AS IDENTITY, customerID INT REFERENCES customer( customerID ), totalPrice typeSchema.price );<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Although UDTs have no natural order, you can use generated columns to provide useful sort orders:</source>
+<seg-source><mrk mid="0" mtype="seg">Although UDTs have no natural order, you can use generated columns to provide useful sort orders:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Although UDTs have no natural order, you can use generated columns to provide useful sort orders:</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>ALTER TABLE order ADD COLUMN normalizedValue DECIMAL( 31, 5 ) GENERATED ALWAYS AS ( convert( 'EUR', TIMESTAMP('2005-01-01 09:00:00'), totalPrice ) ); CREATE INDEX normalizedOrderPrice ON order( normalizedValue );<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>ALTER TABLE order ADD COLUMN normalizedValue DECIMAL( 31, 5 ) GENERATED ALWAYS AS ( convert( 'EUR', TIMESTAMP('2005-01-01 09:00:00'), totalPrice ) ); CREATE INDEX normalizedOrderPrice ON order( normalizedValue );<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>ALTER TABLE order ADD COLUMN normalizedValue DECIMAL( 31, 5 ) GENERATED ALWAYS AS ( convert( 'EUR', TIMESTAMP('2005-01-01 09:00:00'), totalPrice ) ); CREATE INDEX normalizedOrderPrice ON order( normalizedValue );<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">You can use factory functions to construct UDTs. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">You can use factory functions to construct UDTs.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use factory functions to construct UDTs.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO order( customerID, totalPrice ) VALUES ( 12345, makePrice( 'USD', CAST( 9.99 AS DECIMAL( 31, 5 ) ), TIMESTAMP('2009-10-16 14:24:43') ) );<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO order( customerID, totalPrice ) VALUES ( 12345, makePrice( 'USD', CAST( 9.99 AS DECIMAL( 31, 5 ) ), TIMESTAMP('2009-10-16 14:24:43') ) );<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO order( customerID, totalPrice ) VALUES ( 12345, makePrice( 'USD', CAST( 9.99 AS DECIMAL( 31, 5 ) ), TIMESTAMP('2009-10-16 14:24:43') ) );<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Once a UDT column has been populated, you can use it in other INSERT and UPDATE statements. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">Once a UDT column has been populated, you can use it in other INSERT and UPDATE statements.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Once a UDT column has been populated, you can use it in other INSERT and UPDATE statements.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO backOrder SELECT * from order; UPDATE order SET totalPrice = ( SELECT todaysDiscount FROM discount ); UPDATE order SET totalPrice = adjustForInflation( totalPrice );<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO backOrder SELECT * from order; UPDATE order SET totalPrice = ( SELECT todaysDiscount FROM discount ); UPDATE order SET totalPrice = adjustForInflation( totalPrice );<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO backOrder SELECT * from order; UPDATE order SET totalPrice = ( SELECT todaysDiscount FROM discount ); UPDATE order SET totalPrice = adjustForInflation( totalPrice );<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Using functions, you can access fields inside UDTs in a SELECT statement:</source>
+<seg-source><mrk mid="0" mtype="seg">Using functions, you can access fields inside UDTs in a SELECT statement:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using functions, you can access fields inside UDTs in a SELECT statement:</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT getCurrencyCode( totalPrice ) from order;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT getCurrencyCode( totalPrice ) from order;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT getCurrencyCode( totalPrice ) from order;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">You can use JDBC API <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setObject()<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getObject()<ept id="2">&lt;/i&gt;</ept> methods to store and retrieve values of UDTs. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">You can use JDBC API <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setObject()<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getObject()<ept id="2">&lt;/i&gt;</ept> methods to store and retrieve values of UDTs.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can use JDBC API <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>setObject()<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getObject()<ept id="2">&lt;/i&gt;</ept> methods to store and retrieve values of UDTs.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it>PreparedStatement ps = conn.prepareStatement( "SELECT * from order" ); ResultSet rs = ps.executeQuery(); while( rs.next() ) { int orderID = rs.getInt( 1 ); int customerID = rs.getInt( 2 ); Price totalPrice = (Price) rs.getObject( 3 ); ... }<it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it>PreparedStatement ps = conn.prepareStatement( "SELECT * from order" ); ResultSet rs = ps.executeQuery(); while( rs.next() ) { int orderID = rs.getInt( 1 ); int customerID = rs.getInt( 2 ); Price totalPrice = (Price) rs.getObject( 3 ); ...</mrk><mrk mid="1" mtype="seg"> }<it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-b" pos="open">&lt;b&gt;</it>PreparedStatement ps = conn.prepareStatement( "SELECT * from order" ); ResultSet rs = ps.executeQuery(); while( rs.next() ) { int orderID = rs.getInt( 1 ); int customerID = rs.getInt( 2 ); Price totalPrice = (Price) rs.getObject( 3 ); ...</mrk><mrk mid="1" mtype="seg"> }<it id="1" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

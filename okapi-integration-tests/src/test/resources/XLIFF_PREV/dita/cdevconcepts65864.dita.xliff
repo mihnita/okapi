@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts65864.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Multi-thread programming tips</source>
+<seg-source><mrk mid="0" mtype="seg">Multi-thread programming tips</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multi-thread programming tips</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You may be sharing a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> among multiple threads because you have experienced poor concurrency using separate transactions.</source>
+<seg-source><mrk mid="0" mtype="seg">You may be sharing a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> among multiple threads because you have experienced poor concurrency using separate transactions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You may be sharing a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Connection<ept id="1">&lt;/i&gt;</ept> among multiple threads because you have experienced poor concurrency using separate transactions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Here are some tips for increasing concurrency:</source>
+<seg-source><mrk mid="0" mtype="seg">Here are some tips for increasing concurrency:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here are some tips for increasing concurrency:</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Use row-level locking.</source>
+<seg-source><mrk mid="0" mtype="seg">Use row-level locking.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use row-level locking.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_READ_COMMITTED<ept id="1">&lt;/i&gt;</ept> isolation level.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_READ_COMMITTED<ept id="1">&lt;/i&gt;</ept> isolation level.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>TRANSACTION_READ_COMMITTED<ept id="1">&lt;/i&gt;</ept> isolation level.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Avoid queries that cannot use indexes; they require locking of all the rows in the table (if only very briefly) and might block an update.</source>
+<seg-source><mrk mid="0" mtype="seg">Avoid queries that cannot use indexes; they require locking of all the rows in the table (if only very briefly) and might block an update.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Avoid queries that cannot use indexes; they require locking of all the rows in the table (if only very briefly) and might block an update.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">In addition, some programmers might share a statement among multiple threads to avoid the overhead of each thread's having its own. Using the single statement cache, threads can share the same statement from <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>different connections<ept id="1">&lt;/i&gt;</ept>. For more information, see "Using the statement cache" in <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">In addition, some programmers might share a statement among multiple threads to avoid the overhead of each thread's having its own.</mrk><mrk mid="1" mtype="seg"> Using the single statement cache, threads can share the same statement from <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>different connections<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> For more information, see "Using the statement cache" in <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In addition, some programmers might share a statement among multiple threads to avoid the overhead of each thread's having its own.</mrk><mrk mid="1" mtype="seg"> Using the single statement cache, threads can share the same statement from <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>different connections<ept id="1">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> For more information, see "Using the statement cache" in <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

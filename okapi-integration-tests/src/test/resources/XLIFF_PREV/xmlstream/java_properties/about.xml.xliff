@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="about.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi-integration-tests/common-integration-tests/target/test-classes/xmlstream/java_properties/okf_xmlstream@javaproperties.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" resname="x1-key" restype="x-entry">
+<source xml:lang="en">About</source>
+<seg-source><mrk mid="0" mtype="seg">About</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">About</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="x2-key" restype="x-entry">
+<source xml:lang="en">Testing</source>
+<seg-source><mrk mid="0" mtype="seg">Testing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Testing</mrk></target>
+</trans-unit>
+<group id="tu3_ssf1" resname="sub-filter:x3-key">
+<trans-unit id="tu3_sf1_tu1" resname="x3-key_1">
+<source xml:lang="en"><bpt id="1" ctype="bold">&lt;b&gt;</bpt>Test<ept id="1">&lt;/b&gt;</ept> with some <bpt id="2" ctype="underlined">&lt;u&gt;</bpt>HTML<ept id="2">&lt;/u&gt;</ept> <bpt id="3" ctype="italic">&lt;i&gt;</bpt>tags<ept id="3">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="bold">&lt;b&gt;</bpt>Test<ept id="1">&lt;/b&gt;</ept> with some <bpt id="2" ctype="underlined">&lt;u&gt;</bpt>HTML<ept id="2">&lt;/u&gt;</ept> <bpt id="3" ctype="italic">&lt;i&gt;</bpt>tags<ept id="3">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="bold">&lt;b&gt;</bpt>Test<ept id="1">&lt;/b&gt;</ept> with some <bpt id="2" ctype="underlined">&lt;u&gt;</bpt>HTML<ept id="2">&lt;/u&gt;</ept> <bpt id="3" ctype="italic">&lt;i&gt;</bpt>tags<ept id="3">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu3" resname="x3-key" restype="x-entry">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<group id="tu4_ssf2" resname="sub-filter:x4-key">
+<trans-unit id="tu4_sf2_tu1" resname="x4-key_2" restype="x-h3">
+<source xml:lang="en"><bpt id="1" ctype="link">&lt;a name="Required_Parameters"&gt;</bpt><ept id="1">&lt;/a&gt;</ept>Required Parameters</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">&lt;a name="Required_Parameters"&gt;</bpt><ept id="1">&lt;/a&gt;</ept>Required Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="link">&lt;a name="Required_Parameters"&gt;</bpt><ept id="1">&lt;/a&gt;</ept>Required Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="tu4_sf2_tu2" resname="x4-key_5" restype="x-th">
+<source xml:lang="en">Name</source>
+<seg-source><mrk mid="0" mtype="seg">Name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Name</mrk></target>
+</trans-unit>
+<trans-unit id="tu4_sf2_tu3" resname="x4-key_8" restype="x-th">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu4_sf2_tu4" resname="x4-key_11" restype="x-th">
+<source xml:lang="en">Since</source>
+<seg-source><mrk mid="0" mtype="seg">Since</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Since</mrk></target>
+</trans-unit>
+<trans-unit id="tu4_sf2_tu5" resname="x4-key_14" restype="x-th">
+<source xml:lang="en">Description</source>
+<seg-source><mrk mid="0" mtype="seg">Description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Description</mrk></target>
+</trans-unit>
+<trans-unit id="tu4_sf2_tu6" resname="x4-key_18" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt><bpt id="2" ctype="link">[#$tu4_sf2_dp12]</bpt>buildOutputDirectory<ept id="2">&lt;/a&gt;</ept><ept id="1">&lt;/strong&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt><bpt id="2" ctype="link">[#$tu4_sf2_dp12]</bpt>buildOutputDirectory<ept id="2">&lt;/a&gt;</ept><ept id="1">&lt;/strong&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt><bpt id="2" ctype="link">[#$tu4_sf2_dp12]</bpt>buildOutputDirectory<ept id="2">&lt;/a&gt;</ept><ept id="1">&lt;/strong&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu4_sf2_tu7" resname="x4-key_21" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-code">&lt;code&gt;</bpt>File<ept id="1">&lt;/code&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-code">&lt;code&gt;</bpt>File<ept id="1">&lt;/code&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-code">&lt;code&gt;</bpt>File<ept id="1">&lt;/code&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu4_sf2_tu8" resname="x4-key_24" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-code">&lt;code&gt;</bpt>-<ept id="1">&lt;/code&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-code">&lt;code&gt;</bpt>-<ept id="1">&lt;/code&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-code">&lt;code&gt;</bpt>-<ept id="1">&lt;/code&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu4_sf2_tu9" resname="x4-key_27" restype="x-td">
+<source xml:lang="en">The default output directory<ph id="1" ctype="x-br">&lt;br /&gt;</ph> <bpt id="2" ctype="x-strong">&lt;strong&gt;</bpt>Default value is<ept id="2">&lt;/strong&gt;</ept>: <bpt id="3" ctype="x-code">&lt;code&gt;</bpt>${project.build.outputDirectory}<ept id="3">&lt;/code&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The default output directory<ph id="1" ctype="x-br">&lt;br /&gt;</ph> <bpt id="2" ctype="x-strong">&lt;strong&gt;</bpt>Default value is<ept id="2">&lt;/strong&gt;</ept>: <bpt id="3" ctype="x-code">&lt;code&gt;</bpt>${project.build.outputDirectory}<ept id="3">&lt;/code&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default output directory<ph id="1" ctype="x-br">&lt;br /&gt;</ph> <bpt id="2" ctype="x-strong">&lt;strong&gt;</bpt>Default value is<ept id="2">&lt;/strong&gt;</ept>: <bpt id="3" ctype="x-code">&lt;code&gt;</bpt>${project.build.outputDirectory}<ept id="3">&lt;/code&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4_sf2_tu10" resname="x4-key_31" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt><bpt id="2" ctype="link">[#$tu4_sf2_dp21]</bpt>useProjectReferences<ept id="2">&lt;/a&gt;</ept><ept id="1">&lt;/strong&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt><bpt id="2" ctype="link">[#$tu4_sf2_dp21]</bpt>useProjectReferences<ept id="2">&lt;/a&gt;</ept><ept id="1">&lt;/strong&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong&gt;</bpt><bpt id="2" ctype="link">[#$tu4_sf2_dp21]</bpt>useProjectReferences<ept id="2">&lt;/a&gt;</ept><ept id="1">&lt;/strong&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu4_sf2_tu11" resname="x4-key_34" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-code">&lt;code&gt;</bpt>boolean<ept id="1">&lt;/code&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-code">&lt;code&gt;</bpt>boolean<ept id="1">&lt;/code&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-code">&lt;code&gt;</bpt>boolean<ept id="1">&lt;/code&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu4_sf2_tu12" resname="x4-key_37" restype="x-td">
+<source xml:lang="en"><bpt id="1" ctype="x-code">&lt;code&gt;</bpt>-<ept id="1">&lt;/code&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-code">&lt;code&gt;</bpt>-<ept id="1">&lt;/code&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-code">&lt;code&gt;</bpt>-<ept id="1">&lt;/code&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu4_sf2_tu13" resname="x4-key_40" restype="x-td">
+<source xml:lang="en">When set to false, the plugin will not create sub-projects and instead reference those sub-projects using the installed package in the local repository<ph id="1" ctype="x-br">&lt;br /&gt;</ph> <bpt id="2" ctype="x-strong">&lt;strong&gt;</bpt>Default value is<ept id="2">&lt;/strong&gt;</ept>: <bpt id="3" ctype="x-code">&lt;code&gt;</bpt>true<ept id="3">&lt;/code&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">When set to false, the plugin will not create sub-projects and instead reference those sub-projects using the installed package in the local repository<ph id="1" ctype="x-br">&lt;br /&gt;</ph> <bpt id="2" ctype="x-strong">&lt;strong&gt;</bpt>Default value is<ept id="2">&lt;/strong&gt;</ept>: <bpt id="3" ctype="x-code">&lt;code&gt;</bpt>true<ept id="3">&lt;/code&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When set to false, the plugin will not create sub-projects and instead reference those sub-projects using the installed package in the local repository<ph id="1" ctype="x-br">&lt;br /&gt;</ph> <bpt id="2" ctype="x-strong">&lt;strong&gt;</bpt>Default value is<ept id="2">&lt;/strong&gt;</ept>: <bpt id="3" ctype="x-code">&lt;code&gt;</bpt>true<ept id="3">&lt;/code&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4_sf2_tu14" resname="x4-key_43">
+<source xml:lang="en">relationhip’s.</source>
+<seg-source><mrk mid="0" mtype="seg">relationhip’s.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">relationhip’s.</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu4" resname="x4-key" restype="x-entry">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

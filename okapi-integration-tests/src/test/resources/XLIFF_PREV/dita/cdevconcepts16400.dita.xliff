@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts16400.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Configuring deadlock detection and lock wait timeouts</source>
+<seg-source><mrk mid="0" mtype="seg">Configuring deadlock detection and lock wait timeouts</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Configuring deadlock detection and lock wait timeouts</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You configure the amount of time a transaction waits before <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does any deadlock checking with the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTimeout<ept id="2">&lt;/i&gt;</ept> property.</source>
+<seg-source><mrk mid="0" mtype="seg">You configure the amount of time a transaction waits before <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does any deadlock checking with the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTimeout<ept id="2">&lt;/i&gt;</ept> property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You configure the amount of time a transaction waits before <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does any deadlock checking with the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTimeout<ept id="2">&lt;/i&gt;</ept> property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">deadlocks</source>
+<seg-source><mrk mid="0" mtype="seg">deadlocks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">deadlocks</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">configuring detection</source>
+<seg-source><mrk mid="0" mtype="seg">configuring detection</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring detection</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">deadlocks</source>
+<seg-source><mrk mid="0" mtype="seg">deadlocks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">deadlocks</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">configuring lock wait timeouts</source>
+<seg-source><mrk mid="0" mtype="seg">configuring lock wait timeouts</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring lock wait timeouts</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">You configure the amount of time a transaction waits before timing out with the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> property. When configuring your database or system, you should consider these properties together. For example, in order for any deadlock checking to occur, the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTimeout<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> property must be set to a value lower than the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="6" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> property. If it is set to a value equal to or higher than the <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="8" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="8">&lt;/i&gt;</ept><ept id="7">&lt;/codeph&gt;</ept>, the transaction times out before <bpt id="9" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="9">&lt;/ph&gt;</ept> does any deadlock checking.</source>
+<seg-source><mrk mid="0" mtype="seg">You configure the amount of time a transaction waits before timing out with the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> property.</mrk><mrk mid="1" mtype="seg"> When configuring your database or system, you should consider these properties together.</mrk><mrk mid="2" mtype="seg"> For example, in order for any deadlock checking to occur, the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTimeout<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> property must be set to a value lower than the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="6" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> property.</mrk><mrk mid="3" mtype="seg"> If it is set to a value equal to or higher than the <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="8" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="8">&lt;/i&gt;</ept><ept id="7">&lt;/codeph&gt;</ept>, the transaction times out before <bpt id="9" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="9">&lt;/ph&gt;</ept> does any deadlock checking.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You configure the amount of time a transaction waits before timing out with the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> property.</mrk><mrk mid="1" mtype="seg"> When configuring your database or system, you should consider these properties together.</mrk><mrk mid="2" mtype="seg"> For example, in order for any deadlock checking to occur, the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTimeout<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> property must be set to a value lower than the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="6" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="6">&lt;/i&gt;</ept><ept id="5">&lt;/codeph&gt;</ept> property.</mrk><mrk mid="3" mtype="seg"> If it is set to a value equal to or higher than the <bpt id="7" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="8" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="8">&lt;/i&gt;</ept><ept id="7">&lt;/codeph&gt;</ept>, the transaction times out before <bpt id="9" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="9">&lt;/ph&gt;</ept> does any deadlock checking.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Deadlocks</source>
+<seg-source><mrk mid="0" mtype="seg">Deadlocks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Deadlocks</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">detecting</source>
+<seg-source><mrk mid="0" mtype="seg">detecting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">detecting</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">By default, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="1">&lt;/i&gt;</ept> is set to 60 seconds. -1 is the equivalent of no wait timeout. This means that transactions never time out, although <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> can choose a transaction as a deadlock victim.</source>
+<seg-source><mrk mid="0" mtype="seg">By default, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="1">&lt;/i&gt;</ept> is set to 60 seconds.</mrk><mrk mid="1" mtype="seg"> -1 is the equivalent of no wait timeout.</mrk><mrk mid="2" mtype="seg"> This means that transactions never time out, although <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> can choose a transaction as a deadlock victim.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="1">&lt;/i&gt;</ept> is set to 60 seconds.</mrk><mrk mid="1" mtype="seg"> -1 is the equivalent of no wait timeout.</mrk><mrk mid="2" mtype="seg"> This means that transactions never time out, although <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> can choose a transaction as a deadlock victim.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">In the following figure, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTimeout<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> is set to 30 seconds, while <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> has no limit.</source>
+<seg-source><mrk mid="0" mtype="seg">In the following figure, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTimeout<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> is set to 30 seconds, while <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> has no limit.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the following figure, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTimeout<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> is set to 30 seconds, while <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> has no limit.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Configuration with deadlock checking after 30 seconds and no lock wait timeouts</source>
+<seg-source><mrk mid="0" mtype="seg">Configuration with deadlock checking after 30 seconds and no lock wait timeouts</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Configuration with deadlock checking after 30 seconds and no lock wait timeouts</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en"><it id="1" ctype="x-alt" pos="open">&lt;alt&gt;</it>This figure shows a configuration in which transactions are never aborted unless they are selected as the victim when deadlocks are checked. If at 30 seconds there is no deadlock, the transaction will wait until it can obtain a lock (or forever).<it id="1" ctype="x-alt" pos="close">&lt;/alt&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-alt" pos="open">&lt;alt&gt;</it>This figure shows a configuration in which transactions are never aborted unless they are selected as the victim when deadlocks are checked.</mrk><mrk mid="1" mtype="seg"> If at 30 seconds there is no deadlock, the transaction will wait until it can obtain a lock (or forever).<it id="1" ctype="x-alt" pos="close">&lt;/alt&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-alt" pos="open">&lt;alt&gt;</it>This figure shows a configuration in which transactions are never aborted unless they are selected as the victim when deadlocks are checked.</mrk><mrk mid="1" mtype="seg"> If at 30 seconds there is no deadlock, the transaction will wait until it can obtain a lock (or forever).<it id="1" ctype="x-alt" pos="close">&lt;/alt&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">In the following figure, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTimeout<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> is set to 60 seconds, while <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> is set to 90 seconds.</source>
+<seg-source><mrk mid="0" mtype="seg">In the following figure, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTimeout<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> is set to 60 seconds, while <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> is set to 90 seconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the following figure, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTimeout<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> is set to 60 seconds, while <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> is set to 90 seconds.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Configuration with deadlock checking after 60 seconds and lock wait timeout at 90 seconds</source>
+<seg-source><mrk mid="0" mtype="seg">Configuration with deadlock checking after 60 seconds and lock wait timeout at 90 seconds</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Configuration with deadlock checking after 60 seconds and lock wait timeout at 90 seconds</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><it id="1" ctype="x-alt" pos="open">&lt;alt&gt;</it>This figure shows a configuration where deadlock checking occurs after a transaction has waited 60 seconds for a lock. After it has waited for 90 seconds, the transaction times out and is rolled back.<it id="1" ctype="x-alt" pos="close">&lt;/alt&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-alt" pos="open">&lt;alt&gt;</it>This figure shows a configuration where deadlock checking occurs after a transaction has waited 60 seconds for a lock.</mrk><mrk mid="1" mtype="seg"> After it has waited for 90 seconds, the transaction times out and is rolled back.<it id="1" ctype="x-alt" pos="close">&lt;/alt&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-alt" pos="open">&lt;alt&gt;</it>This figure shows a configuration where deadlock checking occurs after a transaction has waited 60 seconds for a lock.</mrk><mrk mid="1" mtype="seg"> After it has waited for 90 seconds, the transaction times out and is rolled back.<it id="1" ctype="x-alt" pos="close">&lt;/alt&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">In the following figure, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTimeout<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> is set to 60 seconds, while <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> is set to 50 seconds, lower than the deadlock timeout limit.</source>
+<seg-source><mrk mid="0" mtype="seg">In the following figure, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTimeout<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> is set to 60 seconds, while <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> is set to 50 seconds, lower than the deadlock timeout limit.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the following figure, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-i">&lt;i&gt;</bpt>derby.locks.deadlockTimeout<ept id="2">&lt;/i&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> is set to 60 seconds, while <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="4" ctype="x-i">&lt;i&gt;</bpt>derby.locks.waitTimeout<ept id="4">&lt;/i&gt;</ept><ept id="3">&lt;/codeph&gt;</ept> is set to 50 seconds, lower than the deadlock timeout limit.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Configuration with no deadlock checking and a 50-second lock wait timeout</source>
+<seg-source><mrk mid="0" mtype="seg">Configuration with no deadlock checking and a 50-second lock wait timeout</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Configuration with no deadlock checking and a 50-second lock wait timeout</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en"><it id="1" ctype="x-alt" pos="open">&lt;alt&gt;</it>This figure shows a configuration where no deadlock checking occurs. The transactions time out after they have waited 50 seconds.<it id="1" ctype="x-alt" pos="close">&lt;/alt&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-alt" pos="open">&lt;alt&gt;</it>This figure shows a configuration where no deadlock checking occurs.</mrk><mrk mid="1" mtype="seg"> The transactions time out after they have waited 50 seconds.<it id="1" ctype="x-alt" pos="close">&lt;/alt&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-alt" pos="open">&lt;alt&gt;</it>This figure shows a configuration where no deadlock checking occurs.</mrk><mrk mid="1" mtype="seg"> The transactions time out after they have waited 50 seconds.<it id="1" ctype="x-alt" pos="close">&lt;/alt&gt;</it></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

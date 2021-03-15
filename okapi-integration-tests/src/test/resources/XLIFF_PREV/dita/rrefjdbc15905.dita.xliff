@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbc15905.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">java.sql.DatabaseMetaData interface</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.DatabaseMetaData interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.DatabaseMetaData interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">java.sql.DatabaseMetaData interface</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.DatabaseMetaData interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.DatabaseMetaData interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">This section discusses <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.DatabaseMetaData<ept id="1">&lt;/i&gt;</ept> functionality in <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This section discusses <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.DatabaseMetaData<ept id="1">&lt;/i&gt;</ept> functionality in <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This section discusses <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.DatabaseMetaData<ept id="1">&lt;/i&gt;</ept> functionality in <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">For methods that take a catalog parameter, always specify <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>null<ept id="1">&lt;/i&gt;</ept> for this parameter, since <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not support catalogs. Similarly, methods that return a catalog in the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> will always return <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>null<ept id="4">&lt;/i&gt;</ept> in that column.</source>
+<seg-source><mrk mid="0" mtype="seg">For methods that take a catalog parameter, always specify <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>null<ept id="1">&lt;/i&gt;</ept> for this parameter, since <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not support catalogs.</mrk><mrk mid="1" mtype="seg"> Similarly, methods that return a catalog in the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> will always return <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>null<ept id="4">&lt;/i&gt;</ept> in that column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For methods that take a catalog parameter, always specify <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>null<ept id="1">&lt;/i&gt;</ept> for this parameter, since <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> does not support catalogs.</mrk><mrk mid="1" mtype="seg"> Similarly, methods that return a catalog in the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> will always return <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>null<ept id="4">&lt;/i&gt;</ept> in that column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implementation of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getColumns<ept id="2">&lt;/i&gt;</ept> method returns an empty <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> if the table specified in the third argument is a SYNONYM.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implementation of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getColumns<ept id="2">&lt;/i&gt;</ept> method returns an empty <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> if the table specified in the third argument is a SYNONYM.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implementation of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getColumns<ept id="2">&lt;/i&gt;</ept> method returns an empty <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> if the table specified in the third argument is a SYNONYM.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implementation of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getResultSetHoldability<ept id="2">&lt;/i&gt;</ept> method returns <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet.HOLD_CURSORS_OVER_COMMIT<ept id="3">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implementation of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getResultSetHoldability<ept id="2">&lt;/i&gt;</ept> method returns <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet.HOLD_CURSORS_OVER_COMMIT<ept id="3">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implementation of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getResultSetHoldability<ept id="2">&lt;/i&gt;</ept> method returns <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet.HOLD_CURSORS_OVER_COMMIT<ept id="3">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

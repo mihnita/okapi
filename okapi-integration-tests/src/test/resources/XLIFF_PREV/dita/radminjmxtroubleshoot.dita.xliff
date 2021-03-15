@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminjmxtroubleshoot.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Troubleshooting JMX connection issues</source>
+<seg-source><mrk mid="0" mtype="seg">Troubleshooting JMX connection issues</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Troubleshooting JMX connection issues</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">If you experience problems connecting remotely to an MBean server using JMX, it may be helpful to obtain some tracing information.</source>
+<seg-source><mrk mid="0" mtype="seg">If you experience problems connecting remotely to an MBean server using JMX, it may be helpful to obtain some tracing information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you experience problems connecting remotely to an MBean server using JMX, it may be helpful to obtain some tracing information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Java Management Extensions (JMX) technology</source>
+<seg-source><mrk mid="0" mtype="seg">Java Management Extensions (JMX) technology</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Java Management Extensions (JMX) technology</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">JMX</source>
+<seg-source><mrk mid="0" mtype="seg">JMX</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JMX</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">using a security policy</source>
+<seg-source><mrk mid="0" mtype="seg">using a security policy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">using a security policy</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">For details on connecting remotely to an MBean server, see <bpt id="1" ctype="x-xref">&lt;xref href="radminjmxjconsole.dita#radminjmxjconsole"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> and <bpt id="2" ctype="x-xref">&lt;xref href="radminjmxcode.dita#radminjmxcode"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For details on connecting remotely to an MBean server, see <bpt id="1" ctype="x-xref">&lt;xref href="radminjmxjconsole.dita#radminjmxjconsole"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> and <bpt id="2" ctype="x-xref">&lt;xref href="radminjmxcode.dita#radminjmxcode"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For details on connecting remotely to an MBean server, see <bpt id="1" ctype="x-xref">&lt;xref href="radminjmxjconsole.dita#radminjmxjconsole"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> and <bpt id="2" ctype="x-xref">&lt;xref href="radminjmxcode.dita#radminjmxcode"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The JMX implementation in the Oracle JDK uses the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java.util.logging<ept id="1">&lt;/codeph&gt;</ept> API to log JMX traces. For example, in order to trace SSL connection issues, set the system property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>java.util.logging.config.file<ept id="2">&lt;/codeph&gt;</ept> as shown in the following:</source>
+<seg-source><mrk mid="0" mtype="seg">The JMX implementation in the Oracle JDK uses the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java.util.logging<ept id="1">&lt;/codeph&gt;</ept> API to log JMX traces.</mrk><mrk mid="1" mtype="seg"> For example, in order to trace SSL connection issues, set the system property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>java.util.logging.config.file<ept id="2">&lt;/codeph&gt;</ept> as shown in the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The JMX implementation in the Oracle JDK uses the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java.util.logging<ept id="1">&lt;/codeph&gt;</ept> API to log JMX traces.</mrk><mrk mid="1" mtype="seg"> For example, in order to trace SSL connection issues, set the system property <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>java.util.logging.config.file<ept id="2">&lt;/codeph&gt;</ept> as shown in the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Djava.util.logging.config.file=logging.properties MyJmxClient<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Djava.util.logging.config.file=logging.properties MyJmxClient<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>java -Djava.util.logging.config.file=logging.properties MyJmxClient<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">With JConsole, a separate logging window will appear if you specify the following option when you start JConsole (see <bpt id="1" ctype="x-xref">&lt;xref href="radminjmxjconsole.dita#radminjmxjconsole"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>), as long as the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>logging.properties<ept id="2">&lt;/codeph&gt;</ept> file is found:</source>
+<seg-source><mrk mid="0" mtype="seg">With JConsole, a separate logging window will appear if you specify the following option when you start JConsole (see <bpt id="1" ctype="x-xref">&lt;xref href="radminjmxjconsole.dita#radminjmxjconsole"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>), as long as the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>logging.properties<ept id="2">&lt;/codeph&gt;</ept> file is found:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">With JConsole, a separate logging window will appear if you specify the following option when you start JConsole (see <bpt id="1" ctype="x-xref">&lt;xref href="radminjmxjconsole.dita#radminjmxjconsole"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>), as long as the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>logging.properties<ept id="2">&lt;/codeph&gt;</ept> file is found:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">-J-Djava.util.logging.config.file=logging.properties</source>
+<seg-source><mrk mid="0" mtype="seg">-J-Djava.util.logging.config.file=logging.properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-J-Djava.util.logging.config.file=logging.properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logging.properties<ept id="1">&lt;/codeph&gt;</ept> file should specify log handlers and logging levels, as in the following example:</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logging.properties<ept id="1">&lt;/codeph&gt;</ept> file should specify log handlers and logging levels, as in the following example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>logging.properties<ept id="1">&lt;/codeph&gt;</ept> file should specify log handlers and logging levels, as in the following example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">handlers = java.util.logging.ConsoleHandler .level = INFO java.util.logging.ConsoleHandler.level=FINEST java.util.logging.ConsoleHandler.formatter=java.util.logging.SimpleFormatter // Level FINEST is suitable for diagnosing SSL-related JMX remote // connection issues. javax.management.level=FINEST javax.management.remote.level=FINEST</source>
+<seg-source><mrk mid="0" mtype="seg">handlers = java.util.logging.ConsoleHandler .level = INFO java.util.logging.ConsoleHandler.level=FINEST java.util.logging.ConsoleHandler.formatter=java.util.logging.SimpleFormatter // Level FINEST is suitable for diagnosing SSL-related JMX remote // connection issues.</mrk><mrk mid="1" mtype="seg"> javax.management.level=FINEST javax.management.remote.level=FINEST</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">handlers = java.util.logging.ConsoleHandler .level = INFO java.util.logging.ConsoleHandler.level=FINEST java.util.logging.ConsoleHandler.formatter=java.util.logging.SimpleFormatter // Level FINEST is suitable for diagnosing SSL-related JMX remote // connection issues.</mrk><mrk mid="1" mtype="seg"> javax.management.level=FINEST javax.management.remote.level=FINEST</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The blog entry <bpt id="1" ctype="x-xref">&lt;xref format="html"
+href="https://blogs.oracle.com/jmxetc/entry/troubleshooting_connection_problems_in_jconsole"
+scope="external"&gt;</bpt>https://blogs.oracle.com/jmxetc/entry/troubleshooting_connection_problems_in_jconsole<ept id="1">&lt;/xref&gt;</ept> provides additional hints and tips.</source>
+<seg-source><mrk mid="0" mtype="seg">The blog entry <bpt id="1" ctype="x-xref">&lt;xref format="html"
+href="https://blogs.oracle.com/jmxetc/entry/troubleshooting_connection_problems_in_jconsole"
+scope="external"&gt;</bpt>https://blogs.oracle.com/jmxetc/entry/troubleshooting_connection_problems_in_jconsole<ept id="1">&lt;/xref&gt;</ept> provides additional hints and tips.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The blog entry <bpt id="1" ctype="x-xref">&lt;xref format="html"
+href="https://blogs.oracle.com/jmxetc/entry/troubleshooting_connection_problems_in_jconsole"
+scope="external"&gt;</bpt>https://blogs.oracle.com/jmxetc/entry/troubleshooting_connection_problems_in_jconsole<ept id="1">&lt;/xref&gt;</ept> provides additional hints and tips.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

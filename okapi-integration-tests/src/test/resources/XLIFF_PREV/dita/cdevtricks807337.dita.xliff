@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevtricks807337.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Multiple rows</source>
+<seg-source><mrk mid="0" mtype="seg">Multiple rows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multiple rows</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the complete SQL-92 VALUES clause; this is very handy in several cases.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the complete SQL-92 VALUES clause; this is very handy in several cases.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> supports the complete SQL-92 VALUES clause; this is very handy in several cases.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Multiple rows VALUES clause</source>
+<seg-source><mrk mid="0" mtype="seg">Multiple rows VALUES clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multiple rows VALUES clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The first useful case is that it can be used to insert multiple rows:</source>
+<seg-source><mrk mid="0" mtype="seg">The first useful case is that it can be used to insert multiple rows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The first useful case is that it can be used to insert multiple rows:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO OneColumnTable VALUES 1,2,3,4,5,6,7,8 INSERT INTO TwoColumnTable VALUES (1, 'first row'), (2, 'second row'), (3, 'third row')<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO OneColumnTable VALUES 1,2,3,4,5,6,7,8 INSERT INTO TwoColumnTable VALUES (1, 'first row'), (2, 'second row'), (3, 'third row')<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>INSERT INTO OneColumnTable VALUES 1,2,3,4,5,6,7,8 INSERT INTO TwoColumnTable VALUES (1, 'first row'), (2, 'second row'), (3, 'third row')<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Dynamic parameters reduce the number of times execute requests are sent across:</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic parameters reduce the number of times execute requests are sent across:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic parameters reduce the number of times execute requests are sent across:</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">ij&gt; -- send 5 rows at a time: ij&gt; <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>PREPARE p1 AS 'INSERT INTO ThreeColumnTable VALUES (?,?,?), (?,?,?), (?,?,?), (?,?,?), (?,?,?)';<ept id="1">&lt;/b&gt;</ept> ij&gt; <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>EXECUTE p1 USING 'VALUES (''1st'',1,1,''2nd'',2,2,''3rd'', 3,3,''4th'',4,4,''5th'',5,5)';<ept id="2">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">ij&gt; -- send 5 rows at a time: ij&gt; <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>PREPARE p1 AS 'INSERT INTO ThreeColumnTable VALUES (?,?,?), (?,?,?), (?,?,?), (?,?,?), (?,?,?)';<ept id="1">&lt;/b&gt;</ept> ij&gt; <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>EXECUTE p1 USING 'VALUES (''1st'',1,1,''2nd'',2,2,''3rd'', 3,3,''4th'',4,4,''5th'',5,5)';<ept id="2">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ij&gt; -- send 5 rows at a time: ij&gt; <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>PREPARE p1 AS 'INSERT INTO ThreeColumnTable VALUES (?,?,?), (?,?,?), (?,?,?), (?,?,?), (?,?,?)';<ept id="1">&lt;/b&gt;</ept> ij&gt; <bpt id="2" ctype="x-b">&lt;b&gt;</bpt>EXECUTE p1 USING 'VALUES (''1st'',1,1,''2nd'',2,2,''3rd'', 3,3,''4th'',4,4,''5th'',5,5)';<ept id="2">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

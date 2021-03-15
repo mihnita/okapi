@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts23987.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Result sets and auto-commit</source>
+<seg-source><mrk mid="0" mtype="seg">Result sets and auto-commit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Result sets and auto-commit</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Except for the result sets associated with holdable cursors, issuing a commit will cause all result sets on your connection to be closed.</source>
+<seg-source><mrk mid="0" mtype="seg">Except for the result sets associated with holdable cursors, issuing a commit will cause all result sets on your connection to be closed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Except for the result sets associated with holdable cursors, issuing a commit will cause all result sets on your connection to be closed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Result sets</source>
+<seg-source><mrk mid="0" mtype="seg">Result sets</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Result sets</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">behavior of with auto-commit</source>
+<seg-source><mrk mid="0" mtype="seg">behavior of with auto-commit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">behavior of with auto-commit</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">The JDBC application is not required to have auto-commit off when using update methods on updatable result set, even if the result set is not holdable. Positioned updates and deletes cannot be used in combination with autocommit and non-holdable result sets.</source>
+<seg-source><mrk mid="0" mtype="seg">The JDBC application is not required to have auto-commit off when using update methods on updatable result set, even if the result set is not holdable.</mrk><mrk mid="1" mtype="seg"> Positioned updates and deletes cannot be used in combination with autocommit and non-holdable result sets.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The JDBC application is not required to have auto-commit off when using update methods on updatable result set, even if the result set is not holdable.</mrk><mrk mid="1" mtype="seg"> Positioned updates and deletes cannot be used in combination with autocommit and non-holdable result sets.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

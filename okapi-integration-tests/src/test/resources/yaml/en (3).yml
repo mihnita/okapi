@@ -1,0 +1,907 @@
+en:
+  activerecord:
+    attributes:
+      active_admin_comment:
+        author_id: Author ID
+        body: Body
+        created_at: Created At
+        namespace: Namespace
+        resource_id: Resource ID
+        resource_type: Resource Type
+        updated_at: Updated At
+      address:
+        city: City
+        country_code: Country
+        first: Address 1
+        post_code: Post Code
+        second: Address 2
+        state: State
+      brand:
+        description: Description
+        name: Brand Name
+      business_contact:
+        email: Email
+        family_name: Last Name
+        given_name: First Name
+        position: Position
+        primary: Primary Contact
+        supplier_id: Business Association
+        tag_list: Tags
+        telephone: Phone
+      category:
+        description: Description
+        name: Category Name
+      certification_agency:
+        name: Name
+      certification_level:
+        add_another: Add another certification
+        certification_agency_id: Certification Agency
+        dive_shop_id: Store
+        name: Course Name
+      certification_level_cost:
+        commission_rate_money: Commission
+        cost: Course Price
+        material_price: Materials Price
+        material_price_tax_rate_id: Tax Rate
+        tax_rate_id: Tax Rate
+      certification_level_membership:
+        certification_agency_id: Certification Agency
+        certification_date: Certification Date
+        certification_level_id: Certification Level
+        membership_number: Cert ID
+        primary: Primary
+      commission_rate:
+        additional_commission_rate: Additional Commission Rate (%)
+        commission_rate_money: Commission Rate
+        default: Default (%)
+      course_event:
+        certification_level_id: Course
+        price: Price
+      customer:
+        bcd: BCD
+        bcd_own: BCD Owner
+        born_on: Date of Birth
+        credit_note: Credit Note
+        custom_fields: Custom Fields
+        customer_experience_level_id: Experience Level
+        default_discount_level: Discount %
+        email: Email Address
+        emergency_contact_details: Emergency Contact Details
+        family_name: Last Name
+        fins: Fins
+        fins_own: Fins Owner
+        gender: Gender
+        genders:
+          female: Female
+          male: Male
+        given_name: First Name
+        hotel_name: Hotel Name
+        last_dive_on: Last Dive
+        mask_own: Mask
+        mobile_phone: Mobile
+        notes: Customer Notes
+        number_of_logged_dives: Logged Dives
+        regulator_own: Regulator
+        room_number: Room Number
+        send_event_related_emails: Send Event Related Emails
+        source: Source
+        tag_list: Tags
+        tax_id: Tax ID
+        telephone: Phone
+        weight: Weight
+        wetsuit: Wetsuit
+        wetsuit_own: Wetsuit Owner
+        zero_tax_rate: Zero Rate Tax
+      customer_experience_level:
+        name: Name
+      customer_source:
+        dive_shop_id: Dive Centre ID
+        name: Name
+      discount:
+        kind: Discount Type
+        value: Value
+      dive_centre:
+        api_key: API Key
+        currency_for_dive_shop: Currency
+        email: Store Email Address
+        invite_code: Invite Code
+        name: Store Name
+        pricing_plan_id: Pricing Plan
+        primary_contact_id: Primary Contact
+        referral_code: Referral Code (to share)
+        telephone: Store Phone Number
+        website_url: Website
+        yearly_certification_band: Yearly Certification Band
+      dive_shop:
+        api_key: API Key
+        barcode_printing_type: Barcode Printing
+        calendar_type: Default Calendar
+        currency_id: Currency
+        location: Location
+        mobi_login: MobiSquad Username
+        mobi_password: MobiSquad Password
+        name: Store Name
+        printer_type: Printer Type
+        public_key: Public Key
+        standart_term: Terms
+        tax_rate_inclusion: Tax Options
+        time_zone: Time Zone
+      dive_shops/boat:
+        color: Calendar Color
+        dive_shop_id: Store Location
+        name: Resource Name
+      dive_shops/custom_field:
+        customer_id: Customer
+        name: Field Name
+        value: Value
+      dive_shops/email_setting:
+        booking_confirmed_content: Your additional content
+        disable_booking_confirmed_email: Disable email
+        disable_event_reminder_email: Disable email
+        disable_low_inventory_product_reminder_email: Disable low inventory reminder email
+        disable_online_event_booking_email: Disable email
+        disable_sales_receipt_email: Disable email
+        disable_service_ready_for_collection_email: Disable email
+        dive_shop_id: Store
+        event_reminder_content: Your additional content
+        include_sale_receipt_to_booking_confirmed: Include sales receipt
+        include_sale_receipt_to_event_reminder: Include sales receipt
+        include_sale_receipt_to_online_event_booking: Include sales receipt
+        include_sales_receipt_to_service_ready_for_collection: Include sales receipt
+        online_event_booking_content: Your additional content
+        sales_receipt_content: Your additional content
+        service_ready_for_collection_content: Your additional content
+        time_to_send_event_reminder: ! 'Time to send email:'
+      dive_shops/event_tariff:
+        max: ! 'Max # of Events'
+        min: ! 'Min # of Events'
+        name: Tariff Name
+        percentage: Discount (%)
+      diver_type:
+        name: Name
+      event:
+        additional_equipment: Additional Equipment
+        boat: Resource
+        boat_id: Resource
+        certification_agency_id: Certification Agency
+        enable_booking: Online Bookings
+        ends_at: Ends Date / Time
+        event_trip_id: Trip
+        event_type_id: Event Type
+        frequency: Frequency
+        include_material_price: Include Material Price
+        instructions: Instructions For The Customer (sent via email prior to event)
+        limit_of_registrations: ! 'Max. # of Participants'
+        location: Location(s)
+        name: Event Name
+        notes: Event Notes (for internal use)
+        number_of_dives: Dives
+        number_of_frequencies: Number Of Recurring
+        price: Event Price
+        private: Online Event Visibility
+        starts_at: Start Date / Time
+      event_customer_participant:
+        customer_id: Customer
+        event_user_participant: Assigned Staff
+        nitrox: Nitrox
+      event_customer_participant_insurance:
+        insurance_id: Insurance
+      event_customer_participant_kit_hire:
+        kit_hire_id: Kit Hire
+      event_trip:
+        commission_rate_money: Commission
+        cost: Trip Price
+        local_cost: Local price
+        name: Trip Name
+        tax_rate_id: Tax Rate
+      event_type:
+        name: Name
+      event_user_participant:
+        include_to_recuring_events: Add staff member to all future recurring events in this set
+        role: Role
+        user_id: Available Staff Members
+      frequency:
+        daily: Daily Recurring
+        fortnightly: Fortnightly
+        monthly: Monthly Recurring
+        weekly: Weekly Recurring
+        yearly: Yearly Recurring
+      gift_card:
+        available_balance: Available Balance
+        gift_card_type_id: Gift Card Type ID
+        status: Status
+        uniq_id: Uniq ID
+      gift_card_type:
+        dive_centre_id: Dive Centre ID
+        uniq_id: Uniq ID
+        valid_for: Valid For
+        value: Value
+      image:
+        image: Image
+      incident:
+        description: Incident Information
+      membership:
+        description: Description
+        frequency: Frequency
+        name: Name
+        next_renewal: Date Due
+        number_of_frequencies: Number Of Recurring
+        payee: Payee
+        price: Amount (%{unit})
+        tag_list: Tags
+      note:
+        description: Note Content
+      payment:
+        amount: Amount
+        cashier_id: Cashier
+        payment_method_id: Payment Method
+        sale_id: Sale
+      payment_credential:
+        paypal_login: PayPal API Login
+        paypal_password: PayPal API Password
+        paypal_signature: PayPal API Signature
+        stripe_publishable_key: Stripe Publishable Key
+        stripe_secret_key: Stripe Secret Key
+      payment_method:
+        additional_payment_method: Additional Payment Method
+        default: Default
+        dive_shop_id: Store
+        name: Name
+      pricing_plan:
+        billing_period: Billing Period
+        description: Description
+        name: Plan Name
+        number_of_customers: Number of Customers
+        number_of_shops: Number of Shops
+        number_of_users: Number of User
+        price: Price
+        visible: Visible
+      product:
+        accounting_code: Accounting Code
+        barcode: Barcode
+        brand_id: Brand
+        category_id: Category
+        commission_rate_id: Commission Rate
+        commission_rate_money: Commission Rate
+        deleted_at: Deleted At
+        description: Description
+        dive_centre_id: Dive Centre
+        dive_shop_id: Store
+        image: Image
+        low_inventory_reminder: Low Inventory Reminder
+        markup: Markup
+        name: Name
+        number_in_stock: Current Stock Level
+        retail_price: Retail Price
+        sku_code: SKU
+        supplier_code: Supplier Code
+        supplier_id: Supplier
+        supply_price: Supply Price
+        tax_rate_id: Tax Rate
+      profile:
+        alternative_email: Alternative Email Address
+        contracted_hours: Contracted Hours
+        emergency_contact_details: Emergency Contact Details
+        end_date: End Date
+        family_name: Last Name
+        given_name: First Name
+        locale: Locale
+        mailchimp_api_key: MailChimp API Key
+        mailchimp_list_id_for_business_contact: Business Contacts
+        mailchimp_list_id_for_customer: Customer List
+        mailchimp_list_id_for_staff_member: Staff Members
+        sale_target: Monthly Sales Target
+        start_date: Start Date
+        tag_list: Tags
+        telephone: Phone
+      sale:
+        change: Change
+        creator_id: Creator
+        dive_shop_id: Store
+        grand_total: Grand Total
+        name: Sale Name
+        status: Sale Status
+      sale_product:
+        product_id: Product
+        quantity: Quantity
+        sale_id: Sale
+      service:
+        barcode: Barcode
+        collection_date: Collection Date
+        complimentary_service: Complimentary Service
+        customer_id: Customer
+        dive_shop_id: Store
+        kit: Kit Being Serviced
+        sale_id: Sale List
+        serial_number: Serial Number
+        status: Status
+        tag_list: Tags
+        type_of_service_id: Service Type
+        user_id: Technician
+      services/service_item:
+        product_id: Product
+        service_id: Service
+      services/service_kit:
+        dive_shop_id: Store
+        name: Name
+        retail_price: Retail Price
+        stock_level: Stock Level
+        supply_price: Supply Price
+        tax_rate_id: Tax Rate
+        type_of_service_id: Service Type
+      services/time_interval:
+        service_id: Service
+        user_id: Technician
+      services/type_of_service:
+        dive_shop_id: Store
+        labour: Labour (hours)
+        labour_price: Labour Price (per hour)
+        name: Name
+        price_of_service_kit: Service Kit Price
+        tax_rate_id: Tax Rate
+      supplier:
+        email: Email Address
+        name: Business Name
+        tag_list: Tags
+        telephone: Phone
+      tag:
+        name: Tag Name
+      tax_rate:
+        additional_tax_rate: Additional Tax Rate (%)
+        amount: Amount
+        default: Default (%)
+        identifier: Tax Rate Identifier
+      user:
+        email: Email Address
+        password: Password
+        password_confirmation: Confirm Password
+        role: User Level
+        time_zone: Timezone
+    models:
+      address:
+        one: Address
+        other: Addresses
+      admin_user:
+        one: Admin User
+        other: Admin Users
+      attachment:
+        one: Attachment
+        other: Attachments
+      brand:
+        one: Brand
+        other: Brands
+      business_contact:
+        one: Supplier
+        other: Suppliers
+      category:
+        one: Category
+        other: Categories
+      certification_agency:
+        one: Certification Agency
+        other: Certification Agencies
+      certification_level:
+        one: Certification Level
+        other: Certification Levels
+      certification_level_cost:
+        one: Certification Level Cost
+        other: Certification Level Costs
+      certification_level_membership:
+        one: Certification Level Membership
+        other: Certification Level Memberships
+      commission_rate:
+        one: Commission Rate
+        other: Commission Rates
+      course_event:
+        one: Course Event
+        other: Course Events
+      currency:
+        one: Currency
+        other: Currencies
+      customer:
+        one: Customer
+        other: Customers
+      customer_experience_level:
+        one: Customer Experience Level
+        other: Customer Experience Levels
+      customer_source:
+        one: Customer Source
+        other: Customer Sources
+      discount:
+        one: Discount
+        other: Discounts
+      dive_centre:
+        one: Dive Centre
+        other: Dive Centres
+      dive_shop:
+        one: Store
+        other: Stores
+      dive_shops/boat:
+        one: Resource
+        other: Resources
+      dive_shops/custom_field:
+        one: Custom Field
+        other: Custom Fields
+      dive_shops/email_setting:
+        one: Email Setting
+        other: Email Settings
+      dive_shops/event_tariff:
+        one: Event Tariff
+        other: Event Tariffs
+      diver_type:
+        one: Diver Type
+        other: Diver Types
+      event:
+        one: Event
+        other: Events
+      event_customer_participant:
+        one: Customer Event Participant
+        other: Customer Event Participants
+      event_customer_participant_additional:
+        one: Customer Event Participant Additional
+        other: Customer Event Participant Additionals
+      event_customer_participant_insurance:
+        one: Customer Event Participant Insurance
+        other: Customer Event Participant Insurances
+      event_customer_participant_kit_hire:
+        one: Customer Event Participant Kit Hire
+        other: Customer Event Participant Kit Hires
+      event_customer_participant_transport:
+        one: Customer Event Participant Transport
+        other: Customer Event Participant Transports
+      event_trip:
+        one: Event Trip
+        other: Event Trips
+      event_type:
+        one: Event Type
+        other: Event Types
+      event_user_participant:
+        one: Event User Participant
+        other: Event User Participants
+      frequency:
+        one: Frequency
+        other: Frequencies
+      gift_card:
+        one: Gift Card
+        other: Gift Cards
+      gift_card_type:
+        one: Gift Card Type
+        other: Gift Card Types
+      image:
+        one: Image
+        other: Images
+      incident:
+        one: Incident
+        other: Incidents
+      membership:
+        one: Membership
+        other: Memberships
+      note:
+        one: Note
+        other: Notes
+      other_event:
+        one: Other Event
+        other: Other Events
+      payment:
+        one: Payment
+        other: Payments
+      payment_credential:
+        one: Payment Credential
+        other: Payment Credentials
+      payment_method:
+        one: Payment Method
+        other: Payment Methods
+      pricing_plan:
+        one: Pricing Plan
+        other: Pricing Plans
+      product:
+        one: Product
+        other: Products
+      profile:
+        one: Profile
+        other: Profiles
+      role:
+        one: Role
+        other: Roles
+      sale:
+        one: Sale
+        other: Sales
+      sale_customer:
+        one: Sale Customer
+        other: Sale Customers
+      sale_product:
+        one: Sale Product
+        other: Sale Products
+      service:
+        one: Service
+        other: Services
+      services/service_item:
+        one: Service Item
+        other: Service Items
+      services/service_kit:
+        one: Service Kit
+        other: Service Kits
+      services/service_note:
+        one: Service Note
+        other: Service Notes
+      services/time_interval:
+        one: Time Interval
+        other: Time Intervals
+      services/type_of_service:
+        one: Service Type
+        other: Service Types
+      supplier:
+        one: Supplier
+        other: Suppliers
+      tax_rate:
+        one: Tax Rate
+        other: Tax Rates
+      user:
+        one: User
+        other: Users
+    modules:
+      extra_event:
+        cost: Price to Customer
+        information: Pickup Information
+        name: Name
+        tax_rate_id: Tax Rate
+        time: Time
+        type: Type
+  controllers:
+    additional_list_updated: Additional list has been updated
+    all_sales: All Sales
+    api_key_updated: API Key has been updated successfully
+    application:
+      check_access_manager: Your free trial has come to an end. To continue using Beanflow, please ask your manager to upgrade to a paid plan
+      check_access_staff: Your free trial has come to an end. To continue using Beanflow, please upgrade to a paid plan
+      check_available_shops: You have no access to any shops
+    boats_success: Resource settings have been saved successfully
+    business_sync_ok: Supplier sync with mailchimp was successful
+    cant_edit_service: You can't edit this service
+    certification_level: Certification levels added successfully
+    check_access: You do not have access to this page
+    check_service_settings: Please setup your service settings before booking in your first service
+    customer_added_to_event: Customer added to event successfully
+    customer_has_been_rejected: Customer has been rejected from event and refunded. An email notification has been sent.
+    customer_sync_ok: Customer sync with mailchimp successful
+    disable_sold_gift_cards: Gift Card has been disabled
+    dive_shop: Store
+    dive_shop_changed: Store has been changed
+    dive_shops:
+      close_successfully: Store closed successfully
+      notice_sended: Notification sent successfully
+      open_successfully: Store opened successfully
+      should_close: Store should be closed
+      should_open: Store should be opened
+      you_have_no_access: You have no access to this page
+    email_send: Email sent successfully
+    enable_sold_gift_cards: Gift Card has been enabled
+    event_approve: Customer has been approved and email confirmation sent
+    event_available: Event not available
+    event_cancelled: Event already cancelled
+    event_customer_participants:
+      all_good: Event Customer Participants saved successfully
+      no_select: You didn't select any customers
+    event_has_been_cancelled: Event has been cancelled
+    event_registration: Event Registrations
+    events:
+      cant_remove_event: You cannot remove this event
+      incorrect_date: You using incorrect date
+      incorrect_start_date: Start Date can't be greater than End Date
+      no_resource: No Resource was selected
+    has_beed_added: has been added successfully
+    has_beed_removed: has been removed successfully
+    image_deleted: Image has been deleted
+    image_not_deleted: There was an error deleting this image
+    incorrect_file_type: Incorrect file type
+    mailchimp_updated: Mailchimp lists have been updated successfully
+    new_customer: New Customers
+    no_access: Store doesn't exist or you have no access to this store
+    on_line: on line
+    pages:
+      index:
+        avg_sale: Avg. Sale/Customer
+        customers: New Customers
+        event: Event Registrations
+        sales: Sales
+        services: Services Completed
+    printer_options_updated: Printer options have been updated
+    purchase_orders:
+      flash:
+        add_product:
+          wrong_supplier: The product you have entered is not available from the current supplier.
+        create:
+          no_delivery_location_provided: No delivery location provided.
+          no_supplier_provided: No supplier provided.
+        destroy:
+          error: Error deleting purchase order.
+          success: Purchase order was successfully deleted.
+        send_email_to_supplier:
+          bad_supplier_email: Bad supplier email
+          error: Failed to email the order to supplier
+          success: Purchase order successfully sent to supplier
+    receipt_not_send: There was a error sending the receipt via email
+    receipt_send: Receipt successfully sent via email
+    sale_customer: Sales / Customers
+    sale_id: Sale ID
+    servicing_success: Service settings have been saved successfully
+    settings:
+      clear_data_success: ! '%{data} have been cleaned successfully'
+      no_access: You have no access to these methods
+    staff_member_updated: Staff member has been added successfully
+    staff_sync_ok: Staff sync with mailchimp was successful
+    sync_failed: ! 'Sync failed. %{message} for resource with ID = %{id} '
+    this_event_cancelled: This event has been cancelled
+    trips: Trips list has been updated
+    update_dive_shops: Additional shop location successfully updated. Your next invoice has been adjusted.
+    you_cant_remove_resource: You can't remove resource
+    you_have_errors: You have errors
+    you_have_to_choose_agency: You have to choose agency
+    your_have_no_persmisions: Your can't edit this gift card
+  customers:
+    destroy:
+      error: Customer can't be deleted
+      notice: Customer was successfully deleted
+  customers_helper:
+    expires: Expires
+    never: Never
+    not_assigned: Not Assigned
+    redeemed: Redeemed
+  date:
+    abbr_day_names:
+    - Mon
+    - Tue
+    - Wed
+    - Thu
+    - Fri
+    - Sat
+    - Sun
+    abbr_month_names:
+    - nil
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+    day_names:
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    - Sunday
+    formats:
+      birthday: ! '%d-%m-%Y'
+      date_only: ! '%d-%m-%Y'
+      datepicker_date: dd-mm-yyyy
+      default: ! '%d %b, %Y'
+      full_month: ! '%B'
+    month_names:
+    - nil
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+    order:
+    - :day
+    - :month
+    - :year
+  day: Day
+  devise:
+    confirmations:
+      confirmed: Your account was successfully confirmed. You are now signed in.
+      send_instructions: You will receive an email with instructions about how to confirm your account in a few minutes.
+      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions about how to confirm your account in a few minutes.
+    failure:
+      already_authenticated: You are already signed in.
+      inactive: Your account was not activated yet.
+      invalid: Invalid email or password.
+      invalid_token: Invalid authentication token.
+      locked: Your account is locked.
+      not_found_in_database: Invalid email or password.
+      timeout: Your session expired, please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your account before continuing.
+    mailer:
+      confirmation_instructions:
+        subject: Confirmation instructions
+      reset_password_instructions:
+        subject: Reset password instructions
+      unlock_instructions:
+        subject: Unlock Instructions
+    omniauth_callbacks:
+      failure: Could not authenticate you from %{kind} because "%{reason}".
+      success: Successfully authenticated from %{kind} account.
+    passwords:
+      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
+      send_instructions: You will receive an email with instructions about how to reset your password in a few minutes.
+      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes.
+      updated: Your password was changed successfully. You are now signed in.
+      updated_not_active: Your password was changed successfully.
+    registrations:
+      destroyed: Bye! Your account was successfully cancelled. We hope to see you again soon.
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please open the link to activate your account.
+      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address.
+      updated: Your account was successfully updated.
+    sessions:
+      signed_in: Signed in successfully.
+      signed_out: Signed out successfully.
+    unlocks:
+      send_instructions: You will receive an email with instructions about how to unlock your account in a few minutes.
+      send_paranoid_instructions: If your account exists, you will receive an email with instructions about how to unlock it in a few minutes.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
+  dive_course: (Course)
+  enumerize:
+    purchase_order:
+      status:
+        expecting_delivery: Expecting delivery
+        pending: Pending
+        received_in_full: Received in full
+        received_in_part: Received in part
+        received_in_part_amended: Received in part
+        sent_to_supplier: Sent to supplier
+  errors:
+    has_events: You can't remove Event Trip until it has events
+    messages:
+      after: must be after %{restriction}
+      already_confirmed: was already confirmed, please try signing in
+      before: must be before %{restriction}
+      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
+      expired: has expired, please request a new one
+      invalid_date: is not a valid date
+      invalid_datetime: is not a valid datetime
+      invalid_time: is not valid
+      is_at: must be at %{restriction}
+      not_found: not found
+      not_locked: was not locked
+      not_saved:
+        one: ! '1 error prohibited this %{resource} from being saved:'
+        other: ! '%{count} errors prohibited this %{resource} from being saved:'
+      on_or_after: must be on or after %{restriction}
+      on_or_before: must be on or before %{restriction}
+    only_distinct_products_allowed: Only distinct products allowed per single purchase order
+  helpers:
+    actions: Actions
+    application:
+      actions: Actions
+      day: day
+      edit: Edit
+      finalize_sale: Finalize Sale
+      issue_refund: Issue Refund
+      item: item
+      own: Own Kit
+      print: Print
+      rent: Rental
+    customers:
+      loading: loading 10 more records...
+    links:
+      back: Back
+      cancel: Cancel
+      confirm: Are you sure?
+      destroy: Delete
+      edit: Edit
+      new: New
+    services:
+      mark_as_complete: Mark Service As Complete
+      pay_for_service: Pay for Servicing
+    titles:
+      delete: Delete
+      edit: Edit
+      new: New
+      save: Save
+  js:
+    charts:
+      actual: Actual
+      revenue: Revenue
+      target: Target
+  mailer:
+    dive_centre_mailer:
+      event_cancelled_no_payments_subject: ! 'CANCELLED Event: %{event}'
+      event_participant_removed_subject: ! 'REMOVED from Event: %{event}'
+      notify_about_close: Store closed notification
+      notify_manager_subject: Staff access error for Beanflow
+      notify_manager_trial_end_subject: Staff access error for Beanflow - Trial Ended
+      welcome_subject: Welcome to Beanflow
+    dive_shop_mailer:
+      remind_product_subject: The following products have triggered a low-inventory reminder
+    sale_mailer:
+      subject: ! 'Receipt # %{id}'
+    service_mailer:
+      note_added_subject: Servicing Update for %{kit} (%{serial})
+      service_collection_subject: Kit servicing complete and ready for collection
+  models:
+    tax_rate:
+      cannot_remove_tax_rate: You can't remove tax rate which associated with products
+  pages:
+    flash:
+      card_declined: Your card was declined for your monthly subscription. Please ensure your card is still valid <a href='%{url}'>&nbsp;MORE DETAILS</a>
+  settings:
+    disconnect_mobi:
+      success: MobiSquad was successfully disconnected.
+    update_mobi_squad:
+      connection_failed: Connection failed. %{message}. Please try again.
+      success: MobiSquad settings were successfully updated.
+  simple_form:
+    error_notification:
+      default_message: ! 'Please review the problems below:'
+    'no': 'No'
+    required:
+      mark: ! '*'
+      text: required
+    'yes': 'Yes'
+  time:
+    formats:
+      datepicker_default: dd-mm-yyyy hh:ii
+      datepicker_default_datejs: dd-MM-yyyy HH:mm
+      default: ! '%d %b, %Y %I:%M%P'
+      event_format: ! '%d-%m-%Y %H:%M'
+      full_month: ! '%B'
+      only_time: ! '%I:%M%P'
+  validates_timeliness:
+    error_value_formats:
+      date: ! '%Y-%m-%d'
+      datetime: ! '%Y-%m-%d %H:%M:%S'
+      time: ! '%H:%M:%S'
+  views:
+    actions:
+      cancel: Cancel
+      change: Change
+      confirm: Are you sure?
+      delete: Delete
+      edit: Edit
+      remove: Remove
+      save: Save
+      select_file: Select file
+    customer:
+      form:
+        own: Own
+        rent: Rent
+    emails_examples:
+      any_questions: If you have any questions, please contact us at
+      event_date: Event Date
+      further_instructions: Further Instructions
+      or_call: or call us on %{telephone}.
+      receipt: ! 'Receipt #%{receipt}'
+      registered_address: ! 'Registered Address: %{address}'
+      sent_by_centre: This email was sent by %{dive_centre_name}.
+      telephone: ! 'Telephone: %{tel}'
+      this_email_sent_to: This email was sent to %{email}
+      with_regards: With regards,
+    sale_mailer:
+      any_questions: If you have any questions, please contact us at
+      event: EVENT
+      net_due: ! 'NET DUE:'
+      or_call: or call us on %{telephone}.
+      payments: Payments
+      qty: QTY
+      receipt: ! 'Receipt #%{receipt}'
+      registered_address: ! 'Registered Address: %{address}'
+      sent_by_centre: This email was sent by %{dive_centre_name}.
+      sub_total: SUB-TOTAL
+      subtotal: ! 'Sub Total:'
+      tax_inc: ! 'Tax Inc:'
+      telephone: ! 'Telephone: %{tel}'
+      this_email_sent_to: This email was sent to %{email}
+      unit_price: UNIT PRICE
+      with_regards: With regards,
+  will_paginate:
+    next_label: »
+    previous_label: «

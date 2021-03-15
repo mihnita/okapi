@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cadminbckupdb.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Backing up a database</source>
+<seg-source><mrk mid="0" mtype="seg">Backing up a database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Backing up a database</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You can back up a database either offline (when it is shut down) or online (when it is running).</source>
+<seg-source><mrk mid="0" mtype="seg">You can back up a database either offline (when it is shut down) or online (when it is running).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can back up a database either offline (when it is shut down) or online (when it is running).</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">After you back up a database, make sure the backup copy is not corrupt. To do this, run the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> system function on all the tables in the backup copy. Do not discard the previous backup until you have verified the consistency of the current one. See <bpt id="2" ctype="x-xref">&lt;xref href="cadminconsist01.dita#cadminconsist01"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">After you back up a database, make sure the backup copy is not corrupt.</mrk><mrk mid="1" mtype="seg"> To do this, run the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> system function on all the tables in the backup copy.</mrk><mrk mid="2" mtype="seg"> Do not discard the previous backup until you have verified the consistency of the current one.</mrk><mrk mid="3" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="cadminconsist01.dita#cadminconsist01"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After you back up a database, make sure the backup copy is not corrupt.</mrk><mrk mid="1" mtype="seg"> To do this, run the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_CHECK_TABLE<ept id="1">&lt;/codeph&gt;</ept> system function on all the tables in the backup copy.</mrk><mrk mid="2" mtype="seg"> Do not discard the previous backup until you have verified the consistency of the current one.</mrk><mrk mid="3" mtype="seg"> See <bpt id="2" ctype="x-xref">&lt;xref href="cadminconsist01.dita#cadminconsist01"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The topics in this section describe how to back up a database.</source>
+<seg-source><mrk mid="0" mtype="seg">The topics in this section describe how to back up a database.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The topics in this section describe how to back up a database.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="derbyadmin.ditamap" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" restype="x-title">
+<source xml:lang="en">Server and Administration Guide</source>
+<seg-source><mrk mid="0" mtype="seg">Server and Administration Guide</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Server and Administration Guide</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Apache Software Foundation</source>
+<seg-source><mrk mid="0" mtype="seg">Apache Software Foundation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Apache Software Foundation</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Derby Server and Administration Guide</source>
+<seg-source><mrk mid="0" mtype="seg">Derby Server and Administration Guide</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Derby Server and Administration Guide</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" restype="x-version">
+<source xml:lang="en">@RELEASE_ID_SHORT@</source>
+<seg-source><mrk mid="0" mtype="seg">@RELEASE_ID_SHORT@</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@RELEASE_ID_SHORT@</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Apache Derby</source>
+<seg-source><mrk mid="0" mtype="seg">Apache Derby</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Apache Derby</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" restype="x-navtitle">
+<source xml:lang="en">Using the bulk import and export procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Using the bulk import and export procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using the bulk import and export procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" restype="x-navtitle">
+<source xml:lang="en">Methods for running the import and export procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Methods for running the import and export procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Methods for running the import and export procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" restype="x-navtitle">
+<source xml:lang="en">Bulk import and export requirements and considerations</source>
+<seg-source><mrk mid="0" mtype="seg">Bulk import and export requirements and considerations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bulk import and export requirements and considerations</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" restype="x-navtitle">
+<source xml:lang="en">Bulk import and export of large objects</source>
+<seg-source><mrk mid="0" mtype="seg">Bulk import and export of large objects</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bulk import and export of large objects</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" restype="x-navtitle">
+<source xml:lang="en">Examples of bulk import and export</source>
+<seg-source><mrk mid="0" mtype="seg">Examples of bulk import and export</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples of bulk import and export</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" restype="x-navtitle">
+<source xml:lang="en">File format for input and output</source>
+<seg-source><mrk mid="0" mtype="seg">File format for input and output</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File format for input and output</mrk></target>
+</trans-unit>
+<trans-unit id="tu12" restype="x-navtitle">
+<source xml:lang="en">Importing data using the built-in procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Importing data using the built-in procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Importing data using the built-in procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" restype="x-navtitle">
+<source xml:lang="en">Bulk import and export requirements and considerations</source>
+<seg-source><mrk mid="0" mtype="seg">Bulk import and export requirements and considerations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bulk import and export requirements and considerations</mrk></target>
+</trans-unit>
+<trans-unit id="tu14" restype="x-navtitle">
+<source xml:lang="en">Examples of bulk import and export</source>
+<seg-source><mrk mid="0" mtype="seg">Examples of bulk import and export</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples of bulk import and export</mrk></target>
+</trans-unit>
+<trans-unit id="tu15" restype="x-navtitle">
+<source xml:lang="en">Parameters for the import procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters for the import procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters for the import procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu16" restype="x-navtitle">
+<source xml:lang="en">Parameters for the import procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters for the import procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters for the import procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu17" restype="x-navtitle">
+<source xml:lang="en">Import into tables that contain identity columns</source>
+<seg-source><mrk mid="0" mtype="seg">Import into tables that contain identity columns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Import into tables that contain identity columns</mrk></target>
+</trans-unit>
+<trans-unit id="tu18" restype="x-navtitle">
+<source xml:lang="en">Exporting data using the built-in procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Exporting data using the built-in procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exporting data using the built-in procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu19" restype="x-navtitle">
+<source xml:lang="en">Bulk import and export requirements and considerations</source>
+<seg-source><mrk mid="0" mtype="seg">Bulk import and export requirements and considerations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bulk import and export requirements and considerations</mrk></target>
+</trans-unit>
+<trans-unit id="tu20" restype="x-navtitle">
+<source xml:lang="en">Examples of bulk import and export</source>
+<seg-source><mrk mid="0" mtype="seg">Examples of bulk import and export</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples of bulk import and export</mrk></target>
+</trans-unit>
+<trans-unit id="tu21" restype="x-navtitle">
+<source xml:lang="en">Parameters for the export procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters for the export procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters for the export procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu22" restype="x-navtitle">
+<source xml:lang="en">Parameters for the export procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters for the export procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters for the export procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu23" restype="x-navtitle">
+<source xml:lang="en">Examples of bulk import and export</source>
+<seg-source><mrk mid="0" mtype="seg">Examples of bulk import and export</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples of bulk import and export</mrk></target>
+</trans-unit>
+<trans-unit id="tu24" restype="x-navtitle">
+<source xml:lang="en">Import and export procedures from JDBC</source>
+<seg-source><mrk mid="0" mtype="seg">Import and export procedures from JDBC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Import and export procedures from JDBC</mrk></target>
+</trans-unit>
+<trans-unit id="tu25" restype="x-navtitle">
+<source xml:lang="en">How the import and export procedures process NULL values</source>
+<seg-source><mrk mid="0" mtype="seg">How the import and export procedures process NULL values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">How the import and export procedures process NULL values</mrk></target>
+</trans-unit>
+<trans-unit id="tu26" restype="x-navtitle">
+<source xml:lang="en">CODESET values for import and export procedures</source>
+<seg-source><mrk mid="0" mtype="seg">CODESET values for import and export procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CODESET values for import and export procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu27" restype="x-navtitle">
+<source xml:lang="en">Copyright</source>
+<seg-source><mrk mid="0" mtype="seg">Copyright</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Copyright</mrk></target>
+</trans-unit>
+<trans-unit id="tu28" restype="x-navtitle">
+<source xml:lang="en">License</source>
+<seg-source><mrk mid="0" mtype="seg">License</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">License</mrk></target>
+</trans-unit>
+<trans-unit id="tu29" restype="x-navtitle">
+<source xml:lang="en">About this guide</source>
+<seg-source><mrk mid="0" mtype="seg">About this guide</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">About this guide</mrk></target>
+</trans-unit>
+<trans-unit id="tu30" restype="x-navtitle">
+<source xml:lang="en">Purpose of this guide</source>
+<seg-source><mrk mid="0" mtype="seg">Purpose of this guide</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Purpose of this guide</mrk></target>
+</trans-unit>
+<trans-unit id="tu31" restype="x-navtitle">
+<source xml:lang="en">Audience</source>
+<seg-source><mrk mid="0" mtype="seg">Audience</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Audience</mrk></target>
+</trans-unit>
+<trans-unit id="tu32" restype="x-navtitle">
+<source xml:lang="en">How this guide is organized</source>
+<seg-source><mrk mid="0" mtype="seg">How this guide is organized</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">How this guide is organized</mrk></target>
+</trans-unit>
+<trans-unit id="tu33" restype="x-navtitle">
+<source xml:lang="en">Part One: Derby Server Guide</source>
+<seg-source><mrk mid="0" mtype="seg">Part One: Derby Server Guide</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Part One: Derby Server Guide</mrk></target>
+</trans-unit>
+<trans-unit id="tu34" restype="x-navtitle">
+<source xml:lang="en">Derby in a multi-user environment</source>
+<seg-source><mrk mid="0" mtype="seg">Derby in a multi-user environment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Derby in a multi-user environment</mrk></target>
+</trans-unit>
+<trans-unit id="tu35" restype="x-navtitle">
+<source xml:lang="en">Derby in a server framework</source>
+<seg-source><mrk mid="0" mtype="seg">Derby in a server framework</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Derby in a server framework</mrk></target>
+</trans-unit>
+<trans-unit id="tu36" restype="x-navtitle">
+<source xml:lang="en">Connectivity configurations</source>
+<seg-source><mrk mid="0" mtype="seg">Connectivity configurations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connectivity configurations</mrk></target>
+</trans-unit>
+<trans-unit id="tu37" restype="x-navtitle">
+<source xml:lang="en">Multiple-client features available in Derby</source>
+<seg-source><mrk mid="0" mtype="seg">Multiple-client features available in Derby</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multiple-client features available in Derby</mrk></target>
+</trans-unit>
+<trans-unit id="tu38" restype="x-navtitle">
+<source xml:lang="en">Row-level locking</source>
+<seg-source><mrk mid="0" mtype="seg">Row-level locking</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Row-level locking</mrk></target>
+</trans-unit>
+<trans-unit id="tu39" restype="x-navtitle">
+<source xml:lang="en">Multiple concurrency levels</source>
+<seg-source><mrk mid="0" mtype="seg">Multiple concurrency levels</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multiple concurrency levels</mrk></target>
+</trans-unit>
+<trans-unit id="tu40" restype="x-navtitle">
+<source xml:lang="en">Multi-connection and multi-threading</source>
+<seg-source><mrk mid="0" mtype="seg">Multi-connection and multi-threading</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multi-connection and multi-threading</mrk></target>
+</trans-unit>
+<trans-unit id="tu41" restype="x-navtitle">
+<source xml:lang="en">Administrative tools</source>
+<seg-source><mrk mid="0" mtype="seg">Administrative tools</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Administrative tools</mrk></target>
+</trans-unit>
+<trans-unit id="tu42" restype="x-navtitle">
+<source xml:lang="en">The Derby Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">The Derby Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Derby Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu43" restype="x-navtitle">
+<source xml:lang="en">Embedded servers</source>
+<seg-source><mrk mid="0" mtype="seg">Embedded servers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Embedded servers</mrk></target>
+</trans-unit>
+<trans-unit id="tu44" restype="x-navtitle">
+<source xml:lang="en">How to start an embedded server from an application</source>
+<seg-source><mrk mid="0" mtype="seg">How to start an embedded server from an application</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">How to start an embedded server from an application</mrk></target>
+</trans-unit>
+<trans-unit id="tu45" restype="x-navtitle">
+<source xml:lang="en">Embedded server example</source>
+<seg-source><mrk mid="0" mtype="seg">Embedded server example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Embedded server example</mrk></target>
+</trans-unit>
+<trans-unit id="tu46" restype="x-navtitle">
+<source xml:lang="en">About this guide and the Network Server documentation</source>
+<seg-source><mrk mid="0" mtype="seg">About this guide and the Network Server documentation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">About this guide and the Network Server documentation</mrk></target>
+</trans-unit>
+<trans-unit id="tu47" restype="x-navtitle">
+<source xml:lang="en">Using the Network Server with preexisting Derby applications</source>
+<seg-source><mrk mid="0" mtype="seg">Using the Network Server with preexisting Derby applications</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using the Network Server with preexisting Derby applications</mrk></target>
+</trans-unit>
+<trans-unit id="tu48" restype="x-navtitle">
+<source xml:lang="en">The Network Server and Java Virtual Machines (JVMs)</source>
+<seg-source><mrk mid="0" mtype="seg">The Network Server and Java Virtual Machines (JVMs)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Network Server and Java Virtual Machines (JVMs)</mrk></target>
+</trans-unit>
+<trans-unit id="tu49" restype="x-navtitle">
+<source xml:lang="en">Installing required jar files and adding them to the classpath</source>
+<seg-source><mrk mid="0" mtype="seg">Installing required jar files and adding them to the classpath</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Installing required jar files and adding them to the classpath</mrk></target>
+</trans-unit>
+<trans-unit id="tu50" restype="x-navtitle">
+<source xml:lang="en">Starting the Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Starting the Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Starting the Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu51" restype="x-navtitle">
+<source xml:lang="en">Starting the Network Server from a Java application</source>
+<seg-source><mrk mid="0" mtype="seg">Starting the Network Server from a Java application</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Starting the Network Server from a Java application</mrk></target>
+</trans-unit>
+<trans-unit id="tu52" restype="x-navtitle">
+<source xml:lang="en">Starting the Network Server on IPv6/IPv4 dual stack Windows machines</source>
+<seg-source><mrk mid="0" mtype="seg">Starting the Network Server on IPv6/IPv4 dual stack Windows machines</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Starting the Network Server on IPv6/IPv4 dual stack Windows machines</mrk></target>
+</trans-unit>
+<trans-unit id="tu53" restype="x-navtitle">
+<source xml:lang="en">Shutting down the Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Shutting down the Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shutting down the Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu54" restype="x-navtitle">
+<source xml:lang="en">Shutting down by using the command line</source>
+<seg-source><mrk mid="0" mtype="seg">Shutting down by using the command line</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shutting down by using the command line</mrk></target>
+</trans-unit>
+<trans-unit id="tu55" restype="x-navtitle">
+<source xml:lang="en">Shutting down by using the API</source>
+<seg-source><mrk mid="0" mtype="seg">Shutting down by using the API</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shutting down by using the API</mrk></target>
+</trans-unit>
+<trans-unit id="tu56" restype="x-navtitle">
+<source xml:lang="en">Obtaining system information</source>
+<seg-source><mrk mid="0" mtype="seg">Obtaining system information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Obtaining system information</mrk></target>
+</trans-unit>
+<trans-unit id="tu57" restype="x-navtitle">
+<source xml:lang="en">Obtaining system information by using the command line</source>
+<seg-source><mrk mid="0" mtype="seg">Obtaining system information by using the command line</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Obtaining system information by using the command line</mrk></target>
+</trans-unit>
+<trans-unit id="tu58" restype="x-navtitle">
+<source xml:lang="en">Obtaining system information by using the API</source>
+<seg-source><mrk mid="0" mtype="seg">Obtaining system information by using the API</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Obtaining system information by using the API</mrk></target>
+</trans-unit>
+<trans-unit id="tu59" restype="x-navtitle">
+<source xml:lang="en">Obtaining Network Server runtime information</source>
+<seg-source><mrk mid="0" mtype="seg">Obtaining Network Server runtime information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Obtaining Network Server runtime information</mrk></target>
+</trans-unit>
+<trans-unit id="tu60" restype="x-navtitle">
+<source xml:lang="en">Obtaining Network Server properties by using the getCurrent Properties method</source>
+<seg-source><mrk mid="0" mtype="seg">Obtaining Network Server properties by using the getCurrent Properties method</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Obtaining Network Server properties by using the getCurrent Properties method</mrk></target>
+</trans-unit>
+<trans-unit id="tu61" restype="x-navtitle">
+<source xml:lang="en">Accessing the Network Server by using the network client driver</source>
+<seg-source><mrk mid="0" mtype="seg">Accessing the Network Server by using the network client driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Accessing the Network Server by using the network client driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu62" restype="x-navtitle">
+<source xml:lang="en">Network client security</source>
+<seg-source><mrk mid="0" mtype="seg">Network client security</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network client security</mrk></target>
+</trans-unit>
+<trans-unit id="tu63" restype="x-navtitle">
+<source xml:lang="en">Network client tracing</source>
+<seg-source><mrk mid="0" mtype="seg">Network client tracing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network client tracing</mrk></target>
+</trans-unit>
+<trans-unit id="tu64" restype="x-navtitle">
+<source xml:lang="en">Network client driver examples</source>
+<seg-source><mrk mid="0" mtype="seg">Network client driver examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network client driver examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu65" restype="x-navtitle">
+<source xml:lang="en">Accessing the Network Server by using a DataSource object</source>
+<seg-source><mrk mid="0" mtype="seg">Accessing the Network Server by using a DataSource object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Accessing the Network Server by using a DataSource object</mrk></target>
+</trans-unit>
+<trans-unit id="tu66" restype="x-navtitle">
+<source xml:lang="en">DataSource access examples</source>
+<seg-source><mrk mid="0" mtype="seg">DataSource access examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DataSource access examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu67" restype="x-navtitle">
+<source xml:lang="en">XA and the Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">XA and the Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XA and the Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu68" restype="x-navtitle">
+<source xml:lang="en">Using XA with the network client driver</source>
+<seg-source><mrk mid="0" mtype="seg">Using XA with the network client driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using XA with the network client driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu69" restype="x-navtitle">
+<source xml:lang="en">Using the Derby tools with the Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Using the Derby tools with the Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using the Derby tools with the Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu70" restype="x-navtitle">
+<source xml:lang="en">Using the Derby ij tool with the Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Using the Derby ij tool with the Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using the Derby ij tool with the Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu71" restype="x-navtitle">
+<source xml:lang="en">Using the Derby dblook tool with the Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Using the Derby dblook tool with the Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using the Derby dblook tool with the Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu72" restype="x-navtitle">
+<source xml:lang="en">Differences between running Derby in embedded mode and using the Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Differences between running Derby in embedded mode and using the Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Differences between running Derby in embedded mode and using the Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu73" restype="x-navtitle">
+<source xml:lang="en">Differences between the embedded client and the network client driver</source>
+<seg-source><mrk mid="0" mtype="seg">Differences between the embedded client and the network client driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Differences between the embedded client and the network client driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu74" restype="x-navtitle">
+<source xml:lang="en">Updatable Result Sets</source>
+<seg-source><mrk mid="0" mtype="seg">Updatable Result Sets</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Updatable Result Sets</mrk></target>
+</trans-unit>
+<trans-unit id="tu75" restype="x-navtitle">
+<source xml:lang="en">User authentication differences</source>
+<seg-source><mrk mid="0" mtype="seg">User authentication differences</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">User authentication differences</mrk></target>
+</trans-unit>
+<trans-unit id="tu76" restype="x-navtitle">
+<source xml:lang="en">Network Server user authentication when user authentication is on in Derby</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server user authentication when user authentication is on in Derby</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server user authentication when user authentication is on in Derby</mrk></target>
+</trans-unit>
+<trans-unit id="tu77" restype="x-navtitle">
+<source xml:lang="en">Network Server user authentication when user authentication is off in Derby</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server user authentication when user authentication is off in Derby</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server user authentication when user authentication is off in Derby</mrk></target>
+</trans-unit>
+<trans-unit id="tu78" restype="x-navtitle">
+<source xml:lang="en">Enabling the encrypted user ID and password security mechanism</source>
+<seg-source><mrk mid="0" mtype="seg">Enabling the encrypted user ID and password security mechanism</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enabling the encrypted user ID and password security mechanism</mrk></target>
+</trans-unit>
+<trans-unit id="tu79" restype="x-navtitle">
+<source xml:lang="en">Differences in JDBC methods</source>
+<seg-source><mrk mid="0" mtype="seg">Differences in JDBC methods</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Differences in JDBC methods</mrk></target>
+</trans-unit>
+<trans-unit id="tu80" restype="x-navtitle">
+<source xml:lang="en">Differences using the Connection.setReadOnly method</source>
+<seg-source><mrk mid="0" mtype="seg">Differences using the Connection.setReadOnly method</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Differences using the Connection.setReadOnly method</mrk></target>
+</trans-unit>
+<trans-unit id="tu81" restype="x-navtitle">
+<source xml:lang="en">Setting port numbers</source>
+<seg-source><mrk mid="0" mtype="seg">Setting port numbers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Setting port numbers</mrk></target>
+</trans-unit>
+<trans-unit id="tu82" restype="x-navtitle">
+<source xml:lang="en">Managing the Derby Network Server</source>
+<seg-source><mrk mid="0" mtype="seg">Managing the Derby Network Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Managing the Derby Network Server</mrk></target>
+</trans-unit>
+<trans-unit id="tu83" restype="x-navtitle">
+<source xml:lang="en">Overview</source>
+<seg-source><mrk mid="0" mtype="seg">Overview</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Overview</mrk></target>
+</trans-unit>
+<trans-unit id="tu84" restype="x-navtitle">
+<source xml:lang="en">Using the NetworkServerControl API</source>
+<seg-source><mrk mid="0" mtype="seg">Using the NetworkServerControl API</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using the NetworkServerControl API</mrk></target>
+</trans-unit>
+<trans-unit id="tu85" restype="x-navtitle">
+<source xml:lang="en">Setting Network Server properties</source>
+<seg-source><mrk mid="0" mtype="seg">Setting Network Server properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Setting Network Server properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu86" restype="x-navtitle">
+<source xml:lang="en">derby.drda.host property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.host property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.host property</mrk></target>
+</trans-unit>
+<trans-unit id="tu87" restype="x-navtitle">
+<source xml:lang="en">derby.drda.keepAlive property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.keepAlive property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.keepAlive property</mrk></target>
+</trans-unit>
+<trans-unit id="tu88" restype="x-navtitle">
+<source xml:lang="en">derby.drda.logConnections property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.logConnections property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.logConnections property</mrk></target>
+</trans-unit>
+<trans-unit id="tu89" restype="x-navtitle">
+<source xml:lang="en">derby.drda.maxThreads property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.maxThreads property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.maxThreads property</mrk></target>
+</trans-unit>
+<trans-unit id="tu90" restype="x-navtitle">
+<source xml:lang="en">derby.drda.minThreads property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.minThreads property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.minThreads property</mrk></target>
+</trans-unit>
+<trans-unit id="tu91" restype="x-navtitle">
+<source xml:lang="en">derby.drda.portNumber property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.portNumber property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.portNumber property</mrk></target>
+</trans-unit>
+<trans-unit id="tu92" restype="x-navtitle">
+<source xml:lang="en">derby.drda.securityMechanism property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.securityMechanism property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.securityMechanism property</mrk></target>
+</trans-unit>
+<trans-unit id="tu93" restype="x-navtitle">
+<source xml:lang="en">derby.drda.sslMode property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.sslMode property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.sslMode property</mrk></target>
+</trans-unit>
+<trans-unit id="tu94" restype="x-navtitle">
+<source xml:lang="en">derby.drda.startNetworkServer property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.startNetworkServer property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.startNetworkServer property</mrk></target>
+</trans-unit>
+<trans-unit id="tu95" restype="x-navtitle">
+<source xml:lang="en">derby.drda.streamOutBufferSize property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.streamOutBufferSize property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.streamOutBufferSize property</mrk></target>
+</trans-unit>
+<trans-unit id="tu96" restype="x-navtitle">
+<source xml:lang="en">derby.drda.timeslice property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.timeslice property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.timeslice property</mrk></target>
+</trans-unit>
+<trans-unit id="tu97" restype="x-navtitle">
+<source xml:lang="en">derby.drda.traceAll property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.traceAll property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.traceAll property</mrk></target>
+</trans-unit>
+<trans-unit id="tu98" restype="x-navtitle">
+<source xml:lang="en">derby.drda.traceDirectory property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.traceDirectory property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.traceDirectory property</mrk></target>
+</trans-unit>
+<trans-unit id="tu99" restype="x-navtitle">
+<source xml:lang="en">Verifying startup</source>
+<seg-source><mrk mid="0" mtype="seg">Verifying startup</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Verifying startup</mrk></target>
+</trans-unit>
+<trans-unit id="tu100" restype="x-navtitle">
+<source xml:lang="en">Using Java Management Extensions (JMX) technology</source>
+<seg-source><mrk mid="0" mtype="seg">Using Java Management Extensions (JMX) technology</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using Java Management Extensions (JMX) technology</mrk></target>
+</trans-unit>
+<trans-unit id="tu101" restype="x-navtitle">
+<source xml:lang="en">Introduction to the Derby MBeans</source>
+<seg-source><mrk mid="0" mtype="seg">Introduction to the Derby MBeans</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Introduction to the Derby MBeans</mrk></target>
+</trans-unit>
+<trans-unit id="tu102" restype="x-navtitle">
+<source xml:lang="en">Enabling and disabling JMX</source>
+<seg-source><mrk mid="0" mtype="seg">Enabling and disabling JMX</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enabling and disabling JMX</mrk></target>
+</trans-unit>
+<trans-unit id="tu103" restype="x-navtitle">
+<source xml:lang="en">Enabling remote JMX with no authentication or SSL</source>
+<seg-source><mrk mid="0" mtype="seg">Enabling remote JMX with no authentication or SSL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enabling remote JMX with no authentication or SSL</mrk></target>
+</trans-unit>
+<trans-unit id="tu104" restype="x-navtitle">
+<source xml:lang="en">Enabling remote JMX with password authentication only</source>
+<seg-source><mrk mid="0" mtype="seg">Enabling remote JMX with password authentication only</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enabling remote JMX with password authentication only</mrk></target>
+</trans-unit>
+<trans-unit id="tu105" restype="x-navtitle">
+<source xml:lang="en">Enabling remote JMX with password authentication and SSL</source>
+<seg-source><mrk mid="0" mtype="seg">Enabling remote JMX with password authentication and SSL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enabling remote JMX with password authentication and SSL</mrk></target>
+</trans-unit>
+<trans-unit id="tu106" restype="x-navtitle">
+<source xml:lang="en">Simple authorization using an access file</source>
+<seg-source><mrk mid="0" mtype="seg">Simple authorization using an access file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simple authorization using an access file</mrk></target>
+</trans-unit>
+<trans-unit id="tu107" restype="x-navtitle">
+<source xml:lang="en">Fine-grained authorization using a security policy</source>
+<seg-source><mrk mid="0" mtype="seg">Fine-grained authorization using a security policy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Fine-grained authorization using a security policy</mrk></target>
+</trans-unit>
+<trans-unit id="tu108" restype="x-navtitle">
+<source xml:lang="en">Disabling access to MBeans</source>
+<seg-source><mrk mid="0" mtype="seg">Disabling access to MBeans</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Disabling access to MBeans</mrk></target>
+</trans-unit>
+<trans-unit id="tu109" restype="x-navtitle">
+<source xml:lang="en">Using JConsole to access the Derby MBeans</source>
+<seg-source><mrk mid="0" mtype="seg">Using JConsole to access the Derby MBeans</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using JConsole to access the Derby MBeans</mrk></target>
+</trans-unit>
+<trans-unit id="tu110" restype="x-navtitle">
+<source xml:lang="en">Using custom Java code to access the Derby MBeans</source>
+<seg-source><mrk mid="0" mtype="seg">Using custom Java code to access the Derby MBeans</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using custom Java code to access the Derby MBeans</mrk></target>
+</trans-unit>
+<trans-unit id="tu111" restype="x-navtitle">
+<source xml:lang="en">Troubleshooting JMX connection issues</source>
+<seg-source><mrk mid="0" mtype="seg">Troubleshooting JMX connection issues</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Troubleshooting JMX connection issues</mrk></target>
+</trans-unit>
+<trans-unit id="tu112" restype="x-navtitle">
+<source xml:lang="en">Managing the Derby Network Server remotely by using the servlet interface</source>
+<seg-source><mrk mid="0" mtype="seg">Managing the Derby Network Server remotely by using the servlet interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Managing the Derby Network Server remotely by using the servlet interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu113" restype="x-navtitle">
+<source xml:lang="en">Start-up page</source>
+<seg-source><mrk mid="0" mtype="seg">Start-up page</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start-up page</mrk></target>
+</trans-unit>
+<trans-unit id="tu114" restype="x-navtitle">
+<source xml:lang="en">Running page</source>
+<seg-source><mrk mid="0" mtype="seg">Running page</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running page</mrk></target>
+</trans-unit>
+<trans-unit id="tu115" restype="x-navtitle">
+<source xml:lang="en">Trace session page</source>
+<seg-source><mrk mid="0" mtype="seg">Trace session page</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Trace session page</mrk></target>
+</trans-unit>
+<trans-unit id="tu116" restype="x-navtitle">
+<source xml:lang="en">Trace directory page</source>
+<seg-source><mrk mid="0" mtype="seg">Trace directory page</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Trace directory page</mrk></target>
+</trans-unit>
+<trans-unit id="tu117" restype="x-navtitle">
+<source xml:lang="en">Set Network Server parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Set Network Server parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Network Server parameters</mrk></target>
+</trans-unit>
+<trans-unit id="tu118" restype="x-navtitle">
+<source xml:lang="en">Derby Network Server advanced topics</source>
+<seg-source><mrk mid="0" mtype="seg">Derby Network Server advanced topics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Derby Network Server advanced topics</mrk></target>
+</trans-unit>
+<trans-unit id="tu119" restype="x-navtitle">
+<source xml:lang="en">Network Server security</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server security</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server security</mrk></target>
+</trans-unit>
+<trans-unit id="tu120" restype="x-navtitle">
+<source xml:lang="en">Controlling database file access</source>
+<seg-source><mrk mid="0" mtype="seg">Controlling database file access</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Controlling database file access</mrk></target>
+</trans-unit>
+<trans-unit id="tu121" restype="x-navtitle">
+<source xml:lang="en">Running the Network Server under the security manager</source>
+<seg-source><mrk mid="0" mtype="seg">Running the Network Server under the security manager</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running the Network Server under the security manager</mrk></target>
+</trans-unit>
+<trans-unit id="tu122" restype="x-navtitle">
+<source xml:lang="en">Basic Network Server security policy</source>
+<seg-source><mrk mid="0" mtype="seg">Basic Network Server security policy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Basic Network Server security policy</mrk></target>
+</trans-unit>
+<trans-unit id="tu123" restype="x-navtitle">
+<source xml:lang="en">Customizing the Network Server's security policy</source>
+<seg-source><mrk mid="0" mtype="seg">Customizing the Network Server's security policy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Customizing the Network Server's security policy</mrk></target>
+</trans-unit>
+<trans-unit id="tu124" restype="x-navtitle">
+<source xml:lang="en">Running the Network Server without a security policy</source>
+<seg-source><mrk mid="0" mtype="seg">Running the Network Server without a security policy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running the Network Server without a security policy</mrk></target>
+</trans-unit>
+<trans-unit id="tu125" restype="x-navtitle">
+<source xml:lang="en">Running the Network Server with user authentication</source>
+<seg-source><mrk mid="0" mtype="seg">Running the Network Server with user authentication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running the Network Server with user authentication</mrk></target>
+</trans-unit>
+<trans-unit id="tu126" restype="x-navtitle">
+<source xml:lang="en">Network encryption and authentication with SSL/TLS</source>
+<seg-source><mrk mid="0" mtype="seg">Network encryption and authentication with SSL/TLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network encryption and authentication with SSL/TLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu127" restype="x-navtitle">
+<source xml:lang="en">Key and certificate handling</source>
+<seg-source><mrk mid="0" mtype="seg">Key and certificate handling</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Key and certificate handling</mrk></target>
+</trans-unit>
+<trans-unit id="tu128" restype="x-navtitle">
+<source xml:lang="en">Starting the server with SSL/TLS</source>
+<seg-source><mrk mid="0" mtype="seg">Starting the server with SSL/TLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Starting the server with SSL/TLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu129" restype="x-navtitle">
+<source xml:lang="en">Running the client with SSL/TLS</source>
+<seg-source><mrk mid="0" mtype="seg">Running the client with SSL/TLS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running the client with SSL/TLS</mrk></target>
+</trans-unit>
+<trans-unit id="tu130" restype="x-navtitle">
+<source xml:lang="en">Other server commands</source>
+<seg-source><mrk mid="0" mtype="seg">Other server commands</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Other server commands</mrk></target>
+</trans-unit>
+<trans-unit id="tu131" restype="x-navtitle">
+<source xml:lang="en">Configuring the Network Server to handle connections</source>
+<seg-source><mrk mid="0" mtype="seg">Configuring the Network Server to handle connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Configuring the Network Server to handle connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu132" restype="x-navtitle">
+<source xml:lang="en">Controlling logging by using the log file</source>
+<seg-source><mrk mid="0" mtype="seg">Controlling logging by using the log file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Controlling logging by using the log file</mrk></target>
+</trans-unit>
+<trans-unit id="tu133" restype="x-navtitle">
+<source xml:lang="en">Controlling tracing by using the trace facility</source>
+<seg-source><mrk mid="0" mtype="seg">Controlling tracing by using the trace facility</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Controlling tracing by using the trace facility</mrk></target>
+</trans-unit>
+<trans-unit id="tu134" restype="x-navtitle">
+<source xml:lang="en">Turning on the trace facility</source>
+<seg-source><mrk mid="0" mtype="seg">Turning on the trace facility</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Turning on the trace facility</mrk></target>
+</trans-unit>
+<trans-unit id="tu135" restype="x-navtitle">
+<source xml:lang="en">Turning off the trace facility</source>
+<seg-source><mrk mid="0" mtype="seg">Turning off the trace facility</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Turning off the trace facility</mrk></target>
+</trans-unit>
+<trans-unit id="tu136" restype="x-navtitle">
+<source xml:lang="en">Derby Network Server sample programs</source>
+<seg-source><mrk mid="0" mtype="seg">Derby Network Server sample programs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Derby Network Server sample programs</mrk></target>
+</trans-unit>
+<trans-unit id="tu137" restype="x-navtitle">
+<source xml:lang="en">The NsSample sample program</source>
+<seg-source><mrk mid="0" mtype="seg">The NsSample sample program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The NsSample sample program</mrk></target>
+</trans-unit>
+<trans-unit id="tu138" restype="x-navtitle">
+<source xml:lang="en">Running the NsSample sample program</source>
+<seg-source><mrk mid="0" mtype="seg">Running the NsSample sample program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running the NsSample sample program</mrk></target>
+</trans-unit>
+<trans-unit id="tu139" restype="x-navtitle">
+<source xml:lang="en">Network Server sample programs for embedded and client connections</source>
+<seg-source><mrk mid="0" mtype="seg">Network Server sample programs for embedded and client connections</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Network Server sample programs for embedded and client connections</mrk></target>
+</trans-unit>
+<trans-unit id="tu140" restype="x-navtitle">
+<source xml:lang="en">Overview of the SimpleNetworkServerSample program</source>
+<seg-source><mrk mid="0" mtype="seg">Overview of the SimpleNetworkServerSample program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Overview of the SimpleNetworkServerSample program</mrk></target>
+</trans-unit>
+<trans-unit id="tu141" restype="x-navtitle">
+<source xml:lang="en">Running the SimpleNetworkServerSample program</source>
+<seg-source><mrk mid="0" mtype="seg">Running the SimpleNetworkServerSample program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running the SimpleNetworkServerSample program</mrk></target>
+</trans-unit>
+<trans-unit id="tu142" restype="x-navtitle">
+<source xml:lang="en">Connecting a client to the Network Server with the SimpleNetworkClientSample program</source>
+<seg-source><mrk mid="0" mtype="seg">Connecting a client to the Network Server with the SimpleNetworkClientSample program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connecting a client to the Network Server with the SimpleNetworkClientSample program</mrk></target>
+</trans-unit>
+<trans-unit id="tu143" restype="x-navtitle">
+<source xml:lang="en">Running the SimpleNetworkClientSample program</source>
+<seg-source><mrk mid="0" mtype="seg">Running the SimpleNetworkClientSample program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running the SimpleNetworkClientSample program</mrk></target>
+</trans-unit>
+<trans-unit id="tu144" restype="x-navtitle">
+<source xml:lang="en">Part Two: Derby Administration Guide</source>
+<seg-source><mrk mid="0" mtype="seg">Part Two: Derby Administration Guide</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Part Two: Derby Administration Guide</mrk></target>
+</trans-unit>
+<trans-unit id="tu145" restype="x-navtitle">
+<source xml:lang="en">Maintaining database integrity</source>
+<seg-source><mrk mid="0" mtype="seg">Maintaining database integrity</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Maintaining database integrity</mrk></target>
+</trans-unit>
+<trans-unit id="tu146" restype="x-navtitle">
+<source xml:lang="en">Checking database consistency</source>
+<seg-source><mrk mid="0" mtype="seg">Checking database consistency</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Checking database consistency</mrk></target>
+</trans-unit>
+<trans-unit id="tu147" restype="x-navtitle">
+<source xml:lang="en">The SYSCS_CHECK_TABLE function</source>
+<seg-source><mrk mid="0" mtype="seg">The SYSCS_CHECK_TABLE function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SYSCS_CHECK_TABLE function</mrk></target>
+</trans-unit>
+<trans-unit id="tu148" restype="x-navtitle">
+<source xml:lang="en">Sample SYSCS_CHECK_TABLE error messages</source>
+<seg-source><mrk mid="0" mtype="seg">Sample SYSCS_CHECK_TABLE error messages</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sample SYSCS_CHECK_TABLE error messages</mrk></target>
+</trans-unit>
+<trans-unit id="tu149" restype="x-navtitle">
+<source xml:lang="en">Sample SYSCS_CHECK_TABLE queries</source>
+<seg-source><mrk mid="0" mtype="seg">Sample SYSCS_CHECK_TABLE queries</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sample SYSCS_CHECK_TABLE queries</mrk></target>
+</trans-unit>
+<trans-unit id="tu150" restype="x-navtitle">
+<source xml:lang="en">Backing up and restoring databases</source>
+<seg-source><mrk mid="0" mtype="seg">Backing up and restoring databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Backing up and restoring databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu151" restype="x-navtitle">
+<source xml:lang="en">Backing up a database</source>
+<seg-source><mrk mid="0" mtype="seg">Backing up a database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Backing up a database</mrk></target>
+</trans-unit>
+<trans-unit id="tu152" restype="x-navtitle">
+<source xml:lang="en">Offline backups</source>
+<seg-source><mrk mid="0" mtype="seg">Offline backups</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Offline backups</mrk></target>
+</trans-unit>
+<trans-unit id="tu153" restype="x-navtitle">
+<source xml:lang="en">Online backups</source>
+<seg-source><mrk mid="0" mtype="seg">Online backups</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Online backups</mrk></target>
+</trans-unit>
+<trans-unit id="tu154" restype="x-navtitle">
+<source xml:lang="en">Using the backup procedure to perform an online backup</source>
+<seg-source><mrk mid="0" mtype="seg">Using the backup procedure to perform an online backup</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using the backup procedure to perform an online backup</mrk></target>
+</trans-unit>
+<trans-unit id="tu155" restype="x-navtitle">
+<source xml:lang="en">Using operating system commands with the freeze and unfreeze system procedures to perform an online backup</source>
+<seg-source><mrk mid="0" mtype="seg">Using operating system commands with the freeze and unfreeze system procedures to perform an online backup</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using operating system commands with the freeze and unfreeze system procedures to perform an online backup</mrk></target>
+</trans-unit>
+<trans-unit id="tu156" restype="x-navtitle">
+<source xml:lang="en">When the log is in a non-default location</source>
+<seg-source><mrk mid="0" mtype="seg">When the log is in a non-default location</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the log is in a non-default location</mrk></target>
+</trans-unit>
+<trans-unit id="tu157" restype="x-navtitle">
+<source xml:lang="en">Backing up encrypted databases</source>
+<seg-source><mrk mid="0" mtype="seg">Backing up encrypted databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Backing up encrypted databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu158" restype="x-navtitle">
+<source xml:lang="en">Restoring a database from a backup copy</source>
+<seg-source><mrk mid="0" mtype="seg">Restoring a database from a backup copy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Restoring a database from a backup copy</mrk></target>
+</trans-unit>
+<trans-unit id="tu159" restype="x-navtitle">
+<source xml:lang="en">Creating a database from a backup copy</source>
+<seg-source><mrk mid="0" mtype="seg">Creating a database from a backup copy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creating a database from a backup copy</mrk></target>
+</trans-unit>
+<trans-unit id="tu160" restype="x-navtitle">
+<source xml:lang="en">Roll-forward recovery</source>
+<seg-source><mrk mid="0" mtype="seg">Roll-forward recovery</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Roll-forward recovery</mrk></target>
+</trans-unit>
+<trans-unit id="tu161" restype="x-navtitle">
+<source xml:lang="en">Importing and exporting data</source>
+<seg-source><mrk mid="0" mtype="seg">Importing and exporting data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Importing and exporting data</mrk></target>
+</trans-unit>
+<trans-unit id="tu162" restype="x-navtitle">
+<source xml:lang="en">Methods for running the import and export procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Methods for running the import and export procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Methods for running the import and export procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu163" restype="x-navtitle">
+<source xml:lang="en">Bulk import and export requirements and considerations</source>
+<seg-source><mrk mid="0" mtype="seg">Bulk import and export requirements and considerations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bulk import and export requirements and considerations</mrk></target>
+</trans-unit>
+<trans-unit id="tu164" restype="x-navtitle">
+<source xml:lang="en">Bulk import and export of large objects</source>
+<seg-source><mrk mid="0" mtype="seg">Bulk import and export of large objects</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bulk import and export of large objects</mrk></target>
+</trans-unit>
+<trans-unit id="tu165" restype="x-navtitle">
+<source xml:lang="en">File format for input and output</source>
+<seg-source><mrk mid="0" mtype="seg">File format for input and output</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File format for input and output</mrk></target>
+</trans-unit>
+<trans-unit id="tu166" restype="x-navtitle">
+<source xml:lang="en">Importing data using the built-in procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Importing data using the built-in procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Importing data using the built-in procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu167" restype="x-navtitle">
+<source xml:lang="en">Parameters for the import procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters for the import procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters for the import procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu168" restype="x-navtitle">
+<source xml:lang="en">Importing into tables that contain identity columns</source>
+<seg-source><mrk mid="0" mtype="seg">Importing into tables that contain identity columns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Importing into tables that contain identity columns</mrk></target>
+</trans-unit>
+<trans-unit id="tu169" restype="x-navtitle">
+<source xml:lang="en">Exporting data using the built-in procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Exporting data using the built-in procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exporting data using the built-in procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu170" restype="x-navtitle">
+<source xml:lang="en">Parameters for the export procedures</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters for the export procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters for the export procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu171" restype="x-navtitle">
+<source xml:lang="en">Examples of bulk import and export</source>
+<seg-source><mrk mid="0" mtype="seg">Examples of bulk import and export</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples of bulk import and export</mrk></target>
+</trans-unit>
+<trans-unit id="tu172" restype="x-navtitle">
+<source xml:lang="en">Running import and export procedures from JDBC</source>
+<seg-source><mrk mid="0" mtype="seg">Running import and export procedures from JDBC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running import and export procedures from JDBC</mrk></target>
+</trans-unit>
+<trans-unit id="tu173" restype="x-navtitle">
+<source xml:lang="en">How the import and export procedures process NULL values</source>
+<seg-source><mrk mid="0" mtype="seg">How the import and export procedures process NULL values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">How the import and export procedures process NULL values</mrk></target>
+</trans-unit>
+<trans-unit id="tu174" restype="x-navtitle">
+<source xml:lang="en">CODESET values for import and export procedures</source>
+<seg-source><mrk mid="0" mtype="seg">CODESET values for import and export procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CODESET values for import and export procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu175" restype="x-navtitle">
+<source xml:lang="en">Replicating databases</source>
+<seg-source><mrk mid="0" mtype="seg">Replicating databases</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replicating databases</mrk></target>
+</trans-unit>
+<trans-unit id="tu176" restype="x-navtitle">
+<source xml:lang="en">Starting and running replication</source>
+<seg-source><mrk mid="0" mtype="seg">Starting and running replication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Starting and running replication</mrk></target>
+</trans-unit>
+<trans-unit id="tu177" restype="x-navtitle">
+<source xml:lang="en">Stopping replication</source>
+<seg-source><mrk mid="0" mtype="seg">Stopping replication</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stopping replication</mrk></target>
+</trans-unit>
+<trans-unit id="tu178" restype="x-navtitle">
+<source xml:lang="en">Forcing a failover</source>
+<seg-source><mrk mid="0" mtype="seg">Forcing a failover</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Forcing a failover</mrk></target>
+</trans-unit>
+<trans-unit id="tu179" restype="x-navtitle">
+<source xml:lang="en">Replication and security</source>
+<seg-source><mrk mid="0" mtype="seg">Replication and security</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replication and security</mrk></target>
+</trans-unit>
+<trans-unit id="tu180" restype="x-navtitle">
+<source xml:lang="en">Replication failure handling</source>
+<seg-source><mrk mid="0" mtype="seg">Replication failure handling</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replication failure handling</mrk></target>
+</trans-unit>
+<trans-unit id="tu181" restype="x-navtitle">
+<source xml:lang="en">Logging on a separate device</source>
+<seg-source><mrk mid="0" mtype="seg">Logging on a separate device</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Logging on a separate device</mrk></target>
+</trans-unit>
+<trans-unit id="tu182" restype="x-navtitle">
+<source xml:lang="en">Using the logDevice attribute</source>
+<seg-source><mrk mid="0" mtype="seg">Using the logDevice attribute</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using the logDevice attribute</mrk></target>
+</trans-unit>
+<trans-unit id="tu183" restype="x-navtitle">
+<source xml:lang="en">Example of creating a log in a non-default location</source>
+<seg-source><mrk mid="0" mtype="seg">Example of creating a log in a non-default location</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example of creating a log in a non-default location</mrk></target>
+</trans-unit>
+<trans-unit id="tu184" restype="x-navtitle">
+<source xml:lang="en">Example of moving a log manually</source>
+<seg-source><mrk mid="0" mtype="seg">Example of moving a log manually</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example of moving a log manually</mrk></target>
+</trans-unit>
+<trans-unit id="tu185" restype="x-navtitle">
+<source xml:lang="en">Issues for logging in a non-default location</source>
+<seg-source><mrk mid="0" mtype="seg">Issues for logging in a non-default location</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Issues for logging in a non-default location</mrk></target>
+</trans-unit>
+<trans-unit id="tu186" restype="x-navtitle">
+<source xml:lang="en">Obtaining locking information</source>
+<seg-source><mrk mid="0" mtype="seg">Obtaining locking information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Obtaining locking information</mrk></target>
+</trans-unit>
+<trans-unit id="tu187" restype="x-navtitle">
+<source xml:lang="en">Monitoring deadlocks</source>
+<seg-source><mrk mid="0" mtype="seg">Monitoring deadlocks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Monitoring deadlocks</mrk></target>
+</trans-unit>
+<trans-unit id="tu188" restype="x-navtitle">
+<source xml:lang="en">Reclaiming unused space</source>
+<seg-source><mrk mid="0" mtype="seg">Reclaiming unused space</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reclaiming unused space</mrk></target>
+</trans-unit>
+<trans-unit id="tu189" restype="x-navtitle">
+<source xml:lang="en">Trademarks</source>
+<seg-source><mrk mid="0" mtype="seg">Trademarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Trademarks</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

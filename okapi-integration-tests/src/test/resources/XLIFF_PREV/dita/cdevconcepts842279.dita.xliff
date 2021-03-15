@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts842279.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Exclusive locks</source>
+<seg-source><mrk mid="0" mtype="seg">Exclusive locks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exclusive locks</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">When a statement modifies data, its transaction holds an <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>exclusive<ept id="1">&lt;/i&gt;</ept> lock on data that prevents other transactions from accessing the data.</source>
+<seg-source><mrk mid="0" mtype="seg">When a statement modifies data, its transaction holds an <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>exclusive<ept id="1">&lt;/i&gt;</ept> lock on data that prevents other transactions from accessing the data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a statement modifies data, its transaction holds an <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>exclusive<ept id="1">&lt;/i&gt;</ept> lock on data that prevents other transactions from accessing the data.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Exclusive locks</source>
+<seg-source><mrk mid="0" mtype="seg">Exclusive locks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exclusive locks</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">definition</source>
+<seg-source><mrk mid="0" mtype="seg">definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Shared locks</source>
+<seg-source><mrk mid="0" mtype="seg">Shared locks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shared locks</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">definition</source>
+<seg-source><mrk mid="0" mtype="seg">definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">This lock remains in place until the transaction holding the lock issues a commit or rollback. Table-level locking lowers concurrency in a multi-user system.</source>
+<seg-source><mrk mid="0" mtype="seg">This lock remains in place until the transaction holding the lock issues a commit or rollback.</mrk><mrk mid="1" mtype="seg"> Table-level locking lowers concurrency in a multi-user system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This lock remains in place until the transaction holding the lock issues a commit or rollback.</mrk><mrk mid="1" mtype="seg"> Table-level locking lowers concurrency in a multi-user system.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="test01.xml" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Text of paragraph 1 with &amp;=amp, "=quot, &lt;=lt, &gt;=gt, '=apos.</source>
+<seg-source><mrk mid="0" mtype="seg">Text of paragraph 1 with &amp;=amp, "=quot, &lt;=lt, &gt;=gt, '=apos.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text of paragraph 1 with &amp;=amp, "=quot, &lt;=lt, &gt;=gt, '=apos.</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Text of paragraph 2.<ph id="1">&lt;!-- comments --&gt;</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Text of paragraph 2.<ph id="1">&lt;!-- comments --&gt;</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text of paragraph 2.<ph id="1">&lt;!-- comments --&gt;</ph></mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Text of paragraph 3.<ph id="1">&lt;?somepi piarg1=val1 piarg2 = val2?&gt;</ph></source>
+<seg-source><mrk mid="0" mtype="seg">Text of paragraph 3.<ph id="1">&lt;?somepi piarg1=val1 piarg2 = val2?&gt;</ph></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text of paragraph 3.<ph id="1">&lt;?somepi piarg1=val1 piarg2 = val2?&gt;</ph></mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> Text &amp;=amp, &lt;=lt, &gt;=gt, ]=cbracket, [=obracket </source>
+<seg-source><mrk mid="0" mtype="seg"> Text &amp;=amp, &lt;=lt, &gt;=gt, ]=cbracket, [=obracket</mrk> </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> Text &amp;=amp, &lt;=lt, &gt;=gt, ]=cbracket, [=obracket</mrk> </target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Before <ph id="1" ctype="x-img">&lt;img attr1="&amp;amp;=amp, &amp;quot;=quot, &amp;lt;=lt, &gt;=gt, '=apos,  =nbsp."/&gt;</ph> after.</source>
+<seg-source><mrk mid="0" mtype="seg">Before <ph id="1" ctype="x-img">&lt;img attr1="&amp;amp;=amp, &amp;quot;=quot, &amp;lt;=lt, &gt;=gt, '=apos,  =nbsp."/&gt;</ph> after.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Before <ph id="1" ctype="x-img">&lt;img attr1="&amp;amp;=amp, &amp;quot;=quot, &amp;lt;=lt, &gt;=gt, '=apos,  =nbsp."/&gt;</ph> after.</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Text for p <bpt id="1" ctype="x-b">&lt;b its:translate="no"&gt;</bpt><ph id="2">no trans within text</ph><ept id="1">&lt;/b&gt;</ept> text for p again</source>
+<seg-source><mrk mid="0" mtype="seg">Text for p <bpt id="1" ctype="x-b">&lt;b its:translate="no"&gt;</bpt><ph id="2">no trans within text</ph><ept id="1">&lt;/b&gt;</ept> text for p again</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text for p <bpt id="1" ctype="x-b">&lt;b its:translate="no"&gt;</bpt><ph id="2">no trans within text</ph><ept id="1">&lt;/b&gt;</ept> text for p again</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Text for p <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>within text text for b<ept id="1">&lt;/b&gt;</ept> text for p again</source>
+<seg-source><mrk mid="0" mtype="seg">Text for p <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>within text text for b<ept id="1">&lt;/b&gt;</ept> text for p again</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text for p <bpt id="1" ctype="x-b">&lt;b&gt;</bpt>within text text for b<ept id="1">&lt;/b&gt;</ept> text for p again</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Text for p </source>
+<seg-source><mrk mid="0" mtype="seg">Text for p</mrk> </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text for p</mrk> </target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> text for p again</source>
+<seg-source><mrk mid="0" mtype="seg"> text for p again</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> text for p again</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Text for p </source>
+<seg-source><mrk mid="0" mtype="seg">Text for p</mrk> </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text for p</mrk> </target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">embedded text for q</source>
+<seg-source><mrk mid="0" mtype="seg">embedded text for q</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">embedded text for q</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> text for p again</source>
+<seg-source><mrk mid="0" mtype="seg"> text for p again</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> text for p again</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

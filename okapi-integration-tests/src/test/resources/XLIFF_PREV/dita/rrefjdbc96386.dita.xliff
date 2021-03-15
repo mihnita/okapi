@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbc96386.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Mapping of java.sql.Blob and java.sql.Clob interfaces</source>
+<seg-source><mrk mid="0" mtype="seg">Mapping of java.sql.Blob and java.sql.Clob interfaces</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mapping of java.sql.Blob and java.sql.Clob interfaces</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">java.sql.Blob interface</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.Blob interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.Blob interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">java.sql.Clob interface</source>
+<seg-source><mrk mid="0" mtype="seg">java.sql.Clob interface</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">java.sql.Clob interface</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">BLOB data type</source>
+<seg-source><mrk mid="0" mtype="seg">BLOB data type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BLOB data type</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">CLOB data type</source>
+<seg-source><mrk mid="0" mtype="seg">CLOB data type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CLOB data type</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">In the JDBC API, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept> is the mapping for the SQL BLOB (binary large object) type; <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="2">&lt;/i&gt;</ept> is the mapping for the SQL CLOB (character large object) type. BLOB and CLOB objects are collectively referred to as LOBs (large objects).</source>
+<seg-source><mrk mid="0" mtype="seg">In the JDBC API, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept> is the mapping for the SQL BLOB (binary large object) type; <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="2">&lt;/i&gt;</ept> is the mapping for the SQL CLOB (character large object) type.</mrk><mrk mid="1" mtype="seg"> BLOB and CLOB objects are collectively referred to as LOBs (large objects).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the JDBC API, <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept> is the mapping for the SQL BLOB (binary large object) type; <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="2">&lt;/i&gt;</ept> is the mapping for the SQL CLOB (character large object) type.</mrk><mrk mid="1" mtype="seg"> BLOB and CLOB objects are collectively referred to as LOBs (large objects).</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implementation of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="2">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="3">&lt;/i&gt;</ept> interfaces is LOCATOR-based, meaning that the implementation provides a logical pointer to a LOB rather than a complete copy of the object. Also, <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> does not materialize a LOB when you use the BLOB or CLOB data type. You can, however, call methods on a <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="5">&lt;/i&gt;</ept> and <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="6">&lt;/i&gt;</ept> object to materialize it (that is, to retrieve the entire object or parts of it).</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implementation of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="2">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="3">&lt;/i&gt;</ept> interfaces is LOCATOR-based, meaning that the implementation provides a logical pointer to a LOB rather than a complete copy of the object.</mrk><mrk mid="1" mtype="seg"> Also, <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> does not materialize a LOB when you use the BLOB or CLOB data type.</mrk><mrk mid="2" mtype="seg"> You can, however, call methods on a <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="5">&lt;/i&gt;</ept> and <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="6">&lt;/i&gt;</ept> object to materialize it (that is, to retrieve the entire object or parts of it).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implementation of the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="2">&lt;/i&gt;</ept> and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="3">&lt;/i&gt;</ept> interfaces is LOCATOR-based, meaning that the implementation provides a logical pointer to a LOB rather than a complete copy of the object.</mrk><mrk mid="1" mtype="seg"> Also, <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> does not materialize a LOB when you use the BLOB or CLOB data type.</mrk><mrk mid="2" mtype="seg"> You can, however, call methods on a <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="5">&lt;/i&gt;</ept> and <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="6">&lt;/i&gt;</ept> object to materialize it (that is, to retrieve the entire object or parts of it).</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">You can access a LOB column only once within a row, by invoking a getter method on it.</source>
+<seg-source><mrk mid="0" mtype="seg">You can access a LOB column only once within a row, by invoking a getter method on it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can access a LOB column only once within a row, by invoking a getter method on it.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">To use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="2">&lt;/i&gt;</ept> features:</source>
+<seg-source><mrk mid="0" mtype="seg">To use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="2">&lt;/i&gt;</ept> features:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="2">&lt;/i&gt;</ept> features:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Use the SQL BLOB type for columns which hold very large binary values.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the SQL BLOB type for columns which hold very large binary values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the SQL BLOB type for columns which hold very large binary values.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Use the SQL CLOB type for columns which hold very large string values.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the SQL CLOB type for columns which hold very large string values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the SQL CLOB type for columns which hold very large string values.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getBlob<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getClob<ept id="2">&lt;/i&gt;</ept> methods of the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet<ept id="3">&lt;/i&gt;</ept> interface to retrieve a LOB using its locator. You can then materialize all or part of the LOB by calling <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Blob<ept id="4">&lt;/i&gt;</ept> and <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>Clob<ept id="5">&lt;/i&gt;</ept> methods. Alternatively, you can call the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>ResultSet.getBytes<ept id="6">&lt;/i&gt;</ept> method to materialize a BLOB, and you can call the <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ResultSet.getString<ept id="7">&lt;/i&gt;</ept> method to materialize a CLOB.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getBlob<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getClob<ept id="2">&lt;/i&gt;</ept> methods of the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet<ept id="3">&lt;/i&gt;</ept> interface to retrieve a LOB using its locator.</mrk><mrk mid="1" mtype="seg"> You can then materialize all or part of the LOB by calling <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Blob<ept id="4">&lt;/i&gt;</ept> and <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>Clob<ept id="5">&lt;/i&gt;</ept> methods.</mrk><mrk mid="2" mtype="seg"> Alternatively, you can call the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>ResultSet.getBytes<ept id="6">&lt;/i&gt;</ept> method to materialize a BLOB, and you can call the <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ResultSet.getString<ept id="7">&lt;/i&gt;</ept> method to materialize a CLOB.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getBlob<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>getClob<ept id="2">&lt;/i&gt;</ept> methods of the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.ResultSet<ept id="3">&lt;/i&gt;</ept> interface to retrieve a LOB using its locator.</mrk><mrk mid="1" mtype="seg"> You can then materialize all or part of the LOB by calling <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>Blob<ept id="4">&lt;/i&gt;</ept> and <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>Clob<ept id="5">&lt;/i&gt;</ept> methods.</mrk><mrk mid="2" mtype="seg"> Alternatively, you can call the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>ResultSet.getBytes<ept id="6">&lt;/i&gt;</ept> method to materialize a BLOB, and you can call the <bpt id="7" ctype="x-i">&lt;i&gt;</bpt>ResultSet.getString<ept id="7">&lt;/i&gt;</ept> method to materialize a CLOB.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Casting between strings and BLOBs is not recommended because casting is platform- and database-dependent. See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33562.dita#rrefsqlj33562"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">Casting between strings and BLOBs is not recommended because casting is platform- and database-dependent.</mrk><mrk mid="1" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33562.dita#rrefsqlj33562"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Casting between strings and BLOBs is not recommended because casting is platform- and database-dependent.</mrk><mrk mid="1" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33562.dita#rrefsqlj33562"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">As with other character datatypes, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> treats CLOBs as unicode strings and writes them to disk using UTF8 encoding. With a Java database like <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, you do not need to worry about character sets and codepages.</source>
+<seg-source><mrk mid="0" mtype="seg">As with other character datatypes, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> treats CLOBs as unicode strings and writes them to disk using UTF8 encoding.</mrk><mrk mid="1" mtype="seg"> With a Java database like <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, you do not need to worry about character sets and codepages.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">As with other character datatypes, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> treats CLOBs as unicode strings and writes them to disk using UTF8 encoding.</mrk><mrk mid="1" mtype="seg"> With a Java database like <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>, you do not need to worry about character sets and codepages.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Restrictions on BLOB and CLOB objects (LOB-types)</source>
+<seg-source><mrk mid="0" mtype="seg">Restrictions on BLOB and CLOB objects (LOB-types)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Restrictions on BLOB and CLOB objects (LOB-types)</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">LOB-types cannot be compared for equality (=) and non-equality (!=, &lt;&gt;).</source>
+<seg-source><mrk mid="0" mtype="seg">LOB-types cannot be compared for equality (=) and non-equality (!=, &lt;&gt;).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOB-types cannot be compared for equality (=) and non-equality (!=, &lt;&gt;).</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">LOB-typed values are not orderable, so &lt;, &lt;=, &gt;, &gt;= tests are not supported.</source>
+<seg-source><mrk mid="0" mtype="seg">LOB-typed values are not orderable, so &lt;, &lt;=, &gt;, &gt;= tests are not supported.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOB-typed values are not orderable, so &lt;, &lt;=, &gt;, &gt;= tests are not supported.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">LOB-types cannot be used in indices or as primary key columns.</source>
+<seg-source><mrk mid="0" mtype="seg">LOB-types cannot be used in indices or as primary key columns.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOB-types cannot be used in indices or as primary key columns.</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">DISTINCT, GROUP BY, and ORDER BY clauses are also prohibited on LOB-types.</source>
+<seg-source><mrk mid="0" mtype="seg">DISTINCT, GROUP BY, and ORDER BY clauses are also prohibited on LOB-types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DISTINCT, GROUP BY, and ORDER BY clauses are also prohibited on LOB-types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">LOB-types cannot be involved in implicit casting as other base-types.</source>
+<seg-source><mrk mid="0" mtype="seg">LOB-types cannot be involved in implicit casting as other base-types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LOB-types cannot be involved in implicit casting as other base-types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Recommendation:<ept id="1">&lt;/b&gt;</ept> Because the lifespan of a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="2">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="3">&lt;/i&gt;</ept> ends when the transaction commits, turn off auto-commit with the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="4">&lt;/i&gt;</ept> or <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="5">&lt;/i&gt;</ept> features.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Recommendation:<ept id="1">&lt;/b&gt;</ept> Because the lifespan of a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="2">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="3">&lt;/i&gt;</ept> ends when the transaction commits, turn off auto-commit with the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="4">&lt;/i&gt;</ept> or <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="5">&lt;/i&gt;</ept> features.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>Recommendation:<ept id="1">&lt;/b&gt;</ept> Because the lifespan of a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="2">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="3">&lt;/i&gt;</ept> ends when the transaction commits, turn off auto-commit with the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="4">&lt;/i&gt;</ept> or <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="5">&lt;/i&gt;</ept> features.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">The following table describes features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept> methods that are specific to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table describes features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept> methods that are specific to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table describes features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept> methods that are specific to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Implementation notes on <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept> methods</source>
+<seg-source><mrk mid="0" mtype="seg">Implementation notes on <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept> methods</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Implementation notes on <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept> methods</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">This table describes the implementation-specific features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept> methods, providing the return type and signature for each method.</source>
+<seg-source><mrk mid="0" mtype="seg">This table describes the implementation-specific features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept> methods, providing the return type and signature for each method.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table describes the implementation-specific features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Blob<ept id="1">&lt;/i&gt;</ept> methods, providing the return type and signature for each method.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Returns</source>
+<seg-source><mrk mid="0" mtype="seg">Returns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Signature</source>
+<seg-source><mrk mid="0" mtype="seg">Signature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Signature</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">Implementation Notes</source>
+<seg-source><mrk mid="0" mtype="seg">Implementation Notes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Implementation Notes</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>byte[]<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getBytes(long pos, int length)<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getBytes(long pos, int length)<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getBytes(long pos, int length)<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pos<ept id="1">&lt;/i&gt;</ept> &lt; 1, if <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>pos<ept id="2">&lt;/i&gt;</ept> is larger than the length of the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Blob<ept id="3">&lt;/i&gt;</ept>, or if <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>length<ept id="4">&lt;/i&gt;</ept> &lt;= 0.</source>
+<seg-source><mrk mid="0" mtype="seg">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pos<ept id="1">&lt;/i&gt;</ept> &lt; 1, if <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>pos<ept id="2">&lt;/i&gt;</ept> is larger than the length of the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Blob<ept id="3">&lt;/i&gt;</ept>, or if <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>length<ept id="4">&lt;/i&gt;</ept> &lt;= 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pos<ept id="1">&lt;/i&gt;</ept> &lt; 1, if <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>pos<ept id="2">&lt;/i&gt;</ept> is larger than the length of the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>Blob<ept id="3">&lt;/i&gt;</ept>, or if <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>length<ept id="4">&lt;/i&gt;</ept> &lt;= 0.</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>position(byte[] pattern, long start)<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>position(byte[] pattern, long start)<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>position(byte[] pattern, long start)<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pattern<ept id="1">&lt;/i&gt;</ept> == null, if <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>start<ept id="2">&lt;/i&gt;</ept> &lt; 1, or if <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>pattern<ept id="3">&lt;/i&gt;</ept> is an array of length 0.</source>
+<seg-source><mrk mid="0" mtype="seg">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pattern<ept id="1">&lt;/i&gt;</ept> == null, if <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>start<ept id="2">&lt;/i&gt;</ept> &lt; 1, or if <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>pattern<ept id="3">&lt;/i&gt;</ept> is an array of length 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pattern<ept id="1">&lt;/i&gt;</ept> == null, if <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>start<ept id="2">&lt;/i&gt;</ept> &lt; 1, or if <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>pattern<ept id="3">&lt;/i&gt;</ept> is an array of length 0.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>position(Blob pattern, long start)<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>position(Blob pattern, long start)<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>position(Blob pattern, long start)<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pattern<ept id="1">&lt;/i&gt;</ept> == null, if <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>start<ept id="2">&lt;/i&gt;</ept> &lt; 1, if <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>pattern<ept id="3">&lt;/i&gt;</ept> has length 0, or if an exception is thrown when trying to read the first byte of <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>pattern<ept id="4">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pattern<ept id="1">&lt;/i&gt;</ept> == null, if <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>start<ept id="2">&lt;/i&gt;</ept> &lt; 1, if <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>pattern<ept id="3">&lt;/i&gt;</ept> has length 0, or if an exception is thrown when trying to read the first byte of <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>pattern<ept id="4">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pattern<ept id="1">&lt;/i&gt;</ept> == null, if <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>start<ept id="2">&lt;/i&gt;</ept> &lt; 1, if <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>pattern<ept id="3">&lt;/i&gt;</ept> has length 0, or if an exception is thrown when trying to read the first byte of <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>pattern<ept id="4">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">The following table describes features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept> methods that are specific to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table describes features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept> methods that are specific to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table describes features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept> methods that are specific to <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">Implementation notes on <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept> methods</source>
+<seg-source><mrk mid="0" mtype="seg">Implementation notes on <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept> methods</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Implementation notes on <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept> methods</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">This table describes the implementation-specific features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept> methods, providing the return type and signature for each method.</source>
+<seg-source><mrk mid="0" mtype="seg">This table describes the implementation-specific features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept> methods, providing the return type and signature for each method.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table describes the implementation-specific features of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Clob<ept id="1">&lt;/i&gt;</ept> methods, providing the return type and signature for each method.</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">Returns</source>
+<seg-source><mrk mid="0" mtype="seg">Returns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">Signature</source>
+<seg-source><mrk mid="0" mtype="seg">Signature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Signature</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">Implementation Notes</source>
+<seg-source><mrk mid="0" mtype="seg">Implementation Notes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Implementation Notes</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>String<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>String<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>String<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getSubString(long pos, int length)<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getSubString(long pos, int length)<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>getSubString(long pos, int length)<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pos<ept id="1">&lt;/i&gt;</ept> &lt; 1, if <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>pos<ept id="2">&lt;/i&gt;</ept> is larger than the length of the<bpt id="3" ctype="x-i">&lt;i&gt;</bpt> Clob<ept id="3">&lt;/i&gt;</ept>, or if length &lt;= 0.</source>
+<seg-source><mrk mid="0" mtype="seg">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pos<ept id="1">&lt;/i&gt;</ept> &lt; 1, if <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>pos<ept id="2">&lt;/i&gt;</ept> is larger than the length of the<bpt id="3" ctype="x-i">&lt;i&gt;</bpt> Clob<ept id="3">&lt;/i&gt;</ept>, or if length &lt;= 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>pos<ept id="1">&lt;/i&gt;</ept> &lt; 1, if <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>pos<ept id="2">&lt;/i&gt;</ept> is larger than the length of the<bpt id="3" ctype="x-i">&lt;i&gt;</bpt> Clob<ept id="3">&lt;/i&gt;</ept>, or if length &lt;= 0.</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>position(Clob searchstr, long start) <ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>position(Clob searchstr, long start) <ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>position(Clob searchstr, long start) <ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>searchStr<ept id="1">&lt;/i&gt;</ept> == null or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>start<ept id="2">&lt;/i&gt;</ept> &lt; 1, if <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>searchStr <ept id="3">&lt;/i&gt;</ept>has length 0, or if an exception is thrown when trying to read the first char of <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>searchStr.<ept id="4">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>searchStr<ept id="1">&lt;/i&gt;</ept> == null or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>start<ept id="2">&lt;/i&gt;</ept> &lt; 1, if <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>searchStr <ept id="3">&lt;/i&gt;</ept>has length 0, or if an exception is thrown when trying to read the first char of <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>searchStr.<ept id="4">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>searchStr<ept id="1">&lt;/i&gt;</ept> == null or <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>start<ept id="2">&lt;/i&gt;</ept> &lt; 1, if <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>searchStr <ept id="3">&lt;/i&gt;</ept>has length 0, or if an exception is thrown when trying to read the first char of <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>searchStr.<ept id="4">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>long<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>position(String searchstr, long start) <ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>position(String searchstr, long start) <ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>position(String searchstr, long start) <ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>searchStr<ept id="1">&lt;/i&gt;</ept> == null or start &lt; 1, or if the pattern is an empty string.</source>
+<seg-source><mrk mid="0" mtype="seg">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>searchStr<ept id="1">&lt;/i&gt;</ept> == null or start &lt; 1, or if the pattern is an empty string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exceptions are raised if <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>searchStr<ept id="1">&lt;/i&gt;</ept> == null or start &lt; 1, or if the pattern is an empty string.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

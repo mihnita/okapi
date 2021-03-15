@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="word/document.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/solidstate/code/okapi-integration-tests/target/test-classes/openxml/docx/okf_openxml@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="NFDBB2FA9-tu1" xml:space="preserve">
+<source xml:lang="en">Dear Mr Elephant,</source>
+<seg-source><mrk mid="0" mtype="seg">Dear Mr Elephant,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dear Mr Elephant,</mrk></target>
+</trans-unit>
+<trans-unit id="NFDBB2FA9-tu2" xml:space="preserve">
+<source xml:lang="en">This is now a letter of recommendation for all the things I don’t want to know about you and your <it id="1" ctype="x-bold;" pos="open">&lt;run1&gt;</it>spouse’s children that they had when they were young. Please verify that you are not an idiot and will not seek representation from our <it id="1" ctype="x-bold;" pos="close">&lt;/run1&gt;</it>lawyers<bpt id="2" ctype="x-bold;">&lt;run2&gt;</bpt>.<ept id="2">&lt;/run2&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">This is now a letter of recommendation for all the things I don’t want to know about you and your <it id="1" ctype="x-bold;" pos="open">&lt;run1&gt;</it>spouse’s children that they had when they were young.</mrk><mrk mid="1" mtype="seg"> Please verify that you are not an idiot and will not seek representation from our <it id="1" ctype="x-bold;" pos="close">&lt;/run1&gt;</it>lawyers<bpt id="2" ctype="x-bold;">&lt;run2&gt;</bpt>.<ept id="2">&lt;/run2&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is now a letter of recommendation for all the things I don’t want to know about you and your <it id="1" ctype="x-bold;" pos="open">&lt;run1&gt;</it>spouse’s children that they had when they were young.</mrk><mrk mid="1" mtype="seg"> Please verify that you are not an idiot and will not seek representation from our <it id="1" ctype="x-bold;" pos="close">&lt;/run1&gt;</it>lawyers<bpt id="2" ctype="x-bold;">&lt;run2&gt;</bpt>.<ept id="2">&lt;/run2&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="NFDBB2FA9-tu3" xml:space="preserve">
+<source xml:lang="en">Sincerely,</source>
+<seg-source><mrk mid="0" mtype="seg">Sincerely,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sincerely,</mrk></target>
+</trans-unit>
+<trans-unit id="NFDBB2FA9-tu4" xml:space="preserve">
+<source xml:lang="en">The F project</source>
+<seg-source><mrk mid="0" mtype="seg">The F project</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The F project</mrk></target>
+</trans-unit>
+</body>
+</file>
+<file original="word/settings.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/solidstate/code/okapi-integration-tests/target/test-classes/openxml/docx/okf_openxml@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+</body>
+</file>
+<file original="docProps/core.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/solidstate/code/okapi-integration-tests/target/test-classes/openxml/docx/okf_openxml@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" xml:space="preserve">
+<source xml:lang="en">Efrain</source>
+<seg-source><mrk mid="0" mtype="seg">Efrain</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Efrain</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

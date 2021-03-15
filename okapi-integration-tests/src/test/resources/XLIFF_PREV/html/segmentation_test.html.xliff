@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="segmentation_test.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/html/target/classes/net/sf/okapi/filters/html/nonwellformedConfiguration.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" restype="x-pre" xml:space="preserve">
+<source xml:lang="en">
+interface ElementTraversal
+{
+   readonly attribute Element        <bpt id="1" ctype="link">[#$dp1]</bpt><bpt id="2" ctype="x-code">&lt;code&gt;</bpt>firstElementChild<ept id="2">&lt;/code&gt;</ept><ept id="1">&lt;/a&gt;</ept>;
+   readonly attribute Element        <bpt id="3" ctype="link">[#$dp2]</bpt><bpt id="4" ctype="x-code">&lt;code&gt;</bpt>lastElementChild<ept id="4">&lt;/code&gt;</ept><ept id="3">&lt;/a&gt;</ept>;
+   readonly attribute Element        <bpt id="5" ctype="link">[#$dp3]</bpt><bpt id="6" ctype="x-code">&lt;code&gt;</bpt>previousElementSibling<ept id="6">&lt;/code&gt;</ept><ept id="5">&lt;/a&gt;</ept>;
+   readonly attribute Element        <bpt id="7" ctype="link">[#$dp4]</bpt><bpt id="8" ctype="x-code">&lt;code&gt;</bpt>nextElementSibling<ept id="8">&lt;/code&gt;</ept><ept id="7">&lt;/a&gt;</ept>;
+   readonly attribute unsigned long  <bpt id="9" ctype="link">[#$dp5]</bpt><bpt id="10" ctype="x-code">&lt;code&gt;</bpt>childElementCount<ept id="10">&lt;/code&gt;</ept><ept id="9">&lt;/a&gt;</ept>;
+};
+</source>
+<seg-source>
+<mrk mid="0" mtype="seg">interface ElementTraversal</mrk>
+<mrk mid="1" mtype="seg">{</mrk>
+<mrk mid="2" mtype="seg">   readonly attribute Element        <bpt id="1" ctype="link">[#$dp1]</bpt><bpt id="2" ctype="x-code">&lt;code&gt;</bpt>firstElementChild<ept id="2">&lt;/code&gt;</ept><ept id="1">&lt;/a&gt;</ept>;</mrk>
+<mrk mid="3" mtype="seg">   readonly attribute Element        <bpt id="3" ctype="link">[#$dp2]</bpt><bpt id="4" ctype="x-code">&lt;code&gt;</bpt>lastElementChild<ept id="4">&lt;/code&gt;</ept><ept id="3">&lt;/a&gt;</ept>;</mrk>
+<mrk mid="4" mtype="seg">   readonly attribute Element        <bpt id="5" ctype="link">[#$dp3]</bpt><bpt id="6" ctype="x-code">&lt;code&gt;</bpt>previousElementSibling<ept id="6">&lt;/code&gt;</ept><ept id="5">&lt;/a&gt;</ept>;</mrk>
+<mrk mid="5" mtype="seg">   readonly attribute Element        <bpt id="7" ctype="link">[#$dp4]</bpt><bpt id="8" ctype="x-code">&lt;code&gt;</bpt>nextElementSibling<ept id="8">&lt;/code&gt;</ept><ept id="7">&lt;/a&gt;</ept>;</mrk>
+<mrk mid="6" mtype="seg">   readonly attribute unsigned long  <bpt id="9" ctype="link">[#$dp5]</bpt><bpt id="10" ctype="x-code">&lt;code&gt;</bpt>childElementCount<ept id="10">&lt;/code&gt;</ept><ept id="9">&lt;/a&gt;</ept>;</mrk>
+<mrk mid="7" mtype="seg">};</mrk>
+</seg-source>
+<target xml:lang="fr">
+<mrk mid="0" mtype="seg">interface ElementTraversal</mrk>
+<mrk mid="1" mtype="seg">{</mrk>
+<mrk mid="2" mtype="seg">   readonly attribute Element        <bpt id="1" ctype="link">[#$dp1]</bpt><bpt id="2" ctype="x-code">&lt;code&gt;</bpt>firstElementChild<ept id="2">&lt;/code&gt;</ept><ept id="1">&lt;/a&gt;</ept>;</mrk>
+<mrk mid="3" mtype="seg">   readonly attribute Element        <bpt id="3" ctype="link">[#$dp2]</bpt><bpt id="4" ctype="x-code">&lt;code&gt;</bpt>lastElementChild<ept id="4">&lt;/code&gt;</ept><ept id="3">&lt;/a&gt;</ept>;</mrk>
+<mrk mid="4" mtype="seg">   readonly attribute Element        <bpt id="5" ctype="link">[#$dp3]</bpt><bpt id="6" ctype="x-code">&lt;code&gt;</bpt>previousElementSibling<ept id="6">&lt;/code&gt;</ept><ept id="5">&lt;/a&gt;</ept>;</mrk>
+<mrk mid="5" mtype="seg">   readonly attribute Element        <bpt id="7" ctype="link">[#$dp4]</bpt><bpt id="8" ctype="x-code">&lt;code&gt;</bpt>nextElementSibling<ept id="8">&lt;/code&gt;</ept><ept id="7">&lt;/a&gt;</ept>;</mrk>
+<mrk mid="6" mtype="seg">   readonly attribute unsigned long  <bpt id="9" ctype="link">[#$dp5]</bpt><bpt id="10" ctype="x-code">&lt;code&gt;</bpt>childElementCount<ept id="10">&lt;/code&gt;</ept><ept id="9">&lt;/a&gt;</ept>;</mrk>
+<mrk mid="7" mtype="seg">};</mrk>
+</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

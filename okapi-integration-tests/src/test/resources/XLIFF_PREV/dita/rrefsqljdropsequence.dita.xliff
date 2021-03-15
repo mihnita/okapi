@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljdropsequence.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">DROP SEQUENCE statement</source>
+<seg-source><mrk mid="0" mtype="seg">DROP SEQUENCE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DROP SEQUENCE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">DROP SEQUENCE statement</source>
+<seg-source><mrk mid="0" mtype="seg">DROP SEQUENCE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DROP SEQUENCE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">SQL statements</source>
+<seg-source><mrk mid="0" mtype="seg">SQL statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">DROP SEQUENCE</source>
+<seg-source><mrk mid="0" mtype="seg">DROP SEQUENCE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DROP SEQUENCE</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">sequence generators</source>
+<seg-source><mrk mid="0" mtype="seg">sequence generators</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sequence generators</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">dropping</source>
+<seg-source><mrk mid="0" mtype="seg">dropping</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dropping</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The DROP SEQUENCE statement removes a sequence generator that was created using a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatesequence.dita#rrefsqljcreatesequence"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The DROP SEQUENCE statement removes a sequence generator that was created using a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatesequence.dita#rrefsqljcreatesequence"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The DROP SEQUENCE statement removes a sequence generator that was created using a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqljcreatesequence.dita#rrefsqljcreatesequence"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP SEQUENCE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefsequencename.dita#rrefsequencename"&gt;</bpt>sequenceName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> RESTRICT <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP SEQUENCE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefsequencename.dita#rrefsequencename"&gt;</bpt>sequenceName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> RESTRICT <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP SEQUENCE <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefsequencename.dita#rrefsequencename"&gt;</bpt>sequenceName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> RESTRICT <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The RESTRICT keyword is required. If a trigger or view references the sequence generator, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an exception.</source>
+<seg-source><mrk mid="0" mtype="seg">The RESTRICT keyword is required.</mrk><mrk mid="1" mtype="seg"> If a trigger or view references the sequence generator, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an exception.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The RESTRICT keyword is required.</mrk><mrk mid="1" mtype="seg"> If a trigger or view references the sequence generator, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> throws an exception.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Dropping a sequence generator implicitly drops all USAGE privileges that reference it.</source>
+<seg-source><mrk mid="0" mtype="seg">Dropping a sequence generator implicitly drops all USAGE privileges that reference it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dropping a sequence generator implicitly drops all USAGE privileges that reference it.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP SEQUENCE order_id RESTRICT;<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP SEQUENCE order_id RESTRICT;<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>DROP SEQUENCE order_id RESTRICT;<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

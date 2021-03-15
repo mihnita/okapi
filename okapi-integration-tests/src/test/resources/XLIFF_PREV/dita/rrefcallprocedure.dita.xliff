@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefcallprocedure.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CALL (PROCEDURE) statement</source>
+<seg-source><mrk mid="0" mtype="seg">CALL (PROCEDURE) statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL (PROCEDURE) statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The CALL (PROCEDURE) statement is used to call procedures. A call to a procedure does not return any value.</source>
+<seg-source><mrk mid="0" mtype="seg">The CALL (PROCEDURE) statement is used to call procedures.</mrk><mrk mid="1" mtype="seg"> A call to a procedure does not return any value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The CALL (PROCEDURE) statement is used to call procedures.</mrk><mrk mid="1" mtype="seg"> A call to a procedure does not return any value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">When a procedure with definer's rights is called, the current default schema is set to the eponymously named schema of the definer. For example, if the defining user is called OWNER, the default schema will also be set to OWNER. The definer's rights include the right to set the current role to a role for which the definer has privileges. When the procedure is first invoked, no role is set; even if the invoker has set a current role, the procedure running with definer's rights has no current role set initially.</source>
+<seg-source><mrk mid="0" mtype="seg">When a procedure with definer's rights is called, the current default schema is set to the eponymously named schema of the definer.</mrk><mrk mid="1" mtype="seg"> For example, if the defining user is called OWNER, the default schema will also be set to OWNER.</mrk><mrk mid="2" mtype="seg"> The definer's rights include the right to set the current role to a role for which the definer has privileges.</mrk><mrk mid="3" mtype="seg"> When the procedure is first invoked, no role is set; even if the invoker has set a current role, the procedure running with definer's rights has no current role set initially.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a procedure with definer's rights is called, the current default schema is set to the eponymously named schema of the definer.</mrk><mrk mid="1" mtype="seg"> For example, if the defining user is called OWNER, the default schema will also be set to OWNER.</mrk><mrk mid="2" mtype="seg"> The definer's rights include the right to set the current role to a role for which the definer has privileges.</mrk><mrk mid="3" mtype="seg"> When the procedure is first invoked, no role is set; even if the invoker has set a current role, the procedure running with definer's rights has no current role set initially.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">When a procedure with invoker's rights is called, the current default schema and current role are unchanged initially within the procedure. Similarly, if SQL authorization mode is not enabled, the current default schema is unchanged initially within the procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">When a procedure with invoker's rights is called, the current default schema and current role are unchanged initially within the procedure.</mrk><mrk mid="1" mtype="seg"> Similarly, if SQL authorization mode is not enabled, the current default schema is unchanged initially within the procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a procedure with invoker's rights is called, the current default schema and current role are unchanged initially within the procedure.</mrk><mrk mid="1" mtype="seg"> Similarly, if SQL authorization mode is not enabled, the current default schema is unchanged initially within the procedure.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">When the call returns, any changes made inside the procedure to the default current schema (and current role, if relevant) are reset (popped).</source>
+<seg-source><mrk mid="0" mtype="seg">When the call returns, any changes made inside the procedure to the default current schema (and current role, if relevant) are reset (popped).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the call returns, any changes made inside the procedure to the default current schema (and current role, if relevant) are reset (popped).</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">For information about definer's rights, see <bpt id="1" ctype="x-xref">&lt;xref href="rrefcreateprocedurestatement.dita#rrefcreateprocedurestatement/rrefcrprodefrts"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For information about definer's rights, see <bpt id="1" ctype="x-xref">&lt;xref href="rrefcreateprocedurestatement.dita#rrefcreateprocedurestatement/rrefcrprodefrts"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For information about definer's rights, see <bpt id="1" ctype="x-xref">&lt;xref href="rrefcreateprocedurestatement.dita#rrefcreateprocedurestatement/rrefcrprodefrts"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefprocedurename.dita#rrefprocedurename"&gt;</bpt>procedureName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ( [ <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>expression<ept id="4">&lt;/varname&gt;</ept> [ , <bpt id="5" ctype="x-varname">&lt;varname&gt;</bpt>expression<ept id="5">&lt;/varname&gt;</ept> ]* ] ) <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefprocedurename.dita#rrefprocedurename"&gt;</bpt>procedureName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ( [ <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>expression<ept id="4">&lt;/varname&gt;</ept> [ , <bpt id="5" ctype="x-varname">&lt;varname&gt;</bpt>expression<ept id="5">&lt;/varname&gt;</ept> ]* ] ) <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref
+href="rrefprocedurename.dita#rrefprocedurename"&gt;</bpt>procedureName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> ( [ <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>expression<ept id="4">&lt;/varname&gt;</ept> [ , <bpt id="5" ctype="x-varname">&lt;varname&gt;</bpt>expression<ept id="5">&lt;/varname&gt;</ept> ]* ] ) <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE PROCEDURE SALES.TOTAL_REVENUE(IN S_MONTH INTEGER, IN S_YEAR INTEGER, OUT TOTAL DECIMAL(10,2)) PARAMETER STYLE JAVA READS SQL DATA LANGUAGE JAVA EXTERNAL NAME 'com.example.sales.calculateRevenueByMonth'; CALL SALES.TOTAL_REVENUE(?,?,?); <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE PROCEDURE SALES.TOTAL_REVENUE(IN S_MONTH INTEGER, IN S_YEAR INTEGER, OUT TOTAL DECIMAL(10,2)) PARAMETER STYLE JAVA READS SQL DATA LANGUAGE JAVA EXTERNAL NAME 'com.example.sales.calculateRevenueByMonth'; CALL SALES.TOTAL_REVENUE(?,?,?); <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CREATE PROCEDURE SALES.TOTAL_REVENUE(IN S_MONTH INTEGER, IN S_YEAR INTEGER, OUT TOTAL DECIMAL(10,2)) PARAMETER STYLE JAVA READS SQL DATA LANGUAGE JAVA EXTERNAL NAME 'com.example.sales.calculateRevenueByMonth'; CALL SALES.TOTAL_REVENUE(?,?,?); <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljusing.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">USING clause</source>
+<seg-source><mrk mid="0" mtype="seg">USING clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">USING clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">USING clause</source>
+<seg-source><mrk mid="0" mtype="seg">USING clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">USING clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">The USING clause specifies which columns to test for equality when two tables are joined. It can be used instead of an ON clause in the <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj29840.dita#rrefsqlj29840"&gt;</bpt>JOIN operations<ept id="1">&lt;/xref&gt;</ept> that have an explicit join clause.</source>
+<seg-source><mrk mid="0" mtype="seg">The USING clause specifies which columns to test for equality when two tables are joined.</mrk><mrk mid="1" mtype="seg"> It can be used instead of an ON clause in the <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj29840.dita#rrefsqlj29840"&gt;</bpt>JOIN operations<ept id="1">&lt;/xref&gt;</ept> that have an explicit join clause.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The USING clause specifies which columns to test for equality when two tables are joined.</mrk><mrk mid="1" mtype="seg"> It can be used instead of an ON clause in the <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj29840.dita#rrefsqlj29840"&gt;</bpt>JOIN operations<ept id="1">&lt;/xref&gt;</ept> that have an explicit join clause.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>USING ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>USING ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>USING ( <bpt id="2" ctype="x-i">&lt;i&gt;</bpt><bpt id="3" ctype="x-xref">&lt;xref 
+href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="3">&lt;/xref&gt;</ept><ept id="2">&lt;/i&gt;</ept> [ , <bpt id="4" ctype="x-i">&lt;i&gt;</bpt><bpt id="5" ctype="x-xref">&lt;xref
+href="rrefsimplecolumnname.dita#rrefsimplecolumnname"&gt;</bpt>simpleColumnName<ept id="5">&lt;/xref&gt;</ept><ept id="4">&lt;/i&gt;</ept> ]* )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The columns listed in the USING clause must be present in both of the two tables being joined. The USING clause will be transformed to an ON clause that checks for equality between the named columns in the two tables.</source>
+<seg-source><mrk mid="0" mtype="seg">The columns listed in the USING clause must be present in both of the two tables being joined.</mrk><mrk mid="1" mtype="seg"> The USING clause will be transformed to an ON clause that checks for equality between the named columns in the two tables.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The columns listed in the USING clause must be present in both of the two tables being joined.</mrk><mrk mid="1" mtype="seg"> The USING clause will be transformed to an ON clause that checks for equality between the named columns in the two tables.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">When a USING clause is specified, an asterisk (*) in the select list of the query will be expanded to the following list of columns (in this order):</source>
+<seg-source><mrk mid="0" mtype="seg">When a USING clause is specified, an asterisk (*) in the select list of the query will be expanded to the following list of columns (in this order):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a USING clause is specified, an asterisk (*) in the select list of the query will be expanded to the following list of columns (in this order):</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">All the columns in the USING clause</source>
+<seg-source><mrk mid="0" mtype="seg">All the columns in the USING clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All the columns in the USING clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">All the columns of the first (left) table that are not specified in the USING clause</source>
+<seg-source><mrk mid="0" mtype="seg">All the columns of the first (left) table that are not specified in the USING clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All the columns of the first (left) table that are not specified in the USING clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">All the columns of the second (right) table that are not specified in the USING clause</source>
+<seg-source><mrk mid="0" mtype="seg">All the columns of the second (right) table that are not specified in the USING clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All the columns of the second (right) table that are not specified in the USING clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">An asterisk qualified by a table name (for example, COUNTRIES.*) will be expanded to every column of that table that is not listed in the USING clause.</source>
+<seg-source><mrk mid="0" mtype="seg">An asterisk qualified by a table name (for example, COUNTRIES.*) will be expanded to every column of that table that is not listed in the USING clause.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An asterisk qualified by a table name (for example, COUNTRIES.*) will be expanded to every column of that table that is not listed in the USING clause.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">If a column in the USING clause is referenced without being qualified by a table name, the column reference points to the column in the first (left) table if the join is an INNER JOIN or a LEFT OUTER JOIN. If it is a RIGHT OUTER JOIN, unqualified references to a column in the USING clause point to the column in the second (right) table.</source>
+<seg-source><mrk mid="0" mtype="seg">If a column in the USING clause is referenced without being qualified by a table name, the column reference points to the column in the first (left) table if the join is an INNER JOIN or a LEFT OUTER JOIN.</mrk><mrk mid="1" mtype="seg"> If it is a RIGHT OUTER JOIN, unqualified references to a column in the USING clause point to the column in the second (right) table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a column in the USING clause is referenced without being qualified by a table name, the column reference points to the column in the first (left) table if the join is an INNER JOIN or a LEFT OUTER JOIN.</mrk><mrk mid="1" mtype="seg"> If it is a RIGHT OUTER JOIN, unqualified references to a column in the USING clause point to the column in the second (right) table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">The following query performs an inner join between the COUNTRIES table and the CITIES table on the condition that COUNTRIES.COUNTRY is equal to CITIES.COUNTRY:</source>
+<seg-source><mrk mid="0" mtype="seg">The following query performs an inner join between the COUNTRIES table and the CITIES table on the condition that COUNTRIES.COUNTRY is equal to CITIES.COUNTRY:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following query performs an inner join between the COUNTRIES table and the CITIES table on the condition that COUNTRIES.COUNTRY is equal to CITIES.COUNTRY:</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM COUNTRIES JOIN CITIES USING (COUNTRY)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM COUNTRIES JOIN CITIES USING (COUNTRY)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM COUNTRIES JOIN CITIES USING (COUNTRY)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">The next query is similar to the one above, but it has the additional join condition that COUNTRIES.COUNTRY_ISO_CODE is equal to CITIES.COUNTRY_ISO_CODE:</source>
+<seg-source><mrk mid="0" mtype="seg">The next query is similar to the one above, but it has the additional join condition that COUNTRIES.COUNTRY_ISO_CODE is equal to CITIES.COUNTRY_ISO_CODE:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The next query is similar to the one above, but it has the additional join condition that COUNTRIES.COUNTRY_ISO_CODE is equal to CITIES.COUNTRY_ISO_CODE:</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM COUNTRIES JOIN CITIES USING (COUNTRY, COUNTRY_ISO_CODE)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM COUNTRIES JOIN CITIES USING (COUNTRY, COUNTRY_ISO_CODE)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT * FROM COUNTRIES JOIN CITIES USING (COUNTRY, COUNTRY_ISO_CODE)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefjdbc10889.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Attributes of the Derby database connection URL</source>
+<seg-source><mrk mid="0" mtype="seg">Attributes of the Derby database connection URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attributes of the Derby database connection URL</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Database connection URL</source>
+<seg-source><mrk mid="0" mtype="seg">Database connection URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database connection URL</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">attributes</source>
+<seg-source><mrk mid="0" mtype="seg">attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Database connection URL</source>
+<seg-source><mrk mid="0" mtype="seg">Database connection URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database connection URL</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">Properties object</source>
+<seg-source><mrk mid="0" mtype="seg">Properties object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Properties object</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">You can supply an optional list of attributes to a database connection URL. <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> translates these attributes into properties, so you can also set attributes in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="2">&lt;/i&gt;</ept> object passed to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection<ept id="3">&lt;/i&gt;</ept>. (You cannot set those attributes as system properties, only in an object passed to the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection<ept id="4">&lt;/i&gt;</ept> method.) If you specify any attributes both on the connection URL and in a <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="5">&lt;/i&gt;</ept> object, the attributes on the connection URL override the attributes in the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="6">&lt;/i&gt;</ept> object.</source>
+<seg-source><mrk mid="0" mtype="seg">You can supply an optional list of attributes to a database connection URL.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> translates these attributes into properties, so you can also set attributes in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="2">&lt;/i&gt;</ept> object passed to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> (You cannot set those attributes as system properties, only in an object passed to the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection<ept id="4">&lt;/i&gt;</ept> method.) If you specify any attributes both on the connection URL and in a <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="5">&lt;/i&gt;</ept> object, the attributes on the connection URL override the attributes in the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="6">&lt;/i&gt;</ept> object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can supply an optional list of attributes to a database connection URL.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> translates these attributes into properties, so you can also set attributes in a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="2">&lt;/i&gt;</ept> object passed to <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection<ept id="3">&lt;/i&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> (You cannot set those attributes as system properties, only in an object passed to the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection<ept id="4">&lt;/i&gt;</ept> method.) If you specify any attributes both on the connection URL and in a <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="5">&lt;/i&gt;</ept> object, the attributes on the connection URL override the attributes in the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="6">&lt;/i&gt;</ept> object.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">These attributes are specific to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> and are listed in <bpt id="2" ctype="x-xref">&lt;xref href="rrefattrib24612.dita#rrefattrib24612"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">These attributes are specific to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> and are listed in <bpt id="2" ctype="x-xref">&lt;xref href="rrefattrib24612.dita#rrefattrib24612"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">These attributes are specific to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> and are listed in <bpt id="2" ctype="x-xref">&lt;xref href="rrefattrib24612.dita#rrefattrib24612"&gt;</bpt><ept id="2">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Attribute name/value pairs are converted into properties and added to the properties provided in the connection call. If no properties are provided in the connection call, a properties set is created that contains only the properties obtained from the database connection URL.</source>
+<seg-source><mrk mid="0" mtype="seg">Attribute name/value pairs are converted into properties and added to the properties provided in the connection call.</mrk><mrk mid="1" mtype="seg"> If no properties are provided in the connection call, a properties set is created that contains only the properties obtained from the database connection URL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attribute name/value pairs are converted into properties and added to the properties provided in the connection call.</mrk><mrk mid="1" mtype="seg"> If no properties are provided in the connection call, a properties set is created that contains only the properties obtained from the database connection URL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>import java.util.Properties; Connection conn = DriverManager.getConnection( "jdbc:derby:sampleDB;create=true"); <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>/* setting an attribute in a Properties object */<ept id="2">&lt;/ph&gt;</ept> Properties myProps = new Properties(); myProps.put("create", "true"); Connection conn = DriverManager.getConnection( "jdbc:derby:sampleDB", myProps); <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>/* passing user name and password */<ept id="3">&lt;/ph&gt;</ept> Connection conn = DriverManager.getConnection( "jdbc:derby:sampleDB", "dba", "password");<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>import java.util.Properties; Connection conn = DriverManager.getConnection( "jdbc:derby:sampleDB;create=true"); <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>/* setting an attribute in a Properties object */<ept id="2">&lt;/ph&gt;</ept> Properties myProps = new Properties(); myProps.put("create", "true"); Connection conn = DriverManager.getConnection( "jdbc:derby:sampleDB", myProps); <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>/* passing user name and password */<ept id="3">&lt;/ph&gt;</ept> Connection conn = DriverManager.getConnection( "jdbc:derby:sampleDB", "dba", "password");<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>import java.util.Properties; Connection conn = DriverManager.getConnection( "jdbc:derby:sampleDB;create=true"); <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>/* setting an attribute in a Properties object */<ept id="2">&lt;/ph&gt;</ept> Properties myProps = new Properties(); myProps.put("create", "true"); Connection conn = DriverManager.getConnection( "jdbc:derby:sampleDB", myProps); <bpt id="3" ctype="x-ph">&lt;ph&gt;</bpt>/* passing user name and password */<ept id="3">&lt;/ph&gt;</ept> Connection conn = DriverManager.getConnection( "jdbc:derby:sampleDB", "dba", "password");<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Attributes are not parsed for correctness. If you pass in an incorrect attribute or corresponding value, it is simply ignored. (<bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does provide a tool for parsing the correctness of attributes. For more information, see the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/citutilities"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.)</source>
+<seg-source><mrk mid="0" mtype="seg">Attributes are not parsed for correctness.</mrk><mrk mid="1" mtype="seg"> If you pass in an incorrect attribute or corresponding value, it is simply ignored.</mrk><mrk mid="2" mtype="seg"> (<bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does provide a tool for parsing the correctness of attributes.</mrk><mrk mid="3" mtype="seg"> For more information, see the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/citutilities"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attributes are not parsed for correctness.</mrk><mrk mid="1" mtype="seg"> If you pass in an incorrect attribute or corresponding value, it is simply ignored.</mrk><mrk mid="2" mtype="seg"> (<bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> does provide a tool for parsing the correctness of attributes.</mrk><mrk mid="3" mtype="seg"> For more information, see the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/citutilities"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.)</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

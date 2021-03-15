@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="TestPresentation01.odp/content.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/odp/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" restype="x-text:p">
+<source xml:lang="en">Text of title slide 1</source>
+<seg-source><mrk mid="0" mtype="seg">Text of title slide 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text of title slide 1</mrk></target>
+</trans-unit>
+<trans-unit id="2" restype="x-text:p">
+<source xml:lang="en">Item 1</source>
+<seg-source><mrk mid="0" mtype="seg">Item 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 1</mrk></target>
+</trans-unit>
+<trans-unit id="3" restype="x-text:p">
+<source xml:lang="en">Item 2</source>
+<seg-source><mrk mid="0" mtype="seg">Item 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 2</mrk></target>
+</trans-unit>
+<trans-unit id="4" restype="x-text:p">
+<source xml:lang="en">Item 3 <bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T1"&gt;</bpt>and<ept id="1">&lt;/text:span&gt;</ept> some <bpt id="2" ctype="x-text:span">&lt;text:span text:style-name="T2"&gt;</bpt>bold<ept id="2">&lt;/text:span&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Item 3 <bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T1"&gt;</bpt>and<ept id="1">&lt;/text:span&gt;</ept> some <bpt id="2" ctype="x-text:span">&lt;text:span text:style-name="T2"&gt;</bpt>bold<ept id="2">&lt;/text:span&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 3 <bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T1"&gt;</bpt>and<ept id="1">&lt;/text:span&gt;</ept> some <bpt id="2" ctype="x-text:span">&lt;text:span text:style-name="T2"&gt;</bpt>bold<ept id="2">&lt;/text:span&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="5" restype="x-text:p">
+<source xml:lang="en">Notes <bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T2"&gt;</bpt>going with<ept id="1">&lt;/text:span&gt;</ept> the presentation.</source>
+<seg-source><mrk mid="0" mtype="seg">Notes <bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T2"&gt;</bpt>going with<ept id="1">&lt;/text:span&gt;</ept> the presentation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notes <bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T2"&gt;</bpt>going with<ept id="1">&lt;/text:span&gt;</ept> the presentation.</mrk></target>
+</trans-unit>
+<trans-unit id="6" restype="x-text:p">
+<source xml:lang="en">Title of slide 2</source>
+<seg-source><mrk mid="0" mtype="seg">Title of slide 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title of slide 2</mrk></target>
+</trans-unit>
+<trans-unit id="7" restype="x-text:p">
+<source xml:lang="en">Item with some text that wraps along severa lines, well, at least two of them.</source>
+<seg-source><mrk mid="0" mtype="seg">Item with some text that wraps along severa lines, well, at least two of them.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item with some text that wraps along severa lines, well, at least two of them.</mrk></target>
+</trans-unit>
+<trans-unit id="8" restype="x-text:p">
+<source xml:lang="en"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T3"&gt;</bpt>Ã<ept id="1">&lt;/text:span&gt;</ept><bpt id="2" ctype="x-text:span">&lt;text:span text:style-name="T4"&gt;</bpt>=Atitle.<ept id="2">&lt;/text:span&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T3"&gt;</bpt>Ã<ept id="1">&lt;/text:span&gt;</ept><bpt id="2" ctype="x-text:span">&lt;text:span text:style-name="T4"&gt;</bpt>=Atitle.<ept id="2">&lt;/text:span&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-text:span">&lt;text:span text:style-name="T3"&gt;</bpt>Ã<ept id="1">&lt;/text:span&gt;</ept><bpt id="2" ctype="x-text:span">&lt;text:span text:style-name="T4"&gt;</bpt>=Atitle.<ept id="2">&lt;/text:span&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+<file original="TestPresentation01.odp/styles.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/odp/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+</body>
+</file>
+<file original="TestPresentation01.odp/meta.xml" source-language="en" target-language="fr" datatype="x-undefined" okp:inputEncoding="UTF-8" okp:configId="/Users/chase/src/okapi-integration-tests/target/test-classes/openoffice/odp/okf_openoffice@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="1" restype="x-dc:description">
+<source xml:lang="en">Orange title on dark blue background with orange stripes on bottom border</source>
+<seg-source><mrk mid="0" mtype="seg">Orange title on dark blue background with orange stripes on bottom border</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Orange title on dark blue background with orange stripes on bottom border</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

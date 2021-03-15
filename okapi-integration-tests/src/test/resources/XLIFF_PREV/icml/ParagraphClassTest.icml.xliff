@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="ParagraphClassTest.icml" source-language="en" target-language="fr" datatype="x-application/x-icml+xml" okp:inputEncoding="UTF-8">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="spr1" resname="Stories" restype="x-spread">
+<group id="sto1" resname="xhtml2icml_default_story" restype="x-story">
+<trans-unit id="xhtml2icml_default_story-1" xml:space="preserve">
+<source xml:lang="en">Paragraph Class Test</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraph Class Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraph Class Test</mrk></target>
+</trans-unit>
+<trans-unit id="xhtml2icml_default_story-2" xml:space="preserve">
+<source xml:lang="en"><bpt id="1" ctype="x-CharacterStyleRange">&lt;CharacterStyleRange&gt;&lt;Content&gt;</bpt>by <ept id="1">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;</ept><bpt id="3" ctype="x-cs_NOCHARACTERSTYLE">&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/[No character style]"&gt;&lt;Content&gt;</bpt>Author Name<ept id="3">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;Br/&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-CharacterStyleRange">&lt;CharacterStyleRange&gt;&lt;Content&gt;</bpt>by <ept id="1">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;</ept><bpt id="3" ctype="x-cs_NOCHARACTERSTYLE">&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/[No character style]"&gt;&lt;Content&gt;</bpt>Author Name<ept id="3">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;Br/&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-CharacterStyleRange">&lt;CharacterStyleRange&gt;&lt;Content&gt;</bpt>by <ept id="1">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;</ept><bpt id="3" ctype="x-cs_NOCHARACTERSTYLE">&lt;CharacterStyleRange AppliedCharacterStyle="CharacterStyle/[No character style]"&gt;&lt;Content&gt;</bpt>Author Name<ept id="3">&lt;/Content&gt;&lt;/CharacterStyleRange&gt;&lt;Br/&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="xhtml2icml_default_story-3" xml:space="preserve">
+<source xml:lang="en">This is a paragraph. It is followed by a quote.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a paragraph.</mrk><mrk mid="1" mtype="seg"> It is followed by a quote.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a paragraph.</mrk><mrk mid="1" mtype="seg"> It is followed by a quote.</mrk></target>
+</trans-unit>
+<trans-unit id="xhtml2icml_default_story-4" xml:space="preserve">
+<source xml:lang="en">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </source>
+<seg-source><mrk mid="0" mtype="seg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mrk> </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mrk> </target>
+</trans-unit>
+<trans-unit id="xhtml2icml_default_story-5" xml:space="preserve">
+<source xml:lang="en">This is just a paragraph.</source>
+<seg-source><mrk mid="0" mtype="seg">This is just a paragraph.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is just a paragraph.</mrk></target>
+</trans-unit>
+<trans-unit id="xhtml2icml_default_story-6" xml:space="preserve">
+<source xml:lang="en">This is a paragraph following a plain paragraph. It is followed by an excerpt.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a paragraph following a plain paragraph.</mrk><mrk mid="1" mtype="seg"> It is followed by an excerpt.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a paragraph following a plain paragraph.</mrk><mrk mid="1" mtype="seg"> It is followed by an excerpt.</mrk></target>
+</trans-unit>
+<trans-unit id="xhtml2icml_default_story-7" xml:space="preserve">
+<source xml:lang="en">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</source>
+<seg-source><mrk mid="0" mtype="seg">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</mrk><mrk mid="1" mtype="seg"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</mrk><mrk mid="2" mtype="seg"> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</mrk><mrk mid="1" mtype="seg"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</mrk><mrk mid="2" mtype="seg"> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mrk></target>
+</trans-unit>
+<trans-unit id="xhtml2icml_default_story-8" xml:space="preserve">
+<source xml:lang="en">This is a final paragraph. It is followed by an enigma.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a final paragraph.</mrk><mrk mid="1" mtype="seg"> It is followed by an enigma.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a final paragraph.</mrk><mrk mid="1" mtype="seg"> It is followed by an enigma.</mrk></target>
+</trans-unit>
+<trans-unit id="xhtml2icml_default_story-9" xml:space="preserve">
+<source xml:lang="en">¡</source>
+<seg-source><mrk mid="0" mtype="seg">¡</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">¡</mrk></target>
+</trans-unit>
+</group>
+</group>
+</body>
+</file>
+</xliff>

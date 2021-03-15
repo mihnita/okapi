@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefso2.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">ResultSet objects</source>
+<seg-source><mrk mid="0" mtype="seg">ResultSet objects</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ResultSet objects</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">ResultSets</source>
+<seg-source><mrk mid="0" mtype="seg">ResultSets</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ResultSets</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">errors in statement affecting creation of</source>
+<seg-source><mrk mid="0" mtype="seg">errors in statement affecting creation of</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">errors in statement affecting creation of</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">An error that occurs when a SELECT statement is first executed prevents a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> object from being opened on it. The same error does not close the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> if it occurs after the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> has been opened.</source>
+<seg-source><mrk mid="0" mtype="seg">An error that occurs when a SELECT statement is first executed prevents a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> object from being opened on it.</mrk><mrk mid="1" mtype="seg"> The same error does not close the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> if it occurs after the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> has been opened.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An error that occurs when a SELECT statement is first executed prevents a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> object from being opened on it.</mrk><mrk mid="1" mtype="seg"> The same error does not close the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> if it occurs after the <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="3">&lt;/i&gt;</ept> has been opened.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">For example, a divide-by-zero error that happens while the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>executeQuery<ept id="1">&lt;/i&gt;</ept> method is called on a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Statement<ept id="2">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.PreparedStatement<ept id="3">&lt;/i&gt;</ept> throws an exception and returns no result set at all, while if the same error happens while the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>next<ept id="4">&lt;/i&gt;</ept> method is called on a <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="5">&lt;/i&gt;</ept> object, it does not cause the result set to be closed.</source>
+<seg-source><mrk mid="0" mtype="seg">For example, a divide-by-zero error that happens while the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>executeQuery<ept id="1">&lt;/i&gt;</ept> method is called on a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Statement<ept id="2">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.PreparedStatement<ept id="3">&lt;/i&gt;</ept> throws an exception and returns no result set at all, while if the same error happens while the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>next<ept id="4">&lt;/i&gt;</ept> method is called on a <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="5">&lt;/i&gt;</ept> object, it does not cause the result set to be closed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, a divide-by-zero error that happens while the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>executeQuery<ept id="1">&lt;/i&gt;</ept> method is called on a <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>java.sql.Statement<ept id="2">&lt;/i&gt;</ept> or <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>java.sql.PreparedStatement<ept id="3">&lt;/i&gt;</ept> throws an exception and returns no result set at all, while if the same error happens while the <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>next<ept id="4">&lt;/i&gt;</ept> method is called on a <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="5">&lt;/i&gt;</ept> object, it does not cause the result set to be closed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Errors can happen when a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> is first being created if the system partially executes the query before the first row is fetched. This can happen on any query that uses more than one table and on queries that use aggregates, GROUP BY, ORDER BY, DISTINCT, INTERSECT, EXCEPT, or UNION.</source>
+<seg-source><mrk mid="0" mtype="seg">Errors can happen when a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> is first being created if the system partially executes the query before the first row is fetched.</mrk><mrk mid="1" mtype="seg"> This can happen on any query that uses more than one table and on queries that use aggregates, GROUP BY, ORDER BY, DISTINCT, INTERSECT, EXCEPT, or UNION.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Errors can happen when a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> is first being created if the system partially executes the query before the first row is fetched.</mrk><mrk mid="1" mtype="seg"> This can happen on any query that uses more than one table and on queries that use aggregates, GROUP BY, ORDER BY, DISTINCT, INTERSECT, EXCEPT, or UNION.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Closing a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Statement<ept id="1">&lt;/i&gt;</ept> causes all open <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> objects on that statement to be closed as well.</source>
+<seg-source><mrk mid="0" mtype="seg">Closing a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Statement<ept id="1">&lt;/i&gt;</ept> causes all open <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> objects on that statement to be closed as well.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Closing a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Statement<ept id="1">&lt;/i&gt;</ept> causes all open <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="2">&lt;/i&gt;</ept> objects on that statement to be closed as well.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">The cursor name for the cursor of a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> can be set before the statement is executed. However, once it is executed, the cursor name cannot be altered.</source>
+<seg-source><mrk mid="0" mtype="seg">The cursor name for the cursor of a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> can be set before the statement is executed.</mrk><mrk mid="1" mtype="seg"> However, once it is executed, the cursor name cannot be altered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The cursor name for the cursor of a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ResultSet<ept id="1">&lt;/i&gt;</ept> can be set before the statement is executed.</mrk><mrk mid="1" mtype="seg"> However, once it is executed, the cursor name cannot be altered.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radmindrdakeepalive.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">derby.drda.keepAlive property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.keepAlive property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.keepAlive property</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Indicates whether SO_KEEPALIVE is enabled on sockets.</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates whether SO_KEEPALIVE is enabled on sockets.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates whether SO_KEEPALIVE is enabled on sockets.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">derby.drda.keepAlive property</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.keepAlive property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.keepAlive property</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The keepAlive mechanism is used to detect when clients disconnect unexpectedly. A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>keepalive probe<ept id="1">&lt;/i&gt;</ept> is sent to the client if a long time (by default, more than two hours) passes with no other data being sent or received. The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.keepAlive<ept id="2">&lt;/codeph&gt;</ept> property is used to detect and clean up connections for clients on powered-off machines or clients that have disconnected unexpectedly.</source>
+<seg-source><mrk mid="0" mtype="seg">The keepAlive mechanism is used to detect when clients disconnect unexpectedly.</mrk><mrk mid="1" mtype="seg"> A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>keepalive probe<ept id="1">&lt;/i&gt;</ept> is sent to the client if a long time (by default, more than two hours) passes with no other data being sent or received.</mrk><mrk mid="2" mtype="seg"> The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.keepAlive<ept id="2">&lt;/codeph&gt;</ept> property is used to detect and clean up connections for clients on powered-off machines or clients that have disconnected unexpectedly.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The keepAlive mechanism is used to detect when clients disconnect unexpectedly.</mrk><mrk mid="1" mtype="seg"> A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>keepalive probe<ept id="1">&lt;/i&gt;</ept> is sent to the client if a long time (by default, more than two hours) passes with no other data being sent or received.</mrk><mrk mid="2" mtype="seg"> The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.drda.keepAlive<ept id="2">&lt;/codeph&gt;</ept> property is used to detect and clean up connections for clients on powered-off machines or clients that have disconnected unexpectedly.</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">If the property is set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>false<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> will not attempt to clean up disconnected clients. The keepAlive mechanism might be disabled if clients need to resume work without reconnecting even after being disconnected from the network for some time. To disable keepAlive probes on Network Server connections, set this property to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>false<ept id="3">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If the property is set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>false<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> will not attempt to clean up disconnected clients.</mrk><mrk mid="1" mtype="seg"> The keepAlive mechanism might be disabled if clients need to resume work without reconnecting even after being disconnected from the network for some time.</mrk><mrk mid="2" mtype="seg"> To disable keepAlive probes on Network Server connections, set this property to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>false<ept id="3">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the property is set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>false<ept id="1">&lt;/codeph&gt;</ept>, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> will not attempt to clean up disconnected clients.</mrk><mrk mid="1" mtype="seg"> The keepAlive mechanism might be disabled if clients need to resume work without reconnecting even after being disconnected from the network for some time.</mrk><mrk mid="2" mtype="seg"> To disable keepAlive probes on Network Server connections, set this property to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>false<ept id="3">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">derby.drda.keepAlive={true|false}</source>
+<seg-source><mrk mid="0" mtype="seg">derby.drda.keepAlive={true|false}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">derby.drda.keepAlive={true|false}</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.drdra.keepAlive=false<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.drdra.keepAlive=false<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>derby.drdra.keepAlive=false<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Static or dynamic</source>
+<seg-source><mrk mid="0" mtype="seg">Static or dynamic</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Static or dynamic</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Static. You must restart the Network Server for changes to take effect.</source>
+<seg-source><mrk mid="0" mtype="seg">Static.</mrk><mrk mid="1" mtype="seg"> You must restart the Network Server for changes to take effect.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Static.</mrk><mrk mid="1" mtype="seg"> You must restart the Network Server for changes to take effect.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

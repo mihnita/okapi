@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj32693.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">AVG function</source>
+<seg-source><mrk mid="0" mtype="seg">AVG function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AVG function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">AVG is an aggregate function that evaluates the average of an expression over a set of rows.</source>
+<seg-source><mrk mid="0" mtype="seg">AVG is an aggregate function that evaluates the average of an expression over a set of rows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AVG is an aggregate function that evaluates the average of an expression over a set of rows.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">AVG aggregate function</source>
+<seg-source><mrk mid="0" mtype="seg">AVG aggregate function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AVG aggregate function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">DISTINCT</source>
+<seg-source><mrk mid="0" mtype="seg">DISTINCT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DISTINCT</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">qualifier in AVG function</source>
+<seg-source><mrk mid="0" mtype="seg">qualifier in AVG function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">qualifier in AVG function</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">AVG is allowed only on expressions that evaluate to numeric data types.</source>
+<seg-source><mrk mid="0" mtype="seg">AVG is allowed only on expressions that evaluate to numeric data types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AVG is allowed only on expressions that evaluate to numeric data types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33923.dita#rrefsqlj33923"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information about these functions.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33923.dita#rrefsqlj33923"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information about these functions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj33923.dita#rrefsqlj33923"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information about these functions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>AVG ( [ DISTINCT | ALL ] <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>AVG ( [ DISTINCT | ALL ] <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>AVG ( [ DISTINCT | ALL ] <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>expression<ept id="2">&lt;/i&gt;</ept> )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">The DISTINCT qualifier eliminates duplicates. The ALL qualifier retains duplicates. ALL is the default value if neither ALL nor DISTINCT is specified. For example, if a column contains the values 1.0, 1.0, 1.0, 1.0, and 2.0, AVG(col) returns a smaller value than AVG(DISTINCT col).</source>
+<seg-source><mrk mid="0" mtype="seg">The DISTINCT qualifier eliminates duplicates.</mrk><mrk mid="1" mtype="seg"> The ALL qualifier retains duplicates.</mrk><mrk mid="2" mtype="seg"> ALL is the default value if neither ALL nor DISTINCT is specified.</mrk><mrk mid="3" mtype="seg"> For example, if a column contains the values 1.0, 1.0, 1.0, 1.0, and 2.0, AVG(col) returns a smaller value than AVG(DISTINCT col).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The DISTINCT qualifier eliminates duplicates.</mrk><mrk mid="1" mtype="seg"> The ALL qualifier retains duplicates.</mrk><mrk mid="2" mtype="seg"> ALL is the default value if neither ALL nor DISTINCT is specified.</mrk><mrk mid="3" mtype="seg"> For example, if a column contains the values 1.0, 1.0, 1.0, 1.0, and 2.0, AVG(col) returns a smaller value than AVG(DISTINCT col).</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Only one DISTINCT aggregate expression per <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> is allowed. For example, the following query is not valid:</source>
+<seg-source><mrk mid="0" mtype="seg">Only one DISTINCT aggregate expression per <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> is allowed.</mrk><mrk mid="1" mtype="seg"> For example, the following query is not valid:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only one DISTINCT aggregate expression per <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefselectexpression.dita#rrefselectexpression"&gt;</bpt>selectExpression<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept> is allowed.</mrk><mrk mid="1" mtype="seg"> For example, the following query is not valid:</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT AVG (DISTINCT flying_time), SUM (DISTINCT miles) FROM Flights<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT AVG (DISTINCT flying_time), SUM (DISTINCT miles) FROM Flights<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT AVG (DISTINCT flying_time), SUM (DISTINCT miles) FROM Flights<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The expression can contain multiple column references or expressions, but it cannot contain another aggregate or subquery. It must evaluate to an SQL-92 numeric data type. You can therefore call methods that evaluate to SQL-92 data types. If an expression evaluates to NULL, the aggregate skips that value.</source>
+<seg-source><mrk mid="0" mtype="seg">The expression can contain multiple column references or expressions, but it cannot contain another aggregate or subquery.</mrk><mrk mid="1" mtype="seg"> It must evaluate to an SQL-92 numeric data type.</mrk><mrk mid="2" mtype="seg"> You can therefore call methods that evaluate to SQL-92 data types.</mrk><mrk mid="3" mtype="seg"> If an expression evaluates to NULL, the aggregate skips that value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The expression can contain multiple column references or expressions, but it cannot contain another aggregate or subquery.</mrk><mrk mid="1" mtype="seg"> It must evaluate to an SQL-92 numeric data type.</mrk><mrk mid="2" mtype="seg"> You can therefore call methods that evaluate to SQL-92 data types.</mrk><mrk mid="3" mtype="seg"> If an expression evaluates to NULL, the aggregate skips that value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">The resulting data type is the same as the expression on which it operates (it will never overflow). The following query, for example, returns the INTEGER <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>1<ept id="1">&lt;/i&gt;</ept>, which might not be what you would expect:</source>
+<seg-source><mrk mid="0" mtype="seg">The resulting data type is the same as the expression on which it operates (it will never overflow).</mrk><mrk mid="1" mtype="seg"> The following query, for example, returns the INTEGER <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>1<ept id="1">&lt;/i&gt;</ept>, which might not be what you would expect:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The resulting data type is the same as the expression on which it operates (it will never overflow).</mrk><mrk mid="1" mtype="seg"> The following query, for example, returns the INTEGER <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>1<ept id="1">&lt;/i&gt;</ept>, which might not be what you would expect:</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT AVG(c1) FROM (VALUES (1), (1), (1), (1), (2)) AS myTable (c1)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT AVG(c1) FROM (VALUES (1), (1), (1), (1), (2)) AS myTable (c1)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT AVG(c1) FROM (VALUES (1), (1), (1), (1), (2)) AS myTable (c1)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">CAST the expression to another data type if you want more precision:</source>
+<seg-source><mrk mid="0" mtype="seg">CAST the expression to another data type if you want more precision:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CAST the expression to another data type if you want more precision:</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT AVG(CAST (c1 AS DOUBLE PRECISION)) FROM (VALUES (1), (1), (1), (1), (2)) AS myTable (c1)<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT AVG(CAST (c1 AS DOUBLE PRECISION)) FROM (VALUES (1), (1), (1), (1), (2)) AS myTable (c1)<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>SELECT AVG(CAST (c1 AS DOUBLE PRECISION)) FROM (VALUES (1), (1), (1), (1), (2)) AS myTable (c1)<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

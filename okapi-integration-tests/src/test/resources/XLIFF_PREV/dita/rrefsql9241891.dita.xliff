@@ -1,0 +1,2948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsql9241891.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Derby support for SQL-92 features</source>
+<seg-source><mrk mid="0" mtype="seg">Derby support for SQL-92 features</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Derby support for SQL-92 features</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">SQL-92</source>
+<seg-source><mrk mid="0" mtype="seg">SQL-92</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL-92</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">features supported by Derby</source>
+<seg-source><mrk mid="0" mtype="seg">features supported by Derby</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">features supported by Derby</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">features not supported by Derby</source>
+<seg-source><mrk mid="0" mtype="seg">features not supported by Derby</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">features not supported by Derby</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">There are four levels of SQL-92 support:</source>
+<seg-source><mrk mid="0" mtype="seg">There are four levels of SQL-92 support:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There are four levels of SQL-92 support:</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Entry</source>
+<seg-source><mrk mid="0" mtype="seg">Entry</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Entry</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Transitional, a level defined by NIST in a publication called FIPS 127-2</source>
+<seg-source><mrk mid="0" mtype="seg">Transitional, a level defined by NIST in a publication called FIPS 127-2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transitional, a level defined by NIST in a publication called FIPS 127-2</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Intermediate</source>
+<seg-source><mrk mid="0" mtype="seg">Intermediate</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Intermediate</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Full</source>
+<seg-source><mrk mid="0" mtype="seg">Full</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Full</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">The following tables show Derby support for SQL-92 features.</source>
+<seg-source><mrk mid="0" mtype="seg">The following tables show Derby support for SQL-92 features.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following tables show Derby support for SQL-92 features.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Support for SQL-92 features: Basic data types</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Basic data types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Basic data types</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">This table shows Derby support for SQL-92 basic data types.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 basic data types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 basic data types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">SMALLINT</source>
+<seg-source><mrk mid="0" mtype="seg">SMALLINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SMALLINT</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">DECIMAL(p,s)</source>
+<seg-source><mrk mid="0" mtype="seg">DECIMAL(p,s)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DECIMAL(p,s)</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">NUMERIC(p,s)</source>
+<seg-source><mrk mid="0" mtype="seg">NUMERIC(p,s)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NUMERIC(p,s)</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">REAL</source>
+<seg-source><mrk mid="0" mtype="seg">REAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REAL</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">FLOAT(p)</source>
+<seg-source><mrk mid="0" mtype="seg">FLOAT(p)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FLOAT(p)</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">DOUBLE PRECISION</source>
+<seg-source><mrk mid="0" mtype="seg">DOUBLE PRECISION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DOUBLE PRECISION</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">CHAR(n)</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR(n)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR(n)</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">Support for SQL-92 features: Basic math operations</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Basic math operations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Basic math operations</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">This table shows Derby support for SQL-92 basic math operations.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 basic math operations.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 basic math operations.</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">+, *, -, /, unary +, unary -</source>
+<seg-source><mrk mid="0" mtype="seg">+, *, -, /, unary +, unary -</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+, *, -, /, unary +, unary -</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">Support for SQL-92 features: Basic comparisons</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Basic comparisons</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Basic comparisons</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">This table shows Derby support for SQL-92 basic comparisons.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 basic comparisons.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 basic comparisons.</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">&lt;, &gt;, &lt;= ,&gt;=, &lt;&gt;, =</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;, &gt;, &lt;= ,&gt;=, &lt;&gt;, =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;, &gt;, &lt;= ,&gt;=, &lt;&gt;, =</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">Support for SQL-92 features: Basic predicates</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Basic predicates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Basic predicates</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">This table shows Derby support for SQL-92 basic predicates.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 basic predicates.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 basic predicates.</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en">BETWEEN, LIKE, NULL</source>
+<seg-source><mrk mid="0" mtype="seg">BETWEEN, LIKE, NULL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BETWEEN, LIKE, NULL</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">Support for SQL-92 features: Quantified predicates</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Quantified predicates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Quantified predicates</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en">This table shows Derby support for SQL-92 quantified predicates.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 quantified predicates.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 quantified predicates.</mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en">IN, ALL/SOME, EXISTS</source>
+<seg-source><mrk mid="0" mtype="seg">IN, ALL/SOME, EXISTS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IN, ALL/SOME, EXISTS</mrk></target>
+</trans-unit>
+<trans-unit id="tu74">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu75">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu76">
+<source xml:lang="en">Support for SQL-92 features: schema definition</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: schema definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: schema definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu77">
+<source xml:lang="en">This table shows Derby support for SQL-92 schema definition.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 schema definition.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 schema definition.</mrk></target>
+</trans-unit>
+<trans-unit id="tu78">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu79">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu80">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu81">
+<source xml:lang="en">Tables</source>
+<seg-source><mrk mid="0" mtype="seg">Tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu82">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu83">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu84">
+<source xml:lang="en">Views</source>
+<seg-source><mrk mid="0" mtype="seg">Views</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Views</mrk></target>
+</trans-unit>
+<trans-unit id="tu85">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu86">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu87">
+<source xml:lang="en">Privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu88">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu89">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu90">
+<source xml:lang="en">Support for SQL-92 features: column attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: column attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: column attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu91">
+<source xml:lang="en">This table shows Derby support for SQL-92 column attributes.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 column attributes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 column attributes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu92">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu93">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu94">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu95">
+<source xml:lang="en">Default values</source>
+<seg-source><mrk mid="0" mtype="seg">Default values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default values</mrk></target>
+</trans-unit>
+<trans-unit id="tu96">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu97">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu98">
+<source xml:lang="en">Nullability</source>
+<seg-source><mrk mid="0" mtype="seg">Nullability</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nullability</mrk></target>
+</trans-unit>
+<trans-unit id="tu99">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu100">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu101">
+<source xml:lang="en">Support for SQL-92 features: constraints (non-deferrable)</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: constraints (non-deferrable)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: constraints (non-deferrable)</mrk></target>
+</trans-unit>
+<trans-unit id="tu102">
+<source xml:lang="en">This table shows Derby support for SQL-92 constraints (non-deferrable).</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 constraints (non-deferrable).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 constraints (non-deferrable).</mrk></target>
+</trans-unit>
+<trans-unit id="tu103">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu104">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu105">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu106">
+<source xml:lang="en">NOT NULL</source>
+<seg-source><mrk mid="0" mtype="seg">NOT NULL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NOT NULL</mrk></target>
+</trans-unit>
+<trans-unit id="tu107">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu108">
+<source xml:lang="en">Yes (not stored in SYSCONSTRAINTS)</source>
+<seg-source><mrk mid="0" mtype="seg">Yes (not stored in SYSCONSTRAINTS)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes (not stored in SYSCONSTRAINTS)</mrk></target>
+</trans-unit>
+<trans-unit id="tu109">
+<source xml:lang="en">UNIQUE/PRIMARY KEY</source>
+<seg-source><mrk mid="0" mtype="seg">UNIQUE/PRIMARY KEY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNIQUE/PRIMARY KEY</mrk></target>
+</trans-unit>
+<trans-unit id="tu110">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu111">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu112">
+<source xml:lang="en">FOREIGN KEY</source>
+<seg-source><mrk mid="0" mtype="seg">FOREIGN KEY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FOREIGN KEY</mrk></target>
+</trans-unit>
+<trans-unit id="tu113">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu114">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu115">
+<source xml:lang="en">CHECK</source>
+<seg-source><mrk mid="0" mtype="seg">CHECK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHECK</mrk></target>
+</trans-unit>
+<trans-unit id="tu116">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu117">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu118">
+<source xml:lang="en">View WITH CHECK OPTION</source>
+<seg-source><mrk mid="0" mtype="seg">View WITH CHECK OPTION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">View WITH CHECK OPTION</mrk></target>
+</trans-unit>
+<trans-unit id="tu119">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu120">
+<source xml:lang="en">No, views cannot be updated</source>
+<seg-source><mrk mid="0" mtype="seg">No, views cannot be updated</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No, views cannot be updated</mrk></target>
+</trans-unit>
+<trans-unit id="tu121">
+<source xml:lang="en">Support for SQL-92 features: Cursors</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Cursors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Cursors</mrk></target>
+</trans-unit>
+<trans-unit id="tu122">
+<source xml:lang="en">This table shows Derby support for SQL-92 cursors.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 cursors.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 cursors.</mrk></target>
+</trans-unit>
+<trans-unit id="tu123">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu124">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu125">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu126">
+<source xml:lang="en">DECLARE, OPEN, FETCH, CLOSE</source>
+<seg-source><mrk mid="0" mtype="seg">DECLARE, OPEN, FETCH, CLOSE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DECLARE, OPEN, FETCH, CLOSE</mrk></target>
+</trans-unit>
+<trans-unit id="tu127">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu128">
+<source xml:lang="en">Yes, by using JDBC method calls</source>
+<seg-source><mrk mid="0" mtype="seg">Yes, by using JDBC method calls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes, by using JDBC method calls</mrk></target>
+</trans-unit>
+<trans-unit id="tu129">
+<source xml:lang="en">UPDATE, DELETE CURRENT</source>
+<seg-source><mrk mid="0" mtype="seg">UPDATE, DELETE CURRENT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UPDATE, DELETE CURRENT</mrk></target>
+</trans-unit>
+<trans-unit id="tu130">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu131">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu132">
+<source xml:lang="en">Support for SQL-92 features: Dynamic SQL 1</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Dynamic SQL 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Dynamic SQL 1</mrk></target>
+</trans-unit>
+<trans-unit id="tu133">
+<source xml:lang="en">This table shows Derby support for SQL-92 dynamic SQL 1.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 dynamic SQL 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 dynamic SQL 1.</mrk></target>
+</trans-unit>
+<trans-unit id="tu134">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu135">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu136">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu137">
+<source xml:lang="en">ALLOCATE / DEALLOCATE / GET / SET DESCRIPTOR</source>
+<seg-source><mrk mid="0" mtype="seg">ALLOCATE / DEALLOCATE / GET / SET DESCRIPTOR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ALLOCATE / DEALLOCATE / GET / SET DESCRIPTOR</mrk></target>
+</trans-unit>
+<trans-unit id="tu138">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu139">
+<source xml:lang="en">Yes, by using JDBC method calls</source>
+<seg-source><mrk mid="0" mtype="seg">Yes, by using JDBC method calls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes, by using JDBC method calls</mrk></target>
+</trans-unit>
+<trans-unit id="tu140">
+<source xml:lang="en">PREPARE / EXECUTE / EXECUTE IMMEDIATE</source>
+<seg-source><mrk mid="0" mtype="seg">PREPARE / EXECUTE / EXECUTE IMMEDIATE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PREPARE / EXECUTE / EXECUTE IMMEDIATE</mrk></target>
+</trans-unit>
+<trans-unit id="tu141">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu142">
+<source xml:lang="en">Yes, by using JDBC method calls</source>
+<seg-source><mrk mid="0" mtype="seg">Yes, by using JDBC method calls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes, by using JDBC method calls</mrk></target>
+</trans-unit>
+<trans-unit id="tu143">
+<source xml:lang="en">DECLARE, OPEN, FETCH, CLOSE, UPDATE, DELETE dynamic cursor</source>
+<seg-source><mrk mid="0" mtype="seg">DECLARE, OPEN, FETCH, CLOSE, UPDATE, DELETE dynamic cursor</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DECLARE, OPEN, FETCH, CLOSE, UPDATE, DELETE dynamic cursor</mrk></target>
+</trans-unit>
+<trans-unit id="tu144">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu145">
+<source xml:lang="en">Yes, by using JDBC method calls</source>
+<seg-source><mrk mid="0" mtype="seg">Yes, by using JDBC method calls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes, by using JDBC method calls</mrk></target>
+</trans-unit>
+<trans-unit id="tu146">
+<source xml:lang="en">DESCRIBE output</source>
+<seg-source><mrk mid="0" mtype="seg">DESCRIBE output</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DESCRIBE output</mrk></target>
+</trans-unit>
+<trans-unit id="tu147">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu148">
+<source xml:lang="en">Yes, by using JDBC method calls</source>
+<seg-source><mrk mid="0" mtype="seg">Yes, by using JDBC method calls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes, by using JDBC method calls</mrk></target>
+</trans-unit>
+<trans-unit id="tu149">
+<source xml:lang="en">Support for SQL-92 features: Basic information schema</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Basic information schema</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Basic information schema</mrk></target>
+</trans-unit>
+<trans-unit id="tu150">
+<source xml:lang="en">This table shows Derby support for the SQL-92 basic information schema.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for the SQL-92 basic information schema.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for the SQL-92 basic information schema.</mrk></target>
+</trans-unit>
+<trans-unit id="tu151">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu152">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu153">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu154">
+<source xml:lang="en">TABLES</source>
+<seg-source><mrk mid="0" mtype="seg">TABLES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TABLES</mrk></target>
+</trans-unit>
+<trans-unit id="tu155">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu156">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSTABLES, SYS.SYSVIEWS, SYS.SYSCOLUMNS<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSTABLES, SYS.SYSVIEWS, SYS.SYSCOLUMNS<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSTABLES, SYS.SYSVIEWS, SYS.SYSCOLUMNS<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu157">
+<source xml:lang="en">VIEWS</source>
+<seg-source><mrk mid="0" mtype="seg">VIEWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VIEWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu158">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu159">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSTABLES, SYS.SYSVIEWS, SYS.SYSCOLUMNS<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSTABLES, SYS.SYSVIEWS, SYS.SYSCOLUMNS<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSTABLES, SYS.SYSVIEWS, SYS.SYSCOLUMNS<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu160">
+<source xml:lang="en">COLUMNS</source>
+<seg-source><mrk mid="0" mtype="seg">COLUMNS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COLUMNS</mrk></target>
+</trans-unit>
+<trans-unit id="tu161">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu162">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSTABLES, SYS.SYSVIEWS, SYS.SYSCOLUMNS<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSTABLES, SYS.SYSVIEWS, SYS.SYSCOLUMNS<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSTABLES, SYS.SYSVIEWS, SYS.SYSCOLUMNS<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu163">
+<source xml:lang="en">Support for SQL-92 features: Basic schema manipulation</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Basic schema manipulation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Basic schema manipulation</mrk></target>
+</trans-unit>
+<trans-unit id="tu164">
+<source xml:lang="en">This table shows Derby support for SQL-92 basic schema manipulation.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 basic schema manipulation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 basic schema manipulation.</mrk></target>
+</trans-unit>
+<trans-unit id="tu165">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu166">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu167">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu168">
+<source xml:lang="en">CREATE / DROP TABLE</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE / DROP TABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE / DROP TABLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu169">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu170">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu171">
+<source xml:lang="en">CREATE / DROP VIEW</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE / DROP VIEW</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE / DROP VIEW</mrk></target>
+</trans-unit>
+<trans-unit id="tu172">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu173">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu174">
+<source xml:lang="en">GRANT / REVOKE</source>
+<seg-source><mrk mid="0" mtype="seg">GRANT / REVOKE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GRANT / REVOKE</mrk></target>
+</trans-unit>
+<trans-unit id="tu175">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu176">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu177">
+<source xml:lang="en">ALTER TABLE ADD COLUMN</source>
+<seg-source><mrk mid="0" mtype="seg">ALTER TABLE ADD COLUMN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ALTER TABLE ADD COLUMN</mrk></target>
+</trans-unit>
+<trans-unit id="tu178">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu179">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu180">
+<source xml:lang="en">ALTER TABLE DROP COLUMN</source>
+<seg-source><mrk mid="0" mtype="seg">ALTER TABLE DROP COLUMN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ALTER TABLE DROP COLUMN</mrk></target>
+</trans-unit>
+<trans-unit id="tu181">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu182">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu183">
+<source xml:lang="en">Support for SQL-92 features: Joined table</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Joined table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Joined table</mrk></target>
+</trans-unit>
+<trans-unit id="tu184">
+<source xml:lang="en">This table shows Derby support for SQL-92 table joins.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 table joins.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 table joins.</mrk></target>
+</trans-unit>
+<trans-unit id="tu185">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu186">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu187">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu188">
+<source xml:lang="en">INNER JOIN</source>
+<seg-source><mrk mid="0" mtype="seg">INNER JOIN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INNER JOIN</mrk></target>
+</trans-unit>
+<trans-unit id="tu189">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu190">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu191">
+<source xml:lang="en">natural join</source>
+<seg-source><mrk mid="0" mtype="seg">natural join</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">natural join</mrk></target>
+</trans-unit>
+<trans-unit id="tu192">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu193">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu194">
+<source xml:lang="en">LEFT, RIGHT OUTER JOIN</source>
+<seg-source><mrk mid="0" mtype="seg">LEFT, RIGHT OUTER JOIN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LEFT, RIGHT OUTER JOIN</mrk></target>
+</trans-unit>
+<trans-unit id="tu195">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu196">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu197">
+<source xml:lang="en">join condition</source>
+<seg-source><mrk mid="0" mtype="seg">join condition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">join condition</mrk></target>
+</trans-unit>
+<trans-unit id="tu198">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu199">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu200">
+<source xml:lang="en">named columns join</source>
+<seg-source><mrk mid="0" mtype="seg">named columns join</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">named columns join</mrk></target>
+</trans-unit>
+<trans-unit id="tu201">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu202">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu203">
+<source xml:lang="en">Support for SQL-92 features: Date and time data types</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Date and time data types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Date and time data types</mrk></target>
+</trans-unit>
+<trans-unit id="tu204">
+<source xml:lang="en">This table shows Derby support for SQL-92 date and time data types.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 date and time data types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 date and time data types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu205">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu206">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu207">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu208">
+<source xml:lang="en">simple DATE, TIME, TIMESTAMP, INTERVAL</source>
+<seg-source><mrk mid="0" mtype="seg">simple DATE, TIME, TIMESTAMP, INTERVAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">simple DATE, TIME, TIMESTAMP, INTERVAL</mrk></target>
+</trans-unit>
+<trans-unit id="tu209">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu210">
+<source xml:lang="en">Yes, not INTERVAL</source>
+<seg-source><mrk mid="0" mtype="seg">Yes, not INTERVAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes, not INTERVAL</mrk></target>
+</trans-unit>
+<trans-unit id="tu211">
+<source xml:lang="en">datetime constants</source>
+<seg-source><mrk mid="0" mtype="seg">datetime constants</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">datetime constants</mrk></target>
+</trans-unit>
+<trans-unit id="tu212">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu213">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu214">
+<source xml:lang="en">datetime math</source>
+<seg-source><mrk mid="0" mtype="seg">datetime math</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">datetime math</mrk></target>
+</trans-unit>
+<trans-unit id="tu215">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu216">
+<source xml:lang="en">Yes, with Java methods</source>
+<seg-source><mrk mid="0" mtype="seg">Yes, with Java methods</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes, with Java methods</mrk></target>
+</trans-unit>
+<trans-unit id="tu217">
+<source xml:lang="en">datetime comparisons</source>
+<seg-source><mrk mid="0" mtype="seg">datetime comparisons</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">datetime comparisons</mrk></target>
+</trans-unit>
+<trans-unit id="tu218">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu219">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu220">
+<source xml:lang="en">predicates: OVERLAPS</source>
+<seg-source><mrk mid="0" mtype="seg">predicates: OVERLAPS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">predicates: OVERLAPS</mrk></target>
+</trans-unit>
+<trans-unit id="tu221">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu222">
+<source xml:lang="en">Yes, with Java methods</source>
+<seg-source><mrk mid="0" mtype="seg">Yes, with Java methods</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes, with Java methods</mrk></target>
+</trans-unit>
+<trans-unit id="tu223">
+<source xml:lang="en">Support for SQL-92 features: VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu224">
+<source xml:lang="en">This table shows Derby support for SQL-92 VARCHARs.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 VARCHARs.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 VARCHARs.</mrk></target>
+</trans-unit>
+<trans-unit id="tu225">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu226">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu227">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu228">
+<source xml:lang="en">LENGTH</source>
+<seg-source><mrk mid="0" mtype="seg">LENGTH</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LENGTH</mrk></target>
+</trans-unit>
+<trans-unit id="tu229">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu230">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu231">
+<source xml:lang="en">concatenation (||)</source>
+<seg-source><mrk mid="0" mtype="seg">concatenation (||)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">concatenation (||)</mrk></target>
+</trans-unit>
+<trans-unit id="tu232">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu233">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu234">
+<source xml:lang="en">Support for SQL-92 features: Transaction isolation</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Transaction isolation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Transaction isolation</mrk></target>
+</trans-unit>
+<trans-unit id="tu235">
+<source xml:lang="en">This table shows Derby support for SQL-92 transaction isolation.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 transaction isolation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 transaction isolation.</mrk></target>
+</trans-unit>
+<trans-unit id="tu236">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu237">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu238">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu239">
+<source xml:lang="en">READ WRITE / READ ONLY</source>
+<seg-source><mrk mid="0" mtype="seg">READ WRITE / READ ONLY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">READ WRITE / READ ONLY</mrk></target>
+</trans-unit>
+<trans-unit id="tu240">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu241">
+<source xml:lang="en">By using JDBC, database properties, and storage media</source>
+<seg-source><mrk mid="0" mtype="seg">By using JDBC, database properties, and storage media</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By using JDBC, database properties, and storage media</mrk></target>
+</trans-unit>
+<trans-unit id="tu242">
+<source xml:lang="en">RU, RC, RR, SER</source>
+<seg-source><mrk mid="0" mtype="seg">RU, RC, RR, SER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RU, RC, RR, SER</mrk></target>
+</trans-unit>
+<trans-unit id="tu243">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu244">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu245">
+<source xml:lang="en">Support for SQL-92 features: Multiple schemas per user</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Multiple schemas per user</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Multiple schemas per user</mrk></target>
+</trans-unit>
+<trans-unit id="tu246">
+<source xml:lang="en">This table shows Derby support for SQL-92 multiple schemas per user.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 multiple schemas per user.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 multiple schemas per user.</mrk></target>
+</trans-unit>
+<trans-unit id="tu247">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu248">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu249">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu250">
+<source xml:lang="en">SCHEMATA view</source>
+<seg-source><mrk mid="0" mtype="seg">SCHEMATA view</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SCHEMATA view</mrk></target>
+</trans-unit>
+<trans-unit id="tu251">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu252">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSSCHEMAS<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSSCHEMAS<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSSCHEMAS<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu253">
+<source xml:lang="en">Support for SQL-92 features: Privilege tables</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Privilege tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Privilege tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu254">
+<source xml:lang="en">This table shows Derby support for SQL-92 privilege tables.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 privilege tables.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 privilege tables.</mrk></target>
+</trans-unit>
+<trans-unit id="tu255">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu256">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu257">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu258">
+<source xml:lang="en">TABLE_PRIVILEGES</source>
+<seg-source><mrk mid="0" mtype="seg">TABLE_PRIVILEGES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TABLE_PRIVILEGES</mrk></target>
+</trans-unit>
+<trans-unit id="tu259">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu260">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu261">
+<source xml:lang="en">COLUMNS_PRIVILEGES</source>
+<seg-source><mrk mid="0" mtype="seg">COLUMNS_PRIVILEGES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COLUMNS_PRIVILEGES</mrk></target>
+</trans-unit>
+<trans-unit id="tu262">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu263">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu264">
+<source xml:lang="en">USAGE_PRIVILEGES</source>
+<seg-source><mrk mid="0" mtype="seg">USAGE_PRIVILEGES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">USAGE_PRIVILEGES</mrk></target>
+</trans-unit>
+<trans-unit id="tu265">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu266">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu267">
+<source xml:lang="en">Support for SQL-92 features: Table operations</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Table operations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Table operations</mrk></target>
+</trans-unit>
+<trans-unit id="tu268">
+<source xml:lang="en">This table shows Derby support for SQL-92 table operations.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 table operations.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 table operations.</mrk></target>
+</trans-unit>
+<trans-unit id="tu269">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu270">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu271">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu272">
+<source xml:lang="en">UNION relaxations</source>
+<seg-source><mrk mid="0" mtype="seg">UNION relaxations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNION relaxations</mrk></target>
+</trans-unit>
+<trans-unit id="tu273">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu274">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu275">
+<source xml:lang="en">EXCEPT</source>
+<seg-source><mrk mid="0" mtype="seg">EXCEPT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EXCEPT</mrk></target>
+</trans-unit>
+<trans-unit id="tu276">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu277">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu278">
+<source xml:lang="en">INTERSECT</source>
+<seg-source><mrk mid="0" mtype="seg">INTERSECT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTERSECT</mrk></target>
+</trans-unit>
+<trans-unit id="tu279">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu280">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu281">
+<source xml:lang="en">CORRESPONDING</source>
+<seg-source><mrk mid="0" mtype="seg">CORRESPONDING</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CORRESPONDING</mrk></target>
+</trans-unit>
+<trans-unit id="tu282">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu283">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu284">
+<source xml:lang="en">Support for SQL-92 features: Schema definition statement</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Schema definition statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Schema definition statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu285">
+<source xml:lang="en">This table shows Derby support for the SQL-92 schema definition statement.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for the SQL-92 schema definition statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for the SQL-92 schema definition statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu286">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu287">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu288">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu289">
+<source xml:lang="en">CREATE SCHEMA</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE SCHEMA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE SCHEMA</mrk></target>
+</trans-unit>
+<trans-unit id="tu290">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu291">
+<source xml:lang="en">Partial support</source>
+<seg-source><mrk mid="0" mtype="seg">Partial support</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Partial support</mrk></target>
+</trans-unit>
+<trans-unit id="tu292">
+<source xml:lang="en">Support for SQL-92 features: User authorization</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: User authorization</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: User authorization</mrk></target>
+</trans-unit>
+<trans-unit id="tu293">
+<source xml:lang="en">This table shows Derby support for SQL-92 user authorization.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 user authorization.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 user authorization.</mrk></target>
+</trans-unit>
+<trans-unit id="tu294">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu295">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu296">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu297">
+<source xml:lang="en">SET SESSION AUTHORIZATION</source>
+<seg-source><mrk mid="0" mtype="seg">SET SESSION AUTHORIZATION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SET SESSION AUTHORIZATION</mrk></target>
+</trans-unit>
+<trans-unit id="tu298">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu299">
+<source xml:lang="en">Use SET SCHEMA</source>
+<seg-source><mrk mid="0" mtype="seg">Use SET SCHEMA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use SET SCHEMA</mrk></target>
+</trans-unit>
+<trans-unit id="tu300">
+<source xml:lang="en">CURRENT_USER</source>
+<seg-source><mrk mid="0" mtype="seg">CURRENT_USER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CURRENT_USER</mrk></target>
+</trans-unit>
+<trans-unit id="tu301">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu302">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu303">
+<source xml:lang="en">SESSION_USER</source>
+<seg-source><mrk mid="0" mtype="seg">SESSION_USER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SESSION_USER</mrk></target>
+</trans-unit>
+<trans-unit id="tu304">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu305">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu306">
+<source xml:lang="en">SYSTEM_USER</source>
+<seg-source><mrk mid="0" mtype="seg">SYSTEM_USER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSTEM_USER</mrk></target>
+</trans-unit>
+<trans-unit id="tu307">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu308">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu309">
+<source xml:lang="en">Support for SQL-92 features: Constraint tables</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Constraint tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Constraint tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu310">
+<source xml:lang="en">This table shows Derby support for SQL-92 constraint tables.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 constraint tables.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for SQL-92 constraint tables.</mrk></target>
+</trans-unit>
+<trans-unit id="tu311">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu312">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu313">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu314">
+<source xml:lang="en">TABLE CONSTRAINTS</source>
+<seg-source><mrk mid="0" mtype="seg">TABLE CONSTRAINTS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TABLE CONSTRAINTS</mrk></target>
+</trans-unit>
+<trans-unit id="tu315">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu316">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSCONSTRAINTS<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSCONSTRAINTS<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSCONSTRAINTS<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu317">
+<source xml:lang="en">REFERENTIAL CONSTRAINTS</source>
+<seg-source><mrk mid="0" mtype="seg">REFERENTIAL CONSTRAINTS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REFERENTIAL CONSTRAINTS</mrk></target>
+</trans-unit>
+<trans-unit id="tu318">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu319">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSFOREIGNKEYS<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSFOREIGNKEYS<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSFOREIGNKEYS<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu320">
+<source xml:lang="en">CHECK CONSTRAINTS</source>
+<seg-source><mrk mid="0" mtype="seg">CHECK CONSTRAINTS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHECK CONSTRAINTS</mrk></target>
+</trans-unit>
+<trans-unit id="tu321">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu322">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSCHECKS<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSCHECKS<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSCHECKS<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu323">
+<source xml:lang="en">Support for SQL-92 features: Documentation schema</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Documentation schema</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Documentation schema</mrk></target>
+</trans-unit>
+<trans-unit id="tu324">
+<source xml:lang="en">This table shows Derby support for the SQL-92 documentation schema.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for the SQL-92 documentation schema.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for the SQL-92 documentation schema.</mrk></target>
+</trans-unit>
+<trans-unit id="tu325">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu326">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu327">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu328">
+<source xml:lang="en">SQL_FEATURES</source>
+<seg-source><mrk mid="0" mtype="seg">SQL_FEATURES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL_FEATURES</mrk></target>
+</trans-unit>
+<trans-unit id="tu329">
+<source xml:lang="en">SQL92I/FIPS 127-2</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I/FIPS 127-2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I/FIPS 127-2</mrk></target>
+</trans-unit>
+<trans-unit id="tu330">
+<source xml:lang="en">Use JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DatabaseMetaData<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Use JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DatabaseMetaData<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DatabaseMetaData<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu331">
+<source xml:lang="en">SQL_SIZING</source>
+<seg-source><mrk mid="0" mtype="seg">SQL_SIZING</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL_SIZING</mrk></target>
+</trans-unit>
+<trans-unit id="tu332">
+<source xml:lang="en">SQL92I/FIPS 127-2</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I/FIPS 127-2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I/FIPS 127-2</mrk></target>
+</trans-unit>
+<trans-unit id="tu333">
+<source xml:lang="en">Use JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DatabaseMetaData<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Use JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DatabaseMetaData<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DatabaseMetaData<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu334">
+<source xml:lang="en">Support for SQL-92 features: Full DATETIME</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Full DATETIME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Full DATETIME</mrk></target>
+</trans-unit>
+<trans-unit id="tu335">
+<source xml:lang="en">This table shows Derby support for full SQL-92 DATETIME.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for full SQL-92 DATETIME.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for full SQL-92 DATETIME.</mrk></target>
+</trans-unit>
+<trans-unit id="tu336">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu337">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu338">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu339">
+<source xml:lang="en">precision for TIME and TIMESTAMP</source>
+<seg-source><mrk mid="0" mtype="seg">precision for TIME and TIMESTAMP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">precision for TIME and TIMESTAMP</mrk></target>
+</trans-unit>
+<trans-unit id="tu340">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu341">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu342">
+<source xml:lang="en">Support for SQL-92 features: Full character functions</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Full character functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Full character functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu343">
+<source xml:lang="en">This table shows Derby support for full SQL-92 character functions.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for full SQL-92 character functions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for full SQL-92 character functions.</mrk></target>
+</trans-unit>
+<trans-unit id="tu344">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu345">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu346">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu347">
+<source xml:lang="en">POSITION expression</source>
+<seg-source><mrk mid="0" mtype="seg">POSITION expression</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">POSITION expression</mrk></target>
+</trans-unit>
+<trans-unit id="tu348">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu349">
+<source xml:lang="en">Use Java methods or LOCATE</source>
+<seg-source><mrk mid="0" mtype="seg">Use Java methods or LOCATE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use Java methods or LOCATE</mrk></target>
+</trans-unit>
+<trans-unit id="tu350">
+<source xml:lang="en">UPPER/LOWER functions</source>
+<seg-source><mrk mid="0" mtype="seg">UPPER/LOWER functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UPPER/LOWER functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu351">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu352">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu353">
+<source xml:lang="en">Support for SQL-92 features: Miscellaneous</source>
+<seg-source><mrk mid="0" mtype="seg">Support for SQL-92 features: Miscellaneous</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for SQL-92 features: Miscellaneous</mrk></target>
+</trans-unit>
+<trans-unit id="tu354">
+<source xml:lang="en">This table shows Derby support for miscellaneous SQL-92 features.</source>
+<seg-source><mrk mid="0" mtype="seg">This table shows Derby support for miscellaneous SQL-92 features.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table shows Derby support for miscellaneous SQL-92 features.</mrk></target>
+</trans-unit>
+<trans-unit id="tu355">
+<source xml:lang="en">Feature</source>
+<seg-source><mrk mid="0" mtype="seg">Feature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Feature</mrk></target>
+</trans-unit>
+<trans-unit id="tu356">
+<source xml:lang="en">Source</source>
+<seg-source><mrk mid="0" mtype="seg">Source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source</mrk></target>
+</trans-unit>
+<trans-unit id="tu357">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu358">
+<source xml:lang="en">Delimited identifiers</source>
+<seg-source><mrk mid="0" mtype="seg">Delimited identifiers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delimited identifiers</mrk></target>
+</trans-unit>
+<trans-unit id="tu359">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu360">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu361">
+<source xml:lang="en">Correlated subqueries</source>
+<seg-source><mrk mid="0" mtype="seg">Correlated subqueries</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Correlated subqueries</mrk></target>
+</trans-unit>
+<trans-unit id="tu362">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu363">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu364">
+<source xml:lang="en">Insert, Update, Delete statements</source>
+<seg-source><mrk mid="0" mtype="seg">Insert, Update, Delete statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert, Update, Delete statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu365">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu366">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu367">
+<source xml:lang="en">Joins</source>
+<seg-source><mrk mid="0" mtype="seg">Joins</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Joins</mrk></target>
+</trans-unit>
+<trans-unit id="tu368">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu369">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu370">
+<source xml:lang="en">Where qualifications</source>
+<seg-source><mrk mid="0" mtype="seg">Where qualifications</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Where qualifications</mrk></target>
+</trans-unit>
+<trans-unit id="tu371">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu372">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu373">
+<source xml:lang="en">Group by</source>
+<seg-source><mrk mid="0" mtype="seg">Group by</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Group by</mrk></target>
+</trans-unit>
+<trans-unit id="tu374">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu375">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu376">
+<source xml:lang="en">Having</source>
+<seg-source><mrk mid="0" mtype="seg">Having</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Having</mrk></target>
+</trans-unit>
+<trans-unit id="tu377">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu378">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu379">
+<source xml:lang="en">Aggregate functions</source>
+<seg-source><mrk mid="0" mtype="seg">Aggregate functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Aggregate functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu380">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu381">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu382">
+<source xml:lang="en">Order by</source>
+<seg-source><mrk mid="0" mtype="seg">Order by</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Order by</mrk></target>
+</trans-unit>
+<trans-unit id="tu383">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu384">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu385">
+<source xml:lang="en">Select expressions</source>
+<seg-source><mrk mid="0" mtype="seg">Select expressions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select expressions</mrk></target>
+</trans-unit>
+<trans-unit id="tu386">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu387">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu388">
+<source xml:lang="en">Select *</source>
+<seg-source><mrk mid="0" mtype="seg">Select *</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select *</mrk></target>
+</trans-unit>
+<trans-unit id="tu389">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu390">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu391">
+<source xml:lang="en">SQLCODE</source>
+<seg-source><mrk mid="0" mtype="seg">SQLCODE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLCODE</mrk></target>
+</trans-unit>
+<trans-unit id="tu392">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu393">
+<source xml:lang="en">No, deprecated in SQL-92</source>
+<seg-source><mrk mid="0" mtype="seg">No, deprecated in SQL-92</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No, deprecated in SQL-92</mrk></target>
+</trans-unit>
+<trans-unit id="tu394">
+<source xml:lang="en">SQLSTATE</source>
+<seg-source><mrk mid="0" mtype="seg">SQLSTATE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLSTATE</mrk></target>
+</trans-unit>
+<trans-unit id="tu395">
+<source xml:lang="en">SQL92E</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92E</mrk></target>
+</trans-unit>
+<trans-unit id="tu396">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu397">
+<source xml:lang="en">UNION, INTERSECT, and EXCEPT in views</source>
+<seg-source><mrk mid="0" mtype="seg">UNION, INTERSECT, and EXCEPT in views</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNION, INTERSECT, and EXCEPT in views</mrk></target>
+</trans-unit>
+<trans-unit id="tu398">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu399">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu400">
+<source xml:lang="en">Implicit numeric casting</source>
+<seg-source><mrk mid="0" mtype="seg">Implicit numeric casting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Implicit numeric casting</mrk></target>
+</trans-unit>
+<trans-unit id="tu401">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu402">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu403">
+<source xml:lang="en">Implicit character casting</source>
+<seg-source><mrk mid="0" mtype="seg">Implicit character casting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Implicit character casting</mrk></target>
+</trans-unit>
+<trans-unit id="tu404">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu405">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu406">
+<source xml:lang="en">Get diagnostics</source>
+<seg-source><mrk mid="0" mtype="seg">Get diagnostics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get diagnostics</mrk></target>
+</trans-unit>
+<trans-unit id="tu407">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu408">
+<source xml:lang="en">Use JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Use JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu409">
+<source xml:lang="en">Grouped operations</source>
+<seg-source><mrk mid="0" mtype="seg">Grouped operations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Grouped operations</mrk></target>
+</trans-unit>
+<trans-unit id="tu410">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu411">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu412">
+<source xml:lang="en">Qualified * in select list</source>
+<seg-source><mrk mid="0" mtype="seg">Qualified * in select list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Qualified * in select list</mrk></target>
+</trans-unit>
+<trans-unit id="tu413">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu414">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu415">
+<source xml:lang="en">Lowercase identifiers</source>
+<seg-source><mrk mid="0" mtype="seg">Lowercase identifiers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Lowercase identifiers</mrk></target>
+</trans-unit>
+<trans-unit id="tu416">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu417">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu418">
+<source xml:lang="en">nullable PRIMARY KEYs</source>
+<seg-source><mrk mid="0" mtype="seg">nullable PRIMARY KEYs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">nullable PRIMARY KEYs</mrk></target>
+</trans-unit>
+<trans-unit id="tu419">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu420">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu421">
+<source xml:lang="en">Multiple module support</source>
+<seg-source><mrk mid="0" mtype="seg">Multiple module support</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multiple module support</mrk></target>
+</trans-unit>
+<trans-unit id="tu422">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu423">
+<source xml:lang="en">No (not required and not part of JDBC)</source>
+<seg-source><mrk mid="0" mtype="seg">No (not required and not part of JDBC)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No (not required and not part of JDBC)</mrk></target>
+</trans-unit>
+<trans-unit id="tu424">
+<source xml:lang="en">Referential delete actions</source>
+<seg-source><mrk mid="0" mtype="seg">Referential delete actions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Referential delete actions</mrk></target>
+</trans-unit>
+<trans-unit id="tu425">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu426">
+<source xml:lang="en">CASCADE, SET NULL, RESTRICT, and NO ACTION</source>
+<seg-source><mrk mid="0" mtype="seg">CASCADE, SET NULL, RESTRICT, and NO ACTION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CASCADE, SET NULL, RESTRICT, and NO ACTION</mrk></target>
+</trans-unit>
+<trans-unit id="tu427">
+<source xml:lang="en">CAST functions</source>
+<seg-source><mrk mid="0" mtype="seg">CAST functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CAST functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu428">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu429">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu430">
+<source xml:lang="en">INSERT expressions</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT expressions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT expressions</mrk></target>
+</trans-unit>
+<trans-unit id="tu431">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu432">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu433">
+<source xml:lang="en">Explicit defaults</source>
+<seg-source><mrk mid="0" mtype="seg">Explicit defaults</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Explicit defaults</mrk></target>
+</trans-unit>
+<trans-unit id="tu434">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu435">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu436">
+<source xml:lang="en">Keyword relaxations</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword relaxations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword relaxations</mrk></target>
+</trans-unit>
+<trans-unit id="tu437">
+<source xml:lang="en">SQL92T</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92T</mrk></target>
+</trans-unit>
+<trans-unit id="tu438">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu439">
+<source xml:lang="en">Domain definition</source>
+<seg-source><mrk mid="0" mtype="seg">Domain definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Domain definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu440">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu441">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu442">
+<source xml:lang="en">CASE expression</source>
+<seg-source><mrk mid="0" mtype="seg">CASE expression</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CASE expression</mrk></target>
+</trans-unit>
+<trans-unit id="tu443">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu444">
+<source xml:lang="en">Partial support</source>
+<seg-source><mrk mid="0" mtype="seg">Partial support</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Partial support</mrk></target>
+</trans-unit>
+<trans-unit id="tu445">
+<source xml:lang="en">Compound character string constants</source>
+<seg-source><mrk mid="0" mtype="seg">Compound character string constants</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Compound character string constants</mrk></target>
+</trans-unit>
+<trans-unit id="tu446">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu447">
+<source xml:lang="en">Use concatenation</source>
+<seg-source><mrk mid="0" mtype="seg">Use concatenation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use concatenation</mrk></target>
+</trans-unit>
+<trans-unit id="tu448">
+<source xml:lang="en">LIKE enhancements</source>
+<seg-source><mrk mid="0" mtype="seg">LIKE enhancements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LIKE enhancements</mrk></target>
+</trans-unit>
+<trans-unit id="tu449">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu450">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu451">
+<source xml:lang="en">UNIQUE predicate</source>
+<seg-source><mrk mid="0" mtype="seg">UNIQUE predicate</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNIQUE predicate</mrk></target>
+</trans-unit>
+<trans-unit id="tu452">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu453">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu454">
+<source xml:lang="en">Usage tables</source>
+<seg-source><mrk mid="0" mtype="seg">Usage tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Usage tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu455">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu456">
+<source xml:lang="en"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSDEPENDS<ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSDEPENDS<ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SYS.SYSDEPENDS<ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu457">
+<source xml:lang="en">Intermediate information schema</source>
+<seg-source><mrk mid="0" mtype="seg">Intermediate information schema</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Intermediate information schema</mrk></target>
+</trans-unit>
+<trans-unit id="tu458">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu459">
+<source xml:lang="en">Use JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DatabaseMetaData<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> system tables</source>
+<seg-source><mrk mid="0" mtype="seg">Use JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DatabaseMetaData<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> system tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use JDBC <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>DatabaseMetaData<ept id="1">&lt;/i&gt;</ept> and <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> system tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu460">
+<source xml:lang="en">Subprogram support</source>
+<seg-source><mrk mid="0" mtype="seg">Subprogram support</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Subprogram support</mrk></target>
+</trans-unit>
+<trans-unit id="tu461">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu462">
+<source xml:lang="en">Not relevant to JDBC, which is much richer</source>
+<seg-source><mrk mid="0" mtype="seg">Not relevant to JDBC, which is much richer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Not relevant to JDBC, which is much richer</mrk></target>
+</trans-unit>
+<trans-unit id="tu463">
+<source xml:lang="en">Intermediate SQL Flagging</source>
+<seg-source><mrk mid="0" mtype="seg">Intermediate SQL Flagging</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Intermediate SQL Flagging</mrk></target>
+</trans-unit>
+<trans-unit id="tu464">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu465">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu466">
+<source xml:lang="en">Schema manipulation</source>
+<seg-source><mrk mid="0" mtype="seg">Schema manipulation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Schema manipulation</mrk></target>
+</trans-unit>
+<trans-unit id="tu467">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu468">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu469">
+<source xml:lang="en">Long identifiers</source>
+<seg-source><mrk mid="0" mtype="seg">Long identifiers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Long identifiers</mrk></target>
+</trans-unit>
+<trans-unit id="tu470">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu471">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu472">
+<source xml:lang="en">Full outer join</source>
+<seg-source><mrk mid="0" mtype="seg">Full outer join</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Full outer join</mrk></target>
+</trans-unit>
+<trans-unit id="tu473">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu474">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu475">
+<source xml:lang="en">Time zone specification</source>
+<seg-source><mrk mid="0" mtype="seg">Time zone specification</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Time zone specification</mrk></target>
+</trans-unit>
+<trans-unit id="tu476">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu477">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu478">
+<source xml:lang="en">Scrolled cursors</source>
+<seg-source><mrk mid="0" mtype="seg">Scrolled cursors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scrolled cursors</mrk></target>
+</trans-unit>
+<trans-unit id="tu479">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu480">
+<source xml:lang="en">Partial support (scrollable insensitive result sets through JDBC 2.0)</source>
+<seg-source><mrk mid="0" mtype="seg">Partial support (scrollable insensitive result sets through JDBC 2.0)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Partial support (scrollable insensitive result sets through JDBC 2.0)</mrk></target>
+</trans-unit>
+<trans-unit id="tu481">
+<source xml:lang="en">Intermediate set function support</source>
+<seg-source><mrk mid="0" mtype="seg">Intermediate set function support</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Intermediate set function support</mrk></target>
+</trans-unit>
+<trans-unit id="tu482">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu483">
+<source xml:lang="en">Partial support</source>
+<seg-source><mrk mid="0" mtype="seg">Partial support</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Partial support</mrk></target>
+</trans-unit>
+<trans-unit id="tu484">
+<source xml:lang="en">Character set definition</source>
+<seg-source><mrk mid="0" mtype="seg">Character set definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Character set definition</mrk></target>
+</trans-unit>
+<trans-unit id="tu485">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu486">
+<source xml:lang="en">Support for Java locales</source>
+<seg-source><mrk mid="0" mtype="seg">Support for Java locales</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for Java locales</mrk></target>
+</trans-unit>
+<trans-unit id="tu487">
+<source xml:lang="en">Named character sets</source>
+<seg-source><mrk mid="0" mtype="seg">Named character sets</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Named character sets</mrk></target>
+</trans-unit>
+<trans-unit id="tu488">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu489">
+<source xml:lang="en">Support for Java locales</source>
+<seg-source><mrk mid="0" mtype="seg">Support for Java locales</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Support for Java locales</mrk></target>
+</trans-unit>
+<trans-unit id="tu490">
+<source xml:lang="en">Scalar subquery values</source>
+<seg-source><mrk mid="0" mtype="seg">Scalar subquery values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scalar subquery values</mrk></target>
+</trans-unit>
+<trans-unit id="tu491">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu492">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu493">
+<source xml:lang="en">Expanded null predicate</source>
+<seg-source><mrk mid="0" mtype="seg">Expanded null predicate</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Expanded null predicate</mrk></target>
+</trans-unit>
+<trans-unit id="tu494">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu495">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu496">
+<source xml:lang="en">Constraint management</source>
+<seg-source><mrk mid="0" mtype="seg">Constraint management</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Constraint management</mrk></target>
+</trans-unit>
+<trans-unit id="tu497">
+<source xml:lang="en">SQL92I</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92I</mrk></target>
+</trans-unit>
+<trans-unit id="tu498">
+<source xml:lang="en">Yes (ADD/DROP CONSTRAINT)</source>
+<seg-source><mrk mid="0" mtype="seg">Yes (ADD/DROP CONSTRAINT)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes (ADD/DROP CONSTRAINT)</mrk></target>
+</trans-unit>
+<trans-unit id="tu499">
+<source xml:lang="en">FOR BIT DATA types</source>
+<seg-source><mrk mid="0" mtype="seg">FOR BIT DATA types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FOR BIT DATA types</mrk></target>
+</trans-unit>
+<trans-unit id="tu500">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu501">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu502">
+<source xml:lang="en">Assertion constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Assertion constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assertion constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu503">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu504">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu505">
+<source xml:lang="en">Temporary tables</source>
+<seg-source><mrk mid="0" mtype="seg">Temporary tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Temporary tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu506">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu507">
+<source xml:lang="en">Partial support, with DECLARE GLOBAL TEMPORARY TABLE</source>
+<seg-source><mrk mid="0" mtype="seg">Partial support, with DECLARE GLOBAL TEMPORARY TABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Partial support, with DECLARE GLOBAL TEMPORARY TABLE</mrk></target>
+</trans-unit>
+<trans-unit id="tu508">
+<source xml:lang="en">Full dynamic SQL</source>
+<seg-source><mrk mid="0" mtype="seg">Full dynamic SQL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Full dynamic SQL</mrk></target>
+</trans-unit>
+<trans-unit id="tu509">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu510">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu511">
+<source xml:lang="en">Full value expressions</source>
+<seg-source><mrk mid="0" mtype="seg">Full value expressions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Full value expressions</mrk></target>
+</trans-unit>
+<trans-unit id="tu512">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu513">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu514">
+<source xml:lang="en">Truth value tests</source>
+<seg-source><mrk mid="0" mtype="seg">Truth value tests</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Truth value tests</mrk></target>
+</trans-unit>
+<trans-unit id="tu515">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu516">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu517">
+<source xml:lang="en">Derived tables in FROM</source>
+<seg-source><mrk mid="0" mtype="seg">Derived tables in FROM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Derived tables in FROM</mrk></target>
+</trans-unit>
+<trans-unit id="tu518">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu519">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu520">
+<source xml:lang="en">Trailing underscore</source>
+<seg-source><mrk mid="0" mtype="seg">Trailing underscore</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Trailing underscore</mrk></target>
+</trans-unit>
+<trans-unit id="tu521">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu522">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu523">
+<source xml:lang="en">Indicator data types</source>
+<seg-source><mrk mid="0" mtype="seg">Indicator data types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicator data types</mrk></target>
+</trans-unit>
+<trans-unit id="tu524">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu525">
+<source xml:lang="en">Not relevant to JDBC</source>
+<seg-source><mrk mid="0" mtype="seg">Not relevant to JDBC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Not relevant to JDBC</mrk></target>
+</trans-unit>
+<trans-unit id="tu526">
+<source xml:lang="en">Referential name order</source>
+<seg-source><mrk mid="0" mtype="seg">Referential name order</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Referential name order</mrk></target>
+</trans-unit>
+<trans-unit id="tu527">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu528">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu529">
+<source xml:lang="en">Full SQL Flagging</source>
+<seg-source><mrk mid="0" mtype="seg">Full SQL Flagging</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Full SQL Flagging</mrk></target>
+</trans-unit>
+<trans-unit id="tu530">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu531">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu532">
+<source xml:lang="en">Row and table constructors</source>
+<seg-source><mrk mid="0" mtype="seg">Row and table constructors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Row and table constructors</mrk></target>
+</trans-unit>
+<trans-unit id="tu533">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu534">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu535">
+<source xml:lang="en">Catalog name qualifiers</source>
+<seg-source><mrk mid="0" mtype="seg">Catalog name qualifiers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Catalog name qualifiers</mrk></target>
+</trans-unit>
+<trans-unit id="tu536">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu537">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu538">
+<source xml:lang="en">Simple tables</source>
+<seg-source><mrk mid="0" mtype="seg">Simple tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simple tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu539">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu540">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu541">
+<source xml:lang="en">Subqueries in CHECK</source>
+<seg-source><mrk mid="0" mtype="seg">Subqueries in CHECK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Subqueries in CHECK</mrk></target>
+</trans-unit>
+<trans-unit id="tu542">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu543">
+<source xml:lang="en">No, but can with Java methods</source>
+<seg-source><mrk mid="0" mtype="seg">No, but can with Java methods</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No, but can with Java methods</mrk></target>
+</trans-unit>
+<trans-unit id="tu544">
+<source xml:lang="en">Union join</source>
+<seg-source><mrk mid="0" mtype="seg">Union join</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Union join</mrk></target>
+</trans-unit>
+<trans-unit id="tu545">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu546">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu547">
+<source xml:lang="en">Collation and translation</source>
+<seg-source><mrk mid="0" mtype="seg">Collation and translation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Collation and translation</mrk></target>
+</trans-unit>
+<trans-unit id="tu548">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu549">
+<source xml:lang="en">Java locales supported</source>
+<seg-source><mrk mid="0" mtype="seg">Java locales supported</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Java locales supported</mrk></target>
+</trans-unit>
+<trans-unit id="tu550">
+<source xml:lang="en">Referential update actions</source>
+<seg-source><mrk mid="0" mtype="seg">Referential update actions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Referential update actions</mrk></target>
+</trans-unit>
+<trans-unit id="tu551">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu552">
+<source xml:lang="en">RESTRICT and NO ACTION. Can do others with triggers.</source>
+<seg-source><mrk mid="0" mtype="seg">RESTRICT and NO ACTION.</mrk><mrk mid="1" mtype="seg"> Can do others with triggers.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RESTRICT and NO ACTION.</mrk><mrk mid="1" mtype="seg"> Can do others with triggers.</mrk></target>
+</trans-unit>
+<trans-unit id="tu553">
+<source xml:lang="en">ALTER domain</source>
+<seg-source><mrk mid="0" mtype="seg">ALTER domain</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ALTER domain</mrk></target>
+</trans-unit>
+<trans-unit id="tu554">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu555">
+<source xml:lang="en">nNo</source>
+<seg-source><mrk mid="0" mtype="seg">nNo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">nNo</mrk></target>
+</trans-unit>
+<trans-unit id="tu556">
+<source xml:lang="en">INSERT column privileges</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT column privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT column privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu557">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu558">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu559">
+<source xml:lang="en">Referential MATCH types</source>
+<seg-source><mrk mid="0" mtype="seg">Referential MATCH types</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Referential MATCH types</mrk></target>
+</trans-unit>
+<trans-unit id="tu560">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu561">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu562">
+<source xml:lang="en">View CHECK enhancements</source>
+<seg-source><mrk mid="0" mtype="seg">View CHECK enhancements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">View CHECK enhancements</mrk></target>
+</trans-unit>
+<trans-unit id="tu563">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu564">
+<source xml:lang="en">No, views cannot be updated</source>
+<seg-source><mrk mid="0" mtype="seg">No, views cannot be updated</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No, views cannot be updated</mrk></target>
+</trans-unit>
+<trans-unit id="tu565">
+<source xml:lang="en">Session management</source>
+<seg-source><mrk mid="0" mtype="seg">Session management</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Session management</mrk></target>
+</trans-unit>
+<trans-unit id="tu566">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu567">
+<source xml:lang="en">Use JDBC</source>
+<seg-source><mrk mid="0" mtype="seg">Use JDBC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use JDBC</mrk></target>
+</trans-unit>
+<trans-unit id="tu568">
+<source xml:lang="en">Connection management</source>
+<seg-source><mrk mid="0" mtype="seg">Connection management</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connection management</mrk></target>
+</trans-unit>
+<trans-unit id="tu569">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu570">
+<source xml:lang="en">Use JDBC</source>
+<seg-source><mrk mid="0" mtype="seg">Use JDBC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use JDBC</mrk></target>
+</trans-unit>
+<trans-unit id="tu571">
+<source xml:lang="en">Self-referencing operations</source>
+<seg-source><mrk mid="0" mtype="seg">Self-referencing operations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Self-referencing operations</mrk></target>
+</trans-unit>
+<trans-unit id="tu572">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu573">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="tu574">
+<source xml:lang="en">Insensitive cursors</source>
+<seg-source><mrk mid="0" mtype="seg">Insensitive cursors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insensitive cursors</mrk></target>
+</trans-unit>
+<trans-unit id="tu575">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu576">
+<source xml:lang="en">Yes through JDBC 2.0</source>
+<seg-source><mrk mid="0" mtype="seg">Yes through JDBC 2.0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes through JDBC 2.0</mrk></target>
+</trans-unit>
+<trans-unit id="tu577">
+<source xml:lang="en">Full set function</source>
+<seg-source><mrk mid="0" mtype="seg">Full set function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Full set function</mrk></target>
+</trans-unit>
+<trans-unit id="tu578">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu579">
+<source xml:lang="en">Partial support</source>
+<seg-source><mrk mid="0" mtype="seg">Partial support</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Partial support</mrk></target>
+</trans-unit>
+<trans-unit id="tu580">
+<source xml:lang="en">Catalog flagging</source>
+<seg-source><mrk mid="0" mtype="seg">Catalog flagging</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Catalog flagging</mrk></target>
+</trans-unit>
+<trans-unit id="tu581">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu582">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu583">
+<source xml:lang="en">Local table references</source>
+<seg-source><mrk mid="0" mtype="seg">Local table references</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Local table references</mrk></target>
+</trans-unit>
+<trans-unit id="tu584">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu585">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="tu586">
+<source xml:lang="en">Full cursor update</source>
+<seg-source><mrk mid="0" mtype="seg">Full cursor update</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Full cursor update</mrk></target>
+</trans-unit>
+<trans-unit id="tu587">
+<source xml:lang="en">SQL92F</source>
+<seg-source><mrk mid="0" mtype="seg">SQL92F</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL92F</mrk></target>
+</trans-unit>
+<trans-unit id="tu588">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

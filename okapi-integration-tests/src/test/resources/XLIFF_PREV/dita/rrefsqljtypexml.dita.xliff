@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqljtypexml.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">XML data type</source>
+<seg-source><mrk mid="0" mtype="seg">XML data type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XML data type</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">XML data type</source>
+<seg-source><mrk mid="0" mtype="seg">XML data type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XML data type</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">The XML data type is used for Extensible Markup Language (XML) documents.</source>
+<seg-source><mrk mid="0" mtype="seg">The XML data type is used for Extensible Markup Language (XML) documents.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The XML data type is used for Extensible Markup Language (XML) documents.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">The XML data type is used:</source>
+<seg-source><mrk mid="0" mtype="seg">The XML data type is used:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The XML data type is used:</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">To store XML documents that conform to the SQL/XML definition of a well-formed XML(DOCUMENT(ANY)) value.</source>
+<seg-source><mrk mid="0" mtype="seg">To store XML documents that conform to the SQL/XML definition of a well-formed XML(DOCUMENT(ANY)) value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To store XML documents that conform to the SQL/XML definition of a well-formed XML(DOCUMENT(ANY)) value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Transiently for XML(SEQUENCE) values, that might not be well-formed XML(DOCUMENT(ANY)) values.</source>
+<seg-source><mrk mid="0" mtype="seg">Transiently for XML(SEQUENCE) values, that might not be well-formed XML(DOCUMENT(ANY)) values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transiently for XML(SEQUENCE) values, that might not be well-formed XML(DOCUMENT(ANY)) values.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">For an application to retrieve, update, query, or otherwise access an XML data value, the application must have classes for a JAXP parser and for Xalan in the classpath. <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues an error if either the parser or Xalan is not found. In some situations, you may need to take steps to place the parser and Xalan in your classpath. See "XML data types and operators" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg">For an application to retrieve, update, query, or otherwise access an XML data value, the application must have classes for a JAXP parser and for Xalan in the classpath.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues an error if either the parser or Xalan is not found.</mrk><mrk mid="2" mtype="seg"> In some situations, you may need to take steps to place the parser and Xalan in your classpath.</mrk><mrk mid="3" mtype="seg"> See "XML data types and operators" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For an application to retrieve, update, query, or otherwise access an XML data value, the application must have classes for a JAXP parser and for Xalan in the classpath.</mrk><mrk mid="1" mtype="seg"> <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> issues an error if either the parser or Xalan is not found.</mrk><mrk mid="2" mtype="seg"> In some situations, you may need to take steps to place the parser and Xalan in your classpath.</mrk><mrk mid="3" mtype="seg"> See "XML data types and operators" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for details.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Because none of the JDBC-side support for SQL/XML is implemented in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, it is not possible to bind directly into an XML value or to retrieve an XML value directly from a result set using JDBC. Instead, you must bind and retrieve the XML data as Java strings or character streams by explicitly specifying the appropriate XML operators, XMLPARSE and XMLSERIALIZE, as part of your SQL queries.</source>
+<seg-source><mrk mid="0" mtype="seg">Because none of the JDBC-side support for SQL/XML is implemented in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, it is not possible to bind directly into an XML value or to retrieve an XML value directly from a result set using JDBC.</mrk><mrk mid="1" mtype="seg"> Instead, you must bind and retrieve the XML data as Java strings or character streams by explicitly specifying the appropriate XML operators, XMLPARSE and XMLSERIALIZE, as part of your SQL queries.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Because none of the JDBC-side support for SQL/XML is implemented in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, it is not possible to bind directly into an XML value or to retrieve an XML value directly from a result set using JDBC.</mrk><mrk mid="1" mtype="seg"> Instead, you must bind and retrieve the XML data as Java strings or character streams by explicitly specifying the appropriate XML operators, XMLPARSE and XMLSERIALIZE, as part of your SQL queries.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>XML<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>XML<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>XML<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Corresponding compile-time Java type</source>
+<seg-source><mrk mid="0" mtype="seg">Corresponding compile-time Java type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Corresponding compile-time Java type</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">The Java type for XML values is java.sql.SQLXML. However, the java.sql.SQLXML type is not supported by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The Java type for XML values is java.sql.SQLXML.</mrk><mrk mid="1" mtype="seg"> However, the java.sql.SQLXML type is not supported by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Java type for XML values is java.sql.SQLXML.</mrk><mrk mid="1" mtype="seg"> However, the java.sql.SQLXML type is not supported by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">JDBC metadata type (java.sql.Types)</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC metadata type (java.sql.Types)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC metadata type (java.sql.Types)</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">None</source>
+<seg-source><mrk mid="0" mtype="seg">None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">The metadata type for XML values is SQLXML. However, the SQLXML type is not supported by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The metadata type for XML values is SQLXML.</mrk><mrk mid="1" mtype="seg"> However, the SQLXML type is not supported by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The metadata type for XML values is SQLXML.</mrk><mrk mid="1" mtype="seg"> However, the SQLXML type is not supported by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">To retrieve XML values from a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database using JDBC, use the XMLSERIALIZE operator in the SQL query. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">To retrieve XML values from a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database using JDBC, use the XMLSERIALIZE operator in the SQL query.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To retrieve XML values from a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database using JDBC, use the XMLSERIALIZE operator in the SQL query.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">SELECT XMLSERIALIZE (xcol as CLOB) FROM myXmlTable</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT XMLSERIALIZE (xcol as CLOB) FROM myXmlTable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT XMLSERIALIZE (xcol as CLOB) FROM myXmlTable</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Then retrieve the XML value by using the getXXX method that corresponds to the target serialization type, in this example CLOB data types.</source>
+<seg-source><mrk mid="0" mtype="seg">Then retrieve the XML value by using the getXXX method that corresponds to the target serialization type, in this example CLOB data types.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Then retrieve the XML value by using the getXXX method that corresponds to the target serialization type, in this example CLOB data types.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">To store an XML value into a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database using JDBC, use the XMLPARSE operator in the SQL statement. For example:</source>
+<seg-source><mrk mid="0" mtype="seg">To store an XML value into a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database using JDBC, use the XMLPARSE operator in the SQL statement.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To store an XML value into a <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> database using JDBC, use the XMLPARSE operator in the SQL statement.</mrk><mrk mid="1" mtype="seg"> For example:</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">INSERT INTO myXmlTable(xcol) VALUES XMLPARSE( DOCUMENT CAST (? AS CLOB) PRESERVE WHITESPACE)</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO myXmlTable(xcol) VALUES XMLPARSE( DOCUMENT CAST (? AS CLOB) PRESERVE WHITESPACE)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO myXmlTable(xcol) VALUES XMLPARSE( DOCUMENT CAST (? AS CLOB) PRESERVE WHITESPACE)</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Then use any of the setXXX methods that are compatible with String types, in this example use the PreparedStatement.setString or PreparedStatement.setCharacterStream method calls to bind the operator.</source>
+<seg-source><mrk mid="0" mtype="seg">Then use any of the setXXX methods that are compatible with String types, in this example use the PreparedStatement.setString or PreparedStatement.setCharacterStream method calls to bind the operator.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Then use any of the setXXX methods that are compatible with String types, in this example use the PreparedStatement.setString or PreparedStatement.setCharacterStream method calls to bind the operator.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<project name="okapi-apps" default="all" basedir="."
+	xmlns:unless="ant:unless" xmlns:if="ant:if">
+
+	<import file="shared_macros.xml"/>
+
+	<!-- This script assumes build_okapi-lib.xml has been run alreday -->
+
+	<property name="dist" value="dist_${platform}"/>
+	<property name="distName" value="okapi-apps_${platform}_${okapi.version}" />
+	<property name="mavenStore" value="${user.home}/.m2/repository"/>
+
+	<condition property="swtdep" value="org.eclipse.swt.win32.win32.x86/${org.eclipse.swt32.version}">
+		<equals arg1="${platform}" arg2="win32-x86"/>
+	</condition>
+	<condition property="swtdep" value="org.eclipse.swt.win32.win32.x86_64/${org.eclipse.swt.version}">
+		<equals arg1="${platform}" arg2="win32-x86_64"/>
+	</condition>
+	<condition property="swtdep" value="org.eclipse.swt.cocoa.macosx.x86_64/${org.eclipse.swt.version}">
+		<equals arg1="${platform}" arg2="cocoa-macosx-x86_64"/>
+	</condition>
+	<condition property="swtdep" value="org.eclipse.swt.gtk.linux.x86/${org.eclipse.swt32.version}">
+		<equals arg1="${platform}" arg2="gtk2-linux-x86"/>
+	</condition>
+	<condition property="swtdep" value="org.eclipse.swt.gtk.linux.x86_64/${org.eclipse.swt.version}">
+		<equals arg1="${platform}" arg2="gtk2-linux-x86_64"/>
+	</condition>
+
+	<target name="copyCommon">
+		<!-- Copy the okapi-lib common distribution
+			 This build add to it and overrides some files -->
+		<copy todir="${dist}">
+			<fileset dir="dist_common">
+				<!-- No sources, we only want them in the Okapi_Lib distribution -->
+				<exclude name="**/okapi-lib-*-sources.jar"/>
+				<exclude name="**/localweb/**"/>
+			</fileset>
+		</copy>
+
+ 	</target>
+
+	<target name="okapiLibUI">
+		<copyDepend
+			cdMvnGroupId="net/sf/okapi"
+			cdMvnArtifactId="okapi-lib-ui"
+			cdMvnVersion="${okapi.version}"/>
+	</target>
+
+	<target name="applications">
+
+		<!-- Copy platform speciffic SWT jars -->
+		<copy todir="${dist}/lib">
+			<fileset dir="${mavenStore}/org/eclipse/platform/${swtdep}"
+				excludes="**/*sources.jar"
+				includes="**/*.jar"/>
+		</copy>
+		<copy todir="${dist}/lib/licenses">
+		   <fileset dir="../shared/licenses" includes="**/swt-*"/>
+		</copy>
+
+		<!-- Copy Okapi applications jars -->
+		<copyDepend
+			cdMvnGroupId="net/sf/okapi/applications"
+			cdMvnArtifactId="okapi-application-checkmate"
+			cdMvnVersion="${okapi.version}"/>
+		<copyDepend
+			cdMvnGroupId="net/sf/okapi/applications"
+			cdMvnArtifactId="okapi-application-ratel"
+			cdMvnVersion="${okapi.version}"/>
+		<copyDepend
+			cdMvnGroupId="net/sf/okapi/applications"
+			cdMvnArtifactId="okapi-application-rainbow"
+			cdMvnVersion="${okapi.version}"/>
+
+		<!-- Copy OS specific executables and scripts -->
+		<copy todir="${dist}" overwrite="true">
+			<fileset dir="data/okapi-apps/${platform}" includes="**/**"/>
+		</copy>
+		<chmod perm="755" dir="${dist}" includes="**/*.sh" />
+
+		<!-- Copy shared resources -->
+		<!--TODO: fix this to have it outside the jar -->
+		<copy todir="${dist}/lib/shared">
+			<fileset dir="../../applications/rainbow/src/main/resources/shared"/>
+		</copy>
+
+		<copy todir="${dist}" file="data/okapi-apps/readme.html" overwrite="true"/>
+		<replace file="${dist}/readme.html" token="@version@" value="${okapi.version}" encoding="utf-8"/>
+		<replace file="${dist}/readme.html" token="@date@" value="${TODAY}" encoding="utf-8"/>
+
+		<!-- Copy help -->
+		<copy todir="${dist}/help" overwrite="true">
+			<fileset dir="../../help">
+				<include name="**/tutorials/**"/>
+				<include name="help.css"/>
+				<include name="index.html"/>
+			</fileset>
+		</copy>
+
+		<!-- Remove parts that were for the okapi-lib distribution -->
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${dist}/localweb"/>
+		</delete>
+
+	</target>
+
+	<target name="noWinStuff" unless="building-windows">
+		<delete file="${dist}/tikal.bat"/>
+		<delete file="${dist}/tikalPrompt.bat"/>
+		<delete file="${dist}/startTikalPrompt.bat"/>
+	</target>
+	<target name="winStuff" if="building-windows">
+		<delete file="${dist}/tikal.sh"/>
+	</target>
+
+	<target name="zipWin" unless="building-linuxmac">
+		<zip destfile="${done}/${distName}.zip" basedir="${dist}"/>
+	</target>
+
+	<target name="zipLinuxMac" if="building-linuxmac">
+		<zip destfile="${done}/${distName}.zip">
+			<zipfileset filemode="755" dir="${dist}">
+				<include name="**/*.sh"/>
+			</zipfileset>
+			<zipfileset dir="${dist}">
+				<exclude name="**/*.sh"/>
+			</zipfileset>
+		</zip>
+	</target>
+
+	<target name="macDMG" if="building-mac">
+		<!-- The DMG doesn't itself create a containing folder, so we
+			 need to create one so that we don't install all the apps
+			 (and lib directory, etc) directly into /Applications. -->
+		<property name="dmgWrapper" value="Okapi_${okapi.version}" />
+		<property name="distWrapper" value="${dist}-dmg/${dmgWrapper}" />
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${distWrapper}"/>
+		</delete>
+		<mkdir dir="${distWrapper}" />
+		<copy todir="${distWrapper}" includeEmptyDirs="true"
+			failonerror="true">
+			<fileset dir="${dist}">
+				<include name="**" />
+				<exclude name="${dmgWrapper}" />
+			</fileset>
+		</copy>
+
+		<property file="build.properties" />
+
+		<property name="codesignId" value="" />
+		<condition property="codesignId.noValue">
+			<equals arg1="${codesignId}" arg2="" />
+		</condition>
+		<echo if:set="codesignId.noValue">The 'codesignId' property is not set. OS X binaries will not be signed!</echo>
+
+		<property name="notarizationUser" value="" />
+		<condition property="notarizationUser.noValue">
+			<equals arg1="${notarizationUser}" arg2="" />
+		</condition>
+		<echo if:set="notarizationUser.noValue">The 'notarizationUser' property is not set. OS X binaries will not be notarized!</echo>
+
+		<!-- Make scripts executable -->
+		<chmod perm="755" dir="${distWrapper}" includes="**/*.sh" />
+
+		<!-- Sign individual applications -->
+		<echo unless:set="codesignId.noValue">Signing binaries as '${codesignId}'</echo>
+		<exec unless:set="codesignId.noValue" dir="${distWrapper}"
+			executable="codesign" failonerror="false"
+			failifexecutionfails="false">
+			<arg value="-s" />
+			<arg value="${codesignId}" />
+			<arg value="--verbose=4" />
+			<arg line="Rainbow.app Ratel.app CheckMate.app" />
+		</exec>
+
+		<!-- Create the DMG -->
+		<exec executable="hdiutil" failonerror="true" failifexecutionfails="false">
+			<arg value="create" />
+			<arg value="-volname" />
+			<arg value="Okapi Applications ${okapi.version}" />
+			<arg value="-srcfolder" />
+			<arg value="${dist}-dmg" />
+			<arg value="-ov" />
+			<arg value="-format" />
+			<arg value="UDZO" />
+			<arg value="-fs" />
+			<arg value="HFS+" />
+			<arg value="${done}/${distName}.dmg" />
+		</exec>
+
+		<!-- Sign the DMG -->
+		<exec unless:set="codesignId.noValue" executable="codesign"
+			failonerror="false" failifexecutionfails="false">
+			<arg value="-s" />
+			<arg value="${codesignId}" />
+			<arg value="--verbose=4" />
+			<arg value="${done}/${distName}.dmg" />
+		</exec>
+
+		<!-- Notarize -->
+		<exec unless:set="notarizationUser.noValue" executable="xcrun"
+			  failonerror="false" failifexecutionfails="false"
+			  resultproperty="notarizationRequestResult">
+			<arg value="altool" />
+			<arg value="--notarize-app" />
+			<arg value="--primary-bundle-id" />
+			<arg value="org.okapi.${okapi.version}" />
+			<arg value="--username" />
+			<arg value="${notarizationUser}" />
+			<arg value="--password" />
+			<arg value="@keychain:AC_PASSWORD" />
+			<arg value="--file" />
+			<arg value="${done}/${distName}.dmg" />
+		</exec>
+
+		<condition property="notarizationRequestSucceeded">
+			<equals arg1="${notarizationRequestResult}" arg2="0" />
+		</condition>
+
+		<echo if:set="notarizationRequestSucceeded">
+		==========================================================
+		If notarization succeeds, don't forget to staple with:
+			xcrun stapler staple ${done}/${distName}.dmg
+		==========================================================
+		</echo>
+
+	</target>
+
+	<target name="all" depends="shared.init, copyCommon, okapiLibUI, applications, noWinStuff, winStuff, zipWin, zipLinuxMac, macDMG"/>
+
+</project>

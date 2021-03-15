@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="twwdactivity1.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Creating a Derby database and running SQL statements</source>
+<seg-source><mrk mid="0" mtype="seg">Creating a Derby database and running SQL statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creating a Derby database and running SQL statements</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Now, you will use the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> tool to load the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> database engine. You will use the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> embedded driver to create and connect to the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>firstdb<ept id="5">&lt;/codeph&gt;</ept> database. You will also use a few basic SQL statements to create and populate a table.</source>
+<seg-source><mrk mid="0" mtype="seg">Now, you will use the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> tool to load the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> database engine.</mrk><mrk mid="1" mtype="seg"> You will use the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> embedded driver to create and connect to the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>firstdb<ept id="5">&lt;/codeph&gt;</ept> database.</mrk><mrk mid="2" mtype="seg"> You will also use a few basic SQL statements to create and populate a table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Now, you will use the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> tool to load the <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> database engine.</mrk><mrk mid="1" mtype="seg"> You will use the <bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept> embedded driver to create and connect to the <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>firstdb<ept id="5">&lt;/codeph&gt;</ept> database.</mrk><mrk mid="2" mtype="seg"> You will also use a few basic SQL statements to create and populate a table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Connection URL</source>
+<seg-source><mrk mid="0" mtype="seg">Connection URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connection URL</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">embedded driver</source>
+<seg-source><mrk mid="0" mtype="seg">embedded driver</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">embedded driver</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">create=true</source>
+<seg-source><mrk mid="0" mtype="seg">create=true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create=true</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">ij</source>
+<seg-source><mrk mid="0" mtype="seg">ij</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ij</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">Database</source>
+<seg-source><mrk mid="0" mtype="seg">Database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">creating</source>
+<seg-source><mrk mid="0" mtype="seg">creating</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">creating</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">connecting to</source>
+<seg-source><mrk mid="0" mtype="seg">connecting to</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">connecting to</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">Derby</source>
+<seg-source><mrk mid="0" mtype="seg">Derby</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Derby</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">logfile, message and error</source>
+<seg-source><mrk mid="0" mtype="seg">logfile, message and error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">logfile, message and error</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">SQL</source>
+<seg-source><mrk mid="0" mtype="seg">SQL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">create table</source>
+<seg-source><mrk mid="0" mtype="seg">create table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create table</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">insert</source>
+<seg-source><mrk mid="0" mtype="seg">insert</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">insert</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">select</source>
+<seg-source><mrk mid="0" mtype="seg">select</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">select</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Run the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> tool.</source>
+<seg-source><mrk mid="0" mtype="seg">Run the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> tool.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> tool.</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">If you included the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBY_HOME/bin<ept id="1">&lt;/codeph&gt;</ept> directory in your PATH environment variable, type:</source>
+<seg-source><mrk mid="0" mtype="seg">If you included the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBY_HOME/bin<ept id="1">&lt;/codeph&gt;</ept> directory in your PATH environment variable, type:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you included the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBY_HOME/bin<ept id="1">&lt;/codeph&gt;</ept> directory in your PATH environment variable, type:</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">ij</source>
+<seg-source><mrk mid="0" mtype="seg">ij</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ij</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Otherwise, you can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java<ept id="1">&lt;/codeph&gt;</ept> command to start the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> tool, as shown in the following table.</source>
+<seg-source><mrk mid="0" mtype="seg">Otherwise, you can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java<ept id="1">&lt;/codeph&gt;</ept> command to start the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> tool, as shown in the following table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Otherwise, you can use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>java<ept id="1">&lt;/codeph&gt;</ept> command to start the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="2">&lt;/codeph&gt;</ept> tool, as shown in the following table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">Command to start the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> tool</source>
+<seg-source><mrk mid="0" mtype="seg">Command to start the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> tool</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command to start the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> tool</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">This table lists the commands to start the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> tool on UNIX and Windows systems.</source>
+<seg-source><mrk mid="0" mtype="seg">This table lists the commands to start the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> tool on UNIX and Windows systems.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This table lists the commands to start the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> tool on UNIX and Windows systems.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Operating System</source>
+<seg-source><mrk mid="0" mtype="seg">Operating System</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Operating System</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Command</source>
+<seg-source><mrk mid="0" mtype="seg">Command</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">UNIX (Korn Shell)</source>
+<seg-source><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNIX (Korn Shell)</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar ij<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ij version @RELEASE_ID_SHORT@<ept id="3">&lt;/systemoutput&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar ij<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ij version @RELEASE_ID_SHORT@<ept id="3">&lt;/systemoutput&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar $DERBY_HOME/lib/derbyrun.jar ij<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ij version @RELEASE_ID_SHORT@<ept id="3">&lt;/systemoutput&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Windows</source>
+<seg-source><mrk mid="0" mtype="seg">Windows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Windows</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar ij<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ij version @RELEASE_ID_SHORT@<ept id="3">&lt;/systemoutput&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar ij<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ij version @RELEASE_ID_SHORT@<ept id="3">&lt;/systemoutput&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>java -jar %DERBY_HOME%\lib\derbyrun.jar ij<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ij version @RELEASE_ID_SHORT@<ept id="3">&lt;/systemoutput&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Create the database and open a connection to the database using the embedded driver.</source>
+<seg-source><mrk mid="0" mtype="seg">Create the database and open a connection to the database using the embedded driver.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create the database and open a connection to the database using the embedded driver.</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>CONNECT 'jdbc:derby:firstdb;create=true';<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>CONNECT 'jdbc:derby:firstdb;create=true';<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>CONNECT 'jdbc:derby:firstdb;create=true';<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">Description of connection command:</source>
+<seg-source><mrk mid="0" mtype="seg">Description of connection command:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Description of connection command:</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>connect<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>connect<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>connect<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> command to establish a connection to a database. The <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> connection URL is enclosed in single quotation marks. An <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="3">&lt;/codeph&gt;</ept> command can be in either uppercase or lowercase.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> command to establish a connection to a database.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> connection URL is enclosed in single quotation marks.</mrk><mrk mid="2" mtype="seg"> An <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="3">&lt;/codeph&gt;</ept> command can be in either uppercase or lowercase.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> command to establish a connection to a database.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> connection URL is enclosed in single quotation marks.</mrk><mrk mid="2" mtype="seg"> An <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="3">&lt;/codeph&gt;</ept> command can be in either uppercase or lowercase.</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>jdbc:derby:<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>jdbc:derby:<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>jdbc:derby:<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">The JDBC protocol specification for the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> driver.</source>
+<seg-source><mrk mid="0" mtype="seg">The JDBC protocol specification for the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> driver.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The JDBC protocol specification for the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> driver.</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>firstdb<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>firstdb<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>firstdb<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">The name of the database. The name can be any string. Because no filepath is specified, the database is created in the default working directory (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the database.</mrk><mrk mid="1" mtype="seg"> The name can be any string.</mrk><mrk mid="2" mtype="seg"> Because no filepath is specified, the database is created in the default working directory (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the database.</mrk><mrk mid="1" mtype="seg"> The name can be any string.</mrk><mrk mid="2" mtype="seg"> Because no filepath is specified, the database is created in the default working directory (<bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>;create=true<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>;create=true<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>;create=true<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>URL attribute<ept id="2">&lt;/varname&gt;</ept> that is used to create a database. <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> does not have an SQL <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>create database<ept id="4">&lt;/codeph&gt;</ept> command.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>URL attribute<ept id="2">&lt;/varname&gt;</ept> that is used to create a database.</mrk><mrk mid="1" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> does not have an SQL <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>create database<ept id="4">&lt;/codeph&gt;</ept> command.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>URL attribute<ept id="2">&lt;/varname&gt;</ept> that is used to create a database.</mrk><mrk mid="1" mtype="seg"> <bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept> does not have an SQL <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>create database<ept id="4">&lt;/codeph&gt;</ept> command.</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>;<ept id="1">&lt;/codeph&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>;<ept id="1">&lt;/codeph&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>;<ept id="1">&lt;/codeph&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">The semicolon is the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> command terminator.</source>
+<seg-source><mrk mid="0" mtype="seg">The semicolon is the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> command terminator.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The semicolon is the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> command terminator.</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">Create a table with two columns using standard SQL.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a table with two columns using standard SQL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a table with two columns using standard SQL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>CREATE TABLE FIRSTTABLE (ID INT PRIMARY KEY, NAME VARCHAR(12));<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>0 rows inserted/updated/deleted<ept id="3">&lt;/systemoutput&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>CREATE TABLE FIRSTTABLE (ID INT PRIMARY KEY, NAME VARCHAR(12));<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>0 rows inserted/updated/deleted<ept id="3">&lt;/systemoutput&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>CREATE TABLE FIRSTTABLE (ID INT PRIMARY KEY, NAME VARCHAR(12));<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>0 rows inserted/updated/deleted<ept id="3">&lt;/systemoutput&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">Insert three records.</source>
+<seg-source><mrk mid="0" mtype="seg">Insert three records.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert three records.</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>INSERT INTO FIRSTTABLE VALUES (10,'TEN'),(20,'TWENTY'),(30,'THIRTY');<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>3 rows inserted/updated/deleted<ept id="3">&lt;/systemoutput&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>INSERT INTO FIRSTTABLE VALUES (10,'TEN'),(20,'TWENTY'),(30,'THIRTY');<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>3 rows inserted/updated/deleted<ept id="3">&lt;/systemoutput&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>INSERT INTO FIRSTTABLE VALUES (10,'TEN'),(20,'TWENTY'),(30,'THIRTY');<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>3 rows inserted/updated/deleted<ept id="3">&lt;/systemoutput&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">Perform a simple select of all records in the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Perform a simple select of all records in the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Perform a simple select of all records in the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>SELECT * FROM FIRSTTABLE;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ID |NAME ------------------------ 10 |TEN 20 |TWENTY 30 |THIRTY 3 rows selected<ept id="3">&lt;/systemoutput&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>SELECT * FROM FIRSTTABLE;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ID |NAME ------------------------ 10 |TEN 20 |TWENTY 30 |THIRTY 3 rows selected<ept id="3">&lt;/systemoutput&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>SELECT * FROM FIRSTTABLE;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ID |NAME ------------------------ 10 |TEN 20 |TWENTY 30 |THIRTY 3 rows selected<ept id="3">&lt;/systemoutput&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">Perform a qualified select of the record with column ID=20.</source>
+<seg-source><mrk mid="0" mtype="seg">Perform a qualified select of the record with column ID=20.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Perform a qualified select of the record with column ID=20.</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>SELECT * FROM FIRSTTABLE WHERE ID=20;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ID |NAME ------------------------ 20 |TWENTY 1 row selected<ept id="3">&lt;/systemoutput&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>SELECT * FROM FIRSTTABLE WHERE ID=20;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ID |NAME ------------------------ 20 |TWENTY 1 row selected<ept id="3">&lt;/systemoutput&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>SELECT * FROM FIRSTTABLE WHERE ID=20;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt>ID |NAME ------------------------ 20 |TWENTY 1 row selected<ept id="3">&lt;/systemoutput&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">Optional: Create and populate additional tables and other schema objects.</source>
+<seg-source><mrk mid="0" mtype="seg">Optional: Create and populate additional tables and other schema objects.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Optional: Create and populate additional tables and other schema objects.</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">Load the SQL script <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ToursDB_schema.sql<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Load the SQL script <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ToursDB_schema.sql<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Load the SQL script <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ToursDB_schema.sql<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>run 'ToursDB_schema.sql';<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it> ij&gt; ... CREATE TABLE AIRLINES ( AIRLINE CHAR(2) NOT NULL , AIRLINE_FULL VARCHAR(24), BASIC_RATE DOUBLE PRECISION, ... 0 rows inserted/updated/deleted<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it> <it id="4" ctype="x-i" pos="open">&lt;i&gt;</it>... Other output messages not shown ...<it id="4" ctype="x-i" pos="close">&lt;/i&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>run 'ToursDB_schema.sql';<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it> ij&gt; ...</mrk><mrk mid="1" mtype="seg"> CREATE TABLE AIRLINES ( AIRLINE CHAR(2) NOT NULL , AIRLINE_FULL VARCHAR(24), BASIC_RATE DOUBLE PRECISION, ...</mrk><mrk mid="2" mtype="seg"> 0 rows inserted/updated/deleted<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it> <it id="4" ctype="x-i" pos="open">&lt;i&gt;</it>...</mrk><mrk mid="3" mtype="seg"> Other output messages not shown ...<it id="4" ctype="x-i" pos="close">&lt;/i&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>run 'ToursDB_schema.sql';<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <it id="3" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it> ij&gt; ...</mrk><mrk mid="1" mtype="seg"> CREATE TABLE AIRLINES ( AIRLINE CHAR(2) NOT NULL , AIRLINE_FULL VARCHAR(24), BASIC_RATE DOUBLE PRECISION, ...</mrk><mrk mid="2" mtype="seg"> 0 rows inserted/updated/deleted<it id="3" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it> <it id="4" ctype="x-i" pos="open">&lt;i&gt;</it>...</mrk><mrk mid="3" mtype="seg"> Other output messages not shown ...<it id="4" ctype="x-i" pos="close">&lt;/i&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">Populate the tables with data by running the script <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>loadTables.sql<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Populate the tables with data by running the script <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>loadTables.sql<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Populate the tables with data by running the script <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>loadTables.sql<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>run 'loadTables.sql';<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt> ij&gt; run 'loadCOUNTRIES.sql'; ij&gt; insert into COUNTRIES values ( 'Afghanistan','AF','Asia'); 1 row inserted/updated/deleted ij&gt; insert into COUNTRIES values ( 'Albania','AL','Europe'); 1 row inserted/updated/deleted<ept id="3">&lt;/systemoutput&gt;</ept> <it id="4" ctype="x-i" pos="open">&lt;i&gt;</it>... Other output messages not shown ...<it id="4" ctype="x-i" pos="close">&lt;/i&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>run 'loadTables.sql';<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt> ij&gt; run 'loadCOUNTRIES.sql'; ij&gt; insert into COUNTRIES values ( 'Afghanistan','AF','Asia'); 1 row inserted/updated/deleted ij&gt; insert into COUNTRIES values ( 'Albania','AL','Europe'); 1 row inserted/updated/deleted<ept id="3">&lt;/systemoutput&gt;</ept> <it id="4" ctype="x-i" pos="open">&lt;i&gt;</it>...</mrk><mrk mid="1" mtype="seg"> Other output messages not shown ...<it id="4" ctype="x-i" pos="close">&lt;/i&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>run 'loadTables.sql';<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept> <bpt id="3" ctype="x-systemoutput">&lt;systemoutput&gt;</bpt> ij&gt; run 'loadCOUNTRIES.sql'; ij&gt; insert into COUNTRIES values ( 'Afghanistan','AF','Asia'); 1 row inserted/updated/deleted ij&gt; insert into COUNTRIES values ( 'Albania','AL','Europe'); 1 row inserted/updated/deleted<ept id="3">&lt;/systemoutput&gt;</ept> <it id="4" ctype="x-i" pos="open">&lt;i&gt;</it>...</mrk><mrk mid="1" mtype="seg"> Other output messages not shown ...<it id="4" ctype="x-i" pos="close">&lt;/i&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">Exit the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> tool.</source>
+<seg-source><mrk mid="0" mtype="seg">Exit the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> tool.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> tool.</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>exit;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>exit;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt><bpt id="2" ctype="x-userinput">&lt;userinput&gt;</bpt>exit;<ept id="2">&lt;/userinput&gt;</ept><ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">You should be returned to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</source>
+<seg-source><mrk mid="0" mtype="seg">You should be returned to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You should be returned to the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>DERBYTUTOR<ept id="1">&lt;/codeph&gt;</ept> directory.</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">Browse the most important files created by this activity:</source>
+<seg-source><mrk mid="0" mtype="seg">Browse the most important files created by this activity:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Browse the most important files created by this activity:</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept> file. This file is a message and error log that, under normal circumstances, contains a set of startup messages and a shutdown message.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept> file.</mrk><mrk mid="1" mtype="seg"> This file is a message and error log that, under normal circumstances, contains a set of startup messages and a shutdown message.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.log<ept id="1">&lt;/codeph&gt;</ept> file.</mrk><mrk mid="1" mtype="seg"> This file is a message and error log that, under normal circumstances, contains a set of startup messages and a shutdown message.</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en"><it id="1" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>---------------------------------------------------------------- Thu Sep 13 09:52:15 EDT 2012: Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.0.0 - (1384314): instance a816c00e-0139-bfe6-bff8-000000a155b8 on database directory C:\DERBYTUTOR\firstdb with class loader sun.misc.Launcher$AppClassLoader@9931f5 Loaded from file:C:\db-derby-10.10.0.0-bin\lib\derby.jar java.vendor=Oracle Corporation java.runtime.version=1.7.0_07-b11 user.dir=C:\DERBYTUTOR os.name=Windows XP os.arch=x86 os.version=5.1 derby.system.home=C:\DERBYTUTOR Database Class Loader started - derby.database.classpath='' ---------------------------------------------------------------- Thu Sep 13 09:53:21 EDT 2012: Shutting down Derby engine ---------------------------------------------------------------- Thu Sep 13 09:53:21 EDT 2012: Shutting down instance a816c00e-0139-bfe6-bff8-000000a155b8 on database directory C:\DERBYTUTOR\firstdb with class loader sun.misc.Launcher$AppClassLoader@9931f5 ----------------------------------------------------------------<it id="1" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>---------------------------------------------------------------- Thu Sep 13 09:52:</mrk><mrk mid="1" mtype="seg">15 EDT 2012: Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.0.0 - (1384314): instance a816c00e-0139-bfe6-bff8-000000a155b8 on database directory C:\DERBYTUTOR\firstdb with class loader sun.misc.Launcher$AppClassLoader@9931f5 Loaded from file:C:\db-derby-10.10.0.0-bin\lib\derby.jar java.vendor=Oracle Corporation java.runtime.version=1.7.0_07-b11 user.dir=C:\DERBYTUTOR os.name=Windows XP os.arch=x86 os.version=5.1 derby.system.home=C:\DERBYTUTOR Database Class Loader started - derby.database.classpath='' ---------------------------------------------------------------- Thu Sep 13 09:53:</mrk><mrk mid="2" mtype="seg">21 EDT 2012: Shutting down Derby engine ---------------------------------------------------------------- Thu Sep 13 09:53:</mrk><mrk mid="3" mtype="seg">21 EDT 2012: Shutting down instance a816c00e-0139-bfe6-bff8-000000a155b8 on database directory C:\DERBYTUTOR\firstdb with class loader sun.misc.Launcher$AppClassLoader@9931f5 ----------------------------------------------------------------<it id="1" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-systemoutput" pos="open">&lt;systemoutput&gt;</it>---------------------------------------------------------------- Thu Sep 13 09:52:</mrk><mrk mid="1" mtype="seg">15 EDT 2012: Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.0.0 - (1384314): instance a816c00e-0139-bfe6-bff8-000000a155b8 on database directory C:\DERBYTUTOR\firstdb with class loader sun.misc.Launcher$AppClassLoader@9931f5 Loaded from file:C:\db-derby-10.10.0.0-bin\lib\derby.jar java.vendor=Oracle Corporation java.runtime.version=1.7.0_07-b11 user.dir=C:\DERBYTUTOR os.name=Windows XP os.arch=x86 os.version=5.1 derby.system.home=C:\DERBYTUTOR Database Class Loader started - derby.database.classpath='' ---------------------------------------------------------------- Thu Sep 13 09:53:</mrk><mrk mid="2" mtype="seg">21 EDT 2012: Shutting down Derby engine ---------------------------------------------------------------- Thu Sep 13 09:53:</mrk><mrk mid="3" mtype="seg">21 EDT 2012: Shutting down instance a816c00e-0139-bfe6-bff8-000000a155b8 on database directory C:\DERBYTUTOR\firstdb with class loader sun.misc.Launcher$AppClassLoader@9931f5 ----------------------------------------------------------------<it id="1" ctype="x-systemoutput" pos="close">&lt;/systemoutput&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>firstdb<ept id="1">&lt;/codeph&gt;</ept> database directory. Within the directory are the subdirectories <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>seg0<ept id="2">&lt;/codeph&gt;</ept> (containing the data files) and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>log<ept id="3">&lt;/codeph&gt;</ept> (containing the transaction log files).</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>firstdb<ept id="1">&lt;/codeph&gt;</ept> database directory.</mrk><mrk mid="1" mtype="seg"> Within the directory are the subdirectories <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>seg0<ept id="2">&lt;/codeph&gt;</ept> (containing the data files) and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>log<ept id="3">&lt;/codeph&gt;</ept> (containing the transaction log files).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>firstdb<ept id="1">&lt;/codeph&gt;</ept> database directory.</mrk><mrk mid="1" mtype="seg"> Within the directory are the subdirectories <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>seg0<ept id="2">&lt;/codeph&gt;</ept> (containing the data files) and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>log<ept id="3">&lt;/codeph&gt;</ept> (containing the transaction log files).</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

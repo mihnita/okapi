@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rreffunccoalesce.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">COALESCE function</source>
+<seg-source><mrk mid="0" mtype="seg">COALESCE function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COALESCE function</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The COALESCE function takes two or more compatible arguments and returns the first argument that is not null.</source>
+<seg-source><mrk mid="0" mtype="seg">The COALESCE function takes two or more compatible arguments and returns the first argument that is not null.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The COALESCE function takes two or more compatible arguments and returns the first argument that is not null.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">COALESCE function</source>
+<seg-source><mrk mid="0" mtype="seg">COALESCE function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COALESCE function</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">functions</source>
+<seg-source><mrk mid="0" mtype="seg">functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">functions</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">COALESCE</source>
+<seg-source><mrk mid="0" mtype="seg">COALESCE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COALESCE</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The result is null only if all the arguments are null.</source>
+<seg-source><mrk mid="0" mtype="seg">The result is null only if all the arguments are null.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The result is null only if all the arguments are null.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">If all the parameters of the function call are dynamic, an error occurs.</source>
+<seg-source><mrk mid="0" mtype="seg">If all the parameters of the function call are dynamic, an error occurs.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If all the parameters of the function call are dynamic, an error occurs.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">A synonym for COALESCE is VALUE. VALUE is accepted by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> but is not recognized by the SQL standard.</source>
+<seg-source><mrk mid="0" mtype="seg">A synonym for COALESCE is VALUE.</mrk><mrk mid="1" mtype="seg"> VALUE is accepted by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> but is not recognized by the SQL standard.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A synonym for COALESCE is VALUE.</mrk><mrk mid="1" mtype="seg"> VALUE is accepted by <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> but is not recognized by the SQL standard.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>COALESCE ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>expression<ept id="2">&lt;/varname&gt;</ept>, <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>expression<ept id="3">&lt;/varname&gt;</ept> [ , <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>expression<ept id="4">&lt;/varname&gt;</ept> ]* )<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>COALESCE ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>expression<ept id="2">&lt;/varname&gt;</ept>, <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>expression<ept id="3">&lt;/varname&gt;</ept> [ , <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>expression<ept id="4">&lt;/varname&gt;</ept> ]* )<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>COALESCE ( <bpt id="2" ctype="x-varname">&lt;varname&gt;</bpt>expression<ept id="2">&lt;/varname&gt;</ept>, <bpt id="3" ctype="x-varname">&lt;varname&gt;</bpt>expression<ept id="3">&lt;/varname&gt;</ept> [ , <bpt id="4" ctype="x-varname">&lt;varname&gt;</bpt>expression<ept id="4">&lt;/varname&gt;</ept> ]* )<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">The function must have at least two arguments.</source>
+<seg-source><mrk mid="0" mtype="seg">The function must have at least two arguments.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The function must have at least two arguments.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>ij&gt; -- create table with three different integer types ij&gt; create table temp(smallintcol smallint, bigintcol bigint, intcol integer); 0 rows inserted/updated/deleted ij&gt; insert into temp values (1, null, null); 1 row inserted/updated/deleted ij&gt; insert into temp values (null, 2, null); 1 row inserted/updated/deleted ij&gt; insert into temp values (null, null, 3); 1 row inserted/updated/deleted ij&gt; select * from temp; SMALL&amp;|BIGINTCOL |INTCOL --------------------------------------- 1 |NULL |NULL NULL |2 |NULL NULL |NULL |3 3 rows selected ij&gt; -- the return data type of coalesce is bigint ij&gt; select coalesce (smallintcol, bigintcol) from temp; 1 -------------------- 1 2 NULL 3 rows selected ij&gt; -- the return data type of coalesce is bigint ij&gt; select coalesce (smallintcol, bigintcol, intcol) from temp; 1 -------------------- 1 2 3 3 rows selected ij&gt; -- the return data type of coalesce is integer ij&gt; select coalesce (smallintcol, intcol) from temp; 1 ----------- 1 NULL 3 3 rows selected <ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>ij&gt; -- create table with three different integer types ij&gt; create table temp(smallintcol smallint, bigintcol bigint, intcol integer); 0 rows inserted/updated/deleted ij&gt; insert into temp values (1, null, null); 1 row inserted/updated/deleted ij&gt; insert into temp values (null, 2, null); 1 row inserted/updated/deleted ij&gt; insert into temp values (null, null, 3); 1 row inserted/updated/deleted ij&gt; select * from temp; SMALL&amp;|BIGINTCOL |INTCOL --------------------------------------- 1 |NULL |NULL NULL |2 |NULL NULL |NULL |3 3 rows selected ij&gt; -- the return data type of coalesce is bigint ij&gt; select coalesce (smallintcol, bigintcol) from temp; 1 -------------------- 1 2 NULL 3 rows selected ij&gt; -- the return data type of coalesce is bigint ij&gt; select coalesce (smallintcol, bigintcol, intcol) from temp; 1 -------------------- 1 2 3 3 rows selected ij&gt; -- the return data type of coalesce is integer ij&gt; select coalesce (smallintcol, intcol) from temp; 1 ----------- 1 NULL 3 3 rows selected <ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>ij&gt; -- create table with three different integer types ij&gt; create table temp(smallintcol smallint, bigintcol bigint, intcol integer); 0 rows inserted/updated/deleted ij&gt; insert into temp values (1, null, null); 1 row inserted/updated/deleted ij&gt; insert into temp values (null, 2, null); 1 row inserted/updated/deleted ij&gt; insert into temp values (null, null, 3); 1 row inserted/updated/deleted ij&gt; select * from temp; SMALL&amp;|BIGINTCOL |INTCOL --------------------------------------- 1 |NULL |NULL NULL |2 |NULL NULL |NULL |3 3 rows selected ij&gt; -- the return data type of coalesce is bigint ij&gt; select coalesce (smallintcol, bigintcol) from temp; 1 -------------------- 1 2 NULL 3 rows selected ij&gt; -- the return data type of coalesce is bigint ij&gt; select coalesce (smallintcol, bigintcol, intcol) from temp; 1 -------------------- 1 2 3 3 rows selected ij&gt; -- the return data type of coalesce is integer ij&gt; select coalesce (smallintcol, intcol) from temp; 1 ----------- 1 NULL 3 3 rows selected <ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

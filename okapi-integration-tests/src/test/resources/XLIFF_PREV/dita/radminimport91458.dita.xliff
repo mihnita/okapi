@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="radminimport91458.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Examples of bulk import and export</source>
+<seg-source><mrk mid="0" mtype="seg">Examples of bulk import and export</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples of bulk import and export</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">All of the examples in this section are run using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> utility.</source>
+<seg-source><mrk mid="0" mtype="seg">All of the examples in this section are run using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> utility.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All of the examples in this section are run using the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>ij<ept id="1">&lt;/codeph&gt;</ept> utility.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">import and export procedures</source>
+<seg-source><mrk mid="0" mtype="seg">import and export procedures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">import and export procedures</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">examples</source>
+<seg-source><mrk mid="0" mtype="seg">examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">bulk export</source>
+<seg-source><mrk mid="0" mtype="seg">bulk export</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bulk export</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">examples</source>
+<seg-source><mrk mid="0" mtype="seg">examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">exporting data</source>
+<seg-source><mrk mid="0" mtype="seg">exporting data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">exporting data</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">examples</source>
+<seg-source><mrk mid="0" mtype="seg">examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">bulk import</source>
+<seg-source><mrk mid="0" mtype="seg">bulk import</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bulk import</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">examples</source>
+<seg-source><mrk mid="0" mtype="seg">examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">importing data</source>
+<seg-source><mrk mid="0" mtype="seg">importing data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">importing data</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">examples</source>
+<seg-source><mrk mid="0" mtype="seg">examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Example: Importing all data from a file</source>
+<seg-source><mrk mid="0" mtype="seg">Example: Importing all data from a file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example: Importing all data from a file</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">The following example shows how to import data into the STAFF table in a sample database from the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="1">&lt;/codeph&gt;</ept> file. The data will be appended to the existing data in the table.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example shows how to import data into the STAFF table in a sample database from the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="1">&lt;/codeph&gt;</ept> file.</mrk><mrk mid="1" mtype="seg"> The data will be appended to the existing data in the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example shows how to import data into the STAFF table in a sample database from the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="1">&lt;/codeph&gt;</ept> file.</mrk><mrk mid="1" mtype="seg"> The data will be appended to the existing data in the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE( null,'STAFF','myfile.del',null,null,null,0);<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE( null,'STAFF','myfile.del',null,null,null,0);<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE( null,'STAFF','myfile.del',null,null,null,0);<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Example: Importing all data from a delimited file</source>
+<seg-source><mrk mid="0" mtype="seg">Example: Importing all data from a delimited file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example: Importing all data from a delimited file</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">The following example shows how to import data into the STAFF table in a sample database from a delimited data file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="1">&lt;/codeph&gt;</ept>. This example defines the percentage character (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>%<ept id="2">&lt;/codeph&gt;</ept>) as the string delimiter, and a semicolon as the column delimiter. The data will be appended to the existing data in the table.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example shows how to import data into the STAFF table in a sample database from a delimited data file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This example defines the percentage character (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>%<ept id="2">&lt;/codeph&gt;</ept>) as the string delimiter, and a semicolon as the column delimiter.</mrk><mrk mid="2" mtype="seg"> The data will be appended to the existing data in the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example shows how to import data into the STAFF table in a sample database from a delimited data file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> This example defines the percentage character (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>%<ept id="2">&lt;/codeph&gt;</ept>) as the string delimiter, and a semicolon as the column delimiter.</mrk><mrk mid="2" mtype="seg"> The data will be appended to the existing data in the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE( null,'STAFF','c:\output\myfile.del',';','%',null,0);<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE( null,'STAFF','c:\output\myfile.del',';','%',null,0);<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE( null,'STAFF','c:\output\myfile.del',';','%',null,0);<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Example: Importing all data from a table, using a separate import file for the LOB data</source>
+<seg-source><mrk mid="0" mtype="seg">Example: Importing all data from a table, using a separate import file for the LOB data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example: Importing all data from a table, using a separate import file for the LOB data</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">The following example shows how to import data into the STAFF table in a sample database from a delimited data file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="1">&lt;/codeph&gt;</ept>. The import file <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="2">&lt;/codeph&gt;</ept> is the main import file and contains references that point to a separate file which contains the LOB data. This example specifies a comma as the column delimiter. The data will be appended to the existing data in the table.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example shows how to import data into the STAFF table in a sample database from a delimited data file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The import file <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="2">&lt;/codeph&gt;</ept> is the main import file and contains references that point to a separate file which contains the LOB data.</mrk><mrk mid="2" mtype="seg"> This example specifies a comma as the column delimiter.</mrk><mrk mid="3" mtype="seg"> The data will be appended to the existing data in the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example shows how to import data into the STAFF table in a sample database from a delimited data file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="1">&lt;/codeph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> The import file <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="2">&lt;/codeph&gt;</ept> is the main import file and contains references that point to a separate file which contains the LOB data.</mrk><mrk mid="2" mtype="seg"> This example specifies a comma as the column delimiter.</mrk><mrk mid="3" mtype="seg"> The data will be appended to the existing data in the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE_LOBS_FROM_EXTFILE( null,'STAFF','c:\data\staff.del',',','"','UTF-8',0);<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE_LOBS_FROM_EXTFILE( null,'STAFF','c:\data\staff.del',',','"','UTF-8',0);<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_IMPORT_TABLE_LOBS_FROM_EXTFILE( null,'STAFF','c:\data\staff.del',',','"','UTF-8',0);<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Example: Importing data into specific columns, using a separate import file for the LOB data</source>
+<seg-source><mrk mid="0" mtype="seg">Example: Importing data into specific columns, using a separate import file for the LOB data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example: Importing data into specific columns, using a separate import file for the LOB data</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">The following example shows how to import data into several columns of the STAFF table. The STAFF table includes a LOB column in a sample database. The import file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="1">&lt;/codeph&gt;</ept>, is a delimited data file. The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="2">&lt;/codeph&gt;</ept> file contains references that point to a separate file which contains the LOB data. The data in the import file is formatted using double quotation marks (<bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>"<ept id="3">&lt;/codeph&gt;</ept>) as the string delimiter and a comma (<bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>,<ept id="4">&lt;/codeph&gt;</ept>) as the column delimiter. The data will be appended to the existing data in the STAFF table.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example shows how to import data into several columns of the STAFF table.</mrk><mrk mid="1" mtype="seg"> The STAFF table includes a LOB column in a sample database.</mrk><mrk mid="2" mtype="seg"> The import file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="1">&lt;/codeph&gt;</ept>, is a delimited data file.</mrk><mrk mid="3" mtype="seg"> The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="2">&lt;/codeph&gt;</ept> file contains references that point to a separate file which contains the LOB data.</mrk><mrk mid="4" mtype="seg"> The data in the import file is formatted using double quotation marks (<bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>"<ept id="3">&lt;/codeph&gt;</ept>) as the string delimiter and a comma (<bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>,<ept id="4">&lt;/codeph&gt;</ept>) as the column delimiter.</mrk><mrk mid="5" mtype="seg"> The data will be appended to the existing data in the STAFF table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example shows how to import data into several columns of the STAFF table.</mrk><mrk mid="1" mtype="seg"> The STAFF table includes a LOB column in a sample database.</mrk><mrk mid="2" mtype="seg"> The import file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="1">&lt;/codeph&gt;</ept>, is a delimited data file.</mrk><mrk mid="3" mtype="seg"> The <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="2">&lt;/codeph&gt;</ept> file contains references that point to a separate file which contains the LOB data.</mrk><mrk mid="4" mtype="seg"> The data in the import file is formatted using double quotation marks (<bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>"<ept id="3">&lt;/codeph&gt;</ept>) as the string delimiter and a comma (<bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>,<ept id="4">&lt;/codeph&gt;</ept>) as the column delimiter.</mrk><mrk mid="5" mtype="seg"> The data will be appended to the existing data in the STAFF table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_IMPORT_DATA_LOBS_FROM_EXTFILE( null, 'STAFF', 'NAME,DEPT,SALARY,PICTURE', '2,3,4,6', 'c:\data\staff.del', ',','"','UTF-8', 0);<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_IMPORT_DATA_LOBS_FROM_EXTFILE( null, 'STAFF', 'NAME,DEPT,SALARY,PICTURE', '2,3,4,6', 'c:\data\staff.del', ',','"','UTF-8', 0);<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_IMPORT_DATA_LOBS_FROM_EXTFILE( null, 'STAFF', 'NAME,DEPT,SALARY,PICTURE', '2,3,4,6', 'c:\data\staff.del', ',','"','UTF-8', 0);<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Example: Exporting all data from a table to a single export file</source>
+<seg-source><mrk mid="0" mtype="seg">Example: Exporting all data from a table to a single export file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example: Exporting all data from a table to a single export file</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">The following example shows how to export data from the STAFF table in a sample database to the file <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example shows how to export data from the STAFF table in a sample database to the file <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example shows how to export data from the STAFF table in a sample database to the file <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE( null,'STAFF','myfile.del',null,null,null);<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE( null,'STAFF','myfile.del',null,null,null);<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE( null,'STAFF','myfile.del',null,null,null);<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">Example: Exporting data from a table to a single delimited export file</source>
+<seg-source><mrk mid="0" mtype="seg">Example: Exporting data from a table to a single delimited export file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example: Exporting data from a table to a single delimited export file</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">The following example shows how to export data from the STAFF table to a delimited data file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="1">&lt;/codeph&gt;</ept>, with the percentage character (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>%<ept id="2">&lt;/codeph&gt;</ept>) as the character delimiter, and a semicolon as the column delimiter from the STAFF table.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example shows how to export data from the STAFF table to a delimited data file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="1">&lt;/codeph&gt;</ept>, with the percentage character (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>%<ept id="2">&lt;/codeph&gt;</ept>) as the character delimiter, and a semicolon as the column delimiter from the STAFF table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example shows how to export data from the STAFF table to a delimited data file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>myfile.del<ept id="1">&lt;/codeph&gt;</ept>, with the percentage character (<bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>%<ept id="2">&lt;/codeph&gt;</ept>) as the character delimiter, and a semicolon as the column delimiter from the STAFF table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE( null,'STAFF','c:\output\myfile.del',';','%',null);<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE( null,'STAFF','c:\output\myfile.del',';','%',null);<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE( null,'STAFF','c:\output\myfile.del',';','%',null);<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">Example: Exporting all data from a table, using a separate export file for the LOB data</source>
+<seg-source><mrk mid="0" mtype="seg">Example: Exporting all data from a table, using a separate export file for the LOB data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example: Exporting all data from a table, using a separate export file for the LOB data</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">The following example shows how to export data from the STAFF table in a sample database to the main file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="1">&lt;/codeph&gt;</ept>, and the LOB export file, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>pictures.dat<ept id="2">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example shows how to export data from the STAFF table in a sample database to the main file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="1">&lt;/codeph&gt;</ept>, and the LOB export file, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>pictures.dat<ept id="2">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example shows how to export data from the STAFF table in a sample database to the main file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="1">&lt;/codeph&gt;</ept>, and the LOB export file, <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>pictures.dat<ept id="2">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE_LOBS_TO_EXTFILE(null,'STAFF', 'c:\data\staff.del',',','"','UTF-8', 'c:\data\pictures.dat');<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE_LOBS_TO_EXTFILE(null,'STAFF', 'c:\data\staff.del',',','"','UTF-8', 'c:\data\pictures.dat');<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE_LOBS_TO_EXTFILE(null,'STAFF', 'c:\data\staff.del',',','"','UTF-8', 'c:\data\pictures.dat');<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">Example: Exporting data from a query to a single export file</source>
+<seg-source><mrk mid="0" mtype="seg">Example: Exporting data from a query to a single export file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example: Exporting data from a query to a single export file</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">The following example shows how to export employee data in department 20 from the STAFF table in a sample database to the file <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>awards.del<ept id="1">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example shows how to export employee data in department 20 from the STAFF table in a sample database to the file <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>awards.del<ept id="1">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example shows how to export employee data in department 20 from the STAFF table in a sample database to the file <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>awards.del<ept id="1">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_QUERY( 'SELECT * FROM STAFF WHERE dept=20', 'c:\output\awards.del',null,null,null);<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_QUERY( 'SELECT * FROM STAFF WHERE dept=20', 'c:\output\awards.del',null,null,null);<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_QUERY( 'SELECT * FROM STAFF WHERE dept=20', 'c:\output\awards.del',null,null,null);<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">Example: Exporting data from a query, using a separate export file for the LOB data</source>
+<seg-source><mrk mid="0" mtype="seg">Example: Exporting data from a query, using a separate export file for the LOB data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example: Exporting data from a query, using a separate export file for the LOB data</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">The following example shows how to export employee data in department 20 from the STAFF table in a sample database to the main file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="1">&lt;/codeph&gt;</ept>, and the LOB data to the file <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>pictures.dat<ept id="2">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The following example shows how to export employee data in department 20 from the STAFF table in a sample database to the main file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="1">&lt;/codeph&gt;</ept>, and the LOB data to the file <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>pictures.dat<ept id="2">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example shows how to export employee data in department 20 from the STAFF table in a sample database to the main file, <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>staff.del<ept id="1">&lt;/codeph&gt;</ept>, and the LOB data to the file <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>pictures.dat<ept id="2">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE( 'SELECT * FROM STAFF WHERE dept=20', 'c:\data\staff.del', ',' ,'"', 'UTF-8','c:\data\pictures.dat');<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE( 'SELECT * FROM STAFF WHERE dept=20', 'c:\data\staff.del', ',' ,'"', 'UTF-8','c:\data\pictures.dat');<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>CALL SYSCS_UTIL.SYSCS_EXPORT_QUERY_LOBS_TO_EXTFILE( 'SELECT * FROM STAFF WHERE dept=20', 'c:\data\staff.del', ',' ,'"', 'UTF-8','c:\data\pictures.dat');<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

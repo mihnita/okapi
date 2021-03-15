@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevsetprop12821.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Setting database-wide properties</source>
+<seg-source><mrk mid="0" mtype="seg">Setting database-wide properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Setting database-wide properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Database-wide properties, which affect a single database, are stored within the database itself. This allows different databases within a single <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system to have different properties and ensures that the properties are correctly retained when a database is moved away from its original system or copied.</source>
+<seg-source><mrk mid="0" mtype="seg">Database-wide properties, which affect a single database, are stored within the database itself.</mrk><mrk mid="1" mtype="seg"> This allows different databases within a single <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system to have different properties and ensures that the properties are correctly retained when a database is moved away from its original system or copied.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Database-wide properties, which affect a single database, are stored within the database itself.</mrk><mrk mid="1" mtype="seg"> This allows different databases within a single <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system to have different properties and ensures that the properties are correctly retained when a database is moved away from its original system or copied.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">database-wide properties</source>
+<seg-source><mrk mid="0" mtype="seg">database-wide properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">database-wide properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">setting</source>
+<seg-source><mrk mid="0" mtype="seg">setting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setting</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SYSCS_SET_DATABASE_PROPERTY</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_SET_DATABASE_PROPERTY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_SET_DATABASE_PROPERTY</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">database-wide properties</source>
+<seg-source><mrk mid="0" mtype="seg">database-wide properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">database-wide properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">verifying value of</source>
+<seg-source><mrk mid="0" mtype="seg">verifying value of</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">verifying value of</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">SYSCS_GET_DATABASE_PROPERTY</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_GET_DATABASE_PROPERTY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_GET_DATABASE_PROPERTY</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">You should use database-wide properties wherever possible for ease of deployment and for security.</source>
+<seg-source><mrk mid="0" mtype="seg">You should use database-wide properties wherever possible for ease of deployment and for security.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You should use database-wide properties wherever possible for ease of deployment and for security.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">You set and verify database-wide properties using system procedures within SQL statements.</source>
+<seg-source><mrk mid="0" mtype="seg">You set and verify database-wide properties using system procedures within SQL statements.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You set and verify database-wide properties using system procedures within SQL statements.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">To set a property, you connect to the database, create a statement, and then use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY<ept id="1">&lt;/codeph&gt;</ept> procedure, passing the name of the property and the value.</source>
+<seg-source><mrk mid="0" mtype="seg">To set a property, you connect to the database, create a statement, and then use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY<ept id="1">&lt;/codeph&gt;</ept> procedure, passing the name of the property and the value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To set a property, you connect to the database, create a statement, and then use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY<ept id="1">&lt;/codeph&gt;</ept> procedure, passing the name of the property and the value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">To check the current value of a property, you connect to the database, create a statement, and then use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY<ept id="1">&lt;/codeph&gt;</ept> function, passing in the name of the property.</source>
+<seg-source><mrk mid="0" mtype="seg">To check the current value of a property, you connect to the database, create a statement, and then use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY<ept id="1">&lt;/codeph&gt;</ept> function, passing in the name of the property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To check the current value of a property, you connect to the database, create a statement, and then use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY<ept id="1">&lt;/codeph&gt;</ept> function, passing in the name of the property.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">If you specify an invalid value, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the default value for the property. (If you call the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY<ept id="2">&lt;/codeph&gt;</ept> function, however, it displays the invalid value.)</source>
+<seg-source><mrk mid="0" mtype="seg">If you specify an invalid value, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the default value for the property.</mrk><mrk mid="1" mtype="seg"> (If you call the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY<ept id="2">&lt;/codeph&gt;</ept> function, however, it displays the invalid value.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you specify an invalid value, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the default value for the property.</mrk><mrk mid="1" mtype="seg"> (If you call the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_GET_DATABASE_PROPERTY<ept id="2">&lt;/codeph&gt;</ept> function, however, it displays the invalid value.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for more information on how to use these system functions and procedures.</source>
+<seg-source><mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for more information on how to use these system functions and procedures.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for more information on how to use these system functions and procedures.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

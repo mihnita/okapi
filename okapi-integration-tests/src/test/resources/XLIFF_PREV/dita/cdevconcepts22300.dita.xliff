@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts22300.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Configuring isolation levels</source>
+<seg-source><mrk mid="0" mtype="seg">Configuring isolation levels</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Configuring isolation levels</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">If a connection does not specify its isolation level, it inherits the default isolation level for the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system. The default value is <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>CS<ept id="2">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If a connection does not specify its isolation level, it inherits the default isolation level for the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system.</mrk><mrk mid="1" mtype="seg"> The default value is <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>CS<ept id="2">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a connection does not specify its isolation level, it inherits the default isolation level for the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> system.</mrk><mrk mid="1" mtype="seg"> The default value is <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>CS<ept id="2">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Isolation levels</source>
+<seg-source><mrk mid="0" mtype="seg">Isolation levels</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Isolation levels</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">configuring</source>
+<seg-source><mrk mid="0" mtype="seg">configuring</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">configuring</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">When set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CS<ept id="1">&lt;/codeph&gt;</ept>, the connection inherits the TRANSACTION_READ_COMMITTED isolation level. When set to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>RR<ept id="2">&lt;/codeph&gt;</ept>, the connection inherits the TRANSACTION_SERIALIZABLE isolation level, when set to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>RS<ept id="3">&lt;/codeph&gt;</ept>, the connection inherits the TRANSACTION_REPEATABLE_READ isolation level, and when set to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>UR<ept id="4">&lt;/codeph&gt;</ept>, the connection inherits the TRANSACTION_READ_UNCOMMITTED isolation level.</source>
+<seg-source><mrk mid="0" mtype="seg">When set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CS<ept id="1">&lt;/codeph&gt;</ept>, the connection inherits the TRANSACTION_READ_COMMITTED isolation level.</mrk><mrk mid="1" mtype="seg"> When set to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>RR<ept id="2">&lt;/codeph&gt;</ept>, the connection inherits the TRANSACTION_SERIALIZABLE isolation level, when set to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>RS<ept id="3">&lt;/codeph&gt;</ept>, the connection inherits the TRANSACTION_REPEATABLE_READ isolation level, and when set to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>UR<ept id="4">&lt;/codeph&gt;</ept>, the connection inherits the TRANSACTION_READ_UNCOMMITTED isolation level.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When set to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>CS<ept id="1">&lt;/codeph&gt;</ept>, the connection inherits the TRANSACTION_READ_COMMITTED isolation level.</mrk><mrk mid="1" mtype="seg"> When set to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>RR<ept id="2">&lt;/codeph&gt;</ept>, the connection inherits the TRANSACTION_SERIALIZABLE isolation level, when set to <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>RS<ept id="3">&lt;/codeph&gt;</ept>, the connection inherits the TRANSACTION_REPEATABLE_READ isolation level, and when set to <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>UR<ept id="4">&lt;/codeph&gt;</ept>, the connection inherits the TRANSACTION_READ_UNCOMMITTED isolation level.</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">To override the inherited default, use the methods of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection<ept id="1">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">To override the inherited default, use the methods of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection<ept id="1">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To override the inherited default, use the methods of <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>java.sql.Connection<ept id="1">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">In addition, a connection can change the isolation level of the transaction within an SQL statement. For more information, see "SET ISOLATION statement" in the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>. You can use the WITH clause to change the isolation level for the current statement only, not the transaction. For information about the WITH clause, see "SELECT statement" in the <bpt id="3" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept><ept id="3">&lt;/cite&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">In addition, a connection can change the isolation level of the transaction within an SQL statement.</mrk><mrk mid="1" mtype="seg"> For more information, see "SET ISOLATION statement" in the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> You can use the WITH clause to change the isolation level for the current statement only, not the transaction.</mrk><mrk mid="3" mtype="seg"> For information about the WITH clause, see "SELECT statement" in the <bpt id="3" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept><ept id="3">&lt;/cite&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In addition, a connection can change the isolation level of the transaction within an SQL statement.</mrk><mrk mid="1" mtype="seg"> For more information, see "SET ISOLATION statement" in the <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> You can use the WITH clause to change the isolation level for the current statement only, not the transaction.</mrk><mrk mid="3" mtype="seg"> For information about the WITH clause, see "SELECT statement" in the <bpt id="3" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="4" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="4">&lt;/ph&gt;</ept><ept id="3">&lt;/cite&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">In all cases except when you change the isolation level using the WITH clause, changing the isolation level commits the current transaction. In most cases, the current transaction is committed even if you set the isolation level in a way that does not change it (that is, if you set it to its current value). See <bpt id="1" ctype="x-xref">&lt;xref href="cdevconcepts15366.dita#cdevconcepts15366"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg">In all cases except when you change the isolation level using the WITH clause, changing the isolation level commits the current transaction.</mrk><mrk mid="1" mtype="seg"> In most cases, the current transaction is committed even if you set the isolation level in a way that does not change it (that is, if you set it to its current value).</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cdevconcepts15366.dita#cdevconcepts15366"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In all cases except when you change the isolation level using the WITH clause, changing the isolation level commits the current transaction.</mrk><mrk mid="1" mtype="seg"> In most cases, the current transaction is committed even if you set the isolation level in a way that does not change it (that is, if you set it to its current value).</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cdevconcepts15366.dita#cdevconcepts15366"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for details.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">For information about how to choose a particular isolation level, see "Shielding users from Derby class-loading events" in <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept> and <bpt id="3" ctype="x-xref">&lt;xref href="cdevconcepts65864.dita#cdevconcepts65864"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For information about how to choose a particular isolation level, see "Shielding users from Derby class-loading events" in <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept> and <bpt id="3" ctype="x-xref">&lt;xref href="cdevconcepts65864.dita#cdevconcepts65864"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For information about how to choose a particular isolation level, see "Shielding users from Derby class-loading events" in <bpt id="1" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="2" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept><ept id="1">&lt;/cite&gt;</ept> and <bpt id="3" ctype="x-xref">&lt;xref href="cdevconcepts65864.dita#cdevconcepts65864"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

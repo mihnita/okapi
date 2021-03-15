@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsetdbpropproc.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY system procedure</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY system procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY system procedure</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY<ept id="1">&lt;/codeph&gt;</ept> system procedure to set or delete the value of a property of the database on the current connection.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY<ept id="1">&lt;/codeph&gt;</ept> system procedure to set or delete the value of a property of the database on the current connection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY<ept id="1">&lt;/codeph&gt;</ept> system procedure to set or delete the value of a property of the database on the current connection.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">For information about properties, see <bpt id="1" ctype="x-xref">&lt;xref href="rrefproper32213.dita#rrefproper32213"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For information about properties, see <bpt id="1" ctype="x-xref">&lt;xref href="rrefproper32213.dita#rrefproper32213"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For information about properties, see <bpt id="1" ctype="x-xref">&lt;xref href="rrefproper32213.dita#rrefproper32213"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY(IN KEY VARCHAR(128), IN VALUE VARCHAR(32672))</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY(IN KEY VARCHAR(128), IN VALUE VARCHAR(32672))</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY(IN KEY VARCHAR(128), IN VALUE VARCHAR(32672))</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">This procedure does not return any results.</source>
+<seg-source><mrk mid="0" mtype="seg">This procedure does not return any results.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This procedure does not return any results.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">If VALUE is not null, then the property with key value KEY is set to VALUE. If VALUE is null, then the property with key value KEY is deleted from the database property set.</source>
+<seg-source><mrk mid="0" mtype="seg">If VALUE is not null, then the property with key value KEY is set to VALUE.</mrk><mrk mid="1" mtype="seg"> If VALUE is null, then the property with key value KEY is deleted from the database property set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If VALUE is not null, then the property with key value KEY is set to VALUE.</mrk><mrk mid="1" mtype="seg"> If VALUE is null, then the property with key value KEY is deleted from the database property set.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">If VALUE is an invalid value for the property, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the default value of the property, although <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY<ept id="2">&lt;/codeph&gt;</ept> sets the invalid value.</source>
+<seg-source><mrk mid="0" mtype="seg">If VALUE is an invalid value for the property, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the default value of the property, although <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY<ept id="2">&lt;/codeph&gt;</ept> sets the invalid value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If VALUE is an invalid value for the property, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> uses the default value of the property, although <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY<ept id="2">&lt;/codeph&gt;</ept> sets the invalid value.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Execute privileges</source>
+<seg-source><mrk mid="0" mtype="seg">Execute privileges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Execute privileges</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default. See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information. The database owner can grant access to other users.</source>
+<seg-source><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If authentication and SQL authorization are both enabled, only the <bpt id="1" ctype="x-xref">&lt;xref href="rrefattrib26867.dita#rrefattrib26867"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> has execute privileges on this procedure by default.</mrk><mrk mid="1" mtype="seg"> See "Enabling user authentication" and "Setting the SQL standard authorization mode" in the <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> for more information.</mrk><mrk mid="2" mtype="seg"> The database owner can grant access to other users.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">JDBC example</source>
+<seg-source><mrk mid="0" mtype="seg">JDBC example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JDBC example</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper10607.dita#rrefproper10607"&gt;</bpt>derby.locks.deadlockTimeout<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> property to a value of 10:</source>
+<seg-source><mrk mid="0" mtype="seg">Set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper10607.dita#rrefproper10607"&gt;</bpt>derby.locks.deadlockTimeout<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> property to a value of 10:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefproper10607.dita#rrefproper10607"&gt;</bpt>derby.locks.deadlockTimeout<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/codeph&gt;</ept> property to a value of 10:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY(?, ?)"); cs.setString(1, "derby.locks.deadlockTimeout"); cs.setString(2, "10"); cs.execute(); cs.close();</source>
+<seg-source><mrk mid="0" mtype="seg">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY(?, ?)"); cs.setString(1, "derby.locks.deadlockTimeout"); cs.setString(2, "10"); cs.execute(); cs.close();</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CallableStatement cs = conn.prepareCall ("CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY(?, ?)"); cs.setString(1, "derby.locks.deadlockTimeout"); cs.setString(2, "10"); cs.execute(); cs.close();</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">SQL example</source>
+<seg-source><mrk mid="0" mtype="seg">SQL example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL example</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.locks.deadlockTimeout<ept id="1">&lt;/codeph&gt;</ept> property to a value of 10:</source>
+<seg-source><mrk mid="0" mtype="seg">Set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.locks.deadlockTimeout<ept id="1">&lt;/codeph&gt;</ept> property to a value of 10:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.locks.deadlockTimeout<ept id="1">&lt;/codeph&gt;</ept> property to a value of 10:</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY ('derby.locks.deadlockTimeout', '10')</source>
+<seg-source><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY ('derby.locks.deadlockTimeout', '10')</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CALL SYSCS_UTIL.SYSCS_SET_DATABASE_PROPERTY ('derby.locks.deadlockTimeout', '10')</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevdvlp51654.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Working with the database connection URL attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Working with the database connection URL attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Working with the database connection URL attributes</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">You specify attributes on the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> connection URL.</source>
+<seg-source><mrk mid="0" mtype="seg">You specify attributes on the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> connection URL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You specify attributes on the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> connection URL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Attributes to database connection URL</source>
+<seg-source><mrk mid="0" mtype="seg">Attributes to database connection URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attributes to database connection URL</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Attributes to database connection URL</source>
+<seg-source><mrk mid="0" mtype="seg">Attributes to database connection URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attributes to database connection URL</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">setting</source>
+<seg-source><mrk mid="0" mtype="seg">setting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">setting</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">The examples in this section use the syntax of the connection URL for use in an embedded environment. You can also specify these same attributes and values on the client connection URL if you are using <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> as a database server. For more information, see the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The examples in this section use the syntax of the connection URL for use in an embedded environment.</mrk><mrk mid="1" mtype="seg"> You can also specify these same attributes and values on the client connection URL if you are using <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> as a database server.</mrk><mrk mid="2" mtype="seg"> For more information, see the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The examples in this section use the syntax of the connection URL for use in an embedded environment.</mrk><mrk mid="1" mtype="seg"> You can also specify these same attributes and values on the client connection URL if you are using <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> as a database server.</mrk><mrk mid="2" mtype="seg"> For more information, see the <bpt id="2" ctype="x-cite">&lt;cite&gt;</bpt><bpt id="3" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="3">&lt;/ph&gt;</ept><ept id="2">&lt;/cite&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">You can also set these attributes by passing a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="1">&lt;/i&gt;</ept> object along with a connection URL to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> when obtaining a connection; see <bpt id="4" ctype="x-xref">&lt;xref href="tdevdvlp36289.dita#tdevdvlp36289"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>. If you specify any attributes both on the connection URL and in a <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="5">&lt;/i&gt;</ept> object, the attributes on the connection URL override the attributes in the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="6">&lt;/i&gt;</ept> object.</source>
+<seg-source><mrk mid="0" mtype="seg">You can also set these attributes by passing a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="1">&lt;/i&gt;</ept> object along with a connection URL to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> when obtaining a connection; see <bpt id="4" ctype="x-xref">&lt;xref href="tdevdvlp36289.dita#tdevdvlp36289"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> If you specify any attributes both on the connection URL and in a <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="5">&lt;/i&gt;</ept> object, the attributes on the connection URL override the attributes in the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="6">&lt;/i&gt;</ept> object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can also set these attributes by passing a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="1">&lt;/i&gt;</ept> object along with a connection URL to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt><bpt id="3" ctype="x-i">&lt;i&gt;</bpt>DriverManager.getConnection<ept id="3">&lt;/i&gt;</ept><ept id="2">&lt;/codeph&gt;</ept> when obtaining a connection; see <bpt id="4" ctype="x-xref">&lt;xref href="tdevdvlp36289.dita#tdevdvlp36289"&gt;</bpt><ept id="4">&lt;/xref&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> If you specify any attributes both on the connection URL and in a <bpt id="5" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="5">&lt;/i&gt;</ept> object, the attributes on the connection URL override the attributes in the <bpt id="6" ctype="x-i">&lt;i&gt;</bpt>Properties<ept id="6">&lt;/i&gt;</ept> object.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">All attributes are optional.</source>
+<seg-source><mrk mid="0" mtype="seg">All attributes are optional.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All attributes are optional.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">For more information on working with connection URL attributes, see the following:</source>
+<seg-source><mrk mid="0" mtype="seg">For more information on working with connection URL attributes, see the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information on working with connection URL attributes, see the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure24366.dita#cdevcsecure24366"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information on database encryption</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure24366.dita#cdevcsecure24366"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information on database encryption</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecure24366.dita#cdevcsecure24366"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for information on database encryption</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on tracing network clients, replicating databases, restoring databases from backup, and logging on separate devices</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on tracing network clients, replicating databases, restoring databases from backup, and logging on separate devices</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citadmin"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on tracing network clients, replicating databases, restoring databases from backup, and logging on separate devices</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">For complete information about the attributes, see "Setting attributes for the database connection URL" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For complete information about the attributes, see "Setting attributes for the database connection URL" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For complete information about the attributes, see "Setting attributes for the database connection URL" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">For detailed information about the connection URL syntax, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevdvlp17453.dita#cdevdvlp17453"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For detailed information about the connection URL syntax, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevdvlp17453.dita#cdevdvlp17453"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For detailed information about the connection URL syntax, see <bpt id="1" ctype="x-xref">&lt;xref href="cdevdvlp17453.dita#cdevdvlp17453"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

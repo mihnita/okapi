@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsqlj13590.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">CONSTRAINT clause</source>
+<seg-source><mrk mid="0" mtype="seg">CONSTRAINT clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CONSTRAINT clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">CONSTRAINT clause</source>
+<seg-source><mrk mid="0" mtype="seg">CONSTRAINT clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CONSTRAINT clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">Storage properties</source>
+<seg-source><mrk mid="0" mtype="seg">Storage properties</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Storage properties</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">for indexes backing constraints</source>
+<seg-source><mrk mid="0" mtype="seg">for indexes backing constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">for indexes backing constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">Backing indexes</source>
+<seg-source><mrk mid="0" mtype="seg">Backing indexes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Backing indexes</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">specifying storage properties for</source>
+<seg-source><mrk mid="0" mtype="seg">specifying storage properties for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">specifying storage properties for</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">Tables</source>
+<seg-source><mrk mid="0" mtype="seg">Tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">specifying page size for</source>
+<seg-source><mrk mid="0" mtype="seg">specifying page size for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">specifying page size for</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">specifying properties for</source>
+<seg-source><mrk mid="0" mtype="seg">specifying properties for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">specifying properties for</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">A CONSTRAINT clause is an optional part of a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj24513.dita#rrefsqlj24513"&gt;</bpt>CREATE TABLE statement<ept id="1">&lt;/xref&gt;</ept> or <bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqlj81859.dita#rrefsqlj81859"&gt;</bpt>ALTER TABLE statement<ept id="2">&lt;/xref&gt;</ept>. A constraint is a rule to which data must conform. Constraint names are optional.</source>
+<seg-source><mrk mid="0" mtype="seg">A CONSTRAINT clause is an optional part of a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj24513.dita#rrefsqlj24513"&gt;</bpt>CREATE TABLE statement<ept id="1">&lt;/xref&gt;</ept> or <bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqlj81859.dita#rrefsqlj81859"&gt;</bpt>ALTER TABLE statement<ept id="2">&lt;/xref&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> A constraint is a rule to which data must conform.</mrk><mrk mid="2" mtype="seg"> Constraint names are optional.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A CONSTRAINT clause is an optional part of a <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj24513.dita#rrefsqlj24513"&gt;</bpt>CREATE TABLE statement<ept id="1">&lt;/xref&gt;</ept> or <bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqlj81859.dita#rrefsqlj81859"&gt;</bpt>ALTER TABLE statement<ept id="2">&lt;/xref&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> A constraint is a rule to which data must conform.</mrk><mrk mid="2" mtype="seg"> Constraint names are optional.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">A CONSTRAINT can be one of the following:</source>
+<seg-source><mrk mid="0" mtype="seg">A CONSTRAINT can be one of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A CONSTRAINT can be one of the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Column-level constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Column-level constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column-level constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">Constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">column-level</source>
+<seg-source><mrk mid="0" mtype="seg">column-level</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">column-level</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj16095.dita#rrefsqlj16095"&gt;</bpt>columnLevelConstraint<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj16095.dita#rrefsqlj16095"&gt;</bpt>columnLevelConstraint<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj16095.dita#rrefsqlj16095"&gt;</bpt>columnLevelConstraint<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Column-level constraints refer to a single column in the table and do not specify a column name (except check constraints). They refer to the column that they follow.</source>
+<seg-source><mrk mid="0" mtype="seg">Column-level constraints refer to a single column in the table and do not specify a column name (except check constraints).</mrk><mrk mid="1" mtype="seg"> They refer to the column that they follow.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column-level constraints refer to a single column in the table and do not specify a column name (except check constraints).</mrk><mrk mid="1" mtype="seg"> They refer to the column that they follow.</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Table-level constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Table-level constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Table-level constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">table-level</source>
+<seg-source><mrk mid="0" mtype="seg">table-level</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">table-level</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj42154.dita#rrefsqlj42154"&gt;</bpt>tableLevelConstraint<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj42154.dita#rrefsqlj42154"&gt;</bpt>tableLevelConstraint<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref href="rrefsqlj42154.dita#rrefsqlj42154"&gt;</bpt>tableLevelConstraint<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">Table-level constraints refer to one or more columns in the table. Table-level constraints specify the names of the columns to which they apply. Table-level CHECK constraints can refer to 0 or more columns in the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Table-level constraints refer to one or more columns in the table.</mrk><mrk mid="1" mtype="seg"> Table-level constraints specify the names of the columns to which they apply.</mrk><mrk mid="2" mtype="seg"> Table-level CHECK constraints can refer to 0 or more columns in the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Table-level constraints refer to one or more columns in the table.</mrk><mrk mid="1" mtype="seg"> Table-level constraints specify the names of the columns to which they apply.</mrk><mrk mid="2" mtype="seg"> Table-level CHECK constraints can refer to 0 or more columns in the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">Column-level constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Column-level constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column-level constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">used in CREATE TABLE statement</source>
+<seg-source><mrk mid="0" mtype="seg">used in CREATE TABLE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">used in CREATE TABLE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">Constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">column-level</source>
+<seg-source><mrk mid="0" mtype="seg">column-level</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">column-level</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">Column constraints include:</source>
+<seg-source><mrk mid="0" mtype="seg">Column constraints include:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column constraints include:</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">NOT NULL</source>
+<seg-source><mrk mid="0" mtype="seg">NOT NULL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NOT NULL</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">Specifies that this column cannot hold NULL values (constraints of this type are not nameable).</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies that this column cannot hold NULL values (constraints of this type are not nameable).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies that this column cannot hold NULL values (constraints of this type are not nameable).</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">PRIMARY KEY</source>
+<seg-source><mrk mid="0" mtype="seg">PRIMARY KEY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PRIMARY KEY</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">Primary keys</source>
+<seg-source><mrk mid="0" mtype="seg">Primary keys</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Primary keys</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">creating</source>
+<seg-source><mrk mid="0" mtype="seg">creating</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">creating</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">adding</source>
+<seg-source><mrk mid="0" mtype="seg">adding</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">adding</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">Specifies the column that uniquely identifies a row in the table. The identified columns must be defined as NOT NULL.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the column that uniquely identifies a row in the table.</mrk><mrk mid="1" mtype="seg"> The identified columns must be defined as NOT NULL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the column that uniquely identifies a row in the table.</mrk><mrk mid="1" mtype="seg"> The identified columns must be defined as NOT NULL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">If you attempt to add a primary key using ALTER TABLE and any of the columns included in the primary key contain null values, an error will be generated and the primary key will not be added. See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj81859.dita#rrefsqlj81859"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">If you attempt to add a primary key using ALTER TABLE and any of the columns included in the primary key contain null values, an error will be generated and the primary key will not be added.</mrk><mrk mid="1" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj81859.dita#rrefsqlj81859"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you attempt to add a primary key using ALTER TABLE and any of the columns included in the primary key contain null values, an error will be generated and the primary key will not be added.</mrk><mrk mid="1" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj81859.dita#rrefsqlj81859"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">UNIQUE</source>
+<seg-source><mrk mid="0" mtype="seg">UNIQUE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNIQUE</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">Specifies that values in the column must be unique.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies that values in the column must be unique.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies that values in the column must be unique.</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">FOREIGN KEY</source>
+<seg-source><mrk mid="0" mtype="seg">FOREIGN KEY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FOREIGN KEY</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">Specifies that the values in the column must correspond to values in a referenced primary key or unique key column or that they are NULL.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies that the values in the column must correspond to values in a referenced primary key or unique key column or that they are NULL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies that the values in the column must correspond to values in a referenced primary key or unique key column or that they are NULL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">CHECK</source>
+<seg-source><mrk mid="0" mtype="seg">CHECK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHECK</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">Specifies rules for values in the column.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies rules for values in the column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies rules for values in the column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">Table constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Table constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Table constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">used in CREATE TABLE statement</source>
+<seg-source><mrk mid="0" mtype="seg">used in CREATE TABLE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">used in CREATE TABLE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">Constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">table-level</source>
+<seg-source><mrk mid="0" mtype="seg">table-level</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">table-level</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">Table constraints include:</source>
+<seg-source><mrk mid="0" mtype="seg">Table constraints include:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Table constraints include:</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">PRIMARY KEY</source>
+<seg-source><mrk mid="0" mtype="seg">PRIMARY KEY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PRIMARY KEY</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">Primary keys</source>
+<seg-source><mrk mid="0" mtype="seg">Primary keys</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Primary keys</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">creating</source>
+<seg-source><mrk mid="0" mtype="seg">creating</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">creating</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">adding</source>
+<seg-source><mrk mid="0" mtype="seg">adding</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">adding</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">Specifies the column or columns that uniquely identify a row in the table. NULL values are not allowed.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the column or columns that uniquely identify a row in the table.</mrk><mrk mid="1" mtype="seg"> NULL values are not allowed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the column or columns that uniquely identify a row in the table.</mrk><mrk mid="1" mtype="seg"> NULL values are not allowed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">UNIQUE</source>
+<seg-source><mrk mid="0" mtype="seg">UNIQUE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNIQUE</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">Specifies that values in the columns must be unique.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies that values in the columns must be unique.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies that values in the columns must be unique.</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">FOREIGN KEY</source>
+<seg-source><mrk mid="0" mtype="seg">FOREIGN KEY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FOREIGN KEY</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">Specifies that the values in the columns must correspond to values in referenced primary key or unique columns or that they are NULL.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies that the values in the columns must correspond to values in referenced primary key or unique columns or that they are NULL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies that the values in the columns must correspond to values in referenced primary key or unique columns or that they are NULL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">If the foreign key consists of multiple columns, and <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>any<ept id="1">&lt;/i&gt;</ept> column is NULL, the whole key is considered NULL. The insert is permitted no matter what is on the non-null columns.</source>
+<seg-source><mrk mid="0" mtype="seg">If the foreign key consists of multiple columns, and <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>any<ept id="1">&lt;/i&gt;</ept> column is NULL, the whole key is considered NULL.</mrk><mrk mid="1" mtype="seg"> The insert is permitted no matter what is on the non-null columns.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the foreign key consists of multiple columns, and <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>any<ept id="1">&lt;/i&gt;</ept> column is NULL, the whole key is considered NULL.</mrk><mrk mid="1" mtype="seg"> The insert is permitted no matter what is on the non-null columns.</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">CHECK</source>
+<seg-source><mrk mid="0" mtype="seg">CHECK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHECK</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">Specifies a wide range of rules for values in the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies a wide range of rules for values in the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies a wide range of rules for values in the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">Constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">differences between column-level and table-level</source>
+<seg-source><mrk mid="0" mtype="seg">differences between column-level and table-level</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">differences between column-level and table-level</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">Column constraints and table constraints have the same function; the difference is in where you specify them. Table constraints allow you to specify more than one column in a PRIMARY KEY, UNIQUE, CHECK, or FOREIGN KEY constraint definition. Column-level constraints (except for check constraints) refer to only one column.</source>
+<seg-source><mrk mid="0" mtype="seg">Column constraints and table constraints have the same function; the difference is in where you specify them.</mrk><mrk mid="1" mtype="seg"> Table constraints allow you to specify more than one column in a PRIMARY KEY, UNIQUE, CHECK, or FOREIGN KEY constraint definition.</mrk><mrk mid="2" mtype="seg"> Column-level constraints (except for check constraints) refer to only one column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column constraints and table constraints have the same function; the difference is in where you specify them.</mrk><mrk mid="1" mtype="seg"> Table constraints allow you to specify more than one column in a PRIMARY KEY, UNIQUE, CHECK, or FOREIGN KEY constraint definition.</mrk><mrk mid="2" mtype="seg"> Column-level constraints (except for check constraints) refer to only one column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">A constraint operates with the privileges of the owner of the constraint. See "Using SQL standard authorization" and "Privileges on views, triggers, and constraints" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details.</source>
+<seg-source><mrk mid="0" mtype="seg">A constraint operates with the privileges of the owner of the constraint.</mrk><mrk mid="1" mtype="seg"> See "Using SQL standard authorization" and "Privileges on views, triggers, and constraints" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A constraint operates with the privileges of the owner of the constraint.</mrk><mrk mid="1" mtype="seg"> See "Using SQL standard authorization" and "Privileges on views, triggers, and constraints" in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citdevelop"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for details.</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">Syntax</source>
+<seg-source><mrk mid="0" mtype="seg">Syntax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en">Primary key constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Primary key constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Primary key constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en">Primary key constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Primary key constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Primary key constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">A primary key defines the set of columns that uniquely identifies rows in a table.</source>
+<seg-source><mrk mid="0" mtype="seg">A primary key defines the set of columns that uniquely identifies rows in a table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A primary key defines the set of columns that uniquely identifies rows in a table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">When you create a primary key constraint, none of the columns included in the primary key can have NULL constraints; that is, they must not permit NULL values.</source>
+<seg-source><mrk mid="0" mtype="seg">When you create a primary key constraint, none of the columns included in the primary key can have NULL constraints; that is, they must not permit NULL values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you create a primary key constraint, none of the columns included in the primary key can have NULL constraints; that is, they must not permit NULL values.</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">ALTER TABLE ADD PRIMARY KEY allows you to include existing columns in a primary key if they were first defined as NOT NULL. NULL values are not allowed. If the column(s) contain NULL values, the system will not add the primary key constraint. See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj81859.dita#rrefsqlj81859"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">ALTER TABLE ADD PRIMARY KEY allows you to include existing columns in a primary key if they were first defined as NOT NULL.</mrk><mrk mid="1" mtype="seg"> NULL values are not allowed.</mrk><mrk mid="2" mtype="seg"> If the column(s) contain NULL values, the system will not add the primary key constraint.</mrk><mrk mid="3" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj81859.dita#rrefsqlj81859"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ALTER TABLE ADD PRIMARY KEY allows you to include existing columns in a primary key if they were first defined as NOT NULL.</mrk><mrk mid="1" mtype="seg"> NULL values are not allowed.</mrk><mrk mid="2" mtype="seg"> If the column(s) contain NULL values, the system will not add the primary key constraint.</mrk><mrk mid="3" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj81859.dita#rrefsqlj81859"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en">A table can have at most one PRIMARY KEY constraint.</source>
+<seg-source><mrk mid="0" mtype="seg">A table can have at most one PRIMARY KEY constraint.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A table can have at most one PRIMARY KEY constraint.</mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en">Unique constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Unique constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unique constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en">Unique constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Unique constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unique constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en">A UNIQUE constraint defines a set of columns that uniquely identify rows in a table only if all the key values are not NULL. If one or more key parts are NULL, duplicate keys are allowed.</source>
+<seg-source><mrk mid="0" mtype="seg">A UNIQUE constraint defines a set of columns that uniquely identify rows in a table only if all the key values are not NULL.</mrk><mrk mid="1" mtype="seg"> If one or more key parts are NULL, duplicate keys are allowed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A UNIQUE constraint defines a set of columns that uniquely identify rows in a table only if all the key values are not NULL.</mrk><mrk mid="1" mtype="seg"> If one or more key parts are NULL, duplicate keys are allowed.</mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en">For example, if there is a UNIQUE constraint on <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>col1<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>col2<ept id="2">&lt;/codeph&gt;</ept> of a table, the combination of the values held by <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>col1<ept id="3">&lt;/codeph&gt;</ept> and <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>col2<ept id="4">&lt;/codeph&gt;</ept> will be unique as long as these values are not NULL. If one of <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>col1<ept id="5">&lt;/codeph&gt;</ept> and <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>col2<ept id="6">&lt;/codeph&gt;</ept> holds a NULL value, there can be another identical row in the table.</source>
+<seg-source><mrk mid="0" mtype="seg">For example, if there is a UNIQUE constraint on <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>col1<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>col2<ept id="2">&lt;/codeph&gt;</ept> of a table, the combination of the values held by <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>col1<ept id="3">&lt;/codeph&gt;</ept> and <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>col2<ept id="4">&lt;/codeph&gt;</ept> will be unique as long as these values are not NULL.</mrk><mrk mid="1" mtype="seg"> If one of <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>col1<ept id="5">&lt;/codeph&gt;</ept> and <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>col2<ept id="6">&lt;/codeph&gt;</ept> holds a NULL value, there can be another identical row in the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, if there is a UNIQUE constraint on <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>col1<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>col2<ept id="2">&lt;/codeph&gt;</ept> of a table, the combination of the values held by <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>col1<ept id="3">&lt;/codeph&gt;</ept> and <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>col2<ept id="4">&lt;/codeph&gt;</ept> will be unique as long as these values are not NULL.</mrk><mrk mid="1" mtype="seg"> If one of <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>col1<ept id="5">&lt;/codeph&gt;</ept> and <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>col2<ept id="6">&lt;/codeph&gt;</ept> holds a NULL value, there can be another identical row in the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu74">
+<source xml:lang="en">A table can have multiple UNIQUE constraints.</source>
+<seg-source><mrk mid="0" mtype="seg">A table can have multiple UNIQUE constraints.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A table can have multiple UNIQUE constraints.</mrk></target>
+</trans-unit>
+<trans-unit id="tu75">
+<source xml:lang="en">Foreign key constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Foreign key constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Foreign key constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu76">
+<source xml:lang="en">Foreign keys</source>
+<seg-source><mrk mid="0" mtype="seg">Foreign keys</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Foreign keys</mrk></target>
+</trans-unit>
+<trans-unit id="tu77">
+<source xml:lang="en">Referential integrity</source>
+<seg-source><mrk mid="0" mtype="seg">Referential integrity</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Referential integrity</mrk></target>
+</trans-unit>
+<trans-unit id="tu78">
+<source xml:lang="en">via foreign keys</source>
+<seg-source><mrk mid="0" mtype="seg">via foreign keys</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">via foreign keys</mrk></target>
+</trans-unit>
+<trans-unit id="tu79">
+<source xml:lang="en">Foreign keys provide a way to enforce the referential integrity of a database. A foreign key is a column or group of columns within a table that references a key in some other table (or sometimes, though rarely, the same table). The foreign key must always include the columns of which the types exactly match those in the referenced primary key or unique constraint.</source>
+<seg-source><mrk mid="0" mtype="seg">Foreign keys provide a way to enforce the referential integrity of a database.</mrk><mrk mid="1" mtype="seg"> A foreign key is a column or group of columns within a table that references a key in some other table (or sometimes, though rarely, the same table).</mrk><mrk mid="2" mtype="seg"> The foreign key must always include the columns of which the types exactly match those in the referenced primary key or unique constraint.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Foreign keys provide a way to enforce the referential integrity of a database.</mrk><mrk mid="1" mtype="seg"> A foreign key is a column or group of columns within a table that references a key in some other table (or sometimes, though rarely, the same table).</mrk><mrk mid="2" mtype="seg"> The foreign key must always include the columns of which the types exactly match those in the referenced primary key or unique constraint.</mrk></target>
+</trans-unit>
+<trans-unit id="tu80">
+<source xml:lang="en">For a table-level foreign key constraint in which you specify the columns in the table that make up the constraint, you cannot use the same column more than once.</source>
+<seg-source><mrk mid="0" mtype="seg">For a table-level foreign key constraint in which you specify the columns in the table that make up the constraint, you cannot use the same column more than once.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For a table-level foreign key constraint in which you specify the columns in the table that make up the constraint, you cannot use the same column more than once.</mrk></target>
+</trans-unit>
+<trans-unit id="tu81">
+<source xml:lang="en">If there is a column list in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ReferencesSpecification <ept id="1">&lt;/i&gt;</ept>(a list of columns in the referenced table), it must correspond either to a unique constraint or to a primary key constraint in the referenced table. The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ReferencesSpecification<ept id="2">&lt;/i&gt;</ept> can omit the column list for the referenced table if that table has a declared primary key.</source>
+<seg-source><mrk mid="0" mtype="seg">If there is a column list in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ReferencesSpecification <ept id="1">&lt;/i&gt;</ept>(a list of columns in the referenced table), it must correspond either to a unique constraint or to a primary key constraint in the referenced table.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ReferencesSpecification<ept id="2">&lt;/i&gt;</ept> can omit the column list for the referenced table if that table has a declared primary key.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If there is a column list in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ReferencesSpecification <ept id="1">&lt;/i&gt;</ept>(a list of columns in the referenced table), it must correspond either to a unique constraint or to a primary key constraint in the referenced table.</mrk><mrk mid="1" mtype="seg"> The <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ReferencesSpecification<ept id="2">&lt;/i&gt;</ept> can omit the column list for the referenced table if that table has a declared primary key.</mrk></target>
+</trans-unit>
+<trans-unit id="tu82">
+<source xml:lang="en">If there is no column list in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ReferencesSpecification <ept id="1">&lt;/i&gt;</ept>and the referenced table has no primary key, a statement exception is thrown. (This means that if the referenced table has only unique keys, you must include a column list in the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ReferencesSpecification.<ept id="2">&lt;/i&gt;</ept>)</source>
+<seg-source><mrk mid="0" mtype="seg">If there is no column list in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ReferencesSpecification <ept id="1">&lt;/i&gt;</ept>and the referenced table has no primary key, a statement exception is thrown.</mrk><mrk mid="1" mtype="seg"> (This means that if the referenced table has only unique keys, you must include a column list in the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ReferencesSpecification.<ept id="2">&lt;/i&gt;</ept>)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If there is no column list in the <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>ReferencesSpecification <ept id="1">&lt;/i&gt;</ept>and the referenced table has no primary key, a statement exception is thrown.</mrk><mrk mid="1" mtype="seg"> (This means that if the referenced table has only unique keys, you must include a column list in the <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>ReferencesSpecification.<ept id="2">&lt;/i&gt;</ept>)</mrk></target>
+</trans-unit>
+<trans-unit id="tu83">
+<source xml:lang="en">A foreign key constraint is satisfied if there is a matching value in the referenced unique or primary key column. If the foreign key consists of multiple columns, the foreign key value is considered NULL if any of its columns contains a NULL.</source>
+<seg-source><mrk mid="0" mtype="seg">A foreign key constraint is satisfied if there is a matching value in the referenced unique or primary key column.</mrk><mrk mid="1" mtype="seg"> If the foreign key consists of multiple columns, the foreign key value is considered NULL if any of its columns contains a NULL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A foreign key constraint is satisfied if there is a matching value in the referenced unique or primary key column.</mrk><mrk mid="1" mtype="seg"> If the foreign key consists of multiple columns, the foreign key value is considered NULL if any of its columns contains a NULL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu84">
+<source xml:lang="en">It is possible for a foreign key consisting of multiple columns to allow one of the columns to contain a value for which there is no matching value in the referenced columns, per the SQL-92 standard. To avoid this situation, create NOT NULL constraints on all of the foreign key's columns.</source>
+<seg-source><mrk mid="0" mtype="seg">It is possible for a foreign key consisting of multiple columns to allow one of the columns to contain a value for which there is no matching value in the referenced columns, per the SQL-92 standard.</mrk><mrk mid="1" mtype="seg"> To avoid this situation, create NOT NULL constraints on all of the foreign key's columns.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is possible for a foreign key consisting of multiple columns to allow one of the columns to contain a value for which there is no matching value in the referenced columns, per the SQL-92 standard.</mrk><mrk mid="1" mtype="seg"> To avoid this situation, create NOT NULL constraints on all of the foreign key's columns.</mrk></target>
+</trans-unit>
+<trans-unit id="tu85">
+<source xml:lang="en">Foreign key constraints and DML</source>
+<seg-source><mrk mid="0" mtype="seg">Foreign key constraints and DML</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Foreign key constraints and DML</mrk></target>
+</trans-unit>
+<trans-unit id="tu86">
+<source xml:lang="en">When you insert into or update a table with an enabled foreign key constraint, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks that the row does not violate the foreign key constraint by looking up the corresponding referenced key in the referenced table. If the constraint is not satisfied, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> rejects the insert or update with a statement exception.</source>
+<seg-source><mrk mid="0" mtype="seg">When you insert into or update a table with an enabled foreign key constraint, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks that the row does not violate the foreign key constraint by looking up the corresponding referenced key in the referenced table.</mrk><mrk mid="1" mtype="seg"> If the constraint is not satisfied, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> rejects the insert or update with a statement exception.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you insert into or update a table with an enabled foreign key constraint, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks that the row does not violate the foreign key constraint by looking up the corresponding referenced key in the referenced table.</mrk><mrk mid="1" mtype="seg"> If the constraint is not satisfied, <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> rejects the insert or update with a statement exception.</mrk></target>
+</trans-unit>
+<trans-unit id="tu87">
+<source xml:lang="en">When you update or delete a row in a table with a referenced key (a primary or unique constraint referenced by a foreign key), <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks every foreign key constraint that references the key to make sure that the removal or modification of the row does not cause a constraint violation. If removal or modification of the row would cause a constraint violation, the update or delete is not permitted and <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> throws a statement exception.</source>
+<seg-source><mrk mid="0" mtype="seg">When you update or delete a row in a table with a referenced key (a primary or unique constraint referenced by a foreign key), <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks every foreign key constraint that references the key to make sure that the removal or modification of the row does not cause a constraint violation.</mrk><mrk mid="1" mtype="seg"> If removal or modification of the row would cause a constraint violation, the update or delete is not permitted and <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> throws a statement exception.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you update or delete a row in a table with a referenced key (a primary or unique constraint referenced by a foreign key), <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks every foreign key constraint that references the key to make sure that the removal or modification of the row does not cause a constraint violation.</mrk><mrk mid="1" mtype="seg"> If removal or modification of the row would cause a constraint violation, the update or delete is not permitted and <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> throws a statement exception.</mrk></target>
+</trans-unit>
+<trans-unit id="tu88">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> performs constraint checks at the time the statement is executed, not when the transaction commits.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> performs constraint checks at the time the statement is executed, not when the transaction commits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> performs constraint checks at the time the statement is executed, not when the transaction commits.</mrk></target>
+</trans-unit>
+<trans-unit id="tu89">
+<source xml:lang="en">Backing indexes</source>
+<seg-source><mrk mid="0" mtype="seg">Backing indexes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Backing indexes</mrk></target>
+</trans-unit>
+<trans-unit id="tu90">
+<source xml:lang="en">Backing indexes</source>
+<seg-source><mrk mid="0" mtype="seg">Backing indexes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Backing indexes</mrk></target>
+</trans-unit>
+<trans-unit id="tu91">
+<source xml:lang="en">created automatically to enforce primary key, unique, and foreign key constraints</source>
+<seg-source><mrk mid="0" mtype="seg">created automatically to enforce primary key, unique, and foreign key constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">created automatically to enforce primary key, unique, and foreign key constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu92">
+<source xml:lang="en">Indexes</source>
+<seg-source><mrk mid="0" mtype="seg">Indexes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indexes</mrk></target>
+</trans-unit>
+<trans-unit id="tu93">
+<source xml:lang="en">automatic creation of for primary key, unique, and foreign key constraints</source>
+<seg-source><mrk mid="0" mtype="seg">automatic creation of for primary key, unique, and foreign key constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">automatic creation of for primary key, unique, and foreign key constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu94">
+<source xml:lang="en">UNIQUE, PRIMARY KEY, and FOREIGN KEY constraints generate indexes that enforce or "back" the constraint (and are sometimes called <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>backing indexes<ept id="1">&lt;/i&gt;</ept>). PRIMARY KEY constraints generate unique indexes. FOREIGN KEY constraints generate non-unique indexes. UNIQUE constraints generate unique indexes if all the columns are non-nullable, and they generate non-unique indexes if one or more columns are nullable. Therefore, if a column or set of columns has a UNIQUE, PRIMARY KEY, or FOREIGN KEY constraint on it, you do not need to create an index on those columns for performance. <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> has already created it for you. See <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj20937.dita#rrefsqlj20937/sqlj27363"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">UNIQUE, PRIMARY KEY, and FOREIGN KEY constraints generate indexes that enforce or "back" the constraint (and are sometimes called <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>backing indexes<ept id="1">&lt;/i&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> PRIMARY KEY constraints generate unique indexes.</mrk><mrk mid="2" mtype="seg"> FOREIGN KEY constraints generate non-unique indexes.</mrk><mrk mid="3" mtype="seg"> UNIQUE constraints generate unique indexes if all the columns are non-nullable, and they generate non-unique indexes if one or more columns are nullable.</mrk><mrk mid="4" mtype="seg"> Therefore, if a column or set of columns has a UNIQUE, PRIMARY KEY, or FOREIGN KEY constraint on it, you do not need to create an index on those columns for performance.</mrk><mrk mid="5" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> has already created it for you.</mrk><mrk mid="6" mtype="seg"> See <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj20937.dita#rrefsqlj20937/sqlj27363"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNIQUE, PRIMARY KEY, and FOREIGN KEY constraints generate indexes that enforce or "back" the constraint (and are sometimes called <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>backing indexes<ept id="1">&lt;/i&gt;</ept>).</mrk><mrk mid="1" mtype="seg"> PRIMARY KEY constraints generate unique indexes.</mrk><mrk mid="2" mtype="seg"> FOREIGN KEY constraints generate non-unique indexes.</mrk><mrk mid="3" mtype="seg"> UNIQUE constraints generate unique indexes if all the columns are non-nullable, and they generate non-unique indexes if one or more columns are nullable.</mrk><mrk mid="4" mtype="seg"> Therefore, if a column or set of columns has a UNIQUE, PRIMARY KEY, or FOREIGN KEY constraint on it, you do not need to create an index on those columns for performance.</mrk><mrk mid="5" mtype="seg"> <bpt id="2" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="2">&lt;/ph&gt;</ept> has already created it for you.</mrk><mrk mid="6" mtype="seg"> See <bpt id="3" ctype="x-xref">&lt;xref href="rrefsqlj20937.dita#rrefsqlj20937/sqlj27363"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu95">
+<source xml:lang="en">These indexes are available to the optimizer for query optimization (see <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj20937.dita#rrefsqlj20937"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>) and have system-generated names.</source>
+<seg-source><mrk mid="0" mtype="seg">These indexes are available to the optimizer for query optimization (see <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj20937.dita#rrefsqlj20937"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>) and have system-generated names.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">These indexes are available to the optimizer for query optimization (see <bpt id="1" ctype="x-xref">&lt;xref href="rrefsqlj20937.dita#rrefsqlj20937"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept>) and have system-generated names.</mrk></target>
+</trans-unit>
+<trans-unit id="tu96">
+<source xml:lang="en">You cannot drop backing indexes with a DROP INDEX statement; you must drop the constraint or the table.</source>
+<seg-source><mrk mid="0" mtype="seg">You cannot drop backing indexes with a DROP INDEX statement; you must drop the constraint or the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You cannot drop backing indexes with a DROP INDEX statement; you must drop the constraint or the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu97">
+<source xml:lang="en">Check constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Check constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu98">
+<source xml:lang="en">Check constraints</source>
+<seg-source><mrk mid="0" mtype="seg">Check constraints</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check constraints</mrk></target>
+</trans-unit>
+<trans-unit id="tu99">
+<source xml:lang="en">A check constraint can be used to specify a wide range of rules for the contents of a table. A search condition (which is a boolean expression) is specified for a check constraint. This search condition must be satisfied for all rows in the table. The search condition is applied to each row that is modified on an INSERT or UPDATE at the time of the row modification. The entire statement is aborted if any check constraint is violated.</source>
+<seg-source><mrk mid="0" mtype="seg">A check constraint can be used to specify a wide range of rules for the contents of a table.</mrk><mrk mid="1" mtype="seg"> A search condition (which is a boolean expression) is specified for a check constraint.</mrk><mrk mid="2" mtype="seg"> This search condition must be satisfied for all rows in the table.</mrk><mrk mid="3" mtype="seg"> The search condition is applied to each row that is modified on an INSERT or UPDATE at the time of the row modification.</mrk><mrk mid="4" mtype="seg"> The entire statement is aborted if any check constraint is violated.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A check constraint can be used to specify a wide range of rules for the contents of a table.</mrk><mrk mid="1" mtype="seg"> A search condition (which is a boolean expression) is specified for a check constraint.</mrk><mrk mid="2" mtype="seg"> This search condition must be satisfied for all rows in the table.</mrk><mrk mid="3" mtype="seg"> The search condition is applied to each row that is modified on an INSERT or UPDATE at the time of the row modification.</mrk><mrk mid="4" mtype="seg"> The entire statement is aborted if any check constraint is violated.</mrk></target>
+</trans-unit>
+<trans-unit id="tu100">
+<source xml:lang="en">Requirements for search conditions</source>
+<seg-source><mrk mid="0" mtype="seg">Requirements for search conditions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Requirements for search conditions</mrk></target>
+</trans-unit>
+<trans-unit id="tu101">
+<source xml:lang="en">If a check constraint is specified as part of a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqlj30540.dita#rrefsqlj30540"&gt;</bpt>columnDefinition<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept>, a column reference can only be made to the same column. Check constraints specified as part of a table definition can have column references identifying columns previously defined in the CREATE TABLE statement.</source>
+<seg-source><mrk mid="0" mtype="seg">If a check constraint is specified as part of a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqlj30540.dita#rrefsqlj30540"&gt;</bpt>columnDefinition<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept>, a column reference can only be made to the same column.</mrk><mrk mid="1" mtype="seg"> Check constraints specified as part of a table definition can have column references identifying columns previously defined in the CREATE TABLE statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a check constraint is specified as part of a <bpt id="1" ctype="x-i">&lt;i&gt;</bpt><bpt id="2" ctype="x-xref">&lt;xref
+href="rrefsqlj30540.dita#rrefsqlj30540"&gt;</bpt>columnDefinition<ept id="2">&lt;/xref&gt;</ept><ept id="1">&lt;/i&gt;</ept>, a column reference can only be made to the same column.</mrk><mrk mid="1" mtype="seg"> Check constraints specified as part of a table definition can have column references identifying columns previously defined in the CREATE TABLE statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu102">
+<source xml:lang="en">The search condition must always return the same value if applied to the same values. Thus, it cannot contain any of the following:</source>
+<seg-source><mrk mid="0" mtype="seg">The search condition must always return the same value if applied to the same values.</mrk><mrk mid="1" mtype="seg"> Thus, it cannot contain any of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The search condition must always return the same value if applied to the same values.</mrk><mrk mid="1" mtype="seg"> Thus, it cannot contain any of the following:</mrk></target>
+</trans-unit>
+<trans-unit id="tu103">
+<source xml:lang="en">Dynamic parameters (?)</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamic parameters (?)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamic parameters (?)</mrk></target>
+</trans-unit>
+<trans-unit id="tu104">
+<source xml:lang="en">Date/Time Functions (CURRENT_DATE, CURRENT_TIME, CURRENT_TIMESTAMP)</source>
+<seg-source><mrk mid="0" mtype="seg">Date/Time Functions (CURRENT_DATE, CURRENT_TIME, CURRENT_TIMESTAMP)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Date/Time Functions (CURRENT_DATE, CURRENT_TIME, CURRENT_TIMESTAMP)</mrk></target>
+</trans-unit>
+<trans-unit id="tu105">
+<source xml:lang="en">Subqueries</source>
+<seg-source><mrk mid="0" mtype="seg">Subqueries</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Subqueries</mrk></target>
+</trans-unit>
+<trans-unit id="tu106">
+<source xml:lang="en">User Functions (such as USER, SESSION_USER, CURRENT_USER)</source>
+<seg-source><mrk mid="0" mtype="seg">User Functions (such as USER, SESSION_USER, CURRENT_USER)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">User Functions (such as USER, SESSION_USER, CURRENT_USER)</mrk></target>
+</trans-unit>
+<trans-unit id="tu107">
+<source xml:lang="en">Referential actions</source>
+<seg-source><mrk mid="0" mtype="seg">Referential actions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Referential actions</mrk></target>
+</trans-unit>
+<trans-unit id="tu108">
+<source xml:lang="en">Referential actions</source>
+<seg-source><mrk mid="0" mtype="seg">Referential actions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Referential actions</mrk></target>
+</trans-unit>
+<trans-unit id="tu109">
+<source xml:lang="en">Constraint clause</source>
+<seg-source><mrk mid="0" mtype="seg">Constraint clause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Constraint clause</mrk></target>
+</trans-unit>
+<trans-unit id="tu110">
+<source xml:lang="en">referential actions in</source>
+<seg-source><mrk mid="0" mtype="seg">referential actions in</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">referential actions in</mrk></target>
+</trans-unit>
+<trans-unit id="tu111">
+<source xml:lang="en">You can specify an ON DELETE clause and/or an ON UPDATE clause, followed by the appropriate action (CASCADE, RESTRICT, SET NULL, or NO ACTION) when defining foreign keys. These clauses specify whether <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> should modify corresponding foreign key values or disallow the operation, to keep foreign key relationships intact when a primary key value is updated or deleted from a table.</source>
+<seg-source><mrk mid="0" mtype="seg">You can specify an ON DELETE clause and/or an ON UPDATE clause, followed by the appropriate action (CASCADE, RESTRICT, SET NULL, or NO ACTION) when defining foreign keys.</mrk><mrk mid="1" mtype="seg"> These clauses specify whether <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> should modify corresponding foreign key values or disallow the operation, to keep foreign key relationships intact when a primary key value is updated or deleted from a table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You can specify an ON DELETE clause and/or an ON UPDATE clause, followed by the appropriate action (CASCADE, RESTRICT, SET NULL, or NO ACTION) when defining foreign keys.</mrk><mrk mid="1" mtype="seg"> These clauses specify whether <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> should modify corresponding foreign key values or disallow the operation, to keep foreign key relationships intact when a primary key value is updated or deleted from a table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu112">
+<source xml:lang="en">You specify the update and delete rule of a referential constraint when you define the referential constraint.</source>
+<seg-source><mrk mid="0" mtype="seg">You specify the update and delete rule of a referential constraint when you define the referential constraint.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You specify the update and delete rule of a referential constraint when you define the referential constraint.</mrk></target>
+</trans-unit>
+<trans-unit id="tu113">
+<source xml:lang="en">The update rule applies when a row of either the parent or dependent table is updated. The choices are NO ACTION and RESTRICT.</source>
+<seg-source><mrk mid="0" mtype="seg">The update rule applies when a row of either the parent or dependent table is updated.</mrk><mrk mid="1" mtype="seg"> The choices are NO ACTION and RESTRICT.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The update rule applies when a row of either the parent or dependent table is updated.</mrk><mrk mid="1" mtype="seg"> The choices are NO ACTION and RESTRICT.</mrk></target>
+</trans-unit>
+<trans-unit id="tu114">
+<source xml:lang="en">When a value in a column of the parent table's primary key is updated and the update rule has been specified as RESTRICT, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks dependent tables for foreign key constraints. If any row in a dependent table violates a foreign key constraint, the transaction is rolled back.</source>
+<seg-source><mrk mid="0" mtype="seg">When a value in a column of the parent table's primary key is updated and the update rule has been specified as RESTRICT, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks dependent tables for foreign key constraints.</mrk><mrk mid="1" mtype="seg"> If any row in a dependent table violates a foreign key constraint, the transaction is rolled back.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a value in a column of the parent table's primary key is updated and the update rule has been specified as RESTRICT, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks dependent tables for foreign key constraints.</mrk><mrk mid="1" mtype="seg"> If any row in a dependent table violates a foreign key constraint, the transaction is rolled back.</mrk></target>
+</trans-unit>
+<trans-unit id="tu115">
+<source xml:lang="en">If the update rule is NO ACTION, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks the dependent tables for foreign key constraints <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>after<ept id="2">&lt;/i&gt;</ept> all updates have been executed but <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>before<ept id="3">&lt;/i&gt;</ept> triggers have been executed. If any row in a dependent table violates a foreign key constraint, the statement is rejected.</source>
+<seg-source><mrk mid="0" mtype="seg">If the update rule is NO ACTION, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks the dependent tables for foreign key constraints <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>after<ept id="2">&lt;/i&gt;</ept> all updates have been executed but <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>before<ept id="3">&lt;/i&gt;</ept> triggers have been executed.</mrk><mrk mid="1" mtype="seg"> If any row in a dependent table violates a foreign key constraint, the statement is rejected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the update rule is NO ACTION, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks the dependent tables for foreign key constraints <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>after<ept id="2">&lt;/i&gt;</ept> all updates have been executed but <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>before<ept id="3">&lt;/i&gt;</ept> triggers have been executed.</mrk><mrk mid="1" mtype="seg"> If any row in a dependent table violates a foreign key constraint, the statement is rejected.</mrk></target>
+</trans-unit>
+<trans-unit id="tu116">
+<source xml:lang="en">When a value in a column of the dependent table is updated, and that value is part of a foreign key, NO ACTION is the implicit update rule. NO ACTION means that if a foreign key is updated with a non-null value, the update value must match a value in the parent table's primary key when the update statement is completed. If the update does not match a value in the parent table's primary key, the statement is rejected.</source>
+<seg-source><mrk mid="0" mtype="seg">When a value in a column of the dependent table is updated, and that value is part of a foreign key, NO ACTION is the implicit update rule.</mrk><mrk mid="1" mtype="seg"> NO ACTION means that if a foreign key is updated with a non-null value, the update value must match a value in the parent table's primary key when the update statement is completed.</mrk><mrk mid="2" mtype="seg"> If the update does not match a value in the parent table's primary key, the statement is rejected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a value in a column of the dependent table is updated, and that value is part of a foreign key, NO ACTION is the implicit update rule.</mrk><mrk mid="1" mtype="seg"> NO ACTION means that if a foreign key is updated with a non-null value, the update value must match a value in the parent table's primary key when the update statement is completed.</mrk><mrk mid="2" mtype="seg"> If the update does not match a value in the parent table's primary key, the statement is rejected.</mrk></target>
+</trans-unit>
+<trans-unit id="tu117">
+<source xml:lang="en">The delete rule applies when a row of the parent table is deleted and that row has dependents in the dependent table of the referential constraint. If rows of the dependent table are deleted, the delete operation on the parent table is said to be <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>propagated<ept id="1">&lt;/i&gt;</ept> to the dependent table. If the dependent table is also a parent table, the action specified applies, in turn, to its dependents.</source>
+<seg-source><mrk mid="0" mtype="seg">The delete rule applies when a row of the parent table is deleted and that row has dependents in the dependent table of the referential constraint.</mrk><mrk mid="1" mtype="seg"> If rows of the dependent table are deleted, the delete operation on the parent table is said to be <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>propagated<ept id="1">&lt;/i&gt;</ept> to the dependent table.</mrk><mrk mid="2" mtype="seg"> If the dependent table is also a parent table, the action specified applies, in turn, to its dependents.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The delete rule applies when a row of the parent table is deleted and that row has dependents in the dependent table of the referential constraint.</mrk><mrk mid="1" mtype="seg"> If rows of the dependent table are deleted, the delete operation on the parent table is said to be <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>propagated<ept id="1">&lt;/i&gt;</ept> to the dependent table.</mrk><mrk mid="2" mtype="seg"> If the dependent table is also a parent table, the action specified applies, in turn, to its dependents.</mrk></target>
+</trans-unit>
+<trans-unit id="tu118">
+<source xml:lang="en">The choices are NO ACTION, RESTRICT, CASCADE, or SET NULL. SET NULL can be specified only if some column of the foreign key allows null values.</source>
+<seg-source><mrk mid="0" mtype="seg">The choices are NO ACTION, RESTRICT, CASCADE, or SET NULL.</mrk><mrk mid="1" mtype="seg"> SET NULL can be specified only if some column of the foreign key allows null values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The choices are NO ACTION, RESTRICT, CASCADE, or SET NULL.</mrk><mrk mid="1" mtype="seg"> SET NULL can be specified only if some column of the foreign key allows null values.</mrk></target>
+</trans-unit>
+<trans-unit id="tu119">
+<source xml:lang="en">If the delete rule is:</source>
+<seg-source><mrk mid="0" mtype="seg">If the delete rule is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the delete rule is:</mrk></target>
+</trans-unit>
+<trans-unit id="tu120">
+<source xml:lang="en">NO ACTION, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks the dependent tables for foreign key constraints <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>after<ept id="2">&lt;/i&gt;</ept> all deletes have been executed but <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>before<ept id="3">&lt;/i&gt;</ept> triggers have been executed. If any row in a dependent table violates a foreign key constraint, the statement is rejected.</source>
+<seg-source><mrk mid="0" mtype="seg">NO ACTION, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks the dependent tables for foreign key constraints <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>after<ept id="2">&lt;/i&gt;</ept> all deletes have been executed but <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>before<ept id="3">&lt;/i&gt;</ept> triggers have been executed.</mrk><mrk mid="1" mtype="seg"> If any row in a dependent table violates a foreign key constraint, the statement is rejected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NO ACTION, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks the dependent tables for foreign key constraints <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>after<ept id="2">&lt;/i&gt;</ept> all deletes have been executed but <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>before<ept id="3">&lt;/i&gt;</ept> triggers have been executed.</mrk><mrk mid="1" mtype="seg"> If any row in a dependent table violates a foreign key constraint, the statement is rejected.</mrk></target>
+</trans-unit>
+<trans-unit id="tu121">
+<source xml:lang="en">RESTRICT, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks dependent tables for foreign key constraints. If any row in a dependent table violates a foreign key constraint, the transaction is rolled back.</source>
+<seg-source><mrk mid="0" mtype="seg">RESTRICT, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks dependent tables for foreign key constraints.</mrk><mrk mid="1" mtype="seg"> If any row in a dependent table violates a foreign key constraint, the transaction is rolled back.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RESTRICT, <bpt id="1" ctype="x-ph">&lt;ph
+conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks dependent tables for foreign key constraints.</mrk><mrk mid="1" mtype="seg"> If any row in a dependent table violates a foreign key constraint, the transaction is rolled back.</mrk></target>
+</trans-unit>
+<trans-unit id="tu122">
+<source xml:lang="en">CASCADE, the delete operation is propagated to the dependent table (and that table's dependents, if applicable).</source>
+<seg-source><mrk mid="0" mtype="seg">CASCADE, the delete operation is propagated to the dependent table (and that table's dependents, if applicable).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CASCADE, the delete operation is propagated to the dependent table (and that table's dependents, if applicable).</mrk></target>
+</trans-unit>
+<trans-unit id="tu123">
+<source xml:lang="en">SET NULL, each nullable column of the dependent table's foreign key is set to null. (Again, if the dependent table also has dependent tables, nullable columns in those tables' foreign keys are also set to null.)</source>
+<seg-source><mrk mid="0" mtype="seg">SET NULL, each nullable column of the dependent table's foreign key is set to null.</mrk><mrk mid="1" mtype="seg"> (Again, if the dependent table also has dependent tables, nullable columns in those tables' foreign keys are also set to null.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SET NULL, each nullable column of the dependent table's foreign key is set to null.</mrk><mrk mid="1" mtype="seg"> (Again, if the dependent table also has dependent tables, nullable columns in those tables' foreign keys are also set to null.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu124">
+<source xml:lang="en">Each referential constraint in which a table is a parent has its own delete rule; all applicable delete rules are used to determine the result of a delete operation. Thus, a row cannot be deleted if it has dependents in a referential constraint with a delete rule of RESTRICT or NO ACTION. Similarly, a row cannot be deleted if the deletion cascades to any of its descendants that are dependents in a referential constraint with the delete rule of RESTRICT or NO ACTION.</source>
+<seg-source><mrk mid="0" mtype="seg">Each referential constraint in which a table is a parent has its own delete rule; all applicable delete rules are used to determine the result of a delete operation.</mrk><mrk mid="1" mtype="seg"> Thus, a row cannot be deleted if it has dependents in a referential constraint with a delete rule of RESTRICT or NO ACTION.</mrk><mrk mid="2" mtype="seg"> Similarly, a row cannot be deleted if the deletion cascades to any of its descendants that are dependents in a referential constraint with the delete rule of RESTRICT or NO ACTION.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Each referential constraint in which a table is a parent has its own delete rule; all applicable delete rules are used to determine the result of a delete operation.</mrk><mrk mid="1" mtype="seg"> Thus, a row cannot be deleted if it has dependents in a referential constraint with a delete rule of RESTRICT or NO ACTION.</mrk><mrk mid="2" mtype="seg"> Similarly, a row cannot be deleted if the deletion cascades to any of its descendants that are dependents in a referential constraint with the delete rule of RESTRICT or NO ACTION.</mrk></target>
+</trans-unit>
+<trans-unit id="tu125">
+<source xml:lang="en">Deleting a row from the parent table involves other tables. Any table involved in a delete operation on the parent table is said to be delete-connected to the parent table. The delete can affect rows of these tables in the following ways:</source>
+<seg-source><mrk mid="0" mtype="seg">Deleting a row from the parent table involves other tables.</mrk><mrk mid="1" mtype="seg"> Any table involved in a delete operation on the parent table is said to be delete-connected to the parent table.</mrk><mrk mid="2" mtype="seg"> The delete can affect rows of these tables in the following ways:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Deleting a row from the parent table involves other tables.</mrk><mrk mid="1" mtype="seg"> Any table involved in a delete operation on the parent table is said to be delete-connected to the parent table.</mrk><mrk mid="2" mtype="seg"> The delete can affect rows of these tables in the following ways:</mrk></target>
+</trans-unit>
+<trans-unit id="tu126">
+<source xml:lang="en">If the delete rule is RESTRICT or NO ACTION, a dependent table is involved in the operation but is not affected by the operation. (That is, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks the values within the table, but does not delete any values.)</source>
+<seg-source><mrk mid="0" mtype="seg">If the delete rule is RESTRICT or NO ACTION, a dependent table is involved in the operation but is not affected by the operation.</mrk><mrk mid="1" mtype="seg"> (That is, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks the values within the table, but does not delete any values.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the delete rule is RESTRICT or NO ACTION, a dependent table is involved in the operation but is not affected by the operation.</mrk><mrk mid="1" mtype="seg"> (That is, <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> checks the values within the table, but does not delete any values.)</mrk></target>
+</trans-unit>
+<trans-unit id="tu127">
+<source xml:lang="en">If the delete rule is SET NULL, a dependent table's rows can be updated when a row of the parent table is the object of a delete or propagated delete operation.</source>
+<seg-source><mrk mid="0" mtype="seg">If the delete rule is SET NULL, a dependent table's rows can be updated when a row of the parent table is the object of a delete or propagated delete operation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the delete rule is SET NULL, a dependent table's rows can be updated when a row of the parent table is the object of a delete or propagated delete operation.</mrk></target>
+</trans-unit>
+<trans-unit id="tu128">
+<source xml:lang="en">If the delete rule is CASCADE, a dependent table's rows can be deleted when a parent table is the object of a delete.</source>
+<seg-source><mrk mid="0" mtype="seg">If the delete rule is CASCADE, a dependent table's rows can be deleted when a parent table is the object of a delete.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the delete rule is CASCADE, a dependent table's rows can be deleted when a parent table is the object of a delete.</mrk></target>
+</trans-unit>
+<trans-unit id="tu129">
+<source xml:lang="en">If the dependent table is also a parent table, the actions described in this list apply, in turn, to its dependents.</source>
+<seg-source><mrk mid="0" mtype="seg">If the dependent table is also a parent table, the actions described in this list apply, in turn, to its dependents.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the dependent table is also a parent table, the actions described in this list apply, in turn, to its dependents.</mrk></target>
+</trans-unit>
+<trans-unit id="tu130">
+<source xml:lang="en">Examples</source>
+<seg-source><mrk mid="0" mtype="seg">Examples</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Examples</mrk></target>
+</trans-unit>
+<trans-unit id="tu131">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- column-level primary key constraint named OUT_TRAY_PK: CREATE TABLE SAMP.OUT_TRAY ( SENT TIMESTAMP, DESTINATION CHAR(8), SUBJECT CHAR(64) NOT NULL CONSTRAINT OUT_TRAY_PK PRIMARY KEY, NOTE_TEXT VARCHAR(3000) ); -- the table-level primary key definition allows you to -- include two columns in the primary key definition: CREATE TABLE SAMP.SCHED ( CLASS_CODE CHAR(7) NOT NULL, DAY SMALLINT NOT NULL, STARTING TIME, ENDING TIME, PRIMARY KEY (CLASS_CODE, DAY) ); -- Use a column-level constraint for an arithmetic check -- Use a table-level constraint -- to make sure that a employee's taxes does not -- exceed the bonus CREATE TABLE SAMP.EMP ( EMPNO CHAR(6) NOT NULL CONSTRAINT EMP_PK PRIMARY KEY, FIRSTNME CHAR(12) NOT NULL, MIDINIT vARCHAR(12) NOT NULL, LASTNAME VARCHAR(15) NOT NULL, SALARY DECIMAL(9,2) CONSTRAINT SAL_CK CHECK (SALARY &gt;= 10000), BONUS DECIMAL(9,2), TAX DECIMAL(9,2), CONSTRAINT BONUS_CK CHECK (BONUS &gt; TAX) ); -- use a check constraint to allow only appropriate -- abbreviations for the meals CREATE TABLE FLIGHTS ( FLIGHT_ID CHAR(6) NOT NULL , SEGMENT_NUMBER INTEGER NOT NULL , ORIG_AIRPORT CHAR(3), DEPART_TIME TIME, DEST_AIRPORT CHAR(3), ARRIVE_TIME TIME, MEAL CHAR(1) CONSTRAINT MEAL_CONSTRAINT CHECK (MEAL IN ('B', 'L', 'D', 'S')), PRIMARY KEY (FLIGHT_ID, SEGMENT_NUMBER) ); CREATE TABLE METROPOLITAN ( HOTEL_ID INT NOT NULL CONSTRAINT HOTELS_PK PRIMARY KEY, HOTEL_NAME VARCHAR(40) NOT NULL, CITY_ID INT CONSTRAINT METRO_FK REFERENCES CITIES ); -- create a table with a table-level primary key constraint -- and a table-level foreign key constraint CREATE TABLE FLTAVAIL ( FLIGHT_ID CHAR(6) NOT NULL, SEGMENT_NUMBER INT NOT NULL, FLIGHT_DATE DATE NOT NULL, ECONOMY_SEATS_TAKEN INT, BUSINESS_SEATS_TAKEN INT, FIRSTCLASS_SEATS_TAKEN INT, CONSTRAINT FLTAVAIL_PK PRIMARY KEY (FLIGHT_ID, SEGMENT_NUMBER), CONSTRAINT FLTS_FK FOREIGN KEY (FLIGHT_ID, SEGMENT_NUMBER) REFERENCES Flights (FLIGHT_ID, SEGMENT_NUMBER) ); <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- add a unique constraint to a column<ept id="2">&lt;/ph&gt;</ept> ALTER TABLE SAMP.PROJECT ADD CONSTRAINT P_UC UNIQUE (PROJNAME); -- create a table whose city_id column references the -- primary key in the Cities table -- using a column-level foreign key constraint CREATE TABLE CONDOS ( CONDO_ID INT NOT NULL CONSTRAINT hotels_PK PRIMARY KEY, CONDO_NAME VARCHAR(40) NOT NULL, CITY_ID INT CONSTRAINT city_foreign_key REFERENCES Cities ON DELETE CASCADE ON UPDATE RESTRICT );<ept id="1">&lt;/b&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- column-level primary key constraint named OUT_TRAY_PK: CREATE TABLE SAMP.OUT_TRAY ( SENT TIMESTAMP, DESTINATION CHAR(8), SUBJECT CHAR(64) NOT NULL CONSTRAINT OUT_TRAY_PK PRIMARY KEY, NOTE_TEXT VARCHAR(3000) ); -- the table-level primary key definition allows you to -- include two columns in the primary key definition: CREATE TABLE SAMP.SCHED ( CLASS_CODE CHAR(7) NOT NULL, DAY SMALLINT NOT NULL, STARTING TIME, ENDING TIME, PRIMARY KEY (CLASS_CODE, DAY) ); -- Use a column-level constraint for an arithmetic check -- Use a table-level constraint -- to make sure that a employee's taxes does not -- exceed the bonus CREATE TABLE SAMP.EMP ( EMPNO CHAR(6) NOT NULL CONSTRAINT EMP_PK PRIMARY KEY, FIRSTNME CHAR(12) NOT NULL, MIDINIT vARCHAR(12) NOT NULL, LASTNAME VARCHAR(15) NOT NULL, SALARY DECIMAL(9,2) CONSTRAINT SAL_CK CHECK (SALARY &gt;= 10000), BONUS DECIMAL(9,2), TAX DECIMAL(9,2), CONSTRAINT BONUS_CK CHECK (BONUS &gt; TAX) ); -- use a check constraint to allow only appropriate -- abbreviations for the meals CREATE TABLE FLIGHTS ( FLIGHT_ID CHAR(6) NOT NULL , SEGMENT_NUMBER INTEGER NOT NULL , ORIG_AIRPORT CHAR(3), DEPART_TIME TIME, DEST_AIRPORT CHAR(3), ARRIVE_TIME TIME, MEAL CHAR(1) CONSTRAINT MEAL_CONSTRAINT CHECK (MEAL IN ('B', 'L', 'D', 'S')), PRIMARY KEY (FLIGHT_ID, SEGMENT_NUMBER) ); CREATE TABLE METROPOLITAN ( HOTEL_ID INT NOT NULL CONSTRAINT HOTELS_PK PRIMARY KEY, HOTEL_NAME VARCHAR(40) NOT NULL, CITY_ID INT CONSTRAINT METRO_FK REFERENCES CITIES ); -- create a table with a table-level primary key constraint -- and a table-level foreign key constraint CREATE TABLE FLTAVAIL ( FLIGHT_ID CHAR(6) NOT NULL, SEGMENT_NUMBER INT NOT NULL, FLIGHT_DATE DATE NOT NULL, ECONOMY_SEATS_TAKEN INT, BUSINESS_SEATS_TAKEN INT, FIRSTCLASS_SEATS_TAKEN INT, CONSTRAINT FLTAVAIL_PK PRIMARY KEY (FLIGHT_ID, SEGMENT_NUMBER), CONSTRAINT FLTS_FK FOREIGN KEY (FLIGHT_ID, SEGMENT_NUMBER) REFERENCES Flights (FLIGHT_ID, SEGMENT_NUMBER) ); <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- add a unique constraint to a column<ept id="2">&lt;/ph&gt;</ept> ALTER TABLE SAMP.PROJECT ADD CONSTRAINT P_UC UNIQUE (PROJNAME); -- create a table whose city_id column references the -- primary key in the Cities table -- using a column-level foreign key constraint CREATE TABLE CONDOS ( CONDO_ID INT NOT NULL CONSTRAINT hotels_PK PRIMARY KEY, CONDO_NAME VARCHAR(40) NOT NULL, CITY_ID INT CONSTRAINT city_foreign_key REFERENCES Cities ON DELETE CASCADE ON UPDATE RESTRICT );<ept id="1">&lt;/b&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>-- column-level primary key constraint named OUT_TRAY_PK: CREATE TABLE SAMP.OUT_TRAY ( SENT TIMESTAMP, DESTINATION CHAR(8), SUBJECT CHAR(64) NOT NULL CONSTRAINT OUT_TRAY_PK PRIMARY KEY, NOTE_TEXT VARCHAR(3000) ); -- the table-level primary key definition allows you to -- include two columns in the primary key definition: CREATE TABLE SAMP.SCHED ( CLASS_CODE CHAR(7) NOT NULL, DAY SMALLINT NOT NULL, STARTING TIME, ENDING TIME, PRIMARY KEY (CLASS_CODE, DAY) ); -- Use a column-level constraint for an arithmetic check -- Use a table-level constraint -- to make sure that a employee's taxes does not -- exceed the bonus CREATE TABLE SAMP.EMP ( EMPNO CHAR(6) NOT NULL CONSTRAINT EMP_PK PRIMARY KEY, FIRSTNME CHAR(12) NOT NULL, MIDINIT vARCHAR(12) NOT NULL, LASTNAME VARCHAR(15) NOT NULL, SALARY DECIMAL(9,2) CONSTRAINT SAL_CK CHECK (SALARY &gt;= 10000), BONUS DECIMAL(9,2), TAX DECIMAL(9,2), CONSTRAINT BONUS_CK CHECK (BONUS &gt; TAX) ); -- use a check constraint to allow only appropriate -- abbreviations for the meals CREATE TABLE FLIGHTS ( FLIGHT_ID CHAR(6) NOT NULL , SEGMENT_NUMBER INTEGER NOT NULL , ORIG_AIRPORT CHAR(3), DEPART_TIME TIME, DEST_AIRPORT CHAR(3), ARRIVE_TIME TIME, MEAL CHAR(1) CONSTRAINT MEAL_CONSTRAINT CHECK (MEAL IN ('B', 'L', 'D', 'S')), PRIMARY KEY (FLIGHT_ID, SEGMENT_NUMBER) ); CREATE TABLE METROPOLITAN ( HOTEL_ID INT NOT NULL CONSTRAINT HOTELS_PK PRIMARY KEY, HOTEL_NAME VARCHAR(40) NOT NULL, CITY_ID INT CONSTRAINT METRO_FK REFERENCES CITIES ); -- create a table with a table-level primary key constraint -- and a table-level foreign key constraint CREATE TABLE FLTAVAIL ( FLIGHT_ID CHAR(6) NOT NULL, SEGMENT_NUMBER INT NOT NULL, FLIGHT_DATE DATE NOT NULL, ECONOMY_SEATS_TAKEN INT, BUSINESS_SEATS_TAKEN INT, FIRSTCLASS_SEATS_TAKEN INT, CONSTRAINT FLTAVAIL_PK PRIMARY KEY (FLIGHT_ID, SEGMENT_NUMBER), CONSTRAINT FLTS_FK FOREIGN KEY (FLIGHT_ID, SEGMENT_NUMBER) REFERENCES Flights (FLIGHT_ID, SEGMENT_NUMBER) ); <bpt id="2" ctype="x-ph">&lt;ph&gt;</bpt>-- add a unique constraint to a column<ept id="2">&lt;/ph&gt;</ept> ALTER TABLE SAMP.PROJECT ADD CONSTRAINT P_UC UNIQUE (PROJNAME); -- create a table whose city_id column references the -- primary key in the Cities table -- using a column-level foreign key constraint CREATE TABLE CONDOS ( CONDO_ID INT NOT NULL CONSTRAINT hotels_PK PRIMARY KEY, CONDO_NAME VARCHAR(40) NOT NULL, CITY_ID INT CONSTRAINT city_foreign_key REFERENCES Cities ON DELETE CASCADE ON UPDATE RESTRICT );<ept id="1">&lt;/b&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu132">
+<source xml:lang="en">Statement dependency system</source>
+<seg-source><mrk mid="0" mtype="seg">Statement dependency system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Statement dependency system</mrk></target>
+</trans-unit>
+<trans-unit id="tu133">
+<source xml:lang="en">INSERT and UPDATE statements depend on all constraints on the target table. DELETEs depend on unique, primary key, and foreign key constraints. These statements are invalidated if a constraint is added to or dropped from the target table.</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT and UPDATE statements depend on all constraints on the target table.</mrk><mrk mid="1" mtype="seg"> DELETEs depend on unique, primary key, and foreign key constraints.</mrk><mrk mid="2" mtype="seg"> These statements are invalidated if a constraint is added to or dropped from the target table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT and UPDATE statements depend on all constraints on the target table.</mrk><mrk mid="1" mtype="seg"> DELETEs depend on unique, primary key, and foreign key constraints.</mrk><mrk mid="2" mtype="seg"> These statements are invalidated if a constraint is added to or dropped from the target table.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

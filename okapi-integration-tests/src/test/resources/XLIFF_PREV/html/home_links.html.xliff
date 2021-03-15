@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="home_links.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/html/target/classes/net/sf/okapi/filters/html/nonwellformedConfiguration.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" restype="x-title">
+<source xml:lang="en">HTML By Bad Example: Broken Links, Inc. Home Page</source>
+<seg-source><mrk mid="0" mtype="seg">HTML By Bad Example: Broken Links, Inc.</mrk><mrk mid="1" mtype="seg"> Home Page</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HTML By Bad Example: Broken Links, Inc.</mrk><mrk mid="1" mtype="seg"> Home Page</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">&lt;META KEYWORDS="Broken Links","broken links","web design","home page", "learning","example","HTML"&gt;</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;META KEYWORDS="Broken Links","broken links","web design","home page", "learning","example","HTML"&gt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;META KEYWORDS="Broken Links","broken links","web design","home page", "learning","example","HTML"&gt;</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en"><it id="1" ctype="bold" pos="open">&lt;B&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="bold" pos="open">&lt;B&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="bold" pos="open">&lt;B&gt;</it></mrk></target>
+</trans-unit>
+<trans-unit id="tu4" restype="x-paragraph">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en"><bpt id="1" ctype="x-font">&lt;FONT SIZE="7"&gt;</bpt>Broken Links, Inc.<ept id="1">&lt;/FONT&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-font">&lt;FONT SIZE="7"&gt;</bpt>Broken Links, Inc.<ept id="1">&lt;/FONT&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-font">&lt;FONT SIZE="7"&gt;</bpt>Broken Links, Inc.<ept id="1">&lt;/FONT&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu6" restype="x-paragraph">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu7" restype="x-paragraph">
+<source xml:lang="en">Here at Broken Links, Inc. we pride ourselves on our <bpt id="1" ctype="x-font">&lt;FONT SIZE="5"&gt;</bpt><bpt id="2" ctype="link">[#$dp10]</bpt>zero tolerance policy<ept id="2">&lt;/A&gt;</ept><ept id="1">&lt;/FONT&gt;</ept>. <ph id="3" ctype="x-br">&lt;BR&gt;</ph>Other sites may have some <bpt id="4" ctype="x-font">&lt;FONT SIZE="5"&gt;</bpt><bpt id="5" ctype="link">[#$dp11]</bpt>broken links<ept id="5">&lt;/A&gt;</ept><ept id="4">&lt;/FONT&gt;</ept>, but all our links are broken. <ph id="6" ctype="x-br">&lt;BR&gt;</ph><bpt id="7" ctype="x-font">&lt;FONT SIZE="5" COLOR="#990000"&gt;</bpt>We <bpt id="8" ctype="underlined">&lt;U&gt;</bpt>guarantee<ept id="8">&lt;/U&gt;</ept> it!<ept id="7">&lt;/FONT&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Here at Broken Links, Inc. we pride ourselves on our <bpt id="1" ctype="x-font">&lt;FONT SIZE="5"&gt;</bpt><bpt id="2" ctype="link">[#$dp10]</bpt>zero tolerance policy<ept id="2">&lt;/A&gt;</ept><ept id="1">&lt;/FONT&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> <ph id="3" ctype="x-br">&lt;BR&gt;</ph>Other sites may have some <bpt id="4" ctype="x-font">&lt;FONT SIZE="5"&gt;</bpt><bpt id="5" ctype="link">[#$dp11]</bpt>broken links<ept id="5">&lt;/A&gt;</ept><ept id="4">&lt;/FONT&gt;</ept>, but all our links are broken.</mrk><mrk mid="2" mtype="seg"> <ph id="6" ctype="x-br">&lt;BR&gt;</ph><bpt id="7" ctype="x-font">&lt;FONT SIZE="5" COLOR="#990000"&gt;</bpt>We <bpt id="8" ctype="underlined">&lt;U&gt;</bpt>guarantee<ept id="8">&lt;/U&gt;</ept> it!<ept id="7">&lt;/FONT&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here at Broken Links, Inc. we pride ourselves on our <bpt id="1" ctype="x-font">&lt;FONT SIZE="5"&gt;</bpt><bpt id="2" ctype="link">[#$dp10]</bpt>zero tolerance policy<ept id="2">&lt;/A&gt;</ept><ept id="1">&lt;/FONT&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> <ph id="3" ctype="x-br">&lt;BR&gt;</ph>Other sites may have some <bpt id="4" ctype="x-font">&lt;FONT SIZE="5"&gt;</bpt><bpt id="5" ctype="link">[#$dp11]</bpt>broken links<ept id="5">&lt;/A&gt;</ept><ept id="4">&lt;/FONT&gt;</ept>, but all our links are broken.</mrk><mrk mid="2" mtype="seg"> <ph id="6" ctype="x-br">&lt;BR&gt;</ph><bpt id="7" ctype="x-font">&lt;FONT SIZE="5" COLOR="#990000"&gt;</bpt>We <bpt id="8" ctype="underlined">&lt;U&gt;</bpt>guarantee<ept id="8">&lt;/U&gt;</ept> it!<ept id="7">&lt;/FONT&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu8" restype="x-paragraph">
+<source xml:lang="en">Check out the links on our site. <ph id="1" ctype="x-br">&lt;BR&gt;</ph>You'll find that even if you make a change or two, they still won't work. <ph id="2" ctype="x-br">&lt;BR&gt;</ph><bpt id="3" ctype="x-font">&lt;FONT SIZE="5" COLOR="#990000"&gt;</bpt>All our links are completely broken!!<ept id="3">&lt;/FONT&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Check out the links on our site.</mrk><mrk mid="1" mtype="seg"> <ph id="1" ctype="x-br">&lt;BR&gt;</ph>You'll find that even if you make a change or two, they still won't work.</mrk><mrk mid="2" mtype="seg"> <ph id="2" ctype="x-br">&lt;BR&gt;</ph><bpt id="3" ctype="x-font">&lt;FONT SIZE="5" COLOR="#990000"&gt;</bpt>All our links are completely broken!!<ept id="3">&lt;/FONT&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check out the links on our site.</mrk><mrk mid="1" mtype="seg"> <ph id="1" ctype="x-br">&lt;BR&gt;</ph>You'll find that even if you make a change or two, they still won't work.</mrk><mrk mid="2" mtype="seg"> <ph id="2" ctype="x-br">&lt;BR&gt;</ph><bpt id="3" ctype="x-font">&lt;FONT SIZE="5" COLOR="#990000"&gt;</bpt>All our links are completely broken!!<ept id="3">&lt;/FONT&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu9" restype="x-paragraph">
+<source xml:lang="en">Don't be fooled by <bpt id="1" ctype="x-font">&lt;FONT SIZE="5"&gt;</bpt><bpt id="2" ctype="link">[#$dp12]</bpt>competitors<ept id="2">&lt;/A&gt;</ept><ept id="1">&lt;/FONT&gt;</ept> who promise to break some of your links. <ph id="3" ctype="x-br">&lt;BR&gt;</ph><bpt id="4" ctype="x-font">&lt;FONT SIZE="5" COLOR="#990000"&gt;</bpt>We'll break all your links!!!<ept id="4">&lt;/FONT&gt;</ept></source>
+<seg-source><mrk mid="0" mtype="seg">Don't be fooled by <bpt id="1" ctype="x-font">&lt;FONT SIZE="5"&gt;</bpt><bpt id="2" ctype="link">[#$dp12]</bpt>competitors<ept id="2">&lt;/A&gt;</ept><ept id="1">&lt;/FONT&gt;</ept> who promise to break some of your links.</mrk><mrk mid="1" mtype="seg"> <ph id="3" ctype="x-br">&lt;BR&gt;</ph><bpt id="4" ctype="x-font">&lt;FONT SIZE="5" COLOR="#990000"&gt;</bpt>We'll break all your links!!!<ept id="4">&lt;/FONT&gt;</ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Don't be fooled by <bpt id="1" ctype="x-font">&lt;FONT SIZE="5"&gt;</bpt><bpt id="2" ctype="link">[#$dp12]</bpt>competitors<ept id="2">&lt;/A&gt;</ept><ept id="1">&lt;/FONT&gt;</ept> who promise to break some of your links.</mrk><mrk mid="1" mtype="seg"> <ph id="3" ctype="x-br">&lt;BR&gt;</ph><bpt id="4" ctype="x-font">&lt;FONT SIZE="5" COLOR="#990000"&gt;</bpt>We'll break all your links!!!<ept id="4">&lt;/FONT&gt;</ept></mrk></target>
+</trans-unit>
+<trans-unit id="tu10" restype="x-paragraph">
+<source xml:lang="en"></source>
+<target xml:lang="fr"></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">For more information about Broken Links, Inc., send email to <bpt id="1" ctype="x-font">&lt;FONT SIZE="5" COLOR="#003399"&gt;</bpt><bpt id="2" ctype="underlined">&lt;U&gt;</bpt>sales@brokenlinks.com<ept id="2">&lt;/U&gt;</ept><ept id="1">&lt;/FONT&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For more information about Broken Links, Inc., send email to <bpt id="1" ctype="x-font">&lt;FONT SIZE="5" COLOR="#003399"&gt;</bpt><bpt id="2" ctype="underlined">&lt;U&gt;</bpt>sales@brokenlinks.com<ept id="2">&lt;/U&gt;</ept><ept id="1">&lt;/FONT&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For more information about Broken Links, Inc., send email to <bpt id="1" ctype="x-font">&lt;FONT SIZE="5" COLOR="#003399"&gt;</bpt><bpt id="2" ctype="underlined">&lt;U&gt;</bpt>sales@brokenlinks.com<ept id="2">&lt;/U&gt;</ept><ept id="1">&lt;/FONT&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en"><it id="1" ctype="bold" pos="close">&lt;/B&gt;</it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="bold" pos="close">&lt;/B&gt;</it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="bold" pos="close">&lt;/B&gt;</it></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

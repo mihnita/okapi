@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevconcepts32861.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Programming applications to handle deadlocks</source>
+<seg-source><mrk mid="0" mtype="seg">Programming applications to handle deadlocks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Programming applications to handle deadlocks</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">When you configure your system for deadlock and lockwait timeouts and an application could be chosen as a victim when the transaction times out, you should program your application to handle them.</source>
+<seg-source><mrk mid="0" mtype="seg">When you configure your system for deadlock and lockwait timeouts and an application could be chosen as a victim when the transaction times out, you should program your application to handle them.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you configure your system for deadlock and lockwait timeouts and an application could be chosen as a victim when the transaction times out, you should program your application to handle them.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">Deadlocks</source>
+<seg-source><mrk mid="0" mtype="seg">Deadlocks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Deadlocks</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">programming an application to handle</source>
+<seg-source><mrk mid="0" mtype="seg">programming an application to handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">programming an application to handle</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">To do this, test for <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="1">&lt;/i&gt;</ept> with <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLStates<ept id="2">&lt;/i&gt;</ept> of 40001 (deadlock timeout) or 40XL1 (lockwait timeout).</source>
+<seg-source><mrk mid="0" mtype="seg">To do this, test for <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="1">&lt;/i&gt;</ept> with <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLStates<ept id="2">&lt;/i&gt;</ept> of 40001 (deadlock timeout) or 40XL1 (lockwait timeout).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To do this, test for <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>SQLExceptions<ept id="1">&lt;/i&gt;</ept> with <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>SQLStates<ept id="2">&lt;/i&gt;</ept> of 40001 (deadlock timeout) or 40XL1 (lockwait timeout).</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">In the case of a deadlock you might want to re-try the transaction that was chosen as a victim. In the case of a lock wait timeout, you probably do not want to do this right away.</source>
+<seg-source><mrk mid="0" mtype="seg">In the case of a deadlock you might want to re-try the transaction that was chosen as a victim.</mrk><mrk mid="1" mtype="seg"> In the case of a lock wait timeout, you probably do not want to do this right away.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the case of a deadlock you might want to re-try the transaction that was chosen as a victim.</mrk><mrk mid="1" mtype="seg"> In the case of a lock wait timeout, you probably do not want to do this right away.</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">The following code is one example of how to handle a deadlock timeout.</source>
+<seg-source><mrk mid="0" mtype="seg">The following code is one example of how to handle a deadlock timeout.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following code is one example of how to handle a deadlock timeout.</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>/// if this code might encounter a deadlock, // put the whole thing in a try/catch block // then try again if the deadlock victim exception // was thrown<ept id="1">&lt;/b&gt;</ept> try { s6.executeUpdate( "UPDATE employee " + "SET bonus = 625 " "WHERE empno='000150'"); s6.executeUpdate("UPDATE project " + "SET respemp = '000150' " + "WHERE projno='IF1000'"); } <it id="2" ctype="x-b" pos="open">&lt;b&gt;</it>// note: do not catch such exceptions in database-side methods; // catch such exceptions only at the outermost level of // application code. // See <bpt id="3" ctype="x-xref">&lt;xref href="cdevspecial41728.dita#cdevspecial41728"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>. <it id="2" ctype="x-b" pos="close">&lt;/b&gt;</it> catch (SQLException se) { if (se.getSQLState().equals("40001")) { <it id="4" ctype="x-b" pos="open">&lt;b&gt;</it>// it was chosen as a victim of a deadlock. // try again at least once at this point.<it id="4" ctype="x-b" pos="close">&lt;/b&gt;</it> System.out.println( "Will try the transaction again."); s6.executeUpdate("UPDATE employee " + "SET bonus = 625 " + "WHERE empno='000150'"); s6.executeUpdate("UPDATE project " + "SET respemp = 000150 " + "WHERE projno='IF1000'"); } else throw se; }</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>/// if this code might encounter a deadlock, // put the whole thing in a try/catch block // then try again if the deadlock victim exception // was thrown<ept id="1">&lt;/b&gt;</ept> try { s6.executeUpdate( "UPDATE employee " + "SET bonus = 625 " "WHERE empno='000150'"); s6.executeUpdate("UPDATE project " + "SET respemp = '000150' " + "WHERE projno='IF1000'"); } <it id="2" ctype="x-b" pos="open">&lt;b&gt;</it>// note: do not catch such exceptions in database-side methods; // catch such exceptions only at the outermost level of // application code.</mrk><mrk mid="1" mtype="seg"> // See <bpt id="3" ctype="x-xref">&lt;xref href="cdevspecial41728.dita#cdevspecial41728"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> <it id="2" ctype="x-b" pos="close">&lt;/b&gt;</it> catch (SQLException se) { if (se.getSQLState().equals("40001")) { <it id="4" ctype="x-b" pos="open">&lt;b&gt;</it>// it was chosen as a victim of a deadlock.</mrk><mrk mid="3" mtype="seg"> // try again at least once at this point.<it id="4" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk><mrk mid="4" mtype="seg"> System.out.println( "Will try the transaction again."); s6.executeUpdate("UPDATE employee " + "SET bonus = 625 " + "WHERE empno='000150'"); s6.executeUpdate("UPDATE project " + "SET respemp = 000150 " + "WHERE projno='IF1000'"); } else throw se; }</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-b">&lt;b&gt;</bpt>/// if this code might encounter a deadlock, // put the whole thing in a try/catch block // then try again if the deadlock victim exception // was thrown<ept id="1">&lt;/b&gt;</ept> try { s6.executeUpdate( "UPDATE employee " + "SET bonus = 625 " "WHERE empno='000150'"); s6.executeUpdate("UPDATE project " + "SET respemp = '000150' " + "WHERE projno='IF1000'"); } <it id="2" ctype="x-b" pos="open">&lt;b&gt;</it>// note: do not catch such exceptions in database-side methods; // catch such exceptions only at the outermost level of // application code.</mrk><mrk mid="1" mtype="seg"> // See <bpt id="3" ctype="x-xref">&lt;xref href="cdevspecial41728.dita#cdevspecial41728"&gt;</bpt><ept id="3">&lt;/xref&gt;</ept>.</mrk><mrk mid="2" mtype="seg"> <it id="2" ctype="x-b" pos="close">&lt;/b&gt;</it> catch (SQLException se) { if (se.getSQLState().equals("40001")) { <it id="4" ctype="x-b" pos="open">&lt;b&gt;</it>// it was chosen as a victim of a deadlock.</mrk><mrk mid="3" mtype="seg"> // try again at least once at this point.<it id="4" ctype="x-b" pos="close">&lt;/b&gt;</it></mrk><mrk mid="4" mtype="seg"> System.out.println( "Will try the transaction again."); s6.executeUpdate("UPDATE employee " + "SET bonus = 625 " + "WHERE empno='000150'"); s6.executeUpdate("UPDATE project " + "SET respemp = 000150 " + "WHERE projno='IF1000'"); } else throw se; }</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

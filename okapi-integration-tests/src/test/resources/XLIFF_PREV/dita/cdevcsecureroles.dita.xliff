@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="cdevcsecureroles.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">Using SQL roles</source>
+<seg-source><mrk mid="0" mtype="seg">Using SQL roles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using SQL roles</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">When the SQL standard authorization mode is enabled, object owners can use the SQL roles facility to administer privileges.</source>
+<seg-source><mrk mid="0" mtype="seg">When the SQL standard authorization mode is enabled, object owners can use the SQL roles facility to administer privileges.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the SQL standard authorization mode is enabled, object owners can use the SQL roles facility to administer privileges.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">access control system</source>
+<seg-source><mrk mid="0" mtype="seg">access control system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">access control system</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SQL2003</source>
+<seg-source><mrk mid="0" mtype="seg">SQL2003</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL2003</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">SQL standard authorization mode</source>
+<seg-source><mrk mid="0" mtype="seg">SQL standard authorization mode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL standard authorization mode</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SQL roles</source>
+<seg-source><mrk mid="0" mtype="seg">SQL roles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL roles</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SQL roles</source>
+<seg-source><mrk mid="0" mtype="seg">SQL roles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL roles</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">using</source>
+<seg-source><mrk mid="0" mtype="seg">using</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">using</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">SQL roles are useful for administering privileges when a database has many users. Roles provide a more powerful way to grant privileges to users' sessions than to grant privileges to each user of the database, which easily becomes tedious and error-prone when many users are involved. Roles do not in and of themselves give better database security, but used correctly, they facilitate better security. Only the <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecureDbOwner.dita#cdevcsecureDbOwner"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can create, grant, revoke, and drop roles. However, object owners can grant and revoke privileges for those objects to and from roles, as well as to and from individual users and PUBLIC (all users).</source>
+<seg-source><mrk mid="0" mtype="seg">SQL roles are useful for administering privileges when a database has many users.</mrk><mrk mid="1" mtype="seg"> Roles provide a more powerful way to grant privileges to users' sessions than to grant privileges to each user of the database, which easily becomes tedious and error-prone when many users are involved.</mrk><mrk mid="2" mtype="seg"> Roles do not in and of themselves give better database security, but used correctly, they facilitate better security.</mrk><mrk mid="3" mtype="seg"> Only the <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecureDbOwner.dita#cdevcsecureDbOwner"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can create, grant, revoke, and drop roles.</mrk><mrk mid="4" mtype="seg"> However, object owners can grant and revoke privileges for those objects to and from roles, as well as to and from individual users and PUBLIC (all users).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL roles are useful for administering privileges when a database has many users.</mrk><mrk mid="1" mtype="seg"> Roles provide a more powerful way to grant privileges to users' sessions than to grant privileges to each user of the database, which easily becomes tedious and error-prone when many users are involved.</mrk><mrk mid="2" mtype="seg"> Roles do not in and of themselves give better database security, but used correctly, they facilitate better security.</mrk><mrk mid="3" mtype="seg"> Only the <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecureDbOwner.dita#cdevcsecureDbOwner"&gt;</bpt>database owner<ept id="1">&lt;/xref&gt;</ept> can create, grant, revoke, and drop roles.</mrk><mrk mid="4" mtype="seg"> However, object owners can grant and revoke privileges for those objects to and from roles, as well as to and from individual users and PUBLIC (all users).</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implements a subset of SQL roles. The fact that only the database owner can create, grant, revoke, and drop roles is an implementation restriction.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implements a subset of SQL roles.</mrk><mrk mid="1" mtype="seg"> The fact that only the database owner can create, grant, revoke, and drop roles is an implementation restriction.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> implements a subset of SQL roles.</mrk><mrk mid="1" mtype="seg"> The fact that only the database owner can create, grant, revoke, and drop roles is an implementation restriction.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Creating and granting roles</source>
+<seg-source><mrk mid="0" mtype="seg">Creating and granting roles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creating and granting roles</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">Roles are available only when SQL authorization mode is enabled (that is, when the property <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> is set to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>TRUE<ept id="2">&lt;/codeph&gt;</ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">Roles are available only when SQL authorization mode is enabled (that is, when the property <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> is set to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>TRUE<ept id="2">&lt;/codeph&gt;</ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Roles are available only when SQL authorization mode is enabled (that is, when the property <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>derby.database.sqlAuthorization<ept id="1">&lt;/codeph&gt;</ept> is set to <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>TRUE<ept id="2">&lt;/codeph&gt;</ept>).</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">Old databases must be fully upgraded to at least Release 10.5 before roles can be used. See <bpt id="1" ctype="x-xref">&lt;xref href="cdevupgrades.dita#cdevupgrades"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</source>
+<seg-source><mrk mid="0" mtype="seg">Old databases must be fully upgraded to at least Release 10.5 before roles can be used.</mrk><mrk mid="1" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cdevupgrades.dita#cdevupgrades"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Old databases must be fully upgraded to at least Release 10.5 before roles can be used.</mrk><mrk mid="1" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cdevupgrades.dita#cdevupgrades"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for more information.</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">If SQL authorization mode is enabled, the database owner can use the CREATE ROLE statement to create roles. The database owner can then use the GRANT statement to grant a role to one or more users, to PUBLIC, or to another role.</source>
+<seg-source><mrk mid="0" mtype="seg">If SQL authorization mode is enabled, the database owner can use the CREATE ROLE statement to create roles.</mrk><mrk mid="1" mtype="seg"> The database owner can then use the GRANT statement to grant a role to one or more users, to PUBLIC, or to another role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If SQL authorization mode is enabled, the database owner can use the CREATE ROLE statement to create roles.</mrk><mrk mid="1" mtype="seg"> The database owner can then use the GRANT statement to grant a role to one or more users, to PUBLIC, or to another role.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">A role A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>contains<ept id="1">&lt;/i&gt;</ept> another role B if role B is granted to role A, or is contained in a role C granted to role A. Privileges granted to a contained role are inherited by the containing roles. So the set of privileges identified by role A is the union of the privileges granted to role A and the privileges granted to any contained roles of role A.</source>
+<seg-source><mrk mid="0" mtype="seg">A role A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>contains<ept id="1">&lt;/i&gt;</ept> another role B if role B is granted to role A, or is contained in a role C granted to role A. Privileges granted to a contained role are inherited by the containing roles.</mrk><mrk mid="1" mtype="seg"> So the set of privileges identified by role A is the union of the privileges granted to role A and the privileges granted to any contained roles of role A.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A role A <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>contains<ept id="1">&lt;/i&gt;</ept> another role B if role B is granted to role A, or is contained in a role C granted to role A. Privileges granted to a contained role are inherited by the containing roles.</mrk><mrk mid="1" mtype="seg"> So the set of privileges identified by role A is the union of the privileges granted to role A and the privileges granted to any contained roles of role A.</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">For example, suppose the database owner issued the following statements:</source>
+<seg-source><mrk mid="0" mtype="seg">For example, suppose the database owner issued the following statements:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, suppose the database owner issued the following statements:</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">create role reader; create role updater; create role taskLeaderA; create role taskLeaderB; create role projectLeader; grant reader to updater; grant updater to taskLeaderA; grant updater to taskLeaderB; grant taskLeaderA to projectLeader; grant taskLeaderB to projectLeader;</source>
+<seg-source><mrk mid="0" mtype="seg">create role reader; create role updater; create role taskLeaderA; create role taskLeaderB; create role projectLeader; grant reader to updater; grant updater to taskLeaderA; grant updater to taskLeaderB; grant taskLeaderA to projectLeader; grant taskLeaderB to projectLeader;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create role reader; create role updater; create role taskLeaderA; create role taskLeaderB; create role projectLeader; grant reader to updater; grant updater to taskLeaderA; grant updater to taskLeaderB; grant taskLeaderA to projectLeader; grant taskLeaderB to projectLeader;</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">The roles would then have the following containment relationships:</source>
+<seg-source><mrk mid="0" mtype="seg">The roles would then have the following containment relationships:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The roles would then have the following containment relationships:</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>projectLeader<ept id="1">&lt;/codeph&gt;</ept> role contains the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderB<ept id="3">&lt;/codeph&gt;</ept> roles.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>projectLeader<ept id="1">&lt;/codeph&gt;</ept> role contains the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderB<ept id="3">&lt;/codeph&gt;</ept> roles.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>projectLeader<ept id="1">&lt;/codeph&gt;</ept> role contains the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="2">&lt;/codeph&gt;</ept> and <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderB<ept id="3">&lt;/codeph&gt;</ept> roles.</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderB<ept id="2">&lt;/codeph&gt;</ept> roles both contain the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="3">&lt;/codeph&gt;</ept> role.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderB<ept id="2">&lt;/codeph&gt;</ept> roles both contain the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="3">&lt;/codeph&gt;</ept> role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="1">&lt;/codeph&gt;</ept> and <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderB<ept id="2">&lt;/codeph&gt;</ept> roles both contain the <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="3">&lt;/codeph&gt;</ept> role.</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="1">&lt;/codeph&gt;</ept> role contains the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>reader<ept id="2">&lt;/codeph&gt;</ept> role.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="1">&lt;/codeph&gt;</ept> role contains the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>reader<ept id="2">&lt;/codeph&gt;</ept> role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="1">&lt;/codeph&gt;</ept> role contains the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>reader<ept id="2">&lt;/codeph&gt;</ept> role.</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">In this case, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>projectLeader<ept id="1">&lt;/codeph&gt;</ept> role contains all the other roles and has all their privileges. If the database owner then revokes <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="2">&lt;/codeph&gt;</ept> from <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="3">&lt;/codeph&gt;</ept>, <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>projectLeader<ept id="4">&lt;/codeph&gt;</ept> still contains that role through <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderB<ept id="5">&lt;/codeph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">In this case, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>projectLeader<ept id="1">&lt;/codeph&gt;</ept> role contains all the other roles and has all their privileges.</mrk><mrk mid="1" mtype="seg"> If the database owner then revokes <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="2">&lt;/codeph&gt;</ept> from <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="3">&lt;/codeph&gt;</ept>, <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>projectLeader<ept id="4">&lt;/codeph&gt;</ept> still contains that role through <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderB<ept id="5">&lt;/codeph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In this case, the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>projectLeader<ept id="1">&lt;/codeph&gt;</ept> role contains all the other roles and has all their privileges.</mrk><mrk mid="1" mtype="seg"> If the database owner then revokes <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="2">&lt;/codeph&gt;</ept> from <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="3">&lt;/codeph&gt;</ept>, <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>projectLeader<ept id="4">&lt;/codeph&gt;</ept> still contains that role through <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderB<ept id="5">&lt;/codeph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">The SYSCS_DIAG.CONTAINED_ROLES diagnostic table function can be used to determine the set of contained roles for a role.</source>
+<seg-source><mrk mid="0" mtype="seg">The SYSCS_DIAG.CONTAINED_ROLES diagnostic table function can be used to determine the set of contained roles for a role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SYSCS_DIAG.CONTAINED_ROLES diagnostic table function can be used to determine the set of contained roles for a role.</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">Cycles are not permitted in role grants. That is, if a role contains another role, you cannot grant the container role to the contained role. For example, the following statement would not be permitted:</source>
+<seg-source><mrk mid="0" mtype="seg">Cycles are not permitted in role grants.</mrk><mrk mid="1" mtype="seg"> That is, if a role contains another role, you cannot grant the container role to the contained role.</mrk><mrk mid="2" mtype="seg"> For example, the following statement would not be permitted:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cycles are not permitted in role grants.</mrk><mrk mid="1" mtype="seg"> That is, if a role contains another role, you cannot grant the container role to the contained role.</mrk><mrk mid="2" mtype="seg"> For example, the following statement would not be permitted:</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">grant projectLeader to updater;</source>
+<seg-source><mrk mid="0" mtype="seg">grant projectLeader to updater;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">grant projectLeader to updater;</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">Setting roles</source>
+<seg-source><mrk mid="0" mtype="seg">Setting roles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Setting roles</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">When a user first connects to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, no role is set, and the CURRENT_ROLE function returns null. During a session, the user can call the SET ROLE statement to set the current role for that session. The role can be any role that has been granted to the session's current user or to PUBLIC. To unset the current role, call SET ROLE with an argument of NONE. At any time during a session, there is always a current user, but there is a current role only if SET ROLE has been called with an argument other than NONE. If a current role is not set, the session has only the privileges granted to the user directly or to PUBLIC.</source>
+<seg-source><mrk mid="0" mtype="seg">When a user first connects to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, no role is set, and the CURRENT_ROLE function returns null.</mrk><mrk mid="1" mtype="seg"> During a session, the user can call the SET ROLE statement to set the current role for that session.</mrk><mrk mid="2" mtype="seg"> The role can be any role that has been granted to the session's current user or to PUBLIC.</mrk><mrk mid="3" mtype="seg"> To unset the current role, call SET ROLE with an argument of NONE.</mrk><mrk mid="4" mtype="seg"> At any time during a session, there is always a current user, but there is a current role only if SET ROLE has been called with an argument other than NONE.</mrk><mrk mid="5" mtype="seg"> If a current role is not set, the session has only the privileges granted to the user directly or to PUBLIC.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a user first connects to <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>, no role is set, and the CURRENT_ROLE function returns null.</mrk><mrk mid="1" mtype="seg"> During a session, the user can call the SET ROLE statement to set the current role for that session.</mrk><mrk mid="2" mtype="seg"> The role can be any role that has been granted to the session's current user or to PUBLIC.</mrk><mrk mid="3" mtype="seg"> To unset the current role, call SET ROLE with an argument of NONE.</mrk><mrk mid="4" mtype="seg"> At any time during a session, there is always a current user, but there is a current role only if SET ROLE has been called with an argument other than NONE.</mrk><mrk mid="5" mtype="seg"> If a current role is not set, the session has only the privileges granted to the user directly or to PUBLIC.</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">For example, if the database owner created and granted the roles shown in the previous session, a user would have to issue a SET ROLE statement to have them take effect. Suppose a user issued the following statement:</source>
+<seg-source><mrk mid="0" mtype="seg">For example, if the database owner created and granted the roles shown in the previous session, a user would have to issue a SET ROLE statement to have them take effect.</mrk><mrk mid="1" mtype="seg"> Suppose a user issued the following statement:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For example, if the database owner created and granted the roles shown in the previous session, a user would have to issue a SET ROLE statement to have them take effect.</mrk><mrk mid="1" mtype="seg"> Suppose a user issued the following statement:</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">SET ROLE taskLeaderA;</source>
+<seg-source><mrk mid="0" mtype="seg">SET ROLE taskLeaderA;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SET ROLE taskLeaderA;</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">Assuming that the database owner had granted the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="1">&lt;/codeph&gt;</ept> role to the user, the user would be allowed to set the role as shown and would have all the privileges granted to the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="2">&lt;/codeph&gt;</ept>, <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="3">&lt;/codeph&gt;</ept>, and <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>reader<ept id="4">&lt;/codeph&gt;</ept> roles.</source>
+<seg-source><mrk mid="0" mtype="seg">Assuming that the database owner had granted the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="1">&lt;/codeph&gt;</ept> role to the user, the user would be allowed to set the role as shown and would have all the privileges granted to the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="2">&lt;/codeph&gt;</ept>, <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="3">&lt;/codeph&gt;</ept>, and <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>reader<ept id="4">&lt;/codeph&gt;</ept> roles.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assuming that the database owner had granted the <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="1">&lt;/codeph&gt;</ept> role to the user, the user would be allowed to set the role as shown and would have all the privileges granted to the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="2">&lt;/codeph&gt;</ept>, <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="3">&lt;/codeph&gt;</ept>, and <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>reader<ept id="4">&lt;/codeph&gt;</ept> roles.</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">To retrieve the current role identifier in SQL, call the CURRENT_ROLE function.</source>
+<seg-source><mrk mid="0" mtype="seg">To retrieve the current role identifier in SQL, call the CURRENT_ROLE function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To retrieve the current role identifier in SQL, call the CURRENT_ROLE function.</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">Within stored procedures and functions that contain SQL, the current role depends on whether the routine executes with invoker's rights or with definer's rights, as specified by the EXTERNAL SECURITY clause in the CREATE FUNCTION or CREATE PROCEDURE statements in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>. During execution, the current user and current role are kept on an authorization stack which is pushed during a stored routine call.</source>
+<seg-source><mrk mid="0" mtype="seg">Within stored procedures and functions that contain SQL, the current role depends on whether the routine executes with invoker's rights or with definer's rights, as specified by the EXTERNAL SECURITY clause in the CREATE FUNCTION or CREATE PROCEDURE statements in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> During execution, the current user and current role are kept on an authorization stack which is pushed during a stored routine call.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Within stored procedures and functions that contain SQL, the current role depends on whether the routine executes with invoker's rights or with definer's rights, as specified by the EXTERNAL SECURITY clause in the CREATE FUNCTION or CREATE PROCEDURE statements in the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk><mrk mid="1" mtype="seg"> During execution, the current user and current role are kept on an authorization stack which is pushed during a stored routine call.</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">Within routines that execute with invoker's rights, the following applies: initially, inside a nested connection, the current role is set to that of the calling context. So is the current user. Such routines may set any role granted to the invoker or to PUBLIC.</source>
+<seg-source><mrk mid="0" mtype="seg">Within routines that execute with invoker's rights, the following applies: initially, inside a nested connection, the current role is set to that of the calling context.</mrk><mrk mid="1" mtype="seg"> So is the current user.</mrk><mrk mid="2" mtype="seg"> Such routines may set any role granted to the invoker or to PUBLIC.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Within routines that execute with invoker's rights, the following applies: initially, inside a nested connection, the current role is set to that of the calling context.</mrk><mrk mid="1" mtype="seg"> So is the current user.</mrk><mrk mid="2" mtype="seg"> Such routines may set any role granted to the invoker or to PUBLIC.</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">Within routines that execute with definer's rights, the following applies: initially, inside a nested connection, the current role is NULL, and the current user is that of the definer. Such routines may set any role granted to the definer or to PUBLIC.</source>
+<seg-source><mrk mid="0" mtype="seg">Within routines that execute with definer's rights, the following applies: initially, inside a nested connection, the current role is NULL, and the current user is that of the definer.</mrk><mrk mid="1" mtype="seg"> Such routines may set any role granted to the definer or to PUBLIC.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Within routines that execute with definer's rights, the following applies: initially, inside a nested connection, the current role is NULL, and the current user is that of the definer.</mrk><mrk mid="1" mtype="seg"> Such routines may set any role granted to the definer or to PUBLIC.</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">Upon return from the stored procedure or function, the authorization stack is popped, so the current role of the calling context is not affected by any setting of the role inside the called procedure or function. If the stored procedure opens more than one nested connection, these all share the same (stacked) current role (and user) state. Any dynamic result set passed out of a stored procedure sees the current role (or user) of the nested context.</source>
+<seg-source><mrk mid="0" mtype="seg">Upon return from the stored procedure or function, the authorization stack is popped, so the current role of the calling context is not affected by any setting of the role inside the called procedure or function.</mrk><mrk mid="1" mtype="seg"> If the stored procedure opens more than one nested connection, these all share the same (stacked) current role (and user) state.</mrk><mrk mid="2" mtype="seg"> Any dynamic result set passed out of a stored procedure sees the current role (or user) of the nested context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Upon return from the stored procedure or function, the authorization stack is popped, so the current role of the calling context is not affected by any setting of the role inside the called procedure or function.</mrk><mrk mid="1" mtype="seg"> If the stored procedure opens more than one nested connection, these all share the same (stacked) current role (and user) state.</mrk><mrk mid="2" mtype="seg"> Any dynamic result set passed out of a stored procedure sees the current role (or user) of the nested context.</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">Granting privileges to roles</source>
+<seg-source><mrk mid="0" mtype="seg">Granting privileges to roles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Granting privileges to roles</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">Once a role has been created, both the database owner and the object owner can grant privileges on tables and routines to that role. You can grant the same privileges to roles that you can grant to users. Granting a privilege to a role implicitly grants privileges to all roles that contain that role. For example, if you grant delete privileges on a table to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="1">&lt;/codeph&gt;</ept>, every user in the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="2">&lt;/codeph&gt;</ept>, <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="3">&lt;/codeph&gt;</ept>, <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderB<ept id="4">&lt;/codeph&gt;</ept>, and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>projectLeader<ept id="5">&lt;/codeph&gt;</ept> role will also have delete privileges on that table, but users in the <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>reader<ept id="6">&lt;/codeph&gt;</ept> role will not.</source>
+<seg-source><mrk mid="0" mtype="seg">Once a role has been created, both the database owner and the object owner can grant privileges on tables and routines to that role.</mrk><mrk mid="1" mtype="seg"> You can grant the same privileges to roles that you can grant to users.</mrk><mrk mid="2" mtype="seg"> Granting a privilege to a role implicitly grants privileges to all roles that contain that role.</mrk><mrk mid="3" mtype="seg"> For example, if you grant delete privileges on a table to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="1">&lt;/codeph&gt;</ept>, every user in the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="2">&lt;/codeph&gt;</ept>, <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="3">&lt;/codeph&gt;</ept>, <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderB<ept id="4">&lt;/codeph&gt;</ept>, and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>projectLeader<ept id="5">&lt;/codeph&gt;</ept> role will also have delete privileges on that table, but users in the <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>reader<ept id="6">&lt;/codeph&gt;</ept> role will not.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Once a role has been created, both the database owner and the object owner can grant privileges on tables and routines to that role.</mrk><mrk mid="1" mtype="seg"> You can grant the same privileges to roles that you can grant to users.</mrk><mrk mid="2" mtype="seg"> Granting a privilege to a role implicitly grants privileges to all roles that contain that role.</mrk><mrk mid="3" mtype="seg"> For example, if you grant delete privileges on a table to <bpt id="1" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="1">&lt;/codeph&gt;</ept>, every user in the <bpt id="2" ctype="x-codeph">&lt;codeph&gt;</bpt>updater<ept id="2">&lt;/codeph&gt;</ept>, <bpt id="3" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderA<ept id="3">&lt;/codeph&gt;</ept>, <bpt id="4" ctype="x-codeph">&lt;codeph&gt;</bpt>taskLeaderB<ept id="4">&lt;/codeph&gt;</ept>, and <bpt id="5" ctype="x-codeph">&lt;codeph&gt;</bpt>projectLeader<ept id="5">&lt;/codeph&gt;</ept> role will also have delete privileges on that table, but users in the <bpt id="6" ctype="x-codeph">&lt;codeph&gt;</bpt>reader<ept id="6">&lt;/codeph&gt;</ept> role will not.</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">Revoking privileges from a role</source>
+<seg-source><mrk mid="0" mtype="seg">Revoking privileges from a role</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Revoking privileges from a role</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">Either the database owner or the object owner can revoke privileges from a role.</source>
+<seg-source><mrk mid="0" mtype="seg">Either the database owner or the object owner can revoke privileges from a role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Either the database owner or the object owner can revoke privileges from a role.</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">When a privilege is revoked from a role A, that privilege is no longer held by role A, unless A otherwise inherits that privilege from a contained role.</source>
+<seg-source><mrk mid="0" mtype="seg">When a privilege is revoked from a role A, that privilege is no longer held by role A, unless A otherwise inherits that privilege from a contained role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a privilege is revoked from a role A, that privilege is no longer held by role A, unless A otherwise inherits that privilege from a contained role.</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">If a privilege to an object is revoked from role A, a session will lose that privilege if it has a current role set to A or a role that contains A, unless one or more of the following is true:</source>
+<seg-source><mrk mid="0" mtype="seg">If a privilege to an object is revoked from role A, a session will lose that privilege if it has a current role set to A or a role that contains A, unless one or more of the following is true:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a privilege to an object is revoked from role A, a session will lose that privilege if it has a current role set to A or a role that contains A, unless one or more of the following is true:</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">The privilege is granted directly to the current user</source>
+<seg-source><mrk mid="0" mtype="seg">The privilege is granted directly to the current user</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The privilege is granted directly to the current user</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">The privilege is granted to PUBLIC</source>
+<seg-source><mrk mid="0" mtype="seg">The privilege is granted to PUBLIC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The privilege is granted to PUBLIC</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">The privilege is also granted to another role B in the current role's set of contained roles</source>
+<seg-source><mrk mid="0" mtype="seg">The privilege is also granted to another role B in the current role's set of contained roles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The privilege is also granted to another role B in the current role's set of contained roles</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">The session's current user is the database owner or the object owner</source>
+<seg-source><mrk mid="0" mtype="seg">The session's current user is the database owner or the object owner</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The session's current user is the database owner or the object owner</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">Revoking roles</source>
+<seg-source><mrk mid="0" mtype="seg">Revoking roles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Revoking roles</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">The database owner can use the REVOKE statement to revoke a role from a user, from PUBLIC, or from another role.</source>
+<seg-source><mrk mid="0" mtype="seg">The database owner can use the REVOKE statement to revoke a role from a user, from PUBLIC, or from another role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The database owner can use the REVOKE statement to revoke a role from a user, from PUBLIC, or from another role.</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">When a role is revoked from a user, that session can no longer keep that role, nor can it take on that role in a SET ROLE statement, unless the role is also granted to PUBLIC. If that role is the current role of an existing session, the current privileges of the session lose any extra privileges obtained through setting that role.</source>
+<seg-source><mrk mid="0" mtype="seg">When a role is revoked from a user, that session can no longer keep that role, nor can it take on that role in a SET ROLE statement, unless the role is also granted to PUBLIC.</mrk><mrk mid="1" mtype="seg"> If that role is the current role of an existing session, the current privileges of the session lose any extra privileges obtained through setting that role.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a role is revoked from a user, that session can no longer keep that role, nor can it take on that role in a SET ROLE statement, unless the role is also granted to PUBLIC.</mrk><mrk mid="1" mtype="seg"> If that role is the current role of an existing session, the current privileges of the session lose any extra privileges obtained through setting that role.</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">The default drop behavior is CASCADE. Therefore, all persistent objects (constraints, views and triggers) that rely on that role are dropped. Although there may be other ways of fulfilling that privilege at the time of the revoke, any dependent objects are still dropped. This is an implementation limitation. Any prepared statement that is potentially affected will be checked again on the next execute. A result set that depends on a role will remain open even if that role is revoked from a user.</source>
+<seg-source><mrk mid="0" mtype="seg">The default drop behavior is CASCADE.</mrk><mrk mid="1" mtype="seg"> Therefore, all persistent objects (constraints, views and triggers) that rely on that role are dropped.</mrk><mrk mid="2" mtype="seg"> Although there may be other ways of fulfilling that privilege at the time of the revoke, any dependent objects are still dropped.</mrk><mrk mid="3" mtype="seg"> This is an implementation limitation.</mrk><mrk mid="4" mtype="seg"> Any prepared statement that is potentially affected will be checked again on the next execute.</mrk><mrk mid="5" mtype="seg"> A result set that depends on a role will remain open even if that role is revoked from a user.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default drop behavior is CASCADE.</mrk><mrk mid="1" mtype="seg"> Therefore, all persistent objects (constraints, views and triggers) that rely on that role are dropped.</mrk><mrk mid="2" mtype="seg"> Although there may be other ways of fulfilling that privilege at the time of the revoke, any dependent objects are still dropped.</mrk><mrk mid="3" mtype="seg"> This is an implementation limitation.</mrk><mrk mid="4" mtype="seg"> Any prepared statement that is potentially affected will be checked again on the next execute.</mrk><mrk mid="5" mtype="seg"> A result set that depends on a role will remain open even if that role is revoked from a user.</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">When a role is revoked from a role, the default drop behavior is also CASCADE. Suppose you revoke role A from role B. Revoking the role will have the effect of revoking all additional applicable privileges obtained through A from B. Roles that contain B will also lose those privileges, unless A is still contained in some other role C granted to B, or the privileges come through some other role. See <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecureroles.dita#cdevcsecureroles/rolecreategrant"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for an example.</source>
+<seg-source><mrk mid="0" mtype="seg">When a role is revoked from a role, the default drop behavior is also CASCADE.</mrk><mrk mid="1" mtype="seg"> Suppose you revoke role A from role B. Revoking the role will have the effect of revoking all additional applicable privileges obtained through A from B. Roles that contain B will also lose those privileges, unless A is still contained in some other role C granted to B, or the privileges come through some other role.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecureroles.dita#cdevcsecureroles/rolecreategrant"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for an example.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a role is revoked from a role, the default drop behavior is also CASCADE.</mrk><mrk mid="1" mtype="seg"> Suppose you revoke role A from role B. Revoking the role will have the effect of revoking all additional applicable privileges obtained through A from B. Roles that contain B will also lose those privileges, unless A is still contained in some other role C granted to B, or the privileges come through some other role.</mrk><mrk mid="2" mtype="seg"> See <bpt id="1" ctype="x-xref">&lt;xref href="cdevcsecureroles.dita#cdevcsecureroles/rolecreategrant"&gt;</bpt><ept id="1">&lt;/xref&gt;</ept> for an example.</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">Dropping roles</source>
+<seg-source><mrk mid="0" mtype="seg">Dropping roles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dropping roles</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">Only the database owner can drop a role. To drop a role, use the DROP ROLE statement.</source>
+<seg-source><mrk mid="0" mtype="seg">Only the database owner can drop a role.</mrk><mrk mid="1" mtype="seg"> To drop a role, use the DROP ROLE statement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only the database owner can drop a role.</mrk><mrk mid="1" mtype="seg"> To drop a role, use the DROP ROLE statement.</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">Dropping a role effectively revokes all grants of this role to users and other roles.</source>
+<seg-source><mrk mid="0" mtype="seg">Dropping a role effectively revokes all grants of this role to users and other roles.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dropping a role effectively revokes all grants of this role to users and other roles.</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">Further information</source>
+<seg-source><mrk mid="0" mtype="seg">Further information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Further information</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">For details on the following statements, functions, and system table related to roles, see the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">For details on the following statements, functions, and system table related to roles, see the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For details on the following statements, functions, and system table related to roles, see the <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/citref"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">CREATE ROLE statement</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE ROLE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE ROLE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">SET ROLE statement</source>
+<seg-source><mrk mid="0" mtype="seg">SET ROLE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SET ROLE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">DROP ROLE statement</source>
+<seg-source><mrk mid="0" mtype="seg">DROP ROLE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DROP ROLE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">GRANT statement</source>
+<seg-source><mrk mid="0" mtype="seg">GRANT statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GRANT statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">REVOKE statement</source>
+<seg-source><mrk mid="0" mtype="seg">REVOKE statement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REVOKE statement</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">CURRENT_ROLE function</source>
+<seg-source><mrk mid="0" mtype="seg">CURRENT_ROLE function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CURRENT_ROLE function</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">SYSCS_DIAG.CONTAINED_ROLES table function</source>
+<seg-source><mrk mid="0" mtype="seg">SYSCS_DIAG.CONTAINED_ROLES table function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSCS_DIAG.CONTAINED_ROLES table function</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">SYSROLES system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSROLES system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSROLES system table</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

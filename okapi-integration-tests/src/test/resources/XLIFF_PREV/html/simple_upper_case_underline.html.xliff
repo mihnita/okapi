@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="simple_upper_case_underline.html" source-language="en" target-language="fr" datatype="html" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/html/target/classes/net/sf/okapi/filters/html/nonwellformedConfiguration.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1" restype="x-title">
+<source xml:lang="en">YOUR TITLE PAGE</source>
+<seg-source><mrk mid="0" mtype="seg">YOUR TITLE PAGE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">YOUR TITLE PAGE</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">THE QUICK BROWN <bpt id="1" ctype="underlined">&lt;u&gt;</bpt>FOX<ept id="1">&lt;/u&gt;</ept> JUMPS OVER THE LAZY <bpt id="2" ctype="underlined">&lt;u&gt;</bpt>DOG<ept id="2">&lt;/u&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">THE QUICK BROWN <bpt id="1" ctype="underlined">&lt;u&gt;</bpt>FOX<ept id="1">&lt;/u&gt;</ept> JUMPS OVER THE LAZY <bpt id="2" ctype="underlined">&lt;u&gt;</bpt>DOG<ept id="2">&lt;/u&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">THE QUICK BROWN <bpt id="1" ctype="underlined">&lt;u&gt;</bpt>FOX<ept id="1">&lt;/u&gt;</ept> JUMPS OVER THE LAZY <bpt id="2" ctype="underlined">&lt;u&gt;</bpt>DOG<ept id="2">&lt;/u&gt;</ept>.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="everything.yaml" source-language="en" target-language="fr" datatype="x-text/x-yaml" okp:inputEncoding="UTF-8" okp:configId="/home/jimh/Code/Okapi/okapi-integration-tests/common-integration-tests/target/test-classes/yaml/spec_test/okf_yaml@default.fprm">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<group id="sg1">
+<trans-unit id="tu1" resname="key" xml:space="preserve">
+<source xml:lang="en">value</source>
+<seg-source><mrk mid="0" mtype="seg">value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">value</mrk></target>
+</trans-unit>
+<trans-unit id="tu2" resname="another_key" xml:space="preserve">
+<source xml:lang="en">Another value goes here.</source>
+<seg-source><mrk mid="0" mtype="seg">Another value goes here.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Another value goes here.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3" resname="a_number_value" xml:space="preserve">
+<source xml:lang="en">100</source>
+<seg-source><mrk mid="0" mtype="seg">100</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">100</mrk></target>
+</trans-unit>
+<trans-unit id="tu4" resname="scientific_notation" xml:space="preserve">
+<source xml:lang="en">1e+12</source>
+<seg-source><mrk mid="0" mtype="seg">1e+12</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1e+12</mrk></target>
+</trans-unit>
+<trans-unit id="tu5" resname="boolean" xml:space="preserve">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu6" resname="null_value" xml:space="preserve">
+<source xml:lang="en">null</source>
+<seg-source><mrk mid="0" mtype="seg">null</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">null</mrk></target>
+</trans-unit>
+<trans-unit id="tu7" resname="key with spaces" xml:space="preserve">
+<source xml:lang="en">value</source>
+<seg-source><mrk mid="0" mtype="seg">value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">value</mrk></target>
+</trans-unit>
+<trans-unit id="tu8" resname="however" xml:space="preserve">
+<source xml:lang="en">A string, enclosed in quotes.</source>
+<seg-source><mrk mid="0" mtype="seg">A string, enclosed in quotes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A string, enclosed in quotes.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9" resname="Keys can be quoted too." xml:space="preserve">
+<source xml:lang="en">Useful if you want to put a ':' in your key.</source>
+<seg-source><mrk mid="0" mtype="seg">Useful if you want to put a ':' in your key.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Useful if you want to put a ':' in your key.</mrk></target>
+</trans-unit>
+<trans-unit id="tu10" resname="literal_block" xml:space="preserve">
+<source xml:lang="en">This entire block of text will be the value of the 'literal_block' key,<ph id="1" ctype="lb">
+    </ph>with line breaks being preserved.<ph id="2" ctype="lb">
+
+    </ph>The literal continues until de-dented, and the leading indentation is<ph id="3" ctype="lb">
+    </ph>stripped.<ph id="4" ctype="lb">
+
+        </ph>Any lines that are 'more-indented' keep the rest of their indentation -<ph id="5" ctype="lb">
+        </ph>these lines will be indented by 4 spaces.</source>
+<seg-source><mrk mid="0" mtype="seg">This entire block of text will be the value of the 'literal_block' key,<ph id="1" ctype="lb">
+    </ph>with line breaks being preserved.<ph id="2" ctype="lb">
+
+    </ph>The literal continues until de-dented, and the leading indentation is<ph id="3" ctype="lb">
+    </ph>stripped.<ph id="4" ctype="lb">
+
+        </ph>Any lines that are 'more-indented' keep the rest of their indentation -<ph id="5" ctype="lb">
+        </ph>these lines will be indented by 4 spaces.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This entire block of text will be the value of the 'literal_block' key,<ph id="1" ctype="lb">
+    </ph>with line breaks being preserved.<ph id="2" ctype="lb">
+
+    </ph>The literal continues until de-dented, and the leading indentation is<ph id="3" ctype="lb">
+    </ph>stripped.<ph id="4" ctype="lb">
+
+        </ph>Any lines that are 'more-indented' keep the rest of their indentation -<ph id="5" ctype="lb">
+        </ph>these lines will be indented by 4 spaces.</mrk></target>
+</trans-unit>
+<trans-unit id="tu11" resname="folded_style" xml:space="preserve">
+<source xml:lang="en">This entire block of text will be the value of 'folded_style', but this time, all newlines will be replaced with a single space.<ph id="1" ctype="lb">
+
+    </ph>Blank lines, like above, are converted to a newline character.<ph id="2" ctype="lb">
+
+        </ph>'More-indented' lines keep their newlines, too - this text will appear over two lines.</source>
+<seg-source><mrk mid="0" mtype="seg">This entire block of text will be the value of 'folded_style', but this time, all newlines will be replaced with a single space.<ph id="1" ctype="lb">
+
+    </ph>Blank lines, like above, are converted to a newline character.<ph id="2" ctype="lb">
+
+        </ph>'More-indented' lines keep their newlines, too - this text will appear over two lines.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This entire block of text will be the value of 'folded_style', but this time, all newlines will be replaced with a single space.<ph id="1" ctype="lb">
+
+    </ph>Blank lines, like above, are converted to a newline character.<ph id="2" ctype="lb">
+
+        </ph>'More-indented' lines keep their newlines, too - this text will appear over two lines.</mrk></target>
+</trans-unit>
+<group id="sg2">
+<trans-unit id="tu12" resname="a_nested_map/key" xml:space="preserve">
+<source xml:lang="en">value</source>
+<seg-source><mrk mid="0" mtype="seg">value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">value</mrk></target>
+</trans-unit>
+<trans-unit id="tu13" resname="a_nested_map/another_key" xml:space="preserve">
+<source xml:lang="en">Another Value</source>
+<seg-source><mrk mid="0" mtype="seg">Another Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Another Value</mrk></target>
+</trans-unit>
+<group id="sg3">
+<trans-unit id="tu14" resname="a_nested_map/another_nested_map/hello" xml:space="preserve">
+<source xml:lang="en">hello</source>
+<seg-source><mrk mid="0" mtype="seg">hello</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hello</mrk></target>
+</trans-unit>
+</group>
+</group>
+<trans-unit id="tu15" resname="0.25" xml:space="preserve">
+<source xml:lang="en">a float key</source>
+<seg-source><mrk mid="0" mtype="seg">a float key</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a float key</mrk></target>
+</trans-unit>
+<group id="sg4">
+<trans-unit id="tu16" resname="a_sequence" xml:space="preserve">
+<source xml:lang="en">Item 1</source>
+<seg-source><mrk mid="0" mtype="seg">Item 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 1</mrk></target>
+</trans-unit>
+<trans-unit id="tu17" resname="a_sequence" xml:space="preserve">
+<source xml:lang="en">Item 2</source>
+<seg-source><mrk mid="0" mtype="seg">Item 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 2</mrk></target>
+</trans-unit>
+<trans-unit id="tu18" resname="a_sequence" xml:space="preserve">
+<source xml:lang="en">0.5</source>
+<seg-source><mrk mid="0" mtype="seg">0.5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.5</mrk></target>
+</trans-unit>
+<trans-unit id="tu19" resname="a_sequence" xml:space="preserve">
+<source xml:lang="en">Item 4</source>
+<seg-source><mrk mid="0" mtype="seg">Item 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 4</mrk></target>
+</trans-unit>
+<group id="sg5">
+<trans-unit id="tu20" resname="a_sequence/key" xml:space="preserve">
+<source xml:lang="en">value</source>
+<seg-source><mrk mid="0" mtype="seg">value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">value</mrk></target>
+</trans-unit>
+<trans-unit id="tu21" resname="a_sequence/another_key" xml:space="preserve">
+<source xml:lang="en">another_value</source>
+<seg-source><mrk mid="0" mtype="seg">another_value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">another_value</mrk></target>
+</trans-unit>
+</group>
+<group id="sg6">
+<trans-unit id="tu22" resname="a_sequence" xml:space="preserve">
+<source xml:lang="en">This is a sequence</source>
+<seg-source><mrk mid="0" mtype="seg">This is a sequence</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a sequence</mrk></target>
+</trans-unit>
+<trans-unit id="tu23" resname="a_sequence" xml:space="preserve">
+<source xml:lang="en">inside another sequence</source>
+<seg-source><mrk mid="0" mtype="seg">inside another sequence</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">inside another sequence</mrk></target>
+</trans-unit>
+</group>
+</group>
+<group id="sg7">
+<trans-unit id="tu24" resname="json_map/key" xml:space="preserve">
+<source xml:lang="en">value</source>
+<seg-source><mrk mid="0" mtype="seg">value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">value</mrk></target>
+</trans-unit>
+</group>
+<group id="sg8">
+<trans-unit id="tu25" resname="json_seq" xml:space="preserve">
+<source xml:lang="en">3</source>
+<seg-source><mrk mid="0" mtype="seg">3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3</mrk></target>
+</trans-unit>
+<trans-unit id="tu26" resname="json_seq" xml:space="preserve">
+<source xml:lang="en">2</source>
+<seg-source><mrk mid="0" mtype="seg">2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2</mrk></target>
+</trans-unit>
+<trans-unit id="tu27" resname="json_seq" xml:space="preserve">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu28" resname="json_seq" xml:space="preserve">
+<source xml:lang="en">takeoff</source>
+<seg-source><mrk mid="0" mtype="seg">takeoff</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">takeoff</mrk></target>
+</trans-unit>
+</group>
+<trans-unit id="tu29" resname="anchored_content" xml:space="preserve">
+<source xml:lang="en">This string will appear as the value of two keys.</source>
+<seg-source><mrk mid="0" mtype="seg">This string will appear as the value of two keys.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This string will appear as the value of two keys.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30" resname="explicit_string" xml:space="preserve">
+<source xml:lang="en">0.5</source>
+<seg-source><mrk mid="0" mtype="seg">0.5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.5</mrk></target>
+</trans-unit>
+<trans-unit id="tu31" resname="python_complex_number" xml:space="preserve">
+<source xml:lang="en">1+2j</source>
+<seg-source><mrk mid="0" mtype="seg">1+2j</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1+2j</mrk></target>
+</trans-unit>
+<trans-unit id="tu32" resname="datetime" xml:space="preserve">
+<source xml:lang="en">2001-12-15T02:59:43.1Z</source>
+<seg-source><mrk mid="0" mtype="seg">2001-12-15T02:59:43.1Z</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2001-12-15T02:59:43.1Z</mrk></target>
+</trans-unit>
+<trans-unit id="tu33" resname="datetime_with_spaces" xml:space="preserve">
+<source xml:lang="en">2001-12-14 21:59:43.10 -5</source>
+<seg-source><mrk mid="0" mtype="seg">2001-12-14 21:59:43.10 -5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2001-12-14 21:59:43.10 -5</mrk></target>
+</trans-unit>
+<trans-unit id="tu34" resname="date" xml:space="preserve">
+<source xml:lang="en">2002-12-14</source>
+<seg-source><mrk mid="0" mtype="seg">2002-12-14</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2002-12-14</mrk></target>
+</trans-unit>
+<trans-unit id="tu35" resname="gif_file" xml:space="preserve">
+<source xml:lang="en">R0lGODlhDAAMAIQAAP//9/X17unp5WZmZgAAAOfn515eXvPz7Y6OjuDg4J+fn5<ph id="1" ctype="lb">
+    </ph>OTk6enp56enmlpaWNjY6Ojo4SEhP/++f/++f/++f/++f/++f/++f/++f/++f/+<ph id="2" ctype="lb">
+    </ph>+f/++f/++f/++f/++f/++SH+Dk1hZGUgd2l0aCBHSU1QACwAAAAADAAMAAAFLC<ph id="3" ctype="lb">
+    </ph>AgjoEwnuNAFOhpEMTRiggcz4BNJHrv/zCFcLiwMWYNG84BwwEeECcgggoBADs=</source>
+<seg-source><mrk mid="0" mtype="seg">R0lGODlhDAAMAIQAAP//9/X17unp5WZmZgAAAOfn515eXvPz7Y6OjuDg4J+fn5<ph id="1" ctype="lb">
+    </ph>OTk6enp56enmlpaWNjY6Ojo4SEhP/++f/++f/++f/++f/++f/++f/++f/++f/+<ph id="2" ctype="lb">
+    </ph>+f/++f/++f/++f/++f/++SH+Dk1hZGUgd2l0aCBHSU1QACwAAAAADAAMAAAFLC<ph id="3" ctype="lb">
+    </ph>AgjoEwnuNAFOhpEMTRiggcz4BNJHrv/zCFcLiwMWYNG84BwwEeECcgggoBADs=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">R0lGODlhDAAMAIQAAP//9/X17unp5WZmZgAAAOfn515eXvPz7Y6OjuDg4J+fn5<ph id="1" ctype="lb">
+    </ph>OTk6enp56enmlpaWNjY6Ojo4SEhP/++f/++f/++f/++f/++f/++f/++f/++f/+<ph id="2" ctype="lb">
+    </ph>+f/++f/++f/++f/++f/++SH+Dk1hZGUgd2l0aCBHSU1QACwAAAAADAAMAAAFLC<ph id="3" ctype="lb">
+    </ph>AgjoEwnuNAFOhpEMTRiggcz4BNJHrv/zCFcLiwMWYNG84BwwEeECcgggoBADs=</mrk></target>
+</trans-unit>
+<group id="sg9">
+<trans-unit id="tu36" resname="set2/item1" xml:space="preserve">
+<source xml:lang="en">null</source>
+<seg-source><mrk mid="0" mtype="seg">null</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">null</mrk></target>
+</trans-unit>
+<trans-unit id="tu37" resname="set2/item2" xml:space="preserve">
+<source xml:lang="en">null</source>
+<seg-source><mrk mid="0" mtype="seg">null</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">null</mrk></target>
+</trans-unit>
+<trans-unit id="tu38" resname="set2/item3" xml:space="preserve">
+<source xml:lang="en">null</source>
+<seg-source><mrk mid="0" mtype="seg">null</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">null</mrk></target>
+</trans-unit>
+</group>
+</group>
+</body>
+</file>
+</xliff>

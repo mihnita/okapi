@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="rrefsysxplain_scan_props.dita" source-language="en" target-language="fr" datatype="xml" okp:inputEncoding="utf-8" okp:configId="/home/jimh/Code/Okapi/okapi/okapi/filters/xmlstream/target/classes/net/sf/okapi/filters/xmlstream/dita.yml">
+<header><tool tool-id="okapi" tool-name="okapi-tests" tool-version="M29" tool-company="okapi"></tool></header>
+<body>
+<trans-unit id="tu1">
+<source xml:lang="en">SYSXPLAIN_SCAN_PROPS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_SCAN_PROPS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_SCAN_PROPS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu2">
+<source xml:lang="en">The SYSXPLAIN_SCAN_PROPS table captures information about table/index accesses which occurred during statements that were executed using RUNTIMESTATISTICS with XPLAIN style.</source>
+<seg-source><mrk mid="0" mtype="seg">The SYSXPLAIN_SCAN_PROPS table captures information about table/index accesses which occurred during statements that were executed using RUNTIMESTATISTICS with XPLAIN style.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The SYSXPLAIN_SCAN_PROPS table captures information about table/index accesses which occurred during statements that were executed using RUNTIMESTATISTICS with XPLAIN style.</mrk></target>
+</trans-unit>
+<trans-unit id="tu3">
+<source xml:lang="en">system tables</source>
+<seg-source><mrk mid="0" mtype="seg">system tables</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">system tables</mrk></target>
+</trans-unit>
+<trans-unit id="tu4">
+<source xml:lang="en">SYSXPLAIN_SCAN_PROPS</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_SCAN_PROPS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_SCAN_PROPS</mrk></target>
+</trans-unit>
+<trans-unit id="tu5">
+<source xml:lang="en">XPLAIN style statistics</source>
+<seg-source><mrk mid="0" mtype="seg">XPLAIN style statistics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">XPLAIN style statistics</mrk></target>
+</trans-unit>
+<trans-unit id="tu6">
+<source xml:lang="en">SYSXPLAIN_SCAN_PROPS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_SCAN_PROPS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_SCAN_PROPS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu7">
+<source xml:lang="en">SYSXPLAIN_SCAN_PROPS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_SCAN_PROPS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_SCAN_PROPS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu8">
+<source xml:lang="en">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on how to configure this.</source>
+<seg-source><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on how to configure this.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See "Working with RunTimeStatistics" in <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#pub/cittuning"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> for information on how to configure this.</mrk></target>
+</trans-unit>
+<trans-unit id="tu9">
+<source xml:lang="en">Each row in this table describes a single table/index scan for a particular result set used by a particular statement. Rows in this table are typically joined with rows in SYSXPLAIN_STATEMENTS and SYSXPLAIN_RESULTSETS during analysis:</source>
+<seg-source><mrk mid="0" mtype="seg">Each row in this table describes a single table/index scan for a particular result set used by a particular statement.</mrk><mrk mid="1" mtype="seg"> Rows in this table are typically joined with rows in SYSXPLAIN_STATEMENTS and SYSXPLAIN_RESULTSETS during analysis:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Each row in this table describes a single table/index scan for a particular result set used by a particular statement.</mrk><mrk mid="1" mtype="seg"> Rows in this table are typically joined with rows in SYSXPLAIN_STATEMENTS and SYSXPLAIN_RESULTSETS during analysis:</mrk></target>
+</trans-unit>
+<trans-unit id="tu10">
+<source xml:lang="en">select st.stmt_text, sp.no_visited_rows from my_stats.sysxplain_scan_props sp, my_stats.sysxplain_resultsets rs, my_stats.sysxplain_statements st where st.stmt_id = rs.stmt_id and rs.scan_rs_id = sp.scan_rs_id and rs.op_identifier = 'TABLESCAN' and sp.scan_object_name = 'COUNTRIES'</source>
+<seg-source><mrk mid="0" mtype="seg">select st.stmt_text, sp.no_visited_rows from my_stats.sysxplain_scan_props sp, my_stats.sysxplain_resultsets rs, my_stats.sysxplain_statements st where st.stmt_id = rs.stmt_id and rs.scan_rs_id = sp.scan_rs_id and rs.op_identifier = 'TABLESCAN' and sp.scan_object_name = 'COUNTRIES'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">select st.stmt_text, sp.no_visited_rows from my_stats.sysxplain_scan_props sp, my_stats.sysxplain_resultsets rs, my_stats.sysxplain_statements st where st.stmt_id = rs.stmt_id and rs.scan_rs_id = sp.scan_rs_id and rs.op_identifier = 'TABLESCAN' and sp.scan_object_name = 'COUNTRIES'</mrk></target>
+</trans-unit>
+<trans-unit id="tu11">
+<source xml:lang="en">Rows in this table are added automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has been configured appropriately. The rows remain in the table until you delete them or drop the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Rows in this table are added automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has been configured appropriately.</mrk><mrk mid="1" mtype="seg"> The rows remain in the table until you delete them or drop the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Rows in this table are added automatically when <bpt id="1" ctype="x-ph">&lt;ph conref="../conrefs.dita#prod/productshortname"&gt;</bpt><ept id="1">&lt;/ph&gt;</ept> has been configured appropriately.</mrk><mrk mid="1" mtype="seg"> The rows remain in the table until you delete them or drop the table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu12">
+<source xml:lang="en">The following table shows the contents of the SYSXPLAIN_SCAN_PROPS system table.</source>
+<seg-source><mrk mid="0" mtype="seg">The following table shows the contents of the SYSXPLAIN_SCAN_PROPS system table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following table shows the contents of the SYSXPLAIN_SCAN_PROPS system table.</mrk></target>
+</trans-unit>
+<trans-unit id="tu13">
+<source xml:lang="en">SYSXPLAIN_SCAN_PROPS system table</source>
+<seg-source><mrk mid="0" mtype="seg">SYSXPLAIN_SCAN_PROPS system table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SYSXPLAIN_SCAN_PROPS system table</mrk></target>
+</trans-unit>
+<trans-unit id="tu14">
+<source xml:lang="en">For each column in the SYSXPLAIN_SCAN_PROPS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</source>
+<seg-source><mrk mid="0" mtype="seg">For each column in the SYSXPLAIN_SCAN_PROPS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For each column in the SYSXPLAIN_SCAN_PROPS system table, this table provides its data type, its length in bytes, whether it is nullable, and a description of its contents.</mrk></target>
+</trans-unit>
+<trans-unit id="tu15">
+<source xml:lang="en">Column Name</source>
+<seg-source><mrk mid="0" mtype="seg">Column Name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column Name</mrk></target>
+</trans-unit>
+<trans-unit id="tu16">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="tu17">
+<source xml:lang="en">Length</source>
+<seg-source><mrk mid="0" mtype="seg">Length</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Length</mrk></target>
+</trans-unit>
+<trans-unit id="tu18">
+<source xml:lang="en">Nullable</source>
+<seg-source><mrk mid="0" mtype="seg">Nullable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nullable</mrk></target>
+</trans-unit>
+<trans-unit id="tu19">
+<source xml:lang="en">Contents</source>
+<seg-source><mrk mid="0" mtype="seg">Contents</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contents</mrk></target>
+</trans-unit>
+<trans-unit id="tu20">
+<source xml:lang="en">SCAN_RS_ID</source>
+<seg-source><mrk mid="0" mtype="seg">SCAN_RS_ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SCAN_RS_ID</mrk></target>
+</trans-unit>
+<trans-unit id="tu21">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu22">
+<source xml:lang="en">36</source>
+<seg-source><mrk mid="0" mtype="seg">36</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">36</mrk></target>
+</trans-unit>
+<trans-unit id="tu23">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu24">
+<source xml:lang="en">A unique identifer for this particular row. Referenced by the foreign key SCAN_RS_ID in SYSXPLAIN_RESULTSETS.</source>
+<seg-source><mrk mid="0" mtype="seg">A unique identifer for this particular row.</mrk><mrk mid="1" mtype="seg"> Referenced by the foreign key SCAN_RS_ID in SYSXPLAIN_RESULTSETS.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A unique identifer for this particular row.</mrk><mrk mid="1" mtype="seg"> Referenced by the foreign key SCAN_RS_ID in SYSXPLAIN_RESULTSETS.</mrk></target>
+</trans-unit>
+<trans-unit id="tu25">
+<source xml:lang="en">SCAN_OBJECT_NAME</source>
+<seg-source><mrk mid="0" mtype="seg">SCAN_OBJECT_NAME</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SCAN_OBJECT_NAME</mrk></target>
+</trans-unit>
+<trans-unit id="tu26">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu27">
+<source xml:lang="en">128</source>
+<seg-source><mrk mid="0" mtype="seg">128</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">128</mrk></target>
+</trans-unit>
+<trans-unit id="tu28">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu29">
+<source xml:lang="en">The name of the object being scanned. If this is a scan of a table or index, the table name or index name appears here. If this is a scan of the internal index created for a constraint, the constraint name appears here. For complex join queries, the object being scanned may be an intermediate result, in which case a description such as <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'Temporary HashTable'<ept id="1">&lt;/i&gt;</ept> appears.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the object being scanned.</mrk><mrk mid="1" mtype="seg"> If this is a scan of a table or index, the table name or index name appears here.</mrk><mrk mid="2" mtype="seg"> If this is a scan of the internal index created for a constraint, the constraint name appears here.</mrk><mrk mid="3" mtype="seg"> For complex join queries, the object being scanned may be an intermediate result, in which case a description such as <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'Temporary HashTable'<ept id="1">&lt;/i&gt;</ept> appears.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the object being scanned.</mrk><mrk mid="1" mtype="seg"> If this is a scan of a table or index, the table name or index name appears here.</mrk><mrk mid="2" mtype="seg"> If this is a scan of the internal index created for a constraint, the constraint name appears here.</mrk><mrk mid="3" mtype="seg"> For complex join queries, the object being scanned may be an intermediate result, in which case a description such as <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'Temporary HashTable'<ept id="1">&lt;/i&gt;</ept> appears.</mrk></target>
+</trans-unit>
+<trans-unit id="tu30">
+<source xml:lang="en">SCAN_OBJECT_TYPE</source>
+<seg-source><mrk mid="0" mtype="seg">SCAN_OBJECT_TYPE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SCAN_OBJECT_TYPE</mrk></target>
+</trans-unit>
+<trans-unit id="tu31">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu32">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="tu33">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu34">
+<source xml:lang="en">A code indicating the type of object being scanned. Codes include <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'T'<ept id="1">&lt;/i&gt;</ept> for Table, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'I'<ept id="2">&lt;/i&gt;</ept> for Index, and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'C'<ept id="3">&lt;/i&gt;</ept> for Constraint.</source>
+<seg-source><mrk mid="0" mtype="seg">A code indicating the type of object being scanned.</mrk><mrk mid="1" mtype="seg"> Codes include <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'T'<ept id="1">&lt;/i&gt;</ept> for Table, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'I'<ept id="2">&lt;/i&gt;</ept> for Index, and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'C'<ept id="3">&lt;/i&gt;</ept> for Constraint.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A code indicating the type of object being scanned.</mrk><mrk mid="1" mtype="seg"> Codes include <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'T'<ept id="1">&lt;/i&gt;</ept> for Table, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'I'<ept id="2">&lt;/i&gt;</ept> for Index, and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'C'<ept id="3">&lt;/i&gt;</ept> for Constraint.</mrk></target>
+</trans-unit>
+<trans-unit id="tu35">
+<source xml:lang="en">SCAN_TYPE</source>
+<seg-source><mrk mid="0" mtype="seg">SCAN_TYPE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SCAN_TYPE</mrk></target>
+</trans-unit>
+<trans-unit id="tu36">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu37">
+<source xml:lang="en">8</source>
+<seg-source><mrk mid="0" mtype="seg">8</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">8</mrk></target>
+</trans-unit>
+<trans-unit id="tu38">
+<source xml:lang="en">false</source>
+<seg-source><mrk mid="0" mtype="seg">false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">false</mrk></target>
+</trans-unit>
+<trans-unit id="tu39">
+<source xml:lang="en">The type of scan being performed. Scan types include <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'HEAP'<ept id="1">&lt;/i&gt;</ept>, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'BTREE'<ept id="2">&lt;/i&gt;</ept>, and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'SORT'<ept id="3">&lt;/i&gt;</ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">The type of scan being performed.</mrk><mrk mid="1" mtype="seg"> Scan types include <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'HEAP'<ept id="1">&lt;/i&gt;</ept>, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'BTREE'<ept id="2">&lt;/i&gt;</ept>, and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'SORT'<ept id="3">&lt;/i&gt;</ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The type of scan being performed.</mrk><mrk mid="1" mtype="seg"> Scan types include <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'HEAP'<ept id="1">&lt;/i&gt;</ept>, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'BTREE'<ept id="2">&lt;/i&gt;</ept>, and <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'SORT'<ept id="3">&lt;/i&gt;</ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="tu40">
+<source xml:lang="en">ISOLATION_LEVEL</source>
+<seg-source><mrk mid="0" mtype="seg">ISOLATION_LEVEL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ISOLATION_LEVEL</mrk></target>
+</trans-unit>
+<trans-unit id="tu41">
+<source xml:lang="en">CHAR</source>
+<seg-source><mrk mid="0" mtype="seg">CHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu42">
+<source xml:lang="en">3</source>
+<seg-source><mrk mid="0" mtype="seg">3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3</mrk></target>
+</trans-unit>
+<trans-unit id="tu43">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu44">
+<source xml:lang="en">The isolation level being used for this scan. Isolation levels are identified by a code: <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'RU'<ept id="1">&lt;/i&gt;</ept> for Read Uncommitted, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'RC'<ept id="2">&lt;/i&gt;</ept> for Read Committed, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'RR'<ept id="3">&lt;/i&gt;</ept> for Repeatable Read, and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>'SE'<ept id="4">&lt;/i&gt;</ept> for Serializable.</source>
+<seg-source><mrk mid="0" mtype="seg">The isolation level being used for this scan.</mrk><mrk mid="1" mtype="seg"> Isolation levels are identified by a code: <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'RU'<ept id="1">&lt;/i&gt;</ept> for Read Uncommitted, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'RC'<ept id="2">&lt;/i&gt;</ept> for Read Committed, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'RR'<ept id="3">&lt;/i&gt;</ept> for Repeatable Read, and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>'SE'<ept id="4">&lt;/i&gt;</ept> for Serializable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The isolation level being used for this scan.</mrk><mrk mid="1" mtype="seg"> Isolation levels are identified by a code: <bpt id="1" ctype="x-i">&lt;i&gt;</bpt>'RU'<ept id="1">&lt;/i&gt;</ept> for Read Uncommitted, <bpt id="2" ctype="x-i">&lt;i&gt;</bpt>'RC'<ept id="2">&lt;/i&gt;</ept> for Read Committed, <bpt id="3" ctype="x-i">&lt;i&gt;</bpt>'RR'<ept id="3">&lt;/i&gt;</ept> for Repeatable Read, and <bpt id="4" ctype="x-i">&lt;i&gt;</bpt>'SE'<ept id="4">&lt;/i&gt;</ept> for Serializable.</mrk></target>
+</trans-unit>
+<trans-unit id="tu45">
+<source xml:lang="en">NO_VISITED_PAGES</source>
+<seg-source><mrk mid="0" mtype="seg">NO_VISITED_PAGES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NO_VISITED_PAGES</mrk></target>
+</trans-unit>
+<trans-unit id="tu46">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu47">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu48">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu49">
+<source xml:lang="en">Number of database pages that this scan touched. For btree scans this number only includes the leaf pages visited.</source>
+<seg-source><mrk mid="0" mtype="seg">Number of database pages that this scan touched.</mrk><mrk mid="1" mtype="seg"> For btree scans this number only includes the leaf pages visited.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of database pages that this scan touched.</mrk><mrk mid="1" mtype="seg"> For btree scans this number only includes the leaf pages visited.</mrk></target>
+</trans-unit>
+<trans-unit id="tu50">
+<source xml:lang="en">NO_VISITED_ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">NO_VISITED_ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NO_VISITED_ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu51">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu52">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu53">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu54">
+<source xml:lang="en">Number of database rows that were examined by this scan. This number includes all rows, including those rows marked deleted, those rows that don't meet qualification, and those rows which were returned by the scan.</source>
+<seg-source><mrk mid="0" mtype="seg">Number of database rows that were examined by this scan.</mrk><mrk mid="1" mtype="seg"> This number includes all rows, including those rows marked deleted, those rows that don't meet qualification, and those rows which were returned by the scan.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of database rows that were examined by this scan.</mrk><mrk mid="1" mtype="seg"> This number includes all rows, including those rows marked deleted, those rows that don't meet qualification, and those rows which were returned by the scan.</mrk></target>
+</trans-unit>
+<trans-unit id="tu55">
+<source xml:lang="en">NO_QUALIFIED_ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">NO_QUALIFIED_ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NO_QUALIFIED_ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu56">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu57">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu58">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu59">
+<source xml:lang="en">Number of rows that satisfied the qualifiers for this scan.</source>
+<seg-source><mrk mid="0" mtype="seg">Number of rows that satisfied the qualifiers for this scan.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of rows that satisfied the qualifiers for this scan.</mrk></target>
+</trans-unit>
+<trans-unit id="tu60">
+<source xml:lang="en">NO_VISITED_DELETED_ROWS</source>
+<seg-source><mrk mid="0" mtype="seg">NO_VISITED_DELETED_ROWS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NO_VISITED_DELETED_ROWS</mrk></target>
+</trans-unit>
+<trans-unit id="tu61">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu62">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu63">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu64">
+<source xml:lang="en">Number of the database rows that were examined by this scan which were found to be rows that were marked deleted.</source>
+<seg-source><mrk mid="0" mtype="seg">Number of the database rows that were examined by this scan which were found to be rows that were marked deleted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of the database rows that were examined by this scan which were found to be rows that were marked deleted.</mrk></target>
+</trans-unit>
+<trans-unit id="tu65">
+<source xml:lang="en">NO_FETCHED_COLUMNS</source>
+<seg-source><mrk mid="0" mtype="seg">NO_FETCHED_COLUMNS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NO_FETCHED_COLUMNS</mrk></target>
+</trans-unit>
+<trans-unit id="tu66">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu67">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu68">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu69">
+<source xml:lang="en">Number of columns that were fetched from each qualifying row.</source>
+<seg-source><mrk mid="0" mtype="seg">Number of columns that were fetched from each qualifying row.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of columns that were fetched from each qualifying row.</mrk></target>
+</trans-unit>
+<trans-unit id="tu70">
+<source xml:lang="en">BITSET_OF_FETCHED_COLUMNS</source>
+<seg-source><mrk mid="0" mtype="seg">BITSET_OF_FETCHED_COLUMNS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BITSET_OF_FETCHED_COLUMNS</mrk></target>
+</trans-unit>
+<trans-unit id="tu71">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu72">
+<source xml:lang="en">32,672</source>
+<seg-source><mrk mid="0" mtype="seg">32,672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,672</mrk></target>
+</trans-unit>
+<trans-unit id="tu73">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu74">
+<source xml:lang="en">Description of the columns which were fetched from each qualifying row.</source>
+<seg-source><mrk mid="0" mtype="seg">Description of the columns which were fetched from each qualifying row.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Description of the columns which were fetched from each qualifying row.</mrk></target>
+</trans-unit>
+<trans-unit id="tu75">
+<source xml:lang="en">BTREE_HEIGHT</source>
+<seg-source><mrk mid="0" mtype="seg">BTREE_HEIGHT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BTREE_HEIGHT</mrk></target>
+</trans-unit>
+<trans-unit id="tu76">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu77">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu78">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu79">
+<source xml:lang="en">For a scan of type BTREE, this column holds the height of the BTREE index. The typical height of a BTREE is 2-4; BTREE heights larger than this should only be seen with very large indexes. A tree with one page has a height of 1. Total number of pages visited in a scan of a BTREE should be (BTREE_HEIGHT - 1 + NO_VISITED_PAGES). For an extremely small BTREE, the btree height may be negative (-1). For other types of scans, this column is NULL.</source>
+<seg-source><mrk mid="0" mtype="seg">For a scan of type BTREE, this column holds the height of the BTREE index.</mrk><mrk mid="1" mtype="seg"> The typical height of a BTREE is 2-4; BTREE heights larger than this should only be seen with very large indexes.</mrk><mrk mid="2" mtype="seg"> A tree with one page has a height of 1.</mrk><mrk mid="3" mtype="seg"> Total number of pages visited in a scan of a BTREE should be (BTREE_HEIGHT - 1 + NO_VISITED_PAGES).</mrk><mrk mid="4" mtype="seg"> For an extremely small BTREE, the btree height may be negative (-1).</mrk><mrk mid="5" mtype="seg"> For other types of scans, this column is NULL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For a scan of type BTREE, this column holds the height of the BTREE index.</mrk><mrk mid="1" mtype="seg"> The typical height of a BTREE is 2-4; BTREE heights larger than this should only be seen with very large indexes.</mrk><mrk mid="2" mtype="seg"> A tree with one page has a height of 1.</mrk><mrk mid="3" mtype="seg"> Total number of pages visited in a scan of a BTREE should be (BTREE_HEIGHT - 1 + NO_VISITED_PAGES).</mrk><mrk mid="4" mtype="seg"> For an extremely small BTREE, the btree height may be negative (-1).</mrk><mrk mid="5" mtype="seg"> For other types of scans, this column is NULL.</mrk></target>
+</trans-unit>
+<trans-unit id="tu80">
+<source xml:lang="en">FETCH_SIZE</source>
+<seg-source><mrk mid="0" mtype="seg">FETCH_SIZE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FETCH_SIZE</mrk></target>
+</trans-unit>
+<trans-unit id="tu81">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu82">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu83">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu84">
+<source xml:lang="en">The number of pages fetched at a time when the scan is retrieving pages from disk.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of pages fetched at a time when the scan is retrieving pages from disk.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of pages fetched at a time when the scan is retrieving pages from disk.</mrk></target>
+</trans-unit>
+<trans-unit id="tu85">
+<source xml:lang="en">START_POSITION</source>
+<seg-source><mrk mid="0" mtype="seg">START_POSITION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">START_POSITION</mrk></target>
+</trans-unit>
+<trans-unit id="tu86">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu87">
+<source xml:lang="en">32,672</source>
+<seg-source><mrk mid="0" mtype="seg">32,672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,672</mrk></target>
+</trans-unit>
+<trans-unit id="tu88">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu89">
+<source xml:lang="en">For index and constraint scans, a textual representation of the operator, if any, which was used to position the beginning of the index/constraint scan.</source>
+<seg-source><mrk mid="0" mtype="seg">For index and constraint scans, a textual representation of the operator, if any, which was used to position the beginning of the index/constraint scan.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For index and constraint scans, a textual representation of the operator, if any, which was used to position the beginning of the index/constraint scan.</mrk></target>
+</trans-unit>
+<trans-unit id="tu90">
+<source xml:lang="en">STOP_POSITION</source>
+<seg-source><mrk mid="0" mtype="seg">STOP_POSITION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">STOP_POSITION</mrk></target>
+</trans-unit>
+<trans-unit id="tu91">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu92">
+<source xml:lang="en">32,672</source>
+<seg-source><mrk mid="0" mtype="seg">32,672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,672</mrk></target>
+</trans-unit>
+<trans-unit id="tu93">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu94">
+<source xml:lang="en">For index and constraint scans, a textual representation of the operator, if any, which was used to position the end of the index/constraint scan.</source>
+<seg-source><mrk mid="0" mtype="seg">For index and constraint scans, a textual representation of the operator, if any, which was used to position the end of the index/constraint scan.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For index and constraint scans, a textual representation of the operator, if any, which was used to position the end of the index/constraint scan.</mrk></target>
+</trans-unit>
+<trans-unit id="tu95">
+<source xml:lang="en">SCAN_QUALIFIERS</source>
+<seg-source><mrk mid="0" mtype="seg">SCAN_QUALIFIERS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SCAN_QUALIFIERS</mrk></target>
+</trans-unit>
+<trans-unit id="tu96">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu97">
+<source xml:lang="en">32,672</source>
+<seg-source><mrk mid="0" mtype="seg">32,672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,672</mrk></target>
+</trans-unit>
+<trans-unit id="tu98">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu99">
+<source xml:lang="en">If the query specified values which are to be used to limit the rows that are scanned, information about those values is captured in this column.</source>
+<seg-source><mrk mid="0" mtype="seg">If the query specified values which are to be used to limit the rows that are scanned, information about those values is captured in this column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the query specified values which are to be used to limit the rows that are scanned, information about those values is captured in this column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu100">
+<source xml:lang="en">NEXT_QUALIFIERS</source>
+<seg-source><mrk mid="0" mtype="seg">NEXT_QUALIFIERS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NEXT_QUALIFIERS</mrk></target>
+</trans-unit>
+<trans-unit id="tu101">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu102">
+<source xml:lang="en">32,672</source>
+<seg-source><mrk mid="0" mtype="seg">32,672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,672</mrk></target>
+</trans-unit>
+<trans-unit id="tu103">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu104">
+<source xml:lang="en">If the query specified values which are to be used to limit the rows that are scanned, information about those values is captured in this column.</source>
+<seg-source><mrk mid="0" mtype="seg">If the query specified values which are to be used to limit the rows that are scanned, information about those values is captured in this column.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the query specified values which are to be used to limit the rows that are scanned, information about those values is captured in this column.</mrk></target>
+</trans-unit>
+<trans-unit id="tu105">
+<source xml:lang="en">HASH_KEY_COLUMN_NUMBERS</source>
+<seg-source><mrk mid="0" mtype="seg">HASH_KEY_COLUMN_NUMBERS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HASH_KEY_COLUMN_NUMBERS</mrk></target>
+</trans-unit>
+<trans-unit id="tu106">
+<source xml:lang="en">VARCHAR</source>
+<seg-source><mrk mid="0" mtype="seg">VARCHAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">VARCHAR</mrk></target>
+</trans-unit>
+<trans-unit id="tu107">
+<source xml:lang="en">32,672</source>
+<seg-source><mrk mid="0" mtype="seg">32,672</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32,672</mrk></target>
+</trans-unit>
+<trans-unit id="tu108">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu109">
+<source xml:lang="en">For hash joins, this column contains information about which column is being used to hash the rows that are joined.</source>
+<seg-source><mrk mid="0" mtype="seg">For hash joins, this column contains information about which column is being used to hash the rows that are joined.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For hash joins, this column contains information about which column is being used to hash the rows that are joined.</mrk></target>
+</trans-unit>
+<trans-unit id="tu110">
+<source xml:lang="en">HASH_TABLE_SIZE</source>
+<seg-source><mrk mid="0" mtype="seg">HASH_TABLE_SIZE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HASH_TABLE_SIZE</mrk></target>
+</trans-unit>
+<trans-unit id="tu111">
+<source xml:lang="en">INTEGER</source>
+<seg-source><mrk mid="0" mtype="seg">INTEGER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INTEGER</mrk></target>
+</trans-unit>
+<trans-unit id="tu112">
+<source xml:lang="en">10</source>
+<seg-source><mrk mid="0" mtype="seg">10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10</mrk></target>
+</trans-unit>
+<trans-unit id="tu113">
+<source xml:lang="en">true</source>
+<seg-source><mrk mid="0" mtype="seg">true</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">true</mrk></target>
+</trans-unit>
+<trans-unit id="tu114">
+<source xml:lang="en">For hash joins, this column contains information about the size of the hash table that will be used to hold the rows being joined. This hash table is an intermediate result, and will be discarded at the end of the query. If the hash table cannot fit in memory, it will automatically spill over to disk. Since the spillover to disk can have significant performance implications, this value can provide a clue that the hash table was unexpectedly too large to fit in memory.</source>
+<seg-source><mrk mid="0" mtype="seg">For hash joins, this column contains information about the size of the hash table that will be used to hold the rows being joined.</mrk><mrk mid="1" mtype="seg"> This hash table is an intermediate result, and will be discarded at the end of the query.</mrk><mrk mid="2" mtype="seg"> If the hash table cannot fit in memory, it will automatically spill over to disk.</mrk><mrk mid="3" mtype="seg"> Since the spillover to disk can have significant performance implications, this value can provide a clue that the hash table was unexpectedly too large to fit in memory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For hash joins, this column contains information about the size of the hash table that will be used to hold the rows being joined.</mrk><mrk mid="1" mtype="seg"> This hash table is an intermediate result, and will be discarded at the end of the query.</mrk><mrk mid="2" mtype="seg"> If the hash table cannot fit in memory, it will automatically spill over to disk.</mrk><mrk mid="3" mtype="seg"> Since the spillover to disk can have significant performance implications, this value can provide a clue that the hash table was unexpectedly too large to fit in memory.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>
